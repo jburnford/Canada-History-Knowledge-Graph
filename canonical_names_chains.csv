@@ -1,0 +1,558 @@
+chain_id,chain_length,canonical_name,should_apply,reason,name_diversity,all_names
+chain_00556,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Seneca
+chain_00000,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Lachenaie
+chain_00001,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:NO DATA
+chain_00002,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Dummer
+chain_00003,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Lazare
+chain_00004,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Beverley
+chain_00005,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Grantham
+chain_00006,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Arran
+chain_00007,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Dorchester, North"
+chain_00008,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Nissouri
+chain_00009,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Bastard
+chain_00010,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Orillia and Matchedash
+chain_00011,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Packenham
+chain_00540,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Henri
+chain_00539,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Amherstburgh, Town of"
+chain_00538,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:St. Eustache, Village"
+chain_00537,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:NO DATA
+chain_00536,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Gower, North"
+chain_00535,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Hibbert
+chain_00534,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Flavien
+chain_00533,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Peterborough, Town of"
+chain_00532,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Fidèle
+chain_00531,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Grondines
+chain_00530,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Eldon
+chain_00529,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Denis
+chain_00528,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Kilkenny
+chain_00527,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Stanley and Bayfield
+chain_00526,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Célestin
+chain_00525,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Georgina
+chain_00044,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Kitley
+chain_00043,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Sheen
+chain_00042,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Usborne
+chain_00041,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Stukeley
+chain_00040,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Galt, Town of"
+chain_00039,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Tilbury,West"
+chain_00038,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Frederichsburgh
+chain_00037,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Guelph, Town of"
+chain_00036,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Hillier
+chain_00035,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Plantagenet, North"
+chain_00034,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Rigaud
+chain_00033,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Potton
+chain_00032,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Erin
+chain_00031,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Lambton
+chain_00030,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Woolwich
+chain_00029,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Marlhorough
+chain_00060,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Grantham
+chain_00059,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Ste. Croix and Convent
+chain_00058,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Wolfe Island
+chain_00057,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Amherst Island
+chain_00056,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Brant
+chain_00055,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Malden
+chain_00054,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:MacNider
+chain_00053,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:L’Islet
+chain_00052,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Innisfil
+chain_00051,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Stanstead Plains
+chain_00050,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Ste. Anne
+chain_00049,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Lanoraie
+chain_00048,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Sylvestre
+chain_00047,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Eaton
+chain_00046,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Milton
+chain_00045,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Dunstan
+chain_00076,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Loughborough
+chain_00075,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Walpole
+chain_00074,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Grattan
+chain_00073,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Lancaster
+chain_00072,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Eloi
+chain_00071,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Urbain
+chain_00070,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Martin
+chain_00069,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:General Hospital
+chain_00068,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Brantford
+chain_00067,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Raymond
+chain_00066,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Sunnidale
+chain_00065,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Grenville
+chain_00064,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Matane, Township"
+chain_00063,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Sutton
+chain_00062,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Aylmer, Village"
+chain_00061,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Edwardsburg
+chain_00092,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Barrie, Town of"
+chain_00091,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Stephen
+chain_00090,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Preston, Village"
+chain_00089,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Puslinch
+chain_00088,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Gainsborough
+chain_00087,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Ely
+chain_00086,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:NO DATA
+chain_00085,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Norbert
+chain_00084,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Oxford, West"
+chain_00083,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Clarendon
+chain_00082,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Monaghan, North"
+chain_00081,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Present, town of"
+chain_00080,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Thomas
+chain_00079,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Lavant
+chain_00078,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Brooke
+chain_00077,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Ste. Anne
+chain_00108,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Gore
+chain_00107,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Perth, Town of"
+chain_00106,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Onondag
+chain_00105,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Simon
+chain_00104,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Maidstone
+chain_00103,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Howick
+chain_00102,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Haldimand
+chain_00101,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Hallowell
+chain_00100,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Elizabethtown
+chain_00099,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Stanbridge
+chain_00098,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Daniel (Port)
+chain_00097,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Beckwith
+chain_00096,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Newton
+chain_00095,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Hay
+chain_00094,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Barnston
+chain_00093,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Shefford
+chain_00124,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Warwick
+chain_00123,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Dumfries, North"
+chain_00122,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Essa
+chain_00121,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Escott
+chain_00120,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:King
+chain_00119,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Dumfries, South"
+chain_00118,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Holland
+chain_00117,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Constant
+chain_00116,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Barthélemi
+chain_00115,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Dunn
+chain_00114,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Darling
+chain_00113,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Mersea
+chain_00112,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Cap Rosier
+chain_00111,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Urbain Premier
+chain_00110,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Matapedia
+chain_00109,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Ernestown
+chain_00140,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Cuthbert
+chain_00139,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Vespra
+chain_00138,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:NO DATA
+chain_00137,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Grimsby
+chain_00136,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. François
+chain_00135,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Mountain
+chain_00134,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Portland
+chain_00133,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Amaranth
+chain_00132,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Ste. Rosalie
+chain_00131,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Ashfield
+chain_00130,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Hermas
+chain_00129,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Binbrook
+chain_00128,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Baie St. Paul
+chain_00127,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Thorald, Village"
+chain_00126,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Townsend
+chain_00125,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Louth
+chain_00156,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Anderdon
+chain_00155,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Brock
+chain_00154,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Murray
+chain_00153,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Laval
+chain_00152,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Yarmouth
+chain_00151,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Cobourg, Town of"
+chain_00150,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Anicet
+chain_00149,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Adolphustown
+chain_00148,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Houghton
+chain_00147,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Isle Verte
+chain_00146,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Joachim
+chain_00145,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Bazile
+chain_00144,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Esprit
+chain_00143,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Isle du Pads
+chain_00142,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Bentinck
+chain_00141,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Chatham and Gore
+chain_00172,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Edmond
+chain_00171,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Ste. Geneviève de Batiscan
+chain_00170,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Flamboro, West"
+chain_00169,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Broughton
+chain_00168,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Torbolton
+chain_00167,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Mary’s Ward
+chain_00166,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Alexis
+chain_00165,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Lawrence Ward
+chain_00164,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Amabel
+chain_00163,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Colchester
+chain_00162,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Féréol
+chain_00161,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Malahide
+chain_00160,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Willoughby
+chain_00159,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Masham
+chain_00158,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Sophiasburgh
+chain_00157,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Philippe
+chain_00188,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Scugog Island
+chain_00187,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Brome
+chain_00186,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Placide
+chain_00185,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Augusta
+chain_00184,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Osprey
+chain_00183,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Forsyth
+chain_00182,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Laurent
+chain_00181,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:NO DATA
+chain_00180,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Onslow
+chain_00179,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Tring
+chain_00178,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Goulbourne
+chain_00177,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Woodstock, Town of"
+chain_00176,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Cayuga, North"
+chain_00175,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Rideau Ward
+chain_00174,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Isidore
+chain_00173,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Adjala
+chain_00204,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Carrick
+chain_00203,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Hull
+chain_00202,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Ste. Julienne
+chain_00201,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Malbaie
+chain_00200,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Dorchester
+chain_00199,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Ste. Anne
+chain_00198,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Léon
+chain_00197,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Dudswell
+chain_00196,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Huron
+chain_00195,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Ste. Monique
+chain_00194,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Lotbinière
+chain_00193,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Benoit
+chain_00192,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Finch
+chain_00191,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Ste. Anne
+chain_00190,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Compton
+chain_00189,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Huntingdon
+chain_00220,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Peel
+chain_00219,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Sulpice
+chain_00218,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Fabien
+chain_00217,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Vaudreuil, Village"
+chain_00216,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Gower, South"
+chain_00215,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Flamboro, East"
+chain_00214,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Brantford, Town of"
+chain_00213,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:St. Jean, Parish"
+chain_00212,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Drummond
+chain_00211,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Windsor
+chain_00210,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Roxton
+chain_00209,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Humberstone
+chain_00208,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Tossorontio
+chain_00207,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Scott
+chain_00206,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Ancaster
+chain_00205,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. George de Henryville
+chain_00236,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. George de Kakouna
+chain_00235,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Ste. Elizabeth
+chain_00234,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Middleton
+chain_00233,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Ste. Philomène
+chain_00232,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Wawanosh
+chain_00231,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Stafford
+chain_00230,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Château Richer
+chain_00229,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Russell
+chain_00228,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Lingwick
+chain_00227,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Toronto Gore
+chain_00226,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Barnabé
+chain_00225,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Dawn
+chain_00224,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:St. Catherines, Town of"
+chain_00223,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Cox
+chain_00222,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Manvers
+chain_00221,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:La Baie
+chain_00252,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Huntley
+chain_00251,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Metcalf
+chain_00250,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Philipsburgh, Village"
+chain_00249,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Andrews’ Ward
+chain_00248,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Plympton
+chain_00247,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:McKillop
+chain_00246,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Ixworth
+chain_00245,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. François de Sales
+chain_00244,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Chatham, Town of"
+chain_00243,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Fitzroy
+chain_00242,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Nassagiweya
+chain_00241,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Hereford
+chain_00240,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Monaghan, South"
+chain_00239,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Grenock
+chain_00238,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Wickham
+chain_00237,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Ste. Famille
+chain_00268,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Pointe du Lac
+chain_00267,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Cornwall, Township"
+chain_00266,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Ingersoll, Village"
+chain_00265,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Ignace
+chain_00264,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Niagara
+chain_00263,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Percé
+chain_00262,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Magdalen Islands
+chain_00261,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Aldborough
+chain_00260,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Chatham
+chain_00259,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Picton, Town of"
+chain_00258,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Charlesbourg
+chain_00257,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Ekfrid
+chain_00256,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Seymour
+chain_00255,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Blandford
+chain_00254,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Carleton
+chain_00253,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Charles
+chain_00284,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Allumettes
+chain_00283,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Lavaltrie
+chain_00282,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Pelham
+chain_00281,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:NO DATA
+chain_00280,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Marysburgh
+chain_00279,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Oxford, East"
+chain_00278,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Paulin
+chain_00277,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Barton
+chain_00276,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Varennes
+chain_00275,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Winchester
+chain_00274,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Georges
+chain_00273,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Euphemia
+chain_00272,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Saltfleet
+chain_00271,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Winslow
+chain_00270,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Mariposa
+chain_00269,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Portland
+chain_00300,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Beauharnois
+chain_00299,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Kenyon
+chain_00298,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Beaumont
+chain_00297,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Ignace
+chain_00296,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Culross
+chain_00295,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Bernard
+chain_00294,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Westminster
+chain_00293,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Gloucester
+chain_00292,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Grosse Isle
+chain_00291,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Burford
+chain_00290,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Nicolet and Seminary
+chain_00289,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Isidore
+chain_00288,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Colborno
+chain_00287,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Etobicoke
+chain_00286,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Oneida
+chain_00285,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Paul
+chain_00316,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Vincent
+chain_00315,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Kingsey
+chain_00314,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Prosper
+chain_00313,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Westmeath
+chain_00312,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Grand River
+chain_00311,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Burgess
+chain_00310,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Gervais
+chain_00309,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:NO DATA
+chain_00308,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Euphrasia
+chain_00307,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Caledonia
+chain_00306,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Tyendinaga
+chain_00305,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Zorra, East"
+chain_00304,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Pilkington
+chain_00303,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Elderslie
+chain_00302,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Vaughan
+chain_00301,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Golded
+chain_00332,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Mornington
+chain_00331,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Percy
+chain_00330,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Cap Santé
+chain_00329,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Lawrence Ward
+chain_00328,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Lachine, Village"
+chain_00327,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Niagara, Town of"
+chain_00326,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Flos
+chain_00325,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Eardley
+chain_00324,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Southwold
+chain_00323,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Glanford
+chain_00322,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Cavan
+chain_00321,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Alfred
+chain_00320,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:March
+chain_00319,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Ameliasburgh
+chain_00318,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Isle aux Grues
+chain_00317,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Bromley
+chain_00348,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Mansfield
+chain_00347,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Yonge
+chain_00346,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Ennismore
+chain_00345,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Ristigouche
+chain_00344,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Nelson
+chain_00343,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Eboulements
+chain_00342,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:NO DATA
+chain_00341,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Wexford
+chain_00340,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Ste. Hélène
+chain_00339,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Lansdowne
+chain_00338,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Guelph
+chain_00337,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Raleigh
+chain_00336,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Mono
+chain_00335,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Bécancour
+chain_00334,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Vaudreuil, Parish"
+chain_00333,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Cartwright
+chain_00364,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Magog
+chain_00363,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Charlottenburgh
+chain_00362,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Augustin
+chain_00361,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Eramosa
+chain_00360,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Cornwall, Town of"
+chain_00359,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Maryborough
+chain_00358,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Collingwood
+chain_00357,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Augustin
+chain_00356,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Dundas, Town of"
+chain_00355,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Mathias
+chain_00354,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Enniskillen
+chain_00353,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Simpson
+chain_00352,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Oxford, North"
+chain_00351,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Delaware
+chain_00350,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:NO DATA
+chain_00349,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Tuscarora
+chain_00380,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Alnwick
+chain_00379,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Blithfield
+chain_00378,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Fraserville
+chain_00377,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Isle-aux-Coudres
+chain_00376,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Egremont
+chain_00375,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Charlotteville
+chain_00374,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Bainham
+chain_00373,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Batiscan
+chain_00372,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Douro
+chain_00371,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Wendover
+chain_00370,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Clet
+chain_00369,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Inverness
+chain_00368,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Athol
+chain_00367,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Clifton
+chain_00366,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Thetford
+chain_00365,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Jean
+chain_00396,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Cranbourne
+chain_00395,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Clarence
+chain_00394,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Nouvelle and Shoolbreds
+chain_00393,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Lanark
+chain_00392,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Cataraqui Ward
+chain_00391,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Uxbridge
+chain_00390,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Contrecœur
+chain_00389,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Leeds
+chain_00388,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Verchères
+chain_00387,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Markham
+chain_00386,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Ste. Agathe
+chain_00385,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:St. Armand, East"
+chain_00384,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Chertsey
+chain_00383,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Nelson
+chain_00382,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Durham
+chain_00381,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:St. Armand, West"
+chain_00412,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Barford
+chain_00411,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Moore
+chain_00410,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Etienne
+chain_00409,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Price
+chain_00408,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Hope
+chain_00407,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Belmont and Methuen
+chain_00406,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Isle aux Oies
+chain_00405,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Emily
+chain_00404,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Plantagenet, South"
+chain_00403,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Verulam
+chain_00402,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Kinlas
+chain_00401,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Douglas
+chain_00400,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Caledon
+chain_00399,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Notre Dame de la Victoire
+chain_00398,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Windham
+chain_00397,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Biddulph
+chain_00428,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Wellesley
+chain_00427,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Stratford
+chain_00426,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Berthier
+chain_00425,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Antoine
+chain_00424,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Goderich, Town of"
+chain_00423,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Admaston
+chain_00422,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Cambridge
+chain_00421,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Wallace
+chain_00420,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Sullivan
+chain_00419,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Bolton
+chain_00418,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Woodhouse and Gore
+chain_00417,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Montmagny, Village"
+chain_00416,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Aylmer
+chain_00415,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Leeds
+chain_00414,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Richmond, Village"
+chain_00413,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Canboro
+chain_00444,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Simcoe, Town of"
+chain_00443,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Sault au Récollet
+chain_00442,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Janvier
+chain_00441,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Clinton
+chain_00440,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Athanase
+chain_00439,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Paschal
+chain_00438,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Frampton
+chain_00437,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Ste. Thérèse, Parish"
+chain_00436,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Harwich
+chain_00435,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Hope
+chain_00434,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Osgoode
+chain_00433,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Irénée
+chain_00432,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Scarborough
+chain_00431,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Port Hope, Town of"
+chain_00430,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Dunham
+chain_00429,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Oshawa, Village"
+chain_00460,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Garthby
+chain_00459,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Garafraxa
+chain_00458,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Artemesia
+chain_00457,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Aldfield
+chain_00456,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Casimir
+chain_00455,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Ste. Ursule
+chain_00454,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Wilberforce
+chain_00453,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Oro
+chain_00452,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Hawkesbury, East"
+chain_00451,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Glenelg
+chain_00450,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Ste. Thérèse de Blainville, Village and College"
+chain_00449,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Waltham
+chain_00448,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Low
+chain_00447,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Barnabé
+chain_00446,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Ramsay
+chain_00445,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Dereham
+chain_00476,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Whitchurch
+chain_00475,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Albion
+chain_00474,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Templeton
+chain_00473,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. David
+chain_00472,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Pointe-aux-Trembles
+chain_00471,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Gabriel
+chain_00470,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Bosanquet
+chain_00469,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Ange Gardien
+chain_00468,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Isle Perrot
+chain_00467,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Paris, Village"
+chain_00466,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Matane, Parish"
+chain_00465,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Sault St. Louis
+chain_00464,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:McGillivray
+chain_00463,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Pickering
+chain_00462,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Hunterstown
+chain_00461,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Iberville
+chain_00492,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Elma
+chain_00491,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Sheffield
+chain_00490,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Michel
+chain_00489,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Pierre
+chain_00488,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Roxborough
+chain_00487,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Longueuil
+chain_00486,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Wainfleet.
+chain_00485,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Crosby, South"
+chain_00484,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Patricks’ Ward
+chain_00483,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Mulmer
+chain_00482,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Rochester
+chain_00481,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Ste. Anne
+chain_00480,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Chichester
+chain_00479,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:NO DATA
+chain_00478,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Pierre
+chain_00477,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Gwillimhury, North"
+chain_00508,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Reach
+chain_00507,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Zéphirin
+chain_00506,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Maria
+chain_00505,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Bury
+chain_00504,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Hilaire
+chain_00503,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Thomas
+chain_00502,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Grégoire
+chain_00501,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Cyrille
+chain_00500,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Fenelon
+chain_00499,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Tecumseth
+chain_00498,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Lochiel
+chain_00497,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Laprairie, Village"
+chain_00496,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Belleville, Town of"
+chain_00495,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Hamilton
+chain_00494,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Wakefield
+chain_00493,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Normanby
+chain_00524,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Weedon
+chain_00523,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Longueuil, Village"
+chain_00522,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:St. Thomas, Town of"
+chain_00521,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Brockville, Town of"
+chain_00520,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Hamilton
+chain_00519,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Crosby, North"
+chain_00518,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Elzéar
+chain_00517,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Westbury
+chain_00516,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Sherrington
+chain_00515,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Nissouri, East"
+chain_00514,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Linière
+chain_00513,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Ross
+chain_00512,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Burgess
+chain_00511,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Oakland
+chain_00510,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Bedford
+chain_00509,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Harrington
+chain_00012,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:NO DATA
+chain_00555,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Asphodel
+chain_00554,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Ste. Marthe
+chain_00553,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:New Richmond
+chain_00552,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Jersey
+chain_00551,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Frédéric
+chain_00550,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Mann
+chain_00549,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Laurent
+chain_00548,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Bristol
+chain_00547,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Caistor
+chain_00546,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Cayuga, South"
+chain_00545,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Hatley
+chain_00544,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Cumberland
+chain_00543,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Sydenham Ward
+chain_00542,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Wolfestown
+chain_00541,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Dunwich
+chain_00028,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Ecureuils
+chain_00027,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Ste. Catherine
+chain_00026,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Storington
+chain_00025,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Osnabruck
+chain_00024,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Camden
+chain_00023,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:St. Ours, Village"
+chain_00022,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Blenheim
+chain_00021,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Lobo
+chain_00020,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Medonte
+chain_00019,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. Anselme
+chain_00018,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Elmsley
+chain_00017,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Mosa
+chain_00016,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Wentworth
+chain_00015,2,N/A,False,insufficient_data,0,"1851:[Start of chain] | 1861:Chippawa, Village"
+chain_00014,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:St. François
+chain_00013,2,N/A,False,insufficient_data,0,1851:[Start of chain] | 1861:Thora

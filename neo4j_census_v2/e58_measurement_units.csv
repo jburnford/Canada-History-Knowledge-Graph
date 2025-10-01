@@ -1,0 +1,12 @@
+unit_id:ID,:LABEL,label,symbol
+UNIT_PERSONS,E58_Measurement_Unit,persons,ppl
+UNIT_ACRES,E58_Measurement_Unit,acres,ac
+UNIT_SQUARE_MILES,E58_Measurement_Unit,square miles,sq mi
+UNIT_DOLLARS,E58_Measurement_Unit,dollars,$
+UNIT_BUSHELS,E58_Measurement_Unit,bushels,bu
+UNIT_HEAD,E58_Measurement_Unit,head (livestock),head
+UNIT_FARMS,E58_Measurement_Unit,farms,farms
+UNIT_TONS,E58_Measurement_Unit,tons,tons
+UNIT_BARRELS,E58_Measurement_Unit,barrels,bbl
+UNIT_PERCENT,E58_Measurement_Unit,percent,%
+UNIT_COUNT,E58_Measurement_Unit,count,count
