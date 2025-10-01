@@ -262,7 +262,7 @@ def extract_p122_borders_with(gdf: gpd.GeoDataFrame, year: int) -> pd.DataFrame:
     return pd.DataFrame(borders)
 
 
-def process_year(gdb_path: str, year: int, out_dir: Path, all_csd_places: set, all_cd_places: set):
+def process_year(gdb_path: str, year: int, out_dir: Path, all_csd_places: dict, all_cd_places: set):
     """
     Process a single census year.
 
@@ -289,9 +289,12 @@ def process_year(gdb_path: str, year: int, out_dir: Path, all_csd_places: set, a
     stats['space_primitives'] = len(space_primitives)
     print(f"✓ Wrote {len(space_primitives)} E94_Space_Primitive nodes")
 
-    # Collect unique places for later
-    for tcpuid in gdf['tcpuid'].unique():
-        all_csd_places.add(tcpuid)
+    # Collect unique places for later (keep most recent name for each TCPUID)
+    for _, row in gdf[['tcpuid', 'csd_name']].iterrows():
+        tcpuid = row['tcpuid']
+        csd_name = row['csd_name']
+        # Update with most recent year's name (processing in chronological order)
+        all_csd_places[tcpuid] = csd_name
 
     for _, row in gdf[['cd_name', 'pr']].drop_duplicates().iterrows():
         cd_id = f"CD_{row['pr']}_{row['cd_name'].replace(' ', '_')}"
@@ -353,7 +356,7 @@ def main():
     print(f"✓ Wrote {len(periods)} E4_Period nodes")
 
     # Process each year
-    all_csd_places = set()
+    all_csd_places = {}  # dict: tcpuid -> name (most recent)
     all_cd_places = set()
     total_stats = {
         'presences': 0,
@@ -375,10 +378,10 @@ def main():
     print(f"Creating E53_Place nodes", file=sys.stderr)
     print(f"{'='*60}", file=sys.stderr)
 
-    # CSD Places
+    # CSD Places (with names from most recent year)
     csd_places_df = pd.DataFrame([
-        {'place_id:ID': tcpuid, 'place_type': 'CSD', ':LABEL': 'E53_Place'}
-        for tcpuid in all_csd_places
+        {'place_id:ID': tcpuid, 'name': name, 'place_type': 'CSD', ':LABEL': 'E53_Place'}
+        for tcpuid, name in all_csd_places.items()
     ])
     csd_places_df.to_csv(out_dir / 'e53_place_csd.csv', index=False)
     print(f"✓ Wrote {len(csd_places_df)} E53_Place (CSD) nodes")
