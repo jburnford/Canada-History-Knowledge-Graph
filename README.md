@@ -17,7 +17,8 @@ This project transforms historical Canadian census data into a CIDOC-CRM complia
 - **Repository**: [Borealis - Canadian Dataverse](https://borealisdata.ca/dataverse/census)
 - **DOI**: https://doi.org/10.5683/SP3/PKUZJN (V1, June 2023)
 - **License**: CC BY 4.0
-- **Principal Investigators**: Marvin McInnis, Michael Dawson, J.C. Herbert Emery, Mary MacKinnon, Marc St-Hilaire, Corinne Stainton, John Warkentin, Peter Waite
+- **Authors**: Geoff Cunfer, Rhianne Billard, Sauvelm McClean, Laurent Richard, Marc St-Hilaire
+- **Project**: [The Canadian Peoples / Les populations canadiennes](https://thecanadianpeoples.com/team/)
 - **Content**: Census Subdivision (CSD) and Census Division (CD) polygon boundaries for 1851-1921
 
 ### Census Aggregate Data (by year)
@@ -286,7 +287,7 @@ This project code is licensed under MIT License.
 **Source data** from The Canadian Historical GIS is licensed under CC BY 4.0:
 
 **Geospatial Boundaries**:
-- McInnis, Marvin; Dawson, Michael; Emery, J.C. Herbert; Mackinnon, Mary; St-Hilaire, Marc; Stainton, Corinne; Warkentin, John; Waite, Peter, 2023, "The Canadian Historical GIS", https://doi.org/10.5683/SP3/PKUZJN, Borealis, V1
+- Cunfer, Geoff; Billard, Rhianne; McClean, Sauvelm; Richard, Laurent; St-Hilaire, Marc, 2023, "The Canadian Historical GIS (Temporal Census Polygons)", https://doi.org/10.5683/SP3/PKUZJN, Borealis, V1
 
 **Census Aggregate Data** (by year):
 - Cunfer, Geoff; Billard, Rhianne; McClean, Sauvelm, 2023, "The Canadian Historical GIS, 1851 [Aggregate data]", https://doi.org/10.5683/SP3/NRPFY5, Borealis, V3
@@ -300,7 +301,7 @@ This project code is licensed under MIT License.
 
 ## Acknowledgments
 
-- **CHGIS Project Team**: 8 Principal Investigators from Canadian universities
+- **The Canadian Peoples / Les populations canadiennes Project**: Geoff Cunfer, Rhianne Billard, Sauvelm McClean, Laurent Richard, Marc St-Hilaire and team at https://thecanadianpeoples.com/team/
 - **Borealis Repository**: Long-term data preservation
 - **CIDOC-CRM Community**: Ontology guidance and standards
 - **Codex**: CIDOC-CRM model review and improvements
