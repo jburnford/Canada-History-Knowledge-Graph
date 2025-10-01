@@ -159,7 +159,7 @@ scripts/
 - **E94_Space_Primitive**: Centroids with lat/lon (21,047 nodes)
 
 **CIDOC-CRM Relationships**:
-- **P7_took_place_at**: Presence → Place (21,047)
+- **P166_was_a_presence_of**: Presence → Place (21,047)
 - **P164_is_temporally_specified_by**: Presence → Period (21,047)
 - **P161_has_spatial_projection**: Presence → Space (21,047)
 - **P89_falls_within**: CSD → CD hierarchy (21,046)
@@ -280,7 +280,7 @@ sudo chown -R jic823:jic823 ~/GraphRAG_test/generated/
 ### CIDOC-CRM Neo4j Data (`neo4j_cidoc_crm/`)
 - **67 CSV files (9.7 MB)** ready for LOAD CSV import
 - Node types: E53_Place, E4_Period, E93_Presence, E94_Space_Primitive
-- Relationship types: P7, P164, P161, P89, P122
+- Relationship types: P166, P164, P161, P89, P122
 - `README_CIDOC_CRM.md` - Import guide with sample queries
 
 ### Data Quality (`/`)

@@ -33,10 +33,10 @@ This directory contains CSV files ready for Neo4j import using the CIDOC-CRM (Co
 
 ### Relationship Types (Edges)
 
-#### P7_took_place_at
+#### P166_was_a_presence_of
 - **Source**: E93_Presence → **Target**: E53_Place (CSD)
 - **Count**: 21,047 relationships
-- Links temporal manifestation to abstract place concept
+- Connects the presence to the enduring place it realises (CIDOC-CRM domain: E93, range: E77/E53)
 
 #### P164_is_temporally_specified_by
 - **Source**: E93_Presence → **Target**: E4_Period
@@ -59,17 +59,12 @@ This directory contains CSV files ready for Neo4j import using the CIDOC-CRM (Co
 - **Properties**: during_period (E4_Period ID), shared_border_length_m
 - Spatial adjacency between CSDs within same census year
 
-#### P134_continued
-- **CSD Temporal Links**: E93_Presence → E93_Presence
-  - **Count**: 17,060 relationships
-  - Links CSD presences across adjacent census years
-  - **Properties**: relationship_type (SAME_AS/CONTAINS/WITHIN), iou, from_fraction, to_fraction, year_from, year_to
-- **CD Temporal Links**: E53_Place (CD) → E53_Place (CD)
-  - **Count**: 1,302 relationships
-  - Links Census Divisions across adjacent census years
-  - **Properties**: same as CSD links
-- **Total**: 18,362 temporal continuity relationships
-- Tracks place evolution, boundary changes, administrative restructuring
+#### P132_spatiotemporally_overlaps_with
+- **Source**: E93_Presence → **Target**: E93_Presence
+- **Count**: 17,060 relationships
+- **Properties**: overlap_type (SAME_AS/CONTAINS/WITHIN), iou, from_fraction, to_fraction, year_from, year_to
+- Captures spatiotemporal overlap of CSD presences across adjacent census years
+- CD-level temporal continuity requires modelling E92/E93 nodes for CDs and is therefore not included in this CIDOC-compliant export
 
 ## File Structure
 
@@ -86,11 +81,12 @@ e94_space_primitive_YYYY.csv 21,047 centroids (by year)
 ### Relationship Files
 
 ```
-p7_took_place_at_YYYY.csv            21,047 relationships
+p166_was_presence_of_YYYY.csv        21,047 relationships
 p164_temporally_specified_by_YYYY.csv 21,047 relationships
 p161_spatial_projection_YYYY.csv      21,047 relationships
 p89_falls_within_YYYY.csv             21,046 relationships
 p122_borders_with_YYYY.csv            45,598 relationships
+p132_spatiotemporally_overlaps_with_csd.csv 17,060 relationships
 ```
 
 ## CSV Format
@@ -157,11 +153,11 @@ CREATE (:E94_Space_Primitive {
   point: point({latitude: toFloat(row.`latitude:float`), longitude: toFloat(row.`longitude:float`)})
 });
 
-// Import P7_took_place_at relationships (repeat for each year)
-LOAD CSV WITH HEADERS FROM 'file:///p7_took_place_at_1851.csv' AS row
+// Import P166_was_a_presence_of relationships (repeat for each year)
+LOAD CSV WITH HEADERS FROM 'file:///p166_was_presence_of_1851.csv' AS row
 MATCH (presence:E93_Presence {presence_id: row.`:START_ID`})
 MATCH (place:E53_Place {place_id: row.`:END_ID`})
-CREATE (presence)-[:P7_took_place_at]->(place);
+CREATE (presence)-[:P166_was_a_presence_of]->(place);
 
 // Import P164_is_temporally_specified_by relationships (repeat for each year)
 LOAD CSV WITH HEADERS FROM 'file:///p164_temporally_specified_by_1851.csv' AS row
@@ -195,7 +191,7 @@ CREATE (place1)-[:P122_borders_with {
 
 ### Find all presences of a specific CSD across time
 ```cypher
-MATCH (place:E53_Place {place_id: 'ON039029'})<-[:P7_took_place_at]-(presence:E93_Presence)
+MATCH (place:E53_Place {place_id: 'ON039029'})<-[:P166_was_a_presence_of]-(presence:E93_Presence)
 MATCH (presence)-[:P164_is_temporally_specified_by]->(period:E4_Period)
 MATCH (presence)-[:P161_has_spatial_projection]->(space:E94_Space_Primitive)
 RETURN period.year, presence.area_sqm, space.latitude, space.longitude
@@ -236,7 +232,7 @@ LIMIT 20
 ```cypher
 // Find all CSDs within a specific Census Division
 MATCH (cd:E53_Place {place_type: 'CD', name: 'Ottawa'})<-[:P89_falls_within]-(csd:E53_Place)
-MATCH (csd)<-[:P7_took_place_at]-(presence:E93_Presence)
+MATCH (csd)<-[:P166_was_a_presence_of]-(presence:E93_Presence)
 MATCH (presence)-[:P164_is_temporally_specified_by]->(period:E4_Period {year: 1901})
 RETURN csd.place_id, presence.area_sqm
 ```
@@ -287,16 +283,17 @@ RETURN csd.place_id, presence.area_sqm
 This CIDOC-CRM data should be combined with temporal linkage data from `/year_links_output/`:
 
 ```cypher
-// Add P134_continued relationships (SAME_AS links)
+// Add P132_spatiotemporally_overlaps_with relationships (SAME_AS links)
 LOAD CSV WITH HEADERS FROM 'file:///year_links_1851_1861.csv' AS row
 WHERE row.relationship = 'SAME_AS'
 MATCH (p1:E93_Presence {presence_id: row.`tcpuid_1851` + '_1851'})
 MATCH (p2:E93_Presence {presence_id: row.`tcpuid_1861` + '_1861'})
-CREATE (p1)-[:P134_continued {
-  iou: toFloat(row.iou),
-  name_similarity: toFloat(row.name_similarity)
+CREATE (p1)-[:P132_spatiotemporally_overlaps_with {
+  iou: toFloat(row.iou)
 }]->(p2);
 ```
+
+Additional relationship metadata such as `relationship_type`, `from_fraction`, and `to_fraction` is retained in the exported CSV.
 
 ## Future Extensions
 
@@ -317,4 +314,4 @@ CREATE (p1)-[:P134_continued {
 **Generated by**: `build_neo4j_cidoc_crm.py`
 **Source Data**: TCP_CANADA_CSD_202306.gdb
 **Processing Time**: ~2 minutes
-**Total Files**: 67 CSV files (9.7 MB)
+**Total Files**: 61 CSV files (9.6 MB)

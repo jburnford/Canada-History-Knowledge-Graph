@@ -9,7 +9,7 @@ CIDOC-CRM Model:
 - E94_Space_Primitive: Point geometry (centroid lat/lon)
 
 Relationships:
-- P7_took_place_at: Presence -> Place
+- P166_was_a_presence_of: Presence -> Place
 - P164_is_temporally_specified_by: Presence -> Period
 - P161_has_spatial_projection: Presence -> Space_Primitive
 - P122_borders_with: Place -> Place (during specific period)
@@ -148,16 +148,16 @@ def extract_e94_space_primitives(gdf: gpd.GeoDataFrame, year: int) -> pd.DataFra
     return space_primitives
 
 
-def extract_p7_took_place_at(gdf: gpd.GeoDataFrame, year: int) -> pd.DataFrame:
+def extract_p166_was_presence_of(gdf: gpd.GeoDataFrame, year: int) -> pd.DataFrame:
     """
-    P7_took_place_at: E93_Presence -> E53_Place (CSD)
+    P166_was_a_presence_of: E93_Presence -> E53_Place (CSD)
     """
-    print(f"  Creating P7_took_place_at relationships...", file=sys.stderr)
+    print(f"  Creating P166_was_a_presence_of relationships...", file=sys.stderr)
 
     relationships = pd.DataFrame({
         ':START_ID': gdf['tcpuid'] + f'_{year}',  # presence_id
         ':END_ID': gdf['tcpuid'],  # place_id (CSD)
-        ':TYPE': 'P7_took_place_at'
+        ':TYPE': 'P166_was_a_presence_of'
     })
 
     return relationships
@@ -303,10 +303,10 @@ def process_year(gdb_path: str, year: int, out_dir: Path, all_csd_places: dict, 
         all_cd_places.add((cd_id, row['cd_name'], row['pr']))
 
     # Relationships
-    p7 = extract_p7_took_place_at(gdf, year)
-    p7.to_csv(out_dir / f'p7_took_place_at_{year}.csv', index=False)
-    stats['p7'] = len(p7)
-    print(f"✓ Wrote {len(p7)} P7_took_place_at relationships")
+    p166 = extract_p166_was_presence_of(gdf, year)
+    p166.to_csv(out_dir / f'p166_was_presence_of_{year}.csv', index=False)
+    stats['p166'] = len(p166)
+    print(f"✓ Wrote {len(p166)} P166_was_a_presence_of relationships")
 
     p164 = extract_p164_temporally_specified_by(gdf, year)
     p164.to_csv(out_dir / f'p164_temporally_specified_by_{year}.csv', index=False)
@@ -363,7 +363,7 @@ def main():
     total_stats = {
         'presences': 0,
         'space_primitives': 0,
-        'p7': 0,
+        'p166': 0,
         'p164': 0,
         'p161': 0,
         'p89': 0,
@@ -406,7 +406,7 @@ def main():
     print(f"E93_Presence: {total_stats['presences']:,}", file=sys.stderr)
     print(f"E94_Space_Primitive: {total_stats['space_primitives']:,}", file=sys.stderr)
     print(f"\nRelationships:", file=sys.stderr)
-    print(f"P7_took_place_at: {total_stats['p7']:,}", file=sys.stderr)
+    print(f"P166_was_a_presence_of: {total_stats['p166']:,}", file=sys.stderr)
     print(f"P164_is_temporally_specified_by: {total_stats['p164']:,}", file=sys.stderr)
     print(f"P161_has_spatial_projection: {total_stats['p161']:,}", file=sys.stderr)
     print(f"P89_falls_within: {total_stats['p89']:,}", file=sys.stderr)

@@ -51,16 +51,16 @@ Codex identifies **critical consistency issues** that must be fixed before Neo4j
 - **Data Available**: CD polygons in GDB for all years
 - **Implementation**:
   - Create CD-specific temporal linking script or extend existing
-  - Generate P134_continued relationships between CD E53_Place nodes
-  - Include IoU and overlap metrics
-- **Effort**: Medium - reuse CSD linking methodology
+  - Generate CIDOC-compliant E92/E93 representations for CDs before exporting
+  - Output P132_spatiotemporally_overlaps_with relationships once modelling supports it
+- **Effort**: Medium - reuse CSD linking methodology with additional modelling work
 
-### **5. P134_continued Temporal Links (CSDs)**
+### **5. P132_spatiotemporally_overlaps_with Temporal Links (CSDs)**
 - **Value**: Track CSD evolution, boundary changes, amalgamations
 - **Data Available**: `year_links_output/` with 20,737 SAME_AS links + IoU scores
-- **Effort**: Medium - read year_links CSVs, create P134 relationships
+- **Effort**: Medium - read year_links CSVs, create P132 relationships
 - **Implementation**:
-  - Create `p134_continued_*.csv` files
+  - Create `p132_spatiotemporally_overlaps_with_*.csv` files
   - Include overlap metrics (IoU, area fraction) as properties
 
 ### **6. E41_Appellation for Names**
@@ -117,11 +117,11 @@ Codex identifies **critical consistency issues** that must be fixed before Neo4j
 
 ### **Step 2: Enhance Core Model (High ROI)** ✅ **COMPLETE**
 4. ✅ Create CD temporal links using spatial overlap (2,168 links generated)
-5. ✅ Add P134_continued from year_links (18,362 relationships: 17,060 CSD + 1,302 CD)
+5. ✅ Add P132_spatiotemporally_overlaps_with from year_links (17,060 CSD relationships)
 6. ✅ Add E41_Appellation for name variants (350 appellations: 207 canonical + 143 variants)
 
 **Goal**: Rich temporal tracking and proper name modeling
-**Status**: ALL enhancements complete (CD links, P134_continued, E41_Appellation)
+**Status**: ALL enhancements complete (CD link analysis, P132 overlaps, E41_Appellation)
 
 ### **Step 3: Complete Provenance (Polish)** ✅ **COMPLETE**
 7. ✅ Add E33/E30/E39 provenance entities (27 entities: 9 citations, 1 license, 7 actors, 1 creation, 9 sources)
@@ -135,7 +135,7 @@ Codex identifies **critical consistency issues** that must be fixed before Neo4j
 ## **Codex's Additional Recommendations**
 
 ### **Data Quality & Validation**
-- Every E93_Presence has P7→E53, P164→E4, P161→E94
+- Every E93_Presence has P166→E53, P164→E4, P161→E94
 - Every E16_Measurement has P39→E93, P40→E54, P91 on E54, P4→E52, P2→E55
 - Year counts match expected totals in README_IMPORT.md
 
@@ -167,7 +167,7 @@ Codex identifies **critical consistency issues** that must be fixed before Neo4j
   - P89 time-scoped with `during_period` property (21,046 relationships)
 - **Step 2 - Enhancements**: ALL COMPLETE
   - CD temporal links: 2,168 links generated (1851-1921)
-  - P134_continued relationships: 18,362 total (17,060 CSD + 1,302 CD)
+  - P132_spatiotemporally_overlaps_with relationships: 17,060 CSD overlaps exported
   - Relationship types: SAME_AS (9,423), CONTAINS (6,985), WITHIN (1,954)
   - E41_Appellation name variants: 350 appellations (207 canonical + 143 variants)
 - **Step 3 - Provenance**: ALL COMPLETE
@@ -178,9 +178,8 @@ Codex identifies **critical consistency issues** that must be fixed before Neo4j
   - E73_Information_Object: 9 source files
   - Provenance relationships: 24 (P67, P104, P14)
 - **Import guides**: 5 comprehensive guides
-  - README_CIDOC_CRM.md (spatial data)
+  - README_CIDOC_CRM.md (spatial data + temporal overlaps)
   - README_IMPORT.md (census observations)
-  - P134_CONTINUED_GUIDE.md (temporal continuity)
   - PROVENANCE_IMPORT_GUIDE.md (provenance entities)
   - E41_APPELLATION_GUIDE.md (name variants)
 - **Data attribution**: Corrected to Geoff Cunfer et al. / The Canadian Peoples project
@@ -206,9 +205,8 @@ Codex identifies **critical consistency issues** that must be fixed before Neo4j
 - `neo4j_cidoc_crm/p89_falls_within_*.csv`
 
 ### **Enhancement Files (Step 2)**
-- `neo4j_cidoc_crm/p134_continued_csd.csv` - 17,060 CSD temporal links
-- `neo4j_cidoc_crm/p134_continued_cd.csv` - 1,302 CD temporal links
-- `neo4j_cidoc_crm/P134_CONTINUED_GUIDE.md` - Complete import guide
+- `neo4j_cidoc_crm/p132_spatiotemporally_overlaps_with_csd.csv` - 17,060 CSD temporal overlap links
+- `neo4j_cidoc_crm/README_CIDOC_CRM.md` - Complete import guide
 - `canonical_names_final.csv` (for E41 - optional)
 
 ### **Provenance Files (Step 3)**

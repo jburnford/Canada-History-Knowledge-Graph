@@ -143,7 +143,7 @@ This analysis tracks CD evolution using spatial overlap to identify:
 
 ## Next Steps
 
-1. **Create P134_continued relationships**: Convert high-confidence links to Neo4j import format
+1. **Model CD presences**: Create E92/E93 nodes for CDs so temporal overlap relationships can be exported in CIDOC-CRM format
 2. **Review ambiguous links**: Especially 1901→1911 with provincial reorganization
 3. **Document CD evolution**: Notable cases (e.g., Alberta/Saskatchewan formation)
 4. **Validate with historical records**: Cross-reference CD name changes with administrative history

@@ -506,7 +506,7 @@ CREATE (measurement)-[:P4_has_time_span]->(timespan);
 ### Query 1: Get all measurements for a CSD in 1901 with values and units
 
 ```cypher
-MATCH (place:E53_Place {place_id: 'ON001001'})<-[:P7_took_place_at]-(presence:E93_Presence)
+MATCH (place:E53_Place {place_id: 'ON001001'})<-[:P166_was_a_presence_of]-(presence:E93_Presence)
 MATCH (measurement:E16_Measurement)-[:P39_measured]->(presence)
 MATCH (measurement)-[:P40_observed_dimension]->(dimension:E54_Dimension)
 MATCH (dimension)-[:P91_has_unit]->(unit:E58_Measurement_Unit)
@@ -524,8 +524,8 @@ ORDER BY type.category, type.label
 ### Query 2: Population growth analysis with proper temporal linking
 
 ```cypher
-MATCH (place:E53_Place)<-[:P7_took_place_at]-(p1901:E93_Presence)
-MATCH (place)<-[:P7_took_place_at]-(p1911:E93_Presence)
+MATCH (place:E53_Place)<-[:P166_was_a_presence_of]-(p1901:E93_Presence)
+MATCH (place)<-[:P166_was_a_presence_of]-(p1911:E93_Presence)
 MATCH (m1901:E16_Measurement)-[:P39_measured]->(p1901)
 MATCH (m1911:E16_Measurement)-[:P39_measured]->(p1911)
 MATCH (m1901)-[:P2_has_type]->(:E55_Type {type_id: 'VAR_POP_TOTAL'})

@@ -47,11 +47,11 @@ This project transforms historical Canadian census data into a CIDOC-CRM complia
   - 17,060 high-confidence links (SAME_AS, CONTAINS, WITHIN)
   - 3,677 ambiguous links (OCR errors, complex overlaps)
 - **Temporal Linking (CDs)**: 2,168 Census Division links (1851-1921)
-- **P134_continued Relationships**: 18,362 temporal continuity relationships
+- **P132_spatiotemporally_overlaps_with Relationships**: 17,060 temporal overlap relationships (CSD)
   - 17,060 CSD relationships (E93_Presence → E93_Presence)
-  - 1,302 CD relationships (E53_Place → E53_Place)
+  - CD overlap analytics available in `cd_links_output/` (requires future modelling for export)
   - Relationship types: SAME_AS (9,423), CONTAINS (6,985), WITHIN (1,954)
-- **CIDOC-CRM Spatial Model**: 69 CSV files (9.7 MB)
+- **CIDOC-CRM Spatial Model**: 61 CSV files (9.6 MB)
   - 13,135 E53_Place nodes (CSDs with names)
   - 579 E53_Place nodes (CDs)
   - 21,047 E93_Presence nodes (CSD-year instances)
@@ -100,17 +100,16 @@ GraphRAG_test/
 ├── scripts/
 │   ├── build_neo4j_cidoc_crm.py       # Spatial CIDOC-CRM generator
 │   ├── link_csd_years_spatial_v2.py   # Temporal linking (spatial)
+│   ├── build_p132_overlaps.py         # Export P132 spatiotemporal overlap CSVs
 │   ├── link_all_years.sh              # Batch temporal linking
 │   ├── assign_canonical_names_simple.py # OCR error correction
 │   └── build_census_observations.py    # Census variable processor
-├── neo4j_cidoc_crm/                   # Spatial graph CSVs (69 files)
+├── neo4j_cidoc_crm/                   # Spatial graph CSVs (61 files)
 │   ├── README_CIDOC_CRM.md            # Import guide
-│   ├── P134_CONTINUED_GUIDE.md        # Temporal continuity import guide
 │   ├── e53_place_*.csv                # Place nodes (CSDs + CDs)
 │   ├── e93_presence_*.csv             # Temporal presences
 │   ├── e94_space_primitive_*.csv      # Spatial coordinates
-│   ├── p134_continued_csd.csv         # CSD temporal links (17,060)
-│   ├── p134_continued_cd.csv          # CD temporal links (1,302)
+│   ├── p132_spatiotemporally_overlaps_with_csd.csv # CSD temporal overlap links (17,060)
 │   └── p*_*.csv                       # Other relationships
 ├── neo4j_census_v2/                   # Census observations (666,423)
 │   ├── README_IMPORT.md               # Census import guide
@@ -172,12 +171,12 @@ GraphRAG_test/
 ### Key Relationships
 
 **Spatial Relationships**:
-- `P7_took_place_at` - Presence → Place
+- `P166_was_a_presence_of` - Presence → Place
 - `P164_is_temporally_specified_by` - Presence → Period
 - `P161_has_spatial_projection` - Presence → Space Primitive
 - `P89_falls_within` - Place (CSD) → Place (CD) [time-scoped]
 - `P122_borders_with` - Place → Place [with border length]
-- `P134_continued` - Presence → Presence (temporal continuity)
+- `P132_spatiotemporally_overlaps_with` - Presence → Presence (temporal overlap)
 
 **Measurement Relationships**:
 - `P39_measured` - Measurement → Presence
@@ -289,7 +288,7 @@ python scripts/assign_canonical_names_simple.py \
 
 ```cypher
 // Track a CSD across all census years
-MATCH (place:E53_Place {place_id: 'ON039029'})<-[:P7_took_place_at]-(presence:E93_Presence)
+MATCH (place:E53_Place {place_id: 'ON039029'})<-[:P166_was_a_presence_of]-(presence:E93_Presence)
 MATCH (presence)-[:P164_is_temporally_specified_by]->(period:E4_Period)
 MATCH (presence)-[:P161_has_spatial_projection]->(space:E94_Space_Primitive)
 RETURN period.year, presence.area_sqm, space.latitude, space.longitude

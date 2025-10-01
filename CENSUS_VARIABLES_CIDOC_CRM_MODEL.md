@@ -253,7 +253,7 @@ for obs in observations:
 
 ### Query 1: Get all demographic data for a CSD in 1911
 ```cypher
-MATCH (place:E53_Place {place_id: 'AB001001'})<-[:P7_took_place_at]-(presence:E93_Presence)
+MATCH (place:E53_Place {place_id: 'AB001001'})<-[:P166_was_a_presence_of]-(presence:E93_Presence)
 MATCH (presence)<-[:P140_assigned_attribute_to]-(obs:E13_Attribute_Assignment)
 MATCH (presence)-[:P164_is_temporally_specified_by]->(period:E4_Period {year: 1911})
 RETURN obs.variable_name, obs.value_numeric, obs.unit, obs.variable_category
@@ -262,8 +262,8 @@ ORDER BY obs.variable_category, obs.variable_name
 
 ### Query 2: Compare population growth 1901-1911
 ```cypher
-MATCH (place:E53_Place)<-[:P7_took_place_at]-(p1901:E93_Presence)
-MATCH (place)<-[:P7_took_place_at]-(p1911:E93_Presence)
+MATCH (place:E53_Place)<-[:P166_was_a_presence_of]-(p1901:E93_Presence)
+MATCH (place)<-[:P166_was_a_presence_of]-(p1911:E93_Presence)
 MATCH (p1901)-[:P164_is_temporally_specified_by]->(:E4_Period {year: 1901})
 MATCH (p1911)-[:P164_is_temporally_specified_by]->(:E4_Period {year: 1911})
 MATCH (p1901)<-[:P140_assigned_attribute_to]-(obs1901:E13_Attribute_Assignment {variable_name: 'POP_TOT'})
@@ -283,7 +283,7 @@ WHERE obs.variable_category = 'RELIGION'
   AND obs.variable_name = 'CATHOLIC'
   AND obs.value_numeric > 5000
 MATCH (obs)-[:P140_assigned_attribute_to]->(presence:E93_Presence)
-MATCH (presence)-[:P7_took_place_at]->(place:E53_Place)
+MATCH (presence)-[:P166_was_a_presence_of]->(place:E53_Place)
 MATCH (presence)-[:P164_is_temporally_specified_by]->(period:E4_Period)
 RETURN place.place_id, period.year, obs.value_numeric
 ORDER BY obs.value_numeric DESC
@@ -295,7 +295,7 @@ MATCH (obs:E13_Attribute_Assignment)
 WHERE obs.variable_category = 'AGRICULTURE'
   AND obs.variable_name CONTAINS 'WHEAT'
 MATCH (obs)-[:P140_assigned_attribute_to]->(presence:E93_Presence)
-MATCH (presence)-[:P7_took_place_at]->(place:E53_Place)
+MATCH (presence)-[:P166_was_a_presence_of]->(place:E53_Place)
 MATCH (presence)-[:P164_is_temporally_specified_by]->(period:E4_Period {year: 1911})
 MATCH (place)-[:P89_falls_within]->(cd:E53_Place {place_type: 'CD', province: 'SK'})
 RETURN cd.name, sum(obs.value_numeric) AS total_wheat
