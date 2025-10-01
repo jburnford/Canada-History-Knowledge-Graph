@@ -45,7 +45,17 @@ Codex identifies **critical consistency issues** that must be fixed before Neo4j
 
 ## 🟡 **SHOULD ADD (High Value)**
 
-### **4. P134_continued Temporal Links**
+### **4. CD (Census Division) Temporal Links**
+- **Value**: Track CD evolution, boundary changes (especially Western provinces)
+- **Method**: Apply same spatial overlap analysis used for CSDs
+- **Data Available**: CD polygons in GDB for all years
+- **Implementation**:
+  - Create CD-specific temporal linking script or extend existing
+  - Generate P134_continued relationships between CD E53_Place nodes
+  - Include IoU and overlap metrics
+- **Effort**: Medium - reuse CSD linking methodology
+
+### **5. P134_continued Temporal Links (CSDs)**
 - **Value**: Track CSD evolution, boundary changes, amalgamations
 - **Data Available**: `year_links_output/` with 20,737 SAME_AS links + IoU scores
 - **Effort**: Medium - read year_links CSVs, create P134 relationships
@@ -53,7 +63,7 @@ Codex identifies **critical consistency issues** that must be fixed before Neo4j
   - Create `p134_continued_*.csv` files
   - Include overlap metrics (IoU, area fraction) as properties
 
-### **5. E41_Appellation for Names**
+### **6. E41_Appellation for Names**
 - **Value**: Clean name disambiguation, OCR correction tracking
 - **Data Available**: `canonical_names_final.csv` (107 corrections, 3,179 intentional changes)
 - **Effort**: Medium - create E41 nodes + P1 relationships
@@ -65,14 +75,14 @@ Codex identifies **critical consistency issues** that must be fixed before Neo4j
 
 ## 🟢 **NICE TO HAVE (Lower Priority)**
 
-### **6. Provenance Extensions (E33, E30, E39)**
+### **7. Provenance Extensions (E33, E30, E39)**
 - **E33_Linguistic_Object**: DOI citation (https://doi.org/10.5683/SP3/PKUZJN)
 - **E30_Right**: CC BY 4.0 license
 - **E39_Actor**: 8 PIs + CHGIS team
 - **Value**: Complete FAIR data principles
 - **Effort**: Low - already designed in `CENSUS_CIDOC_CRM_REVISED.md`
 
-### **7. 1911/1921 Multi-Layer GDB**
+### **8. 1911/1921 Multi-Layer GDB**
 - **Problem**: Multiple layers for different census tables
 - **Value**: 40% more data coverage
 - **Effort**: Medium - investigate GDB structure and add layer-name mapping
@@ -81,15 +91,15 @@ Codex identifies **critical consistency issues** that must be fixed before Neo4j
 
 ## ❌ **SKIP FOR NOW**
 
-### **8. Git LFS**
+### **9. Git LFS**
 - **Reason**: Files under 100MB are fine for GitHub (largest is 53MB)
 - **Reconsider**: If files exceed 100MB in future
 
-### **9. RDF/n10s Export**
+### **10. RDF/n10s Export**
 - **Reason**: Focus on Neo4j graph first
 - **Future**: Add after core model is stable
 
-### **10. ETL Orchestration (make/CLI)**
+### **11. ETL Orchestration (make/CLI)**
 - **Reason**: Premature - scripts work independently
 - **Future**: Add if workflow becomes complex
 
@@ -105,14 +115,15 @@ Codex identifies **critical consistency issues** that must be fixed before Neo4j
 **Goal**: Ensure v2 dataset is internally consistent and ready for clean Neo4j import
 
 ### **Step 2: Enhance Core Model (High ROI)**
-4. ⏳ Add P134_continued from year_links (temporal continuity)
-5. ⏳ Add E41_Appellation for name variants
+4. ⏳ Add E41_Appellation for name variants (optional but valuable)
+5. ⏳ Add P134_continued from year_links (temporal continuity)
+6. ⏳ Create CD temporal links using spatial overlap
 
 **Goal**: Rich temporal tracking and proper name modeling
 
 ### **Step 3: Complete Provenance (Polish)**
-6. ⏳ Add E33/E30/E39 provenance entities
-7. ⏳ Tackle 1911/1921 multi-layer GDB
+7. ⏳ Add E33/E30/E39 provenance entities
+8. ⏳ Tackle 1911/1921 multi-layer GDB
 
 **Goal**: FAIR-compliant dataset with maximum coverage
 
