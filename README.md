@@ -43,35 +43,51 @@ This project transforms historical Canadian census data into a CIDOC-CRM complia
 ### ✅ Completed
 
 - **Geospatial Environment**: Conda environment with geopandas, shapely, pyproj, fiona, rtree
-- **Temporal Linking**: 20,737 spatial links across census years (1851-1921)
+- **Temporal Linking (CSDs)**: 20,737 spatial links across census years (1851-1921)
   - 17,060 high-confidence links (SAME_AS, CONTAINS, WITHIN)
   - 3,677 ambiguous links (OCR errors, complex overlaps)
-- **CIDOC-CRM Spatial Model**: 67 CSV files (9.7 MB)
-  - 13,135 E53_Place nodes (CSDs)
+- **Temporal Linking (CDs)**: 2,168 Census Division links (1851-1921)
+- **P134_continued Relationships**: 18,362 temporal continuity relationships
+  - 17,060 CSD relationships (E93_Presence → E93_Presence)
+  - 1,302 CD relationships (E53_Place → E53_Place)
+  - Relationship types: SAME_AS (9,423), CONTAINS (6,985), WITHIN (1,954)
+- **CIDOC-CRM Spatial Model**: 69 CSV files (9.7 MB)
+  - 13,135 E53_Place nodes (CSDs with names)
+  - 579 E53_Place nodes (CDs)
   - 21,047 E93_Presence nodes (CSD-year instances)
   - 45,598 P122_borders_with relationships
+  - 21,046 P89_falls_within relationships (time-scoped)
   - E94_Space_Primitive with centroids (lat/lon)
-- **OCR Correction**: 107 canonical names assigned, 3,179 intentional name changes preserved
-- **Census Observations (1851-1891)**: 628,734 observations processed
-  - E13_Attribute_Assignment nodes (v1.0 - to be upgraded to E16_Measurement)
-  - Population, age, religion, agriculture, manufacturing variables
-
-### 🔄 In Progress
-
-- **CIDOC-CRM v2.0 Model**: Revised per Codex feedback
-  - E16_Measurement (proper measurement class)
+- **CIDOC-CRM v2.0 Census Model**: 666,423 measurements (1851-1901)
+  - E16_Measurement nodes (proper measurement class)
   - E54_Dimension + E58_Measurement_Unit (value/unit separation)
   - E52_Time-Span (proper temporal linking)
-  - E73_Information_Object + E33_Linguistic_Object (full provenance)
-  - E30_Right + E39_Actor (licensing and attribution)
+  - E55_Type variable taxonomy
+  - Population, age, religion, agriculture, manufacturing variables
+- **OCR Correction**: 107 canonical names assigned, 3,179 intentional name changes preserved
+- **Provenance Entities (FAIR-compliant)**:
+  - E33_Linguistic_Object: 9 citations with DOIs
+  - E30_Right: CC BY 4.0 license
+  - E39_Actor: 7 creators and contributors
+  - E65_Creation: Dataset creation activity (2018-2023)
+  - E73_Information_Object: 9 source files
+  - Provenance relationships: 24 (P67, P104, P14)
+- **Name Variant Tracking**:
+  - E41_Appellation: 350 appellations (207 canonical + 143 OCR variants)
+  - P1_is_identified_by: 350 relationships
+- **Import Documentation**: 5 comprehensive guides
+  - README_CIDOC_CRM.md (spatial data)
+  - README_IMPORT.md (census observations)
+  - P134_CONTINUED_GUIDE.md (temporal continuity)
+  - PROVENANCE_IMPORT_GUIDE.md (provenance entities)
+  - E41_APPELLATION_GUIDE.md (name variants)
 
-### ⏳ Todo
+### ⏳ Next Steps
 
-- Update `build_census_observations.py` to v2.0 structure
-- Process 1911/1921 data (multi-layer GDB issue)
-- Generate RDF/TTL exports for LOD publication
-- Neo4j import and validation
-- Public SPARQL endpoint deployment
+- **Neo4j Import**: Load complete CIDOC-CRM dataset into Neo4j (all components ready)
+- **Process 1911/1921 data**: Multi-layer GDB investigation (40% more data)
+- **RDF/TTL exports**: For LOD publication
+- **Public SPARQL endpoint**: Deployment
 
 ## File Structure
 
@@ -87,17 +103,42 @@ GraphRAG_test/
 │   ├── link_all_years.sh              # Batch temporal linking
 │   ├── assign_canonical_names_simple.py # OCR error correction
 │   └── build_census_observations.py    # Census variable processor
-├── neo4j_cidoc_crm/                   # Spatial graph CSVs (67 files)
+├── neo4j_cidoc_crm/                   # Spatial graph CSVs (69 files)
 │   ├── README_CIDOC_CRM.md            # Import guide
-│   ├── e53_place_*.csv                # Place nodes
+│   ├── P134_CONTINUED_GUIDE.md        # Temporal continuity import guide
+│   ├── e53_place_*.csv                # Place nodes (CSDs + CDs)
 │   ├── e93_presence_*.csv             # Temporal presences
 │   ├── e94_space_primitive_*.csv      # Spatial coordinates
+│   ├── p134_continued_csd.csv         # CSD temporal links (17,060)
+│   ├── p134_continued_cd.csv          # CD temporal links (1,302)
+│   └── p*_*.csv                       # Other relationships
+├── neo4j_census_v2/                   # Census observations (666,423)
+│   ├── README_IMPORT.md               # Census import guide
+│   ├── e16_measurement_*.csv          # Measurement nodes
+│   ├── e54_dimension_*.csv            # Dimension values
+│   ├── e55_types.csv                  # Variable taxonomy
 │   └── p*_*.csv                       # Relationships
-├── year_links_output/                 # Temporal links (20,737 links)
+├── year_links_output/                 # CSD temporal analysis (20,737 links)
 │   ├── year_links_YYYY_YYYY.csv       # High-confidence links
 │   ├── ambiguous_YYYY_YYYY.csv        # Needs review
 │   └── SUMMARY_ALL_YEARS.md           # Analysis report
-└── canonical_names_final.csv          # OCR corrections (107 CSDs)
+├── cd_links_output/                   # CD temporal analysis (2,168 links)
+│   ├── cd_links_YYYY_YYYY.csv         # High-confidence links
+│   ├── cd_ambiguous_YYYY_YYYY.csv     # Needs review
+│   └── SUMMARY_CD_LINKS.md            # Analysis report
+├── neo4j_provenance/                  # Provenance entities (27 nodes)
+│   ├── PROVENANCE_IMPORT_GUIDE.md     # Import guide
+│   ├── e33_linguistic_objects.csv     # Citations/DOIs (9)
+│   ├── e30_rights.csv                 # License (1)
+│   ├── e39_actors.csv                 # Creators (7)
+│   ├── e65_creation.csv               # Creation activity (1)
+│   ├── e73_information_objects_provenance.csv # Sources (9)
+│   └── p*_*.csv                       # Relationships (24)
+├── neo4j_appellations/                # Name variants (350 appellations)
+│   ├── E41_APPELLATION_GUIDE.md       # Import guide
+│   ├── e41_appellations.csv           # Appellations (207 canonical + 143 variants)
+│   └── p1_is_identified_by.csv        # Relationships (350)
+└── canonical_names_final.csv          # OCR corrections analysis (8,949 records)
 ```
 
 ## Data Model
@@ -118,21 +159,41 @@ GraphRAG_test/
 - `E55_Type` - Variable taxonomy (population, age, religion, agriculture)
 
 **Provenance Model**:
-- `E73_Information_Object` - Source Excel files
-- `E33_Linguistic_Object` - Citations and DOI
+- `E73_Information_Object` - Source files (GDB + Excel tables)
+- `E33_Linguistic_Object` - Citations with DOIs
 - `E30_Right` - License (CC BY 4.0)
-- `E39_Actor` - Creators (8 PIs + CHGIS team)
-- `E65_Creation` - Dataset creation activity
+- `E39_Actor` - Dataset creators and contributors
+- `E65_Creation` - Dataset creation activity (2018-2023)
+
+**Name Variant Model**:
+- `E41_Appellation` - Canonical names and OCR variants
+- `P1_is_identified_by` - Links places/presences to appellations
 
 ### Key Relationships
 
+**Spatial Relationships**:
+- `P7_took_place_at` - Presence → Place
+- `P164_is_temporally_specified_by` - Presence → Period
+- `P161_has_spatial_projection` - Presence → Space Primitive
+- `P89_falls_within` - Place (CSD) → Place (CD) [time-scoped]
+- `P122_borders_with` - Place → Place [with border length]
+- `P134_continued` - Presence → Presence (temporal continuity)
+
+**Measurement Relationships**:
 - `P39_measured` - Measurement → Presence
 - `P40_observed_dimension` - Measurement → Dimension
 - `P91_has_unit` - Dimension → Unit
 - `P4_has_time-span` - Measurement/Period → Time-Span
-- `P70_documents` - Information Object → Measurement
+- `P2_has_type` - Measurement → Type
+
+**Provenance Relationships**:
 - `P67_refers_to` - Citation → Information Object
 - `P104_is_subject_to` - Information Object → Right
+- `P14_carried_out` - Actor → Creation
+- `P70_documents` - Information Object → Measurement
+
+**Name Variant Relationships**:
+- `P1_is_identified_by` - Place/Presence → Appellation
 
 ## Installation
 

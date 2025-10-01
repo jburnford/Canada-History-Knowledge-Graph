@@ -351,7 +351,7 @@ wc -l neo4j_census_v2/e55_variable_types.csv
 ## File Size Summary
 - **Total**: 318 MB across 14 CSV files
 - **Largest files**:
-  - e40_observed_dimension_all.csv (53 MB)
+  - p40_observed_dimension_all.csv (53 MB)
   - e16_measurements_all.csv (51 MB)
   - p4_measurement_timespan_all.csv (39 MB)
   - p70_documents_all.csv (39 MB)

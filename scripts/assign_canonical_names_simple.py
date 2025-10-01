@@ -56,6 +56,7 @@ def main():
                 cd_from = row[f'cd_name_{year_from}']
                 cd_to = row[f'cd_name_{year_to}']
                 pr_from = row[f'pr_{year_from}']
+                pr_to = row[f'pr_{year_to}']
 
                 # Add FROM appearance
                 if tcpuid_from not in csd_timeline:
@@ -67,7 +68,7 @@ def main():
                 if tcpuid_to not in csd_timeline:
                     csd_timeline[tcpuid_to] = []
                 if (year_to, name_to) not in [(y, n) for y, n, _, _ in csd_timeline[tcpuid_to]]:
-                    csd_timeline[tcpuid_to].append((year_to, name_to, cd_to, pr_from))
+                    csd_timeline[tcpuid_to].append((year_to, name_to, cd_to, pr_to))
 
     print(f"  Found {len(csd_timeline)} unique TCPUIDs with temporal data", file=sys.stderr)
 

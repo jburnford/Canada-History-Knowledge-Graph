@@ -115,20 +115,20 @@ Codex identifies **critical consistency issues** that must be fixed before Neo4j
 **Goal**: Ensure v2 dataset is internally consistent and ready for clean Neo4j import
 **Status**: ✅ All critical blocking issues resolved
 
-### **Step 2: Enhance Core Model (High ROI)** 🔄 **IN PROGRESS**
+### **Step 2: Enhance Core Model (High ROI)** ✅ **COMPLETE**
 4. ✅ Create CD temporal links using spatial overlap (2,168 links generated)
-5. ⏳ Add P134_continued from year_links (CSDs: 20,737 links; CDs: 2,168 links)
-6. ⏳ Add E41_Appellation for name variants (optional but valuable)
+5. ✅ Add P134_continued from year_links (18,362 relationships: 17,060 CSD + 1,302 CD)
+6. ✅ Add E41_Appellation for name variants (350 appellations: 207 canonical + 143 variants)
 
 **Goal**: Rich temporal tracking and proper name modeling
-**Status**: CD links complete, P134 relationships next
+**Status**: ALL enhancements complete (CD links, P134_continued, E41_Appellation)
 
-### **Step 3: Complete Provenance (Polish)** ⏳ **PENDING**
-7. ⏳ Add E33/E30/E39 provenance entities (E33_Linguistic_Object, E30_Right, E39_Actor)
-8. ⏳ Tackle 1911/1921 multi-layer GDB
+### **Step 3: Complete Provenance (Polish)** ✅ **COMPLETE**
+7. ✅ Add E33/E30/E39 provenance entities (27 entities: 9 citations, 1 license, 7 actors, 1 creation, 9 sources)
+8. ⏳ Tackle 1911/1921 multi-layer GDB (deferred - requires investigation)
 
 **Goal**: FAIR-compliant dataset with maximum coverage
-**Status**: Not started
+**Status**: Provenance complete. Multi-layer GDB deferred to future work.
 
 ---
 
@@ -165,18 +165,33 @@ Codex identifies **critical consistency issues** that must be fixed before Neo4j
   - E4_Period IDs aligned (`CENSUS_YYYY` format)
   - CSD names added to E53_Place nodes (13,135 CSDs)
   - P89 time-scoped with `during_period` property (21,046 relationships)
-- **Step 2 - CD Temporal Links**: 2,168 CD links generated (1851-1921)
-- **Import guides**: README_IMPORT.md with constraints and validation queries
+- **Step 2 - Enhancements**: ALL COMPLETE
+  - CD temporal links: 2,168 links generated (1851-1921)
+  - P134_continued relationships: 18,362 total (17,060 CSD + 1,302 CD)
+  - Relationship types: SAME_AS (9,423), CONTAINS (6,985), WITHIN (1,954)
+  - E41_Appellation name variants: 350 appellations (207 canonical + 143 variants)
+- **Step 3 - Provenance**: ALL COMPLETE
+  - E33_Linguistic_Object: 9 citations with DOIs
+  - E30_Right: 1 license (CC BY 4.0)
+  - E39_Actor: 7 creators and contributors
+  - E65_Creation: 1 creation activity
+  - E73_Information_Object: 9 source files
+  - Provenance relationships: 24 (P67, P104, P14)
+- **Import guides**: 5 comprehensive guides
+  - README_CIDOC_CRM.md (spatial data)
+  - README_IMPORT.md (census observations)
+  - P134_CONTINUED_GUIDE.md (temporal continuity)
+  - PROVENANCE_IMPORT_GUIDE.md (provenance entities)
+  - E41_APPELLATION_GUIDE.md (name variants)
 - **Data attribution**: Corrected to Geoff Cunfer et al. / The Canadian Peoples project
-
-### 🔄 **In Progress**
-- **Step 2**: Add P134_continued relationships for temporal continuity
-  - CSD links: 20,737 (from year_links_output/)
-  - CD links: 2,168 (from cd_links_output/)
+- **Codex feedback (Round 2 - Sept 30)**: Fixed 3 minor issues
+  - Neo4j label hygiene: Changed `E52_Time-Span` → `E52_Time_Span` (hyphens not allowed)
+  - README typo: Fixed `e40_observed_dimension_all.csv` → `p40_observed_dimension_all.csv`
+  - Province bug: Fixed `assign_canonical_names_simple.py` to capture `pr_to` correctly (line 59, 71)
 
 ### ⏳ **Next Priority**
-- Convert temporal links to P134_continued Neo4j relationships
-- Add E33/E30/E39 provenance entities (optional enhancement)
+- **Neo4j Import**: Load complete CIDOC-CRM dataset into Neo4j (spatial + census + temporal + provenance + appellations)
+- **Future Enhancement**: Tackle 1911/1921 multi-layer GDB (requires investigation)
 
 ---
 
@@ -191,8 +206,10 @@ Codex identifies **critical consistency issues** that must be fixed before Neo4j
 - `neo4j_cidoc_crm/p89_falls_within_*.csv`
 
 ### **Enhancement Files (Step 2)**
-- `year_links_output/year_links_*.csv` (for P134)
-- `canonical_names_final.csv` (for E41)
+- `neo4j_cidoc_crm/p134_continued_csd.csv` - 17,060 CSD temporal links
+- `neo4j_cidoc_crm/p134_continued_cd.csv` - 1,302 CD temporal links
+- `neo4j_cidoc_crm/P134_CONTINUED_GUIDE.md` - Complete import guide
+- `canonical_names_final.csv` (for E41 - optional)
 
 ### **Provenance Files (Step 3)**
 - `CENSUS_CIDOC_CRM_REVISED.md` (E33/E30/E39 design)
