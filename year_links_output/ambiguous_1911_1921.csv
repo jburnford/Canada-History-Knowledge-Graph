@@ -1,0 +1,1008 @@
+tcpuid_1911,csd_name_1911,cd_name_1911,pr_1911,tcpuid_1921,csd_name_1921,cd_name_1921,pr_1921,relationship,iou,frac_from,frac_to,name_similarity
+AB001001,92 townships,Calgary,AB,AB194005,220. Shepard,Division No. 6,AB,OVERLAPS,0.0606,0.0628,0.6371,29.17
+AB001001,92 townships,Calgary,AB,AB194010,249. Keoma,Division No. 6,AB,OVERLAPS,0.0686,0.071,0.6666,19.09
+AB001001,92 townships,Calgary,AB,AB194013,252. L.I.D.- D.A.L.,Division No. 6,AB,OVERLAPS,0.0837,0.0847,0.8772,13.55
+AB001001,92 townships,Calgary,AB,AB194015,279. Norquay,Division No. 6,AB,OVERLAPS,0.0681,0.0706,0.6646,17.5
+AB001001,92 townships,Calgary,AB,AB194018,282. L.I.D.- D.A.L.,Division No. 6,AB,OVERLAPS,0.0677,0.0712,0.5783,13.55
+AB001999,NO DATA,Calgary,AB,AB194007,222. L.I.D.- D.A.L.,Division No. 6,AB,OVERLAPS,0.2827,0.7971,0.3047,16.15
+AB002001,226 townships,Edmonton,AB,AB199011,548. Sturgeon,Division No. 11,AB,OVERLAPS,0.0396,0.0397,0.9384,31.97
+AB002001,226 townships,Edmonton,AB,AB200008,553. L.I.D.- D.A.L.,Division No. 12,AB,OVERLAPS,0.0284,0.0288,0.6659,19.18
+AB002001,226 townships,Edmonton,AB,AB200009,554. L.I.D.- D.A.L.,Division No. 12,AB,OVERLAPS,0.0271,0.0274,0.7529,19.18
+AB002001,226 townships,Edmonton,AB,AB200010,555. L.I.D.- D.A.L.,Division No. 12,AB,OVERLAPS,0.0233,0.0237,0.5483,19.18
+AB002001,226 townships,Edmonton,AB,AB200007,552. Pembina,Division No. 12,AB,OVERLAPS,0.0363,0.0364,0.8815,27.23
+AB002001,226 townships,Edmonton,AB,AB202009,608. Tawatinaw,Division No. 14,AB,OVERLAPS,0.0234,0.0239,0.554,36.36
+AB002001,226 townships,Edmonton,AB,AB200014,582. Kitchener,Division No. 12,AB,OVERLAPS,0.0411,0.0413,0.8965,31.18
+AB002001,226 townships,Edmonton,AB,AB202010,609. Pibroch,Division No. 14,AB,OVERLAPS,0.0286,0.0288,0.7514,32.83
+AB002001,226 townships,Edmonton,AB,AB202011,610. L.I.D.- D.A.L.,Division No. 14,AB,OVERLAPS,0.0284,0.0288,0.6658,23.56
+AB002001,226 townships,Edmonton,AB,AB202012,611. L.I.D.- D.A.L.,Division No. 14,AB,OVERLAPS,0.0185,0.0188,0.6009,23.56
+AB002001,226 townships,Edmonton,AB,AB202015,638. Nelson,Division No. 14,AB,OVERLAPS,0.0237,0.0242,0.5573,33.77
+AB002001,226 townships,Edmonton,AB,AB202020,668. Grosmont,Division No. 14,AB,OVERLAPS,0.0222,0.0227,0.5402,31.97
+AB002001,226 townships,Edmonton,AB,AB202029,"Athabaska, T-V",Division No. 14,AB,OVERLAPS,0.0005,0.0005,0.7755,25.99
+AB002001,226 townships,Edmonton,AB,AB204017,858. Fairview,Division No. 16,AB,OVERLAPS,0.0272,0.0279,0.5028,21.2
+AB002005,Jasper Park,Edmonton,AB,AB197020,Unorganised parts between townships 30 & 47 - W. to the provincial boundary,Division No. 9,AB,OVERLAPS,0.2584,0.637,0.303,23.93
+AB002007,St. Albert t-v,Edmonton,AB,AB199021,"St. Albert, T-V",Division No. 11,AB,SAME_AS,1.0,1.0,1.0,78.02
+AB002008,Stony Plain t-v,Edmonton,AB,AB199022,"Stony Plain, T-V",Division No. 11,AB,SAME_AS,1.0,1.0,1.0,78.18
+AB002999,NO DATA,Edmonton,AB,AB197019,"464. T. 44-46, R 13-15, W.5",Division No. 9,AB,OVERLAPS,0.0023,0.0023,0.7763,19.14
+AB002999,NO DATA,Edmonton,AB,AB200002,522. Rocky Rapids,Division No. 12,AB,OVERLAPS,0.0017,0.0017,0.6264,27.93
+AB002999,NO DATA,Edmonton,AB,AB200003,523. L.I.D.- D.A.L.,Division No. 12,AB,OVERLAPS,0.0045,0.0045,0.947,26.59
+AB002999,NO DATA,Edmonton,AB,AB200006,527. L.I.D.- D.A.L.,Division No. 12,AB,OVERLAPS,0.0024,0.0024,0.7324,26.59
+AB002999,NO DATA,Edmonton,AB,AB200016,584. L.I.D.- D.A.L.,Division No. 12,AB,OVERLAPS,0.0015,0.0015,0.7442,26.59
+AB002999,NO DATA,Edmonton,AB,AB200011,556. L.I.D.- D.A.L.,Division No. 12,AB,OVERLAPS,0.003,0.003,0.819,26.59
+AB002999,NO DATA,Edmonton,AB,AB200015,583. L.I.D.- D.A.L.,Division No. 12,AB,OVERLAPS,0.0026,0.0026,0.589,26.59
+AB002999,NO DATA,Edmonton,AB,AB200013,558. L.I.D.- D.A.L.,Division No. 12,AB,OVERLAPS,0.0031,0.0031,0.8651,26.59
+AB002999,NO DATA,Edmonton,AB,AB200012,557. L.I.D.- D.A.L.,Division No. 12,AB,OVERLAPS,0.0023,0.0023,0.8858,26.59
+AB002999,NO DATA,Edmonton,AB,AB200017,585. L.I.D.- D.A.L.,Division No. 12,AB,OVERLAPS,0.002,0.002,0.8564,26.59
+AB002999,NO DATA,Edmonton,AB,AB200023,Unorganized parts between townships 46 and 57 W. to the provincial boundary,Division No. 12,AB,OVERLAPS,0.0272,0.0276,0.6616,20.68
+AB002999,NO DATA,Edmonton,AB,AB200021,612. L.I.D.- D.A.L.,Division No. 12,AB,OVERLAPS,0.001,0.001,0.5946,26.59
+AB002999,NO DATA,Edmonton,AB,AB203001,613. L.I.D.- D.A.L.,Division No. 15,AB,OVERLAPS,0.0021,0.0021,0.8757,26.59
+AB002999,NO DATA,Edmonton,AB,AB203004,641. L.I.D.- D.A.L.,Division No. 15,AB,OVERLAPS,0.003,0.003,0.8135,26.59
+AB002999,NO DATA,Edmonton,AB,AB202023,697. L.I.D.- D.A.L.,Division No. 14,AB,OVERLAPS,0.001,0.001,0.5136,26.59
+AB002999,NO DATA,Edmonton,AB,AB202024,698. L.I.D.- D.A.L.,Division No. 14,AB,OVERLAPS,0.0017,0.0017,0.7868,26.59
+AB002999,NO DATA,Edmonton,AB,AB203010,731. L.I.D.- D.A.L.,Division No. 15,AB,OVERLAPS,0.0026,0.0026,0.8963,26.59
+AB002999,NO DATA,Edmonton,AB,AB203011,732. L.I.D.- D.A.L.,Division No. 15,AB,OVERLAPS,0.0024,0.0024,0.7277,26.59
+AB002999,NO DATA,Edmonton,AB,AB203027,Indian reserves,Division No. 15,AB,OVERLAPS,0.0009,0.0009,0.7221,29.53
+AB002999,NO DATA,Edmonton,AB,AB204002,740. Bear Lake,Division No. 16,AB,OVERLAPS,0.0039,0.0039,0.923,30.43
+AB002999,NO DATA,Edmonton,AB,AB204013,829. Spirit River,Division No. 16,AB,OVERLAPS,0.0014,0.0014,0.5865,22.1
+AB002999,NO DATA,Edmonton,AB,AB204016,857. Peace,Division No. 16,AB,OVERLAPS,0.0027,0.0027,0.6941,26.91
+AB002999,NO DATA,Edmonton,AB,AB205002,Indian reserves,Division No. 17,AB,OVERLAPS,0.0023,0.0023,0.6756,29.53
+AB002999,NO DATA,Edmonton,AB,AB205001,Remainder of province comprising northern parts,Division No. 17,AB,OVERLAPS,0.4084,0.5635,0.5972,23.4
+AB003001,198 townships,Macleod,AB,AB192002,98. Little Bow,Division No. 4,AB,OVERLAPS,0.0329,0.0336,0.6061,33.97
+AB003001,198 townships,Macleod,AB,AB190016,101. L.I.D.-D.A.L.,Division No. 2,AB,OVERLAPS,0.0491,0.0507,0.6146,16.41
+AB003001,198 townships,Macleod,AB,AB192004,128. Harmony,Division No. 4,AB,OVERLAPS,0.0263,0.0267,0.6932,30.86
+AB003001,198 townships,Macleod,AB,AB192013,189. Dinton,Division No. 4,AB,OVERLAPS,0.0504,0.0509,0.8357,37.86
+AB003004,Claresholm t-v,Macleod,AB,AB190021,"Claresholm, T-V",Division No. 2,AB,SAME_AS,1.0,1.0,1.0,70.44
+AB003005,High River t-v,Macleod,AB,AB192018,"High River, T-V",Division No. 4,AB,SAME_AS,1.0,1.0,1.0,70.44
+AB003006,Macleod t-v,Macleod,AB,AB190025,"Macleod, T-V",Division No. 2,AB,SAME_AS,1.0,1.0,1.0,69.81
+AB003007,Nanton t-v,Macleod,AB,AB192019,"Nanton, T-V",Division No. 4,AB,SAME_AS,1.0,1.0,1.0,69.52
+AB003008,Okotoks t-v,Macleod,AB,AB192020,"Okotoks, T-V",Division No. 4,AB,SAME_AS,1.0,1.0,1.0,69.81
+AB003009,Pincher Creek t-v,Macleod,AB,AB190027,"Pincher Creek, T-V",Division No. 2,AB,SAME_AS,1.0,1.0,1.0,70.86
+AB003999,NO DATA,Macleod,AB,AB190008,40. Castle River,Division No. 2,AB,OVERLAPS,0.129,0.1421,0.5834,21.12
+AB003999,NO DATA,Macleod,AB,AB192007,131. L.I.D.- D.A.L.,Division No. 4,AB,OVERLAPS,0.1215,0.1314,0.6164,19.01
+AB003999,NO DATA,Macleod,AB,AB192012,161. L.I.D.- D.A.L.,Division No. 4,AB,OVERLAPS,0.0974,0.1037,0.6135,19.01
+AB003999,NO DATA,Macleod,AB,AB192016,192. L.I.D.- D.A.L.,Division No. 4,AB,OVERLAPS,0.2722,0.2766,0.9442,19.01
+AB004001,606 townships,Medicine Hat,AB,AB189007,31. L.I.D.-D.A.L.,Division No. 1,AB,OVERLAPS,0.0101,0.0102,0.6672,20.87
+AB004001,606 townships,Medicine Hat,AB,AB189002,2.L.I.D.-D.A.L.,Division No. 1,AB,OVERLAPS,0.0084,0.0085,0.5556,16.54
+AB004001,606 townships,Medicine Hat,AB,AB189003,3. L.I.D.-D.A.L.,Division No. 1,AB,OVERLAPS,0.0118,0.0119,0.7807,21.19
+AB004001,606 townships,Medicine Hat,AB,AB189004,4. L.I.D.-D.A.L.,Division No. 1,AB,OVERLAPS,0.0136,0.0137,0.8902,21.19
+AB004001,606 townships,Medicine Hat,AB,AB189006,6. L.I.D.-D.A.L.,Division No. 1,AB,OVERLAPS,0.0084,0.0084,0.5573,26.02
+AB004001,606 townships,Medicine Hat,AB,AB189010,34. Burlington,Division No. 1,AB,OVERLAPS,0.0135,0.0135,0.8892,32.28
+AB004001,606 townships,Medicine Hat,AB,AB189017,65. Eureka,Division No. 1,AB,OVERLAPS,0.0206,0.0206,0.9239,23.71
+AB004001,606 townships,Medicine Hat,AB,AB191002,121. L.I.D.- D.A.L.,Division No. 3,AB,OVERLAPS,0.0132,0.0132,0.8585,20.29
+AB004001,606 townships,Medicine Hat,AB,AB191003,122. L.I.D.- D.A.L.,Division No. 3,AB,OVERLAPS,0.0164,0.0164,0.9331,20.29
+AB004001,606 townships,Medicine Hat,AB,AB191009,152. L.I.D.- D.A.L.,Division No. 3,AB,OVERLAPS,0.015,0.015,0.8896,20.29
+AB004001,606 townships,Medicine Hat,AB,AB190010,68. L.I.D.-D.A.L.,Division No. 2,AB,OVERLAPS,0.0053,0.0053,0.6313,25.54
+AB004001,606 townships,Medicine Hat,AB,AB191004,123. Sunny South,Division No. 3,AB,OVERLAPS,0.0142,0.0142,0.8113,30.85
+AB004001,606 townships,Medicine Hat,AB,AB191006,125. L.I.D.- D.A.L.,Division No. 3,AB,OVERLAPS,0.0089,0.0089,0.5851,20.29
+AB004001,606 townships,Medicine Hat,AB,AB191001,96. McLean,Division No. 3,AB,OVERLAPS,0.0121,0.0122,0.7832,29.8
+AB004001,606 townships,Medicine Hat,AB,AB191005,124. L.I.D.- D.A.L.,Division No. 3,AB,OVERLAPS,0.0084,0.0084,0.6208,20.29
+AB004001,606 townships,Medicine Hat,AB,AB192001,97. L.I.D.- D.A.L.,Division No. 4,AB,OVERLAPS,0.014,0.014,0.8934,20.57
+AB004001,606 townships,Medicine Hat,AB,AB191014,181. L.I.D.- D.A.L.,Division No. 3,AB,OVERLAPS,0.0114,0.0114,0.751,20.29
+AB004001,606 townships,Medicine Hat,AB,AB191007,126. L.I.D.- D.A.L.,Division No. 3,AB,OVERLAPS,0.0098,0.0099,0.7445,24.66
+AB004001,606 townships,Medicine Hat,AB,AB191011,154. L.I.D.- D.A.L.,Division No. 3,AB,OVERLAPS,0.0117,0.0117,0.779,20.29
+AB004001,606 townships,Medicine Hat,AB,AB191012,155. L.I.D.- D.A.L.,Division No. 3,AB,OVERLAPS,0.013,0.0131,0.648,20.29
+AB004001,606 townships,Medicine Hat,AB,AB191016,183. Britannia,Division No. 3,AB,OVERLAPS,0.015,0.0151,0.9013,32.28
+AB004001,606 townships,Medicine Hat,AB,AB191017,184. L.I.D.- D.A.L.,Division No. 3,AB,OVERLAPS,0.0066,0.0066,0.7971,20.29
+AB004001,606 townships,Medicine Hat,AB,AB191013,156. L.I.D.- D.A.L.,Division No. 3,AB,OVERLAPS,0.0105,0.0106,0.6426,24.66
+AB004001,606 townships,Medicine Hat,AB,AB191018,185. L.I.D.- D.A.L.,Division No. 3,AB,OVERLAPS,0.0131,0.0131,0.7968,20.29
+AB004001,606 townships,Medicine Hat,AB,AB193001,212. L.I.D.- D.A.L.,Division No. 5,AB,OVERLAPS,0.0149,0.015,0.8192,20.29
+AB004001,606 townships,Medicine Hat,AB,AB193005,241. Acadia,Division No. 5,AB,OVERLAPS,0.0158,0.0159,0.9053,23.21
+AB004001,606 townships,Medicine Hat,AB,AB194002,217. L.I.D.- D.A.L.,Division No. 6,AB,OVERLAPS,0.0127,0.0128,0.7919,20.29
+AB004001,606 townships,Medicine Hat,AB,AB193012,272. Golden Centre,Division No. 5,AB,OVERLAPS,0.0099,0.01,0.6647,25.09
+AB004001,606 townships,Medicine Hat,AB,AB193013,273. Sounding Creek,Division No. 5,AB,OVERLAPS,0.0098,0.0099,0.6651,29.04
+AB004001,606 townships,Medicine Hat,AB,AB193014,274. Richdale,Division No. 5,AB,OVERLAPS,0.0099,0.0099,0.6657,22.31
+AB004002,Blackfoot I R,Medicine Hat,AB,AB194024,Indian reserves,Division No. 6,AB,OVERLAPS,0.3682,0.6058,0.4841,26.54
+AB004003,Lethbridge c,Medicine Hat,AB,AB190018,"Lethbridge, C",Division No. 2,AB,SAME_AS,1.0,1.0,1.0,78.74
+AB004004,Medicine Hat c,Medicine Hat,AB,AB189023,"Medicine Hat, C",Division No. 1,AB,SAME_AS,1.0,1.0,1.0,79.12
+AB004005,Cardston t-v,Medicine Hat,AB,AB190020,"Cardston, T-V",Division No. 2,AB,SAME_AS,1.0,1.0,1.0,78.74
+AB004006,Magrath t-v,Medicine Hat,AB,AB190026,"Magrath, T-V",Division No. 2,AB,SAME_AS,1.0,1.0,1.0,78.49
+AB004007,Raymond t-v,Medicine Hat,AB,AB190028,"Raymond, T-V",Division No. 2,AB,SAME_AS,1.0,1.0,1.0,78.49
+AB004008,Taber t-v,Medicine Hat,AB,AB189026,"Taber, T-V",Division No. 1,AB,SAME_AS,1.0,1.0,1.0,77.85
+AB004999,NO DATA,Medicine Hat,AB,AB189001,1. L.I.D.-D.A.L.,Division No. 1,AB,OVERLAPS,0.052,0.0543,0.5526,29.8
+AB004999,NO DATA,Medicine Hat,AB,AB189011,35. L.I.D.-D.A.L.,Division No. 1,AB,OVERLAPS,0.052,0.0542,0.5552,29.04
+AB004999,NO DATA,Medicine Hat,AB,AB191020,211.L.I.D.- D.A.L.,Division No. 3,AB,OVERLAPS,0.069,0.0716,0.652,28.34
+AB004999,NO DATA,Medicine Hat,AB,AB191015,182. L.I.D.- D.A.L.,Division No. 3,AB,OVERLAPS,0.0812,0.0867,0.5637,27.69
+AB005001,411 townships,Red Deer,AB,AB193017,301. Canmer,Division No. 5,AB,OVERLAPS,0.0146,0.0147,0.6678,22.95
+AB005001,411 townships,Red Deer,AB,AB195011,391. Sifton,Division No. 7,AB,OVERLAPS,0.0145,0.0146,0.667,34.62
+AB005001,411 townships,Red Deer,AB,AB197004,343. Prairie Creek,Division No. 9,AB,OVERLAPS,0.0147,0.0147,0.8505,19.0
+AB005001,411 townships,Red Deer,AB,AB196015,429. Fertile Valley,Division No. 8,AB,OVERLAPS,0.0146,0.0147,0.6762,22.95
+AB005001,411 townships,Red Deer,AB,AB197010,430. Blindman,Division No. 9,AB,OVERLAPS,0.0129,0.0129,0.6764,21.61
+AB005001,411 townships,Red Deer,AB,AB197011,431. Last West,Division No. 9,AB,OVERLAPS,0.012,0.0122,0.5559,36.57
+AB005001,411 townships,Red Deer,AB,AB197008,401. Lochearn,Division No. 9,AB,OVERLAPS,0.0248,0.0249,0.9195,32.38
+AB005002,Unorganized parts,Red Deer,AB,AB197009,403. L.I.D.- D.A.L.,Division No. 9,AB,OVERLAPS,0.0372,0.0374,0.8584,21.01
+AB005002,Unorganized parts,Red Deer,AB,AB197012,432. L.I.D.- D.A.L.,Division No. 9,AB,OVERLAPS,0.0268,0.0273,0.614,21.01
+AB005002,Unorganized parts,Red Deer,AB,AB197013,"433. T. 42-44, R. 8-10, W. 5 W. N. Sask. R.",Division No. 9,AB,OVERLAPS,0.0303,0.0307,0.7299,17.12
+AB005002,Unorganized parts,Red Deer,AB,AB197020,Unorganised parts between townships 30 & 47 - W. to the provincial boundary,Division No. 9,AB,OVERLAPS,0.4603,0.7562,0.5406,29.8
+AB005004,Didsbury t-v,Red Deer,AB,AB194027,"Didsbury, T-V",Division No. 6,AB,SAME_AS,1.0,1.0,1.0,72.65
+AB005005,Innisfail t-v,Red Deer,AB,AB196027,"Innisfail, T-V",Division No. 8,AB,SAME_AS,1.0,1.0,1.0,72.86
+AB005006,Lacombe t-v,Red Deer,AB,AB196028,"Lacombe, T-V",Division No. 8,AB,SAME_AS,1.0,1.0,1.0,72.41
+AB005007,Olds t-v,Red Deer,AB,AB194029,"Olds, T-V",Division No. 6,AB,SAME_AS,1.0,1.0,1.0,71.34
+AB005008,Ponoka t-v,Red Deer,AB,AB196029,"Ponoka, T-V",Division No. 8,AB,SAME_AS,1.0,1.0,1.0,72.12
+AB005009,Red Deer t-v,Red Deer,AB,AB196022,"Red Deer, C",Division No. 8,AB,SAME_AS,1.0,1.0,1.0,60.24
+AB005010,Stettler t-v,Red Deer,AB,AB196030,"Stettler, T-V",Division No. 8,AB,SAME_AS,1.0,1.0,1.0,72.65
+AB006001,270 townships,Strathcona,AB,AB195009,364. Flagstaff,Division No. 7,AB,OVERLAPS,0.0228,0.0232,0.6094,17.87
+AB006001,270 townships,Strathcona,AB,AB195013,393. Huamha,Division No. 7,AB,OVERLAPS,0.0309,0.031,0.8869,19.17
+AB006001,270 townships,Strathcona,AB,AB195015,395. Wheatland,Division No. 7,AB,OVERLAPS,0.0231,0.0232,0.7871,23.06
+AB006001,270 townships,Strathcona,AB,AB196012,426. Melrose,Division No. 8,AB,OVERLAPS,0.0337,0.0339,0.8437,29.9
+AB006001,270 townships,Strathcona,AB,AB198002,452. Grizzly Bear,Division No. 10,AB,OVERLAPS,0.0228,0.023,0.6661,21.2
+AB006001,270 townships,Strathcona,AB,AB198003,453. Buffalo Coulee,Division No. 10,AB,OVERLAPS,0.0229,0.0232,0.6682,15.95
+AB006001,270 townships,Strathcona,AB,AB196013,427. Evergreen,Division No. 8,AB,OVERLAPS,0.0228,0.0231,0.6625,28.24
+AB006001,270 townships,Strathcona,AB,AB198004,454. Lake View,Division No. 10,AB,OVERLAPS,0.0228,0.0231,0.6656,17.57
+AB006001,270 townships,Strathcona,AB,AB196020,Indian reserves,Division No. 8,AB,OVERLAPS,0.0067,0.0067,0.5135,22.5
+AB006001,270 townships,Strathcona,AB,AB197015,460. Columbia,Division No. 9,AB,OVERLAPS,0.0308,0.0309,0.8895,29.04
+AB006001,270 townships,Strathcona,AB,AB198009,485. Patricia,Division No. 10,AB,OVERLAPS,0.0189,0.0192,0.5524,23.35
+AB006001,270 townships,Strathcona,AB,AB198010,486. Beaver Lake,Division No. 10,AB,OVERLAPS,0.023,0.0235,0.5452,12.03
+AB006005,Wetaskiwin c,Strathcona,AB,AB196023,"Wetaskiwin, C",Division No. 8,AB,SAME_AS,1.0,1.0,1.0,74.7
+AB006006,Camrose t-v,Strathcona,AB,AB196025,"Camrose, T-V",Division No. 8,AB,SAME_AS,1.0,1.0,1.0,74.46
+AB006007,Daysland t-v,Strathcona,AB,AB196026,"Daysland, T-V",Division No. 8,AB,SAME_AS,1.0,1.0,1.0,74.7
+AB006008,Leduc t-v,Strathcona,AB,AB199019,"Leduc, T-V",Division No. 11,AB,SAME_AS,1.0,1.0,1.0,73.52
+AB006009,Tofield t-v,Strathcona,AB,AB199023,"Tofield, T-V",Division No. 11,AB,SAME_AS,1.0,1.0,1.0,74.16
+AB006010,Wainwright t-v,Strathcona,AB,AB195025,"Wainwright, T-V",Division No. 7,AB,SAME_AS,1.0,1.0,1.0,75.09
+AB006999,NO DATA,Strathcona,AB,AB197016,461. L.I.D.- DA.L.,Division No. 9,AB,OVERLAPS,0.1639,0.1886,0.5566,24.3
+AB006999,NO DATA,Strathcona,AB,AB199005,491. L.I.D.- D.A.L.,Division No. 11,AB,OVERLAPS,0.1376,0.1569,0.5276,23.35
+AB006999,NO DATA,Strathcona,AB,AB197017,462. L.I.D.- DA.L.,Division No. 9,AB,OVERLAPS,0.1878,0.1949,0.8375,24.3
+AB006999,NO DATA,Strathcona,AB,AB197018,"463. T.45 - 46, R. 9-10, W. N. Sask R. & T. 44-46, R. 11-12, W. 5",Division No. 9,AB,OVERLAPS,0.1782,0.2041,0.5842,15.28
+AB007001,263 townships,Victoria,AB,AB198005,481. Wellington,Division No. 10,AB,OVERLAPS,0.0233,0.0235,0.6662,27.83
+AB007001,263 townships,Victoria,AB,AB201002,542. Lincoln,Division No. 13,AB,OVERLAPS,0.0243,0.0244,0.8185,30.23
+AB007001,263 townships,Victoria,AB,AB201003,543. Laurier,Division No. 13,AB,OVERLAPS,0.0331,0.0332,0.8939,24.63
+AB007001,263 townships,Victoria,AB,AB199006,517. Clover Bar,Division No. 11,AB,OVERLAPS,0.0307,0.0308,0.8801,17.83
+AB007001,263 townships,Victoria,AB,AB201006,572. Boucher,Division No. 13,AB,OVERLAPS,0.0234,0.0236,0.7338,30.23
+AB007001,263 townships,Victoria,AB,AB201007,573. St. Vincent,Division No. 13,AB,OVERLAPS,0.0311,0.0312,0.8912,27.14
+AB007001,263 townships,Victoria,AB,AB201009,575. Wasel,Division No. 13,AB,OVERLAPS,0.0297,0.0299,0.7915,26.09
+AB007001,263 townships,Victoria,AB,AB202001,576. Smoky Lake,Division No. 14,AB,OVERLAPS,0.0258,0.0261,0.6875,22.83
+AB007001,263 townships,Victoria,AB,AB202002,577. Unity,Division No. 14,AB,OVERLAPS,0.0218,0.0221,0.5853,26.09
+AB007001,263 townships,Victoria,AB,AB201018,634. L.I.D.- D.A.L.,Division No. 13,AB,OVERLAPS,0.0192,0.0195,0.5554,25.33
+AB007001,263 townships,Victoria,AB,AB202014,637. Cartier,Division No. 14,AB,OVERLAPS,0.0194,0.0196,0.6262,35.83
+AB007001,263 townships,Victoria,AB,AB201021,664. L.I.D.- D.A.L.,Division No. 13,AB,OVERLAPS,0.0215,0.0217,0.6632,20.95
+AB007001,263 townships,Victoria,AB,AB201001,541. L.I.D.- D.A.L.,Division No. 13,AB,OVERLAPS,0.014,0.0142,0.5648,16.58
+AB007002,Unorganized parts,Victoria,AB,AB201012,603. L.I.D.- D.A.L.,Division No. 13,AB,OVERLAPS,0.006,0.006,0.8886,23.38
+AB007002,Unorganized parts,Victoria,AB,AB201013,604. L.I.D.- D.A.L.,Division No. 13,AB,OVERLAPS,0.003,0.003,0.5707,23.38
+AB007002,Unorganized parts,Victoria,AB,AB201019,635. L.I.D.- D.A.L.,Division No. 13,AB,OVERLAPS,0.0087,0.0087,0.8168,23.38
+AB007002,Unorganized parts,Victoria,AB,AB201017,633. L.I.D.- D.A.L.,Division No. 13,AB,OVERLAPS,0.006,0.006,0.8888,23.38
+AB007002,Unorganized parts,Victoria,AB,AB201022,666. L.I.D.- D.A.L.,Division No. 13,AB,OVERLAPS,0.0015,0.0015,0.6345,23.38
+AB007002,Unorganized parts,Victoria,AB,AB201020,663. L.I.D.- D.A.L.,Division No. 13,AB,OVERLAPS,0.006,0.006,0.8885,23.38
+AB007002,Unorganized parts,Victoria,AB,AB201023,695. L.I.D.- D.A.L.,Division No. 13,AB,OVERLAPS,0.0067,0.0067,0.7234,23.38
+AB007002,Unorganized parts,Victoria,AB,AB202018,665. L.I.D.- D.A.L.,Division No. 14,AB,OVERLAPS,0.0092,0.0093,0.6483,23.38
+AB007002,Unorganized parts,Victoria,AB,AB202022,696. L.I.D.- D.A.L.,Division No. 14,AB,OVERLAPS,0.0026,0.0026,0.6339,23.38
+AB007002,Unorganized parts,Victoria,AB,AB201010,601. L.I.D.- D.A.L.,Division No. 13,AB,OVERLAPS,0.0039,0.0039,0.7141,23.38
+AB007002,Unorganized parts,Victoria,AB,AB201015,631. L.I.D.- D.A.L.,Division No. 13,AB,OVERLAPS,0.0065,0.0065,0.7524,23.38
+AB007002,Unorganized parts,Victoria,AB,AB205001,Remainder of province comprising northern parts,Division No. 17,AB,OVERLAPS,0.3774,0.8573,0.4026,34.08
+AB007004,Fort Saskatchewan t-v,Victoria,AB,AB199018,"Fort Saskatchewan, T-V",Division No. 11,AB,SAME_AS,1.0,1.0,1.0,76.2
+AB007005,Vegreville t-v,Victoria,AB,AB198021,"Vegreville, T-V",Division No. 10,AB,SAME_AS,1.0,1.0,1.0,75.41
+AB007006,Vermilion t-v,Victoria,AB,AB198022,"Vermilion, T-V",Division No. 10,AB,SAME_AS,1.0,1.0,1.0,75.23
+BC008003,Comox,Comox-Atlin,BC,BC208004,Indian reserves,Comox-Alberni,BC,OVERLAPS,0.0028,0.0028,0.627,22.5
+BC008005,Skeena,Comox-Atlin,BC,BC214003,Indian reserves,Skeena,BC,OVERLAPS,0.0013,0.0013,0.9381,23.53
+BC008007,Prince Rupert c,Comox-Atlin,BC,BC214004,"Prince Rupert, C",Skeena,BC,SAME_AS,1.0,1.0,1.0,71.27
+BC011001,Chilliwack,New Westminster,BC,BC209001,Chilliwack,Fraser Valley,BC,OVERLAPS,0.9786,0.9786,1.0,76.43
+BC011003,Dewdney,New Westminster,BC,BC209002,Dewdney,Fraser Valley,BC,SAME_AS,0.9937,0.9937,1.0,76.43
+BC011005,Yale pt,New Westminster,BC,BC209003,Yale (pt),Fraser Valley,BC,SAME_AS,0.9921,0.9921,1.0,67.68
+BC011006,Chilliwack c,New Westminster,BC,BC209005,"Chilliwack, C",Fraser Valley,BC,SAME_AS,1.0,1.0,1.0,73.63
+BC012001,Vancouver c pt,Vancouver City,BC,BC206005,"Vancouver (pt), C",Burrard,BC,OVERLAPS,0.3124,0.4687,0.4837,59.91
+BC012002,Vancouver S,Vancouver City,BC,BC216002,South Vancouver,Vancouver South,BC,SAME_AS,1.0,1.0,1.0,71.22
+BC012003,Vancouver N,Vancouver City,BC,BC208003,Richmond (pt),Comox-Alberni,BC,OVERLAPS,0.152,0.8406,0.1565,28.61
+BC012004,Point Grey,Vancouver City,BC,BC216001,Point Grey,Vancouver South,BC,OVERLAPS,0.9637,0.9637,1.0,92.76
+BC014004,Kamloops,Yale & Cariboo,BC,BC207003,Kamloops,Cariboo,BC,OVERLAPS,0.9611,0.9635,0.9975,90.0
+BC014007,Similkameen,Yale & Cariboo,BC,BC218002,Greenwood,Yale,BC,OVERLAPS,0.305,0.3331,0.7829,34.33
+BC014007,Similkameen,Yale & Cariboo,BC,BC218005,Indian reserves,Yale,BC,OVERLAPS,0.0282,0.0286,0.6956,40.26
+BC014008,Yale pt,Yale & Cariboo,BC,BC207005,Yale (pt),Cariboo,BC,OVERLAPS,0.9769,0.9769,1.0,81.25
+BC014009,Enderby c,Yale & Cariboo,BC,BC218007,"Enderby, C",Yale,BC,SAME_AS,1.0,1.0,1.0,79.65
+BC014013,Kelowna c,Yale & Cariboo,BC,BC218010,"Kelowna, C",Yale,BC,SAME_AS,1.0,1.0,1.0,79.65
+BC014016,Vernon c,Yale & Cariboo,BC,BC218011,"Vernon, C",Yale,BC,SAME_AS,1.0,1.0,1.0,79.22
+MB015004,Brandon c,Brandon,MB,MB161010,"Brandon, C",Division No. 7,MB,SAME_AS,1.0,1.0,1.0,74.89
+MB015005,Oak Lake t-v,Brandon,MB,MB162009,"Oak Lake, T-V",Division No. 8,MB,SAME_AS,1.0,1.0,1.0,75.77
+MB015006,Rivers t-v,Brandon,MB,MB162010,"Rivers, T-V",Division No. 8,MB,SAME_AS,1.0,1.0,1.0,75.24
+MB015007,Souris t-v,Brandon,MB,MB162011,"Souris, T-V",Division No. 8,MB,SAME_AS,1.0,1.0,1.0,75.24
+MB015008,Virden t-v,Brandon,MB,MB162012,"Virden, T-V",Division No. 8,MB,SAME_AS,1.0,1.0,1.0,75.24
+MB016001,282 townships,Dauphin,MB,MB164006,Rosedale,Division No. 10,MB,OVERLAPS,0.0193,0.0195,0.61,21.52
+MB016001,282 townships,Dauphin,MB,MB164002,Lakeview,Division No. 10,MB,OVERLAPS,0.0533,0.0537,0.8828,14.85
+MB016001,282 townships,Dauphin,MB,MB166001,Armstrong,Division No. 12,MB,OVERLAPS,0.0212,0.0213,0.8231,27.27
+MB016001,282 townships,Dauphin,MB,MB164001,Glenella,Division No. 10,MB,OVERLAPS,0.0284,0.0285,0.8898,14.85
+MB016001,282 townships,Dauphin,MB,MB164005,McCreary,Division No. 10,MB,OVERLAPS,0.0338,0.0338,0.9493,8.18
+MB016001,282 townships,Dauphin,MB,MB166005,Eriksdale,Division No. 12,MB,OVERLAPS,0.0284,0.0286,0.8354,20.91
+MB016001,282 townships,Dauphin,MB,MB166003,Chatfield,Division No. 12,MB,OVERLAPS,0.0246,0.0248,0.7774,20.91
+MB016001,282 townships,Dauphin,MB,MB166011,Woodlea,Division No. 12,MB,OVERLAPS,0.0176,0.0178,0.6289,15.18
+MB016001,282 townships,Dauphin,MB,MB168003,Grandview,Division No. 14,MB,OVERLAPS,0.0301,0.0304,0.7187,20.91
+MB016001,282 townships,Dauphin,MB,MB167003,Lawrence,Division No. 13,MB,OVERLAPS,0.0431,0.0442,0.6455,21.52
+MB016001,282 townships,Dauphin,MB,MB167002,Ethelbert,Division No. 13,MB,OVERLAPS,0.038,0.0381,0.9156,20.91
+MB016001,282 townships,Dauphin,MB,MB167004,Mossy River,Division No. 13,MB,OVERLAPS,0.0445,0.0449,0.8126,25.68
+MB016001,282 townships,Dauphin,MB,MB169002,Swan River,Division No. 15,MB,OVERLAPS,0.0562,0.0565,0.892,26.44
+MB016001,282 townships,Dauphin,MB,MB169001,Minitonas,Division No. 15,MB,OVERLAPS,0.0366,0.0369,0.8432,33.64
+MB016002,Indian Reserves,Dauphin,MB,MB166012,Indian reserves,Division No. 12,MB,OVERLAPS,0.0832,0.0866,0.6767,78.18
+MB016002,Indian Reserves,Dauphin,MB,MB167008,Indian reserves,Division No. 13,MB,OVERLAPS,0.135,0.138,0.858,78.18
+MB016003,Dauphin t-v,Dauphin,MB,MB167009,"Dauphin, T-V",Division No. 13,MB,SAME_AS,1.0,1.0,1.0,75.14
+MB016004,Grand View t-v,Dauphin,MB,MB168012,"Grandview, T-V",Division No. 14,MB,SAME_AS,1.0,1.0,1.0,73.18
+MB016005,Swan River t-v,Dauphin,MB,MB166012,Indian reserves,Division No. 12,MB,OVERLAPS,0.3128,0.9054,0.3233,41.97
+MB016999,NO DATA,Dauphin,MB,MB167007,"Unorganized parts north of tp. 20 and lying between  the municipalities of Ste. Rose, Lawrence and Lake Manitoba",Division No. 13,MB,OVERLAPS,0.0331,0.034,0.5351,16.42
+MB016999,NO DATA,Dauphin,MB,MB169003,Unorganized parts between tps. 27 & 35 and   R.  23 W.P.M. and  the provincial boundary,Division No. 15,MB,OVERLAPS,0.059,0.0598,0.8264,18.61
+MB016999,NO DATA,Dauphin,MB,MB170001,Unorganized northern parts,Division No. 16,MB,OVERLAPS,0.0621,0.8046,0.0631,29.39
+MB017001,47 townships,Lisgar,MB,MB156006,Roland,Division No. 2,MB,OVERLAPS,0.052,0.0549,0.5029,21.56
+MB017002,Morden t-v,Lisgar,MB,MB156011,"Morden, T-V",Division No. 2,MB,SAME_AS,1.0,1.0,1.0,72.67
+MB018001,104 townships,Macdonald,MB,MB156008,Thompson,Division No. 2,MB,OVERLAPS,0.0298,0.0305,0.5446,34.49
+MB018001,104 townships,Macdonald,MB,MB160001,Cartier,Division No. 6,MB,OVERLAPS,0.0404,0.041,0.706,21.83
+MB018001,104 townships,Macdonald,MB,MB163004,Rosser,Division No. 9,MB,OVERLAPS,0.027,0.0276,0.5767,29.93
+MB018001,104 townships,Macdonald,MB,MB166009,St. Laurent,Division No. 12,MB,OVERLAPS,0.0869,0.0878,0.8946,19.17
+MB018002,Baie St. Paul pr,Macdonald,MB,MB163006,St. Francois Xavier,Division No. 9,MB,OVERLAPS,0.3111,0.5962,0.3942,35.83
+MB018003,Poplar Point pr,Macdonald,MB,MB160007,Portage la Prairie,Division No. 6,MB,OVERLAPS,0.0199,0.7487,0.02,41.77
+MB018004,Headingly pr,Macdonald,MB,MB160002,Charleswood,Division No. 6,MB,OVERLAPS,0.3453,0.5166,0.5101,26.09
+MB018004,Headingly pr,Macdonald,MB,MB163001,Assiniboia,Division No. 9,MB,OVERLAPS,0.3373,0.4834,0.5274,26.92
+MB018007,St. Charles pr,Macdonald,MB,MB160015,"Tuxedo, T-V",Division No. 6,MB,OVERLAPS,0.1193,0.1258,0.7002,24.63
+MB018007,St. Charles pr,Macdonald,MB,MB160013,"Winnipeg, C",Division No. 6,MB,OVERLAPS,0.258,0.3139,0.5915,19.03
+MB018008,St. Francois Xavier pr,Macdonald,MB,MB163006,St. Francois Xavier,Division No. 9,MB,OVERLAPS,0.3486,0.5085,0.5258,72.7
+MB018009,St. James pr,Macdonald,MB,MB163001,Assiniboia,Division No. 9,MB,OVERLAPS,0.23,0.5395,0.2862,20.55
+MB018010,Notre Dame de Lourdes pr,Macdonald,MB,MB157002,Lorne,Division No. 3,MB,OVERLAPS,0.0015,0.5161,0.0015,27.14
+MB018012,Carman t-v,Macdonald,MB,MB160014,"Carman, T-V",Division No. 6,MB,SAME_AS,1.0,1.0,1.0,74.49
+MB019001,128 townships,Marquette,MB,MB168001,Boulton,Division No. 14,MB,OVERLAPS,0.0316,0.0321,0.669,21.0
+MB019001,128 townships,Marquette,MB,MB168004,Hillsburg,Division No. 14,MB,OVERLAPS,0.0352,0.036,0.6276,19.09
+MB019002,Indian Reserves,Marquette,MB,MB168011,Indian reserves,Division No. 14,MB,OVERLAPS,0.3886,0.481,0.6693,70.0
+MB019003,Birtle t-v,Marquette,MB,MB165015,"Birtle, T-V",Division No. 11,MB,SAME_AS,1.0,1.0,1.0,66.67
+MB019004,Minnedosa t-v,Marquette,MB,MB165016,"Minnedosa, T-V",Division No. 11,MB,SAME_AS,1.0,1.0,1.0,67.41
+MB019005,Rapid City vl,Marquette,MB,MB165017,"Rapid City, T-V",Division No. 11,MB,SAME_AS,1.0,1.0,1.0,60.0
+MB019999,NO DATA,Marquette,MB,MB168010,Unorganized territory between tps . 18 & 23 r. 16 & 26 W.P.M.,Division No. 14,MB,OVERLAPS,0.2525,0.633,0.2957,8.24
+MB020001,74 townships,Portage La Prairie,MB,MB160007,Portage la Prairie,Division No. 6,MB,OVERLAPS,0.1968,0.2206,0.6466,14.96
+MB020001,74 townships,Portage La Prairie,MB,MB164007,Westbourne,Division No. 10,MB,OVERLAPS,0.1232,0.1296,0.7128,24.55
+MB020001,74 townships,Portage La Prairie,MB,MB164004,Lansdowne,Division No. 10,MB,OVERLAPS,0.0496,0.0522,0.5009,25.45
+MB020004,Carberry t-v,Portage La Prairie,MB,MB161011,"Carberry, T-V",Division No. 7,MB,SAME_AS,1.0,1.0,1.0,72.82
+MB020005,Gladstone t-v,Portage La Prairie,MB,MB164009,"Gladstone, T-V",Division No. 10,MB,SAME_AS,1.0,1.0,1.0,72.86
+MB020006,Neepawa t-v,Portage La Prairie,MB,MB164010,"Neepawa, T-V",Division No. 10,MB,SAME_AS,1.0,1.0,1.0,72.41
+MB020007,Portage la Prairie t-v,Portage La Prairie,MB,MB160011,"Portage la Prairie, C",Division No. 6,MB,SAME_AS,1.0,1.0,1.0,67.49
+MB021001,104 townships,Provencher,MB,MB155006,Sprague,Division No. 1,MB,OVERLAPS,0.075,0.08,0.5424,19.0
+MB021001,104 townships,Provencher,MB,MB156002,Franklin,Division No. 2,MB,OVERLAPS,0.1001,0.1006,0.949,18.33
+MB021001,104 townships,Provencher,MB,MB156001,De Salaberry,Division No. 2,MB,OVERLAPS,0.0543,0.0553,0.7458,16.2
+MB021001,104 townships,Provencher,MB,MB155005,Ste Anne,Division No. 1,MB,OVERLAPS,0.0633,0.064,0.8597,18.33
+MB021001,104 townships,Provencher,MB,MB160008,Ritchot,Division No. 6,MB,OVERLAPS,0.0257,0.026,0.6886,19.0
+MB021010,St. Norbert pr,Provencher,MB,MB160008,Ritchot,Division No. 6,MB,OVERLAPS,0.2414,0.5453,0.3022,25.0
+MB021010,St. Norbert pr,Provencher,MB,MB160004,Fort Garry,Division No. 6,MB,OVERLAPS,0.1988,0.2282,0.6071,34.17
+MB021010,St. Norbert pr,Provencher,MB,MB160009,St. Vital,Division No. 6,MB,OVERLAPS,0.2064,0.2265,0.6993,35.43
+MB021999,NO DATA,Provencher,MB,MB155009,Unorganized parts between tps 10 & 3 EPM to the provincial boundary,Division No. 1,MB,OVERLAPS,0.599,0.6881,0.8223,16.35
+MB021999,NO DATA,Provencher,MB,MB155001,Birch River,Division No. 1,MB,OVERLAPS,0.1201,0.1305,0.6001,12.78
+MB022001,134 townships,Selkirk,MB,MB159013,"Transcona, T-V",Division No. 5,MB,OVERLAPS,0.0015,0.0015,0.8394,21.27
+MB022001,134 townships,Selkirk,MB,MB159007,Springfield,Division No. 5,MB,OVERLAPS,0.1148,0.1165,0.8853,17.38
+MB022001,134 townships,Selkirk,MB,MB159009,Whitemouth,Division No. 5,MB,OVERLAPS,0.0407,0.0413,0.733,23.98
+MB022001,134 townships,Selkirk,MB,MB159004,Lac du Bonnet,Division No. 5,MB,OVERLAPS,0.0632,0.0656,0.6363,21.87
+MB022001,134 townships,Selkirk,MB,MB163005,St. Andrews,Division No. 9,MB,OVERLAPS,0.0536,0.0543,0.8092,23.21
+MB022001,134 townships,Selkirk,MB,MB159005,St. Clements,Division No. 5,MB,OVERLAPS,0.0934,0.0966,0.7352,22.51
+MB022001,134 townships,Selkirk,MB,MB166002,Bifrost,Division No. 12,MB,OVERLAPS,0.1642,0.1712,0.8009,19.45
+MB022002,Kildonan,Selkirk,MB,MB159003,Kildonan E,Division No. 5,MB,OVERLAPS,0.4414,0.4544,0.9393,67.94
+MB022003,St. Andrews,Selkirk,MB,MB163005,St. Andrews,Division No. 9,MB,OVERLAPS,0.0888,0.538,0.0961,75.71
+MB022004,St. Clements,Selkirk,MB,MB159005,St. Clements,Division No. 5,MB,OVERLAPS,0.0232,0.6763,0.0235,75.71
+MB022005,St. Pauls,Selkirk,MB,MB163008,St. Paul W,Division No. 9,MB,OVERLAPS,0.4097,0.5555,0.6094,64.66
+MB022006,St. Peters,Selkirk,MB,MB159005,St. Clements,Division No. 5,MB,OVERLAPS,0.022,0.5277,0.0224,50.26
+MB022009,Unorganized parts,Selkirk,MB,MB170002,Indian reserves,Division No. 16,MB,OVERLAPS,0.0197,0.6169,0.0199,31.7
+MB022011,Selkirk t-v,Selkirk,MB,MB163010,"Selkirk, T-V",Division No. 9,MB,SAME_AS,1.0,1.0,1.0,72.67
+MB022012,Stonewall t-v,Selkirk,MB,MB163011,"Stonewall, T-V",Division No. 9,MB,SAME_AS,1.0,1.0,1.0,73.12
+MB022999,NO DATA,Selkirk,MB,MB159010,Unorganized parts between tps. 9 & 21 E.P.M. to the provincial boundary,Division No. 5,MB,OVERLAPS,0.1115,0.1138,0.8475,16.48
+MB022999,NO DATA,Selkirk,MB,MB159002,Fort Alexander,Division No. 5,MB,OVERLAPS,0.0212,0.0213,0.8011,32.38
+MB022999,NO DATA,Selkirk,MB,MB170001,Unorganized northern parts,Division No. 16,MB,OVERLAPS,0.0631,0.82,0.064,26.67
+MB023001,103 townships,Souris,MB,MB158006,Morton,Division No. 4,MB,OVERLAPS,0.1067,0.1078,0.9172,28.11
+MB023002,Boissevain t-v,Souris,MB,MB158009,"Boissevain, T-V",Division No. 4,MB,SAME_AS,1.0,1.0,1.0,73.59
+MB023003,Deloraine t-v,Souris,MB,MB158010,"Deloraine, T-V",Division No. 4,MB,SAME_AS,1.0,1.0,1.0,73.41
+MB023004,Hartney t-v,Souris,MB,MB158011,"Hartney, T-V",Division No. 4,MB,SAME_AS,1.0,1.0,1.0,72.96
+MB023005,Killarney t-v,Souris,MB,MB157010,"Killarney, T-V",Division No. 3,MB,SAME_AS,1.0,1.0,1.0,73.41
+MB023006,Melita t-v,Souris,MB,MB158012,"Melita, T-V",Division No. 4,MB,SAME_AS,1.0,1.0,1.0,72.67
+NB028009,Weldford,Kent,NB,NB026012,Indian reserves,Kent,NB,OVERLAPS,0.0193,0.0194,0.9321,42.17
+NB033018,Gagetown vl,Sunbury & Queens,NB,NB030011,"Gagetown, T-V",Queens,NB,SAME_AS,1.0,1.0,1.0,74.7
+NS037001,Bear River,Annapolis,NS,NS004028,Indian reserves,Annapolis,NS,OVERLAPS,0.065,0.0654,0.9032,58.0
+NS037008,Dalhousie,Annapolis,NS,NS004018,Morse Road (Dalhousie),Annapolis,NS,SAME_AS,1.0,1.0,1.0,70.65
+NS037010,Granville Lower,Annapolis,NS,NS004026,Thornes Cove (Granville Lower),Annapolis,NS,SAME_AS,1.0,1.0,1.0,76.67
+NS037016,Meadowvale,Annapolis,NS,NS004027,Torbrook (Meadowvale),Annapolis,NS,SAME_AS,1.0,1.0,1.0,75.16
+NS037018,Middleton,Annapolis,NS,NS004003,Brooklyn E. (Middleton),Annapolis,NS,SAME_AS,1.0,1.0,1.0,69.38
+NS038002,Antigonish S.,Antigonish,NS,NS005001,Antigonish (Rural),Antigonish,NS,SAME_AS,1.0,1.0,1.0,79.68
+NS038006,Heatherton,Antigonish,NS,NS005005,Heatherton,Antigonish,NS,OVERLAPS,0.9718,0.9718,1.0,100.0
+NS038016,Upper South River,Antigonish,NS,NS005016,"South River, Upper",Antigonish,NS,SAME_AS,1.0,1.0,1.0,74.0
+NS039008,Cape North,Cape Breton N. & Victoria,NS,NS020007,Cape N.,Victoria,NS,SAME_AS,1.0,1.0,1.0,63.96
+NS039009,East Bay North,Cape Breton N. & Victoria,NS,NS006008,Indian reserves,Cape Breton,NS,OVERLAPS,0.1419,0.1645,0.5084,32.82
+NS040012,Lingan,Cape Breton S.,NS,NS006021,Lingan (South Bar),Cape Breton,NS,OVERLAPS,0.9747,0.9747,1.0,61.4
+NS040021,Sydney c,Cape Breton S.,NS,NS006028,"Sydney, C",Cape Breton,NS,OVERLAPS,0.9791,0.9791,1.0,92.28
+NS043004,Comeauville,Digby,NS,NS009021,Saulnierville,Digby,NS,OVERLAPS,0.2285,0.2831,0.5425,70.83
+NS043013,New Tusket,Digby,NS,NS009015,New Tusket & Havelock,Digby,NS,SAME_AS,1.0,1.0,1.0,75.16
+NS043017,Sandy Cove,Digby,NS,NS009020,Sandy Cove & Centreville,Digby,NS,SAME_AS,1.0,1.0,1.0,71.18
+NS044006,Forks,Guysborough,NS,NS010006,Glenelg (Forks),Guysborough,NS,SAME_AS,1.0,1.0,1.0,65.0
+NS045004,Cole Harbour,Halifax City & County,NS,NS011004,Cole Harbour (Imperial),Halifax,NS,SAME_AS,0.9945,0.9945,1.0,63.0
+NS045028,Sackville,Halifax City & County,NS,NS011042,Indian reserves,Halifax,NS,OVERLAPS,0.0172,0.0172,0.8562,32.5
+NS045038,Upper Musquodoboit,Halifax City & County,NS,NS011023,Musquodoboit Upper,Halifax,NS,SAME_AS,1.0,1.0,1.0,61.67
+NS046001,Avondale,Hants,NS,NS012001,Avondale (Newport Sounding),Hants,NS,SAME_AS,1.0,1.0,1.0,62.0
+NS046015,South Newport,Hants,NS,NS012014,South Newport (Brooklyn),Hants,NS,SAME_AS,1.0,1.0,1.0,79.19
+NS048008,Horton,Kings,NS,NS014015,Indian reserves,Kings,NS,OVERLAPS,0.0051,0.0051,0.8503,36.67
+NS049028,New Ross,Lunenburg,NS,NS015042,Indian reserves,Lunenburg,NS,OVERLAPS,0.01,0.01,0.6134,60.43
+NS049031,Petite Rivière,Lunenburg,NS,NS015033,Petite Rivière & Broad Cove,Lunenburg,NS,SAME_AS,1.0,1.0,1.0,77.8
+NS049036,Rose Bay,Lunenburg,NS,NS015036,Rose Bay (Cross Roads),Lunenburg,NS,SAME_AS,1.0,1.0,1.0,67.33
+NS050001,Abercrombie,Pictou,NS,NS016001,Abercrombie & Granton,Pictou,NS,SAME_AS,1.0,1.0,1.0,78.12
+NS050013,Fisher Grant,Pictou,NS,NS016013,Fisher Grant,Pictou,NS,OVERLAPS,0.9711,0.9711,1.0,100.0
+NS050013,Fisher Grant,Pictou,NS,NS016035,Indian reserves,Pictou,NS,OVERLAPS,0.0287,0.0289,0.8467,50.74
+NS052001,Barrington Head,Shelburne & Queens,NS,NS019001,Barrington Head & Passage,Shelburne,NS,SAME_AS,1.0,1.0,1.0,72.5
+NS052002,Brookfield,Shelburne & Queens,NS,NS017001,Brookfield N.,Queens,NS,SAME_AS,1.0,1.0,1.0,75.87
+NS052004,Caledonia,Shelburne & Queens,NS,NS017003,Caledonia,Queens,NS,OVERLAPS,0.9516,0.9516,1.0,85.0
+NS052008,Clark Harbour,Shelburne & Queens,NS,NS019016,"Clarks Harbour, T-V",Shelburne,NS,SAME_AS,1.0,1.0,1.0,76.88
+NS053002,Argyle Head,Yarmouth,NS,NS021003,Argyle Head & Lower Argyle,Yarmouth,NS,SAME_AS,1.0,1.0,1.0,71.62
+NS053018,Rockville,Yarmouth,NS,NS021017,Rockville,Yarmouth,NS,OVERLAPS,0.9588,0.9588,1.0,100.0
+NS053019,Tusket,Yarmouth,NS,NS021018,Tusket,Yarmouth,NS,OVERLAPS,0.9627,0.9627,1.0,100.0
+NT218999,NO DATA,Northwest Territories,NT,ON102999,NO DATA,Algoma,ON,OVERLAPS,0.0144,0.0146,0.5151,72.22
+NT218999,NO DATA,Northwest Territories,NT,ON147035,Indian reserves,Thunder Bay,ON,OVERLAPS,0.0001,0.0001,0.6384,26.59
+NT218999,NO DATA,Northwest Territories,NT,ON120041,Unorganized parts,Kenora,ON,OVERLAPS,0.0232,0.0234,0.7374,35.83
+NT218999,NO DATA,Northwest Territories,NT,QC086999,NO DATA,Saguenay,QC,OVERLAPS,0.1584,0.1685,0.7257,74.14
+NT218999,NO DATA,Northwest Territories,NT,ON147034,Other parts,Thunder Bay,ON,OVERLAPS,0.0379,0.0389,0.594,38.61
+NT218999,NO DATA,Northwest Territories,NT,MB170001,Unorganized northern parts,Division No. 16,MB,OVERLAPS,0.0886,0.0898,0.8631,26.21
+ON054002,Allan,Algoma E,ON,ON127001,Allan,Manitoulin,ON,SAME_AS,1.0,1.0,1.0,76.67
+ON054003,Assiginack,Algoma E,ON,ON127002,Assiginack,Manitoulin,ON,SAME_AS,1.0,1.0,1.0,76.67
+ON054004,Baldwin,Algoma E,ON,ON146006,Baldwin,Sudbury,ON,SAME_AS,1.0,1.0,1.0,70.0
+ON054006,Barrie Island,Algoma E,ON,ON127003,Barrie Island,Manitoulin,ON,SAME_AS,1.0,1.0,1.0,76.67
+ON054007,Bidwell,Algoma E,ON,ON127004,BidweIl,Manitoulin,ON,SAME_AS,1.0,1.0,1.0,66.67
+ON054008,Billings,Algoma E,ON,ON127005,Billings,Manitoulin,ON,OVERLAPS,0.6788,0.7547,0.8709,76.67
+ON054012,Burpee,Algoma E,ON,ON127006,Burpee,Manitoulin,ON,SAME_AS,1.0,1.0,1.0,76.67
+ON054013,Campbell,Algoma E,ON,ON127007,Campbell,Manitoulin,ON,SAME_AS,1.0,1.0,1.0,76.67
+ON054016,Cartier,Algoma E,ON,ON146019,Cartier,Sudbury,ON,SAME_AS,1.0,1.0,1.0,70.0
+ON054017,Chapleau,Algoma E,ON,ON146022,Chapleau,Sudbury,ON,SAME_AS,0.9884,1.0,0.9884,70.0
+ON054019,Cockburn,Algoma E,ON,ON127010,Cockburn,Manitoulin,ON,SAME_AS,0.9801,0.9801,1.0,76.67
+ON054022,Creighton,Algoma E,ON,ON146028,Creighton,Sudbury,ON,SAME_AS,1.0,1.0,1.0,70.0
+ON054023,Dawson,Algoma E,ON,ON127011,Dawson,Manitoulin,ON,SAME_AS,1.0,1.0,1.0,76.67
+ON054025,Denison,Algoma E,ON,ON146031,Denison,Sudbury,ON,SAME_AS,1.0,1.0,1.0,70.0
+ON054026,Denton,Algoma E,ON,ON148054,Denton,Timiskaming,ON,SAME_AS,1.0,1.0,1.0,76.32
+ON054027,Doloro,Algoma E,ON,ON148053,Deloro,Timiskaming,ON,SAME_AS,1.0,1.0,1.0,64.65
+ON054028,Dowling,Algoma E,ON,ON146033,Dowling,Sudbury,ON,SAME_AS,1.0,1.0,1.0,70.0
+ON054029,Drury,Algoma E,ON,ON146034,Drury,Sudbury,ON,SAME_AS,0.9999,1.0,0.9999,70.0
+ON054030,Duck Island,Algoma E,ON,ON127012,Duck Island,Manitoulin,ON,SAME_AS,1.0,1.0,1.0,76.67
+ON054035,Foster,Algoma E,ON,ON146042,Foster,Sudbury,ON,SAME_AS,1.0,1.0,1.0,70.0
+ON054038,Gordon,Algoma E,ON,ON127013,Gordon,Manitoulin,ON,OVERLAPS,0.9773,1.0,0.9773,76.67
+ON054039,Gough,Algoma E,ON,ON146047,Gough,Sudbury,ON,SAME_AS,1.0,1.0,1.0,70.0
+ON054041,Graham,Algoma E,ON,ON146049,Graham,Sudbury,ON,SAME_AS,0.9998,0.9998,1.0,70.0
+ON054044,Harrow,Algoma E,ON,ON146055,Harrow,Sudbury,ON,SAME_AS,1.0,1.0,1.0,70.0
+ON054046,Hess,Algoma E,ON,ON146061,Hess,Sudbury,ON,SAME_AS,1.0,1.0,1.0,70.0
+ON054047,Howland,Algoma E,ON,ON127014,Howland,Manitoulin,ON,OVERLAPS,0.9516,0.9516,1.0,76.67
+ON054054,Lorne,Algoma E,ON,ON146074,Lorne,Sudbury,ON,SAME_AS,1.0,1.0,1.0,70.0
+ON054055,Louise,Algoma E,ON,ON146076,Louise,Sudbury,ON,SAME_AS,1.0,1.0,1.0,70.0
+ON054057,Lumsden,Algoma E,ON,ON146077,Lumsden,Sudbury,ON,SAME_AS,1.0,1.0,1.0,70.0
+ON054058,MacKinnon,Algoma E,ON,ON146081,Mackinnon,Sudbury,ON,SAME_AS,1.0,1.0,1.0,70.0
+ON054059,May,Algoma E,ON,ON146087,May,Sudbury,ON,SAME_AS,1.0,1.0,1.0,70.0
+ON054060,Merritt,Algoma E,ON,ON146088,Merritt,Sudbury,ON,OVERLAPS,0.9727,0.9727,1.0,70.0
+ON054062,Mills,Algoma E,ON,ON127015,Mills,Manitoulin,ON,SAME_AS,1.0,1.0,1.0,76.67
+ON054063,Mountjoy,Algoma E,ON,ON148133,Mount Joy,Timiskaming,ON,OVERLAPS,0.9721,0.9721,1.0,72.2
+ON054065,Nairn,Algoma E,ON,ON146093,Nairn,Sudbury,ON,SAME_AS,1.0,1.0,1.0,70.0
+ON054068,Ogden,Algoma E,ON,ON148142,Ogden,Timiskaming,ON,SAME_AS,1.0,1.0,1.0,76.32
+ON054075,Price & Fripp,Algoma E,ON,ON148177,Tisdale & Porcupine District,Timiskaming,ON,OVERLAPS,0.0316,0.5062,0.0327,30.22
+ON054078,Rayside,Algoma E,ON,ON146103,Rayside,Sudbury,ON,SAME_AS,1.0,1.0,1.0,70.0
+ON054082,Rutherford,Algoma E,ON,ON127017,Rutherford,Manitoulin,ON,SAME_AS,1.0,1.0,1.0,76.67
+ON054083,Salter,Algoma E,ON,ON146105,Salter,Sudbury,ON,SAME_AS,1.0,1.0,1.0,70.0
+ON054084,Sandfield,Algoma E,ON,ON127018,Sandfield,Manitoulin,ON,SAME_AS,1.0,1.0,1.0,76.67
+ON054085,Shakespeare,Algoma E,ON,ON146110,Shakespeare,Sudbury,ON,SAME_AS,1.0,1.0,1.0,70.0
+ON054086,Shaw,Algoma E,ON,ON148161,Shaw,Timiskaming,ON,SAME_AS,1.0,1.0,1.0,76.32
+ON054089,Snider,Algoma E,ON,ON146112,Snider,Sudbury,ON,SAME_AS,1.0,1.0,1.0,70.0
+ON054092,Tehkummah,Algoma E,ON,ON127020,Tehkummah,Manitoulin,ON,SAME_AS,1.0,1.0,1.0,76.67
+ON054095,Thornloe,Algoma E,ON,ON148176,Thornelow,Timiskaming,ON,SAME_AS,1.0,1.0,1.0,63.96
+ON054096,Tisdale tp & Porcupine district,Algoma E,ON,ON148177,Tisdale & Porcupine District,Timiskaming,ON,OVERLAPS,0.0177,0.0178,0.7061,72.76
+ON054096,Tisdale tp & Porcupine district,Algoma E,ON,ON148191,Unsurveyed parts N of Transcontinental R,Timiskaming,ON,OVERLAPS,0.4235,0.4928,0.7508,33.92
+ON054098,Trill,Algoma E,ON,ON146120,Trill,Sudbury,ON,SAME_AS,1.0,1.0,1.0,70.0
+ON054099,Turnbull,Algoma E,ON,ON148181,Turnbull,Timiskaming,ON,SAME_AS,0.9999,0.9999,1.0,76.32
+ON054101,Waters,Algoma E,ON,ON146124,Waters,Sudbury,ON,SAME_AS,1.0,1.0,1.0,70.0
+ON054103,Whitesides,Algoma E,ON,ON148184,Whitesides,Timiskaming,ON,SAME_AS,1.0,1.0,1.0,76.32
+ON054104,Whitney,Algoma E,ON,ON148185,Whitney,Timiskaming,ON,SAME_AS,1.0,1.0,1.0,76.32
+ON054107,Other parts,Algoma E,ON,ON146129,Indian reserves,Sudbury,ON,OVERLAPS,0.0048,0.0048,0.9332,16.15
+ON054107,Other parts,Algoma E,ON,ON146999,NO DATA,Sudbury,ON,OVERLAPS,0.4991,0.531,0.8924,31.11
+ON054108,Chapleau I R,Algoma E,ON,ON146129,Indian reserves,Sudbury,ON,OVERLAPS,0.0295,0.8949,0.0296,15.56
+ON054111,Thessalon I R,Algoma E,ON,ON102107,Indian reserves,Algoma,ON,OVERLAPS,0.438,0.8932,0.4622,45.71
+ON054114,Chelmsford t-v,Algoma E,ON,ON146131,"Chelmsford, T-V",Sudbury,ON,SAME_AS,1.0,1.0,1.0,67.59
+ON054115,Gore Bay t-v,Algoma E,ON,ON127023,"Gore Bay, T-V",Manitoulin,ON,SAME_AS,1.0,1.0,1.0,73.87
+ON054116,Little Current t-v,Algoma E,ON,ON127024,"Little Current, T-V",Manitoulin,ON,SAME_AS,1.0,1.0,1.0,74.77
+ON054117,Massey t-v,Algoma E,ON,ON146133,"Massey, T-V",Sudbury,ON,SAME_AS,1.0,1.0,1.0,66.67
+ON054119,Webbwood t-v,Algoma E,ON,ON146135,"Webbwood, T-V",Sudbury,ON,SAME_AS,1.0,1.0,1.0,67.2
+ON055012,Kars,Algoma W-O,ON,ON102999,NO DATA,Algoma,ON,OVERLAPS,0.0003,0.8893,0.0003,35.23
+ON055017,Meredith,Algoma W-O,ON,ON102001,Aberdeen,Algoma,ON,OVERLAPS,0.2442,0.5005,0.323,48.75
+ON055028,Other parts-autre parties,Algoma W-O,ON,ON102015,Ebbs,Algoma,ON,OVERLAPS,0.0047,0.0047,0.8283,32.16
+ON055028,Other parts-autre parties,Algoma W-O,ON,ON102999,NO DATA,Algoma,ON,OVERLAPS,0.1572,0.5571,0.1796,44.38
+ON055029,Transcontinental Ry,Algoma W-O,ON,ON102084,Stoddart,Algoma,ON,OVERLAPS,0.0062,0.502,0.0062,43.24
+ON055031,Goulais Bay I R,Algoma W-O,ON,ON102107,Indian reserves,Algoma,ON,OVERLAPS,0.003,0.5421,0.003,41.17
+ON055032,Garden River I R,Algoma W-O,ON,ON102107,Indian reserves,Algoma,ON,OVERLAPS,0.3618,0.6627,0.4435,49.6
+ON055036,Steelton t-v,Algoma W-O,ON,ON102046,Korah,Algoma,ON,OVERLAPS,0.0242,0.8988,0.0242,30.74
+ON056004,Onondago,Brant,ON,ON103006,Tuscarora,Brant,ON,OVERLAPS,0.5649,0.611,0.8821,46.47
+ON058001,Elizabeth town,Brockville,ON,ON124004,Elizabethtown,Leeds,ON,SAME_AS,1.0,1.0,1.0,75.41
+ON058002,Yonge & Escott front,Brockville,ON,ON124009,Yonge & Escott Front,Leeds,ON,SAME_AS,1.0,1.0,1.0,78.0
+ON058003,Yonge & Escott rear,Brockville,ON,ON124010,Yonge & Escott Rear,Leeds,ON,SAME_AS,1.0,1.0,1.0,78.0
+ON058004,Brockville t-v,Brockville,ON,ON124011,"Brockville, T-V",Leeds,ON,SAME_AS,1.0,1.0,1.0,75.59
+ON058005,Athens vl,Brockville,ON,ON124013,"Athens, VL",Leeds,ON,SAME_AS,1.0,1.0,1.0,74.32
+ON059001,Albemarle & Cape Croker I R,Bruce N,ON,ON104017,Indian reserves,Bruce,ON,OVERLAPS,0.1757,0.2003,0.5886,45.0
+ON061009,Hintonburg Ottawa city part,Carleton,ON,ON105011,"Ottawa, C",Carleton,ON,OVERLAPS,0.0835,0.8563,0.0847,61.11
+ON067005,Sandwich W-O,Essex N,ON,ON110013,Sandwich W-O,Essex,ON,OVERLAPS,0.9732,0.9732,1.0,95.0
+ON068015,Tilbury t-v part,Essex S,ON,ON110026,"Tilbury (pt), T-V",Essex,ON,SAME_AS,1.0,1.0,1.0,71.67
+ON069018,Wolfe Island,Frontenac,ON,ON111016,Wolfe Island & Garden Island,Frontenac,ON,SAME_AS,0.9978,1.0,0.9978,72.0
+ON071005,Wolford,Grenville,ON,ON113005,Wolford,Grenville,ON,OVERLAPS,0.9783,0.9783,1.0,100.0
+ON079011,Thurlow,Hastings E,ON,ON118019,Thurlow,Hastings,ON,OVERLAPS,0.9605,0.9605,1.0,96.67
+ON080007,Marmora,Hastings W-O,ON,ON118013,Marmora & Lake,Hastings,ON,SAME_AS,0.9957,0.9957,1.0,70.67
+ON080009,Sydney,Hastings W-O,ON,ON118018,Sidney,Hastings,ON,OVERLAPS,0.9504,0.9504,1.0,82.33
+ON085001,Dover E } Dover W-O,Kent W-O,ON,ON121003,Dover E & W,Kent,ON,SAME_AS,1.0,1.0,1.0,66.67
+ON085005,Romney,Kent W-O,ON,ON121008,Ramney,Kent,ON,OVERLAPS,0.9783,0.9783,1.0,78.33
+ON085009,Tilbury t-v part,Kent W-O,ON,ON121017,"Tilbury (pt), T-V",Kent,ON,SAME_AS,1.0,1.0,1.0,66.67
+ON086001,Kingston c,Kingston,ON,ON111017,"Kingston, C",Frontenac,ON,SAME_AS,1.0,1.0,1.0,77.25
+ON086002,Portsmouth vl,Kingston,ON,ON111018,"Portsmouth, VL",Frontenac,ON,SAME_AS,1.0,1.0,1.0,78.0
+ON087001,Bosanquet,Lambton East,ON,ON122011,Indian reserves,Lambton,ON,OVERLAPS,0.0565,0.0586,0.6011,39.61
+ON087003,Enniskillen,Lambton East,ON,ON122018,"Oil Springs, VL",Lambton,ON,OVERLAPS,0.016,0.0162,0.7001,43.64
+ON088005,Sombra & Walpole Is,Lambton W-O,ON,ON121011,Indian reserves,Kent,ON,OVERLAPS,0.3399,0.3494,0.926,20.47
+ON088006,Sarnia t-v,Lambton W-O,ON,ON122012,"Sarnia, C",Lambton,ON,SAME_AS,1.0,1.0,1.0,74.91
+ON090009,Smiths Falls t-v,Lanark S,ON,ON123018,"Smiths Falls, T-V",Lanark,ON,OVERLAPS,0.9583,1.0,0.9583,93.59
+ON093009,St Catharines c,Lincoln,ON,ON126004,Grantham,Lincoln,ON,OVERLAPS,0.1449,0.8509,0.1487,54.35
+ON099003,Appleby,Nipissing,ON,ON146002,Appleby,Sudbury,ON,SAME_AS,1.0,1.0,1.0,73.75
+ON099004,Armstrong,Nipissing,ON,ON148003,Armstrong,Timiskaming,ON,OVERLAPS,0.9729,0.9729,1.0,88.0
+ON099011,Blezard,Nipissing,ON,ON146013,Blezard,Sudbury,ON,SAME_AS,1.0,1.0,1.0,73.75
+ON099015,Bowman,Nipissing,ON,ON148025,Bowman,Timiskaming,ON,OVERLAPS,0.9726,0.9726,1.0,88.0
+ON099018,Broder,Nipissing,ON,ON146014,Broder,Sudbury,ON,SAME_AS,1.0,1.0,1.0,73.75
+ON099023,Calvert,Nipissing,ON,ON148036,Calvert,Timiskaming,ON,OVERLAPS,0.9722,0.9722,1.0,88.0
+ON099027,Capreol,Nipissing,ON,ON146017,Capreol,Sudbury,ON,OVERLAPS,0.9741,0.9741,1.0,73.75
+ON099031,Casimir,Nipissing,ON,ON146020,Casimir,Sudbury,ON,SAME_AS,1.0,1.0,1.0,73.75
+ON099034,Charters,Nipissing,ON,ON148043,Chatters,Timiskaming,ON,SAME_AS,1.0,1.0,1.0,79.25
+ON099036,Clara,Nipissing,ON,ON142012,Clara,Renfrew,ON,SAME_AS,1.0,1.0,1.0,73.75
+ON099037,Cleland,Nipissing,ON,ON146025,Cleland,Sudbury,ON,SAME_AS,1.0,1.0,1.0,73.75
+ON099042,Creelman,Nipissing,ON,ON146027,Creelman,Sudbury,ON,SAME_AS,1.0,1.0,1.0,73.75
+ON099044,Dack,Nipissing,ON,ON148052,Dack,Timiskaming,ON,OVERLAPS,0.9724,0.9724,1.0,88.0
+ON099045,Davis,Nipissing,ON,ON146029,Davis,Sudbury,ON,SAME_AS,1.0,1.0,1.0,73.75
+ON099048,Dill,Nipissing,ON,ON146032,Dill,Sudbury,ON,SAME_AS,1.0,1.0,1.0,73.75
+ON099050,Dryden,Nipissing,ON,ON146035,Dryden,Sudbury,ON,SAME_AS,1.0,1.0,1.0,73.75
+ON099052,Dunnett,Nipissing,ON,ON146036,Dunnet,Sudbury,ON,SAME_AS,1.0,1.0,1.0,68.37
+ON099056,Falconbridge,Nipissing,ON,ON146040,Falconbridge,Sudbury,ON,SAME_AS,1.0,1.0,1.0,73.75
+ON099060,Garson,Nipissing,ON,ON146045,Garson,Sudbury,ON,SAME_AS,1.0,1.0,1.0,73.75
+ON099067,Hagar,Nipissing,ON,ON146052,Hagar,Sudbury,ON,SAME_AS,1.0,1.0,1.0,73.75
+ON099068,Hanmer,Nipissing,ON,ON146054,Hanmer,Sudbury,ON,SAME_AS,1.0,1.0,1.0,73.75
+ON099069,Harlev,Nipissing,ON,ON148081,Harley,Timiskaming,ON,SAME_AS,1.0,1.0,1.0,76.33
+ON099072,Hawley,Nipissing,ON,ON146057,Hawley,Sudbury,ON,SAME_AS,1.0,1.0,1.0,73.75
+ON099073,Head,Nipissing,ON,ON142016,Head,Renfrew,ON,SAME_AS,1.0,1.0,1.0,73.75
+ON099074,Hendrie,Nipissing,ON,ON146058,Hendrie,Sudbury,ON,SAME_AS,1.0,1.0,1.0,73.75
+ON099081,Hutton,Nipissing,ON,ON146062,Hutton,Sudbury,ON,SAME_AS,1.0,1.0,1.0,73.75
+ON099084,Jennings,Nipissing,ON,ON146066,Jennings,Sudbury,ON,SAME_AS,1.0,1.0,1.0,73.75
+ON099091,Lebel,Nipissing,ON,ON148107,Lebel,Timiskaming,ON,OVERLAPS,0.9722,0.9722,1.0,88.0
+ON099095,Lorrain & South Lorrain,Nipissing,ON,ON148999,NO DATA,Timiskaming,ON,OVERLAPS,0.0182,0.611,0.0184,36.67
+ON099100,Macpherson,Nipissing,ON,ON130054,Macpherson,Nipissing,ON,OVERLAPS,0.9778,1.0,0.9778,100.0
+ON099102,Maria,Nipissing,ON,ON142020,Maria,Renfrew,ON,SAME_AS,1.0,1.0,1.0,73.75
+ON099104,Martland,Nipissing,ON,ON146084,Martland,Sudbury,ON,SAME_AS,1.0,1.0,1.0,73.75
+ON099111,Muro,Nipissing,ON,ON148134,Munroe,Timiskaming,ON,SAME_AS,1.0,1.0,1.0,74.0
+ON099112,Neelon,Nipissing,ON,ON146094,Neelon,Sudbury,ON,SAME_AS,1.0,1.0,1.0,73.75
+ON099117,Pacard,Nipissing,ON,ON148145,Pacaud,Timiskaming,ON,SAME_AS,1.0,1.0,1.0,76.33
+ON099125,Rathburne,Nipissing,ON,ON146101,Rathbone,Sudbury,ON,SAME_AS,1.0,1.0,1.0,61.4
+ON099126,Ratter,Nipissing,ON,ON146102,Ratter,Sudbury,ON,SAME_AS,1.0,1.0,1.0,73.75
+ON099131,Scollard,Nipissing,ON,ON146107,Scollard,Sudbury,ON,SAME_AS,1.0,1.0,1.0,73.75
+ON099132,Secord,Nipissing,ON,ON146109,Secord,Sudbury,ON,SAME_AS,1.0,1.0,1.0,73.75
+ON099144,Other parts,Nipissing,ON,ON130999,NO DATA,Nipissing,ON,OVERLAPS,0.1305,0.1422,0.6121,61.11
+ON099145,Unsurveyed parts north of Transcontinental Railway,Nipissing,ON,ON148157,Sargeant,Timiskaming,ON,OVERLAPS,0.0854,0.0906,0.5973,32.48
+ON099145,Unsurveyed parts north of Transcontinental Railway,Nipissing,ON,ON148191,Unsurveyed parts N of Transcontinental R,Timiskaming,ON,OVERLAPS,0.0175,0.7858,0.0175,80.22
+ON099156,Nipissing I R,Nipissing,ON,ON130087,Indian Reserves,Nipissing,ON,OVERLAPS,0.2532,0.3378,0.5027,55.0
+ON099163,Copper Cliff t-v,Nipissing,ON,ON146132,"Copper Cliff, T-V",Sudbury,ON,SAME_AS,1.0,1.0,1.0,71.63
+ON099171,Sudbury t-v,Nipissing,ON,ON146079,McKim,Sudbury,ON,OVERLAPS,0.095,0.7739,0.0977,3.75
+ON101003,Murray,Northumber Land E,ON,ON132007,Murray,Northumberland,ON,OVERLAPS,0.9763,0.9763,1.0,97.1
+ON104006,Oshawa t-v,Ontario S,ON,ON133011,Whitby E,Ontario,ON,OVERLAPS,0.0731,0.8116,0.0744,41.81
+ON106008,Tavistock vl pt,Oxford N,ON,ON134017,"Tavistock (pt), VL",Oxford,ON,SAME_AS,1.0,1.0,1.0,76.62
+ON111009,Tavistock vl part,Perth S,ON,ON137017,"Tavistock (pt), VL",Perth,ON,SAME_AS,1.0,1.0,1.0,73.0
+ON112009,Otonabee,Peterborough E,ON,ON138014,Otonabee,Peterborough,ON,OVERLAPS,0.9739,0.9739,1.0,97.69
+ON112009,Otonabee,Peterborough E,ON,ON138016,Indian reserves,Peterborough,ON,OVERLAPS,0.0236,0.0241,0.5285,52.04
+ON113006,Monaghan S,Peterborough W-O,ON,ON132006,Monaghan S,Northumberland,ON,SAME_AS,0.9986,0.9986,1.0,76.0
+ON113007,Smith,Peterborough W-O,ON,ON138015,Smith,Peterborough,ON,OVERLAPS,0.977,0.977,1.0,95.71
+ON113008,Peterborough c } Ashburnham vl,Peterborough W-O,ON,ON138017,"Peterborough, C",Peterborough,ON,SAME_AS,1.0,1.0,1.0,69.27
+ON115005,Marysburg N,Prince Edward,ON,ON140005,Marysburg N,Prince Edward,ON,OVERLAPS,0.9769,0.9769,1.0,100.0
+ON116002,Algona S,Renfrew N,ON,ON142003,Algona S,Renfrew,ON,OVERLAPS,0.9581,0.9581,1.0,96.25
+ON117015,Arnprior t-v,Renfrew S,ON,ON142036,"Arnprior, T-V",Renfrew,ON,OVERLAPS,0.9624,0.9624,1.0,93.45
+ON118004,Gloucester,Russell,ON,ON105002,Gloucester,Carleton,ON,SAME_AS,0.9956,1.0,0.9956,78.0
+ON118005,Osgoode,Russell,ON,ON105009,Osgoode,Carleton,ON,SAME_AS,1.0,1.0,1.0,78.0
+ON118007,"Ottawa, Rideau ward-quartier",Russell,ON,ON105002,Gloucester,Carleton,ON,OVERLAPS,0.0044,0.6414,0.0044,26.42
+ON118010,Eastview vl,Russell,ON,ON105012,"Eastview, T-V",Carleton,ON,SAME_AS,1.0,1.0,1.0,66.33
+ON119003,Orillia,Simcoe E,ON,ON144009,Orillia N & S,Simcoe,ON,SAME_AS,1.0,1.0,1.0,74.71
+ON123002,Aubrey,Thunder Bay & Rainy River,ON,ON120001,Aubrey,Kenora,ON,SAME_AS,1.0,1.0,1.0,75.81
+ON123008,Britton,Thunder Bay & Rainy River,ON,ON120002,Britton,Kenora,ON,SAME_AS,1.0,1.0,1.0,75.81
+ON123017,Dein,Thunder Bay & Rainy River,ON,ON141011,Devlin,Rainy River,ON,OVERLAPS,0.9734,1.0,0.9734,74.33
+ON123022,Eton,Thunder Bay & Rainy River,ON,ON120005,Eton,Kenora,ON,SAME_AS,1.0,1.0,1.0,75.81
+ON123025,Grassy Narrows,Thunder Bay & Rainy River,ON,ON120041,Unorganized parts,Kenora,ON,OVERLAPS,0.0,0.9487,0.0,32.9
+ON123026,Haycock,Thunder Bay & Rainy River,ON,ON120006,Haycock,Kenora,ON,OVERLAPS,0.9689,0.9689,1.0,75.81
+ON123031,Lake of the Woods,Thunder Bay & Rainy River,ON,ON120009,Lake of the Woods,Kenora,ON,SAME_AS,1.0,1.0,1.0,75.81
+ON123033,Langton,Thunder Bay & Rainy River,ON,ON120010,Langton,Kenora,ON,SAME_AS,1.0,1.0,1.0,75.81
+ON123034,Lash,Thunder Bay & Rainy River,ON,ON141019,Lash,Rainy River,ON,OVERLAPS,0.9663,1.0,0.9663,88.33
+ON123045,Melgund,Thunder Bay & Rainy River,ON,ON120011,Melgund,Kenora,ON,SAME_AS,1.0,1.0,1.0,75.81
+ON123049,Mutrie,Thunder Bay & Rainy River,ON,ON120013,Mutrie,Kenora,ON,SAME_AS,1.0,1.0,1.0,75.81
+ON123068,Rowell,Thunder Bay & Rainy River,ON,ON120019,Rowell,Kenora,ON,SAME_AS,1.0,1.0,1.0,75.81
+ON123069,Rugby,Thunder Bay & Rainy River,ON,ON120020,Rugby,Kenora,ON,SAME_AS,1.0,1.0,1.0,75.81
+ON123070,Sandford,Thunder Bay & Rainy River,ON,ON120021,Sandford,Kenora,ON,SAME_AS,1.0,1.0,1.0,75.81
+ON123072,Scoble,Thunder Bay & Rainy River,ON,ON147022,Scobel,Thunder Bay,ON,SAME_AS,1.0,1.0,1.0,76.67
+ON123085,Temple,Thunder Bay & Rainy River,ON,ON120023,Temple,Kenora,ON,SAME_AS,1.0,1.0,1.0,75.81
+ON123090,Wainwright,Thunder Bay & Rainy River,ON,ON120027,Wainwright,Kenora,ON,SAME_AS,1.0,1.0,1.0,75.81
+ON123092,White DogPost,Thunder Bay & Rainy River,ON,ON120028,White Dog Post,Kenora,ON,SAME_AS,1.0,1.0,1.0,73.21
+ON123100,Other parts-aut parties,Thunder Bay & Rainy River,ON,ON120042,Indian reserves,Kenora,ON,OVERLAPS,0.0038,0.0038,0.94,27.91
+ON123100,Other parts-aut parties,Thunder Bay & Rainy River,ON,ON147034,Other parts,Thunder Bay,ON,OVERLAPS,0.3015,0.6659,0.3552,63.63
+ON123116,Seine River I R,Thunder Bay & Rainy River,ON,ON147035,Indian reserves,Thunder Bay,ON,OVERLAPS,0.0411,0.5072,0.0429,46.33
+ON123121,Dryden t-v,Thunder Bay & Rainy River,ON,ON120043,"Dryden, T-V",Kenora,ON,SAME_AS,1.0,1.0,1.0,72.47
+ON123123,Kenora t-v,Thunder Bay & Rainy River,ON,ON120045,"Kenora, T-V",Kenora,ON,SAME_AS,1.0,1.0,1.0,72.47
+ON123124,Keewatin t-v,Thunder Bay & Rainy River,ON,ON120044,"Keewatin, T-V",Kenora,ON,SAME_AS,1.0,1.0,1.0,73.01
+ON129003,Burton,Victoria,ON,ON116999,NO DATA,Haliburton,ON,OVERLAPS,0.3407,0.518,0.4988,20.77
+ON129023,McCIintock,Victoria,ON,ON116013,McClintock,Haliburton,ON,SAME_AS,1.0,1.0,1.0,73.0
+ON129028,Sherbourne,Victoria,ON,ON116017,Sherborne,Haliburton,ON,SAME_AS,1.0,1.0,1.0,76.32
+ON129029,Snowden,Victoria,ON,ON116018,Snowdon,Haliburton,ON,SAME_AS,1.0,1.0,1.0,70.0
+ON130005,Waterloo t-v,Waterloo N,ON,ON150002,Waterloo N & S,Waterloo,ON,OVERLAPS,0.0315,0.8274,0.0317,75.13
+ON131002,Waterloo S,Waterloo S,ON,ON150002,Waterloo N & S,Waterloo,ON,OVERLAPS,0.9616,1.0,0.9616,85.0
+ON131004,Galt t-v,Waterloo S,ON,ON150006,"Galt, C",Waterloo,ON,SAME_AS,1.0,1.0,1.0,73.33
+ON135009,Hamilton c pt,Wentworth,ON,ON153002,Barton,Wentworth,ON,OVERLAPS,0.2344,0.6639,0.2659,59.47
+ON136001,Etobicoke,York Centre,ON,ON154001,Etobicoke,York,ON,OVERLAPS,0.9795,0.9795,1.0,86.0
+ON136006,Mimico vl,York Centre,ON,ON154014,"Mimico, T-V",York,ON,SAME_AS,1.0,1.0,1.0,72.0
+ON136008,Weston vl,York Centre,ON,ON154017,"Weston, T-V",York,ON,SAME_AS,1.0,1.0,1.0,72.0
+ON138001,York,York S,ON,ON154010,York,York,ON,OVERLAPS,0.9729,0.9729,1.0,94.0
+PE139013,Township 53,Kings,PE,PE001013,Township 53,Kings,PE,OVERLAPS,0.9668,0.9668,1.0,100.0
+PE140004,Township 4,Prince,PE,PE002004,Township 4,Prince,PE,OVERLAPS,0.9771,0.9771,1.0,100.0
+PE140019,Township 19,Prince,PE,PE002019,Township 19,Prince,PE,OVERLAPS,0.9671,0.9671,1.0,100.0
+SK207001,209 townships,Assiniboia,SK,SK172002,7. Souris Valley,Division No. 2,SK,OVERLAPS,0.029,0.0294,0.6636,29.31
+SK207001,209 townships,Assiniboia,SK,SK172007,37. Lomond,Division No. 2,SK,OVERLAPS,0.0293,0.0297,0.6656,28.26
+SK207001,209 townships,Assiniboia,SK,SK172012,67. Weyburn,Division No. 2,SK,OVERLAPS,0.0286,0.029,0.6632,27.5
+SK207001,209 townships,Assiniboia,SK,SK171017,93. Wawken,Division No. 1,SK,OVERLAPS,0.0278,0.0282,0.6583,34.35
+SK207001,209 townships,Assiniboia,SK,SK171018,94. Hazelwood,Division No. 1,SK,OVERLAPS,0.0294,0.0299,0.6698,26.15
+SK207001,209 townships,Assiniboia,SK,SK171019,95. Golden West,Division No. 1,SK,OVERLAPS,0.0292,0.0297,0.6666,35.0
+SK207001,209 townships,Assiniboia,SK,SK172016,98. Fillmore,Division No. 2,SK,OVERLAPS,0.0289,0.0293,0.6633,26.8
+SK207001,209 townships,Assiniboia,SK,SK171015,91. Maryfield,Division No. 1,SK,OVERLAPS,0.0297,0.03,0.7466,26.15
+SK207001,209 townships,Assiniboia,SK,SK171016,92. Walpole,Division No. 1,SK,OVERLAPS,0.0334,0.0338,0.7635,33.33
+SK207003,Alameda t-v,Assiniboia,SK,SK171021,"Alameda, T-V",Division No. 1,SK,SAME_AS,1.0,1.0,1.0,76.96
+SK207004,Arcola t-v,Assiniboia,SK,SK171022,"Arcola, T-V",Division No. 1,SK,SAME_AS,1.0,1.0,1.0,76.67
+SK207005,Carlyle t-v,Assiniboia,SK,SK171023,"Carlyle, T-V",Division No. 1,SK,SAME_AS,1.0,1.0,1.0,76.96
+SK207006,Carnduff t-v,Assiniboia,SK,SK171024,"Carnduff, T-V",Division No. 1,SK,SAME_AS,1.0,1.0,1.0,77.2
+SK207007,Estevan t-v,Assiniboia,SK,SK171025,"Estevan, T-V",Division No. 1,SK,SAME_AS,1.0,1.0,1.0,76.96
+SK207008,Oxbow t-v,Assiniboia,SK,SK171026,"Oxbow, T-V",Division No. 1,SK,SAME_AS,1.0,1.0,1.0,76.32
+SK207009,Weyburn t-v,Assiniboia,SK,SK172021,"Weyburn, C",Division No. 2,SK,SAME_AS,1.0,1.0,1.0,63.33
+SK208001,423 townships,Battleford,SK,SK182006,316. Harris,Division No. 12,SK,OVERLAPS,0.0146,0.0147,0.6669,31.57
+SK208001,423 townships,Battleford,SK,SK182010,346. Perdue,Division No. 12,SK,OVERLAPS,0.0146,0.0147,0.6668,19.9
+SK208001,423 townships,Battleford,SK,SK183012,352. Hearts Hill,Division No. 13,SK,OVERLAPS,0.0198,0.0199,0.8699,31.37
+SK208001,423 townships,Battleford,SK,SK182014,376. Eagle Creek,Division No. 12,SK,OVERLAPS,0.0163,0.0164,0.7356,12.06
+SK208001,423 townships,Battleford,SK,SK183019,411. Senlac,Division No. 13,SK,OVERLAPS,0.0235,0.0236,0.8415,19.9
+SK208001,423 townships,Battleford,SK,SK186009,466. Meeting Lake,Division No. 16,SK,OVERLAPS,0.0148,0.0149,0.6775,21.07
+SK208001,423 townships,Battleford,SK,SK183021,440. Hillsdale,Division No. 13,SK,OVERLAPS,0.0247,0.0248,0.9094,28.33
+SK208001,423 townships,Battleford,SK,SK186015,497. Medstead,Division No. 16,SK,OVERLAPS,0.0196,0.0197,0.8893,18.55
+SK208001,423 townships,Battleford,SK,SK187009,502. Britannia,Division No. 17,SK,OVERLAPS,0.0231,0.0231,0.9002,28.33
+SK208001,423 townships,Battleford,SK,SK187012,531. North Star,Division No. 17,SK,OVERLAPS,0.017,0.0171,0.7773,27.4
+SK208001,423 townships,Battleford,SK,SK187013,"532. T. 52-55, R. 25-28, W. 3, N. of N. Sask. R",Division No. 17,SK,OVERLAPS,0.0108,0.0108,0.6966,18.73
+SK208016,Moosemin I R,Battleford,SK,SK187022,Indian reserves,Division No. 17,SK,OVERLAPS,0.0951,0.9163,0.0959,28.33
+SK208025,Battleford t-v,Battleford,SK,SK182021,"Battleford, T-V",Division No. 12,SK,SAME_AS,1.0,1.0,1.0,69.99
+SK208026,Lloydminster t-v,Battleford,SK,SK187023,"Lloydminster (pt), T-V",Division No. 17,SK,SAME_AS,1.0,1.0,1.0,61.35
+SK208027,North Battleford t-v,Battleford,SK,SK186026,"North Battleford, C",Division No. 16,SK,SAME_AS,1.0,1.0,1.0,63.43
+SK208028,Scott t-v,Battleford,SK,SK183028,"Scott, T-V",Division No. 13,SK,SAME_AS,1.0,1.0,1.0,68.72
+SK208029,Wilkie t-v,Battleford,SK,SK183030,"Wilkie, T-V",Division No. 13,SK,SAME_AS,1.0,1.0,1.0,69.07
+SK208999,NO DATA,Battleford,SK,SK186014,"496. T. 49-51, R. 10-12, W. 3",Division No. 16,SK,OVERLAPS,0.0055,0.0056,0.6679,10.18
+SK208999,NO DATA,Battleford,SK,SK186019,"526. T. 52-54, R. 10-12, W. 3",Division No. 16,SK,OVERLAPS,0.0052,0.0052,0.6552,10.18
+SK208999,NO DATA,Battleford,SK,SK186999,NO DATA,Division No. 16,SK,OVERLAPS,0.0137,0.0137,0.8329,72.4
+SK208999,NO DATA,Battleford,SK,SK187011,529. Bright Sand,Division No. 17,SK,OVERLAPS,0.0046,0.0046,0.5551,20.66
+SK208999,NO DATA,Battleford,SK,SK187018,"588. T. 59-61, R. 16-18, W. 3",Division No. 17,SK,OVERLAPS,0.0062,0.0062,0.7907,10.18
+SK208999,NO DATA,Battleford,SK,SK188001,Northern unorganized parts,Division No. 18,SK,OVERLAPS,0.2659,0.8725,0.2767,27.85
+SK209001,319 townships,Humboldt,SK,SK180001,246. Ituna Bon Accord,Division No. 10,SK,OVERLAPS,0.0197,0.0199,0.6674,19.08
+SK209001,319 townships,Humboldt,SK,SK180005,276. Beaver,Division No. 10,SK,OVERLAPS,0.0197,0.0199,0.6665,8.44
+SK209001,319 townships,Humboldt,SK,SK180009,306. Foam Lake,Division No. 10,SK,OVERLAPS,0.0134,0.0134,0.7163,18.16
+SK209001,319 townships,Humboldt,SK,SK180013,336. Sasman,Division No. 10,SK,OVERLAPS,0.022,0.0223,0.6306,25.94
+SK209001,319 townships,Humboldt,SK,SK180015,338. Lakeside,Division No. 10,SK,OVERLAPS,0.026,0.0261,0.89,24.15
+SK209001,319 townships,Humboldt,SK,SK184005,366. Kelvington,Division No. 14,SK,OVERLAPS,0.0172,0.0174,0.6394,27.61
+SK209001,319 townships,Humboldt,SK,SK184007,368. Spalding,Division No. 14,SK,OVERLAPS,0.0227,0.0228,0.7791,24.15
+SK209001,319 townships,Humboldt,SK,SK185009,401. Hoodoo,Division No. 15,SK,OVERLAPS,0.0224,0.0226,0.7745,20.11
+SK209001,319 townships,Humboldt,SK,SK185010,402. Fish Creek,Division No. 15,SK,OVERLAPS,0.0115,0.0116,0.5377,17.61
+SK209001,319 townships,Humboldt,SK,SK184012,397. Barrier Valley,Division No. 14,SK,OVERLAPS,0.016,0.0162,0.5537,20.11
+SK209001,319 townships,Humboldt,SK,SK184013,398. Pleasantdale,Division No. 14,SK,OVERLAPS,0.0213,0.0215,0.768,25.94
+SK209001,319 townships,Humboldt,SK,SK185007,399. Lake Lenore,Division No. 15,SK,OVERLAPS,0.0258,0.0259,0.8894,21.92
+SK209002,Indian Reserves,Humboldt,SK,SK180017,Indian reserves,Division No. 10,SK,OVERLAPS,0.7517,0.7935,0.9345,72.61
+SK209002,Indian Reserves,Humboldt,SK,SK184034,Indian reserves,Division No. 14,SK,OVERLAPS,0.1804,0.2065,0.5887,72.61
+SK209003,Davidson t-v,Humboldt,SK,SK181021,"Davidson, T-V",Division No. 11,SK,SAME_AS,1.0,1.0,1.0,69.81
+SK209004,Humbolt t-v,Humboldt,SK,SK185028,"Humboldt, T-V",Division No. 15,SK,SAME_AS,1.0,1.0,1.0,66.78
+SK209005,Lanigan t-v,Humboldt,SK,SK181024,"Lanigan, T-V",Division No. 11,SK,SAME_AS,1.0,1.0,1.0,69.57
+SK209006,Nokomis t-v,Humboldt,SK,SK181025,"Nokomis, T-V",Division No. 11,SK,SAME_AS,1.0,1.0,1.0,69.57
+SK209007,Watrous t-v,Humboldt,SK,SK181028,"Watrous, T-V",Division No. 11,SK,SAME_AS,1.0,1.0,1.0,69.57
+SK209008,Watson t-v,Humboldt,SK,SK180019,"Watson, T-V",Division No. 10,SK,SAME_AS,1.0,1.0,1.0,69.28
+SK210001,164 townships,Mackenzie,SK,SK179004,245. Garry,Division No. 9,SK,OVERLAPS,0.0537,0.054,0.8894,14.78
+SK210001,164 townships,Mackenzie,SK,SK179005,271. Cote,Division No. 9,SK,OVERLAPS,0.0565,0.0568,0.8957,21.7
+SK210001,164 townships,Mackenzie,SK,SK179009,301. St. Philips,Division No. 9,SK,OVERLAPS,0.037,0.0374,0.7753,36.4
+SK210001,164 townships,Mackenzie,SK,SK179013,331. Livingstone,Division No. 9,SK,OVERLAPS,0.044,0.0445,0.784,26.75
+SK210003,Canor t-v,Mackenzie,SK,SK179018,"Canora, T-V",Division No. 9,SK,SAME_AS,1.0,1.0,1.0,65.61
+SK210004,Yorkton t-v,Mackenzie,SK,SK179020,"Yorkton, T-V",Division No. 9,SK,SAME_AS,1.0,1.0,1.0,69.57
+SK210005,Buchanan vl,Mackenzie,SK,SK179022,"Buchanan, VL",Division No. 9,SK,SAME_AS,1.0,1.0,1.0,69.57
+SK210008,Sheho vl,Mackenzie,SK,SK179032,"Sheho, VL",Division No. 9,SK,SAME_AS,1.0,1.0,1.0,68.49
+SK210009,Theodore vl,Mackenzie,SK,SK179037,"Theodore, VL",Division No. 9,SK,SAME_AS,1.0,1.0,1.0,69.57
+SK210010,Togo vl,Mackenzie,SK,SK179038,"Togo, VL",Division No. 9,SK,SAME_AS,1.0,1.0,1.0,67.94
+SK210011,Hubbard vl,Mackenzie,SK,SK180024,"Hubbard, VL",Division No. 10,SK,SAME_AS,1.0,1.0,1.0,69.17
+SK210012,Invermay vl,Mackenzie,SK,SK179026,"Invermay, VL",Division No. 9,SK,SAME_AS,1.0,1.0,1.0,69.57
+SK210013,Margo vl,Mackenzie,SK,SK180034,"Margo, VL",Division No. 10,SK,SAME_AS,1.0,1.0,1.0,68.38
+SK210014,Pelly vl,Mackenzie,SK,SK179028,"Pelley, VL",Division No. 9,SK,SAME_AS,1.0,1.0,1.0,64.83
+SK210015,Springside vl,Mackenzie,SK,SK179033,"Springside, VL",Division No. 9,SK,SAME_AS,1.0,1.0,1.0,70.02
+SK210016,Stornoway vl,Mackenzie,SK,SK179035,"Stornoway, VL",Division No. 9,SK,SAME_AS,1.0,1.0,1.0,69.81
+SK210999,NO DATA,Mackenzie,SK,SK184003,"364. T. 37-39, R. 4-6, W.2",Division No. 14,SK,OVERLAPS,0.0906,0.093,0.7786,10.98
+SK210999,NO DATA,Mackenzie,SK,SK184004,"365. T. 37-39, R. 7-9, W.2",Division No. 14,SK,OVERLAPS,0.0908,0.0932,0.7788,10.98
+SK210999,NO DATA,Mackenzie,SK,SK184002,"363. T. 37-39, R. 1-3, W.2",Division No. 14,SK,OVERLAPS,0.1047,0.1061,0.8888,10.98
+SK211001,870 townships,Moosejaw,SK,SK173002,12. Poplar Valley,Division No. 3,SK,OVERLAPS,0.0079,0.0079,0.7687,19.45
+SK211001,870 townships,Moosejaw,SK,SK173003,"13. T. 1-3, R. 1-3, W. 3",Division No. 3,SK,OVERLAPS,0.0072,0.0072,0.6689,16.81
+SK211001,870 townships,Moosejaw,SK,SK173004,"14. T. 1-3, R. 4-6, W. 3",Division No. 3,SK,OVERLAPS,0.0059,0.006,0.5561,16.81
+SK211001,870 townships,Moosejaw,SK,SK173011,46. Glen McPherson,Division No. 3,SK,OVERLAPS,0.0083,0.0083,0.7778,23.52
+SK211001,870 townships,Moosejaw,SK,SK174007,"47. T. 4-6, R. 13-15, W. 3",Division No. 4,SK,OVERLAPS,0.0095,0.0095,0.8896,19.81
+SK211001,870 townships,Moosejaw,SK,SK173018,101. Terrell,Division No. 3,SK,OVERLAPS,0.01,0.01,0.8965,22.25
+SK211001,870 townships,Moosejaw,SK,SK174014,78. Grassy Creek,Division No. 4,SK,OVERLAPS,0.0094,0.0095,0.8893,24.76
+SK211001,870 townships,Moosejaw,SK,SK177004,134. Shamrock,Division No. 7,SK,OVERLAPS,0.0087,0.0087,0.8808,21.61
+SK211001,870 townships,Moosejaw,SK,SK177002,132. Hillsborough,Division No. 7,SK,OVERLAPS,0.0062,0.0062,0.7902,24.12
+SK211001,870 townships,Moosejaw,SK,SK177003,133. Rodgers,Division No. 7,SK,OVERLAPS,0.0094,0.0095,0.8883,22.25
+SK211001,870 townships,Moosejaw,SK,SK174003,19. Frontier,Division No. 4,SK,OVERLAPS,0.0072,0.0072,0.6683,27.85
+SK211001,870 townships,Moosejaw,SK,SK174005,"21. T. 1-3, R. 25-27, W. 3",Division No. 4,SK,OVERLAPS,0.0071,0.0071,0.667,16.22
+SK211001,870 townships,Moosejaw,SK,SK174006,"22. T. 1-3, R. 28-30, W. 3",Division No. 4,SK,OVERLAPS,0.0068,0.0068,0.6659,19.81
+SK211001,870 townships,Moosejaw,SK,SK174010,"50. T. 4-6, R 22-24, W. 3",Division No. 4,SK,OVERLAPS,0.0071,0.0071,0.6653,20.19
+SK211001,870 townships,Moosejaw,SK,SK178003,139. Gull Lake,Division No. 8,SK,OVERLAPS,0.0094,0.0094,0.8885,10.64
+SK211001,870 townships,Moosejaw,SK,SK178010,"170. T. 16-18, R. 22-24.W.3",Division No. 8,SK,OVERLAPS,0.0059,0.0059,0.5555,22.95
+SK211001,870 townships,Moosejaw,SK,SK178011,171. Keebleville,Division No. 8,SK,OVERLAPS,0.0082,0.0083,0.7772,19.94
+SK211001,870 townships,Moosejaw,SK,SK177005,135. Lawtonia,Division No. 7,SK,OVERLAPS,0.0094,0.0094,0.8874,32.38
+SK211001,870 townships,Moosejaw,SK,SK177011,165. Morse,Division No. 7,SK,OVERLAPS,0.0082,0.0082,0.7761,23.72
+SK211001,870 townships,Moosejaw,SK,SK178008,168. Riverside,Division No. 8,SK,OVERLAPS,0.0144,0.0145,0.8598,26.2
+SK211001,870 townships,Moosejaw,SK,SK177019,224. Maple Bush,Division No. 7,SK,OVERLAPS,0.0101,0.0101,0.9026,20.45
+SK211001,870 townships,Moosejaw,SK,SK177021,226. Victory,Division No. 7,SK,OVERLAPS,0.0112,0.0112,0.828,22.25
+SK211001,870 townships,Moosejaw,SK,SK178013,"227. T. 19-23, R. 13-15, W. 3 N of the S. Sask. R.",Division No. 8,SK,OVERLAPS,0.0101,0.0101,0.7408,21.01
+SK211001,870 townships,Moosejaw,SK,SK177023,256. King George,Division No. 7,SK,OVERLAPS,0.0094,0.0094,0.8899,15.11
+SK211001,870 townships,Moosejaw,SK,SK178020,258. Fairview,Division No. 8,SK,OVERLAPS,0.0093,0.0094,0.8894,21.61
+SK211001,870 townships,Moosejaw,SK,SK178016,230. Clinworth,Division No. 8,SK,OVERLAPS,0.0144,0.0145,0.8036,26.2
+SK211001,870 townships,Moosejaw,SK,SK178018,232. Deer Forks,Division No. 8,SK,OVERLAPS,0.0068,0.0068,0.7355,20.45
+SK211001,870 townships,Moosejaw,SK,SK178024,262. Mantario,Division No. 8,SK,OVERLAPS,0.0088,0.0088,0.6108,21.61
+SK211001,870 townships,Moosejaw,SK,SK183002,290. Kinderlsey,Division No. 13,SK,OVERLAPS,0.007,0.007,0.6691,25.22
+SK211001,870 townships,Moosejaw,SK,SK183003,291. Elma,Division No. 13,SK,OVERLAPS,0.0046,0.0047,0.6676,11.58
+SK211001,870 townships,Moosejaw,SK,SK182001,285. Fertile Valley,Division No. 12,SK,OVERLAPS,0.0099,0.0099,0.7711,22.72
+SK211001,870 townships,Moosejaw,SK,SK182002,286. Milden,Division No. 12,SK,OVERLAPS,0.0069,0.0069,0.7476,22.72
+SK211001,870 townships,Moosejaw,SK,SK182003,287. St. Andrews,Division No. 12,SK,OVERLAPS,0.007,0.007,0.6724,34.18
+SK211001,870 townships,Moosejaw,SK,SK182004,288. Pleasant Valley,Division No. 12,SK,OVERLAPS,0.007,0.007,0.6682,22.19
+SK211001,870 townships,Moosejaw,SK,SK183001,289. Hillsburg,Division No. 13,SK,OVERLAPS,0.007,0.007,0.67,31.14
+SK211001,870 townships,Moosejaw,SK,SK183004,292. Milton,Division No. 13,SK,OVERLAPS,0.0056,0.0057,0.6657,28.55
+SK211002,Moosejaw c,Moosejaw,SK,SK177024,"Moosejaw, C",Division No. 7,SK,SAME_AS,1.0,1.0,1.0,72.12
+SK211003,Cacon t-v,Moosejaw,SK,SK177025,"Caron, T-V",Division No. 7,SK,SAME_AS,1.0,1.0,1.0,64.4
+SK211004,Kindersley t-v,Moosejaw,SK,SK183026,"Kindersley, T-V",Division No. 13,SK,SAME_AS,1.0,1.0,1.0,72.8
+SK211005,Maple Creek t-v,Moosejaw,SK,SK174026,"Maple Creek, T-V",Division No. 4,SK,SAME_AS,1.0,1.0,1.0,73.2
+SK211006,Swift Current t-v,Moosejaw,SK,SK178025,"Swift Current, C",Division No. 8,SK,SAME_AS,1.0,1.0,1.0,64.85
+SK211999,NO DATA,Moosejaw,SK,SK173005,"15. T. 1-3, R. 7-9, W. 3",Division No. 3,SK,OVERLAPS,0.0793,0.0812,0.7754,14.49
+SK211999,NO DATA,Moosejaw,SK,SK173006,"16. T. 1-3, R. 10-12, W. 3",Division No. 3,SK,OVERLAPS,0.0563,0.0589,0.5603,13.94
+SK211999,NO DATA,Moosejaw,SK,SK174001,"17. T. 1-3, R. 13-15, W. 3",Division No. 4,SK,OVERLAPS,0.0556,0.0582,0.5529,13.94
+SK211999,NO DATA,Moosejaw,SK,SK174004,"20. T. 1-3, R. 22-24, W. 3",Division No. 4,SK,OVERLAPS,0.0675,0.0699,0.6653,13.94
+SK211999,NO DATA,Moosejaw,SK,SK174012,"52. T. 4-6, R. 28-30, W. 3",Division No. 4,SK,OVERLAPS,0.0464,0.0486,0.5107,13.94
+SK212001,210 townships,Prince Albert,SK,SK184018,426. Bjourkdale,Division No. 14,SK,OVERLAPS,0.0259,0.0264,0.5559,21.43
+SK212001,210 townships,Prince Albert,SK,SK185014,430. Invergordon,Division No. 15,SK,OVERLAPS,0.0411,0.0415,0.8412,25.74
+SK212001,210 townships,Prince Albert,SK,SK185013,429. Carrot River,Division No. 15,SK,OVERLAPS,0.0464,0.0466,0.9359,25.1
+SK212001,210 townships,Prince Albert,SK,SK184024,458. Willow Creek,Division No. 14,SK,OVERLAPS,0.0419,0.0422,0.8879,20.43
+SK212001,210 townships,Prince Albert,SK,SK185015,431. St. Louis,Division No. 15,SK,OVERLAPS,0.0394,0.0396,0.8709,37.54
+SK212001,210 townships,Prince Albert,SK,SK186003,434. Blaine Lake,Division No. 16,SK,OVERLAPS,0.0317,0.0321,0.6828,16.08
+SK212001,210 townships,Prince Albert,SK,SK186004,435. Redberry,Division No. 16,SK,OVERLAPS,0.0306,0.0315,0.515,11.81
+SK212001,210 townships,Prince Albert,SK,SK185019,463. Duck Lake,Division No. 15,SK,OVERLAPS,0.0482,0.0487,0.8086,11.61
+SK212001,210 townships,Prince Albert,SK,SK186008,465. Royal,Division No. 16,SK,OVERLAPS,0.0335,0.0338,0.7618,18.6
+SK212001,210 townships,Prince Albert,SK,SK185022,491. Buckland,Division No. 15,SK,OVERLAPS,0.0441,0.0442,0.9238,22.58
+SK212001,210 townships,Prince Albert,SK,SK185016,459. Weldon,Division No. 15,SK,OVERLAPS,0.0433,0.0437,0.8318,23.93
+SK212001,210 townships,Prince Albert,SK,SK184028,487. Nipawin,Division No. 14,SK,OVERLAPS,0.0404,0.0407,0.8343,28.83
+SK212001,210 townships,Prince Albert,SK,SK185021,490. Russia,Division No. 15,SK,OVERLAPS,0.0317,0.0318,0.8577,29.76
+SK212002,Unorganized parts,Prince Albert,SK,SK184029,"488. T. 49-51, R. 14-18, W. 2 N.W. of Sask. R",Division No. 14,SK,OVERLAPS,0.002,0.002,0.6288,17.72
+SK212002,Unorganized parts,Prince Albert,SK,SK186013,495. Shell River,Division No. 16,SK,OVERLAPS,0.0018,0.0018,0.6268,23.4
+SK212002,Unorganized parts,Prince Albert,SK,SK185024,"521. T. 52-54, R. 25-28, W. 2",Division No. 15,SK,OVERLAPS,0.0026,0.0026,0.898,12.52
+SK212002,Unorganized parts,Prince Albert,SK,SK186018,"525. T. 52-54, R. 7-9, W. 3",Division No. 16,SK,OVERLAPS,0.0018,0.0018,0.646,12.79
+SK212002,Unorganized parts,Prince Albert,SK,SK185999,NO DATA,Division No. 15,SK,OVERLAPS,0.0029,0.0029,0.8887,35.6
+SK212002,Unorganized parts,Prince Albert,SK,SK185023,"520. T. 52-54, R. 22-24. W. 2",Division No. 15,SK,OVERLAPS,0.0029,0.0029,0.8836,12.52
+SK212002,Unorganized parts,Prince Albert,SK,SK188001,Northern unorganized parts,Division No. 18,SK,OVERLAPS,0.666,0.8938,0.7232,61.78
+SK212002,Unorganized parts,Prince Albert,SK,SK184015,"423. T. 43-45, R. 1-3, W.2",Division No. 14,SK,OVERLAPS,0.0022,0.0022,0.6683,12.94
+SK212002,Unorganized parts,Prince Albert,SK,SK184999,NO DATA,Division No. 14,SK,OVERLAPS,0.0227,0.0228,0.8905,35.6
+SK212018,Prince Albert c,Prince Albert,SK,SK185026,"Prince Albert, C",Division No. 15,SK,SAME_AS,1.0,1.0,1.0,74.17
+SK212019,Melfort t-v,Prince Albert,SK,SK184035,"Melfort, T-V",Division No. 14,SK,SAME_AS,1.0,1.0,1.0,73.39
+SK213001,154 townships,Qu'Appelle,SK,SK175008,153. Willowdale,Division No. 5,SK,OVERLAPS,0.0436,0.0438,0.9226,25.0
+SK213001,154 townships,Qu'Appelle,SK,SK176012,187. North Qu'Appelle,Division No. 6,SK,OVERLAPS,0.0252,0.0256,0.6171,20.59
+SK213002,Indian Reserves,Qu'Appelle,SK,SK175019,Indian reserves,Division No. 5,SK,OVERLAPS,0.5519,0.5845,0.9081,70.0
+SK213003,Broadview t-v,Qu'Appelle,SK,SK175021,"Broadview, T-V",Division No. 5,SK,SAME_AS,1.0,1.0,1.0,67.41
+SK213004,Fleming t-v,Qu'Appelle,SK,SK175022,"Fleming, T-V",Division No. 5,SK,SAME_AS,1.0,1.0,1.0,66.96
+SK213005,Francis t-v,Qu'Appelle,SK,SK176024,"Francis, T-V",Division No. 6,SK,SAME_AS,1.0,1.0,1.0,66.96
+SK213006,Indian Head t-v,Qu'Appelle,SK,SK176025,"Indian Head, T-V",Division No. 6,SK,SAME_AS,1.0,1.0,1.0,67.74
+SK213007,Moosomin t-v,Qu'Appelle,SK,SK175026,"Moosomin, T-V",Division No. 5,SK,SAME_AS,1.0,1.0,1.0,67.2
+SK213008,Qu'Appelle t-v,Qu'Appelle,SK,SK176027,"Qu'Appelle, T-V",Division No. 6,SK,SAME_AS,1.0,1.0,1.0,67.59
+SK213009,Sintaluta t-v,Qu'Appelle,SK,SK176029,"Sintaluta, T-V",Division No. 6,SK,SAME_AS,1.0,1.0,1.0,67.41
+SK213010,Wapella t-v,Qu'Appelle,SK,SK175028,"Wapella, T-V",Division No. 5,SK,SAME_AS,1.0,1.0,1.0,66.96
+SK213011,Whitewood t-v,Qu'Appelle,SK,SK175029,"Whitewood, T-V",Division No. 5,SK,SAME_AS,1.0,1.0,1.0,67.41
+SK213012,Wolseley t-v,Qu'Appelle,SK,SK175030,"Wolseley, T-V",Division No. 5,SK,SAME_AS,1.0,1.0,1.0,67.2
+SK213999,NO DATA,Qu'Appelle,SK,SK175008,153. Willowdale,Division No. 5,SK,OVERLAPS,0.0759,0.7893,0.0774,19.09
+SK214001,217 townships,Regina,SK,SK172003,8. Lake Alma,Division No. 2,SK,OVERLAPS,0.0381,0.0383,0.8882,11.6
+SK214001,217 townships,Regina,SK,SK172004,9. Surprise Valley,Division No. 2,SK,OVERLAPS,0.0284,0.0288,0.6676,24.06
+SK214001,217 townships,Regina,SK,SK172005,10. Happy Valley,Division No. 2,SK,OVERLAPS,0.0283,0.0287,0.6661,25.31
+SK214001,217 townships,Regina,SK,SK172010,40. Bengough,Division No. 2,SK,OVERLAPS,0.0281,0.0289,0.5319,22.8
+SK214001,217 townships,Regina,SK,SK172015,70. Key West,Division No. 2,SK,OVERLAPS,0.0284,0.0288,0.6661,28.4
+SK214001,217 townships,Regina,SK,SK172018,98. Scott,Division No. 2,SK,OVERLAPS,0.0381,0.0383,0.8874,18.73
+SK214001,217 townships,Regina,SK,SK172020,100. Elmsthorpe,Division No. 2,SK,OVERLAPS,0.0282,0.0286,0.6655,31.0
+SK214001,217 townships,Regina,SK,SK176005,130. Redburn,Division No. 6,SK,OVERLAPS,0.0281,0.0285,0.667,22.8
+SK214001,217 townships,Regina,SK,SK176003,128. Lajord,Division No. 6,SK,OVERLAPS,0.0279,0.0285,0.5982,23.5
+SK214001,217 townships,Regina,SK,SK176008,158. Edenwold,Division No. 6,SK,OVERLAPS,0.0424,0.0426,0.9305,22.15
+SK214001,217 townships,Regina,SK,SK176010,160. Pense,Division No. 6,SK,OVERLAPS,0.028,0.0284,0.6646,30.35
+SK214001,217 townships,Regina,SK,SK176017,218. Cupar,Division No. 6,SK,OVERLAPS,0.0323,0.0328,0.6975,30.35
+SK214002,Muscowpetung I R & Piapot I R,Regina,SK,SK176021,Indian reserves,Division No. 6,SK,OVERLAPS,0.1614,0.6737,0.1751,21.91
+SK214003,Regina c,Regina,SK,SK176022,"Regina, C",Division No. 6,SK,SAME_AS,1.0,1.0,1.0,71.88
+SK214004,Balgonie t-v,Regina,SK,SK176023,"Balgonie, T-V",Division No. 6,SK,SAME_AS,1.0,1.0,1.0,73.2
+SK214005,Craik t-v,Regina,SK,SK177026,"Craik, T-V",Division No. 7,SK,SAME_AS,1.0,1.0,1.0,72.32
+SK214006,Lumsden t-v,Regina,SK,SK176026,"Lumsden, T-V",Division No. 6,SK,SAME_AS,1.0,1.0,1.0,72.96
+SK214007,Milestone t-v,Regina,SK,SK172022,"Milestone, T-V",Division No. 2,SK,SAME_AS,1.0,1.0,1.0,73.41
+SK214008,Rouleau t-v,Regina,SK,SK176028,"Rouleau, T-V",Division No. 6,SK,SAME_AS,1.0,1.0,1.0,72.96
+SK214009,Strassburg t-v,Regina,SK,SK176030,"Strasbourg, T-V",Division No. 6,SK,SAME_AS,1.0,1.0,1.0,68.76
+SK214010,Yellow Grass t-v,Regina,SK,SK172025,"Yellow Grass, T-V",Division No. 2,SK,SAME_AS,1.0,1.0,1.0,73.88
+SK214999,NO DATA,Regina,SK,SK172004,9. Surprise Valley,Division No. 2,SK,OVERLAPS,0.299,0.7488,0.3324,17.2
+SK215004,Lemberg t-v,Saltcoats,SK,SK175024,"Lemberg, T-V",Division No. 5,SK,SAME_AS,1.0,1.0,1.0,72.17
+SK215005,Melville t-v,Saltcoats,SK,SK175025,"Melville, T-V",Division No. 5,SK,SAME_AS,1.0,1.0,1.0,72.42
+SK215006,Saltcoats t-v,Saltcoats,SK,SK175027,"Saltcoats, T-V",Division No. 5,SK,SAME_AS,1.0,1.0,1.0,72.62
+SK215999,NO DATA,Saltcoats,SK,SK176011,186. Abernethy,Division No. 6,SK,OVERLAPS,0.0279,0.5497,0.0286,25.22
+SK216001,184 townships,Saskatoon,SK,SK177018,223. Huron,Division No. 7,SK,OVERLAPS,0.0283,0.0289,0.5674,26.09
+SK216001,184 townships,Saskatoon,SK,SK181008,282. McCraney,Division No. 11,SK,OVERLAPS,0.0327,0.0335,0.5815,23.65
+SK216001,184 townships,Saskatoon,SK,SK185004,372. Grant,Division No. 15,SK,OVERLAPS,0.0219,0.0223,0.5269,19.67
+SK216001,184 townships,Saskatoon,SK,SK185012,404. Laird,Division No. 15,SK,OVERLAPS,0.0382,0.0383,0.9483,25.76
+SK216001,184 townships,Saskatoon,SK,SK185011,403. Rosthern,Division No. 15,SK,OVERLAPS,0.0461,0.0464,0.8998,34.42
+SK216003,Saskatoon c,Saskatoon,SK,SK181020,"Saskatoon, C",Division No. 11,SK,SAME_AS,1.0,1.0,1.0,74.46
+SK216004,Hanley t-v,Saskatoon,SK,SK181023,"Hanley, T-V",Division No. 11,SK,SAME_AS,1.0,1.0,1.0,74.17
+SK216005,Langham t-v,Saskatoon,SK,SK182024,"Langham, T-V",Division No. 12,SK,SAME_AS,1.0,1.0,1.0,74.46
+SK216006,Outlook t-v,Saskatoon,SK,SK181026,"Outlook, T-V",Division No. 11,SK,SAME_AS,1.0,1.0,1.0,74.46
+SK216007,Rosthern t-v,Saskatoon,SK,SK185029,"Rosthern, T-V",Division No. 15,SK,SAME_AS,1.0,1.0,1.0,74.7
+SK216008,Vonda t-v,Saskatoon,SK,SK185030,"Vonda, T-V",Division No. 15,SK,SAME_AS,1.0,1.0,1.0,73.82
+YT217001,Various Mining Camps,Yukon,YT,YT219001,Rural Parts,Yukon,YT,OVERLAPS,0.0006,0.7016,0.0006,52.58
+NT218001,Parts to be added to Ont.,Northwest Territories,NT,ON148189,Indian reserves,Timiskaming,ON,OVERLAPS,0.451,0.9474,0.4626,25.0
+NT218003,Parts to be added to Man.,Northwest Territories,NT,MB170002,Indian reserves,Division No. 16,MB,OVERLAPS,0.1972,0.8857,0.2023,22.5
+ON099154,Temagami Forest Reserve,Nipissing,ON,ON130085,Temagami Forest Reserves,Nipissing,ON,OVERLAPS,0.253,0.2636,0.863,98.51
+QC142012,Wentworth,Argenteuil,QC,QC037013,Wentworth,Argenteuil,QC,OVERLAPS,0.9542,0.9542,1.0,100.0
+QC143006,St. Hugues de Ramsay,Bagot,QC,QC039006,St. Hugues de Ramsay,Bagot,QC,OVERLAPS,0.9731,0.9731,1.0,100.0
+QC143007,St. Liboire,Bagot,QC,QC039007,St. Liboire,Bagot,QC,OVERLAPS,0.9739,0.9739,1.0,100.0
+QC144008,St. Évariste de Forsyth,Beauce,QC,QC055009,St. Evariste de Forsyth,Frontenac,QC,SAME_AS,1.0,1.0,1.0,78.96
+QC144009,St. François,Beauce,QC,QC040010,St. François,Beauce,QC,OVERLAPS,0.972,0.972,1.0,100.0
+QC144012,St. Georges,Beauce,QC,QC040001,Aubert Gallion (St. Georges),Beauce,QC,SAME_AS,1.0,1.0,1.0,69.49
+QC144013,St. Hilaire Dorset,Beauce,QC,QC055011,St. Hilaire de Dorset,Frontenac,QC,SAME_AS,1.0,1.0,1.0,76.62
+QC144014,St. Honoré,Beauce,QC,QC040012,St. Honoré de Shenley,Beauce,QC,SAME_AS,1.0,1.0,1.0,75.16
+QC144019,St. Martin,Beauce,QC,QC040016,St. Martin,Beauce,QC,OVERLAPS,0.9672,0.9672,1.0,100.0
+QC144020,Ste. Martine de Courcelle,Beauce,QC,QC055003,Courcelles (Ste. Martine de Courcelles),Frontenac,QC,SAME_AS,1.0,1.0,1.0,66.69
+QC144021,St. Maxime de Scott,Beauce,QC,QC053016,St. Maxime de Scott,Dorchester,QC,SAME_AS,1.0,1.0,1.0,77.5
+QC144029,St. Victor de Tring,Beauce,QC,QC040020,St. Victor de Tring,Beauce,QC,OVERLAPS,0.9571,0.9571,1.0,100.0
+QC144039,Other parts - Autres parties,Beauce,QC,QC040021,St. Zacharie (Metgermette N. pt.),Beauce,QC,OVERLAPS,0.3217,0.6673,0.3832,55.25
+QC145003,St. Étienne,Beauharnois,QC,QC041003,St. Etienne de Beauharnois,Beauharnois,QC,SAME_AS,1.0,1.0,1.0,67.84
+QC145006,St. Timothée,Beauharnois,QC,QC041006,St. Timothée,Beauharnois,QC,OVERLAPS,0.9733,0.9733,1.0,100.0
+QC145008,Salaberry de Valleyfield t-v,Beauharnois,QC,QC041007,"Valleyfield (Salaberry de), C",Beauharnois,QC,SAME_AS,1.0,1.0,1.0,61.93
+QC146005,St. Étienne de Beaumont,Bellechasse,QC,QC042001,Beaumont (St. Etienne),Bellechasse,QC,SAME_AS,1.0,1.0,1.0,61.11
+QC146008,"St. Magloire (Rioux, Bellechasse, Daaquam)",Bellechasse,QC,QC042005,"Roux, Bellechasse & Daaquam (St. Magloire)",Bellechasse,QC,SAME_AS,1.0,1.0,1.0,73.33
+QC146012,St. Raphaël,Bellechasse,QC,QC042015,St. Raphael,Bellechasse,QC,OVERLAPS,0.9792,1.0,0.9792,93.64
+QC147001,Berthier,Berthier,QC,QC043001,Berthier (Ste. Geneviève),Berthier,QC,SAME_AS,1.0,1.0,1.0,63.94
+QC147012,Visitation (Ile Dupas),Berthier,QC,QC043002,Ile Dupas (Visitation),Berthier,QC,SAME_AS,1.0,1.0,1.0,65.0
+QC148008,Matapédia,Bonaventure,QC,QC044009,Matapédia (St. Alexis),Bonaventure,QC,SAME_AS,1.0,1.0,1.0,70.65
+QC149004,Farnham E.,Brome,QC,QC045004,Farnham E.,Brome,QC,OVERLAPS,0.962,0.962,1.0,100.0
+QC150015,Longueuil t-v,Chambly & Verchères,QC,QC046007,"Longueuil, C",Chambly,QC,SAME_AS,1.0,1.0,1.0,72.15
+QC150016,Montréal t-v,Chambly & Verchères,QC,QC046009,"Montréal S., T-V",Chambly,QC,SAME_AS,1.0,1.0,1.0,76.15
+QC151002,La Visitation de Champlain,Champlain,QC,QC047002,Champlain (La Visitation),Champlain,QC,SAME_AS,0.9917,0.9917,1.0,65.69
+QC151007,Ste. Geneviève,Champlain,QC,QC047008,Ste. Geneviève de Batiscan,Champlain,QC,SAME_AS,1.0,1.0,1.0,79.0
+QC151017,St. Stanislas,Champlain,QC,QC047020,St. Stanislas de la Rivière des Envies,Champlain,QC,SAME_AS,0.9924,0.9924,1.0,65.69
+QC152004,Malbaie,Charlevoix,QC,QC048004,Malbaie (St. Etienne),Charlevoix,QC,OVERLAPS,0.9502,0.9502,1.0,65.0
+QC152006,Ste. Agnès,Charlevoix,QC,QC048006,Ste. Agnès de Mont Murray,Charlevoix,QC,SAME_AS,1.0,1.0,1.0,70.0
+QC152007,St. Fidèle,Charlevoix,QC,QC048007,St. Fidèle de Mont Murray,Charlevoix,QC,SAME_AS,1.0,1.0,1.0,70.0
+QC154001,Albanel pr,Chicoutimi & Saguenay,QC,QC063001,Albanel,Lac St. Jean,QC,SAME_AS,1.0,1.0,1.0,66.74
+QC154003,Bagotville pr,Chicoutimi & Saguenay,QC,QC050002,"Bagotville, par. (St. Alphonse)",Chicoutimi,QC,SAME_AS,1.0,1.0,1.0,60.72
+QC154006,Grande Baie pr. & Boileau tp. & Ferland tp.,Chicoutimi & Saguenay,QC,QC050008,"St. Alexis de la Grande Baie, par. (Boileau & Ferland tp.—ct.)",Chicoutimi,QC,SAME_AS,1.0,1.0,1.0,68.69
+QC154007,Hébertville pr,Chicoutimi & Saguenay,QC,QC063014,Ste. Croix (Caron tp-ct.),Lac St. Jean,QC,OVERLAPS,0.0673,0.0715,0.5342,27.04
+QC154011,Laterrière pr. & Simon tp.,Chicoutimi & Saguenay,QC,QC050999,NO DATA,Chicoutimi,QC,OVERLAPS,0.0062,0.5118,0.0063,32.08
+QC154014,St. Ambroise pr,Chicoutimi & Saguenay,QC,QC050009,"St. Ambroise, par.",Chicoutimi,QC,OVERLAPS,0.2268,0.8965,0.2329,82.99
+QC154016,St. André pr,Chicoutimi & Saguenay,QC,QC063011,"St. André, par.",Lac St. Jean,QC,SAME_AS,1.0,1.0,1.0,71.31
+QC154019,St. Charles pr,Chicoutimi & Saguenay,QC,QC050011,St. Charles Borromée (Bourget),Chicoutimi,QC,SAME_AS,1.0,1.0,1.0,60.72
+QC154020,St. Cyriac pr,Chicoutimi & Saguenay,QC,QC050005,Kénogami (St. Cyriac),Chicoutimi,QC,SAME_AS,0.9999,0.9999,1.0,60.53
+QC154021,St. Dominique de Jonquières pr,Chicoutimi & Saguenay,QC,QC050004,Jonquière (St. Dominique),Chicoutimi,QC,OVERLAPS,0.9714,0.9715,0.9999,52.45
+QC154024,St. Félicien pr,Chicoutimi & Saguenay,QC,QC063016,"St. Félicien, par.",Lac St. Jean,QC,SAME_AS,0.9905,1.0,0.9905,72.73
+QC154026,St. François de Sales,Chicoutimi & Saguenay,QC,QC063017,St. François de Sales,Lac St. Jean,QC,SAME_AS,1.0,1.0,1.0,79.09
+QC154028,St. Gédéon pr,Chicoutimi & Saguenay,QC,QC063018,"St. Gédéon, par.",Lac St. Jean,QC,SAME_AS,0.9859,0.9859,1.0,71.85
+QC154031,St. Joseph d'Alma pr,Chicoutimi & Saguenay,QC,QC063021,"St. Joseph d'Alma, par.",Lac St. Jean,QC,OVERLAPS,0.9703,0.9703,1.0,74.21
+QC154033,St. Louis de Métabetchouan pr,Chicoutimi & Saguenay,QC,QC063022,St. Louis Metabetchouan,Lac St. Jean,QC,SAME_AS,0.9925,0.9925,1.0,68.32
+QC154034,St. Louis Nazaire pr,Chicoutimi & Saguenay,QC,QC050016,St. Louis Nazaire (Taché tp.—ct.),Chicoutimi,QC,SAME_AS,1.0,1.0,1.0,69.54
+QC154035,St. Méthode,Chicoutimi & Saguenay,QC,QC063023,St. Méthode,Lac St. Jean,QC,SAME_AS,1.0,1.0,1.0,79.09
+QC154036,St. Michel de Mistassini pr,Chicoutimi & Saguenay,QC,QC063024,"St. Michel de Mistassini, par.",Lac St. Jean,QC,SAME_AS,1.0,1.0,1.0,75.41
+QC154037,St. Prime pr,Chicoutimi & Saguenay,QC,QC063025,"St. Prime, par.",Lac St. Jean,QC,SAME_AS,1.0,1.0,1.0,71.31
+QC154038,St. Thomas d'Aquin pr,Chicoutimi & Saguenay,QC,QC063026,"St. Thomas d'Aquin, par.",Lac St. Jean,QC,SAME_AS,1.0,1.0,1.0,74.42
+QC154041,Roberval t-v,Chicoutimi & Saguenay,QC,QC063027,"Roberval, T-V",Lac St. Jean,QC,SAME_AS,1.0,1.0,1.0,76.29
+QC154042,Bagotville vl,Chicoutimi & Saguenay,QC,QC050017,"Bagotville, T-V",Chicoutimi,QC,SAME_AS,1.0,1.0,1.0,79.35
+QC154044,Hébertville vl,Chicoutimi & Saguenay,QC,QC063028,"Hébertville, VL",Lac St. Jean,QC,SAME_AS,1.0,1.0,1.0,76.68
+QC154045,Hébertville station vl,Chicoutimi & Saguenay,QC,QC063029,"Hébertville Stn, VL",Lac St. Jean,QC,SAME_AS,1.0,1.0,1.0,70.55
+QC154046,Jonquières vl,Chicoutimi & Saguenay,QC,QC050019,"Jonquière, T-V",Chicoutimi,QC,SAME_AS,1.0,1.0,1.0,76.39
+QC154048,St. Bruno vl,Chicoutimi & Saguenay,QC,QC063030,"St. Bruno, VL",Lac St. Jean,QC,SAME_AS,1.0,1.0,1.0,76.29
+QC154050,St. Jérôme vl,Chicoutimi & Saguenay,QC,QC063034,"St. Jérôme, VL",Lac St. Jean,QC,SAME_AS,1.0,1.0,1.0,76.5
+QC154051,Bergeronnes pr,Chicoutimi & Saguenay,QC,QC086001,Bergeronnes,Saguenay,QC,SAME_AS,1.0,1.0,1.0,78.15
+QC154054,Harrington,Chicoutimi & Saguenay,QC,QC086999,NO DATA,Saguenay,QC,OVERLAPS,0.0005,0.6803,0.0005,33.02
+QC154056,"Magpie, Moisie-Mingan",Chicoutimi & Saguenay,QC,QC086999,NO DATA,Saguenay,QC,OVERLAPS,0.0017,0.6921,0.0017,26.55
+QC154058,Natashquan,Chicoutimi & Saguenay,QC,QC086036,Canton Natashkuan,Saguenay,QC,SAME_AS,0.9968,0.9968,1.0,63.22
+QC154065,Sacré-Coeur pr. & Labrosse tp.,Chicoutimi & Saguenay,QC,QC086007,Sacré Cœur de Jésus & Labrosse tp.-ct.,Saguenay,QC,SAME_AS,1.0,1.0,1.0,65.96
+QC154069,Tadoussac pr,Chicoutimi & Saguenay,QC,QC086008,"Tadoussac, par.",Saguenay,QC,SAME_AS,1.0,1.0,1.0,78.77
+QC155004,Clifton E. & Clifton W-O,Compton,QC,QC051004,Clifton E.,Compton,QC,SAME_AS,0.9986,0.9986,1.0,71.18
+QC155010,La Patrie,Compton,QC,QC051011,La Patrie (Ditton),Compton,QC,SAME_AS,1.0,1.0,1.0,76.67
+QC155012,Marston & Piopolis,Compton,QC,QC055008,Marston S.,Frontenac,QC,OVERLAPS,0.3263,0.3874,0.6743,56.25
+QC155017,Ste. Edwidge,Compton,QC,QC051014,Ste. Edwidge de Clifton,Compton,QC,SAME_AS,1.0,1.0,1.0,78.0
+QC155020,Winslow & St. Romain,Compton,QC,QC055019,Winslow N. & St. Romain,Frontenac,QC,SAME_AS,1.0,1.0,1.0,76.37
+QC156008,St. Joseph,Deux-Montagnes,QC,QC052008,St. Joseph du Lac,Deux Montagnes,QC,SAME_AS,1.0,1.0,1.0,79.71
+QC157011,St. Léon de Standon,Dorchester,QC,QC053011,St. Léon de Standon,Dorchester,QC,OVERLAPS,0.4344,0.4539,0.9098,100.0
+QC157017,St. Prosper (Mission),Dorchester,QC,QC053019,St. Prosper (Watford W.-O.),Dorchester,QC,SAME_AS,1.0,1.0,1.0,73.75
+QC158006,Durham S.,Drummond & Arthabaska,QC,QC054002,Durham S. (St. Fulgence),Drummond,QC,OVERLAPS,0.9547,0.9915,0.9626,54.73
+QC158010,L'Avenir,Drummond & Arthabaska,QC,QC054006,L'Avenir,Drummond,QC,OVERLAPS,0.9613,0.9613,1.0,86.55
+QC158014,Ste. Anne du Sault,Drummond & Arthabaska,QC,QC038008,Ste. Anne du Sault,Arthabaska,QC,OVERLAPS,0.9704,0.9704,1.0,89.35
+QC158019,St. Germain de Grantham,Drummond & Arthabaska,QC,QC054008,St. Edmond de Grantham,Drummond,QC,OVERLAPS,0.2777,0.3019,0.7761,75.66
+QC158026,St. Valère de Bulstrode,Drummond & Arthabaska,QC,QC038016,St. Valère de Bulstrode,Arthabaska,QC,OVERLAPS,0.9667,0.9667,1.0,89.35
+QC158027,Ste. Victoire,Drummond & Arthabaska,QC,QC038017,Ste. Victoire,Arthabaska,QC,OVERLAPS,0.9735,0.9735,1.0,89.35
+QC158032,Wickham,Drummond & Arthabaska,QC,QC054014,Wickham E.,Drummond,QC,SAME_AS,1.0,1.0,1.0,74.2
+QC158036,Arthabaskaville t-v,Drummond & Arthabaska,QC,QC038020,"Arthabaska, T-V",Arthabaska,QC,SAME_AS,1.0,1.0,1.0,77.0
+QC159004,Douglastown,Gaspé,QC,QC056007,Douglas E.,Gaspé,QC,SAME_AS,1.0,1.0,1.0,76.67
+QC159021,Pabos,Gaspé,QC,QC056024,Pabos (Ste. Adélaïde de),Gaspé,QC,OVERLAPS,0.9567,0.9567,1.0,54.14
+QC160004,Westmount c,Hochelaga,QC,QC076016,"Westmount, C",Montréal & Jésus Islands—Iles,QC,SAME_AS,1.0,1.0,1.0,71.69
+QC162006,Ste. Geneviève,Jacques-Cartier,QC,QC076008,"Ste. Geneviève, par.",Montréal & Jésus Islands—Iles,QC,OVERLAPS,0.9659,0.9659,1.0,65.83
+QC162008,St. Laurent,Jacques-Cartier,QC,QC076039,"Saraguay, VL",Montréal & Jésus Islands—Iles,QC,OVERLAPS,0.0525,0.0543,0.6011,26.44
+QC162011,Beaconsfield t-v,Jacques-Cartier,QC,QC076018,"Beaconsfield, T-V",Montréal & Jésus Islands—Iles,QC,OVERLAPS,0.9702,0.9702,1.0,76.06
+QC162012,Dorval t-v,Jacques-Cartier,QC,QC076019,"Dorval, T-V",Montréal & Jésus Islands—Iles,QC,SAME_AS,0.9803,0.9803,1.0,74.85
+QC162014,Montréal W-O t-v,Jacques-Cartier,QC,QC076026,"Montréal W.-O., T-V",Montréal & Jésus Islands—Iles,QC,SAME_AS,1.0,1.0,1.0,72.18
+QC162018,Ste. Anne de Bellevue t-v,Jacques-Cartier,QC,QC076031,"Ste. Anne de Bellevue, T-V",Montréal & Jésus Islands—Iles,QC,SAME_AS,1.0,1.0,1.0,76.81
+QC162023,Cartierville vl,Jacques-Cartier,QC,QC076013,"Montréal, C",Montréal & Jésus Islands—Iles,QC,OVERLAPS,0.0226,0.6199,0.023,29.72
+QC162027,St. Pierre aux Liens vl,Jacques-Cartier,QC,QC076035,"St. Pierre aux Liens, T-V",Montréal & Jésus Islands—Iles,QC,SAME_AS,1.0,1.0,1.0,72.35
+QC162028,Senneville vl,Jacques-Cartier,QC,QC076040,"Senneville, VL",Montréal & Jésus Islands—Iles,QC,SAME_AS,1.0,1.0,1.0,75.59
+QC163001,St. Alphonse,Joliette,QC,QC060002,St. Alphonse de Rodriguez,Joliette,QC,SAME_AS,1.0,1.0,1.0,75.41
+QC163002,St. Ambroise,Joliette,QC,QC060003,St. Ambroise de Kildare,Joliette,QC,SAME_AS,1.0,1.0,1.0,78.0
+QC163005,St. Cléophas,Joliette,QC,QC060006,St. Cléophas de Brandon,Joliette,QC,SAME_AS,1.0,1.0,1.0,78.0
+QC163008,Ste. Émilie,Joliette,QC,QC060009,Ste. Emélie de l'Energie,Joliette,QC,SAME_AS,1.0,1.0,1.0,70.0
+QC163014,Joliette t-v,Joliette,QC,QC060015,"Joliette, C",Joliette,QC,OVERLAPS,0.9742,1.0,0.9742,84.78
+QC163999,NO DATA,Joliette,QC,QC060999,NO DATA,Joliette,QC,OVERLAPS,0.9648,0.9648,1.0,100.0
+QC164001,Mont Carmel,Kamouraska,QC,QC061001,Mont Carmel (Notre Dame du),Kamouraska,QC,SAME_AS,1.0,1.0,1.0,70.53
+QC164007,St. Denis,Kamouraska,QC,QC061007,St. Denis de la Bouteillerie,Kamouraska,QC,SAME_AS,1.0,1.0,1.0,64.05
+QC164008,St. Éleuthère & UNO,Kamouraska,QC,QC061008,St. Eleuthère (Pohénégamook),Kamouraska,QC,SAME_AS,1.0,1.0,1.0,74.68
+QC165004,Blake,Labelle,QC,QC057019,Northfield,Hull,QC,OVERLAPS,0.3738,0.5638,0.5258,20.24
+QC165008,Buckingham,Labelle,QC,QC062010,Buckingham W.-O.,Labelle,QC,OVERLAPS,0.3784,0.389,0.9328,83.85
+QC165009,Campbell,Labelle,QC,QC062012,Campbell W.-O.,Labelle,QC,OVERLAPS,0.2908,0.3038,0.8716,80.91
+QC165021,Lesage & Gagnon,Labelle,QC,QC062999,NO DATA,Labelle,QC,OVERLAPS,0.1591,0.5251,0.1859,42.73
+QC165040,St. André-Avellin,Labelle,QC,QC062048,St. André Avelin,Labelle,QC,OVERLAPS,0.9633,0.9633,1.0,93.64
+QC165048,Wurtele,Labelle,QC,QC062056,Wurtele,Labelle,QC,OVERLAPS,0.4679,0.8598,0.5066,100.0
+QC165048,Wurtele,Labelle,QC,QC062060,"Ferme Neuve, VL",Labelle,QC,OVERLAPS,0.02,0.0204,0.5026,49.09
+QC166002,Sault St. Louis,Laprairie & Napierville,QC,QC064007,Indian reserves (Sault St. Louis),Laprairie,QC,SAME_AS,1.0,1.0,1.0,60.62
+QC166006,St. Philippe,Laprairie & Napierville,QC,QC064005,St. Mathieu,Laprairie,QC,OVERLAPS,0.1657,0.1933,0.5365,59.48
+QC166008,St. Cyprien,Laprairie & Napierville,QC,QC077001,St. Cyprien de Léry,Napierville,QC,SAME_AS,1.0,1.0,1.0,70.75
+QC168001,Pointe-aux-Trembles,Laval,QC,QC076024,"Montréal E., T-V",Montréal & Jésus Islands—Iles,QC,OVERLAPS,0.3228,0.3716,0.7108,29.29
+QC168001,Pointe-aux-Trembles,Laval,QC,QC076028,"Pointe aux Trembles, T-V",Montréal & Jésus Islands—Iles,QC,OVERLAPS,0.1158,0.1201,0.7637,60.64
+QC168002,Rivière des Prairies,Laval,QC,QC076006,"Rivière des Prairies, par.",Montréal & Jésus Islands—Iles,QC,SAME_AS,1.0,1.0,1.0,66.16
+QC168004,Ste. Dorothée,Laval,QC,QC076048,"Laval sur le Lac, T-V",Montréal & Jésus Islands—Iles,QC,OVERLAPS,0.0534,0.0541,0.8071,21.76
+QC168006,St. François de Sales,Laval,QC,QC076043,"St. François de Sales, par.",Montréal & Jésus Islands—Iles,QC,SAME_AS,1.0,1.0,1.0,66.54
+QC168007,St. Léonard de Port Maurice,Laval,QC,QC076034,"St. Michel de Laval, T-V",Montréal & Jésus Islands—Iles,QC,OVERLAPS,0.1681,0.1776,0.7591,32.75
+QC168010,St. Vincent de Paul,Laval,QC,QC076046,St. Vincent de Paul,Montréal & Jésus Islands—Iles,QC,OVERLAPS,0.9543,1.0,0.9543,75.29
+QC168011,Longue Pointe,Laval,QC,QC076013,"Montréal, C",Montréal & Jésus Islands—Iles,QC,OVERLAPS,0.1452,0.9295,0.1469,22.79
+QC168016,Pointe-aux-Trembles t-v,Laval,QC,QC076024,"Montréal E., T-V",Montréal & Jésus Islands—Iles,QC,OVERLAPS,0.27,0.8026,0.2892,41.19
+QC168019,Ste. Rose vl,Laval,QC,QC076049,"Ste. Rose, T-V",Montréal & Jésus Islands—Iles,QC,SAME_AS,1.0,1.0,1.0,64.52
+QC169002,Notre-Dame du Perpétuel Secours,Lévis,QC,QC066001,Notre Dame de Charny,Lévis,QC,SAME_AS,1.0,1.0,1.0,71.18
+QC169004,St. Étienne de Lauzon,Lévis,QC,QC066003,St. Etienne de Lauzon,Lévis,QC,OVERLAPS,0.9681,0.9681,1.0,96.67
+QC169012,St. Romuald,Lévis,QC,QC066012,St. Romuald d'Etchemin,Lévis,QC,SAME_AS,1.0,1.0,1.0,76.67
+QC170001,L'Islet,L'Islet,QC,QC067003,L'Islet,L'IsIet,QC,OVERLAPS,0.9631,0.9631,1.0,95.71
+QC170007,Ste. Louise,L'Islet,QC,QC067009,Ste. Louise des Aulnaies,L'IsIet,QC,SAME_AS,1.0,1.0,1.0,69.71
+QC170008,St. Marcel,L'Islet,QC,QC067001,Arago (St. Marcel),L'IsIet,QC,SAME_AS,1.0,1.0,1.0,75.71
+QC171001,St. Agapit,Lotbinière,QC,QC068003,St. Agapit de Beaurivage,Lotbinière,QC,OVERLAPS,0.7432,0.8649,0.8408,71.18
+QC171006,St. Édouard,Lotbinière,QC,QC068008,St. Edouard,Lotbinière,QC,OVERLAPS,0.9726,1.0,0.9726,93.64
+QC171008,St. Flavien,Lotbinière,QC,QC068015,St. Octave de Dosquet,Lotbinière,QC,OVERLAPS,0.2512,0.3091,0.5729,60.62
+QC171011,St. Jean Deschaillons,Lotbinière,QC,QC068001,Deschaillons (St. Jean),Lotbinière,QC,SAME_AS,1.0,1.0,1.0,68.18
+QC171013,St. Narcisse,Lotbinière,QC,QC068014,St. Narcisse de Beaurivage,Lotbinière,QC,SAME_AS,1.0,1.0,1.0,74.21
+QC171014,St. Patrice,Lotbinière,QC,QC068016,St. Patrice de Beaurivage,Lotbinière,QC,SAME_AS,0.9816,0.9816,1.0,72.78
+QC171015,Ste. Philomène,Lotbinière,QC,QC068017,Ste. Philomène de Fortierville,Lotbinière,QC,SAME_AS,0.9949,0.9949,1.0,74.55
+QC171016,St. Sylvestre,Lotbinière,QC,QC068018,St. Sylvestre de Beaurivage,Lotbinière,QC,OVERLAPS,0.9702,0.9702,1.0,75.5
+QC173002,Louiseville,Maskinongé,QC,QC069003,Louiseville (Rivière du Loup),Maskinongé,QC,SAME_AS,1.0,1.0,1.0,68.5
+QC173004,St. Charles de Mandeville,Maskinongé,QC,QC043006,St. Charles de Mandeville,Berthier,QC,SAME_AS,1.0,1.0,1.0,73.33
+QC173009,St. Paulin,Maskinongé,QC,QC069012,St. Paulin,Maskinongé,QC,OVERLAPS,0.7857,0.9068,0.8547,100.0
+QC173010,Ste. Ursule,Maskinongé,QC,QC069005,Ste. Angèle de Grand Pré,Maskinongé,QC,OVERLAPS,0.1883,0.1978,0.7981,58.0
+QC174011,Ste. Anastasie,Mégantic,QC,QC071011,Ste. Anastasie de Nelson,Mégantic,QC,OVERLAPS,0.8163,0.8763,0.9227,81.58
+QC175009,St. Thomas,Missisquoi,QC,QC072010,St. Thomas de Foucault,Missisquoi,QC,SAME_AS,1.0,1.0,1.0,73.75
+QC175010,Stanbridge Station,Missisquoi,QC,QC072009,St. Pierre de Vérone à Pike River,Missisquoi,QC,OVERLAPS,0.4507,0.5905,0.6557,51.96
+QC176003,St. Calixte,Montcalm,QC,QC073003,St. Calixte de Kilkenny,Montcalm,QC,SAME_AS,1.0,1.0,1.0,75.29
+QC176004,St. Donat & Chilton,Montcalm,QC,QC073012,Other parts—Autres parties,Montcalm,QC,OVERLAPS,0.3324,0.4028,0.6553,48.67
+QC176011,St. Patrice de Rawdon,Montcalm,QC,QC073010,St. Patrice de Rawdon,Montcalm,QC,OVERLAPS,0.9541,0.9541,1.0,100.0
+QC176999,NO DATA,Montcalm,QC,QC073999,NO DATA,Montcalm,QC,OVERLAPS,0.9664,0.9664,1.0,100.0
+QC177008,St. François,Montmagny,QC,QC074009,St. François de la Rivière du Sud,Montmagny,QC,SAME_AS,1.0,1.0,1.0,67.33
+QC177010,St. Pierre,Montmagny,QC,QC074012,St. Pierre de la Rivière du Sud,Montmagny,QC,SAME_AS,1.0,1.0,1.0,64.15
+QC184009,Ste. Eulalie,Nicolet,QC,QC078009,Ste. Eulalie,Nicolet,QC,OVERLAPS,0.7883,0.8636,0.9004,100.0
+QC184020,St. Wenceslas,Nicolet,QC,QC078018,St. Raphaël d'Aston,Nicolet,QC,OVERLAPS,0.1316,0.1492,0.5278,60.62
+QC184022,Annaville vl,Nicolet,QC,QC078025,"Annaville (St. Célestin), VL",Nicolet,QC,SAME_AS,1.0,1.0,1.0,72.0
+QC185011,Fabre,Pontiac,QC,QC094040,St. Edouard de Fabre,Témiscamingue,QC,OVERLAPS,0.8038,0.8785,0.9044,37.0
+QC185012,Duhamel E. & Duhamel W-O,Pontiac,QC,QC094011,Duhamel W.-O.,Témiscamingue,QC,OVERLAPS,0.4529,0.4923,0.8501,50.62
+QC185012,Duhamel E. & Duhamel W-O,Pontiac,QC,QC094010,Duhamel E.,Témiscamingue,QC,OVERLAPS,0.2949,0.3383,0.697,50.18
+QC185013,Guigues,Pontiac,QC,QC094039,St. Bruno de Guigues,Témiscamingue,QC,OVERLAPS,0.4607,0.484,0.9053,45.3
+QC185013,Guigues,Pontiac,QC,QC094041,St. Eugène de Guigues,Témiscamingue,QC,OVERLAPS,0.2723,0.3179,0.6547,44.0
+QC185014,Laverlochère & Raby,Pontiac,QC,QC094042,St. Placide,Témiscamingue,QC,OVERLAPS,0.065,0.0665,0.7376,27.67
+QC185014,Laverlochère & Raby,Pontiac,QC,QC094029,Laverlochère (St. Isidore),Témiscamingue,QC,OVERLAPS,0.1773,0.1825,0.8628,55.67
+QC185018,Nédélec,Pontiac,QC,QC094033,Notre Dame des Quinze,Témiscamingue,QC,OVERLAPS,0.1927,0.234,0.5224,24.0
+QC185999,NO DATA,Pontiac,QC,QC094028,Launay,Témiscamingue,QC,OVERLAPS,0.0037,0.0037,0.6425,30.54
+QC185999,NO DATA,Pontiac,QC,QC094059,Other parts—Autres parties,Témiscamingue,QC,OVERLAPS,0.0146,0.0148,0.5658,30.21
+QC185999,NO DATA,Pontiac,QC,QC094048,Villemontel,Témiscamingue,QC,OVERLAPS,0.0051,0.0051,0.9462,24.56
+QC185031,Ville-Marie vl,Pontiac,QC,QC094011,Duhamel W.-O.,Témiscamingue,QC,OVERLAPS,0.1388,0.6511,0.1499,24.56
+QC186003,Deschambault,Portneuf,QC,QC080003,Deschambault (St. Joseph),Portneuf,QC,SAME_AS,1.0,1.0,1.0,75.41
+QC186004,Écureuils,Portneuf,QC,QC080005,Les Ecureuils (St. Jean Baptiste),Portneuf,QC,OVERLAPS,0.9673,0.9673,1.0,56.67
+QC186008,Notre-Dame des Anges,Portneuf,QC,QC080025,"Montauban, VL",Portneuf,QC,OVERLAPS,0.0401,0.0402,0.9143,51.21
+QC186014,Ste. Catherine,Portneuf,QC,QC080023,"Lac Sergent, T-V",Portneuf,QC,OVERLAPS,0.0175,0.0176,0.8195,48.67
+QC186019,St. Marc,Portneuf,QC,QC080033,"St. Marc des Carrières, VL",Portneuf,QC,SAME_AS,1.0,1.0,1.0,62.94
+QC186022,St. Ubalde,Portneuf,QC,QC080021,St. Ubalde,Portneuf,QC,OVERLAPS,0.9763,0.9763,1.0,100.0
+QC188003,Petite Rivière,Québec Est,QC,QC081017,"Québec, C",Québec,QC,OVERLAPS,0.2541,0.6397,0.2965,34.67
+QC190005,St. Ambroise,Québec County,QC,QC081004,St. Ambroise,Québec,QC,OVERLAPS,0.9685,0.9685,1.0,88.95
+QC190016,Lorette vl,Québec County,QC,QC081023,"Loretteville, VL",Québec,QC,SAME_AS,1.0,1.0,1.0,72.79
+QC192005,Dudswell,Richmond & Wolfe,QC,QC099002,Dudswell,Wolfe,QC,OVERLAPS,0.9504,0.9504,1.0,84.29
+QC192015,St. Jacques,Richmond & Wolfe,QC,QC099010,St. Jacques le Majeur,Wolfe,QC,SAME_AS,1.0,1.0,1.0,62.41
+QC192017,Shipton,Richmond & Wolfe,QC,QC083006,Shipton,Richmond,QC,OVERLAPS,0.9629,0.9629,1.0,90.0
+QC192021,Windsor,Richmond & Wolfe,QC,QC083009,Windsor N.,Richmond,QC,OVERLAPS,0.3539,0.443,0.6378,77.65
+QC192026,Windsor Mills t-v,Richmond & Wolfe,QC,QC083012,"Windsor, T-V",Richmond,QC,SAME_AS,1.0,1.0,1.0,73.1
+QC192030,D'Israéli vl,Richmond & Wolfe,QC,QC099018,"D'Israeli, VL",Wolfe,QC,SAME_AS,1.0,1.0,1.0,75.89
+QC193004,Notre-Dame de Macnider,Rimouski,QC,QC070003,Notre Dame de McNider,Matane,QC,SAME_AS,1.0,1.0,1.0,69.4
+QC193007,Rimouski,Rimouski,QC,QC084012,St. Germain de Rimouski,Rimouski,QC,SAME_AS,1.0,1.0,1.0,66.13
+QC193010,St. Benoit-Labre & St. Léon le Grand,Rimouski,QC,QC070013,St. Léon le Grand,Matane,QC,OVERLAPS,0.2947,0.3991,0.5299,49.19
+QC193012,Ste. Cécile du Bic,Rimouski,QC,QC084006,Ste. Cécile du Bic,Rimouski,QC,OVERLAPS,0.971,0.971,1.0,100.0
+QC193013,St. Damase,Rimouski,QC,QC070007,St. Damase,Matane,QC,SAME_AS,1.0,1.0,1.0,74.29
+QC193029,St. Moïse,Rimouski,QC,QC070016,St. Moïse,Matane,QC,OVERLAPS,0.5735,0.9045,0.6105,74.29
+QC193030,St. Octave de Métis,Rimouski,QC,QC070018,St. Octave de Métis S.,Matane,QC,SAME_AS,1.0,1.0,1.0,69.16
+QC193032,St. Simon,Rimouski,QC,QC084017,St. Simon,Rimouski,QC,OVERLAPS,0.9757,0.9757,1.0,100.0
+QC193999,NO DATA,Rimouski,QC,QC095015,Ste. Françoise,Témiscouata,QC,OVERLAPS,0.0235,0.0237,0.7267,22.81
+QC193999,NO DATA,Rimouski,QC,QC084016,St. Narcisse,Rimouski,QC,OVERLAPS,0.0059,0.006,0.6741,44.74
+QC193040,Petit Métis vl,Rimouski,QC,QC070021,"Petit Métis, VL",Matane,QC,SAME_AS,1.0,1.0,1.0,71.87
+QC194003,Ste. Angèle,Rouville,QC,QC085003,Ste. Angèle de Monnoir,Rouville,QC,SAME_AS,1.0,1.0,1.0,76.67
+QC194006,St. Jean Baptiste,Rouville,QC,QC085006,St. Jean Baptiste,Rouville,QC,OVERLAPS,0.9673,0.9673,1.0,100.0
+QC194009,St. Michel,Rouville,QC,QC085009,St. Michel de Rougemont,Rouville,QC,OVERLAPS,0.8648,0.9156,0.9397,72.42
+QC195002,Notre-Dame,St. Hyacinthe,QC,QC091008,St. Hyacinthe (Notre Dame de),St. Hyacinthe,QC,SAME_AS,1.0,1.0,1.0,62.31
+QC195004,St. Bernard,St. Hyacinthe,QC,QC091003,St. Bernard de Michaudville,St. Hyacinthe,QC,SAME_AS,1.0,1.0,1.0,70.53
+QC196002,St. Athanase,St. Jean & Iberville,QC,QC059003,St. Athanase de Bleury,Iberville,QC,SAME_AS,1.0,1.0,1.0,68.03
+QC196008,St. Grégoire le Grand,St. Jean & Iberville,QC,QC059006,St. Grégoire le Grand de Monnoir,Iberville,QC,SAME_AS,1.0,1.0,1.0,74.09
+QC196016,St. Jean t-v,St. Jean & Iberville,QC,QC092009,"St. Jean, C",St. Jean,QC,SAME_AS,1.0,1.0,1.0,71.93
+QC197009,St. Valérien,Shefford,QC,QC087009,St. Valérien de Milton,Shefford,QC,SAME_AS,1.0,1.0,1.0,79.41
+QC197010,Shefford,Shefford,QC,QC087010,Shefford,Shefford,QC,OVERLAPS,0.9619,0.9619,1.0,100.0
+QC197018,West Shefford vl,Shefford,QC,QC087018,"Shefford W.-O., VL",Shefford,QC,SAME_AS,1.0,1.0,1.0,75.29
+QC198002,Orford,Sherbrooke,QC,QC088003,Rock Forest,Sherbrooke,QC,OVERLAPS,0.1706,0.1973,0.5578,62.94
+QC199002,St. Ignace,Soulanges,QC,QC089001,Côteau du Lac (St. Ignace),Soulanges,QC,SAME_AS,0.9895,0.9895,1.0,68.89
+QC200001,Barford,Stanstead,QC,QC090001,Barford (N. & S.),Stanstead,QC,SAME_AS,1.0,1.0,1.0,70.83
+QC201001,"Cabano, Packington & UNO",Témiscouata,QC,QC095014,St. Eusèbe de Cabano,Témiscouata,QC,OVERLAPS,0.1349,0.1368,0.9039,49.09
+QC201002,Cacouna,Témiscouata,QC,QC095002,Cacouna (St. Georges),Témiscouata,QC,SAME_AS,1.0,1.0,1.0,65.0
+QC201007,Rivière du Loup,Témiscouata,QC,QC095024,St. Patrice de la Rivière du Loup,Témiscouata,QC,SAME_AS,1.0,1.0,1.0,73.75
+QC201011,St. Cyprien,Témiscouata,QC,QC095010,St. Cyprien (Hocquart),Témiscouata,QC,SAME_AS,1.0,1.0,1.0,76.67
+QC201999,NO DATA,Témiscouata,QC,QC095022,St. Michel de Squatteck,Témiscouata,QC,OVERLAPS,0.1367,0.1485,0.6324,48.67
+QC201024,Cacouna vl,Témiscouata,QC,QC095031,"Cacouna (St. Georges de), VL",Témiscouata,QC,SAME_AS,0.9995,0.9995,1.0,66.84
+QC202002,Ste. Adèle,Terrebonne,QC,QC096006,Ste. Adèle,Terrebonne,QC,OVERLAPS,0.9645,0.9645,1.0,100.0
+QC202003,Ste. Agathe,Terrebonne,QC,QC096004,Ivry sur le Lac,Terrebonne,QC,OVERLAPS,0.1734,0.1754,0.9409,51.54
+QC202011,Ste. Lucie,Terrebonne,QC,QC096012,Ste. Lucie (Doncaster),Terrebonne,QC,SAME_AS,1.0,1.0,1.0,73.75
+QC202013,St. Sauveur,Terrebonne,QC,QC096014,St. Sauveur des Monts,Terrebonne,QC,SAME_AS,1.0,1.0,1.0,78.12
+QC202014,Ste. Sophie,Terrebonne,QC,QC096015,Ste. Sophie de la Corne,Terrebonne,QC,SAME_AS,1.0,1.0,1.0,75.29
+QC202015,Ste. Thérèse,Terrebonne,QC,QC096016,Ste. Thérèse de Blainville,Terrebonne,QC,SAME_AS,0.9988,0.9988,1.0,74.21
+QC202020,Ste. Agathe vl,Terrebonne,QC,QC096018,"Ste. Agathe des Monts, T-V",Terrebonne,QC,SAME_AS,1.0,1.0,1.0,75.5
+QC203001,Banlieue Trois-Rivières,Trois-Rivières & St. Maurice,QC,QC093001,"Banlieue (Trois-Rivières, par.)",St. Maurice,QC,SAME_AS,1.0,1.0,1.0,76.55
+QC203003,St. Barnabé,Trois-Rivières & St. Maurice,QC,QC093002,Charette,St. Maurice,QC,OVERLAPS,0.2842,0.3113,0.7653,31.66
+QC203005,St. Élie de Caxton,Trois-Rivières & St. Maurice,QC,QC093006,St. Elie de Caxton,St. Maurice,QC,OVERLAPS,0.9669,0.9669,1.0,83.03
+QC203006,St. Étienne des Grès,Trois-Rivières & St. Maurice,QC,QC093013,St. Thomas de Caxton,St. Maurice,QC,OVERLAPS,0.225,0.2641,0.6028,48.42
+QC203013,Shawinigan Falls t-v,Trois-Rivières & St. Maurice,QC,QC093014,"Shawinigan Falls, C",St. Maurice,QC,SAME_AS,1.0,1.0,1.0,77.95
+QC204007,Vaudreuil,Vaudreuil,QC,QC097006,St. Michel de Vaudreuil,Vaudreuil,QC,SAME_AS,0.9815,0.9815,1.0,69.38
+QC205001,Aumond,Wright,QC,QC057001,Aumond,Hull,QC,SAME_AS,1.0,1.0,1.0,76.0
+QC205002,Aylwin,Wright,QC,QC057002,Aylwin,Hull,QC,SAME_AS,1.0,1.0,1.0,76.0
+QC205003,Baskatong,Wright,QC,QC057003,Baskatong,Hull,QC,SAME_AS,1.0,1.0,1.0,76.0
+QC205004,Bouchette,Wright,QC,QC057004,Bouchette,Hull,QC,SAME_AS,1.0,1.0,1.0,76.0
+QC205005,Cameron,Wright,QC,QC057005,Cameron,Hull,QC,SAME_AS,1.0,1.0,1.0,76.0
+QC205006,Denholm,Wright,QC,QC057006,Denholm,Hull,QC,SAME_AS,1.0,1.0,1.0,76.0
+QC205007,Eardley,Wright,QC,QC057007,Eardley,Hull,QC,SAME_AS,1.0,1.0,1.0,76.0
+QC205009,Hincks,Wright,QC,QC057009,Hincks,Hull,QC,SAME_AS,1.0,1.0,1.0,76.0
+QC205011,Kensington,Wright,QC,QC057013,Kensington,Hull,QC,SAME_AS,1.0,1.0,1.0,76.0
+QC205012,Low,Wright,QC,QC057014,Low,Hull,QC,SAME_AS,1.0,1.0,1.0,76.0
+QC205013,Lytton,Wright,QC,QC057015,Lytton,Hull,QC,SAME_AS,1.0,1.0,1.0,76.0
+QC205017,Sicotte,Wright,QC,QC057020,Sicotte,Hull,QC,SAME_AS,1.0,1.0,1.0,76.0
+QC205019,Wakefield,Wright,QC,QC057036,"Wakefield, VL",Hull,QC,OVERLAPS,0.0024,0.0024,0.7103,63.27
+QC205020,Wright,Wright,QC,QC057026,Wright,Hull,QC,SAME_AS,1.0,1.0,1.0,76.0
+QC205999,NO DATA,Wright,QC,QC057027,Other parts—Autres parties,Hull,QC,OVERLAPS,0.9744,1.0,0.9744,27.21
+QC205022,Hull c,Wright,QC,QC057029,"Hull, C",Hull,QC,SAME_AS,1.0,1.0,1.0,70.62
+QC205023,Aylmer t-v,Wright,QC,QC057030,"Aylmer, T-V",Hull,QC,SAME_AS,1.0,1.0,1.0,72.67
+QC205024,Gracefield vl,Wright,QC,QC057032,"Gracefield, VL",Hull,QC,SAME_AS,1.0,1.0,1.0,73.41
+QC205025,Maniwaki vl,Wright,QC,QC057016,Maniwaki,Hull,QC,SAME_AS,1.0,1.0,1.0,64.95
+QC205026,Pointe Gatineau vl,Wright,QC,QC057034,"Pointe Gatineau, VL",Hull,QC,SAME_AS,1.0,1.0,1.0,74.11
+QC206001,La Baie du Febvre,Yamaska,QC,QC100003,St. Antoine (La Baie du Febvre),Yamaska,QC,SAME_AS,0.989,0.989,1.0,79.58
+QC206007,St. François,Yamaska,QC,QC100007,St. François du Lac,Yamaska,QC,OVERLAPS,0.9632,0.9632,1.0,84.19
+QC206013,St. Thomas,Yamaska,QC,QC100015,Indian reserves,Yamaska,QC,OVERLAPS,0.0773,0.079,0.7796,41.2
+QC206014,St. Zéphirin,Yamaska,QC,QC100014,St. Zéphirin de Courval,Yamaska,QC,SAME_AS,1.0,1.0,1.0,78.0
+QC20N002,East Main,Unorganized parts - Parties non organisées,QC,QC094051,East Main,Témiscamingue,QC,SAME_AS,1.0,1.0,1.0,77.64
+QC20N003,Mistassini,Unorganized parts - Parties non organisées,QC,QC094054,Mistassini,Témiscamingue,QC,SAME_AS,1.0,1.0,1.0,77.64
+QC20N004,Nemiskau,Unorganized parts - Parties non organisées,QC,QC094055,Nemiskau,Témiscamingue,QC,SAME_AS,1.0,1.0,1.0,77.64
+QC20N005,Rupert's House,Unorganized parts - Parties non organisées,QC,QC094056,Ruperts House,Témiscamingue,QC,SAME_AS,1.0,1.0,1.0,75.04
+QC193042,St. Moïse vl,Rimouski,QC,QC070026,"St. Moïse, VL",Matane,QC,SAME_AS,1.0,1.0,1.0,71.49
+QC193017,Ste. Félicité,Rimouski,QC,QC070009,Ste. Félicité,Matane,QC,SAME_AS,1.0,1.0,1.0,74.29
+QC193041,St. Jérôme de Matane vl,Rimouski,QC,QC070025,"St. Jérôme de Matane, VL",Matane,QC,SAME_AS,1.0,1.0,1.0,72.8
+QC147006,St. Damien,Berthier,QC,QC043008,St. Damien de Brandon,Berthier,QC,SAME_AS,1.0,1.0,1.0,75.16
+QC191011,Sorel t-v,Richelieu,QC,QC082011,"Sorel, C",Richelieu,QC,SAME_AS,1.0,1.0,1.0,79.41
+QC206011,St. Michel,Yamaska,QC,QC100011,St. Michel d'Yamaska,Yamaska,QC,SAME_AS,0.9824,0.9824,1.0,76.67
+QC201019,St. Modeste,Témiscouata,QC,QC095023,Ste. Modeste de Whitworth,Témiscouata,QC,SAME_AS,1.0,1.0,1.0,72.78
+QC201016,St. Honoré,Témiscouata,QC,QC095016,St. Honoré (Armand),Témiscouata,QC,SAME_AS,0.9956,0.9956,1.0,78.28
+QC201015,St. François-Xavier & St. Hubert,Témiscouata,QC,QC095017,St. Hubert & St. François Xavier,Témiscouata,QC,SAME_AS,1.0,1.0,1.0,69.38
+QC186006,Lac aux Sables,Portneuf,QC,QC080019,St. Rémi du Lac au Sable,Portneuf,QC,OVERLAPS,0.9706,0.9921,0.9782,74.21
+QC154049,St. Félicien vl,Chicoutimi & Saguenay,QC,QC063032,"St. Félicien, VL",Lac St. Jean,QC,SAME_AS,1.0,1.0,1.0,76.83
+QC202006,St. Hypolite,Terrebonne,QC,QC096005,Mont Rolland (St. Joseph du),Terrebonne,QC,OVERLAPS,0.1195,0.123,0.8081,51.0
+QC168008,St. Martin,Laval,QC,QC076044,"St. Martin, par.",Montréal & Jésus Islands—Iles,QC,OVERLAPS,0.7282,0.7673,0.9347,59.14
+QC203014,Baie de Shawinigan vl,Trois-Rivières & St. Maurice,QC,QC093016,"Baie Shawinigan, VL",St. Maurice,QC,SAME_AS,1.0,1.0,1.0,79.92
+QC177005,"St. Antoine, Ile aux Grues",Montmagny,QC,QC074002,"Ile aux Grues, etc. (St. Antoine par.)",Montmagny,QC,SAME_AS,1.0,1.0,1.0,60.62
+QC178002,Ste. Anne de Beaupré,Montmorency,QC,QC075004,Ste. Anne de Beaupré,Montmorency,QC,OVERLAPS,0.9716,0.9716,1.0,100.0
+QC174010,Sacré-Coeur de Marie,Mégantic,QC,QC071018,Très Saint Cœur de Marie,Mégantic,QC,SAME_AS,1.0,1.0,1.0,74.55
+QC164017,Kamouraska vl,Kamouraska,QC,QC061017,"St. Louis de Kamouraska, VL",Kamouraska,QC,SAME_AS,1.0,1.0,1.0,75.5
+QC203011,Unorg. ter. - Ter. non org.,Trois-Rivières & St. Maurice,QC,QC047001,"Bousquet, Fitzpatrick, Flamand, La Croche",Champlain,QC,OVERLAPS,0.0063,0.0063,0.7498,23.39
+QC203011,Unorg. ter. - Ter. non org.,Trois-Rivières & St. Maurice,QC,QC047028,Réserves Indiennes,Champlain,QC,OVERLAPS,0.0085,0.0085,0.6703,26.64
+QC203011,Unorg. ter. - Ter. non org.,Trois-Rivières & St. Maurice,QC,QC047027,Other parts—Autres parties,Champlain,QC,OVERLAPS,0.5917,0.7601,0.7276,28.64
+QC150007,Beloeil pr,Chambly & Verchères,QC,QC098001,Belœil,Verchères,QC,SAME_AS,1.0,1.0,1.0,63.04
+QC159010,Grande Vallée des Monts,Gaspé,QC,QC056013,Grande Vallée des Monts,Gaspé,QC,OVERLAPS,0.4139,0.5398,0.6396,100.0
+QC159023,Petite Magdeleine,Gaspé,QC,QC056028,Ste. Madeleine de la Rivière Madeleine,Gaspé,QC,OVERLAPS,0.3065,0.5852,0.3916,63.09
+QC162999,NO DATA,Jacques-Cartier,QC,QC076999,NO DATA,Montréal & Jésus Islands—Iles,QC,OVERLAPS,0.4221,0.5206,0.6904,78.18
+QC168017,Sault au Récollet vl,Laval,QC,QC076013,"Montréal, C",Montréal & Jésus Islands—Iles,QC,OVERLAPS,0.0383,0.718,0.0389,27.87
+QC20N007,Waswanipi,Unorganized parts - Parties non organisées,QC,QC094057,Waswanipi,Témiscamingue,QC,SAME_AS,1.0,1.0,1.0,77.64
+QC20N999,NO DATA,Unorganized parts - Parties non organisées,QC,QC094021,Lamotte,Témiscamingue,QC,OVERLAPS,0.0007,0.0007,0.6412,27.64
+QC20N999,NO DATA,Unorganized parts - Parties non organisées,QC,QC094047,Trécesson,Témiscamingue,QC,OVERLAPS,0.0011,0.0011,0.7848,16.39
+QC154999,NO DATA,Chicoutimi & Saguenay,QC,QC050009,"St. Ambroise, par.",Chicoutimi,QC,OVERLAPS,0.0007,0.0007,0.7307,36.15
+QC154999,NO DATA,Chicoutimi & Saguenay,QC,QC063004,"L'Ascension, par.",Lac St. Jean,QC,OVERLAPS,0.0007,0.0007,0.8563,32.42
+QC154999,NO DATA,Chicoutimi & Saguenay,QC,QC086999,NO DATA,Saguenay,QC,OVERLAPS,0.2503,0.7584,0.272,86.55
+QC148002,Gascons E.,Bonaventure,QC,QC044003,Gascons E. (Anse aux),Bonaventure,QC,SAME_AS,1.0,1.0,1.0,75.16
+QC148003,Gascons W-O,Bonaventure,QC,QC044004,Gascons W.-O. (Anse aux),Bonaventure,QC,SAME_AS,1.0,1.0,1.0,74.0
+QC190015,Other parts - Autres parties,Québec County,QC,QC081999,NO DATA,Québec,QC,OVERLAPS,0.0009,0.9214,0.0009,38.95

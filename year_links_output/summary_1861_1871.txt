@@ -1,0 +1,17 @@
+CSD Linkage Summary: 1861 → 1871
+============================================================
+
+Input CSDs (1861): 1202
+Input CSDs (1871): 1818
+
+High-confidence links: 1549
+Ambiguous links: 333
+
+High-confidence breakdown:
+  CONTAINS: 810
+  SAME_AS: 573
+  WITHIN: 166
+
+Ambiguous breakdown:
+  SAME_AS: 186
+  OVERLAPS: 147

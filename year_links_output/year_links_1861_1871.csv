@@ -1,0 +1,1550 @@
+tcpuid_1861,csd_name_1861,cd_name_1861,pr_1861,tcpuid_1871,csd_name_1871,cd_name_1871,pr_1871,relationship,iou,frac_from,frac_to,name_similarity
+ON065002,Brantford,Brant,ON,ON015003,"Brantford, W-O","Brant, South or West—Sud ou Ouest",ON,CONTAINS,0.5714,0.5714,1.0,62.68
+ON065002,Brantford,Brant,ON,ON016002,"Brantford, E","Brant, North or East—Nord ou Est",ON,CONTAINS,0.4286,0.4286,1.0,68.11
+ON083007,Elizabethtown,Leeds,ON,ON068003,"Brockville, East Ward—Quartier",Brockville,ON,CONTAINS,0.003,0.003,1.0,21.02
+ON066001,Albermarle,Bruce,ON,ON028007,Albemarle and Eastnor,"Bruce, North—Nord",ON,CONTAINS,0.8803,0.8803,1.0,54.28
+ON066001,Albermarle,Bruce,ON,ON028999,NO DATA,"Bruce, North—Nord",ON,CONTAINS,0.1197,0.1197,1.0,30.11
+ON066002,Amabel,Bruce,ON,ON028006,Amabel,"Bruce, North—Nord",ON,SAME_AS,1.0,1.0,1.0,83.64
+ON066003,Arran,Bruce,ON,ON028005,Arran,"Bruce, North—Nord",ON,SAME_AS,1.0,1.0,1.0,83.64
+ON066014,Saugeen,Bruce,ON,ON028002,Saugeen,"Bruce, North—Nord",ON,SAME_AS,1.0,1.0,1.0,83.64
+ON066012,"Kincardine, Village",Bruce,ON,ON027006,"Kincardine, Village","Bruce, South—Sud",ON,SAME_AS,1.0,1.0,1.0,84.29
+ON066015,"Southampton, Village",Bruce,ON,ON028003,"Southampton, Village","Bruce, North—Nord",ON,SAME_AS,1.0,1.0,1.0,83.64
+ON066004,Brant,Bruce,ON,ON027008,Brant,"Bruce, South—Sud",ON,SAME_AS,1.0,1.0,1.0,84.29
+ON066006,Carrick,Bruce,ON,ON027004,Carrick,"Bruce, South—Sud",ON,SAME_AS,1.0,1.0,1.0,84.29
+ON066007,Culross,Bruce,ON,ON027003,Culross,"Bruce, South—Sud",ON,SAME_AS,1.0,1.0,1.0,84.29
+ON066008,Elderslie,Bruce,ON,ON028004,Elderslie,"Bruce, North—Nord",ON,SAME_AS,1.0,1.0,1.0,83.64
+ON066010,Huron,Bruce,ON,ON027001,Huron,"Bruce, South—Sud",ON,SAME_AS,1.0,1.0,1.0,84.29
+ON067001,Fitzroy,Carleton,ON,ON078009,Fitzroy,Carleton,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON067003,Goulbourne,Carleton,ON,ON078004,Goulburn,Carleton,ON,SAME_AS,1.0,1.0,1.0,92.22
+ON067004,"Gower, North",Carleton,ON,ON078002,"Gower, N",Carleton,ON,SAME_AS,1.0,1.0,1.0,86.0
+ON067005,Huntley,Carleton,ON,ON078007,Huntley,Carleton,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON067007,March,Carleton,ON,ON078006,March,Carleton,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON067006,Marlhorough,Carleton,ON,ON078003,Marlborough,Carleton,ON,SAME_AS,1.0,1.0,1.0,93.64
+ON067008,Nepean,Carleton,ON,ON078001,Nepean,Carleton,ON,SAME_AS,0.9908,1.0,0.9908,100.0
+ON067011,Torbolton,Carleton,ON,ON078008,Torbolton,Carleton,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON067010,"Richmond, Village",Carleton,ON,ON078005,"Richmond, Village",Carleton,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON103001,Amaranth,Wellington,ON,ON035007,Amaranth,"Wellington, North—Nord",ON,SAME_AS,1.0,1.0,1.0,88.75
+ON103007,Garafraxa,Wellington,ON,ON034007,"Garafraxa, W-O","Wellington, Centre",ON,CONTAINS,0.5323,0.5323,1.0,76.21
+ON103007,Garafraxa,Wellington,ON,ON034008,"Garafraxa, E","Wellington, Centre",ON,CONTAINS,0.4578,0.4578,1.0,81.43
+ON103010,Luther,Wellington,ON,ON035006,Luther,"Wellington, North—Nord",ON,SAME_AS,1.0,1.0,1.0,88.75
+ON068002,Matilda,Dundas,ON,ON071001,Matilda,Dundas,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON068004,Mountain,Dundas,ON,ON071005,Mountain,Dundas,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON068005,Williamsburgh,Dundas,ON,ON071003,Williamsburg,Dundas,ON,SAME_AS,1.0,1.0,1.0,97.2
+ON068006,Winchester,Dundas,ON,ON071006,Winchester,Dundas,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON068001,"Iroquois, Village",Dundas,ON,ON071002,"Iroquois, Village",Dundas,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON068003,"Morrisburgh, Village",Dundas,ON,ON071004,"Morrisburg, Village",Dundas,ON,SAME_AS,1.0,1.0,1.0,98.21
+ON069003,Cartwright,Durham ,ON,ON050003,Cartwright,"Durham, West—Ouest",ON,CONTAINS,0.6194,0.6194,1.0,85.0
+ON069002,Cavan,Durham ,ON,ON051003,Cavan,"Durham, East—Est",ON,SAME_AS,1.0,1.0,1.0,86.36
+ON069004,Clarke,Durham ,ON,ON050004,Clarke,"Durham, West—Ouest",ON,SAME_AS,1.0,1.0,1.0,85.0
+ON069005,Darlington,Durham ,ON,ON050001,Darlington,"Durham, West—Ouest",ON,SAME_AS,1.0,1.0,1.0,85.0
+ON069006,Hope,Durham ,ON,ON051001,Hope,"Durham, East—Est",ON,SAME_AS,1.0,1.0,1.0,86.36
+ON069007,Manvers,Durham ,ON,ON051004,Manvers,"Durham, East—Est",ON,SAME_AS,1.0,1.0,1.0,86.36
+ON070002,Bayham,Elgin,ON,ON006005,Bayham,"Elgin, East—Est",ON,SAME_AS,1.0,1.0,1.0,85.0
+ON070005,Malahide,Elgin,ON,ON006003,Malahide,"Elgin, East—Est",ON,SAME_AS,1.0,1.0,1.0,85.0
+ON070009,Yarmouth,Elgin,ON,ON006001,Yarmouth,"Elgin, East—Est",ON,SAME_AS,1.0,1.0,1.0,85.0
+ON070008,"Vienna, Village",Elgin,ON,ON006006,"Vienna, Village","Elgin, East—Est",ON,SAME_AS,1.0,1.0,1.0,85.0
+ON070004,Dunwich,Elgin,ON,ON005002,Dunwich,"Elgin, West—Ouest",ON,SAME_AS,1.0,1.0,1.0,83.64
+ON070006,Southwold,Elgin,ON,ON005003,Southwold,"Elgin, West—Ouest",ON,SAME_AS,1.0,1.0,1.0,83.64
+ON071005,Maidstone,Essex,ON,ON001012,Maidstone,Essex,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON071011,Rochester,Essex,ON,ON001013,Rochester,Essex,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON071008,"Sandwich, East",Essex,ON,ON001010,"Sandwich, E",Essex,ON,SAME_AS,1.0,1.0,1.0,91.6
+ON071009,"Sandwich, West",Essex,ON,ON001008,"Sandwich, W-O",Essex,ON,SAME_AS,1.0,1.0,1.0,87.04
+ON071010,"Sandwich, Town of",Essex,ON,ON001009,"Sandwich, Town—Ville",Essex,ON,SAME_AS,1.0,1.0,1.0,82.97
+ON071002,Anderdon,Essex,ON,ON001003,Anderdon,Essex,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON071003,Colchester,Essex,ON,ON001004,Colchester,Essex,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON071006,Malden,Essex,ON,ON001001,Malden,Essex,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON071007,Mersea,Essex,ON,ON001006,Mersea,Essex,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON071012,"Tilbury,West",Essex,ON,ON001014,"Tilbury, W-O",Essex,ON,SAME_AS,1.0,1.0,1.0,82.5
+ON071001,"Amherstburgh, Town of",Essex,ON,ON001002,"Amherstburg, Town—Ville",Essex,ON,SAME_AS,1.0,1.0,1.0,84.09
+ON072002,Bedford,Frontenac,ON,ON064011,Bedford,Addington,ON,SAME_AS,1.0,1.0,1.0,80.0
+ON072006,Loughborough,Frontenac,ON,ON064010,Loughborough,Addington,ON,SAME_AS,1.0,1.0,1.0,80.0
+ON072008,Olden,Frontenac,ON,ON064013,Olden,Addington,ON,SAME_AS,1.0,1.0,1.0,80.0
+ON072009,Oso,Frontenac,ON,ON064012,Oso,Addington,ON,SAME_AS,1.0,1.0,1.0,80.0
+ON072012,Portland,Frontenac,ON,ON064009,Portland,Addington,ON,SAME_AS,1.0,1.0,1.0,80.0
+ON072014,Storington,Frontenac,ON,ON065006,Storrington,Frontenac,ON,SAME_AS,1.0,1.0,1.0,96.67
+ON072015,Wolfe Island,Frontenac,ON,ON065003,Garden Island,Frontenac,ON,CONTAINS,0.0022,0.0022,1.0,74.8
+ON072015,Wolfe Island,Frontenac,ON,ON065004,Wolfe Island,Frontenac,ON,SAME_AS,0.9978,0.9978,1.0,100.0
+ON073001,Charlottenburgh,Glengary ,ON,ON074001,Charlottenburg,Glengarry,ON,SAME_AS,1.0,1.0,1.0,95.82
+ON073002,Kenyon,Glengary ,ON,ON074003,Kenyon,Glengarry,ON,SAME_AS,1.0,1.0,1.0,98.24
+ON073003,Lancaster,Glengary ,ON,ON074002,Lancaster,Glengarry,ON,SAME_AS,1.0,1.0,1.0,98.24
+ON073004,Lochiel,Glengary ,ON,ON074004,Lochiel,Glengarry,ON,SAME_AS,1.0,1.0,1.0,98.24
+ON074001,Augusta,Grenville ,ON,ON069001,Augusta,"Grenville, South—Sud",ON,SAME_AS,1.0,1.0,1.0,88.62
+ON074002,Edwardsburg,Grenville ,ON,ON069003,Edwardsburg,"Grenville, South—Sud",ON,SAME_AS,1.0,1.0,1.0,88.62
+ON074006,Oxford,Grenville ,ON,ON070005,Oxford,"Leeds & Grenville, North—Nord",ON,SAME_AS,1.0,1.0,1.0,84.21
+ON074008,Wolford,Grenville ,ON,ON070003,Wolford,"Leeds & Grenville, North—Nord",ON,SAME_AS,1.0,1.0,1.0,84.21
+ON074004,"Kemptville, Village",Grenville ,ON,ON070006,"Kemptville, Village","Leeds & Grenville, North—Nord",ON,SAME_AS,1.0,1.0,1.0,84.21
+ON075003,Collingwood,Grey,ON,ON037004,Collingwood,"Grey, North—Nord",ON,SAME_AS,1.0,1.0,1.0,82.0
+ON075006,Euphrasia,Grey,ON,ON037003,Euphrasia,"Grey, North—Nord",ON,SAME_AS,1.0,1.0,1.0,82.0
+ON075008,Holland,Grey,ON,ON037002,Holland,"Grey, North—Nord",ON,SAME_AS,1.0,1.0,1.0,82.0
+ON075012,Osprey,Grey,ON,ON036008,Osprey,"Grey, South—Sud",ON,SAME_AS,0.9965,0.9965,1.0,82.63
+ON075014,Proton,Grey,ON,ON036003,Proton,"Grey, South—Sud",ON,WITHIN,0.9448,0.9984,0.9463,82.63
+ON075004,Derby,Grey,ON,ON037005,Derby,"Grey, North—Nord",ON,SAME_AS,1.0,1.0,1.0,82.0
+ON075009,"Keppel, Sarawak and Brook",Grey,ON,ON037010,Sarawack,"Grey, North—Nord",ON,CONTAINS,0.1028,0.1028,1.0,41.7
+ON075009,"Keppel, Sarawak and Brook",Grey,ON,ON037009,Keppel,"Grey, North—Nord",ON,CONTAINS,0.8972,0.8972,1.0,39.1
+ON075017,St. Vincent,Grey,ON,ON037008,St. Vincent,"Grey, North—Nord",ON,SAME_AS,1.0,1.0,1.0,82.0
+ON075016,Sydenham,Grey,ON,ON037006,Sydenham,"Grey, North—Nord",ON,SAME_AS,1.0,1.0,1.0,82.0
+ON075002,Bentinck,Grey,ON,ON036005,Bentinck,"Grey, South—Sud",ON,SAME_AS,1.0,1.0,1.0,82.63
+ON075005,Egremont,Grey,ON,ON036002,Egremont,"Grey, South—Sud",ON,SAME_AS,1.0,1.0,1.0,82.63
+ON075007,Glenelg,Grey,ON,ON036006,Glenelg,"Grey, South—Sud",ON,SAME_AS,0.9851,1.0,0.9851,82.63
+ON075011,Normanby,Grey,ON,ON036001,Normanby,"Grey, South—Sud",ON,SAME_AS,1.0,1.0,1.0,82.63
+ON075015,Sullivan,Grey,ON,ON037001,Sullivan,"Grey, North—Nord",ON,SAME_AS,1.0,1.0,1.0,82.0
+ON076002,"Cayuga, North",Haldimand,ON,ON017005,"Cayuga, Village",Haldimand,ON,CONTAINS,0.0164,0.0164,1.0,70.0
+ON076002,"Cayuga, North",Haldimand,ON,ON017004,"Cayuga, N",Haldimand,ON,SAME_AS,0.9836,0.9836,1.0,87.27
+ON076003,"Cayuga, South",Haldimand,ON,ON017003,"Cayuga, S",Haldimand,ON,SAME_AS,1.0,1.0,1.0,87.27
+ON076004,Dunn,Haldimand,ON,ON017009,Dunn,Haldimand,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON076007,Oneida,Haldimand,ON,ON017006,Oneida,Haldimand,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON076008,Bainham,Haldimand,ON,ON017002,Rainham,Haldimand,ON,SAME_AS,1.0,1.0,1.0,90.0
+ON076009,Seneca,Haldimand,ON,ON017007,Seneca,Haldimand,ON,SAME_AS,0.9863,0.9863,1.0,100.0
+ON076009,Seneca,Haldimand,ON,ON017008,"Caledonia, Village",Haldimand,ON,CONTAINS,0.0137,0.0137,1.0,47.5
+ON076010,Walpole,Haldimand,ON,ON017001,Walpole,Haldimand,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON077001,Esquesing,Halton,ON,ON038006,Esquesing,Halton,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON077004,Nassagiweya,Halton,ON,ON038005,Nassagaweya,Halton,ON,SAME_AS,1.0,1.0,1.0,93.64
+ON077005,Nelson,Halton,ON,ON038001,Nelson,Halton,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON077007,Trafalgar,Halton,ON,ON038002,Trafalgar,Halton,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON077003,"Milton, Town of",Halton,ON,ON038004,"Milton, Town—Ville",Halton,ON,SAME_AS,1.0,1.0,1.0,80.91
+ON077006,"Oakville, Village",Halton,ON,ON038003,"Oakville, Town—Ville",Halton,ON,SAME_AS,1.0,1.0,1.0,86.76
+ON077002,"Georgetown, Village",Halton,ON,ON038007,"Georgetown, Village",Halton,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON078004,Hungerford,Hastings,ON,ON061003,Hungerford,"Hastings, East—Est",ON,SAME_AS,1.0,1.0,1.0,88.46
+ON078999,NO DATA,Hastings,ON,ON062009,"Faraday, Dungannon","Hastings, North—Nord",ON,CONTAINS,0.2429,0.2429,1.0,33.94
+ON078999,NO DATA,Hastings,ON,ON062008,"Carlow, Mayo","Hastings, North—Nord",ON,CONTAINS,0.2111,0.2111,1.0,39.25
+ON078999,NO DATA,Hastings,ON,ON062010,"Herschel, Monteagle, McClure, Wicklow, Bangor","Hastings, North—Nord",ON,CONTAINS,0.546,0.546,1.0,27.91
+ON078014,Tyendinaga,Hastings,ON,ON061002,Tyendinaga,"Hastings, East—Est",ON,SAME_AS,1.0,1.0,1.0,88.46
+ON078005,Huntingdon,Hastings,ON,ON062003,Huntingdon,"Hastings, North—Nord",ON,SAME_AS,0.9878,1.0,0.9878,87.14
+ON078008,Rawdon,Hastings,ON,ON062001,Rawdon,"Hastings, North—Nord",ON,WITHIN,0.9419,1.0,0.9419,87.14
+ON078012,"Trenton, Village",Hastings,ON,ON060002,"Trenton, Village","Hastings, West—Ouest",ON,SAME_AS,1.0,1.0,1.0,87.14
+ON078009,"Sterling, Village",Hastings,ON,ON062002,"Stirling, Village","Hastings, North—Nord",ON,SAME_AS,1.0,1.0,1.0,83.03
+ON079007,Grey,Huron,ON,ON026010,Grey,"Huron, North—Nord",ON,SAME_AS,1.0,1.0,1.0,83.64
+ON079009,Howick,Huron,ON,ON026012,Howick,"Huron, North—Nord",ON,SAME_AS,1.0,1.0,1.0,83.64
+ON079013,Morris,Huron,ON,ON026007,Morris,"Huron, North—Nord",ON,SAME_AS,1.0,1.0,1.0,83.64
+ON079019,Wawanosh,Huron,ON,ON026004,"Wawanosh, E","Huron, North—Nord",ON,CONTAINS,0.502,0.502,1.0,72.58
+ON079019,Wawanosh,Huron,ON,ON026003,"Wawanosh, W-O","Huron, North—Nord",ON,CONTAINS,0.498,0.498,1.0,66.97
+ON079008,Hay,Huron,ON,ON025002,Hay,"Huron, South—Sud",ON,SAME_AS,1.0,1.0,1.0,84.29
+ON079012,McKillop,Huron,ON,ON026008,McKillop,"Huron, North—Nord",ON,SAME_AS,0.9945,0.9945,1.0,83.64
+ON079015,Stephen,Huron,ON,ON025001,Stephen,"Huron, South—Sud",ON,SAME_AS,1.0,1.0,1.0,84.29
+ON079016,Tuckersmith,Huron,ON,ON025005,Tuckersmith,"Huron, South—Sud",ON,SAME_AS,0.9919,0.9919,1.0,84.29
+ON079018,Usborne,Huron,ON,ON025003,Usborne,"Huron, South—Sud",ON,SAME_AS,1.0,1.0,1.0,84.29
+ON079001,Ashfield,Huron,ON,ON026002,Ashfield,"Huron, North—Nord",ON,SAME_AS,1.0,1.0,1.0,83.64
+ON079005,Goderich,Huron,ON,ON025006,Goderich,"Huron, South—Sud",ON,SAME_AS,1.0,1.0,1.0,84.29
+ON079010,Hullett,Huron,ON,ON026005,Hullett,"Huron, North—Nord",ON,SAME_AS,1.0,1.0,1.0,83.64
+ON072013,"Portsmouth, Village",Frontenac,ON,ON065002,"Portsmouth, Village",Frontenac,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON081001,Bosanquet,Lambton,ON,ON004010,Bosanquet,Lambton,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON081002,Brooke,Lambton,ON,ON004005,Brooke,Lambton,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON081004,Enniskillen,Lambton,ON,ON004003,"Oil Springs, Village",Lambton,ON,CONTAINS,0.0068,0.0068,1.0,57.1
+ON081004,Enniskillen,Lambton,ON,ON004002,Enniskillen,Lambton,ON,SAME_AS,0.9864,0.9864,1.0,100.0
+ON081004,Enniskillen,Lambton,ON,ON004004,"Petrolia, Village",Lambton,ON,CONTAINS,0.0068,0.0068,1.0,60.0
+ON081005,Euphemia,Lambton,ON,ON003008,Euphemia,Bothwell,ON,WITHIN,0.7083,1.0,0.7083,78.0
+ON081011,Warwick,Lambton,ON,ON004009,Warwick,Lambton,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON081006,Moore,Lambton,ON,ON004001,Moore,Lambton,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON081007,Plympton,Lambton,ON,ON004008,Plympton,Lambton,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON081008,Sarnia,Lambton,ON,ON004006,Sarnia,Lambton,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON081009,"Sarnia, Town of",Lambton,ON,ON004007,"Sarnia, Town—Ville",Lambton,ON,SAME_AS,1.0,1.0,1.0,80.91
+ON082004,Dalhousie,Lanark,ON,ON080007,"Dalhousie, Sherbrooke, North, Lavant","Lanark, North—Nord",ON,WITHIN,0.4352,1.0,0.4352,43.0
+ON082005,Darling,Lanark,ON,ON080006,Darling,"Lanark, North—Nord",ON,SAME_AS,1.0,1.0,1.0,85.0
+ON082008,Lanark,Lanark,ON,ON080005,"Lanark, Village","Lanark, North—Nord",ON,CONTAINS,0.0095,0.0095,1.0,55.0
+ON082008,Lanark,Lanark,ON,ON080004,Lanark,"Lanark, North—Nord",ON,SAME_AS,0.9905,0.9905,1.0,85.0
+ON082011,Packenham,Lanark,ON,ON080003,Pakenham,"Lanark, North—Nord",ON,SAME_AS,1.0,1.0,1.0,80.88
+ON082013,Ramsay,Lanark,ON,ON080002,"Almonte, Village","Lanark, North—Nord",ON,CONTAINS,0.0161,0.0161,1.0,34.09
+ON082001,Bathurst,Lanark,ON,ON079006,Bathurst,"Lanark, South—Sud",ON,SAME_AS,1.0,1.0,1.0,85.65
+ON082002,Beckwith,Lanark,ON,ON079009,Beckwith,"Lanark, South—Sud",ON,SAME_AS,0.9809,0.9809,1.0,85.65
+ON082006,Drummond,Lanark,ON,ON079007,Drummond,"Lanark, South—Sud",ON,SAME_AS,1.0,1.0,1.0,85.65
+ON082010,Montague,Lanark,ON,ON079001,Montague,"Lanark, South—Sud",ON,SAME_AS,1.0,1.0,1.0,85.65
+ON083001,Bastard,Leeds,ON,ON067009,"Bastard, Burgess","Leeds, South—Sud",ON,WITHIN,0.8196,1.0,0.8196,56.89
+ON084001,Adolphustown,Lennox and Addington ,ON,ON063001,Adolphustown,Lennox,ON,SAME_AS,1.0,1.0,1.0,83.85
+ON084002,Amherst Island,Lennox and Addington ,ON,ON063006,Amherst Island,Lennox,ON,SAME_AS,1.0,1.0,1.0,83.85
+ON084008,Kaladar,Lennox and Addington ,ON,ON064004,"Kaladar, Anglesea",Addington,ON,WITHIN,0.5366,1.0,0.5366,59.45
+ON084004,Camden,Lennox and Addington ,ON,ON064002,"Newburgh, Village",Addington,ON,CONTAINS,0.0065,0.0065,1.0,30.79
+ON084006,Ernestown,Lennox and Addington ,ON,ON063008,"Bath, Village",Lennox,ON,CONTAINS,0.0089,0.0089,1.0,20.21
+ON084006,Ernestown,Lennox and Addington ,ON,ON063007,Earnestown,Lennox,ON,SAME_AS,0.9911,0.9911,1.0,80.16
+ON084007,Frederichsburgh,Lennox and Addington ,ON,ON063002,"Fredericksburgh, S",Lennox,ON,CONTAINS,0.4635,0.4635,1.0,73.24
+ON084007,Frederichsburgh,Lennox and Addington ,ON,ON063003,"Fredericksburgh, N",Lennox,ON,CONTAINS,0.5365,0.5365,1.0,73.24
+ON084010,Richmond,Lennox and Addington ,ON,ON063004,Richmond,Lennox,ON,SAME_AS,1.0,1.0,1.0,83.85
+ON084011,Sheffield,Lennox and Addington ,ON,ON064003,Sheffield,Addington,ON,SAME_AS,1.0,1.0,1.0,88.62
+ON084009,"Napanee, Village",Lennox and Addington ,ON,ON063005,"Napanee, Village",Lennox,ON,SAME_AS,1.0,1.0,1.0,83.85
+ON085001,Caistor,Lincoln,ON,ON018004,Caistor,Monck,ON,SAME_AS,1.0,1.0,1.0,80.0
+ON085002,Clinton,Lincoln,ON,ON021005,Clinton,Lincoln,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON085003,Gainsborough,Lincoln,ON,ON018005,Gainsborough,Monck,ON,SAME_AS,1.0,1.0,1.0,80.0
+ON085004,Grantham,Lincoln,ON,ON021003,"Port Dalhousie, Village",Lincoln,ON,CONTAINS,0.0259,0.0259,1.0,48.06
+ON085005,Grimsby,Lincoln,ON,ON021006,Grimsby,Lincoln,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON085006,Louth,Lincoln,ON,ON021004,Louth,Lincoln,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON085009,"St. Catherines, Town of",Lincoln,ON,ON021002,"St. Catherines, Town—Ville",Lincoln,ON,SAME_AS,1.0,1.0,1.0,87.14
+ON085008,"Niagara, Town of",Lincoln,ON,ON020004,"Niagara, East Ward—Quartier",Niagara,ON,CONTAINS,0.5497,0.5497,1.0,40.1
+ON085008,"Niagara, Town of",Lincoln,ON,ON020003,"Niagara, Centre Ward—Quartier",Niagara,ON,CONTAINS,0.2809,0.2809,1.0,38.51
+ON085008,"Niagara, Town of",Lincoln,ON,ON020002,"Niagara, West Ward—Quartier",Niagara,ON,CONTAINS,0.1694,0.1694,1.0,40.1
+ON086014,Westminster,Middlesex,ON,ON009001,Westminster,"Middlesex, East—Est",ON,SAME_AS,1.0,1.0,1.0,89.29
+ON086001,Adelaide,Middlesex,ON,ON008001,Adelaide,"Middlesex, North—Nord",ON,SAME_AS,1.0,1.0,1.0,88.0
+ON086006,Lobo,Middlesex,ON,ON008004,Lobo,"Middlesex, North—Nord",ON,SAME_AS,1.0,1.0,1.0,88.0
+ON086002,Carradoc,Middlesex,ON,ON007005,Caradoc,"Middlesex, West—Ouest",ON,SAME_AS,1.0,1.0,1.0,83.33
+ON086003,Delaware,Middlesex,ON,ON007007,Delaware,"Middlesex, West—Ouest",ON,SAME_AS,1.0,1.0,1.0,88.0
+ON086005,Ekfrid,Middlesex,ON,ON007003,Ekfrid,"Middlesex, West—Ouest",ON,SAME_AS,1.0,1.0,1.0,88.0
+ON086008,Metcalf,Middlesex,ON,ON007004,Metcalfe,"Middlesex, West—Ouest",ON,SAME_AS,1.0,1.0,1.0,83.33
+ON086009,Mosa,Middlesex,ON,ON007002,"Wardsville, Village","Middlesex, West—Ouest",ON,CONTAINS,0.012,0.012,1.0,30.17
+ON086009,Mosa,Middlesex,ON,ON007001,Mosa,"Middlesex, West—Ouest",ON,SAME_AS,0.988,0.988,1.0,88.0
+ON086011,"Strathroy, Village",Middlesex,ON,ON007006,"Strathroy, Village","Middlesex, West—Ouest",ON,SAME_AS,1.0,1.0,1.0,88.0
+ON100013,Macauley and Draper,Victoria,ON,ON085009,Macaulay,Muskoka,ON,CONTAINS,0.3342,0.3342,1.0,44.3
+ON100999,NO DATA,Victoria,ON,ON085010,Stephenson,Muskoka,ON,CONTAINS,0.1092,0.1092,1.0,24.47
+ON100999,NO DATA,Victoria,ON,ON085011,"McLean, Brunel, Kidout, Franklin",Muskoka,ON,CONTAINS,0.4274,0.4281,0.9959,25.95
+ON100999,NO DATA,Victoria,ON,ON085012,Lake Vernon,Muskoka,ON,CONTAINS,0.3422,0.3422,1.0,23.56
+ON107000,Nipissing,Nipissing,ON,ON083001,"Madawaska, E","Nipissing, South—Sud",ON,CONTAINS,0.0244,0.0244,1.0,25.29
+ON107000,Nipissing,Nipissing,ON,ON083003,Bonnechère,"Nipissing, South—Sud",ON,CONTAINS,0.0216,0.0216,1.0,33.36
+ON107000,Nipissing,Nipissing,ON,ON083004,"Petawawa, S","Nipissing, South—Sud",ON,CONTAINS,0.0128,0.0128,1.0,32.62
+ON107000,Nipissing,Nipissing,ON,ON083006,"Petawawa, Centre","Nipissing, South—Sud",ON,CONTAINS,0.0161,0.0161,1.0,29.82
+ON107000,Nipissing,Nipissing,ON,ON084001,Rocher Capitaine,"Nipissing, North—Nord",ON,CONTAINS,0.0093,0.0093,1.0,40.4
+ON107000,Nipissing,Nipissing,ON,ON082012,Head,"Renfrew, North—Nord",ON,CONTAINS,0.0041,0.0041,1.0,4.29
+ON107000,Nipissing,Nipissing,ON,ON083002,"Madaouaska, W-O","Nipissing, South—Sud",ON,CONTAINS,0.054,0.054,1.0,24.45
+ON107000,Nipissing,Nipissing,ON,ON083007,"Petawawa, W-O","Nipissing, South—Sud",ON,CONTAINS,0.0453,0.0453,1.0,24.98
+ON107000,Nipissing,Nipissing,ON,ON083005,"Petawawa, N","Nipissing, South—Sud",ON,CONTAINS,0.0066,0.0066,1.0,32.62
+ON107000,Nipissing,Nipissing,ON,ON084003,"Matawan, S","Nipissing, North—Nord",ON,CONTAINS,0.0182,0.0182,1.0,32.74
+ON107000,Nipissing,Nipissing,ON,ON084002,Deux Rivières,"Nipissing, North—Nord",ON,CONTAINS,0.0093,0.0093,1.0,37.09
+ON107000,Nipissing,Nipissing,ON,ON086002,Aumick Lake,Parry Sound,ON,CONTAINS,0.1015,0.1015,1.0,16.0
+ON107000,Nipissing,Nipissing,ON,ON086001,The Sound,Parry Sound,ON,CONTAINS,0.0354,0.0354,1.0,24.56
+ON107000,Nipissing,Nipissing,ON,ON086003,Maganetawan,Parry Sound,ON,CONTAINS,0.0635,0.0635,1.0,23.0
+ON107000,Nipissing,Nipissing,ON,ON084009,Tamagamingue,"Nipissing, North—Nord",ON,CONTAINS,0.1203,0.1203,1.0,38.0
+ON107000,Nipissing,Nipissing,ON,ON084004,"Mataouan, W-O","Nipissing, North—Nord",ON,CONTAINS,0.0687,0.0687,1.0,24.36
+ON107000,Nipissing,Nipissing,ON,ON084005,"Matawan, N","Nipissing, North—Nord",ON,CONTAINS,0.0195,0.0195,1.0,32.74
+ON107000,Nipissing,Nipissing,ON,ON084006,Jacko River,"Nipissing, North—Nord",ON,CONTAINS,0.0322,0.0322,1.0,25.0
+ON107000,Nipissing,Nipissing,ON,ON084008,"Temiscamang, W-O","Nipissing, North—Nord",ON,CONTAINS,0.0665,0.0665,1.0,40.4
+ON107000,Nipissing,Nipissing,ON,ON084007,Montreal River,"Nipissing, North—Nord",ON,CONTAINS,0.2663,0.2663,1.0,30.17
+ON087001,Charlotteville,Norfolk,ON,ON011003,Charlotteville,"Norfolk, South—Sud",ON,SAME_AS,1.0,1.0,1.0,86.8
+ON087002,Houghton,Norfolk,ON,ON011001,Houghton,"Norfolk, South—Sud",ON,SAME_AS,1.0,1.0,1.0,86.8
+ON087003,Middleton,Norfolk,ON,ON012001,Middleton,"Norfolk, North—Nord",ON,SAME_AS,1.0,1.0,1.0,86.15
+ON087005,Townsend,Norfolk,ON,ON012003,Townsend,"Norfolk, North—Nord",ON,SAME_AS,1.0,1.0,1.0,86.15
+ON087006,Walsingham,Norfolk,ON,ON011002,Walsingham,"Norfolk, South—Sud",ON,SAME_AS,1.0,1.0,1.0,86.8
+ON087007,Windham,Norfolk,ON,ON012002,Windham,"Norfolk, North—Nord",ON,SAME_AS,1.0,1.0,1.0,86.15
+ON088003,Brighton,Northumberland,ON,ON055003,"Brighton, Township","Northumberland, East—Est",ON,CONTAINS,0.9388,0.9388,1.0,65.18
+ON088006,Cramahe,Northumberland,ON,ON055001,Cramahe,"Northumberland, East—Est",ON,SAME_AS,1.0,1.0,1.0,92.11
+ON088010,Murray,Northumberland,ON,ON055005,Murray,"Northumberland, East—Est",ON,SAME_AS,1.0,1.0,1.0,92.11
+ON088011,Percy,Northumberland,ON,ON055006,Percy,"Northumberland, East—Est",ON,SAME_AS,1.0,1.0,1.0,92.11
+ON088012,Seymour,Northumberland,ON,ON055007,Seymour,"Northumberland, East—Est",ON,SAME_AS,1.0,1.0,1.0,92.11
+ON088005,"Colborne, Village",Northumberland,ON,ON055002,"Colborne, Village","Northumberland, East—Est",ON,SAME_AS,1.0,1.0,1.0,92.11
+ON088001,Alnwick,Northumberland,ON,ON054004,Alnwick,"Northumberland, West—Ouest",ON,SAME_AS,1.0,1.0,1.0,91.0
+ON088007,Haldimand,Northumberland,ON,ON054003,Haldiman,"Northumberland, West—Ouest",ON,SAME_AS,1.0,1.0,1.0,86.88
+ON088008,Hamilton,Northumberland,ON,ON054001,Hamilton,"Northumberland, West—Ouest",ON,SAME_AS,1.0,1.0,1.0,91.0
+ON089001,Brock,Ontario,ON,ON049005,Brock,"Ontario, North—Nord",ON,SAME_AS,1.0,1.0,1.0,86.15
+ON089002,Mara,Ontario,ON,ON049007,Mara,"Ontario, North—Nord",ON,SAME_AS,1.0,1.0,1.0,86.15
+ON089005,Rama,Ontario,ON,ON049008,Rama,"Ontario, North—Nord",ON,SAME_AS,1.0,1.0,1.0,86.15
+ON089007,Scott,Ontario,ON,ON049004,Scott,"Ontario, North—Nord",ON,SAME_AS,1.0,1.0,1.0,86.15
+ON089010,Uxbridge,Ontario,ON,ON049001,Uxbridge,"Ontario, North—Nord",ON,SAME_AS,1.0,1.0,1.0,86.15
+ON089004,Pickering,Ontario,ON,ON048001,Pickering,"Ontario, South—Sud",ON,SAME_AS,1.0,1.0,1.0,86.8
+ON089006,Reach,Ontario,ON,ON049002,Reach,"Ontario, North—Nord",ON,SAME_AS,1.0,1.0,1.0,86.15
+ON090001,Blandford,Oxford,ON,ON014006,Blandford,"Oxford, North—Nord",ON,SAME_AS,1.0,1.0,1.0,85.0
+ON090002,Blenheim,Oxford,ON,ON014007,Blenheim,"Oxford, North—Nord",ON,SAME_AS,1.0,1.0,1.0,85.0
+ON090004,"Embro, Village",Oxford,ON,ON014003,"Embro, Village","Oxford, North—Nord",ON,SAME_AS,1.0,1.0,1.0,85.0
+ON090003,Dereham,Oxford,ON,ON013001,Dereham,"Oxford, South—Sud",ON,SAME_AS,1.0,1.0,1.0,85.65
+ON090005,"Ingersoll, Village",Oxford,ON,ON013006,"Ingersoll, Town—Ville","Oxford, South—Sud",ON,WITHIN,0.5204,0.9883,0.5236,73.09
+ON091001,Albion,Peel,ON,ON040002,Albion,Cardwell,ON,SAME_AS,1.0,1.0,1.0,80.0
+ON091003,Caledon,Peel,ON,ON040001,Caledon,Cardwell,ON,SAME_AS,1.0,1.0,1.0,80.0
+ON091004,Chinguacousy,Peel,ON,ON039004,Chinguacousy,Peel,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON091007,Toronto Gore,Peel,ON,ON039003,Toronto Gore,Peel,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON091005,"Streetville, Village",Peel,ON,ON039002,"Streetsville, Village",Peel,ON,SAME_AS,1.0,1.0,1.0,98.29
+ON092005,Ellice,Perth,ON,ON030002,Ellice,"Perth, North—Nord",ON,SAME_AS,1.0,1.0,1.0,83.64
+ON092006,Elma,Perth,ON,ON030005,Elma,"Perth, North—Nord",ON,SAME_AS,0.9912,0.9912,1.0,83.64
+ON092006,Elma,Perth,ON,ON030008,"Listowell, Village","Perth, North—Nord",ON,CONTAINS,0.0088,0.0088,1.0,32.73
+ON092011,Mornington,Perth,ON,ON030006,Mornington,"Perth, North—Nord",ON,SAME_AS,1.0,1.0,1.0,83.64
+ON092014,Wallace,Perth,ON,ON030007,Wallace,"Perth, North—Nord",ON,SAME_AS,1.0,1.0,1.0,83.64
+ON092002,Downie,Perth,ON,ON029006,Downie,"Perth, South—Sud",ON,SAME_AS,1.0,1.0,1.0,84.29
+ON092008,Hibbert,Perth,ON,ON029003,Hibbert,"Perth, South—Sud",ON,SAME_AS,1.0,1.0,1.0,84.29
+ON092009,Logan,Perth,ON,ON030001,Logan,"Perth, North—Nord",ON,SAME_AS,1.0,1.0,1.0,83.64
+ON092010,"Mitchell, Village",Perth,ON,ON029005,"Mitchell, Village","Perth, South—Sud",ON,SAME_AS,1.0,1.0,1.0,84.29
+ON093002,Asphodel,Peterborough,ON,ON057004,Asphodel,"Peterborough, East—Est",ON,SAME_AS,1.0,1.0,1.0,91.18
+ON093003,Belmont and Methuen,Peterborough,ON,ON057006,"Belmont, Methuen","Peterborough, East—Est",ON,SAME_AS,1.0,1.0,1.0,81.18
+ON093004,Douro,Peterborough,ON,ON057003,Douro,"Peterborough, East—Est",ON,SAME_AS,1.0,1.0,1.0,91.18
+ON093005,Dummer,Peterborough,ON,ON057005,Dummer,"Peterborough, East—Est",ON,CONTAINS,0.5066,0.5066,1.0,91.18
+ON093011,Otonabee,Peterborough,ON,ON057001,Otonabee,"Peterborough, East—Est",ON,SAME_AS,1.0,1.0,1.0,91.18
+ON093008,Harvey,Peterborough,ON,ON058001,Harvey,"Peterborough, East—Est",ON,SAME_AS,1.0,1.0,1.0,91.18
+ON093013,Smith,Peterborough,ON,ON056004,Smith,"Peterborough, West—Ouest",ON,SAME_AS,1.0,1.0,1.0,90.0
+ON094001,Alfred,Prescott,ON,ON075006,Alfred,Prescott,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON094002,Caledonia,Prescott,ON,ON075005,Caledonia,Prescott,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON094003,"Hawkesbury, East",Prescott,ON,ON075001,"Hawkesbury, E",Prescott,ON,SAME_AS,1.0,1.0,1.0,92.76
+ON094004,"Hawkesbury, West",Prescott,ON,ON075002,"Hawkesbury, W-O",Prescott,ON,SAME_AS,1.0,1.0,1.0,88.71
+ON094006,Longueuil,Prescott,ON,ON075004,Longueuil,Prescott,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON094007,"Plantagenet, North",Prescott,ON,ON075007,"Plantagenet, N",Prescott,ON,SAME_AS,1.0,1.0,1.0,91.25
+ON094008,"Plantagenet, South",Prescott,ON,ON075008,"Plantagenet, S",Prescott,ON,SAME_AS,1.0,1.0,1.0,91.25
+ON094005,"Hawkesbury, Village",Prescott,ON,ON075003,"Hawkesbury, Village",Prescott,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON095001,Ameliasburgh,Prince Edward,ON,ON059003,Ameliasburg,Prince Edward,ON,SAME_AS,1.0,1.0,1.0,96.96
+ON095002,Athol,Prince Edward,ON,ON059007,Athol,Prince Edward,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON095003,Hallowell,Prince Edward,ON,ON059004,Hallowel,Prince Edward,ON,SAME_AS,1.0,1.0,1.0,95.88
+ON095004,Hillier,Prince Edward,ON,ON059002,"Wellington, Village",Prince Edward,ON,CONTAINS,0.016,0.016,1.0,51.54
+ON095004,Hillier,Prince Edward,ON,ON059001,Hillier,Prince Edward,ON,SAME_AS,0.984,0.984,1.0,100.0
+ON095005,Marysburgh,Prince Edward,ON,ON059008,"Marysburg, S",Prince Edward,ON,CONTAINS,0.44,0.44,1.0,87.27
+ON095005,Marysburgh,Prince Edward,ON,ON059009,"Marysburg, N",Prince Edward,ON,CONTAINS,0.56,0.56,1.0,87.27
+ON095007,Sophiasburgh,Prince Edward,ON,ON059006,Sophiasburg,Prince Edward,ON,SAME_AS,1.0,1.0,1.0,96.96
+ON095006,"Picton, Town of",Prince Edward,ON,ON059005,"Picton, Town—Ville",Prince Edward,ON,SAME_AS,1.0,1.0,1.0,80.91
+ON096003,Algona,Renfrew,ON,ON082008,Algona,"Renfrew, North—Nord",ON,SAME_AS,1.0,1.0,1.0,86.15
+ON096007,Bromley,Renfrew,ON,ON082002,Bromley,"Renfrew, North—Nord",ON,SAME_AS,1.0,1.0,1.0,86.15
+ON096016,Rolph and Wylie,Renfrew,ON,ON082011,"Rolph, Buchanan, Wylie, McKay","Renfrew, North—Nord",ON,WITHIN,0.5137,1.0,0.5137,60.7
+ON096017,Ross,Renfrew,ON,ON082001,Ross,"Renfrew, North—Nord",ON,SAME_AS,1.0,1.0,1.0,86.15
+ON096019,Stafford,Renfrew,ON,ON082006,Stafford,"Renfrew, North—Nord",ON,SAME_AS,1.0,1.0,1.0,86.15
+ON096020,Westmeath,Renfrew,ON,ON082003,Westmeath,"Renfrew, North—Nord",ON,SAME_AS,1.0,1.0,1.0,86.15
+ON096021,Wilberforce,Renfrew,ON,ON082007,Wilberforce,"Renfrew, North—Nord",ON,SAME_AS,1.0,1.0,1.0,86.15
+ON096013,"Pembroke, Village",Renfrew,ON,ON082005,"Pembroke, Village","Renfrew, North—Nord",ON,SAME_AS,1.0,1.0,1.0,86.15
+ON096001,Admaston,Renfrew,ON,ON081010,Admaston,"Renfrew, South—Sud",ON,SAME_AS,1.0,1.0,1.0,86.8
+ON096006,Blithfield,Renfrew,ON,ON081003,"Bagot, Blythfield","Renfrew, South—Sud",ON,WITHIN,0.6695,1.0,0.6695,63.47
+ON096005,Bagot and Brougham,Renfrew,ON,ON081004,Brougham,"Renfrew, South—Sud",ON,CONTAINS,0.6485,0.6485,1.0,59.88
+ON096009,Grattan,Renfrew,ON,ON081011,Grattan,"Renfrew, South—Sud",ON,SAME_AS,1.0,1.0,1.0,86.8
+ON096018,Sebastopol and Griffith,Renfrew,ON,ON081006,Sebastopol,"Renfrew, South—Sud",ON,CONTAINS,0.4724,0.4724,1.0,59.22
+ON096010,Horton,Renfrew,ON,ON081008,Horton,"Renfrew, South—Sud",ON,SAME_AS,1.0,1.0,1.0,86.8
+ON096015,"Renfrew, Village",Renfew,ON,ON081009,"Renfrew, Village","Renfrew, South—Sud",ON,SAME_AS,1.0,1.0,1.0,85.0
+ON097001,Cambridge,Russell,ON,ON076002,Cambridge,Russell,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON097002,Clarence,Russell,ON,ON076001,Clarence,Russell,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON097003,Cumberland,Russell,ON,ON076003,Cumberland,Russell,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON067002,Gloucester,Carleton,ON,ON076006,"New Edinburgh, Village",Russell,ON,CONTAINS,0.0034,0.0034,1.0,21.12
+ON097004,Russell,Russell,ON,ON076004,Russell,Russell,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON098014,Orillia and Matchedash,Simcoe,ON,ON042012,"Orillia, Village","Simcoe, North—Nord",ON,CONTAINS,0.0066,0.0066,1.0,51.84
+ON098009,Medonte,Simcoe,ON,ON042009,Medonte,"Simcoe, North—Nord",ON,SAME_AS,1.0,1.0,1.0,85.0
+ON098017,Tay and Tiny,Simcoe,ON,ON042007,Tiny,"Simcoe, North—Nord",ON,CONTAINS,0.6444,0.6457,0.997,50.0
+ON098017,Tay and Tiny,Simcoe,ON,ON042008,Tay,"Simcoe, North—Nord",ON,CONTAINS,0.3537,0.3543,0.9946,43.0
+ON098006,Flos,Simcoe,ON,ON042006,Flos,"Simcoe, North—Nord",ON,SAME_AS,1.0,1.0,1.0,85.0
+ON098013,Nottawasaga,Simcoe,ON,ON042001,Nottawasaga,"Simcoe, North—Nord",ON,SAME_AS,1.0,1.0,1.0,85.0
+ON098015,Oro,Simcoe,ON,ON042010,Oro,"Simcoe, North—Nord",ON,SAME_AS,1.0,1.0,1.0,85.0
+ON098016,Sunnidale,Simcoe,ON,ON042003,Sunnidale,"Simcoe, North—Nord",ON,SAME_AS,1.0,1.0,1.0,85.0
+ON098021,Vespra,Simcoe,ON,ON042004,Vespra,"Simcoe, North—Nord",ON,SAME_AS,1.0,1.0,1.0,85.0
+ON081010,Sombra and Indian Reserve,Lambton,ON,ON002999,NO DATA,Dover,ON,CONTAINS,0.3189,0.3189,1.0,22.5
+ON081010,Sombra and Indian Reserve,Lambton,ON,ON003006,Sombra,Bothwell,ON,CONTAINS,0.5935,0.5935,1.0,35.1
+ON101010,Wellesley,Waterloo,ON,ON032001,Wellesley,"Waterloo, North—Nord",ON,SAME_AS,1.0,1.0,1.0,87.14
+ON101012,Woolwich,Waterloo,ON,ON032002,Woolwich,"Waterloo, North—Nord",ON,SAME_AS,1.0,1.0,1.0,87.14
+ON101011,Wilmot,Waterloo,ON,ON031001,Wilmot,"Waterloo, South—Sud",ON,SAME_AS,1.0,1.0,1.0,87.78
+ON101005,"Hespeler, Village",Waterloo,ON,ON031007,"Hespeler, Village","Waterloo, South—Sud",ON,SAME_AS,1.0,1.0,1.0,87.78
+ON101006,"Preston, Village",Waterloo,ON,ON031006,"Preston, Village","Waterloo, South—Sud",ON,SAME_AS,1.0,1.0,1.0,87.78
+ON103002,Arthur,Wellington,ON,ON035004,Arthur,"Wellington, North—Nord",ON,SAME_AS,0.9912,0.9912,1.0,88.75
+ON103002,Arthur,Wellington,ON,ON035005,"Mount Forest, Village","Wellington, North—Nord",ON,CONTAINS,0.0088,0.0088,1.0,29.12
+ON103011,Maryborough,Wellington,ON,ON035001,Maryborough,"Wellington, North—Nord",ON,SAME_AS,1.0,1.0,1.0,88.75
+ON103012,Minto,Wellington,ON,ON035003,Minto,"Wellington, North—Nord",ON,SAME_AS,1.0,1.0,1.0,88.75
+ON103014,Peel,Wellington,ON,ON035002,Peel,"Wellington, North—Nord",ON,SAME_AS,1.0,1.0,1.0,88.75
+ON103004,Eramosa,Wellington,ON,ON034005,Eramosa,"Wellington, Centre",ON,SAME_AS,1.0,1.0,1.0,91.43
+ON103005,Erin,Wellington,ON,ON034006,Erin,"Wellington, Centre",ON,SAME_AS,1.0,1.0,1.0,91.43
+ON103008,Guelph,Wellington,ON,ON033002,Guelph,"Wellington, South—Sud",ON,SAME_AS,1.0,1.0,1.0,89.35
+ON103013,Nichol,Wellington,ON,ON034003,Nichol,"Wellington, Centre",ON,SAME_AS,1.0,1.0,1.0,91.43
+ON103015,Pilkington,Wellington,ON,ON034001,Pilkington,"Wellington, Centre",ON,SAME_AS,1.0,1.0,1.0,91.43
+ON103016,Puslinch,Wellington,ON,ON033001,Puslinch,"Wellington, South—Sud",ON,SAME_AS,1.0,1.0,1.0,89.35
+ON104001,Ancaster,Wentworth,ON,ON022005,Ancaster,"Wentworth, South—Sud",ON,SAME_AS,1.0,1.0,1.0,88.62
+ON104002,Barton,Wentworth,ON,ON022003,Barton,"Wentworth, South—Sud",ON,SAME_AS,1.0,1.0,1.0,88.62
+ON104004,Beverley,Wentworth,ON,ON023001,Beverly,"Wentworth, North—Nord",ON,SAME_AS,1.0,1.0,1.0,83.33
+ON104003,Binbrook,Wentworth,ON,ON022002,Binbrook,"Wentworth, South—Sud",ON,SAME_AS,1.0,1.0,1.0,88.62
+ON104008,Glanford,Wentworth,ON,ON022004,Glanford,"Wentworth, South—Sud",ON,SAME_AS,1.0,1.0,1.0,88.62
+ON104009,Saltfleet,Wentworth,ON,ON022001,Saltfleet,"Wentworth, South—Sud",ON,SAME_AS,1.0,1.0,1.0,88.62
+ON101007,"Waterloo, Village",Waterloo,ON,ON032005,"Waterloo, Village","Waterloo, North—Nord",ON,SAME_AS,1.0,1.0,1.0,87.14
+ON102001,Bertie,Welland,ON,ON019003,Bertie,Welland,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON102004,Crowland,Welland,ON,ON019005,Crowland,Welland,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON102006,Humberstone,Welland,ON,ON019002,"Port Colborne, Village",Welland,ON,CONTAINS,0.0183,0.0183,1.0,51.21
+ON102006,Humberstone,Welland,ON,ON019001,Humberstone,Welland,ON,SAME_AS,0.9817,0.9817,1.0,100.0
+ON102008,Stamford,Welland,ON,ON019010,Stamford,Welland,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON102009,Thorald,Welland,ON,ON019008,Thorold,Welland,ON,SAME_AS,1.0,1.0,1.0,90.0
+ON102013,Willoughby,Welland,ON,ON019007,Willoughby,Welland,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON102003,"Clifton, Village",Welland,ON,ON019012,"Clifton, Town—Ville",Welland,ON,SAME_AS,1.0,1.0,1.0,86.0
+ON102012,"Welland, Village",Welland,ON,ON019006,"Welland, Village",Welland,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON102002,"Chippawa, Village",Welland,ON,ON019011,"Chippawa, Village",Welland,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON102005,"Fort Eric, Village",Welland,ON,ON019004,"Fort-Erie, Village",Welland,ON,SAME_AS,1.0,1.0,1.0,92.22
+ON103003,"Flora, Village",Wellington,ON,ON034002,"Elora, Village","Wellington, Centre",ON,SAME_AS,1.0,1.0,1.0,86.43
+ON103006,"Fergus, Villag",Wellington,ON,ON034004,"Fergus, Village","Wellington, Centre",ON,SAME_AS,1.0,1.0,1.0,89.01
+ON098005,Essa,Simcoe,ON,ON041006,Essa,"Simcoe, South—Sud",ON,SAME_AS,1.0,1.0,1.0,85.65
+ON098008,Innisfil,Simcoe,ON,ON041007,Innisfil,"Simcoe, South—Sud",ON,SAME_AS,1.0,1.0,1.0,85.65
+ON098018,Tecumseth,Simcoe,ON,ON041001,Tecumseth,"Simcoe, South—Sud",ON,SAME_AS,1.0,1.0,1.0,85.65
+ON098019,Tossorontio,Simcoe,ON,ON041005,Tossorontio,"Simcoe, South—Sud",ON,SAME_AS,1.0,1.0,1.0,85.65
+ON098003,"Bradford, Village",Simcoe,ON,ON041003,"Bradford, Village","Simcoe, South—Sud",ON,SAME_AS,1.0,1.0,1.0,85.65
+ON099002,"Cornwall, Township",Stormont,ON,ON073004,"Cornwall, Township",Cornwall,ON,SAME_AS,0.995,0.995,1.0,81.25
+ON099003,Finch,Stormont,ON,ON072002,Finch,Stormont,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON099004,Osnabruck,Stormont,ON,ON072001,Osnabrock,Stormont,ON,SAME_AS,1.0,1.0,1.0,92.22
+ON099005,Roxborough,Stormont,ON,ON072003,Roxborough,Stormont,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON105011,York,York,ON,ON044003,"York, W-O","York, West—Ouest",ON,CONTAINS,0.5603,0.5652,0.9848,55.08
+ON105011,York,York,ON,ON045001,"York, E","York, East—Est",ON,CONTAINS,0.4348,0.4348,1.0,64.24
+ON100012,Luterworth,Victoria,ON,ON053007,"Lutterworth, Anson, Hindon","Victoria, North—Nord",ON,WITHIN,0.3602,1.0,0.3602,56.03
+ON100002,Bexley,Victoria,ON,ON053004,Bexley,"Victoria, North—Nord",ON,SAME_AS,1.0,1.0,1.0,87.14
+ON100003,Carden,Victoria,ON,ON053003,"Carden, Dalton","Victoria, North—Nord",ON,WITHIN,0.5079,1.0,0.5079,59.14
+ON100006,Eldon,Victoria,ON,ON053001,Eldon,"Victoria, North—Nord",ON,SAME_AS,1.0,1.0,1.0,87.14
+ON100007,Emily,Victoria,ON,ON052004,Emily,"Victoria, South—Sud",ON,SAME_AS,1.0,1.0,1.0,87.78
+ON100008,Fenelon,Victoria,ON,ON053002,Fenelon,"Victoria, North—Nord",ON,SAME_AS,1.0,1.0,1.0,87.14
+ON100005,Digby,Victoria,ON,ON053006,"Laxton, Digby, Longford","Victoria, North—Nord",ON,WITHIN,0.8105,1.0,0.8105,42.14
+ON100014,Mariposa,Victoria,ON,ON052001,Mariposa,"Victoria, South—Sud",ON,WITHIN,0.6889,1.0,0.6889,87.78
+ON093009,"Minden, Stanhope and Dysart",Peterborough,ON,ON058005,Minden,"Peterborough, East—Est",ON,CONTAINS,0.3398,0.3398,1.0,46.63
+ON100015,Ops,Victoria,ON,ON052002,Ops,"Victoria, South—Sud",ON,SAME_AS,1.0,1.0,1.0,87.78
+ON100016,Somerville,Victoria,ON,ON053005,Somerville,"Victoria, North—Nord",ON,SAME_AS,1.0,1.0,1.0,87.14
+ON100017,Verulam,Victoria,ON,ON052005,Verulam,"Victoria, South—Sud",ON,SAME_AS,1.0,1.0,1.0,87.78
+ON105001,Etobicoke,York,ON,ON044001,Etobicoke,"York, West—Ouest",ON,SAME_AS,1.0,1.0,1.0,82.0
+ON105007,Markham,York,ON,ON045004,Markham,"York, East—Est",ON,SAME_AS,1.0,1.0,1.0,83.33
+ON105008,Scarborough,York,ON,ON045003,Scarborough,"York, East—Est",ON,SAME_AS,1.0,1.0,1.0,83.33
+ON105009,Vaughan,York,ON,ON044002,Vaughan,"York, West—Ouest",ON,SAME_AS,1.0,1.0,1.0,82.0
+ON105006,King,York,ON,ON043001,King,"York, North—Nord",ON,SAME_AS,0.9934,0.9934,1.0,82.0
+ON105010,Whitchurch,York,ON,ON043002,Whitchurch,"York, North—Nord",ON,SAME_AS,0.9813,0.9813,1.0,82.0
+ON105010,Whitchurch,York,ON,ON043004,"Newmarket, Village","York, North—Nord",ON,CONTAINS,0.0095,0.0095,1.0,22.0
+ON082016,"Smith's Falls, Village",Lanark,ON,ON079002,"Smith’s Falls, Village","Lanark, South—Sud",ON,SAME_AS,1.0,1.0,1.0,82.47
+ON096012,Pembroke,Renfrew,ON,ON082004,Pembroke,"Renfrew, North—Nord",ON,SAME_AS,1.0,1.0,1.0,86.15
+ON096011,McNab,Renfrew,ON,ON081001,McNab,"Renfrew, South—Sud",ON,SAME_AS,1.0,1.0,1.0,86.8
+ON105002,Georgina,York,ON,ON043008,Georgina,"York, North—Nord",ON,SAME_AS,1.0,1.0,1.0,82.0
+ON083008,Escott,Leeds,ON,ON067004,"Escott, Front","Leeds, South—Sud",ON,CONTAINS,0.85,0.85,1.0,58.5
+ON083012,Yonge,Leeds,ON,ON067005,"Yonge, Front","Leeds, South—Sud",ON,CONTAINS,0.5266,0.5266,1.0,55.46
+ON102010,"Thorald, Village",Welland,ON,ON019009,"Thorold, Village",Welland,ON,SAME_AS,1.0,1.0,1.0,95.62
+ON079003,"Clinton, Village",Huron,ON,ON026006,"Clinton, Village","Huron, South—Sud",ON,SAME_AS,1.0,1.0,1.0,84.29
+ON105012,"Yorkville, Village",York,ON,ON045002,"Yorkville, Village","York, East—Est",ON,SAME_AS,1.0,1.0,1.0,83.33
+ON083002,"Brockville, Town of",Leeds,ON,ON068001,"Brockville, West Ward—Quartier",Brockville,ON,CONTAINS,0.653,0.653,1.0,48.0
+ON083002,"Brockville, Town of",Leeds,ON,ON068002,"Brockville, Centre Ward—Quartier",Brockville,ON,CONTAINS,0.347,0.347,1.0,46.43
+ON096014,"Pettawawa, Buchanan and McKay",Renfrew,ON,ON082010,Petawawa,"Renfrew, North—Nord",ON,CONTAINS,0.3177,0.3177,1.0,46.42
+ON106002,"Sault Ste. Marie, Village",Algoma,ON,ON087001,"Manitoulin, E",Manitoulin,ON,CONTAINS,0.0045,0.0045,1.0,33.29
+ON106002,"Sault Ste. Marie, Village",Algoma,ON,ON087003,"Manitoulin, W-O",Manitoulin,ON,CONTAINS,0.0079,0.0079,1.0,28.5
+ON106002,"Sault Ste. Marie, Village",Algoma,ON,ON087002,"Manitoulin, Centre",Manitoulin,ON,CONTAINS,0.0189,0.0189,1.0,30.29
+ON106002,"Sault Ste. Marie, Village",Algoma,ON,ON088001,Killarney,"Algoma, East—Est",ON,CONTAINS,0.0326,0.0326,1.0,36.95
+ON106002,"Sault Ste. Marie, Village",Algoma,ON,ON089001,Bruce Mines,"Algoma, Centre",ON,CONTAINS,0.0376,0.0376,1.0,41.33
+ON106002,"Sault Ste. Marie, Village",Algoma,ON,ON089002,Sault Ste. Marie,"Algoma, Centre",ON,CONTAINS,0.0187,0.0187,0.9988,72.63
+ON106002,"Sault Ste. Marie, Village",Algoma,ON,ON088003,Mississaga,"Algoma, East—Est",ON,CONTAINS,0.0911,0.0911,1.0,36.36
+ON106002,"Sault Ste. Marie, Village",Algoma,ON,ON090001,Batchewaning,"Algoma, West—Ouest",ON,CONTAINS,0.0659,0.0659,1.0,37.7
+ON106002,"Sault Ste. Marie, Village",Algoma,ON,ON088002,Spanish River,"Algoma, East—Est",ON,CONTAINS,0.1651,0.1651,1.0,45.84
+ON106002,"Sault Ste. Marie, Village",Algoma,ON,ON090004,St. Ignace,"Algoma, West—Ouest",ON,CONTAINS,0.0098,0.0098,1.0,43.0
+ON106002,"Sault Ste. Marie, Village",Algoma,ON,ON090002,Michipicoten,"Algoma, West—Ouest",ON,CONTAINS,0.1668,0.1668,1.0,30.14
+ON106002,"Sault Ste. Marie, Village",Algoma,ON,ON090006,Kaministikuia,"Algoma, West—Ouest",ON,CONTAINS,0.1328,0.1328,1.0,37.11
+ON106002,"Sault Ste. Marie, Village",Algoma,ON,ON090003,Pic,"Algoma, West—Ouest",ON,CONTAINS,0.0708,0.0708,1.0,20.0
+ON106002,"Sault Ste. Marie, Village",Algoma,ON,ON090005,Nipigon,"Algoma, West—Ouest",ON,CONTAINS,0.1775,0.1775,1.0,28.12
+ON080011,Zone,Kent,ON,ON003005,"Bothwell, Town—Ville",Bothwell,ON,CONTAINS,0.0235,0.0235,1.0,22.5
+ON082009,Lavant,Lanark,ON,ON080007,"Dalhousie, Sherbrooke, North, Lavant","Lanark, North—Nord",ON,WITHIN,0.4164,1.0,0.4164,35.0
+ON082014,"Sherbrooke, North",Lanark,ON,ON080007,"Dalhousie, Sherbrooke, North, Lavant","Lanark, North—Nord",ON,WITHIN,0.1484,1.0,0.1484,59.91
+ON083003,Burgess,Leeds,ON,ON067009,"Bastard, Burgess","Leeds, South—Sud",ON,WITHIN,0.1804,1.0,0.1804,56.89
+ON083011,Leeds,Leeds,ON,ON067002,"Gananoque, Village","Leeds, South—Sud",ON,CONTAINS,0.0101,0.0101,1.0,26.46
+ON072010,Palmerston,Frontenac,ON,ON064014,"Palmerston, Canonto",Addington,ON,WITHIN,0.485,1.0,0.485,58.28
+ON072016,"Forts Henry and Frederick, Penitentiary and lunatic Asylum",Frontenac,ON,ON065005,"Pittsburg, Howe Island",Frontenac,ON,WITHIN,0.0098,1.0,0.0098,47.5
+ON078013,Tudor and Lake,Hastings,ON,ON062007,"Tudor, Wollaston, Limerick, Cashel","Hastings, North—Nord",ON,CONTAINS,0.866,0.869,0.9961,52.14
+ON092012,"St. Mary’s, Village",Perth,ON,ON029002,"St. Mary’s, Town—Ville","Perth, South—Sud",ON,WITHIN,0.2103,1.0,0.2103,72.33
+ON088002,"Brighton, Village",Northumberland,ON,ON055004,"Brighton, Village","Northumberland, East—Est",ON,WITHIN,0.154,1.0,0.154,92.11
+ON089003,"Oshawa, Village",Ontario,ON,ON048005,"Oshawa, Town—Ville","Ontario, South—Sud",ON,WITHIN,0.268,1.0,0.268,71.95
+ON105005,"Holland Landing, Village",York,ON,ON043006,"Holland Landing, Village","York, North—Nord",ON,WITHIN,0.2527,1.0,0.2527,82.0
+ON112008,"Religious, Collegiate, and other Public Institutions",Toronto,ON,ON044003,"York, W-O","York, West—Ouest",ON,WITHIN,0.0152,1.0,0.0152,19.62
+ON100004,Dalton,Victoria,ON,ON053003,"Carden, Dalton","Victoria, North—Nord",ON,WITHIN,0.4921,1.0,0.4921,59.14
+ON100009,Hindon,Victoria,ON,ON053007,"Lutterworth, Anson, Hindon","Victoria, North—Nord",ON,WITHIN,0.3356,1.0,0.3356,43.39
+ON100001,Anson,Victoria,ON,ON053007,"Lutterworth, Anson, Hindon","Victoria, North—Nord",ON,WITHIN,0.3042,1.0,0.3042,39.72
+ON100010,Laxton,Victoria,ON,ON053006,"Laxton, Digby, Longford","Victoria, North—Nord",ON,WITHIN,0.1895,1.0,0.1895,46.11
+ON109008,"Asylum, Nunnery, &c",Kingston,ON,ON065001,"Kingston, Township",Frontenac,ON,WITHIN,0.0104,1.0,0.0104,25.72
+ON096999,NO DATA,Renfrew,ON,ON081005,"Matawatchan, Griffith","Renfrew, South—Sud",ON,WITHIN,0.4321,1.0,0.4321,31.8
+ON106001,"Algoma, District",Algoma,ON,ON089002,Sault Ste. Marie,"Algoma, Centre",ON,WITHIN,0.0012,1.0,0.0012,48.62
+ON111006,Hospital and other Institutions,Ottawa,ON,ON078001,Nepean,Carleton,ON,WITHIN,0.0092,1.0,0.0092,15.64
+ON098011,Morrison and Muskoka,Simcoe,ON,ON085006,Wood,Muskoka,ON,CONTAINS,0.1309,0.1309,0.9999,26.73
+ON098011,Morrison and Muskoka,Simcoe,ON,ON085001,Morrison,Muskoka,ON,CONTAINS,0.0962,0.0962,1.0,49.23
+ON098011,Morrison and Muskoka,Simcoe,ON,ON085002,Muskoka,Muskoka,ON,CONTAINS,0.1048,0.1048,1.0,45.53
+ON098011,Morrison and Muskoka,Simcoe,ON,ON085003,Monck,Muskoka,ON,CONTAINS,0.074,0.074,1.0,31.63
+ON098011,Morrison and Muskoka,Simcoe,ON,ON085005,"Humphry, Medora",Muskoka,ON,CONTAINS,0.2789,0.2789,1.0,33.23
+ON098011,Morrison and Muskoka,Simcoe,ON,ON085004,"Watt, Cardwell",Muskoka,ON,CONTAINS,0.2036,0.2036,1.0,21.58
+ON078007,Marmon and Lake,Hastings,ON,ON062004,"Marmora, Lake","Hastings, North—Nord",ON,WITHIN,0.7039,1.0,0.7039,72.14
+NL998999,NO DATA,Newfoundland,NL,NL998999,NO DATA,Newfoundland,NL,SAME_AS,1.0,1.0,1.0,100.0
+PE997999,NO DATA,Prince Edward Island,PE,PE001023,Township No. 28,Prince,PE,CONTAINS,0.0152,0.0152,1.0,32.94
+PE997999,NO DATA,Prince Edward Island,PE,PE002023,Township No. 62,Queen's,PE,CONTAINS,0.0148,0.0148,1.0,25.76
+PE997999,NO DATA,Prince Edward Island,PE,PE001022,Township No. 27,Prince,PE,CONTAINS,0.0149,0.0149,1.0,32.94
+PE997999,NO DATA,Prince Edward Island,PE,PE002004,Township No. 29,Queen's,PE,CONTAINS,0.0155,0.0155,1.0,25.76
+PE997999,NO DATA,Prince Edward Island,PE,PE002011,Township No. 65,Queen's,PE,CONTAINS,0.0123,0.0123,1.0,25.76
+PE997999,NO DATA,Prince Edward Island,PE,PE002022,Township No. 60,Queen's,PE,CONTAINS,0.0145,0.0145,1.0,25.76
+PE997999,NO DATA,Prince Edward Island,PE,PE001015,Township No. 15,Prince,PE,CONTAINS,0.0184,0.0184,1.0,32.94
+PE997999,NO DATA,Prince Edward Island,PE,PE001021,Township No. 26,Prince,PE,CONTAINS,0.0173,0.0173,1.0,32.94
+PE997999,NO DATA,Prince Edward Island,PE,PE001024,Township No. 17,Prince,PE,CONTAINS,0.0153,0.0153,1.0,32.94
+PE997999,NO DATA,Prince Edward Island,PE,PE001025,Summerside,Prince,PE,CONTAINS,0.0005,0.0005,1.0,22.08
+PE997999,NO DATA,Prince Edward Island,PE,PE001016,Township No. 16,Prince,PE,CONTAINS,0.0148,0.0148,1.0,32.94
+PE997999,NO DATA,Prince Edward Island,PE,PE002005,Township No. 30,Queen's,PE,CONTAINS,0.0149,0.0149,1.0,25.76
+PE997999,NO DATA,Prince Edward Island,PE,PE002021,Township No. 58,Queen's,PE,CONTAINS,0.0132,0.0132,1.0,25.76
+PE997999,NO DATA,Prince Edward Island,PE,PE002020,Township No. 57,Queen's,PE,CONTAINS,0.0175,0.0175,1.0,25.76
+PE997999,NO DATA,Prince Edward Island,PE,PE002009,Township No. 31,Queen's,PE,CONTAINS,0.0183,0.0183,1.0,25.76
+PE997999,NO DATA,Prince Edward Island,PE,PE002006,Township No. 67,Queen's,PE,CONTAINS,0.0115,0.0115,1.0,25.76
+PE997999,NO DATA,Prince Edward Island,PE,PE002010,Township No. 32,Queen's,PE,CONTAINS,0.0133,0.0133,1.0,25.76
+PE997999,NO DATA,Prince Edward Island,PE,PE002019,Township No. 50,Queen's,PE,CONTAINS,0.0147,0.0147,1.0,25.76
+PE997999,NO DATA,Prince Edward Island,PE,PE002024,City of Charlottetown and Royalty,Queen's,PE,CONTAINS,0.0056,0.0056,1.0,24.17
+PE997999,NO DATA,Prince Edward Island,PE,PE002017,Township No. 48,Queen's,PE,CONTAINS,0.0163,0.0163,1.0,25.76
+PE997999,NO DATA,Prince Edward Island,PE,PE003018,Township No. 61,King's,PE,CONTAINS,0.015,0.015,1.0,26.01
+PE997999,NO DATA,Prince Edward Island,PE,PE003020,Township No. 64,King's,PE,CONTAINS,0.0161,0.0161,1.0,26.01
+PE997999,NO DATA,Prince Edward Island,PE,PE003019,Township No. 63,King's,PE,CONTAINS,0.0174,0.0174,1.0,26.01
+PE997999,NO DATA,Prince Edward Island,PE,PE001020,Township No. 25,Prince,PE,CONTAINS,0.0127,0.0127,1.0,32.94
+PE997999,NO DATA,Prince Edward Island,PE,PE001014,Township No. 14,Prince,PE,CONTAINS,0.015,0.015,1.0,32.94
+PE997999,NO DATA,Prince Edward Island,PE,PE001019,Township No. 19,Prince,PE,CONTAINS,0.0131,0.0131,1.0,32.94
+PE997999,NO DATA,Prince Edward Island,PE,PE001008,Township No. 8,Prince,PE,CONTAINS,0.0155,0.0155,1.0,33.85
+PE997999,NO DATA,Prince Edward Island,PE,PE001013,Township No. 13,Prince,PE,CONTAINS,0.0153,0.0153,1.0,32.94
+PE997999,NO DATA,Prince Edward Island,PE,PE001009,Township No. 9,Prince,PE,CONTAINS,0.0135,0.0135,1.0,33.85
+PE997999,NO DATA,Prince Edward Island,PE,PE002001,Township No. 20,Queen's,PE,CONTAINS,0.0189,0.0189,1.0,25.76
+PE997999,NO DATA,Prince Edward Island,PE,PE001017,Township No. 18,Prince,PE,CONTAINS,0.0147,0.0147,1.0,32.94
+PE997999,NO DATA,Prince Edward Island,PE,PE001010,Township No. 10,Prince,PE,CONTAINS,0.0125,0.0125,1.0,32.94
+PE997999,NO DATA,Prince Edward Island,PE,PE001007,Township No. 7,Prince,PE,CONTAINS,0.0139,0.0139,1.0,33.85
+PE997999,NO DATA,Prince Edward Island,PE,PE002018,Township No. 49,Queen's,PE,CONTAINS,0.0166,0.0166,1.0,25.76
+PE997999,NO DATA,Prince Edward Island,PE,PE003017,Township No. 59,King's,PE,CONTAINS,0.0139,0.0139,1.0,26.01
+PE997999,NO DATA,Prince Edward Island,PE,PE002003,Township No. 22,Queen's,PE,CONTAINS,0.0152,0.0152,1.0,25.76
+PE997999,NO DATA,Prince Edward Island,PE,PE002002,Township No. 21,Queen's,PE,CONTAINS,0.0144,0.0144,1.0,25.76
+PE997999,NO DATA,Prince Edward Island,PE,PE003021,Township No. 66,King's,PE,CONTAINS,0.004,0.004,1.0,26.01
+PE997999,NO DATA,Prince Edward Island,PE,PE002007,Township No. 23,Queen's,PE,CONTAINS,0.0155,0.0155,1.0,25.76
+PE997999,NO DATA,Prince Edward Island,PE,PE002012,Township No. 33,Queen's,PE,CONTAINS,0.0155,0.0155,1.0,25.76
+PE997999,NO DATA,Prince Edward Island,PE,PE002008,Township No. 24,Queen's,PE,CONTAINS,0.0154,0.0154,1.0,25.76
+PE997999,NO DATA,Prince Edward Island,PE,PE002013,Township No. 34,Queen's,PE,CONTAINS,0.0166,0.0166,1.0,25.76
+PE997999,NO DATA,Prince Edward Island,PE,PE003012,Township No. 51,King's,PE,CONTAINS,0.0121,0.0121,1.0,26.01
+PE997999,NO DATA,Prince Edward Island,PE,PE002014,Township No. 35,Queen's,PE,CONTAINS,0.0135,0.0135,1.0,25.76
+PE997999,NO DATA,Prince Edward Island,PE,PE003022,Georgetown,King's,PE,CONTAINS,0.003,0.003,1.0,23.39
+PE997999,NO DATA,Prince Edward Island,PE,PE003013,Township No. 52,King's,PE,CONTAINS,0.0142,0.0142,1.0,26.01
+PE997999,NO DATA,Prince Edward Island,PE,PE002015,Township No. 36,Queen's,PE,CONTAINS,0.0149,0.0149,1.0,25.76
+PE997999,NO DATA,Prince Edward Island,PE,PE003014,Township No. 53,King's,PE,CONTAINS,0.0129,0.0129,1.0,26.01
+PE997999,NO DATA,Prince Edward Island,PE,PE002016,Township No. 37,Queen's,PE,CONTAINS,0.0164,0.0164,1.0,25.76
+PE997999,NO DATA,Prince Edward Island,PE,PE003006,Township No. 38,King's,PE,CONTAINS,0.0138,0.0138,1.0,26.01
+PE997999,NO DATA,Prince Edward Island,PE,PE003015,Township No. 54,King's,PE,CONTAINS,0.0134,0.0134,1.0,26.01
+PE997999,NO DATA,Prince Edward Island,PE,PE003007,Township No. 39,King's,PE,CONTAINS,0.0146,0.0146,1.0,26.01
+PE997999,NO DATA,Prince Edward Island,PE,PE003016,Township No. 55,King's,PE,CONTAINS,0.0156,0.0156,1.0,26.01
+PE997999,NO DATA,Prince Edward Island,PE,PE003002,Township No. 44,King's,PE,CONTAINS,0.013,0.013,1.0,26.01
+PE997999,NO DATA,Prince Edward Island,PE,PE003003,Township No. 45,King's,PE,CONTAINS,0.0131,0.0131,1.0,26.01
+PE997999,NO DATA,Prince Edward Island,PE,PE003004,Township No. 46,King's,PE,CONTAINS,0.0142,0.0142,1.0,26.01
+PE997999,NO DATA,Prince Edward Island,PE,PE003005,Township No. 47,King's,PE,CONTAINS,0.0158,0.0158,1.0,26.01
+PE997999,NO DATA,Prince Edward Island,PE,PE001012,Township No. 12,Prince,PE,CONTAINS,0.0154,0.0154,1.0,32.94
+PE997999,NO DATA,Prince Edward Island,PE,PE001018,Princetown and Royalty,Prince,PE,CONTAINS,0.0032,0.0032,1.0,42.81
+PE997999,NO DATA,Prince Edward Island,PE,PE001006,Township No. 6,Prince,PE,CONTAINS,0.0122,0.0122,1.0,33.85
+PE997999,NO DATA,Prince Edward Island,PE,PE001011,Township No. 11,Prince,PE,CONTAINS,0.0161,0.0161,1.0,32.94
+PE997999,NO DATA,Prince Edward Island,PE,PE001005,Township No. 5,Prince,PE,CONTAINS,0.0141,0.0141,1.0,33.85
+PE997999,NO DATA,Prince Edward Island,PE,PE001004,Township No. 4,Prince,PE,CONTAINS,0.0188,0.0188,1.0,33.85
+PE997999,NO DATA,Prince Edward Island,PE,PE001003,Township No. 3,Prince,PE,CONTAINS,0.015,0.015,1.0,33.85
+PE997999,NO DATA,Prince Edward Island,PE,PE001002,Township No. 2,Prince,PE,CONTAINS,0.0156,0.0156,1.0,33.85
+PE997999,NO DATA,Prince Edward Island,PE,PE001001,Township No. 1,Prince,PE,CONTAINS,0.0195,0.0195,1.0,33.85
+PE997999,NO DATA,Prince Edward Island,PE,PE003008,Township No. 40,King's,PE,CONTAINS,0.014,0.014,1.0,26.01
+PE997999,NO DATA,Prince Edward Island,PE,PE003011,Township No. 56,King's,PE,CONTAINS,0.0144,0.0144,1.0,26.01
+PE997999,NO DATA,Prince Edward Island,PE,PE003009,Township No. 41,King's,PE,CONTAINS,0.0132,0.0132,1.0,26.01
+PE997999,NO DATA,Prince Edward Island,PE,PE003010,Township No. 42,King's,PE,CONTAINS,0.0161,0.0161,1.0,26.01
+PE997999,NO DATA,Prince Edward Island,PE,PE003001,Township No. 43,King's,PE,CONTAINS,0.0124,0.0124,1.0,26.01
+NS996999,NO DATA,Nova Scotia,NS,NS190014,Morse’s Road,Annapolis,NS,CONTAINS,0.005,0.005,1.0,34.11
+NS996999,NO DATA,Nova Scotia,NS,NS190999,NO DATA,Annapolis,NS,CONTAINS,0.0098,0.0098,1.0,82.0
+NS996999,NO DATA,Nova Scotia,NS,NS190005,Belisle,Annapolis,NS,CONTAINS,0.0014,0.0014,1.0,12.0
+NS996999,NO DATA,Nova Scotia,NS,NS190011,Carleton Corner,Annapolis,NS,CONTAINS,0.0007,0.0007,1.0,24.73
+NS996999,NO DATA,Nova Scotia,NS,NS190013,Dalhousie,Annapolis,NS,CONTAINS,0.0106,0.0106,1.0,29.5
+NS996999,NO DATA,Nova Scotia,NS,NS190004,Bridgetown,Annapolis,NS,CONTAINS,0.0018,0.0018,1.0,28.47
+NS996999,NO DATA,Nova Scotia,NS,NS190012,Nietaux,Annapolis,NS,CONTAINS,0.0024,0.0024,1.0,42.0
+NS996999,NO DATA,Nova Scotia,NS,NS190003,Clarence,Annapolis,NS,CONTAINS,0.0016,0.0016,1.0,21.33
+NS996999,NO DATA,Nova Scotia,NS,NS189014,Dalhousie,King's,NS,CONTAINS,0.0109,0.0109,1.0,24.56
+NS996999,NO DATA,Nova Scotia,NS,NS190002,Middleton Corners,Annapolis,NS,CONTAINS,0.0013,0.0013,1.0,23.67
+NS996999,NO DATA,Nova Scotia,NS,NS190001,Wilmot,Annapolis,NS,CONTAINS,0.0017,0.0017,1.0,33.54
+NS996999,NO DATA,Nova Scotia,NS,NS189013,"Aylesford, S",King's,NS,CONTAINS,0.0034,0.0034,1.0,21.8
+NS996999,NO DATA,Nova Scotia,NS,NS193002,Cape Sable Island,Shelburne,NS,CONTAINS,0.0009,0.0009,1.0,20.5
+NS996999,NO DATA,Nova Scotia,NS,NS193001,Shag Harbor,Shelburne,NS,CONTAINS,0.0023,0.0023,1.0,18.56
+NS996999,NO DATA,Nova Scotia,NS,NS193003,Barrington,Shelburne,NS,CONTAINS,0.0019,0.0019,1.0,19.47
+NS996999,NO DATA,Nova Scotia,NS,NS192001,Plymouth,Yarmouth,NS,CONTAINS,0.0019,0.0019,1.0,28.14
+NS996999,NO DATA,Nova Scotia,NS,NS192010,Pubnico,Yarmouth,NS,CONTAINS,0.0036,0.0036,1.0,29.47
+NS996999,NO DATA,Nova Scotia,NS,NS193004,Port la Tour,Shelburne,NS,CONTAINS,0.0057,0.0057,1.0,32.47
+NS996999,NO DATA,Nova Scotia,NS,NS192003,Yarmouth,Yarmouth,NS,CONTAINS,0.0004,0.0004,1.0,28.14
+NS996999,NO DATA,Nova Scotia,NS,NS192002,Chebogue,Yarmouth,NS,CONTAINS,0.0027,0.0027,1.0,18.81
+NS996999,NO DATA,Nova Scotia,NS,NS192009,Argyle,Yarmouth,NS,CONTAINS,0.003,0.003,1.0,20.24
+NS996999,NO DATA,Nova Scotia,NS,NS192008,Tusket,Yarmouth,NS,CONTAINS,0.0035,0.0035,1.0,20.24
+NS996999,NO DATA,Nova Scotia,NS,NS192004,Ohio,Yarmouth,NS,CONTAINS,0.0037,0.0037,1.0,22.2
+NS996999,NO DATA,Nova Scotia,NS,NS192007,West side of Tusket River,Yarmouth,NS,CONTAINS,0.0014,0.0014,1.0,22.6
+NS996999,NO DATA,Nova Scotia,NS,NS193005,"Carleton, Village",Shelburne,NS,CONTAINS,0.0103,0.0103,1.0,20.5
+NS996999,NO DATA,Nova Scotia,NS,NS191013,Salmon River,Digby,NS,CONTAINS,0.0024,0.0024,1.0,18.49
+NS996999,NO DATA,Nova Scotia,NS,NS192005,Carleton,Yarmouth,NS,CONTAINS,0.0038,0.0038,1.0,28.14
+NS996999,NO DATA,Nova Scotia,NS,NS192999,NO DATA,Yarmouth,NS,CONTAINS,0.0166,0.0166,1.0,79.47
+NS996999,NO DATA,Nova Scotia,NS,NS191012,Meteghan,Digby,NS,CONTAINS,0.0042,0.0042,1.0,22.42
+NS996999,NO DATA,Nova Scotia,NS,NS191001,Brier Island,Digby,NS,CONTAINS,0.0003,0.0003,1.0,18.49
+NS996999,NO DATA,Nova Scotia,NS,NS192006,Kempt,Yarmouth,NS,CONTAINS,0.002,0.002,1.0,21.14
+NS996999,NO DATA,Nova Scotia,NS,NS191002,Long Island,Digby,NS,CONTAINS,0.0001,0.0001,1.0,27.08
+NS996999,NO DATA,Nova Scotia,NS,NS193999,NO DATA,Shelburne,NS,CONTAINS,0.0421,0.0421,1.0,73.0
+NS996999,NO DATA,Nova Scotia,NS,NS191003,Petit Passage,Digby,NS,CONTAINS,0.0005,0.0005,1.0,24.75
+NS996999,NO DATA,Nova Scotia,NS,NS191010,Bellevaux,Digby,NS,CONTAINS,0.004,0.004,1.0,12.5
+NS996999,NO DATA,Nova Scotia,NS,NS191014,New Tusket,Digby,NS,CONTAINS,0.0054,0.0054,1.0,28.46
+NS996999,NO DATA,Nova Scotia,NS,NS191011,Clare,Digby,NS,CONTAINS,0.0021,0.0021,1.0,15.42
+NS996999,NO DATA,Nova Scotia,NS,NS191999,NO DATA,Digby,NS,CONTAINS,0.0184,0.0184,1.0,73.75
+NS996999,NO DATA,Nova Scotia,NS,NS191009,Weymouth,Digby,NS,CONTAINS,0.0012,0.0012,1.0,22.42
+NS996999,NO DATA,Nova Scotia,NS,NS191004,Sandy Cove,Digby,NS,CONTAINS,0.0017,0.0017,1.0,20.22
+NS996999,NO DATA,Nova Scotia,NS,NS191008,St. Mary’s Bay,Digby,NS,CONTAINS,0.0035,0.0035,1.0,23.75
+NS996999,NO DATA,Nova Scotia,NS,NS191007,Head of St. Mary’s,Digby,NS,CONTAINS,0.0016,0.0016,1.0,26.15
+NS996999,NO DATA,Nova Scotia,NS,NS193006,Shelburne,Shelburne,NS,CONTAINS,0.0023,0.0023,1.0,11.75
+NS996999,NO DATA,Nova Scotia,NS,NS193007,Ragged Island,Shelburne,NS,CONTAINS,0.0036,0.0036,1.0,17.0
+NS996999,NO DATA,Nova Scotia,NS,NS193008,Louis Head,Shelburne,NS,CONTAINS,0.0032,0.0032,1.0,27.71
+NS996999,NO DATA,Nova Scotia,NS,NS194001,Port Mouton,Queens,NS,CONTAINS,0.003,0.003,1.0,30.39
+NS996999,NO DATA,Nova Scotia,NS,NS194002,Liverpool,Queens,NS,CONTAINS,0.0049,0.0049,1.0,15.81
+NS996999,NO DATA,Nova Scotia,NS,NS194003,Bristol,Queens,NS,CONTAINS,0.0012,0.0012,1.0,17.06
+NS996999,NO DATA,Nova Scotia,NS,NS194005,Greenfield,Queens,NS,CONTAINS,0.0033,0.0033,1.0,23.53
+NS996999,NO DATA,Nova Scotia,NS,NS194004,Port Medway,Queens,NS,CONTAINS,0.0037,0.0037,1.0,38.17
+NS996999,NO DATA,Nova Scotia,NS,NS195003,Petite Rivière,Lunenburg,NS,CONTAINS,0.0051,0.0051,1.0,9.67
+NS996999,NO DATA,Nova Scotia,NS,NS195002,Bridgewater,Lunenburg,NS,CONTAINS,0.0072,0.0072,1.0,26.33
+NS996999,NO DATA,Nova Scotia,NS,NS191006,Hillsburg,Digby,NS,CONTAINS,0.0008,0.0008,1.0,3.75
+NS996999,NO DATA,Nova Scotia,NS,NS194006,Caledonia,Queens,NS,CONTAINS,0.0042,0.0042,1.0,24.56
+NS996999,NO DATA,Nova Scotia,NS,NS191005,Digby,Digby,NS,CONTAINS,0.002,0.002,1.0,15.42
+NS996999,NO DATA,Nova Scotia,NS,NS190015,Maitland,Annapolis,NS,CONTAINS,0.0161,0.0161,1.0,40.0
+NS996999,NO DATA,Nova Scotia,NS,NS190009,Hessian Line,Annapolis,NS,CONTAINS,0.0014,0.0014,1.0,26.74
+NS996999,NO DATA,Nova Scotia,NS,NS194007,Brookfield,Queens,NS,CONTAINS,0.0052,0.0052,1.0,23.53
+NS996999,NO DATA,Nova Scotia,NS,NS190008,Clements Port,Annapolis,NS,CONTAINS,0.0012,0.0012,1.0,33.0
+NS996999,NO DATA,Nova Scotia,NS,NS190007,Broad Cove,Annapolis,NS,CONTAINS,0.0013,0.0013,1.0,28.47
+NS996999,NO DATA,Nova Scotia,NS,NS190010,Annapolis Royal,Annapolis,NS,CONTAINS,0.0023,0.0023,1.0,37.45
+NS996999,NO DATA,Nova Scotia,NS,NS190006,New Caledonia,Annapolis,NS,CONTAINS,0.002,0.002,1.0,40.0
+NS996999,NO DATA,Nova Scotia,NS,NS195004,Conquerall,Lunenburg,NS,CONTAINS,0.0012,0.0012,1.0,19.47
+NS996999,NO DATA,Nova Scotia,NS,NS195005,Ritchy’s Cove,Lunenburg,NS,CONTAINS,0.0017,0.0017,1.0,10.0
+NS996999,NO DATA,Nova Scotia,NS,NS195007,La Have,Lunenburg,NS,CONTAINS,0.0011,0.0011,1.0,23.0
+NS996999,NO DATA,Nova Scotia,NS,NS195006,Lunenburg,Lunenburg,NS,CONTAINS,0.0015,0.0015,1.0,11.75
+NS996999,NO DATA,Nova Scotia,NS,NS195001,New Germany,Lunenburg,NS,CONTAINS,0.0115,0.0115,1.0,26.33
+NS996999,NO DATA,Nova Scotia,NS,NS195008,Mahone Bay,Lunenburg,NS,CONTAINS,0.0044,0.0044,1.0,27.71
+NS996999,NO DATA,Nova Scotia,NS,NS195009,Tancook Island,Lunenburg,NS,CONTAINS,0.0002,0.0002,1.0,29.67
+NS996999,NO DATA,Nova Scotia,NS,NS195012,Chester,Lunenburg,NS,CONTAINS,0.0115,0.0115,1.0,13.0
+NS996999,NO DATA,Nova Scotia,NS,NS195010,Sandy Beaches,Lunenburg,NS,CONTAINS,0.0014,0.0014,1.0,24.0
+NS996999,NO DATA,Nova Scotia,NS,NS195011,Mill Cove,Lunenburg,NS,CONTAINS,0.0014,0.0014,1.0,11.75
+NS996999,NO DATA,Nova Scotia,NS,NS196013,Prospect,"Halifax, West",NS,CONTAINS,0.0013,0.0013,1.0,28.67
+NS996999,NO DATA,Nova Scotia,NS,NS196012,Terrence Bay,"Halifax, West",NS,CONTAINS,0.0008,0.0008,1.0,32.11
+NS996999,NO DATA,Nova Scotia,NS,NS195013,New Ross,Lunenburg,NS,CONTAINS,0.008,0.008,1.0,21.67
+NS996999,NO DATA,Nova Scotia,NS,NS196015,Haggett’s Cove,"Halifax, West",NS,CONTAINS,0.0022,0.0022,1.0,23.33
+NS996999,NO DATA,Nova Scotia,NS,NS196014,Drysdale,"Halifax, West",NS,CONTAINS,0.0027,0.0027,1.0,28.67
+NS996999,NO DATA,Nova Scotia,NS,NS196999,NO DATA,"Halifax, West",NS,CONTAINS,0.003,0.003,1.0,80.0
+NS996999,NO DATA,Nova Scotia,NS,NS196017,Black Point,"Halifax, West",NS,CONTAINS,0.0028,0.0028,1.0,25.56
+NS996999,NO DATA,Nova Scotia,NS,NS196016,French Village,"Halifax, West",NS,CONTAINS,0.0035,0.0035,1.0,30.0
+NS996999,NO DATA,Nova Scotia,NS,NS196008,"North, West Arm","Halifax, West",NS,CONTAINS,0.0003,0.0003,1.0,41.82
+NS996999,NO DATA,Nova Scotia,NS,NS196001,"Halifax, Ward—Quartier No. 1","Halifax, West",NS,CONTAINS,0.0001,0.0001,1.0,26.0
+NS996999,NO DATA,Nova Scotia,NS,NS196006,"Halifax, Ward—Quartier No. 5, 2nd section","Halifax, West",NS,CONTAINS,0.0,0.0,1.0,24.58
+NS996999,NO DATA,Nova Scotia,NS,NS196002,"Halifax, Ward—Quartier No. 2","Halifax, West",NS,CONTAINS,0.0,0.0,1.0,26.0
+NS996999,NO DATA,Nova Scotia,NS,NS188014,Forks,Hants,NS,CONTAINS,0.0041,0.0041,1.0,19.17
+NS996999,NO DATA,Nova Scotia,NS,NS189001,Kentville,King's,NS,CONTAINS,0.0051,0.0051,1.0,24.56
+NS996999,NO DATA,Nova Scotia,NS,NS196007,"Halifax, Ward—Quartier No. 6","Halifax, West",NS,CONTAINS,0.0002,0.0002,1.0,26.0
+NS996999,NO DATA,Nova Scotia,NS,NS196003,"Halifax, Ward—Quartier No. 3","Halifax, West",NS,CONTAINS,0.0,0.0,1.0,26.0
+NS996999,NO DATA,Nova Scotia,NS,NS196004,"Halifax, Ward—Quartier No. 4","Halifax, West",NS,CONTAINS,0.0,0.0,1.0,26.0
+NS996999,NO DATA,Nova Scotia,NS,NS196005,"Halifax, Ward—Quartier No. 5, 1st section","Halifax, West",NS,CONTAINS,0.0,0.0,1.0,21.67
+NS996999,NO DATA,Nova Scotia,NS,NS196019,Pier’s Mills,"Halifax, West",NS,CONTAINS,0.0011,0.0011,1.0,17.37
+NS996999,NO DATA,Nova Scotia,NS,NS188999,NO DATA,Hants,NS,CONTAINS,0.0084,0.0084,1.0,77.5
+NS996999,NO DATA,Nova Scotia,NS,NS189012,"Aylesford, N",King's,NS,CONTAINS,0.0027,0.0027,1.0,21.8
+NS996999,NO DATA,Nova Scotia,NS,NS189009,Berwick,King's,NS,CONTAINS,0.0019,0.0019,1.0,7.06
+NS996999,NO DATA,Nova Scotia,NS,NS189010,Somerset,King's,NS,CONTAINS,0.0006,0.0006,1.0,25.73
+NS996999,NO DATA,Nova Scotia,NS,NS189011,Harborville,King's,NS,CONTAINS,0.0014,0.0014,1.0,14.84
+NS996999,NO DATA,Nova Scotia,NS,NS189008,Lakeville,King's,NS,CONTAINS,0.0021,0.0021,1.0,15.81
+NS996999,NO DATA,Nova Scotia,NS,NS189005,Canard,King's,NS,CONTAINS,0.001,0.001,1.0,28.6
+NS996999,NO DATA,Nova Scotia,NS,NS189007,Centreville,King's,NS,CONTAINS,0.0022,0.0022,1.0,22.61
+NS996999,NO DATA,Nova Scotia,NS,NS196011,Sambro,"Halifax, West",NS,CONTAINS,0.0012,0.0012,1.0,20.77
+NS996999,NO DATA,Nova Scotia,NS,NS196010,Portuguese Cove,"Halifax, West",NS,CONTAINS,0.0003,0.0003,1.0,22.73
+NS996999,NO DATA,Nova Scotia,NS,NS196009,Ferguson’s Cove,"Halifax, West",NS,CONTAINS,0.0006,0.0006,1.0,22.73
+NS996999,NO DATA,Nova Scotia,NS,NS197004,Eastern Passage,"Halifax, East",NS,CONTAINS,0.0006,0.0006,1.0,35.45
+NS996999,NO DATA,Nova Scotia,NS,NS197006,Lawrencetown,"Halifax, East",NS,CONTAINS,0.0016,0.0016,1.0,24.74
+NS996999,NO DATA,Nova Scotia,NS,NS197007,Chezettcook,"Halifax, East",NS,CONTAINS,0.0011,0.0011,1.0,17.78
+NS996999,NO DATA,Nova Scotia,NS,NS197005,Preston,"Halifax, East",NS,CONTAINS,0.0013,0.0013,1.0,20.0
+NS996999,NO DATA,Nova Scotia,NS,NS197008,Musquodoboit Harbor,"Halifax, East",NS,CONTAINS,0.0045,0.0045,1.0,31.54
+NS996999,NO DATA,Nova Scotia,NS,NS197009,Jeddore,"Halifax, East",NS,CONTAINS,0.0061,0.0061,1.0,20.0
+NS996999,NO DATA,Nova Scotia,NS,NS197017,Wyse’s Corner,"Halifax, East",NS,CONTAINS,0.0013,0.0013,1.0,17.0
+NS996999,NO DATA,Nova Scotia,NS,NS196018,Hammond’s Plains,"Halifax, West",NS,CONTAINS,0.0017,0.0017,1.0,28.26
+NS996999,NO DATA,Nova Scotia,NS,NS189002,Gaspereau,King's,NS,CONTAINS,0.003,0.003,1.0,24.56
+NS996999,NO DATA,Nova Scotia,NS,NS197001,Dartmouth,"Halifax, East",NS,CONTAINS,0.0035,0.0035,1.0,36.25
+NS996999,NO DATA,Nova Scotia,NS,NS188013,Falmouth,Hants,NS,CONTAINS,0.0022,0.0022,1.0,26.17
+NS996999,NO DATA,Nova Scotia,NS,NS188012,Windsor,Hants,NS,CONTAINS,0.0015,0.0015,1.0,27.5
+NS996999,NO DATA,Nova Scotia,NS,NS188011,Ste. Croix,Hants,NS,CONTAINS,0.0008,0.0008,1.0,15.74
+NS996999,NO DATA,Nova Scotia,NS,NS197002,Windsor Road,"Halifax, East",NS,CONTAINS,0.0041,0.0041,1.0,39.47
+NS996999,NO DATA,Nova Scotia,NS,NS189004,Wolfville,King's,NS,CONTAINS,0.0007,0.0007,1.0,15.81
+NS996999,NO DATA,Nova Scotia,NS,NS189003,Lower Horton,King's,NS,CONTAINS,0.0014,0.0014,1.0,29.16
+NS996999,NO DATA,Nova Scotia,NS,NS188010,Brooklyn,Hants,NS,CONTAINS,0.0014,0.0014,1.0,16.83
+NS996999,NO DATA,Nova Scotia,NS,NS189006,Canning,King's,NS,CONTAINS,0.003,0.003,1.0,17.06
+NS996999,NO DATA,Nova Scotia,NS,NS198010,Advocate Harbor,Cumberland,NS,CONTAINS,0.0045,0.0045,1.0,31.17
+NS996999,NO DATA,Nova Scotia,NS,NS198011,Parrsborough Shore,Cumberland,NS,CONTAINS,0.0059,0.0059,1.0,16.91
+NS996999,NO DATA,Nova Scotia,NS,NS198012,Mill Village,Cumberland,NS,CONTAINS,0.0095,0.0095,1.0,20.45
+NS996999,NO DATA,Nova Scotia,NS,NS188009,"Rawdon, S",Hants,NS,CONTAINS,0.0066,0.0066,1.0,25.0
+NS996999,NO DATA,Nova Scotia,NS,NS197003,Truro Road,"Halifax, East",NS,CONTAINS,0.0014,0.0014,1.0,34.71
+NS996999,NO DATA,Nova Scotia,NS,NS188001,"Scotch Village, Village",Hants,NS,CONTAINS,0.0044,0.0044,1.0,26.17
+NS996999,NO DATA,Nova Scotia,NS,NS188002,Kempt,Hants,NS,CONTAINS,0.0027,0.0027,1.0,19.17
+NS996999,NO DATA,Nova Scotia,NS,NS188008,"Rawdon, N",Hants,NS,CONTAINS,0.0032,0.0032,1.0,25.0
+NS996999,NO DATA,Nova Scotia,NS,NS188007,Nine Mile River,Hants,NS,CONTAINS,0.0033,0.0033,1.0,20.23
+NS996999,NO DATA,Nova Scotia,NS,NS197018,Gay’s River,"Halifax, East",NS,CONTAINS,0.0028,0.0028,1.0,17.78
+NS996999,NO DATA,Nova Scotia,NS,NS188003,Walton,Hants,NS,CONTAINS,0.0027,0.0027,1.0,29.04
+NS996999,NO DATA,Nova Scotia,NS,NS188004,Noel,Hants,NS,CONTAINS,0.007,0.007,1.0,32.95
+NS996999,NO DATA,Nova Scotia,NS,NS188006,Shubenacadie,Hants,NS,CONTAINS,0.0026,0.0026,1.0,29.61
+NS996999,NO DATA,Nova Scotia,NS,NS197016,Little River,"Halifax, East",NS,CONTAINS,0.0011,0.0011,1.0,17.37
+NS996999,NO DATA,Nova Scotia,NS,NS197010,Pope’s Harbor,"Halifax, East",NS,CONTAINS,0.0027,0.0027,1.0,31.0
+NS996999,NO DATA,Nova Scotia,NS,NS197015,Middle Musquodoboit,"Halifax, East",NS,CONTAINS,0.005,0.005,1.0,26.15
+NS996999,NO DATA,Nova Scotia,NS,NS197999,NO DATA,"Halifax, East",NS,CONTAINS,0.0365,0.0365,1.0,80.0
+NS996999,NO DATA,Nova Scotia,NS,NS197011,Sheet Harbor,"Halifax, East",NS,CONTAINS,0.0033,0.0033,1.0,24.74
+NS996999,NO DATA,Nova Scotia,NS,NS197012,Salmon River,"Halifax, East",NS,CONTAINS,0.0024,0.0024,1.0,24.74
+NS996999,NO DATA,Nova Scotia,NS,NS196020,Sable Island,"Halifax, West",NS,CONTAINS,0.0007,0.0007,1.0,24.74
+NS996999,NO DATA,Nova Scotia,NS,NS197014,Upper Musquodoboit,"Halifax, East",NS,CONTAINS,0.0043,0.0043,1.0,26.8
+NS996999,NO DATA,Nova Scotia,NS,NS199014,Upper Stewiacke,Colchester,NS,CONTAINS,0.0102,0.0102,1.0,27.66
+NS996999,NO DATA,Nova Scotia,NS,NS197013,Nicumteauch,"Halifax, East",NS,CONTAINS,0.0008,0.0008,1.0,33.33
+NS996999,NO DATA,Nova Scotia,NS,NS199013,Lower Stewiacke,Colchester,NS,CONTAINS,0.007,0.007,1.0,34.03
+NS996999,NO DATA,Nova Scotia,NS,NS188005,Maitland,Hants,NS,CONTAINS,0.005,0.005,1.0,35.5
+NS996999,NO DATA,Nova Scotia,NS,NS199001,Economy & Five Islands,Colchester,NS,CONTAINS,0.0072,0.0072,1.0,27.88
+NS996999,NO DATA,Nova Scotia,NS,NS199012,Old Burns,Colchester,NS,CONTAINS,0.0018,0.0018,1.0,26.07
+NS996999,NO DATA,Nova Scotia,NS,NS199002,Lower Londonderry,Colchester,NS,CONTAINS,0.0043,0.0043,1.0,26.07
+NS996999,NO DATA,Nova Scotia,NS,NS199011,Truro,Colchester,NS,CONTAINS,0.0086,0.0086,1.0,20.24
+NS996999,NO DATA,Nova Scotia,NS,NS199003,Upper Londonderry,Colchester,NS,CONTAINS,0.0059,0.0059,1.0,26.07
+NS996999,NO DATA,Nova Scotia,NS,NS199010,Onslow,Colchester,NS,CONTAINS,0.003,0.003,1.0,30.11
+NS996999,NO DATA,Nova Scotia,NS,NS198006,Westchester,Cumberland,NS,CONTAINS,0.0056,0.0056,1.0,13.49
+NS996999,NO DATA,Nova Scotia,NS,NS198007,River Philip,Cumberland,NS,CONTAINS,0.0092,0.0092,1.0,13.08
+NS996999,NO DATA,Nova Scotia,NS,NS202008,Marie Joseph,Guysborough,NS,CONTAINS,0.0032,0.0032,1.0,12.82
+NS996999,NO DATA,Nova Scotia,NS,NS202999,NO DATA,Guysborough,NS,CONTAINS,0.0149,0.0149,1.0,75.45
+NS996999,NO DATA,Nova Scotia,NS,NS200999,NO DATA,Pictou,NS,CONTAINS,0.0007,0.0007,1.0,77.06
+NS996999,NO DATA,Nova Scotia,NS,NS200011,New Lairg,Pictou,NS,CONTAINS,0.0013,0.0013,1.0,33.31
+NS996999,NO DATA,Nova Scotia,NS,NS202007,Sherbrooke,Guysborough,NS,CONTAINS,0.0033,0.0033,1.0,13.69
+NS996999,NO DATA,Nova Scotia,NS,NS202009,Caledonia,Guysborough,NS,CONTAINS,0.0044,0.0044,1.0,22.95
+NS996999,NO DATA,Nova Scotia,NS,NS200013,Hopewell,Pictou,NS,CONTAINS,0.0057,0.0057,1.0,16.39
+NS996999,NO DATA,Nova Scotia,NS,NS200018,East Branch of East River,Pictou,NS,CONTAINS,0.0053,0.0053,1.0,28.93
+NS996999,NO DATA,Nova Scotia,NS,NS202006,Wine Harbor,Guysborough,NS,CONTAINS,0.0045,0.0045,1.0,28.79
+NS996999,NO DATA,Nova Scotia,NS,NS200010,Gairloch,Pictou,NS,CONTAINS,0.0015,0.0015,1.0,16.39
+NS996999,NO DATA,Nova Scotia,NS,NS199009,Upper Onslow,Colchester,NS,CONTAINS,0.0025,0.0025,1.0,23.31
+NS996999,NO DATA,Nova Scotia,NS,NS198005,Wentworth,Cumberland,NS,CONTAINS,0.0043,0.0043,1.0,31.96
+NS996999,NO DATA,Nova Scotia,NS,NS199008,Kemptown,Colchester,NS,CONTAINS,0.0028,0.0028,1.0,17.9
+NS996999,NO DATA,Nova Scotia,NS,NS199004,New Annan,Colchester,NS,CONTAINS,0.005,0.005,1.0,43.57
+NS996999,NO DATA,Nova Scotia,NS,NS200001,Mount Thom,Pictou,NS,CONTAINS,0.003,0.003,1.0,31.76
+NS996999,NO DATA,Nova Scotia,NS,NS199007,Earltown,Colchester,NS,CONTAINS,0.0034,0.0034,1.0,27.24
+NS996999,NO DATA,Nova Scotia,NS,NS198003,Pugwash,Cumberland,NS,CONTAINS,0.0068,0.0068,1.0,15.71
+NS996999,NO DATA,Nova Scotia,NS,NS199005,Tatamagouche,Colchester,NS,CONTAINS,0.002,0.002,1.0,30.68
+NS996999,NO DATA,Nova Scotia,NS,NS198004,Wallace,Cumberland,NS,CONTAINS,0.0034,0.0034,1.0,25.71
+NS996999,NO DATA,Nova Scotia,NS,NS199006,Waugh’s River,Colchester,NS,CONTAINS,0.0015,0.0015,1.0,15.57
+NS996999,NO DATA,Nova Scotia,NS,NS200012,Middle River,Pictou,NS,CONTAINS,0.0013,0.0013,1.0,14.43
+NS996999,NO DATA,Nova Scotia,NS,NS202010,Forks of St. Mary,Guysborough,NS,CONTAINS,0.0061,0.0061,1.0,28.79
+NS996999,NO DATA,Nova Scotia,NS,NS200017,McLennans Mountain,Pictou,NS,CONTAINS,0.0025,0.0025,1.0,29.46
+NS996999,NO DATA,Nova Scotia,NS,NS200014,Albion Mines,Pictou,NS,CONTAINS,0.0004,0.0004,1.0,21.8
+NS996999,NO DATA,Nova Scotia,NS,NS202011,Stormont,Guysborough,NS,CONTAINS,0.003,0.003,1.0,24.12
+NS996999,NO DATA,Nova Scotia,NS,NS202005,Isaac’s Harbor,Guysborough,NS,CONTAINS,0.0021,0.0021,1.0,18.79
+NS996999,NO DATA,Nova Scotia,NS,NS200009,"West River, Green Hill",Pictou,NS,CONTAINS,0.0011,0.0011,1.0,16.71
+NS996999,NO DATA,Nova Scotia,NS,NS200019,St. Mary’s,Pictou,NS,CONTAINS,0.0047,0.0047,1.0,23.53
+NS996999,NO DATA,Nova Scotia,NS,NS200015,New Glasgow,Pictou,NS,CONTAINS,0.0015,0.0015,1.0,30.39
+NS996999,NO DATA,Nova Scotia,NS,NS200020,Merrigomish,Pictou,NS,CONTAINS,0.003,0.003,1.0,14.84
+NS996999,NO DATA,Nova Scotia,NS,NS200007,Harwood-Hill,Pictou,NS,CONTAINS,0.0012,0.0012,1.0,21.8
+NS996999,NO DATA,Nova Scotia,NS,NS200016,Little Harbor,Pictou,NS,CONTAINS,0.0016,0.0016,1.0,21.06
+NS996999,NO DATA,Nova Scotia,NS,NS202012,Salmon River,Guysborough,NS,CONTAINS,0.0062,0.0062,1.0,20.19
+NS996999,NO DATA,Nova Scotia,NS,NS200021,Barney’s River,Pictou,NS,CONTAINS,0.004,0.004,1.0,20.39
+NS996999,NO DATA,Nova Scotia,NS,NS200005,Cariboo,Pictou,NS,CONTAINS,0.0016,0.0016,1.0,17.06
+NS996999,NO DATA,Nova Scotia,NS,NS202001,Guysborough Polling District,Guysborough,NS,CONTAINS,0.0066,0.0066,1.0,21.45
+NS996999,NO DATA,Nova Scotia,NS,NS201002,Lochaber,Antigonish,NS,CONTAINS,0.0047,0.0047,1.0,27.24
+NS996999,NO DATA,Nova Scotia,NS,NS201001,Upper South River,Antigonish,NS,CONTAINS,0.0025,0.0025,1.0,20.24
+NS996999,NO DATA,Nova Scotia,NS,NS200006,Pictou,Pictou,NS,CONTAINS,0.0016,0.0016,1.0,17.83
+NS996999,NO DATA,Nova Scotia,NS,NS202004,Molasses Harbor,Guysborough,NS,CONTAINS,0.0044,0.0044,1.0,24.55
+NS996999,NO DATA,Nova Scotia,NS,NS200002,West Branch River John,Pictou,NS,CONTAINS,0.0025,0.0025,1.0,16.71
+NS996999,NO DATA,Nova Scotia,NS,NS200008,Roger’s Hill,Pictou,NS,CONTAINS,0.0014,0.0014,1.0,21.8
+NS996999,NO DATA,Nova Scotia,NS,NS200003,River John,Pictou,NS,CONTAINS,0.0016,0.0016,1.0,15.29
+NS996999,NO DATA,Nova Scotia,NS,NS200004,Cape John,Pictou,NS,CONTAINS,0.0014,0.0014,1.0,15.81
+NS996999,NO DATA,Nova Scotia,NS,NS198009,River Hebert,Cumberland,NS,CONTAINS,0.0085,0.0085,1.0,20.45
+NS996999,NO DATA,Nova Scotia,NS,NS198008,Maccan,Cumberland,NS,CONTAINS,0.0063,0.0063,1.0,27.25
+NS996999,NO DATA,Nova Scotia,NS,NS198001,Amherst,Cumberland,NS,CONTAINS,0.005,0.005,1.0,25.71
+NS996999,NO DATA,Nova Scotia,NS,NS198002,Head of Amherst,Cumberland,NS,CONTAINS,0.0088,0.0088,1.0,31.17
+NS996999,NO DATA,Nova Scotia,NS,NS200022,Gulf Shore,Pictou,NS,CONTAINS,0.0022,0.0022,1.0,15.29
+NS996999,NO DATA,Nova Scotia,NS,NS202002,Crow Harbor,Guysborough,NS,CONTAINS,0.0021,0.0021,1.0,28.79
+NS996999,NO DATA,Nova Scotia,NS,NS201007,St. Andrew’s,Antigonish,NS,CONTAINS,0.0042,0.0042,1.0,23.31
+NS996999,NO DATA,Nova Scotia,NS,NS201003,Antigonish,Antigonish,NS,CONTAINS,0.0041,0.0041,1.0,25.04
+NS996999,NO DATA,Nova Scotia,NS,NS202003,Cape Canso,Guysborough,NS,CONTAINS,0.0016,0.0016,1.0,21.93
+NS996999,NO DATA,Nova Scotia,NS,NS202013,Guysborough Intervale,Guysborough,NS,CONTAINS,0.0058,0.0058,1.0,25.45
+NS996999,NO DATA,Nova Scotia,NS,NS202014,Manchester,Guysborough,NS,CONTAINS,0.0035,0.0035,1.0,21.93
+NS996999,NO DATA,Nova Scotia,NS,NS201008,Tracadie,Antigonish,NS,CONTAINS,0.0029,0.0029,1.0,27.24
+NS996999,NO DATA,Nova Scotia,NS,NS201004,Arisaig,Antigonish,NS,CONTAINS,0.0026,0.0026,1.0,28.57
+NS996999,NO DATA,Nova Scotia,NS,NS201006,Morristown,Antigonish,NS,CONTAINS,0.0022,0.0022,1.0,25.04
+NS996999,NO DATA,Nova Scotia,NS,NS202015,Melford,Guysborough,NS,CONTAINS,0.0038,0.0038,1.0,25.45
+NS996999,NO DATA,Nova Scotia,NS,NS201009,Harbor Bouche,Antigonish,NS,CONTAINS,0.002,0.002,1.0,22.57
+NS996999,NO DATA,Nova Scotia,NS,NS201005,Cape George,Antigonish,NS,CONTAINS,0.0017,0.0017,1.0,16.35
+NS996999,NO DATA,Nova Scotia,NS,NS206013,Little Arichat,Richmond,NS,CONTAINS,0.0009,0.0009,1.0,26.32
+NS996999,NO DATA,Nova Scotia,NS,NS206011,Petit de Grat,Richmond,NS,CONTAINS,0.0006,0.0006,1.0,34.32
+NS996999,NO DATA,Nova Scotia,NS,NS206012,Arichat,Richmond,NS,CONTAINS,0.0005,0.0005,1.0,26.32
+NS996999,NO DATA,Nova Scotia,NS,NS206008,River Inhabitants,Richmond,NS,CONTAINS,0.004,0.004,1.0,29.65
+NS996999,NO DATA,Nova Scotia,NS,NS206010,D’Escousse,Richmond,NS,CONTAINS,0.001,0.001,1.0,14.55
+NS996999,NO DATA,Nova Scotia,NS,NS203001,Plaster Cove,Inverness,NS,CONTAINS,0.004,0.004,1.0,23.74
+NS996999,NO DATA,Nova Scotia,NS,NS203002,River Inhabitants,Inverness,NS,CONTAINS,0.0029,0.0029,1.0,32.33
+NS996999,NO DATA,Nova Scotia,NS,NS206009,River Bourgeois,Richmond,NS,CONTAINS,0.0012,0.0012,1.0,12.68
+NS996999,NO DATA,Nova Scotia,NS,NS203003,North Mountain,Inverness,NS,CONTAINS,0.0013,0.0013,1.0,42.33
+NS996999,NO DATA,Nova Scotia,NS,NS206007,Black River,Richmond,NS,CONTAINS,0.0021,0.0021,1.0,14.09
+NS996999,NO DATA,Nova Scotia,NS,NS203005,Judique,Inverness,NS,CONTAINS,0.0036,0.0036,1.0,19.0
+NS996999,NO DATA,Nova Scotia,NS,NS206005,L’Ardoise,Richmond,NS,CONTAINS,0.0026,0.0026,1.0,15.07
+NS996999,NO DATA,Nova Scotia,NS,NS206006,St. Peter’s,Richmond,NS,CONTAINS,0.0019,0.0019,1.0,21.87
+NS996999,NO DATA,Nova Scotia,NS,NS203004,River Dennis,Inverness,NS,CONTAINS,0.0045,0.0045,1.0,23.74
+NS996999,NO DATA,Nova Scotia,NS,NS206004,Grand River,Richmond,NS,CONTAINS,0.0027,0.0027,1.0,21.87
+NS996999,NO DATA,Nova Scotia,NS,NS203006,Port Hood,Inverness,NS,CONTAINS,0.0024,0.0024,1.0,35.25
+NS996999,NO DATA,Nova Scotia,NS,NS206003,Red Islands,Richmond,NS,CONTAINS,0.0019,0.0019,1.0,21.87
+NS996999,NO DATA,Nova Scotia,NS,NS203016,Whycocomagh,Inverness,NS,CONTAINS,0.0072,0.0072,1.0,24.56
+NS996999,NO DATA,Nova Scotia,NS,NS206002,Lochlomond,Richmond,NS,CONTAINS,0.002,0.002,1.0,22.79
+NS996999,NO DATA,Nova Scotia,NS,NS206001,Framboise,Richmond,NS,CONTAINS,0.0027,0.0027,1.0,15.07
+NS996999,NO DATA,Nova Scotia,NS,NS203007,Mabou,Inverness,NS,CONTAINS,0.0052,0.0052,1.0,20.67
+NS996999,NO DATA,Nova Scotia,NS,NS203008,West Lake Ainslie,Inverness,NS,CONTAINS,0.0026,0.0026,1.0,26.5
+NS996999,NO DATA,Nova Scotia,NS,NS205014,Big Pond,Cape Breton,NS,CONTAINS,0.0032,0.0032,1.0,26.85
+NS996999,NO DATA,Nova Scotia,NS,NS204002,Little Narrows,Victoria,NS,CONTAINS,0.0024,0.0024,1.0,29.12
+NS996999,NO DATA,Nova Scotia,NS,NS204001,Washabucht,Victoria,NS,CONTAINS,0.0019,0.0019,1.0,32.26
+NS996999,NO DATA,Nova Scotia,NS,NS203015,East Lake Ainslie,Inverness,NS,CONTAINS,0.0041,0.0041,1.0,26.5
+NS996999,NO DATA,Nova Scotia,NS,NS205005,Christmas Island,Cape Breton,NS,CONTAINS,0.0025,0.0025,1.0,20.36
+NS996999,NO DATA,Nova Scotia,NS,NS205013,Gabarus,Cape Breton,NS,CONTAINS,0.0068,0.0068,1.0,28.18
+NS996999,NO DATA,Nova Scotia,NS,NS203009,Broad Cove Intervale,Inverness,NS,CONTAINS,0.0025,0.0025,1.0,29.74
+NS996999,NO DATA,Nova Scotia,NS,NS205006,East Bay,Cape Breton,NS,CONTAINS,0.0048,0.0048,1.0,36.18
+NS996999,NO DATA,Nova Scotia,NS,NS204003,Middle River,Victoria,NS,CONTAINS,0.0024,0.0024,1.0,23.16
+NS996999,NO DATA,Nova Scotia,NS,NS203010,Broad Cove District,Inverness,NS,CONTAINS,0.0011,0.0011,1.0,30.54
+NS996999,NO DATA,Nova Scotia,NS,NS205004,Beaver Cove,Cape Breton,NS,CONTAINS,0.0021,0.0021,1.0,15.96
+NS996999,NO DATA,Nova Scotia,NS,NS203014,Young Bridge or Forks,Inverness,NS,CONTAINS,0.0021,0.0021,1.0,24.0
+NS996999,NO DATA,Nova Scotia,NS,NS204004,Baddeck,Victoria,NS,CONTAINS,0.0056,0.0056,1.0,25.79
+NS996999,NO DATA,Nova Scotia,NS,NS205012,Louisburg,Cape Breton,NS,CONTAINS,0.0048,0.0048,1.0,16.93
+NS996999,NO DATA,Nova Scotia,NS,NS205010,Mira Bay,Cape Breton,NS,CONTAINS,0.0033,0.0033,1.0,26.85
+NS996999,NO DATA,Nova Scotia,NS,NS203011,Margaree,Inverness,NS,CONTAINS,0.0028,0.0028,1.0,27.67
+NS996999,NO DATA,Nova Scotia,NS,NS205007,Sydney,Cape Breton,NS,CONTAINS,0.003,0.003,1.0,18.95
+NS996999,NO DATA,Nova Scotia,NS,NS205003,Ball’s Bridge,Cape Breton,NS,CONTAINS,0.0042,0.0042,1.0,22.18
+NS996999,NO DATA,Nova Scotia,NS,NS204008,"Monro’s Point, St. Ann’s",Victoria,NS,CONTAINS,0.0019,0.0019,1.0,38.37
+NS996999,NO DATA,Nova Scotia,NS,NS204005,Boularderie,Victoria,NS,CONTAINS,0.0018,0.0018,1.0,31.35
+NS996999,NO DATA,Nova Scotia,NS,NS203013,North-East Margaree,Inverness,NS,CONTAINS,0.004,0.004,1.0,35.92
+NS996999,NO DATA,Nova Scotia,NS,NS205011,Mainadieu,Cape Breton,NS,CONTAINS,0.0027,0.0027,1.0,25.68
+NS996999,NO DATA,Nova Scotia,NS,NS205001,Howley’s Kerry,Cape Breton,NS,CONTAINS,0.0024,0.0024,1.0,21.52
+NS996999,NO DATA,Nova Scotia,NS,NS204007,Englishtown,Victoria,NS,CONTAINS,0.0023,0.0023,1.0,31.35
+NS996999,NO DATA,Nova Scotia,NS,NS205002,Sydney Mines,Cape Breton,NS,CONTAINS,0.0007,0.0007,1.0,22.92
+NS996999,NO DATA,Nova Scotia,NS,NS204006,King’s Cove,Victoria,NS,CONTAINS,0.0006,0.0006,1.0,31.35
+NS996999,NO DATA,Nova Scotia,NS,NS205009,Cow Bay,Cape Breton,NS,CONTAINS,0.0015,0.0015,1.0,38.18
+NS996999,NO DATA,Nova Scotia,NS,NS205008,Lingan Mines,Cape Breton,NS,CONTAINS,0.0052,0.0052,1.0,22.92
+NS996999,NO DATA,Nova Scotia,NS,NS204999,NO DATA,Victoria,NS,CONTAINS,0.0241,0.0241,1.0,85.79
+NS996999,NO DATA,Nova Scotia,NS,NS203999,NO DATA,Inverness,NS,CONTAINS,0.0137,0.0137,1.0,79.0
+NS996999,NO DATA,Nova Scotia,NS,NS204009,Plaster,Victoria,NS,CONTAINS,0.0028,0.0028,1.0,35.79
+NS996999,NO DATA,Nova Scotia,NS,NS203012,Cheticamp,Inverness,NS,CONTAINS,0.009,0.009,1.0,26.5
+NS996999,NO DATA,Nova Scotia,NS,NS204010,Ingonish,Victoria,NS,CONTAINS,0.0009,0.0009,1.0,34.46
+NS996999,NO DATA,Nova Scotia,NS,NS204011,Cape North,Victoria,NS,CONTAINS,0.0044,0.0044,1.0,40.5
+NS996999,NO DATA,Nova Scotia,NS,NS204012,Bay of St. Lawrence,Victoria,NS,CONTAINS,0.0009,0.0009,1.0,37.33
+NB995999,NO DATA,New Brunswick,NB,NB175013,Grand Manan,Charlotte,NB,CONTAINS,0.0023,0.0023,1.0,33.84
+NB995999,NO DATA,New Brunswick,NB,NB175012,Campo Bello,Charlotte,NB,CONTAINS,0.0006,0.0006,1.0,18.28
+NB995999,NO DATA,New Brunswick,NB,NB175011,West Isles,Charlotte,NB,CONTAINS,0.0006,0.0006,1.0,10.96
+NB995999,NO DATA,New Brunswick,NB,NB175009,Saint Stephen,Charlotte,NB,CONTAINS,0.0017,0.0017,1.0,23.73
+NB995999,NO DATA,New Brunswick,NB,NB175007,St. Andrew’s,Charlotte,NB,CONTAINS,0.0016,0.0016,1.0,17.46
+NB995999,NO DATA,New Brunswick,NB,NB175003,Pennfield,Charlotte,NB,CONTAINS,0.0055,0.0055,1.0,20.23
+NB995999,NO DATA,New Brunswick,NB,NB175008,Saint David,Charlotte,NB,CONTAINS,0.0029,0.0029,1.0,33.84
+NB995999,NO DATA,New Brunswick,NB,NB175005,Saint Patrick,Charlotte,NB,CONTAINS,0.0034,0.0034,1.0,30.73
+NB995999,NO DATA,New Brunswick,NB,NB175010,Saint James,Charlotte,NB,CONTAINS,0.0079,0.0079,1.0,26.06
+NB995999,NO DATA,New Brunswick,NB,NB175004,St. George,Charlotte,NB,CONTAINS,0.0075,0.0075,1.0,10.96
+NB995999,NO DATA,New Brunswick,NB,NB174007,"St. John, Brook’s Ward—Quartier",St. John,NB,CONTAINS,0.0,0.0,1.0,27.82
+NB995999,NO DATA,New Brunswick,NB,NB174008,"St. John, Albert Ward—Quartier",St. John,NB,CONTAINS,0.0,0.0,1.0,24.63
+NB995999,NO DATA,New Brunswick,NB,NB175002,Lepreau,Charlotte,NB,CONTAINS,0.0031,0.0031,1.0,12.73
+NB995999,NO DATA,New Brunswick,NB,NB174010,Lancaster,St. John,NB,CONTAINS,0.0055,0.0055,1.0,31.96
+NB995999,NO DATA,New Brunswick,NB,NB175006,Dumbarton,Charlotte,NB,CONTAINS,0.0053,0.0053,1.0,28.98
+NB995999,NO DATA,New Brunswick,NB,NB175001,Clarendon,Charlotte,NB,CONTAINS,0.0073,0.0073,1.0,20.23
+NB995999,NO DATA,New Brunswick,NB,NB176001,Westfield,King's,NB,CONTAINS,0.0052,0.0052,1.0,15.07
+NB995999,NO DATA,New Brunswick,NB,NB174009,"St. John, Guy’s Ward—Quartier",St. John,NB,CONTAINS,0.0,0.0,1.0,25.16
+NB995999,NO DATA,New Brunswick,NB,NB174003,"St. John, King’s Ward—Quartier",St. John,NB,CONTAINS,0.0,0.0,1.0,24.63
+NB995999,NO DATA,New Brunswick,NB,NB174011,Portland,St. John,NB,CONTAINS,0.0005,0.0005,1.0,33.71
+NB995999,NO DATA,New Brunswick,NB,NB179007,Manners-Sutton,York,NB,CONTAINS,0.0079,0.0079,1.0,20.39
+NB995999,NO DATA,New Brunswick,NB,NB179009,Prince William,York,NB,CONTAINS,0.0068,0.0068,1.0,27.06
+NB995999,NO DATA,New Brunswick,NB,NB174006,"St. John, Sydney Ward—Quartier",St. John,NB,CONTAINS,0.0,0.0,1.0,24.63
+NB995999,NO DATA,New Brunswick,NB,NB174005,"St. John, Duke’s Ward—Quartier",St. John,NB,CONTAINS,0.0,0.0,1.0,24.63
+NB995999,NO DATA,New Brunswick,NB,NB174004,"St. John, Queen’s Ward—Quartier",St. John,NB,CONTAINS,0.0,0.0,1.0,24.14
+NB995999,NO DATA,New Brunswick,NB,NB174002,"St. John, Wellington Ward—Quartier",St. John,NB,CONTAINS,0.0,0.0,1.0,26.2
+NB995999,NO DATA,New Brunswick,NB,NB174001,"St. John, Prince Ward—Quartier",St. John,NB,CONTAINS,0.0,0.0,1.0,24.63
+NB995999,NO DATA,New Brunswick,NB,NB174012,Simonds,St. John,NB,CONTAINS,0.0066,0.0066,1.0,25.71
+NB995999,NO DATA,New Brunswick,NB,NB176004,Rothsay,King's,NB,CONTAINS,0.0018,0.0018,1.0,36.32
+NB995999,NO DATA,New Brunswick,NB,NB176005,Hampton,King's,NB,CONTAINS,0.0018,0.0018,1.0,26.32
+NB995999,NO DATA,New Brunswick,NB,NB176009,Upham,King's,NB,CONTAINS,0.0026,0.0026,1.0,17.98
+NB995999,NO DATA,New Brunswick,NB,NB179011,Canterbury,York,NB,CONTAINS,0.0146,0.0146,1.0,23.53
+NB995999,NO DATA,New Brunswick,NB,NB179010,Dumfries,York,NB,CONTAINS,0.0101,0.0101,1.0,16.39
+NB995999,NO DATA,New Brunswick,NB,NB177001,Petersville,Queen's,NB,CONTAINS,0.0083,0.0083,1.0,16.78
+NB995999,NO DATA,New Brunswick,NB,NB178001,Blissville,Sunbury,NB,CONTAINS,0.0108,0.0108,1.0,9.0
+NB995999,NO DATA,New Brunswick,NB,NB176003,Kingston,King's,NB,CONTAINS,0.0028,0.0028,1.0,24.98
+NB995999,NO DATA,New Brunswick,NB,NB179006,New Maryland,York,NB,CONTAINS,0.0063,0.0063,1.0,36.53
+NB995999,NO DATA,New Brunswick,NB,NB176002,Greenwich,King's,NB,CONTAINS,0.0016,0.0016,1.0,15.07
+NB995999,NO DATA,New Brunswick,NB,NB180002,Richmond,Carleton,NB,CONTAINS,0.0036,0.0036,1.0,24.38
+NB995999,NO DATA,New Brunswick,NB,NB177003,Hampstead,Queen's,NB,CONTAINS,0.0029,0.0029,1.0,35.25
+NB995999,NO DATA,New Brunswick,NB,NB180001,Woodstock,Carleton,NB,CONTAINS,0.0031,0.0031,1.0,31.96
+NB995999,NO DATA,New Brunswick,NB,NB176006,Kars,King's,NB,CONTAINS,0.001,0.001,1.0,19.04
+NB995999,NO DATA,New Brunswick,NB,NB179008,Kingsclear,York,NB,CONTAINS,0.0045,0.0045,1.0,23.53
+NB995999,NO DATA,New Brunswick,NB,NB178002,Lincoln,Sunbury,NB,CONTAINS,0.002,0.002,1.0,29.0
+NB995999,NO DATA,New Brunswick,NB,NB177002,Gagetown,Queen's,NB,CONTAINS,0.004,0.004,1.0,27.67
+NB995999,NO DATA,New Brunswick,NB,NB178003,Burton,Sunbury,NB,CONTAINS,0.004,0.004,1.0,19.77
+NB995999,NO DATA,New Brunswick,NB,NB179013,Queensbury,York,NB,CONTAINS,0.0042,0.0042,1.0,15.29
+NB995999,NO DATA,New Brunswick,NB,NB180011,Northampton,Carleton,NB,CONTAINS,0.0034,0.0034,1.0,36.83
+NB995999,NO DATA,New Brunswick,NB,NB177004,Wickham,Queen's,NB,CONTAINS,0.0028,0.0028,1.0,19.0
+NB995999,NO DATA,New Brunswick,NB,NB179012,Southampton,York,NB,CONTAINS,0.0066,0.0066,1.0,30.39
+NB995999,NO DATA,New Brunswick,NB,NB176007,Springfield,King's,NB,CONTAINS,0.0039,0.0039,1.0,21.87
+NB995999,NO DATA,New Brunswick,NB,NB179005,"York, King’s Ward—Quartier",York,NB,CONTAINS,0.0,0.0,1.0,28.27
+NB995999,NO DATA,New Brunswick,NB,NB179004,"York, Queen's Ward—Quartier",York,NB,CONTAINS,0.0,0.0,1.0,27.65
+NB995999,NO DATA,New Brunswick,NB,NB179003,"York, Carleton Ward—Quartier",York,NB,CONTAINS,0.0,0.0,1.0,27.06
+NB995999,NO DATA,New Brunswick,NB,NB179002,"York, St. Ann’s Ward—Quartier",York,NB,CONTAINS,0.0,0.0,1.0,26.5
+NB995999,NO DATA,New Brunswick,NB,NB179001,"York, Wellington Ward—Quartier",York,NB,CONTAINS,0.0,0.0,1.0,29.76
+NB995999,NO DATA,New Brunswick,NB,NB180003,Wakefield,Carleton,NB,CONTAINS,0.0027,0.0027,1.0,14.46
+NB995999,NO DATA,New Brunswick,NB,NB177005,Cambridge,Queen's,NB,CONTAINS,0.003,0.003,1.0,17.75
+NB995999,NO DATA,New Brunswick,NB,NB179014,Bright,York,NB,CONTAINS,0.0056,0.0056,1.0,17.83
+NB995999,NO DATA,New Brunswick,NB,NB180005,Wilmot,Carleton,NB,CONTAINS,0.0027,0.0027,1.0,27.25
+NB995999,NO DATA,New Brunswick,NB,NB180004,Simonds,Carleton,NB,CONTAINS,0.0011,0.0011,1.0,25.71
+NB995999,NO DATA,New Brunswick,NB,NB180010,Brighton,Carleton,NB,CONTAINS,0.0072,0.0072,1.0,15.05
+NB995999,NO DATA,New Brunswick,NB,NB178004,Sheffield,Sunbury,NB,CONTAINS,0.004,0.004,1.0,17.75
+NB995999,NO DATA,New Brunswick,NB,NB177006,Canning,Queen's,NB,CONTAINS,0.004,0.004,1.0,19.0
+NB995999,NO DATA,New Brunswick,NB,NB180009,Peel,Carleton,NB,CONTAINS,0.0016,0.0016,1.0,5.71
+NB995999,NO DATA,New Brunswick,NB,NB177008,Johnston,Queen's,NB,CONTAINS,0.0053,0.0053,1.0,27.67
+NB995999,NO DATA,New Brunswick,NB,NB180006,Wicklow,Carleton,NB,CONTAINS,0.0028,0.0028,1.0,15.71
+NB995999,NO DATA,New Brunswick,NB,NB179017,Saint Mary’s,York,NB,CONTAINS,0.0108,0.0108,1.0,29.16
+NB995999,NO DATA,New Brunswick,NB,NB178006,Maugerville,Sunbury,NB,CONTAINS,0.0128,0.0128,1.0,16.78
+NB995999,NO DATA,New Brunswick,NB,NB179015,Douglas,York,NB,CONTAINS,0.0206,0.0206,1.0,27.06
+NB995999,NO DATA,New Brunswick,NB,NB180008,Aberdeen,Carleton,NB,CONTAINS,0.0062,0.0062,1.0,15.05
+NB995999,NO DATA,New Brunswick,NB,NB174013,Saint Martin’s,St. John,NB,CONTAINS,0.009,0.009,1.0,32.38
+NB995999,NO DATA,New Brunswick,NB,NB176008,Norton,King's,NB,CONTAINS,0.0025,0.0025,1.0,38.62
+NB995999,NO DATA,New Brunswick,NB,NB176010,Hammond,King's,NB,CONTAINS,0.0034,0.0034,1.0,26.32
+NB995999,NO DATA,New Brunswick,NB,NB176011,Sussex,King's,NB,CONTAINS,0.0111,0.0111,1.0,6.32
+NB995999,NO DATA,New Brunswick,NB,NB176012,Studholm,King's,NB,CONTAINS,0.0062,0.0062,1.0,15.65
+NB995999,NO DATA,New Brunswick,NB,NB187005,Alma,Albert,NB,CONTAINS,0.0038,0.0038,1.0,31.77
+NB995999,NO DATA,New Brunswick,NB,NB187004,Harvey,Albert,NB,CONTAINS,0.004,0.004,1.0,17.09
+NB995999,NO DATA,New Brunswick,NB,NB187006,Elgin,Albert,NB,CONTAINS,0.0072,0.0072,1.0,17.98
+NB995999,NO DATA,New Brunswick,NB,NB176013,Havelock,King's,NB,CONTAINS,0.0048,0.0048,1.0,15.65
+NB995999,NO DATA,New Brunswick,NB,NB177009,Brunswick,Queen's,NB,CONTAINS,0.0098,0.0098,1.0,17.75
+NB995999,NO DATA,New Brunswick,NB,NB187003,Hopewell,Albert,NB,CONTAINS,0.0021,0.0021,1.0,15.65
+NB995999,NO DATA,New Brunswick,NB,NB187002,Hillsborough,Albert,NB,CONTAINS,0.0044,0.0044,1.0,13.68
+NB995999,NO DATA,New Brunswick,NB,NB186007,Salisbury,Westmorland,NB,CONTAINS,0.0125,0.0125,1.0,16.25
+NB995999,NO DATA,New Brunswick,NB,NB187001,Coverdale,Albert,NB,CONTAINS,0.0038,0.0038,1.0,32.57
+NB995999,NO DATA,New Brunswick,NB,NB177007,Waterborough,Queen's,NB,CONTAINS,0.0071,0.0071,1.0,23.74
+NB995999,NO DATA,New Brunswick,NB,NB178005,Northfield,Sunbury,NB,CONTAINS,0.0044,0.0044,1.0,33.71
+NB995999,NO DATA,New Brunswick,NB,NB181001,Andover,Victoria,NB,CONTAINS,0.0019,0.0019,1.0,25.71
+NB995999,NO DATA,New Brunswick,NB,NB180007,Kent,Carleton,NB,CONTAINS,0.0118,0.0118,1.0,31.17
+NB995999,NO DATA,New Brunswick,NB,NB177010,Chipman,Queen's,NB,CONTAINS,0.0071,0.0071,1.0,19.0
+NB995999,NO DATA,New Brunswick,NB,NB179016,Stanley,York,NB,CONTAINS,0.0285,0.0285,1.0,27.06
+NB995999,NO DATA,New Brunswick,NB,NB181002,Perth,Victoria,NB,CONTAINS,0.0128,0.0128,1.0,17.38
+NB995999,NO DATA,New Brunswick,NB,NB184004,Ludlow,Northumberland,NB,CONTAINS,0.0141,0.0141,1.0,19.66
+NB995999,NO DATA,New Brunswick,NB,NB181003,Gordon,Victoria,NB,CONTAINS,0.0128,0.0128,1.0,27.25
+NB995999,NO DATA,New Brunswick,NB,NB184005,Blissfield,Northumberland,NB,CONTAINS,0.0175,0.0175,1.0,17.12
+NB995999,NO DATA,New Brunswick,NB,NB181004,Grand Falls,Victoria,NB,CONTAINS,0.0055,0.0055,1.0,29.05
+NB995999,NO DATA,New Brunswick,NB,NB186001,Dorchester,Westmorland,NB,CONTAINS,0.0042,0.0042,1.0,23.97
+NB995999,NO DATA,New Brunswick,NB,NB186002,Sackville,Westmorland,NB,CONTAINS,0.0088,0.0088,1.0,16.25
+NB995999,NO DATA,New Brunswick,NB,NB186006,Moncton,Westmorland,NB,CONTAINS,0.0107,0.0107,1.0,27.5
+NB995999,NO DATA,New Brunswick,NB,NB186003,Westmorland,Westmorland,NB,CONTAINS,0.0031,0.0031,1.0,23.06
+NB995999,NO DATA,New Brunswick,NB,NB185008,Harcourt,Kent,NB,CONTAINS,0.0172,0.0172,1.0,25.73
+NB995999,NO DATA,New Brunswick,NB,NB186005,Shediac,Westmorland,NB,CONTAINS,0.0065,0.0065,1.0,27.5
+NB995999,NO DATA,New Brunswick,NB,NB185006,Saint Mary’s,Kent,NB,CONTAINS,0.0058,0.0058,1.0,29.16
+NB995999,NO DATA,New Brunswick,NB,NB185007,Dundas,Kent,NB,CONTAINS,0.003,0.003,1.0,39.37
+NB995999,NO DATA,New Brunswick,NB,NB181008,Saint Francis,Victoria,NB,CONTAINS,0.0069,0.0069,1.0,26.71
+NB995999,NO DATA,New Brunswick,NB,NB181007,Madawaska,Victoria,NB,CONTAINS,0.0141,0.0141,1.0,31.96
+NB995999,NO DATA,New Brunswick,NB,NB186004,Botsford,Westmorland,NB,CONTAINS,0.0058,0.0058,1.0,26.17
+NB995999,NO DATA,New Brunswick,NB,NB185004,Weldford,Kent,NB,CONTAINS,0.0088,0.0088,1.0,25.73
+NB995999,NO DATA,New Brunswick,NB,NB185005,Wellington,Kent,NB,CONTAINS,0.0031,0.0031,1.0,23.53
+NB995999,NO DATA,New Brunswick,NB,NB185002,Saint Louis,Kent,NB,CONTAINS,0.0058,0.0058,1.0,22.61
+NB995999,NO DATA,New Brunswick,NB,NB185003,Richibucto,Kent,NB,CONTAINS,0.0041,0.0041,1.0,15.29
+NB995999,NO DATA,New Brunswick,NB,NB184006,Blackville,Northumberland,NB,CONTAINS,0.0118,0.0118,1.0,17.12
+NB995999,NO DATA,New Brunswick,NB,NB185009,Huskisson,Kent,NB,CONTAINS,0.0051,0.0051,1.0,15.81
+NB995999,NO DATA,New Brunswick,NB,NB181005,Saint Leonard’s,Victoria,NB,CONTAINS,0.058,0.058,1.0,24.81
+NB995999,NO DATA,New Brunswick,NB,NB184008,Nelson,Northumberland,NB,CONTAINS,0.0093,0.0093,1.0,30.43
+NB995999,NO DATA,New Brunswick,NB,NB184007,Derby,Northumberland,NB,CONTAINS,0.0007,0.0007,1.0,20.56
+NB995999,NO DATA,New Brunswick,NB,NB184003,Northesk,Northumberland,NB,CONTAINS,0.0816,0.0816,1.0,36.89
+NB995999,NO DATA,New Brunswick,NB,NB185001,Carleton,Kent,NB,CONTAINS,0.0107,0.0107,1.0,25.73
+NB995999,NO DATA,New Brunswick,NB,NB184010,Glenelg,Northumberland,NB,CONTAINS,0.0079,0.0079,1.0,18.89
+NB995999,NO DATA,New Brunswick,NB,NB184009,Chatham,Northumberland,NB,CONTAINS,0.0013,0.0013,1.0,38.89
+NB995999,NO DATA,New Brunswick,NB,NB184002,Newcastle,Northumberland,NB,CONTAINS,0.0091,0.0091,1.0,35.14
+NB995999,NO DATA,New Brunswick,NB,NB181006,St. Basil,Victoria,NB,CONTAINS,0.0122,0.0122,1.0,23.21
+NB995999,NO DATA,New Brunswick,NB,NB182001,Eldon,Restigouche,NB,CONTAINS,0.066,0.066,1.0,21.67
+NB995999,NO DATA,New Brunswick,NB,NB184011,Hardwicke,Northumberland,NB,CONTAINS,0.0036,0.0036,1.0,17.64
+NB995999,NO DATA,New Brunswick,NB,NB182002,Addington,Restigouche,NB,CONTAINS,0.0145,0.0145,1.0,27.5
+NB995999,NO DATA,New Brunswick,NB,NB184001,Alnwick,Northumberland,NB,CONTAINS,0.0111,0.0111,1.0,18.89
+NB995999,NO DATA,New Brunswick,NB,NB183002,Bathurst,Gloucester,NB,CONTAINS,0.0291,0.0291,1.0,23.88
+NB995999,NO DATA,New Brunswick,NB,NB182003,Dalhousie,Restigouche,NB,CONTAINS,0.0179,0.0179,1.0,27.5
+NB995999,NO DATA,New Brunswick,NB,NB182004,Colborne,Restigouche,NB,CONTAINS,0.0107,0.0107,1.0,19.33
+NB995999,NO DATA,New Brunswick,NB,NB182005,Durham,Restigouche,NB,CONTAINS,0.0102,0.0102,1.0,31.54
+NB995999,NO DATA,New Brunswick,NB,NB183005,Saumarez,Gloucester,NB,CONTAINS,0.0073,0.0073,1.0,23.88
+NB995999,NO DATA,New Brunswick,NB,NB183001,Beresford,Gloucester,NB,CONTAINS,0.0049,0.0049,1.0,22.72
+NB995999,NO DATA,New Brunswick,NB,NB183004,Inkerman,Gloucester,NB,CONTAINS,0.0077,0.0077,1.0,23.88
+NB995999,NO DATA,New Brunswick,NB,NB183003,New-Bandon,Gloucester,NB,CONTAINS,0.0064,0.0064,1.0,21.69
+NB995999,NO DATA,New Brunswick,NB,NB183006,Caraquette,Gloucester,NB,CONTAINS,0.0042,0.0042,1.0,21.69
+NB995999,NO DATA,New Brunswick,NB,NB183007,Shippegan,Gloucester,NB,CONTAINS,0.0031,0.0031,1.0,13.97
+NT999999,NO DATA,The Territories,NT,MB999999,NO DATA,Manitoba,MB,CONTAINS,0.0162,0.0162,1.0,77.83
+NT999999,NO DATA,The Territories,NT,BC999999,NO DATA,British Colombia,BC,CONTAINS,0.1103,0.1103,1.0,79.68
+NT999999,NO DATA,The Territories,NT,NT999999,NO DATA,The Territories,NT,CONTAINS,0.8736,0.8736,1.0,100.0
+QC002003,De Salaberry,Argenteuil,QC,QC096002,"Harrington, Arundel, De Salaberry, Grandison",Argenteuil,QC,WITHIN,0.1971,1.0,0.1971,60.0
+QC002002,Chatham,Argenteuil,QC,QC096003,Chatham,Argenteuil,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC002005,Gore,Argenteuil,QC,QC096007,Gore,Argenteuil,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC002004,Grenville,Argenteuil,QC,QC096001,Grenville,Argenteuil,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC002010,St. Andrews,Argenteuil,QC,QC096005,St. Andrews,Argenteuil,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC002009,St. Jérusalem,Argenteuil,QC,QC096006,St. Jérusalem,Argenteuil,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC004001,Acton,Bagot,QC,QC122010,St. André,Bagot,QC,CONTAINS,0.5129,0.5129,1.0,50.0
+QC004001,Acton,Bagot,QC,QC122011,Actonvale,Bagot,QC,CONTAINS,0.0206,0.0206,1.0,80.0
+QC004001,Acton,Bagot,QC,QC122009,St. Théodore,Bagot,QC,CONTAINS,0.3657,0.3657,1.0,46.47
+QC004002,St. Dominique,Bagot,QC,QC122002,St. Dominique,Bagot,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC004003,Ste. Hélène,Bagot,QC,QC122006,Ste. Hélène,Bagot,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC004005,St. Liboire,Bagot,QC,QC122007,St. Liboire,Bagot,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC004007,Ste. Rosalie,Bagot,QC,QC122003,Ste. Rosalie,Bagot,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC004008,St. Simon,Bagot,QC,QC122004,St. Simon,Bagot,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC005012,St. Elzéar,Beauce,QC,QC158001,St. Elzéar,Beauce Est,QC,SAME_AS,1.0,1.0,1.0,92.5
+QC005003,Dorset,Beauce,QC,QC157005,St. Evariste,Beauce Ouest,QC,WITHIN,0.4335,0.9621,0.441,43.33
+QC005014,St. François,Beauce,QC,QC158005,St. François,Beauce Est,QC,SAME_AS,1.0,1.0,1.0,92.5
+QC005013,St. Frédéric,Beauce,QC,QC158003,St. Frédéric,Beauce Est,QC,WITHIN,0.56,1.0,0.56,92.5
+QC005015,St. Georges,Beauce,QC,QC158006,St. George,Beauce Est,QC,SAME_AS,1.0,1.0,1.0,89.17
+QC005011,Shenley,Beauce,QC,QC157004,Shenley,Beauce Ouest,QC,CONTAINS,0.9302,0.9302,1.0,90.0
+QC005016,St. Joseph,Beauce,QC,QC158004,St. Joseph,Beauce Est,QC,SAME_AS,1.0,1.0,1.0,92.5
+QC032001,Broughton,Mégantic,QC,QC157001,Broughton,Beauce Ouest,QC,CONTAINS,0.8106,0.8106,1.0,76.0
+QC005005,Gayhurst,Beauce,QC,QC157007,St. Sébastien,Beauce Ouest,QC,WITHIN,0.6648,1.0,0.6648,40.0
+QC005018,Tring,Beauce,QC,QC157002,St. Victor,Beauce Ouest,QC,CONTAINS,0.5248,0.5248,1.0,38.67
+QC005007,Lambton,Beauce,QC,QC157006,Lambton,Beauce Ouest,QC,WITHIN,0.4498,1.0,0.4498,90.0
+QC006002,Ste. Cécile,Beauharnois,QC,QC111006,Ste. Cécile,Beauharnois,QC,CONTAINS,0.796,0.796,1.0,100.0
+QC006003,St. Clément,Beauharnois,QC,QC111003,St. Etienne,Beauharnois,QC,CONTAINS,0.3548,0.3548,1.0,68.18
+QC006003,St. Clément,Beauharnois,QC,QC111001,St. Clément,Beauharnois,QC,CONTAINS,0.6452,0.6452,1.0,100.0
+QC006005,St. Stanislas de Kotska,Beauharnois,QC,QC111007,St. Stanislas,Beauharnois,QC,WITHIN,0.7343,1.0,0.7343,80.56
+QC006006,St. Timothée,Beauharnois,QC,QC111004,St. Timothée,Beauharnois,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC007003,Buckland,Bellechasse,QC,QC162002,"Buckland, E",Bellechasse Sud,QC,SAME_AS,1.0,1.0,1.0,84.33
+QC007001,Armagh,Bellechasse,QC,QC162003,Armagh,Bellechasse Sud,QC,SAME_AS,1.0,1.0,1.0,95.38
+QC007004,St. Charles,Bellechasse,QC,QC161002,St. Charles,Bellechasse Nord,QC,SAME_AS,1.0,1.0,1.0,94.44
+QC007002,Beaumont,Bellechasse,QC,QC161001,Beaumont,Bellechasse Nord,QC,SAME_AS,1.0,1.0,1.0,94.44
+QC007005,St. Gervais,Bellechasse,QC,QC161003,St. Gervais,Bellechasse Nord,QC,CONTAINS,0.8221,0.8221,1.0,94.44
+QC007006,St. Lazare,Bellechasse,QC,QC162001,St. Lazare,Bellechasse Sud,QC,WITHIN,0.9054,1.0,0.9054,95.38
+QC007007,St. Michel,Bellechasse,QC,QC161004,St. Michel,Bellechasse Nord,QC,SAME_AS,1.0,1.0,1.0,94.44
+QC007008,St. Raphaël,Bellechasse,QC,QC161005,St. Raphaël,Bellechasse Nord,QC,SAME_AS,1.0,1.0,1.0,94.44
+QC007009,St. Valier,Bellechasse,QC,QC161006,St. Valier,Bellechasse Nord,QC,SAME_AS,1.0,1.0,1.0,94.44
+QC008005,Lanoraie,Berthier,QC,QC103002,Lanoraie,Berthier,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC008006,Lavaltrie,Berthier,QC,QC103001,Lavaltrie,Berthier,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC008007,St. Barthélemi,Berthier,QC,QC103006,St. Barthélemy,Berthier,QC,SAME_AS,1.0,1.0,1.0,95.0
+QC008008,St. Cuthbert,Berthier,QC,QC103007,St. Cuthbert,Berthier,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC008010,St. Norbert,Berthier,QC,QC103008,St. Norbert,Berthier,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC009001,Carleton,Bonaventure,QC,QC169012,Tracadièche,Bonaventure,QC,CONTAINS,0.0155,0.0155,1.0,52.11
+QC009001,Carleton,Bonaventure,QC,QC169007,Carleton,Bonaventure,QC,SAME_AS,0.9845,0.9845,1.0,100.0
+QC009004,Hamilton,Bonaventure,QC,QC169004,Hamilton,Bonaventure,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC009005,Hope,Bonaventure,QC,QC169002,Hope,Bonaventure,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC009007,Maria,Bonaventure,QC,QC169006,Maria,Bonaventure,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC009008,Matapedia,Bonaventure,QC,QC169011,Matapédia,Bonaventure,QC,SAME_AS,1.0,1.0,1.0,92.22
+QC009002,Cox,Bonaventure,QC,QC169003,Cox,Bonaventure,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC009009,New Richmond,Bonaventure,QC,QC169005,New Richmond,Bonaventure,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC009010,Nouvelle and Shoolbreds,Bonaventure,QC,QC169008,"Nouvelle, Shoolbred",Bonaventure,QC,SAME_AS,1.0,1.0,1.0,90.0
+QC009011,Ristigouche,Bonaventure,QC,QC169010,Restigouche,Bonaventure,QC,SAME_AS,1.0,1.0,1.0,93.64
+QC009999,NO DATA,Bonaventure,QC,QC169999,NO DATA,Bonaventure,QC,SAME_AS,0.9995,0.9995,1.0,100.0
+QC009999,NO DATA,Bonaventure,QC,QC169013,Cascapédia,Bonaventure,QC,CONTAINS,0.0005,0.0005,1.0,46.47
+QC010001,Bolton,Brome,QC,QC126005,Bolton,Brome,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC010002,Brome,Brome,QC,QC126002,Brome,Brome,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC010003,Farnham,Brome,QC,QC126001,Farnham,Brome,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC010004,Potton,Brome,QC,QC126004,Potton,Brome,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC010005,Sutton,Brome,QC,QC126003,Sutton,Brome,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC011001,"Boucherville, Parish",Chambly,QC,QC118009,Boucherville,Chambly,QC,SAME_AS,1.0,1.0,1.0,82.5
+QC011005,"Longueuil, Parish",Chambly,QC,QC118002,Longueuil,Chambly,QC,WITHIN,0.912,1.0,0.912,78.46
+QC011007,St. Bruno,Chambly,QC,QC118008,St. Bruno,Chambly,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC011008,St. Hubert,Chambly,QC,QC118004,St. Hubert,Chambly,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC058001,Belœil,Vercheres,QC,QC119004,Belœil,Vercheres,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC058002,Contrecœur,Vercheres,QC,QC119007,Contrecœur,Vercheres,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC058003,St. Antoine,Vercheres,QC,QC119008,St. Antoine,Vercheres,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC058004,Ste. Julie,Vercheres,QC,QC119003,Ste. Julie,Vercheres,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC058005,St. Marc,Vercheres,QC,QC119005,St. Marc,Vercheres,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC058007,Verchères,Vercheres,QC,QC119006,Verchères,Vercheres,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC011006,"Longueuil, Village",Chambly,QC,QC118003,"Longueuil, Village",Chambly,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC011009,St. Lambert,Chambly,QC,QC118001,St. Lambert,Chambly,QC,CONTAINS,0.6086,0.6086,1.0,100.0
+QC011002,"Boucherville, Village",Chambly,QC,QC118010,"Boucherville, Village",Chambly,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC012002,Cap de la Magdeleine,Champlain,QC,QC132001,Cap de la Magdeleine,Champlain Sud,QC,SAME_AS,1.0,1.0,1.0,94.55
+QC012003,Champlain,Champlain,QC,QC132003,La Visitation,Champlain Sud,QC,CONTAINS,0.5987,0.5987,1.0,50.0
+QC012004,Mont Carmel,Champlain,QC,QC133001,Mont Carmel,Champlain Nord,QC,SAME_AS,1.0,1.0,1.0,93.48
+QC012008,St. Maurice,Champlain,QC,QC132002,St. Maurice,Champlain Sud,QC,SAME_AS,1.0,1.0,1.0,94.55
+QC012009,St. Narcisse,Champlain,QC,QC133002,St. Narcisse,Champlain Nord,QC,CONTAINS,0.8352,0.8666,0.9584,93.48
+QC012010,St. Prosper,Champlain,QC,QC132008,St. Prosper,Champlain Sud,QC,SAME_AS,1.0,1.0,1.0,94.55
+QC013001,Baie St. Paul,Charlevoix,QC,QC149003,Baie St. Paul,Charlevoix,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC013005,Isle-aux-Coudres,Charlevoix,QC,QC149002,Isle aux Coudres,Charlevoix,QC,SAME_AS,1.0,1.0,1.0,91.25
+QC013004,Eboulements,Charlevoix,QC,QC149005,Les Eboulements,Charlevoix,QC,SAME_AS,1.0,1.0,1.0,89.23
+QC013003,De Sales,Charlevoix,QC,QC149008,Ste. Agnès,Charlevoix,QC,WITHIN,0.5309,1.0,0.5309,61.11
+QC013010,St. Fidèle,Charlevoix,QC,QC149010,St. Fidèle,Charlevoix,QC,CONTAINS,0.746,0.746,1.0,100.0
+QC013008,Settrington,Charlevoix,QC,QC149006,Settrington,Charlevoix,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC013011,St. Irénée,Charlevoix,QC,QC149007,St. Irénée,Charlevoix,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC013012,St. Urbain,Charlevoix,QC,QC149004,St. Urbain,Charlevoix,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC014001,St. Antoine,Chateauguay,QC,QC112006,St. Antoine,Chateauguay,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC014002,St. Jean Chrysostôme,Chateauguay,QC,QC112005,St. Jean Chrysostôme,Chateauguay,QC,SAME_AS,0.9868,0.9868,1.0,100.0
+QC014004,St. Malachie,Chateauguay,QC,QC112007,St. Malachie,Chateauguay,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC014005,Ste. Martine,Chateauguay,QC,QC112003,Ste. Martine,Chateauguay,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC014006,Ste. Philomène,Chateauguay,QC,QC112002,Ste. Philomène,Chateauguay,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC014007,St. Urbain Premier,Chateauguay,QC,QC112004,St. Urbain,Chateauguay,QC,SAME_AS,1.0,1.0,1.0,80.0
+QC015005,Chicoutimi,Chicoutimi,QC,QC150005,"Chicoutimi, Village",Chicoutimi,QC,CONTAINS,0.0368,0.0368,1.0,78.28
+QC015003,Caron,Chicoutimi,QC,QC150008,Hébertville,Chicoutimi,QC,WITHIN,0.2011,1.0,0.2011,38.75
+QC015011,Laterrière,Chicoutimi,QC,QC150006,Laterrière,Chicoutimi,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC015021,The Indian Reserves,Chicoutimi,QC,QC150009,Roberval,Chicoutimi,QC,WITHIN,0.228,1.0,0.228,50.74
+QC015008,Jonquière,Chicoutimi,QC,QC150007,Jonquière,Chicoutimi,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC047003,"Escoumins, Iberville and Mille Vaches",Saguenay,QC,QC151002,Escoumains,Saguenay,QC,WITHIN,0.4734,1.0,0.4734,56.81
+QC016009,Newport and Auckland,Compton,QC,QC142004,Auckland,Compton,QC,CONTAINS,0.1881,0.1881,1.0,70.0
+QC016009,Newport and Auckland,Compton,QC,QC142006,"Newport, Ditton, Chesham, Clinton, Emberton",Compton,QC,CONTAINS,0.8119,0.8119,1.0,61.11
+QC016001,Bury,Compton,QC,QC142008,Bury,Compton,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC016002,Clifton,Compton,QC,QC142003,Clifton,Compton,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC016003,Compton,Compton,QC,QC142002,Compton,Compton,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC016004,Eaton,Compton,QC,QC142005,Eaton,Compton,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC016008,Marston,Compton,QC,QC142010,"Hampden, Marston, Whitton",Compton,QC,WITHIN,0.3971,1.0,0.3971,60.62
+QC016006,Hereford,Compton,QC,QC142001,Hereford,Compton,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC016007,Lingwick,Compton,QC,QC142009,Lingwick,Compton,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC016010,Westbury,Compton,QC,QC142007,Westbury,Compton,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC016011,Winslow,Compton,QC,QC142011,"Winslow, S",Compton,QC,CONTAINS,0.6323,0.6323,1.0,87.65
+QC016011,Winslow,Compton,QC,QC142012,"Winslow, N",Compton,QC,CONTAINS,0.3677,0.3677,1.0,87.65
+QC056002,St. Augustin,Two Mountains,QC,QC097006,St. Augustin,Deux-Montagnes,QC,SAME_AS,1.0,1.0,1.0,85.56
+QC056003,St. Benoit,Two Mountains,QC,QC097007,St. Benoit,Deux-Montagnes,QC,SAME_AS,1.0,1.0,1.0,85.56
+QC056004,St. Canut,Two Mountains,QC,QC097011,St. Canut,Deux-Montagnes,QC,SAME_AS,1.0,1.0,1.0,85.56
+QC056005,St. Columban,Two Mountains,QC,QC097012,St. Columban,Deux-Montagnes,QC,SAME_AS,1.0,1.0,1.0,85.56
+QC056008,St. Hermas,Two Mountains,QC,QC097008,St. Hermas,Deux-Montagnes,QC,SAME_AS,1.0,1.0,1.0,85.56
+QC056011,St. Placide,Two Mountains,QC,QC097001,St. Placide,Deux-Montagnes,QC,SAME_AS,1.0,1.0,1.0,85.56
+QC017004,St. Anselme,Dorchester,QC,QC160001,St. Anselme,Dorchester Est,QC,SAME_AS,1.0,1.0,1.0,95.0
+QC017005,St. Bernard,Dorchester,QC,QC159001,St. Bernard,Dorchester Ouest,QC,SAME_AS,1.0,1.0,1.0,93.08
+QC017006,Ste. Claire,Dorchester,QC,QC160002,Ste. Claire,Dorchester Est,QC,CONTAINS,0.8621,0.8621,1.0,95.0
+QC017003,Frampton,Dorchester,QC,QC159005,St. Edouard,Dorchester Ouest,QC,CONTAINS,0.6754,0.6754,1.0,37.81
+QC017007,Ste. Hénédine,Dorchester,QC,QC159003,Ste. Hénédine,Dorchester Ouest,QC,SAME_AS,1.0,1.0,1.0,93.08
+QC017008,St. Isidore,Dorchester,QC,QC159002,St. Isidore,Dorchester Ouest,QC,SAME_AS,1.0,1.0,1.0,93.08
+QC017999,NO DATA,Dorchester,QC,QC159007,"Watford, Metgermette",Dorchester Ouest,QC,CONTAINS,0.6557,0.6672,0.9745,38.63
+QC017010,Standon,Dorchester,QC,QC160004,Standon,Dorchester Est,QC,CONTAINS,0.8923,0.8923,1.0,95.0
+QC017009,Ste. Marguerite,Dorchester,QC,QC159004,Ste. Marguerite,Dorchester Ouest,QC,SAME_AS,1.0,1.0,1.0,93.08
+QC017002,Cranbourne,Dorchester,QC,QC159006,Cranbourne,Dorchester Ouest,QC,CONTAINS,0.6571,0.6571,1.0,93.08
+QC003006,"Chester, East",Arthabaska,QC,QC137015,"Chester, E",Arthabaska,QC,CONTAINS,0.6891,0.6891,1.0,90.87
+QC003006,"Chester, East",Arthabaska,QC,QC137014,"Chester, N",Arthabaska,QC,CONTAINS,0.3109,0.3109,1.0,84.78
+QC003007,"Chester, West",Arthabaska,QC,QC137016,"Chester, W-O",Arthabaska,QC,CONTAINS,0.7239,0.7239,1.0,86.0
+QC018001,Durham,Drummond,QC,QC136009,Durham,Drummond,QC,CONTAINS,0.2016,0.2016,1.0,100.0
+QC018002,Grantham,Drummond,QC,QC136004,Grantham,Drummond,QC,CONTAINS,0.3783,0.3783,1.0,100.0
+QC018002,Grantham,Drummond,QC,QC136003,St. Germain,Drummond,QC,CONTAINS,0.6217,0.6217,1.0,59.47
+QC003008,Horton,Arthabaska,QC,QC137001,Ste. Clothilde,Arthabaska,QC,WITHIN,0.5784,1.0,0.5784,44.0
+QC003004,Blandford,Arthabaska,QC,QC137003,St. Louis,Arthabaska,QC,WITHIN,0.6189,1.0,0.6189,45.56
+QC003005,Bulstrode,Arthabaska,QC,QC137002,Bulstrode,Arthabaska,QC,CONTAINS,0.7359,0.7359,1.0,100.0
+QC003010,Stanfold,Arthabaska,QC,QC137009,Princeville,Arthabaska,QC,CONTAINS,0.0094,0.0094,1.0,44.74
+QC003010,Stanfold,Arthabaska,QC,QC137008,Stanfold,Arthabaska,QC,CONTAINS,0.8886,0.8886,1.0,100.0
+QC003011,Tingwick,Arthabaska,QC,QC137018,Tingwick,Arthabaska,QC,CONTAINS,0.4116,0.4116,1.0,100.0
+QC003011,Tingwick,Arthabaska,QC,QC137017,Chénier,Arthabaska,QC,CONTAINS,0.4727,0.4727,1.0,48.67
+QC018007,Wickham,Drummond,QC,QC136007,Wickham,Drummond,QC,CONTAINS,0.4025,0.4025,1.0,100.0
+QC018007,Wickham,Drummond,QC,QC136006,"Wickham, W-O",Drummond,QC,CONTAINS,0.5359,0.5359,1.0,81.58
+QC003002,Arthabaskaville,Arthabaska,QC,QC137006,Arthabaskaville,Arthabaska,QC,WITHIN,0.5331,1.0,0.5331,100.0
+QC003012,Warwick,Arthabaska,QC,QC137012,"Warwick, Village",Arthabaska,QC,CONTAINS,0.0407,0.0407,0.9973,72.61
+QC003012,Warwick,Arthabaska,QC,QC137010,"Kingsey Falls, E",Arthabaska,QC,CONTAINS,0.1974,0.1974,1.0,36.09
+QC003012,Warwick,Arthabaska,QC,QC137004,St. Albert,Arthabaska,QC,CONTAINS,0.3746,0.3746,1.0,46.47
+QC019001,Cap Chat,Gaspé,QC,QC170001,Cap Chat,Gaspé Ouest,QC,SAME_AS,1.0,1.0,1.0,88.75
+QC019002,Cap Rosier,Gaspé,QC,QC171004,Cap des Rosiers,Gaspé Centre,QC,CONTAINS,0.8323,0.8323,1.0,73.65
+QC019002,Cap Rosier,Gaspé,QC,QC171003,L’Anse au Griffon,Gaspé Centre,QC,CONTAINS,0.1677,0.1677,1.0,38.39
+QC019003,Douglas,Gaspé,QC,QC171008,Douglas,Gaspé Centre,QC,SAME_AS,1.0,1.0,1.0,87.65
+QC019017,Magdalen Islands,Gaspé,QC,QC173001,Groupe Sud,Isles de la Magdeleine,QC,CONTAINS,0.3535,0.3535,1.0,29.15
+QC019017,Magdalen Islands,Gaspé,QC,QC173002,Grindstone Island,Isles de la Magdeleine,QC,CONTAINS,0.2573,0.2573,1.0,44.65
+QC019017,Magdalen Islands,Gaspé,QC,QC173003,Allright Island,Isles de la Magdeleine,QC,CONTAINS,0.1153,0.1153,1.0,42.87
+QC019017,Magdalen Islands,Gaspé,QC,QC173004,Groupe Nord,Isles de la Magdeleine,QC,CONTAINS,0.2739,0.2739,1.0,28.15
+QC019004,Fox,Gaspé,QC,QC171002,Sydenham (N.) Fox,Gaspé Centre,QC,WITHIN,0.5179,1.0,0.5179,38.65
+QC019015,"Sydenham, South",Gaspé,QC,QC171005,"Gaspé, N, Sydenham, S",Gaspé Centre,QC,WITHIN,0.5036,1.0,0.5036,60.42
+QC019009,Malbaie,Gaspé,QC,QC172001,Malbaie,Gaspé Sud,QC,SAME_AS,1.0,1.0,1.0,91.43
+QC019012,Pabos,Gaspé,QC,QC172005,Pabos,Gaspé Sud,QC,WITHIN,0.5223,1.0,0.5223,91.43
+QC019013,Percé,Gaspé,QC,QC172003,L’Anse du Cap,Gaspé Sud,QC,CONTAINS,0.5523,0.5523,1.0,36.98
+QC019013,Percé,Gaspé,QC,QC172002,Percé,Gaspé Sud,QC,CONTAINS,0.4477,0.4477,1.0,91.43
+QC019016,York,Gaspé,QC,QC171007,York,Gaspé Centre,QC,SAME_AS,1.0,1.0,1.0,87.65
+QC019999,NO DATA,Gaspé,QC,QC172999,NO DATA,Gaspé Sud,QC,CONTAINS,0.223,0.223,1.0,91.43
+QC019999,NO DATA,Gaspé,QC,QC170999,NO DATA,Gaspé Ouest,QC,CONTAINS,0.554,0.554,1.0,88.75
+QC019999,NO DATA,Gaspé,QC,QC171999,NO DATA,Gaspé Centre,QC,CONTAINS,0.223,0.223,1.0,87.65
+QC020002,"Montréal, Parish",Hochelaga,QC,QC107001,"Montréal, Paroisse",Hochelaga,QC,CONTAINS,0.6039,0.6039,1.0,91.76
+QC020002,"Montréal, Parish",Hochelaga,QC,QC107002,Côte des Neiges,Hochelaga,QC,CONTAINS,0.1459,0.1459,1.0,48.06
+QC020002,"Montréal, Parish",Hochelaga,QC,QC107005,Hochelaga,Hochelaga,QC,CONTAINS,0.1268,0.1268,1.0,46.8
+QC020002,"Montréal, Parish",Hochelaga,QC,QC107010,Côte de la Visitation,Hochelaga,QC,CONTAINS,0.1234,0.1234,1.0,48.92
+QC021001,Elgin,Huntingdon,QC,QC113005,Elgin,Huntingdon Est,QC,SAME_AS,1.0,1.0,1.0,95.0
+QC021002,Franklin,Huntingdon,QC,QC113003,Franklin,Huntingdon Est,QC,SAME_AS,1.0,1.0,1.0,95.0
+QC021005,"Huntingdon, Village, and Godmanchester",Huntingdon,QC,QC114002,"Huntingdon, Village",Huntingdon Ouest,QC,CONTAINS,0.0181,0.0181,1.0,69.74
+QC021003,Hemmingford,Huntingdon,QC,QC113002,Havelock,Huntingdon Est,QC,CONTAINS,0.3597,0.3597,1.0,47.11
+QC021003,Hemmingford,Huntingdon,QC,QC113001,Hemmingford,Huntingdon Est,QC,CONTAINS,0.6403,0.6403,1.0,95.0
+QC021004,Hinchinbrooke,Huntingdon,QC,QC113004,Hinchinbrooke,Huntingdon Est,QC,SAME_AS,1.0,1.0,1.0,95.0
+QC021006,St. Anicet,Huntingdon,QC,QC114003,St. Anicet,Huntingdon Ouest,QC,SAME_AS,1.0,1.0,1.0,93.08
+QC024004,Ste. Anne,Jacques Cartier,QC,QC108006,Ste. Anne,Jacques Cartier,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC024005,"Ste. Geneviève, Parish",Jacques Cartier,QC,QC108007,Ste. Geneviève,Jacques Cartier,QC,SAME_AS,1.0,1.0,1.0,84.44
+QC024003,La Pointe Claire,Jacques Cartier,QC,QC108005,"Pointe Claire, Village",Jacques Cartier,QC,CONTAINS,0.0276,0.0276,1.0,77.89
+QC024007,St. Laurent,Jacques Cartier,QC,QC108003,St. Laurent,Jacques Cartier,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC024006,"Ste. Geneviève, Village",Jacques Cartier,QC,QC108008,"Ste. Geneviève, Village",Jacques Cartier,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC025006,St. Ambroise,Joliette,QC,QC102004,St. Ambroise,Joliette,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC025007,St. Charles Borromée,Joliette,QC,QC102003,"Joliette, Town—Ville",Joliette,QC,CONTAINS,0.0876,0.0878,0.9683,47.5
+QC025007,St. Charles Borromée,Joliette,QC,QC102002,St. Charles Borromée,Joliette,QC,CONTAINS,0.8679,0.8679,1.0,100.0
+QC025008,Ste. Elizabeth,Joliette,QC,QC102008,Ste. Elizabeth,Joliette,QC,SAME_AS,0.9998,1.0,0.9998,100.0
+QC025999,NO DATA,Joliette,QC,QC102999,NO DATA,Joliette,QC,CONTAINS,0.4594,0.4594,1.0,100.0
+QC025010,St. Félix,Joliette,QC,QC102009,St. Félix de Valois,Joliette,QC,WITHIN,0.7776,1.0,0.7776,75.0
+QC025012,Ste. Mélanie,Joliette,QC,QC102010,Ste. Mélanie,Joliette,QC,CONTAINS,0.6613,0.6613,1.0,100.0
+QC025013,St. Paul,Joliette,QC,QC102001,St. Paul,Joliette,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC025014,St. Thomas,Joliette,QC,QC102007,St. Thomas,Joliette,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC026003,Mont Carmel,Kamouraska,QC,QC165007,Mont Carmel,Kamouraska,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC026004,Rivière Ouelle,Kamouraska,QC,QC165003,Rivière Ouelle,Kamouraska,QC,CONTAINS,0.9117,0.9117,1.0,100.0
+QC026007,Ste. Anne,Kamouraska,QC,QC165001,Ste. Anne,Kamouraska,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC026011,St. Pacôme,Kamouraska,QC,QC165004,St. Pacôme,Kamouraska,QC,CONTAINS,0.9401,0.9401,1.0,100.0
+QC039034,"Suffolk, Wells and Villeneuve",Outaouais,QC,QC094007,Villeneuve,Ottaoua Centre,QC,CONTAINS,0.3829,0.3829,1.0,51.55
+QC039012,Buckingham,Outaouais,QC,QC094003,L'Ange Gardien,Ottaoua Centre,QC,CONTAINS,0.2538,0.2538,1.0,33.15
+QC039012,Buckingham,Outaouais,QC,QC094001,Buckingham,Ottaoua Centre,QC,CONTAINS,0.7462,0.7462,1.0,85.65
+QC039999,NO DATA,Outaouais,QC,QC095010,"Rouge, N",Ottaoua Est,QC,CONTAINS,0.0426,0.0426,1.0,39.67
+QC039999,NO DATA,Outaouais,QC,QC093019,Baskatong,Ottawa Ouest,QC,CONTAINS,0.0089,0.0089,1.0,34.64
+QC039999,NO DATA,Outaouais,QC,QC094999,NO DATA,Ottaoua Centre,QC,CONTAINS,0.5831,0.5831,1.0,85.65
+QC039019,Hartwell,Outaouais,QC,QC095008,"Hartwell, Suffolk",Ottaoua Est,QC,WITHIN,0.5134,1.0,0.5134,65.8
+QC039030,Petite Nation,Outaouais,QC,QC095006,"St. André Avelin, Petite Nation",Ottaoua Est,QC,CONTAINS,0.4017,0.4017,1.0,62.36
+QC039030,Petite Nation,Outaouais,QC,QC095005,Notre Dame de Bonsecours,Ottaoua Est,QC,CONTAINS,0.5983,0.5983,1.0,43.7
+QC039031,Portland,Outaouais,QC,QC094004,Portland,Ottaoua Centre,QC,SAME_AS,1.0,1.0,1.0,85.65
+QC039033,Ripon,Outaouais,QC,QC095007,Ripon,Ottaoua Est,QC,SAME_AS,1.0,1.0,1.0,91.0
+QC039035,Ste. Angélique,Outaouais,QC,QC095004,Ste. Angélique,Ottaoua Est,QC,SAME_AS,1.0,1.0,1.0,91.0
+QC039011,"Buckingham, Village",Outaouais,QC,QC094002,"Buckingham, Village",Ottaoua Centre,QC,SAME_AS,1.0,1.0,1.0,85.65
+QC027007,Sault St. Louis,Laprairie,QC,QC115007,Sault St. Louis,Laprairie,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC027003,St. Constant,Laprairie,QC,QC115005,St. Constant,Laprairie,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC027004,St. Isidore,Laprairie,QC,QC115006,St. Isidore,Laprairie,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC027006,St. Philippe,Laprairie,QC,QC115003,St. Philippe,Laprairie,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC027001,"Laprairie, Village",Laprairie,QC,QC115002,"Laprairie, Village",Laprairie,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC037002,St. Edouard,Napierville,QC,QC116004,St. Edouard,Napierville,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC037003,St. Michel,Napierville,QC,QC116003,St. Michel,Napierville,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC037004,St. Rémi,Napierville,QC,QC116001,St. Rémi,Napierville,QC,SAME_AS,0.9883,0.9883,1.0,100.0
+QC037004,St. Rémi,Napierville,QC,QC116002,"St. Rémi, Village",Napierville,QC,CONTAINS,0.0117,0.0117,1.0,74.8
+QC001002,"L’Assomption, Parish",L'Assomption,QC,QC100008,L’Assomption,L'Assomption,QC,SAME_AS,1.0,1.0,1.0,82.5
+QC001004,L’Epiphanie,L'Assomption,QC,QC100010,L’Epiphanie,L'Assomption,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC001006,Repentigny,L'Assomption,QC,QC100006,Repentigny,L'Assomption,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC001008,St. Lin,L'Assomption,QC,QC100003,St. Lin,L'Assomption,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC001009,St. Roch,L'Assomption,QC,QC100004,St. Roch,L'Assomption,QC,CONTAINS,0.9152,0.9152,1.0,100.0
+QC001011,St. Sulpice,L'Assomption,QC,QC100007,St. Sulpice,L'Assomption,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC001001,"L’Assomption, Village",L'Assomption,QC,QC100009,"L’Assomption, Village",L'Assomption,QC,WITHIN,0.9442,1.0,0.9442,100.0
+QC020005,Pointe aux Trembles,Hochelaga,QC,QC107007,Pointe aux Trembles,Hochelaga,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC020006,Rivière des Prairies,Hochelaga,QC,QC107008,Rivière des Prairies,Hochelaga,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC028001,St. François de Sales,Laval,QC,QC098006,St. François,Laval,QC,SAME_AS,1.0,1.0,1.0,80.91
+QC028003,"Ste. Rose, Parish and Village",Laval,QC,QC098003,"Ste. Rose, Village",Laval,QC,CONTAINS,0.0321,0.0321,1.0,83.62
+QC028004,St. Vincent de Paul,Laval,QC,QC098005,St. Vincent,Laval,QC,SAME_AS,0.9981,1.0,0.9981,81.33
+QC020001,Longue Pointe,Hochelaga,QC,QC107006,Longue Pointe,Hochelaga,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC020007,Sault au Récollet,Hochelaga,QC,QC107009,Sault-au-Récollet,Hochelaga,QC,SAME_AS,1.0,1.0,1.0,91.76
+QC029004,St. Henri,Lévis,QC,QC154001,St. Henri,Lévis (Comté),QC,SAME_AS,1.0,1.0,1.0,86.67
+QC029005,St. Jean Chrysostôme,Lévis,QC,QC154002,St. Jean Chrysostôme,Lévis (Comté),QC,SAME_AS,1.0,1.0,1.0,86.67
+QC029002,St. Joseph de la Pointe Lévis and Convent,Lévis,QC,QC153005,Lauzon,Lévis (Ville),QC,CONTAINS,0.0425,0.0425,1.0,28.58
+QC029006,St. Lambert,Lévis,QC,QC154006,St. Lambert,Lévis (Comté),QC,SAME_AS,1.0,1.0,1.0,86.67
+QC029007,St. Nicholas,Lévis,QC,QC154004,St. Nicholas,Lévis (Comté),QC,SAME_AS,1.0,1.0,1.0,86.67
+QC023003,St. Aubert and Fournier,L'Islet,QC,QC164003,"St. Aubert, Fournier",L'Islet,QC,SAME_AS,1.0,1.0,1.0,91.86
+QC023999,NO DATA,L'Islet,QC,QC164007,"Casgrain, Dionne, Lafontaine, Garneau",L'Islet,QC,CONTAINS,0.6319,0.6319,1.0,49.09
+QC023006,St. Roch,L'Islet,QC,QC164004,St. Roch,L'Islet,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC030002,Ste. Agathe,Lotbiniere,QC,QC155010,Ste. Agathe,Lotbiniere,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC030003,St. Antoine,Lotbiniere,QC,QC155007,St. Antoine,Lotbiniere,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC030004,St. Apollinaire,Lotbiniere,QC,QC155008,Ste. Apollinaire,Lotbiniere,QC,CONTAINS,0.8127,0.8322,0.9719,97.74
+QC030007,St. Gilles,Lotbiniere,QC,QC155011,St. Gilles,Lotbiniere,QC,CONTAINS,0.8229,0.8229,1.0,100.0
+QC030001,Lotbinière,Lotbiniere,QC,QC155004,St. Edouard,Lotbiniere,QC,CONTAINS,0.3858,0.3858,1.0,43.33
+QC030001,Lotbinière,Lotbiniere,QC,QC155002,Ste. Emélie,Lotbiniere,QC,CONTAINS,0.4422,0.4426,0.9979,50.0
+QC030001,Lotbinière,Lotbiniere,QC,QC155003,Lotbinière,Lotbiniere,QC,CONTAINS,0.1716,0.1716,1.0,100.0
+QC030009,St. Sylvestre,Lotbiniere,QC,QC155012,St. Sylvestre,Lotbiniere,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC031001,Hunterstown,Maskinonge,QC,QC128008,Hunterstown,Maskinonge,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC031003,Rivière du Loup,Maskinonge,QC,QC128002,Rivière du Loup,Maskinonge,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC031999,NO DATA,Maskinonge,QC,QC128999,NO DATA,Maskinonge,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC031004,St. Didace,Maskinonge,QC,QC128006,St. Didace,Maskinonge,QC,CONTAINS,0.8224,0.8224,1.0,100.0
+QC031002,Maskinongé,Maskinonge,QC,QC128001,Maskinongé,Maskinonge,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC031005,St. Justin,Maskinonge,QC,QC128003,St. Justin,Maskinonge,QC,WITHIN,0.556,1.0,0.556,100.0
+QC031006,St. Léon,Maskinonge,QC,QC128005,St. Léon,Maskinonge,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC031007,St. Paulin,Maskinonge,QC,QC128007,St. Paulin,Maskinonge,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC031008,Ste. Ursule,Maskinonge,QC,QC128004,Ste. Ursule,Maskinonge,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC032002,"Halifax, North",Megantic,QC,QC156001,"Halifax, N",Megantic,QC,SAME_AS,1.0,1.0,1.0,88.33
+QC032003,"Halifax, South",Megantic,QC,QC156002,"Halifax, S",Megantic,QC,SAME_AS,1.0,1.0,1.0,88.33
+QC032004,Inverness,Megantic,QC,QC156005,Inverness,Megantic,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC032006,Leeds,Megantic,QC,QC156008,Leeds,Megantic,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC032007,Nelson,Megantic,QC,QC156006,Nelson,Megantic,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC032008,"Somerset, North",Megantic,QC,QC156003,"Somerset, N",Megantic,QC,SAME_AS,1.0,1.0,1.0,89.23
+QC032009,"Somerset, South and Augmentation",Megantic,QC,QC156010,"Plessisville, Village",Megantic,QC,CONTAINS,0.0269,0.0269,1.0,51.13
+QC032010,Thetford,Megantic,QC,QC156009,Thetford,Megantic,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC033001,Dunham,Missisquoi,QC,QC125008,"Dunham, Village",Missisquoi,QC,CONTAINS,0.0096,0.0096,1.0,70.0
+QC033001,Dunham,Missisquoi,QC,QC125007,Dunham,Missisquoi,QC,SAME_AS,0.9904,0.9904,1.0,100.0
+QC033006,"St. Armand, East",Missisquoi,QC,QC125005,"St. Armand, E",Missisquoi,QC,SAME_AS,0.9859,0.9859,1.0,92.76
+QC033006,"St. Armand, East",Missisquoi,QC,QC125006,"Frelighsburg, Village",Missisquoi,QC,CONTAINS,0.0141,0.0141,1.0,48.92
+QC033005,"St. Armand, West",Missisquoi,QC,QC125003,"St. Armand, W-O",Missisquoi,QC,SAME_AS,1.0,1.0,1.0,88.71
+QC033009,St. Thomas,Missisquoi,QC,QC125001,St. Thomas,Missisquoi,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC033008,Stanbridge,Missisquoi,QC,QC125009,Stanbridge,Missisquoi,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC034005,St. Alexis,Montcalm,QC,QC101003,St. Alexis,Montcalm,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC034003,Kilkenny,Montcalm,QC,QC101007,St. Calixte,Montcalm,QC,CONTAINS,0.817,0.817,1.0,44.74
+QC034006,St. Esprit,Montcalm,QC,QC101004,St. Esprit,Montcalm,QC,WITHIN,0.8402,1.0,0.8402,100.0
+QC034007,St. Jacques,Montcalm,QC,QC101001,St. Jacques,Montcalm,QC,SAME_AS,0.9985,1.0,0.9985,100.0
+QC034008,Ste. Julienne,Montcalm,QC,QC101005,Ste. Julienne,Montcalm,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC035001,Berthier,Montmagny,QC,QC163001,Berthier,Montmagny,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC035009,St. François,Montmagny,QC,QC163005,St. François,Montmagny,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC035011,St. Pierre,Montmagny,QC,QC163006,St. Pierre,Montmagny,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC035012,St. Thomas,Montmagny,QC,QC163002,St. Thomas,Montmagny,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC035007,"Montmagny, Village",Montmagny,QC,QC163003,"Montmagny, Village",Montmagny,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC036002,Château Richer,Montmorency,QC,QC148008,Château Richer,Montmorency,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC036001,Ange Gardien,Montmorency,QC,QC148006,L’Ange Gardien,Montmorency,QC,SAME_AS,1.0,1.0,1.0,94.62
+QC036003,Laval,Montmorency,QC,QC148007,Laval,Montmorency,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC036005,Ste. Famille,Montmorency,QC,QC148004,Ste. Famille,Montmorency,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC036006,St. Féréol,Montmorency,QC,QC148011,St. Féréol,Montmorency,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC036007,St. François,Montmorency,QC,QC148005,St. François,Montmorency,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC036008,St. Jean,Montmorency,QC,QC148003,St. Jean,Montmorency,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC036009,St. Joachim,Montmorency,QC,QC148010,St. Joachim,Montmorency,QC,CONTAINS,0.2593,0.2593,1.0,100.0
+QC036009,St. Joachim,Montmorency,QC,QC148012,St. Tite,Montmorency,QC,CONTAINS,0.7407,0.7407,1.0,66.84
+QC036010,St. Laurent,Montmorency,QC,QC148001,St. Laurent,Montmorency,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC036011,St. Pierre,Montmorency,QC,QC148002,St. Pierre,Montmorency,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC061006,St. Lawrence Ward,City of Montreal,QC,QC106003,"Montréal, St. Laurent Ward—Quartier",Montreal Ouest,QC,WITHIN,0.9187,1.0,0.9187,53.69
+QC038001,Bécancour,Nicolet,QC,QC135004,Ste. Angèle,Nicolet,QC,CONTAINS,0.2317,0.2317,1.0,44.0
+QC038001,Bécancour,Nicolet,QC,QC135005,Bécancour,Nicolet,QC,CONTAINS,0.7683,0.7683,1.0,100.0
+QC038003,Gentilly,Nicolet,QC,QC135007,"Gentilly, Blandford",Nicolet,QC,WITHIN,0.6575,1.0,0.6575,71.48
+QC038005,St. Célestin,Nicolet,QC,QC135009,St. Célestin,Nicolet,QC,CONTAINS,0.888,0.888,1.0,100.0
+QC038006,Ste. Gertrude,Nicolet,QC,QC135006,Ste. Gertrude,Nicolet,QC,SAME_AS,0.9896,0.9896,1.0,100.0
+QC038007,St. Grégoire,Nicolet,QC,QC135002,St. Grégoire,Nicolet,QC,SAME_AS,0.9975,0.9975,1.0,100.0
+QC038007,St. Grégoire,Nicolet,QC,QC135003,"Larochelle, Village",Nicolet,QC,CONTAINS,0.0025,0.0025,1.0,48.06
+QC038008,Ste. Monique,Nicolet,QC,QC135011,Ste. Monique,Nicolet,QC,CONTAINS,0.6237,0.6237,1.0,100.0
+QC040011,Onslow,Pontiac,QC,QC091001,"Onslow, Aldfield",Pontiac Sud,QC,WITHIN,0.5833,1.0,0.5833,61.52
+QC040003,Allumettes,Pontiac,QC,QC091011,Allumettes,Pontiac Sud,QC,SAME_AS,1.0,1.0,1.0,93.33
+QC040021,Clapham,Pontiac,QC,QC093008,Pikanock,Ottawa Ouest,QC,WITHIN,0.2781,1.0,0.2781,28.14
+QC040004,Bristol,Pontiac,QC,QC091002,Bristol,Pontiac Sud,QC,SAME_AS,1.0,1.0,1.0,93.33
+QC040006,Chichester,Pontiac,QC,QC091012,Chichester,Pontiac Sud,QC,SAME_AS,1.0,1.0,1.0,93.33
+QC040012,Pontefract,Pontiac,QC,QC092001,Basse Coulonge,Pontiac Nord,QC,CONTAINS,0.6138,0.6138,1.0,39.61
+QC040015,Thorne,Pontiac,QC,QC091004,Thorne,Pontiac Sud,QC,SAME_AS,1.0,1.0,1.0,93.33
+QC040999,NO DATA,Pontiac,QC,QC092004,Basse Rivière Noire,Pontiac Nord,QC,CONTAINS,0.0046,0.0046,1.0,32.87
+QC040999,NO DATA,Pontiac,QC,QC092011,Maganacipi,Pontiac Nord,QC,CONTAINS,0.0,0.0,1.0,38.58
+QC040999,NO DATA,Pontiac,QC,QC092012,Lac de Sept Lieues,Pontiac Nord,QC,CONTAINS,0.0,0.0,1.0,38.91
+QC040999,NO DATA,Pontiac,QC,QC092013,Kipaoua,Pontiac Nord,QC,CONTAINS,0.0046,0.0046,1.0,42.11
+QC040999,NO DATA,Pontiac,QC,QC092010,Haut Dumoine,Pontiac Nord,QC,CONTAINS,0.0,0.0,1.0,36.84
+QC040999,NO DATA,Pontiac,QC,QC092999,NO DATA,Pontiac Nord,QC,CONTAINS,0.8228,0.8275,0.9931,92.11
+QC040999,NO DATA,Pontiac,QC,QC092005,Moyenne Rivière Noire,Pontiac Nord,QC,CONTAINS,0.0,0.0,1.0,32.11
+QC040999,NO DATA,Pontiac,QC,QC092009,Moyen Dumoine,Pontiac Nord,QC,CONTAINS,0.0,0.0,1.0,43.11
+QC040999,NO DATA,Pontiac,QC,QC093013,Rivière à l’Aigle,Ottawa Ouest,QC,CONTAINS,0.0,0.0,1.0,21.14
+QC040999,NO DATA,Pontiac,QC,QC092002,Moyenne Coulonge,Pontiac Nord,QC,CONTAINS,0.0,0.0,1.0,34.28
+QC040999,NO DATA,Pontiac,QC,QC092006,Haute Rivière Noire,Pontiac Nord,QC,CONTAINS,0.0,0.0,1.0,32.87
+QC040999,NO DATA,Pontiac,QC,QC092003,Haute Coulonge,Pontiac Nord,QC,CONTAINS,0.0,0.0,1.0,35.44
+QC040999,NO DATA,Pontiac,QC,QC092015,Victoria,Pontiac Nord,QC,CONTAINS,0.0,0.0,1.0,40.77
+QC040999,NO DATA,Pontiac,QC,QC093018,Kakebonga,Ottawa Ouest,QC,CONTAINS,0.0,0.0,1.0,26.97
+QC040999,NO DATA,Pontiac,QC,QC092014,"Temiscamang, E",Pontiac Nord,QC,CONTAINS,0.0005,0.0005,1.0,35.44
+QC040009,Litchfield,Pontiac,QC,QC091006,Litchfield,Pontiac Sud,QC,SAME_AS,1.0,1.0,1.0,93.33
+QC040013,Portage du Fort,Pontiac,QC,QC091007,Portage du Fort,Pontiac Sud,QC,SAME_AS,1.0,1.0,1.0,93.33
+QC041001,Cap Santé,Portneuf,QC,QC143006,Cap-Santé,Portneuf,QC,CONTAINS,0.3504,0.3504,1.0,92.22
+QC041001,Cap Santé,Portneuf,QC,QC143005,Portneuf,Portneuf,QC,CONTAINS,0.6159,0.6314,0.9616,46.47
+QC041002,Deschambault,Portneuf,QC,QC143003,Deschambault,Portneuf,QC,CONTAINS,0.947,0.947,1.0,100.0
+QC041003,Ecureuils,Portneuf,QC,QC143007,Ecureuils,Portneuf,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC041004,Grondines,Portneuf,QC,QC143001,Grondines,Portneuf,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC041005,Pointe-aux-Trembles,Portneuf,QC,QC143010,Pointe-aux-Trembles,Portneuf,QC,CONTAINS,0.5063,0.5063,1.0,100.0
+QC041006,St. Alban,Portneuf,QC,QC143004,St. Alban,Portneuf,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC041007,St. Augustin,Portneuf,QC,QC143012,St. Augustin,Portneuf,QC,WITHIN,0.8203,1.0,0.8203,100.0
+QC041008,St. Bazile,Portneuf,QC,QC143008,St. Basile,Portneuf,QC,CONTAINS,0.8382,0.8446,0.9911,93.0
+QC041009,St. Casimir,Portneuf,QC,QC143002,St. Casimir,Portneuf,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC041010,Ste. Catherine,Portneuf,QC,QC143013,Ste. Catherine,Portneuf,QC,CONTAINS,0.9039,0.9039,1.0,100.0
+QC041011,St. Raymond,Portneuf,QC,QC143009,St. Raymond,Portneuf,QC,WITHIN,0.202,1.0,0.202,100.0
+QC062003,Montcalm Ward,City of Quebec,QC,QC145003,"Québec, Montcalm (W-O) Ward—Quartier",Quebec Ouest,QC,CONTAINS,0.8017,0.8017,1.0,50.99
+QC062003,Montcalm Ward,City of Quebec,QC,QC146004,"Québec, Montcalm (Centre) Ward—Quartier",Quebec Centre,QC,CONTAINS,0.1983,0.1983,1.0,48.33
+QC042006,Notre Dame de Québec,Quebec (Comté),QC,QC146005,"Québec, Banlieue Centre Ward—Quartier",Quebec Centre,QC,CONTAINS,0.7684,0.7684,1.0,44.56
+QC042006,Notre Dame de Québec,Quebec (Comté),QC,QC145004,"Québec, Banlieue Sud Ward—Quartier",Quebec Ouest,QC,CONTAINS,0.2316,0.2316,1.0,46.7
+QC042001,Ancienne Lorette,Quebec (Comté),QC,QC144003,L'Ancienne Lorette,Quebec (Comté),QC,SAME_AS,0.9968,1.0,0.9968,95.88
+QC042003,Charlesbourg,Quebec (Comté),QC,QC144005,Charlesbourg,Quebec (Comté),QC,SAME_AS,1.0,1.0,1.0,100.0
+QC042008,St. Colomb,Quebec (Comté),QC,QC144001,St. Colomban,Quebec (Comté),QC,SAME_AS,1.0,1.0,1.0,93.64
+QC042009,St. Dunstan,Quebec (Comté),QC,QC144007,St. Dunstan,Quebec (Comté),QC,SAME_AS,1.0,1.0,1.0,100.0
+QC042011,Ste. Foy,Quebec (Comté),QC,QC144002,Ste. Foy,Quebec (Comté),QC,SAME_AS,1.0,1.0,1.0,100.0
+QC042012,St. Gabriel,Quebec (Comté),QC,QC144010,Valcartier,Quebec (Comté),QC,CONTAINS,0.1571,0.1571,1.0,56.67
+QC042012,St. Gabriel,Quebec (Comté),QC,QC144011,"St. Gabriel, W-O",Quebec (Comté),QC,CONTAINS,0.8429,0.8429,1.0,87.04
+QC043001,St. Aimé,Richelieu,QC,QC120008,St. Aimé,Richelieu,QC,CONTAINS,0.9419,0.9419,1.0,100.0
+QC043002,St. Marcel,Richelieu,QC,QC120009,St. Marcel,Richelieu,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC043007,Sorel Parish,Richelieu,QC,QC120005,Sorel,Richelieu,QC,CONTAINS,0.9429,0.9429,1.0,71.18
+QC043005,St. Robert,Richelieu,QC,QC120007,St. Robert,Richelieu,QC,WITHIN,0.8846,1.0,0.8846,100.0
+QC043006,St. Roch,Richelieu,QC,QC120001,St. Roch,Richelieu,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC043009,Ste. Victoire,Richelieu,QC,QC120004,Ste. Victoire,Richelieu,QC,WITHIN,0.8873,1.0,0.8873,100.0
+QC043003,"St. Ours, Village",Richelieu,QC,QC120003,"St. Ours, Village",Richelieu,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC044002,Cleveland,Richmond,QC,QC138005,"Richmond, Village",Richmond,QC,CONTAINS,0.03,0.03,1.0,51.54
+QC059001,Dudswell,Wolfe,QC,QC139007,Dudswell,Wolfe,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC059006,Stratford,Wolfe,QC,QC139006,"Garthby, Stratford",Wolfe,QC,WITHIN,0.5203,1.0,0.5203,76.67
+QC059004,Ham,Wolfe,QC,QC139002,"Ham, N",Wolfe,QC,WITHIN,0.8261,1.0,0.8261,76.67
+QC044004,Melbourne,Richmond,QC,QC138002,Melbourne,Richmond,QC,WITHIN,0.7227,1.0,0.7227,100.0
+QC059005,St. Camille,Wolfe,QC,QC139004,St. Camille,Wolfe,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC059009,Wolfestown,Wolfe,QC,QC139003,Wolfestown,Wolfe,QC,CONTAINS,0.8053,0.8053,1.0,100.0
+QC059003,"Ham, South",Wolfe,QC,QC139005,"Ham, S",Wolfe,QC,SAME_AS,1.0,1.0,1.0,82.5
+QC044006,Shipton,Richmond,QC,QC138006,Shipton,Richmond,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC059007,Weedon,Wolfe,QC,QC139008,Weedon,Wolfe,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC044008,Windsor,Richmond,QC,QC138008,Windsor,Richmond,QC,CONTAINS,0.5575,0.5575,1.0,100.0
+QC044008,Windsor,Richmond,QC,QC138009,St. George de Windsor,Richmond,QC,CONTAINS,0.4425,0.4425,1.0,65.0
+QC059008,Wotton,Wolfe,QC,QC139001,Wotton,Wolfe,QC,SAME_AS,0.9831,1.0,0.9831,100.0
+QC044005,"Melbourne, Village",Richmond,QC,QC138003,"Melbourne, Village",Richmond,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC045002,MacNider,Rimouski,QC,QC168005,McNider,Rimouski Est,QC,SAME_AS,1.0,1.0,1.0,89.33
+QC045011,St. Germain,Rimouski,QC,QC167005,Saint Germain de Rimouski,Rimouski Ouest,QC,WITHIN,0.4701,0.9643,0.4784,60.71
+QC045011,St. Germain,Rimouski,QC,QC167006,"Rimouski, Town—Ville",Rimouski Ouest,QC,CONTAINS,0.0217,0.0217,1.0,39.88
+QC045009,St. Fabien,Rimouski,QC,QC167003,St. Fabien,Rimouski Ouest,QC,SAME_AS,1.0,1.0,1.0,91.82
+QC045010,Ste. Flavie,Rimouski,QC,QC168001,Ste. Flavie,Rimouski Est,QC,CONTAINS,0.7912,0.7912,1.0,94.0
+QC045012,Ste. Luce,Rimouski,QC,QC167008,Ste. Luce,Rimouski Ouest,QC,CONTAINS,0.3888,0.3888,1.0,91.82
+QC045006,Métis,Rimouski,QC,QC168003,Métis,Rimouski Est,QC,CONTAINS,0.2517,0.2517,1.0,94.0
+QC045013,St. Simon,Rimouski,QC,QC167002,St. Mathieu de Rioux,Rimouski Ouest,QC,CONTAINS,0.5822,0.5822,1.0,50.78
+QC045013,St. Simon,Rimouski,QC,QC167001,St. Simon,Rimouski Ouest,QC,CONTAINS,0.4178,0.4178,1.0,91.82
+QC045999,NO DATA,Rimouski,QC,QC167999,NO DATA,Rimouski Ouest,QC,CONTAINS,0.3531,0.3531,1.0,91.82
+QC045999,NO DATA,Rimouski,QC,QC168999,NO DATA,Rimouski Est,QC,CONTAINS,0.5777,0.5777,1.0,94.0
+QC046001,Ange-Gardien,Rouville,QC,QC123011,L’Ange Gardien,Rouville,QC,SAME_AS,0.9888,0.9888,1.0,89.23
+QC046001,Ange-Gardien,Rouville,QC,QC123012,Canrobert,Rouville,QC,CONTAINS,0.0112,0.0112,1.0,56.67
+QC046004,St. Hilaire,Rouville,QC,QC123003,St. Hilaire,Rouville,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC046005,St. Jean-Baptiste,Rouville,QC,QC123004,St. Jean Baptiste,Rouville,QC,SAME_AS,1.0,1.0,1.0,95.88
+QC046006,Ste. Marie,Rouville,QC,QC123005,Ste. Marie,Rouville,QC,CONTAINS,0.63,0.63,1.0,100.0
+QC046006,Ste. Marie,Rouville,QC,QC123007,Ste. Angèle,Rouville,QC,CONTAINS,0.3458,0.3458,1.0,76.67
+QC046007,St. Mathias,Rouville,QC,QC123002,St. Mathias,Rouville,QC,CONTAINS,0.566,0.566,1.0,100.0
+QC046003,St. Césaire and Convent,Rouville,QC,QC123009,"St. Césaire, Village",Rouville,QC,CONTAINS,0.0099,0.0099,1.0,75.58
+QC050001,La Présentation,St. Hyacinthe,QC,QC121002,La Présentation,St. Hyacinthe,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC050007,"St. Hyacinthe, Parish",St. Hyacinthe,QC,QC121007,St. Hyacinthe,St. Hyacinthe,QC,CONTAINS,0.7721,0.7721,1.0,83.53
+QC050002,St. Barnabé,St. Hyacinthe,QC,QC121006,St. Barnabé,St. Hyacinthe,QC,CONTAINS,0.9395,0.9395,1.0,100.0
+QC050003,St. Charles,St. Hyacinthe,QC,QC121003,St. Charles,St. Hyacinthe,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC050004,St. Damase,St. Hyacinthe,QC,QC121001,St. Damase,St. Hyacinthe,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC050008,St. Jude,St. Hyacinthe,QC,QC121005,St. Jude,St. Hyacinthe,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC022002,St. Alexandre,Iberville,QC,QC124006,St. Alexandre,Iberville,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC022003,St. Athanase,Iberville,QC,QC124002,St. Athanase,Iberville,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC051002,Lacolle,St. Johns,QC,QC117001,Lacolle,St. Jean,QC,SAME_AS,1.0,1.0,1.0,91.18
+QC022004,Ste. Brigitte,Iberville,QC,QC124005,Ste. Brigitte,Iberville,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC022005,St. George de Henryville,Iberville,QC,QC124001,Henriville,Iberville,QC,CONTAINS,0.5214,0.5214,1.0,67.06
+QC022005,St. George de Henryville,Iberville,QC,QC124007,St. Sébastien,Iberville,QC,CONTAINS,0.4786,0.4786,1.0,52.7
+QC022006,St. Grégoire,Iberville,QC,QC124004,St. Grégoire,Iberville,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC051005,St. Luc,St. Johns,QC,QC117006,St. Luc,St. Jean,QC,SAME_AS,1.0,1.0,1.0,91.18
+QC022001,Iberville,Iberville,QC,QC124003,Iberville,Iberville,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC048001,Ely,Shefford,QC,QC127011,Ely,Shefford,QC,CONTAINS,0.495,0.495,1.0,100.0
+QC048001,Ely,Shefford,QC,QC127012,"Ely, N",Shefford,QC,CONTAINS,0.505,0.505,1.0,76.67
+QC048002,Granby,Shefford,QC,QC127001,Granby,Shefford,QC,CONTAINS,0.9201,0.9201,1.0,100.0
+QC048006,Shefford,Shefford,QC,QC127006,Waterloo,Shefford,QC,CONTAINS,0.0229,0.0229,1.0,47.5
+QC048007,Stukeley,Shefford,QC,QC127009,"Stukely, S",Shefford,QC,CONTAINS,0.4766,0.4766,1.0,84.44
+QC048007,Stukeley,Shefford,QC,QC127010,"Stukely, N",Shefford,QC,CONTAINS,0.5234,0.5234,1.0,84.44
+QC048003,"Granby, Village",Shefford,QC,QC127002,"Granby, Village",Shefford,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC064002,Orford,Town of Sherbrooke,QC,QC140002,Orford,Sherbrooke,QC,SAME_AS,1.0,1.0,1.0,91.43
+QC049003,St. Clet,Soulanges,QC,QC110003,St. Clet,Soulanges,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC049004,St. Ignace,Soulanges,QC,QC110004,St. Ignace,Soulanges,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC049006,St. Polycarpe,Soulanges,QC,QC110002,St. Polycarpe,Soulanges,QC,WITHIN,0.5672,1.0,0.5672,100.0
+QC049008,St. Zotique,Soulanges,QC,QC110001,St. Zotique,Soulanges,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC053002,Barford,Stanstead,QC,QC141007,Barford,Stanstead,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC053003,Barnston,Stanstead,QC,QC141006,"Coaticook, Village",Stanstead,QC,CONTAINS,0.0409,0.0409,0.9991,46.15
+QC053004,Hatley,Stanstead,QC,QC141004,Hatley,Stanstead,QC,SAME_AS,0.9997,1.0,0.9997,100.0
+QC053005,Magog,Stanstead,QC,QC141003,Magog,Stanstead,QC,SAME_AS,0.9998,1.0,0.9998,100.0
+QC053006,Stanstead Plains,Stanstead,QC,QC141002,"Stanstead Plain, Village",Stanstead,QC,CONTAINS,0.0218,0.0218,1.0,82.5
+QC054009,St. George de Kakouna,Temiscouata,QC,QC166005,"Cacouna, Village",Temiscouata,QC,CONTAINS,0.1183,0.1183,1.0,48.92
+QC054009,St. George de Kakouna,Temiscouata,QC,QC166004,Cacouna,Temiscouata,QC,CONTAINS,0.8817,0.8817,1.0,55.0
+QC054004,Isle Verte,Temiscouata,QC,QC166006,Isle Verte,Temiscouata,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC054005,Notre-Dame du Portage,Temiscouata,QC,QC166001,Notre Dame du Portage,Temiscouata,QC,SAME_AS,1.0,1.0,1.0,96.67
+QC054006,St. Antonin,Temiscouata,QC,QC166009,St. Antonin,Temiscouata,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC054007,St. Arsène,Temiscouata,QC,QC166011,St. Arsène,Temiscouata,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC054008,St. Eloi,Temiscouata,QC,QC166007,St. Eloi,Temiscouata,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC054014,Viger,Temiscouata,QC,QC166012,"Viger, Demers",Temiscouata,QC,WITHIN,0.6062,1.0,0.6062,68.89
+QC054002,Denonville,Temiscouata,QC,QC166013,"Denonville, Hocquart",Temiscouata,QC,WITHIN,0.5469,1.0,0.5469,76.67
+QC054013,Trois Pistoles,Temiscouata,QC,QC166008,Trois Pistoles,Temiscouata,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC055001,Beresford,Terrebonne,QC,QC099014,Ste. Agathe des Monts,Terrebonne,QC,WITHIN,0.8245,1.0,0.8245,48.67
+QC055003,Ste. Anne,Terrebonne,QC,QC099006,Ste. Anne,Terrebonne,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC055004,St. Janvier,Terrebonne,QC,QC099005,St. Janvier,Terrebonne,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC034011,Doncaster,Montcalm,QC,QC099015,Ste. Marguerite & Doncaster,Terrebonne,QC,WITHIN,0.5571,1.0,0.5571,41.67
+QC055008,Ste. Sophie,Terrebonne,QC,QC099007,Ste. Sophie,Terrebonne,QC,SAME_AS,0.9963,0.9963,1.0,100.0
+QC055008,Ste. Sophie,Terrebonne,QC,QC099008,New Glasgow,Terrebonne,QC,CONTAINS,0.0037,0.0037,1.0,55.45
+QC055009,"Ste. Thérèse, Parish",Terrebonne,QC,QC099003,Ste. Thérèse,Terrebonne,QC,SAME_AS,1.0,1.0,1.0,82.5
+QC055011,"Terrebonne, Parish",Terrebonne,QC,QC099002,Terrebonne,Terrebonne,QC,SAME_AS,1.0,1.0,1.0,80.0
+QC052001,Pointe du Lac,St. Maurice,QC,QC129001,Pointe du Lac,Saint Maurice Sud,QC,SAME_AS,0.9935,1.0,0.9935,91.43
+QC052002,St. Barnabé,St. Maurice,QC,QC129004,St. Barnabé,Saint Maurice Sud,QC,CONTAINS,0.3983,0.3983,1.0,91.43
+QC052002,St. Barnabé,St. Maurice,QC,QC129007,St. Elie,Saint Maurice Sud,QC,CONTAINS,0.6017,0.6017,1.0,50.9
+QC052003,St. Boniface,St. Maurice,QC,QC129006,Shaouanigan,Saint Maurice Sud,QC,CONTAINS,0.722,0.722,1.0,51.86
+QC052004,St. Etienne,St. Maurice,QC,QC129005,St. Etienne,Saint Maurice Sud,QC,WITHIN,0.7793,1.0,0.7793,91.43
+QC052005,St. Sévère,St. Maurice,QC,QC129003,St. Sévère,Saint Maurice Sud,QC,SAME_AS,1.0,1.0,1.0,91.43
+QC052007,Yamachiche,St. Maurice,QC,QC129002,Yamachiche,Saint Maurice Sud,QC,SAME_AS,0.9961,0.9961,1.0,91.43
+QC057004,Rigaud,Vaudreuil,QC,QC109004,Rigaud,Vaudreuil,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC057001,Isle Perrot,Vaudreuil,QC,QC109001,Isle Perrot,Vaudreuil,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC057002,Newton,Vaudreuil,QC,QC109006,Newton,Vaudreuil,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC057003,Ste. Marthe,Vaudreuil,QC,QC109005,Ste. Marthe,Vaudreuil,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC057005,"Vaudreuil, Village",Vaudreuil,QC,QC109003,"Vaudreuil, Village",Vaudreuil,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC039004,Aylwin,Outaouais,QC,QC093009,Aylwin,Ottawa Ouest,QC,SAME_AS,1.0,1.0,1.0,87.14
+QC039009,Bouchette,Outaouais,QC,QC093014,Bouchette,Ottawa Ouest,QC,SAME_AS,1.0,1.0,1.0,87.14
+QC039013,Cameron,Outaouais,QC,QC093015,Cameron,Ottawa Ouest,QC,SAME_AS,1.0,1.0,1.0,87.14
+QC039017,Eardley,Outaouais,QC,QC093004,Eardley,Ottawa Ouest,QC,SAME_AS,1.0,1.0,1.0,87.14
+QC039020,Hincks,Outaouais,QC,QC093010,Hincks,Ottawa Ouest,QC,SAME_AS,1.0,1.0,1.0,87.14
+QC039026,Low,Outaouais,QC,QC093007,Low,Ottawa Ouest,QC,SAME_AS,1.0,1.0,1.0,87.14
+QC039028,Masham,Outaouais,QC,QC093005,Masham,Ottawa Ouest,QC,SAME_AS,1.0,1.0,1.0,87.14
+QC039038,Wakefield,Outaouais,QC,QC093006,Wakefield,Ottawa Ouest,QC,WITHIN,0.603,1.0,0.603,87.14
+QC039037,Wabasse and Wright,Outaouais,QC,QC093012,Wright,Ottawa Ouest,QC,CONTAINS,0.5029,0.5029,1.0,52.14
+QC039003,"Aylmer, Village",Outaouais,QC,QC093003,"Aylmer, Village",Ottawa Ouest,QC,SAME_AS,1.0,1.0,1.0,87.14
+QC060001,La Baie,Yamaska,QC,QC134005,La Baie,Yamaska,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC060003,St. David,Yamaska,QC,QC134008,St. David,Yamaska,QC,CONTAINS,0.6412,0.6412,1.0,100.0
+QC060003,St. David,Yamaska,QC,QC134007,St. Pie,Yamaska,QC,CONTAINS,0.3588,0.3588,1.0,73.75
+QC060004,St. François,Yamaska,QC,QC134003,St. François,Yamaska,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC018005,Upton,Drummond,QC,QC136002,St. Bonaventure,Drummond,QC,CONTAINS,0.4546,0.4546,1.0,51.0
+QC018005,Upton,Drummond,QC,QC136001,St. Guillaume,Drummond,QC,CONTAINS,0.5454,0.5454,1.0,37.78
+QC060002,Pierreville,Yamaska,QC,QC134004,Pierreville,Yamaska,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC060006,St. Zéphirin,Yamaska,QC,QC134006,St. Zéphirin,Yamaska,QC,CONTAINS,0.7565,0.7565,1.0,100.0
+QC060005,St. Michel,Yamaska,QC,QC134002,St. Michel,Yamaska,QC,CONTAINS,0.0202,0.0202,1.0,100.0
+QC061999,NO DATA,City of Montreal,QC,QC105999,NO DATA,Montreal Est,QC,SAME_AS,1.0,1.0,1.0,87.14
+QC036999,NO DATA,Montmorency,QC,QC148999,NO DATA,Montmorency,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC008999,NO DATA,Berthier,QC,QC103009,"St. Gabriel, St. Damien",Berthier,QC,WITHIN,0.6248,1.0,0.6248,48.67
+QC009006,Mann,Bonaventure,QC,QC169009,Mann,Bonaventure,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC056006,"St. Eustache, Village",Two Mountains,QC,QC097005,"St. Eustache, Village",Deux-Montagnes,QC,SAME_AS,1.0,1.0,1.0,85.56
+QC019008,"Grande Vallée des Monts, St. Anse de l'Etang, and Sydenham North",Gaspé,QC,QC170004,Vallée des Monts,Gaspé Ouest,QC,CONTAINS,0.171,0.171,1.0,46.75
+QC019008,"Grande Vallée des Monts, St. Anse de l'Etang, and Sydenham North",Gaspé,QC,QC171001,Chloridormes,Gaspé Centre,QC,CONTAINS,0.2726,0.2726,1.0,26.86
+QC020003,"Côte St. Louis, Village",Hochelaga,QC,QC107004,Côteau St. Louis,Hochelaga,QC,SAME_AS,1.0,1.0,1.0,80.26
+QC033003,Notre Dame des Anges,Missisquoi,QC,QC125010,Notre Dame des Anges,Missisquoi,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC036004,Ste. Anne,Montmorency,QC,QC148009,Ste. Anne,Montmorency,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC020004,St. Jean-Baptiste,Hochelaga,QC,QC107003,St. Jean Baptiste,Hochelaga,QC,SAME_AS,1.0,1.0,1.0,95.88
+QC004004,St. Hugues,Bagot,QC,QC122005,St. Hugues,Bagot,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC045008,St. Denis and Augmentation,Rimouski,QC,QC168009,Cherbourg,Rimouski Est,QC,CONTAINS,0.9334,0.9334,1.0,36.0
+QC064001,Ascot,Town of Sherbrooke,QC,QC140003,Ascot,Sherbrooke,QC,SAME_AS,0.9997,0.9997,1.0,91.43
+QC054010,St. Modeste and Whitworth,Temiscouata,QC,QC166010,St. Modeste,Temiscouata,QC,WITHIN,0.512,1.0,0.512,72.78
+QC063006,Ste. Ursule Ward,City of Three Rivers,QC,QC131003,"Trois-Rivières, Ste. Ursule Ward—Quartier",Trois Rivieres,QC,WITHIN,0.8017,1.0,0.8017,55.18
+QC042002,Beauport,Quebec (Comté),QC,QC144006,Beauport,Quebec (Comté),QC,SAME_AS,0.9968,1.0,0.9968,100.0
+QC042999,NO DATA,Quebec (Comté),QC,QC144999,NO DATA,Quebec (Comté),QC,SAME_AS,1.0,1.0,1.0,100.0
+QC005999,NO DATA,Beauce,QC,QC157008,"Spalding, Ditchfield, Woburn, Clinton",Beauce Ouest,QC,CONTAINS,0.774,0.774,1.0,32.73
+QC005999,NO DATA,Beauce,QC,QC158999,NO DATA,Beauce Est,QC,CONTAINS,0.226,0.226,1.0,92.5
+QC028002,St. Martin,Laval,QC,QC098001,Ste. Dorothée,Laval,QC,CONTAINS,0.2937,0.2937,1.0,66.52
+QC028002,St. Martin,Laval,QC,QC098004,St. Martin,Laval,QC,CONTAINS,0.7063,0.7063,1.0,100.0
+QC034999,NO DATA,Montcalm,QC,QC101999,NO DATA,Montcalm,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC040005,Clarendon,Pontiac,QC,QC091003,Clarendon,Pontiac Sud,QC,SAME_AS,1.0,1.0,1.0,93.33
+QC041999,NO DATA,Portneuf,QC,QC143999,NO DATA,Portneuf,QC,CONTAINS,0.6545,0.6545,1.0,100.0
+QC044001,Brompton and Gore,Richmond,QC,QC138001,Brompton,Richmond,QC,CONTAINS,0.7184,0.7184,1.0,74.8
+QC044007,Stoke,Richmond,QC,QC138010,Stoke,Richmond,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC048005,Roxton,Shefford,QC,QC127007,Roxton,Shefford,QC,CONTAINS,0.9038,0.9038,1.0,100.0
+QC048005,Roxton,Shefford,QC,QC127008,Roxton Falls,Shefford,QC,CONTAINS,0.0181,0.0181,1.0,76.67
+QC058006,Varennes,Vercheres,QC,QC119001,Varennes,Vercheres,QC,SAME_AS,0.993,0.9935,0.9996,100.0
+QC047999,NO DATA,Saguenay,QC,QC152999,NO DATA,Labrador,QC,CONTAINS,0.8441,0.8451,0.9986,77.5
+QC047999,NO DATA,Saguenay,QC,QC151999,NO DATA,Saguenay,QC,CONTAINS,0.1549,0.1549,1.0,100.0
+QC015018,St. Jean,Chicoutimi,QC,QC150001,St. Jean,Chicoutimi,QC,CONTAINS,0.3671,0.3671,1.0,100.0
+QC005009,Marlow,Beauce,QC,QC158007,Linière,Beauce Est,QC,WITHIN,0.5419,1.0,0.5419,33.27
+QC017001,Buckland,Dorchester,QC,QC160005,"Buckland, W-O",Dorchester Est,QC,CONTAINS,0.8313,0.8313,1.0,78.33
+QC018003,Kingsey,Drummond,QC,QC136011,Kingsey,Drummond,QC,CONTAINS,0.6223,0.6223,1.0,100.0
+QC018003,Kingsey,Drummond,QC,QC136012,"Kingsey Falls, W-O",Drummond,QC,CONTAINS,0.3777,0.3777,1.0,69.2
+QC039036,Templeton,Outaouais,QC,QC093001,Templeton,Ottawa Ouest,QC,SAME_AS,1.0,1.0,1.0,87.14
+QC039025,Lochaber,Outaouais,QC,QC095001,Lochaber,Ottaoua Est,QC,CONTAINS,0.7352,0.7352,1.0,91.0
+QC039025,Lochaber,Outaouais,QC,QC095002,St. Malachie,Ottaoua Est,QC,CONTAINS,0.2648,0.2648,1.0,49.0
+QC039032,Preston,Outaouais,QC,QC095009,"Nation, N",Ottaoua Est,QC,WITHIN,0.5218,1.0,0.5218,47.25
+QC054999,NO DATA,Temiscouata,QC,QC166999,NO DATA,Temiscouata,QC,CONTAINS,0.7615,0.7615,0.9999,100.0
+QC042013,St. Roch,Quebec (Comté),QC,QC147004,"St. Roch, N",Quebec Est,QC,CONTAINS,0.3431,0.346,0.9761,78.95
+QC042013,St. Roch,Quebec (Comté),QC,QC147003,"St. Roch, S",Quebec Est,QC,CONTAINS,0.6529,0.654,0.9974,78.95
+QC008004,Isle du Pads,Berthier,QC,QC103005,Isle du Pads,Berthier,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC011004,"Chambly, Village",Chambly,QC,QC118006,"Chambly, Village",Chambly,QC,CONTAINS,0.2628,0.2628,1.0,100.0
+QC011004,"Chambly, Village",Chambly,QC,QC118007,"Bassin de Chambly, Village",Chambly,QC,CONTAINS,0.7372,0.7372,1.0,83.33
+QC012999,NO DATA,Champlain,QC,QC133999,NO DATA,Champlain Nord,QC,CONTAINS,0.9271,0.9271,1.0,93.48
+QC012999,NO DATA,Champlain,QC,QC133009,Croche,Champlain Nord,QC,CONTAINS,0.0008,0.0008,1.0,34.25
+QC052999,NO DATA,St. Maurice,QC,QC130001,Haut Mataouin,Saint Maurice Nord,QC,CONTAINS,0.0153,0.0153,1.0,48.69
+QC052999,NO DATA,St. Maurice,QC,QC130003,Ouessoneau,Saint Maurice Nord,QC,CONTAINS,0.0001,0.0001,1.0,37.16
+QC052999,NO DATA,St. Maurice,QC,QC130004,Rivière au Rat,Saint Maurice Nord,QC,CONTAINS,0.0001,0.0001,1.0,40.69
+QC052999,NO DATA,St. Maurice,QC,QC130005,Vermillion,Saint Maurice Nord,QC,CONTAINS,0.0001,0.0001,1.0,28.92
+QC052999,NO DATA,St. Maurice,QC,QC130006,Manouane,Saint Maurice Nord,QC,CONTAINS,0.0009,0.0009,1.0,48.69
+QC052999,NO DATA,St. Maurice,QC,QC130999,NO DATA,Saint Maurice Nord,QC,SAME_AS,0.9814,0.9814,1.0,90.69
+QC052999,NO DATA,St. Maurice,QC,QC130002,Bas Mataouin,Saint Maurice Nord,QC,CONTAINS,0.0001,0.0001,1.0,50.16
+QC047004,"Sault au Cochon, Islets Jérémie and Bersimis",Saguenay,QC,QC152010,Sauvages Betsiamites,Labrador,QC,CONTAINS,0.3087,0.3087,1.0,38.12
+QC012011,St. Stanislas,Champlain,QC,QC133003,St. Stanislas,Champlain Nord,QC,CONTAINS,0.4844,0.4844,1.0,93.48
+QC024002,"Lachine, Village",Jacques Cartier,QC,QC108002,"Lachine, Village",Jacques Cartier,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC026999,NO DATA,Kamouraska,QC,QC165015,Pohénégamouk,Kamouraska,QC,CONTAINS,0.1363,0.1363,1.0,44.74
+QC039015,"Derry, East and West",Outaouais,QC,QC094005,Derry,Ottaoua Centre,QC,CONTAINS,0.4232,0.4232,1.0,43.65
+QC039015,"Derry, East and West",Outaouais,QC,QC095003,Mulgrave,Ottaoua Est,QC,CONTAINS,0.5768,0.5768,1.0,36.0
+QC039008,Bowman,Outaouais,QC,QC094006,"Bowman, Bigelow",Ottaoua Centre,QC,WITHIN,0.5982,1.0,0.5982,55.65
+QC029001,Notre Dame de la Victoire,Lévis,QC,QC153003,"Lévis, Notre Dame Ward—Quartier",Lévis (Ville),QC,CONTAINS,0.0298,0.0298,1.0,56.67
+QC029001,Notre Dame de la Victoire,Lévis,QC,QC153002,"Lévis, Lauzon Ward—Quartier",Lévis (Ville),QC,CONTAINS,0.0159,0.0159,1.0,38.21
+QC029001,Notre Dame de la Victoire,Lévis,QC,QC153004,"Bienville, Village",Lévis (Ville),QC,CONTAINS,0.0234,0.0234,1.0,36.2
+QC029001,Notre Dame de la Victoire,Lévis,QC,QC153006,Notre Dame de la Victoire,Lévis (Ville),QC,CONTAINS,0.8823,0.8823,1.0,86.67
+QC029001,Notre Dame de la Victoire,Lévis,QC,QC153001,"Lévis, St. Laurent Ward—Quartier",Lévis (Ville),QC,CONTAINS,0.0486,0.0486,1.0,41.23
+QC033002,Farnham,Missisquoi,QC,QC125012,"Farnham, Village",Missisquoi,QC,CONTAINS,0.0308,0.0308,1.0,72.61
+QC042010,St. Edmond,Quebec (Comté),QC,QC144008,Stoneham,Quebec (Comté),QC,CONTAINS,0.2083,0.2083,1.0,61.11
+QC042010,St. Edmond,Quebec (Comté),QC,QC144009,Tewkesbury,Quebec (Comté),QC,CONTAINS,0.7917,0.7917,1.0,44.0
+QC012006,Ste. Flore,Champlain,QC,QC133005,Ste. Flore,Champlain Nord,QC,SAME_AS,1.0,1.0,1.0,93.48
+QC039027,Maniwaky and McGill,Outaouais,QC,QC093017,Tomasine,Ottawa Ouest,QC,CONTAINS,0.3808,0.3808,1.0,37.88
+QC040016,Waltham,Pontiac,QC,QC091010,Waltham,Pontiac Sud,QC,SAME_AS,1.0,1.0,1.0,93.33
+QC040014,Sheen,Pontiac,QC,QC091013,Sheen,Pontiac Sud,QC,SAME_AS,1.0,1.0,1.0,93.33
+QC040008,Leslie,Pontiac,QC,QC091005,Leslie,Pontiac Sud,QC,SAME_AS,1.0,1.0,1.0,93.33
+QC002012,Wentworth,Argenteuil,QC,QC096004,"Wentworth, Montcalm, Wolfe",Argenteuil,QC,WITHIN,0.4221,1.0,0.4221,66.0
+QC002006,Harrington,Argenteuil,QC,QC096002,"Harrington, Arundel, De Salaberry, Grandison",Argenteuil,QC,WITHIN,0.4003,1.0,0.4003,55.93
+QC002001,Arundel,Argenteuil,QC,QC096002,"Harrington, Arundel, De Salaberry, Grandison",Argenteuil,QC,WITHIN,0.2102,1.0,0.2102,49.22
+QC002008,Montcalm,Argenteuil,QC,QC096004,"Wentworth, Montcalm, Wolfe",Argenteuil,QC,WITHIN,0.2295,1.0,0.2295,62.94
+QC002007,Morin,Argenteuil,QC,QC096009,"Howard, Morin, W-O",Argenteuil,QC,WITHIN,0.2841,1.0,0.2841,60.43
+QC003001,Arthabaska,Arthabaska,QC,QC137007,St. Norbert,Arthabaska,QC,CONTAINS,0.4774,0.4774,1.0,43.33
+QC003009,Maddington,Arthabaska,QC,QC137003,St. Louis,Arthabaska,QC,WITHIN,0.0836,1.0,0.0836,44.74
+QC005006,Jersey,Beauce,QC,QC158007,Linière,Beauce Est,QC,WITHIN,0.2444,1.0,0.2444,44.04
+QC005008,Linière,Beauce,QC,QC158007,Linière,Beauce Est,QC,WITHIN,0.2136,1.0,0.2136,92.5
+QC005010,Price,Beauce,QC,QC157006,Lambton,Beauce Ouest,QC,WITHIN,0.3855,1.0,0.3855,20.0
+QC005001,Adstock,Beauce,QC,QC157005,St. Evariste,Beauce Ouest,QC,WITHIN,0.359,1.0,0.359,42.11
+QC005004,Forsyth,Beauce,QC,QC157005,St. Evariste,Beauce Ouest,QC,WITHIN,0.2,1.0,0.2,42.11
+QC008003,Brandon,Berthier,QC,QC102009,St. Félix de Valois,Joliette,QC,WITHIN,0.2224,1.0,0.2224,22.02
+QC013007,Ste. Agnes,Charlevoix,QC,QC149008,Ste. Agnès,Charlevoix,QC,WITHIN,0.4691,1.0,0.4691,93.0
+QC015001,Bagot,Chicoutimi,QC,QC150003,Bagotville,Chicoutimi,QC,CONTAINS,0.5164,0.5164,1.0,76.67
+QC015007,Harvey,Chicoutimi,QC,QC150011,Tremblay,Chicoutimi,QC,WITHIN,0.2181,1.0,0.2181,60.0
+QC015022,Tremblay,Chicoutimi,QC,QC150011,Tremblay,Chicoutimi,QC,WITHIN,0.2396,1.0,0.2396,100.0
+QC015019,Tableau,Chicoutimi,QC,QC150999,NO DATA,Chicoutimi,QC,WITHIN,0.0002,1.0,0.0002,50.0
+QC015016,Simard,Chicoutimi,QC,QC150011,Tremblay,Chicoutimi,QC,WITHIN,0.3005,1.0,0.3005,50.0
+QC015009,Kinogami,Chicoutimi,QC,QC150008,Hébertville,Chicoutimi,QC,WITHIN,0.2216,1.0,0.2216,37.37
+QC015014,Plessis,Chicoutimi,QC,QC150999,NO DATA,Chicoutimi,QC,WITHIN,0.0019,0.9844,0.0019,30.0
+QC015002,Bourgette,Chicoutimi,QC,QC150010,Péribonka,Chicoutimi,QC,WITHIN,0.1024,1.0,0.1024,45.56
+QC015020,Taché,Chicoutimi,QC,QC150010,Péribonka,Chicoutimi,QC,WITHIN,0.0865,1.0,0.0865,40.0
+QC015006,Delisle,Chicoutimi,QC,QC150010,Péribonka,Chicoutimi,QC,WITHIN,0.0928,1.0,0.0928,38.75
+QC015010,Labarre,Chicoutimi,QC,QC150008,Hébertville,Chicoutimi,QC,WITHIN,0.1702,1.0,0.1702,53.33
+QC015017,Signay,Chicoutimi,QC,QC150008,Hébertville,Chicoutimi,QC,WITHIN,0.1337,1.0,0.1337,38.24
+QC015012,Mésy,Chicoutimi,QC,QC150008,Hébertville,Chicoutimi,QC,WITHIN,0.1282,1.0,0.1282,39.33
+QC015013,Metabetchouan,Chicoutimi,QC,QC150009,Roberval,Chicoutimi,QC,WITHIN,0.1623,1.0,0.1623,50.0
+QC015004,Charlevoix,Chicoutimi,QC,QC150009,Roberval,Chicoutimi,QC,WITHIN,0.0937,1.0,0.0937,53.33
+QC015015,Roberval,Chicoutimi,QC,QC150009,Roberval,Chicoutimi,QC,WITHIN,0.1403,1.0,0.1403,100.0
+QC016012,Whitton,Compton,QC,QC142010,"Hampden, Marston, Whitton",Compton,QC,WITHIN,0.4163,1.0,0.4163,60.62
+QC016005,Hampden,Compton,QC,QC142010,"Hampden, Marston, Whitton",Compton,QC,WITHIN,0.1866,1.0,0.1866,60.62
+QC019005,"Gaspé Bay, North",Gaspé,QC,QC171005,"Gaspé, N, Sydenham, S",Gaspé Centre,QC,WITHIN,0.4964,1.0,0.4964,55.48
+QC019011,Newport,Gaspé,QC,QC172005,Pabos,Gaspé Sud,QC,WITHIN,0.4777,1.0,0.4777,44.76
+QC023004,St. Cyrille,L'Islet,QC,QC164005,"St. Cyrille, Lessard, Beaubien, Arago, Leverrier",L'Islet,QC,WITHIN,0.2177,1.0,0.2177,56.1
+QC025005,Kildare,Joliette,QC,QC102005,St. Alphonse,Joliette,QC,WITHIN,0.4258,1.0,0.4258,44.74
+QC025002,Joliette,Joliette,QC,QC102013,"Ste. Emilie, Tracy",Joliette,QC,WITHIN,0.2487,1.0,0.2487,51.54
+QC025004,"Joliette, Convent",Joliette,QC,QC102003,"Joliette, Town—Ville",Joliette,QC,WITHIN,0.0185,1.0,0.0185,82.97
+QC025003,"Joliette, College",Joliette,QC,QC102003,"Joliette, Town—Ville",Joliette,QC,WITHIN,0.0132,1.0,0.0132,82.97
+QC026002,"Kamouraska, Village",Kamouraska,QC,QC165009,"Kamouraska, Village",Kamouraska,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC026005,St. Alexandre,Kamouraska,QC,QC165014,"St. Alexandre, Parke, St. Antonin",Kamouraska,QC,WITHIN,0.4098,1.0,0.4098,69.57
+QC026009,Ste. Hélène,Kamouraska,QC,QC165013,"Ste. Hélène, Bungay, Chabot",Kamouraska,QC,WITHIN,0.1439,1.0,0.1439,70.53
+QC026013,Woodbridge,Kamouraska,QC,QC165011,"Woodbridge, Painchaud",Kamouraska,QC,WITHIN,0.3697,1.0,0.3697,75.16
+QC026001,Ixworth,Kamouraska,QC,QC165002,"St. Onézime, Ixworth, Chapais",Kamouraska,QC,WITHIN,0.173,1.0,0.173,57.22
+QC028006,"St. Vincent de Paul, College",Laval,QC,QC098005,St. Vincent,Laval,QC,WITHIN,0.0011,1.0,0.0011,69.49
+QC028005,"St. Vincent de Paul, Convent",Laval,QC,QC098005,St. Vincent,Laval,QC,WITHIN,0.0009,1.0,0.0009,69.49
+QC025009,"Ste. Elizabeth, Convent",Joliette,QC,QC102008,Ste. Elizabeth,Joliette,QC,WITHIN,0.0002,1.0,0.0002,82.97
+QC001003,"L’Assomption, College",L'Assomption,QC,QC100009,"L’Assomption, Village",L'Assomption,QC,WITHIN,0.0558,1.0,0.0558,90.0
+QC034002,Convent of Ste. Anne,Montcalm,QC,QC101001,St. Jacques,Montcalm,QC,WITHIN,0.0015,1.0,0.0015,57.1
+QC035002,Grosse Isle,Montmagny,QC,QC163008,Isle aux Grues,Montmagny,QC,WITHIN,0.0631,1.0,0.0631,52.4
+QC035006,Isle Ste Marguerite,Montmagny,QC,QC163008,Isle aux Grues,Montmagny,QC,WITHIN,0.0461,1.0,0.0461,68.18
+QC035005,Isle aux Canots,Montmagny,QC,QC163008,Isle aux Grues,Montmagny,QC,WITHIN,0.0175,1.0,0.0175,78.28
+QC035004,Isle aux Oies,Montmagny,QC,QC163008,Isle aux Grues,Montmagny,QC,WITHIN,0.587,1.0,0.587,87.04
+QC035003,Isle aux Grues,Montmagny,QC,QC163008,Isle aux Grues,Montmagny,QC,WITHIN,0.2864,1.0,0.2864,100.0
+QC035008,"Montmini, Township",Montmagny,QC,QC163007,"Montminy, Ashburton, Rolette, Panet",Montmagny,QC,WITHIN,0.4737,1.0,0.4737,64.34
+QC035010,St. Ignace,Montmagny,QC,QC163004,"Cap St. Ignace, Bourdages, Patton & Talon",Montmagny,QC,WITHIN,0.4174,1.0,0.4174,57.45
+QC038002,Blandford,Nicolet,QC,QC135007,"Gentilly, Blandford",Nicolet,QC,WITHIN,0.3292,1.0,0.3292,75.0
+QC039001,Addington,Outaouais,QC,QC095009,"Nation, N",Ottaoua Est,QC,WITHIN,0.4782,1.0,0.4782,52.11
+QC039006,Bigelow,Outaouais,QC,QC094006,"Bowman, Bigelow",Ottaoua Centre,QC,WITHIN,0.4018,1.0,0.4018,60.2
+QC039005,Bidwell,Outaouais,QC,QC095999,NO DATA,Ottaoua Est,QC,WITHIN,0.0892,1.0,0.0892,31.0
+QC039014,Denholm,Outaouais,QC,QC093006,Wakefield,Ottawa Ouest,QC,WITHIN,0.397,1.0,0.397,34.64
+QC039024,Kensington,Outaouais,QC,QC093016,Kensington,Ottawa Ouest,QC,WITHIN,0.2092,1.0,0.2092,87.14
+QC039002,Aumond,Outaouais,QC,QC093016,Kensington,Ottawa Ouest,QC,WITHIN,0.1794,1.0,0.1794,34.64
+QC039018,Egan,Outaouais,QC,QC093016,Kensington,Ottawa Ouest,QC,WITHIN,0.2457,1.0,0.2457,47.14
+QC039010,Bouthillier,Outaouais,QC,QC094008,"Lièvres, W-O",Ottaoua Centre,QC,WITHIN,0.3703,1.0,0.3703,33.91
+QC039007,Blake,Outaouais,QC,QC094008,"Lièvres, W-O",Ottaoua Centre,QC,WITHIN,0.3775,1.0,0.3775,32.12
+QC039016,Dudley,Outaouais,QC,QC094009,"Lièvres, E",Ottaoua Centre,QC,WITHIN,0.1836,1.0,0.1836,33.15
+QC039023,Kiamica,Outaouais,QC,QC094009,"Lièvres, E",Ottaoua Centre,QC,WITHIN,0.1653,1.0,0.1653,23.89
+QC039029,Northfield,Outaouais,QC,QC093011,Northfield,Ottawa Ouest,QC,SAME_AS,1.0,1.0,1.0,87.14
+QC040001,Aberdeen,Pontiac,QC,QC092007,Rivière Creuse,Pontiac Nord,QC,WITHIN,0.3997,1.0,0.3997,47.56
+QC040018,Aberford,Pontiac,QC,QC092008,Bas Dumoine,Pontiac Nord,QC,CONTAINS,0.0085,0.0085,1.0,36.84
+QC040018,Aberford,Pontiac,QC,QC092999,NO DATA,Pontiac Nord,QC,WITHIN,0.0069,0.9915,0.0069,40.77
+QC040010,Mansfield,Pontiac,QC,QC091009,"Mansfield, Pontefract",Pontiac Sud,QC,WITHIN,0.4885,1.0,0.4885,65.33
+QC040019,Cawood,Pontiac,QC,QC093008,Pikanock,Ottawa Ouest,QC,WITHIN,0.2167,1.0,0.2167,29.47
+QC040017,Stanhope,Pontiac,QC,QC093008,Pikanock,Ottawa Ouest,QC,WITHIN,0.2727,1.0,0.2727,35.72
+QC040020,Huddersfield,Pontiac,QC,QC093008,Pikanock,Ottawa Ouest,QC,WITHIN,0.2324,1.0,0.2324,16.47
+QC042004,General Hospital,Quebec (Comté),QC,QC147003,"St. Roch, S",Quebec Est,QC,WITHIN,0.0026,1.0,0.0026,35.56
+QC045003,Macpès,Rimouski,QC,QC167005,Saint Germain de Rimouski,Rimouski Ouest,QC,WITHIN,0.5216,1.0,0.5216,35.37
+QC049007,St. Télesphore,Soulanges,QC,QC110002,St. Polycarpe,Soulanges,QC,WITHIN,0.4328,1.0,0.4328,71.48
+QC051001,Isle-aux-Noix (Prison),St. Johns,QC,QC117002,St. Valentin,St. Jean,QC,WITHIN,0.0038,1.0,0.0038,45.88
+QC051007,St. Valentin,St. Johns,QC,QC117002,St. Valentin,St. Jean,QC,SAME_AS,0.9962,1.0,0.9962,91.18
+QC054001,Begon,Temiscouata,QC,QC166014,"Bégon, Raudot",Temiscouata,QC,WITHIN,0.4973,1.0,0.4973,61.11
+QC055005,"St. Jérôme, Village",Terrebonne,QC,QC099010,"St. Jérôme, Village",Terrebonne,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC063001,Banlieue,City of Three Rivers,QC,QC131005,"Trois Rivières, Paroisse",Trois Rivieres,QC,WITHIN,0.2853,1.0,0.2853,29.01
+QC056010,St. Jérôme,Two Mountains,QC,QC099009,St. Jérôme,Terrebonne,QC,WITHIN,0.0645,1.0,0.0645,80.43
+QC059002,Garthby,Wolfe,QC,QC139006,"Garthby, Stratford",Wolfe,QC,WITHIN,0.4797,1.0,0.4797,69.2
+QC064005,"Sherbrooke, South",Town of Sherbrooke,QC,QC140001,"Sherbrooke, Town—Ville",Sherbrooke,QC,WITHIN,0.2744,1.0,0.2744,68.1
+QC064003,"Sherbrooke, East",Town of Sherbrooke,QC,QC140001,"Sherbrooke, Town—Ville",Sherbrooke,QC,WITHIN,0.4783,1.0,0.4783,69.32
+QC064004,"Sherbrooke, North",Town of Sherbrooke,QC,QC140001,"Sherbrooke, Town—Ville",Sherbrooke,QC,WITHIN,0.2417,1.0,0.2417,68.1
+QC047005,River Moisie and other places,Saguenay,QC,QC152001,Manicouagan,Labrador,QC,CONTAINS,0.1829,0.1829,1.0,25.0
+QC047005,River Moisie and other places,Saguenay,QC,QC152002,Pointe des Monts,Labrador,QC,CONTAINS,0.5315,0.5315,1.0,35.5
+QC047005,River Moisie and other places,Saguenay,QC,QC152009,Sauvages des Sept Isles,Labrador,QC,CONTAINS,0.0014,0.0014,1.0,37.12
+QC047008,River St. Jean and other places,Saguenay,QC,QC152011,Sauvages de Mingan,Labrador,QC,CONTAINS,0.0241,0.0241,1.0,30.36
+QC047009,"Bay of Kegasca, and other places",Saguenay,QC,QC152007,Mécatina,Labrador,QC,CONTAINS,0.3114,0.3114,1.0,21.5
+QC047009,"Bay of Kegasca, and other places",Saguenay,QC,QC152008,Bonne Espérance,Labrador,QC,CONTAINS,0.6337,0.6337,1.0,34.31
+QC019010,Mont Louis,Gaspé,QC,QC170003,Mont Louis,Gaspé Ouest,QC,WITHIN,0.4228,1.0,0.4228,88.75
+QC040002,Aldfield,Pontiac,QC,QC091001,"Onslow, Aldfield",Pontiac Sud,QC,WITHIN,0.4167,1.0,0.4167,70.0
+QC047001,Saguenay and Rivière Ste. Marguerite,Saguenay,QC,QC151001,Tadoussac,Saguenay,QC,WITHIN,0.5158,1.0,0.5158,42.44
+QC020999,NO DATA,Hochelaga,QC,QC107999,NO DATA,Hochelaga,QC,SAME_AS,1.0,1.0,1.0,100.0
+QC039021,Hull,Outaouais,QC,QC093002,Hull,Ottawa Ouest,QC,SAME_AS,1.0,1.0,1.0,87.14
+QC012012,St. Tite and Chantiers,Champlain,QC,QC133004,St. Tite,Champlain Nord,QC,CONTAINS,0.4946,0.4946,1.0,60.81
+QC012012,St. Tite and Chantiers,Champlain,QC,QC133008,Bostonnais,Champlain Nord,QC,CONTAINS,0.0213,0.0213,1.0,49.73

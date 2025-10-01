@@ -10,19 +10,38 @@ venv/
 dist/
 build/
 
-# Data files (large)
+# Source data files (large - not in repo)
 *.zip
 *.xlsx
 *.xls
-*.csv
 *.gdb/
+TCP_CANADA_CSD_202306/
+1851/
+1861/
+1871/
+1881/
+1891/
+1901/
+1911Tables/
+1921Tables/
+
+# Generated RDF (regenerate as needed)
 *.ttl
 *.rdf
 
-# Output directories
-neo4j_*/
+# Generated output directories - KEEP THESE
+# neo4j_cidoc_crm/           # Spatial CIDOC-CRM CSVs (9.7 MB)
+# neo4j_census_observations/ # Census observations CSVs (155 MB)
+# year_links_output/         # Temporal links CSVs (2.3 MB)
+
+# Exclude test output
+neo4j_census_test/
+
+# Other generated outputs
 generated/
-year_links_output/
+canonical_names.log
+build_cidoc_crm.log
+link_all_years.log
 
 # Conda
 .conda/

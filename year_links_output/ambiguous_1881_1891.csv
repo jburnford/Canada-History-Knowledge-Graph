@@ -1,0 +1,423 @@
+tcpuid_1881,csd_name_1881,cd_name_1881,pr_1881,tcpuid_1891,csd_name_1891,cd_name_1891,pr_1891,relationship,iou,frac_from,frac_to,name_similarity
+ON182999,NO DATA,Algoma,ON,ON110010,"Harcourt, Dudley, Dysart, Guilford, Harburn, Bruton, Clyde, Eyre, Havelock, Livingstone, Lawrence & Nightingale","Peterborough, East—Est",ON,OVERLAPS,0.0038,0.0038,0.5431,12.59
+ON182999,NO DATA,Algoma,ON,ON096005,"Bonfield, Chisholm, Boulter & Ferris",Nipissing,ON,OVERLAPS,0.0025,0.0025,0.8929,17.02
+ON182999,NO DATA,Algoma,ON,ON096012,Unorganized Territory,Nipissing,ON,OVERLAPS,0.1875,0.1914,0.9007,24.0
+ON182999,NO DATA,Algoma,ON,ON046016,Port Findlay,Algoma,ON,OVERLAPS,0.0003,0.0003,0.6109,59.47
+ON182999,NO DATA,Algoma,ON,ON046017,Root River & Korah,Algoma,ON,OVERLAPS,0.0005,0.0005,0.5834,46.8
+ON182999,NO DATA,Algoma,ON,ON046021,Spanish River,Algoma,ON,OVERLAPS,0.0047,0.0048,0.6835,44.0
+ON182999,NO DATA,Algoma,ON,ON046006,Goulais Bay,Algoma,ON,OVERLAPS,0.0016,0.0016,0.8822,53.33
+ON182999,NO DATA,Algoma,ON,ON046035,Nipigon & Pays Plat,Algoma,ON,OVERLAPS,0.0016,0.0016,0.5429,56.92
+ON182999,NO DATA,Algoma,ON,ON046064,Unorganized Territory,Algoma,ON,OVERLAPS,0.568,0.7541,0.6972,50.0
+ON182001,"Howland, Strawberry, Lacloche, Haywood Island",Algoma,ON,ON046010,Killarney,Algoma,ON,OVERLAPS,0.3008,0.5877,0.3812,42.96
+ON182016,Thessalon,Algoma,ON,ON046024,Thessalon (Western Division),Algoma,ON,SAME_AS,1.0,1.0,1.0,64.05
+ON160003,Dumfries S,"Brant, North—Nord",ON,ON049004,"Paris, Town—Ville","Brant, South—Sud",ON,OVERLAPS,0.0083,0.0084,0.6637,42.56
+ON159005,Tuscarora,"Brant, South—Sud",ON,ON049003,Onondaga,"Brant, South—Sud",ON,OVERLAPS,0.5655,0.8822,0.6117,46.47
+ON159001,"Brantford, Town—Ville","Brant, South—Sud",ON,ON049001,Brantford W-O,"Brant, South—Sud",ON,OVERLAPS,0.0456,0.7489,0.0463,75.29
+ON177005,Amabel,"Bruce, North—Nord",ON,ON052002,Amabel & Saugeen,"Bruce, North—Nord",ON,SAME_AS,0.9922,1.0,0.9922,68.18
+ON177003,Saugeen,"Bruce, North—Nord",ON,ON053007,Saugeen,"Bruce, West—Ouest",ON,OVERLAPS,0.9543,1.0,0.9543,87.65
+ON177004,"Southampton, Village","Bruce, North—Nord",ON,ON053007,Saugeen,"Bruce, West—Ouest",ON,OVERLAPS,0.0444,0.5976,0.0457,38.39
+ON108009,Fitzroy,Carleton,ON,ON083004,Fitzroy,"Lanark, North—Nord",ON,SAME_AS,1.0,1.0,1.0,79.23
+ON108002,Gower N,Carleton,ON,ON055005,North Gower,Carleton,ON,SAME_AS,1.0,1.0,1.0,68.89
+ON108007,Huntley,Carleton,ON,ON083005,Huntley,"Lanark, North—Nord",ON,SAME_AS,1.0,1.0,1.0,79.23
+ON155005,Melancthon,"Grey, East—Est",ON,ON067009,"Shelburne, Village","Grey, East—Est",ON,OVERLAPS,0.0052,0.0052,0.6667,45.0
+ON152001,"Orangeville, Town—Ville","Wellington, Centre",ON,ON126008,"Orangeville, Town—Ville","Wellington, Centre",ON,OVERLAPS,0.2342,0.2624,0.6859,100.0
+ON155006,"Shelburne, Village","Grey, East—Est",ON,ON067009,"Shelburne, Village","Grey, East—Est",ON,OVERLAPS,0.2793,0.6329,0.3333,100.0
+ON102002,Iroquois,Dundas,ON,ON057002,"Iroquois, Village",Dundas,ON,SAME_AS,1.0,1.0,1.0,74.8
+ON128001,Darlington,"Durham, West—Ouest",ON,ON059004,Darlington,"Durham, West—Ouest",ON,OVERLAPS,0.9514,1.0,0.9514,100.0
+ON127001,Hope,"Durham, East—Est",ON,ON058002,Hope,"Durham, East—Est",ON,OVERLAPS,0.9786,0.9995,0.9791,100.0
+ON128005,"Bowmanville, Town—Ville","Durham, West—Ouest",ON,ON059004,Darlington,"Durham, West—Ouest",ON,OVERLAPS,0.0482,0.8564,0.0486,51.21
+ON127002,"Port Hope, Town—Ville","Durham, East—Est",ON,ON058005,"Port Hope, Town—Ville","Durham, East—Est",ON,OVERLAPS,0.283,0.2878,0.9439,100.0
+ON127002,"Port Hope, Town—Ville","Durham, East—Est",ON,ON058002,Hope,"Durham, East—Est",ON,OVERLAPS,0.0207,0.7122,0.0209,52.4
+ON128002,"Newcastle, Village","Durham, West—Ouest",ON,ON059003,Clarke,"Durham, West—Ouest",ON,OVERLAPS,0.0176,0.6842,0.0178,53.33
+ON163003,"St. Thomas, Town—Ville","Elgin, East—Est",ON,ON060005,"St. Thomas, City—Cité","Elgin, East—Est",ON,SAME_AS,1.0,1.0,1.0,78.84
+ON181010,Sandwich W-O,Essex,ON,ON062010,"Windsor, Town—Ville","Essex, North—Nord",ON,OVERLAPS,0.0147,0.0149,0.6242,31.7
+ON181011,"Sandwich, Town—Ville",Essex,ON,ON062005,Sandwich W-O,"Essex, North—Nord",ON,OVERLAPS,0.0732,0.7785,0.0748,57.39
+ON181017,Tilbury W-O,Essex,ON,ON062007,Tilbury,"Essex, North—Nord",ON,SAME_AS,0.989,0.989,1.0,68.08
+ON107006,"Kemptville, Village","Leeds & Grenville, North—Nord",ON,ON085003,Kemptville,"Leeds & Grenville, North—Nord",ON,SAME_AS,1.0,1.0,1.0,78.28
+ON146003,Cayuga S,Haldimand,ON,ON094002,Cayuga S,Monck,ON,SAME_AS,1.0,1.0,1.0,78.57
+ON150004,"Oakville, Town—Ville",Halton,ON,ON071008,"Oakville, Town—Ville",Halton,ON,OVERLAPS,0.2232,0.2568,0.6305,100.0
+ON150004,"Oakville, Town—Ville",Halton,ON,ON071009,Trafalgar,Halton,ON,OVERLAPS,0.0156,0.7432,0.0157,39.66
+ON120001,Thurlow,"Hastings, East—Est",ON,ON073003,Thurlow,"Hastings, East—Est",ON,OVERLAPS,0.9605,1.0,0.9605,100.0
+ON120002,Tyendinaga,"Hastings, East—Est",ON,ON073004,Tyendinaga,"Hastings, East—Est",ON,OVERLAPS,0.9492,0.9936,0.9551,100.0
+ON121001,Sidney,"Hastings, West—Ouest",ON,ON075003,Sydney,"Hastings, West—Ouest",ON,OVERLAPS,0.9504,0.9917,0.9581,88.33
+ON174007,Grey,"Huron, Centre",ON,ON076002,"Brussels, Village","Huron, East—Est",ON,OVERLAPS,0.0069,0.0069,0.7531,34.76
+ON175004,Wawanosh E,"Huron, North—Nord",ON,ON078004,East Wawanosh,"Huron, West—Ouest",ON,SAME_AS,1.0,1.0,1.0,66.34
+ON175008,"Wingham, Village","Huron, North—Nord",ON,ON076007,"Wingham, Town—Ville","Huron, East—Est",ON,SAME_AS,1.0,1.0,1.0,72.88
+ON174008,Brussels,"Huron, Centre",ON,ON076003,Grey,"Huron, East—Est",ON,OVERLAPS,0.0023,0.5061,0.0023,44.76
+ON174001,Tuckersmith,"Huron, Centre",ON,ON077005,"Seaforth, Town—Ville","Huron, South—Sud",ON,OVERLAPS,0.0098,0.0099,0.6901,34.62
+ON173007,Goderich,"Huron, South—Sud",ON,ON078002,"Clinton, Town—Ville","Huron, West—Ouest",ON,OVERLAPS,0.0071,0.0071,0.6611,30.37
+ON173007,Goderich,"Huron, South—Sud",ON,ON078005,Goderich,"Huron, West—Ouest",ON,OVERLAPS,0.9616,0.9929,0.9683,90.0
+ON174002,"Goderich, Town—Ville","Huron, Centre",ON,ON078005,Goderich,"Huron, West—Ouest",ON,OVERLAPS,0.0227,0.6855,0.0229,60.0
+ON180007,Chatham,Kent,ON,ON047003,Chatham,Bothwell,ON,SAME_AS,1.0,1.0,1.0,75.0
+ON178001,Howard,Bothwell,ON,ON061004,Howard,"Elgin, West—Ouest",ON,SAME_AS,1.0,1.0,1.0,74.8
+ON178002,Orford,Bothwell,ON,ON061005,Orford,"Elgin, West—Ouest",ON,SAME_AS,1.0,1.0,1.0,74.8
+ON178008,Bothwell,Bothwell,ON,ON047001,"Bothwell, Town—Ville",Bothwell,ON,SAME_AS,1.0,1.0,1.0,70.0
+ON178009,"Ridgetown, Village",Bothwell,ON,ON061006,"Ridgetown, Town—Ville","Elgin, West—Ouest",ON,SAME_AS,1.0,1.0,1.0,62.24
+ON180008,"Wallaceburgh, Village",Kent,ON,ON047008,"Wallaceburg, Village",Bothwell,ON,SAME_AS,1.0,1.0,1.0,73.29
+ON178005,Euphemia,Bothwell,ON,ON093003,Euphemia,"Middlesex, West—Ouest",ON,SAME_AS,1.0,1.0,1.0,74.14
+ON179017,"Forest, Village",Lambton,ON,ON082001,"Forest, Town—Ville","Lambton, West—Ouest",ON,SAME_AS,1.0,1.0,1.0,71.31
+ON179002,Sarnia,Lambton,ON,ON082005,Sarnia,"Lambton, West—Ouest",ON,OVERLAPS,0.9728,0.9888,0.9836,86.15
+ON179002,Sarnia,Lambton,ON,ON082004,"Point Edward, Village","Lambton, West—Ouest",ON,OVERLAPS,0.0095,0.0096,0.7431,36.89
+ON179001,"Sarnia, Town—Ville",Lambton,ON,ON082006,"Sarnia, Town—Ville","Lambton, West—Ouest",ON,OVERLAPS,0.4498,0.4804,0.876,86.15
+ON179001,"Sarnia, Town—Ville",Lambton,ON,ON082005,Sarnia,"Lambton, West—Ouest",ON,OVERLAPS,0.012,0.5196,0.0121,51.15
+ON112001,Ramsay,"Lanark, North—Nord",ON,ON083010,Ramsay,"Lanark, North—Nord",ON,OVERLAPS,0.9798,0.9932,0.9864,100.0
+ON112001,Ramsay,"Lanark, North—Nord",ON,ON083001,"Almonte, Town—Ville","Lanark, North—Nord",ON,OVERLAPS,0.0068,0.0068,0.7105,41.2
+ON118006,"Denbigh, Abinger, Ashby, Effingham",Addington,ON,ON045001,"Abinger, Effingham, Ashby & Denbigh",Addington,ON,SAME_AS,1.0,1.0,1.0,70.58
+ON117008,Richmond,Lennox,ON,ON087008,Richmond,Lennox,ON,OVERLAPS,0.9711,1.0,0.9711,100.0
+ON117007,"Napanee, Town—Ville",Lennox,ON,ON087008,Richmond,Lennox,ON,OVERLAPS,0.0219,0.658,0.0221,40.37
+ON144001,Caistor,Monck,ON,ON130003,Caistor,"Wentworth, South—Sud",ON,SAME_AS,1.0,1.0,1.0,72.4
+ON143001,"Niagara, Township",Niagara,ON,ON088006,Niagara,Lincoln & Niagara,ON,OVERLAPS,0.9749,0.9912,0.9834,58.33
+ON143002,"Niagara, Town—Ville",Niagara,ON,ON088006,Niagara,Lincoln & Niagara,ON,OVERLAPS,0.0163,0.5179,0.0166,55.19
+ON143002,"Niagara, Town—Ville",Niagara,ON,ON088007,"Niagara, Town—Ville",Lincoln & Niagara,ON,OVERLAPS,0.3786,0.4821,0.6383,87.5
+ON145009,"Grimsby, Village",Lincoln,ON,ON130007,"Grimsby, Village","Wentworth, South—Sud",ON,SAME_AS,1.0,1.0,1.0,74.44
+ON167001,Westminster,"Middlesex, East—Est",ON,ON090004,London E,"Middlesex, East—Est",ON,OVERLAPS,0.0158,0.0159,0.7071,44.74
+ON169001,Adelaide,"Middlesex, North—Nord",ON,ON093001,Adelaide,"Middlesex, West—Ouest",ON,OVERLAPS,0.967,0.9895,0.977,90.0
+ON169001,Adelaide,"Middlesex, North—Nord",ON,ON093008,"Strathroy, Town—Ville","Middlesex, West—Ouest",ON,OVERLAPS,0.0102,0.0102,0.7737,34.48
+ON131009,"Macauly, Bracebridge, Village",Muskoka,ON,ON101006,Macaulay,"Ontario, North—Nord",ON,OVERLAPS,0.979,0.979,1.0,31.1
+ON131004,"Medora, Wood",Muskoka,ON,ON117004,Medora & Wood,"Simcoe, East—Est",ON,SAME_AS,1.0,1.0,1.0,69.43
+ON131005,Monck,Muskoka,ON,ON117006,Monck,"Simcoe, East—Est",ON,SAME_AS,1.0,1.0,1.0,77.83
+ON131001,Morrison,Muskoka,ON,ON101009,Morrison,"Ontario, North—Nord",ON,SAME_AS,1.0,1.0,1.0,74.62
+ON131003,Muskoka,Muskoka,ON,ON117007,Muskoka,"Simcoe, East—Est",ON,SAME_AS,1.0,1.0,1.0,77.83
+ON114004,"Head, Clara, Maria","Renfrew, North—Nord",ON,ON114005,"Head, Maria & Clara","Renfrew, North—Nord",ON,SAME_AS,1.0,1.0,1.0,79.19
+ON157004,Woodhouse,"Norfolk, South—Sud",ON,ON098003,"Port Dover, Village","Norfolk, South—Sud",ON,OVERLAPS,0.0131,0.0131,0.6995,50.0
+ON157004,Woodhouse,"Norfolk, South—Sud",ON,ON098007,Woodhouse,"Norfolk, South—Sud",ON,OVERLAPS,0.9669,0.983,0.9834,100.0
+ON158005,"Simcoe, Town—Ville","Norfolk, North—Nord",ON,ON098005,"Simcoe, Town—Ville","Norfolk, South—Sud",ON,OVERLAPS,0.3849,0.4281,0.7922,92.7
+ON123005,Murray,"Northumberland, East—Est",ON,ON099007,Murray,"Northumberland, East—Est",ON,OVERLAPS,0.9763,1.0,0.9763,100.0
+ON123004,"Brighton, Village","Northumberland, East—Est",ON,ON099001,Brighton,"Northumberland, East—Est",ON,OVERLAPS,0.0564,0.8444,0.057,74.8
+ON123009,"Hastings, Village","Northumberland, East—Est",ON,ON099006,"Hastings, Village","Northumberland, East—Est",ON,OVERLAPS,0.5335,0.7368,0.6591,100.0
+ON124003,Hamilton,"Northumberland, West—Ouest",ON,ON100004,Hamilton,"Northumberland, West—Ouest",ON,OVERLAPS,0.9548,1.0,0.9548,100.0
+ON124004,"Cobourg, Town—Ville","Northumberland, West—Ouest",ON,ON100004,Hamilton,"Northumberland, West—Ouest",ON,OVERLAPS,0.0448,0.8481,0.0452,45.56
+ON132004,Whitby E,"Ontario, South—Sud",ON,ON102004,Whitby E,"Ontario, South—Sud",ON,OVERLAPS,0.9712,0.9712,1.0,100.0
+ON132003,"Whitby, Town—Ville","Ontario, South—Sud",ON,ON102005,Whitby W-O,"Ontario, South—Sud",ON,OVERLAPS,0.1915,0.919,0.1948,70.0
+ON166006,Blandford,"Oxford, North—Nord",ON,ON105001,Blandford,"Oxford, North—Nord",ON,OVERLAPS,0.9799,1.0,0.9799,100.0
+ON166005,"Woodstock, Town—Ville","Oxford, North—Nord",ON,ON105006,"Woodstock, Town—Ville","Oxford, North—Nord",ON,OVERLAPS,0.5447,0.6802,0.7323,100.0
+ON165009,Oxford N,"Oxford, South—Sud",ON,ON106008,Oxford N,"Oxford, South—Sud",ON,OVERLAPS,0.9735,1.0,0.9735,100.0
+ON165007,Oxford W-O,"Oxford, South—Sud",ON,ON106009,Oxford W-O,"Oxford, South—Sud",ON,OVERLAPS,0.974,0.9805,0.9933,100.0
+ON165008,"Ingersoll, Town—Ville","Oxford, South—Sud",ON,ON106002,"Ingersoll, Town—Ville","Oxford, South—Sud",ON,OVERLAPS,0.2443,0.3002,0.5672,100.0
+ON165008,"Ingersoll, Town—Ville","Oxford, South—Sud",ON,ON106008,Oxford N,"Oxford, South—Sud",ON,OVERLAPS,0.0259,0.537,0.0265,44.48
+ON165002,Tilsonburgh,"Oxford, South—Sud",ON,ON097003,"Tilsonburg, Town—Ville","Norfolk, North—Nord",ON,OVERLAPS,0.4301,0.4938,0.7692,59.09
+ON165002,Tilsonburgh,"Oxford, South—Sud",ON,ON097001,Dereham,"Norfolk, North—Nord",ON,OVERLAPS,0.0069,0.5062,0.007,32.22
+ON131019,"McKellar, Hagerman",Muskoka,ON,ON095018,McKellar & Hagerman,Muskoka & Parry Sound,ON,SAME_AS,1.0,1.0,1.0,79.32
+ON131023,"Lount, Machar & Laurier",Muskoka,ON,ON095016,"Laurier, Machar & Lount",Muskoka & Parry Sound,ON,SAME_AS,1.0,1.0,1.0,60.65
+ON140002,Chinguacousy,Peel,ON,ON107002,Chinguacousy,Peel,ON,OVERLAPS,0.975,1.0,0.975,100.0
+ON140001,"Toronto, Township",Peel,ON,ON107004,Toronto,Peel,ON,SAME_AS,1.0,1.0,1.0,70.83
+ON140003,"Brampton, Town—Ville",Peel,ON,ON107002,Chinguacousy,Peel,ON,OVERLAPS,0.0248,0.7752,0.025,38.75
+ON171006,Fullarton,"Perth, South—Sud",ON,ON109003,Fullarton,"Perth, South—Sud",ON,OVERLAPS,0.9795,1.0,0.9795,100.0
+ON171007,"Mitchell, Town—Ville","Perth, South—Sud",ON,ON109005,"Mitchell, Town—Ville","Perth, South—Sud",ON,OVERLAPS,0.1516,0.1769,0.5143,100.0
+ON171002,"St. Mary's, Town—Ville","Perth, South—Sud",ON,ON109001,Blanchard,"Perth, South—Sud",ON,OVERLAPS,0.0459,0.8131,0.0464,39.03
+ON171002,"St. Mary's, Town—Ville","Perth, South—Sud",ON,ON109006,"St. Mary’s, Town—Ville","Perth, South—Sud",ON,OVERLAPS,0.1826,0.1869,0.8894,96.82
+ON126003,Monaghan N,"Peterborough, West—Ouest",ON,ON111002,Monaghan N,"Peterborough, West—Ouest",ON,OVERLAPS,0.5652,0.5946,0.9196,100.0
+ON125001,"Ashburnham, Village","Peterborough, East—Est",ON,ON110016,Otonabee,"Peterborough, East—Est",ON,OVERLAPS,0.006,0.7804,0.006,45.56
+ON119007,Marysborough N,Prince Edward,ON,ON113005,Marysburg N,Prince Edward,ON,OVERLAPS,0.9769,1.0,0.9769,86.0
+ON114009,"Rolph, Buchanan, Wylie","Renfrew, North—Nord",ON,ON114004,"Buchanan, Wylie & Rolph","Renfrew, North—Nord",ON,SAME_AS,1.0,1.0,1.0,76.67
+ON104005,Gloucester,Russell,ON,ON116005,"Ottawa, New Edinburgh, Ward—Quartier",Russell,ON,OVERLAPS,0.0062,0.0062,0.6434,45.22
+ON139014,"Orillia, Matchedash","Simcoe, North—Nord",ON,ON117009,"Orillia, Town—Ville","Simcoe, East—Est",ON,OVERLAPS,0.0035,0.0035,0.9464,58.17
+ON139009,Penetanguishene,"Simcoe, North—Nord",ON,ON117011,"Penetanguishene, Town—Ville","Simcoe, East—Est",ON,SAME_AS,1.0,1.0,1.0,67.65
+ON139001,Nottawasaga,"Simcoe, North—Nord",ON,ON118005,Nottawasaga,"Simcoe, North—Nord",ON,OVERLAPS,0.9756,0.9928,0.9825,100.0
+ON139003,"Collingwood, Town—Ville","Simcoe, North—Nord",ON,ON118002,"Collingwood, Town—Ville","Simcoe, North—Nord",ON,OVERLAPS,0.2291,0.2376,0.8653,100.0
+ON139003,"Collingwood, Town—Ville","Simcoe, North—Nord",ON,ON118005,Nottawasaga,"Simcoe, North—Nord",ON,OVERLAPS,0.0174,0.7624,0.0175,46.47
+ON138003,"Bradford, Village","Simcoe, South—Sud",ON,ON132006,Gwillimbury W-O,"York, North—Nord",ON,OVERLAPS,0.0162,0.65,0.0163,27.67
+ON138003,"Bradford, Village","Simcoe, South—Sud",ON,ON132002,"Bradford, Village","York, North—Nord",ON,OVERLAPS,0.3405,0.35,0.9263,84.55
+ON101001,Osmabruck,Stormont,ON,ON056006,Osnabruck,Cornwall & Stormont,ON,SAME_AS,1.0,1.0,1.0,80.0
+ON136006,York W-O,"York, West—Ouest",ON,ON133004,"Toronto, St. Mark’s, Ward—Quartier","York, West—Ouest",ON,OVERLAPS,0.0241,0.0246,0.5662,46.67
+ON136006,York W-O,"York, West—Ouest",ON,ON133008,York W-O,"York, West—Ouest",ON,OVERLAPS,0.9475,0.9512,0.996,100.0
+ON129001,Ops,"Victoria, South—Sud",ON,ON122006,Ops,"Victoria, South—Sud",ON,OVERLAPS,0.9688,0.9977,0.971,100.0
+ON125010,"Stanhope, Sherburne, McClintock","Peterborough, East—Est",ON,ON121013,"Stanhope, Sherburne & McClintock","Victoria, North—Nord",ON,SAME_AS,1.0,1.0,1.0,76.67
+ON129002,"Lindsay, Town—Ville","Victoria, South—Sud",ON,ON122006,Ops,"Victoria, South—Sud",ON,OVERLAPS,0.0288,0.7955,0.029,36.36
+ON129002,"Lindsay, Town—Ville","Victoria, South—Sud",ON,ON122003,"Lindsay, Town—Ville","Victoria, South—Sud",ON,OVERLAPS,0.1929,0.2045,0.7725,100.0
+ON162003,Waterloo N,"Waterloo, North—Nord",ON,ON123003,Waterloo,"Waterloo, North—Nord",ON,OVERLAPS,0.8845,0.9428,0.9347,92.22
+ON162005,"Berlin, Town—Ville","Waterloo, North—Nord",ON,ON123004,"Waterloo, Town—Ville","Waterloo, North—Nord",ON,OVERLAPS,0.6341,0.8149,0.7407,85.26
+ON162005,"Berlin, Town—Ville","Waterloo, North—Nord",ON,ON123001,"Berlin, Town—Ville","Waterloo, North—Nord",ON,OVERLAPS,0.1328,0.1395,0.7346,100.0
+ON161003,Waterloo S,"Waterloo, South—Sud",ON,ON124007,Waterloo S,"Waterloo, South—Sud",ON,OVERLAPS,0.9611,1.0,0.9611,100.0
+ON142003,Bertie,Welland,ON,ON125001,Bertie,Welland,ON,OVERLAPS,0.9728,0.9976,0.9751,100.0
+ON142001,Humberstone,Welland,ON,ON125008,"Port Colborne, Village",Welland,ON,OVERLAPS,0.0159,0.0159,0.8653,51.21
+ON142001,Humberstone,Welland,ON,ON125005,Humberstone,Welland,ON,OVERLAPS,0.9685,0.9841,0.9839,100.0
+ON142008,Thorold,Welland,ON,ON125011,"Thorold, Town—Ville",Welland,ON,OVERLAPS,0.012,0.0121,0.5143,67.69
+ON142007,Willoughby,Welland,ON,ON125013,Willoughby,Welland,ON,OVERLAPS,0.9761,0.9877,0.9881,100.0
+ON142006,"Welland, Town—Ville",Welland,ON,ON125003,Crowland,Welland,ON,OVERLAPS,0.0514,0.5251,0.0539,55.93
+ON142004,"Port Erie, Village",Welland,ON,ON125001,Bertie,Welland,ON,OVERLAPS,0.0245,0.6512,0.0249,53.33
+ON142004,"Port Erie, Village",Welland,ON,ON125004,"Fort Erie, Village",Welland,ON,OVERLAPS,0.3287,0.3488,0.8506,96.11
+ON172009,"Palmerston, Town—Ville","Perth, North—Nord",ON,ON127009,"Palmerston, Town—Ville","Wellington, North—Nord",ON,OVERLAPS,0.6082,0.9237,0.6404,91.54
+ON151003,"Guelph, Town—Ville","Wellington, South—Sud",ON,ON128004,Guelph,"Wellington, South—Sud",ON,OVERLAPS,0.053,0.7869,0.0537,65.0
+ON148003,Flamborough W-O,"Wentworth, North—Nord",ON,ON129002,"Dundas, Town—Ville","Wentworth, North—Nord",ON,OVERLAPS,0.0108,0.0109,0.5701,42.73
+ON148003,Flamborough W-O,"Wentworth, North—Nord",ON,ON129004,Flamborough W-O,"Wentworth, North—Nord",ON,OVERLAPS,0.9719,0.9891,0.9824,100.0
+ON137006,Gwillimbury E,"York, North—Nord",ON,ON132004,Gwillimbury E,"York, North—Nord",ON,OVERLAPS,0.9693,0.9988,0.9704,100.0
+ON137008,Gwillimbury N,"York, North—Nord",ON,ON132005,Gwillimbury N & Snake Island,"York, North—Nord",ON,SAME_AS,0.9945,0.9945,1.0,74.39
+ON137004,"Aurora, Village","York, North—Nord",ON,ON132001,"Aurora, Town—Ville","York, North—Nord",ON,OVERLAPS,0.2111,0.2626,0.5187,85.15
+ON137007,"Holland Landing, Village","York, North—Nord",ON,ON132007,"Holland Landing, Village","York, North—Nord",ON,OVERLAPS,0.2171,0.2237,0.8808,100.0
+ON137007,"Holland Landing, Village","York, North—Nord",ON,ON132004,Gwillimbury E,"York, North—Nord",ON,OVERLAPS,0.0294,0.7763,0.0296,48.92
+ON137002,"Stouffville, Village","York, North—Nord",ON,ON103003,"Stouffville, Village","Ontario, West—Ouest",ON,OVERLAPS,0.322,0.469,0.5067,82.0
+ON137002,"Stouffville, Village","York, North—Nord",ON,ON103006,Whitchurch,"Ontario, West—Ouest",ON,OVERLAPS,0.0055,0.531,0.0055,21.33
+ON107001,Kitley,"Leeds & Grenville, North—Nord",ON,ON050007,Kitley,Brockville,ON,SAME_AS,1.0,1.0,1.0,79.23
+ON135002,York E,"York, East—Est",ON,ON120006,"Toronto, St. Lawrence, Ward—Quartier","Toronto, City—Cité",ON,OVERLAPS,0.0149,0.0151,0.5134,26.46
+ON135002,York E,"York, East—Est",ON,ON131003,"Toronto, St. Paul & St. Mathew’s, Ward—Quartier","York, East—Est",ON,OVERLAPS,0.0501,0.0518,0.5993,40.57
+ON170005,"London, Ward—Quartier No. 5","London, City—Cité",ON,ON089002,"London, Ward—Quartier No. 2","London, City—Cité",ON,OVERLAPS,0.3355,0.4584,0.5558,97.41
+ON170005,"London, Ward—Quartier No. 5","London, City—Cité",ON,ON089004,"London, Ward—Quartier No. 4","London, City—Cité",ON,OVERLAPS,0.3525,0.5416,0.5023,97.41
+ON182030,Prince Arthur,Algoma,ON,ON046039,Port Arthur S,Algoma,ON,OVERLAPS,0.147,0.1629,0.6004,78.46
+ON111007,"Smith's Falls, Village","Lanark, South—Sud",ON,ON085006,"Smith’s Falls, Town—Ville","Leeds & Grenville, North—Nord",ON,SAME_AS,1.0,1.0,1.0,68.33
+ON131014,"Foley, Cowper, McDougall",Muskoka,ON,ON095017,"McDougall, Parry Sound (Town—Ville) & Parry Island",Muskoka & Parry Sound,ON,OVERLAPS,0.3504,0.4228,0.672,35.81
+ON131014,"Foley, Cowper, McDougall",Muskoka,ON,ON095007,"Conger, Cowper & Foley",Muskoka & Parry Sound,ON,OVERLAPS,0.366,0.5772,0.5,54.57
+ON133010,"Uxbridge, Village","Ontario, North—Nord",ON,ON103005,"Uxbridge, Town—Ville","Ontario, West—Ouest",ON,SAME_AS,1.0,1.0,1.0,75.7
+ON134001,"Toronto, St. Lawrence Ward—Quartier","Toronto, City—Cité",ON,ON120006,"Toronto, St. Lawrence, Ward—Quartier","Toronto, City—Cité",ON,OVERLAPS,0.4214,0.7588,0.4866,99.01
+ON181013,"Windsor, Town—Ville",Essex,ON,ON062005,Sandwich W-O,"Essex, North—Nord",ON,OVERLAPS,0.0412,0.6879,0.042,31.7
+ON181013,"Windsor, Town—Ville",Essex,ON,ON062009,Walkerville,"Essex, North—Nord",ON,OVERLAPS,0.1552,0.1811,0.5199,46.3
+ON179016,"Point Edward, Village",Lambton,ON,ON082004,"Point Edward, Village","Lambton, West—Ouest",ON,OVERLAPS,0.2135,0.7912,0.2262,86.15
+ON167004,"London E, Village","Middlesex, East—Est",ON,ON090005,"London W-O, Village","Middlesex, East—Est",ON,OVERLAPS,0.6132,0.9019,0.657,92.22
+ON162004,"Waterloo, Town—Ville","Waterloo, North—Nord",ON,ON123003,Waterloo,"Waterloo, North—Nord",ON,OVERLAPS,0.0609,0.8193,0.0618,70.0
+ON142002,"Port Colborne, Village",Welland,ON,ON125005,Humberstone,Welland,ON,OVERLAPS,0.0161,0.867,0.0161,51.21
+ON157005,"Port Dover, Village","Norfolk, South—Sud",ON,ON098007,Woodhouse,"Norfolk, South—Sud",ON,OVERLAPS,0.0096,0.6311,0.0097,50.0
+ON137009,Georgina,"York, North—Nord",ON,ON132003,Georgina & Georgina Island,"York, North—Nord",ON,SAME_AS,0.9878,0.9925,0.9952,62.94
+ON126001,"Peterborough, Town—Ville","Peterborough, West—Ouest",ON,ON111004,"Peterborough, Town—Ville","Peterborough, West—Ouest",ON,OVERLAPS,0.2882,0.3634,0.582,100.0
+ON125008,"Hastings, Village","Peterborough, East—Est",ON,ON099008,Percy,"Northumberland, East—Est",ON,OVERLAPS,0.0054,0.6535,0.0054,23.32
+ON131007,"Humphrey, Conger",Muskoka,ON,ON095007,"Conger, Cowper & Foley",Muskoka & Parry Sound,ON,OVERLAPS,0.345,0.5298,0.4972,40.79
+ON131020,Spence Croft,Muskoka,ON,ON095019,"Monteith, Spence & Christie",Muskoka & Parry Sound,ON,OVERLAPS,0.2522,0.5007,0.3369,50.9
+ON131020,Spence Croft,Muskoka,ON,ON095006,Chapman & Croft,Muskoka & Parry Sound,ON,OVERLAPS,0.3346,0.4993,0.5036,56.48
+ON182031,Fort William,Algoma,ON,ON046064,Unorganized Territory,Algoma,ON,OVERLAPS,0.0001,0.8875,0.0001,46.97
+ON170002,"London, Ward—Quartier No. 2","London, City—Cité",ON,ON089001,"London, Ward—Quartier No. 1","London, City—Cité",ON,OVERLAPS,0.3593,0.6032,0.4705,97.41
+ON170007,"London, Ward—Quartier No. 7","London, City—Cité",ON,ON089002,"London, Ward—Quartier No. 2","London, City—Cité",ON,OVERLAPS,0.1184,0.509,0.1337,97.41
+ON167005,"Petersville, Village","Middlesex, East—Est",ON,ON090004,London E,"Middlesex, East—Est",ON,OVERLAPS,0.1761,0.6376,0.1957,45.0
+NT193007,Bow River,The Territories,NT,NT198001,Calgary & Red Deer,Alberta,NT,OVERLAPS,0.4457,0.5868,0.6496,28.92
+NT193012,Edmonton N,The Territories,NT,NT198002,Edmonton,Alberta,NT,OVERLAPS,0.4402,0.7189,0.5318,70.4
+NT193014,Athabaska,The Territories,NT,NT202000,The Unorganized Territories,The Unorganized Territories,NT,OVERLAPS,0.0514,0.7989,0.0521,36.98
+NT193999,NO DATA,The Territories,NT,ON046043,"Savanne, Ignace, Barclay & Vermillion (Manitoulin)",Algoma,ON,OVERLAPS,0.0008,0.0008,0.7431,15.14
+NT193999,NO DATA,The Territories,NT,NT202000,The Unorganized Territories,The Unorganized Territories,NT,OVERLAPS,0.1843,0.9228,0.1872,37.9
+MB186005,Portage,Marquette,MB,MB007022,Portage la Prairie,Marquette,MB,OVERLAPS,0.6065,0.6402,0.9202,69.2
+MB187003,North Western,Extension,MB,MB007031,Westbourne,Marquette,MB,OVERLAPS,0.1052,0.1115,0.6498,46.52
+MB187003,North Western,Extension,MB,MB007013,Landsdowne,Marquette,MB,OVERLAPS,0.1007,0.1026,0.8454,34.35
+MB187003,North Western,Extension,MB,MB007026,Rosedale,Marquette,MB,OVERLAPS,0.1008,0.1025,0.8604,30.0
+MB186001,Gladstone,Marquette,MB,MB007010,"Gladstone, Town—Ville",Marquette,MB,SAME_AS,1.0,1.0,1.0,72.0
+MB186009,Morris W-O,Marquette,MB,MB008009,Morris,Provencher,MB,SAME_AS,1.0,1.0,1.0,61.97
+MB187001,Eastern,Extension,MB,MB008007,La Broquerie,Provencher,MB,OVERLAPS,0.1509,0.1705,0.5672,28.42
+MB187001,Eastern,Extension,MB,MB008011,Ste. Anne,Provencher ,MB,OVERLAPS,0.147,0.1682,0.5384,41.32
+MB187001,Eastern,Extension,MB,MB006003,East Selkirk (Town—Ville) & Varennes,Lisgar,MB,OVERLAPS,0.156,0.1597,0.8716,26.79
+MB183004,St. Boniface,Selkirk,MB,MB008014,St. Norbert,Provencher ,MB,OVERLAPS,0.3483,0.5693,0.4729,43.58
+MB184001,Morris W-O,Provencher,MB,MB008010,"Morris, Town—Ville",Provencher,MB,SAME_AS,1.0,1.0,1.0,70.0
+MB185003,St. Andrews,Lisgar,MB,MB006012,St. Andrews,Lisgar,MB,OVERLAPS,0.836,0.8952,0.9267,100.0
+MB185002,St. Clément,Lisgar,MB,MB006013,St. Clements,Lisgar,MB,OVERLAPS,0.4985,0.5452,0.8533,90.87
+MB187002,North Eastern,Extension,MB,MB006008,Plessis (Fort Alexander),Lisgar,MB,OVERLAPS,0.3664,0.3961,0.83,34.27
+MB186010,St. François-Xavier,Marquette,MB,MB006014,St. François-Xavier,Lisgar,MB,OVERLAPS,0.9586,1.0,0.9586,78.0
+MB184999,NO DATA,Provencher,MB,MB008004,Franklin,Provencher ,MB,OVERLAPS,0.3721,0.5057,0.5848,39.33
+MB184006,Cartier,Provencher ,MB,MB008001,Cartier,Provencher ,MB,OVERLAPS,0.1666,0.1738,0.8002,100.0
+MB186006,"High Bluff, Poplar Point",Marquette,MB,MB007022,Portage la Prairie,Marquette,MB,OVERLAPS,0.0691,0.8893,0.0697,56.67
+MB186011,Baie St Paul,Marquette,MB,MB006002,Belcourt,Lisgar,MB,OVERLAPS,0.9598,0.9601,0.9998,29.0
+MB184005,Laveyrandrye,Provencher,MB,MB008011,Ste. Anne,Provencher ,MB,OVERLAPS,0.3824,0.6901,0.4616,56.67
+BC189001,"Richfield, Barkerville & Lightning Creek",Cariboo,BC,BC001010,Richfield,Cariboo,BC,OVERLAPS,0.4845,0.4992,0.9428,55.71
+BC192003,"Cowichin, Salt Spring Isl.",Vancouver,BC,BC003004,Cowichan N,Vancouver,BC,OVERLAPS,0.4403,0.6945,0.5461,65.0
+BC192005,"Sooke Lake, Highland, &c.",Vancouver,BC,BC003014,West Shore,Vancouver,BC,OVERLAPS,0.1756,0.2018,0.5754,42.0
+BC192005,"Sooke Lake, Highland, &c.",Vancouver,BC,BC003005,Cowichan S,Vancouver,BC,OVERLAPS,0.3432,0.6016,0.4441,54.0
+BC192006,Western Coast,Vancouver,BC,BC003005,Cowichan S,Vancouver,BC,OVERLAPS,0.0865,0.0929,0.5558,54.35
+BC192006,Western Coast,Vancouver,BC,BC003001,Alberni,Vancouver,BC,OVERLAPS,0.3808,0.4358,0.7511,51.0
+BC189003,William's Lake and Canoe Creek,Cariboo,BC,BC001011,Williams’ Lake,Cariboo,BC,SAME_AS,1.0,1.0,1.0,71.36
+BC192002,Comox & Alberni,Vancouver,BC,BC003003,Comox S,Vancouver,BC,OVERLAPS,0.3725,0.3803,0.9478,68.18
+BC192002,Comox & Alberni,Vancouver,BC,BC003002,Comox,Vancouver,BC,OVERLAPS,0.3999,0.5075,0.6536,65.0
+BC189006,Omineca,Cariboo,BC,BC002001,New Westminster,New Westminster,BC,OVERLAPS,0.0963,0.8888,0.0975,28.18
+ON142011,"Chippawa, Village",Welland,ON,ON125002,"Chippawa, Village",Welland,ON,OVERLAPS,0.3646,0.483,0.5978,100.0
+ON142009,"Thorold, Town—Ville",Welland,ON,ON125010,Thorold,Welland,ON,OVERLAPS,0.0224,0.6735,0.0226,67.69
+ON148001,"Dundas, Town—Ville","Wentworth, North—Nord",ON,ON129004,Flamborough W-O,"Wentworth, North—Nord",ON,OVERLAPS,0.0173,0.5025,0.0176,42.73
+ON171001,Blanshard,"Perth, South—Sud",ON,ON109001,Blanchard,"Perth, South—Sud",ON,OVERLAPS,0.9523,0.9986,0.9536,92.22
+ON112002,"Almonte, Town—Ville","Lanark, North—Nord",ON,ON083010,Ramsay,"Lanark, North—Nord",ON,OVERLAPS,0.0136,0.8318,0.0136,41.2
+NT193017,Labrador,The Territories,NT,NL001999,Labrador,Labrador,NL,SAME_AS,1.0,1.0,1.0,77.83
+NB026007,"St. Andrew's, Town—Ville",Charlotte,NB,NB013009,"St. Andrew’s, Town & Parish—Ville & Paroisse",Charlotte,NB,SAME_AS,1.0,1.0,1.0,77.35
+NB026004,"St. George, Town—Ville",Charlotte,NB,NB013012,"St. George, Town & Parish—Ville & Paroisse",Charlotte,NB,SAME_AS,1.0,1.0,1.0,78.12
+NB026016,Deer Island,Charlotte,NB,NB013018,West Isles (Deer Island),Charlotte,NB,SAME_AS,1.0,1.0,1.0,74.0
+NB036005,Saumarez,Gloucester,NB,NB014006,St. Isidore,Gloucester,NB,OVERLAPS,0.2034,0.2509,0.5179,52.11
+NB034007,St. Mary's,Kent,NB,NB015008,St. Paul's,Kent,NB,OVERLAPS,0.3109,0.3656,0.6755,79.0
+NB035009,Nelson,Northumberland,NB,NB017012,Rogersville,Northumberland,NB,OVERLAPS,0.4108,0.4348,0.8813,46.47
+NB025009,Saint Martin's,"St. John, (County-Comté)",NB,NB021008,St. Martin’s,"St-John, County—Comté",NB,SAME_AS,1.0,1.0,1.0,79.18
+NB025005,"Portland, Ward—Quartier No. 3","St. John, (County-Comté)",NB,NB021001,"Portland, Dufferin, Ward—Quartier","St-John, County—Comté",NB,SAME_AS,1.0,1.0,1.0,77.27
+NB025004,"Portland, Ward—Quartier No. 2","St. John, (County-Comté)",NB,NB021002,"Portland, Lansdowne, Ward—Quartier","St-John, County—Comté",NB,SAME_AS,1.0,1.0,1.0,76.44
+NB025003,"Portland, Ward—Quartier No. 1","St. John, (County-Comté)",NB,NB021003,"Portland, Lorne, Ward—Quartier","St-John, County—Comté",NB,SAME_AS,1.0,1.0,1.0,79.91
+NB025007,"Portland, Ward—Quartier No. 5","St. John, (County-Comté)",NB,NB021004,"Portland, Stanley, Ward—Quartier","St-John, County—Comté",NB,SAME_AS,1.0,1.0,1.0,78.12
+NB025006,"Portland, Ward—Quartier No. 4","St. John, (County-Comté)",NB,NB021005,"Portland, Victoria, Ward—Quartier","St-John, County—Comté",NB,SAME_AS,1.0,1.0,1.0,77.27
+NB032004,St. Jacques,Victoria,NB,NB023006,Madawaska,Victoria,NB,OVERLAPS,0.1988,0.2159,0.7155,44.0
+NB033006,"Moncton, Town—Ville",Westmoreland,NB,NB024003,"Moncton, City—Cité",Westmoreland,NB,SAME_AS,1.0,1.0,1.0,75.41
+NS016004,Bridgetown,Annapolis,NS,NS026013,Hampton,Annapolis,NS,OVERLAPS,0.9757,0.9757,1.0,54.71
+NS006018,North Mira,Cape Breton,NS,NS028013,Hillside Mira,Cape Breton,NS,SAME_AS,1.0,1.0,1.0,66.52
+NS019016,Broofield Corner,Colchester,NS,NS029003,Brookfield,Colchester,NS,SAME_AS,1.0,1.0,1.0,78.46
+NS019012,Kemptown,Colchester,NS,NS029008,"Kempt, Town—Ville",Colchester,NS,SAME_AS,1.0,1.0,1.0,74.8
+NS022001,Amherst,Cumberland,NS,NS030002,Amherst,Cumberland,NS,OVERLAPS,0.9572,0.9572,1.0,100.0
+NS022007,Victoria Cross Road,Cumberland,NS,NS030016,Victoria,Cumberland,NS,SAME_AS,1.0,1.0,1.0,71.48
+NS015003,Digby,Digby,NS,NS031004,Culloden,Digby,NS,OVERLAPS,0.9735,0.9735,1.0,40.77
+NS008016,Goshen & Giant's Lake,Guysborough,NS,NS032008,Goshen,Guysborough,NS,SAME_AS,1.0,1.0,1.0,61.11
+NS008003,Cape Canso,Guysborough,NS,NS032002,Canso,Guysborough,NS,SAME_AS,1.0,1.0,1.0,76.67
+NS010021,Musquodoboit Harbor,Halifax (County-Comté),NS,NS034037,Polling District No. 39,"Halifax, City—Cité",NS,OVERLAPS,0.1388,0.1512,0.6292,41.0
+NS009002,"Halifax, Ward—Quartier No. 2",Halifax (City-Ville),NS,NS033002,"Halifax, Ward—Quartier No. 2","Halifax, City—Cité",NS,OVERLAPS,0.3864,0.5493,0.5659,90.53
+NS009002,"Halifax, Ward—Quartier No. 2",Halifax (City-Ville),NS,NS033003,"Halifax, Ward—Quartier No. 3","Halifax, City—Cité",NS,OVERLAPS,0.344,0.4507,0.5924,88.03
+NS009005,"Halifax, Ward—Quartier No. 5, 1st Section",Halifax (City-Ville),NS,NS033005,"Halifax, Ward—Quartier No. 5","Halifax, City—Cité",NS,OVERLAPS,0.3423,0.6167,0.4349,77.34
+NS009007,"Halifax, Ward—Quartier No. 6",Halifax (City-Ville),NS,NS033006,"Halifax, Ward—Quartier No. 6","Halifax, City—Cité",NS,OVERLAPS,0.9702,0.9702,1.0,90.53
+NS018004,Windsor Forks,Hants,NS,NS035007,Forks,Hants,NS,SAME_AS,1.0,1.0,1.0,68.89
+NS018016,Rawdon N,Hants,NS,NS035014,Rawdon Church,Hants,NS,SAME_AS,1.0,1.0,1.0,76.67
+NS018008,Rawdon S,Hants,NS,NS035019,South Rawdon & Uniacke,Hants,NS,SAME_AS,1.0,1.0,1.0,62.67
+NS004014,North-East Margaree,Inverness,NS,NS036010,Margarie N-E,Inverness,NS,SAME_AS,1.0,1.0,1.0,66.13
+NS004012,Margaree Harbour,Inverness,NS,NS036009,Margarie,Inverness,NS,SAME_AS,1.0,1.0,1.0,70.83
+NS004004,Dennis River,Inverness,NS,NS036017,River Dennis,Inverness,NS,SAME_AS,1.0,1.0,1.0,65.0
+NS017006,Kentville,King's,NS,NS037006,Kentville & Canaan,King’s,NS,SAME_AS,1.0,1.0,1.0,71.67
+NS020005,Cariboo,Pictou,NS,NS039005,Cariboo E & W-O,Pictou,NS,SAME_AS,1.0,1.0,1.0,74.55
+NS020010,West River & Green Hill,Pictou,NS,NS039011,Green Hill,Pictou,NS,SAME_AS,1.0,1.0,1.0,72.42
+NS020014,Hopewell,Pictou,NS,NS039008,Fraser's Mountain & Churchville,Pictou,NS,OVERLAPS,0.1185,0.1271,0.6366,40.77
+NS020002,West Branch River John,Pictou,NS,NS039025,"River John, West branche",Pictou,NS,SAME_AS,1.0,1.0,1.0,66.52
+NS007011,Arichat W-O,Richmond,NS,NS041015,West Arichat,Richmond,NS,SAME_AS,1.0,1.0,1.0,72.61
+NS013007,"Sable River, Louis Head",Shelburne,NS,NS042009,Louis Head,Shelburne,NS,SAME_AS,1.0,1.0,1.0,72.42
+NS014007,West Tusket River,Yarmouth,NS,NS044022,Tusket Lakes,Yarmouth,NS,SAME_AS,1.0,1.0,1.0,68.62
+NS014006,Kempt,Yarmouth,NS,NS044012,Kemptville,Yarmouth,NS,SAME_AS,1.0,1.0,1.0,76.67
+NS022013,"Mills, Village",Cumberland,NS,NS030010,Parrsboro’,Cumberland,NS,OVERLAPS,0.9684,0.9684,1.0,35.83
+NS014002,Chebogue,Yarmouth,NS,NS044019,Rockville,Yarmouth,NS,OVERLAPS,0.4263,0.444,0.9146,46.47
+NS009006,"Halifax, Ward—Quartier No. 5, 2nd Section",Halifax (City-Ville),NS,NS033004,"Halifax, Ward—Quartier No. 4","Halifax, City—Cité",NS,OVERLAPS,0.6748,0.7941,0.8179,75.31
+ON153010,"Palmerston, Town—Ville","Wellington, North—Nord",ON,ON127007,Minto,"Wellington, North—Nord",ON,OVERLAPS,0.0049,0.9051,0.0049,50.74
+QC096001,St. Jérusalem,Argenteuil,QC,QC137013,St. Jerusalem,Argenteuil,QC,OVERLAPS,0.9724,0.9724,1.0,94.62
+QC058008,St. Ephrem d'Upton,Bagot,QC,QC138004,St. Ephrem d'Upton,Bagot ,QC,OVERLAPS,0.9522,1.0,0.9522,100.0
+QC058012,"Actonvale, Village",Bagot,QC,QC138001,"Acton, Town—Ville",Bagot ,QC,SAME_AS,1.0,1.0,1.0,78.0
+QC048020,"Woburn, Ditchfield",Beauce,QC,QC139027,Woburn & Clinton,Beauce,QC,OVERLAPS,0.3261,0.4602,0.528,67.06
+QC048009,St. François,Beauce,QC,QC139015,St. François,Beauce,QC,OVERLAPS,0.964,0.964,1.0,100.0
+QC048008,St. Pierre,Beauce,QC,QC139021,St. Pierre de Broughton,Beauce,QC,SAME_AS,0.9978,0.9978,1.0,72.42
+QC048018,Lambton,Beauce,QC,QC139025,St. Vital de Lambton,Beauce,QC,SAME_AS,1.0,1.0,1.0,66.3
+QC048007,Sacré Cœur de Jésus,Beauce,QC,QC139009,Sacré-Cœur de Jésus,Beauce,QC,OVERLAPS,0.9538,1.0,0.9538,96.32
+QC073003,"Melocheville, St. Clément",Beauharnois,QC,QC140004,St. Clément,Beauharnois,QC,SAME_AS,1.0,1.0,1.0,72.78
+QC045009,Buckland E,Bellechasse,QC,QC141003,Buckland,Bellechasse,QC,OVERLAPS,0.6682,0.8037,0.7985,92.22
+QC045007,St. Lazare,Bellechasse,QC,QC141005,St. Damien,Bellechasse,QC,OVERLAPS,0.1884,0.2162,0.5938,72.0
+QC045007,St. Lazare,Bellechasse,QC,QC141010,St. Néré,Bellechasse,QC,OVERLAPS,0.2247,0.2446,0.7347,68.89
+QC045010,Mailloux,Bellechasse,QC,QC141011,Ste. Philomène de Mailloux,Bellechasse,QC,OVERLAPS,0.6398,0.8263,0.7392,62.94
+QC086005,Isle du Pad,Berthier,QC,QC142012,Visitation de l’île Dupas,Berthier,QC,SAME_AS,1.0,1.0,1.0,65.0
+QC038009,"Carleton, Township",Bonaventure,QC,QC143001,Carleton,Bonaventure,QC,SAME_AS,0.9845,1.0,0.9845,73.08
+QC038015,"Restigouche, Township",Bonaventure,QC,QC143019,Restigouche,Bonaventure,QC,SAME_AS,1.0,1.0,1.0,78.12
+QC067010,St. Bazile,Chambly,QC,QC145008,St. Bazile le Grand,Chambly,QC,SAME_AS,1.0,1.0,1.0,78.28
+QC082009,Mont Carmel,Champlain,QC,QC146003,Notre-Dame du Mont Carmel,Champlain ,QC,SAME_AS,1.0,1.0,1.0,72.78
+QC082013,St. Stanislas,Champlain,QC,QC146014,St. Sévérin,Champlain ,QC,OVERLAPS,0.1231,0.1332,0.6181,65.0
+QC077007,St. F.-X. de la Petite Rivière,Charlevoix,QC,QC147005,Petite Rivière ,Charlevoix,QC,SAME_AS,1.0,1.0,1.0,74.55
+QC076015,St. Alphonse,Chicoutimi & Saguenay,QC,QC149014,"St. Alphonse & Bagotville, Village",Chicoutimi and Saguenay,QC,OVERLAPS,0.9793,1.0,0.9793,63.79
+QC076018,Laterrière,Chicoutimi & Saguenay,QC,QC149006,Notre-Dame de Laterrière,Chicoutimi and Saguenay,QC,SAME_AS,1.0,1.0,1.0,68.45
+QC076028,St. Félicien,Chicoutimi & Saguenay,QC,QC149005,"Normandin, Albanel & Parent",Chicoutimi and Saguenay,QC,OVERLAPS,0.4182,0.5503,0.6354,41.63
+QC076022,St. Joseph,Chicoutimi & Saguenay,QC,QC149025,St. Joseph d’Alma,Chicoutimi and Saguenay,QC,SAME_AS,1.0,1.0,1.0,79.12
+QC054017,Clifton W-O & E,Compton,QC,QC150004,"Clifton E & W-O, & St. Edwidge and Martinville, Village",Compton,QC,SAME_AS,1.0,1.0,1.0,60.0
+QC054014,Compton,Compton,QC,QC150005,Compton,Compton,QC,OVERLAPS,0.9767,0.9767,1.0,100.0
+QC054011,Whitton,Compton,QC,QC150017,"Whitton & Ste. Cécile, Village",Compton,QC,OVERLAPS,0.9514,0.9514,1.0,56.49
+QC047004,St. Edouard,Dorchester,QC,QC152004,St. Edouard de Frampton,Dorchester,QC,SAME_AS,1.0,1.0,1.0,75.29
+QC047012,"Ste. Germaine, lac Etchemin",Dorchester,QC,QC152005,Ste. Germaine du Lac Etchemin,Dorchester,QC,OVERLAPS,0.7108,0.9315,0.7499,95.0
+QC047005,Cranbourne,Dorchester,QC,QC152012,St. Odilon de Cranbourne,Dorchester,QC,SAME_AS,1.0,1.0,1.0,71.18
+QC052023,Chénier,Drummond & Arthabaska,QC,QC153026,St. Rémi de Tingwick,Drummond & Arthabaska ,QC,OVERLAPS,0.2445,0.3025,0.5604,45.56
+QC052020,Chester E,Drummond & Arthabaska,QC,QC153022,Ste. Hélène,Drummond & Arthabaska ,QC,SAME_AS,1.0,1.0,1.0,65.0
+QC052021,Chester W-O,Drummond & Arthabaska,QC,QC153025,St. Paul,Drummond & Arthabaska ,QC,OVERLAPS,0.9685,1.0,0.9685,52.11
+QC052013,Kingsey Falls,Drummond & Arthabaska,QC,QC153018,Ste. Elizabeth de Warwick,Drummond & Arthabaska ,QC,OVERLAPS,0.3943,0.4108,0.9074,44.74
+QC052001,St. Eugène,Drummond & Arthabaska,QC,QC153019,St. Eugène de Grantham,Drummond & Arthabaska ,QC,SAME_AS,1.0,1.0,1.0,73.75
+QC052005,St. Germain,Drummond & Arthabaska,QC,QC153020,St. Germain de Grantham,Drummond & Arthabaska ,QC,SAME_AS,1.0,1.0,1.0,75.29
+QC052030,St. Valère de Bulstrode,Drummond & Arthabaska,QC,QC153027,St. Valère de Bulstrode,Drummond & Arthabaska ,QC,OVERLAPS,0.721,0.7649,0.9262,100.0
+QC052017,Stanfold,Drummond & Arthabaska,QC,QC153012,Stanfold,Drummond & Arthabaska ,QC,OVERLAPS,0.9675,0.9675,1.0,100.0
+QC052027,St. Medard,Drummond & Arthabaska,QC,QC153031,Warwick,Drummond & Arthabaska ,QC,OVERLAPS,0.8708,0.9463,0.9161,46.47
+QC052003,"Wendover, Simpson",Drummond & Arthabaska,QC,QC153006,"Drummondville, Town—Ville",Drummond & Arthabaska ,QC,OVERLAPS,0.0064,0.0065,0.5637,56.67
+QC052016,"Victoriaville, Village",Drummond & Arthabaska,QC,QC153028,Ste. Victoire ,Drummond & Arthabaska ,QC,OVERLAPS,0.5515,0.9279,0.5761,58.0
+QC052026,"Arthabaskaville, Village",Drummond & Arthabaska,QC,QC153017,St. Christophe d’Arthabaska,Drummond & Arthabaska ,QC,OVERLAPS,0.1331,0.543,0.1499,57.45
+QC039008,"St. Alban, Cap des Rosiers",Gaspé,QC,QC154003,Cap Rosier,Gaspé,QC,SAME_AS,1.0,1.0,1.0,68.89
+QC039023,Grosse Ile,Gaspé,QC,QC154011,"Grosse Ile, Isle Bryon & Bird Rocks",Gaspé,QC,SAME_AS,1.0,1.0,1.0,61.11
+QC039007,"St. Joseph, Anse au Griffon",Gaspé,QC,QC154015,L’Anse aux Griffons,Gaspé,QC,SAME_AS,1.0,1.0,1.0,75.65
+QC039014,St. Pierre de la Malbaie,Gaspé,QC,QC154017,Malbaie,Gaspé,QC,SAME_AS,1.0,1.0,1.0,61.61
+QC091008,"St. Gabriel, Village",Hochelaga,QC,QC155017,"Montréal, St. Gabriel, Ward—Quartier",Hochelaga,QC,SAME_AS,1.0,1.0,1.0,67.5
+QC092004,Pointe Claire,Jacques-Cartier,QC,QC158008,"St. Joachim de la Pointe Claire, Village",Jacques-Cartier ,QC,OVERLAPS,0.1186,0.1219,0.811,64.34
+QC092011,St. Laurent,Jacques-Cartier,QC,QC158009,St. Laurent,Jacques-Cartier ,QC,OVERLAPS,0.9557,0.9557,1.0,100.0
+QC091011,"N.-Dame de Grâce, W-O",Hochelaga,QC,QC155011,"Notre-Dame-de-Grâce, Village",Hochelaga,QC,SAME_AS,1.0,1.0,1.0,72.86
+QC087012,St. Alphonse,Joliette,QC,QC159002,St. Alphonse de Rodriguez,Joliette,QC,SAME_AS,1.0,1.0,1.0,75.41
+QC087010,St. Ambroise,Joliette,QC,QC159003,St. Ambroise de Kildare,Joliette,QC,SAME_AS,1.0,1.0,1.0,78.0
+QC087006,St. Félix,Joliette,QC,QC159009,St. Félix de Valois,Joliette,QC,SAME_AS,1.0,1.0,1.0,75.0
+QC042001,Ste. Anne,Kamouraska,QC,QC160005,Ste. Anne de la Pocatière,Kamouraska,QC,SAME_AS,1.0,1.0,1.0,67.06
+QC042012,"Ste. Hélène, Bungay, Chabot",Kamouraska,QC,QC160999,NO DATA,Kamouraska,QC,OVERLAPS,0.3354,0.8561,0.3554,46.47
+QC042002,"St. Onésime, Ixworth & Chapais",Kamouraska,QC,QC160999,NO DATA,Kamouraska,QC,OVERLAPS,0.3574,0.827,0.3863,48.92
+QC042010,"St. Paschal, Woodbridge & Painchaud",Kamouraska,QC,QC160999,NO DATA,Kamouraska,QC,OVERLAPS,0.2148,0.5607,0.2583,43.33
+QC097005,"Bowman, Villeneuve",Ottawa,QC,QC176008,Bowman & Villeneuve,"Ottawa, County—Comté",QC,SAME_AS,1.0,1.0,1.0,78.17
+QC097007,"La Lievre, E",Ottawa,QC,QC176047,Wabasee & Dudley,"Ottawa, County—Comté",QC,OVERLAPS,0.2604,0.3318,0.5472,38.85
+QC097007,"La Lievre, E",Ottawa,QC,QC176007,"Bouthillier, Kiamika & Campbell","Ottawa, County—Comté",QC,OVERLAPS,0.4762,0.6682,0.6237,39.89
+QC097003,"L'Ange Gardien, Village",Ottawa,QC,QC176022,L’Ange Gardien,"Ottawa, County—Comté",QC,SAME_AS,1.0,1.0,1.0,63.04
+QC097013,"Mulgrave, Derry",Ottawa,QC,QC176030,Mulgrave & Derry,"Ottawa, County—Comté",QC,SAME_AS,1.0,1.0,1.0,77.07
+QC097023,"Ponsonby, Namur",Ottawa,QC,QC176034,Ponsonby,"Ottawa, County—Comté",QC,SAME_AS,1.0,1.0,1.0,62.54
+QC097014,Ste. Angelique,Ottawa,QC,QC176040,Ste. Angélique,"Ottawa, County—Comté",QC,SAME_AS,1.0,1.0,1.0,78.85
+QC070003,St. Michel,Napierville,QC,QC174004,St. Michel Archange,Napierville,QC,SAME_AS,1.0,1.0,1.0,78.28
+QC070005,Sherrington,Napierville,QC,QC174005,St. Patrice de Sherrington,Napierville,QC,SAME_AS,1.0,1.0,1.0,71.62
+QC088002,Mascouche,L'Assomption,QC,QC162007,St. Henri de Mascouche,L’Assomption,QC,SAME_AS,1.0,1.0,1.0,68.15
+QC088003,St. Lin,L'Assomption,QC,QC162008,St. Lin,L’Assomption,QC,OVERLAPS,0.9666,0.9666,1.0,97.5
+QC088004,St. Roch,L'Assomption,QC,QC162010,St. Roch de l’Achigan,L’Assomption,QC,SAME_AS,1.0,1.0,1.0,66.12
+QC091017,Rivière des Prairies,Hochelaga,QC,QC155020,"St. Joseph, Riv. des Prairies",Hochelaga,QC,SAME_AS,1.0,1.0,1.0,75.71
+QC091018,Sault-au-Récollet,Hochelaga,QC,QC155021,"St. Léonard, Port Maurice",Hochelaga,QC,OVERLAPS,0.3176,0.4056,0.594,56.67
+QC046007,St. Henri,Lévis,QC,QC164007,St. Henri de Lauzon ,Lévis,QC,SAME_AS,1.0,1.0,1.0,75.0
+QC046004,St. Joseph de Lévis,Lévis,QC,QC164002,"Lauzon, Village",Lévis,QC,OVERLAPS,0.2303,0.2442,0.8018,46.47
+QC046008,St. Lambert,Lévis,QC,QC164010,St. Lambert de Lauzon,Lévis,QC,SAME_AS,1.0,1.0,1.0,78.12
+QC046012,St. Romuald,Lévis,QC,QC164012,St. Romuald d’Etchemin,Lévis,QC,SAME_AS,1.0,1.0,1.0,76.67
+QC046001,"Lévis, Town—Ville",Lévis,QC,QC164003,"Lévis, City—Cité",Lévis,QC,SAME_AS,1.0,1.0,1.0,72.42
+QC043007,"Ste. Louise, Ashford",L'Islet,QC,QC165008,Ste. Louise,L’Islet,QC,OVERLAPS,0.2082,0.2119,0.921,75.39
+QC049012,St. Patrice,Lotbinière,QC,QC166013,St. Patrice de Beaurivage,Lotbinière,QC,SAME_AS,1.0,1.0,1.0,72.78
+QC085004,St. Justin,Maskinongé,QC,QC167008,St. Justin,Maskinongé,QC,OVERLAPS,0.9673,0.9673,1.0,100.0
+QC085005,Ste. Ursule,Maskinongé,QC,QC167011,Ste. Ursule,Maskinongé,QC,OVERLAPS,0.9546,1.0,0.9546,100.0
+QC050002,Halifax S,Megantic,QC,QC168002,Halifax S,Mégantic,QC,OVERLAPS,0.9712,0.9712,1.0,96.25
+QC050008,Ste. Anastasie,Megantic,QC,QC168012,Ste. Anastasie de Nelson ,Mégantic,QC,OVERLAPS,0.9708,1.0,0.9708,77.83
+QC050011,Thetford,Megantic,QC,QC168015,Thetford S,Mégantic,QC,OVERLAPS,0.4716,0.5354,0.7983,88.47
+QC050011,Thetford,Megantic,QC,QC168014,Thetford N,Mégantic,QC,OVERLAPS,0.3723,0.4368,0.7162,88.47
+QC065008,Dunham,Missisquoi,QC,QC169003,Dunham ,Missisquoi,QC,OVERLAPS,0.9749,0.9749,1.0,100.0
+QC089007,St. Calixte de Beauport,Montcalm,QC,QC170002,"St. Calixte, Village",Montcalm,QC,SAME_AS,1.0,1.0,1.0,72.33
+QC044005,Berthier,Montmagny,QC,QC171002,L’Assomption de Berthier,Montmagny,QC,SAME_AS,1.0,1.0,1.0,65.0
+QC044008,"Montminy, Ashburton, Rolette & c",Montmagny,QC,QC171003,"Montminy, Rolette & Panet",Montmagny,QC,OVERLAPS,0.5005,0.6768,0.6577,79.12
+QC044008,"Montminy, Ashburton, Rolette & c",Montmagny,QC,QC171005,Patton & Ashburton,Montmagny,QC,OVERLAPS,0.2269,0.2774,0.555,63.6
+QC044004,St. François,Montmagny,QC,QC171007,St. François de la Rivière du Sud,Montmagny,QC,SAME_AS,1.0,1.0,1.0,67.33
+QC078011,St. Tite,Montmorency,QC,QC172013,St. Tite des Caps,Montmorency,QC,SAME_AS,1.0,1.0,1.0,74.8
+QC051007,"Nicolet, Town—Ville",Nicolet,QC,QC175004,Nicolet,Nicolet,QC,OVERLAPS,0.9726,0.9726,1.0,67.69
+QC051004,Ste. Angèle,Nicolet,QC,QC175006,Ste. Angèle de Laval,Nicolet,QC,SAME_AS,1.0,1.0,1.0,79.68
+QC051014,Ste. Brigitte,Nicolet,QC,QC175007,Ste. Brigitte des Saults,Nicolet,QC,SAME_AS,1.0,1.0,1.0,79.19
+QC098015,"Chapeau (Village), Allumette Island",Pontiac,QC,QC177002,Allumette Island ,Pontiac,QC,OVERLAPS,0.9672,0.9672,1.0,73.92
+QC098010,"Portage du Fort, Village",Pontiac,QC,QC177018,Portage du Fort (Village) & Lower Litchfield,Pontiac,QC,SAME_AS,1.0,1.0,1.0,77.35
+QC079008,"Québec, Montcalm Ward—Quartier (Centre)","Quebec, (City-Ville)",QC,QC179005,"Québec, Montcalm Centre, Ward—Quartier","Quebec, City—Cité",QC,SAME_AS,1.0,1.0,1.0,75.63
+QC080006,St. Ambroise,"Quebec, (County-Comté)",QC,QC180005,St. Ambroise de la J. Lorette,"Quebec, County—Comté",QC,OVERLAPS,0.9592,0.9592,1.0,68.12
+QC080003,Lac Beauport,"Quebec, (County-Comté)",QC,QC180008,"St. Dunstan, Lac Beauport","Quebec, County—Comté",QC,SAME_AS,1.0,1.0,1.0,72.55
+QC053011,"Melbourne, Brompton Gore",Richmond & Wolfe,QC,QC182008,"Melbourne, Brompton, Gore and New Rockland, Village",Richmond & Wolfe,QC,SAME_AS,1.0,1.0,1.0,74.8
+QC053017,St. Julien de Wolfestown,Richmond & Wolfe,QC,QC182018,St. Julien,Richmond & Wolfe,QC,SAME_AS,1.0,1.0,1.0,71.18
+QC053003,"Richmond, Village",Richmond & Wolfe,QC,QC182010,Richmond,Richmond & Wolfe,QC,SAME_AS,1.0,1.0,1.0,74.8
+QC053007,"Danville, Village",Richmond & Wolfe,QC,QC182003,Danville,Richmond & Wolfe,QC,SAME_AS,1.0,1.0,1.0,74.8
+QC040006,Notre Dame du Sacré Cœur,Rimouski,QC,QC183007,N.-D. du Sacré-Cœur,Rimouski,QC,SAME_AS,1.0,1.0,1.0,78.84
+QC040008,Rimouski,Rimouski,QC,QC183012,Ste. Anne de la Pointe au Père,Rimouski,QC,OVERLAPS,0.1326,0.1387,0.7519,37.37
+QC040016,Ste. Angèle,Rimouski,QC,QC183013,Ste. Angèle de Merrici,Rimouski,QC,SAME_AS,1.0,1.0,1.0,76.67
+QC040018,"St. Edmond, Lac au Saumon",Rimouski,QC,QC183014,St. Benoit Labre & St. Edmond,Rimouski,QC,OVERLAPS,0.3759,0.4858,0.6242,68.89
+QC040018,"St. Edmond, Lac au Saumon",Rimouski,QC,QC183029,St. Pierre du Lac & Sayabec,Rimouski,QC,OVERLAPS,0.1636,0.1939,0.5116,67.69
+QC040013,St. Gabriel,Rimouski,QC,QC183022,St. Gabriel & St. Marcelin,Rimouski,QC,SAME_AS,1.0,1.0,1.0,71.62
+QC040015,St. Joseph,Rimouski,QC,QC183024,St. Joseph de Lepage,Rimouski,QC,SAME_AS,1.0,1.0,1.0,76.67
+QC040002,St. Simon,Rimouski,QC,QC183030,St. Simon,Rimouski,QC,OVERLAPS,0.975,0.975,1.0,100.0
+QC040999,NO DATA,Rimouski,QC,QC183999,NO DATA,Rimouski,QC,OVERLAPS,0.9743,0.9743,1.0,100.0
+QC063001,"Richelieu (Village), N.-D. de Bonsecours",Rouville,QC,QC184004,Notre-Dame de Bonsecours,Rouville,QC,OVERLAPS,0.8217,0.9012,0.903,69.38
+QC063008,St. Césaire,Rouville,QC,QC184013,St. Michel de Rougemont,Rouville,QC,OVERLAPS,0.2922,0.3037,0.8849,58.82
+QC063004,Ste. Marie de Monnoir,Rouville,QC,QC184011,Ste. Marie de Monnoir,Rouville,QC,OVERLAPS,0.9627,0.9627,1.0,100.0
+QC064001,St. Athanase,Iberville,QC,QC157003,Ste. Anne de Sabrevois,Iberville,QC,OVERLAPS,0.2903,0.3366,0.6785,62.94
+QC068001,Lacolle,St. Jean,QC,QC186001,St. Bernard de Lacolle,St. Jean,QC,SAME_AS,1.0,1.0,1.0,63.79
+QC068004,St. Jean,St. Jean,QC,QC186002,St. Jean l’Evangéliste,St. Jean,QC,SAME_AS,1.0,1.0,1.0,67.33
+QC074007,St. Joseph de Soulanges,Soulanges,QC,QC190007,St. Joseph,Soulanges,QC,SAME_AS,1.0,1.0,1.0,72.42
+QC074001,St. Polycarpe,Soulanges,QC,QC190008,St. Polycarpe,Soulanges,QC,OVERLAPS,0.9505,0.9505,1.0,100.0
+QC056004,Magog,Stanstead,QC,QC191007,Magog,Stanstead,QC,OVERLAPS,0.9531,0.9531,1.0,100.0
+QC094002,Terrebonne,Terrebonne,QC,QC193018,"Terrebonne, Town—Ville",Terrebonne,QC,SAME_AS,1.0,1.0,1.0,73.75
+QC084008,St. Barnabé,St. Maurice,QC,QC187002,St. Barnabé,St. Maurice,QC,OVERLAPS,0.9697,0.9697,1.0,100.0
+QC084005,St. Elie,St. Maurice,QC,QC187004,St. Elie de Caxton,St. Maurice,QC,SAME_AS,1.0,1.0,1.0,73.08
+QC084004,St. Etienne,St. Maurice,QC,QC187005,St. Etienne des Grès,St. Maurice,QC,SAME_AS,1.0,1.0,1.0,79.68
+QC084001,Yamachiche,St. Maurice,QC,QC187010,Yamachiche,St. Maurice,QC,OVERLAPS,0.9671,0.992,0.9747,100.0
+QC075007,Isle Perrot,Vaudreuil,QC,QC195005,Ste. Jeanne de l’île Perrot,Vaudreuil,QC,SAME_AS,1.0,1.0,1.0,66.84
+QC057004,St. Thomas de Pierreville,Yamaska,QC,QC197004,St. Elphège,Yamaska ,QC,OVERLAPS,0.1931,0.2339,0.526,57.22
+QC057007,St. Zéphirin,Yamaska,QC,QC197009,St. Zéphirin de Courval,Yamaska ,QC,OVERLAPS,0.9615,0.9615,1.0,78.0
+QC039004,La Grande Vallée,Gaspé,QC,QC154010,Grande Vallée des Monts,Gaspé,QC,SAME_AS,1.0,1.0,1.0,76.67
+QC044006,Ile aux Grues,Montmagny,QC,QC171006,St. Antoine de l'Ile aux Grues,Montmagny,QC,SAME_AS,1.0,1.0,1.0,72.33
+QC091001,"St. Jean Baptiste, Village",Hochelaga,QC,QC155019,"Montréal, St. Jean-Baptiste, Ward—Quartier",Hochelaga,QC,SAME_AS,1.0,1.0,1.0,71.18
+QC052031,St. Samuel,Drummond & Arthabaska,QC,QC175017,St. Samuel,Nicolet,QC,SAME_AS,1.0,1.0,1.0,74.29
+QC061001,"Sorel, Town—Ville",Richelieu,QC,QC181001,"Sorel, City—Cité",Richelieu,QC,SAME_AS,1.0,1.0,1.0,72.42
+QC040025,Ste. Félicité,Rimouski,QC,QC183020,Ste. Félicité & Cherbourg ,Rimouski,QC,SAME_AS,1.0,1.0,1.0,77.89
+QC061004,Ste. Anne,Richelieu,QC,QC181003,Ste. Anne de Sorel,Richelieu,QC,SAME_AS,1.0,1.0,1.0,76.67
+QC080004,St. Edmond de Stoneham,"Quebec, (County-Comté)",QC,QC180004,Stoneham and Tewkesbury,"Quebec, County—Comté",QC,OVERLAPS,0.9758,1.0,0.9758,55.14
+QC053010,Brompton,Richmond & Wolfe,QC,QC182001,Brompton & St. Frs.-Xavier,Richmond & Wolfe,QC,SAME_AS,1.0,1.0,1.0,62.94
+QC062006,St. Louis,St. Hyacinthe,QC,QC185010,St. Louis de Bonsecours,St. Hyacinthe,QC,SAME_AS,1.0,1.0,1.0,69.38
+QC061007,St. Louis,Richelieu,QC,QC181005,St. Louis de Bonsecours,Richelieu,QC,SAME_AS,1.0,1.0,1.0,69.38
+QC048021,"Spaulding, Clinton",Beauce,QC,QC139026,Spaulding & Risborough,Beauce,QC,OVERLAPS,0.284,0.5602,0.3654,72.0
+QC076999,NO DATA,Chicoutimi & Saguenay,QC,QC149023,"St. Hilaire, Dequen, Dablon, &c.",Chicoutimi and Saguenay,QC,OVERLAPS,0.0017,0.0017,0.9037,41.63
+QC076999,NO DATA,Chicoutimi & Saguenay,QC,QC149013,St. Alexis,Chicoutimi and Saguenay,QC,OVERLAPS,0.0012,0.0012,0.5186,43.74
+QC076999,NO DATA,Chicoutimi & Saguenay,QC,QC149003,"Harvey, St. Germain, Durocher & Labrosse",Chicoutimi and Saguenay,QC,OVERLAPS,0.0013,0.0013,0.6847,39.19
+QC076012,St. Jean,Chicoutimi & Saguenay,QC,QC149004,L’Anse St. Jean ,Chicoutimi and Saguenay,QC,SAME_AS,1.0,1.0,1.0,75.97
+QC048011,St. Côme de Linière,Beauce,QC,QC139026,Spaulding & Risborough,Beauce,QC,OVERLAPS,0.321,0.3938,0.6346,50.49
+QC047011,Buckland W-O,Dorchester,QC,QC152010,St. Malachie,Dorchester,QC,OVERLAPS,0.2564,0.5188,0.3363,41.67
+QC039010,Gaspé Bay S,Gaspé,QC,QC154009,"Gaspé, Village",Gaspé,QC,OVERLAPS,0.045,0.0464,0.6033,69.2
+QC050006,Inverness W-O,Megantic,QC,QC168013,St. Pierre Baptiste,Mégantic,QC,OVERLAPS,0.302,0.3628,0.6432,48.12
+QC050006,Inverness W-O,Megantic,QC,QC168003,Inverness,Mégantic,QC,OVERLAPS,0.358,0.6037,0.4679,83.52
+QC097008,"La Lievre, W-O",Ottawa,QC,QC176007,"Bouthillier, Kiamika & Campbell","Ottawa, County—Comté",QC,OVERLAPS,0.2995,0.5949,0.3763,35.62
+QC041999,NO DATA,Temiscouata,QC,QC192001,"Cabano, Packington & Un. Territory",Témiscouata,QC,OVERLAPS,0.3387,0.353,0.8935,44.35
+QC050012,St. Pierre de Broughton,Megantic,QC,QC168014,Thetford N,Mégantic,QC,OVERLAPS,0.2315,0.5605,0.2828,51.7
+QC098019,Unorganized Territory,Pontiac,QC,QC177012,Duhamel & Guigues,Pontiac,QC,OVERLAPS,0.4448,0.6172,0.6144,48.42
+QC098999,NO DATA,Pontiac,QC,QC177023,Unorganized Territory,Pontiac,QC,OVERLAPS,0.0138,0.0139,0.7096,50.0
+QC082015,Unorganized Territory,Champlain,QC,QC146009,St. Jacques des Piles ,Champlain ,QC,OVERLAPS,0.104,0.113,0.5678,46.67
+QC081004,Bourg Louis,Portneuf,QC,QC178001,"Bourg Louis, Village",Portneuf,QC,SAME_AS,1.0,1.0,1.0,79.68

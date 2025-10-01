@@ -1,0 +1,17 @@
+CSD Linkage Summary: 1901 → 1911
+============================================================
+
+Input CSDs (1901): 3221
+Input CSDs (1911): 3825
+
+High-confidence links: 3336
+Ambiguous links: 917
+
+High-confidence breakdown:
+  SAME_AS: 1514
+  CONTAINS: 1329
+  WITHIN: 493
+
+Ambiguous breakdown:
+  SAME_AS: 470
+  OVERLAPS: 447

@@ -1,0 +1,9 @@
+period_id:ID,year:int,label,:LABEL
+CENSUS_1851,1851,1851 Canadian Census,E4_Period
+CENSUS_1861,1861,1861 Canadian Census,E4_Period
+CENSUS_1871,1871,1871 Canadian Census,E4_Period
+CENSUS_1881,1881,1881 Canadian Census,E4_Period
+CENSUS_1891,1891,1891 Canadian Census,E4_Period
+CENSUS_1901,1901,1901 Canadian Census,E4_Period
+CENSUS_1911,1911,1911 Canadian Census,E4_Period
+CENSUS_1921,1921,1921 Canadian Census,E4_Period

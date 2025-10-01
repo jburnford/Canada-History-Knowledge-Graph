@@ -1,0 +1,580 @@
+place_id:ID,place_type,name,province,:LABEL
+CD_ON_Oxford,CD,Oxford,ON,E53_Place
+CD_NS_Hants,CD,Hants,NS,E53_Place
+CD_QC_Vaudreuil,CD,Vaudreuil,QC,E53_Place
+"CD_ON_Nipissing,_North—Nord",CD,"Nipissing, North—Nord",ON,E53_Place
+CD_ON_Hastings_W-O,CD,Hastings W-O,ON,E53_Place
+CD_QC_Brome,CD,Brome,QC,E53_Place
+CD_ON_Lambton_East,CD,Lambton East,ON,E53_Place
+CD_QC_Témiscouata,CD,Témiscouata,QC,E53_Place
+CD_QC_Drummond,CD,Drummond,QC,E53_Place
+CD_QC_Compton,CD,Compton,QC,E53_Place
+CD_AB_Division_No._6,CD,Division No. 6,AB,E53_Place
+CD_NS_Cap_Breton,CD,Cap Breton,NS,E53_Place
+CD_ON_Monck,CD,Monck,ON,E53_Place
+"CD_ON_Victoria,_North—Nord",CD,"Victoria, North—Nord",ON,E53_Place
+CD_NS_Halifax,CD,Halifax,NS,E53_Place
+CD_NB_Westmoreland,CD,Westmoreland,NB,E53_Place
+CD_QC_Chateauguay,CD,Chateauguay,QC,E53_Place
+CD_QC_Labrador,CD,Labrador,QC,E53_Place
+"CD_ON_Ontario,_North—Nord",CD,"Ontario, North—Nord",ON,E53_Place
+CD_NS_Antigonish,CD,Antigonish,NS,E53_Place
+CD_ON_Algoma_W-O,CD,Algoma W-O,ON,E53_Place
+"CD_ON_Hastings,_East—Est",CD,"Hastings, East—Est",ON,E53_Place
+CD_QC_Bellechasse_Nord,CD,Bellechasse Nord,QC,E53_Place
+"CD_ON_Toronto,_West—Ouest",CD,"Toronto, West—Ouest",ON,E53_Place
+CD_AB_Division_No._16,CD,Division No. 16,AB,E53_Place
+CD_ON_Grenville,CD,Grenville,ON,E53_Place
+CD_QC_Huntingdon_Ouest,CD,Huntingdon Ouest,QC,E53_Place
+"CD_ON_Toronto,_City—Cité",CD,"Toronto, City—Cité",ON,E53_Place
+CD_ON_Hastings_E,CD,Hastings E,ON,E53_Place
+CD_NS_Kings,CD,Kings,NS,E53_Place
+CD_AB_Division_No._9,CD,Division No. 9,AB,E53_Place
+CD_ON_Glengary_,CD,Glengary ,ON,E53_Place
+CD_PE_King's,CD,King's,PE,E53_Place
+CD_NB_Queen's,CD,Queen's,NB,E53_Place
+CD_QC_Maskinonge,CD,Maskinonge,QC,E53_Place
+CD_QC_Huntingdon,CD,Huntingdon,QC,E53_Place
+CD_AB_Macleod,CD,Macleod,AB,E53_Place
+CD_QC_Champlain_Sud,CD,Champlain Sud,QC,E53_Place
+CD_QC_Châteauguay,CD,Châteauguay,QC,E53_Place
+CD_QC_Shefford,CD,Shefford,QC,E53_Place
+CD_NB_St._John,CD,St. John,NB,E53_Place
+CD_QC_Montreal_Centre,CD,Montreal Centre,QC,E53_Place
+CD_ON_Glengary,CD,Glengary,ON,E53_Place
+CD_QC_Trois-Rivières_&_St._Maurice,CD,Trois-Rivières & St. Maurice,QC,E53_Place
+"CD_ON_Ontario,_South—Sud",CD,"Ontario, South—Sud",ON,E53_Place
+CD_QC_St._Hyacinthe,CD,St. Hyacinthe,QC,E53_Place
+"CD_ON_Peterborough,_West—Ouest",CD,"Peterborough, West—Ouest",ON,E53_Place
+CD_QC_St._Jean,CD,St. Jean,QC,E53_Place
+CD_NT_Alberta,CD,Alberta,NT,E53_Place
+CD_ON_Renfrew,CD,Renfrew,ON,E53_Place
+CD_QC_Quebec_Ouest,CD,Quebec Ouest,QC,E53_Place
+CD_PE_Queen’s,CD,Queen’s,PE,E53_Place
+"CD_ON_Grey,_North—Nord",CD,"Grey, North—Nord",ON,E53_Place
+CD_ON_Waterloo,CD,Waterloo,ON,E53_Place
+"CD_ON_Durham,_East—Est",CD,"Durham, East—Est",ON,E53_Place
+CD_MB_Extension,CD,Extension,MB,E53_Place
+CD_BC_Yale,CD,Yale,BC,E53_Place
+CD_ON_Frontenac,CD,Frontenac,ON,E53_Place
+CD_QC_Jacques_Cartier,CD,Jacques Cartier,QC,E53_Place
+CD_BC_Vancouver_South,CD,Vancouver South,BC,E53_Place
+CD_ON_Rainy_River,CD,Rainy River,ON,E53_Place
+CD_ON_Kingston,CD,Kingston,ON,E53_Place
+"CD_ON_York,_North—Nord",CD,"York, North—Nord",ON,E53_Place
+CD_ON_Renfew,CD,Renfew,ON,E53_Place
+CD_MB_Division_No._9,CD,Division No. 9,MB,E53_Place
+"CD_ON_Bruce,_North—Nord",CD,"Bruce, North—Nord",ON,E53_Place
+"CD_ON_Middlesex,_East—Est",CD,"Middlesex, East—Est",ON,E53_Place
+CD_AB_Division_No._12,CD,Division No. 12,AB,E53_Place
+"CD_ON_London,_City—Cité",CD,"London, City—Cité",ON,E53_Place
+CD_QC_Chambly,CD,Chambly,QC,E53_Place
+"CD_ON_York,_West—Ouest",CD,"York, West—Ouest",ON,E53_Place
+CD_NS_Victoria,CD,Victoria,NS,E53_Place
+"CD_ON_Middlesex,_North—Nord",CD,"Middlesex, North—Nord",ON,E53_Place
+CD_ON_Northumber_Land_W-O,CD,Northumber Land W-O,ON,E53_Place
+CD_QC_Québec_County,CD,Québec County,QC,E53_Place
+CD_MB_Brandon,CD,Brandon,MB,E53_Place
+CD_QC_Soulanges,CD,Soulanges,QC,E53_Place
+CD_QC_Gaspé,CD,Gaspé,QC,E53_Place
+CD_NS_Halifax_(City-Ville),CD,Halifax (City-Ville),NS,E53_Place
+CD_BC_Kootenay,CD,Kootenay,BC,E53_Place
+CD_AB_Division_No._11,CD,Division No. 11,AB,E53_Place
+CD_ON_Ontario_N,CD,Ontario N,ON,E53_Place
+CD_QC_Drummond_&_Arthabaska_,CD,Drummond & Arthabaska ,QC,E53_Place
+CD_ON_Dover,CD,Dover,ON,E53_Place
+CD_ON_Brockville,CD,Brockville,ON,E53_Place
+CD_QC_Bagot_,CD,Bagot ,QC,E53_Place
+CD_SK_Regina,CD,Regina,SK,E53_Place
+"CD_ON_Grey,_East—Est",CD,"Grey, East—Est",ON,E53_Place
+CD_NT_Northwest_Territories,CD,Northwest Territories,NT,E53_Place
+CD_NB_Kings_&_Albert,CD,Kings & Albert,NB,E53_Place
+CD_MB_Division_No._3,CD,Division No. 3,MB,E53_Place
+CD_AB_Strathcona,CD,Strathcona,AB,E53_Place
+CD_PE_Prince_Edward_Island,CD,Prince Edward Island,PE,E53_Place
+"CD_ON_Elgin,_East—Est",CD,"Elgin, East—Est",ON,E53_Place
+"CD_ON_Brant,_North_or_East—Nord_ou_Est",CD,"Brant, North or East—Nord ou Est",ON,E53_Place
+CD_NS_Lunenburg,CD,Lunenburg,NS,E53_Place
+CD_QC_St._Maurice,CD,St. Maurice,QC,E53_Place
+CD_ON_Elgin_E,CD,Elgin E,ON,E53_Place
+"CD_ON_Renfrew,_North—Nord",CD,"Renfrew, North—Nord",ON,E53_Place
+CD_QC_Yamaska_,CD,Yamaska ,QC,E53_Place
+CD_QC_Deux-Montagnes,CD,Deux-Montagnes,QC,E53_Place
+"CD_ON_Wentworth,_North—Nord",CD,"Wentworth, North—Nord",ON,E53_Place
+CD_NL_Labrador,CD,Labrador,NL,E53_Place
+CD_QC_Two_Mountains,CD,Two Mountains,QC,E53_Place
+CD_ON_Lennox,CD,Lennox,ON,E53_Place
+"CD_NB_St._John,_City_&_Co—Cité_et_comté",CD,"St. John, City & Co—Cité et comté",NB,E53_Place
+CD_ON_Middlesex_E,CD,Middlesex E,ON,E53_Place
+CD_MB_Division_No._12,CD,Division No. 12,MB,E53_Place
+"CD_QC_Quebec,_Centre,_City—Cité",CD,"Quebec, Centre, City—Cité",QC,E53_Place
+CD_ON_Perth,CD,Perth,ON,E53_Place
+CD_QC_Hull,CD,Hull,QC,E53_Place
+CD_AB_Division_No._15,CD,Division No. 15,AB,E53_Place
+CD_QC_Saguenay,CD,Saguenay,QC,E53_Place
+CD_QC_Beauce_Ouest,CD,Beauce Ouest,QC,E53_Place
+CD_QC_Berthier,CD,Berthier,QC,E53_Place
+CD_MB_Division_No._14,CD,Division No. 14,MB,E53_Place
+CD_ON_Simcoe,CD,Simcoe,ON,E53_Place
+"CD_ON_Oxford,_South—Sud",CD,"Oxford, South—Sud",ON,E53_Place
+"CD_QC_Quebec,_West-Ouest,_City—Cité",CD,"Quebec, West-Ouest, City—Cité",QC,E53_Place
+CD_ON_Lincoln_&_Niagara,CD,Lincoln & Niagara,ON,E53_Place
+CD_BC_Victoria,CD,Victoria,BC,E53_Place
+CD_NB_York,CD,York,NB,E53_Place
+CD_SK_Division_No._17,CD,Division No. 17,SK,E53_Place
+CD_ON_Peel,CD,Peel,ON,E53_Place
+CD_QC_Portneuf,CD,Portneuf,QC,E53_Place
+"CD_NT_Assiniboia,_West—Ouest",CD,"Assiniboia, West—Ouest",NT,E53_Place
+CD_MB_Dauphin,CD,Dauphin,MB,E53_Place
+CD_QC_Québec_W-O,CD,Québec W-O,QC,E53_Place
+"CD_ON_Essex,_North—Nord",CD,"Essex, North—Nord",ON,E53_Place
+"CD_PE_Prince,_East-Est",CD,"Prince, East-Est",PE,E53_Place
+"CD_ON_Kingston,_City",CD,"Kingston, City",ON,E53_Place
+"CD_ON_Middlesex,_South—Sud",CD,"Middlesex, South—Sud",ON,E53_Place
+"CD_ON_Victoria,_South—Sud",CD,"Victoria, South—Sud",ON,E53_Place
+CD_QC_Argenteuil,CD,Argenteuil,QC,E53_Place
+CD_SK_Humboldt,CD,Humboldt,SK,E53_Place
+"CD_ON_Lanark,_North—Nord",CD,"Lanark, North—Nord",ON,E53_Place
+CD_ON_Peterborough_E,CD,Peterborough E,ON,E53_Place
+CD_ON_Ontario_S,CD,Ontario S,ON,E53_Place
+CD_ON_Huron_E,CD,Huron E,ON,E53_Place
+CD_NS_Cape_Breton,CD,Cape Breton,NS,E53_Place
+CD_ON_Peterborough,CD,Peterborough,ON,E53_Place
+CD_ON_Elgin,CD,Elgin,ON,E53_Place
+CD_ON_Huron,CD,Huron,ON,E53_Place
+CD_QC_Stanstead,CD,Stanstead,QC,E53_Place
+CD_QC_Charlevoix,CD,Charlevoix,QC,E53_Place
+CD_QC_Champlain,CD,Champlain,QC,E53_Place
+CD_QC_Megantic,CD,Megantic,QC,E53_Place
+CD_MB_Souris,CD,Souris,MB,E53_Place
+CD_ON_York,CD,York,ON,E53_Place
+CD_QC_Bellechasse,CD,Bellechasse,QC,E53_Place
+CD_QC_Pontiac_Sud,CD,Pontiac Sud,QC,E53_Place
+"CD_QC_Unorganized_Districts_-_Abitibi,_Ashuanipi,_Mistassini",CD,"Unorganized Districts - Abitibi, Ashuanipi, Mistassini",QC,E53_Place
+CD_ON_Grenville_,CD,Grenville ,ON,E53_Place
+CD_NS_Colchester,CD,Colchester,NS,E53_Place
+CD_ON_Toronto_S,CD,Toronto S,ON,E53_Place
+"CD_ON_Brant,_South—Sud",CD,"Brant, South—Sud",ON,E53_Place
+CD_MB_Division_No._2,CD,Division No. 2,MB,E53_Place
+CD_QC_Matane,CD,Matane,QC,E53_Place
+"CD_ON_Simcoe,_East—Est",CD,"Simcoe, East—Est",ON,E53_Place
+CD_NS_Halifax_City_&_County,CD,Halifax City & County,NS,E53_Place
+"CD_ON_Toronto,_Centre,_City—Cité",CD,"Toronto, Centre, City—Cité",ON,E53_Place
+CD_ON_Welland,CD,Welland,ON,E53_Place
+"CD_ON_Wentworth,_South—Sud",CD,"Wentworth, South—Sud",ON,E53_Place
+"CD_ON_Algoma,_East—Est",CD,"Algoma, East—Est",ON,E53_Place
+CD_NS_Queen's,CD,Queen's,NS,E53_Place
+CD_QC_Kamouraska,CD,Kamouraska,QC,E53_Place
+CD_ON_Waterloo_N,CD,Waterloo N,ON,E53_Place
+CD_QC_Chicoutimi_&_Saguenay,CD,Chicoutimi & Saguenay,QC,E53_Place
+CD_MB_Manitoba,CD,Manitoba,MB,E53_Place
+CD_BC_Victoria_,CD,Victoria ,BC,E53_Place
+"CD_QC_Montréal,_cité",CD,"Montréal, cité",QC,E53_Place
+CD_QC_Québec_Est,CD,Québec Est,QC,E53_Place
+"CD_ON_Middlesex,_West—Ouest",CD,"Middlesex, West—Ouest",ON,E53_Place
+CD_ON_Bruce_S,CD,Bruce S,ON,E53_Place
+CD_BC_Skeena,CD,Skeena,BC,E53_Place
+CD_ON_Manitoulin,CD,Manitoulin,ON,E53_Place
+CD_ON_Huron_S,CD,Huron S,ON,E53_Place
+CD_SK_Battleford,CD,Battleford,SK,E53_Place
+CD_QC_Richmond_&_Wolfe,CD,Richmond & Wolfe,QC,E53_Place
+CD_QC_Témiscamingue,CD,Témiscamingue,QC,E53_Place
+CD_ON_Lambton,CD,Lambton,ON,E53_Place
+CD_QC_Quebec_Centre,CD,Quebec Centre,QC,E53_Place
+CD_ON_Toronto_E,CD,Toronto E,ON,E53_Place
+"CD_QC_Montréal,_St._Jacques",CD,"Montréal, St. Jacques",QC,E53_Place
+CD_NS_Inverness,CD,Inverness,NS,E53_Place
+"CD_ON_Nipissing,_South—Sud",CD,"Nipissing, South—Sud",ON,E53_Place
+CD_ON_Muskoka,CD,Muskoka,ON,E53_Place
+CD_NL_Newfoundland,CD,Newfoundland,NL,E53_Place
+CD_BC_Vancouver_City,CD,Vancouver City,BC,E53_Place
+"CD_QC_Montréal,_Ste._Marie",CD,"Montréal, Ste. Marie",QC,E53_Place
+"CD_QC_Quebec,_(City-Ville)",CD,"Quebec, (City-Ville)",QC,E53_Place
+CD_ON_Glengarry,CD,Glengarry,ON,E53_Place
+CD_ON_Northumberland,CD,Northumberland,ON,E53_Place
+CD_NT_Saskatchewan,CD,Saskatchewan,NT,E53_Place
+CD_QC_Lotbinière,CD,Lotbinière,QC,E53_Place
+CD_QC_Napierville,CD,Napierville,QC,E53_Place
+CD_NT_The_Unorganized_Territories,CD,The Unorganized Territories,NT,E53_Place
+"CD_ON_Leeds_&_Grenville,_North—Nord",CD,"Leeds & Grenville, North—Nord",ON,E53_Place
+CD_ON_Norfolk,CD,Norfolk,ON,E53_Place
+CD_QC_Montmagny,CD,Montmagny,QC,E53_Place
+CD_ON_Cornwall,CD,Cornwall,ON,E53_Place
+CD_ON_Essex_N,CD,Essex N,ON,E53_Place
+CD_ON_Brantford,CD,Brantford,ON,E53_Place
+CD_QC_Montmorenci,CD,Montmorenci,QC,E53_Place
+CD_QC_Pontiac_Nord,CD,Pontiac Nord,QC,E53_Place
+CD_NS_Cumberland,CD,Cumberland,NS,E53_Place
+CD_ON_Oxford_N,CD,Oxford N,ON,E53_Place
+"CD_ON_Simcoe,_South—Sud",CD,"Simcoe, South—Sud",ON,E53_Place
+CD_ON_Bruce_N,CD,Bruce N,ON,E53_Place
+CD_MB_Marquette,CD,Marquette,MB,E53_Place
+"CD_ON_Lambton,_West—Ouest",CD,"Lambton, West—Ouest",ON,E53_Place
+CD_QC_Wright,CD,Wright,QC,E53_Place
+CD_NS_Pictou,CD,Pictou,NS,E53_Place
+"CD_NT_Assiniboia,_East—Est",CD,"Assiniboia, East—Est",NT,E53_Place
+CD_AB_Red_Deer,CD,Red Deer,AB,E53_Place
+CD_SK_Division_No._7,CD,Division No. 7,SK,E53_Place
+CD_AB_Division_No._14,CD,Division No. 14,AB,E53_Place
+"CD_ON_Leeds,_South—Sud",CD,"Leeds, South—Sud",ON,E53_Place
+"CD_ON_York,_East—Est",CD,"York, East—Est",ON,E53_Place
+CD_NS_Queens,CD,Queens,NS,E53_Place
+CD_QC_Laval,CD,Laval,QC,E53_Place
+CD_ON_Carleton,CD,Carleton,ON,E53_Place
+CD_QC_Hochelaga,CD,Hochelaga,QC,E53_Place
+CD_ON_Timiskaming,CD,Timiskaming,ON,E53_Place
+CD_QC_Montréal_&_Jésus_Islands—Iles,CD,Montréal & Jésus Islands—Iles,QC,E53_Place
+CD_ON_Russell,CD,Russell,ON,E53_Place
+CD_QC_Maisonneuve,CD,Maisonneuve,QC,E53_Place
+CD_BC_Kootenay_West,CD,Kootenay West,BC,E53_Place
+CD_ON_Middlesex_N,CD,Middlesex N,ON,E53_Place
+CD_NB_Sunbury_&_Queens,CD,Sunbury & Queens,NB,E53_Place
+CD_BC_Cariboo,CD,Cariboo,BC,E53_Place
+CD_ON_Grey_S,CD,Grey S,ON,E53_Place
+"CD_ON_Wellington,_North—Nord",CD,"Wellington, North—Nord",ON,E53_Place
+"CD_ON_Algoma,_Centre",CD,"Algoma, Centre",ON,E53_Place
+CD_QC_Missisquoi,CD,Missisquoi,QC,E53_Place
+CD_ON_Dufferin,CD,Dufferin,ON,E53_Place
+CD_ON_Bytown,CD,Bytown,ON,E53_Place
+CD_QC_Richelieu,CD,Richelieu,QC,E53_Place
+CD_QC_St._Jean_&_Iberville,CD,St. Jean & Iberville,QC,E53_Place
+CD_QC_Gaspé_Sud,CD,Gaspé Sud,QC,E53_Place
+CD_BC_Comox-Alberni,CD,Comox-Alberni,BC,E53_Place
+"CD_ON_Toronto,_East—Est,_City—Cité",CD,"Toronto, East—Est, City—Cité",ON,E53_Place
+"CD_MB_Winnipeg,_City—Cité",CD,"Winnipeg, City—Cité",MB,E53_Place
+CD_ON_Lennox_&_Addington,CD,Lennox & Addington,ON,E53_Place
+"CD_PE_Prince,_West-Ouest",CD,"Prince, West-Ouest",PE,E53_Place
+CD_ON_Lanark_S,CD,Lanark S,ON,E53_Place
+CD_AB_Division_No._1,CD,Division No. 1,AB,E53_Place
+CD_PE_Queens,CD,Queens,PE,E53_Place
+CD_QC_Gaspé_Ouest,CD,Gaspé Ouest,QC,E53_Place
+CD_QC_Hochalaga,CD,Hochalaga,QC,E53_Place
+CD_MB_Division_No._10,CD,Division No. 10,MB,E53_Place
+CD_ON_Dundas,CD,Dundas,ON,E53_Place
+"CD_NS_Halifax,_East",CD,"Halifax, East",NS,E53_Place
+CD_QC_Town_of_Sherbrooke,CD,Town of Sherbrooke,QC,E53_Place
+"CD_ON_Toronto,_West—Ouest,_City—Cité",CD,"Toronto, West—Ouest, City—Cité",ON,E53_Place
+CD_NB_Victoria,CD,Victoria,NB,E53_Place
+CD_AB_Medicine_Hat,CD,Medicine Hat,AB,E53_Place
+CD_ON_Kent,CD,Kent,ON,E53_Place
+CD_QC_Outaouais,CD,Outaouais,QC,E53_Place
+CD_QC_Nicolet,CD,Nicolet,QC,E53_Place
+CD_PE_King’s,CD,King’s,PE,E53_Place
+CD_MB_Lisgar,CD,Lisgar,MB,E53_Place
+CD_QC_City_of_Montreal,CD,City of Montreal,QC,E53_Place
+CD_SK_Division_No._8,CD,Division No. 8,SK,E53_Place
+CD_NS_Richmond,CD,Richmond,NS,E53_Place
+CD_MB_Division_No._15,CD,Division No. 15,MB,E53_Place
+CD_ON_Renfrew_N,CD,Renfrew N,ON,E53_Place
+CD_SK_Division_No._15,CD,Division No. 15,SK,E53_Place
+CD_ON_Kent_W-O,CD,Kent W-O,ON,E53_Place
+"CD_NS_Halifax,_City_&_Co—Cité_et_comté",CD,"Halifax, City & Co—Cité et comté",NS,E53_Place
+"CD_ON_Durham,_West—Ouest",CD,"Durham, West—Ouest",ON,E53_Place
+CD_NB_Carleton,CD,Carleton,NB,E53_Place
+"CD_ON_Perth,_South—Sud",CD,"Perth, South—Sud",ON,E53_Place
+"CD_PE_Queens,_East-Est",CD,"Queens, East-Est",PE,E53_Place
+"CD_QC_Montreal,_St._Jacques,_City—Cité",CD,"Montreal, St. Jacques, City—Cité",QC,E53_Place
+CD_QC_Verchères,CD,Verchères,QC,E53_Place
+CD_ON_Parry_Sound,CD,Parry Sound,ON,E53_Place
+CD_QC_Huntingdon_Est,CD,Huntingdon Est,QC,E53_Place
+CD_ON_Essex_S,CD,Essex S,ON,E53_Place
+CD_SK_Assiniboia,CD,Assiniboia,SK,E53_Place
+CD_QC_L’Assomption,CD,L’Assomption,QC,E53_Place
+CD_ON_Simcoe_E,CD,Simcoe E,ON,E53_Place
+CD_NB_Kent,CD,Kent,NB,E53_Place
+CD_NS_Annapolis,CD,Annapolis,NS,E53_Place
+CD_ON_Muskoka_&_Parry_Sound,CD,Muskoka & Parry Sound,ON,E53_Place
+CD_ON_York_Centre,CD,York Centre,ON,E53_Place
+CD_ON_Grey,CD,Grey,ON,E53_Place
+CD_ON_Stormont,CD,Stormont,ON,E53_Place
+CD_NB_Gloucester,CD,Gloucester,NB,E53_Place
+CD_ON_Peterborough_W-O,CD,Peterborough W-O,ON,E53_Place
+CD_NB_Northumberland,CD,Northumberland,NB,E53_Place
+CD_MB_Winnipeg_City,CD,Winnipeg City,MB,E53_Place
+CD_QC_Laprairie_&_Napierville,CD,Laprairie & Napierville,QC,E53_Place
+CD_NS_King's,CD,King's,NS,E53_Place
+CD_NB_King's,CD,King's,NB,E53_Place
+CD_ON_Wellington,CD,Wellington,ON,E53_Place
+CD_ON_Durham,CD,Durham,ON,E53_Place
+"CD_ON_Renfrew,_South—Sud",CD,"Renfrew, South—Sud",ON,E53_Place
+CD_AB_Edmonton,CD,Edmonton,AB,E53_Place
+CD_QC_Unorganized_parts_-_Parties_non_organisées,CD,Unorganized parts - Parties non organisées,QC,E53_Place
+"CD_ON_Grey,_South—Sud",CD,"Grey, South—Sud",ON,E53_Place
+CD_ON_Cardwell,CD,Cardwell,ON,E53_Place
+CD_ON_Haldimand_&_Monok,CD,Haldimand & Monok,ON,E53_Place
+CD_SK_Division_No._12,CD,Division No. 12,SK,E53_Place
+CD_BC_Vancouver,CD,Vancouver,BC,E53_Place
+CD_AB_Division_No._4,CD,Division No. 4,AB,E53_Place
+CD_QC_Bagot,CD,Bagot,QC,E53_Place
+CD_MB_Division_No._6,CD,Division No. 6,MB,E53_Place
+"CD_ON_Kingston,_City—Cité",CD,"Kingston, City—Cité",ON,E53_Place
+CD_ON_Wentworth,CD,Wentworth,ON,E53_Place
+CD_QC_Dorchester_Ouest,CD,Dorchester Ouest,QC,E53_Place
+CD_QC_Bonaventure,CD,Bonaventure,QC,E53_Place
+CD_NB_Queens,CD,Queens,NB,E53_Place
+CD_AB_Division_No._2,CD,Division No. 2,AB,E53_Place
+CD_AB_Division_No._8,CD,Division No. 8,AB,E53_Place
+CD_ON_Kent_E,CD,Kent E,ON,E53_Place
+CD_QC_Isles_de_la_Magdeleine,CD,Isles de la Magdeleine,QC,E53_Place
+CD_QC_Temiscouata,CD,Temiscouata,QC,E53_Place
+CD_MB_Provencher,CD,Provencher,MB,E53_Place
+"CD_ON_Elgin,_West—Ouest",CD,"Elgin, West—Ouest",ON,E53_Place
+CD_MB_Division_No._11,CD,Division No. 11,MB,E53_Place
+CD_QC_Montcalm,CD,Montcalm,QC,E53_Place
+CD_ON_Hamilton_E,CD,Hamilton E,ON,E53_Place
+CD_QC_L'IsIet,CD,L'IsIet,QC,E53_Place
+CD_SK_Division_No._1,CD,Division No. 1,SK,E53_Place
+CD_QC_Leinster,CD,Leinster,QC,E53_Place
+CD_QC_Champlain_,CD,Champlain ,QC,E53_Place
+CD_QC_Ottawa_Ouest,CD,Ottawa Ouest,QC,E53_Place
+CD_QC_Montréal,CD,Montréal,QC,E53_Place
+CD_ON_Thunder_Bay_&_Rainy_River,CD,Thunder Bay & Rainy River,ON,E53_Place
+"CD_ON_Waterloo,_South—Sud",CD,"Waterloo, South—Sud",ON,E53_Place
+"CD_ON_Huron,_West—Ouest",CD,"Huron, West—Ouest",ON,E53_Place
+CD_ON_Haliburton,CD,Haliburton,ON,E53_Place
+CD_NS_Yarmouth,CD,Yarmouth,NS,E53_Place
+"CD_QC_Montreal,_St._Laurent,_City—Cité",CD,"Montreal, St. Laurent, City—Cité",QC,E53_Place
+CD_SK_Division_No._4,CD,Division No. 4,SK,E53_Place
+CD_QC_Rimouski_Est,CD,Rimouski Est,QC,E53_Place
+"CD_QC_Montreal,_Ste._Anne,_City—Cité",CD,"Montreal, Ste. Anne, City—Cité",QC,E53_Place
+"CD_ON_Peterborough,_East—Est",CD,"Peterborough, East—Est",ON,E53_Place
+CD_ON_Huron_W-O,CD,Huron W-O,ON,E53_Place
+CD_QC_Lévis_(Ville),CD,Lévis (Ville),QC,E53_Place
+CD_NB_Charlotte,CD,Charlotte,NB,E53_Place
+CD_QC_Jacques-Cartier_,CD,Jacques-Cartier ,QC,E53_Place
+CD_ON_Simcoe_S,CD,Simcoe S,ON,E53_Place
+CD_BC_Fraser_Valley,CD,Fraser Valley,BC,E53_Place
+CD_ON_Sudbury,CD,Sudbury,ON,E53_Place
+CD_QC_St._Johns,CD,St. Johns,QC,E53_Place
+CD_MB_Division_No._4,CD,Division No. 4,MB,E53_Place
+"CD_ON_Hastings,_West—Ouest",CD,"Hastings, West—Ouest",ON,E53_Place
+CD_MB_Macdonald,CD,Macdonald,MB,E53_Place
+CD_NB_King’s,CD,King’s,NB,E53_Place
+CD_BC_Victoria_City,CD,Victoria City,BC,E53_Place
+"CD_QC_Quebec,_County—Comté",CD,"Quebec, County—Comté",QC,E53_Place
+CD_SK_Division_No._11,CD,Division No. 11,SK,E53_Place
+CD_QC_Lac_St._Jean,CD,Lac St. Jean,QC,E53_Place
+"CD_ON_Lanark,_South—Sud",CD,"Lanark, South—Sud",ON,E53_Place
+CD_PE_Prince,CD,Prince,PE,E53_Place
+CD_QC_Rimouski_Ouest,CD,Rimouski Ouest,QC,E53_Place
+CD_ON_Prince_Edward,CD,Prince Edward,ON,E53_Place
+"CD_ON_Hamilton,_City—Cité",CD,"Hamilton, City—Cité",ON,E53_Place
+CD_YT_Yukon,CD,Yukon,YT,E53_Place
+CD_SK_Division_No._18,CD,Division No. 18,SK,E53_Place
+"CD_ON_Algoma,_West—Ouest",CD,"Algoma, West—Ouest",ON,E53_Place
+CD_SK_Division_No._13,CD,Division No. 13,SK,E53_Place
+CD_QC_Quebec_(Comté),CD,Quebec (Comté),QC,E53_Place
+CD_QC_Richmond,CD,Richmond,QC,E53_Place
+"CD_ON_Huron,_Centre",CD,"Huron, Centre",ON,E53_Place
+CD_SK_Division_No._5,CD,Division No. 5,SK,E53_Place
+"CD_QC_Quebec,_(County-Comté)",CD,"Quebec, (County-Comté)",QC,E53_Place
+CD_ON_Ontario,CD,Ontario,ON,E53_Place
+CD_SK_Saskatoon,CD,Saskatoon,SK,E53_Place
+CD_QC_Montreal_Est,CD,Montreal Est,QC,E53_Place
+CD_QC_Beauce,CD,Beauce,QC,E53_Place
+CD_SK_Division_No._9,CD,Division No. 9,SK,E53_Place
+CD_ON_Grey_E,CD,Grey E,ON,E53_Place
+CD_QC_Labelle,CD,Labelle,QC,E53_Place
+CD_ON_Brant_,CD,Brant ,ON,E53_Place
+CD_QC_Saint_Maurice_Sud,CD,Saint Maurice Sud,QC,E53_Place
+"CD_QC_Montréal,_St._Antoine",CD,"Montréal, St. Antoine",QC,E53_Place
+CD_ON_Victoria,CD,Victoria,ON,E53_Place
+CD_ON_Hamilton_W-O,CD,Hamilton W-O,ON,E53_Place
+CD_AB_Division_No._13,CD,Division No. 13,AB,E53_Place
+CD_QC_Montreal_Ouest,CD,Montreal Ouest,QC,E53_Place
+CD_NT_The_Territories,CD,The Territories,NT,E53_Place
+"CD_QC_Quebec,_East-Est,_City—Cité",CD,"Quebec, East-Est, City—Cité",QC,E53_Place
+CD_QC_Rimouski,CD,Rimouski,QC,E53_Place
+"CD_QC_Montreal,_St._Antoine,_City—Cité",CD,"Montreal, St. Antoine, City—Cité",QC,E53_Place
+CD_ON_Lincoln,CD,Lincoln,ON,E53_Place
+CD_SK_Qu'Appelle,CD,Qu'Appelle,SK,E53_Place
+CD_QC_Ottaoua_Centre,CD,Ottaoua Centre,QC,E53_Place
+CD_NB_Victoria_&_Madawaska,CD,Victoria & Madawaska,NB,E53_Place
+CD_ON_Toronto,CD,Toronto,ON,E53_Place
+CD_SK_Division_No._10,CD,Division No. 10,SK,E53_Place
+CD_NS_Cape_Breton_S.,CD,Cape Breton S.,NS,E53_Place
+CD_NS_Shelburne,CD,Shelburne,NS,E53_Place
+CD_QC_Maskinongé,CD,Maskinongé,QC,E53_Place
+CD_QC_Ottaoua_Est,CD,Ottaoua Est,QC,E53_Place
+"CD_ON_Norfolk,_North—Nord",CD,"Norfolk, North—Nord",ON,E53_Place
+CD_ON_Toronto_W-O,CD,Toronto W-O,ON,E53_Place
+CD_BC_British_Colombia,CD,British Colombia,BC,E53_Place
+"CD_ON_Northumberland,_West—Ouest",CD,"Northumberland, West—Ouest",ON,E53_Place
+CD_ON_Haldimand,CD,Haldimand,ON,E53_Place
+CD_ON_Perth_S,CD,Perth S,ON,E53_Place
+CD_QC_Frontenac,CD,Frontenac,QC,E53_Place
+"CD_ON_Huron,_South—Sud",CD,"Huron, South—Sud",ON,E53_Place
+CD_QC_City_of_Three_Rivers,CD,City of Three Rivers,QC,E53_Place
+"CD_ON_Essex,_South—Sud",CD,"Essex, South—Sud",ON,E53_Place
+CD_MB_Division_No._5,CD,Division No. 5,MB,E53_Place
+"CD_ON_Norfolk,_South—Sud",CD,"Norfolk, South—Sud",ON,E53_Place
+"CD_ON_Toronto,_East—Est",CD,"Toronto, East—Est",ON,E53_Place
+CD_NT_Unorganized_Territories—Territoires_non-organisés,CD,Unorganized Territories—Territoires non-organisés,NT,E53_Place
+CD_SK_Prince_Albert,CD,Prince Albert,SK,E53_Place
+"CD_QC_Montréal,_Ste._Anne",CD,"Montréal, Ste. Anne",QC,E53_Place
+"CD_ON_Huron,_East—Est",CD,"Huron, East—Est",ON,E53_Place
+"CD_ON_Waterloo,_North—Nord",CD,"Waterloo, North—Nord",ON,E53_Place
+CD_QC_Chicoutimi_and_Saguenay,CD,Chicoutimi and Saguenay,QC,E53_Place
+CD_MB_Division_No._1,CD,Division No. 1,MB,E53_Place
+CD_ON_Peterboro,CD,Peterboro,ON,E53_Place
+"CD_ON_Ontario,_West—Ouest",CD,"Ontario, West—Ouest",ON,E53_Place
+CD_QC_Québec_Centre,CD,Québec Centre,QC,E53_Place
+CD_QC_Lévis_(Comté),CD,Lévis (Comté),QC,E53_Place
+CD_ON_Durham_,CD,Durham ,ON,E53_Place
+CD_QC_Lotbiniere,CD,Lotbiniere,QC,E53_Place
+CD_BC_New_Westminster,CD,New Westminster,BC,E53_Place
+CD_NB_Kings,CD,Kings,NB,E53_Place
+"CD_QC_Quebec,_City—Cité",CD,"Quebec, City—Cité",QC,E53_Place
+CD_ON_Oxford_S,CD,Oxford S,ON,E53_Place
+CD_ON_Brant,CD,Brant,ON,E53_Place
+CD_BC_Comox-Atlin,CD,Comox-Atlin,BC,E53_Place
+CD_QC_Ottawa,CD,Ottawa,QC,E53_Place
+CD_ON_Toronto_N,CD,Toronto N,ON,E53_Place
+CD_ON_Lennox_and_Addington_,CD,Lennox and Addington ,ON,E53_Place
+CD_QC_Yamaska,CD,Yamaska,QC,E53_Place
+CD_QC_Trois-Rivières,CD,Trois-Rivières,QC,E53_Place
+CD_ON_Halton,CD,Halton,ON,E53_Place
+CD_QC_Pontiac,CD,Pontiac,QC,E53_Place
+CD_ON_Lanark,CD,Lanark,ON,E53_Place
+CD_QC_Beauce_Est,CD,Beauce Est,QC,E53_Place
+CD_NS_Nova_Scotia,CD,Nova Scotia,NS,E53_Place
+"CD_QC_Montreal,_Ste._Marie,_City—Cité",CD,"Montreal, Ste. Marie, City—Cité",QC,E53_Place
+CD_SK_Division_No._2,CD,Division No. 2,SK,E53_Place
+CD_MB_Division_No._16,CD,Division No. 16,MB,E53_Place
+"CD_ON_Wellington,_South—Sud",CD,"Wellington, South—Sud",ON,E53_Place
+CD_QC_Beauharnois,CD,Beauharnois,QC,E53_Place
+CD_QC_Wolfe,CD,Wolfe,QC,E53_Place
+CD_ON_Bruce,CD,Bruce,ON,E53_Place
+CD_ON_Middlesex_W-O,CD,Middlesex W-O,ON,E53_Place
+CD_QC_Bellechasse_Sud,CD,Bellechasse Sud,QC,E53_Place
+CD_ON_Ottawa,CD,Ottawa,ON,E53_Place
+CD_QC_Saint_Maurice_Nord,CD,Saint Maurice Nord,QC,E53_Place
+CD_QC_Drummond_&_Arthabaska,CD,Drummond & Arthabaska,QC,E53_Place
+CD_NS_Halifax_(County-Comté),CD,Halifax (County-Comté),NS,E53_Place
+"CD_ON_Hastings,_North—Nord",CD,"Hastings, North—Nord",ON,E53_Place
+"CD_ON_Oxford,_North—Nord",CD,"Oxford, North—Nord",ON,E53_Place
+CD_ON_Ottawa_City-Cité_Pt,CD,Ottawa City-Cité Pt,ON,E53_Place
+CD_ON_Cornwall_&_Stormont,CD,Cornwall & Stormont,ON,E53_Place
+CD_ON_Middlesex,CD,Middlesex,ON,E53_Place
+CD_ON_Lanark_N,CD,Lanark N,ON,E53_Place
+CD_QC_Jacques-Cartier,CD,Jacques-Cartier,QC,E53_Place
+CD_MB_Division_No._8,CD,Division No. 8,MB,E53_Place
+CD_ON_Waterloo_S,CD,Waterloo S,ON,E53_Place
+"CD_NB_St-John,_County—Comté",CD,"St-John, County—Comté",NB,E53_Place
+CD_NB_St._John_City_&_County,CD,St. John City & County,NB,E53_Place
+CD_ON_Wellington_N,CD,Wellington N,ON,E53_Place
+"CD_ON_Wellington,_Centre",CD,"Wellington, Centre",ON,E53_Place
+CD_ON_London,CD,London,ON,E53_Place
+CD_NS_King’s,CD,King’s,NS,E53_Place
+"CD_ON_Bruce,_East—Est",CD,"Bruce, East—Est",ON,E53_Place
+"CD_QC_Montréal,_St._Laurent",CD,"Montréal, St. Laurent",QC,E53_Place
+CD_ON_Addington,CD,Addington,ON,E53_Place
+CD_QC_Joliette,CD,Joliette,QC,E53_Place
+"CD_ON_Grenville,_South—Sud",CD,"Grenville, South—Sud",ON,E53_Place
+CD_QC_Chicoutimi,CD,Chicoutimi,QC,E53_Place
+CD_NB_New_Brunswick,CD,New Brunswick,NB,E53_Place
+CD_QC_Arthabaska,CD,Arthabaska,QC,E53_Place
+CD_NS_Cape_Breton_N._&_Victoria,CD,Cape Breton N. & Victoria,NS,E53_Place
+CD_ON_Grey_N,CD,Grey N,ON,E53_Place
+CD_SK_Saltcoats,CD,Saltcoats,SK,E53_Place
+"CD_ON_Ottawa,_City—Cité",CD,"Ottawa, City—Cité",ON,E53_Place
+"CD_ON_Simcoe,_North—Nord",CD,"Simcoe, North—Nord",ON,E53_Place
+CD_NS_Digby,CD,Digby,NS,E53_Place
+CD_NB_Westmorland,CD,Westmorland,NB,E53_Place
+CD_QC_Laprairie,CD,Laprairie,QC,E53_Place
+"CD_ON_Toronto,_City",CD,"Toronto, City",ON,E53_Place
+"CD_QC_Montréal,_(City-Ville)",CD,"Montréal, (City-Ville)",QC,E53_Place
+"CD_ON_Kingston,_City—Cite",CD,"Kingston, City—Cite",ON,E53_Place
+CD_PE_Kings,CD,Kings,PE,E53_Place
+CD_SK_Mackenzie,CD,Mackenzie,SK,E53_Place
+"CD_NB_St._John,_(City-Ville)",CD,"St. John, (City-Ville)",NB,E53_Place
+CD_ON_Wellington_S,CD,Wellington S,ON,E53_Place
+CD_MB_Division_No._13,CD,Division No. 13,MB,E53_Place
+CD_AB_Victoria,CD,Victoria,AB,E53_Place
+CD_NB_Albert,CD,Albert,NB,E53_Place
+"CD_ON_Brant,_South_or_West—Sud_ou_Ouest",CD,"Brant, South or West—Sud ou Ouest",ON,E53_Place
+CD_ON_Perth_N,CD,Perth N,ON,E53_Place
+CD_ON_Simcoe_N,CD,Simcoe N,ON,E53_Place
+CD_QC_Iberville,CD,Iberville,QC,E53_Place
+CD_SK_Division_No._3,CD,Division No. 3,SK,E53_Place
+CD_MB_Selkirk,CD,Selkirk,MB,E53_Place
+"CD_ON_Huron,_North—Nord",CD,"Huron, North—Nord",ON,E53_Place
+"CD_NS_Halifax,_West",CD,"Halifax, West",NS,E53_Place
+CD_QC_Dorchester_Est,CD,Dorchester Est,QC,E53_Place
+CD_QC_Québec,CD,Québec,QC,E53_Place
+CD_QC_Mégantic,CD,Mégantic,QC,E53_Place
+CD_BC_Nanaimo,CD,Nanaimo,BC,E53_Place
+CD_SK_Division_No._14,CD,Division No. 14,SK,E53_Place
+"CD_ON_Northumberland,_East—Est",CD,"Northumberland, East—Est",ON,E53_Place
+CD_ON_Leeds,CD,Leeds,ON,E53_Place
+CD_ON_Northumber_Land_E,CD,Northumber Land E,ON,E53_Place
+CD_MB_Division_No._7,CD,Division No. 7,MB,E53_Place
+CD_QC_L’Islet,CD,L’Islet,QC,E53_Place
+"CD_NB_St._John,_(County-Comté)",CD,"St. John, (County-Comté)",NB,E53_Place
+CD_NS_Guysborough,CD,Guysborough,NS,E53_Place
+CD_QC_Dorchester,CD,Dorchester,QC,E53_Place
+CD_ON_Algoma,CD,Algoma,ON,E53_Place
+CD_AB_Division_No._10,CD,Division No. 10,AB,E53_Place
+CD_ON_Lambton_W-O,CD,Lambton W-O,ON,E53_Place
+CD_AB_Division_No._3,CD,Division No. 3,AB,E53_Place
+CD_QC_Trois_Rivieres,CD,Trois Rivieres,QC,E53_Place
+CD_ON_Niagara,CD,Niagara,ON,E53_Place
+CD_QC_Lévis,CD,Lévis,QC,E53_Place
+CD_NT_Assiniboia_West-Ouest,CD,Assiniboia West-Ouest,NT,E53_Place
+CD_SK_Moosejaw,CD,Moosejaw,SK,E53_Place
+CD_ON_Thunder_Bay,CD,Thunder Bay,ON,E53_Place
+CD_ON_York_N,CD,York N,ON,E53_Place
+CD_QC_Gaspé_Centre,CD,Gaspé Centre,QC,E53_Place
+"CD_ON_Brant,_North—Nord",CD,"Brant, North—Nord",ON,E53_Place
+CD_QC_Quebec_Est,CD,Quebec Est,QC,E53_Place
+CD_AB_Division_No._5,CD,Division No. 5,AB,E53_Place
+CD_PE_Queen's,CD,Queen's,PE,E53_Place
+CD_NT_Assiniboia_East-Est,CD,Assiniboia East-Est,NT,E53_Place
+CD_AB_Calgary,CD,Calgary,AB,E53_Place
+CD_ON_Hamilton,CD,Hamilton,ON,E53_Place
+CD_QC_Champlain_Nord,CD,Champlain Nord,QC,E53_Place
+CD_NB_Madawaska,CD,Madawaska,NB,E53_Place
+CD_NT_Unorganized_Territories,CD,Unorganized Territories,NT,E53_Place
+CD_NB_Restigouche,CD,Restigouche,NB,E53_Place
+CD_ON_Kenora,CD,Kenora,ON,E53_Place
+CD_MB_Provencher_,CD,Provencher ,MB,E53_Place
+CD_QC_Deux_Montagnes,CD,Deux Montagnes,QC,E53_Place
+CD_ON_Elgin_W-O,CD,Elgin W-O,ON,E53_Place
+CD_AB_Division_No._17,CD,Division No. 17,AB,E53_Place
+CD_MB_Portage_La_Prairie,CD,Portage La Prairie,MB,E53_Place
+CD_SK_Division_No._16,CD,Division No. 16,SK,E53_Place
+CD_QC_Rouville,CD,Rouville,QC,E53_Place
+CD_AB_Division_No._7,CD,Division No. 7,AB,E53_Place
+CD_ON_Nipissing,CD,Nipissing,ON,E53_Place
+CD_BC_Yale_&_Cariboo,CD,Yale & Cariboo,BC,E53_Place
+CD_QC_Chambly_&_Verchères,CD,Chambly & Verchères,QC,E53_Place
+CD_QC_Sherbrooke,CD,Sherbrooke,QC,E53_Place
+CD_BC_Burrard,CD,Burrard,BC,E53_Place
+CD_QC_Vercheres,CD,Vercheres,QC,E53_Place
+CD_QC_L'Assomption,CD,L'Assomption,QC,E53_Place
+CD_BC_Kootenay_East,CD,Kootenay East,BC,E53_Place
+CD_NB_Sunbury,CD,Sunbury,NB,E53_Place
+CD_ON_Toronto_Centre,CD,Toronto Centre,ON,E53_Place
+"CD_ON_Perth,_North—Nord",CD,"Perth, North—Nord",ON,E53_Place
+"CD_NS_Halifax,_City—Cité",CD,"Halifax, City—Cité",NS,E53_Place
+CD_QC_City_of_Quebec,CD,City of Quebec,QC,E53_Place
+CD_ON_Hastings,CD,Hastings,ON,E53_Place
+"CD_ON_Wentworth_&_Brant,_North—Nord",CD,"Wentworth & Brant, North—Nord",ON,E53_Place
+CD_ON_Algoma_E,CD,Algoma E,ON,E53_Place
+"CD_PE_Queens,_West—Ouest",CD,"Queens, West—Ouest",PE,E53_Place
+CD_ON_Renfrew_S,CD,Renfrew S,ON,E53_Place
+CD_SK_Division_No._6,CD,Division No. 6,SK,E53_Place
+"CD_ON_Bruce,_South—Sud",CD,"Bruce, South—Sud",ON,E53_Place
+CD_QC_Montmorency,CD,Montmorency,QC,E53_Place
+"CD_ON_Bruce,_West—Ouest",CD,"Bruce, West—Ouest",ON,E53_Place
+"CD_QC_Québec,_cité",CD,"Québec, cité",QC,E53_Place
+CD_BC_Vancouver_Centre,CD,Vancouver Centre,BC,E53_Place
+"CD_QC_Ottawa,_County—Comté",CD,"Ottawa, County—Comté",QC,E53_Place
+CD_ON_York_S,CD,York S,ON,E53_Place
+"CD_ON_Lambton,_East—Est",CD,"Lambton, East—Est",ON,E53_Place
+CD_QC_L'Islet,CD,L'Islet,QC,E53_Place
+CD_ON_Bothwell,CD,Bothwell,ON,E53_Place
+CD_ON_Essex,CD,Essex,ON,E53_Place
+CD_ON_Prescott,CD,Prescott,ON,E53_Place
+CD_NS_Shelburne_&_Queens,CD,Shelburne & Queens,NS,E53_Place
+CD_QC_Terrebonne,CD,Terrebonne,QC,E53_Place

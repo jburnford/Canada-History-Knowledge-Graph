@@ -1,0 +1,491 @@
+type_id:ID,:LABEL,label,category,unit,variable_name
+VAR_AGE_01to02F_N,E55_Type,Number of females aged 1 to 2,AGE,persons,AGE_01to02F_N
+VAR_AGE_01to02M_N,E55_Type,Number of males aged 1 to 2,AGE,persons,AGE_01to02M_N
+VAR_AGE_02to03F_N,E55_Type,Number of females aged 2 to 3,AGE,persons,AGE_02to03F_N
+VAR_AGE_02to03M_N,E55_Type,Number of males aged 2 to 3,AGE,persons,AGE_02to03M_N
+VAR_AGE_03to04F_N,E55_Type,Number of females age 3 to 4,AGE,persons,AGE_03to04F_N
+VAR_AGE_03to04M_N,E55_Type,Number of males aged 3 to 4,AGE,persons,AGE_03to04M_N
+VAR_AGE_04to05F_N,E55_Type,Number of females aged 4 to 5,AGE,persons,AGE_04to05F_N
+VAR_AGE_04to05M_N,E55_Type,Number of males aged 4 to 5,AGE,persons,AGE_04to05M_N
+VAR_AGE_05to10F_N,E55_Type,Number of females aged 5 to 10,AGE,persons,AGE_05to10F_N
+VAR_AGE_05to10M_N,E55_Type,Number of males aged 5 to 10,AGE,persons,AGE_05to10M_N
+VAR_AGE_05to16F_N,E55_Type,Number of females aged 5 to 16,AGE,persons,AGE_05to16F_N
+VAR_AGE_05to16M_N,E55_Type,Number of males aged 5 to 16,AGE,persons,AGE_05to16M_N
+VAR_AGE_0to01F_N,E55_Type,Number of females under age 1,AGE,persons,AGE_0to01F_N
+VAR_AGE_0to01M_N,E55_Type,Number of males under age 1,AGE,persons,AGE_0to01M_N
+VAR_AGE_0to05F_N,E55_Type,Number of females aged 0 to 5,AGE,persons,AGE_0to05F_N
+VAR_AGE_0to05M_N,E55_Type,Number of males aged under 5,AGE,persons,AGE_0to05M_N
+VAR_AGE_0to17FS_N,E55_Type,Number of single females under 18,AGE,persons,AGE_0to17FS_N
+VAR_AGE_0to17MS_N,E55_Type,Number of single males under 18,AGE,persons,AGE_0to17MS_N
+VAR_AGE_0to17XS_N,E55_Type,Number of single persons under 18,AGE,persons,AGE_0to17XS_N
+VAR_AGE_10to15FM_N,E55_Type,Number of married females aged 10 to 15,AGE,persons,AGE_10to15FM_N
+VAR_AGE_10to15FS_N,E55_Type,Number of single females aged 10 to 15,AGE,persons,AGE_10to15FS_N
+VAR_AGE_10to15MM_N,E55_Type,Number of married males aged 10 to 15,AGE,persons,AGE_10to15MM_N
+VAR_AGE_10to15MS_N,E55_Type,Number of single males aged 10 to 15,AGE,persons,AGE_10to15MS_N
+VAR_AGE_15to20FM_N,E55_Type,Number of married females aged 15 to 20,AGE,persons,AGE_15to20FM_N
+VAR_AGE_15to20FS_N,E55_Type,Number of single females aged 15 to 20,AGE,persons,AGE_15to20FS_N
+VAR_AGE_15to20MM_N,E55_Type,Number of married males aged 15 to 20,AGE,persons,AGE_15to20MM_N
+VAR_AGE_15to20MS_N,E55_Type,Number of single males aged 15 to 20,AGE,persons,AGE_15to20MS_N
+VAR_AGE_16to21F_N,E55_Type,Number of females aged 16 to 21,AGE,persons,AGE_16to21F_N
+VAR_AGE_16to21M_N,E55_Type,Number of males aged 16 to 21,AGE,persons,AGE_16to21M_N
+VAR_AGE_20to30FM_N,E55_Type,Number of married females aged 20 to 30,AGE,persons,AGE_20to30FM_N
+VAR_AGE_20to30FS_N,E55_Type,Number of single females aged 20 to 30,AGE,persons,AGE_20to30FS_N
+VAR_AGE_20to30FW_N,E55_Type,Number of widowed females aged 20 to 30,AGE,persons,AGE_20to30FW_N
+VAR_AGE_20to30MM_N,E55_Type,Number of married males aged 20 to 30,AGE,persons,AGE_20to30MM_N
+VAR_AGE_20to30MS_N,E55_Type,Number of single males aged 20 to 30,AGE,persons,AGE_20to30MS_N
+VAR_AGE_20to30MW_N,E55_Type,Number of widowed males aged 20 to 30,AGE,persons,AGE_20to30MW_N
+VAR_AGE_21to45F_N,E55_Type,Number of females aged 21-45,AGE,persons,AGE_21to45F_N
+VAR_AGE_21to45M_N,E55_Type,Number of males aged 21 to 45,AGE,persons,AGE_21to45M_N
+VAR_AGE_30to40FM_N,E55_Type,Number of married females aged 30 to 40,AGE,persons,AGE_30to40FM_N
+VAR_AGE_30to40FS_N,E55_Type,Number of single females aged 30 to 40,AGE,persons,AGE_30to40FS_N
+VAR_AGE_30to40FW_N,E55_Type,Number of widowed females aged 30 to 40,AGE,persons,AGE_30to40FW_N
+VAR_AGE_30to40MM_N,E55_Type,Number of married males aged 30 to 40,AGE,persons,AGE_30to40MM_N
+VAR_AGE_30to40MS_N,E55_Type,Number of single males aged 30 to 40,AGE,persons,AGE_30to40MS_N
+VAR_AGE_30to40MW_N,E55_Type,Number of widowed males aged 30 to 40,AGE,persons,AGE_30to40MW_N
+VAR_AGE_40to50FM_N,E55_Type,Number of married females aged 40 to 50,AGE,persons,AGE_40to50FM_N
+VAR_AGE_40to50FS_N,E55_Type,Number of single females aged 40 to 50,AGE,persons,AGE_40to50FS_N
+VAR_AGE_40to50FW_N,E55_Type,Number of widowed females aged 40 to 50,AGE,persons,AGE_40to50FW_N
+VAR_AGE_40to50MM_N,E55_Type,Number of married males aged 40 to 50,AGE,persons,AGE_40to50MM_N
+VAR_AGE_40to50MS_N,E55_Type,Number of single males aged 40 to 50,AGE,persons,AGE_40to50MS_N
+VAR_AGE_40to50MW_N,E55_Type,Number of widowed males aged 40 to 50,AGE,persons,AGE_40to50MW_N
+VAR_AGE_45to60F_N,E55_Type,Number of females aged 45-60,AGE,persons,AGE_45to60F_N
+VAR_AGE_45to60M_N,E55_Type,Number of males aged 45 to 60,AGE,persons,AGE_45to60M_N
+VAR_AGE_50to60FM_N,E55_Type,Number of married females aged 50 to 60,AGE,persons,AGE_50to60FM_N
+VAR_AGE_50to60FS_N,E55_Type,Number of single females aged 50 to 60,AGE,persons,AGE_50to60FS_N
+VAR_AGE_50to60FW_N,E55_Type,Number of widowed females aged 50 to 60,AGE,persons,AGE_50to60FW_N
+VAR_AGE_50to60MM_N,E55_Type,Number of married males aged 50 to 60,AGE,persons,AGE_50to60MM_N
+VAR_AGE_50to60MS_N,E55_Type,Number of single males aged 50 to 60,AGE,persons,AGE_50to60MS_N
+VAR_AGE_50to60MW_N,E55_Type,Number of widowed males aged 50 to 60,AGE,persons,AGE_50to60MW_N
+VAR_AGE_60to70FM_N,E55_Type,Number of married females aged 60 to 70,AGE,persons,AGE_60to70FM_N
+VAR_AGE_60to70FS_N,E55_Type,Number of single females aged 60 to 70,AGE,persons,AGE_60to70FS_N
+VAR_AGE_60to70FW_N,E55_Type,Number of widowed females aged 60 to 70,AGE,persons,AGE_60to70FW_N
+VAR_AGE_60to70MM_N,E55_Type,Number of married males aged 60 to 70,AGE,persons,AGE_60to70MM_N
+VAR_AGE_60to70MS_N,E55_Type,Number of single males aged 60 to 70,AGE,persons,AGE_60to70MS_N
+VAR_AGE_60to70MW_N,E55_Type,Number of widowed males aged 60 to 70,AGE,persons,AGE_60to70MW_N
+VAR_AGE_70to80FM_N,E55_Type,Number of married females aged 70 to 80,AGE,persons,AGE_70to80FM_N
+VAR_AGE_70to80FS_N,E55_Type,Number of single females aged 70 to 80,AGE,persons,AGE_70to80FS_N
+VAR_AGE_70to80FW_N,E55_Type,Number of widowed females aged 70 to 80,AGE,persons,AGE_70to80FW_N
+VAR_AGE_70to80MM_N,E55_Type,Number of married males aged 70 to 80,AGE,persons,AGE_70to80MM_N
+VAR_AGE_70to80MS_N,E55_Type,Number of single males aged 70 to 80,AGE,persons,AGE_70to80MS_N
+VAR_AGE_70to80MW_N,E55_Type,Number of widowed males aged 70 to 80,AGE,persons,AGE_70to80MW_N
+VAR_AGE_80to90FM_N,E55_Type,Number of married females aged 80 to 90,AGE,persons,AGE_80to90FM_N
+VAR_AGE_80to90FS_N,E55_Type,Number of single females aged 80 to 90,AGE,persons,AGE_80to90FS_N
+VAR_AGE_80to90FW_N,E55_Type,Number of widowed females aged 80 to 90,AGE,persons,AGE_80to90FW_N
+VAR_AGE_80to90MM_N,E55_Type,Number of married males aged 80 to 90,AGE,persons,AGE_80to90MM_N
+VAR_AGE_80to90MS_N,E55_Type,Number of single males aged 80 to 90,AGE,persons,AGE_80to90MS_N
+VAR_AGE_80to90MW_N,E55_Type,Number of widowed males aged 80 to 90,AGE,persons,AGE_80to90MW_N
+VAR_AGE_90to100FM_N,E55_Type,Number of married females aged 90 to 100,AGE,persons,AGE_90to100FM_N
+VAR_AGE_90to100FS_N,E55_Type,Number of single females aged 90 to 100,AGE,persons,AGE_90to100FS_N
+VAR_AGE_90to100FW_N,E55_Type,Number of widowed females aged 90 to 100,AGE,persons,AGE_90to100FW_N
+VAR_AGE_90to100MM_N,E55_Type,Number of married males aged 90 to 100,AGE,persons,AGE_90to100MM_N
+VAR_AGE_90to100MS_N,E55_Type,Number of single males aged 90 to 100,AGE,persons,AGE_90to100MS_N
+VAR_AGE_90to100MW_N,E55_Type,Number of widowed males aged 90 to 100,AGE,persons,AGE_90to100MW_N
+VAR_AGE_NF_N,E55_Type,Number of females of unknown age,AGE,persons,AGE_NF_N
+VAR_AGE_NM_N,E55_Type,Number of males of unknown age,AGE,persons,AGE_NM_N
+VAR_AGE_ov100FM_N,E55_Type,Number of married females over 100,AGE,persons,AGE_ov100FM_N
+VAR_AGE_ov100FS_N,E55_Type,Number of single females over 100,AGE,persons,AGE_ov100FS_N
+VAR_AGE_ov100FW_N,E55_Type,Number of widowed females over 100,AGE,persons,AGE_ov100FW_N
+VAR_AGE_ov100MM_N,E55_Type,Number of married males over 100,AGE,persons,AGE_ov100MM_N
+VAR_AGE_ov100MS_N,E55_Type,Number of single males over 100,AGE,persons,AGE_ov100MS_N
+VAR_AGE_ov100MW_N,E55_Type,Number of widowed males over 100,AGE,persons,AGE_ov100MW_N
+VAR_AGE_ov60F_N,E55_Type,Number of females over 60,AGE,persons,AGE_ov60F_N
+VAR_AGE_ov60M_N,E55_Type,Number of males over 60,AGE,persons,AGE_ov60M_N
+VAR_ARE_XX_A,E55_Type,Total area (acres),AGR,unknown,ARE_XX_A
+VAR_BAR_XX_A,E55_Type,Acres of barley,AGR,unknown,BAR_XX_A
+VAR_BAR_XX_B,E55_Type,Bushels of barley produced in the past year,AGR,unknown,BAR_XX_B
+VAR_BEAN_XX_B,E55_Type,Bushels of beans produced in the past year,AGR,unknown,BEAN_XX_B
+VAR_BEEF_XX_BL,E55_Type,Barrels of beef produced in the past year,AGR,unknown,BEEF_XX_BL
+VAR_BUT_XX_LB,E55_Type,Pounds of homemade butter,AGR,unknown,BUT_XX_LB
+VAR_BWT_XX_A,E55_Type,Acres of buckwheat,AGR,unknown,BWT_XX_A
+VAR_BWT_XX_B,E55_Type,Bushels of buckwheat produced in the past year,AGR,unknown,BWT_XX_B
+VAR_CRN_XX_A,E55_Type,Acres of corn,AGR,unknown,CRN_XX_A
+VAR_CRN_XX_B,E55_Type,Bushels of corn produced in the past year,AGR,unknown,CRN_XX_B
+VAR_CTL_CH_N,E55_Type,Number of calves and heifers,AGR,unknown,CTL_CH_N
+VAR_CTL_MX_N,E55_Type,Number of milk cows,AGR,unknown,CTL_MX_N
+VAR_CTL_OB_N,E55_Type,"Number of bulls, oxen, or steers",AGR,unknown,CTL_OB_N
+VAR_CTL_OTH_N,E55_Type,Number of other cattle,AGR,unknown,CTL_OTH_N
+VAR_CTL_OX_N,E55_Type,Number of oxen,AGR,unknown,CTL_OX_N
+VAR_CTL_PC_LB,E55_Type,Pounds of cheese produced on farms in the past year,AGR,unknown,CTL_PC_LB
+VAR_CTL_SX_N,E55_Type,Number of cattle killed or sold in the past year,AGR,unknown,CTL_SX_N
+VAR_CTL_XX_N,E55_Type,Number of cattle,AGR,unknown,CTL_XX_N
+VAR_FLH_XX_LB,E55_Type,Pounds of flax or hemp produced in the past year,AGR,unknown,FLH_XX_LB
+VAR_FLX_XX_LB,E55_Type,Pounds of flax produced in the past year,AGR,unknown,FLX_XX_LB
+VAR_FML_XI_A,E55_Type,Acres of improved land in farms,AGR,unknown,FML_XI_A
+VAR_FML_XX_A,E55_Type,Acres of land in farms,AGR,unknown,FML_XX_A
+VAR_FOWL_CX_N,E55_Type,Number of chickens,AGR,unknown,FOWL_CX_N
+VAR_FOWL_DX_N,E55_Type,Number of ducks,AGR,unknown,FOWL_DX_N
+VAR_FOWL_GX_N,E55_Type,Number of geese,AGR,unknown,FOWL_GX_N
+VAR_FOWL_OTH_N,E55_Type,Number of other fowl,AGR,unknown,FOWL_OTH_N
+VAR_FOWL_TX_N,E55_Type,Number of turkeys,AGR,unknown,FOWL_TX_N
+VAR_FRM_Q1_N,E55_Type,Number of persons holding farmland of first quality,AGR,unknown,FRM_Q1_N
+VAR_FRM_Q2_N,E55_Type,Number of persons holding farmland of second quality,AGR,unknown,FRM_Q2_N
+VAR_FRM_Q3_N,E55_Type,Number of persons holding farmland of third quality,AGR,unknown,FRM_Q3_N
+VAR_FRM_XX_N,E55_Type,Number of occupants of farms,AGR,unknown,FRM_XX_N
+VAR_FRM_XX_V,E55_Type,Value of farms (dollars),AGR,unknown,FRM_XX_V
+VAR_FRMLU_ARA_A,E55_Type,Acres of farmland in arable land,AGR,unknown,FRMLU_ARA_A
+VAR_FRMLU_CLT_A,E55_Type,Acres of farmland under cultivation,AGR,unknown,FRMLU_CLT_A
+VAR_FRMLU_CRP_A,E55_Type,Acres of farmland under crops,AGR,unknown,FRMLU_CRP_A
+VAR_FRMLU_GO_A,E55_Type,Acres of farmland in gardens or orchards,AGR,unknown,FRMLU_GO_A
+VAR_FRMLU_GX_A,E55_Type,Acres of farmland in gardens,AGR,unknown,FRMLU_GX_A
+VAR_FRMLU_PST_A,E55_Type,Acres of farmland in pasture,AGR,unknown,FRMLU_PST_A
+VAR_FRMLU_WOD_A,E55_Type,Acres of farmland in woodland or forest,AGR,unknown,FRMLU_WOD_A
+VAR_FRMSZ_0to10_N,E55_Type,Number of persons living on farms under 10 acres,AGR,unknown,FRMSZ_0to10_N
+VAR_FRMSZ_0to10_N,E55_Type,Number of persons living on farms under 10 acres,AGR,unknown,FRMSZ_0to10_N
+VAR_FRMSZ_100to200_N,E55_Type,Number of persons living on farms between 100 and 200 acres,AGR,unknown,FRMSZ_100to200_N
+VAR_FRMSZ_101to200_N,E55_Type,Number of persons living on farms between 101 and 200 acres,AGR,unknown,FRMSZ_101to200_N
+VAR_FRMSZ_10to20_N,E55_Type,Number of persons living on farms between 10 and 20 acres,AGR,unknown,FRMSZ_10to20_N
+VAR_FRMSZ_11to50_N,E55_Type,Number of persons living on farms between 11 and 50 acres,AGR,unknown,FRMSZ_11to50_N
+VAR_FRMSZ_20to50_N,E55_Type,Number of persons living on farms between 20 and 50 acres,AGR,unknown,FRMSZ_20to50_N
+VAR_FRMSZ_50to100_N,E55_Type,Number of persons living on farms between 50 and 100 acres,AGR,unknown,FRMSZ_50to100_N
+VAR_FRMSZ_51to100_N,E55_Type,Number of persons living on farms between 51 and 100 acres,AGR,unknown,FRMSZ_51to100_N
+VAR_FRMSZ_ov200_N,E55_Type,Number of persons living on farms over 200 acres,AGR,unknown,FRMSZ_ov200_N
+VAR_FRMSZ_ov201_N,E55_Type,Number of persons living on farms over 200 acres,AGR,unknown,FRMSZ_ov201_N
+VAR_FRMTN_EX_N,E55_Type,Number of employees on farms,AGR,unknown,FRMTN_EX_N
+VAR_FRMTN_OX_A,E55_Type,Acres of farmland owned,AGR,unknown,FRMTN_OX_A
+VAR_FRMTN_OX_N,E55_Type,Number of farm occupants who own their land,AGR,unknown,FRMTN_OX_N
+VAR_FRMTN_RX_A,E55_Type,Acres of farmland rented,AGR,unknown,FRMTN_RX_A
+VAR_FRMTN_SX_A,E55_Type,Acres of farmland neither owned nor rented,AGR,unknown,FRMTN_SX_A
+VAR_FRMTN_TX_N,E55_Type,Number of farm occupants who rent their land,AGR,unknown,FRMTN_TX_N
+VAR_FRMTN_VX_A,E55_Type,Acres of farmland held by verbal agreement,AGR,unknown,FRMTN_VX_A
+VAR_FRMTN_XA_A,E55_Type,Acres of farmland held by townspeople who are not farmers,AGR,unknown,FRMTN_XA_A
+VAR_FRT_LX_A,E55_Type,Acres of farmland fertilized with lime,AGR,unknown,FRT_LX_A
+VAR_FRT_SX_A,E55_Type,Acres of farmland fertilized with shell manure,AGR,unknown,FRT_SX_A
+VAR_FRU_AO_V,E55_Type,Value of apples and other fruits produced in the past year,AGR,unknown,FRU_AO_V
+VAR_FRU_PC_G,E55_Type,Gallons of cider produced in the past year,AGR,unknown,FRU_PC_G
+VAR_FRU_PX_V,E55_Type,Value of garden and orchard crops produced in the past year,AGR,unknown,FRU_PX_V
+VAR_GRA_TX_B,E55_Type,Bushels of timothy grass seed produced in the past year,AGR,unknown,GRA_TX_B
+VAR_GRA_XS_B,E55_Type,"Bushels of clover, timothy, or other grass seed produced in the past year",AGR,unknown,GRA_XS_B
+VAR_HAY_XX_A,E55_Type,Acres of hay crops,AGR,unknown,HAY_XX_A
+VAR_HAY_XX_T,E55_Type,Tons of hay produced in the past year,AGR,unknown,HAY_XX_T
+VAR_HOP_XX_LB,E55_Type,Pounds of hops produced in the past year,AGR,unknown,HOP_XX_LB
+VAR_HRS_0to03_N,E55_Type,Number of horses aged 3 years and under,AGR,unknown,HRS_0to03_N
+VAR_HRS_ov03_N,E55_Type,Number of horses aged over 3 years,AGR,unknown,HRS_ov03_N
+VAR_HRS_XX_N,E55_Type,Number of horses,AGR,unknown,HRS_XX_N
+VAR_LEG_CS_B,E55_Type,Bushels of clover seed produced in the past year,AGR,unknown,LEG_CS_B
+VAR_LEG_VX_B,E55_Type,Bushels of vetches produced in the past year,AGR,unknown,LEG_VX_B
+VAR_MACH_FI_V,E55_Type,Value of farm implements in dollars,AGR,unknown,MACH_FI_V
+VAR_MACH_FX_N,E55_Type,Number of farming mills,AGR,unknown,MACH_FX_N
+VAR_MACH_HB_N,E55_Type,Number of hay-making machines,AGR,unknown,MACH_HB_N
+VAR_MACH_HE_N,E55_Type,Number of hay elevators,AGR,unknown,MACH_HE_N
+VAR_MACH_HM_N,E55_Type,Number of hay mowing machines,AGR,unknown,MACH_HM_N
+VAR_MACH_MD_N,E55_Type,Number of mud-digging machines,AGR,unknown,MACH_MD_N
+VAR_MACH_OTH_N,E55_Type,Number of other machines,AGR,unknown,MACH_OTH_N
+VAR_MACH_TX_N,E55_Type,Number of threshing machines,AGR,unknown,MACH_TX_N
+VAR_MPL_PS_LB,E55_Type,Pounds of maple sugar produced in the past year,AGR,unknown,MPL_PS_LB
+VAR_OAT_XX_A,E55_Type,Acres of oats,AGR,unknown,OAT_XX_A
+VAR_OAT_XX_B,E55_Type,Bushels of oats produced in the past year,AGR,unknown,OAT_XX_B
+VAR_PEA_BX_A,E55_Type,Bushels of peas and beans produced in the past year,AGR,unknown,PEA_BX_A
+VAR_PEA_XX_A,E55_Type,Acres of peas,AGR,unknown,PEA_XX_A
+VAR_PEA_XX_B,E55_Type,Bushels of peas produced in the past year,AGR,unknown,PEA_XX_B
+VAR_POT_XX_A,E55_Type,Acres of potatoes,AGR,unknown,POT_XX_A
+VAR_POT_XX_B,E55_Type,Bushels of potatoes produced in the past year,AGR,unknown,POT_XX_B
+VAR_ROOT_CX_B,E55_Type,Bushels of carrots produced in the past year,AGR,unknown,ROOT_CX_B
+VAR_ROOT_MW_A,E55_Type,Acres of mangel wurtzel,AGR,unknown,ROOT_MW_A
+VAR_ROOT_MW_B,E55_Type,Bushels of mangel wurtzel produced in the past year,AGR,unknown,ROOT_MW_B
+VAR_ROOT_OTH_B,E55_Type,Bushels of other root crops produced in the past year,AGR,unknown,ROOT_OTH_B
+VAR_ROOT_TX_A,E55_Type,Acres of turnips,AGR,unknown,ROOT_TX_A
+VAR_ROOT_TX_B,E55_Type,Bushels of turnips produced in the past year,AGR,unknown,ROOT_TX_B
+VAR_RYE_XX_A,E55_Type,Acres of rye,AGR,unknown,RYE_XX_A
+VAR_RYE_XX_B,E55_Type,Bushels of rye produced in the past year,AGR,unknown,RYE_XX_B
+VAR_SHP_WC_LB,E55_Type,Pounds of coarse wool produced on farms in the past year,AGR,unknown,SHP_WC_LB
+VAR_SHP_WF_LB,E55_Type,Pounds of fine wool produced on farms in the past year,AGR,unknown,SHP_WF_LB
+VAR_SHP_WX_LB,E55_Type,Pounds of wool produced on farms in the past year,AGR,unknown,SHP_WX_LB
+VAR_SHP_XS_N,E55_Type,Number of sheep slaughtered or sold,AGR,unknown,SHP_XS_N
+VAR_SHP_XX_N,E55_Type,Number of sheep,AGR,unknown,SHP_XX_N
+VAR_SILO_XX_T,E55_Type,Capacity of silos (tons),AGR,unknown,SILO_XX_T
+VAR_STO_XX_V,E55_Type,Value of all livestock,AGR,unknown,STO_XX_V
+VAR_SWN_PX_BL,E55_Type,Barrels of pork produced in the past year,AGR,unknown,SWN_PX_BL
+VAR_SWN_XS_N,E55_Type,Number of swine slaughtered or sold,AGR,unknown,SWN_XS_N
+VAR_SWN_XX_N,E55_Type,Number of swine,AGR,unknown,SWN_XX_N
+VAR_TOB_XX_LB,E55_Type,Pounds of tobacco produced in the past year,AGR,unknown,TOB_XX_LB
+VAR_WHT_SX_A,E55_Type,Acres of spring wheat,AGR,unknown,WHT_SX_A
+VAR_WHT_SX_B,E55_Type,Bushels of spring wheat produced in the past year,AGR,unknown,WHT_SX_B
+VAR_WHT_WX_A,E55_Type,Acres of winter wheat,AGR,unknown,WHT_WX_A
+VAR_WHT_WX_B,E55_Type,Bushels of winter wheat produced in the past year,AGR,unknown,WHT_WX_B
+VAR_WHT_XX_A,E55_Type,Acres of wheat,AGR,unknown,WHT_XX_A
+VAR_WHT_XX_B,E55_Type,Bushels of wheat produced in the past year,AGR,unknown,WHT_XX_B
+VAR_BLD_CX_N,E55_Type,Number of churches,BLD,unknown,BLD_CX_N
+VAR_BLD_SX_N,E55_Type,Number or schoolhouses,BLD,unknown,BLD_SX_N
+VAR_HOUSE_01R_N,E55_Type,Number of houses of 1 room,BLD,unknown,HOUSE_01R_N
+VAR_HOUSE_01S_N,E55_Type,Number of houses of 1 story,BLD,unknown,HOUSE_01S_N
+VAR_HOUSE_02R_N,E55_Type,Number of houses of 2 rooms,BLD,unknown,HOUSE_02R_N
+VAR_HOUSE_02S_N,E55_Type,Number of houses of 2 stories,BLD,unknown,HOUSE_02S_N
+VAR_HOUSE_03R_N,E55_Type,Number of houses of 3 rooms,BLD,unknown,HOUSE_03R_N
+VAR_HOUSE_03S_N,E55_Type,Number of houses of 3 stories,BLD,unknown,HOUSE_03S_N
+VAR_HOUSE_04R_N,E55_Type,Number of houses of 4 rooms,BLD,unknown,HOUSE_04R_N
+VAR_HOUSE_05R_N,E55_Type,Number of houses of 5 rooms,BLD,unknown,HOUSE_05R_N
+VAR_HOUSE_06to10R_N,E55_Type,Number of houses of 6 to 10 rooms,BLD,unknown,HOUSE_06to10R_N
+VAR_HOUSE_11to15R_N,E55_Type,Number of houses of 11 to 15 rooms,BLD,unknown,HOUSE_11to15R_N
+VAR_HOUSE_BX_N,E55_Type,Number of houses built of brick,BLD,unknown,HOUSE_BX_N
+VAR_HOUSE_ov04S_N,E55_Type,Number of houses of more than 3 stories,BLD,unknown,HOUSE_ov04S_N
+VAR_HOUSE_ov16R_N,E55_Type,Number of houses of over 15 rooms,BLD,unknown,HOUSE_ov16R_N
+VAR_HOUSE_SX_N,E55_Type,Number of houses built of stone,BLD,unknown,HOUSE_SX_N
+VAR_HOUSE_TS_N,E55_Type,Number of dwellings that are temporary shanties,BLD,unknown,HOUSE_TS_N
+VAR_HOUSE_TV_N,E55_Type,Number of dwellings that are temporary vessels,BLD,unknown,HOUSE_TV_N
+VAR_HOUSE_TX_N,E55_Type,Number of dwellings that are vessels and shanties,BLD,unknown,HOUSE_TX_N
+VAR_HOUSE_WX_N,E55_Type,Number of houses built of wood,BLD,unknown,HOUSE_WX_N
+VAR_HOUSE_XC_N,E55_Type,Number of houses under construction,BLD,unknown,HOUSE_XC_N
+VAR_HOUSE_XI_N,E55_Type,Number of inhabited houses,BLD,unknown,HOUSE_XI_N
+VAR_HOUSE_XO_N,E55_Type,Number of occupied houses,BLD,unknown,HOUSE_XO_N
+VAR_HOUSE_XU_N,E55_Type,Number of uninhabited houses,BLD,unknown,HOUSE_XU_N
+VAR_HOUSE_XX_N,E55_Type,Number of houses,BLD,unknown,HOUSE_XX_N
+VAR_DTH_01to02F_N,E55_Type,Deaths in the past year among females aged 1 to 2,DTH,unknown,DTH_01to02F_N
+VAR_DTH_01to02M_N,E55_Type,Deaths in the past year among males aged 1 to 2,DTH,unknown,DTH_01to02M_N
+VAR_DTH_02to03F_N,E55_Type,Deaths in the past year among females aged 2 to 3,DTH,unknown,DTH_02to03F_N
+VAR_DTH_02to03M_N,E55_Type,Deaths in the past year among males aged 2 to 3,DTH,unknown,DTH_02to03M_N
+VAR_DTH_03to04F_N,E55_Type,Deaths in the past year among females aged 3 to 4,DTH,unknown,DTH_03to04F_N
+VAR_DTH_03to04M_N,E55_Type,Deaths in the past year among males age 3 to 4,DTH,unknown,DTH_03to04M_N
+VAR_DTH_04to05F_N,E55_Type,Deaths in the past year among females aged 4 to 5,DTH,unknown,DTH_04to05F_N
+VAR_DTH_04to05M_N,E55_Type,Deaths in the past year among males aged 4 to 5,DTH,unknown,DTH_04to05M_N
+VAR_DTH_05to10F_N,E55_Type,Deaths in the past year among females aged 5 to 10,DTH,unknown,DTH_05to10F_N
+VAR_DTH_05to10M_N,E55_Type,Deaths in the past year among males aged 5 to 10,DTH,unknown,DTH_05to10M_N
+VAR_DTH_0to01F_N,E55_Type,Deaths in the past year among females under age 1,DTH,unknown,DTH_0to01F_N
+VAR_DTH_0to01M_N,E55_Type,Deaths in the past year among males under age 1,DTH,unknown,DTH_0to01M_N
+VAR_DTH_10to15F_N,E55_Type,Deaths in the past year among females aged 10 to 15,DTH,unknown,DTH_10to15F_N
+VAR_DTH_10to15M_N,E55_Type,Deaths in the past year among males aged 10 to 15,DTH,unknown,DTH_10to15M_N
+VAR_DTH_15to20F_N,E55_Type,Deaths in the past year among females aged 15 to 20,DTH,unknown,DTH_15to20F_N
+VAR_DTH_15to20M_N,E55_Type,Deaths in the past year among males aged 15 to 20,DTH,unknown,DTH_15to20M_N
+VAR_DTH_20to30F_N,E55_Type,Deaths in the past year among females aged 20 to 30,DTH,unknown,DTH_20to30F_N
+VAR_DTH_20to30M_N,E55_Type,Deaths in the past year among males aged 20 to 30,DTH,unknown,DTH_20to30M_N
+VAR_DTH_30to40F_N,E55_Type,Deaths in the past year among females aged 30 to 40,DTH,unknown,DTH_30to40F_N
+VAR_DTH_30to40M_N,E55_Type,Deaths in the past year among males aged 30 to 40,DTH,unknown,DTH_30to40M_N
+VAR_DTH_40to50F_N,E55_Type,Deaths in the past year among females aged 40 to 50,DTH,unknown,DTH_40to50F_N
+VAR_DTH_40to50M_N,E55_Type,Deaths in the past year among males aged 40 to 50,DTH,unknown,DTH_40to50M_N
+VAR_DTH_50to60F_N,E55_Type,Deaths in the past year among females aged 50 to 60,DTH,unknown,DTH_50to60F_N
+VAR_DTH_50to60M_N,E55_Type,Deaths in the past year among males aged 50 to 60,DTH,unknown,DTH_50to60M_N
+VAR_DTH_60to70F_N,E55_Type,Deaths in the past year among females aged 60 to 70,DTH,unknown,DTH_60to70F_N
+VAR_DTH_60to70M_N,E55_Type,Deaths in the past year among males aged 60 to 70,DTH,unknown,DTH_60to70M_N
+VAR_DTH_70to80F_N,E55_Type,Deaths in the past year among females aged 70 to 80,DTH,unknown,DTH_70to80F_N
+VAR_DTH_70to80M_N,E55_Type,Deaths in the past year among males aged 70 to 80,DTH,unknown,DTH_70to80M_N
+VAR_DTH_80to90F_N,E55_Type,Deaths in the past year among females aged 80 to 90,DTH,unknown,DTH_80to90F_N
+VAR_DTH_80to90M_N,E55_Type,Deaths in the past year among males aged 80 to 90,DTH,unknown,DTH_80to90M_N
+VAR_DTH_90to100F_N,E55_Type,Deaths in the past year among females aged 90 to 100,DTH,unknown,DTH_90to100F_N
+VAR_DTH_90to100M_N,E55_Type,Deaths in the past year among males aged 90 to 100,DTH,unknown,DTH_90to100M_N
+VAR_DTH_BR_PR,E55_Type,Ratio of deaths to births in the past year,DTH,unknown,DTH_BR_PR
+VAR_DTH_FX_N,E55_Type,Deaths in the past year among females of all ages,DTH,unknown,DTH_FX_N
+VAR_DTH_MX_N,E55_Type,Deaths in the past year among males of all ages,DTH,unknown,DTH_MX_N
+VAR_DTH_NF_N,E55_Type,Deaths in the past year among females of unknown age,DTH,unknown,DTH_NF_N
+VAR_DTH_NM_N,E55_Type,Deaths in the past year among males of unknown age,DTH,unknown,DTH_NM_N
+VAR_DTH_ov100F_N,E55_Type,Deaths in the past year among females over 100,DTH,unknown,DTH_ov100F_N
+VAR_DTH_ov100M_N,E55_Type,Deaths in the past year among males over 100,DTH,unknown,DTH_ov100M_N
+VAR_DTH_XX_N,E55_Type,Total number of deaths in the past year,DTH,unknown,DTH_XX_N
+VAR_ETH_FC_N,E55_Type,Number of French Canadians,ETH,unknown,ETH_FC_N
+VAR_ETH_FI_N,E55_Type,Number of Indigenous females,ETH,unknown,ETH_FI_N
+VAR_ETH_FN_N,E55_Type,Number of female negroes or coloured persons,ETH,unknown,ETH_FN_N
+VAR_ETH_MI_N,E55_Type,Number of Indigenous males,ETH,unknown,ETH_MI_N
+VAR_ETH_MN_N,E55_Type,Number of male negroes or coloured persons,ETH,unknown,ETH_MN_N
+VAR_ETH_NFC_N,E55_Type,Number of persons who are not French Canadian,ETH,unknown,ETH_NFC_N
+VAR_ETH_XA_N,E55_Type,"Number of persons native to Canada, not of French origin",ETH,unknown,ETH_XA_N
+VAR_ETH_XI_N,E55_Type,Number of Indigenous persons,ETH,unknown,ETH_XI_N
+VAR_ETH_XN_N,E55_Type,Number of negroes or coloured persons,ETH,unknown,ETH_XN_N
+VAR_ORIG_AT_HU_N,E55_Type,Number of persons originating in Austria or Hungary,ETH,unknown,ORIG_AT_HU_N
+VAR_ORIG_BI_N,E55_Type,"Number of persons originating in Guernsey, Jersey, or other British islands",ETH,unknown,ORIG_BI_N
+VAR_ORIG_BP_N,E55_Type,Number of persons originating in the British Provinces,ETH,unknown,ORIG_BP_N
+VAR_ORIG_CH_N,E55_Type,Number of persons originating in Switzerland,ETH,unknown,ORIG_CH_N
+VAR_ORIG_DE_NL_N,E55_Type,Number of persons originating in Germany or Holland,ETH,unknown,ORIG_DE_NL_N
+VAR_ORIG_EI_N,E55_Type,Number of persons originating in the East Indies,ETH,unknown,ORIG_EI_N
+VAR_ORIG_EN_N,E55_Type,Number of persons originating in England,ETH,unknown,ORIG_EN_N
+VAR_ORIG_ES_PT_N,E55_Type,Number of persons originating in Spain or Portugal,ETH,unknown,ORIG_ES_PT_N
+VAR_ORIG_EW_N,E55_Type,Number of persons originating in England or Wales,ETH,unknown,ORIG_EW_N
+VAR_ORIG_FR_N,E55_Type,Number of persons originating in France,ETH,unknown,ORIG_FR_N
+VAR_ORIG_GG_N,E55_Type,Number of persons originating in Guernsey,ETH,unknown,ORIG_GG_N
+VAR_ORIG_IR_N,E55_Type,Number of persons originating in Ireland,ETH,unknown,ORIG_IR_N
+VAR_ORIG_IT_GR_N,E55_Type,Number of persons originating in Italy or Greece,ETH,unknown,ORIG_IT_GR_N
+VAR_ORIG_JI_N,E55_Type,Number of persons originating in Jersey or other British islands,ETH,unknown,ORIG_JI_N
+VAR_ORIG_NB_N,E55_Type,Number of persons originating in New Brunswick,ETH,unknown,ORIG_NB_N
+VAR_ORIG_NF_N,E55_Type,Number of persons originating in Newfoundland,ETH,unknown,ORIG_NF_N
+VAR_ORIG_NS_PEI_N,E55_Type,Number of persons originating in Nova Scotia or Prince Edward Island,ETH,unknown,ORIG_NS_PEI_N
+VAR_ORIG_NX_N,E55_Type,Number of persons whose origin is unknown,ETH,unknown,ORIG_NX_N
+VAR_ORIG_OTH_N,E55_Type,Number of persons originating in all other places,ETH,unknown,ORIG_OTH_N
+VAR_ORIG_PE_N,E55_Type,Number of persons originating in Prince Edward Island,ETH,unknown,ORIG_PE_N
+VAR_ORIG_RU_PL_N,E55_Type,Number of persons originating in Russia or Poland,ETH,unknown,ORIG_RU_PL_N
+VAR_ORIG_RU_PR_PL_N,E55_Type,"Number of persons originating in Russia, Prussia, or Poland",ETH,unknown,ORIG_RU_PR_PL_N
+VAR_ORIG_SC_N,E55_Type,Number of persons originating in Scotland,ETH,unknown,ORIG_SC_N
+VAR_ORIG_SE_NO_N,E55_Type,Number of persons originating in Sweden or Norway,ETH,unknown,ORIG_SE_NO_N
+VAR_ORIG_US_N,E55_Type,Number of persons originating in the United States,ETH,unknown,ORIG_US_N
+VAR_ORIG_WI_N,E55_Type,Number of persons originating in the West Indies,ETH,unknown,ORIG_WI_N
+VAR_FISH_BL_N,E55_Type,Number of fishing barrels produced in the past year,FSH,unknown,FISH_BL_N
+VAR_FISH_BLM_N,E55_Type,Number of cooper's shops,FSH,unknown,FISH_BLM_N
+VAR_FISH_BM_N,E55_Type,Number of men on fishing boats,FSH,unknown,FISH_BM_N
+VAR_FISH_BX_N,E55_Type,Number of fishing boats,FSH,unknown,FISH_BX_N
+VAR_FISH_CH_Q,E55_Type,Quintals of codfish or hake produced in the past year,FSH,unknown,FISH_CH_Q
+VAR_FISH_CX_Q,E55_Type,Quintals of cod produced in the past year,FSH,unknown,FISH_CX_Q
+VAR_FISH_EE_BL,E55_Type,Barrels of eels produced in the past year,FSH,unknown,FISH_EE_BL
+VAR_FISH_EX_N,E55_Type,Number of men employed in fishing,FSH,unknown,FISH_EX_N
+VAR_FISH_FX_Q,E55_Type,Quintals of fascines fish produced in the past year,FSH,unknown,FISH_FX_Q
+VAR_FISH_GX_BL,E55_Type,Barrels of gaspareaux produced in the past year,FSH,unknown,FISH_GX_BL
+VAR_FISH_HA_BL,E55_Type,Barrels of herring or alewives produced in the past year,FSH,unknown,FISH_HA_BL
+VAR_FISH_HP_Q,E55_Type,"Quintals of haddock, hake, or pollock produced in the past year",FSH,unknown,FISH_HP_Q
+VAR_FISH_HS_LB,E55_Type,Pounds of hake sounds cured in the past year,FSH,unknown,FISH_HS_LB
+VAR_FISH_HX_BL,E55_Type,Barrels of halibut produced in the past year,FSH,unknown,FISH_HX_BL
+VAR_FISH_LX_LB,E55_Type,Pounds of lobster canned in the past year,FSH,unknown,FISH_LX_LB
+VAR_FISH_MX_BL,E55_Type,Barrels of mackerel produced in the past year,FSH,unknown,FISH_MX_BL
+VAR_FISH_NX_F,E55_Type,Fathoms of fishing nets,FSH,unknown,FISH_NX_F
+VAR_FISH_OTH_BL,E55_Type,Barrels of other fish produced in the past year,FSH,unknown,FISH_OTH_BL
+VAR_FISH_OX_G,E55_Type,Gallons of fish oil produced in the past year,FSH,unknown,FISH_OX_G
+VAR_FISH_OY_BL,E55_Type,Barrels of oysters produced in the past year,FSH,unknown,FISH_OY_BL
+VAR_FISH_PC_BL,E55_Type,Barrels of cured fish produced in the past year,FSH,unknown,FISH_PC_BL
+VAR_FISH_PD_Q,E55_Type,Quintals of dried fish sold in the past year,FSH,unknown,FISH_PD_Q
+VAR_FISH_PF_LB,E55_Type,Pounds of fresh fish sold in the past year,FSH,unknown,FISH_PF_LB
+VAR_FISH_PS_BL,E55_Type,Barrels of salted fish sold in the past year,FSH,unknown,FISH_PS_BL
+VAR_FISH_SH_BL,E55_Type,Barrels of shad produced in the past year,FSH,unknown,FISH_SH_BL
+VAR_FISH_SL_LB,E55_Type,Pounds of preserved shell and other fish produced during the past year,FSH,unknown,FISH_SL_LB
+VAR_FISH_SM_N,E55_Type,Number of shoremen,FSH,unknown,FISH_SM_N
+VAR_FISH_SN_BL,E55_Type,Barrels of sardines produced in the past year,FSH,unknown,FISH_SN_BL
+VAR_FISH_SX_BL,E55_Type,Barrels of salmon produced in the past year,FSH,unknown,FISH_SX_BL
+VAR_FISH_SX_V,E55_Type,Value of salmon produced in the past year,FSH,unknown,FISH_SX_V
+VAR_FISH_TX_BL,E55_Type,Barrels of trout produced in the past year,FSH,unknown,FISH_TX_BL
+VAR_FISH_VM_N,E55_Type,Number of men on fishing vessels,FSH,unknown,FISH_VM_N
+VAR_FISH_VX_N,E55_Type,Number of fishing vessels,FSH,unknown,FISH_VX_N
+VAR_FISH_WX_BL,E55_Type,Barrels of whitefish produced in the past year,FSH,unknown,FISH_WX_BL
+VAR_FISH_XE_N,E55_Type,Number of fishing establishments,FSH,unknown,FISH_XE_N
+VAR_BRCK_PX_N,E55_Type,Number of bricks produced in the past year,MFG,unknown,BRCK_PX_N
+VAR_BRCK_XX_N,E55_Type,Number of brick kilns,MFG,unknown,BRCK_XX_N
+VAR_BRDI_XX_N,E55_Type,Number of breweries and distilleries,MFG,unknown,BRDI_XX_N
+VAR_BREW_EX_N,E55_Type,Number of employees in breweries,MFG,unknown,BREW_EX_N
+VAR_BREW_NR_N,E55_Type,Number of breweries not reporting,MFG,unknown,BREW_NR_N
+VAR_BREW_PX_G,E55_Type,Gallons of beer produced in breweries in the past year,MFG,unknown,BREW_PX_G
+VAR_BREW_XC_N,E55_Type,Number of breweries returning capital,MFG,unknown,BREW_XC_N
+VAR_BREW_XR_N,E55_Type,Number of breweries reporting,MFG,unknown,BREW_XR_N
+VAR_BREW_XX_N,E55_Type,Number of breweries,MFG,unknown,BREW_XX_N
+VAR_CAR_MISC_N,E55_Type,"Number of riding wagons, carriages, wood sleds, and jaunting sleds",MFG,unknown,CAR_MISC_N
+VAR_CAR_SM_N,E55_Type,Number of carriages and sleighs produced in the past year,MFG,unknown,CAR_SM_N
+VAR_CAR_XH_N,E55_Type,Number of carriages for hire,MFG,unknown,CAR_XH_N
+VAR_CAR_XH_V,E55_Type,Value of carriages for hire (dollars),MFG,unknown,CAR_XH_V
+VAR_CAR_XP_N,E55_Type,Number of carriages for pleasure,MFG,unknown,CAR_XP_N
+VAR_CAR_XP_V,E55_Type,Value of carriages for pleasure (dollars),MFG,unknown,CAR_XP_V
+VAR_CFM_EX_N,E55_Type,Number of employees in carding and fulling mills,MFG,unknown,CFM_EX_N
+VAR_CFM_NR_N,E55_Type,Number of carding and fulling mills not reporting,MFG,unknown,CFM_NR_N
+VAR_CFM_PC_YD,E55_Type,Yards of cloth produced in carding and fulling mills in the past year,MFG,unknown,CFM_PC_YD
+VAR_CFM_PCF_YD,E55_Type,Yards of fulled cloth produced in the past year,MFG,unknown,CFM_PCF_YD
+VAR_CFM_PCNF_YD,E55_Type,Yards of not-fulled cloth produced in the past year,MFG,unknown,CFM_PCNF_YD
+VAR_CFM_PW_LB,E55_Type,Pounds of wool produced in carding and fulling mills in the past year,MFG,unknown,CFM_PW_LB
+VAR_CFM_XC_N,E55_Type,Number of carding and fulling mills returning capital,MFG,unknown,CFM_XC_N
+VAR_CFM_XR_N,E55_Type,Number of carding and fulling mills reporting,MFG,unknown,CFM_XR_N
+VAR_CFM_XX_N,E55_Type,Number of carding and fulling mills,MFG,unknown,CFM_XX_N
+VAR_CFM_XY_N,E55_Type,Number of fulling and dressing mills,MFG,unknown,CFM_XY_N
+VAR_CLOTH_PC_YD,E55_Type,Yards of cloth produced in the past year,MFG,unknown,CLOTH_PC_YD
+VAR_CLOTH_PF_YD,E55_Type,Yards of flannel produced in the past year,MFG,unknown,CLOTH_PF_YD
+VAR_CLOTH_PL_YD,E55_Type,Yards of linen produced in the past year,MFG,unknown,CLOTH_PL_YD
+VAR_CLOTH_XX_N,E55_Type,Number of cloth factories,MFG,unknown,CLOTH_XX_N
+VAR_DIST_EX_N,E55_Type,Number of employees in distilleries,MFG,unknown,DIST_EX_N
+VAR_DIST_NR_N,E55_Type,Number of distilleries not reporting,MFG,unknown,DIST_NR_N
+VAR_DIST_PX_G,E55_Type,Gallons of liquor produced in distilleries in the past year,MFG,unknown,DIST_PX_G
+VAR_DIST_XC_N,E55_Type,Number of distilleries returning capital,MFG,unknown,DIST_XC_N
+VAR_DIST_XR_N,E55_Type,Number of distilleries reporting,MFG,unknown,DIST_XR_N
+VAR_DIST_XX_N,E55_Type,Number of distilleries,MFG,unknown,DIST_XX_N
+VAR_FLX_MX_N,E55_Type,Number of flax manufactories,MFG,unknown,FLX_MX_N
+VAR_FRT_LK_N,E55_Type,Number of lime kilns,MFG,unknown,FRT_LK_N
+VAR_FRT_LP_BL,E55_Type,Barrels of lime produced in the past year,MFG,unknown,FRT_LP_BL
+VAR_GRIST_EX_N,E55_Type,Number of employees in grist mills,MFG,unknown,GRIST_EX_N
+VAR_GRIST_NR_N,E55_Type,Number of grist mills not reporting,MFG,unknown,GRIST_NR_N
+VAR_GRIST_PD_BL,E55_Type,Barrels of flour produced per day by grist mills reporting daily production,MFG,unknown,GRIST_PD_BL
+VAR_GRIST_PD_N,E55_Type,Number of grist mills reporting daily production,MFG,unknown,GRIST_PD_N
+VAR_GRIST_PL_N,E55_Type,Number of grist mills reporting value of annual production or rent,MFG,unknown,GRIST_PL_N
+VAR_GRIST_PL_V,E55_Type,Value of annual production or rent from grist mills (pounds sterling),MFG,unknown,GRIST_PL_V
+VAR_GRIST_PW_BL,E55_Type,Barrels of flour produced per week by grist mills reporting weekly production,MFG,unknown,GRIST_PW_BL
+VAR_GRIST_PW_N,E55_Type,Number of grist mills reporting weekly production ,MFG,unknown,GRIST_PW_N
+VAR_GRIST_PY_BL,E55_Type,Barrels of flour produced per year by grist mills reporting annual production,MFG,unknown,GRIST_PY_BL
+VAR_GRIST_PY_N,E55_Type,Number of grist mills reporting annual production,MFG,unknown,GRIST_PY_N
+VAR_GRIST_SX_N,E55_Type,Number of grist mills powered by steam,MFG,unknown,GRIST_SX_N
+VAR_GRIST_WX_N,E55_Type,Number of grist mills powered by water,MFG,unknown,GRIST_WX_N
+VAR_GRIST_XC_N,E55_Type,Number of grist mills returning capital,MFG,unknown,GRIST_XC_N
+VAR_GRIST_XC_V,E55_Type,Value of capital returned by grist mills (pounds sterling),MFG,unknown,GRIST_XC_V
+VAR_GRIST_XX_N,E55_Type,Number of grist mills,MFG,unknown,GRIST_XX_N
+VAR_IRON_EX_N,E55_Type,Number of employees in foundries,MFG,unknown,IRON_EX_N
+VAR_IRON_NR_N,E55_Type,Number of foundries not reporting,MFG,unknown,IRON_NR_N
+VAR_IRON_PX_V,E55_Type,Value of iron produced in foundries in the past year (pounds sterling),MFG,unknown,IRON_PX_V
+VAR_IRON_XC_N,E55_Type,Number of foundries returning capital,MFG,unknown,IRON_XC_N
+VAR_IRON_XR_N,E55_Type,Number of foundries reporting,MFG,unknown,IRON_XR_N
+VAR_IRON_XX_N,E55_Type,Number of foundries,MFG,unknown,IRON_XX_N
+VAR_MACH_PX_N,E55_Type,"Number of pianos, melodeons, and organs",MFG,unknown,MACH_PX_N
+VAR_MACH_SM_N,E55_Type,Number of stamping machines,MFG,unknown,MACH_SM_N
+VAR_MACH_ST_N,E55_Type,Number of steam engines,MFG,unknown,MACH_ST_N
+VAR_MACH_SX_N,E55_Type,Number of sewing machines,MFG,unknown,MACH_SX_N
+VAR_MINE_CU_T,E55_Type,Tons of copper produced by mines in the past year,MFG,unknown,MINE_CU_T
+VAR_MINE_CU_V,E55_Type,Value of copper produced by mines in the past year,MFG,unknown,MINE_CU_V
+VAR_MINE_FE_T,E55_Type,Tons of iron produced by mines in the past year,MFG,unknown,MINE_FE_T
+VAR_MINE_FE_V,E55_Type,Value of iron produced by mines in the past year,MFG,unknown,MINE_FE_V
+VAR_TAN_EX_N,E55_Type,Number of employees in tanneries,MFG,unknown,TAN_EX_N
+VAR_TAN_NR_N,E55_Type,Number of tanneries not reporting,MFG,unknown,TAN_NR_N
+VAR_TAN_PX_LB,E55_Type,Pounds of leather produced in tanneries in the past year,MFG,unknown,TAN_PX_LB
+VAR_TAN_PX_V,E55_Type,Value of leather produced in tanneries in the past year (pounds sterling),MFG,unknown,TAN_PX_V
+VAR_TAN_XC_N,E55_Type,Number of tanneries returning capital,MFG,unknown,TAN_XC_N
+VAR_TAN_XR_N,E55_Type,Number of tanneries reporting,MFG,unknown,TAN_XR_N
+VAR_TAN_XX_N,E55_Type,Number of tanneries,MFG,unknown,TAN_XX_N
+VAR_WAG_CT_N,E55_Type,"Number of carts, trucks, and truck-wagons",MFG,unknown,WAG_CT_N
+VAR_WOOD_EX_N,E55_Type,Number of employees in saw mills,MFG,unknown,WOOD_EX_N
+VAR_WOOD_NR_N,E55_Type,Number of saw mills not reporting,MFG,unknown,WOOD_NR_N
+VAR_WOOD_PD_LF,E55_Type,Feet of lumber produced daily by saw mills reporting daily production,MFG,unknown,WOOD_PD_LF
+VAR_WOOD_PD_N,E55_Type,Number of saw mills reporting daily production,MFG,unknown,WOOD_PD_N
+VAR_WOOD_PL_LG,E55_Type,Logs produced by saw mills reporting production by number of logs,MFG,unknown,WOOD_PL_LG
+VAR_WOOD_PL_N,E55_Type,Number of saw mills reporting production by number of logs,MFG,unknown,WOOD_PL_N
+VAR_WOOD_PX_N,E55_Type,Number of saw mills reporting value of annual production or rent,MFG,unknown,WOOD_PX_N
+VAR_WOOD_PX_V,E55_Type,Value of annual production or rent from saw mills (pounds sterling),MFG,unknown,WOOD_PX_V
+VAR_WOOD_PY_LF,E55_Type,Feet of lumber produced per year by saw mills reporting annual production,MFG,unknown,WOOD_PY_LF
+VAR_WOOD_PY_N,E55_Type,Number of saw mills reporting annual production,MFG,unknown,WOOD_PY_N
+VAR_WOOD_SL_N,E55_Type,Number of shingle and lath mills,MFG,unknown,WOOD_SL_N
+VAR_WOOD_SX_N,E55_Type,Number of saw mills powered by steam,MFG,unknown,WOOD_SX_N
+VAR_WOOD_WX_N,E55_Type,Number of saw mills powered by water,MFG,unknown,WOOD_WX_N
+VAR_WOOD_XC_N,E55_Type,Number of saw mills returning capital,MFG,unknown,WOOD_XC_N
+VAR_WOOD_XC_V,E55_Type,Value of capital returned by saw mills (pounds sterling),MFG,unknown,WOOD_XC_V
+VAR_WOOD_XP_N,E55_Type,Number of saw mill plants,MFG,unknown,WOOD_XP_N
+VAR_WOOD_XX_N,E55_Type,Number of saw mills,MFG,unknown,WOOD_XX_N
+VAR_WOOL_EX_N,E55_Type,Number of employees in woollen factories,MFG,unknown,WOOL_EX_N
+VAR_WOOL_NR_N,E55_Type,Number of woollen factories not reporting,MFG,unknown,WOOL_NR_N
+VAR_WOOL_PC_YD,E55_Type,Yards of cloth produced in woollen factories in the past year,MFG,unknown,WOOL_PC_YD
+VAR_WOOL_PX_V,E55_Type,Value of cloth produced in woollen factories in the past year (pounds sterling),MFG,unknown,WOOL_PX_V
+VAR_WOOL_XC_N,E55_Type,Number of woollen factories returning capital,MFG,unknown,WOOL_XC_N
+VAR_WOOL_XR_N,E55_Type,Number of woollen factories reporting,MFG,unknown,WOOL_XR_N
+VAR_WOOL_XX_N,E55_Type,Number of woollen factories,MFG,unknown,WOOL_XX_N
+VAR_BIRTH_FX_N,E55_Type,Number of female births in the past year,POP,persons,BIRTH_FX_N
+VAR_BIRTH_LY_N,E55_Type,Number of births in the past year,POP,persons,BIRTH_LY_N
+VAR_BIRTH_MX_N,E55_Type,Number of male births in the past year,POP,persons,BIRTH_MX_N
+VAR_EDU_LF_N,E55_Type,Number of adult females unable to read or write,POP,unknown,EDU_LF_N
+VAR_EDU_LM_N,E55_Type,Number of adult males unable to read or write,POP,unknown,EDU_LM_N
+VAR_EDU_SF_N,E55_Type,Number of females attending school,POP,unknown,EDU_SF_N
+VAR_EDU_SM_N,E55_Type,Number of males attending school,POP,unknown,EDU_SM_N
+VAR_POP_AVF_PR,E55_Type,Average size of families,POP,persons,POP_AVF_PR
+VAR_POP_BF_N,E55_Type,Number of blind females,POP,persons,POP_BF_N
+VAR_POP_BM_N,E55_Type,Number of blind males,POP,persons,POP_BM_N
+VAR_POP_BX_N,E55_Type,Number of blind persons,POP,persons,POP_BX_N
+VAR_POP_FD_N,E55_Type,Number of divorced females,POP,persons,POP_FD_N
+VAR_POP_FDD_N,E55_Type,Number of deaf and dumb females,POP,persons,POP_FDD_N
+VAR_POP_FL_N,E55_Type,Number of lunatic females,POP,persons,POP_FL_N
+VAR_POP_FM_N,E55_Type,Number of married females,POP,persons,POP_FM_N
+VAR_POP_FMAF_N,E55_Type,Female members of the family who are absent,POP,persons,POP_FMAF_N
+VAR_POP_FMAM_N,E55_Type,Male members of the family who are present,POP,persons,POP_FMAM_N
+VAR_POP_FMF_N,E55_Type,Female members of the family who are present,POP,persons,POP_FMF_N
+VAR_POP_FMM_N,E55_Type,Male members of the family who are present,POP,persons,POP_FMM_N
+VAR_POP_FNMF_N,E55_Type,Females present who are not members of the family,POP,persons,POP_FNMF_N
+VAR_POP_FNMM_N,E55_Type,Males present who are not members of the family,POP,persons,POP_FNMM_N
+VAR_POP_FS_N,E55_Type,Number of single females,POP,persons,POP_FS_N
+VAR_POP_FW_N,E55_Type,Number of widowed females,POP,persons,POP_FW_N
+VAR_POP_FX_N,E55_Type,Number of females,POP,persons,POP_FX_N
+VAR_POP_MD_N,E55_Type,Number of divorced males,POP,persons,POP_MD_N
+VAR_POP_MDD_N,E55_Type,Number of deaf and dumb males,POP,persons,POP_MDD_N
+VAR_POP_ML_N,E55_Type,Number of lunatic males,POP,persons,POP_ML_N
+VAR_POP_MM_N,E55_Type,Number of married males,POP,persons,POP_MM_N
+VAR_POP_MS_N,E55_Type,Number of single males,POP,persons,POP_MS_N
+VAR_POP_MW_N,E55_Type,Number of widowed males,POP,persons,POP_MW_N
+VAR_POP_MX_N,E55_Type,Number of males,POP,persons,POP_MX_N
+VAR_POP_RM_N,E55_Type,Number of persons married in the past year,POP,persons,POP_RM_N
+VAR_POP_SX_N,E55_Type,Number of persons at sea,POP,persons,POP_SX_N
+VAR_POP_XDD_N,E55_Type,Number of deaf and dumb persons,POP,persons,POP_XDD_N
+VAR_POP_XF_N,E55_Type,Number of families,POP,persons,POP_XF_N
+VAR_POP_XI_N,E55_Type,Number of insane persons,POP,persons,POP_XI_N
+VAR_POP_XM_N,E55_Type,Number of married persons,POP,persons,POP_XM_N
+VAR_POP_XS_N,E55_Type,Number of single persons,POP,persons,POP_XS_N
+VAR_POP_XW_N,E55_Type,Number of widowed persons,POP,persons,POP_XW_N
+VAR_POP_XX_N,E55_Type,Total population,POP,persons,POP_XX_N
+VAR_VAX_SN_N,E55_Type,Number of persons neither infected with smallpox nor vaccinated,POP,unknown,VAX_SN_N
+VAR_REL_BC_N,E55_Type,Number of Bible Christians,REL,unknown,REL_BC_N
+VAR_REL_BX_N,E55_Type,Number of Baptists,REL,unknown,REL_BX_N
+VAR_REL_CE_N,E55_Type,Number of members of the Church of England,REL,unknown,REL_CE_N
+VAR_REL_KS_N,E55_Type,Number of members of the Kirk of Scotland,REL,unknown,REL_KS_N
+VAR_REL_ME_N,E55_Type,Number of Methodists,REL,unknown,REL_ME_N
+VAR_REL_OTH_N,E55_Type,Number of members of other denominations,REL,unknown,REL_OTH_N
+VAR_REL_PP_N,E55_Type,Number of members of the Presbyterian Church of the Lower Provinces,REL,unknown,REL_PP_N
+VAR_REL_QU_N,E55_Type,Number of Quakers,REL,unknown,REL_QU_N
+VAR_REL_RC_N,E55_Type,Number of Roman Catholics,REL,unknown,REL_RC_N
+VAR_REL_UN_N,E55_Type,Number of Universalists,REL,unknown,REL_UN_N
