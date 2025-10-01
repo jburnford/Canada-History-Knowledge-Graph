@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Data files (large)
+*.zip
+*.xlsx
+*.xls
+*.csv
+*.gdb/
+*.ttl
+*.rdf
+
+# Output directories
+neo4j_*/
+generated/
+year_links_output/
+
+# Conda
+.conda/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Keep important documentation and configs
+!CLAUDE.md
+!CENSUS*.md
+!README.md
+!requirements.txt
+
+# Keep scripts
+!scripts/*.py
+!scripts/*.sh
