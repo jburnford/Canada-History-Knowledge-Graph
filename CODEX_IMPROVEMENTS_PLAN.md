@@ -107,25 +107,28 @@ Codex identifies **critical consistency issues** that must be fixed before Neo4j
 
 ## **3-Step Implementation Approach**
 
-### **Step 1: Fix Blocking Issues (Do First)** ✅
+### **Step 1: Fix Blocking Issues (Do First)** ✅ **COMPLETE**
 1. ✅ Align E4_Period IDs to `CENSUS_YYYY` format
-2. ⏳ Add names to E53_Place CSD nodes
-3. ⏳ Fix P89 time-scoping (add `during_period` property)
+2. ✅ Add names to E53_Place CSD nodes
+3. ✅ Fix P89 time-scoping (add `during_period` property)
 
 **Goal**: Ensure v2 dataset is internally consistent and ready for clean Neo4j import
+**Status**: ✅ All critical blocking issues resolved
 
-### **Step 2: Enhance Core Model (High ROI)**
-4. ⏳ Add E41_Appellation for name variants (optional but valuable)
-5. ⏳ Add P134_continued from year_links (temporal continuity)
-6. ⏳ Create CD temporal links using spatial overlap
+### **Step 2: Enhance Core Model (High ROI)** 🔄 **IN PROGRESS**
+4. ✅ Create CD temporal links using spatial overlap (2,168 links generated)
+5. ⏳ Add P134_continued from year_links (CSDs: 20,737 links; CDs: 2,168 links)
+6. ⏳ Add E41_Appellation for name variants (optional but valuable)
 
 **Goal**: Rich temporal tracking and proper name modeling
+**Status**: CD links complete, P134 relationships next
 
-### **Step 3: Complete Provenance (Polish)**
-7. ⏳ Add E33/E30/E39 provenance entities
+### **Step 3: Complete Provenance (Polish)** ⏳ **PENDING**
+7. ⏳ Add E33/E30/E39 provenance entities (E33_Linguistic_Object, E30_Right, E39_Actor)
 8. ⏳ Tackle 1911/1921 multi-layer GDB
 
 **Goal**: FAIR-compliant dataset with maximum coverage
+**Status**: Not started
 
 ---
 
@@ -154,13 +157,26 @@ Codex identifies **critical consistency issues** that must be fixed before Neo4j
 
 ---
 
-## **Current Status**
+## **Current Status** (September 30, 2025)
 
-- ✅ V2.0 dataset created (666,423 measurements, 1851-1901)
-- ✅ Proper CIDOC-CRM structure (E16/E54/E58/E52 pattern)
-- ✅ Comprehensive import guide created
-- ✅ E55 variable types added to v2 directory
-- ⏳ **NOW**: Fixing E4_Period ID inconsistency (Step 1.1)
+### ✅ **Completed**
+- **V2.0 dataset**: 666,423 measurements (1851-1901) with proper CIDOC-CRM structure
+- **Step 1 - Blocking Issues**: ALL RESOLVED
+  - E4_Period IDs aligned (`CENSUS_YYYY` format)
+  - CSD names added to E53_Place nodes (13,135 CSDs)
+  - P89 time-scoped with `during_period` property (21,046 relationships)
+- **Step 2 - CD Temporal Links**: 2,168 CD links generated (1851-1921)
+- **Import guides**: README_IMPORT.md with constraints and validation queries
+- **Data attribution**: Corrected to Geoff Cunfer et al. / The Canadian Peoples project
+
+### 🔄 **In Progress**
+- **Step 2**: Add P134_continued relationships for temporal continuity
+  - CSD links: 20,737 (from year_links_output/)
+  - CD links: 2,168 (from cd_links_output/)
+
+### ⏳ **Next Priority**
+- Convert temporal links to P134_continued Neo4j relationships
+- Add E33/E30/E39 provenance entities (optional enhancement)
 
 ---
 
