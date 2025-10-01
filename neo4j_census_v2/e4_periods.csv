@@ -1,7 +1,7 @@
-period_id:ID,:LABEL,label
-PERIOD_CENSUS_1891,E4_Period,1891 Canadian Census
-PERIOD_CENSUS_1881,E4_Period,1881 Canadian Census
-PERIOD_CENSUS_1871,E4_Period,1871 Canadian Census
-PERIOD_CENSUS_1861,E4_Period,1861 Canadian Census
-PERIOD_CENSUS_1851,E4_Period,1851 Canadian Census
-PERIOD_CENSUS_1901,E4_Period,1901 Canadian Census
+period_id:ID,year:int,:LABEL,label
+CENSUS_1851,1851,E4_Period,1851 Canadian Census
+CENSUS_1861,1861,E4_Period,1861 Canadian Census
+CENSUS_1871,1871,E4_Period,1871 Canadian Census
+CENSUS_1881,1881,E4_Period,1881 Canadian Census
+CENSUS_1891,1891,E4_Period,1891 Canadian Census
+CENSUS_1901,1901,E4_Period,1901 Canadian Census

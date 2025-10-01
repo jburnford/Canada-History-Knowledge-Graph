@@ -385,9 +385,10 @@ def process_year_tables_v2(year, tables_dir, gdb_path, mastvar_df, data_v2):
     }
     data_v2.timespans.append(timespan)
 
-    # Create period for this year
+    # Create period for this year (using CENSUS_YYYY format to match spatial data)
     period = {
-        'period_id:ID': f'PERIOD_CENSUS_{year}',
+        'period_id:ID': f'CENSUS_{year}',
+        'year:int': year,
         ':LABEL': 'E4_Period',
         'label': f'{year} Canadian Census'
     }
@@ -395,7 +396,7 @@ def process_year_tables_v2(year, tables_dir, gdb_path, mastvar_df, data_v2):
 
     # Link period to timespan
     data_v2.p4_period_timespan.append({
-        ':START_ID': f'PERIOD_CENSUS_{year}',
+        ':START_ID': f'CENSUS_{year}',
         ':END_ID': f'TIMESPAN_{year}',
         ':TYPE': 'P4_has_time-span'
     })
