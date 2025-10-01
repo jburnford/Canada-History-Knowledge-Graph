@@ -1,0 +1,28 @@
+
+============================================================
+CD Presence Generation
+============================================================
+GDB: TCP_CANADA_CSD_202306/TCP_CANADA_CSD_202306/TCP_CANADA_CSD_202306.gdb
+Years: [1851, 1861, 1871, 1881, 1891, 1901, 1911, 1921]
+Output: neo4j_cidoc_crm/
+
+============================================================
+Processing 1851
+============================================================
+  Loading GDB layer for 1851...
+/home/jic823/.local/lib/python3.12/site-packages/pyogrio/raw.py:198: RuntimeWarning: organizePolygons() received a polygon with more than 100 parts. The processing may be really slow.  You can skip the processing by setting METHOD=SKIP, or only make it analyze counter-clock wise parts by setting METHOD=ONLY_CCW if you can assume that the outline of holes is counter-clock wise defined
+  return ogr_read(
+Traceback (most recent call last):
+  File "/home/jic823/GraphRAG_test/scripts/build_cd_presences.py", line 349, in <module>
+    main()
+  File "/home/jic823/GraphRAG_test/scripts/build_cd_presences.py", line 308, in main
+    cd_gdf, stats = process_year(args.gdb, year, out_dir)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jic823/GraphRAG_test/scripts/build_cd_presences.py", line 220, in process_year
+    cd_gdf = load_gdb_cd_layer(gdb_path, year)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jic823/GraphRAG_test/scripts/build_cd_presences.py", line 45, in load_gdb_cd_layer
+    raise ValueError(f"Missing columns in {year}: {missing}")
+ValueError: Missing columns in 1851: ['cd_name', 'pr']
+
+ERROR conda.cli.main_run:execute(125): `conda run python scripts/build_cd_presences.py --gdb TCP_CANADA_CSD_202306/TCP_CANADA_CSD_202306/TCP_CANADA_CSD_202306.gdb --years 1851,1861,1871,1881,1891,1901,1911,1921 --cd-links cd_links_output --out neo4j_cidoc_crm` failed. (See above for error)

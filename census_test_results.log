@@ -1,0 +1,50 @@
+==========================================
+TEST 1: Find population measurements for Ottawa CSD in 1901
+==========================================
+
+==========================================
+TEST 2: Total population by province in 1891
+==========================================
+
+==========================================
+TEST 3: Variable types by category
+==========================================
+category, num_variables
+"AGR", 114
+"MFG", 99
+"AGE", 91
+"POP", 41
+"DTH", 40
+"ETH", 35
+"FSH", 35
+"BLD", 25
+"REL", 10
+
+==========================================
+TEST 4: Census measurements by source file
+==========================================
+source_file, num_measurements
+"1851_V1T1_CSD_202306.xlsx", 8311
+"1851_V1T3_CSD_202306.xlsx", 78250
+"1851_V2T6_CSD_202306.xlsx", 38446
+"1851_V2T7_CSD_202306.xlsx", 27049
+"1861_V1T1_CSD_202306.xlsx", 11947
+"1861_V1T5_CSD_202306.xlsx", 95260
+"1861_V2T11_CSD_202306.xlsx", 59151
+"1871_V1T1_CSD_202306.xlsx", 36860
+"1881_V1T1_CSD_202306.xlsx", 41054
+"1881_V3T24_CSD_202306.xlsx", 34794
+
+==========================================
+TEST 5: Performance - Complex query joining spatial and census data
+==========================================
+
+real	0m2.800s
+user	0m0.015s
+sys	0m0.018s
+
+==========================================
+DATABASE STATISTICS
+==========================================
+total_nodes, total_rels
+[{count: 1392150}, {count: 8, label: "E4_Period"}, {count: 13714, label: "E53_Place"}, {count: 22529, label: "E93_Presence"}, {count: 22529, label: "E94_Space_Primitive"}, {count: 666423, label: "E16_Measurement"}, {count: 666423, label: "E54_Dimension"}, {count: 490, label: "E55_Type"}, {count: 11, label: "E58_Measurement_Unit"}, {count: 6, label: "E52_Time_Span"}, {count: 17, label: "E73_Information_Object"}], [{count: 4523656}, {relationshipType: "P166_was_a_presence_of", count: 22531}, {relationshipType: "P166_was_a_presence_of", count: 22531, endLabel: "E53_Place"}, {relationshipType: "P166_was_a_presence_of", count: 22531, startLabel: "E93_Presence"}, {relationshipType: "P164_is_temporally_specified_by", count: 22531}, {relationshipType: "P164_is_temporally_specified_by", count: 22531, endLabel: "E4_Period"}, {relationshipType: "P164_is_temporally_specified_by", count: 22531, startLabel: "E93_Presence"}, {relationshipType: "P161_has_spatial_projection", count: 45070}, {relationshipType: "P161_has_spatial_projection", count: 45070, startLabel: "E93_Presence"}, {relationshipType: "P161_has_spatial_projection", count: 45070, endLabel: "E94_Space_Primitive"}, {relationshipType: "P89_falls_within", count: 21046}, {relationshipType: "P89_falls_within", count: 21046, startLabel: "E53_Place"}, {relationshipType: "P89_falls_within", count: 21046, endLabel: "E53_Place"}, {relationshipType: "P10_falls_within", count: 42098}, {relationshipType: "P10_falls_within", count: 42098, startLabel: "E93_Presence"}, {relationshipType: "P10_falls_within", count: 42098, endLabel: "E93_Presence"}, {relationshipType: "P122_borders_with", count: 91196}, {relationshipType: "P122_borders_with", count: 91196, startLabel: "E53_Place"}, {relationshipType: "P122_borders_with", count: 91196, endLabel: "E53_Place"}, {relationshipType: "P132_spatiotemporally_overlaps_with", count: 36726}, {relationshipType: "P132_spatiotemporally_overlaps_with", count: 36726, startLabel: "E93_Presence"}, {relationshipType: "P132_spatiotemporally_overlaps_with", count: 36726, endLabel: "E93_Presence"}, {relationshipType: "P40_observed_dimension", count: 774345}, {relationshipType: "P40_observed_dimension", count: 774345, startLabel: "E16_Measurement"}, {relationshipType: "P40_observed_dimension", count: 774345, endLabel: "E54_Dimension"}, {relationshipType: "P2_has_type", count: 682301}, {relationshipType: "P2_has_type", count: 682301, startLabel: "E16_Measurement"}, {relationshipType: "P2_has_type", count: 682301, endLabel: "E55_Type"}, {relationshipType: "P91_has_unit", count: 696429}, {relationshipType: "P91_has_unit", count: 696429, startLabel: "E54_Dimension"}, {relationshipType: "P91_has_unit", count: 696429, endLabel: "E58_Measurement_Unit"}, {relationshipType: "P4_has_time_span", count: 696435}, {relationshipType: "P4_has_time_span", count: 6, startLabel: "E4_Period"}, {relationshipType: "P4_has_time_span", count: 696429, startLabel: "E16_Measurement"}, {relationshipType: "P4_has_time_span", count: 696435, endLabel: "E52_Time_Span"}, {relationshipType: "P39_measured", count: 696519}, {relationshipType: "P39_measured", count: 696519, endLabel: "E93_Presence"}, {relationshipType: "P39_measured", count: 696519, startLabel: "E16_Measurement"}, {relationshipType: "P70_documents", count: 696429}, {relationshipType: "P70_documents", count: 696429, endLabel: "E16_Measurement"}, {relationshipType: "P70_documents", count: 696429, startLabel: "E73_Information_Object"}]

@@ -1,0 +1,8 @@
+actor_id:ID,:LABEL,name,type,affiliation,orcid,role,website
+ACTOR_CUNFER_GEOFF,E39_Actor,Geoff Cunfer,E21_Person,University of Saskatchewan,,Principal Investigator,
+ACTOR_BILLARD_RHIANNE,E39_Actor,Rhianne Billard,E21_Person,University of Saskatchewan,,Principal Investigator,
+ACTOR_MCCLEAN_SAUVELM,E39_Actor,Sauvelm McClean,E21_Person,University of Saskatchewan,,Principal Investigator,
+ACTOR_RICHARD_LAURENT,E39_Actor,Laurent Richard,E21_Person,Université Laval,,Principal Investigator,
+ACTOR_ST_HILAIRE_MARC,E39_Actor,Marc St-Hilaire,E21_Person,Université Laval,,Principal Investigator,
+ACTOR_CANADIAN_PEOPLES_PROJECT,E39_Actor,The Canadian Peoples / Les populations canadiennes Project,E74_Group,Multi-institutional collaboration,,Project Organization,https://thecanadianpeoples.com/team/
+ACTOR_BOREALIS_DATAVERSE,E39_Actor,Borealis - Canadian Dataverse Repository,E74_Group,Scholars Portal,,Data Repository,https://borealisdata.ca/dataverse/census

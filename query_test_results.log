@@ -1,0 +1,63 @@
+==========================================
+TEST 1: Find Ottawa across all census years
+==========================================
+
+==========================================
+TEST 2: Count CSDs within Ottawa CD in 1901
+==========================================
+
+==========================================
+TEST 3: Track CSD temporal evolution (SAME_AS links)
+==========================================
+from_year, to_year, stable_csds
+1851, 1861, 992
+1861, 1871, 1204
+1871, 1881, 2508
+1881, 1891, 2864
+1891, 1901, 3312
+1901, 1911, 3114
+1911, 1921, 4306
+
+==========================================
+TEST 4: Find CSDs that border Ottawa in 1901
+==========================================
+
+==========================================
+TEST 5: CD growth analysis (1851 vs 1921)
+==========================================
+cd_name, csds_1851, csds_1921, csd_growth
+"Renfrew", 13, 41, 28
+"Hastings", 11, 34, 23
+"Bruce", 11, 31, 20
+"Essex", 11, 28, 17
+"Kent", 8, 23, 15
+"York", 9, 23, 14
+"Simcoe", 18, 31, 13
+"Grey", 15, 27, 12
+"Victoria", 7, 19, 12
+"Lambton", 11, 22, 11
+
+==========================================
+TEST 6: Performance test - Complex multi-hop query
+==========================================
+cd_name, num_csds
+"Algoma", 192
+"Nipissing", 120
+"Muskoka & Parry Sound", 100
+"Peterborough, East—Est", 42
+"Hastings, North—Nord", 34
+"Victoria, North—Nord", 34
+"Addington", 30
+"Renfrew, South—Sud", 30
+"Ontario, North—Nord", 30
+"Simcoe, East—Est", 28
+
+real	0m2.393s
+user	0m0.007s
+sys	0m0.021s
+
+==========================================
+DATABASE STATISTICS
+==========================================
+section, data
+"GRAPH COUNTS", {relationships: [{count: 281198}, {relationshipType: "P166_was_a_presence_of", count: 22531}, {relationshipType: "P166_was_a_presence_of", count: 22531, endLabel: "E53_Place"}, {relationshipType: "P166_was_a_presence_of", count: 22531, startLabel: "E93_Presence"}, {relationshipType: "P164_is_temporally_specified_by", count: 22531}, {relationshipType: "P164_is_temporally_specified_by", count: 22531, endLabel: "E4_Period"}, {relationshipType: "P164_is_temporally_specified_by", count: 22531, startLabel: "E93_Presence"}, {relationshipType: "P161_has_spatial_projection", count: 45070}, {relationshipType: "P161_has_spatial_projection", count: 45070, startLabel: "E93_Presence"}, {relationshipType: "P161_has_spatial_projection", count: 45070, endLabel: "E94_Space_Primitive"}, {relationshipType: "P89_falls_within", count: 21046}, {relationshipType: "P89_falls_within", count: 21046, startLabel: "E53_Place"}, {relationshipType: "P89_falls_within", count: 21046, endLabel: "E53_Place"}, {relationshipType: "P10_falls_within", count: 42098}, {relationshipType: "P10_falls_within", count: 42098, startLabel: "E93_Presence"}, {relationshipType: "P10_falls_within", count: 42098, endLabel: "E93_Presence"}, {relationshipType: "P122_borders_with", count: 91196}, {relationshipType: "P122_borders_with", count: 91196, startLabel: "E53_Place"}, {relationshipType: "P122_borders_with", count: 91196, endLabel: "E53_Place"}, {relationshipType: "P132_spatiotemporally_overlaps_with", count: 36726}, {relationshipType: "P132_spatiotemporally_overlaps_with", count: 36726, startLabel: "E93_Presence"}, {relationshipType: "P132_spatiotemporally_overlaps_with", count: 36726, endLabel: "E93_Presence"}], nodes: [{count: 58780}, {count: 8, label: "E4_Period"}, {count: 13714, label: "E53_Place"}, {count: 22529, label: "E93_Presence"}, {count: 22529, label: "E94_Space_Primitive"}], indexes: [{indexType: "LOOKUP", updatesSinceEstimation: 0, totalSize: 0, indexProvider: "token-lookup-1.0", properties: [], labels: [], estimatedUniqueSize: 0}, {indexType: "LOOKUP", updatesSinceEstimation: 0, totalSize: 0, indexProvider: "token-lookup-1.0", relationshipTypes: [], properties: [], estimatedUniqueSize: 0}, {indexType: "RANGE", updatesSinceEstimation: 0, totalSize: 13714, indexProvider: "range-1.0", properties: ["place_id"], labels: ["E53_Place"], estimatedUniqueSize: 13714}, {indexType: "RANGE", updatesSinceEstimation: 0, totalSize: 22529, indexProvider: "range-1.0", properties: ["presence_id"], labels: ["E93_Presence"], estimatedUniqueSize: 22528}, {indexType: "RANGE", updatesSinceEstimation: 0, totalSize: 8, indexProvider: "range-1.0", properties: ["period_id"], labels: ["E4_Period"], estimatedUniqueSize: 8}, {indexType: "RANGE", updatesSinceEstimation: 0, totalSize: 22529, indexProvider: "range-1.0", properties: ["space_id"], labels: ["E94_Space_Primitive"], estimatedUniqueSize: 22528}, {indexType: "RANGE", updatesSinceEstimation: 0, totalSize: 8, indexProvider: "range-1.0", properties: ["year"], labels: ["E4_Period"], estimatedUniqueSize: 8}, {indexType: "RANGE", updatesSinceEstimation: 0, totalSize: 22529, indexProvider: "range-1.0", properties: ["census_year"], labels: ["E93_Presence"], estimatedUniqueSize: 8}, {indexType: "RANGE", updatesSinceEstimation: 0, totalSize: 13714, indexProvider: "range-1.0", properties: ["place_type"], labels: ["E53_Place"], estimatedUniqueSize: 2}, {indexType: "RANGE", updatesSinceEstimation: 0, totalSize: 579, indexProvider: "range-1.0", properties: ["province"], labels: ["E53_Place"], estimatedUniqueSize: 12}, {indexType: "RANGE", updatesSinceEstimation: 0, totalSize: 13714, indexProvider: "range-1.0", properties: ["name"], labels: ["E53_Place"], estimatedUniqueSize: 8962}, {indexType: "RANGE", updatesSinceEstimation: 0, totalSize: 21047, indexProvider: "range-1.0", properties: ["csd_tcpuid", "census_year"], labels: ["E93_Presence"], estimatedUniqueSize: 21046}, {indexType: "RANGE", updatesSinceEstimation: 0, totalSize: 1482, indexProvider: "range-1.0", properties: ["cd_id", "census_year"], labels: ["E93_Presence"], estimatedUniqueSize: 1482}, {indexType: "RANGE", updatesSinceEstimation: 0, totalSize: 579, indexProvider: "range-1.0", properties: ["place_type", "province"], labels: ["E53_Place"], estimatedUniqueSize: 12}], constraints: []}

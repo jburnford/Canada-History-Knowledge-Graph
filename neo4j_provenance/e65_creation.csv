@@ -1,0 +1,2 @@
+creation_id:ID,:LABEL,label,description,timespan_start,timespan_end
+CREATION_CHGIS_TCP,E65_Creation,Creation of Canadian Historical GIS Temporal Census Polygons,Development and publication of historical census subdivision boundaries and aggregate census data for Canada 1851-1921,2018-01-01,2023-10-31

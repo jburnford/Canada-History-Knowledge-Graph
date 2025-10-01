@@ -1,0 +1,10 @@
+:START_ID,:END_ID,:TYPE,note
+CITATION_TCP_SPATIAL,SOURCE_TCP_SPATIAL_GDB,P67_refers_to,Citation for geospatial boundary dataset
+CITATION_CENSUS_1851,SOURCE_CENSUS_1851_AGGREGATE,P67_refers_to,Citation for 1851 census aggregate data
+CITATION_CENSUS_1861,SOURCE_CENSUS_1861_AGGREGATE,P67_refers_to,Citation for 1861 census aggregate data
+CITATION_CENSUS_1871,SOURCE_CENSUS_1871_AGGREGATE,P67_refers_to,Citation for 1871 census aggregate data
+CITATION_CENSUS_1881,SOURCE_CENSUS_1881_AGGREGATE,P67_refers_to,Citation for 1881 census aggregate data
+CITATION_CENSUS_1891,SOURCE_CENSUS_1891_AGGREGATE,P67_refers_to,Citation for 1891 census aggregate data
+CITATION_CENSUS_1901,SOURCE_CENSUS_1901_AGGREGATE,P67_refers_to,Citation for 1901 census aggregate data
+CITATION_CENSUS_1911,SOURCE_CENSUS_1911_AGGREGATE,P67_refers_to,Citation for 1911 census aggregate data
+CITATION_CENSUS_1921,SOURCE_CENSUS_1921_AGGREGATE,P67_refers_to,Citation for 1921 census aggregate data
