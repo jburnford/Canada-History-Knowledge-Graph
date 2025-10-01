@@ -193,15 +193,17 @@ def extract_p161_spatial_projection(gdf: gpd.GeoDataFrame, year: int) -> pd.Data
     return relationships
 
 
-def extract_p89_falls_within(gdf: gpd.GeoDataFrame) -> pd.DataFrame:
+def extract_p89_falls_within(gdf: gpd.GeoDataFrame, year: int) -> pd.DataFrame:
     """
     P89_falls_within: E53_Place (CSD) -> E53_Place (CD)
+    Time-scoped with during_period property to track changing CD membership.
     """
-    print(f"  Creating P89_falls_within relationships...", file=sys.stderr)
+    print(f"  Creating P89_falls_within relationships for {year}...", file=sys.stderr)
 
     relationships = pd.DataFrame({
         ':START_ID': gdf['tcpuid'],  # CSD place_id
         ':END_ID': 'CD_' + gdf['pr'] + '_' + gdf['cd_name'].str.replace(' ', '_'),  # CD place_id
+        'during_period': f'CENSUS_{year}',
         ':TYPE': 'P89_falls_within'
     }).drop_duplicates()
 
@@ -316,7 +318,7 @@ def process_year(gdb_path: str, year: int, out_dir: Path, all_csd_places: dict, 
     stats['p161'] = len(p161)
     print(f"✓ Wrote {len(p161)} P161_has_spatial_projection relationships")
 
-    p89 = extract_p89_falls_within(gdf)
+    p89 = extract_p89_falls_within(gdf, year)
     p89.to_csv(out_dir / f'p89_falls_within_{year}.csv', index=False)
     stats['p89'] = len(p89)
     print(f"✓ Wrote {len(p89)} P89_falls_within relationships")
