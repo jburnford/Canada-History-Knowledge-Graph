@@ -59,6 +59,18 @@ This directory contains CSV files ready for Neo4j import using the CIDOC-CRM (Co
 - **Properties**: during_period (E4_Period ID), shared_border_length_m
 - Spatial adjacency between CSDs within same census year
 
+#### P134_continued
+- **CSD Temporal Links**: E93_Presence → E93_Presence
+  - **Count**: 17,060 relationships
+  - Links CSD presences across adjacent census years
+  - **Properties**: relationship_type (SAME_AS/CONTAINS/WITHIN), iou, from_fraction, to_fraction, year_from, year_to
+- **CD Temporal Links**: E53_Place (CD) → E53_Place (CD)
+  - **Count**: 1,302 relationships
+  - Links Census Divisions across adjacent census years
+  - **Properties**: same as CSD links
+- **Total**: 18,362 temporal continuity relationships
+- Tracks place evolution, boundary changes, administrative restructuring
+
 ## File Structure
 
 ### Node Files
