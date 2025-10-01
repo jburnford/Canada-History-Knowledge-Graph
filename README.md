@@ -10,15 +10,32 @@ This project transforms historical Canadian census data into a CIDOC-CRM complia
 - **Provenance**: Complete attribution to CHGIS project and Borealis repository
 - **Temporal linking**: Spatial overlap analysis tracking CSD evolution across 70 years
 
-## Data Source
+## Data Sources
 
-**The Canadian Historical GIS (CHGIS)**
+### Geospatial Boundaries
+**The Canadian Historical GIS (Temporal Census Polygons)**
 - **Repository**: [Borealis - Canadian Dataverse](https://borealisdata.ca/dataverse/census)
-- **DOI**: https://doi.org/10.5683/SP3/PKUZJN
+- **DOI**: https://doi.org/10.5683/SP3/PKUZJN (V1, June 2023)
 - **License**: CC BY 4.0
-- **Version**: V1 (June 2023)
+- **Principal Investigators**: Marvin McInnis, Michael Dawson, J.C. Herbert Emery, Mary MacKinnon, Marc St-Hilaire, Corinne Stainton, John Warkentin, Peter Waite
+- **Content**: Census Subdivision (CSD) and Census Division (CD) polygon boundaries for 1851-1921
 
-**Principal Investigators**: Marvin McInnis, Michael Dawson, J.C. Herbert Emery, Mary MacKinnon, Marc St-Hilaire, Corinne Stainton, John Warkentin, Peter Waite
+### Census Aggregate Data (by year)
+**The Canadian Historical GIS [Aggregate data] - Individual Years**
+- **Repository**: [Borealis - Canadian Dataverse](https://borealisdata.ca/dataverse/census)
+- **License**: CC BY 4.0
+- **Principal Authors**: Geoff Cunfer, Rhianne Billard, Sauvelm McClean, Laurent Richard, Marc St-Hilaire
+- **Project**: The Canadian Peoples / Les populations canadiennes
+
+**Individual Year Datasets**:
+- **1851**: https://doi.org/10.5683/SP3/NRPFY5 (V3, Oct 2023)
+- **1861**: https://doi.org/10.5683/SP3/1I1C59 (V2, Oct 2023)
+- **1871**: https://doi.org/10.5683/SP3/IYAR1W (V2, Oct 2023)
+- **1881**: https://doi.org/10.5683/SP3/SFG7UI (V2, Oct 2023)
+- **1891**: https://doi.org/10.5683/SP3/QA4AKE (V2, Oct 2023)
+- **1901**: https://doi.org/10.5683/SP3/6XFJNU (V2, Oct 2023)
+- **1911**: https://doi.org/10.5683/SP3/7ZG4XV (V2, Oct 2023)
+- **1921**: https://doi.org/10.5683/SP3/JPGS9B (V2, Oct 2023)
 
 ## Current Status (September 30, 2025)
 
@@ -266,8 +283,20 @@ This project is part of academic research. For questions or collaboration:
 
 This project code is licensed under MIT License.
 
-**Source data** from CHGIS is licensed under CC BY 4.0:
-- Citation: McInnis, Marvin; Dawson, Michael; Emery, J.C. Herbert; Mackinnon, Mary; St-Hilaire, Marc; Stainton, Corinne; Warkentin, John; Waite, Peter, 2023, "The Canadian Historical GIS (CHGIS)", https://doi.org/10.5683/SP3/PKUZJN, Borealis, V1
+**Source data** from The Canadian Historical GIS is licensed under CC BY 4.0:
+
+**Geospatial Boundaries**:
+- McInnis, Marvin; Dawson, Michael; Emery, J.C. Herbert; Mackinnon, Mary; St-Hilaire, Marc; Stainton, Corinne; Warkentin, John; Waite, Peter, 2023, "The Canadian Historical GIS", https://doi.org/10.5683/SP3/PKUZJN, Borealis, V1
+
+**Census Aggregate Data** (by year):
+- Cunfer, Geoff; Billard, Rhianne; McClean, Sauvelm, 2023, "The Canadian Historical GIS, 1851 [Aggregate data]", https://doi.org/10.5683/SP3/NRPFY5, Borealis, V3
+- Cunfer, Geoff; Billard, Rhianne; McClean, Sauvelm, 2023, "The Canadian Historical GIS, 1861 [Aggregate data]", https://doi.org/10.5683/SP3/1I1C59, Borealis, V2
+- Cunfer, Geoff; Billard, Rhianne; McClean, Sauvelm, 2023, "The Canadian Historical GIS, 1871 [Aggregate data]", https://doi.org/10.5683/SP3/IYAR1W, Borealis, V2
+- Cunfer, Geoff; Billard, Rhianne; McClean, Sauvelm, 2023, "The Canadian Historical GIS, 1881 [Aggregate data]", https://doi.org/10.5683/SP3/SFG7UI, Borealis, V2
+- The Canadian Peoples / Les populations canadiennes Project; Cunfer, Geoff; Billard, Rhianne; McClean, Sauvelm, 2023, "The Canadian Historical GIS, 1891 [Aggregate data]", https://doi.org/10.5683/SP3/QA4AKE, Borealis, V2
+- Cunfer, Geoff; Billard, Rhianne; McClean, Sauvelm, 2023, "The Canadian Historical GIS, 1901 [Aggregate data]", https://doi.org/10.5683/SP3/6XFJNU, Borealis, V2
+- Cunfer, Geoff; Richard, Laurent; St-Hilaire, Marc, 2023, "The Canadian Historical GIS, 1911 [Aggregate data]", https://doi.org/10.5683/SP3/7ZG4XV, Borealis, V2
+- Cunfer, Geoff; Richard, Laurent; St-Hilaire, Marc, 2023, "The Canadian Historical GIS, 1921 [Aggregate data]", https://doi.org/10.5683/SP3/JPGS9B, Borealis, V2
 
 ## Acknowledgments
 
