@@ -1,5 +1,9 @@
 actor_id:ID,:LABEL,name,type,affiliation,orcid,role,website
 ACTOR_CUNFER_GEOFF,E39_Actor,Geoff Cunfer,E21_Person,University of Saskatchewan,,Principal Investigator,
+ACTOR_BONNETT_JOHN,E39_Actor,John Bonnett,E21_Person,Brock University,,Author,
+ACTOR_MCINNES_MARVIN,E39_Actor,Marvin McInnes,E21_Person,Queen's University,,Author,
+ACTOR_TATE_RYAN,E39_Actor,Ryan Driskell Tate,E21_Person,University of Saskatchewan,,Author,
+ACTOR_INWOOD_KRIS,E39_Actor,Kris Inwood,E21_Person,University of Guelph,,Author,
 ACTOR_BILLARD_RHIANNE,E39_Actor,Rhianne Billard,E21_Person,University of Saskatchewan,,Principal Investigator,
 ACTOR_MCCLEAN_SAUVELM,E39_Actor,Sauvelm McClean,E21_Person,University of Saskatchewan,,Principal Investigator,
 ACTOR_RICHARD_LAURENT,E39_Actor,Laurent Richard,E21_Person,Université Laval,,Principal Investigator,
