@@ -50,7 +50,7 @@ sudo systemctl restart sshd
 
 # Enable automatic security updates
 sudo apt-get install -y unattended-upgrades
-sudo dpkg-reconfigure -plow unattended-upgrades
+sudo DEBIAN_FRONTEND=noninteractive dpkg-reconfigure -plow unattended-upgrades
 
 echo ""
 echo "Step 3: Format and Mount Volumes"
@@ -85,9 +85,9 @@ echo ""
 echo "Step 4: Install Neo4j Community Edition"
 echo "---------------------------------------"
 
-# Add Neo4j repository
-wget -O - https://debian.neo4j.com/neotechnology.gpg.key | sudo apt-key add -
-echo 'deb https://debian.neo4j.com stable latest' | sudo tee /etc/apt/sources.list.d/neo4j.list
+# Add Neo4j repository (modern GPG key management)
+wget -O - https://debian.neo4j.com/neotechnology.gpg.key | sudo gpg --dearmor -o /usr/share/keyrings/neo4j-archive-keyring.gpg
+echo 'deb [signed-by=/usr/share/keyrings/neo4j-archive-keyring.gpg] https://debian.neo4j.com stable latest' | sudo tee /etc/apt/sources.list.d/neo4j.list
 
 # Install Neo4j
 sudo apt-get update
@@ -178,34 +178,29 @@ echo "neo4j hard nofile 60000" | sudo tee -a /etc/security/limits.conf
 echo "✓ System tuned for Neo4j"
 
 echo ""
-echo "Step 7: Start Neo4j"
+echo "Step 7: Set Initial Password"
+echo "----------------------------"
+
+# Set password using neo4j-admin (more reliable than HTTP API)
+sudo -u neo4j neo4j-admin dbms set-initial-password "$NEO4J_PASSWORD"
+echo "✓ Password set"
+
+echo ""
+echo "Step 8: Start Neo4j"
 echo "-------------------"
 
 sudo systemctl enable neo4j
 sudo systemctl start neo4j
 
-# Wait for Neo4j to start
-echo "Waiting for Neo4j to start..."
-for i in {1..30}; do
-    if sudo systemctl is-active --quiet neo4j; then
-        echo "✓ Neo4j started"
+# Wait for Neo4j to be ready
+echo "Waiting for Neo4j to be ready..."
+for i in {1..60}; do
+    if curl -s http://localhost:7474 > /dev/null 2>&1; then
+        echo "✓ Neo4j is ready"
         break
     fi
     sleep 2
 done
-
-echo ""
-echo "Step 8: Set Initial Password"
-echo "-----------------------------"
-
-# Wait for HTTP endpoint
-sleep 10
-
-# Set password
-curl -X POST http://localhost:7474/user/neo4j/password \
-  -u neo4j:neo4j \
-  -H "Content-Type: application/json" \
-  -d "{\"password\":\"$NEO4J_PASSWORD\"}" 2>/dev/null && echo "✓ Password set" || echo "⚠️  Password may need manual setting"
 
 echo ""
 echo "======================================"
@@ -218,7 +213,7 @@ echo "2. Restore database:"
 echo "   sudo systemctl stop neo4j"
 echo "   sudo cp /tmp/canada-census-20251002.dump /var/lib/neo4j-data/import/"
 echo "   sudo chown neo4j:neo4j /var/lib/neo4j-data/import/canada-census-20251002.dump"
-echo "   sudo -u neo4j neo4j-admin database load neo4j --from-path=/var/lib/neo4j-data/import"
+echo "   sudo -u neo4j neo4j-admin database load neo4j --from-path=/var/lib/neo4j-data/import --overwrite-destination=true"
 echo "   sudo systemctl start neo4j"
 echo ""
 echo "3. Configure firewall (UFW):"

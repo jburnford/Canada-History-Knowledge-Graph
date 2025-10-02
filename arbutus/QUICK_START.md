@@ -86,7 +86,7 @@ ssh ubuntu@$FLOATING_IP
 sudo systemctl stop neo4j
 sudo cp /tmp/canada-census-20251002.dump /var/lib/neo4j-data/import/
 sudo chown neo4j:neo4j /var/lib/neo4j-data/import/canada-census-20251002.dump
-sudo -u neo4j neo4j-admin database load neo4j --from-path=/var/lib/neo4j-data/import
+sudo -u neo4j neo4j-admin database load neo4j --from-path=/var/lib/neo4j-data/import --overwrite-destination=true
 sudo systemctl start neo4j
 
 # Verify Neo4j is running
@@ -137,6 +137,13 @@ MATCH (p:E93_Presence {census_year: 1921})
 RETURN count(p);
 // Should return 5,585 (5,363 CSDs + 222 CDs)
 ```
+
+**⚠️ Data Completeness Note:**
+- **1851-1901**: Full spatial + census observations (population, demographics)
+- **1911**: Spatial data only (geometry, borders, hierarchy) - census observations pending
+- **1921**: Spatial data only (geometry, borders, hierarchy) - census observations pending
+
+For now, 1911 and 1921 queries will return spatial/topological information but no numeric measurements. Census observations for these years are planned for future import.
 
 ### 7. Setup Backups
 

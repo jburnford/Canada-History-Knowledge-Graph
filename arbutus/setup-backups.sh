@@ -13,13 +13,13 @@ SWIFT_CONTAINER="neo4j-backups"
 BACKUP_DIR="/var/backups/neo4j"
 
 echo ""
-echo "Step 1: Install Swift Client for Object Storage"
-echo "------------------------------------------------"
+echo "Step 1: Install Dependencies"
+echo "-----------------------------"
 
 sudo apt-get update
-sudo apt-get install -y python3-swiftclient python3-keystoneclient
+sudo apt-get install -y python3-swiftclient python3-keystoneclient bc mailutils default-jdk
 
-echo "✓ Swift client installed"
+echo "✓ Dependencies installed (Swift client, bc, mailutils, Java for jstat)"
 
 echo ""
 echo "Step 2: Create Backup Script"
@@ -61,7 +61,7 @@ sudo systemctl start neo4j
 # Upload to object storage
 if command -v swift &> /dev/null; then
     echo "$(date): Uploading to object storage..." >> $LOG_FILE
-    swift upload neo4j-backups $(basename $DUMP_FILE) --object-name=neo4j-$DATE.dump.gz 2>&1 >> $LOG_FILE
+    swift upload neo4j-backups "$DUMP_FILE" --object-name=neo4j-$DATE.dump.gz 2>&1 >> $LOG_FILE
     echo "$(date): Upload complete" >> $LOG_FILE
 else
     echo "$(date): Swift not configured - backup kept locally only" >> $LOG_FILE
