@@ -28,8 +28,11 @@ def load_gdb_cd_layer(gdb_path: str, year: int) -> gpd.GeoDataFrame:
     """
     print(f"  Loading GDB layer for {year}...", file=sys.stderr)
 
-    # Load CSD layer
-    layer_name = f'CANADA_{year}_CSD'
+    # Load CSD layer (use V2T2 for 1911)
+    if year == 1911:
+        layer_name = f'CANADA_{year}_CSD_V2T2'
+    else:
+        layer_name = f'CANADA_{year}_CSD'
     gdf = gpd.read_file(gdb_path, layer=layer_name)
 
     # Standardize column names (columns have year suffixes like Name_CD_1851)
@@ -227,8 +230,11 @@ def process_year(gdb_path: str, year: int, out_dir: Path) -> Tuple[gpd.GeoDataFr
     # Load CD geometries
     cd_gdf = load_gdb_cd_layer(gdb_path, year)
 
-    # Also load CSD layer for P10 relationships
-    layer_name = f'CANADA_{year}_CSD'
+    # Also load CSD layer for P10 relationships (use V2T2 for 1911)
+    if year == 1911:
+        layer_name = f'CANADA_{year}_CSD_V2T2'
+    else:
+        layer_name = f'CANADA_{year}_CSD'
     csd_gdf = gpd.read_file(gdb_path, layer=layer_name)
 
     # Standardize CSD column names (columns have year suffixes like Name_CD_1851)
@@ -237,8 +243,11 @@ def process_year(gdb_path: str, year: int, out_dir: Path) -> Tuple[gpd.GeoDataFr
 
     csd_gdf = csd_gdf.rename(columns={cd_col: 'cd_name', pr_col: 'pr'})
 
-    # Get TCPUID column name (varies by year)
-    tcpuid_col = [col for col in csd_gdf.columns if 'TCPUID' in col.upper()][0]
+    # Get TCPUID column name (varies by year, V2T2 uses V2t2_UID)
+    tcpuid_cols = [col for col in csd_gdf.columns if 'TCPUID' in col.upper() or 'V2T2_UID' in col.upper()]
+    if not tcpuid_cols:
+        raise ValueError(f"Could not find TCPUID column in {year}. Columns: {list(csd_gdf.columns)}")
+    tcpuid_col = tcpuid_cols[0]
     csd_gdf['tcpuid'] = csd_gdf[tcpuid_col]
 
     # Extract nodes

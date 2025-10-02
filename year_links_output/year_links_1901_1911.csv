@@ -1,32 +1,32 @@
 tcpuid_1901,csd_name_1901,cd_name_1901,pr_1901,tcpuid_1911,csd_name_1911,cd_name_1911,pr_1911,relationship,iou,frac_from,frac_to,name_similarity
 MB008010,Ochre River (part),Macdonald,MB,MB016001,282 townships,Dauphin,MB,WITHIN,0.0613,1.0,0.0613,25.56
-MB006011,Oakland,Brandon,MB,MB015011,Wawanesa vl (T7 R17 MW1),Brandon,MB,CONTAINS,0.0045,0.0045,1.0,43.55
 MB006011,Oakland,Brandon,MB,MB015001,78 townships,Brandon,MB,WITHIN,0.0773,0.9955,0.0774,44.74
+MB006011,Oakland,Brandon,MB,MB015011,Wawanesa vl (T7 R17 MW1),Brandon,MB,CONTAINS,0.0045,0.0045,1.0,43.55
 MB006005,Cornwallis,Brandon,MB,MB015001,78 townships,Brandon,MB,WITHIN,0.0646,1.0,0.0646,55.45
 MB006007,Elton,Brandon,MB,MB015001,78 townships,Brandon,MB,WITHIN,0.0776,1.0,0.0776,54.71
-MB006008,Glenwood,Brandon,MB,MB015007,Souris t-v,Brandon,MB,CONTAINS,0.0045,0.0045,1.0,37.78
 MB006008,Glenwood,Brandon,MB,MB015001,78 townships,Brandon,MB,WITHIN,0.0773,0.9955,0.0774,37.0
+MB006008,Glenwood,Brandon,MB,MB015007,Souris t-v,Brandon,MB,CONTAINS,0.0045,0.0045,1.0,37.78
 MB006016,Whitehead,Brandon,MB,MB015001,78 townships,Brandon,MB,WITHIN,0.0774,1.0,0.0774,50.0
 MB006006,Daly,Brandon,MB,MB015001,78 townships,Brandon,MB,WITHIN,0.0771,0.9955,0.0771,30.0
 MB006006,Daly,Brandon,MB,MB015006,Rivers t-v,Brandon,MB,CONTAINS,0.0045,0.0045,1.0,30.0
-MB006013,Sifton,Brandon,MB,MB015005,Oak Lake t-v,Brandon,MB,CONTAINS,0.0031,0.0031,1.0,37.78
 MB006013,Sifton,Brandon,MB,MB015001,78 townships,Brandon,MB,WITHIN,0.1164,0.9969,0.1164,53.33
+MB006013,Sifton,Brandon,MB,MB015005,Oak Lake t-v,Brandon,MB,CONTAINS,0.0031,0.0031,1.0,37.78
 MB006019,Woodworth,Brandon,MB,MB015001,78 townships,Brandon,MB,WITHIN,0.1109,0.9559,0.1114,50.0
 MB006019,Woodworth,Brandon,MB,MB015003,Oak River I R,Brandon,MB,CONTAINS,0.0441,0.0441,1.0,42.73
+MB006012,Pipestone,Brandon,MB,MB015001,78 townships,Brandon,MB,WITHIN,0.1533,0.9887,0.1536,50.0
 MB006012,Pipestone,Brandon,MB,MB015010,Reston vl (T7 R27 MW1),Brandon,MB,CONTAINS,0.0022,0.0022,1.0,52.58
 MB006012,Pipestone,Brandon,MB,MB015002,Oak Lake I R,Brandon,MB,CONTAINS,0.009,0.009,1.0,43.33
-MB006012,Pipestone,Brandon,MB,MB015001,78 townships,Brandon,MB,WITHIN,0.1533,0.9887,0.1536,50.0
 MB006014,Wallace,Brandon,MB,MB015001,78 townships,Brandon,MB,WITHIN,0.1544,0.9977,0.1544,37.37
 MB006014,Wallace,Brandon,MB,MB015009,Elkhorn vl (T12 R28 MW1),Brandon,MB,CONTAINS,0.0023,0.0023,1.0,39.03
-MB006002,"Brandon, City—Cité",Brandon,MB,MB015004,Brandon c,Brandon,MB,CONTAINS,0.0269,0.0269,1.0,76.67
 MB006002,"Brandon, City—Cité",Brandon,MB,MB015001,78 townships,Brandon,MB,WITHIN,0.0126,0.9731,0.0126,44.0
+MB006002,"Brandon, City—Cité",Brandon,MB,MB015004,Brandon c,Brandon,MB,CONTAINS,0.0269,0.0269,1.0,76.67
 MB011016,St. Laurent,Selkirk,MB,MB018999,NO DATA,Macdonald,MB,CONTAINS,0.1657,0.1657,1.0,27.08
 MB011016,St. Laurent,Selkirk,MB,MB018016,St. Laurent vl (T17 R4 MW1),Macdonald,MB,CONTAINS,0.0045,0.0045,1.0,44.28
 MB009018,Ochre River (part),Marquette,MB,MB016001,282 townships,Dauphin,MB,WITHIN,0.011,1.0,0.011,25.56
 MB009028,Unorganized Territory—Territoire non-organisé,Marquette,MB,MB016007,Winnipegosis vl (T31 R18 MW1),Dauphin,MB,CONTAINS,0.0001,0.0001,1.0,24.53
 MB009010,Dauphin,Marquette,MB,MB016001,282 townships,Dauphin,MB,WITHIN,0.0567,1.0,0.0567,21.5
-MB009012,Gilbert Plains,Marquette,MB,MB016006,Gilbert Plains vl (T25 R22 MW1),Dauphin,MB,CONTAINS,0.0026,0.0026,1.0,51.06
 MB009012,Gilbert Plains,Marquette,MB,MB016001,282 townships,Dauphin,MB,WITHIN,0.0386,0.9974,0.0386,23.06
+MB009012,Gilbert Plains,Marquette,MB,MB016006,Gilbert Plains vl (T25 R22 MW1),Dauphin,MB,CONTAINS,0.0026,0.0026,1.0,51.06
 MB007008,Rhineland,Lisgar,MB,MB017007,Winkler vl (T2 R4 MW1),Lisgar,MB,CONTAINS,0.0022,0.0022,1.0,48.06
 MB007008,Rhineland,Lisgar,MB,MB017001,47 townships,Lisgar,MB,WITHIN,0.2605,0.9978,0.2606,43.33
 MB007012,Stanley,Lisgar,MB,MB017001,47 townships,Lisgar,MB,WITHIN,0.2405,1.0,0.2405,44.74
@@ -44,8 +44,8 @@ MB008011,Portage la Prairie,Macdonald,MB,MB018005,High Bluff pr pt,Macdonald,MB,
 MB008011,Portage la Prairie,Macdonald,MB,MB018003,Poplar Point pr,Macdonald,MB,CONTAINS,0.0265,0.0265,1.0,63.94
 MB007004,Lorne,Lisgar,MB,MB018011,Swan Lake I R,Macdonald,MB,CONTAINS,0.0556,0.0556,1.0,19.56
 MB008009,"Norfolk, South—Sud",Macdonald,MB,MB018013,Cypress River vl (T7 R12 MW3),Macdonald,MB,CONTAINS,0.0018,0.0018,1.0,41.91
-MB008009,"Norfolk, South—Sud",Macdonald,MB,MB018014,Holland vl (T7 R11 MW1),Macdonald,MB,CONTAINS,0.0018,0.0018,1.0,43.66
 MB008009,"Norfolk, South—Sud",Macdonald,MB,MB018001,104 townships,Macdonald,MB,WITHIN,0.1508,0.9915,0.151,48.06
+MB008009,"Norfolk, South—Sud",Macdonald,MB,MB018014,Holland vl (T7 R11 MW1),Macdonald,MB,CONTAINS,0.0018,0.0018,1.0,43.66
 MB009019,Odanah,Marquette,MB,MB019001,128 townships,Marquette,MB,WITHIN,0.0468,1.0,0.0468,52.11
 MB009009,Clan William,Marquette,MB,MB019001,128 townships,Marquette,MB,WITHIN,0.0479,1.0,0.0479,46.8
 MB009006,Saskatchewan,Marquette,MB,MB019001,128 townships,Marquette,MB,WITHIN,0.0478,1.0,0.0478,46.8
@@ -129,45 +129,39 @@ MB012003,"Winnipeg, Ward—Quartier No. 3","Winnipeg, City—Cité",MB,MB018007,
 MB012002,"Winnipeg, Ward—Quartier No. 2","Winnipeg, City—Cité",MB,MB018007,St. Charles pr,Macdonald,MB,WITHIN,0.0191,0.981,0.0191,18.42
 MB012004,"Winnipeg, Ward—Quartier No. 4","Winnipeg, City—Cité",MB,MB018007,St. Charles pr,Macdonald,MB,WITHIN,0.0333,0.9786,0.0333,18.42
 MB012005,"Winnipeg, Ward—Quartier No. 5","Winnipeg, City—Cité",MB,MB018007,St. Charles pr,Macdonald,MB,WITHIN,0.059,0.9634,0.0591,18.42
+ON092001,Aird Island,Nipissing,ON,ON054001,Aird Island & Shedden,Algoma E,ON,WITHIN,0.1227,1.0,0.1227,51.65
 ON044080,Assiginack,Algoma,ON,ON054003,Assiginack,Algoma E,ON,SAME_AS,1.0,1.0,1.0,95.71
-ON092005,"Balfour, Chelmsford & unorganized territory— Ter. non-organisé",Nipissing,ON,ON054114,Chelmsford t-v,Algoma E,ON,CONTAINS,0.0136,0.0136,1.0,27.48
+ON092005,"Balfour, Chelmsford & unorganized territory— Ter. non-organisé",Nipissing,ON,ON054062,Chelmsford t-v,Algoma E,ON,CONTAINS,0.0136,0.0136,1.0,27.48
 ON044081,Barrie Island,Algoma,ON,ON054006,Barrie Island,Algoma E,ON,SAME_AS,1.0,1.0,1.0,95.71
 ON044082,Billings,Algoma,ON,ON054008,Billings,Algoma E,ON,SAME_AS,1.0,1.0,1.0,95.71
-ON044004,Bright & Bright Additional,Algoma,ON,ON054010,Bright,Algoma E,ON,CONTAINS,0.7115,0.7115,1.0,51.96
-ON044083,Burpee,Algoma,ON,ON054012,Burpee,Algoma E,ON,SAME_AS,1.0,1.0,1.0,95.71
-ON044084,Campbell,Algoma,ON,ON054013,Campbell,Algoma E,ON,SAME_AS,1.0,1.0,1.0,95.71
-ON044085,Carnarvon,Algoma,ON,ON054014,Carnarvon,Algoma E,ON,SAME_AS,1.0,1.0,1.0,95.71
-ON044038,Chapleau ,Algoma,ON,ON054017,Chapleau,Algoma E,ON,CONTAINS,0.8999,0.8999,1.0,95.71
-ON044038,Chapleau ,Algoma,ON,ON054108,Chapleau I R,Algoma E,ON,CONTAINS,0.1001,0.1001,1.0,81.71
-ON044006,Day,Algoma,ON,ON054024,Day,Algoma E,ON,SAME_AS,1.0,1.0,1.0,95.71
-ON092021,"Drury, Denison & Graham",Nipissing,ON,ON054029,Drury,Algoma E,ON,CONTAINS,0.3558,0.3558,1.0,28.53
-ON092021,"Drury, Denison & Graham",Nipissing,ON,ON054025,Denison,Algoma E,ON,CONTAINS,0.3599,0.3599,1.0,36.2
-ON092021,"Drury, Denison & Graham",Nipissing,ON,ON054041,Graham,Algoma E,ON,CONTAINS,0.2844,0.2844,1.0,32.49
-ON044009,Galbraith ,Algoma,ON,ON054036,Galbraith,Algoma E,ON,SAME_AS,1.0,1.0,1.0,95.71
-ON044011,Gladstone,Algoma,ON,ON054037,Gladstone,Algoma E,ON,SAME_AS,1.0,1.0,1.0,95.71
-ON044087,Gordon,Algoma,ON,ON054109,Gore Bay I R,Algoma E,ON,CONTAINS,0.0227,0.0227,1.0,49.05
-ON092030,Hallam,Nipissing,ON,ON054119,Webbwood t-v,Algoma E,ON,CONTAINS,0.0273,0.0273,1.0,3.53
-ON044089,Howland,Algoma,ON,ON054047,Howland,Algoma E,ON,CONTAINS,0.927,0.927,1.0,95.71
-ON044014,John Island,Algoma,ON,ON054048,John Island,Algoma E,ON,SAME_AS,1.0,1.0,1.0,95.71
-ON044015,Kirkwood,Algoma,ON,ON054050,Kirkwood,Algoma E,ON,SAME_AS,1.0,1.0,1.0,95.71
-ON092042,"May, Salter & Township 116",Nipissing,ON,ON054117,Massey t-v,Algoma E,ON,CONTAINS,0.0124,0.0124,1.0,26.86
-ON092042,"May, Salter & Township 116",Nipissing,ON,ON054083,Salter,Algoma E,ON,CONTAINS,0.5242,0.5242,1.0,29.78
-ON092042,"May, Salter & Township 116",Nipissing,ON,ON054059,May,Algoma E,ON,CONTAINS,0.4633,0.4633,1.0,18.01
-ON044092,Mills,Algoma,ON,ON054062,Mills,Algoma E,ON,SAME_AS,1.0,1.0,1.0,95.71
-ON092045,"Nairn, Lorne, Hyman & unorganized territory",Nipissing,ON,ON054065,Nairn,Algoma E,ON,CONTAINS,0.2582,0.2582,1.0,18.11
-ON092045,"Nairn, Lorne, Hyman & unorganized territory",Nipissing,ON,ON054054,Lorne,Algoma E,ON,CONTAINS,0.2681,0.2681,1.0,18.11
-ON092045,"Nairn, Lorne, Hyman & unorganized territory",Nipissing,ON,ON054055,Louise,Algoma E,ON,CONTAINS,0.2178,0.2178,1.0,17.82
-ON044020,Parkinson,Algoma,ON,ON054070,Parkinson,Algoma E,ON,SAME_AS,1.0,1.0,1.0,95.71
-ON044021,Patton ,Algoma,ON,ON054071,Patton,Algoma E,ON,SAME_AS,1.0,1.0,1.0,95.71
-ON092050,Rayside & Unorg. Ter—Ter. non-organisé,Nipissing,ON,ON054078,Rayside,Algoma E,ON,CONTAINS,0.5036,0.5036,1.0,25.31
-ON092050,Rayside & Unorg. Ter—Ter. non-organisé,Nipissing,ON,ON054057,Lumsden,Algoma E,ON,CONTAINS,0.4964,0.4964,0.9999,15.97
-ON044094,Robinson,Algoma,ON,ON054080,Robinson,Algoma E,ON,SAME_AS,1.0,1.0,1.0,95.71
-ON044095,Sandfield,Algoma,ON,ON054084,Sandfield,Algoma E,ON,SAME_AS,1.0,1.0,1.0,95.71
-ON092052,Snider & Waters,Nipissing,ON,ON054101,Waters,Algoma E,ON,CONTAINS,0.4679,0.4679,1.0,43.53
-ON044096,Tehkummah,Algoma,ON,ON054092,Tehkummah,Algoma E,ON,SAME_AS,1.0,1.0,1.0,95.71
-ON044030,Thessalon,Algoma,ON,ON054093,Thessalon,Algoma E,ON,CONTAINS,0.9027,0.9027,1.0,95.71
-ON044031,Thompson,Algoma,ON,ON054094,Thompson,Algoma E,ON,SAME_AS,1.0,1.0,1.0,95.71
-ON044032,Wells,Algoma,ON,ON054102,Wells,Algoma E,ON,SAME_AS,1.0,1.0,1.0,95.71
+ON044083,Burpee,Algoma,ON,ON054010,Burpee,Algoma E,ON,SAME_AS,1.0,1.0,1.0,95.71
+ON044084,Campbell,Algoma,ON,ON054011,Campbell,Algoma E,ON,SAME_AS,1.0,1.0,1.0,95.71
+ON044085,Carnarvon,Algoma,ON,ON054012,Carnarvon,Algoma E,ON,SAME_AS,1.0,1.0,1.0,95.71
+ON092013,Cartier,Nipissing,ON,ON054013,"Cartier, Ermatinger, etc",Algoma E,ON,WITHIN,0.3313,1.0,0.3313,35.14
+ON044038,Chapleau ,Algoma,ON,ON054014,Chapleau District,Algoma E,ON,CONTAINS,0.8999,0.8999,1.0,70.51
+ON044038,Chapleau ,Algoma,ON,ON054056,Chapleau I R,Algoma E,ON,CONTAINS,0.1001,0.1001,1.0,81.71
+ON092027,"Gertrude, Mine & Creighton",Nipissing,ON,ON054019,"Creighton, Snider & Waters",Algoma E,ON,WITHIN,0.4061,1.0,0.4061,30.45
+ON044006,Day,Algoma,ON,ON054009,Bright & Day,Algoma E,ON,WITHIN,0.5631,1.0,0.5631,53.71
+ON092021,"Drury, Denison & Graham",Nipissing,ON,ON054021,"Denison, Drury, Graham & Trill",Algoma E,ON,WITHIN,0.7412,1.0,0.7412,43.15
+ON044009,Galbraith ,Algoma,ON,ON054027,Galbraith,Algoma E,ON,SAME_AS,1.0,1.0,1.0,95.71
+ON044011,Gladstone,Algoma,ON,ON054028,Gladstone,Algoma E,ON,SAME_AS,1.0,1.0,1.0,95.71
+ON044087,Gordon,Algoma,ON,ON054057,Gore Bay I R,Algoma E,ON,CONTAINS,0.0227,0.0227,1.0,49.05
+ON092030,Hallam,Nipissing,ON,ON054067,Webbwood t-v,Algoma E,ON,CONTAINS,0.0273,0.0273,1.0,3.53
+ON044089,Howland,Algoma,ON,ON054034,Howland,Algoma E,ON,CONTAINS,0.927,0.927,1.0,95.71
+ON044014,John Island,Algoma,ON,ON054035,John Island,Algoma E,ON,SAME_AS,1.0,1.0,1.0,95.71
+ON044015,Kirkwood,Algoma,ON,ON054036,Kirk wood & Lefroy,Algoma E,ON,WITHIN,0.3791,1.0,0.3791,68.79
+ON092042,"May, Salter & Township 116",Nipissing,ON,ON054033,"Harrow, May & Salter",Algoma E,ON,WITHIN,0.6737,0.9876,0.6795,33.96
+ON092042,"May, Salter & Township 116",Nipissing,ON,ON054065,Massey t-v,Algoma E,ON,CONTAINS,0.0124,0.0124,1.0,26.86
+ON044092,Mills,Algoma,ON,ON054041,Mills,Algoma E,ON,SAME_AS,1.0,1.0,1.0,95.71
+ON044020,Parkinson,Algoma,ON,ON054031,Grassett & Parkinson,Algoma E,ON,WITHIN,0.5225,1.0,0.5225,69.16
+ON044021,Patton ,Algoma,ON,ON054043,Patton,Algoma E,ON,SAME_AS,1.0,1.0,1.0,95.71
+ON044094,Robinson,Algoma,ON,ON054023,Duck Island & Robinson,Algoma E,ON,WITHIN,0.944,1.0,0.944,63.05
+ON044095,Sandfield,Algoma,ON,ON054048,Sandfield,Algoma E,ON,SAME_AS,1.0,1.0,1.0,95.71
+ON092052,Snider & Waters,Nipissing,ON,ON054019,"Creighton, Snider & Waters",Algoma E,ON,WITHIN,0.5939,1.0,0.5939,54.75
+ON044096,Tehkummah,Algoma,ON,ON054050,Tehkummah,Algoma E,ON,SAME_AS,1.0,1.0,1.0,95.71
+ON044030,Thessalon,Algoma,ON,ON054051,Thessalon,Algoma E,ON,CONTAINS,0.9027,0.9027,1.0,95.71
+ON044031,Thompson,Algoma,ON,ON054052,Thompson,Algoma E,ON,SAME_AS,1.0,1.0,1.0,95.71
+ON044032,Wells,Algoma,ON,ON054030,"Gould, Haughton & Wells",Algoma E,ON,WITHIN,0.3389,1.0,0.3389,50.71
 ON044001,Aberdeen ,Algoma,ON,ON055002,Aberdeen,Algoma W-O,ON,SAME_AS,1.0,1.0,1.0,92.5
 ON044008,Fenwick,Algoma,ON,ON055005,Fenwick,Algoma W-O,ON,SAME_AS,1.0,1.0,1.0,92.5
 ON044012,Hilton,Algoma,ON,ON055009,Hilton,Algoma W-O,ON,SAME_AS,1.0,1.0,1.0,92.5
@@ -179,10 +173,10 @@ ON044028,Tarbutt,Algoma,ON,ON055024,Tarbutt,Algoma W-O,ON,SAME_AS,1.0,1.0,1.0,92
 ON044003,Batchawana,Algoma,ON,ON055030,Batchewana I R,Algoma W-O,ON,CONTAINS,0.0279,0.0279,1.0,75.0
 ON044003,Batchawana,Algoma,ON,ON055006,Fisher,Algoma W-O,ON,CONTAINS,0.5302,0.5302,1.0,31.25
 ON044017,Michipicoten River,Algoma,ON,ON055033,Michipicoten I R,Algoma W-O,ON,SAME_AS,1.0,1.0,1.0,84.26
-ON044025,"Sault Ste. Marie, Town—Ville",Algoma,ON,ON055035,Sault Ste Marie t-v,Algoma W-O,ON,CONTAINS,0.1537,0.1537,1.0,76.12
+ON044025,"Sault Ste. Marie, Town—Ville",Algoma,ON,ON055035,Sault Ste. Marie t-v,Algoma W-O,ON,CONTAINS,0.1537,0.1537,1.0,77.92
 ON044025,"Sault Ste. Marie, Town—Ville",Algoma,ON,ON055036,Steelton t-v,Algoma W-O,ON,CONTAINS,0.1537,0.1537,1.0,50.5
 ON046005,Tuscarora,"Brant, South—Sud",ON,ON056005,Tuscarora,Brant,ON,SAME_AS,1.0,1.0,1.0,84.29
-ON047006,Elizabethtown,Brockville,ON,ON058001,Elizabeth town,Brockville,ON,SAME_AS,0.9968,0.9982,0.9986,97.41
+ON047006,Elizabethtown,Brockville,ON,ON058001,Elizabethtown,Brockville,ON,SAME_AS,0.9968,0.9982,0.9986,100.0
 ON047002,"Brockville Town, East Ward—Quartier Est",Brockville,ON,ON058004,Brockville t-v,Brockville,ON,WITHIN,0.2541,1.0,0.2541,61.7
 ON049002,Amabel & Saugeen Ind. Reserve,"Bruce, North—Nord",ON,ON059012,Hepworth vl,Bruce N,ON,CONTAINS,0.0073,0.0073,1.0,28.0
 ON049003,Arran,"Bruce, North—Nord",ON,ON059003,Arran,Bruce N,ON,SAME_AS,1.0,1.0,1.0,87.5
@@ -190,12 +184,11 @@ ON050001,Bruce,"Bruce, West—Ouest",ON,ON059004,Bruce,Bruce N,ON,SAME_AS,1.0,1.
 ON049005,Eastnor,"Bruce, North—Nord",ON,ON059005,Eastnor,Bruce N,ON,SAME_AS,1.0,1.0,1.0,87.5
 ON050003,Kincardine,"Bruce, West—Ouest",ON,ON059006,Kincardine,Bruce N,ON,SAME_AS,1.0,1.0,1.0,85.0
 ON049007,Lindsay,"Bruce, North—Nord",ON,ON059007,Lindsay,Bruce N,ON,SAME_AS,1.0,1.0,1.0,87.5
-ON049009,St. Edmunds,"Bruce, North—Nord",ON,ON059008,St Edmunds,Bruce N,ON,SAME_AS,1.0,1.0,1.0,84.17
+ON049009,St. Edmunds,"Bruce, North—Nord",ON,ON059008,St. Edmunds,Bruce N,ON,SAME_AS,1.0,1.0,1.0,87.5
 ON050008,Saugeen,"Bruce, West—Ouest",ON,ON059009,Saugeen,Bruce N,ON,SAME_AS,1.0,1.0,1.0,85.0
 ON048001,Brant,"Bruce, East—Est",ON,ON060001,Brant,Bruce S,ON,SAME_AS,1.0,1.0,1.0,89.09
 ON048002,Carrick,"Bruce, East—Est",ON,ON060002,Carrick,Bruce S,ON,SAME_AS,1.0,1.0,1.0,89.09
 ON048003,Culross,"Bruce, East—Est",ON,ON060003,Culross,Bruce S,ON,SAME_AS,1.0,1.0,1.0,89.09
-ON049006,Elderslie,"Bruce, North—Nord",ON,ON060004,Elderslie,Bruce S,ON,SAME_AS,1.0,1.0,1.0,85.0
 ON048004,Greenock,"Bruce, East—Est",ON,ON060005,Greenock,Bruce S,ON,SAME_AS,1.0,1.0,1.0,89.09
 ON050002,Huron,"Bruce, West—Ouest",ON,ON060006,Huron,Bruce S,ON,SAME_AS,1.0,1.0,1.0,87.5
 ON050005,Kinloss,"Bruce, West—Ouest",ON,ON060007,Kinloss,Bruce S,ON,SAME_AS,1.0,1.0,1.0,87.5
@@ -237,20 +230,20 @@ ON060011,Mersea,"Essex, South—Sud",ON,ON068007,Mersea,Essex S,ON,SAME_AS,1.0,1
 ON060012,Pelee Island,"Essex, South—Sud",ON,ON068008,Pelee Island,Essex S,ON,SAME_AS,1.0,1.0,1.0,88.26
 ON043002,Barrie,Addington,ON,ON069001,Barrie,Frontenac,ON,SAME_AS,1.0,1.0,1.0,80.0
 ON043003,Bedford,Addington,ON,ON069002,Bedford,Frontenac,ON,SAME_AS,1.0,1.0,1.0,80.0
-ON061002,Howe Island,Frontenac,ON,ON069008,Howe Island,Frontenac,ON,SAME_AS,1.0,1.0,1.0,100.0
-ON043008,Kennebec,Addington,ON,ON069009,Kennebec,Frontenac,ON,SAME_AS,1.0,1.0,1.0,80.0
-ON061003,Kingston ,Frontenac,ON,ON069010,Kingston,Frontenac,ON,SAME_AS,1.0,1.0,1.0,100.0
-ON043009,Loughborough,Addington,ON,ON069011,Loughborough,Frontenac,ON,SAME_AS,1.0,1.0,1.0,80.0
-ON043011,Olden,Addington,ON,ON069012,Olden,Frontenac,ON,SAME_AS,1.0,1.0,1.0,80.0
-ON043012,Oso,Addington,ON,ON069013,Oso,Frontenac,ON,SAME_AS,1.0,1.0,1.0,80.0
-ON043013,Palmerston & Canonto,Addington,ON,ON069014,Palmerston,Frontenac,ON,CONTAINS,0.4932,0.4932,1.0,56.67
+ON061002,Howe Island,Frontenac,ON,ON069007,Howe Island,Frontenac,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON043008,Kennebec,Addington,ON,ON069008,Kennebec,Frontenac,ON,SAME_AS,1.0,1.0,1.0,80.0
+ON061003,Kingston ,Frontenac,ON,ON069009,Kingston,Frontenac,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON043009,Loughborough,Addington,ON,ON069010,Loughborough,Frontenac,ON,SAME_AS,1.0,1.0,1.0,80.0
+ON043011,Olden,Addington,ON,ON069011,Olden,Frontenac,ON,SAME_AS,1.0,1.0,1.0,80.0
+ON043012,Oso,Addington,ON,ON069012,Oso,Frontenac,ON,SAME_AS,1.0,1.0,1.0,80.0
+ON043013,Palmerston & Canonto,Addington,ON,ON069013,Palmerston,Frontenac,ON,CONTAINS,0.4932,0.4932,1.0,56.67
 ON043013,Palmerston & Canonto,Addington,ON,ON069004,Canonto S,Frontenac,ON,CONTAINS,0.2533,0.2533,1.0,43.79
 ON043013,Palmerston & Canonto,Addington,ON,ON069003,Canonto N,Frontenac,ON,CONTAINS,0.2535,0.2535,1.0,43.79
-ON061004,Pittsburg,Frontenac,ON,ON069015,Pittsburg,Frontenac,ON,SAME_AS,1.0,1.0,1.0,100.0
-ON043014,Portland,Addington,ON,ON069016,Portland,Frontenac,ON,SAME_AS,1.0,1.0,1.0,80.0
-ON061006,Storrington,Frontenac,ON,ON069017,Storrington,Frontenac,ON,SAME_AS,1.0,1.0,1.0,100.0
-ON061007,Wolfe Island,Frontenac,ON,ON069018,Wolfe Island,Frontenac,ON,SAME_AS,1.0,1.0,1.0,100.0
-ON061001,"Garden Island, Village",Frontenac,ON,ON069019,Garden Island vl,Frontenac,ON,SAME_AS,1.0,1.0,1.0,88.95
+ON061004,Pittsburg,Frontenac,ON,ON069014,Pittsburg,Frontenac,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON043014,Portland,Addington,ON,ON069015,Portland,Frontenac,ON,SAME_AS,1.0,1.0,1.0,80.0
+ON061006,Storrington,Frontenac,ON,ON069016,Storrington,Frontenac,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON061007,Wolfe Island,Frontenac,ON,ON069017,Wolfe Island,Frontenac,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON061001,"Garden Island, Village",Frontenac,ON,ON069018,Garden Island vl,Frontenac,ON,SAME_AS,1.0,1.0,1.0,88.95
 ON062002,Charlottenburg,Glengarry,ON,ON070001,Charlottenburg,Glengarry,ON,SAME_AS,1.0,1.0,1.0,100.0
 ON062003,Kenyon,Glengarry,ON,ON070002,Kenyon,Glengarry,ON,SAME_AS,1.0,1.0,1.0,100.0
 ON062004,Lancaster,Glengarry,ON,ON070003,Lancaster,Glengarry,ON,SAME_AS,1.0,1.0,1.0,100.0
@@ -271,13 +264,14 @@ ON064007,Proton,"Grey, East—Est",ON,ON072006,Proton,Grey E,ON,SAME_AS,1.0,1.0,
 ON065001,Derby,"Grey, North—Nord",ON,ON073001,Derby,Grey N,ON,SAME_AS,1.0,1.0,1.0,86.36
 ON065003,Keppel,"Grey, North—Nord",ON,ON073008,Shallow Lake vl,Grey N,ON,CONTAINS,0.0062,0.0062,1.0,36.36
 ON065003,Keppel,"Grey, North—Nord",ON,ON073002,Keppel,Grey N,ON,SAME_AS,0.9938,0.9938,1.0,86.36
+ON064008,St. Vincent,"Grey, East—Est",ON,ON073003,St.Vincent,Grey N,ON,SAME_AS,1.0,1.0,1.0,81.67
 ON065005,Sarawak,"Grey, North—Nord",ON,ON073004,Sarawak,Grey N,ON,SAME_AS,1.0,1.0,1.0,86.36
 ON065007,Sydenham,"Grey, North—Nord",ON,ON073005,Sydenham,Grey N,ON,SAME_AS,1.0,1.0,1.0,86.36
 ON066002,Bentinck,"Grey, South—Sud",ON,ON074001,Bentinck,Grey S,ON,SAME_AS,1.0,1.0,1.0,87.14
 ON066005,Egremont,"Grey, South—Sud",ON,ON074002,Egremont,Grey S,ON,SAME_AS,1.0,1.0,1.0,87.14
 ON066006,Glenelg,"Grey, South—Sud",ON,ON074003,Glenelg,Grey S,ON,SAME_AS,1.0,1.0,1.0,87.14
 ON066008,Normanby,"Grey, South—Sud",ON,ON074009,Neustadt vl,Grey S,ON,CONTAINS,0.0089,0.0089,1.0,31.88
-ON066008,Normanby,"Grey, South—Sud",ON,ON074004,Normanby',Grey S,ON,SAME_AS,0.9911,0.9911,1.0,83.03
+ON066008,Normanby,"Grey, South—Sud",ON,ON074004,Normanby,Grey S,ON,SAME_AS,0.9911,0.9911,1.0,87.14
 ON065006,Sullivan,"Grey, North—Nord",ON,ON074005,Sullivan,Grey S,ON,SAME_AS,0.9919,0.9919,1.0,83.64
 ON065006,Sullivan,"Grey, North—Nord",ON,ON074008,Chatsworth vl,Grey S,ON,CONTAINS,0.0081,0.0081,1.0,26.97
 ON067002,Canboro,Haldimand & Monok,ON,ON075001,Canboro,Haldimand,ON,SAME_AS,1.0,1.0,1.0,90.77
@@ -295,29 +289,27 @@ ON068009,Trafalgar,Halton,ON,ON076004,Trafalgar,Halton,ON,SAME_AS,1.0,1.0,1.0,10
 ON068001,"Acton, Village",Halton,ON,ON076007,Acton vl,Halton,ON,SAME_AS,1.0,1.0,1.0,80.91
 ON068002,"Burlington, Village",Halton,ON,ON076008,Burlington vl,Halton,ON,SAME_AS,1.0,1.0,1.0,86.88
 ON068004,"Georgetown, Village",Halton,ON,ON076009,Georgetown vl,Halton,ON,SAME_AS,1.0,1.0,1.0,86.88
-ON069007,"Hamilton, Ward—Quartier 7","Hamilton, City—Cité",ON,ON077001,Hamilton c part,Hamilton E,ON,WITHIN,0.3429,0.9891,0.3442,60.62
-ON069003,"Hamilton, Ward—Quartier 3","Hamilton, City—Cité",ON,ON078001,Hamilton c part,Hamilton W-O,ON,WITHIN,0.3552,1.0,0.3552,59.42
+ON069007,"Hamilton, Ward—Quartier 7","Hamilton, City—Cité",ON,ON077001,Hamilton c pt,Hamilton E,ON,WITHIN,0.3429,0.9891,0.3442,55.46
+ON069003,"Hamilton, Ward—Quartier 3","Hamilton, City—Cité",ON,ON078001,Hamilton c pt,Hamilton W-O,ON,WITHIN,0.3552,1.0,0.3552,54.26
 ON071002,Carlow,"Hastings, North—Nord",ON,ON079001,Carlow,Hastings E,ON,SAME_AS,1.0,1.0,1.0,88.0
 ON071003,Dungannon,"Hastings, North—Nord",ON,ON079003,Dungannon,Hastings E,ON,SAME_AS,1.0,1.0,1.0,88.0
-ON071004,Elzevir & Grimsthorpe,"Hastings, North—Nord",ON,ON079004,Elzevir,Hastings E,ON,CONTAINS,0.5363,0.5363,1.0,53.0
 ON071004,Elzevir & Grimsthorpe,"Hastings, North—Nord",ON,ON079005,Grimsthorpe,Hastings E,ON,CONTAINS,0.4637,0.4637,1.0,66.12
+ON071004,Elzevir & Grimsthorpe,"Hastings, North—Nord",ON,ON079004,Elzevir,Hastings E,ON,CONTAINS,0.5363,0.5363,1.0,53.0
 ON070002,Hungerford,"Hastings, East—Est",ON,ON079006,Hungerford,Hastings E,ON,SAME_AS,1.0,1.0,1.0,91.43
 ON071007,Limerick,"Hastings, North—Nord",ON,ON079007,Limerick,Hastings E,ON,SAME_AS,1.0,1.0,1.0,88.0
 ON071008,Madoc,"Hastings, North—Nord",ON,ON079008,Madoc,Hastings E,ON,SAME_AS,1.0,1.0,1.0,88.0
 ON071012,Mayo,"Hastings, North—Nord",ON,ON079009,Mayo,Hastings E,ON,SAME_AS,1.0,1.0,1.0,88.0
-ON071013,Monteagle & Herschell,"Hastings, North—Nord",ON,ON080003,Herschell,Hastings W-O,ON,CONTAINS,0.5232,0.5232,1.0,60.75
 ON071013,Monteagle & Herschell,"Hastings, North—Nord",ON,ON079010,Monteagle,Hastings E,ON,CONTAINS,0.4768,0.4768,1.0,60.0
 ON071016,Tudor & Cashel,"Hastings, North—Nord",ON,ON079012,Tudor,Hastings E,ON,CONTAINS,0.5594,0.5594,1.0,54.84
 ON071016,Tudor & Cashel,"Hastings, North—Nord",ON,ON079002,Cashel,Hastings E,ON,CONTAINS,0.4406,0.4406,1.0,60.0
-ON071001,"Bangor, McClure & Wicklow","Hastings, North—Nord",ON,ON080006,McClure,Hastings W-O,ON,CONTAINS,0.3541,0.3541,1.0,49.38
-ON071001,"Bangor, McClure & Wicklow","Hastings, North—Nord",ON,ON080010,Wicklow,Hastings W-O,ON,CONTAINS,0.3296,0.3296,1.0,49.38
-ON071001,"Bangor, McClure & Wicklow","Hastings, North—Nord",ON,ON080001,Bangor,Hastings W-O,ON,CONTAINS,0.3163,0.3163,1.0,45.85
+ON071001,"Bangor, McClure & Wicklow","Hastings, North—Nord",ON,ON080001,Bangor & Wicklow,Hastings W-O,ON,CONTAINS,0.6459,0.6459,1.0,73.38
 ON071005,Faraday ,"Hastings, North—Nord",ON,ON080002,Faraday,Hastings W-O,ON,SAME_AS,0.99,0.99,1.0,88.75
-ON071005,Faraday ,"Hastings, North—Nord",ON,ON080014,Bancroft vl,Hastings W-O,ON,CONTAINS,0.01,0.01,1.0,34.31
+ON071005,Faraday ,"Hastings, North—Nord",ON,ON080011,Bancroft vl,Hastings W-O,ON,CONTAINS,0.01,0.01,1.0,34.31
 ON071006,Huntingdon,"Hastings, North—Nord",ON,ON080004,Huntingdon,Hastings W-O,ON,SAME_AS,1.0,1.0,1.0,88.75
-ON071014,Rawdon,"Hastings, North—Nord",ON,ON080008,Rawdon,Hastings W-O,ON,SAME_AS,1.0,1.0,1.0,88.75
-ON071017,Wollaston,"Hastings, North—Nord",ON,ON080011,Wollaston,Hastings W-O,ON,SAME_AS,1.0,1.0,1.0,88.75
-ON072001,"Belleville, City—Cité","Hastings, West—Ouest",ON,ON080012,Belleville c,Hastings W-O,ON,WITHIN,0.7962,1.0,0.7962,71.53
+ON071010,Marmora & Lake,"Hastings, North—Nord",ON,ON080005,Marmora & Lake,Hastings W-O,ON,SAME_AS,1.0,1.0,1.0,88.75
+ON071014,Rawdon,"Hastings, North—Nord",ON,ON080006,Rawdon,Hastings W-O,ON,SAME_AS,1.0,1.0,1.0,88.75
+ON071017,Wollaston,"Hastings, North—Nord",ON,ON080008,Wollaston,Hastings W-O,ON,SAME_AS,1.0,1.0,1.0,88.75
+ON072001,"Belleville, City—Cité","Hastings, West—Ouest",ON,ON080009,Belleville c,Hastings W-O,ON,WITHIN,0.7962,1.0,0.7962,71.53
 ON073003,Grey,"Huron, East—Est",ON,ON081001,Grey,Huron E,ON,SAME_AS,1.0,1.0,1.0,89.09
 ON073004,Howick,"Huron, East—Est",ON,ON081002,Howick,Huron E,ON,SAME_AS,1.0,1.0,1.0,89.09
 ON073005,Morris,"Huron, East—Est",ON,ON081003,Morris,Huron E,ON,SAME_AS,1.0,1.0,1.0,89.09
@@ -331,9 +323,9 @@ ON075004,Goderich,"Huron, West—Ouest",ON,ON083003,Goderich,Huron W-O,ON,SAME_A
 ON074004,Hullett,"Huron, South—Sud",ON,ON083004,Hullett,Huron W-O,ON,SAME_AS,1.0,1.0,1.0,86.8
 ON058004,Howard,"Elgin, West—Ouest",ON,ON084003,Howard,Kent E,ON,SAME_AS,1.0,1.0,1.0,80.43
 ON058005,Orford,"Elgin, West—Ouest",ON,ON084004,Orford,Kent E,ON,SAME_AS,1.0,1.0,1.0,80.43
-ON076004,Harwich,Kent,ON,ON085003,Harwich,Kent W-O,ON,SAME_AS,1.0,1.0,1.0,90.0
-ON076005,Raleigh,Kent,ON,ON085004,Raleigh,Kent W-O,ON,SAME_AS,1.0,1.0,1.0,90.0
-ON076006,Romney,Kent,ON,ON085005,Romney,Kent W-O,ON,SAME_AS,1.0,1.0,1.0,90.0
+ON076004,Harwich,Kent,ON,ON085002,Harwich,Kent W-O,ON,SAME_AS,1.0,1.0,1.0,90.0
+ON076005,Raleigh,Kent,ON,ON085003,Raleigh,Kent W-O,ON,SAME_AS,1.0,1.0,1.0,90.0
+ON076006,Romney,Kent,ON,ON085004,Romney,Kent W-O,ON,SAME_AS,1.0,1.0,1.0,90.0
 ON077002,"Kingston, Frontenac, Ward—Quartier","Kingston, City—Cité",ON,ON086001,Kingston c,Kingston,ON,WITHIN,0.2128,1.0,0.2128,49.6
 ON078003,Bosanquet,"Lambton, East—Est",ON,ON087001,Bosanquet,Lambton East,ON,SAME_AS,1.0,1.0,1.0,94.83
 ON078004,Brooke ,"Lambton, East—Est",ON,ON087002,Brooke,Lambton East,ON,SAME_AS,1.0,1.0,1.0,94.83
@@ -341,7 +333,7 @@ ON078005,Enniskillen,"Lambton, East—Est",ON,ON087003,Enniskillen,Lambton East,
 ON090003,Euphemia,"Middlesex, West—Ouest",ON,ON087004,Euphemia,Lambton East,ON,SAME_AS,1.0,1.0,1.0,80.91
 ON078009,Warwick,"Lambton, East—Est",ON,ON087005,Warwick,Lambton East,ON,SAME_AS,1.0,1.0,1.0,94.83
 ON078006,"Oil Springs, Village","Lambton, East—Est",ON,ON087010,Oil Springs vl,Lambton East,ON,SAME_AS,1.0,1.0,1.0,82.47
-ON079002,Moore,"Lambton, West—Ouest",ON,ON088007,Courtright vl,Lambton W-O,ON,CONTAINS,0.0081,0.0081,1.0,35.56
+ON079002,Moore,"Lambton, West—Ouest",ON,ON088007,Courtwright vl,Lambton W-O,ON,CONTAINS,0.0081,0.0081,1.0,34.74
 ON079002,Moore,"Lambton, West—Ouest",ON,ON088002,Moore,Lambton W-O,ON,SAME_AS,0.9919,0.9919,1.0,90.0
 ON079003,Plympton,"Lambton, West—Ouest",ON,ON088003,Plympton,Lambton W-O,ON,SAME_AS,1.0,1.0,1.0,90.0
 ON079005,Sarnia,"Lambton, West—Ouest",ON,ON088004,Sarnia,Lambton W-O,ON,SAME_AS,1.0,1.0,1.0,90.0
@@ -354,7 +346,6 @@ ON080009,Pakenham,"Lanark, North—Nord",ON,ON089005,Pakenham,Lanark N,ON,SAME_A
 ON080010,Ramsay,"Lanark, North—Nord",ON,ON089006,Ramsay,Lanark N,ON,SAME_AS,1.0,1.0,1.0,88.46
 ON081001,Bathurst,"Lanark, South—Sud",ON,ON090001,Bathurst,Lanark S,ON,SAME_AS,1.0,1.0,1.0,89.2
 ON081002,Beckwith,"Lanark, South—Sud",ON,ON090002,Beckwith,Lanark S,ON,SAME_AS,1.0,1.0,1.0,89.2
-ON081005,Drummond,"Lanark, South—Sud",ON,ON090004,Drummond,Lanark S,ON,SAME_AS,1.0,1.0,1.0,89.2
 ON081007,Montague,"Lanark, South—Sud",ON,ON090006,Montague,Lanark S,ON,SAME_AS,1.0,1.0,1.0,89.2
 ON081010,"Smiths Falls (part), Town—Ville","Lanark, South—Sud",ON,ON090009,Smiths Falls t-v,Lanark S,ON,WITHIN,0.8284,1.0,0.8284,63.88
 ON083003,"Crosby, North—Nord","Leeds, South—Sud",ON,ON091010,Westport vl,Leeds,ON,CONTAINS,0.0115,0.0115,1.0,33.6
@@ -372,7 +363,7 @@ ON085003,Gainsborough,Lincoln & Niagara,ON,ON093003,Gainsborough,Lincoln,ON,SAME
 ON085004,Grantham,Lincoln & Niagara,ON,ON093004,Grantham,Lincoln,ON,CONTAINS,0.9322,0.9322,1.0,87.5
 ON085005,Louth,Lincoln & Niagara,ON,ON093007,Louth,Lincoln,ON,SAME_AS,1.0,1.0,1.0,87.5
 ON085007,Niagara,Lincoln & Niagara,ON,ON093008,Niagara,Lincoln,ON,SAME_AS,1.0,1.0,1.0,87.5
-ON085011,"St. Catharines, City—Cité",Lincoln & Niagara,ON,ON093009,St Catharines c,Lincoln,ON,WITHIN,0.6456,1.0,0.6456,70.0
+ON085011,"St. Catharines, City—Cité",Lincoln & Niagara,ON,ON093009,St. Catharines c,Lincoln,ON,WITHIN,0.6456,1.0,0.6456,72.13
 ON087003,London,"Middlesex, East—Est",ON,ON095002,London,Middlesex E,ON,SAME_AS,0.9807,0.9807,1.0,92.0
 ON089004,Westminster,"Middlesex, South—Sud",ON,ON095004,Westminster,Middlesex E,ON,SAME_AS,0.9942,0.9942,1.0,89.35
 ON090001,Adelaide,"Middlesex, West—Ouest",ON,ON096001,Adelaide,Middlesex N,ON,SAME_AS,1.0,1.0,1.0,88.75
@@ -384,104 +375,68 @@ ON089002,Delaware,"Middlesex, South—Sud",ON,ON097002,Delaware,Middlesex W-O,ON
 ON090002,Ekfrid,"Middlesex, West—Ouest",ON,ON097003,Ekfrid,Middlesex W-O,ON,SAME_AS,1.0,1.0,1.0,91.18
 ON090005,Metcalfe,"Middlesex, West—Ouest",ON,ON097004,Metcalfe,Middlesex W-O,ON,SAME_AS,1.0,1.0,1.0,91.18
 ON090006,Mosa,"Middlesex, West—Ouest",ON,ON097005,Mosa,Middlesex W-O,ON,SAME_AS,1.0,1.0,1.0,91.18
-ON091002,Baxter,Muskoka & Parry Sound,ON,ON098001,Baxter,Muskoka,ON,SAME_AS,1.0,1.0,1.0,85.0
+ON091002,Baxter,Muskoka & Parry Sound,ON,ON098001,"Baxter, Freeman & Gibson",Muskoka,ON,WITHIN,0.2714,1.0,0.2714,43.0
 ON091004,Brunel,Muskoka & Parry Sound,ON,ON098002,Brunel,Muskoka,ON,SAME_AS,1.0,1.0,1.0,85.0
 ON091006,Cardwell,Muskoka & Parry Sound,ON,ON098003,Cardwell,Muskoka,ON,SAME_AS,1.0,1.0,1.0,85.0
 ON091008,Chaffey,Muskoka & Parry Sound,ON,ON098004,Chaffey,Muskoka,ON,SAME_AS,1.0,1.0,1.0,85.0
-ON091016,Franklin,Muskoka & Parry Sound,ON,ON098006,Franklin,Muskoka,ON,SAME_AS,1.0,1.0,1.0,85.0
-ON091017,Gibson & Freeman,Muskoka & Parry Sound,ON,ON098008,Gibson,Muskoka,ON,CONTAINS,0.5117,0.5117,1.0,53.18
-ON091017,Gibson & Freeman,Muskoka & Parry Sound,ON,ON098007,Freeman,Muskoka,ON,CONTAINS,0.4883,0.4883,1.0,57.61
-ON091042,Sinclair,Muskoka & Parry Sound,ON,ON098018,Sinclair,Muskoka,ON,SAME_AS,1.0,1.0,1.0,85.0
-ON091044,Stephenson ,Muskoka & Parry Sound,ON,ON098019,Stephenson,Muskoka,ON,SAME_AS,1.0,1.0,1.0,85.0
-ON091045,Stisted,Muskoka & Parry Sound,ON,ON098020,Stisted,Muskoka,ON,SAME_AS,1.0,1.0,1.0,85.0
-ON091049,Watt,Muskoka & Parry Sound,ON,ON098021,Watt,Muskoka,ON,SAME_AS,1.0,1.0,1.0,85.0
-ON097002,"Bracebridge, Town—Ville","Ontario, North—Nord",ON,ON098022,Bracebridge t-v,Muskoka,ON,CONTAINS,0.7266,0.7266,1.0,56.19
-ON092004,"Badgerow, Field, Gibbons & Bastedo (parts)",Nipissing,ON,ON099006,Badgerow,Nipissing,ON,CONTAINS,0.2225,0.2225,1.0,52.4
-ON092004,"Badgerow, Field, Gibbons & Bastedo (parts)",Nipissing,ON,ON099058,Field,Nipissing,ON,CONTAINS,0.2723,0.2723,1.0,44.89
-ON092004,"Badgerow, Field, Gibbons & Bastedo (parts)",Nipissing,ON,ON099062,Gibbons,Nipissing,ON,CONTAINS,0.2267,0.2267,1.0,50.0
-ON092004,"Badgerow, Field, Gibbons & Bastedo (parts)",Nipissing,ON,ON099008,Bastedo,Nipissing,ON,CONTAINS,0.2786,0.2786,1.0,50.0
-ON092007,Blezard & Hanmer,Nipissing,ON,ON099011,Blezard,Nipissing,ON,CONTAINS,0.4866,0.4866,1.0,72.61
-ON092007,Blezard & Hanmer,Nipissing,ON,ON099068,Hanmer,Nipissing,ON,CONTAINS,0.5134,0.5134,1.0,68.18
-ON092008,Bonfield,Nipissing,ON,ON099159,Bonfield t-v,Nipissing,ON,CONTAINS,0.0114,0.0114,1.0,86.0
-ON092008,Bonfield,Nipissing,ON,ON099012,Bonfield,Nipissing,ON,SAME_AS,0.9886,0.9886,1.0,100.0
-ON092009,Buck,Nipissing,ON,ON099165,Haileybury t-v,Nipissing,ON,CONTAINS,0.0339,0.0339,1.0,45.56
-ON092010,Caldwell,Nipissing,ON,ON099022,Caldwell,Nipissing,ON,SAME_AS,1.0,1.0,1.0,100.0
-ON092011,Calvin,Nipissing,ON,ON099024,Calvin,Nipissing,ON,SAME_AS,1.0,1.0,1.0,100.0
-ON092012,Cameron,Nipissing,ON,ON099025,Cameron,Nipissing,ON,SAME_AS,1.0,1.0,1.0,100.0
-ON092014,"Casey, Hilliard, Brethour, Ingram & part Harris",Nipissing,ON,ON099070,Harris,Nipissing,ON,CONTAINS,0.1034,0.1034,1.0,45.85
-ON092014,"Casey, Hilliard, Brethour, Ingram & part Harris",Nipissing,ON,ON099030,Casey,Nipissing,ON,CONTAINS,0.1709,0.1709,1.0,43.46
-ON092014,"Casey, Hilliard, Brethour, Ingram & part Harris",Nipissing,ON,ON099076,Hilliard,Nipissing,ON,CONTAINS,0.1909,0.1909,1.0,50.36
-ON092014,"Casey, Hilliard, Brethour, Ingram & part Harris",Nipissing,ON,ON099017,Brethour,Nipissing,ON,CONTAINS,0.1701,0.1701,1.0,50.36
-ON092014,"Casey, Hilliard, Brethour, Ingram & part Harris",Nipissing,ON,ON099082,Ingram,Nipissing,ON,CONTAINS,0.194,0.194,1.0,45.85
-ON092014,"Casey, Hilliard, Brethour, Ingram & part Harris",Nipissing,ON,ON099120,Pense,Nipissing,ON,CONTAINS,0.1706,0.1706,1.0,38.08
-ON092015,Chisholm & Boulter,Nipissing,ON,ON099035,Chisholm,Nipissing,ON,CONTAINS,0.5154,0.5154,1.0,73.08
-ON092015,Chisholm & Boulter,Nipissing,ON,ON099014,Boulter,Nipissing,ON,CONTAINS,0.4846,0.4846,1.0,69.2
-ON092016,"Clara, Head & Maria",Nipissing,ON,ON099036,Clara,Nipissing,ON,CONTAINS,0.3386,0.3386,1.0,59.17
-ON092016,"Clara, Head & Maria",Nipissing,ON,ON099102,Maria,Nipissing,ON,CONTAINS,0.3571,0.3571,1.0,59.17
-ON092016,"Clara, Head & Maria",Nipissing,ON,ON099073,Head,Nipissing,ON,CONTAINS,0.3042,0.3042,1.0,54.35
-ON092022,"Dryden, Neelon, Garson & part Maclennan",Nipissing,ON,ON099112,Neelon,Nipissing,ON,CONTAINS,0.3336,0.3336,1.0,48.67
-ON092022,"Dryden, Neelon, Garson & part Maclennan",Nipissing,ON,ON099050,Dryden,Nipissing,ON,CONTAINS,0.3351,0.3351,1.0,48.67
-ON092022,"Dryden, Neelon, Garson & part Maclennan",Nipissing,ON,ON099060,Garson,Nipissing,ON,CONTAINS,0.3313,0.3313,1.0,48.67
-ON092023,Dunnet & Ratter,Nipissing,ON,ON099052,Dunnett,Nipissing,ON,CONTAINS,0.5006,0.5006,1.0,74.55
-ON092023,Dunnet & Ratter,Nipissing,ON,ON099126,Ratter,Nipissing,ON,CONTAINS,0.4994,0.4994,1.0,70.0
-ON092024,"Dymond, Harley, Hudson, Kerns & part Harris",Nipissing,ON,ON099168,New Liskeard t-v,Nipissing,ON,CONTAINS,0.0087,0.0087,1.0,51.36
-ON092024,"Dymond, Harley, Hudson, Kerns & part Harris",Nipissing,ON,ON099078,Hudson,Nipissing,ON,CONTAINS,0.2566,0.2566,1.0,47.14
-ON092024,"Dymond, Harley, Hudson, Kerns & part Harris",Nipissing,ON,ON099053,Dymond,Nipissing,ON,CONTAINS,0.2293,0.2293,1.0,47.14
-ON092024,"Dymond, Harley, Hudson, Kerns & part Harris",Nipissing,ON,ON099085,Kerns,Nipissing,ON,CONTAINS,0.2533,0.2533,1.0,44.58
-ON092024,"Dymond, Harley, Hudson, Kerns & part Harris",Nipissing,ON,ON099069,Harlev,Nipissing,ON,CONTAINS,0.2521,0.2521,1.0,44.29
-ON092025,Ferris,Nipissing,ON,ON099057,Ferris,Nipissing,ON,SAME_AS,1.0,1.0,1.0,100.0
-ON092029,"Hagar, Loughrin, Awrey & Hawley",Nipissing,ON,ON099072,Hawley,Nipissing,ON,CONTAINS,0.3156,0.3156,1.0,52.7
-ON092029,"Hagar, Loughrin, Awrey & Hawley",Nipissing,ON,ON099005,Aurey,Nipissing,ON,CONTAINS,0.3119,0.3119,1.0,49.44
-ON092029,"Hagar, Loughrin, Awrey & Hawley",Nipissing,ON,ON099067,Hagar,Nipissing,ON,CONTAINS,0.3725,0.3725,1.0,49.44
-ON092031,Hugel,Nipissing,ON,ON099079,Hugel,Nipissing,ON,SAME_AS,1.0,1.0,1.0,100.0
-ON092032,Jennings & parts Casimir & Appleby,Nipissing,ON,ON099084,Jennings,Nipissing,ON,CONTAINS,0.3256,0.3256,1.0,56.67
-ON092032,Jennings & parts Casimir & Appleby,Nipissing,ON,ON099003,Appleby,Nipissing,ON,CONTAINS,0.3744,0.3744,1.0,53.9
-ON092032,Jennings & parts Casimir & Appleby,Nipissing,ON,ON099031,Casimir,Nipissing,ON,CONTAINS,0.3,0.3,1.0,53.9
-ON092035,Lauder & Wilkes,Nipissing,ON,ON099089,Lauder,Nipissing,ON,CONTAINS,0.3837,0.3837,1.0,70.0
-ON092037,McKim,Nipissing,ON,ON099163,Copper Cliff t-v,Nipissing,ON,CONTAINS,0.0307,0.0307,1.0,43.33
-ON092038,Macpherson & part of Kirkpatrick,Nipissing,ON,ON099146,Bear Creek,Nipissing,ON,CONTAINS,0.0222,0.0222,1.0,50.0
-ON092039,Martland,Nipissing,ON,ON099104,Martland,Nipissing,ON,SAME_AS,1.0,1.0,1.0,100.0
-ON092040,Mattawan,Nipissing,ON,ON099106,Mattawan,Nipissing,ON,SAME_AS,1.0,1.0,1.0,100.0
-ON092047,Papineau,Nipissing,ON,ON099118,Papineau,Nipissing,ON,SAME_AS,1.0,1.0,1.0,100.0
-ON092048,"Peck, Hunter, Canisbay & McLaughlin",Nipissing,ON,ON099119,Peck,Nipissing,ON,CONTAINS,0.3327,0.3327,1.0,44.36
-ON092048,"Peck, Hunter, Canisbay & McLaughlin",Nipissing,ON,ON099026,Canisbay,Nipissing,ON,CONTAINS,0.3351,0.3351,1.0,56.05
-ON092048,"Peck, Hunter, Canisbay & McLaughlin",Nipissing,ON,ON099080,Hunter,Nipissing,ON,CONTAINS,0.3322,0.3322,1.0,50.49
-ON092049,"Rathburn, Street & part Maclennan",Nipissing,ON,ON099125,Rathburne,Nipissing,ON,CONTAINS,0.6264,0.6264,1.0,60.0
-ON092051,Sabine & Lyell (parts),Nipissing,ON,ON099148,Cross Lake,Nipissing,ON,CONTAINS,0.0064,0.0064,1.0,47.5
-ON092054,Springer,Nipissing,ON,ON099135,Springer,Nipissing,ON,SAME_AS,0.9884,0.9884,1.0,100.0
-ON092054,Springer,Nipissing,ON,ON099160,Cache Bay t-v,Nipissing,ON,CONTAINS,0.0116,0.0116,1.0,36.67
-ON092059,Widdifield,Nipissing,ON,ON099143,Widdifield,Nipissing,ON,SAME_AS,0.9912,1.0,0.9912,100.0
-ON092043,Montreal River & Temagami Lake,Nipissing,ON,ON099098,McCarthy,Nipissing,ON,CONTAINS,0.0082,0.0082,1.0,44.74
-ON092043,Montreal River & Temagami Lake,Nipissing,ON,ON099040,Corley,Nipissing,ON,CONTAINS,0.0069,0.0069,1.0,45.56
-ON092043,Montreal River & Temagami Lake,Nipissing,ON,ON099127,Ray,Nipissing,ON,CONTAINS,0.007,0.007,1.0,38.48
-ON092043,Montreal River & Temagami Lake,Nipissing,ON,ON099049,Donovan,Nipissing,ON,CONTAINS,0.0072,0.0072,1.0,45.14
-ON092043,Montreal River & Temagami Lake,Nipissing,ON,ON099093,Leonard,Nipissing,ON,CONTAINS,0.0087,0.0087,1.0,45.14
-ON092043,Montreal River & Temagami Lake,Nipissing,ON,ON099092,Leith,Nipissing,ON,CONTAINS,0.0072,0.0072,1.0,42.0
-ON092043,Montreal River & Temagami Lake,Nipissing,ON,ON099034,Charters,Nipissing,ON,CONTAINS,0.0072,0.0072,1.0,44.74
-ON092043,Montreal River & Temagami Lake,Nipissing,ON,ON099139,Tyrell,Nipissing,ON,CONTAINS,0.0087,0.0087,1.0,49.44
-ON092043,Montreal River & Temagami Lake,Nipissing,ON,ON099107,Milner,Nipissing,ON,CONTAINS,0.0071,0.0071,1.0,45.56
-ON092043,Montreal River & Temagami Lake,Nipissing,ON,ON099113,Nichol,Nipissing,ON,CONTAINS,0.007,0.007,1.0,41.67
-ON092043,Montreal River & Temagami Lake,Nipissing,ON,ON099999,NO DATA,Nipissing,ON,CONTAINS,0.0862,0.0862,1.0,45.14
-ON092043,Montreal River & Temagami Lake,Nipissing,ON,ON099090,Lawson,Nipissing,ON,CONTAINS,0.0072,0.0072,1.0,37.78
-ON092043,Montreal River & Temagami Lake,Nipissing,ON,ON099140,Van Hise,Nipissing,ON,CONTAINS,0.0071,0.0071,1.0,44.74
-ON092043,Montreal River & Temagami Lake,Nipissing,ON,ON099071,Haultain,Nipissing,ON,CONTAINS,0.0071,0.0071,1.0,48.42
-ON092043,Montreal River & Temagami Lake,Nipissing,ON,ON099150,Elk Lake Mining Division,Nipissing,ON,CONTAINS,0.1306,0.1306,1.0,50.74
-ON092043,Montreal River & Temagami Lake,Nipissing,ON,ON099083,James,Nipissing,ON,CONTAINS,0.0066,0.0066,1.0,42.0
-ON092043,Montreal River & Temagami Lake,Nipissing,ON,ON099149,Elk Lake,Nipissing,ON,CONTAINS,0.0002,0.0002,1.0,55.79
-ON092043,Montreal River & Temagami Lake,Nipissing,ON,ON099124,Rankine,Nipissing,ON,CONTAINS,0.0071,0.0071,1.0,45.14
-ON092043,Montreal River & Temagami Lake,Nipissing,ON,ON099108,Morel,Nipissing,ON,CONTAINS,0.007,0.007,1.0,50.0
-ON092043,Montreal River & Temagami Lake,Nipissing,ON,ON099147,Bear Island,Nipissing,ON,CONTAINS,0.0086,0.0086,1.0,53.9
-ON092043,Montreal River & Temagami Lake,Nipissing,ON,ON099157,Temagami,Nipissing,ON,CONTAINS,0.0142,0.0142,1.0,59.47
-ON092043,Montreal River & Temagami Lake,Nipissing,ON,ON099095,Lorrain & South Lorrain,Nipissing,ON,CONTAINS,0.0338,0.0338,1.0,59.06
-ON092043,Montreal River & Temagami Lake,Nipissing,ON,ON099166,Latchford t-v,Nipissing,ON,CONTAINS,0.0001,0.0001,1.0,43.02
-ON092043,Montreal River & Temagami Lake,Nipissing,ON,ON099087,Knight,Nipissing,ON,CONTAINS,0.0086,0.0086,1.0,41.67
-ON092043,Montreal River & Temagami Lake,Nipissing,ON,ON099039,Coleman,Nipissing,ON,CONTAINS,0.011,0.011,1.0,48.92
-ON092043,Montreal River & Temagami Lake,Nipissing,ON,ON099161,Cobalt t-v,Nipissing,ON,CONTAINS,0.0001,0.0001,1.0,47.5
-ON092043,Montreal River & Temagami Lake,Nipissing,ON,ON099007,Barr,Nipissing,ON,CONTAINS,0.0071,0.0071,1.0,42.35
-ON092043,Montreal River & Temagami Lake,Nipissing,ON,ON099059,Firstbrook,Nipissing,ON,CONTAINS,0.0071,0.0071,1.0,44.0
-ON092055,"Sturgeon Falls, Town—Ville",Nipissing,ON,ON099170,Sturgeon Falls t-v,Nipissing,ON,SAME_AS,1.0,1.0,1.0,84.09
+ON091016,Franklin,Muskoka & Parry Sound,ON,ON098006,Franklin & Sinclair,Muskoka,ON,WITHIN,0.5025,1.0,0.5025,56.48
+ON091017,Gibson & Freeman,Muskoka & Parry Sound,ON,ON098001,"Baxter, Freeman & Gibson",Muskoka,ON,WITHIN,0.7286,1.0,0.7286,46.5
+ON097007,Maclean,"Ontario, North—Nord",ON,ON098008,McLean & Ridout,Muskoka,ON,WITHIN,0.4956,1.0,0.4956,42.8
+ON097012,Ridout,"Ontario, North—Nord",ON,ON098008,McLean & Ridout,Muskoka,ON,WITHIN,0.5044,1.0,0.5044,44.62
+ON091042,Sinclair,Muskoka & Parry Sound,ON,ON098006,Franklin & Sinclair,Muskoka,ON,WITHIN,0.4975,1.0,0.4975,56.48
+ON091044,Stephenson ,Muskoka & Parry Sound,ON,ON098015,Stephenson,Muskoka,ON,SAME_AS,1.0,1.0,1.0,85.0
+ON091045,Stisted,Muskoka & Parry Sound,ON,ON098016,Stisted,Muskoka,ON,SAME_AS,1.0,1.0,1.0,85.0
+ON091049,Watt,Muskoka & Parry Sound,ON,ON098017,Watt,Muskoka,ON,SAME_AS,1.0,1.0,1.0,85.0
+ON097002,"Bracebridge, Town—Ville","Ontario, North—Nord",ON,ON098018,Bracebridge t-v,Muskoka,ON,CONTAINS,0.7266,0.7266,1.0,56.19
+ON092008,Bonfield,Nipissing,ON,ON099090,Bonfield t-v,Nipissing,ON,CONTAINS,0.0114,0.0114,1.0,86.0
+ON092008,Bonfield,Nipissing,ON,ON099008,Bonfield,Nipissing,ON,SAME_AS,0.9886,0.9886,1.0,100.0
+ON092009,Buck,Nipissing,ON,ON099096,Haileybury t-v,Nipissing,ON,CONTAINS,0.0339,0.0339,1.0,45.56
+ON092010,Caldwell,Nipissing,ON,ON099016,Caldwell,Nipissing,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON092011,Calvin,Nipissing,ON,ON099018,Calvin,Nipissing,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON092012,Cameron,Nipissing,ON,ON099019,Cameron,Nipissing,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON092014,"Casey, Hilliard, Brethour, Ingram & part Harris",Nipissing,ON,ON099024,Casey & Harris,Nipissing,ON,CONTAINS,0.2743,0.2743,1.0,62.13
+ON092014,"Casey, Hilliard, Brethour, Ingram & part Harris",Nipissing,ON,ON099051,Hilliard,Nipissing,ON,CONTAINS,0.1909,0.1909,1.0,50.36
+ON092014,"Casey, Hilliard, Brethour, Ingram & part Harris",Nipissing,ON,ON099012,Brethour,Nipissing,ON,CONTAINS,0.1701,0.1701,1.0,50.36
+ON092014,"Casey, Hilliard, Brethour, Ingram & part Harris",Nipissing,ON,ON099057,Ingram & Pense,Nipissing,ON,CONTAINS,0.3646,0.3646,1.0,55.25
+ON092015,Chisholm & Boulter,Nipissing,ON,ON099028,Chisholm,Nipissing,ON,CONTAINS,0.5154,0.5154,1.0,73.08
+ON092015,Chisholm & Boulter,Nipissing,ON,ON099010,Boulter,Nipissing,ON,CONTAINS,0.4846,0.4846,1.0,69.2
+ON092016,"Clara, Head & Maria",Nipissing,ON,ON099029,Clara & Maria,Nipissing,ON,CONTAINS,0.6958,0.6958,1.0,86.88
+ON092016,"Clara, Head & Maria",Nipissing,ON,ON099049,Head,Nipissing,ON,CONTAINS,0.3042,0.3042,1.0,54.35
+ON092019,"Crerar & parts Badgerow, Gibbons & Bastedo",Nipissing,ON,ON099006,"Bastedo, Gibbons & Crerar",Nipissing,ON,WITHIN,0.3094,1.0,0.3094,65.52
+ON092022,"Dryden, Neelon, Garson & part Maclennan",Nipissing,ON,ON099042,Garson & Neelon,Nipissing,ON,CONTAINS,0.6649,0.6649,1.0,58.52
+ON092023,Dunnet & Ratter,Nipissing,ON,ON099036,Dunnett & Ratter,Nipissing,ON,SAME_AS,1.0,1.0,1.0,97.74
+ON092024,"Dymond, Harley, Hudson, Kerns & part Harris",Nipissing,ON,ON099037,Dymond,Nipissing,ON,CONTAINS,0.2293,0.2293,1.0,47.14
+ON092024,"Dymond, Harley, Hudson, Kerns & part Harris",Nipissing,ON,ON099047,Harley,Nipissing,ON,CONTAINS,0.2521,0.2521,1.0,47.14
+ON092024,"Dymond, Harley, Hudson, Kerns & part Harris",Nipissing,ON,ON099099,New Liskeard t-v,Nipissing,ON,CONTAINS,0.0087,0.0087,1.0,51.36
+ON092024,"Dymond, Harley, Hudson, Kerns & part Harris",Nipissing,ON,ON099053,Hudson,Nipissing,ON,CONTAINS,0.2566,0.2566,1.0,47.14
+ON092025,Ferris,Nipissing,ON,ON099039,Ferris,Nipissing,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON092028,Grant & part Field,Nipissing,ON,ON099040,"Field, Grant & Badgerow",Nipissing,ON,WITHIN,0.3106,1.0,0.3106,64.15
+ON092031,Hugel,Nipissing,ON,ON099054,Hugel,Nipissing,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON092035,Lauder & Wilkes,Nipissing,ON,ON099060,Lauder,Nipissing,ON,CONTAINS,0.3837,0.3837,1.0,70.0
+ON092037,McKim,Nipissing,ON,ON099094,Copper Cliff t-v,Nipissing,ON,CONTAINS,0.0307,0.0307,1.0,43.33
+ON092038,Macpherson & part of Kirkpatrick,Nipissing,ON,ON099065,Macpherson & Loudan,Nipissing,ON,WITHIN,0.4561,0.9778,0.4608,71.18
+ON092039,Martland,Nipissing,ON,ON099066,Martland,Nipissing,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON092040,Mattawan,Nipissing,ON,ON099067,Mattawan,Nipissing,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON092047,Papineau,Nipissing,ON,ON099070,Papineau,Nipissing,ON,SAME_AS,1.0,1.0,1.0,100.0
+ON092048,"Peck, Hunter, Canisbay & McLaughlin",Nipissing,ON,ON099071,Peck,Nipissing,ON,CONTAINS,0.3327,0.3327,1.0,44.36
+ON092048,"Peck, Hunter, Canisbay & McLaughlin",Nipissing,ON,ON099020,Canisbay,Nipissing,ON,CONTAINS,0.3351,0.3351,1.0,56.05
+ON092048,"Peck, Hunter, Canisbay & McLaughlin",Nipissing,ON,ON099055,Hunter,Nipissing,ON,CONTAINS,0.3322,0.3322,1.0,50.49
+ON092054,Springer,Nipissing,ON,ON099077,Springer,Nipissing,ON,SAME_AS,0.9884,0.9884,1.0,100.0
+ON092054,Springer,Nipissing,ON,ON099091,Cache Bay t-v,Nipissing,ON,CONTAINS,0.0116,0.0116,1.0,36.67
+ON092059,Widdifield,Nipissing,ON,ON099080,Widdifield,Nipissing,ON,SAME_AS,0.9912,1.0,0.9912,100.0
+ON092043,Montreal River & Temagami Lake,Nipissing,ON,ON099068,Milner,Nipissing,ON,CONTAINS,0.0071,0.0071,1.0,45.56
+ON092043,Montreal River & Temagami Lake,Nipissing,ON,ON099062,Lorrain & South Lorrain,Nipissing,ON,CONTAINS,0.0338,0.0338,1.0,59.06
+ON092043,Montreal River & Temagami Lake,Nipissing,ON,ON099097,Latchford t-v,Nipissing,ON,CONTAINS,0.0001,0.0001,1.0,43.02
+ON092043,Montreal River & Temagami Lake,Nipissing,ON,ON099045,Gowganda Mining District,Nipissing,ON,CONTAINS,0.1447,0.1447,1.0,50.74
+ON092043,Montreal River & Temagami Lake,Nipissing,ON,ON099048,"Haultain, Knight, Morel, Rankin, Tyrell, and Van Hise",Nipissing,ON,CONTAINS,0.0456,0.0456,1.0,55.3
+ON092043,Montreal River & Temagami Lake,Nipissing,ON,ON099084,Elk Lake Mining Div'n,Nipissing,ON,CONTAINS,0.1306,0.1306,1.0,51.96
+ON092043,Montreal River & Temagami Lake,Nipissing,ON,ON099058,James,Nipissing,ON,CONTAINS,0.0066,0.0066,1.0,42.0
+ON092043,Montreal River & Temagami Lake,Nipissing,ON,ON099032,Coleman,Nipissing,ON,CONTAINS,0.011,0.011,1.0,48.92
+ON092043,Montreal River & Temagami Lake,Nipissing,ON,ON099092,Cobalt t-v,Nipissing,ON,CONTAINS,0.0001,0.0001,1.0,47.5
+ON092043,Montreal River & Temagami Lake,Nipissing,ON,ON099041,Firstbrook & Barr,Nipissing,ON,CONTAINS,0.0143,0.0143,1.0,47.87
+ON092055,"Sturgeon Falls, Town—Ville",Nipissing,ON,ON099101,Sturgeon Falls t-v,Nipissing,ON,SAME_AS,1.0,1.0,1.0,84.09
 ON094001,Charlotteville,"Norfolk, South—Sud",ON,ON100001,Charlotteville,Norfolk,ON,SAME_AS,1.0,1.0,1.0,86.8
-ON094002,Houghton,"Norfolk, South—Sud",ON,ON100002,Hough ton,Norfolk,ON,SAME_AS,1.0,1.0,1.0,82.68
+ON094002,Houghton,"Norfolk, South—Sud",ON,ON100002,Houghton,Norfolk,ON,SAME_AS,1.0,1.0,1.0,86.8
 ON093003,Middleton,"Norfolk, North—Nord",ON,ON100003,Middleton,Norfolk,ON,SAME_AS,1.0,1.0,1.0,86.15
 ON093005,Townsend,"Norfolk, North—Nord",ON,ON100004,Townsend,Norfolk,ON,SAME_AS,1.0,1.0,1.0,86.15
 ON093007,Windham,"Norfolk, North—Nord",ON,ON100007,Windham,Norfolk,ON,SAME_AS,1.0,1.0,1.0,86.15
@@ -499,62 +454,54 @@ ON097011,Rama,"Ontario, North—Nord",ON,ON103003,Rama,Ontario N,ON,SAME_AS,1.0,
 ON097014,Scott,"Ontario, North—Nord",ON,ON103004,Scott,Ontario N,ON,SAME_AS,1.0,1.0,1.0,89.29
 ON097015,Thorah,"Ontario, North—Nord",ON,ON103005,Thorah,Ontario N,ON,SAME_AS,1.0,1.0,1.0,89.29
 ON099004,Uxbridge,"Ontario, West—Ouest",ON,ON103006,Uxbridge,Ontario N,ON,SAME_AS,1.0,1.0,1.0,87.14
-ON099002,Pickering,"Ontario, West—Ouest",ON,ON104001,Pickering,Ontario S,ON,SAME_AS,1.0,1.0,1.0,89.29
+ON099002,Pickering,"Ontario, West—Ouest",ON,ON104001,Bickering,Ontario S,ON,SAME_AS,1.0,1.0,1.0,81.51
 ON098003,Reach,"Ontario, South—Sud",ON,ON104002,Reach,Ontario S,ON,SAME_AS,1.0,1.0,1.0,90.0
 ON098004,Scugog,"Ontario, South—Sud",ON,ON104003,Scugog,Ontario S,ON,SAME_AS,1.0,1.0,1.0,90.0
 ON100001,"Ottawa, By, Ward—Quartier","Ottawa, City—Cité",ON,ON105001,"Ottawa, By ward-quartier",Ottawa City-Cité Pt,ON,SAME_AS,1.0,1.0,1.0,90.71
 ON100002,"Ottawa, Central, Ward—Quartier","Ottawa, City—Cité",ON,ON105003,"Ottawa, Central ward-quartier",Ottawa City-Cité Pt,ON,CONTAINS,0.7482,0.7482,1.0,91.44
 ON100003,"Ottawa, Dalhousie, Ward—Quartier","Ottawa, City—Cité",ON,ON105004,"Ottawa, Dalhousie ward-quartier",Ottawa City-Cité Pt,ON,CONTAINS,0.7357,0.7357,1.0,91.67
-ON100005,"Ottawa, St. George, Ward—Quartier","Ottawa, City—Cité",ON,ON105006,"Ottawa, St George ward-quartier",Ottawa City-Cité Pt,ON,SAME_AS,1.0,1.0,1.0,90.62
+ON100005,"Ottawa, St. George, Ward—Quartier","Ottawa, City—Cité",ON,ON105006,"Ottawa, St. George ward-quartier",Ottawa City-Cité Pt,ON,SAME_AS,1.0,1.0,1.0,91.77
 ON100006,"Ottawa, Victoria, Ward—Quartier","Ottawa, City—Cité",ON,ON105007,"Ottawa, Victoria ward-quartier",Ottawa City-Cité Pt,ON,SAME_AS,1.0,1.0,1.0,91.56
 ON100007,"Ottawa, Wellington, Ward—Quartier","Ottawa, City—Cité",ON,ON105008,"Ottawa, Wellington ward-quartier",Ottawa City-Cité Pt,ON,CONTAINS,0.6649,0.6649,1.0,91.77
 ON101001,Blandford,"Oxford, North—Nord",ON,ON106001,Blandford,Oxford N,ON,SAME_AS,1.0,1.0,1.0,88.46
 ON101007,"Zorra, East—Est","Oxford, North—Nord",ON,ON106008,Tavistock vl pt,Oxford N,ON,CONTAINS,0.0089,0.0089,1.0,37.13
 ON093002,Dereham,"Norfolk, North—Nord",ON,ON107001,Dereham,Oxford S,ON,SAME_AS,1.0,1.0,1.0,81.11
 ON091001,Armour,Muskoka & Parry Sound,ON,ON108001,Armour,Parry Sound,ON,SAME_AS,1.0,1.0,1.0,90.62
-ON091003,Bethune,Muskoka & Parry Sound,ON,ON108002,Bethune,Parry Sound,ON,SAME_AS,1.0,1.0,1.0,90.62
-ON091007,Carling,Muskoka & Parry Sound,ON,ON108005,Carling,Parry Sound,ON,SAME_AS,1.0,1.0,1.0,90.62
+ON091003,Bethune,Muskoka & Parry Sound,ON,ON108002,Bethune & Proudfoot,Parry Sound,ON,WITHIN,0.5106,1.0,0.5106,58.32
+ON091007,Carling,Muskoka & Parry Sound,ON,ON108005,"Carling, Ferguson & Shawanaga",Parry Sound,ON,WITHIN,0.4541,1.0,0.4541,47.85
 ON091009,Chapman,Muskoka & Parry Sound,ON,ON108006,Chapman,Parry Sound,ON,SAME_AS,1.0,1.0,1.0,90.62
 ON091010,Christie,Muskoka & Parry Sound,ON,ON108007,Christie,Parry Sound,ON,SAME_AS,1.0,1.0,1.0,90.62
 ON091012,Croft,Muskoka & Parry Sound,ON,ON108009,Croft,Parry Sound,ON,SAME_AS,1.0,1.0,1.0,90.62
-ON091013,Ferguson & Burpee,Muskoka & Parry Sound,ON,ON108010,Ferguson,Parry Sound,ON,CONTAINS,0.4527,0.4527,1.0,65.42
-ON091013,Ferguson & Burpee,Muskoka & Parry Sound,ON,ON108003,Burpee,Parry Sound,ON,CONTAINS,0.5473,0.5473,1.0,57.15
-ON091015,Foley,Muskoka & Parry Sound,ON,ON108012,Foley,Parry Sound,ON,SAME_AS,1.0,1.0,1.0,90.62
-ON091018,Gurd,Muskoka & Parry Sound,ON,ON108013,Gurd,Parry Sound,ON,SAME_AS,1.0,1.0,1.0,90.62
-ON091019,Hagerman,Muskoka & Parry Sound,ON,ON108014,Hagerman,Parry Sound,ON,SAME_AS,1.0,1.0,1.0,90.62
-ON091020,"Himsworth, North & South—Nord & Sud",Muskoka & Parry Sound,ON,ON108047,Powassan t-v,Parry Sound,ON,CONTAINS,0.0071,0.0071,1.0,32.54
-ON091021,Humphrey,Muskoka & Parry Sound,ON,ON108018,Humphrey,Parry Sound,ON,SAME_AS,1.0,1.0,1.0,90.62
-ON091023,Joly,Muskoka & Parry Sound,ON,ON108019,Joly,Parry Sound,ON,SAME_AS,1.0,1.0,1.0,90.62
-ON091024,Laurier,Muskoka & Parry Sound,ON,ON108020,Laurier,Parry Sound,ON,SAME_AS,1.0,1.0,1.0,90.62
-ON091025,Lount,Muskoka & Parry Sound,ON,ON108021,Lount,Parry Sound,ON,SAME_AS,1.0,1.0,1.0,90.62
-ON091028,Machar,Muskoka & Parry Sound,ON,ON108051,South River vl,Parry Sound,ON,CONTAINS,0.0124,0.0124,1.0,34.62
-ON091028,Machar,Muskoka & Parry Sound,ON,ON108022,Machar,Parry Sound,ON,SAME_AS,0.9876,0.9876,1.0,90.62
-ON091026,"McConkey, Mills, Wilson & Hardy",Muskoka & Parry Sound,ON,ON108041,Wilson,Parry Sound,ON,CONTAINS,0.2081,0.2081,1.0,43.33
-ON091026,"McConkey, Mills, Wilson & Hardy",Muskoka & Parry Sound,ON,ON108023,Mills,Parry Sound,ON,CONTAINS,0.2015,0.2015,1.0,40.07
-ON091026,"McConkey, Mills, Wilson & Hardy",Muskoka & Parry Sound,ON,ON108024,McConkey,Parry Sound,ON,CONTAINS,0.226,0.226,1.0,49.34
-ON091026,"McConkey, Mills, Wilson & Hardy",Muskoka & Parry Sound,ON,ON108015,Hardy,Parry Sound,ON,CONTAINS,0.2256,0.2256,1.0,40.07
-ON091027,McDougall,Muskoka & Parry Sound,ON,ON108025,McDougall,Parry Sound,ON,SAME_AS,1.0,1.0,1.0,90.62
-ON091029,McKellar,Muskoka & Parry Sound,ON,ON108026,McKellar,Parry Sound,ON,SAME_AS,1.0,1.0,1.0,90.62
-ON091030,McKenzie & Burton,Muskoka & Parry Sound,ON,ON108004,Burton,Parry Sound,ON,CONTAINS,0.5324,0.5324,1.0,57.15
-ON091030,McKenzie & Burton,Muskoka & Parry Sound,ON,ON108027,McKenzie,Parry Sound,ON,CONTAINS,0.4676,0.4676,1.0,65.42
-ON091031,McMurrich,Muskoka & Parry Sound,ON,ON108028,McMurrich,Parry Sound,ON,SAME_AS,1.0,1.0,1.0,90.62
-ON091032,Monteith,Muskoka & Parry Sound,ON,ON108029,Monteith,Parry Sound,ON,SAME_AS,1.0,1.0,1.0,90.62
-ON091033,Mowat & Blair,Muskoka & Parry Sound,ON,ON108050,French River vl,Parry Sound,ON,CONTAINS,0.3161,0.3161,1.0,35.62
-ON091033,Mowat & Blair,Muskoka & Parry Sound,ON,ON108043,Henry Inlet & Lower French I R,Parry Sound,ON,CONTAINS,0.1166,0.1166,1.0,43.42
-ON091033,Mowat & Blair,Muskoka & Parry Sound,ON,ON108030,Mowat,Parry Sound,ON,CONTAINS,0.2954,0.2954,1.0,59.51
-ON091034,Nipissing,Muskoka & Parry Sound,ON,ON108031,Nipissing,Parry Sound,ON,SAME_AS,1.0,1.0,1.0,90.62
-ON091036,Patterson,Muskoka & Parry Sound,ON,ON108032,Patterson,Parry Sound,ON,SAME_AS,1.0,1.0,1.0,90.62
-ON091037,Perry,Muskoka & Parry Sound,ON,ON108033,Perry,Parry Sound,ON,SAME_AS,0.9873,0.9873,1.0,90.62
-ON091037,Perry,Muskoka & Parry Sound,ON,ON108045,Kearney t-v,Parry Sound,ON,CONTAINS,0.0127,0.0127,1.0,46.88
-ON091038,Pringle,Muskoka & Parry Sound,ON,ON108034,Pringle,Parry Sound,ON,SAME_AS,1.0,1.0,1.0,90.62
-ON091039,Proudfoot,Muskoka & Parry Sound,ON,ON108035,Proudfoot,Parry Sound,ON,SAME_AS,1.0,1.0,1.0,90.62
-ON091040,Ryerson,Muskoka & Parry Sound,ON,ON108036,Ryerson,Parry Sound,ON,SAME_AS,1.0,1.0,1.0,90.62
-ON091041,Shawanaga & Harrison,Muskoka & Parry Sound,ON,ON108037,Shawanaga,Parry Sound,ON,CONTAINS,0.3609,0.3609,1.0,64.07
-ON091041,Shawanaga & Harrison,Muskoka & Parry Sound,ON,ON108016,Harrison,Parry Sound,ON,CONTAINS,0.6391,0.6391,1.0,60.62
-ON091043,Spence,Muskoka & Parry Sound,ON,ON108038,Spence,Parry Sound,ON,SAME_AS,1.0,1.0,1.0,90.62
-ON091046,Strong,Muskoka & Parry Sound,ON,ON108039,Strong,Parry Sound,ON,SAME_AS,1.0,1.0,1.0,90.62
-ON091048,Wallbridge & Brown,Muskoka & Parry Sound,ON,ON108040,Wallbridge,Parry Sound,ON,CONTAINS,0.552,0.552,1.0,70.62
-ON091048,Wallbridge & Brown,Muskoka & Parry Sound,ON,ON108044,Maganetawan I R,Parry Sound,ON,CONTAINS,0.0867,0.0867,1.0,46.08
+ON091014,Ferris,Muskoka & Parry Sound,ON,ON108010,Ferrie & Lount,Parry Sound,ON,WITHIN,0.5009,1.0,0.5009,55.62
+ON091015,Foley,Muskoka & Parry Sound,ON,ON108011,Foley,Parry Sound,ON,SAME_AS,1.0,1.0,1.0,90.62
+ON091018,Gurd,Muskoka & Parry Sound,ON,ON108012,Gurd,Parry Sound,ON,SAME_AS,1.0,1.0,1.0,90.62
+ON091019,Hagerman,Muskoka & Parry Sound,ON,ON108003,Burpee & Hagerman,Parry Sound,ON,WITHIN,0.5457,1.0,0.5457,65.42
+ON091020,"Himsworth, North & South—Nord & Sud",Muskoka & Parry Sound,ON,ON108035,Powassan t-v,Parry Sound,ON,CONTAINS,0.0071,0.0071,1.0,32.54
+ON091021,Humphrey,Muskoka & Parry Sound,ON,ON108015,Humphrey,Parry Sound,ON,SAME_AS,1.0,1.0,1.0,90.62
+ON091023,Joly,Muskoka & Parry Sound,ON,ON108016,Joly & Laurier,Parry Sound,ON,WITHIN,0.5105,1.0,0.5105,51.74
+ON091024,Laurier,Muskoka & Parry Sound,ON,ON108016,Joly & Laurier,Parry Sound,ON,WITHIN,0.4895,1.0,0.4895,67.29
+ON091025,Lount,Muskoka & Parry Sound,ON,ON108010,Ferrie & Lount,Parry Sound,ON,WITHIN,0.4991,1.0,0.4991,57.47
+ON091028,Machar,Muskoka & Parry Sound,ON,ON108039,South River vl,Parry Sound,ON,CONTAINS,0.0124,0.0124,1.0,34.62
+ON091028,Machar,Muskoka & Parry Sound,ON,ON108017,Machar,Parry Sound,ON,SAME_AS,0.9876,0.9876,1.0,90.62
+ON091027,McDougall,Muskoka & Parry Sound,ON,ON108019,McDougall,Parry Sound,ON,SAME_AS,1.0,1.0,1.0,90.62
+ON091029,McKellar,Muskoka & Parry Sound,ON,ON108020,McKellar,Parry Sound,ON,SAME_AS,1.0,1.0,1.0,90.62
+ON091030,McKenzie & Burton,Muskoka & Parry Sound,ON,ON108004,"Burton, Harrison & McKenzie",Parry Sound,ON,WITHIN,0.6195,1.0,0.6195,46.08
+ON091031,McMurrich,Muskoka & Parry Sound,ON,ON108021,McMurrich,Parry Sound,ON,SAME_AS,1.0,1.0,1.0,90.62
+ON091032,Monteith,Muskoka & Parry Sound,ON,ON108022,Monteith,Parry Sound,ON,SAME_AS,1.0,1.0,1.0,90.62
+ON091033,Mowat & Blair,Muskoka & Parry Sound,ON,ON108038,French River vl,Parry Sound,ON,CONTAINS,0.3161,0.3161,1.0,35.62
+ON091033,Mowat & Blair,Muskoka & Parry Sound,ON,ON108031,Henry Inlet & Lower French I R,Parry Sound,ON,CONTAINS,0.1166,0.1166,1.0,43.42
+ON091033,Mowat & Blair,Muskoka & Parry Sound,ON,ON108023,Mowat,Parry Sound,ON,CONTAINS,0.2954,0.2954,1.0,59.51
+ON091034,Nipissing,Muskoka & Parry Sound,ON,ON108024,Nipissing,Parry Sound,ON,SAME_AS,1.0,1.0,1.0,90.62
+ON091036,Patterson,Muskoka & Parry Sound,ON,ON108013,"Hardy, McConkey & Patterson",Parry Sound,ON,WITHIN,0.5559,1.0,0.5559,55.62
+ON091037,Perry,Muskoka & Parry Sound,ON,ON108025,Perry,Parry Sound,ON,SAME_AS,0.9873,0.9873,1.0,90.62
+ON091037,Perry,Muskoka & Parry Sound,ON,ON108033,Kearney t-v,Parry Sound,ON,CONTAINS,0.0127,0.0127,1.0,46.88
+ON091038,Pringle,Muskoka & Parry Sound,ON,ON108018,"Mills, Pringle & Wilson",Parry Sound,ON,WITHIN,0.3338,1.0,0.3338,53.29
+ON091039,Proudfoot,Muskoka & Parry Sound,ON,ON108002,Bethune & Proudfoot,Parry Sound,ON,WITHIN,0.4894,1.0,0.4894,65.62
+ON091040,Ryerson,Muskoka & Parry Sound,ON,ON108026,Ryerson,Parry Sound,ON,SAME_AS,1.0,1.0,1.0,90.62
+ON091043,Spence,Muskoka & Parry Sound,ON,ON108027,Spence,Parry Sound,ON,SAME_AS,1.0,1.0,1.0,90.62
+ON091046,Strong,Muskoka & Parry Sound,ON,ON108028,Strong,Parry Sound,ON,SAME_AS,1.0,1.0,1.0,90.62
+ON091048,Wallbridge & Brown,Muskoka & Parry Sound,ON,ON108029,Wallbridge,Parry Sound,ON,CONTAINS,0.552,0.552,1.0,70.62
+ON091048,Wallbridge & Brown,Muskoka & Parry Sound,ON,ON108032,Maganetawan I R,Parry Sound,ON,CONTAINS,0.0867,0.0867,1.0,46.08
 ON051002,Albion,Cardwell,ON,ON109001,Albion,Peel,ON,SAME_AS,1.0,1.0,1.0,80.0
 ON051004,Caledon,Cardwell,ON,ON109002,Caledon,Peel,ON,SAME_AS,1.0,1.0,1.0,80.0
 ON103002,Chinguacousy,Peel,ON,ON109003,Chinguacousy,Peel,ON,SAME_AS,1.0,1.0,1.0,100.0
@@ -566,19 +513,17 @@ ON104002,Elma,"Perth, North—Nord",ON,ON110003,Elma,Perth N,ON,SAME_AS,1.0,1.0,
 ON125012,Wallace,"Wellington, North—Nord",ON,ON110005,Wallace,Perth N,ON,SAME_AS,1.0,1.0,1.0,80.34
 ON105001,Blanshard,"Perth, South—Sud",ON,ON111001,Blanchard,Perth S,ON,SAME_AS,1.0,1.0,1.0,80.48
 ON105002,Downie,"Perth, South—Sud",ON,ON111002,Downie,Perth S,ON,SAME_AS,1.0,1.0,1.0,88.26
-ON101003,"Easthope, South—Sud","Oxford, North—Nord",ON,ON111009,Tavistock vl part,Perth S,ON,CONTAINS,0.0218,0.0218,1.0,30.53
+ON101003,"Easthope, South—Sud","Oxford, North—Nord",ON,ON111009,Tavistock vl pt,Perth S,ON,CONTAINS,0.0218,0.0218,1.0,31.91
 ON105003,Fullarton,"Perth, South—Sud",ON,ON111004,Fullarton,Perth S,ON,SAME_AS,1.0,1.0,1.0,88.26
 ON105004,Hibbert,"Perth, South—Sud",ON,ON111005,Hibbert,Perth S,ON,SAME_AS,1.0,1.0,1.0,88.26
 ON104004,Logan,"Perth, North—Nord",ON,ON111006,Logan,Perth S,ON,SAME_AS,1.0,1.0,1.0,85.0
 ON106002,Asphodel,"Peterborough, East—Est",ON,ON112002,Asphodel,Peterborough E,ON,SAME_AS,1.0,1.0,1.0,93.33
-ON106003,Belmont,"Peterborough, East—Est",ON,ON112003,Belmont,Peterborough E,ON,SAME_AS,1.0,1.0,1.0,93.33
-ON106004,Burleigh & Anstruther,"Peterborough, East—Est",ON,ON112004,Burleigh,Peterborough E,ON,CONTAINS,0.5065,0.5065,1.0,61.95
-ON106004,Burleigh & Anstruther,"Peterborough, East—Est",ON,ON112001,Anstruther,Peterborough E,ON,CONTAINS,0.4935,0.4935,1.0,68.49
-ON106005,Chandos,"Peterborough, East—Est",ON,ON112005,Chandos,Peterborough E,ON,SAME_AS,1.0,1.0,1.0,93.33
-ON106009,Douro,"Peterborough, East—Est",ON,ON112006,Douro,Peterborough E,ON,SAME_AS,0.9955,1.0,0.9955,93.33
-ON106010,Dummer,"Peterborough, East—Est",ON,ON112007,Dummer,Peterborough E,ON,SAME_AS,1.0,1.0,1.0,93.33
-ON106018,Methuen,"Peterborough, East—Est",ON,ON112008,Methuen,Peterborough E,ON,SAME_AS,1.0,1.0,1.0,93.33
-ON106021,Otonabee,"Peterborough, East—Est",ON,ON112009,Otonabee,Peterborough E,ON,SAME_AS,0.9966,1.0,0.9966,93.33
+ON106003,Belmont,"Peterborough, East—Est",ON,ON112003,Belmont & Methuen,Peterborough E,ON,WITHIN,0.5059,1.0,0.5059,64.17
+ON106005,Chandos,"Peterborough, East—Est",ON,ON112004,Chandos,Peterborough E,ON,SAME_AS,1.0,1.0,1.0,93.33
+ON106009,Douro,"Peterborough, East—Est",ON,ON112005,Douro,Peterborough E,ON,SAME_AS,0.9955,1.0,0.9955,93.33
+ON106010,Dummer,"Peterborough, East—Est",ON,ON112006,Dummer,Peterborough E,ON,SAME_AS,1.0,1.0,1.0,93.33
+ON106018,Methuen,"Peterborough, East—Est",ON,ON112003,Belmont & Methuen,Peterborough E,ON,WITHIN,0.4941,1.0,0.4941,64.17
+ON106021,Otonabee,"Peterborough, East—Est",ON,ON112007,Otonabee,Peterborough E,ON,SAME_AS,0.9966,1.0,0.9966,93.33
 ON106007,Cavendish,"Peterborough, East—Est",ON,ON113001,Cavendish,Peterborough W-O,ON,SAME_AS,1.0,1.0,1.0,90.53
 ON107001,Ennismore,"Peterborough, West—Ouest",ON,ON113002,Ennismore,Peterborough W-O,ON,SAME_AS,1.0,1.0,1.0,92.5
 ON119009,Galway,"Victoria, North—Nord",ON,ON113003,Galway,Peterborough W-O,ON,SAME_AS,1.0,1.0,1.0,80.0
@@ -587,7 +532,7 @@ ON107005,Smith,"Peterborough, West—Ouest",ON,ON113007,Smith,Peterborough W-O,O
 ON108001,Alfred,Prescott,ON,ON114001,Alfred,Prescott,ON,SAME_AS,1.0,1.0,1.0,100.0
 ON108002,Caledonia,Prescott,ON,ON114002,Caledonia,Prescott,ON,SAME_AS,1.0,1.0,1.0,100.0
 ON108003,"Hawkesbury, East—Est",Prescott,ON,ON114003,Hawkesbury E,Prescott,ON,SAME_AS,1.0,1.0,1.0,82.5
-ON108004,"Hawkesbury, West—Ouest",Prescott,ON,ON114004,Hawkesbury WO,Prescott,ON,SAME_AS,1.0,1.0,1.0,82.0
+ON108004,"Hawkesbury, West—Ouest",Prescott,ON,ON114004,Hawkesbury W-O,Prescott,ON,SAME_AS,1.0,1.0,1.0,80.56
 ON108007,Longueuil,Prescott,ON,ON114005,Longueuil,Prescott,ON,SAME_AS,1.0,1.0,1.0,100.0
 ON108009,"Plantagenet, North—Nord",Prescott,ON,ON114006,Plantagenet N,Prescott,ON,SAME_AS,1.0,1.0,1.0,80.56
 ON108010,"Plantagenet, South—Sud",Prescott,ON,ON114007,Plantagenet S,Prescott,ON,SAME_AS,1.0,1.0,1.0,82.0
@@ -600,20 +545,12 @@ ON109003,Hallowell,Prince Edward,ON,ON115009,Bloomfield vl,Prince Edward,ON,CONT
 ON109004,Hillier,Prince Edward,ON,ON115004,Hillier,Prince Edward,ON,SAME_AS,1.0,1.0,1.0,100.0
 ON109008,Sophiasburg,Prince Edward,ON,ON115007,Sophiasburg,Prince Edward,ON,WITHIN,0.7904,1.0,0.7904,100.0
 ON109009,"Wellington, Village",Prince Edward,ON,ON115010,Wellington vl,Prince Edward,ON,SAME_AS,1.0,1.0,1.0,86.88
-ON110002,Alice & Fraser,"Renfrew, North—Nord",ON,ON116003,Alice,Renfrew N,ON,CONTAINS,0.5237,0.5237,1.0,56.13
-ON110002,Alice & Fraser,"Renfrew, North—Nord",ON,ON116006,Fraser,Renfrew N,ON,CONTAINS,0.4763,0.4763,1.0,61.29
+ON110002,Alice & Fraser,"Renfrew, North—Nord",ON,ON116003,Alice & Fraser,Renfrew N,ON,SAME_AS,1.0,1.0,1.0,89.29
 ON110003,Bromley,"Renfrew, North—Nord",ON,ON116004,Bromley,Renfrew N,ON,SAME_AS,1.0,1.0,1.0,89.29
-ON110004,"Buchanan, Wylie & Rolph","Renfrew, North—Nord",ON,ON116015,Wylie,Renfrew N,ON,CONTAINS,0.3889,0.3889,1.0,44.29
-ON110004,"Buchanan, Wylie & Rolph","Renfrew, North—Nord",ON,ON116005,Buchanan,Renfrew N,ON,CONTAINS,0.2731,0.2731,1.0,55.41
-ON110004,"Buchanan, Wylie & Rolph","Renfrew, North—Nord",ON,ON116010,Rolph,Renfrew N,ON,CONTAINS,0.338,0.338,1.0,44.29
-ON110006,Pembroke,"Renfrew, North—Nord",ON,ON116008,Pembroke,Renfrew N,ON,SAME_AS,1.0,1.0,1.0,89.29
-ON110008,Petewawa & McKay,"Renfrew, North—Nord",ON,ON116007,McKay,Renfrew N,ON,CONTAINS,0.5573,0.5573,1.0,52.62
-ON110008,Petewawa & McKay,"Renfrew, North—Nord",ON,ON116009,Petewawa,Renfrew N,ON,CONTAINS,0.4427,0.4427,1.0,65.95
-ON110009,Ross,"Renfrew, North—Nord",ON,ON116011,Ross,Renfrew N,ON,SAME_AS,1.0,1.0,1.0,89.29
-ON110011,Stafford,"Renfrew, North—Nord",ON,ON116012,Stafford,Renfrew N,ON,SAME_AS,1.0,1.0,1.0,89.29
-ON110012,Westmeath,"Renfrew, North—Nord",ON,ON116013,Westmeath,Renfrew N,ON,SAME_AS,1.0,1.0,1.0,89.29
-ON110013,"Wilberforce & Algona, North—Nord","Renfrew, North—Nord",ON,ON116001,Algona N,Renfrew N,ON,CONTAINS,0.2312,0.2312,1.0,47.29
-ON110013,"Wilberforce & Algona, North—Nord","Renfrew, North—Nord",ON,ON116014,Wilberforce,Renfrew N,ON,CONTAINS,0.7688,0.7688,1.0,55.1
+ON110006,Pembroke,"Renfrew, North—Nord",ON,ON116007,Pembroke,Renfrew N,ON,SAME_AS,1.0,1.0,1.0,89.29
+ON110009,Ross,"Renfrew, North—Nord",ON,ON116008,Ross,Renfrew N,ON,SAME_AS,1.0,1.0,1.0,89.29
+ON110011,Stafford,"Renfrew, North—Nord",ON,ON116009,Stafford,Renfrew N,ON,SAME_AS,1.0,1.0,1.0,89.29
+ON110012,Westmeath,"Renfrew, North—Nord",ON,ON116010,Westmeath,Renfrew N,ON,SAME_AS,1.0,1.0,1.0,89.29
 ON111001,Admaston,"Renfrew, South—Sud",ON,ON117001,Admaston,Renfrew S,ON,SAME_AS,1.0,1.0,1.0,90.0
 ON111003,Bagot & Blithefield,"Renfrew, South—Sud",ON,ON117002,Bagot & Blithefield,Renfrew S,ON,SAME_AS,1.0,1.0,1.0,90.0
 ON111004,Brougham,"Renfrew, South—Sud",ON,ON117003,Brougham,Renfrew S,ON,SAME_AS,1.0,1.0,1.0,90.0
@@ -621,12 +558,10 @@ ON111005,Brudenell & Lynedoch,"Renfrew, South—Sud",ON,ON117010,Lynedoch,Renfre
 ON111005,Brudenell & Lynedoch,"Renfrew, South—Sud",ON,ON117004,Brudenell,Renfrew S,ON,CONTAINS,0.4999,0.4999,1.0,63.45
 ON111007,Grattan,"Renfrew, South—Sud",ON,ON117006,Grattan,Renfrew S,ON,SAME_AS,1.0,1.0,1.0,90.0
 ON111008,Griffith & Matawatchan,"Renfrew, South—Sud",ON,ON117007,Griffith & Matawatchan,Renfrew S,ON,SAME_AS,1.0,1.0,1.0,90.0
-ON111009,"Hagarty, Sherwood & Jones","Renfrew, South—Sud",ON,ON117008,Hagarty,Renfrew S,ON,CONTAINS,0.3801,0.3801,1.0,50.62
-ON111009,"Hagarty, Sherwood & Jones","Renfrew, South—Sud",ON,ON117018,Killaloe vl,Renfrew S,ON,CONTAINS,0.0042,0.0042,1.0,31.67
+ON111009,"Hagarty, Sherwood & Jones","Renfrew, South—Sud",ON,ON117017,Killaloe vl,Renfrew S,ON,CONTAINS,0.0042,0.0042,1.0,31.67
 ON111010,Horton,"Renfrew, South—Sud",ON,ON117009,Horton,Renfrew S,ON,SAME_AS,1.0,1.0,1.0,90.0
 ON111011,McNab,"Renfrew, South—Sud",ON,ON117011,McNab,Renfrew S,ON,SAME_AS,1.0,1.0,1.0,90.0
-ON111014,Richards & Burns,"Renfrew, South—Sud",ON,ON117013,Richards,Renfrew S,ON,CONTAINS,0.5082,0.5082,1.0,66.67
-ON111015,Sebastopol,"Renfrew, South—Sud",ON,ON117014,Sebastopol,Renfrew S,ON,SAME_AS,1.0,1.0,1.0,90.0
+ON111015,Sebastopol,"Renfrew, South—Sud",ON,ON117013,Sebastopol,Renfrew S,ON,SAME_AS,1.0,1.0,1.0,90.0
 ON112001,Cambridge,Russell,ON,ON118001,Cambridge,Russell,ON,SAME_AS,1.0,1.0,1.0,100.0
 ON112003,Clarence,Russell,ON,ON118002,Clarence,Russell,ON,SAME_AS,1.0,1.0,1.0,100.0
 ON112004,Cumberland,Russell,ON,ON118003,Cumberland,Russell,ON,SAME_AS,1.0,1.0,1.0,100.0
@@ -656,46 +591,36 @@ ON053002,Cornwall,Cornwall & Stormont,ON,ON122001,Cornwall,Stormont,ON,SAME_AS,1
 ON053003,Finch,Cornwall & Stormont,ON,ON122006,Finch vl,Stormont,ON,CONTAINS,0.0116,0.0116,1.0,71.62
 ON053003,Finch,Cornwall & Stormont,ON,ON122002,Finch,Stormont,ON,SAME_AS,0.9884,0.9884,1.0,87.78
 ON053005,Roxborough,Cornwall & Stormont,ON,ON122004,Roxborough,Stormont,ON,SAME_AS,1.0,1.0,1.0,87.78
-ON044059,Nipigon,Algoma,ON,ON123114,Red Rock I R,Thunder Bay & Rainy River,ON,CONTAINS,0.0145,0.0145,1.0,11.24
-ON044059,Nipigon,Algoma,ON,ON123129,Nipigon House Post not inc-non-inc,Thunder Bay & Rainy River,ON,CONTAINS,0.0145,0.0145,1.0,27.77
-ON044070,Schreiber,Algoma,ON,ON123071,Schieiber & CPR line Schreiber to Jackfish,Thunder Bay & Rainy River,ON,CONTAINS,0.453,0.453,1.0,28.58
-ON116001,"Toronto, Ward—Quartier 3 (part)","Toronto, Centre, City—Cité",ON,ON124002,"Toronto, ward-quartier 3 pt",Toronto Centre,ON,SAME_AS,1.0,1.0,1.0,83.76
-ON117002,"Toronto, Ward—Quartier 2 (part)","Toronto, East—Est, City—Cité",ON,ON127002,"Toronto, ward-quartier 2 pt",Toronto S,ON,CONTAINS,0.275,0.275,1.0,77.35
-ON117002,"Toronto, Ward—Quartier 2 (part)","Toronto, East—Est, City—Cité",ON,ON124001,"Toronto, ward-quartier 2 pt",Toronto Centre,ON,CONTAINS,0.0909,0.0909,1.0,78.47
-ON117002,"Toronto, Ward—Quartier 2 (part)","Toronto, East—Est, City—Cité",ON,ON125002,"Toronto, ward-quartier 2 pt",Toronto E,ON,CONTAINS,0.5388,0.5388,1.0,77.35
-ON117003,"Toronto, Ward—Quartier 3 (part)","Toronto, West—Ouest, City—Cité",ON,ON126002,"Toronto, ward-quartier 3 pt",Toronto N,ON,WITHIN,0.5373,1.0,0.5373,75.07
-ON118002,"Toronto, Ward—Quartier 4 (part)","Toronto, West—Ouest, City—Cité",ON,ON124003,"Toronto, ward-quartier 4 pt",Toronto Centre,ON,CONTAINS,0.3479,0.3479,1.0,77.76
-ON118002,"Toronto, Ward—Quartier 4 (part)","Toronto, West—Ouest, City—Cité",ON,ON127004,"Toronto, ward-quartier 4 pt",Toronto S,ON,CONTAINS,0.321,0.321,1.0,76.6
-ON118003,"Toronto, Ward—Quartier 5 (part)","Toronto, West—Ouest, City—Cité",ON,ON124004,"Toronto, ward-quartier 5 pt",Toronto Centre,ON,CONTAINS,0.0449,0.0449,1.0,77.76
-ON118003,"Toronto, Ward—Quartier 5 (part)","Toronto, West—Ouest, City—Cité",ON,ON127005,"Toronto, ward-quartier 5 pt",Toronto S,ON,CONTAINS,0.3692,0.3692,1.0,76.6
-ON119001,Anson & Hindon,"Victoria, North—Nord",ON,ON129001,Anson,Victoria,ON,CONTAINS,0.4862,0.4862,1.0,53.98
-ON119001,Anson & Hindon,"Victoria, North—Nord",ON,ON129017,Hindon,Victoria,ON,CONTAINS,0.5138,0.5138,1.0,59.14
+ON044035,Aylesworth,Algoma,ON,ON123003,"Aylesworth, Lash & Eno (not inc)",Thunder Bay & Rainy River,ON,WITHIN,0.2932,1.0,0.2932,37.2
+ON044057,Morley,Algoma,ON,ON123031,Morley & Pattulo,Thunder Bay & Rainy River,ON,WITHIN,0.4786,1.0,0.4786,42.05
+ON044058,Neebing,Algoma,ON,ON123006,"Blake, Neebing, Pardee & Scoble",Thunder Bay & Rainy River,ON,WITHIN,0.102,1.0,0.102,29.66
+ON044070,Schreiber,Algoma,ON,ON123041,Schreiber & C. P. R. line Schreiber to Jack Fish,Thunder Bay & Rainy River,ON,CONTAINS,0.453,0.453,1.0,25.98
+ON044076,Wabigoon,Algoma,ON,ON123040,Bowell & Wabigoon,Thunder Bay & Rainy River,ON,WITHIN,0.0265,1.0,0.0265,48.67
+ON116001,"Toronto, Ward—Quartier 3 (part)","Toronto, Centre, City—Cité",ON,ON124000,Toronto Centre,Toronto Centre,ON,WITHIN,0.3653,1.0,0.3653,52.11
+ON129006,"Toronto, Ward—Quartier 1 (part)","York, East—Est",ON,ON125000,Toronto E,Toronto E,ON,WITHIN,0.8236,1.0,0.8236,41.93
+ON117003,"Toronto, Ward—Quartier 3 (part)","Toronto, West—Ouest, City—Cité",ON,ON126000,Toronto N,Toronto N,ON,WITHIN,0.1568,1.0,0.1568,40.31
+ON118001,"Toronto, Ward—Quartier 3 (part)","Toronto, East—Est, City—Cité",ON,ON127000,Toronto S,Toronto S,ON,WITHIN,0.147,1.0,0.147,42.59
+ON131007,"Toronto, Ward—Quartier 6 (part)","York, West—Ouest",ON,ON128000,Toronto W-O,Toronto W-O,ON,WITHIN,0.6467,1.0,0.6467,41.11
+ON119001,Anson & Hindon,"Victoria, North—Nord",ON,ON129001,Anson & Hindon,Victoria,ON,SAME_AS,1.0,1.0,1.0,87.14
 ON119002,Bexley,"Victoria, North—Nord",ON,ON129002,Bexley,Victoria,ON,SAME_AS,1.0,1.0,1.0,87.14
-ON119004,Dalton,"Victoria, North—Nord",ON,ON129006,Dalton,Victoria,ON,SAME_AS,1.0,1.0,1.0,87.14
-ON119005,Digby & Longford,"Victoria, North—Nord",ON,ON129007,Digby,Victoria,ON,CONTAINS,0.5438,0.5438,1.0,50.48
+ON119003,Carden,"Victoria, North—Nord",ON,ON129004,Carden,Victoria,ON,SAME_AS,1.0,1.0,1.0,87.14
+ON119004,Dalton,"Victoria, North—Nord",ON,ON129006,Dal ton,Victoria,ON,SAME_AS,1.0,1.0,1.0,81.76
 ON119005,Digby & Longford,"Victoria, North—Nord",ON,ON129999,NO DATA,Victoria,ON,CONTAINS,0.4562,0.4562,1.0,35.4
-ON119006,Eldon,"Victoria, North—Nord",ON,ON129010,Eldon,Victoria,ON,SAME_AS,1.0,1.0,1.0,87.14
-ON120002,Emily,"Victoria, South—Sud",ON,ON129011,Emily,Victoria,ON,SAME_AS,1.0,1.0,1.0,87.78
-ON119007,Fenelon,"Victoria, North—Nord",ON,ON129012,Fenelon,Victoria,ON,SAME_AS,1.0,1.0,1.0,87.14
-ON106012,"Guilford, Harburn & Bruton","Peterborough, East—Est",ON,ON129014,Guilford,Victoria,ON,CONTAINS,0.351,0.351,1.0,40.94
-ON106012,"Guilford, Harburn & Bruton","Peterborough, East—Est",ON,ON129015,Harburn,Victoria,ON,CONTAINS,0.3327,0.3327,1.0,37.7
-ON106014,"Harcourt, Dudley & Dysart","Peterborough, East—Est",ON,ON129009,Dysart,Victoria,ON,CONTAINS,0.3391,0.3391,1.0,35.1
-ON106014,"Harcourt, Dudley & Dysart","Peterborough, East—Est",ON,ON129036,Haliburton vl,Victoria,ON,CONTAINS,0.0049,0.0049,1.0,33.79
-ON106014,"Harcourt, Dudley & Dysart","Peterborough, East—Est",ON,ON129008,Dudley,Victoria,ON,CONTAINS,0.3493,0.3493,1.0,35.1
-ON106014,"Harcourt, Dudley & Dysart","Peterborough, East—Est",ON,ON129016,Harcourt,Victoria,ON,CONTAINS,0.3066,0.3066,1.0,41.94
-ON119010,Laxton,"Victoria, North—Nord",ON,ON129019,Laxton,Victoria,ON,SAME_AS,1.0,1.0,1.0,87.14
-ON106017,"Livingstone, Lawrence & Nightingale","Peterborough, East—Est",ON,ON129020,Livingstone,Victoria,ON,CONTAINS,0.3436,0.3436,1.0,41.48
-ON106017,"Livingstone, Lawrence & Nightingale","Peterborough, East—Est",ON,ON129018,Lawrence,Victoria,ON,CONTAINS,0.3381,0.3381,1.0,34.05
-ON106017,"Livingstone, Lawrence & Nightingale","Peterborough, East—Est",ON,ON129026,Nightingale,Victoria,ON,CONTAINS,0.3183,0.3183,1.0,41.48
-ON119011,Lutterworth,"Victoria, North—Nord",ON,ON129021,Lutterworth,Victoria,ON,SAME_AS,1.0,1.0,1.0,87.14
-ON120004,Mariposa,"Victoria, South—Sud",ON,ON129022,Mariposa,Victoria,ON,SAME_AS,0.9928,1.0,0.9928,87.78
-ON119012,Minden,"Victoria, North—Nord",ON,ON129024,Minden,Victoria,ON,SAME_AS,1.0,1.0,1.0,87.14
-ON120007,Ops,"Victoria, South—Sud",ON,ON129027,Ops,Victoria,ON,SAME_AS,1.0,1.0,1.0,87.78
-ON119015,Sherbourne & McClintock,"Victoria, North—Nord",ON,ON129028,Sherbourne,Victoria,ON,CONTAINS,0.5046,0.5046,1.0,59.57
-ON119015,Sherbourne & McClintock,"Victoria, North—Nord",ON,ON129023,McCIintock,Victoria,ON,CONTAINS,0.4954,0.4954,1.0,55.32
-ON119014,Somerville,"Victoria, North—Nord",ON,ON129030,Somerville,Victoria,ON,SAME_AS,1.0,1.0,1.0,87.14
-ON119016,Stanhope,"Victoria, North—Nord",ON,ON129031,Stanhope,Victoria,ON,SAME_AS,1.0,1.0,1.0,87.14
-ON120008,Verulam,"Victoria, South—Sud",ON,ON129032,Verulam,Victoria,ON,SAME_AS,1.0,1.0,1.0,87.78
+ON119006,Eldon,"Victoria, North—Nord",ON,ON129009,Eldon,Victoria,ON,SAME_AS,1.0,1.0,1.0,87.14
+ON120002,Emily,"Victoria, South—Sud",ON,ON129010,Emily,Victoria,ON,SAME_AS,1.0,1.0,1.0,87.78
+ON119007,Fenelon,"Victoria, North—Nord",ON,ON129011,Fenelon,Victoria,ON,SAME_AS,1.0,1.0,1.0,87.14
+ON106014,"Harcourt, Dudley & Dysart","Peterborough, East—Est",ON,ON129026,Haliburton vl,Victoria,ON,CONTAINS,0.0049,0.0049,1.0,33.79
+ON119010,Laxton,"Victoria, North—Nord",ON,ON129007,Digby & Laxton,Victoria,ON,WITHIN,0.3637,1.0,0.3637,59.14
+ON106017,"Livingstone, Lawrence & Nightingale","Peterborough, East—Est",ON,ON129013,"Lawrence, Livingstone, McClintock, Nightingale & Sherbourne",Victoria,ON,WITHIN,0.5964,1.0,0.5964,49.7
+ON119011,Lutterworth,"Victoria, North—Nord",ON,ON129014,Lutterworth,Victoria,ON,SAME_AS,1.0,1.0,1.0,87.14
+ON120004,Mariposa,"Victoria, South—Sud",ON,ON129015,Mariposa,Victoria,ON,SAME_AS,0.9928,1.0,0.9928,87.78
+ON119012,Minden,"Victoria, North—Nord",ON,ON129016,Minden,Victoria,ON,SAME_AS,1.0,1.0,1.0,87.14
+ON120007,Ops,"Victoria, South—Sud",ON,ON129018,Ops,Victoria,ON,SAME_AS,1.0,1.0,1.0,87.78
+ON119015,Sherbourne & McClintock,"Victoria, North—Nord",ON,ON129013,"Lawrence, Livingstone, McClintock, Nightingale & Sherbourne",Victoria,ON,WITHIN,0.4036,1.0,0.4036,42.75
+ON119014,Somerville,"Victoria, North—Nord",ON,ON129020,Somerville,Victoria,ON,SAME_AS,1.0,1.0,1.0,87.14
+ON119016,Stanhope,"Victoria, North—Nord",ON,ON129021,Stanhope,Victoria,ON,SAME_AS,1.0,1.0,1.0,87.14
+ON120008,Verulam,"Victoria, South—Sud",ON,ON129022,Verulam,Victoria,ON,SAME_AS,1.0,1.0,1.0,87.78
+ON121003,Waterloo,"Waterloo, North—Nord",ON,ON130001,Waterloo N,Waterloo N,ON,SAME_AS,1.0,1.0,1.0,82.22
 ON121005,Wellesley,"Waterloo, North—Nord",ON,ON130002,Wellesley,Waterloo N,ON,SAME_AS,1.0,1.0,1.0,90.0
 ON121006,Woolwich,"Waterloo, North—Nord",ON,ON130003,Woolwich,Waterloo N,ON,SAME_AS,1.0,1.0,1.0,90.0
 ON122008,Wilmot,"Waterloo, South—Sud",ON,ON131003,Wilmot,Waterloo S,ON,SAME_AS,1.0,1.0,1.0,90.69
@@ -731,143 +656,82 @@ ON129002,Markham,"York, East—Est",ON,ON136002,Markham,York Centre,ON,SAME_AS,1
 ON131009,Vaughan,"York, West—Ouest",ON,ON136004,Vaughan,York Centre,ON,SAME_AS,1.0,1.0,1.0,87.78
 ON130008,King,"York, North—Nord",ON,ON137004,King,York N,ON,SAME_AS,1.0,1.0,1.0,86.36
 ON131002,"North Toronto (part), Town—Ville","York, West—Ouest",ON,ON138002,North Toronto t-v,York S,ON,WITHIN,0.5044,1.0,0.5044,62.08
-ON092033,Killarney,Nipissing,ON,ON054082,Rutherford,Algoma E,ON,CONTAINS,0.0913,0.0913,1.0,18.27
-ON044026,Sault Ste. Marie,Algoma,ON,ON055025,Tarentorus & St Marys,Algoma W-O,ON,WITHIN,0.92,1.0,0.92,56.55
-ON044064,Rat Portage,Algoma,ON,ON123029,Jaffray (Kenora),Thunder Bay & Rainy River,ON,WITHIN,0.8538,0.9639,0.882,34.98
-ON044077,Whitefish Station,Algoma,ON,ON123036,Lybster,Thunder Bay & Rainy River,ON,CONTAINS,0.4503,0.4503,1.0,15.54
-ON044077,Whitefish Station,Algoma,ON,ON123079,Strange,Thunder Bay & Rainy River,ON,CONTAINS,0.5497,0.5497,1.0,27.2
-ON044037,Beaver Mills,Algoma,ON,ON123001,Atwood,Thunder Bay & Rainy River,ON,CONTAINS,0.8379,0.8379,1.0,11.65
-ON044037,Beaver Mills,Algoma,ON,ON123125,Rainy River t-v,Thunder Bay & Rainy River,ON,CONTAINS,0.1621,0.1621,1.0,29.8
-ON129007,"Toronto, Ward—Quartier 2 (part)","York, East—Est",ON,ON126001,"Toronto, ward-quartier 2 pt",Toronto N,ON,WITHIN,0.8151,1.0,0.8151,70.58
-ON129009,"Toronto, Ward—Quartier 4 (part)","York, East—Est",ON,ON126003,"Toronto, ward-quartier 4 pt",Toronto N,ON,WITHIN,0.5292,1.0,0.5292,70.58
-ON106008,"Clyde, Eyre & Havelock","Peterborough, East—Est",ON,ON129003,Burton,Victoria,ON,WITHIN,0.7839,1.0,0.7839,18.0
+ON092006,Biskotasing,Nipissing,ON,ON054055,Other Parts,Algoma E,ON,WITHIN,0.0016,1.0,0.0016,28.98
+ON092026,Geneva Lake,Nipissing,ON,ON054013,"Cartier, Ermatinger, etc",Algoma E,ON,WITHIN,0.3315,1.0,0.3315,23.53
+ON044019,Northwest Point & Lefroy,Algoma,ON,ON054036,Kirk wood & Lefroy,Algoma E,ON,WITHIN,0.6209,1.0,0.6209,65.71
+ON044005,Coffin,Algoma,ON,ON054055,Other Parts,Algoma E,ON,WITHIN,0.0016,1.0,0.0016,33.95
+ON092033,Killarney,Nipissing,ON,ON054047,Rutherford,Algoma E,ON,CONTAINS,0.0913,0.0913,1.0,18.27
+ON044026,Sault Ste. Marie,Algoma,ON,ON055025,Tarentorus & St. Marys,Algoma W-O,ON,WITHIN,0.92,1.0,0.92,59.34
+ON044061,Pinewood,Algoma,ON,ON123014,Dilke& Nelles,Thunder Bay & Rainy River,ON,WITHIN,0.2714,1.0,0.2714,23.87
+ON044064,Rat Portage,Algoma,ON,ON123023,Jaffray & Melick,Thunder Bay & Rainy River,ON,WITHIN,0.3979,0.9639,0.404,24.61
+ON044075,Vermilion Bay,Algoma,ON,ON123002,"Aubrey, Haycock, Langton, Mutrie, Sandford & Temple",Thunder Bay & Rainy River,ON,WITHIN,0.1438,1.0,0.1438,17.0
+ON044077,Whitefish Station,Algoma,ON,ON123044,Strange,Thunder Bay & Rainy River,ON,CONTAINS,0.5497,0.5497,1.0,27.2
+ON044037,Beaver Mills,Algoma,ON,ON123059,Rainy River t-v,Thunder Bay & Rainy River,ON,CONTAINS,0.1621,0.1621,1.0,29.8
+ON044042,Emo ,Algoma,ON,ON123003,"Aylesworth, Lash & Eno (not inc)",Thunder Bay & Rainy River,ON,WITHIN,0.0238,1.0,0.0238,11.87
+ON129007,"Toronto, Ward—Quartier 2 (part)","York, East—Est",ON,ON126000,Toronto N,Toronto N,ON,WITHIN,0.2045,1.0,0.2045,35.83
+ON129009,"Toronto, Ward—Quartier 4 (part)","York, East—Est",ON,ON126000,Toronto N,Toronto N,ON,WITHIN,0.2131,1.0,0.2131,35.83
+ON117001,"Toronto, Ward—Quartier 1 (part)","Toronto, East—Est, City—Cité",ON,ON127000,Toronto S,Toronto S,ON,WITHIN,0.0552,1.0,0.0552,42.59
+ON118004,"Toronto, Ward—Quartier 6 (part)","Toronto, West—Ouest, City—Cité",ON,ON127000,Toronto S,Toronto S,ON,WITHIN,0.2676,1.0,0.2676,41.85
+ON106008,"Clyde, Eyre & Havelock","Peterborough, East—Est",ON,ON129003,"Burton, Dudley, Harburn & Harcourt",Victoria,ON,WITHIN,0.4747,1.0,0.4747,35.5
+ON092044,"Murchison, Preston & part Lyell",Nipissing,ON,ON099063,"Lyell, Murchison, Cross Lake, Dickens, Preston & Clancy",Nipissing,ON,WITHIN,0.3645,1.0,0.3645,67.44
 ON115001,Allandale (part of Barrie Town),"Simcoe, South—Sud",ON,ON121004,Innisfil,Simcoe S,ON,WITHIN,0.0072,1.0,0.0072,29.97
-ON092053,Spanish,Nipissing,ON,ON054087,Shedden,Algoma E,ON,WITHIN,0.0273,1.0,0.0273,23.53
-ON092020,Cutler,Nipissing,ON,ON054111,Thessalon I R,Algoma E,ON,WITHIN,0.0094,1.0,0.0094,25.63
-ON092057,Walford,Nipissing,ON,ON054100,Victoria,Algoma E,ON,WITHIN,0.0261,1.0,0.0261,22.2
-ON044093,Picnic Island,Algoma,ON,ON054072,Picnic Island,Algoma E,ON,WITHIN,0.201,1.0,0.201,95.71
-ON092999,NO DATA,Nipissing,ON,ON099002,Anglin,Nipissing,ON,CONTAINS,0.0015,0.0015,1.0,40.77
-ON092999,NO DATA,Nipissing,ON,ON099094,Lister,Nipissing,ON,CONTAINS,0.0014,0.0014,1.0,40.77
-ON092999,NO DATA,Nipissing,ON,ON099142,White,Nipissing,ON,CONTAINS,0.0014,0.0014,1.0,41.67
-ON092999,NO DATA,Nipissing,ON,ON099046,Deacon,Nipissing,ON,CONTAINS,0.0016,0.0016,1.0,51.54
-ON092999,NO DATA,Nipissing,ON,ON099155,French River I R,Nipissing,ON,CONTAINS,0.0007,0.0007,1.0,42.17
-ON092999,NO DATA,Nipissing,ON,ON099132,Secord,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,51.54
-ON092999,NO DATA,Nipissing,ON,ON099074,Hendrie,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,50.0
-ON092999,NO DATA,Nipissing,ON,ON054044,Harrow,Algoma E,ON,CONTAINS,0.0006,0.0006,1.0,14.3
-ON092999,NO DATA,Nipissing,ON,ON054058,MacKinnon,Algoma E,ON,CONTAINS,0.0007,0.0007,1.0,21.03
-ON092999,NO DATA,Nipissing,ON,ON054052,Lewis,Algoma E,ON,CONTAINS,0.0005,0.0005,1.0,3.53
-ON092999,NO DATA,Nipissing,ON,ON054087,Shedden,Algoma E,ON,CONTAINS,0.0006,0.0006,0.9727,13.53
-ON092999,NO DATA,Nipissing,ON,ON054100,Victoria,Algoma E,ON,CONTAINS,0.0006,0.0006,0.9739,22.2
-ON092999,NO DATA,Nipissing,ON,ON054033,Esten & Spragge,Algoma E,ON,CONTAINS,0.0011,0.0011,1.0,22.62
-ON092999,NO DATA,Nipissing,ON,ON054060,Merritt,Algoma E,ON,CONTAINS,0.0006,0.0006,1.0,13.53
-ON092999,NO DATA,Nipissing,ON,ON054035,Foster,Algoma E,ON,CONTAINS,0.0006,0.0006,1.0,25.07
-ON092999,NO DATA,Nipissing,ON,ON054039,Gough,Algoma E,ON,CONTAINS,0.0006,0.0006,1.0,15.2
-ON092999,NO DATA,Nipissing,ON,ON054085,Shakespeare,Algoma E,ON,CONTAINS,0.0006,0.0006,1.0,19.08
-ON092999,NO DATA,Nipissing,ON,ON054004,Baldwin,Algoma E,ON,CONTAINS,0.0006,0.0006,1.0,13.53
-ON092999,NO DATA,Nipissing,ON,ON054031,Dunlop,Algoma E,ON,CONTAINS,0.0006,0.0006,1.0,25.07
-ON092999,NO DATA,Nipissing,ON,ON099018,Broder,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,51.54
-ON092999,NO DATA,Nipissing,ON,ON099048,Dill,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,42.73
-ON092999,NO DATA,Nipissing,ON,ON099037,Cleland,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,50.0
-ON092999,NO DATA,Nipissing,ON,ON054098,Trill,Algoma E,ON,CONTAINS,0.0006,0.0006,1.0,15.2
-ON092999,NO DATA,Nipissing,ON,ON054074,Poulin,Algoma E,ON,CONTAINS,0.0006,0.0006,1.0,14.3
-ON092999,NO DATA,Nipissing,ON,ON054032,Ermatinger,Algoma E,ON,CONTAINS,0.0006,0.0006,1.0,20.0
-ON092999,NO DATA,Nipissing,ON,ON054028,Dowling,Algoma E,ON,CONTAINS,0.0007,0.0007,1.0,13.53
-ON092999,NO DATA,Nipissing,ON,ON099056,Falconbridge,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,44.74
-ON092999,NO DATA,Nipissing,ON,ON099027,Capreol,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,40.0
-ON092999,NO DATA,Nipissing,ON,ON099045,Davis,Nipissing,ON,CONTAINS,0.0007,0.0007,1.0,53.33
-ON092999,NO DATA,Nipissing,ON,ON099114,Norman,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,62.31
-ON092999,NO DATA,Nipissing,ON,ON099081,Hutton,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,40.77
-ON092999,NO DATA,Nipissing,ON,ON099042,Creelman,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,39.33
-ON092999,NO DATA,Nipissing,ON,ON054021,Craig,Algoma E,ON,CONTAINS,0.0006,0.0006,1.0,15.2
-ON092999,NO DATA,Nipissing,ON,ON054073,Pogamasing,Algoma E,ON,CONTAINS,0.0006,0.0006,1.0,28.24
-ON092999,NO DATA,Nipissing,ON,ON054064,Munro Siding,Algoma E,ON,CONTAINS,0.0,0.0,1.0,33.0
-ON092999,NO DATA,Nipissing,ON,ON054061,Metagama,Algoma E,ON,CONTAINS,0.0006,0.0006,1.0,22.2
-ON092999,NO DATA,Nipissing,ON,ON054077,Ramsay,Algoma E,ON,CONTAINS,0.0,0.0,1.0,25.07
-ON092999,NO DATA,Nipissing,ON,ON054091,Sutton,Algoma E,ON,CONTAINS,0.0006,0.0006,1.0,14.3
-ON092999,NO DATA,Nipissing,ON,ON054106,Woman River,Algoma E,ON,CONTAINS,0.0006,0.0006,1.0,19.08
-ON092999,NO DATA,Nipissing,ON,ON099020,Bryce,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,30.0
-ON092999,NO DATA,Nipissing,ON,ON099128,Robillard,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,47.5
-ON092999,NO DATA,Nipissing,ON,ON099041,Cosby & Mason,Nipissing,ON,CONTAINS,0.0012,0.0012,1.0,51.0
-ON092999,NO DATA,Nipissing,ON,ON099096,Loudon,Nipissing,ON,CONTAINS,0.0009,0.0009,1.0,51.54
-ON092999,NO DATA,Nipissing,ON,ON099156,Nipissing I R,Nipissing,ON,CONTAINS,0.0033,0.0033,1.0,44.0
-ON092999,NO DATA,Nipissing,ON,ON099033,Charleton,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,47.5
-ON092999,NO DATA,Nipissing,ON,ON099158,Turtle Lake I R,Nipissing,ON,CONTAINS,0.0,0.0,1.0,42.73
-ON092999,NO DATA,Nipissing,ON,ON099121,Phelps,Nipissing,ON,CONTAINS,0.0013,0.0013,1.0,30.0
-ON092999,NO DATA,Nipissing,ON,ON099110,Mulock,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,40.77
-ON092999,NO DATA,Nipissing,ON,ON099136,Stewart,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,50.0
-ON092999,NO DATA,Nipissing,ON,ON099115,Osborne,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,40.0
-ON092999,NO DATA,Nipissing,ON,ON099123,Poitras,Nipissing,ON,CONTAINS,0.0003,0.0003,1.0,60.0
-ON092999,NO DATA,Nipissing,ON,ON099064,Gooderfoam,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,54.71
-ON092999,NO DATA,Nipissing,ON,ON099144,Other parts,Nipissing,ON,CONTAINS,0.0955,0.0958,0.9706,61.11
-ON092999,NO DATA,Nipissing,ON,ON054079,Ridout,Algoma E,ON,CONTAINS,0.0006,0.0006,1.0,25.07
-ON092999,NO DATA,Nipissing,ON,ON054075,Price & Fripp,Algoma E,ON,CONTAINS,0.0012,0.0012,1.0,10.53
-ON092999,NO DATA,Nipissing,ON,ON054049,Keefer,Algoma E,ON,CONTAINS,0.0006,0.0006,1.0,3.53
-ON092999,NO DATA,Nipissing,ON,ON054026,Denton,Algoma E,ON,CONTAINS,0.0006,0.0006,1.0,25.07
-ON092999,NO DATA,Nipissing,ON,ON054095,Thornloe,Algoma E,ON,CONTAINS,0.0006,0.0006,1.0,22.2
-ON092999,NO DATA,Nipissing,ON,ON099088,Langmuir,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,39.33
-ON092999,NO DATA,Nipissing,ON,ON054103,Whitesides,Algoma E,ON,CONTAINS,0.0006,0.0006,1.0,11.76
-ON092999,NO DATA,Nipissing,ON,ON054015,Carscallen,Algoma E,ON,CONTAINS,0.0006,0.0006,1.0,20.0
-ON092999,NO DATA,Nipissing,ON,ON054011,Bristol,Algoma E,ON,CONTAINS,0.0006,0.0006,1.0,13.53
-ON092999,NO DATA,Nipissing,ON,ON054068,Ogden,Algoma E,ON,CONTAINS,0.0006,0.0006,1.0,26.86
-ON092999,NO DATA,Nipissing,ON,ON054027,Doloro,Algoma E,ON,CONTAINS,0.0006,0.0006,1.0,14.3
-ON092999,NO DATA,Nipissing,ON,ON054086,Shaw,Algoma E,ON,CONTAINS,0.0006,0.0006,1.0,16.26
-ON092999,NO DATA,Nipissing,ON,ON099028,Carman,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,51.54
-ON092999,NO DATA,Nipissing,ON,ON054099,Turnbull,Algoma E,ON,CONTAINS,0.0006,0.0006,1.0,12.86
-ON092999,NO DATA,Nipissing,ON,ON099138,Thomas,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,51.54
-ON092999,NO DATA,Nipissing,ON,ON054063,Mountjoy,Algoma E,ON,CONTAINS,0.0006,0.0006,1.0,22.2
-ON092999,NO DATA,Nipissing,ON,ON054104,Whitney,Algoma E,ON,CONTAINS,0.0006,0.0006,1.0,13.53
-ON092999,NO DATA,Nipissing,ON,ON054076,Porcupine Branch T N O Ry,Algoma E,ON,CONTAINS,0.0006,0.0006,1.0,21.03
-ON092999,NO DATA,Nipissing,ON,ON099105,Matheson,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,48.67
-ON092999,NO DATA,Nipissing,ON,ON099061,German,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,40.77
-ON092999,NO DATA,Nipissing,ON,ON099055,Evelyn,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,40.77
-ON092999,NO DATA,Nipissing,ON,ON099051,Dundonald,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,56.25
-ON092999,NO DATA,Nipissing,ON,ON099077,Hislop,Nipissing,ON,CONTAINS,0.0007,0.0007,1.0,40.77
-ON092999,NO DATA,Nipissing,ON,ON099066,Guibord,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,50.0
-ON092999,NO DATA,Nipissing,ON,ON099137,Taylor,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,51.54
-ON092999,NO DATA,Nipissing,ON,ON099029,Carr,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,42.73
-ON092999,NO DATA,Nipissing,ON,ON099111,Muro,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,42.73
-ON092999,NO DATA,Nipissing,ON,ON099141,Walker,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,40.77
-ON092999,NO DATA,Nipissing,ON,ON099109,Mortimer,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,48.67
-ON092999,NO DATA,Nipissing,ON,ON099134,Sherring,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,39.33
-ON092999,NO DATA,Nipissing,ON,ON099016,Boyer,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,41.67
-ON092999,NO DATA,Nipissing,ON,ON099013,Bonis,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,41.67
-ON092999,NO DATA,Nipissing,ON,ON099038,Clergue,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,30.0
-ON092999,NO DATA,Nipissing,ON,ON099023,Calvert,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,50.0
-ON092999,NO DATA,Nipissing,ON,ON099019,Brower,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,40.77
-ON092999,NO DATA,Nipissing,ON,ON099162,Cochrane t-v,Nipissing,ON,CONTAINS,0.0,0.0,1.0,52.11
-ON092999,NO DATA,Nipissing,ON,ON099063,Glackmeyer,Nipissing,ON,CONTAINS,0.0013,0.0013,1.0,38.24
-ON092999,NO DATA,Nipissing,ON,ON054097,Transcontinental Ry,Algoma E,ON,CONTAINS,0.0013,0.0013,1.0,25.07
-ON092999,NO DATA,Nipissing,ON,ON054034,Fleck,Algoma E,ON,CONTAINS,0.0013,0.0013,1.0,3.53
-ON092999,NO DATA,Nipissing,ON,ON099075,Henwood,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,60.0
-ON092999,NO DATA,Nipissing,ON,ON099009,Beauchamp,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,47.5
-ON092999,NO DATA,Nipissing,ON,ON099004,Armstrong,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,47.5
-ON092999,NO DATA,Nipissing,ON,ON099044,Dack,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,55.45
-ON092999,NO DATA,Nipissing,ON,ON099054,Evanturel,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,47.5
-ON092999,NO DATA,Nipissing,ON,ON099164,Englehart t-v,Nipissing,ON,CONTAINS,0.0,0.0,1.0,51.0
-ON092999,NO DATA,Nipissing,ON,ON099032,Chamberlain,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,45.56
-ON092999,NO DATA,Nipissing,ON,ON099103,Marter,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,51.54
-ON092999,NO DATA,Nipissing,ON,ON099117,Pacard,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,51.54
-ON092999,NO DATA,Nipissing,ON,ON099133,Sharpe,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,40.77
-ON092999,NO DATA,Nipissing,ON,ON099130,Savard,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,51.54
-ON092999,NO DATA,Nipissing,ON,ON099151,Fort Matatchewan,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,60.43
-ON092999,NO DATA,Nipissing,ON,ON099116,Otto,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,55.45
-ON092999,NO DATA,Nipissing,ON,ON099091,Lebel,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,30.0
-ON092999,NO DATA,Nipissing,ON,ON099101,Maisonville,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,37.78
-ON092999,NO DATA,Nipissing,ON,ON099010,Benoit,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,62.31
-ON092999,NO DATA,Nipissing,ON,ON099152,Larder Lake Mining Division,Nipissing,ON,CONTAINS,0.0278,0.0278,1.0,42.35
-ON092999,NO DATA,Nipissing,ON,ON099122,Playfair,Nipissing,ON,CONTAINS,0.0007,0.0007,1.0,48.67
-ON092999,NO DATA,Nipissing,ON,ON099015,Bowman,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,51.54
-ON092999,NO DATA,Nipissing,ON,ON054067,New Post,Algoma E,ON,CONTAINS,0.0013,0.0013,0.9642,31.53
-ON092999,NO DATA,Nipissing,ON,ON099153,Moose Fort,Nipissing,ON,CONTAINS,0.0,0.0,1.0,54.71
-ON092999,NO DATA,Nipissing,ON,ON099145,Unsurveyed parts north of Transcontinental Railway,Nipissing,ON,CONTAINS,0.0106,0.0106,0.9741,44.74
-ON092018,Cooks Mills,Nipissing,ON,ON099143,Widdifield,Nipissing,ON,WITHIN,0.0088,1.0,0.0088,43.33
+ON092053,Spanish,Nipissing,ON,ON054001,Aird Island & Shedden,Algoma E,ON,WITHIN,0.024,1.0,0.024,28.53
+ON092020,Cutler,Nipissing,ON,ON054059,Thessalon I R,Algoma E,ON,WITHIN,0.0094,1.0,0.0094,25.63
+ON092003,Algoma Mills,Nipissing,ON,ON054038,Long & Striker,Algoma E,ON,WITHIN,0.0127,1.0,0.0127,25.07
+ON092057,Walford,Nipissing,ON,ON054054,Victoria,Algoma E,ON,WITHIN,0.0261,1.0,0.0261,22.2
+ON044093,Picnic Island,Algoma,ON,ON054044,Picnic Island,Algoma E,ON,WITHIN,0.201,1.0,0.201,95.71
+ON092999,NO DATA,Nipissing,ON,ON099002,Anglin Deacon & Lister,Nipissing,ON,CONTAINS,0.0045,0.0045,1.0,54.14
+ON092999,NO DATA,Nipissing,ON,ON099033,Cosby & Mason,Nipissing,ON,CONTAINS,0.0012,0.0012,1.0,51.0
+ON092999,NO DATA,Nipissing,ON,ON099079,White,Nipissing,ON,CONTAINS,0.0014,0.0014,1.0,41.67
+ON092999,NO DATA,Nipissing,ON,ON099072,Phelps,Nipissing,ON,CONTAINS,0.0013,0.0013,1.0,30.0
+ON092999,NO DATA,Nipissing,ON,ON099078,Stewart & Mulock,Nipissing,ON,CONTAINS,0.0012,0.0012,1.0,42.17
+ON092999,NO DATA,Nipissing,ON,ON099044,Gooderham & Osborne,Nipissing,ON,CONTAINS,0.0012,0.0012,1.0,46.15
+ON092999,NO DATA,Nipissing,ON,ON099073,Poitras,Nipissing,ON,CONTAINS,0.0003,0.0003,1.0,60.0
+ON092999,NO DATA,Nipissing,ON,ON099081,Other parts,Nipissing,ON,CONTAINS,0.0955,0.0958,0.9705,61.11
+ON092999,NO DATA,Nipissing,ON,ON054040,MacKinnon,Algoma E,ON,CONTAINS,0.0007,0.0007,1.0,21.03
+ON092999,NO DATA,Nipissing,ON,ON054054,Victoria,Algoma E,ON,CONTAINS,0.0006,0.0006,0.9739,22.2
+ON092999,NO DATA,Nipissing,ON,ON054004,Baldwin & Merritt,Algoma E,ON,CONTAINS,0.0012,0.0012,1.0,21.03
+ON092999,NO DATA,Nipissing,ON,ON054037,Lewis,Algoma E,ON,CONTAINS,0.0005,0.0005,1.0,3.53
+ON092999,NO DATA,Nipissing,ON,ON054025,Esten & Spragge,Algoma E,ON,CONTAINS,0.0011,0.0011,1.0,22.62
+ON092999,NO DATA,Nipissing,ON,ON099034,Dill & Secord,Nipissing,ON,CONTAINS,0.0012,0.0012,1.0,44.0
+ON092999,NO DATA,Nipissing,ON,ON099013,Broder,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,51.54
+ON092999,NO DATA,Nipissing,ON,ON054022,Dowling,Algoma E,ON,CONTAINS,0.0007,0.0007,1.0,13.53
+ON092999,NO DATA,Nipissing,ON,ON054018,Craig,Algoma E,ON,CONTAINS,0.0006,0.0006,1.0,15.2
+ON092999,NO DATA,Nipissing,ON,ON099056,Hutton & Creelman,Nipissing,ON,CONTAINS,0.0012,0.0012,1.0,47.5
+ON092999,NO DATA,Nipissing,ON,ON099027,Charleton & Dack,Nipissing,ON,CONTAINS,0.0012,0.0012,1.0,54.35
+ON092999,NO DATA,Nipissing,ON,ON099004,"Armstrong, Beauchamp & Bryce",Nipissing,ON,CONTAINS,0.0018,0.0018,1.0,46.0
+ON092999,NO DATA,Nipissing,ON,ON099038,Evanturel,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,47.5
+ON092999,NO DATA,Nipissing,ON,ON099074,"Robillard, Savard and Sharpe",Nipissing,ON,CONTAINS,0.0018,0.0018,1.0,50.0
+ON092999,NO DATA,Nipissing,ON,ON054024,"Dunlop, Fleck, Gough & Shakespeare",Algoma E,ON,CONTAINS,0.0031,0.0031,1.0,20.6
+ON092999,NO DATA,Nipissing,ON,ON099022,"Carman, Langmuir & Thomas",Nipissing,ON,CONTAINS,0.0018,0.0018,1.0,51.88
+ON092999,NO DATA,Nipissing,ON,ON099011,Bowman,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,51.54
+ON092999,NO DATA,Nipissing,ON,ON099052,"Hislop, Munro, Playfair & Guibord",Nipissing,ON,CONTAINS,0.0025,0.0025,1.0,47.5
+ON092999,NO DATA,Nipissing,ON,ON099035,"Dundonald, Evelyn, German & Matheson",Nipissing,ON,CONTAINS,0.0024,0.0024,1.0,46.28
+ON092999,NO DATA,Nipissing,ON,ON099023,Carr,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,42.73
+ON092999,NO DATA,Nipissing,ON,ON099031,"Clergue, Walker & Taylor",Nipissing,ON,CONTAINS,0.0018,0.0018,1.0,48.06
+ON092999,NO DATA,Nipissing,ON,ON099017,"Calvert, Sherring & Mortimer",Nipissing,ON,CONTAINS,0.0018,0.0018,1.0,42.0
+ON092999,NO DATA,Nipissing,ON,ON099014,Brower,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,40.77
+ON092999,NO DATA,Nipissing,ON,ON099009,Bonis & Bowyer,Nipissing,ON,CONTAINS,0.0012,0.0012,1.0,43.33
+ON092999,NO DATA,Nipissing,ON,ON099093,Cochrane t-v,Nipissing,ON,CONTAINS,0.0,0.0,1.0,52.11
+ON092999,NO DATA,Nipissing,ON,ON099043,Glackmeyer,Nipissing,ON,CONTAINS,0.0013,0.0013,1.0,38.24
+ON092999,NO DATA,Nipissing,ON,ON099082,Unsurveyed territory,Nipissing,ON,CONTAINS,0.0106,0.0106,0.9741,45.56
+ON092999,NO DATA,Nipissing,ON,ON099087,Moose Fort,Nipissing,ON,CONTAINS,0.0,0.0,1.0,54.71
+ON092999,NO DATA,Nipissing,ON,ON054053,Transcontinental Ry,Algoma E,ON,CONTAINS,0.0013,0.0013,1.0,25.07
+ON092999,NO DATA,Nipissing,ON,ON054042,New Post,Algoma E,ON,CONTAINS,0.0013,0.0013,0.9642,31.53
+ON092999,NO DATA,Nipissing,ON,ON099095,Englehart t-v,Nipissing,ON,CONTAINS,0.0,0.0,1.0,51.0
+ON092999,NO DATA,Nipissing,ON,ON099026,Chamberlain & Marter,Nipissing,ON,CONTAINS,0.0012,0.0012,1.0,50.74
+ON092999,NO DATA,Nipissing,ON,ON099069,Pacard,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,51.54
+ON092999,NO DATA,Nipissing,ON,ON099061,Lebel,Nipissing,ON,CONTAINS,0.0006,0.0006,1.0,30.0
+ON092999,NO DATA,Nipissing,ON,ON099007,"Benoit, Maisonville & Otto",Nipissing,ON,CONTAINS,0.0018,0.0018,1.0,51.21
+ON092999,NO DATA,Nipissing,ON,ON099086,Larder Lake Mining Div.,Nipissing,ON,CONTAINS,0.0278,0.0278,1.0,44.0
+ON092018,Cooks Mills,Nipissing,ON,ON099080,Widdifield,Nipissing,ON,WITHIN,0.0088,1.0,0.0088,43.33
 ON129001,"East Toronto, Village","York, East—Est",ON,ON138003,Toronto c pt,York S,ON,WITHIN,0.0801,1.0,0.0801,51.94
-ON129008,"Toronto, Ward—Quartier 3 (part)","York, East—Est",ON,ON126002,"Toronto, ward-quartier 3 pt",Toronto N,ON,WITHIN,0.4496,1.0,0.4496,70.58
-ON069001,"Hamilton, Ward—Quartier 1","Hamilton, City—Cité",ON,ON077001,Hamilton c part,Hamilton E,ON,WITHIN,0.2113,1.0,0.2113,60.62
-ON069002,"Hamilton, Ward—Quartier 2","Hamilton, City—Cité",ON,ON078001,Hamilton c part,Hamilton W-O,ON,WITHIN,0.1469,1.0,0.1469,59.42
-ON069006,"Hamilton, Ward—Quartier 6    ","Hamilton, City—Cité",ON,ON077001,Hamilton c part,Hamilton E,ON,WITHIN,0.1524,1.0,0.1524,60.62
-ON069005,"Hamilton, Ward—Quartier 5","Hamilton, City—Cité",ON,ON078001,Hamilton c part,Hamilton W-O,ON,WITHIN,0.1643,1.0,0.1643,59.42
-ON069004,"Hamilton, Ward—Quartier 4","Hamilton, City—Cité",ON,ON078001,Hamilton c part,Hamilton W-O,ON,WITHIN,0.3336,1.0,0.3336,59.42
+ON129008,"Toronto, Ward—Quartier 3 (part)","York, East—Est",ON,ON126000,Toronto N,Toronto N,ON,WITHIN,0.1312,1.0,0.1312,35.83
+ON069001,"Hamilton, Ward—Quartier 1","Hamilton, City—Cité",ON,ON077001,Hamilton c pt,Hamilton E,ON,WITHIN,0.2113,1.0,0.2113,55.46
+ON069002,"Hamilton, Ward—Quartier 2","Hamilton, City—Cité",ON,ON078001,Hamilton c pt,Hamilton W-O,ON,WITHIN,0.1469,1.0,0.1469,54.26
+ON069006,"Hamilton, Ward—Quartier 6    ","Hamilton, City—Cité",ON,ON077001,Hamilton c pt,Hamilton E,ON,WITHIN,0.1524,1.0,0.1524,55.46
+ON069005,"Hamilton, Ward—Quartier 5","Hamilton, City—Cité",ON,ON078001,Hamilton c pt,Hamilton W-O,ON,WITHIN,0.1643,1.0,0.1643,54.26
+ON069004,"Hamilton, Ward—Quartier 4","Hamilton, City—Cité",ON,ON078001,Hamilton c pt,Hamilton W-O,ON,WITHIN,0.3336,1.0,0.3336,54.26
 ON086004,"London, Ward—Quartier 4 (part)","London, City—Cité",ON,ON094001,London c,London,ON,WITHIN,0.1179,1.0,0.1179,41.44
 ON086002,"London, Ward—Quartier 2 (part)","London, City—Cité",ON,ON094001,London c,London,ON,WITHIN,0.0902,1.0,0.0902,41.44
 ON086001,"London, Ward—Quartier 1 (part)","London, City—Cité",ON,ON094001,London c,London,ON,WITHIN,0.0355,1.0,0.0355,41.44
@@ -883,166 +747,96 @@ ON077005,"Kingston, St. Lawrence, Ward—Quartier","Kingston, City—Cité",ON,O
 ON087004,"London, Ward—Quartier 3 & 4 (part city)","Middlesex, East—Est",ON,ON094001,London c,London,ON,WITHIN,0.1286,1.0,0.1286,26.23
 ON100004,"Ottawa, Ottawa, Ward—Quartier","Ottawa, City—Cité",ON,ON105005,"Ottawa, Ottawa ward-quartier",Ottawa City-Cité Pt,ON,SAME_AS,1.0,1.0,1.0,91.32
 ON082006,"Smiths Falls (part), Town—Ville","Leeds & Grenville, North—Nord",ON,ON090009,Smiths Falls t-v,Lanark S,ON,WITHIN,0.1716,1.0,0.1716,49.55
-ON044062,Port Arthur,Algoma,ON,ON123039,"Mclntyre, Gorman & Ware",Thunder Bay & Rainy River,ON,WITHIN,0.0988,1.0,0.0988,24.46
-ON044049,Keewatin (Township),Algoma,ON,ON123100,Other parts-aut parties,Thunder Bay & Rainy River,ON,WITHIN,0.0007,1.0,0.0007,23.87
-ON044041,English River,Algoma,ON,ON123100,Other parts-aut parties,Thunder Bay & Rainy River,ON,WITHIN,0.0,1.0,0.0,27.2
-ON044046,Ignace ,Algoma,ON,ON123100,Other parts-aut parties,Thunder Bay & Rainy River,ON,WITHIN,0.0,1.0,0.0,13.53
-ON044074,Taché,Algoma,ON,ON123100,Other parts-aut parties,Thunder Bay & Rainy River,ON,WITHIN,0.0,1.0,0.0,13.87
+ON044062,Port Arthur,Algoma,ON,ON123019,"Gorman, Mclntyre & Ware",Thunder Bay & Rainy River,ON,WITHIN,0.0988,1.0,0.0988,28.58
+ON044049,Keewatin (Township),Algoma,ON,ON123052,Unorganised,Thunder Bay & Rainy River,ON,WITHIN,0.0007,1.0,0.0007,22.54
+ON044041,English River,Algoma,ON,ON123052,Unorganised,Thunder Bay & Rainy River,ON,WITHIN,0.0,1.0,0.0,33.04
+ON044046,Ignace ,Algoma,ON,ON123052,Unorganised,Thunder Bay & Rainy River,ON,WITHIN,0.0,1.0,0.0,28.58
+ON044074,Taché,Algoma,ON,ON123052,Unorganised,Thunder Bay & Rainy River,ON,WITHIN,0.0,1.0,0.0,12.62
 ON044023,Rydal Bank,Algoma,ON,ON055034,Bruce Mines t-v,Algoma W-O,ON,CONTAINS,0.0151,0.0151,1.0,39.3
-ON044033,Alberton,Algoma,ON,ON123014,Crozier,Thunder Bay & Rainy River,ON,WITHIN,0.0279,1.0,0.0279,22.54
-ON044034,Ash Rapids ,Algoma,ON,ON123100,Other parts-aut parties,Thunder Bay & Rainy River,ON,WITHIN,0.0,1.0,0.0,33.57
-ON044072,Silver Creek,Algoma,ON,ON123053,O'Connor,Thunder Bay & Rainy River,ON,WITHIN,0.0238,1.0,0.0238,17.87
-ON044068,Savanne,Algoma,ON,ON123100,Other parts-aut parties,Thunder Bay & Rainy River,ON,WITHIN,0.0,1.0,0.0,22.54
-ON044056,Missinaibi,Algoma,ON,ON054107,Other parts,Algoma E,ON,WITHIN,0.0,1.0,0.0,32.38
-ON044050,Leeblain,Algoma,ON,ON123100,Other parts-aut parties,Thunder Bay & Rainy River,ON,WITHIN,0.0,1.0,0.0,17.42
-ON044045,Hawk Lake,Algoma,ON,ON123100,Other parts-aut parties,Thunder Bay & Rainy River,ON,WITHIN,0.0,1.0,0.0,25.75
-ON044069,Sawbill Lake,Algoma,ON,ON055028,Other parts-autre parties,Algoma W-O,ON,WITHIN,0.0001,1.0,0.0001,41.42
-ON044051,Little Turtle Lake,Algoma,ON,ON123100,Other parts-aut parties,Thunder Bay & Rainy River,ON,WITHIN,0.0,1.0,0.0,34.6
-ON044036,Beaudro Fishery,Algoma,ON,ON123077,Spohn,Thunder Bay & Rainy River,ON,WITHIN,0.3094,1.0,0.3094,17.87
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON054030,Duck Island,Algoma E,ON,CONTAINS,0.0001,0.0001,1.0,39.71
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON054110,Manitowaning I R,Algoma E,ON,CONTAINS,0.0018,0.0018,1.0,48.62
+ON044033,Alberton,Algoma,ON,ON123012,Crozier,Thunder Bay & Rainy River,ON,WITHIN,0.0279,1.0,0.0279,22.54
+ON044034,Ash Rapids ,Algoma,ON,ON123052,Unorganised,Thunder Bay & Rainy River,ON,WITHIN,0.0,1.0,0.0,30.54
+ON044072,Silver Creek,Algoma,ON,ON123033,O'Connor,Thunder Bay & Rainy River,ON,WITHIN,0.0238,1.0,0.0238,17.87
+ON044068,Savanne,Algoma,ON,ON123052,Unorganised,Thunder Bay & Rainy River,ON,WITHIN,0.0,1.0,0.0,27.2
+ON044056,Missinaibi,Algoma,ON,ON054055,Other Parts,Algoma E,ON,WITHIN,0.0,1.0,0.0,32.38
+ON044050,Leeblain,Algoma,ON,ON123052,Unorganised,Thunder Bay & Rainy River,ON,WITHIN,0.0,1.0,0.0,18.61
+ON044045,Hawk Lake,Algoma,ON,ON123052,Unorganised,Thunder Bay & Rainy River,ON,WITHIN,0.0,1.0,0.0,17.87
+ON044069,Sawbill Lake,Algoma,ON,ON055028,Other parts,Algoma W-O,ON,WITHIN,0.0001,1.0,0.0001,34.67
+ON044051,Little Turtle Lake,Algoma,ON,ON123052,Unorganised,Thunder Bay & Rainy River,ON,WITHIN,0.0,1.0,0.0,23.18
+ON044036,Beaudro Fishery,Algoma,ON,ON123027,"McCrosson, Pratt & Spohn",Thunder Bay & Rainy River,ON,WITHIN,0.1186,1.0,0.1186,21.82
+ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON054058,Manitowaning I R,Algoma E,ON,CONTAINS,0.0018,0.0018,1.0,48.62
 ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON054007,Bidwell,Algoma E,ON,CONTAINS,0.0007,0.0007,1.0,34.84
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON054088,Sheguiandah,Algoma E,ON,CONTAINS,0.0005,0.0005,1.0,39.71
+ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON054049,Sheguiandah,Algoma E,ON,CONTAINS,0.0005,0.0005,1.0,39.71
 ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON054002,Allan,Algoma E,ON,CONTAINS,0.0008,0.0008,1.0,35.26
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON054081,Rose,Algoma E,ON,CONTAINS,0.0004,0.0004,1.0,35.48
+ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON054046,Rose,Algoma E,ON,CONTAINS,0.0004,0.0004,1.0,35.48
 ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON055017,Meredith,Algoma W-O,ON,CONTAINS,0.0004,0.0004,1.0,37.39
 ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON055013,Korah,Algoma W-O,ON,CONTAINS,0.0004,0.0004,0.9672,32.05
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON054045,Haughton,Algoma E,ON,CONTAINS,0.0004,0.0004,1.0,40.61
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON054040,Gould,Algoma E,ON,CONTAINS,0.0003,0.0003,1.0,32.08
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON054042,Grassett,Algoma E,ON,CONTAINS,0.0004,0.0004,1.0,40.61
 ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON055019,Pennefather,Algoma W-O,ON,CONTAINS,0.0003,0.0003,1.0,39.3
 ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON055001,Aweres,Algoma W-O,ON,CONTAINS,0.0003,0.0003,1.0,38.06
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON055027,Vankoughnet,Algoma W-O,ON,CONTAINS,0.0004,0.0004,1.0,39.3
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON055003,Deroche,Algoma W-O,ON,CONTAINS,0.0003,0.0003,1.0,37.72
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON055008,Haviland,Algoma W-O,ON,CONTAINS,0.0002,0.0002,1.0,34.41
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON055026,Tupper,Algoma W-O,ON,CONTAINS,0.0003,0.0003,1.0,31.83
 ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON055031,Goulais Bay I R,Algoma W-O,ON,CONTAINS,0.0,0.0,1.0,40.65
 ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON055012,Kars,Algoma W-O,ON,CONTAINS,0.0002,0.0002,1.0,32.27
+ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON055027,Vankoughnet,Algoma W-O,ON,CONTAINS,0.0004,0.0004,1.0,39.3
+ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON055003,Deroche,Algoma W-O,ON,CONTAINS,0.0003,0.0003,1.0,37.72
 ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON055015,Ley,Algoma W-O,ON,CONTAINS,0.0001,0.0001,1.0,29.17
+ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON055008,Haviland,Algoma W-O,ON,CONTAINS,0.0002,0.0002,1.0,34.41
+ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON055026,Tupper,Algoma W-O,ON,CONTAINS,0.0003,0.0003,1.0,31.83
 ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON055022,Ryan,Algoma W-O,ON,CONTAINS,0.0003,0.0003,1.0,35.52
 ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON055007,Gargantua,Algoma W-O,ON,CONTAINS,0.0,0.0,1.0,40.0
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123056,Pardee,Thunder Bay & Rainy River,ON,CONTAINS,0.0007,0.0007,1.0,16.32
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123013,Crooks,Thunder Bay & Rainy River,ON,CONTAINS,0.0006,0.0006,1.0,16.32
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123059,Pearson,Thunder Bay & Rainy River,ON,CONTAINS,0.0005,0.0005,1.0,16.04
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123006,Blake,Thunder Bay & Rainy River,ON,CONTAINS,0.0011,0.0011,1.0,10.23
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123117,Sturgeon Lake I R,Thunder Bay & Rainy River,ON,CONTAINS,0.0,0.0,1.0,26.37
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123024,Gillies,Thunder Bay & Rainy River,ON,CONTAINS,0.0003,0.0003,1.0,19.09
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123072,Scoble,Thunder Bay & Rainy River,ON,CONTAINS,0.0004,0.0004,1.0,10.09
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123102,Fort William I R,Thunder Bay & Rainy River,ON,CONTAINS,0.0003,0.0003,1.0,21.69
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123027,Heron Bay &Michi-picoten Island,Thunder Bay & Rainy River,ON,CONTAINS,0.0007,0.0007,1.0,23.87
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123055,Paipoonge,Thunder Bay & Rainy River,ON,CONTAINS,0.0007,0.0007,1.0,21.37
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123105,Lac la Croix I R,Thunder Bay & Rainy River,ON,CONTAINS,0.0002,0.0002,1.0,19.14
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123042,Marks,Thunder Bay & Rainy River,ON,CONTAINS,0.0004,0.0004,1.0,13.42
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123078,"Stanley to Windigo on CN Ry, Silver Islet, High Island & Thunder Bay points",Thunder Bay & Rainy River,ON,CONTAINS,0.0,0.0,1.0,25.98
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123053,O'Connor,Thunder Bay & Rainy River,ON,CONTAINS,0.0004,0.0004,0.9762,21.74
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123012,Conmee,Thunder Bay & Rainy River,ON,CONTAINS,0.0006,0.0006,1.0,16.32
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123093,Woodyat,Thunder Bay & Rainy River,ON,CONTAINS,0.0001,0.0001,1.0,16.04
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123106,Little Forks I R,Thunder Bay & Rainy River,ON,CONTAINS,0.0,0.0,1.0,24.23
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123065,Roddick,Thunder Bay & Rainy River,ON,CONTAINS,0.0001,0.0001,1.0,13.0
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123038,McGregor,Thunder Bay & Rainy River,ON,CONTAINS,0.0011,0.0011,1.0,18.76
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123014,Crozier,Thunder Bay & Rainy River,ON,CONTAINS,0.0003,0.0003,0.9721,19.09
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123017,Dein,Thunder Bay & Rainy River,ON,CONTAINS,0.0003,0.0003,1.0,16.89
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123034,Lash,Thunder Bay & Rainy River,ON,CONTAINS,0.0003,0.0003,1.0,10.38
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON054066,Nemegos,Algoma E,ON,CONTAINS,0.0003,0.0003,1.0,40.93
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON054069,Pardee,Algoma E,ON,CONTAINS,0.0003,0.0003,1.0,38.16
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON054105,Windermere Lake,Algoma E,ON,CONTAINS,0.0003,0.0003,1.0,46.46
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123126,Devlin vl not inc-non-inc,Thunder Bay & Rainy River,ON,CONTAINS,0.0,0.0,1.0,27.93
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123004,Barwick,Thunder Bay & Rainy River,ON,CONTAINS,0.0,0.0,1.0,13.0
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123101,Couchiching I R,Thunder Bay & Rainy River,ON,CONTAINS,0.0001,0.0001,1.0,22.02
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123066,Roseberry,Thunder Bay & Rainy River,ON,CONTAINS,0.0,0.0,1.0,21.37
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123109,Manitou Rapids Bands I R,Thunder Bay & Rainy River,ON,CONTAINS,0.0001,0.0001,1.0,26.09
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123108,Long Sault Bands I R,Thunder Bay & Rainy River,ON,CONTAINS,0.0002,0.0002,1.0,25.23
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123041,McTavish,Thunder Bay & Rainy River,ON,CONTAINS,0.0011,0.0011,0.9934,15.79
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123046,Miscampbell,Thunder Bay & Rainy River,ON,CONTAINS,0.0003,0.0003,1.0,9.47
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123009,Burriss,Thunder Bay & Rainy River,ON,CONTAINS,0.0004,0.0004,1.0,19.09
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123011,Carpenter,Thunder Bay & Rainy River,ON,CONTAINS,0.0004,0.0004,1.0,18.45
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123115,Slavgecoming I R,Thunder Bay & Rainy River,ON,CONTAINS,0.0002,0.0002,1.0,19.14
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123020,Dobie,Thunder Bay & Rainy River,ON,CONTAINS,0.0003,0.0003,1.0,13.42
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123091,Watten,Thunder Bay & Rainy River,ON,CONTAINS,0.0004,0.0004,1.0,19.43
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123073,Shenstone,Thunder Bay & Rainy River,ON,CONTAINS,0.0002,0.0002,1.0,15.54
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123058,Pearl,Thunder Bay & Rainy River,ON,CONTAINS,0.0,0.0,1.0,10.23
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123110,Nickickouse I R,Thunder Bay & Rainy River,ON,CONTAINS,0.0001,0.0001,1.0,22.02
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123094,Worthington,Thunder Bay & Rainy River,ON,CONTAINS,0.0001,0.0001,1.0,23.47
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123015,Curran,Thunder Bay & Rainy River,ON,CONTAINS,0.0001,0.0001,1.0,19.43
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123113,Pic I R,Thunder Bay & Rainy River,ON,CONTAINS,0.0,0.0,1.0,19.09
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123016,Dance,Thunder Bay & Rainy River,ON,CONTAINS,0.0003,0.0003,1.0,13.42
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123030,Kingsford,Thunder Bay & Rainy River,ON,CONTAINS,0.0004,0.0004,1.0,15.54
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123043,Mather,Thunder Bay & Rainy River,ON,CONTAINS,0.0003,0.0003,1.0,16.32
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123083,Tait,Thunder Bay & Rainy River,ON,CONTAINS,0.0004,0.0004,1.0,13.64
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123057,Pattullo,Thunder Bay & Rainy River,ON,CONTAINS,0.0004,0.0004,1.0,15.79
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123051,Nelles,Thunder Bay & Rainy River,ON,CONTAINS,0.0004,0.0004,1.0,16.32
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123007,Blue,Thunder Bay & Rainy River,ON,CONTAINS,0.0003,0.0003,1.0,10.38
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123104,Hungry Hall Bands I R,Thunder Bay & Rainy River,ON,CONTAINS,0.0005,0.0005,1.0,27.2
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123021,Dorion,Thunder Bay & Rainy River,ON,CONTAINS,0.0008,0.0008,1.0,19.43
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123116,Seine River I R,Thunder Bay & Rainy River,ON,CONTAINS,0.0002,0.0002,1.0,27.2
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123111,N W Bay I R,Thunder Bay & Rainy River,ON,CONTAINS,0.0,0.0,1.0,20.67
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123061,Port Caldwell,Thunder Bay & Rainy River,ON,CONTAINS,0.0,0.0,1.0,17.33
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123023,Fleming,Thunder Bay & Rainy River,ON,CONTAINS,0.0003,0.0003,1.0,16.04
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123062,Potts,Thunder Bay & Rainy River,ON,CONTAINS,0.0003,0.0003,1.0,16.6
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123064,Richardson,Thunder Bay & Rainy River,ON,CONTAINS,0.0004,0.0004,1.0,18.16
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123074,Sifton,Thunder Bay & Rainy River,ON,CONTAINS,0.0004,0.0004,1.0,16.32
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123081,Sutherland,Thunder Bay & Rainy River,ON,CONTAINS,0.0004,0.0004,1.0,21.01
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123063,Pratt,Thunder Bay & Rainy River,ON,CONTAINS,0.0004,0.0004,1.0,16.6
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123112,Pays Plat I R,Thunder Bay & Rainy River,ON,CONTAINS,0.0,0.0,1.0,20.02
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123018,Dewart,Thunder Bay & Rainy River,ON,CONTAINS,0.0003,0.0003,1.0,16.32
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123086,Tovell,Thunder Bay & Rainy River,ON,CONTAINS,0.0004,0.0004,1.0,13.2
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123037,McCrosson,Thunder Bay & Rainy River,ON,CONTAINS,0.0003,0.0003,1.0,15.54
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123096,Along C P R between English & Kaministiquia rivers,Thunder Bay & Rainy River,ON,CONTAINS,0.0,0.0,1.0,24.32
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123048,Morson,Thunder Bay & Rainy River,ON,CONTAINS,0.0005,0.0005,1.0,16.32
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123005,Bigsby Island,Thunder Bay & Rainy River,ON,CONTAINS,0.0,0.0,1.0,17.33
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123099,Transcontinental Ry Graham to mile 10 district E,Thunder Bay & Rainy River,ON,CONTAINS,0.0,0.0,1.0,26.4
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123128,Graham vl not inc-non-inc,Thunder Bay & Rainy River,ON,CONTAINS,0.0,0.0,1.0,27.93
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123098,Railway Construction Camp 3,Thunder Bay & Rainy River,ON,CONTAINS,0.0,0.0,1.0,25.08
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123031,Lake of the Woods,Thunder Bay & Rainy River,ON,CONTAINS,0.0,0.0,1.0,28.87
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123118,Whitefish Bay I R,Thunder Bay & Rainy River,ON,CONTAINS,0.0001,0.0001,1.0,21.37
+ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123035,Paipoonge,Thunder Bay & Rainy River,ON,CONTAINS,0.0007,0.0007,1.0,21.37
+ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123011,Conmee & Pearson,Thunder Bay & Rainy River,ON,CONTAINS,0.0012,0.0012,1.0,24.23
+ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123043,"Stanley to Windigo on C.N. Ry., Silver Islet, High Island & Thunder Bay points",Thunder Bay & Rainy River,ON,CONTAINS,0.0,0.0,1.0,25.41
+ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123033,O'Connor,Thunder Bay & Rainy River,ON,CONTAINS,0.0004,0.0004,0.9762,21.74
+ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123021,"Heron Bay, Michipicoten Island & Port Caldwell",Thunder Bay & Rainy River,ON,CONTAINS,0.0007,0.0007,1.0,23.64
+ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123037,Roddick,Thunder Bay & Rainy River,ON,CONTAINS,0.0001,0.0001,1.0,13.0
+ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123013,Devlin & Woodyat,Thunder Bay & Rainy River,ON,CONTAINS,0.0005,0.0005,1.0,21.69
+ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123012,Crozier,Thunder Bay & Rainy River,ON,CONTAINS,0.0003,0.0003,0.9721,19.09
+ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123015,"Dorion, McGregor, McTavish & Pearl",Thunder Bay & Rainy River,ON,CONTAINS,0.0029,0.0029,0.9976,24.97
+ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123009,Burriss & Devlin (not inc),Thunder Bay & Rainy River,ON,CONTAINS,0.0004,0.0004,1.0,25.41
+ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123030,Miscampbell,Thunder Bay & Rainy River,ON,CONTAINS,0.0003,0.0003,1.0,9.47
+ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123046,Watten,Thunder Bay & Rainy River,ON,CONTAINS,0.0004,0.0004,1.0,19.43
+ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123004,"Barwick, Dobie & Mather",Thunder Bay & Rainy River,ON,CONTAINS,0.0007,0.0007,1.0,19.68
+ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123010,"Carpenter, Dance & Kingsford",Thunder Bay & Rainy River,ON,CONTAINS,0.0011,0.0011,1.0,24.77
+ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123038,"Roseberry, Shenstone & Tait",Thunder Bay & Rainy River,ON,CONTAINS,0.0006,0.0006,1.0,29.33
+ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123007,Blue & Worthington,Thunder Bay & Rainy River,ON,CONTAINS,0.0005,0.0005,1.0,25.98
+ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123017,"Flemming, Potts & Richardson",Thunder Bay & Rainy River,ON,CONTAINS,0.0011,0.0011,1.0,22.68
+ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123042,Sifton & Sutherland,Thunder Bay & Rainy River,ON,CONTAINS,0.0007,0.0007,1.0,23.18
+ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123048,Along C. P. R. between English & Kaministiquia rivers,Thunder Bay & Rainy River,ON,CONTAINS,0.0,0.0,1.0,23.65
+ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123005,"Bigsby Island, Dewart, Morson & Tovell",Thunder Bay & Rainy River,ON,CONTAINS,0.0012,0.0012,1.0,27.51
+ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123051,Indian Reserves,Thunder Bay & Rainy River,ON,CONTAINS,0.0025,0.0025,0.9962,24.61
+ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123050,Transcontinental Ry. Graham to mile 10 district E,Thunder Bay & Rainy River,ON,CONTAINS,0.0,0.0,1.0,26.14
+ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123060,Graham vl,Thunder Bay & Rainy River,ON,CONTAINS,0.0,0.0,1.0,12.62
+ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123049,Railway Construction Camp 3,Thunder Bay & Rainy River,ON,CONTAINS,0.0,0.0,1.0,25.08
+ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123024,Lake of the Woods,Thunder Bay & Rainy River,ON,CONTAINS,0.0,0.0,1.0,28.87
+ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123029,Melgund,Thunder Bay & Rainy River,ON,CONTAINS,0.0003,0.0003,1.0,13.0
+ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123047,Zealand,Thunder Bay & Rainy River,ON,CONTAINS,0.0009,0.0009,1.0,16.04
+ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123016,Eaton & Van Home,Thunder Bay & Rainy River,ON,CONTAINS,0.0007,0.0007,1.0,19.14
+ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123052,Unorganised,Thunder Bay & Rainy River,ON,CONTAINS,0.6165,0.6201,0.9904,31.87
+ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123040,Bowell & Wabigoon,Thunder Bay & Rainy River,ON,CONTAINS,0.0003,0.0003,0.9735,21.37
+ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123008,"Britton, Rugby & Wainwright",Thunder Bay & Rainy River,ON,CONTAINS,0.001,0.001,1.0,27.2
+ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123026,Long Lake Post,Thunder Bay & Rainy River,ON,CONTAINS,0.0,0.0,1.0,22.36
+ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123045,Sturgeon Lake District G.T.P,Thunder Bay & Rainy River,ON,CONTAINS,0.0,0.0,1.0,28.95
 ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON055029,Transcontinental Ry,Algoma W-O,ON,CONTAINS,0.0,0.0,1.0,41.81
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123045,Melgund,Thunder Bay & Rainy River,ON,CONTAINS,0.0003,0.0003,1.0,13.0
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123087,Van Home,Thunder Bay & Rainy River,ON,CONTAINS,0.0003,0.0003,1.0,18.76
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123002,Aubrey,Thunder Bay & Rainy River,ON,CONTAINS,0.0006,0.0006,1.0,16.32
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123085,Temple,Thunder Bay & Rainy River,ON,CONTAINS,0.0004,0.0004,1.0,13.2
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123095,Zealand,Thunder Bay & Rainy River,ON,CONTAINS,0.0009,0.0009,1.0,16.04
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123026,Haycock,Thunder Bay & Rainy River,ON,CONTAINS,0.0003,0.0003,0.9689,13.0
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123100,Other parts-aut parties,Thunder Bay & Rainy River,ON,CONTAINS,0.6155,0.6192,0.9904,28.71
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123103,Gull Bay I R,Thunder Bay & Rainy River,ON,CONTAINS,0.0002,0.0002,1.0,20.34
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123090,Wainwright,Thunder Bay & Rainy River,ON,CONTAINS,0.0003,0.0003,1.0,18.16
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123022,Eton,Thunder Bay & Rainy River,ON,CONTAINS,0.0003,0.0003,1.0,16.89
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123070,Sandford,Thunder Bay & Rainy River,ON,CONTAINS,0.0003,0.0003,1.0,18.76
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123049,Mutrie,Thunder Bay & Rainy River,ON,CONTAINS,0.0003,0.0003,1.0,19.43
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123107,Long Lake I R,Thunder Bay & Rainy River,ON,CONTAINS,0.0003,0.0003,1.0,25.41
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123035,Long Lake Post,Thunder Bay & Rainy River,ON,CONTAINS,0.0,0.0,1.0,22.36
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123008,Britton,Thunder Bay & Rainy River,ON,CONTAINS,0.0003,0.0003,1.0,22.13
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123069,Rugby,Thunder Bay & Rainy River,ON,CONTAINS,0.0003,0.0003,1.0,13.42
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123075,Smellie,Thunder Bay & Rainy River,ON,CONTAINS,0.0003,0.0003,1.0,13.0
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123028,Jack Fish Island,Thunder Bay & Rainy River,ON,CONTAINS,0.0,0.0,1.0,19.14
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123068,Rowell,Thunder Bay & Rainy River,ON,CONTAINS,0.0003,0.0003,1.0,13.2
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123080,Sturgeon Lake District GTP,Thunder Bay & Rainy River,ON,CONTAINS,0.0,0.0,1.0,29.72
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123082,Swan Lake,Thunder Bay & Rainy River,ON,CONTAINS,0.0,0.0,1.0,15.54
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123089,Wabinosh Bay,Thunder Bay & Rainy River,ON,CONTAINS,0.0,0.0,1.0,17.6
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123092,White DogPost,Thunder Bay & Rainy River,ON,CONTAINS,0.0,0.0,1.0,22.72
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123025,Grassy Narrows,Thunder Bay & Rainy River,ON,CONTAINS,0.0,0.0,1.0,22.36
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123032,Lake Savant,Thunder Bay & Rainy River,ON,CONTAINS,0.0,0.0,1.0,17.87
+ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123020,"Grassy Narrows, Swan Lake & White Dog Post",Thunder Bay & Rainy River,ON,CONTAINS,0.0,0.0,1.0,26.34
+ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123025,Lake Savant,Thunder Bay & Rainy River,ON,CONTAINS,0.0,0.0,1.0,17.87
 ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON055004,English River,Algoma W-O,ON,CONTAINS,0.0,0.0,1.0,44.04
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123084,Tamarack Lake,Thunder Bay & Rainy River,ON,CONTAINS,0.0,0.0,1.0,14.64
-ON044079,Unorganized territory—Ter. non-organisé,Algoma,ON,ON123076,Smooth Rock Lake,Thunder Bay & Rainy River,ON,CONTAINS,0.0,0.0,1.0,19.14
-ON044047,Kalmar,Algoma,ON,ON123100,Other parts-aut parties,Thunder Bay & Rainy River,ON,WITHIN,0.0023,1.0,0.0023,18.35
-ON044053,Manitou,Algoma,ON,ON123100,Other parts-aut parties,Thunder Bay & Rainy River,ON,WITHIN,0.0042,1.0,0.0042,17.87
-ON044040,Empress Mine,Algoma,ON,ON123100,Other parts-aut parties,Thunder Bay & Rainy River,ON,WITHIN,0.0,1.0,0.0,31.87
-ON044054,Mikado Mine,Algoma,ON,ON123100,Other parts-aut parties,Thunder Bay & Rainy River,ON,WITHIN,0.0,1.0,0.0,20.34
-ON044066,Regina Mine,Algoma,ON,ON123100,Other parts-aut parties,Thunder Bay & Rainy River,ON,WITHIN,0.0,1.0,0.0,24.46
-ON044055,Mine Centre,Algoma,ON,ON123100,Other parts-aut parties,Thunder Bay & Rainy River,ON,WITHIN,0.0,1.0,0.0,24.46
+ON044047,Kalmar,Algoma,ON,ON123052,Unorganised,Thunder Bay & Rainy River,ON,WITHIN,0.0023,1.0,0.0023,12.11
+ON044053,Manitou,Algoma,ON,ON123052,Unorganised,Thunder Bay & Rainy River,ON,WITHIN,0.0042,1.0,0.0042,27.2
+ON044040,Empress Mine,Algoma,ON,ON123052,Unorganised,Thunder Bay & Rainy River,ON,WITHIN,0.0,1.0,0.0,22.13
+ON044054,Mikado Mine,Algoma,ON,ON123052,Unorganised,Thunder Bay & Rainy River,ON,WITHIN,0.0,1.0,0.0,22.96
+ON044066,Regina Mine,Algoma,ON,ON123052,Unorganised,Thunder Bay & Rainy River,ON,WITHIN,0.0,1.0,0.0,35.69
+ON044055,Mine Centre,Algoma,ON,ON123052,Unorganised,Thunder Bay & Rainy River,ON,WITHIN,0.0,1.0,0.0,22.96
 ON131008,"Toronto Junction, Town—Ville","York, West—Ouest",ON,ON138003,Toronto c pt,York S,ON,WITHIN,0.0868,0.9997,0.0868,54.86
 ON047003,"Brockville Town, North Ward—Quartier Nord",Brockville,ON,ON058004,Brockville t-v,Brockville,ON,WITHIN,0.2961,1.0,0.2961,60.55
 ON047005,"Brockville Town, West Ward—Quartier Ouest",Brockville,ON,ON058004,Brockville t-v,Brockville,ON,WITHIN,0.1973,1.0,0.1973,60.55
 ON047001,"Brockville Town, Centre Ward—Quartier Centre",Brockville,ON,ON058004,Brockville t-v,Brockville,ON,WITHIN,0.1048,1.0,0.1048,58.97
-ON047004,"Brockville Town, South Ward—Quartier Sud",Brockville,ON,ON058001,Elizabeth town,Brockville,ON,WITHIN,0.0014,1.0,0.0014,48.15
+ON047004,"Brockville Town, South Ward—Quartier Sud",Brockville,ON,ON058001,Elizabethtown,Brockville,ON,WITHIN,0.0014,1.0,0.0014,45.85
+NT206001,Athabaska,Unorganized Territories,NT,SK208006,Clear Lake I R,Battleford,SK,CONTAINS,0.0,0.0,1.0,27.35
+NT206001,Athabaska,Unorganized Territories,NT,SK208004,Canoe Lake I R,Battleford,SK,CONTAINS,0.0001,0.0001,1.0,27.35
+NT206001,Athabaska,Unorganized Territories,NT,SK208005,Canoe River I R,Battleford,SK,CONTAINS,0.0,0.0,1.0,14.92
 NT206001,Athabaska,Unorganized Territories,NT,SK212014,Pelican Narrows I R,Prince Albert,SK,CONTAINS,0.0,0.0,1.0,26.67
 NT206001,Athabaska,Unorganized Territories,NT,SK212017,Sucker Point I R,Prince Albert,SK,CONTAINS,0.0,0.0,1.0,22.87
 NT206001,Athabaska,Unorganized Territories,NT,SK212005,Deer Lake and Forks I R,Prince Albert,SK,CONTAINS,0.0,0.0,1.0,24.79
 NT206001,Athabaska,Unorganized Territories,NT,SK212016,Stanley I R,Prince Albert,SK,CONTAINS,0.0,0.0,1.0,25.67
-NT206001,Athabaska,Unorganized Territories,NT,SK208006,Clear Lake I R,Battleford,SK,CONTAINS,0.0,0.0,1.0,27.35
 NT206001,Athabaska,Unorganized Territories,NT,SK212003,Barren Land I R,Prince Albert,SK,CONTAINS,0.0,0.0,1.0,29.17
-NT206001,Athabaska,Unorganized Territories,NT,SK208004,Canoe Lake I R,Battleford,SK,CONTAINS,0.0001,0.0001,1.0,27.35
-NT206001,Athabaska,Unorganized Territories,NT,SK208005,Canoe River I R,Battleford,SK,CONTAINS,0.0,0.0,1.0,14.92
 NT206001,Athabaska,Unorganized Territories,NT,SK212008,Isle a la Crosse I R,Prince Albert,SK,CONTAINS,0.0,0.0,1.0,26.15
 NT206001,Athabaska,Unorganized Territories,NT,SK208011,Isle a la Crosse I R,Battleford,SK,CONTAINS,0.0,0.0,1.0,23.57
 NT206001,Athabaska,Unorganized Territories,NT,SK208003,Buffalo River I R,Battleford,SK,CONTAINS,0.0001,0.0001,1.0,19.86
@@ -1120,8 +914,8 @@ NT205029,Kinistino,Saskatchewan,NT,SK209027,Muenster vl (T37 R21 MW2),Humboldt,S
 NT205029,Kinistino,Saskatchewan,NT,SK209004,Humbolt t-v,Humboldt,SK,CONTAINS,0.0012,0.0012,1.0,10.0
 NT205029,Kinistino,Saskatchewan,NT,SK212024,Kinistino vl (T45 R21 MW2),Prince Albert,SK,CONTAINS,0.0012,0.0012,1.0,43.2
 NT205014,Colleston,Saskatchewan,NT,SK212001,210 townships,Prince Albert,SK,WITHIN,0.0108,1.0,0.0108,26.29
-NT205007,Birch Hills,Saskatchewan,NT,SK212021,Birch Hills vl (T46 R24 MW2),Prince Albert,SK,CONTAINS,0.0052,0.0052,1.0,46.69
 NT205007,Birch Hills,Saskatchewan,NT,SK212001,210 townships,Prince Albert,SK,WITHIN,0.0285,0.9948,0.0285,30.53
+NT205007,Birch Hills,Saskatchewan,NT,SK212021,Birch Hills vl (T46 R24 MW2),Prince Albert,SK,CONTAINS,0.0052,0.0052,1.0,46.69
 NT205027,Halcro,Saskatchewan,NT,SK212001,210 townships,Prince Albert,SK,WITHIN,0.0048,0.9997,0.0048,14.57
 NT205018,Domremy,Saskatchewan,NT,SK212001,210 townships,Prince Albert,SK,WITHIN,0.0105,1.0,0.0105,14.2
 NT205048,Red Deer,Saskatchewan,NT,SK212001,210 townships,Prince Albert,SK,WITHIN,0.0089,0.9967,0.0089,13.87
@@ -1164,8 +958,8 @@ NT205003,Batoche,Saskatchewan,NT,SK216002,Batoche I R,Saskatoon,SK,CONTAINS,0.01
 NT205020,Ebenfeld,Saskatchewan,NT,SK216001,184 townships,Saskatoon,SK,WITHIN,0.0364,0.9956,0.0364,26.67
 NT205020,Ebenfeld,Saskatchewan,NT,SK216025,Laird vl (T43 R5 MW3),Saskatoon,SK,CONTAINS,0.0021,0.0021,1.0,29.66
 NT205059,Steep Creek,Saskatchewan,NT,SK212001,210 townships,Prince Albert,SK,WITHIN,0.0093,1.0,0.0093,18.87
-NT205039,Muskeg Lake,Saskatchewan,NT,SK212013,Petaquakeys I R,Prince Albert,SK,CONTAINS,0.0474,0.0474,1.0,28.74
 NT205039,Muskeg Lake,Saskatchewan,NT,SK212001,210 townships,Prince Albert,SK,WITHIN,0.0809,0.9526,0.0813,13.03
+NT205039,Muskeg Lake,Saskatchewan,NT,SK212013,Petaquakeys I R,Prince Albert,SK,CONTAINS,0.0474,0.0474,1.0,28.74
 NT205053,St. Louis,Saskatchewan,NT,SK212001,210 townships,Prince Albert,SK,WITHIN,0.0164,0.9847,0.0164,32.65
 NT205009,Brancepeth,Saskatchewan,NT,SK212001,210 townships,Prince Albert,SK,WITHIN,0.0123,0.999,0.0123,19.37
 NT205011,Butler,Saskatchewan,NT,SK212001,210 townships,Prince Albert,SK,WITHIN,0.0161,0.9999,0.0161,14.57
@@ -1177,8 +971,8 @@ NT205034,Meota,Saskatchewan,NT,SK208001,423 townships,Battleford,SK,WITHIN,0.053
 NT205006,Bellevue,Saskatchewan,NT,SK209010,Colonsay vl (T35 R28 MW2),Humboldt,SK,CONTAINS,0.0016,0.0016,1.0,11.48
 NT205006,Bellevue,Saskatchewan,NT,SK209019,Howell vl (T39 R28 MW2),Humboldt,SK,CONTAINS,0.0016,0.0016,1.0,21.06
 NT205065,Tiefengrund,Saskatchewan,NT,SK212001,210 townships,Prince Albert,SK,WITHIN,0.0052,1.0,0.0052,18.87
-NT205058,Shellbrook,Saskatchewan,NT,SK212025,Shellbrook vl (T49 R3 MW3),Prince Albert,SK,CONTAINS,0.003,0.003,1.0,46.09
 NT205058,Shellbrook,Saskatchewan,NT,SK212001,210 townships,Prince Albert,SK,WITHIN,0.0473,0.9592,0.0474,19.37
+NT205058,Shellbrook,Saskatchewan,NT,SK212025,Shellbrook vl (T49 R3 MW3),Prince Albert,SK,CONTAINS,0.003,0.003,1.0,46.09
 NT205028,Island Lake,Saskatchewan,NT,SK212001,210 townships,Prince Albert,SK,WITHIN,0.0107,1.0,0.0107,18.87
 NT205049,Red Deer River,Saskatchewan,NT,SK212023,Hudson Bay Jc vl (T45 R3 MW2),Prince Albert,SK,CONTAINS,0.0003,0.0003,1.0,23.48
 NT205043,Pas Mountain,Saskatchewan,NT,SK212002,Unorganized parts,Prince Albert,SK,WITHIN,0.0224,1.0,0.0224,26.51
@@ -1218,10 +1012,10 @@ NT205060,Stony Creek,Saskatchewan,NT,SK209008,Watson t-v,Humboldt,SK,CONTAINS,0.
 NT205060,Stony Creek,Saskatchewan,NT,SK212029,Tisdale vl (T45 R17 MW2),Prince Albert,SK,CONTAINS,0.0003,0.0003,1.0,23.2
 NT205060,Stony Creek,Saskatchewan,NT,SK212026,Star City vl (T45 R17 MW2),Prince Albert,SK,CONTAINS,0.0001,0.0001,1.0,26.12
 NT205060,Stony Creek,Saskatchewan,NT,SK212019,Melfort t-v,Prince Albert,SK,CONTAINS,0.0003,0.0003,1.0,19.93
-NT204073,Touchwood,"Assiniboia, West—Ouest",NT,SK209031,Raymore vl (T28 R18 MW2),Humboldt,SK,CONTAINS,0.0008,0.0008,0.9547,14.48
 NT204073,Touchwood,"Assiniboia, West—Ouest",NT,SK209037,Wynyard vl (T32 R16 MW2),Humboldt,SK,CONTAINS,0.0009,0.0009,1.0,14.48
 NT204073,Touchwood,"Assiniboia, West—Ouest",NT,SK209028,Punnichy vl (T28 R17 MW2),Humboldt,SK,CONTAINS,0.0002,0.0002,1.0,22.47
 NT204073,Touchwood,"Assiniboia, West—Ouest",NT,SK209030,Quinton vl (T28 R18 MW2),Humboldt,SK,CONTAINS,0.0003,0.0003,1.0,18.73
+NT204073,Touchwood,"Assiniboia, West—Ouest",NT,SK209031,Raymore vl (T28 R18 MW2),Humboldt,SK,CONTAINS,0.0008,0.0008,0.9547,14.48
 NT204070,Surprise Valley,"Assiniboia, West—Ouest",NT,SK214027,Ogema vl (T7 R22 MW2),Regina,SK,CONTAINS,0.0004,0.0004,1.0,21.98
 NT204070,Surprise Valley,"Assiniboia, West—Ouest",NT,SK214011,Amulet vl (T8 R21 MW2),Regina,SK,CONTAINS,0.0009,0.0009,1.0,25.35
 NT204013,Coventry,"Assiniboia, West—Ouest",NT,SK214019,Drinkwater vl (T15 R23 MW2),Regina,SK,CONTAINS,0.005,0.005,1.0,18.43
@@ -1286,8 +1080,8 @@ NT204069,Strassburg,"Assiniboia, West—Ouest",NT,SK209032,Semans vl (T28 R20 MW
 NT204069,Strassburg,"Assiniboia, West—Ouest",NT,SK209033,Tate vl (T28 R21 MW2),Humboldt,SK,CONTAINS,0.0005,0.0005,1.0,19.55
 NT204069,Strassburg,"Assiniboia, West—Ouest",NT,SK209006,Nokomis t-v,Humboldt,SK,CONTAINS,0.0005,0.0005,1.0,19.33
 NT204069,Strassburg,"Assiniboia, West—Ouest",NT,SK209026,Lockwood vl (T31 R22 MW2),Humboldt,SK,CONTAINS,0.0002,0.0002,1.0,14.0
-NT204069,Strassburg,"Assiniboia, West—Ouest",NT,SK209012,Drake vl (T32 R22 MW2),Humboldt,SK,CONTAINS,0.0005,0.0005,1.0,19.12
 NT204069,Strassburg,"Assiniboia, West—Ouest",NT,SK209021,Jansen vl (T32 R20 MW2),Humboldt,SK,CONTAINS,0.0002,0.0002,1.0,18.73
+NT204069,Strassburg,"Assiniboia, West—Ouest",NT,SK209012,Drake vl (T32 R22 MW2),Humboldt,SK,CONTAINS,0.0005,0.0005,1.0,19.12
 NT204069,Strassburg,"Assiniboia, West—Ouest",NT,SK209005,Lanigan t-v,Humboldt,SK,CONTAINS,0.0005,0.0005,1.0,19.33
 NT204069,Strassburg,"Assiniboia, West—Ouest",NT,SK209018,Guernsey vl (T33 R23 MW2),Humboldt,SK,CONTAINS,0.0001,0.0001,1.0,18.0
 NT204079,Yellow Grass,"Assiniboia, West—Ouest",NT,SK214010,Yellow Grass t-v,Regina,SK,CONTAINS,0.0011,0.0011,1.0,66.43
@@ -1359,8 +1153,8 @@ NT203105,Willocks,"Assiniboia, East—Est",NT,SK207001,209 townships,Assiniboia,
 NT203001,Alameda,"Assiniboia, East—Est",NT,SK207016,Frobisher vl (T3 R4 MW2),Assiniboia,SK,CONTAINS,0.0031,0.0031,1.0,29.03
 NT203001,Alameda,"Assiniboia, East—Est",NT,SK207003,Alameda t-v,Assiniboia,SK,CONTAINS,0.0031,0.0031,1.0,74.44
 NT203001,Alameda,"Assiniboia, East—Est",NT,SK207001,209 townships,Assiniboia,SK,WITHIN,0.0432,0.9937,0.0432,20.0
-NT203018,Clare,"Assiniboia, East—Est",NT,SK207001,209 townships,Assiniboia,SK,WITHIN,0.0148,0.9909,0.0148,20.0
 NT203018,Clare,"Assiniboia, East—Est",NT,SK207004,Arcola t-v,Assiniboia,SK,CONTAINS,0.0091,0.0091,1.0,48.0
+NT203018,Clare,"Assiniboia, East—Est",NT,SK207001,209 townships,Assiniboia,SK,WITHIN,0.0148,0.9909,0.0148,20.0
 NT203012,Carlyle,"Assiniboia, East—Est",NT,SK207026,Manor vl (T7 R1 MW2),Assiniboia,SK,CONTAINS,0.0039,0.0039,1.0,35.56
 NT203012,Carlyle,"Assiniboia, East—Est",NT,SK207005,Carlyle t-v,Assiniboia,SK,CONTAINS,0.0039,0.0039,1.0,74.44
 NT203014,Carnduff,"Assiniboia, East—Est",NT,SK207006,Carnduff t-v,Assiniboia,SK,CONTAINS,0.0034,0.0034,1.0,76.0
@@ -1375,20 +1169,20 @@ NT203005,Bellegarde,"Assiniboia, East—Est",NT,SK207031,Redvers vl (T7 R32 MW1)
 NT203005,Bellegarde,"Assiniboia, East—Est",NT,SK207001,209 townships,Assiniboia,SK,WITHIN,0.0453,0.9938,0.0453,20.0
 NT203010,Carievale,"Assiniboia, East—Est",NT,SK207011,Carievale vl (T2 R31 MW1),Assiniboia,SK,CONTAINS,0.0067,0.0067,1.0,57.06
 NT203010,Carievale,"Assiniboia, East—Est",NT,SK207001,209 townships,Assiniboia,SK,WITHIN,0.0202,0.9933,0.0202,26.36
+NT203002,Alma,"Assiniboia, East—Est",NT,SK207015,Forget vl (T8 R7 MW2),Assiniboia,SK,CONTAINS,0.0016,0.0016,1.0,31.2
 NT203002,Alma,"Assiniboia, East—Est",NT,SK207001,209 townships,Assiniboia,SK,WITHIN,0.0861,0.9946,0.0861,20.0
+NT203002,Alma,"Assiniboia, East—Est",NT,SK207033,Stoughton vl (T8 R8 MW2),Assiniboia,SK,CONTAINS,0.0016,0.0016,1.0,30.0
 NT203002,Alma,"Assiniboia, East—Est",NT,SK207022,Heward vl (T9 R9 MW2),Assiniboia,SK,CONTAINS,0.0016,0.0016,1.0,36.8
 NT203002,Alma,"Assiniboia, East—Est",NT,SK207012,Creelman vl (T10 R10 MW1),Assiniboia,SK,CONTAINS,0.0007,0.0007,1.0,34.48
-NT203002,Alma,"Assiniboia, East—Est",NT,SK207015,Forget vl (T8 R7 MW2),Assiniboia,SK,CONTAINS,0.0016,0.0016,1.0,31.2
-NT203002,Alma,"Assiniboia, East—Est",NT,SK207033,Stoughton vl (T8 R8 MW2),Assiniboia,SK,CONTAINS,0.0016,0.0016,1.0,30.0
 NT203041,Gainsborough,"Assiniboia, East—Est",NT,SK207017,Gainsboro vl (T2 R30 MW1),Assiniboia,SK,CONTAINS,0.006,0.006,1.0,54.05
 NT203041,Gainsborough,"Assiniboia, East—Est",NT,SK207001,209 townships,Assiniboia,SK,WITHIN,0.0227,0.994,0.0227,36.8
 NT203043,Glen Ewen,"Assiniboia, East—Est",NT,SK207018,Glen Ewen vl (T3 R1 MW2),Assiniboia,SK,CONTAINS,0.0059,0.0059,1.0,58.18
 NT203043,Glen Ewen,"Assiniboia, East—Est",NT,SK207001,209 townships,Assiniboia,SK,WITHIN,0.0244,0.9941,0.0244,39.09
-NT203078,Percy,"Assiniboia, East—Est",NT,SK207001,209 townships,Assiniboia,SK,WITHIN,0.0319,0.9956,0.0319,27.78
 NT203078,Percy,"Assiniboia, East—Est",NT,SK207023,Kisbey vl (T8 R5 MW2),Assiniboia,SK,CONTAINS,0.0044,0.0044,0.9816,30.77
+NT203078,Percy,"Assiniboia, East—Est",NT,SK207001,209 townships,Assiniboia,SK,WITHIN,0.0319,0.9956,0.0319,27.78
+NT203064,Maryfield,"Assiniboia, East—Est",NT,SK207027,Maryfield vl (T10 R30 MW1),Assiniboia,SK,CONTAINS,0.0109,0.0109,1.0,56.0
 NT203064,Maryfield,"Assiniboia, East—Est",NT,SK207001,209 townships,Assiniboia,SK,WITHIN,0.0122,0.9783,0.0123,26.36
 NT203064,Maryfield,"Assiniboia, East—Est",NT,SK207013,Fairlight vl (T10 R31 MW2),Assiniboia,SK,CONTAINS,0.0109,0.0109,0.9993,36.0
-NT203064,Maryfield,"Assiniboia, East—Est",NT,SK207027,Maryfield vl (T10 R30 MW1),Assiniboia,SK,CONTAINS,0.0109,0.0109,1.0,56.0
 NT203072,North Portal,"Assiniboia, East—Est",NT,SK207029,North Portal vl (T1 R5 MW2),Assiniboia,SK,CONTAINS,0.0137,0.0137,1.0,63.08
 NT203072,North Portal,"Assiniboia, East—Est",NT,SK207001,209 townships,Assiniboia,SK,WITHIN,0.0098,0.9863,0.0098,36.8
 NT203087,Roche Percée,"Assiniboia, East—Est",NT,SK207032,Roche Percee vl (T1 R6 MW2),Assiniboia,SK,CONTAINS,0.0034,0.0034,1.0,59.49
@@ -1400,29 +1194,29 @@ NT203099,Wawota,"Assiniboia, East—Est",NT,SK207001,209 townships,Assiniboia,SK
 NT203099,Wawota,"Assiniboia, East—Est",NT,SK207035,Wawota vl (T11 R1 MW2),Assiniboia,SK,CONTAINS,0.0132,0.0132,1.0,50.0
 NT203035,Fishing Lake,"Assiniboia, East—Est",NT,SK210013,Margo vl,Mackenzie,SK,CONTAINS,0.0007,0.0007,1.0,29.28
 NT203035,Fishing Lake,"Assiniboia, East—Est",NT,SK209036,Wadena vl (T34 R13 MW2),Humboldt,SK,CONTAINS,0.0026,0.0026,1.0,18.43
-NT203038,Foam Lake,"Assiniboia, East—Est",NT,SK209015,Foam Lake vl (T30 R14 MW2),Humboldt,SK,CONTAINS,0.0047,0.0047,1.0,42.43
 NT203038,Foam Lake,"Assiniboia, East—Est",NT,SK209024,Leslie vl (T31 R13 MW2),Humboldt,SK,CONTAINS,0.0011,0.0011,1.0,15.18
 NT203038,Foam Lake,"Assiniboia, East—Est",NT,SK209001,319 townships,Humboldt,SK,WITHIN,0.0192,0.9941,0.0192,12.79
+NT203038,Foam Lake,"Assiniboia, East—Est",NT,SK209015,Foam Lake vl (T30 R14 MW2),Humboldt,SK,CONTAINS,0.0047,0.0047,1.0,42.43
+NT203024,Dauphinais,"Assiniboia, East—Est",NT,SK209022,Jasmin vl (T26 R12 MW2),Humboldt,SK,CONTAINS,0.0003,0.0003,1.0,19.16
 NT203024,Dauphinais,"Assiniboia, East—Est",NT,SK210011,Hubbard vl,Mackenzie,SK,CONTAINS,0.0026,0.0026,1.0,22.28
 NT203024,Dauphinais,"Assiniboia, East—Est",NT,SK209020,Ituna vl (T25 R11 MW2),Humboldt,SK,CONTAINS,0.0016,0.0016,1.0,19.55
-NT203024,Dauphinais,"Assiniboia, East—Est",NT,SK209022,Jasmin vl (T26 R12 MW2),Humboldt,SK,CONTAINS,0.0003,0.0003,1.0,19.16
 NT203097,Touchwood,"Assiniboia, East—Est",NT,SK209023,Kelliher vl (T26 R13 MW2),Humboldt,SK,CONTAINS,0.0026,0.0026,1.0,14.66
 NT203097,Touchwood,"Assiniboia, East—Est",NT,SK209025,Le Ross vl (T27 R14 MW2),Humboldt,SK,CONTAINS,0.0024,0.0024,1.0,14.91
 NT203022,Crooked Lakes,"Assiniboia, East—Est",NT,SK210001,164 townships,Mackenzie,SK,WITHIN,0.0335,1.0,0.0335,19.05
 NT203028,Ebenezer,"Assiniboia, East—Est",NT,SK210001,164 townships,Mackenzie,SK,WITHIN,0.0202,1.0,0.0202,14.94
 NT203102,Whitesand,"Assiniboia, East—Est",NT,SK210001,164 townships,Mackenzie,SK,WITHIN,0.0136,1.0,0.0136,33.73
 NT203055,Insinger,"Assiniboia, East—Est",NT,SK210001,164 townships,Mackenzie,SK,WITHIN,0.1053,1.0,0.1053,28.28
+NT203025,Devils Lake,"Assiniboia, East—Est",NT,SK210003,Canor t-v,Mackenzie,SK,CONTAINS,0.0017,0.0017,1.0,15.28
 NT203025,Devils Lake,"Assiniboia, East—Est",NT,SK210001,164 townships,Mackenzie,SK,WITHIN,0.1087,0.9966,0.1087,19.94
 NT203025,Devils Lake,"Assiniboia, East—Est",NT,SK210005,Buchanan vl,Mackenzie,SK,CONTAINS,0.0017,0.0017,1.0,21.0
-NT203025,Devils Lake,"Assiniboia, East—Est",NT,SK210003,Canor t-v,Mackenzie,SK,CONTAINS,0.0017,0.0017,1.0,15.28
 NT203109,Yorkton,"Assiniboia, East—Est",NT,SK210004,Yorkton t-v,Mackenzie,SK,CONTAINS,0.0031,0.0031,1.0,62.72
 NT203063,MacNutt,"Assiniboia, East—Est",NT,SK210006,Calder Sta vl,Mackenzie,SK,CONTAINS,0.0019,0.0019,1.0,22.28
 NT203063,MacNutt,"Assiniboia, East—Est",NT,SK210001,164 townships,Mackenzie,SK,WITHIN,0.0268,0.9981,0.0268,15.28
 NT203057,Kamsack,"Assiniboia, East—Est",NT,SK210010,Togo vl,Mackenzie,SK,CONTAINS,0.001,0.001,1.0,8.28
-NT203057,Kamsack,"Assiniboia, East—Est",NT,SK210001,164 townships,Mackenzie,SK,WITHIN,0.0889,0.9969,0.089,15.28
 NT203057,Kamsack,"Assiniboia, East—Est",NT,SK210007,Kamsack vl,Mackenzie,SK,CONTAINS,0.0021,0.0021,1.0,65.92
-NT203090,Sheho,"Assiniboia, East—Est",NT,SK210008,Sheho vl,Mackenzie,SK,CONTAINS,0.0029,0.0029,1.0,62.12
+NT203057,Kamsack,"Assiniboia, East—Est",NT,SK210001,164 townships,Mackenzie,SK,WITHIN,0.0889,0.9969,0.089,15.28
 NT203090,Sheho,"Assiniboia, East—Est",NT,SK210012,Invermay vl,Mackenzie,SK,CONTAINS,0.0029,0.0029,1.0,17.03
+NT203090,Sheho,"Assiniboia, East—Est",NT,SK210008,Sheho vl,Mackenzie,SK,CONTAINS,0.0029,0.0029,1.0,62.12
 NT203004,Beaverdale,"Assiniboia, East—Est",NT,SK210015,Springside vl,Mackenzie,SK,CONTAINS,0.002,0.002,1.0,26.54
 NT203004,Beaverdale,"Assiniboia, East—Est",NT,SK210009,Theodore vl,Mackenzie,SK,CONTAINS,0.0019,0.0019,0.9988,28.28
 NT203027,Dunleath,"Assiniboia, East—Est",NT,SK210016,Stornoway vl,Mackenzie,SK,CONTAINS,0.0078,0.0078,1.0,22.28
@@ -1502,20 +1296,20 @@ NT203021,Crescent,"Assiniboia, East—Est",NT,SK215001,133 townships,Saltcoats,S
 NT203021,Crescent,"Assiniboia, East—Est",NT,SK215027,Waldron vl (T21 R4 MW2),Saltcoats,SK,CONTAINS,0.0017,0.0017,1.0,23.89
 NT203021,Crescent,"Assiniboia, East—Est",NT,SK215005,Melville t-v,Saltcoats,SK,CONTAINS,0.0101,0.0101,1.0,31.34
 NT203040,Fort Qu’Appelle,"Assiniboia, East—Est",NT,SK213014,Ft. Qu'Appelle vl (T21 R13 MW2),Qu'Appelle,SK,CONTAINS,0.0067,0.0067,1.0,42.52
-NT203076,Pelly,"Assiniboia, East—Est",NT,SK210002,Pelly Indian Agency,Mackenzie,SK,CONTAINS,0.0894,0.0894,1.0,37.44
 NT203076,Pelly,"Assiniboia, East—Est",NT,SK210014,Pelly vl,Mackenzie,SK,CONTAINS,0.0013,0.0013,1.0,62.12
+NT203076,Pelly,"Assiniboia, East—Est",NT,SK210002,Pelly Indian Agency,Mackenzie,SK,CONTAINS,0.0894,0.0894,1.0,37.44
 NT203091,Sintaluta,"Assiniboia, East—Est",NT,SK213009,Sintaluta t-v,Qu'Appelle,SK,CONTAINS,0.0067,0.0067,1.0,63.27
 NT203107,Wishart,"Assiniboia, East—Est",NT,SK209014,Elfros vl (T32 R14 MW2),Humboldt,SK,CONTAINS,0.0018,0.0018,0.9992,15.76
 NT203107,Wishart,"Assiniboia, East—Est",NT,SK209001,319 townships,Humboldt,SK,WITHIN,0.0485,0.9982,0.0485,27.43
+NT203100,Weyburn,"Assiniboia, East—Est",NT,SK207021,Halbrite vl (T6 R12 MW2),Assiniboia,SK,CONTAINS,0.0007,0.0007,1.0,29.03
 NT203100,Weyburn,"Assiniboia, East—Est",NT,SK207028,Midale vl (T5 R11 MW2),Assiniboia,SK,CONTAINS,0.0004,0.0004,1.0,29.66
 NT203100,Weyburn,"Assiniboia, East—Est",NT,SK207019,Goodwater vl (T5 R13 MW2),Assiniboia,SK,CONTAINS,0.0002,0.0002,1.0,33.12
 NT203100,Weyburn,"Assiniboia, East—Est",NT,SK214016,Colgate vl (T5 R15 MW2),Regina,SK,CONTAINS,0.0002,0.0002,1.0,16.26
-NT203100,Weyburn,"Assiniboia, East—Est",NT,SK207021,Halbrite vl (T6 R12 MW2),Assiniboia,SK,CONTAINS,0.0007,0.0007,1.0,29.03
 NT203100,Weyburn,"Assiniboia, East—Est",NT,SK207020,Griffin vl (T8 R11 MW2),Assiniboia,SK,CONTAINS,0.0002,0.0002,1.0,29.33
 NT203100,Weyburn,"Assiniboia, East—Est",NT,SK207009,Weyburn t-v,Assiniboia,SK,CONTAINS,0.0041,0.0041,1.0,74.44
+NT203101,"Weyburn, North—Nord","Assiniboia, East—Est",NT,SK214025,McTaggart vl (T9 R15 MW2),Regina,SK,CONTAINS,0.0018,0.0018,1.0,19.65
 NT203101,"Weyburn, North—Nord","Assiniboia, East—Est",NT,SK207014,Fillmore vl (T11 R11 MW1),Assiniboia,SK,CONTAINS,0.0018,0.0018,1.0,32.73
 NT203101,"Weyburn, North—Nord","Assiniboia, East—Est",NT,SK207030,Osage vl (T11 R12 MW2),Assiniboia,SK,CONTAINS,0.0018,0.0018,1.0,33.66
-NT203101,"Weyburn, North—Nord","Assiniboia, East—Est",NT,SK214025,McTaggart vl (T9 R15 MW2),Regina,SK,CONTAINS,0.0018,0.0018,1.0,19.65
 NT203059,Kenlis,"Assiniboia, East—Est",NT,SK215001,133 townships,Saltcoats,SK,WITHIN,0.0093,0.9994,0.0093,32.45
 NT203068,"Moosomin, North—Nord","Assiniboia, East—Est",NT,SK213001,154 townships,Qu'Appelle,SK,WITHIN,0.0086,0.9808,0.0086,18.73
 NT203086,Rocanville,"Assiniboia, East—Est",NT,SK213001,154 townships,Qu'Appelle,SK,WITHIN,0.0042,0.9995,0.0042,24.26
@@ -1638,9 +1432,9 @@ NT202009,Beaver Lake,Alberta,NT,AB007008,Innisfree vl (T51 R11 MW4),Victoria,AB,
 NT202009,Beaver Lake,Alberta,NT,AB007011,Lavoy vl (T52 R13 MW4),Victoria,AB,CONTAINS,0.0031,0.0031,1.0,24.97
 NT202009,Beaver Lake,Alberta,NT,AB007001,263 townships,Victoria,AB,WITHIN,0.0355,0.9938,0.0355,13.83
 NT202129,Whitford,Alberta,NT,AB007001,263 townships,Victoria,AB,WITHIN,0.0942,0.9996,0.0942,28.0
-NT202010,"Beaver Lake, East— Est",Alberta,NT,AB006019,Ryley vl (T50 R17 MW4),Strathcona,AB,CONTAINS,0.002,0.002,1.0,29.68
-NT202010,"Beaver Lake, East— Est",Alberta,NT,AB007014,Mundare vl (T53 R16 MW4),Victoria,AB,CONTAINS,0.002,0.002,1.0,29.3
 NT202010,"Beaver Lake, East— Est",Alberta,NT,AB007005,Vegreville t-v,Victoria,AB,CONTAINS,0.0059,0.0059,1.0,35.22
+NT202010,"Beaver Lake, East— Est",Alberta,NT,AB007014,Mundare vl (T53 R16 MW4),Victoria,AB,CONTAINS,0.002,0.002,1.0,29.3
+NT202010,"Beaver Lake, East— Est",Alberta,NT,AB006019,Ryley vl (T50 R17 MW4),Strathcona,AB,CONTAINS,0.002,0.002,1.0,29.68
 NT202133,Wostock,Alberta,NT,AB007001,263 townships,Victoria,AB,WITHIN,0.0373,1.0,0.0373,22.0
 NT202052,Josephburg,Alberta,NT,AB007001,263 townships,Victoria,AB,WITHIN,0.0117,0.9946,0.0117,26.26
 NT202043,Fort Saskatchewan,Alberta,NT,AB007004,Fort Saskatchewan t-v,Victoria,AB,CONTAINS,0.008,0.008,1.0,70.63
@@ -1655,14 +1449,14 @@ NT202105,Red Lodge,Alberta,NT,AB005001,411 townships,Red Deer,AB,WITHIN,0.0082,1
 NT202092,Pine Creek,Alberta,NT,AB003001,198 townships,Macleod,AB,WITHIN,0.0139,0.9993,0.0139,18.94
 NT202104,Red Deer Lake,Alberta,NT,AB006012,Ferintosh vl (T44 R21 MW4),Strathcona,AB,CONTAINS,0.001,0.001,1.0,24.95
 NT202038,Duhamel,Alberta,NT,AB006020,Sedgewick vl (T44 R12 MW4),Strathcona,AB,CONTAINS,0.0007,0.0007,1.0,23.32
-NT202038,Duhamel,Alberta,NT,AB006015,Killam vl (T44 R13 MW4),Strathcona,AB,CONTAINS,0.0007,0.0007,1.0,24.59
 NT202038,Duhamel,Alberta,NT,AB006021,Strome vl (T45 R15 MW4),Strathcona,AB,CONTAINS,0.0007,0.0007,1.0,24.59
 NT202038,Duhamel,Alberta,NT,AB006007,Daysland t-v,Strathcona,AB,CONTAINS,0.0007,0.0007,1.0,32.69
 NT202038,Duhamel,Alberta,NT,AB006011,Bawlf vl (T46 R18 MW4),Strathcona,AB,CONTAINS,0.0007,0.0007,1.0,20.24
 NT202038,Duhamel,Alberta,NT,AB006001,270 townships,Strathcona,AB,WITHIN,0.1511,0.9839,0.1515,17.59
+NT202038,Duhamel,Alberta,NT,AB006015,Killam vl (T44 R13 MW4),Strathcona,AB,CONTAINS,0.0007,0.0007,1.0,24.59
+NT202038,Duhamel,Alberta,NT,AB006022,Viking vl (T47 R13 MW4),Strathcona,AB,CONTAINS,0.0007,0.0007,1.0,15.25
 NT202038,Duhamel,Alberta,NT,AB006018,Ohaton vl (T46 R19 MW4),Strathcona,AB,CONTAINS,0.0007,0.0007,1.0,24.59
 NT202038,Duhamel,Alberta,NT,AB006006,Camrose t-v,Strathcona,AB,CONTAINS,0.0111,0.0111,1.0,33.92
-NT202038,Duhamel,Alberta,NT,AB006022,Viking vl (T47 R13 MW4),Strathcona,AB,CONTAINS,0.0007,0.0007,1.0,15.25
 NT202014,Boundary Creek,Alberta,NT,AB004001,606 townships,Medicine Hat,AB,WITHIN,0.0023,1.0,0.0023,16.69
 NT202064,Leavitt,Alberta,NT,AB004001,606 townships,Medicine Hat,AB,WITHIN,0.0024,0.9645,0.0024,13.32
 NT202085,Okotoks,Alberta,NT,AB003001,198 townships,Macleod,AB,WITHIN,0.0173,0.9911,0.0173,33.86
@@ -1691,10 +1485,10 @@ NT202025,Carstairs,Alberta,NT,AB001013,Carstairs vl (T30 R1 MW5),Calgary,AB,CONT
 NT206999,NO DATA,Unorganized Territories—Territoires non-organisés,NT,NT218999,NO DATA,Northwest Territories,NT,WITHIN,0.1702,0.9988,0.1703,83.71
 ON091011,Conger & Cowper,Muskoka & Parry Sound,ON,ON108008,Conger & Cowper,Parry Sound,ON,WITHIN,0.7922,1.0,0.7922,90.62
 ON091050,Parry Island,Muskoka & Parry Sound,ON,ON108008,Conger & Cowper,Parry Sound,ON,WITHIN,0.2064,0.9679,0.2078,31.0
-ON091050,Parry Island,Muskoka & Parry Sound,ON,ON108049,Depot Harbour vl,Parry Sound,ON,CONTAINS,0.0321,0.0321,1.0,50.62
-ON092036,Long Sault,Nipissing,ON,ON054053,Long,Algoma E,ON,WITHIN,0.8736,0.9591,0.9073,43.53
+ON091050,Parry Island,Muskoka & Parry Sound,ON,ON108037,Depot Harbour vl,Parry Sound,ON,CONTAINS,0.0321,0.0321,1.0,50.62
+ON092036,Long Sault,Nipissing,ON,ON054038,Long & Striker,Algoma E,ON,WITHIN,0.4557,1.0,0.4557,44.36
 ON092002,Airey & parts of Sabine & Lyell,Nipissing,ON,ON099001,Airy,Nipissing,ON,CONTAINS,0.9198,0.9198,1.0,46.0
-ON120005,"Woodville (part), Village","Victoria, South—Sud",ON,ON129022,Mariposa,Victoria,ON,WITHIN,0.0072,1.0,0.0072,34.75
+ON120005,"Woodville (part), Village","Victoria, South—Sud",ON,ON129015,Mariposa,Victoria,ON,WITHIN,0.0072,1.0,0.0072,34.75
 ON123008,"Niagara Falls, Village",Welland,ON,ON132005,Stamford,Welland,ON,WITHIN,0.0246,1.0,0.0246,39.33
 ON129004,"North Toronto (part), Town—Ville","York, East—Est",ON,ON138002,North Toronto t-v,York S,ON,WITHIN,0.4956,1.0,0.4956,63.71
 ON131004,"Toronto, Ward—Quartier 3 (part)","York, West—Ouest",ON,ON138003,Toronto c pt,York S,ON,WITHIN,0.0123,1.0,0.0123,52.18
@@ -1837,20 +1631,20 @@ NS041018,Washabuck,Victoria,NS,NS039025,Washabuck,Cape Breton N. & Victoria,NS,S
 NS028001,Bateston,Cape Breton,NS,NS040001,Bateston,Cape Breton S.,NS,SAME_AS,1.0,1.0,1.0,96.4
 NS028002,Ball Creek,Cape Breton,NS,NS040002,Ball Creek,Cape Breton S.,NS,SAME_AS,1.0,1.0,1.0,96.4
 NS028003,Big Pond,Cape Breton,NS,NS040003,Big Pond,Cape Breton S.,NS,SAME_AS,1.0,1.0,1.0,96.4
-NS028006,Bridgeport,Cape Breton,NS,NS040016,Reserve,Cape Breton S.,NS,CONTAINS,0.9194,0.9194,1.0,51.11
-NS028006,Bridgeport,Cape Breton,NS,NS040022,Dominion t-v,Cape Breton S.,NS,CONTAINS,0.0504,0.0504,1.0,45.49
-NS028007,Catalone,Cape Breton,NS,NS040005,Catalone,Cape Breton S.,NS,SAME_AS,1.0,1.0,1.0,96.4
-NS028011,Gabarus,Cape Breton,NS,NS040009,Gabarus,Cape Breton S.,NS,SAME_AS,1.0,1.0,1.0,96.4
-NS028014,Grand Mira,Cape Breton,NS,NS040010,Grand Mira,Cape Breton S.,NS,SAME_AS,1.0,1.0,1.0,96.4
-NS028016,Hillside,Cape Breton,NS,NS040011,Hillside,Cape Breton S.,NS,SAME_AS,1.0,1.0,1.0,96.4
-NS028017,Lingan,Cape Breton,NS,NS040012,Lingan,Cape Breton S.,NS,WITHIN,0.7856,1.0,0.7856,96.4
-NS028021,Main-à-Dieu,Cape Breton,NS,NS040014,Main-à-Dieu,Cape Breton S.,NS,SAME_AS,1.0,1.0,1.0,96.4
-NS028023,Port Morien,Cape Breton,NS,NS040015,Port Morien,Cape Breton S.,NS,SAME_AS,1.0,1.0,1.0,96.4
-NS028024,South Bar,Cape Breton,NS,NS040012,Lingan,Cape Breton S.,NS,WITHIN,0.2144,1.0,0.2144,35.73
-NS028025,South Forks,Cape Breton,NS,NS040018,South Forks,Cape Breton S.,NS,SAME_AS,1.0,1.0,1.0,96.4
-NS028028,Trout Brook,Cape Breton,NS,NS040019,Trout Brook,Cape Breton S.,NS,SAME_AS,1.0,1.0,1.0,96.4
-NS028013,Glace Bay,Cape Breton,NS,NS040006,Dominion No. 6,Cape Breton S.,NS,CONTAINS,0.6439,0.6439,1.0,32.49
-NS028020,Louisburg,Cape Breton,NS,NS040024,Louisburg t-v,Cape Breton S.,NS,CONTAINS,0.0237,0.0237,1.0,83.67
+NS028006,Bridgeport,Cape Breton,NS,NS040014,Reserve,Cape Breton S.,NS,CONTAINS,0.9194,0.9194,1.0,51.11
+NS028006,Bridgeport,Cape Breton,NS,NS040019,Dominion t-v,Cape Breton S.,NS,CONTAINS,0.0504,0.0504,1.0,45.49
+NS028007,Catalone,Cape Breton,NS,NS040004,Catalone,Cape Breton S.,NS,SAME_AS,1.0,1.0,1.0,96.4
+NS028011,Gabarus,Cape Breton,NS,NS040008,Gabarus,Cape Breton S.,NS,SAME_AS,1.0,1.0,1.0,96.4
+NS028014,Grand Mira,Cape Breton,NS,NS040009,Grand Mira,Cape Breton S.,NS,SAME_AS,1.0,1.0,1.0,96.4
+NS028016,Hillside,Cape Breton,NS,NS040010,Hillside,Cape Breton S.,NS,SAME_AS,1.0,1.0,1.0,96.4
+NS028017,Lingan,Cape Breton,NS,NS040011,Lingan,Cape Breton S.,NS,WITHIN,0.7856,1.0,0.7856,96.4
+NS028021,Main-à-Dieu,Cape Breton,NS,NS040012,Main-à-Dieu,Cape Breton S.,NS,SAME_AS,1.0,1.0,1.0,96.4
+NS028023,Port Morien,Cape Breton,NS,NS040013,Port Morien,Cape Breton S.,NS,SAME_AS,1.0,1.0,1.0,96.4
+NS028024,South Bar,Cape Breton,NS,NS040011,Lingan,Cape Breton S.,NS,WITHIN,0.2144,1.0,0.2144,35.73
+NS028025,South Forks,Cape Breton,NS,NS040015,South Forks,Cape Breton S.,NS,SAME_AS,1.0,1.0,1.0,96.4
+NS028028,Trout Brook,Cape Breton,NS,NS040016,Trout Brook,Cape Breton S.,NS,SAME_AS,1.0,1.0,1.0,96.4
+NS028013,Glace Bay,Cape Breton,NS,NS040005,Dominion No. 6,Cape Breton S.,NS,CONTAINS,0.6439,0.6439,1.0,32.49
+NS028020,Louisburg,Cape Breton,NS,NS040021,Louisburg t-v,Cape Breton S.,NS,CONTAINS,0.0237,0.0237,1.0,83.67
 NS029001,Acadia Mines,Colchester,NS,NS041001,Acadia Mines,Colchester,NS,SAME_AS,1.0,1.0,1.0,100.0
 NS029002,Brookfield,Colchester,NS,NS041002,Brookfield,Colchester,NS,SAME_AS,1.0,1.0,1.0,100.0
 NS029003,Clifton,Colchester,NS,NS041004,Clifton,Colchester,NS,SAME_AS,1.0,1.0,1.0,100.0
@@ -1991,18 +1785,18 @@ NS035006,Judique,Inverness,NS,NS047006,Judique,Inverness,NS,SAME_AS,1.0,1.0,1.0,
 NS035007,"Lake Ainslie, East—Est",Inverness,NS,NS047007,Lake Ainslie E.,Inverness,NS,SAME_AS,1.0,1.0,1.0,82.97
 NS035008,"Lake Ainslie, West—Ouest",Inverness,NS,NS047008,Lake Ainslie W-O,Inverness,NS,SAME_AS,1.0,1.0,1.0,82.5
 NS035009,Long Point,Inverness,NS,NS047003,Craignish,Inverness,NS,WITHIN,0.0227,1.0,0.0227,44.74
-NS035014,Pleasant Bay,Inverness,NS,NS047014,Pleasant Bay,Inverness,NS,SAME_AS,1.0,1.0,1.0,100.0
-NS035015,Poplar Grove,Inverness,NS,NS047015,Poplar Grove,Inverness,NS,SAME_AS,1.0,1.0,1.0,100.0
-NS035016,Port Hastings,Inverness,NS,NS047016,Port Hastings,Inverness,NS,SAME_AS,1.0,1.0,1.0,100.0
-NS035018,Port Hood,Inverness,NS,NS047028,Port Hood t-v,Inverness,NS,CONTAINS,0.2569,0.2569,1.0,87.27
-NS035018,Port Hood,Inverness,NS,NS047017,Port Hood,Inverness,NS,CONTAINS,0.7431,0.7431,1.0,100.0
-NS035021,St. Joseph,Inverness,NS,NS047020,St. Joseph,Inverness,NS,SAME_AS,1.0,1.0,1.0,100.0
-NS035022,Strath Lorne,Inverness,NS,NS047026,Inverness t-v,Inverness,NS,CONTAINS,0.0601,0.0601,1.0,46.8
-NS035022,Strath Lorne,Inverness,NS,NS047021,Strath Lorne,Inverness,NS,CONTAINS,0.9399,0.9399,1.0,100.0
-NS035023,West Bay,Inverness,NS,NS047022,West Bay,Inverness,NS,SAME_AS,1.0,1.0,1.0,100.0
-NS035025,"Whycocomagh, South side—Côté sud",Inverness,NS,NS047025,Orangedale,Inverness,NS,CONTAINS,0.5609,0.5609,1.0,46.67
-NS035025,"Whycocomagh, South side—Côté sud",Inverness,NS,NS047024,Whycocomagh S.,Inverness,NS,CONTAINS,0.4391,0.4391,1.0,69.57
-NS035017,Port Hawkesbury,Inverness,NS,NS047027,Port Hawkesbury t-v,Inverness,NS,SAME_AS,1.0,1.0,1.0,91.76
+NS035014,Pleasant Bay,Inverness,NS,NS047013,Pleasant Bay,Inverness,NS,SAME_AS,1.0,1.0,1.0,100.0
+NS035015,Poplar Grove,Inverness,NS,NS047014,Poplar Grove,Inverness,NS,SAME_AS,1.0,1.0,1.0,100.0
+NS035016,Port Hastings,Inverness,NS,NS047015,Port Hastings,Inverness,NS,SAME_AS,1.0,1.0,1.0,100.0
+NS035018,Port Hood,Inverness,NS,NS047027,Port Hood t-v,Inverness,NS,CONTAINS,0.2569,0.2569,1.0,87.27
+NS035018,Port Hood,Inverness,NS,NS047016,Port Hood,Inverness,NS,CONTAINS,0.7431,0.7431,1.0,100.0
+NS035021,St. Joseph,Inverness,NS,NS047019,St. Joseph,Inverness,NS,SAME_AS,1.0,1.0,1.0,100.0
+NS035022,Strath Lorne,Inverness,NS,NS047025,Inverness t-v,Inverness,NS,CONTAINS,0.0601,0.0601,1.0,46.8
+NS035022,Strath Lorne,Inverness,NS,NS047020,Strath Lorne,Inverness,NS,CONTAINS,0.9399,0.9399,1.0,100.0
+NS035023,West Bay,Inverness,NS,NS047021,West Bay,Inverness,NS,SAME_AS,1.0,1.0,1.0,100.0
+NS035025,"Whycocomagh, South side—Côté sud",Inverness,NS,NS047024,Orangedale,Inverness,NS,CONTAINS,0.5609,0.5609,1.0,46.67
+NS035025,"Whycocomagh, South side—Côté sud",Inverness,NS,NS047023,Whycocomagh S.,Inverness,NS,CONTAINS,0.4391,0.4391,1.0,69.57
+NS035017,Port Hawkesbury,Inverness,NS,NS047026,Port Hawkesbury t-v,Inverness,NS,SAME_AS,1.0,1.0,1.0,91.76
 NS036011,Dempsey Corner,Kings,NS,NS048001,Aylesford,Kings,NS,WITHIN,0.4833,1.0,0.4833,54.35
 NS036004,Cambridge,Kings,NS,NS048002,Cambridge,Kings,NS,WITHIN,0.9059,1.0,0.9059,100.0
 NS036007,Canard,Kings,NS,NS048003,Canard,Kings,NS,SAME_AS,1.0,1.0,1.0,100.0
@@ -2017,38 +1811,38 @@ NS036015,"Kentville, Town—Ville",Kings,NS,NS048016,Kentville t-v,Kings,NS,CONT
 NS037001,Baker Settlement,Lunenburg,NS,NS049001,Baker Settlement,Lunenburg,NS,SAME_AS,1.0,1.0,1.0,100.0
 NS037002,Barss Corner,Lunenburg,NS,NS049002,Barss Corner,Lunenburg,NS,SAME_AS,1.0,1.0,1.0,100.0
 NS037003,Blockhouse,Lunenburg,NS,NS049004,Blockhouse,Lunenburg,NS,SAME_AS,1.0,1.0,1.0,100.0
-NS037004,Blue Rocks,Lunenburg,NS,NS049016,Garden Lots,Lunenburg,NS,CONTAINS,0.1631,0.1631,1.0,56.67
+NS037004,Blue Rocks,Lunenburg,NS,NS049014,Garden Lots,Lunenburg,NS,CONTAINS,0.1631,0.1631,1.0,56.67
 NS037004,Blue Rocks,Lunenburg,NS,NS049005,Blue Rocks,Lunenburg,NS,CONTAINS,0.8369,0.8369,1.0,100.0
-NS037005,"Bridgewater, East—Est",Lunenburg,NS,NS049043,Bridgewater t-v,Lunenburg,NS,WITHIN,0.7722,1.0,0.7722,80.56
-NS037008,Chesley Corner,Lunenburg,NS,NS049018,Hemford,Lunenburg,NS,CONTAINS,0.2775,0.2775,1.0,56.67
-NS037008,Chesley Corner,Lunenburg,NS,NS049007,Chesley Corner,Lunenburg,NS,CONTAINS,0.7225,0.7225,1.0,100.0
-NS037009,Chester Basin,Lunenburg,NS,NS049008,Chester Basin,Lunenburg,NS,SAME_AS,1.0,1.0,1.0,100.0
-NS037012,Conquerall Bank,Lunenburg,NS,NS049011,Conquerall Bank,Lunenburg,NS,SAME_AS,1.0,1.0,1.0,100.0
-NS037013,Cross Roads,Lunenburg,NS,NS049036,Rose Bay,Lunenburg,NS,CONTAINS,0.5982,0.5982,1.0,66.84
-NS037013,Cross Roads,Lunenburg,NS,NS049014,Feltzen South,Lunenburg,NS,CONTAINS,0.4018,0.4018,1.0,41.67
-NS037014,Dublin Shore,Lunenburg,NS,NS049013,Dublin Shore,Lunenburg,NS,SAME_AS,1.0,1.0,1.0,100.0
-NS037015,First South,Lunenburg,NS,NS049015,First South,Lunenburg,NS,SAME_AS,1.0,1.0,1.0,100.0
-NS037016,Italy Cross,Lunenburg,NS,NS049020,Italy Cross,Lunenburg,NS,SAME_AS,1.0,1.0,1.0,100.0
-NS037017,Lahave Island,Lunenburg,NS,NS049021,LaHave Island,Lunenburg,NS,SAME_AS,1.0,1.0,1.0,100.0
-NS037019,Mader Cove,Lunenburg,NS,NS049022,Maders Cove,Lunenburg,NS,SAME_AS,1.0,1.0,1.0,96.67
-NS037020,Mahone Bay,Lunenburg,NS,NS049023,Mahone Bay,Lunenburg,NS,SAME_AS,1.0,1.0,1.0,100.0
-NS037021,"Mahone Bay, Road—Chemin",Lunenburg,NS,NS049024,Mahone Bay Road,Lunenburg,NS,SAME_AS,1.0,1.0,1.0,85.26
-NS037022,Midville Branch,Lunenburg,NS,NS049025,Midville Branch,Lunenburg,NS,SAME_AS,1.0,1.0,1.0,100.0
-NS037023,Mill Cove,Lunenburg,NS,NS049026,Mill Cove,Lunenburg,NS,SAME_AS,1.0,1.0,1.0,100.0
-NS037025,New Cornwall,Lunenburg,NS,NS049027,New Cornwall,Lunenburg,NS,SAME_AS,1.0,1.0,1.0,100.0
-NS037026,New Ross,Lunenburg,NS,NS049028,New Ross,Lunenburg,NS,SAME_AS,1.0,1.0,1.0,100.0
-NS037027,Northfield,Lunenburg,NS,NS049029,Northfield,Lunenburg,NS,SAME_AS,1.0,1.0,1.0,100.0
-NS037028,Oakland,Lunenburg,NS,NS049030,Oakland,Lunenburg,NS,CONTAINS,0.7843,0.7843,1.0,100.0
-NS037028,Oakland,Lunenburg,NS,NS049019,Indian Point,Lunenburg,NS,CONTAINS,0.2157,0.2157,1.0,44.74
-NS037029,Petite Rivière,Lunenburg,NS,NS049031,Petite Rivière,Lunenburg,NS,SAME_AS,1.0,1.0,1.0,100.0
-NS037030,Pleasantville,Lunenburg,NS,NS049032,Pleasantville,Lunenburg,NS,SAME_AS,1.0,1.0,1.0,100.0
-NS037031,Ritcey Cove,Lunenburg,NS,NS049033,Parks Creek,Lunenburg,NS,CONTAINS,0.4585,0.4585,1.0,55.45
-NS037031,Ritcey Cove,Lunenburg,NS,NS049035,Riversport,Lunenburg,NS,CONTAINS,0.5415,0.5415,1.0,56.67
-NS037033,Tancook,Lunenburg,NS,NS049038,Tancook,Lunenburg,NS,SAME_AS,1.0,1.0,1.0,100.0
-NS037034,Upper Lahave,Lunenburg,NS,NS049039,Upper Lahave,Lunenburg,NS,SAME_AS,1.0,1.0,1.0,100.0
-NS037035,Vogler Cove,Lunenburg,NS,NS049040,Vogler Cove,Lunenburg,NS,SAME_AS,1.0,1.0,1.0,100.0
-NS037036,Western Shore,Lunenburg,NS,NS049041,Western Shore,Lunenburg,NS,SAME_AS,1.0,1.0,1.0,100.0
-NS037006,"Bridgewater, North—Nord",Lunenburg,NS,NS049043,Bridgewater t-v,Lunenburg,NS,WITHIN,0.2278,1.0,0.2278,77.89
+NS037005,"Bridgewater, East—Est",Lunenburg,NS,NS049039,Bridgewater t-v,Lunenburg,NS,WITHIN,0.7722,1.0,0.7722,80.56
+NS037008,Chesley Corner,Lunenburg,NS,NS049016,Hemford,Lunenburg,NS,CONTAINS,0.2775,0.2775,1.0,56.67
+NS037008,Chesley Corner,Lunenburg,NS,NS049006,Chesley Corner,Lunenburg,NS,CONTAINS,0.7225,0.7225,1.0,100.0
+NS037009,Chester Basin,Lunenburg,NS,NS049007,Chester Basin,Lunenburg,NS,SAME_AS,1.0,1.0,1.0,100.0
+NS037012,Conquerall Bank,Lunenburg,NS,NS049010,Conquerall Bank,Lunenburg,NS,SAME_AS,1.0,1.0,1.0,100.0
+NS037013,Cross Roads,Lunenburg,NS,NS049033,Rose Bay,Lunenburg,NS,CONTAINS,0.5982,0.5982,1.0,66.84
+NS037013,Cross Roads,Lunenburg,NS,NS049012,Feltzen South,Lunenburg,NS,CONTAINS,0.4018,0.4018,1.0,41.67
+NS037014,Dublin Shore,Lunenburg,NS,NS049011,Dublin Shore,Lunenburg,NS,SAME_AS,1.0,1.0,1.0,100.0
+NS037015,First South,Lunenburg,NS,NS049013,First South,Lunenburg,NS,SAME_AS,1.0,1.0,1.0,100.0
+NS037016,Italy Cross,Lunenburg,NS,NS049018,Italy Cross,Lunenburg,NS,SAME_AS,1.0,1.0,1.0,100.0
+NS037017,Lahave Island,Lunenburg,NS,NS049019,LaHave Island,Lunenburg,NS,SAME_AS,1.0,1.0,1.0,100.0
+NS037019,Mader Cove,Lunenburg,NS,NS049020,Maders Cove,Lunenburg,NS,SAME_AS,1.0,1.0,1.0,96.67
+NS037020,Mahone Bay,Lunenburg,NS,NS049021,Mahone Bay,Lunenburg,NS,SAME_AS,1.0,1.0,1.0,100.0
+NS037021,"Mahone Bay, Road—Chemin",Lunenburg,NS,NS049022,Mahone Bay Road,Lunenburg,NS,SAME_AS,1.0,1.0,1.0,85.26
+NS037022,Midville Branch,Lunenburg,NS,NS049023,Midville Branch,Lunenburg,NS,SAME_AS,1.0,1.0,1.0,100.0
+NS037023,Mill Cove,Lunenburg,NS,NS049024,Mill Cove,Lunenburg,NS,SAME_AS,1.0,1.0,1.0,100.0
+NS037025,New Cornwall,Lunenburg,NS,NS049025,New Cornwall,Lunenburg,NS,SAME_AS,1.0,1.0,1.0,100.0
+NS037026,New Ross,Lunenburg,NS,NS049026,New Ross,Lunenburg,NS,SAME_AS,1.0,1.0,1.0,100.0
+NS037027,Northfield,Lunenburg,NS,NS049027,Northfield,Lunenburg,NS,SAME_AS,1.0,1.0,1.0,100.0
+NS037028,Oakland,Lunenburg,NS,NS049028,Oakland,Lunenburg,NS,CONTAINS,0.7843,0.7843,1.0,100.0
+NS037028,Oakland,Lunenburg,NS,NS049017,Indian Point,Lunenburg,NS,CONTAINS,0.2157,0.2157,1.0,44.74
+NS037029,Petite Rivière,Lunenburg,NS,NS049029,Petite Rivière,Lunenburg,NS,SAME_AS,1.0,1.0,1.0,100.0
+NS037030,Pleasantville,Lunenburg,NS,NS049030,Pleasantville,Lunenburg,NS,SAME_AS,1.0,1.0,1.0,100.0
+NS037031,Ritcey Cove,Lunenburg,NS,NS049031,Parks Creek,Lunenburg,NS,CONTAINS,0.4585,0.4585,1.0,55.45
+NS037031,Ritcey Cove,Lunenburg,NS,NS049032,Riversport,Lunenburg,NS,CONTAINS,0.5415,0.5415,1.0,56.67
+NS037033,Tancook,Lunenburg,NS,NS049034,Tancook,Lunenburg,NS,SAME_AS,1.0,1.0,1.0,100.0
+NS037034,Upper Lahave,Lunenburg,NS,NS049035,Upper LaHave,Lunenburg,NS,SAME_AS,1.0,1.0,1.0,100.0
+NS037035,Vogler Cove,Lunenburg,NS,NS049036,Vogler Cove,Lunenburg,NS,SAME_AS,1.0,1.0,1.0,100.0
+NS037036,Western Shore,Lunenburg,NS,NS049037,Western Shore,Lunenburg,NS,SAME_AS,1.0,1.0,1.0,100.0
+NS037006,"Bridgewater, North—Nord",Lunenburg,NS,NS049039,Bridgewater t-v,Lunenburg,NS,WITHIN,0.2278,1.0,0.2278,77.89
 NS038001,Abercrombie,Pictou,NS,NS050001,Abercrombie,Pictou,NS,SAME_AS,1.0,1.0,1.0,100.0
 NS038003,Bailey Brook,Pictou,NS,NS050004,Big Island,Pictou,NS,CONTAINS,0.0834,0.0834,1.0,49.09
 NS038003,Bailey Brook,Pictou,NS,NS050002,Bailey Brook,Pictou,NS,CONTAINS,0.9166,0.9166,1.0,100.0
@@ -2137,12 +1931,12 @@ NS042008,Hebron,Yarmouth,NS,NS053008,Hebron,Yarmouth,NS,SAME_AS,1.0,1.0,1.0,100.
 NS042009,Islands,Yarmouth,NS,NS053009,Islands,Yarmouth,NS,SAME_AS,1.0,1.0,1.0,100.0
 NS042010,Kemptville,Yarmouth,NS,NS053010,Kemptville,Yarmouth,NS,SAME_AS,1.0,1.0,1.0,100.0
 NS042011,Lower Argyle,Yarmouth,NS,NS053002,Argyle Head,Yarmouth,NS,WITHIN,0.0278,1.0,0.0278,66.52
-NS042012,Ohio,Yarmouth,NS,NS053012,Ohio,Yarmouth,NS,SAME_AS,1.0,1.0,1.0,100.0
-NS042014,Plymouth,Yarmouth,NS,NS053013,Plymouth,Yarmouth,NS,SAME_AS,1.0,1.0,1.0,100.0
-NS042013,Port Maitland,Yarmouth,NS,NS053014,Port Maitland,Yarmouth,NS,SAME_AS,1.0,1.0,1.0,100.0
-NS042016,Pubnico Head,Yarmouth,NS,NS053016,Pubnico Head,Yarmouth,NS,SAME_AS,1.0,1.0,1.0,100.0
-NS042018,Rockville,Yarmouth,NS,NS053018,Rockville,Yarmouth,NS,SAME_AS,1.0,1.0,1.0,100.0
-NS042019,Tusket,Yarmouth,NS,NS053019,Tusket,Yarmouth,NS,SAME_AS,1.0,1.0,1.0,100.0
+NS042012,Ohio,Yarmouth,NS,NS053011,Ohio,Yarmouth,NS,SAME_AS,1.0,1.0,1.0,100.0
+NS042014,Plymouth,Yarmouth,NS,NS053012,Plymouth,Yarmouth,NS,SAME_AS,1.0,1.0,1.0,100.0
+NS042013,Port Maitland,Yarmouth,NS,NS053013,Port Maitland,Yarmouth,NS,SAME_AS,1.0,1.0,1.0,100.0
+NS042016,Pubnico Head,Yarmouth,NS,NS053015,Pubnico Head,Yarmouth,NS,SAME_AS,1.0,1.0,1.0,100.0
+NS042018,Rockville,Yarmouth,NS,NS053017,Rockville,Yarmouth,NS,SAME_AS,1.0,1.0,1.0,100.0
+NS042019,Tusket,Yarmouth,NS,NS053018,Tusket,Yarmouth,NS,SAME_AS,1.0,1.0,1.0,100.0
 NS037999,NO DATA,Annapolis,NS,NS037999,NO DATA,Annapolis,NS,SAME_AS,1.0,1.0,1.0,100.0
 NS039999,NO DATA,Victoria,NS,NS039999,NO DATA,Cape Breton N. & Victoria,NS,SAME_AS,1.0,1.0,1.0,84.55
 NS043999,NO DATA,Digby,NS,NS043999,NO DATA,Digby,NS,SAME_AS,1.0,1.0,1.0,100.0
@@ -2317,14 +2111,14 @@ NB023009,St. Bazile,Victoria & Madawaska,NB,NB034013,St. Basile,Victoria & Madaw
 NB023010,St. Francis,Victoria & Madawaska,NB,NB034014,St. Francis,Victoria & Madawaska,NB,CONTAINS,0.7062,0.7062,1.0,100.0
 NB023010,St. Francis,Victoria & Madawaska,NB,NB034007,Ledges,Victoria & Madawaska,NB,CONTAINS,0.0051,0.0051,1.0,38.24
 NB023010,St. Francis,Victoria & Madawaska,NB,NB034002,Clair,Victoria & Madawaska,NB,CONTAINS,0.104,0.104,1.0,47.5
-NB023010,St. Francis,Victoria & Madawaska,NB,NB034006,Lake Baker,Victoria & Madawaska,NB,CONTAINS,0.1848,0.1848,1.0,43.33
 NB023011,St. Hilaire,Victoria & Madawaska,NB,NB034015,St. Hilaire,Victoria & Madawaska,NB,SAME_AS,1.0,1.0,1.0,100.0
+NB023011,St. Hilaire,Victoria & Madawaska,NB,NB034006,Lake Baker,Victoria & Madawaska,NB,WITHIN,0.4293,0.9982,0.4296,50.0
 NB023012,St. Jacques,Victoria & Madawaska,NB,NB034016,St. Jacques,Victoria & Madawaska,NB,SAME_AS,1.0,1.0,1.0,100.0
 NB023013,St. Léonard,Victoria & Madawaska,NB,NB034011,St. André,Victoria & Madawaska,NB,CONTAINS,0.2868,0.2868,1.0,72.0
 NB023013,St. Léonard,Victoria & Madawaska,NB,NB034017,St. Leonard,Victoria & Madawaska,NB,CONTAINS,0.7132,0.7132,1.0,93.64
 NB024001,Botsford,Westmorland,NB,NB035001,Botsford,Westmorland,NB,SAME_AS,1.0,1.0,1.0,100.0
-NB024002,Dorchester,Westmorland,NB,NB035011,Dorchester vl,Westmorland,NB,CONTAINS,0.0084,0.0084,1.0,90.87
 NB024002,Dorchester,Westmorland,NB,NB035002,Dorchester,Westmorland,NB,SAME_AS,0.9916,0.9916,1.0,100.0
+NB024002,Dorchester,Westmorland,NB,NB035011,Dorchester vl,Westmorland,NB,CONTAINS,0.0084,0.0084,1.0,90.87
 NB024004,Moncton,Westmorland,NB,NB035003,Moncton,Westmorland,NB,SAME_AS,0.9896,0.9973,0.9922,100.0
 NB024005,Sackville,Westmorland,NB,NB035009,Sackville t-v,Westmorland,NB,CONTAINS,0.004,0.004,1.0,87.27
 NB024005,Sackville,Westmorland,NB,NB035004,Sackville,Westmorland,NB,SAME_AS,0.996,0.996,1.0,100.0
@@ -2455,7 +2249,7 @@ QC144011,"Sutton, Village",Brome,QC,QC149009,Sutton vl,Brome,QC,SAME_AS,1.0,1.0,
 QC145001,Boucherville,Chambly & Verchères,QC,QC150001,Boucherville,Chambly & Verchères,QC,SAME_AS,1.0,1.0,1.0,100.0
 QC145003,Chambly,Chambly & Verchères,QC,QC150002,Chambly,Chambly & Verchères,QC,SAME_AS,0.9911,1.0,0.9911,100.0
 QC145006,Longueuil,Chambly & Verchères,QC,QC150016,Montréal t-v,Chambly & Verchères,QC,CONTAINS,0.0383,0.0384,0.991,50.0
-QC145008,St. Bazile le Grand,Chambly & Verchères,QC,QC150004,St. Basile le Grand,Chambly & Verchères,QC,SAME_AS,1.0,1.0,1.0,96.32
+QC145008,St. Bazile le Grand,Chambly & Verchères,QC,QC150004,St. Bazile le Grand,Chambly & Verchères,QC,SAME_AS,1.0,1.0,1.0,100.0
 QC145009,St. Bruno,Chambly & Verchères,QC,QC150023,St. Bruno vl,Chambly & Verchères,QC,CONTAINS,0.0083,0.0083,1.0,90.0
 QC145009,St. Bruno,Chambly & Verchères,QC,QC150005,St. Bruno,Chambly & Verchères,QC,SAME_AS,0.9917,0.9917,1.0,100.0
 QC145010,St. Hubert,Chambly & Verchères,QC,QC150006,St. Hubert,Chambly & Verchères,QC,SAME_AS,1.0,1.0,1.0,100.0
@@ -2518,10 +2312,10 @@ QC149042,Saguenay & Dumas (St. Etienne),Chicoutimi & Saguenay,QC,QC154064,St. Fi
 QC149002,Bagotville,Chicoutimi & Saguenay,QC,QC154003,Bagotville pr,Chicoutimi & Saguenay,QC,SAME_AS,1.0,1.0,1.0,90.87
 QC149005,Chicoutimi,Chicoutimi & Saguenay,QC,QC154004,Chicoutimi pr,Chicoutimi & Saguenay,QC,SAME_AS,1.0,1.0,1.0,90.87
 QC149010,Hébertville,Chicoutimi & Saguenay,QC,QC154007,Hébertville pr,Chicoutimi & Saguenay,QC,SAME_AS,0.9894,0.9894,1.0,91.6
-QC149010,Hébertville,Chicoutimi & Saguenay,QC,QC154045,Hébertville station vl,Chicoutimi & Saguenay,QC,CONTAINS,0.0106,0.0106,1.0,76.67
+QC149010,Hébertville,Chicoutimi & Saguenay,QC,QC154045,Hébertville Station vl,Chicoutimi & Saguenay,QC,CONTAINS,0.0106,0.0106,1.0,76.67
 QC149013,Kénogami & St. Cyriac,Chicoutimi & Saguenay,QC,QC154020,St. Cyriac pr,Chicoutimi & Saguenay,QC,CONTAINS,0.6066,0.6066,1.0,71.18
 QC149013,Kénogami & St. Cyriac,Chicoutimi & Saguenay,QC,QC154009,"Kénogami, UNO",Chicoutimi & Saguenay,QC,CONTAINS,0.3851,0.3851,1.0,67.06
-QC149015,N.-D. de Laterrière & Township,Chicoutimi & Saguenay,QC,QC154011,Laterrière pr. & Simon tp.,Chicoutimi & Saguenay,QC,WITHIN,0.4882,1.0,0.4882,70.0
+QC149015,N.-D. de Laterrière & Township,Chicoutimi & Saguenay,QC,QC154011,Laterrière p. & Simon tp.,Chicoutimi & Saguenay,QC,WITHIN,0.4882,1.0,0.4882,70.73
 QC149014,Normandin & Girard,Chicoutimi & Saguenay,QC,QC154012,Normandin pr,Chicoutimi & Saguenay,QC,CONTAINS,0.4998,0.4998,1.0,81.33
 QC149014,Normandin & Girard,Chicoutimi & Saguenay,QC,QC154005,"Girard, UNO",Chicoutimi & Saguenay,QC,CONTAINS,0.5002,0.5002,1.0,58.97
 QC149016,Roberval & Charlevoix,Chicoutimi & Saguenay,QC,QC154013,Roberval pr,Chicoutimi & Saguenay,QC,CONTAINS,0.6783,0.6783,1.0,73.75
@@ -2554,7 +2348,7 @@ QC149050,Natashkwan,Chicoutimi & Saguenay,QC,QC154058,Natashquan,Chicoutimi & Sa
 QC149051,Pointe aux Esquimaux,Chicoutimi & Saguenay,QC,QC154061,Pointe aux Esquimaux,Chicoutimi & Saguenay,QC,CONTAINS,0.1308,0.1308,1.0,100.0
 QC149049,Pointe des Monts,Chicoutimi & Saguenay,QC,QC154062,Pointe des Monts,Chicoutimi & Saguenay,QC,WITHIN,0.7586,1.0,0.7586,100.0
 QC149052,Portneuf & Laval,Chicoutimi & Saguenay,QC,QC154063,Ste. Anne de Portneuf,Chicoutimi & Saguenay,QC,WITHIN,0.5075,1.0,0.5075,60.27
-QC149038,Albert (Sacré-Coeur),Chicoutimi & Saguenay,QC,QC154065,Sacré-Coeur pr. & Labrosse tp.,Chicoutimi & Saguenay,QC,WITHIN,0.561,1.0,0.561,60.8
+QC149038,Albert (Sacré-Coeur),Chicoutimi & Saguenay,QC,QC154065,Sacré-Cœur p. & Labrosse tp.,Chicoutimi & Saguenay,QC,WITHIN,0.561,1.0,0.561,56.25
 QC149048,Moisie,Chicoutimi & Saguenay,QC,QC154067,Moisie vl,Chicoutimi & Saguenay,QC,CONTAINS,0.002,0.002,1.0,86.0
 QC149054,"Tadoussac, Village",Chicoutimi & Saguenay,QC,QC154068,Tadoussac vl,Chicoutimi & Saguenay,QC,SAME_AS,1.0,1.0,1.0,86.0
 QC150001,Auckland,Compton,QC,QC155001,Auckland,Compton,QC,SAME_AS,1.0,1.0,1.0,100.0
@@ -2647,7 +2441,7 @@ QC154023,Etang du Nord,Gaspé,QC,QC159006,Étang du Nord,Gaspé,QC,SAME_AS,1.0,1
 QC154008,"Gaspé Bay, North & Sydenham South",Gaspé,QC,QC159008,Gaspé Bay N. & Sydenham S.,Gaspé,QC,CONTAINS,0.8897,0.9172,0.9675,86.95
 QC154009,"Gaspé Bay, South—Sud",Gaspé,QC,QC159009,Gaspé Bay S.,Gaspé,QC,CONTAINS,0.9431,0.9431,1.0,78.12
 QC154011,Grande Rivière,Gaspé,QC,QC159011,Grande Rivière,Gaspé,QC,SAME_AS,1.0,1.0,1.0,100.0
-QC154022,Basin,Gaspé,QC,QC159014,Havre Aubert & Entry,Gaspé,QC,WITHIN,0.7934,1.0,0.7934,41.2
+QC154022,Basin,Gaspé,QC,QC159014,Havre Aubert,Gaspé,QC,WITHIN,0.7934,1.0,0.7934,38.24
 QC154013,L’Anse du Cap,Gaspé,QC,QC159017,L'Anse du Cap,Gaspé,QC,SAME_AS,1.0,1.0,1.0,94.62
 QC154014,Malbaie,Gaspé,QC,QC159018,Malbaie,Gaspé,QC,SAME_AS,1.0,1.0,1.0,100.0
 QC154015,Mont Louis & Riv. Magdeleine,Gaspé,QC,QC159019,Mont Louis & Rivière Magdeleine,Gaspé,QC,CONTAINS,0.305,0.305,1.0,94.07
@@ -2660,7 +2454,6 @@ QC154020,York,Gaspé,QC,QC159025,York,Gaspé,QC,SAME_AS,1.0,1.0,1.0,100.0
 QC154999,NO DATA,Gaspé,QC,QC159999,NO DATA,Gaspé,QC,SAME_AS,0.9997,0.9997,1.0,100.0
 QC154999,NO DATA,Gaspé,QC,QC159026,Other parts - Autres parties,Gaspé,QC,CONTAINS,0.0003,0.0003,1.0,50.0
 QC154007,"Gaspé, Village",Gaspé,QC,QC159027,Gaspé vl,Gaspé,QC,SAME_AS,1.0,1.0,1.0,80.91
-QC155002,"Montreal, St. Gabriel, Ward—Quartier",Hochelaga,QC,QC160002,"Montréal, St. Gabriel ward-quartier",Hochelaga,QC,SAME_AS,1.0,1.0,1.0,95.07
 QC156001,Dundee,Huntingdon,QC,QC161001,Dundee,Huntingdon,QC,SAME_AS,1.0,1.0,1.0,100.0
 QC156002,Elgin,Huntingdon,QC,QC161002,Elgin,Huntingdon,QC,SAME_AS,1.0,1.0,1.0,100.0
 QC156003,Franklin,Huntingdon,QC,QC161003,Franklin,Huntingdon,QC,SAME_AS,1.0,1.0,1.0,100.0
@@ -2678,9 +2471,9 @@ QC157010,Saints-Anges de Lachine,Jacques-Cartier,QC,QC162004,Saints-Anges de Lac
 QC157012,Ste. Anne du Bout de l’lle,Jacques-Cartier,QC,QC162005,Ste. Anne du Bout de l'Ile,Jacques-Cartier,QC,SAME_AS,1.0,1.0,1.0,94.62
 QC157013,Ste. Geneviève,Jacques-Cartier,QC,QC162006,Ste. Geneviève,Jacques-Cartier,QC,SAME_AS,1.0,1.0,1.0,100.0
 QC157015,St. Joachim de la Pointe Claire,Jacques-Cartier,QC,QC162007,St. Joachim de la Pointe Claire,Jacques-Cartier,QC,CONTAINS,0.7663,0.7663,1.0,100.0
+QC157017,St. Laurent,Jacques-Cartier,QC,QC162022,Youville,Jacques-Cartier,QC,CONTAINS,0.1341,0.1341,1.0,44.74
 QC157017,St. Laurent,Jacques-Cartier,QC,QC162008,St. Laurent,Jacques-Cartier,QC,CONTAINS,0.7909,0.7909,1.0,100.0
 QC157017,St. Laurent,Jacques-Cartier,QC,QC162023,Cartierville vl,Jacques-Cartier,QC,CONTAINS,0.0751,0.0751,1.0,46.15
-QC157017,St. Laurent,Jacques-Cartier,QC,QC162022,Youville,Jacques-Cartier,QC,CONTAINS,0.1341,0.1341,1.0,44.74
 QC157021,St. Raphaël de l’Ile Bizard,Jacques-Cartier,QC,QC162009,St. Raphaël de l'Ile Bizard,Jacques-Cartier,QC,SAME_AS,1.0,1.0,1.0,97.41
 QC157023,Summerlea,Jacques-Cartier,QC,QC162010,Summerlea t-v,Jacques-Cartier,QC,SAME_AS,1.0,1.0,1.0,87.27
 QC157005,"Montreal West—Ouest, Town—Ville",Jacques-Cartier,QC,QC162014,Montréal W-O t-v,Jacques-Cartier,QC,CONTAINS,0.9357,0.9375,0.998,68.72
@@ -2832,10 +2625,9 @@ QC166014,St. Narcisse,Lotbinière,QC,QC171013,St. Narcisse,Lotbinière,QC,SAME_A
 QC166015,St. Patrice,Lotbinière,QC,QC171014,St. Patrice,Lotbinière,QC,WITHIN,0.9415,1.0,0.9415,100.0
 QC166001,"Deschaillons, Village",Lotbinière,QC,QC171018,Deschaillons vl,Lotbinière,QC,SAME_AS,1.0,1.0,1.0,88.33
 QC166002,"Leclercville, Village",Lotbinière,QC,QC171019,Leclercville vl,Lotbinière,QC,SAME_AS,1.0,1.0,1.0,88.33
-QC167002,"Montreal, Hochelaga, Ward—Quartier",Maisonneuve,QC,QC172003,"Montréal, Hochelaga ward-quartier",Maisonneuve,QC,SAME_AS,1.0,1.0,1.0,94.78
 QC167003,"Maisonneuve, Town—Ville",Maisonneuve,QC,QC172005,Maisonneuve t-v,Maisonneuve,QC,SAME_AS,1.0,1.0,1.0,81.58
-QC167004,"Petite Côte, Village",Maisonneuve,QC,QC172009,"Montréal, Ste. Marie ward-quartier pt",Maisonneuve,QC,CONTAINS,0.0877,0.0877,1.0,49.65
-QC167004,"Petite Côte, Village",Maisonneuve,QC,QC172006,"Montréal, Rosemont ward-quartier",Maisonneuve,QC,CONTAINS,0.8019,0.8019,1.0,46.15
+QC167004,"Petite Côte, Village",Maisonneuve,QC,QC172009,"Montréal, ward-quartier Ste. Marie (partie)",Maisonneuve,QC,CONTAINS,0.0877,0.0877,1.0,52.22
+QC167004,"Petite Côte, Village",Maisonneuve,QC,QC172006,"Montréal, ward-quartier Rosemont",Maisonneuve,QC,CONTAINS,0.8019,0.8019,1.0,46.15
 QC168001,Hunterstown,Maskinongé,QC,QC173001,Hunterstown,Maskinongé,QC,SAME_AS,1.0,1.0,1.0,100.0
 QC168005,St. Alexis des Monts,Maskinongé,QC,QC173003,St. Alexis des Monts,Maskinongé,QC,SAME_AS,1.0,1.0,1.0,100.0
 QC168003,Mastigouche,Maskinongé,QC,QC173004,St. Charles de Mandeville,Maskinongé,QC,WITHIN,0.9409,1.0,0.9409,49.44
@@ -2904,16 +2696,15 @@ QC173010,St. Laurent,Montmorency,QC,QC178010,St. Laurent,Montmorency,QC,SAME_AS,
 QC173011,"Ste. Pétronille, Village",Montmorency,QC,QC178013,Ste. Pétronille vl,Montmorency,QC,SAME_AS,1.0,1.0,1.0,90.0
 QC173013,St. Tite des Caps,Montmorency,QC,QC178012,St. Tite des Caps,Montmorency,QC,SAME_AS,1.0,1.0,1.0,100.0
 QC173012,St. Pierre,Montmorency,QC,QC178011,St. Pierre,Montmorency,QC,SAME_AS,1.0,1.0,1.0,100.0
-QC174002,"Montreal, Centre Ward—Quartier Centre","Montreal, Ste. Anne, City—Cité",QC,QC179001,"Montréal, Centre ward-quartier","Montréal, Ste. Anne",QC,SAME_AS,1.0,1.0,1.0,80.55
-QC174003,"Montreal, West Ward—Quartier Ouest","Montreal, Ste. Anne, City—Cité",QC,QC179003,"Montréal, West ward-quartier","Montréal, Ste. Anne",QC,SAME_AS,1.0,1.0,1.0,80.75
-QC175001,"Montreal, St. Antoine Ward—Quartier","Montreal, St. Antoine, City—Cité",QC,QC180001,"Montréal, St. Antoine ward-quartier","Montréal, St. Antoine",QC,SAME_AS,1.0,1.0,1.0,88.64
-QC176001,"Montreal, East Ward—Quartier Est","Montreal, St. Jacques, City—Cité",QC,QC181001,"Montréal, East ward-quartier","Montréal, St. Jacques",QC,SAME_AS,1.0,1.0,1.0,83.31
-QC176002,"Montreal, St. James Ward—Quartier St. Jacques","Montreal, St. Jacques, City—Cité",QC,QC181003,"Montréal, St. Jacques ward-quartier","Montréal, St. Jacques",QC,CONTAINS,0.4012,0.4012,1.0,75.14
-QC176002,"Montreal, St. James Ward—Quartier St. Jacques","Montreal, St. Jacques, City—Cité",QC,QC181002,"Montréal, Lafontaine ward-quartier","Montréal, St. Jacques",QC,CONTAINS,0.5988,0.5988,1.0,66.95
-QC177001,"Montreal, St. Laurent Ward—Quartier","Montreal, St. Laurent, City—Cité",QC,QC182001,"Montréal, St. Laurent ward-quartier","Montréal, St. Laurent",QC,SAME_AS,1.0,1.0,1.0,88.64
-QC177002,"Montreal, St. Louis Ward—Quartier","Montreal, St. Laurent, City—Cité",QC,QC182002,"Montréal, St. Louis ward-quartier","Montréal, St. Laurent",QC,SAME_AS,1.0,1.0,1.0,88.4
-QC178001,"Montreal, St. Mary’s Ward—Quartier Ste. Marie","Montreal, Ste. Marie, City—Cité",QC,QC183002,"Montréal, Ste. Marie ward-quartier pt","Montréal, Ste. Marie",QC,CONTAINS,0.4652,0.4652,1.0,75.28
-QC178001,"Montreal, St. Mary’s Ward—Quartier Ste. Marie","Montreal, Ste. Marie, City—Cité",QC,QC183001,"Montréal, Papineau ward-quartier","Montréal, Ste. Marie",QC,CONTAINS,0.5348,0.5348,1.0,64.17
+QC174002,"Montreal, Centre Ward—Quartier Centre","Montreal, Ste. Anne, City—Cité",QC,QC179001,"Montréal, ward-quartier Centre","Montréal, Ste. Anne",QC,SAME_AS,1.0,1.0,1.0,80.55
+QC175001,"Montreal, St. Antoine Ward—Quartier","Montreal, St. Antoine, City—Cité",QC,QC180003,"Montréal, ward-quartier St. Andrews","Montréal, St. Antoine",QC,CONTAINS,0.4116,0.4116,1.0,64.64
+QC175001,"Montreal, St. Antoine Ward—Quartier","Montreal, St. Antoine, City—Cité",QC,QC180001,"Montréal, ward-quartier St. Joseph","Montréal, St. Antoine",QC,CONTAINS,0.1898,0.1898,1.0,65.25
+QC175001,"Montreal, St. Antoine Ward—Quartier","Montreal, St. Antoine, City—Cité",QC,QC180002,"Montréal, ward-quartier St. Georges","Montréal, St. Antoine",QC,CONTAINS,0.3986,0.3986,1.0,64.64
+QC176001,"Montreal, East Ward—Quartier Est","Montreal, St. Jacques, City—Cité",QC,QC181001,"Montréal, ward-quartier East","Montréal, St. Jacques",QC,SAME_AS,1.0,1.0,1.0,80.97
+QC176002,"Montreal, St. James Ward—Quartier St. Jacques","Montreal, St. Jacques, City—Cité",QC,QC181003,"Montréal, ward-quartier St. Jacques","Montréal, St. Jacques",QC,CONTAINS,0.4012,0.4012,1.0,80.39
+QC176002,"Montreal, St. James Ward—Quartier St. Jacques","Montreal, St. Jacques, City—Cité",QC,QC181002,"Montréal, ward-quartier Lafontaine","Montréal, St. Jacques",QC,CONTAINS,0.5988,0.5988,1.0,66.95
+QC178001,"Montreal, St. Mary’s Ward—Quartier Ste. Marie","Montreal, Ste. Marie, City—Cité",QC,QC183001,"Montréal, ward-quartier Papineau","Montréal, Ste. Marie",QC,CONTAINS,0.5348,0.5348,1.0,67.81
+QC178001,"Montreal, St. Mary’s Ward—Quartier Ste. Marie","Montreal, Ste. Marie, City—Cité",QC,QC183002,"Montréal, ward-quartier Ste. Marie (partie)","Montréal, Ste. Marie",QC,CONTAINS,0.4652,0.4652,1.0,73.26
 QC179002,Bécancour,Nicolet,QC,QC184001,Bécancour,Nicolet,QC,CONTAINS,0.8013,0.8013,1.0,100.0
 QC179002,Bécancour,Nicolet,QC,QC184023,Bécancour vl,Nicolet,QC,CONTAINS,0.0057,0.0057,1.0,90.0
 QC179003,Gentilly,Nicolet,QC,QC184002,Gentilly,Nicolet,QC,SAME_AS,0.9956,0.9956,1.0,100.0
@@ -2935,7 +2726,7 @@ QC179020,St. Sylvère,Nicolet,QC,QC184019,St. Sylvère,Nicolet,QC,SAME_AS,1.0,1.
 QC179021,St. Wenceslas,Nicolet,QC,QC184020,St. Wenceslas,Nicolet,QC,SAME_AS,1.0,1.0,1.0,100.0
 QC179006,"Nicolet, Town—Ville",Nicolet,QC,QC184021,Nicolet t-v,Nicolet,QC,WITHIN,0.541,1.0,0.541,76.67
 QC179001,"Annaville, Village",Nicolet,QC,QC184022,Annaville vl,Nicolet,QC,SAME_AS,1.0,1.0,1.0,86.0
-QC180001,Aberdeen & Malakoff,Pontiac,QC,QC185001,Aberdeen & Malakoff } Sheen & Esher,Pontiac,QC,WITHIN,0.5146,1.0,0.5146,79.26
+QC180001,Aberdeen & Malakoff,Pontiac,QC,QC185001,"Aberdeen, Malakoff, Sheen & Esher",Pontiac,QC,WITHIN,0.5146,1.0,0.5146,75.77
 QC180002,Aldfield,Pontiac,QC,QC185003,Aldfield,Pontiac,QC,SAME_AS,1.0,1.0,1.0,100.0
 QC180003,Allumette Island,Pontiac,QC,QC185004,Allumette Island,Pontiac,QC,SAME_AS,1.0,1.0,1.0,100.0
 QC180004,Alleyn & Cawood,Pontiac,QC,QC185005,Alleyn & Cawood,Pontiac,QC,SAME_AS,1.0,1.0,1.0,100.0
@@ -2981,19 +2772,11 @@ QC181020,St. Thuribe,Portneuf,QC,QC186021,St. Thuribe,Portneuf,QC,WITHIN,0.5829,
 QC181021,St. Ubalde,Portneuf,QC,QC186022,St. Ubalde,Portneuf,QC,CONTAINS,0.8462,0.8462,1.0,100.0
 QC181019,"St. Raymond, Village",Portneuf,QC,QC186023,St. Raymond vl,Portneuf,QC,SAME_AS,1.0,1.0,1.0,87.65
 QC182001,"Québec, Banlieue (Notre-Dame de Québec)","Quebec, Centre, City—Cité",QC,QC187001,Banlieue (Notre-Dame de Québec),Québec Centre,QC,SAME_AS,1.0,1.0,1.0,80.95
-QC182002,"Québec, Montcalm (Centre), Ward—Quartier","Quebec, Centre, City—Cité",QC,QC187002,"Québec, Montcalm (Centre) ward-quartier",Québec Centre,QC,SAME_AS,1.0,1.0,1.0,86.29
-QC182003,"Québec, Palais, Ward—Quartier","Quebec, Centre, City—Cité",QC,QC187003,"Québec, Palais ward-quartier",Québec Centre,QC,SAME_AS,1.0,1.0,1.0,85.26
-QC182004,"Québec, St. Jean, Ward—Quartier","Quebec, Centre, City—Cité",QC,QC187004,"Québec, St. Jean ward-quartier",Québec Centre,QC,SAME_AS,1.0,1.0,1.0,85.5
-QC182005,"Québec, St. Louis, Ward—Quartier","Quebec, Centre, City—Cité",QC,QC187005,"Québec, St. Louis ward-quartier",Québec Centre,QC,SAME_AS,1.0,1.0,1.0,85.61
-QC183002,"Québec, St. Roch, Ward—Quartier","Quebec, East-Est, City—Cité",QC,QC188006,"Québec, St. Roch ward-quartier",Québec Est,QC,SAME_AS,1.0,1.0,1.0,81.15
-QC183003,"Québec, St. Sauveur, Ward—Quartier","Quebec, East-Est, City—Cité",QC,QC188005,"Québec, St. Malo ward-quartier",Québec Est,QC,CONTAINS,0.0554,0.0554,1.0,71.47
-QC183003,"Québec, St. Sauveur, Ward—Quartier","Quebec, East-Est, City—Cité",QC,QC188004,"Québec, Stadacona ward-quartier",Québec Est,QC,CONTAINS,0.19,0.19,1.0,66.29
-QC183003,"Québec, St. Sauveur, Ward—Quartier","Quebec, East-Est, City—Cité",QC,QC188002,"Québec, Limoilou ward-quartier",Québec Est,QC,CONTAINS,0.1769,0.1769,1.0,62.72
+QC183003,"Québec, St. Sauveur, Ward—Quartier","Quebec, East-Est, City—Cité",QC,QC188005,"Québec, ward-quartier St. Malo",Québec Est,QC,CONTAINS,0.0554,0.0554,1.0,58.34
 QC183003,"Québec, St. Sauveur, Ward—Quartier","Quebec, East-Est, City—Cité",QC,QC188003,Petite Rivière,Québec Est,QC,CONTAINS,0.5447,0.5447,1.0,35.01
-QC183003,"Québec, St. Sauveur, Ward—Quartier","Quebec, East-Est, City—Cité",QC,QC188007,"Québec, St. Sauveur ward-quartier",Québec Est,QC,CONTAINS,0.0331,0.0331,1.0,81.46
-QC183004,"Québec, St. Valier, Ward—Quartier","Quebec, East-Est, City—Cité",QC,QC188008,"Québec, St. Valier ward-quartier",Québec Est,QC,SAME_AS,1.0,1.0,1.0,81.36
-QC184002,"Québec, Champlain, Ward—Quartier","Quebec, West-Ouest, City—Cité",QC,QC189002,"Québec, Champlain ward-quartier",Québec W-O,QC,SAME_AS,1.0,1.0,1.0,80.51
-QC184004,"Québec, St. Pierre, Ward—Quartier","Quebec, West-Ouest, City—Cité",QC,QC189004,"Québec, St. Pierre ward-quartier",Québec W-O,QC,SAME_AS,1.0,1.0,1.0,80.62
+QC183003,"Québec, St. Sauveur, Ward—Quartier","Quebec, East-Est, City—Cité",QC,QC188007,"Québec, ward-quartier St. Sauveur",Québec Est,QC,CONTAINS,0.0331,0.0331,1.0,56.39
+QC183003,"Québec, St. Sauveur, Ward—Quartier","Quebec, East-Est, City—Cité",QC,QC188004,"Québec, ward-quartier Stadacona",Québec Est,QC,CONTAINS,0.19,0.19,1.0,57.67
+QC183003,"Québec, St. Sauveur, Ward—Quartier","Quebec, East-Est, City—Cité",QC,QC188002,"Québec, ward-quartier Limoilou",Québec Est,QC,CONTAINS,0.1769,0.1769,1.0,58.34
 QC185001,Ancienne Lorette,"Quebec, County—Comté",QC,QC190001,Ancienne-Lorette,Québec County,QC,CONTAINS,0.8433,0.8433,1.0,87.44
 QC185003,Charlesbourg,"Quebec, County—Comté",QC,QC190003,Charlesbourg,Québec County,QC,CONTAINS,0.5831,0.5831,1.0,91.82
 QC185004,St. Ambroise,"Quebec, County—Comté",QC,QC190005,St. Ambroise,Québec County,QC,CONTAINS,0.3307,0.331,0.9974,91.82
@@ -3252,11 +3035,11 @@ QC146003,"Grand’Mère, Village",Champlain,QC,QC151022,Grand Mère t-v,Champlai
 QC146002,"Fermont, Village",Champlain,QC,QC151012,St. Maurice,Champlain,QC,WITHIN,0.0178,1.0,0.0178,50.74
 QC144009,St. Alphonse,Brome,QC,QC197005,St. Alphonse de Granby,Shefford,QC,WITHIN,0.2215,1.0,0.2215,54.03
 QC149033,St. Thomas d’Aquin,Chicoutimi & Saguenay,QC,QC154038,St. Thomas d'Aquin pr,Chicoutimi & Saguenay,QC,WITHIN,0.4066,0.9686,0.412,91.03
-QC149025,St. Jean,Chicoutimi & Saguenay,QC,QC154002,Anse St. Jean pr. & Dumas tp.,Chicoutimi & Saguenay,QC,WITHIN,0.3628,1.0,0.3628,60.27
+QC149025,St. Jean,Chicoutimi & Saguenay,QC,QC154002,Anse St. Jean p. & Dumas tp.,Chicoutimi & Saguenay,QC,WITHIN,0.3628,1.0,0.3628,61.11
 QC149046,Manikuagan,Chicoutimi & Saguenay,QC,QC154999,NO DATA,Chicoutimi & Saguenay,QC,WITHIN,0.0004,1.0,0.0004,54.71
 QC149045,Île d'Anticosti,Chicoutimi & Saguenay,QC,QC154055,Ile d'Anticosti,Chicoutimi & Saguenay,QC,SAME_AS,1.0,1.0,1.0,95.33
 QC151007,"St. Eustache, Village",Deux-Montagnes,QC,QC156013,St. Eustache vl,Deux-Montagnes,QC,SAME_AS,1.0,1.0,1.0,88.33
-QC154025,Havre Aubert,Gaspé,QC,QC159014,Havre Aubert & Entry,Gaspé,QC,WITHIN,0.2066,1.0,0.2066,82.5
+QC154025,Havre Aubert,Gaspé,QC,QC159014,Havre Aubert,Gaspé,QC,WITHIN,0.2066,1.0,0.2066,100.0
 QC154021,Alright Islands,Gaspé,QC,QC159015,Havre aux Maisons,Gaspé,QC,WITHIN,0.2757,1.0,0.2757,60.62
 QC154010,Grande Vallée des Monts,Gaspé,QC,QC159010,Grande Vallée des Monts,Gaspé,QC,WITHIN,0.5398,1.0,0.5398,100.0
 QC160030,Portland East—Est,Labelle,QC,QC165035,Portland,Labelle,QC,WITHIN,0.4431,1.0,0.4431,74.8
@@ -3265,20 +3048,20 @@ QC160019,"Lochaber & Gore, North—Nord",Labelle,QC,QC165022,Lochaber & Gore,Lab
 QC160021,"Masson, Village",Labelle,QC,QC165053,Masson vl,Labelle,QC,WITHIN,0.6605,1.0,0.6605,82.5
 QC162001,Lachenaie,L’Assomption,QC,QC167001,Lachenaie,L'Assomption,QC,SAME_AS,1.0,1.0,1.0,97.5
 QC163017,"Villeray, Village",Laval,QC,QC168022,Villeray,Laval,QC,CONTAINS,0.5156,0.5156,1.0,74.8
-QC167005,"Montreal, St. Denis, Ward—Quartier",Maisonneuve,QC,QC172007,"Montréal, St. Denis ward-quartier",Maisonneuve,QC,WITHIN,0.3963,1.0,0.3963,94.78
+QC167005,"Montreal, St. Denis, Ward—Quartier",Maisonneuve,QC,QC172007,"Montréal, ward-quartier St. Denis",Maisonneuve,QC,WITHIN,0.3963,1.0,0.3963,73.88
 QC164004,Notre-Dame de la Victoire,Lévis,QC,QC169001,Notre-Dame de la Victoire,Lévis,QC,CONTAINS,0.4905,0.4905,1.0,100.0
 QC157999,NO DATA,Jacques-Cartier,QC,QC162999,NO DATA,Jacques-Cartier,QC,SAME_AS,1.0,1.0,1.0,100.0
 QC168002,"Louiseville, Town—Ville",Maskinongé,QC,QC173012,Louiseville t-v,Maskinongé,QC,SAME_AS,1.0,1.0,1.0,81.58
 QC172006,"St. Antoine, Ile aux Grues",Montmagny,QC,QC177005,"St. Antoine, Ile aux Grues",Montmagny,QC,SAME_AS,1.0,1.0,1.0,100.0
-QC167006,"Montreal, St. Jean-Baptiste, Ward—Quartier",Maisonneuve,QC,QC172002,"Montréal, Duvernay ward-quartier",Maisonneuve,QC,CONTAINS,0.4114,0.4114,1.0,77.3
-QC167006,"Montreal, St. Jean-Baptiste, Ward—Quartier",Maisonneuve,QC,QC172008,"Montréal, St. Jean Baptiste ward-quartier",Maisonneuve,QC,CONTAINS,0.5886,0.5886,1.0,94.1
+QC167006,"Montreal, St. Jean-Baptiste, Ward—Quartier",Maisonneuve,QC,QC172002,"Montréal, ward-quartier Duvernay",Maisonneuve,QC,CONTAINS,0.4114,0.4114,1.0,69.73
+QC167006,"Montreal, St. Jean-Baptiste, Ward—Quartier",Maisonneuve,QC,QC172008,"Montréal, ward-quartier St. Jean Baptiste",Maisonneuve,QC,CONTAINS,0.5886,0.5886,1.0,72.17
 QC179004,"Larochelle, Village",Nicolet,QC,QC184025,Larochelle vl,Nicolet,QC,SAME_AS,1.0,1.0,1.0,86.88
 QC169011,Notre-Dame de Lourdes,Mégantic,QC,QC174009,Notre-Dame de Lourdes,Mégantic,QC,WITHIN,0.4457,1.0,0.4457,100.0
 QC153013,St. Nazaire (part),Drummond & Arthabaska,QC,QC143008,St. Nazaire d'Acton,Bagot,QC,WITHIN,0.2944,1.0,0.2944,57.59
 QC138008,St. Hughes,Bagot,QC,QC143016,St. Hugues vl,Bagot,QC,CONTAINS,0.0228,0.0228,1.0,84.78
 QC153029,Ste. Eulalie (part),Drummond & Arthabaska,QC,QC184009,Ste. Eulalie,Nicolet,QC,WITHIN,0.3667,1.0,0.3667,58.48
 QC179018,St. Samuel (part),Nicolet,QC,QC184017,St. Samuel de Horton,Nicolet,QC,WITHIN,0.1618,1.0,0.1618,79.19
-QC180021,Sheen & Esher,Pontiac,QC,QC185001,Aberdeen & Malakoff } Sheen & Esher,Pontiac,QC,WITHIN,0.4854,1.0,0.4854,67.92
+QC180021,Sheen & Esher,Pontiac,QC,QC185001,"Aberdeen, Malakoff, Sheen & Esher",Pontiac,QC,WITHIN,0.4854,1.0,0.4854,69.57
 QC181022,Unorganized territory—Territoire non-organisé,Portneuf,QC,QC186006,Lac aux Sables,Portneuf,QC,CONTAINS,0.1914,0.1914,1.0,41.86
 QC187016,"Beaulac, Village",Richmond & Wolfe,QC,QC192028,Beaulac vl,Richmond & Wolfe,QC,SAME_AS,1.0,1.0,1.0,83.85
 QC188029,St. Mathieu,Rimouski,QC,QC193028,St. Mathieu,Rimouski,QC,SAME_AS,1.0,1.0,1.0,100.0
@@ -3303,12 +3086,12 @@ QC198003,"Trois-Rivières, St. Louis, Ward—Quartier",Trois-Rivières & St. Mau
 QC201003,Notre-Dame de Pierreville,Yamaska,QC,QC206003,Notre-Dame de Pierreville,Yamaska,QC,SAME_AS,1.0,1.0,1.0,100.0
 QC201008,St. Michel,Yamaska,QC,QC206011,St. Michel,Yamaska,QC,CONTAINS,0.7658,0.7658,1.0,100.0
 QC186002,Ste. Anne de Sorel,Richelieu,QC,QC191002,Ste. Anne de Sorel,Richelieu,QC,SAME_AS,1.0,1.0,1.0,100.0
-QC20N000,"Unorganized Districts- Abitibi, Ashuanipi, Mistassini","Unorganized Districts - Abitibi, Ashuanipi, Mistassini",QC,QC20N007,Waswanipi,Unorganized parts - Parties non organisées,QC,CONTAINS,0.1582,0.1582,1.0,32.68
+QC20N000,"Unorganized Districts- Abitibi, Ashuanipi, Mistassini","Unorganized Districts - Abitibi, Ashuanipi, Mistassini",QC,QC20N006,Stratton Island,Unorganized parts - Parties non organisées,QC,CONTAINS,0.0039,0.0039,1.0,39.52
 QC20N000,"Unorganized Districts- Abitibi, Ashuanipi, Mistassini","Unorganized Districts - Abitibi, Ashuanipi, Mistassini",QC,QC20N005,Rupert's House,Unorganized parts - Parties non organisées,QC,CONTAINS,0.2279,0.2279,1.0,35.68
 QC20N000,"Unorganized Districts- Abitibi, Ashuanipi, Mistassini","Unorganized Districts - Abitibi, Ashuanipi, Mistassini",QC,QC20N002,East Main,Unorganized parts - Parties non organisées,QC,CONTAINS,0.1398,0.1398,1.0,34.94
 QC20N000,"Unorganized Districts- Abitibi, Ashuanipi, Mistassini","Unorganized Districts - Abitibi, Ashuanipi, Mistassini",QC,QC20N003,Mistassini,Unorganized parts - Parties non organisées,QC,CONTAINS,0.427,0.427,1.0,39.1
+QC20N000,"Unorganized Districts- Abitibi, Ashuanipi, Mistassini","Unorganized Districts - Abitibi, Ashuanipi, Mistassini",QC,QC20N007,Waswanipi,Unorganized parts - Parties non organisées,QC,CONTAINS,0.1582,0.1582,1.0,32.68
 QC20N000,"Unorganized Districts- Abitibi, Ashuanipi, Mistassini","Unorganized Districts - Abitibi, Ashuanipi, Mistassini",QC,QC20N004,Nemiskau,Unorganized parts - Parties non organisées,QC,CONTAINS,0.0433,0.0433,1.0,30.65
-QC20N000,"Unorganized Districts- Abitibi, Ashuanipi, Mistassini","Unorganized Districts - Abitibi, Ashuanipi, Mistassini",QC,QC20N006,Stratton Island,Unorganized parts - Parties non organisées,QC,CONTAINS,0.0039,0.0039,1.0,39.52
 QC181999,NO DATA,Portneuf,QC,QC186999,NO DATA,Portneuf,QC,SAME_AS,1.0,1.0,1.0,100.0
 QC185002,Beauport,"Quebec, County—Comté",QC,QC190017,Montmorency vl,Québec County,QC,CONTAINS,0.0261,0.0261,1.0,34.55
 QC185002,Beauport,"Quebec, County—Comté",QC,QC190012,St. Grégoire de Montmorency,Québec County,QC,CONTAINS,0.0302,0.0302,1.0,33.82
@@ -3321,7 +3104,7 @@ QC163010,St. Martin,Laval,QC,QC168008,St. Martin,Laval,QC,CONTAINS,0.8406,0.8406
 QC187028,St. Julien de Wolfestown,Richmond & Wolfe,QC,QC192015,St. Jacques,Richmond & Wolfe,QC,WITHIN,0.9105,1.0,0.9105,62.0
 QC188002,"Mont Joli, Village",Rimouski,QC,QC193039,Mont-Joli vl,Rimouski,QC,WITHIN,0.0483,1.0,0.0483,81.33
 QC198015,Unorg. territory—Ter. non-organisé,Trois-Rivières & St. Maurice,QC,QC151025,Other parts - Autres parties,Champlain,QC,WITHIN,0.5,1.0,0.5,31.96
-QC149009,"Grande Baie, St. Alexis, Otis, Hébert, Ferland & Simon",Chicoutimi & Saguenay,QC,QC154006,Grande Baie pr. & Boileau tp. & Ferland tp.,Chicoutimi & Saguenay,QC,CONTAINS,0.4056,0.4056,1.0,70.41
+QC149009,"Grande Baie, St. Alexis, Otis, Hébert, Ferland & Simon",Chicoutimi & Saguenay,QC,QC154006,Grande Baie p. & Boileau tp. & Ferland tp.,Chicoutimi & Saguenay,QC,CONTAINS,0.4056,0.4056,1.0,70.83
 QC149009,"Grande Baie, St. Alexis, Otis, Hébert, Ferland & Simon",Chicoutimi & Saguenay,QC,QC154043,Grande Baie vl,Chicoutimi & Saguenay,QC,CONTAINS,0.0036,0.0036,1.0,56.76
 QC149009,"Grande Baie, St. Alexis, Otis, Hébert, Ferland & Simon",Chicoutimi & Saguenay,QC,QC154025,St. Félix d'Otis Mopigny,Chicoutimi & Saguenay,QC,CONTAINS,0.1956,0.1956,1.0,56.92
 QC149999,NO DATA,Chicoutimi & Saguenay,QC,QC154999,NO DATA,Chicoutimi & Saguenay,QC,WITHIN,0.8162,0.9895,0.8233,100.0

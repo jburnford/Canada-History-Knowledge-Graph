@@ -27,7 +27,11 @@ from typing import Dict, List, Tuple
 
 def load_year_layer(gdb_path: str, year: int) -> gpd.GeoDataFrame:
     """Load CSD layer for a specific year from FileGDB."""
-    layer_name = f"CANADA_{year}_CSD"
+    # Use V2T2 variant for 1911 (aligns with population data)
+    if year == 1911:
+        layer_name = f"CANADA_{year}_CSD_V2T2"
+    else:
+        layer_name = f"CANADA_{year}_CSD"
     print(f"Loading {layer_name}...", file=sys.stderr)
 
     gdf = gpd.read_file(gdb_path, layer=layer_name)
@@ -35,7 +39,8 @@ def load_year_layer(gdb_path: str, year: int) -> gpd.GeoDataFrame:
     # Standardize column names
     rename_map = {}
     for col in gdf.columns:
-        if col == f'TCPUID_CSD_{year}':
+        # V2T2 variant uses V2t2_UID_1911 instead of TCPUID_CSD_1911
+        if col == f'TCPUID_CSD_{year}' or col == f'V2t2_UID_{year}':
             rename_map[col] = 'tcpuid'
         elif col == f'PR_{year}':
             rename_map[col] = 'pr'
