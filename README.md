@@ -38,25 +38,35 @@ This project transforms historical Canadian census data into a CIDOC-CRM complia
 - **1911**: https://doi.org/10.5683/SP3/7ZG4XV (V2, Oct 2023)
 - **1921**: https://doi.org/10.5683/SP3/JPGS9B (V2, Oct 2023)
 
-## Current Status (September 30, 2025)
+## Current Status (October 1, 2025)
 
 ### ✅ Completed
 
+- **Neo4j Knowledge Graph**: 1.39M nodes, 4.5M relationships fully imported and tested
+  - Spatial entities: 13,714 places, 22,529 presences
+  - Census observations: 666,423 measurements (1851-1901)
+  - Provenance: 7 creators, 17 source files, 350 place name variants
+  - Performance: Complex multi-hop queries in 2-3 seconds
 - **Geospatial Environment**: Conda environment with geopandas, shapely, pyproj, fiona, rtree
 - **Temporal Linking (CSDs)**: 20,737 spatial links across census years (1851-1921)
   - 17,060 high-confidence links (SAME_AS, CONTAINS, WITHIN)
   - 3,677 ambiguous links (OCR errors, complex overlaps)
 - **Temporal Linking (CDs)**: 2,168 Census Division links (1851-1921)
-- **P132_spatiotemporally_overlaps_with Relationships**: 17,060 temporal overlap relationships (CSD)
+- **P132_spatiotemporally_overlaps_with Relationships**: 18,362 temporal overlap relationships
+- **Wikidata Community Extraction**: 2,897 Canadian communities fetched with PIDs
+  - 514 with founding dates, 2,876 with coordinates
+  - 933 with GeoNames cross-references (32.2%)
   - 17,060 CSD relationships (E93_Presence → E93_Presence)
-  - CD overlap analytics available in `cd_links_output/` (requires future modelling for export)
-  - Relationship types: SAME_AS (9,423), CONTAINS (6,985), WITHIN (1,954)
-- **CIDOC-CRM Spatial Model**: 61 CSV files (9.6 MB)
+  - 1,302 CD relationships (E93_Presence → E93_Presence) **NEW**
+  - Relationship types: SAME_AS (10,066), CONTAINS (7,355), WITHIN (2,243)
+- **CIDOC-CRM Spatial Model**: 110 CSV files (11.0 MB)
   - 13,135 E53_Place nodes (CSDs with names)
   - 579 E53_Place nodes (CDs)
   - 21,047 E93_Presence nodes (CSD-year instances)
+  - 1,482 E93_Presence nodes (CD-year instances) **NEW**
   - 45,598 P122_borders_with relationships
-  - 21,046 P89_falls_within relationships (time-scoped)
+  - 21,046 P89_falls_within relationships (time-scoped, E53→E53)
+  - 21,047 P10_falls_within relationships (time-scoped, E93→E93) **NEW**
   - E94_Space_Primitive with centroids (lat/lon)
 - **CIDOC-CRM v2.0 Census Model**: 666,423 measurements (1851-1901)
   - E16_Measurement nodes (proper measurement class)
@@ -75,17 +85,26 @@ This project transforms historical Canadian census data into a CIDOC-CRM complia
 - **Name Variant Tracking**:
   - E41_Appellation: 350 appellations (207 canonical + 143 OCR variants)
   - P1_is_identified_by: 350 relationships
-- **Import Documentation**: 5 comprehensive guides
-  - README_CIDOC_CRM.md (spatial data)
+- **Import Documentation**: 6 comprehensive guides
+  - README_CIDOC_CRM.md (spatial data - CSD presences)
+  - CD_PRESENCES_IMPORT_GUIDE.md (spatial data - CD presences) **NEW**
   - README_IMPORT.md (census observations)
-  - P134_CONTINUED_GUIDE.md (temporal continuity)
   - PROVENANCE_IMPORT_GUIDE.md (provenance entities)
   - E41_APPELLATION_GUIDE.md (name variants)
 
+### 🔄 In Progress
+
+- **Community Linking to Wikidata/GeoNames** (Oct 1, 2025)
+  - ✅ Fetched 2,897 Canadian communities from Wikidata with PIDs
+  - ⏳ Converting 1921 CSDs to LOD format with persistent URIs
+  - ⏳ Creating `was_enumerated_as` relationships (communities → census presences)
+  - See: **COMMUNITY_LINKING_PROGRESS.md**
+
 ### ⏳ Next Steps
 
-- **Neo4j Import**: Load complete CIDOC-CRM dataset into Neo4j (all components ready)
-- **Process 1911/1921 data**: Multi-layer GDB investigation (40% more data)
+- **Complete Community Linking**: Import community entities and link to all census years (1851-1921)
+- **Linked Open Data**: Full LOD conversion with persistent URIs for all entities
+- **Process 1911/1921 census observations**: Add remaining measurement data
 - **RDF/TTL exports**: For LOD publication
 - **Public SPARQL endpoint**: Deployment
 
@@ -98,18 +117,24 @@ GraphRAG_test/
 ├── CENSUS_CIDOC_CRM_REVISED.md         # Revised model (v2.0) - CURRENT
 ├── README.md                           # This file
 ├── scripts/
-│   ├── build_neo4j_cidoc_crm.py       # Spatial CIDOC-CRM generator
+│   ├── build_neo4j_cidoc_crm.py       # Spatial CIDOC-CRM generator (CSD)
+│   ├── build_cd_presences.py          # CD presence generator **NEW**
 │   ├── link_csd_years_spatial_v2.py   # Temporal linking (spatial)
 │   ├── build_p132_overlaps.py         # Export P132 spatiotemporal overlap CSVs
 │   ├── link_all_years.sh              # Batch temporal linking
 │   ├── assign_canonical_names_simple.py # OCR error correction
 │   └── build_census_observations.py    # Census variable processor
-├── neo4j_cidoc_crm/                   # Spatial graph CSVs (61 files)
-│   ├── README_CIDOC_CRM.md            # Import guide
+├── neo4j_cidoc_crm/                   # Spatial graph CSVs (110 files, 11.0 MB)
+│   ├── README_CIDOC_CRM.md            # CSD presences import guide
+│   ├── CD_PRESENCES_IMPORT_GUIDE.md   # CD presences import guide **NEW**
 │   ├── e53_place_*.csv                # Place nodes (CSDs + CDs)
-│   ├── e93_presence_*.csv             # Temporal presences
-│   ├── e94_space_primitive_*.csv      # Spatial coordinates
-│   ├── p132_spatiotemporally_overlaps_with_csd.csv # CSD temporal overlap links (17,060)
+│   ├── e93_presence_*.csv             # CSD temporal presences
+│   ├── e93_presence_cd_*.csv          # CD temporal presences **NEW**
+│   ├── e94_space_primitive_*.csv      # CSD spatial coordinates
+│   ├── e94_space_primitive_cd_*.csv   # CD spatial coordinates **NEW**
+│   ├── p132_spatiotemporally_overlaps_with_csd.csv # CSD temporal overlaps (17,060)
+│   ├── p132_spatiotemporally_overlaps_with_cd.csv  # CD temporal overlaps (1,302) **NEW**
+│   ├── p10_csd_within_cd_presence_*.csv # CSD→CD hierarchy (21,047) **NEW**
 │   └── p*_*.csv                       # Other relationships
 ├── neo4j_census_v2/                   # Census observations (666,423)
 │   ├── README_IMPORT.md               # Census import guide
@@ -174,7 +199,8 @@ GraphRAG_test/
 - `P166_was_a_presence_of` - Presence → Place
 - `P164_is_temporally_specified_by` - Presence → Period
 - `P161_has_spatial_projection` - Presence → Space Primitive
-- `P89_falls_within` - Place (CSD) → Place (CD) [time-scoped]
+- `P89_falls_within` - Place (CSD) → Place (CD) [time-scoped, static hierarchy]
+- `P10_falls_within` - Presence (CSD) → Presence (CD) [time-scoped, temporal hierarchy]
 - `P122_borders_with` - Place → Place [with border length]
 - `P132_spatiotemporally_overlaps_with` - Presence → Presence (temporal overlap)
 

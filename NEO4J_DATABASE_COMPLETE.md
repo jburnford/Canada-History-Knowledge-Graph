@@ -218,15 +218,21 @@ RETURN app.type AS appellation_type, app.name AS name, app.year AS year, app.not
 ## Next Steps
 
 ### Immediate Priorities
-1. **Data Quality**: Fix province NULL values (DATA_QUALITY_TODOS.md #2)
-2. **Complete Coverage**: Add 1911 and 1921 census observations
-3. **Documentation**: Update main README.md with final statistics
+1. **Community Linking** (In Progress - Oct 1, 2025): Link Wikidata communities to census geography
+   - ✅ Fetched 2,897 Canadian communities from Wikidata
+   - ✅ Created E42_Identifier nodes for PIDs
+   - ⏳ Convert 1921 CSDs to LOD format
+   - ⏳ Create `was_enumerated_as` relationships
+   - See: COMMUNITY_LINKING_PROGRESS.md
+2. **Data Quality**: Fix province NULL values (DATA_QUALITY_TODOS.md #2)
+3. **Complete Coverage**: Add 1911 and 1921 census observations
 
 ### Future Enhancements
-1. **Graph Algorithms**: PageRank, community detection on place networks
-2. **Spatial Queries**: Add Neo4j Spatial plugin for geographic analysis
-3. **GraphRAG Integration**: Connect LLM to knowledge graph for historical queries
-4. **Visualization**: Create Bloom perspectives for exploration
+1. **Linked Open Data**: Full LOD conversion with persistent URIs for all entities
+2. **Graph Algorithms**: PageRank, community detection on place networks
+3. **Spatial Queries**: Add Neo4j Spatial plugin for geographic analysis
+4. **GraphRAG Integration**: Connect LLM to knowledge graph for historical queries
+5. **Visualization**: Create Bloom perspectives for exploration
 
 ---
 
