@@ -65,3 +65,4 @@ Thumbs.db
 # Keep scripts
 !scripts/*.py
 !scripts/*.sh
+*.dump
