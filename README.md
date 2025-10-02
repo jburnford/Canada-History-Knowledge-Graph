@@ -308,6 +308,10 @@ python scripts/assign_canonical_names_simple.py \
   --out canonical_names_final.csv
 ```
 
+## Deployment
+
+- Neo4j VM (Arbutus/OpenStack): see `docs/NEO4J_VM_DEPLOYMENT_ARBUTUS.md` for a Docker-based setup with volumes, networking, and troubleshooting (including handling an instance stuck in Error state).
+
 ## Sample Queries
 
 ### Cypher: Find CSD Evolution
