@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Westmeath Township, Renfrew County — Data Model Comparison</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  background: #f5f6f8;
+  color: #1a1a2e;
+  line-height: 1.6;
+  padding: 0 0 60px;
+}
+header {
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
+  color: #e0e0e0;
+  padding: 40px 32px 32px;
+}
+header h1 { font-size: 28px; font-weight: 700; color: #fff; }
+header .sub { font-size: 14px; color: #8a9cc5; margin-top: 4px; }
+header .coords { font-size: 12px; color: #6a7a9a; margin-top: 8px; font-family: monospace; }
+nav {
+  background: #fff;
+  border-bottom: 1px solid #e0e3e8;
+  padding: 0 32px;
+  display: flex;
+  gap: 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+nav a {
+  padding: 12px 20px;
+  text-decoration: none;
+  color: #5a6578;
+  font-size: 13px;
+  font-weight: 600;
+  border-bottom: 2px solid transparent;
+  transition: all 0.15s;
+}
+nav a:hover { color: #1a1a2e; }
+nav a.active { color: #2563eb; border-bottom-color: #2563eb; }
+.container { max-width: 1100px; margin: 0 auto; padding: 24px 32px; }
+section { margin-bottom: 40px; }
+h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #e0e3e8;
+}
+h3 { font-size: 15px; font-weight: 600; margin: 16px 0 8px; color: #374151; }
+.model-label {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 2px 8px;
+  border-radius: 3px;
+  margin-bottom: 8px;
+}
+.model-label.hgis { background: #dbeafe; color: #1d4ed8; }
+.model-label.cidoc { background: #fce7f3; color: #be185d; }
+.card {
+  background: #fff;
+  border: 1px solid #e0e3e8;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 16px;
+}
+.card.highlight { border-left: 4px solid #2563eb; }
+.card.cidoc-card { border-left: 4px solid #be185d; }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+th {
+  text-align: left;
+  padding: 8px 12px;
+  background: #f8f9fb;
+  font-weight: 600;
+  color: #374151;
+  border-bottom: 2px solid #e0e3e8;
+}
+td {
+  padding: 8px 12px;
+  border-bottom: 1px solid #f0f1f3;
+  vertical-align: top;
+}
+tr:hover td { background: #f8f9fb; }
+.mono { font-family: 'SF Mono', 'Fira Code', monospace; font-size: 12px; }
+.dim { color: #6b7280; }
+.pop { font-weight: 700; color: #059669; }
+.id-change { background: #fef3c7; }
+.same-id { background: #d1fae5; }
+.arrow { color: #9ca3af; margin: 0 4px; }
+.chain-viz {
+  display: flex;
+  align-items: stretch;
+  gap: 0;
+  overflow-x: auto;
+  padding: 16px 0;
+}
+.chain-node {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 110px;
+  padding: 8px;
+}
+.chain-year {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1a1a2e;
+}
+.chain-id {
+  font-family: monospace;
+  font-size: 11px;
+  background: #e0e3e8;
+  padding: 2px 6px;
+  border-radius: 3px;
+  margin: 4px 0;
+}
+.chain-pop {
+  font-size: 12px;
+  font-weight: 600;
+  color: #059669;
+}
+.chain-link {
+  display: flex;
+  align-items: center;
+  color: #9ca3af;
+  font-size: 20px;
+  padding: 0 2px;
+}
+.chain-link.same { color: #059669; }
+.note {
+  background: #fffbeb;
+  border: 1px solid #fde68a;
+  border-radius: 6px;
+  padding: 12px 16px;
+  font-size: 13px;
+  color: #92400e;
+  margin: 12px 0;
+}
+.issue {
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  border-radius: 6px;
+  padding: 12px 16px;
+  font-size: 13px;
+  color: #991b1b;
+  margin: 12px 0;
+}
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+@media (max-width: 768px) { .two-col { grid-template-columns: 1fr; } }
+.entity-box {
+  background: #f8f0f8;
+  border: 1px solid #e8d0e8;
+  border-radius: 6px;
+  padding: 10px 14px;
+  margin: 6px 0;
+  font-size: 12px;
+}
+.entity-box .etype {
+  font-weight: 700;
+  color: #be185d;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+.rel-arrow {
+  text-align: center;
+  color: #be185d;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 0;
+}
+.tab-content { display: none; }
+.tab-content.active { display: block; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Westmeath Township, Renfrew County, Ontario</h1>
+  <div class="sub">Census data 1851–1921 — Comparing HGIS and CIDOC-CRM data models</div>
+  <div class="coords">45.763°N, 76.884°W · Boundaries stable across all census years (SAME_AS, IOU = 1.0)</div>
+</header>
+
+<nav>
+  <a href="#overview" class="active" onclick="showTab('overview',this)">Overview</a>
+  <a href="#hgis" onclick="showTab('hgis',this)">HGIS Model</a>
+  <a href="#cidoc" onclick="showTab('cidoc',this)">CIDOC-CRM Model</a>
+  <a href="#comparison" onclick="showTab('comparison',this)">Comparison</a>
+  <a href="#issues" onclick="showTab('issues',this)">Modeling Issues</a>
+</nav>
+
+<div class="container">
+
+<!-- OVERVIEW -->
+<div id="overview" class="tab-content active">
+
+<section>
+<h2>Westmeath at a Glance</h2>
+<div class="card">
+  <p>Westmeath is a township in Renfrew County, Ontario, on the Ottawa River. Its <strong>boundaries remained stable</strong> across all eight census years (1851–1921), making it an ideal test case for comparing how different data models handle temporal identity.</p>
+</div>
+
+<h3>Population Timeline</h3>
+<div class="chain-viz">
+  <div class="chain-node">
+    <div class="chain-year">1851</div>
+    <div class="chain-id">ON033008</div>
+    <div class="chain-pop">1,152</div>
+  </div>
+  <div class="chain-link same">→</div>
+  <div class="chain-node">
+    <div class="chain-year">1861</div>
+    <div class="chain-id">ON096020</div>
+    <div class="chain-pop">2,001</div>
+  </div>
+  <div class="chain-link same">→</div>
+  <div class="chain-node">
+    <div class="chain-year">1871</div>
+    <div class="chain-id">ON082003</div>
+    <div class="chain-pop">2,632</div>
+  </div>
+  <div class="chain-link same">→</div>
+  <div class="chain-node">
+    <div class="chain-year">1881</div>
+    <div class="chain-id">ON114011</div>
+    <div class="chain-pop">3,220</div>
+  </div>
+  <div class="chain-link same">→</div>
+  <div class="chain-node">
+    <div class="chain-year">1891</div>
+    <div class="chain-id">ON114011</div>
+    <div class="chain-pop">3,612</div>
+  </div>
+  <div class="chain-link same">→</div>
+  <div class="chain-node">
+    <div class="chain-year">1901</div>
+    <div class="chain-id">ON110012</div>
+    <div class="chain-pop">3,586</div>
+  </div>
+  <div class="chain-link same">→</div>
+  <div class="chain-node">
+    <div class="chain-year">1911</div>
+    <div class="chain-id">ON116010</div>
+    <div class="chain-pop dim">N/A</div>
+  </div>
+  <div class="chain-link same">→</div>
+  <div class="chain-node">
+    <div class="chain-year">1921</div>
+    <div class="chain-id">ON142032</div>
+    <div class="chain-pop dim">N/A</div>
+  </div>
+</div>
+
+<div class="note">
+  <strong>Key observation:</strong> Despite being the same physical place with unchanged boundaries, Westmeath has <strong>7 different identifiers</strong> across 8 census years. The TCP UID is a per-year polygon slot number, not a persistent place identifier. Only 1881→1891 retains the same ID (ON114011).
+</div>
+</section>
+</div>
+
+<!-- HGIS MODEL -->
+<div id="hgis" class="tab-content">
+
+<section>
+<h2>HGIS Source Data</h2>
+<p class="dim" style="margin-bottom:16px">The Historical GIS data assigns each census subdivision a unique polygon ID (TCP UID) per census year. Temporal links between years are computed from spatial overlap.</p>
+
+<div class="card highlight">
+<h3>Identity Chain (from year_links_output/)</h3>
+<table>
+<thead>
+  <tr><th>Year</th><th>TCP UID</th><th>Name</th><th>Census Division</th><th>→ Next ID</th><th>Relationship</th><th>IOU</th></tr>
+</thead>
+<tbody>
+  <tr>
+    <td><strong>1851</strong></td>
+    <td class="mono">ON033008</td>
+    <td>Westmeath</td>
+    <td>Renfrew</td>
+    <td class="mono">ON096020</td>
+    <td>SAME_AS</td>
+    <td>1.0</td>
+  </tr>
+  <tr>
+    <td><strong>1861</strong></td>
+    <td class="mono">ON096020</td>
+    <td>Westmeath</td>
+    <td>Renfrew</td>
+    <td class="mono">ON082003</td>
+    <td>SAME_AS</td>
+    <td>1.0</td>
+  </tr>
+  <tr>
+    <td><strong>1871</strong></td>
+    <td class="mono">ON082003</td>
+    <td>Westmeath</td>
+    <td>Renfrew, North</td>
+    <td class="mono">ON114011</td>
+    <td>SAME_AS</td>
+    <td>1.0</td>
+  </tr>
+  <tr>
+    <td><strong>1881</strong></td>
+    <td class="mono">ON114011</td>
+    <td>Wesmeath <span class="dim">(OCR typo)</span></td>
+    <td>Renfrew, North</td>
+    <td class="mono">ON114011</td>
+    <td>SAME_AS</td>
+    <td>1.0</td>
+  </tr>
+  <tr class="same-id">
+    <td><strong>1891</strong></td>
+    <td class="mono">ON114011</td>
+    <td>Westmeath</td>
+    <td>Renfrew, North</td>
+    <td class="mono">ON110012</td>
+    <td>SAME_AS</td>
+    <td>1.0</td>
+  </tr>
+  <tr>
+    <td><strong>1901</strong></td>
+    <td class="mono">ON110012</td>
+    <td>Westmeath</td>
+    <td>Renfrew, North</td>
+    <td class="mono">ON116010</td>
+    <td>SAME_AS</td>
+    <td>1.0</td>
+  </tr>
+  <tr>
+    <td><strong>1911</strong></td>
+    <td class="mono">ON116010</td>
+    <td>Westmeath</td>
+    <td>Renfrew N</td>
+    <td class="mono">ON142032</td>
+    <td>SAME_AS</td>
+    <td>1.0</td>
+  </tr>
+  <tr>
+    <td><strong>1921</strong></td>
+    <td class="mono">ON142032</td>
+    <td>Westmeath</td>
+    <td>Renfrew</td>
+    <td class="dim">—</td>
+    <td class="dim">—</td>
+    <td class="dim">—</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<h3>Population &amp; Housing</h3>
+<div class="card">
+<table>
+<thead>
+  <tr><th>Year</th><th>TCP UID</th><th>Total Pop</th><th>Male</th><th>Female</th><th>Households</th><th>Area (km²)</th></tr>
+</thead>
+<tbody>
+  <tr><td>1851</td><td class="mono">ON033008</td><td class="pop">1,152</td><td class="dim">—</td><td>158</td><td class="dim">—</td><td>324.7</td></tr>
+  <tr><td>1861</td><td class="mono">ON096020</td><td class="pop">2,001</td><td class="dim">—</td><td class="dim">—</td><td class="dim">—</td><td>324.7</td></tr>
+  <tr><td>1871</td><td class="mono">ON082003</td><td class="pop">2,632</td><td>766</td><td>435</td><td>409</td><td>324.7</td></tr>
+  <tr><td>1881</td><td class="mono">ON114011</td><td class="pop">3,220</td><td>922</td><td>527</td><td>524</td><td>324.7</td></tr>
+  <tr><td>1891</td><td class="mono">ON114011</td><td class="pop">3,612</td><td>1,114</td><td>652</td><td>600</td><td>324.7</td></tr>
+  <tr><td>1901</td><td class="mono">ON110012</td><td class="pop">3,586</td><td class="dim">—</td><td>662</td><td>634</td><td>324.7</td></tr>
+  <tr><td>1911</td><td class="mono">ON116010</td><td class="dim">N/A</td><td class="dim">—</td><td class="dim">—</td><td class="dim">—</td><td>324.7</td></tr>
+  <tr><td>1921</td><td class="mono">ON142032</td><td class="dim">N/A</td><td class="dim">—</td><td class="dim">—</td><td class="dim">—</td><td>324.7</td></tr>
+</tbody>
+</table>
+</div>
+
+<h3>Neighbours (1921 borders)</h3>
+<div class="card">
+<table>
+<thead><tr><th>Neighbour ID</th><th>Shared Border (m)</th></tr></thead>
+<tbody>
+  <tr><td class="mono">ON142028 <span class="dim">(Ross)</span></td><td>15,383</td></tr>
+  <tr><td class="mono">ON142031 <span class="dim">(Stafford)</span></td><td>9,595</td></tr>
+  <tr><td class="mono">ON142007 <span class="dim">(Bromley)</span></td><td>7,081</td></tr>
+  <tr><td class="mono">ON142022 <span class="dim">(Pembroke)</span></td><td>4,349</td></tr>
+</tbody>
+</table>
+<p class="dim" style="margin-top:8px;font-size:12px">Border lengths are identical across all census years — confirming stable boundaries.</p>
+</div>
+</section>
+</div>
+
+<!-- CIDOC-CRM MODEL -->
+<div id="cidoc" class="tab-content">
+
+<section>
+<h2>CIDOC-CRM Model (Current Implementation)</h2>
+<p class="dim" style="margin-bottom:16px">The CIDOC-CRM model uses E53_Place (persistent), E93_Presence (temporal), E94_Space_Primitive (coordinates), and E4_Period (census year) to separate place identity from temporal manifestation.</p>
+
+<h3>Entities Created for Westmeath</h3>
+
+<div class="note">
+  <strong>Problem:</strong> Because the TCP UID changes each year, the current implementation creates a <em>separate</em> E53_Place for each ID. Westmeath appears as multiple "places" rather than one place with multiple presences.
+</div>
+
+<div class="card cidoc-card">
+<h3>E53_Place Nodes (should be 1, currently 7)</h3>
+<table>
+<thead><tr><th>place_id</th><th>name</th><th>Represents Westmeath in…</th></tr></thead>
+<tbody>
+  <tr><td class="mono">ON033008</td><td class="dim">[from 1851 numbering]</td><td>1851</td></tr>
+  <tr><td class="mono">ON096020</td><td class="dim">[from 1861 numbering]</td><td>1861</td></tr>
+  <tr><td class="mono">ON082003</td><td>Westmeath <span class="dim">(but also Burgess in 1861, Plympton in 1891…)</span></td><td>1871</td></tr>
+  <tr><td class="mono">ON114011</td><td>Osprey <span class="dim">(canonical name from 1921 usage!)</span></td><td>1881, 1891</td></tr>
+  <tr><td class="mono">ON110012</td><td>Sandwich S <span class="dim">(canonical name from 1921 usage!)</span></td><td>1901</td></tr>
+  <tr><td class="mono">ON116010</td><td>Hayelock <span class="dim">(canonical name from 1921 usage!)</span></td><td>1911</td></tr>
+  <tr><td class="mono">ON142032</td><td><strong>Westmeath</strong></td><td>1921</td></tr>
+</tbody>
+</table>
+</div>
+
+<h3>Entity Graph for 1871 (example year)</h3>
+<div class="card cidoc-card">
+  <div class="entity-box">
+    <div class="etype">E53_Place</div>
+    <div><strong>ON082003</strong> — "Westmeath" (in 1871; "Burgess" in 1861, "Plympton" in 1891)</div>
+  </div>
+  <div class="rel-arrow">↑ P166_was_a_presence_of</div>
+  <div class="entity-box">
+    <div class="etype">E93_Presence</div>
+    <div><strong>ON082003_1871</strong> — area: 324,709,711 m²</div>
+  </div>
+  <div class="two-col">
+    <div>
+      <div class="rel-arrow">↓ P161_has_spatial_projection</div>
+      <div class="entity-box">
+        <div class="etype">E94_Space_Primitive</div>
+        <div><strong>ON082003_1871_centroid</strong><br>45.763°N, 76.884°W</div>
+      </div>
+    </div>
+    <div>
+      <div class="rel-arrow">↓ P164_temporally_specified_by</div>
+      <div class="entity-box">
+        <div class="etype">E4_Period</div>
+        <div><strong>CENSUS_1871</strong></div>
+      </div>
+    </div>
+  </div>
+  <div class="rel-arrow" style="margin-top:8px">↓ P10_falls_within</div>
+  <div class="entity-box">
+    <div class="etype">E93_Presence (CD)</div>
+    <div><strong>CD_ON_Renfrew,_North—Nord_1871</strong></div>
+  </div>
+</div>
+
+<h3>Temporal Overlap Relationships (P132)</h3>
+<div class="card cidoc-card">
+<table>
+<thead><tr><th>From Presence</th><th>To Presence</th><th>Relationship</th><th>IOU</th></tr></thead>
+<tbody>
+  <tr><td class="mono">ON033008_1851</td><td class="mono">ON096020_1861</td><td>SAME_AS</td><td>1.0</td></tr>
+  <tr><td class="mono">ON096020_1861</td><td class="mono">ON082003_1871</td><td>SAME_AS</td><td>1.0</td></tr>
+  <tr><td class="mono">ON082003_1871</td><td class="mono">ON114011_1881</td><td>SAME_AS</td><td>1.0</td></tr>
+  <tr><td class="mono">ON114011_1881</td><td class="mono">ON114011_1891</td><td>SAME_AS</td><td>1.0</td></tr>
+  <tr><td class="mono">ON114011_1891</td><td class="mono">ON110012_1901</td><td>SAME_AS</td><td>1.0</td></tr>
+  <tr><td class="mono">ON110012_1901</td><td class="mono">ON116010_1911</td><td>SAME_AS</td><td>1.0</td></tr>
+  <tr><td class="mono">ON116010_1911</td><td class="mono">ON142032_1921</td><td>SAME_AS</td><td>1.0</td></tr>
+</tbody>
+</table>
+</div>
+</section>
+</div>
+
+<!-- COMPARISON -->
+<div id="comparison" class="tab-content">
+
+<section>
+<h2>Model Comparison</h2>
+
+<div class="two-col">
+<div class="card highlight">
+  <span class="model-label hgis">HGIS</span>
+  <h3>How HGIS Represents Westmeath</h3>
+  <ul style="font-size:13px;padding-left:20px">
+    <li><strong>Identity:</strong> TCP UID per census year (7 different IDs)</li>
+    <li><strong>Continuity:</strong> Spatial overlap links between consecutive years</li>
+    <li><strong>Name:</strong> Stored per-year in the census tables</li>
+    <li><strong>Geography:</strong> Full polygon boundary per year</li>
+    <li><strong>Hierarchy:</strong> CSD → CD → Province, per year</li>
+    <li><strong>Data:</strong> Census variables attached directly to polygon ID + year</li>
+  </ul>
+  <h3 style="margin-top:16px">Strengths</h3>
+  <ul style="font-size:13px;padding-left:20px;color:#059669">
+    <li>Simple, flat structure</li>
+    <li>Each year is self-contained</li>
+    <li>No ambiguity about what polygon a measurement refers to</li>
+  </ul>
+  <h3 style="margin-top:12px">Weaknesses</h3>
+  <ul style="font-size:13px;padding-left:20px;color:#dc2626">
+    <li>No persistent identity — "Westmeath" is 7 different entities</li>
+    <li>Cross-year queries require following link chains</li>
+    <li>Same ID reused for different places in different years</li>
+  </ul>
+</div>
+
+<div class="card cidoc-card">
+  <span class="model-label cidoc">CIDOC-CRM</span>
+  <h3>How CIDOC-CRM Should Represent Westmeath</h3>
+  <ul style="font-size:13px;padding-left:20px">
+    <li><strong>Identity:</strong> One E53_Place with a persistent URI</li>
+    <li><strong>Continuity:</strong> Multiple E93_Presence nodes linked to the same E53_Place</li>
+    <li><strong>Name:</strong> E41_Appellation(s) with temporal validity</li>
+    <li><strong>Geography:</strong> E94_Space_Primitive per presence</li>
+    <li><strong>Hierarchy:</strong> E53_Place → E53_Place (CD) via P89</li>
+    <li><strong>Data:</strong> E16_Measurement → E93_Presence</li>
+  </ul>
+  <h3 style="margin-top:16px">Current Implementation Gap</h3>
+  <ul style="font-size:13px;padding-left:20px;color:#dc2626">
+    <li>E53_Place created per TCP UID, not per real-world place</li>
+    <li>ON082003 is treated as one place but used for Westmeath (1871), Burgess (1861), Plympton (1891)</li>
+    <li>ON114011 is "Osprey" (its 1921 canonical name) but represents Westmeath in 1881/1891</li>
+    <li>No single node you can query for "all Westmeath data"</li>
+  </ul>
+</div>
+</div>
+
+<h3>What the Ideal CIDOC-CRM Model Would Look Like</h3>
+<div class="card cidoc-card">
+  <div class="entity-box" style="background:#d1fae5;border-color:#6ee7b7">
+    <div class="etype" style="color:#059669">E53_Place (Persistent)</div>
+    <div><strong>westmeath_renfrew_on</strong> — "Westmeath Township"</div>
+    <div style="font-size:11px;color:#6b7280;margin-top:4px">Single entity representing the enduring place, independent of census-year polygon numbering</div>
+  </div>
+  <div class="rel-arrow">↑ P166_was_a_presence_of (×8)</div>
+  <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:6px">
+    <div class="entity-box"><div class="etype">E93_Presence</div>1851<br>pop: 1,152</div>
+    <div class="entity-box"><div class="etype">E93_Presence</div>1861<br>pop: 2,001</div>
+    <div class="entity-box"><div class="etype">E93_Presence</div>1871<br>pop: 2,632</div>
+    <div class="entity-box"><div class="etype">E93_Presence</div>1881<br>pop: 3,220</div>
+  </div>
+  <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-top:6px">
+    <div class="entity-box"><div class="etype">E93_Presence</div>1891<br>pop: 3,612</div>
+    <div class="entity-box"><div class="etype">E93_Presence</div>1901<br>pop: 3,586</div>
+    <div class="entity-box"><div class="etype">E93_Presence</div>1911</div>
+    <div class="entity-box"><div class="etype">E93_Presence</div>1921</div>
+  </div>
+</div>
+
+</section>
+</div>
+
+<!-- ISSUES -->
+<div id="issues" class="tab-content">
+
+<section>
+<h2>Modeling Issues Exposed by Westmeath</h2>
+
+<div class="issue">
+  <strong>Issue 1: ID Reuse Across Years</strong><br>
+  TCP UID <code>ON082003</code> represents <em>different physical places</em> in different census years:
+  <ul style="margin-top:8px;padding-left:20px;font-size:12px">
+    <li>1861: Burgess (Lanark County, 44.79°N 76.28°W)</li>
+    <li>1871: <strong>Westmeath</strong> (Renfrew North, 45.76°N 76.88°W)</li>
+    <li>1891: Plympton (Lambton West, 43.01°N 82.11°W)</li>
+    <li>1901: Kemptville Village (Leeds &amp; Grenville, 45.02°N 75.65°W)</li>
+    <li>1911: Stanley (Huron S, 43.51°N 81.61°W)</li>
+  </ul>
+  <p style="margin-top:8px">Creating a single E53_Place for ON082003 conflates 5 completely different townships.</p>
+</div>
+
+<div class="issue">
+  <strong>Issue 2: Canonical Name Mismatch</strong><br>
+  The E53_Place canonical name is set from the CSD's <em>latest</em> census year appearance, not the year it represents Westmeath:
+  <ul style="margin-top:8px;padding-left:20px;font-size:12px">
+    <li><code>ON114011</code> → named "Osprey" (from 1921), but is Westmeath in 1881/1891</li>
+    <li><code>ON110012</code> → named "Sandwich S" (from 1921), but is Westmeath in 1901</li>
+    <li><code>ON116010</code> → named "Hayelock" (from 1921), but is Westmeath in 1911</li>
+  </ul>
+</div>
+
+<div class="issue">
+  <strong>Issue 3: OCR Error Preserved</strong><br>
+  In the 1881 census data, Westmeath is spelled "Wesmeath" (missing 't'). The year_links caught this (name_similarity: 95.88) but the HGIS data preserves the OCR error. The canonical name correction system identified it but the chain is incomplete (only 2 years tracked in chain_00313).
+</div>
+
+<div class="note">
+  <strong>Issue 4: Census Division Name Variation</strong><br>
+  Renfrew County appears as: "Renfrew" (1851, 1861, 1921), "Renfrew, North—Nord" (1871–1901), "Renfrew N" (1911). These are the same administrative area but inconsistently named across census years — a parallel identity problem at the CD level.
+</div>
+
+<h3>Proposed Solution</h3>
+<div class="card">
+  <ol style="font-size:13px;padding-left:20px">
+    <li><strong>Create persistent E53_Place entities</strong> by following SAME_AS chains, not by TCP UID. Each chain of SAME_AS links with IOU=1.0 = one persistent place.</li>
+    <li><strong>Keep E93_Presence per census year</strong> linked to the single E53_Place via P166. The presence retains the original TCP UID as a provenance property.</li>
+    <li><strong>Handle CONTAINS/WITHIN chains</strong> as place evolution: the persistent place's boundary changed, and the presences before/after the change show different geometries.</li>
+    <li><strong>Assign canonical names</strong> from the most common name in the chain, not from a single year's usage.</li>
+    <li><strong>Link E41_Appellations temporally</strong> — "Wesmeath" is valid for 1881 only (OCR), "Westmeath" is the canonical form.</li>
+  </ol>
+</div>
+</section>
+</div>
+
+</div><!-- container -->
+
+<script>
+function showTab(id, el) {
+  document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('nav a').forEach(a => a.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  if (el) el.classList.add('active');
+}
+// Handle hash navigation
+if (location.hash) {
+  const id = location.hash.slice(1);
+  const el = document.querySelector(`nav a[href="#${id}"]`);
+  if (el) showTab(id, el);
+}
+</script>
+</body>
+</html>
