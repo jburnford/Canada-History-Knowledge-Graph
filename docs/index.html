@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Canadian Census Subdivisions 1851–1921 · Layered View</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  background: #080c15;
+  color: #c0c8d8;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  overflow: hidden;
+  height: 100vh;
+}
+canvas { display: block; }
+
+.overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  pointer-events: none;
+  z-index: 10;
+}
+.overlay > * { pointer-events: auto; }
+
+.title {
+  position: absolute;
+  top: 18px; left: 22px;
+}
+.title h1 { font-size: 18px; font-weight: 600; color: #dce2ee; }
+.title .sub { font-size: 11px; color: #5a6578; margin-top: 2px; }
+
+.legend {
+  position: absolute;
+  top: 70px; left: 22px;
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.leg-section { margin-bottom: 6px; }
+.leg-title { color: #4a5568; font-weight: 700; text-transform: uppercase; font-size: 9px; letter-spacing: 0.5px; margin-bottom: 2px; }
+.leg-item { display: flex; align-items: center; gap: 5px; line-height: 1.6; }
+.leg-dot { width: 7px; height: 7px; border-radius: 50%; }
+.leg-line { width: 14px; height: 2px; border-radius: 1px; }
+
+.controls {
+  position: absolute;
+  bottom: 20px; left: 50%;
+  transform: translateX(-50%);
+  display: flex; gap: 8px; align-items: center;
+}
+.ctrl-btn {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.1);
+  color: #8a95a8;
+  padding: 6px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 11px;
+  transition: all 0.15s;
+}
+.ctrl-btn:hover { background: rgba(255,255,255,0.12); color: #c8d0e0; }
+.ctrl-btn.on { background: rgba(100,180,255,0.2); border-color: rgba(100,180,255,0.4); color: #7cb8ff; }
+
+.info {
+  position: absolute;
+  bottom: 20px; right: 22px;
+  font-size: 10px;
+  color: #4a5568;
+  text-align: right;
+}
+
+.tooltip {
+  position: absolute;
+  display: none;
+  background: rgba(10,14,24,0.94);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 6px;
+  padding: 7px 10px;
+  font-size: 11px;
+  pointer-events: none;
+  z-index: 30;
+  backdrop-filter: blur(6px);
+}
+.tooltip .tt-name { font-weight: 600; color: #dce2ee; }
+.tooltip .tt-detail { color: #5a6578; margin-top: 1px; }
+
+#loading {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 14px;
+  color: #5a6578;
+}
+</style>
+</head>
+<body>
+
+<div id="loading">Loading census data…</div>
+
+<div class="overlay">
+  <div class="title">
+    <h1>Canadian Census Subdivisions, 1851–1921</h1>
+    <div class="sub">Scroll to zoom · Left-drag to rotate · Right-drag to pan · +/- keys</div>
+  </div>
+
+  <div class="legend">
+    <div class="leg-section">
+      <div class="leg-title">Provinces</div>
+      <div id="provLegend"></div>
+    </div>
+    <div class="leg-section">
+      <div class="leg-title">Temporal Links</div>
+      <div class="leg-item"><div class="leg-line" style="background:#4caf50"></div> Same boundaries</div>
+      <div class="leg-item"><div class="leg-line" style="background:#ff9800"></div> Split (contains)</div>
+      <div class="leg-item"><div class="leg-line" style="background:#ab47bc"></div> Merged (within)</div>
+    </div>
+  </div>
+
+  <div class="controls">
+    <button class="ctrl-btn on" id="btnLinks">Links</button>
+    <button class="ctrl-btn on" id="btnLabels">Year Labels</button>
+    <button class="ctrl-btn" id="btnZoomIn">+</button>
+    <button class="ctrl-btn" id="btnZoomOut">−</button>
+    <button class="ctrl-btn" id="btnReset">Reset View</button>
+  </div>
+
+  <div class="info" id="info"></div>
+</div>
+
+<div class="tooltip" id="tooltip">
+  <div class="tt-name" id="ttName"></div>
+  <div class="tt-detail" id="ttDetail"></div>
+</div>
+
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+  }
+}
+</script>
+
+<script type="module">
+import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+
+const PROV_COLORS = {
+  ON:0x4fc3f7, QC:0x9575cd, NS:0xff7043, NB:0xffb74d,
+  PE:0xf06292, MB:0x66bb6a, SK:0xaed581, AB:0xfff176,
+  BC:0x26c6da, NT:0x78909c, NL:0xce93d8, YT:0x80cbc4
+};
+const PROV_HEX = {
+  ON:'#4fc3f7', QC:'#9575cd', NS:'#ff7043', NB:'#ffb74d',
+  PE:'#f06292', MB:'#66bb6a', SK:'#aed581', AB:'#fff176',
+  BC:'#26c6da', NT:'#78909c', NL:'#ce93d8', YT:'#80cbc4'
+};
+const PROV_NAMES = {
+  ON:'Ontario', QC:'Quebec', NS:'Nova Scotia', NB:'New Brunswick',
+  PE:'PEI', MB:'Manitoba', SK:'Saskatchewan',
+  AB:'Alberta', BC:'British Columbia', NT:'NW Terr.',
+  NL:'Newfoundland', YT:'Yukon'
+};
+const LINK_COLORS = { SAME_AS:0x4caf50, CONTAINS:0xff9800, WITHIN:0xab47bc };
+const YEARS = [1851,1861,1871,1881,1891,1901,1911,1921];
+const LAYER_SPACING = 35;
+const GEO_SCALE = 1.8;
+
+// Scene setup
+const scene = new THREE.Scene();
+scene.fog = new THREE.FogExp2(0x080c15, 0.0006);
+
+const camera = new THREE.PerspectiveCamera(50, window.innerWidth/window.innerHeight, 0.5, 5000);
+camera.position.set(80, 160, 220);
+
+const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: false });
+renderer.setSize(window.innerWidth, window.innerHeight);
+renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+renderer.setClearColor(0x080c15);
+document.body.prepend(renderer.domElement);
+
+const controls = new OrbitControls(camera, renderer.domElement);
+controls.target.set(0, LAYER_SPACING * 3.5, 0);
+controls.enableDamping = true;
+controls.dampingFactor = 0.08;
+controls.minDistance = 5;
+controls.maxDistance = 1500;
+controls.enableZoom = false;  // we handle scroll ourselves
+controls.rotateSpeed = 0.8;
+controls.panSpeed = 1.2;
+controls.enablePan = true;
+controls.screenSpacePanning = true;
+controls.mouseButtons = {
+  LEFT: THREE.MOUSE.ROTATE,
+  MIDDLE: THREE.MOUSE.DOLLY,
+  RIGHT: THREE.MOUSE.PAN
+};
+controls.touches = {
+  ONE: THREE.TOUCH.ROTATE,
+  TWO: THREE.TOUCH.DOLLY_PAN
+};
+controls.update();
+
+// Lighting
+scene.add(new THREE.AmbientLight(0x404060, 0.6));
+
+// Project lat/lon to XZ plane
+function geoToXZ(lat, lon) {
+  const cx = -96, cy = 56;
+  const lonRad = (lon - cx) * Math.PI / 180;
+  const latRad = lat * Math.PI / 180;
+  const cyRad = cy * Math.PI / 180;
+  const n = 0.6;
+  const rho = Math.cos(latRad);
+  const rho0 = Math.cos(cyRad);
+  const x = rho * Math.sin(n * lonRad) * 200 * GEO_SCALE;
+  const z = -(rho0 - rho * Math.cos(n * lonRad)) * 200 * GEO_SCALE;
+  return [x, z];
+}
+
+// State
+let showLinks = true;
+let showLabels = true;
+let linkGroup = new THREE.Group();
+let labelSprites = [];
+let pointClouds = [];  // for raycasting
+let pointMeta = [];    // flat array matching point clouds
+
+// Load and build
+fetch('visualization_data.json').then(r => r.json()).then(build);
+
+function build(data) {
+  document.getElementById('loading').style.display = 'none';
+
+  // Lookup: id_year -> {x, y, z}
+  const posMap = {};
+  // Province counts (across all years)
+  const provSet = new Set();
+
+  // Build point clouds per year-layer
+  for (let yi = 0; yi < YEARS.length; yi++) {
+    const year = YEARS[yi];
+    const csds = data.years[String(year)] || [];
+    const layerY = yi * LAYER_SPACING;
+
+    const positions = new Float32Array(csds.length * 3);
+    const colors = new Float32Array(csds.length * 3);
+    const sizes = new Float32Array(csds.length);
+
+    for (let i = 0; i < csds.length; i++) {
+      const d = csds[i];
+      const [x, z] = geoToXZ(d.lat, d.lon);
+      positions[i*3] = x;
+      positions[i*3+1] = layerY;
+      positions[i*3+2] = z;
+
+      const col = new THREE.Color(PROV_COLORS[d.prov] || 0x546e7a);
+      colors[i*3] = col.r;
+      colors[i*3+1] = col.g;
+      colors[i*3+2] = col.b;
+
+      sizes[i] = d.pop > 0
+        ? Math.max(2.5, Math.min(12, Math.sqrt(d.pop) * 0.04))
+        : 1.8;
+
+      posMap[d.id + '_' + year] = { x, y: layerY, z };
+      provSet.add(d.prov);
+
+      pointMeta.push({ name: d.name, prov: d.prov, pop: d.pop, year });
+    }
+
+    const geom = new THREE.BufferGeometry();
+    geom.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+    geom.setAttribute('color', new THREE.BufferAttribute(colors, 3));
+    geom.setAttribute('size', new THREE.BufferAttribute(sizes, 1));
+
+    const mat = new THREE.ShaderMaterial({
+      vertexColors: true,
+      transparent: true,
+      depthWrite: false,
+      uniforms: {},
+      vertexShader: `
+        attribute float size;
+        varying vec3 vColor;
+        void main() {
+          vColor = color;
+          vec4 mv = modelViewMatrix * vec4(position, 1.0);
+          gl_PointSize = size * (200.0 / -mv.z);
+          gl_Position = projectionMatrix * mv;
+        }
+      `,
+      fragmentShader: `
+        varying vec3 vColor;
+        void main() {
+          float d = length(gl_PointCoord - 0.5);
+          if (d > 0.5) discard;
+          float alpha = smoothstep(0.5, 0.3, d) * 0.8;
+          gl_FragColor = vec4(vColor, alpha);
+        }
+      `
+    });
+
+    const points = new THREE.Points(geom, mat);
+    scene.add(points);
+    pointClouds.push(points);
+
+    // Year label
+    const sprite = makeLabel(String(year), layerY);
+    labelSprites.push(sprite);
+    scene.add(sprite);
+
+    // Subtle grid plane
+    const planeGeo = new THREE.PlaneGeometry(300, 200);
+    const planeMat = new THREE.MeshBasicMaterial({
+      color: 0x1a2035,
+      transparent: true,
+      opacity: 0.12,
+      side: THREE.DoubleSide,
+      depthWrite: false,
+    });
+    const plane = new THREE.Mesh(planeGeo, planeMat);
+    plane.rotation.x = -Math.PI / 2;
+    plane.position.y = layerY - 0.5;
+    scene.add(plane);
+  }
+
+  // Build links
+  buildLinks(data.links, posMap);
+
+  // Province legend
+  const sorted = [...provSet].sort((a,b) => (PROV_NAMES[a]||a).localeCompare(PROV_NAMES[b]||b));
+  document.getElementById('provLegend').innerHTML = sorted.map(p =>
+    `<div class="leg-item"><div class="leg-dot" style="background:${PROV_HEX[p]||'#546e7a'}"></div>${PROV_NAMES[p]||p}</div>`
+  ).join('');
+
+  // Info
+  const totalCSDs = YEARS.reduce((s,y) => s + (data.years[String(y)]||[]).length, 0);
+  document.getElementById('info').innerHTML =
+    `${totalCSDs.toLocaleString()} CSD instances · ${data.links.length.toLocaleString()} temporal links<br>` +
+    YEARS.map(y => `${y}: ${(data.years[String(y)]||[]).length}`).join(' → ');
+}
+
+function buildLinks(links, posMap) {
+  scene.remove(linkGroup);
+  linkGroup = new THREE.Group();
+
+  // Group by relationship type
+  const byType = { SAME_AS: [], CONTAINS: [], WITHIN: [] };
+  for (const link of links) {
+    const from = posMap[link.f + '_' + link.fy];
+    const to = posMap[link.t + '_' + link.ty];
+    if (!from || !to) continue;
+    const type = link.r;
+    if (!byType[type]) byType[type] = [];
+    byType[type].push(from.x, from.y, from.z, to.x, to.y, to.z);
+  }
+
+  for (const [type, verts] of Object.entries(byType)) {
+    if (verts.length === 0) continue;
+    const geom = new THREE.BufferGeometry();
+    geom.setAttribute('position', new THREE.Float32BufferAttribute(verts, 3));
+    const opacity = type === 'SAME_AS' ? 0.06 : 0.15;
+    const mat = new THREE.LineBasicMaterial({
+      color: LINK_COLORS[type] || 0x555555,
+      transparent: true,
+      opacity: opacity,
+      depthWrite: false,
+    });
+    const lines = new THREE.LineSegments(geom, mat);
+    linkGroup.add(lines);
+  }
+
+  scene.add(linkGroup);
+}
+
+function makeLabel(text, y) {
+  const canvas = document.createElement('canvas');
+  canvas.width = 256; canvas.height = 64;
+  const ctx = canvas.getContext('2d');
+  ctx.fillStyle = 'rgba(100,160,255,0.6)';
+  ctx.font = 'bold 40px "Segoe UI", system-ui, sans-serif';
+  ctx.textAlign = 'center';
+  ctx.fillText(text, 128, 44);
+
+  const tex = new THREE.CanvasTexture(canvas);
+  const mat = new THREE.SpriteMaterial({ map: tex, transparent: true, depthWrite: false });
+  const sprite = new THREE.Sprite(mat);
+  sprite.scale.set(30, 7.5, 1);
+  sprite.position.set(-160, y, 0);
+  return sprite;
+}
+
+// Controls
+document.getElementById('btnLinks').onclick = function() {
+  showLinks = !showLinks;
+  this.classList.toggle('on', showLinks);
+  linkGroup.visible = showLinks;
+};
+document.getElementById('btnLabels').onclick = function() {
+  showLabels = !showLabels;
+  this.classList.toggle('on', showLabels);
+  labelSprites.forEach(s => s.visible = showLabels);
+};
+function zoomBy(factor) {
+  const dir = new THREE.Vector3().subVectors(camera.position, controls.target);
+  dir.multiplyScalar(factor);
+  camera.position.copy(controls.target).add(dir);
+  controls.update();
+}
+document.getElementById('btnZoomIn').onclick = () => zoomBy(0.7);
+document.getElementById('btnZoomOut').onclick = () => zoomBy(1.4);
+document.getElementById('btnReset').onclick = () => {
+  camera.position.set(80, 160, 220);
+  controls.target.set(0, LAYER_SPACING * 3.5, 0);
+  controls.update();
+};
+window.addEventListener('keydown', e => {
+  if (e.key === '=' || e.key === '+') zoomBy(0.7);
+  else if (e.key === '-' || e.key === '_') zoomBy(1.4);
+});
+
+// Custom smooth scroll zoom — small proportional steps per tick
+renderer.domElement.addEventListener('wheel', e => {
+  e.preventDefault();
+  // Normalize: most mice send deltaY in multiples of ~100, trackpads send smaller
+  const delta = Math.sign(e.deltaY) * Math.min(Math.abs(e.deltaY), 100);
+  // Each tick zooms ~5% — feels smooth and controllable
+  const factor = 1 + delta * 0.0008;
+  zoomBy(Math.max(0.85, Math.min(1.15, factor)));
+}, { passive: false });
+
+// Raycasting for tooltip
+const raycaster = new THREE.Raycaster();
+raycaster.params.Points.threshold = 2;
+const mouse = new THREE.Vector2();
+const tooltip = document.getElementById('tooltip');
+
+renderer.domElement.addEventListener('mousemove', e => {
+  mouse.x = (e.clientX / window.innerWidth) * 2 - 1;
+  mouse.y = -(e.clientY / window.innerHeight) * 2 + 1;
+
+  raycaster.setFromCamera(mouse, camera);
+  let closestDist = Infinity;
+  let hit = null;
+
+  for (let ci = 0; ci < pointClouds.length; ci++) {
+    const intersects = raycaster.intersectObject(pointClouds[ci]);
+    if (intersects.length > 0 && intersects[0].distanceToRay < closestDist) {
+      closestDist = intersects[0].distanceToRay;
+      // Calculate global index
+      let offset = 0;
+      for (let j = 0; j < ci; j++) {
+        offset += pointClouds[j].geometry.attributes.position.count;
+      }
+      hit = pointMeta[offset + intersects[0].index];
+    }
+  }
+
+  if (hit) {
+    document.getElementById('ttName').textContent = `${hit.name} (${hit.year})`;
+    const prov = PROV_NAMES[hit.prov] || hit.prov;
+    const pop = hit.pop > 0 ? `Pop: ${hit.pop.toLocaleString()}` : 'Pop: N/A';
+    document.getElementById('ttDetail').textContent = `${prov} · ${pop}`;
+    tooltip.style.display = 'block';
+    tooltip.style.left = Math.min(e.clientX + 12, window.innerWidth - 200) + 'px';
+    tooltip.style.top = (e.clientY - 8) + 'px';
+  } else {
+    tooltip.style.display = 'none';
+  }
+});
+
+// Resize
+window.addEventListener('resize', () => {
+  camera.aspect = window.innerWidth / window.innerHeight;
+  camera.updateProjectionMatrix();
+  renderer.setSize(window.innerWidth, window.innerHeight);
+});
+
+// Render loop
+function animate() {
+  requestAnimationFrame(animate);
+  controls.update();
+  renderer.render(scene, camera);
+}
+animate();
+</script>
+</body>
+</html>
