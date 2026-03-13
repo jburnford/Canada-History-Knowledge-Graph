@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Westmeath Township, Renfrew County — Data Model Comparison</title>
+<title>From HGIS to Knowledge Graph — Westmeath Township Case Study</title>
 <style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body {
@@ -17,7 +17,7 @@ header {
   color: #e0e0e0;
   padding: 40px 32px 32px;
 }
-header h1 { font-size: 28px; font-weight: 700; color: #fff; }
+header h1 { font-size: 26px; font-weight: 700; color: #fff; }
 header .sub { font-size: 14px; color: #8a9cc5; margin-top: 4px; }
 header .coords { font-size: 12px; color: #6a7a9a; margin-top: 8px; font-family: monospace; }
 nav {
@@ -29,19 +29,21 @@ nav {
   position: sticky;
   top: 0;
   z-index: 10;
+  overflow-x: auto;
 }
 nav a {
-  padding: 12px 20px;
+  padding: 12px 16px;
   text-decoration: none;
   color: #5a6578;
   font-size: 13px;
   font-weight: 600;
   border-bottom: 2px solid transparent;
   transition: all 0.15s;
+  white-space: nowrap;
 }
 nav a:hover { color: #1a1a2e; }
 nav a.active { color: #2563eb; border-bottom-color: #2563eb; }
-.container { max-width: 1100px; margin: 0 auto; padding: 24px 32px; }
+.container { max-width: 1200px; margin: 0 auto; padding: 24px 32px; }
 section { margin-bottom: 40px; }
 h2 {
   font-size: 20px;
@@ -63,6 +65,7 @@ h3 { font-size: 15px; font-weight: 600; margin: 16px 0 8px; color: #374151; }
 }
 .model-label.hgis { background: #dbeafe; color: #1d4ed8; }
 .model-label.cidoc { background: #d1fae5; color: #065f46; }
+.model-label.lod { background: #fef3c7; color: #92400e; }
 .card {
   background: #fff;
   border: 1px solid #e0e3e8;
@@ -72,6 +75,7 @@ h3 { font-size: 15px; font-weight: 600; margin: 16px 0 8px; color: #374151; }
 }
 .card.highlight { border-left: 4px solid #2563eb; }
 .card.cidoc-card { border-left: 4px solid #059669; }
+.card.lod-card { border-left: 4px solid #d97706; }
 table {
   width: 100%;
   border-collapse: collapse;
@@ -109,31 +113,10 @@ tr:hover td { background: #f8f9fb; }
   min-width: 110px;
   padding: 8px;
 }
-.chain-year {
-  font-size: 18px;
-  font-weight: 700;
-  color: #1a1a2e;
-}
-.chain-id {
-  font-family: monospace;
-  font-size: 11px;
-  background: #e0e3e8;
-  padding: 2px 6px;
-  border-radius: 3px;
-  margin: 4px 0;
-}
-.chain-pop {
-  font-size: 12px;
-  font-weight: 600;
-  color: #059669;
-}
-.chain-link {
-  display: flex;
-  align-items: center;
-  color: #9ca3af;
-  font-size: 20px;
-  padding: 0 2px;
-}
+.chain-year { font-size: 18px; font-weight: 700; color: #1a1a2e; }
+.chain-id { font-family: monospace; font-size: 11px; background: #e0e3e8; padding: 2px 6px; border-radius: 3px; margin: 4px 0; }
+.chain-vars { font-size: 11px; color: #6b7280; }
+.chain-link { display: flex; align-items: center; color: #9ca3af; font-size: 20px; padding: 0 2px; }
 .chain-link.same { color: #059669; }
 .note {
   background: #fffbeb;
@@ -144,11 +127,22 @@ tr:hover td { background: #f8f9fb; }
   color: #92400e;
   margin: 12px 0;
 }
+.note.info {
+  background: #eff6ff;
+  border-color: #93c5fd;
+  color: #1e40af;
+}
 .two-col {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 16px;
 }
+.three-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+}
+@media (max-width: 900px) { .three-col { grid-template-columns: 1fr; } }
 @media (max-width: 768px) { .two-col { grid-template-columns: 1fr; } }
 .entity-box {
   border-radius: 6px;
@@ -156,27 +150,12 @@ tr:hover td { background: #f8f9fb; }
   margin: 6px 0;
   font-size: 12px;
 }
-.entity-box.hgis-box {
-  background: #eff6ff;
-  border: 1px solid #bfdbfe;
-}
+.entity-box.hgis-box { background: #eff6ff; border: 1px solid #bfdbfe; }
 .entity-box.hgis-box .etype { color: #1d4ed8; }
-.entity-box.cidoc-box {
-  background: #ecfdf5;
-  border: 1px solid #a7f3d0;
-}
+.entity-box.cidoc-box { background: #ecfdf5; border: 1px solid #a7f3d0; }
 .entity-box.cidoc-box .etype { color: #059669; }
-.entity-box .etype {
-  font-weight: 700;
-  font-size: 11px;
-  text-transform: uppercase;
-}
-.rel-arrow {
-  text-align: center;
-  font-size: 11px;
-  font-weight: 600;
-  padding: 2px 0;
-}
+.entity-box .etype { font-weight: 700; font-size: 11px; text-transform: uppercase; }
+.rel-arrow { text-align: center; font-size: 11px; font-weight: 600; padding: 2px 0; }
 .rel-arrow.hgis { color: #1d4ed8; }
 .rel-arrow.cidoc { color: #059669; }
 .tab-content { display: none; }
@@ -189,297 +168,612 @@ pre {
   overflow-x: auto;
   margin-top: 8px;
 }
+.cat-badge {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 3px;
+  margin-right: 4px;
+}
+.cat-pop { background: #dbeafe; color: #1d4ed8; }
+.cat-age { background: #e0e7ff; color: #3730a3; }
+.cat-eth { background: #fce7f3; color: #9d174d; }
+.cat-rel { background: #fef3c7; color: #92400e; }
+.cat-dth { background: #fee2e2; color: #991b1b; }
+.cat-bld { background: #e5e7eb; color: #374151; }
+.cat-agr { background: #d1fae5; color: #065f46; }
+.cat-mfg { background: #fde68a; color: #78350f; }
+.cat-fsh { background: #cffafe; color: #155e75; }
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+  margin: 12px 0;
+}
+.stat-box {
+  background: #f8f9fb;
+  border: 1px solid #e0e3e8;
+  border-radius: 6px;
+  padding: 12px;
+  text-align: center;
+}
+.stat-box .num { font-size: 24px; font-weight: 700; color: #1a1a2e; }
+.stat-box .lbl { font-size: 11px; color: #6b7280; margin-top: 2px; }
+.collapsible-header {
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.collapsible-header:hover { color: #2563eb; }
+.collapsible-header .arrow { transition: transform 0.2s; font-size: 12px; }
+.collapsible-header.open .arrow { transform: rotate(90deg); }
+.collapsible-body { display: none; }
+.collapsible-body.open { display: block; }
 </style>
 </head>
 <body>
 
 <header>
-  <h1>Westmeath Township, Renfrew County, Ontario</h1>
-  <div class="sub">Census data 1851&ndash;1921 &mdash; Comparing HGIS and CIDOC-CRM data models</div>
-  <div class="coords">45.763&deg;N, 76.884&deg;W &middot; Boundaries stable across all census years (SAME_AS, IOU = 1.0)</div>
+  <h1>Converting HGIS Data to a Knowledge Graph</h1>
+  <div class="sub">Case study: Westmeath Township, Renfrew County, Ontario &mdash; 8 census years (1851&ndash;1921)</div>
+  <div class="coords">Canadian Historical GIS (TCP/CHGIS) &rarr; CIDOC-CRM ontology &rarr; Neo4j Knowledge Graph</div>
 </header>
 
 <nav>
   <a href="#overview" class="active" onclick="showTab('overview',this)">Overview</a>
-  <a href="#hgis" onclick="showTab('hgis',this)">HGIS Model</a>
+  <a href="#source" onclick="showTab('source',this)">Source Data</a>
+  <a href="#census" onclick="showTab('census',this)">Census Variables</a>
   <a href="#cidoc" onclick="showTab('cidoc',this)">CIDOC-CRM Model</a>
   <a href="#comparison" onclick="showTab('comparison',this)">Comparison</a>
-  <a href="#queries" onclick="showTab('queries',this)">Sample Queries</a>
+  <a href="#queries" onclick="showTab('queries',this)">Queries</a>
 </nav>
 
 <div class="container">
 
+<!-- ============================================================ -->
 <!-- OVERVIEW -->
+<!-- ============================================================ -->
 <div id="overview" class="tab-content active">
 
 <section>
-<h2>Westmeath as a Case Study</h2>
+<h2>Workshop Context</h2>
 <div class="card">
-  <p>Westmeath is a township in Renfrew County, Ontario, on the Ottawa River. Its <strong>boundaries remained stable</strong> across all eight census years (1851&ndash;1921), making it an ideal case study for comparing how the two data models represent place identity over time.</p>
-  <p style="margin-top:8px">The <strong>HGIS model</strong> treats each census year as an independent layer of polygons, linked by spatial overlap analysis. The <strong>CIDOC-CRM model</strong> separates the enduring place from its time-specific manifestations, using ontological classes from the cultural heritage domain.</p>
+  <p>This page demonstrates how to convert flat Historical GIS (HGIS) data into a CIDOC-CRM knowledge graph, using <strong>Westmeath Township</strong> as a worked example. The source data is the <a href="https://borealisdata.ca/dataset.xhtml?persistentId=doi:10.5683/SP3/PKUZJN">Canadian Historical GIS (CHGIS)</a>, which provides census subdivision polygons and tabular census returns for 1851&ndash;1921.</p>
+  <p style="margin-top:8px">The conversion is not just a format change. It requires resolving fundamental modelling challenges: <strong>persistent identity</strong> for places that change identifiers each decade, <strong>temporal scoping</strong> of measurements and administrative hierarchies, and <strong>provenance</strong> tracking back to the original source tables.</p>
 </div>
 
-<h3>Population Timeline</h3>
+<h3>Project Scale</h3>
+<div class="stat-grid">
+  <div class="stat-box"><div class="num">8</div><div class="lbl">Census Years</div></div>
+  <div class="stat-box"><div class="num">12,798</div><div class="lbl">Persistent Places (CSD)</div></div>
+  <div class="stat-box"><div class="num">20,811</div><div class="lbl">Temporal Presences</div></div>
+  <div class="stat-box"><div class="num">666,423</div><div class="lbl">Census Measurements</div></div>
+  <div class="stat-box"><div class="num">490</div><div class="lbl">Variable Types</div></div>
+  <div class="stat-box"><div class="num">9</div><div class="lbl">Data Categories</div></div>
+</div>
+
+<h3>Data Categories in the Census</h3>
+<div class="card">
+<table>
+<thead><tr><th>Category</th><th>Code</th><th>Variables</th><th>Example Variables</th></tr></thead>
+<tbody>
+  <tr><td><span class="cat-badge cat-agr">AGR</span> Agriculture</td><td>AGR</td><td>114</td><td>Crop acreage &amp; yields, livestock, dairy, farm acreage</td></tr>
+  <tr><td><span class="cat-badge cat-mfg">MFG</span> Manufacturing</td><td>MFG</td><td>99</td><td>Mills, foundries, tanneries, breweries, brick kilns</td></tr>
+  <tr><td><span class="cat-badge cat-age">AGE</span> Age Distribution</td><td>AGE</td><td>91</td><td>5-year cohorts by gender and marital status</td></tr>
+  <tr><td><span class="cat-badge cat-pop">POP</span> Population</td><td>POP</td><td>41</td><td>Total pop, gender, births, education, disabilities</td></tr>
+  <tr><td><span class="cat-badge cat-dth">DTH</span> Mortality</td><td>DTH</td><td>40</td><td>Deaths by age cohort and gender</td></tr>
+  <tr><td><span class="cat-badge cat-eth">ETH</span> Ethnic Origins</td><td>ETH</td><td>35</td><td>French Canadian, Indigenous, Irish, Scottish, etc.</td></tr>
+  <tr><td><span class="cat-badge cat-fsh">FSH</span> Fisheries</td><td>FSH</td><td>35</td><td>Fish species in barrels/pounds, oil production, boats</td></tr>
+  <tr><td><span class="cat-badge cat-bld">BLD</span> Buildings</td><td>BLD</td><td>25</td><td>Houses (rooms, stories, material), churches, schools</td></tr>
+  <tr><td><span class="cat-badge cat-rel">REL</span> Religion</td><td>REL</td><td>10</td><td>Baptist, Methodist, Catholic, Church of England, etc.</td></tr>
+</tbody>
+</table>
+</div>
+
+<h3>Why Westmeath?</h3>
+<div class="card">
+  <p>Westmeath Township has <strong>stable boundaries</strong> across all 8 census years (SAME_AS with IOU&nbsp;=&nbsp;1.0), making it ideal for demonstrating the identity problem without the added complexity of boundary changes. Despite being one unchanging place, the HGIS data assigns it <strong>7 different polygon identifiers</strong>.</p>
+</div>
+
 <div class="chain-viz">
   <div class="chain-node">
     <div class="chain-year">1851</div>
     <div class="chain-id">ON033008</div>
-    <div class="chain-pop">1,152</div>
+    <div class="chain-vars">146 vars</div>
   </div>
   <div class="chain-link same">&rarr;</div>
   <div class="chain-node">
     <div class="chain-year">1861</div>
     <div class="chain-id">ON096020</div>
-    <div class="chain-pop">2,001</div>
+    <div class="chain-vars">157 vars</div>
   </div>
   <div class="chain-link same">&rarr;</div>
   <div class="chain-node">
     <div class="chain-year">1871</div>
     <div class="chain-id">ON082003</div>
-    <div class="chain-pop">2,632</div>
+    <div class="chain-vars">19 vars</div>
   </div>
   <div class="chain-link same">&rarr;</div>
   <div class="chain-node">
     <div class="chain-year">1881</div>
     <div class="chain-id">ON114011</div>
-    <div class="chain-pop">3,220</div>
+    <div class="chain-vars">35 vars</div>
   </div>
   <div class="chain-link same">&rarr;</div>
   <div class="chain-node">
     <div class="chain-year">1891</div>
     <div class="chain-id">ON114011</div>
-    <div class="chain-pop">3,612</div>
+    <div class="chain-vars">85 vars</div>
   </div>
   <div class="chain-link same">&rarr;</div>
   <div class="chain-node">
     <div class="chain-year">1901</div>
     <div class="chain-id">ON110012</div>
-    <div class="chain-pop">3,586</div>
+    <div class="chain-vars">12 vars</div>
   </div>
   <div class="chain-link same">&rarr;</div>
   <div class="chain-node">
     <div class="chain-year">1911</div>
     <div class="chain-id">ON116010</div>
-    <div class="chain-pop dim">N/A</div>
+    <div class="chain-vars">spatial only</div>
   </div>
   <div class="chain-link same">&rarr;</div>
   <div class="chain-node">
     <div class="chain-year">1921</div>
     <div class="chain-id">ON142032</div>
-    <div class="chain-pop dim">N/A</div>
+    <div class="chain-vars">spatial only</div>
   </div>
 </div>
 
-<div class="note">
-  <strong>Key observation:</strong> Despite being the same physical place with unchanged boundaries, Westmeath has <strong>7 different identifiers</strong> across 8 census years. The TCP UID is a per-year polygon slot number, not a persistent place identifier. Only 1881&rarr;1891 retains the same ID (ON114011).
-</div>
 </section>
 </div>
 
-<!-- HGIS MODEL -->
-<div id="hgis" class="tab-content">
+<!-- ============================================================ -->
+<!-- SOURCE DATA -->
+<!-- ============================================================ -->
+<div id="source" class="tab-content">
 
 <section>
 <h2>HGIS Source Data</h2>
-<p class="dim" style="margin-bottom:16px">The Historical GIS data from the TCP (Territorial Change Project) assigns each census subdivision a unique polygon ID per census year. Temporal links between years are computed by spatial overlap analysis.</p>
+<p class="dim" style="margin-bottom:16px">The Canadian Historical GIS (CHGIS / TCP) provides two types of data: polygon boundaries in a FileGDB, and census returns in Excel spreadsheets. Both are keyed by a per-year polygon identifier (TCP UID).</p>
 
-<h3>How HGIS Represents Westmeath</h3>
+<h3>Spatial Data: FileGDB Polygon Layers</h3>
 <div class="card highlight">
-<span class="model-label hgis">HGIS</span>
-<p style="font-size:13px;margin-bottom:12px">Each census year is an independent GIS layer. Westmeath exists as a separate polygon feature in each layer, with a different TCP UID. Continuity is established after the fact through intersection-over-union (IOU) spatial analysis.</p>
+<span class="model-label hgis">GIS</span>
+<p style="font-size:13px;margin-bottom:12px">Each census year is a separate layer in the FileGDB. Each CSD polygon carries a TCP UID, name, census division, and province as feature attributes. The polygon geometry is the authoritative boundary.</p>
 <table>
 <thead>
-  <tr><th>Year</th><th>TCP UID</th><th>Name</th><th>Census Division</th><th>&rarr; Next ID</th><th>Relationship</th><th>IOU</th></tr>
+  <tr><th>Year</th><th>TCP UID</th><th>Name</th><th>Census Division</th><th>Area (km&sup2;)</th><th>Centroid</th></tr>
 </thead>
 <tbody>
-  <tr>
-    <td><strong>1851</strong></td>
-    <td class="mono">ON033008</td>
-    <td>Westmeath</td>
-    <td>Renfrew</td>
-    <td class="mono">ON096020</td>
-    <td>SAME_AS</td>
-    <td>1.0</td>
-  </tr>
-  <tr>
-    <td><strong>1861</strong></td>
-    <td class="mono">ON096020</td>
-    <td>Westmeath</td>
-    <td>Renfrew</td>
-    <td class="mono">ON082003</td>
-    <td>SAME_AS</td>
-    <td>1.0</td>
-  </tr>
-  <tr>
-    <td><strong>1871</strong></td>
-    <td class="mono">ON082003</td>
-    <td>Westmeath</td>
-    <td>Renfrew, North</td>
-    <td class="mono">ON114011</td>
-    <td>SAME_AS</td>
-    <td>1.0</td>
-  </tr>
-  <tr>
-    <td><strong>1881</strong></td>
-    <td class="mono">ON114011</td>
-    <td>Wesmeath <span class="dim">(OCR typo)</span></td>
-    <td>Renfrew, North</td>
-    <td class="mono">ON114011</td>
-    <td>SAME_AS</td>
-    <td>1.0</td>
-  </tr>
-  <tr class="same-id">
-    <td><strong>1891</strong></td>
-    <td class="mono">ON114011</td>
-    <td>Westmeath</td>
-    <td>Renfrew, North</td>
-    <td class="mono">ON110012</td>
-    <td>SAME_AS</td>
-    <td>1.0</td>
-  </tr>
-  <tr>
-    <td><strong>1901</strong></td>
-    <td class="mono">ON110012</td>
-    <td>Westmeath</td>
-    <td>Renfrew, North</td>
-    <td class="mono">ON116010</td>
-    <td>SAME_AS</td>
-    <td>1.0</td>
-  </tr>
-  <tr>
-    <td><strong>1911</strong></td>
-    <td class="mono">ON116010</td>
-    <td>Westmeath</td>
-    <td>Renfrew N</td>
-    <td class="mono">ON142032</td>
-    <td>SAME_AS</td>
-    <td>1.0</td>
-  </tr>
-  <tr>
-    <td><strong>1921</strong></td>
-    <td class="mono">ON142032</td>
-    <td>Westmeath</td>
-    <td>Renfrew</td>
-    <td class="dim">&mdash;</td>
-    <td class="dim">&mdash;</td>
-    <td class="dim">&mdash;</td>
-  </tr>
+  <tr><td>1851</td><td class="mono">ON033008</td><td>Westmeath</td><td>Renfrew</td><td>324.7</td><td>45.76&deg;N, 76.88&deg;W</td></tr>
+  <tr><td>1861</td><td class="mono">ON096020</td><td>Westmeath</td><td>Renfrew</td><td>324.7</td><td>45.76&deg;N, 76.88&deg;W</td></tr>
+  <tr><td>1871</td><td class="mono">ON082003</td><td>Westmeath</td><td>Renfrew, North</td><td>324.7</td><td>45.76&deg;N, 76.88&deg;W</td></tr>
+  <tr><td>1881</td><td class="mono">ON114011</td><td>Wesmeath <span class="dim">(OCR error)</span></td><td>Renfrew, North</td><td>324.7</td><td>45.76&deg;N, 76.88&deg;W</td></tr>
+  <tr class="same-id"><td>1891</td><td class="mono">ON114011</td><td>Westmeath</td><td>Renfrew, North</td><td>324.7</td><td>45.76&deg;N, 76.88&deg;W</td></tr>
+  <tr><td>1901</td><td class="mono">ON110012</td><td>Westmeath</td><td>Renfrew, North</td><td>324.7</td><td>45.76&deg;N, 76.88&deg;W</td></tr>
+  <tr><td>1911</td><td class="mono">ON116010</td><td>Westmeath</td><td>Renfrew N</td><td>324.7</td><td>45.76&deg;N, 76.88&deg;W</td></tr>
+  <tr><td>1921</td><td class="mono">ON142032</td><td>Westmeath</td><td>Renfrew</td><td>324.7</td><td>45.76&deg;N, 76.88&deg;W</td></tr>
 </tbody>
 </table>
 </div>
 
-<h3>Entity Diagram (1871)</h3>
-<div class="card highlight">
-<div class="entity-box hgis-box">
-  <div class="etype">GIS Feature (Polygon)</div>
-  <div><strong>ON082003</strong> &mdash; Layer: CANADA_1871_CSD</div>
-  <div style="font-size:11px;color:#6b7280;margin-top:4px">name=Westmeath, cd=Renfrew North, pr=ON, area=324.7 km&sup2;</div>
-</div>
-<p style="font-size:12px;color:#6b7280;margin-top:8px">All attributes (name, population, location, administrative hierarchy) are stored as flat properties on the polygon feature. Census measurements join directly on the polygon ID + year.</p>
+<div class="note">
+  <strong>Identity challenge:</strong> The same physical place gets a new polygon ID in almost every census year. Only 1881&rarr;1891 reuse the same ID (ON114011). Across the full dataset, 97.5% of reused UIDs actually represent <em>different</em> physical places in different years.
 </div>
 
-<h3>Population &amp; Housing</h3>
-<div class="card">
+<h3>Temporal Linking: Spatial Overlap Analysis</h3>
+<div class="card highlight">
+<span class="model-label hgis">Computed</span>
+<p style="font-size:13px;margin-bottom:12px">Continuity between census years is established by computing intersection-over-union (IOU) between all polygon pairs in adjacent years. The result is a set of <code>year_links</code> files classifying each pair as SAME_AS, CONTAINS, or WITHIN.</p>
 <table>
-<thead>
-  <tr><th>Year</th><th>TCP UID</th><th>Total Pop</th><th>Male</th><th>Female</th><th>Households</th><th>Area (km&sup2;)</th></tr>
-</thead>
+<thead><tr><th>From (Year)</th><th>From ID</th><th>To (Year)</th><th>To ID</th><th>Relationship</th><th>IOU</th></tr></thead>
 <tbody>
-  <tr><td>1851</td><td class="mono">ON033008</td><td class="pop">1,152</td><td class="dim">&mdash;</td><td>158</td><td class="dim">&mdash;</td><td>324.7</td></tr>
-  <tr><td>1861</td><td class="mono">ON096020</td><td class="pop">2,001</td><td class="dim">&mdash;</td><td class="dim">&mdash;</td><td class="dim">&mdash;</td><td>324.7</td></tr>
-  <tr><td>1871</td><td class="mono">ON082003</td><td class="pop">2,632</td><td>766</td><td>435</td><td>409</td><td>324.7</td></tr>
-  <tr><td>1881</td><td class="mono">ON114011</td><td class="pop">3,220</td><td>922</td><td>527</td><td>524</td><td>324.7</td></tr>
-  <tr><td>1891</td><td class="mono">ON114011</td><td class="pop">3,612</td><td>1,114</td><td>652</td><td>600</td><td>324.7</td></tr>
-  <tr><td>1901</td><td class="mono">ON110012</td><td class="pop">3,586</td><td class="dim">&mdash;</td><td>662</td><td>634</td><td>324.7</td></tr>
-  <tr><td>1911</td><td class="mono">ON116010</td><td class="dim">N/A</td><td class="dim">&mdash;</td><td class="dim">&mdash;</td><td class="dim">&mdash;</td><td>324.7</td></tr>
-  <tr><td>1921</td><td class="mono">ON142032</td><td class="dim">N/A</td><td class="dim">&mdash;</td><td class="dim">&mdash;</td><td class="dim">&mdash;</td><td>324.7</td></tr>
+  <tr><td>1851</td><td class="mono">ON033008</td><td>1861</td><td class="mono">ON096020</td><td>SAME_AS</td><td>1.0</td></tr>
+  <tr><td>1861</td><td class="mono">ON096020</td><td>1871</td><td class="mono">ON082003</td><td>SAME_AS</td><td>1.0</td></tr>
+  <tr><td>1871</td><td class="mono">ON082003</td><td>1881</td><td class="mono">ON114011</td><td>SAME_AS</td><td>1.0</td></tr>
+  <tr><td>1881</td><td class="mono">ON114011</td><td>1891</td><td class="mono">ON114011</td><td>SAME_AS</td><td>1.0</td></tr>
+  <tr><td>1891</td><td class="mono">ON114011</td><td>1901</td><td class="mono">ON110012</td><td>SAME_AS</td><td>1.0</td></tr>
+  <tr><td>1901</td><td class="mono">ON110012</td><td>1911</td><td class="mono">ON116010</td><td>SAME_AS</td><td>1.0</td></tr>
+  <tr><td>1911</td><td class="mono">ON116010</td><td>1921</td><td class="mono">ON142032</td><td>SAME_AS</td><td>1.0</td></tr>
 </tbody>
 </table>
+<p class="dim" style="margin-top:8px;font-size:12px">Across all years: 17,060 high-confidence temporal links (SAME_AS, CONTAINS, WITHIN).</p>
+</div>
+
+<h3>Census Tables: 17 Source Spreadsheets</h3>
+<div class="card highlight">
+<span class="model-label hgis">Tabular</span>
+<p style="font-size:13px;margin-bottom:12px">Census returns are distributed as Excel files, each covering one or more data categories for a census year. They join to the spatial data on TCP UID. Available from <a href="https://borealisdata.ca/dataset.xhtml?persistentId=doi:10.5683/SP3/PKUZJN">Borealis</a>.</p>
+<table>
+<thead><tr><th>Year</th><th>Source Table</th><th>Contents</th></tr></thead>
+<tbody>
+  <tr><td rowspan="4">1851</td><td class="mono">V1T1</td><td>Population totals, gender, births</td></tr>
+  <tr><td class="mono">V1T3</td><td>Age distribution, marital status, education, disabilities</td></tr>
+  <tr><td class="mono">V2T6</td><td>Religious denominations</td></tr>
+  <tr><td class="mono">V2T7</td><td>Ethnic origins, birthplace</td></tr>
+  <tr><td rowspan="3">1861</td><td class="mono">V1T1</td><td>Population, agriculture, manufacturing, mortality</td></tr>
+  <tr><td class="mono">V1T5</td><td>Language data</td></tr>
+  <tr><td class="mono">V2T11</td><td>Religious denominations</td></tr>
+  <tr><td>1871</td><td class="mono">V1T1</td><td>Population, housing, marital status</td></tr>
+  <tr><td rowspan="3">1881</td><td class="mono">V1T1</td><td>Population, housing, marital status</td></tr>
+  <tr><td class="mono">V3T24</td><td>Fisheries production</td></tr>
+  <tr><td class="mono">V3T27</td><td>Manufacturing output</td></tr>
+  <tr><td rowspan="5">1891</td><td class="mono">V1T2</td><td>Population by sub-district</td></tr>
+  <tr><td class="mono">V1T3</td><td>Detailed demographics</td></tr>
+  <tr><td class="mono">V2T16</td><td>Agriculture (crops, livestock, dairy)</td></tr>
+  <tr><td class="mono">V4T2</td><td>Manufacturing, industrial output</td></tr>
+  <tr><td class="mono">V4T3</td><td>Manufacturing details</td></tr>
+  <tr><td>1901</td><td class="mono">V1T7</td><td>Birthplace, population, housing</td></tr>
+</tbody>
+</table>
+<p class="dim" style="margin-top:8px;font-size:12px">1911 and 1921 census tables have not yet been processed into measurement format. Spatial presence data (polygons, centroids, boundaries) is available for all 8 years.</p>
 </div>
 
 <h3>Spatial Neighbours (1921 borders)</h3>
 <div class="card">
 <table>
-<thead><tr><th>Neighbour ID</th><th>Shared Border (m)</th></tr></thead>
+<thead><tr><th>Neighbour ID</th><th>Name</th><th>Shared Border (m)</th></tr></thead>
 <tbody>
-  <tr><td class="mono">ON142028 <span class="dim">(Ross)</span></td><td>15,383</td></tr>
-  <tr><td class="mono">ON142031 <span class="dim">(Stafford)</span></td><td>9,595</td></tr>
-  <tr><td class="mono">ON142007 <span class="dim">(Bromley)</span></td><td>7,081</td></tr>
-  <tr><td class="mono">ON142022 <span class="dim">(Pembroke)</span></td><td>4,349</td></tr>
+  <tr><td class="mono">ON142028</td><td>Ross</td><td>15,383</td></tr>
+  <tr><td class="mono">ON142031</td><td>Stafford</td><td>9,595</td></tr>
+  <tr><td class="mono">ON142007</td><td>Bromley</td><td>7,081</td></tr>
+  <tr><td class="mono">ON142022</td><td>Pembroke</td><td>4,349</td></tr>
 </tbody>
 </table>
-<p class="dim" style="margin-top:8px;font-size:12px">Border lengths are identical across all census years, confirming stable boundaries.</p>
 </div>
+
 </section>
 </div>
 
-<!-- CIDOC-CRM MODEL -->
-<div id="cidoc" class="tab-content">
+<!-- ============================================================ -->
+<!-- CENSUS VARIABLES -->
+<!-- ============================================================ -->
+<div id="census" class="tab-content">
 
 <section>
-<h2>CIDOC-CRM Model</h2>
-<p class="dim" style="margin-bottom:16px">The CIDOC-CRM ontology separates the enduring place (E53_Place) from its time-specific manifestations (E93_Presence), with each presence linked to a spatial primitive (E94_Space_Primitive) and census period (E4_Period). Census measurements attach to presences, not places, so they are always grounded in a specific time and geography.</p>
+<h2>Census Variables for Westmeath</h2>
+<p class="dim" style="margin-bottom:16px">454 individual measurements across 6 census years (1851&ndash;1901), spanning 9 data categories. Each measurement becomes an E16_Measurement node in the knowledge graph, linked to its E93_Presence (the CSD in that census year).</p>
 
-<h3>How CIDOC-CRM Represents Westmeath</h3>
-<div class="card cidoc-card">
-<span class="model-label cidoc">CIDOC-CRM</span>
-<p style="font-size:13px;margin-bottom:12px">Westmeath is a single E53_Place with 8 E93_Presence nodes, one per census year. Each presence keeps its original TCP UID as an E42_Identifier for provenance back to the source GIS data. The persistent place identity is built by Union-Find over SAME_AS chains (IOU = 1.0).</p>
+<div class="stat-grid">
+  <div class="stat-box"><div class="num">454</div><div class="lbl">Measurements (Westmeath)</div></div>
+  <div class="stat-box"><div class="num">8</div><div class="lbl">Categories Present</div></div>
+  <div class="stat-box"><div class="num">1851</div><div class="lbl">Richest Year (146 vars)</div></div>
+  <div class="stat-box"><div class="num">11</div><div class="lbl">Units of Measure</div></div>
+</div>
+
+<!-- 1851 -->
+<h3 class="collapsible-header" onclick="toggleSection(this)"><span class="arrow">&#9654;</span> 1851 &mdash; 146 measurements across 8 categories</h3>
+<div class="collapsible-body">
+
+<div class="card">
+<h3><span class="cat-badge cat-pop">POP</span> Population &amp; Vital Statistics (20 variables)</h3>
 <table>
-<thead><tr><th>Entity</th><th>ID</th><th>Key Properties</th></tr></thead>
+<thead><tr><th>Variable</th><th>Value</th><th>Unit</th><th>Description</th></tr></thead>
 <tbody>
-  <tr>
-    <td><strong>E53_Place</strong></td>
-    <td class="mono">PLACE_ON142032</td>
-    <td>name=Westmeath, province=ON, type=CSD, years_active=1851&ndash;1921</td>
-  </tr>
-  <tr><td colspan="3" style="padding:4px 12px;color:#059669;font-size:11px;font-weight:600">&uarr; P166_was_a_presence_of (&times;8)</td></tr>
-  <tr><td>E93_Presence</td><td class="mono">ON033008_1851</td><td>area=324,709,711 m&sup2;, census_year=1851</td></tr>
-  <tr><td>E93_Presence</td><td class="mono">ON096020_1861</td><td>area=324,709,711 m&sup2;, census_year=1861</td></tr>
-  <tr><td>E93_Presence</td><td class="mono">ON082003_1871</td><td>area=324,709,711 m&sup2;, census_year=1871</td></tr>
-  <tr><td>E93_Presence</td><td class="mono">ON114011_1881</td><td>area=324,709,711 m&sup2;, census_year=1881</td></tr>
-  <tr><td>E93_Presence</td><td class="mono">ON114011_1891</td><td>area=324,709,711 m&sup2;, census_year=1891</td></tr>
-  <tr><td>E93_Presence</td><td class="mono">ON110012_1901</td><td>area=324,709,711 m&sup2;, census_year=1901</td></tr>
-  <tr><td>E93_Presence</td><td class="mono">ON116010_1911</td><td>area=324,709,711 m&sup2;, census_year=1911</td></tr>
-  <tr><td>E93_Presence</td><td class="mono">ON142032_1921</td><td>area=324,709,711 m&sup2;, census_year=1921</td></tr>
+  <tr><td class="mono">POP_XX_N</td><td class="pop">1,152</td><td>persons</td><td>Total population</td></tr>
+  <tr><td class="mono">POP_MX_N</td><td>668</td><td>persons</td><td>Males</td></tr>
+  <tr><td class="mono">POP_FX_N</td><td>484</td><td>persons</td><td>Females</td></tr>
+  <tr><td class="mono">BIRTH_MX_N</td><td>30</td><td>persons</td><td>Male births in the past year</td></tr>
+  <tr><td class="mono">BIRTH_FX_N</td><td>20</td><td>persons</td><td>Female births in the past year</td></tr>
+  <tr><td class="mono">EDU_SM_N</td><td>52</td><td>persons</td><td>Males attending school</td></tr>
+  <tr><td class="mono">EDU_SF_N</td><td>41</td><td>persons</td><td>Females attending school</td></tr>
+  <tr><td class="mono">POP_FDD_N</td><td>1</td><td>persons</td><td>Deaf and dumb females</td></tr>
 </tbody>
 </table>
 </div>
 
-<h3>Entity Graph (1871)</h3>
+<div class="card">
+<h3><span class="cat-badge cat-age">AGE</span> Age Distribution (38 variables)</h3>
+<p class="dim" style="margin-bottom:8px">Single-year age cohorts by gender. Example values:</p>
+<table>
+<thead><tr><th>Variable</th><th>Value</th><th>Description</th></tr></thead>
+<tbody>
+  <tr><td class="mono">AGE_01to02F_N</td><td>23</td><td>Females aged 1&ndash;2</td></tr>
+  <tr><td class="mono">AGE_01to02M_N</td><td>20</td><td>Males aged 1&ndash;2</td></tr>
+  <tr><td class="mono">AGE_10to11M_N</td><td>23</td><td>Males aged 10&ndash;11</td></tr>
+  <tr><td class="mono">AGE_40to50M_N</td><td>27</td><td>Males aged 40&ndash;50</td></tr>
+</tbody>
+</table>
+<p class="dim" style="font-size:12px;margin-top:4px">&hellip;plus 34 more age-gender cohorts</p>
+</div>
+
+<div class="card">
+<h3><span class="cat-badge cat-eth">ETH</span> Ethnic Origins (6 variables)</h3>
+<table>
+<thead><tr><th>Variable</th><th>Value</th><th>Description</th></tr></thead>
+<tbody>
+  <tr><td class="mono">ETH_XA_N</td><td>580</td><td>Native to Canada, not of French origin</td></tr>
+  <tr><td class="mono">ETH_FC_N</td><td>265</td><td>French Canadians</td></tr>
+  <tr><td class="mono">ORIG_IR_N</td><td>195</td><td>Originating in Ireland</td></tr>
+  <tr><td class="mono">ORIG_SC_N</td><td>59</td><td>Originating in Scotland</td></tr>
+  <tr><td class="mono">ORIG_EW_N</td><td>33</td><td>Originating in England or Wales</td></tr>
+  <tr><td class="mono">ORIG_XX_N</td><td>20</td><td>Originating elsewhere</td></tr>
+</tbody>
+</table>
+</div>
+
+<div class="two-col">
+<div class="card">
+<h3><span class="cat-badge cat-dth">DTH</span> Mortality (7 variables)</h3>
+<table>
+<thead><tr><th>Variable</th><th>Value</th><th>Description</th></tr></thead>
+<tbody>
+  <tr><td class="mono">DTH_MX_N</td><td>3</td><td>Male deaths (all ages)</td></tr>
+  <tr><td class="mono">DTH_FX_N</td><td>2</td><td>Female deaths (all ages)</td></tr>
+  <tr><td class="mono">DTH_0to01M_N</td><td>2</td><td>Male deaths under age 1</td></tr>
+  <tr><td class="mono">DTH_0to01F_N</td><td>1</td><td>Female deaths under age 1</td></tr>
+  <tr><td class="mono">DTH_01to02F_N</td><td>1</td><td>Female deaths aged 1&ndash;2</td></tr>
+</tbody>
+</table>
+</div>
+
+<div class="card">
+<h3><span class="cat-badge cat-fsh">FSH</span> Fisheries (1 variable)</h3>
+<table>
+<thead><tr><th>Variable</th><th>Value</th><th>Description</th></tr></thead>
+<tbody>
+  <tr><td class="mono">FISH_PC_BL</td><td>3</td><td>Barrels of cured fish</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div class="card">
+<h3><span class="cat-badge cat-agr">AGR</span> Agriculture (48 variables)</h3>
+<p class="dim" style="margin-bottom:8px">Crop acreage, yields in bushels, livestock, and farm products. Selected values:</p>
+<table>
+<thead><tr><th>Variable</th><th>Value</th><th>Unit</th><th>Description</th></tr></thead>
+<tbody>
+  <tr><td class="mono">OAT_XX_B</td><td>32,768</td><td>bushels</td><td>Oats produced</td></tr>
+  <tr><td class="mono">POT_XX_B</td><td>21,768</td><td>bushels</td><td>Potatoes produced</td></tr>
+  <tr><td class="mono">BUT_XX_LB</td><td>12,716</td><td>lbs</td><td>Homemade butter</td></tr>
+  <tr><td class="mono">CRN_XX_B</td><td>5,800</td><td>bushels</td><td>Corn produced</td></tr>
+  <tr><td class="mono">HAY_XX_T</td><td>3,039</td><td>tons</td><td>Hay produced</td></tr>
+  <tr><td class="mono">COW_XX_N</td><td>569</td><td>head</td><td>Milch cows</td></tr>
+  <tr><td class="mono">HRS_XX_N</td><td>236</td><td>head</td><td>Horses</td></tr>
+  <tr><td class="mono">SHP_XX_N</td><td>477</td><td>head</td><td>Sheep</td></tr>
+  <tr><td class="mono">PIG_XX_N</td><td>378</td><td>head</td><td>Pigs</td></tr>
+  <tr><td class="mono">BAR_XX_A</td><td>17</td><td>acres</td><td>Acres of barley</td></tr>
+  <tr><td class="mono">BAR_XX_B</td><td>258</td><td>bushels</td><td>Barley produced</td></tr>
+</tbody>
+</table>
+<p class="dim" style="font-size:12px;margin-top:4px">&hellip;plus 37 more agricultural variables</p>
+</div>
+
+<div class="card">
+<h3><span class="cat-badge cat-mfg">MFG</span> Manufacturing (23 variables)</h3>
+<p class="dim" style="margin-bottom:8px">Mills, workshops, and industrial output. Selected values:</p>
+<table>
+<thead><tr><th>Variable</th><th>Value</th><th>Unit</th><th>Description</th></tr></thead>
+<tbody>
+  <tr><td class="mono">SAWM_PX_MBF</td><td>1,600</td><td>MBF</td><td>Lumber sawed (1000 board feet)</td></tr>
+  <tr><td class="mono">CFM_PW_LB</td><td>5,000</td><td>lbs</td><td>Wool produced in carding/fulling mills</td></tr>
+  <tr><td class="mono">CFM_PCF_YD</td><td>537</td><td>yards</td><td>Fulled cloth produced</td></tr>
+  <tr><td class="mono">FLM_PX_BL</td><td>200</td><td>barrels</td><td>Flour milled</td></tr>
+  <tr><td class="mono">SAWM_XR_N</td><td>5</td><td>count</td><td>Number of sawmills</td></tr>
+  <tr><td class="mono">POT_XX_N</td><td>3</td><td>count</td><td>Potash works</td></tr>
+</tbody>
+</table>
+<p class="dim" style="font-size:12px;margin-top:4px">&hellip;plus 17 more manufacturing variables</p>
+</div>
+
+</div><!-- collapsible-body 1851 -->
+
+<!-- 1861 -->
+<h3 class="collapsible-header" onclick="toggleSection(this)"><span class="arrow">&#9654;</span> 1861 &mdash; 157 measurements across 7 categories</h3>
+<div class="collapsible-body">
+<div class="card">
+<p style="font-size:13px">Richest census for Westmeath with expanded agriculture and ethnic origin data. Population grew to <strong>2,001</strong>. Key additions:</p>
+<div class="two-col" style="margin-top:12px">
+<div>
+<h3><span class="cat-badge cat-eth">ETH</span> Ethnic Origins (10 variables)</h3>
+<table>
+<thead><tr><th>Variable</th><th>Value</th></tr></thead>
+<tbody>
+  <tr><td>Native Canadian (non-French)</td><td>1,256</td></tr>
+  <tr><td>French Canadians</td><td>351</td></tr>
+  <tr><td>Irish origin</td><td>231</td></tr>
+  <tr><td>Scottish origin</td><td>88</td></tr>
+  <tr><td>English/Welsh origin</td><td>67</td></tr>
+  <tr><td>Indigenous males</td><td>2</td></tr>
+  <tr><td>Negroes/coloured (male)</td><td>3</td></tr>
+  <tr><td>Negroes/coloured (female)</td><td>3</td></tr>
+</tbody>
+</table>
+</div>
+<div>
+<h3><span class="cat-badge cat-agr">AGR</span> Agriculture (58 variables)</h3>
+<p class="dim" style="font-size:12px">Expanded to track crop acreage alongside yields. Barley: 71 acres / 1,482 bushels. Oats: 2,154 acres. Potatoes: 19,805 bushels. Butter: 28,254 lbs. Cheese: 3,160 lbs.</p>
+<h3 style="margin-top:12px"><span class="cat-badge cat-dth">DTH</span> Mortality (7 variables)</h3>
+<p class="dim" style="font-size:12px">Age-specific death counts: 22 total death observations across gender and age cohorts.</p>
+</div>
+</div>
+</div>
+</div>
+
+<!-- 1871 -->
+<h3 class="collapsible-header" onclick="toggleSection(this)"><span class="arrow">&#9654;</span> 1871 &mdash; 19 measurements across 4 categories</h3>
+<div class="collapsible-body">
+<div class="card">
+<p style="font-size:13px">Only V1T1 table processed. Population: <strong>2,632</strong>.</p>
+<table>
+<thead><tr><th>Category</th><th>Key Values</th></tr></thead>
+<tbody>
+  <tr><td><span class="cat-badge cat-pop">POP</span></td><td>Total: 2,632 &middot; Male: 1,405 &middot; Female: 1,227 &middot; Married males: 387 &middot; Married females: 379 &middot; Widowed: 47</td></tr>
+  <tr><td><span class="cat-badge cat-age">AGE</span></td><td>Single persons under 18: 1,819 (1,000 male, 819 female)</td></tr>
+  <tr><td><span class="cat-badge cat-bld">BLD</span></td><td>Inhabited houses: 408 &middot; Occupied houses: 409 &middot; Uninhabited: 15 &middot; Under construction: 11 &middot; Temporary shanties: 1</td></tr>
+  <tr><td><span class="cat-badge cat-agr">AGR</span></td><td>Total area: 71,078 acres</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<!-- 1881 -->
+<h3 class="collapsible-header" onclick="toggleSection(this)"><span class="arrow">&#9654;</span> 1881 &mdash; 35 measurements across 5 categories</h3>
+<div class="collapsible-body">
+<div class="card">
+<p style="font-size:13px">Population: <strong>3,220</strong>. Note: HGIS records the name as &ldquo;Wesmeath&rdquo; (OCR error).</p>
+<table>
+<thead><tr><th>Category</th><th>Key Values</th></tr></thead>
+<tbody>
+  <tr><td><span class="cat-badge cat-pop">POP</span></td><td>Total: 3,220 &middot; Male: 1,689 &middot; Female: 1,531 &middot; Married males: 465</td></tr>
+  <tr><td><span class="cat-badge cat-bld">BLD</span></td><td>Inhabited houses: 522 &middot; Under construction: 10 &middot; Shanties: 2</td></tr>
+  <tr><td><span class="cat-badge cat-agr">AGR</span></td><td>Barley: 2,863 bu &middot; Buckwheat: 2,584 bu &middot; Corn: 9,211 bu &middot; Oats: 92,697 bu &middot; Potatoes: 38,700 bu &middot; Turnips: 17,625 bu &middot; Hay: 5,879 tons</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<!-- 1891 -->
+<h3 class="collapsible-header" onclick="toggleSection(this)"><span class="arrow">&#9654;</span> 1891 &mdash; 85 measurements across 5 categories</h3>
+<div class="collapsible-body">
+<div class="card">
+<p style="font-size:13px">Most tables processed for any single year. Population: <strong>3,612</strong>. Richest agriculture and building data.</p>
+<table>
+<thead><tr><th>Category</th><th>Key Values</th></tr></thead>
+<tbody>
+  <tr><td><span class="cat-badge cat-pop">POP</span></td><td>Total: 3,612 &middot; Families: 652 &middot; Average family size: 5.5 &middot; Married females: 620</td></tr>
+  <tr><td><span class="cat-badge cat-eth">ETH</span></td><td>French Canadians: 541 &middot; Non-French: 3,920</td></tr>
+  <tr><td><span class="cat-badge cat-bld">BLD</span></td><td>Houses: 600 &middot; 1-storey: 391 &middot; 2-storey: 113 &middot; Wood: 594 &middot; Stone: 3 &middot; Brick: 5 &middot; 1-room: 23 &middot; 2-room: 42 &middot; 3-room: 115 &middot; 4-room: 170</td></tr>
+  <tr><td><span class="cat-badge cat-agr">AGR</span></td><td>Barley: 7,660 bu / 246 acres &middot; Oats: 79,490 bu / 3,400 acres &middot; Potatoes: 53,555 bu &middot; Hay: 7,795 tons &middot; Cattle: 1,770 &middot; Horses: 620 &middot; Sheep: 855 &middot; Pigs: 670 &middot; Cheese: 66,820 lbs &middot; Butter: 68,865 lbs</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<!-- 1901 -->
+<h3 class="collapsible-header" onclick="toggleSection(this)"><span class="arrow">&#9654;</span> 1901 &mdash; 12 measurements across 3 categories</h3>
+<div class="collapsible-body">
+<div class="card">
+<p style="font-size:13px">Only V1T7 (birthplace) table processed. Population: <strong>3,586</strong>.</p>
+<table>
+<thead><tr><th>Category</th><th>Key Values</th></tr></thead>
+<tbody>
+  <tr><td><span class="cat-badge cat-pop">POP</span></td><td>Total: 3,586 &middot; Male: 1,930 &middot; Female: 1,656 &middot; Families: 634 &middot; Single females: 1,013 &middot; Married females: 614</td></tr>
+  <tr><td><span class="cat-badge cat-bld">BLD</span></td><td>Houses: 634</td></tr>
+  <tr><td><span class="cat-badge cat-agr">AGR</span></td><td>Total area: 77,903 acres</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<h3>Measurement Units Used</h3>
+<div class="card">
+<table>
+<thead><tr><th>Unit ID</th><th>Label</th><th>Used By</th></tr></thead>
+<tbody>
+  <tr><td class="mono">UNIT_PERSONS</td><td>persons</td><td>POP, AGE, ETH, DTH, REL</td></tr>
+  <tr><td class="mono">UNIT_ACRES</td><td>acres</td><td>AGR (crop acreage, farm size)</td></tr>
+  <tr><td class="mono">UNIT_BUSHELS</td><td>bushels</td><td>AGR (crop yields)</td></tr>
+  <tr><td class="mono">UNIT_HEAD</td><td>head (livestock)</td><td>AGR (cattle, horses, sheep, pigs)</td></tr>
+  <tr><td class="mono">UNIT_TONS</td><td>tons</td><td>AGR (hay), FSH</td></tr>
+  <tr><td class="mono">UNIT_BARRELS</td><td>barrels</td><td>FSH, MFG</td></tr>
+  <tr><td class="mono">UNIT_DOLLARS</td><td>dollars</td><td>MFG (production value)</td></tr>
+  <tr><td class="mono">UNIT_FARMS</td><td>farms</td><td>AGR</td></tr>
+  <tr><td class="mono">UNIT_COUNT</td><td>count</td><td>BLD, MFG (establishments)</td></tr>
+  <tr><td class="mono">UNIT_PERCENT</td><td>percent</td><td>POP (ratios)</td></tr>
+  <tr><td class="mono">UNIT_SQUARE_MILES</td><td>square miles</td><td>AGR (total area)</td></tr>
+</tbody>
+</table>
+</div>
+
+</section>
+</div>
+
+<!-- ============================================================ -->
+<!-- CIDOC-CRM MODEL -->
+<!-- ============================================================ -->
+<div id="cidoc" class="tab-content">
+
+<section>
+<h2>CIDOC-CRM Knowledge Graph</h2>
+<p class="dim" style="margin-bottom:16px">The CIDOC-CRM (Conceptual Reference Model) is an ISO standard ontology for cultural heritage. It provides a formal vocabulary for describing objects, events, places, people, and their relationships over time. Our implementation uses CIDOC-CRM classes to model both the spatial structure (places, presences, coordinates) and census observations (measurements, dimensions, units).</p>
+
+<h3>Node Types in the Graph</h3>
 <div class="card cidoc-card">
+<table>
+<thead><tr><th>CIDOC-CRM Class</th><th>Role</th><th>Count (Full Dataset)</th><th>Westmeath</th></tr></thead>
+<tbody>
+  <tr><td class="mono">E53_Place</td><td>Persistent real-world place (CSD or CD)</td><td>12,798 CSD + 579 CD</td><td>1 (<code>PLACE_ON142032</code>)</td></tr>
+  <tr><td class="mono">E93_Presence</td><td>A place at a specific census year</td><td>20,811 CSD + 1,482 CD</td><td>8 (one per year)</td></tr>
+  <tr><td class="mono">E4_Period</td><td>Census year concept</td><td>8</td><td>8</td></tr>
+  <tr><td class="mono">E94_Space_Primitive</td><td>Centroid coordinates (lat/lon)</td><td>20,811 + 1,482</td><td>8</td></tr>
+  <tr><td class="mono">E16_Measurement</td><td>One census observation event</td><td>666,423</td><td>454</td></tr>
+  <tr><td class="mono">E54_Dimension</td><td>The measured numeric value</td><td>666,423</td><td>454</td></tr>
+  <tr><td class="mono">E55_Type</td><td>Variable definition (taxonomy)</td><td>490</td><td>&mdash;</td></tr>
+  <tr><td class="mono">E58_Measurement_Unit</td><td>Unit of measure</td><td>11</td><td>&mdash;</td></tr>
+  <tr><td class="mono">E41_Appellation</td><td>Place name (canonical or variant)</td><td>350</td><td>2</td></tr>
+  <tr><td class="mono">E42_Identifier</td><td>Original TCP UID (provenance)</td><td>18,770</td><td>8</td></tr>
+  <tr><td class="mono">E73_Information_Object</td><td>Source spreadsheet (provenance)</td><td>17</td><td>&mdash;</td></tr>
+  <tr><td class="mono">E52_Time-Span</td><td>Temporal extent of census</td><td>6</td><td>&mdash;</td></tr>
+</tbody>
+</table>
+</div>
+
+<h3>Relationship Types</h3>
+<div class="card cidoc-card">
+<table>
+<thead><tr><th>Relationship</th><th>From</th><th>To</th><th>Meaning</th></tr></thead>
+<tbody>
+  <tr><td class="mono">P166_was_a_presence_of</td><td>E93_Presence</td><td>E53_Place</td><td>This presence manifests this enduring place</td></tr>
+  <tr><td class="mono">P164_temporally_specified_by</td><td>E93_Presence</td><td>E4_Period</td><td>This presence belongs to this census year</td></tr>
+  <tr><td class="mono">P161_has_spatial_projection</td><td>E93_Presence</td><td>E94_Space_Primitive</td><td>Centroid coordinates for this year</td></tr>
+  <tr><td class="mono">P39_measured</td><td>E16_Measurement</td><td>E93_Presence</td><td>This measurement was taken of this presence</td></tr>
+  <tr><td class="mono">P40_observed_dimension</td><td>E16_Measurement</td><td>E54_Dimension</td><td>The numeric result of the measurement</td></tr>
+  <tr><td class="mono">P2_has_type</td><td>E16_Measurement</td><td>E55_Type</td><td>What variable was measured</td></tr>
+  <tr><td class="mono">P91_has_unit</td><td>E54_Dimension</td><td>E58_Measurement_Unit</td><td>Unit of the measured value</td></tr>
+  <tr><td class="mono">P89_falls_within</td><td>E53_Place (CSD)</td><td>E53_Place (CD)</td><td>Administrative containment (time-scoped)</td></tr>
+  <tr><td class="mono">P10_falls_within</td><td>E93_Presence (CSD)</td><td>E93_Presence (CD)</td><td>CSD presence within CD presence</td></tr>
+  <tr><td class="mono">P122_borders_with</td><td>E53_Place</td><td>E53_Place</td><td>Adjacent places (with border length)</td></tr>
+  <tr><td class="mono">P132_spatiotemporally_overlaps</td><td>E93_Presence</td><td>E93_Presence</td><td>Spatial overlap between consecutive years</td></tr>
+  <tr><td class="mono">P1_is_identified_by</td><td>E53/E93</td><td>E41/E42</td><td>Names and identifiers</td></tr>
+  <tr><td class="mono">P70_documents</td><td>E73_Information_Object</td><td>E16_Measurement</td><td>Source spreadsheet provenance</td></tr>
+  <tr><td class="mono">PLACE_LINEAGE</td><td>E53_Place</td><td>E53_Place</td><td>Split/merge history</td></tr>
+</tbody>
+</table>
+</div>
+
+<h3>Entity Graph for Westmeath (1871)</h3>
+<div class="card cidoc-card">
+  <p style="font-size:12px;color:#6b7280;margin-bottom:12px">One census year of one place involves all of these connected entities:</p>
   <div class="entity-box cidoc-box">
-    <div class="etype">E53_Place</div>
-    <div><strong>PLACE_ON142032</strong> &mdash; &ldquo;Westmeath&rdquo; (Ontario)</div>
+    <div class="etype">E53_Place (persistent)</div>
+    <div><strong>PLACE_ON142032</strong> &mdash; &ldquo;Westmeath&rdquo; (Ontario, CSD)</div>
+    <div style="font-size:11px;color:#6b7280">years_active: 1851;1861;1871;1881;1891;1901;1911;1921</div>
   </div>
   <div class="rel-arrow cidoc">&uarr; P166_was_a_presence_of</div>
   <div class="entity-box cidoc-box">
     <div class="etype">E93_Presence</div>
-    <div><strong>ON082003_1871</strong> &mdash; area: 324,709,711 m&sup2;</div>
+    <div><strong>ON082003_1871</strong> &mdash; area: 324,709,711 m&sup2;, census_year: 1871</div>
   </div>
-  <div class="two-col">
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-top:4px">
     <div>
-      <div class="rel-arrow cidoc">&darr; P164_temporally_specified_by</div>
+      <div class="rel-arrow cidoc">&darr; P164</div>
       <div class="entity-box cidoc-box">
         <div class="etype">E4_Period</div>
-        <div><strong>CENSUS_1871</strong><br>1871 Canadian Census</div>
+        <div><strong>CENSUS_1871</strong></div>
       </div>
     </div>
     <div>
-      <div class="rel-arrow cidoc">&darr; P161_has_spatial_projection</div>
+      <div class="rel-arrow cidoc">&darr; P161</div>
       <div class="entity-box cidoc-box">
         <div class="etype">E94_Space_Primitive</div>
-        <div><strong>ON082003_1871_centroid</strong><br>45.763&deg;N, 76.884&deg;W</div>
+        <div>45.763&deg;N, 76.884&deg;W</div>
+      </div>
+    </div>
+    <div>
+      <div class="rel-arrow cidoc">&darr; P1</div>
+      <div class="entity-box cidoc-box">
+        <div class="etype">E42_Identifier</div>
+        <div>TCP UID: ON082003</div>
       </div>
     </div>
   </div>
   <div class="two-col" style="margin-top:8px">
-    <div>
-      <div class="rel-arrow cidoc">&darr; P1_is_identified_by</div>
-      <div class="entity-box cidoc-box">
-        <div class="etype">E42_Identifier</div>
-        <div><strong>TCPUID_ON082003_1871</strong><br>value: ON082003 (TCP UID provenance)</div>
-      </div>
-    </div>
     <div>
       <div class="rel-arrow cidoc">&darr; P10_falls_within</div>
       <div class="entity-box cidoc-box">
@@ -487,197 +781,95 @@ pre {
         <div><strong>CD_ON_Renfrew,_North&mdash;Nord_1871</strong></div>
       </div>
     </div>
-  </div>
-  <div style="margin-top:12px">
-    <div class="rel-arrow cidoc">&darr; P39_measured (from E16_Measurement)</div>
-    <div class="entity-box cidoc-box">
-      <div class="etype">E16_Measurement &rarr; E54_Dimension</div>
-      <div>POP_XX_N = 2,632 persons &middot; POP_MX_N = 766 &middot; POP_FX_N = 435 &middot; &hellip;</div>
+    <div>
+      <div class="rel-arrow cidoc">&uarr; P39_measured (from E16_Measurement)</div>
+      <div class="entity-box cidoc-box">
+        <div class="etype">E16_Measurement &rarr; E54_Dimension</div>
+        <div style="font-size:11px">
+          <span class="cat-badge cat-pop">POP</span> POP_XX_N = 2,632
+          <span class="cat-badge cat-pop">POP</span> POP_FX_N = 1,227<br>
+          <span class="cat-badge cat-age">AGE</span> AGE_0to17XS_N = 1,819
+          <span class="cat-badge cat-bld">BLD</span> HOUSE_XI_N = 408<br>
+          <span class="cat-badge cat-agr">AGR</span> ARE_XX_A = 71,078
+          &hellip;19 measurements total
+        </div>
+      </div>
     </div>
   </div>
 </div>
 
-<h3>Temporal Overlap (P132)</h3>
-<div class="card">
-<p style="font-size:13px;margin-bottom:12px">Spatial overlap analysis between consecutive census years is preserved at the E93_Presence level. These P132 relationships record how each presence relates to its predecessors and successors.</p>
-<table>
-<thead><tr><th>From Presence</th><th>To Presence</th><th>Relationship</th><th>IOU</th></tr></thead>
-<tbody>
-  <tr><td class="mono">ON033008_1851</td><td class="mono">ON096020_1861</td><td>SAME_AS</td><td>1.0</td></tr>
-  <tr><td class="mono">ON096020_1861</td><td class="mono">ON082003_1871</td><td>SAME_AS</td><td>1.0</td></tr>
-  <tr><td class="mono">ON082003_1871</td><td class="mono">ON114011_1881</td><td>SAME_AS</td><td>1.0</td></tr>
-  <tr><td class="mono">ON114011_1881</td><td class="mono">ON114011_1891</td><td>SAME_AS</td><td>1.0</td></tr>
-  <tr><td class="mono">ON114011_1891</td><td class="mono">ON110012_1901</td><td>SAME_AS</td><td>1.0</td></tr>
-  <tr><td class="mono">ON110012_1901</td><td class="mono">ON116010_1911</td><td>SAME_AS</td><td>1.0</td></tr>
-  <tr><td class="mono">ON116010_1911</td><td class="mono">ON142032_1921</td><td>SAME_AS</td><td>1.0</td></tr>
-</tbody>
-</table>
+<h3>Measurement Pattern (E16)</h3>
+<div class="card cidoc-card">
+<p style="font-size:13px;margin-bottom:12px">Every census observation follows the same 6-node pattern. This is the CIDOC-CRM v2.0 measurement pattern, using E16_Measurement rather than E13_Attribute_Assignment:</p>
+<div style="text-align:center;padding:8px;font-size:12px">
+  <div class="entity-box cidoc-box" style="display:inline-block;margin:4px">
+    <div class="etype">E73_Information_Object</div>
+    <div>SOURCE_1871_V1T1</div>
+  </div>
+  <span style="font-size:18px">&rarr;</span>
+  <span style="font-size:11px;color:#059669;font-weight:600">P70_documents</span>
+  <span style="font-size:18px">&rarr;</span>
+  <div class="entity-box cidoc-box" style="display:inline-block;margin:4px">
+    <div class="etype">E16_Measurement</div>
+    <div>MEAS_ON082003_1871_POP_XX_N</div>
+  </div>
+</div>
+<div style="text-align:center;font-size:12px;margin:4px 0">
+  <span style="color:#059669;font-weight:600">&darr; P39_measured &nbsp;&nbsp;&nbsp; &darr; P2_has_type &nbsp;&nbsp;&nbsp; &darr; P40_observed_dimension &nbsp;&nbsp;&nbsp; &darr; P4_has_time-span</span>
+</div>
+<div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:6px;text-align:center">
+  <div class="entity-box cidoc-box">
+    <div class="etype">E93_Presence</div>
+    <div>ON082003_1871</div>
+  </div>
+  <div class="entity-box cidoc-box">
+    <div class="etype">E55_Type</div>
+    <div>VAR_POP_XX_N<br><span class="dim">Total population</span></div>
+  </div>
+  <div class="entity-box cidoc-box">
+    <div class="etype">E54_Dimension</div>
+    <div>value: 2,632<br>&darr; P91 &rarr; UNIT_PERSONS</div>
+  </div>
+  <div class="entity-box cidoc-box">
+    <div class="etype">E52_Time-Span</div>
+    <div>1871-01-01 to 1871-12-31</div>
+  </div>
+</div>
 </div>
 
-<h3>Name Variants (E41_Appellation)</h3>
+<h3>Name Handling (E41_Appellation)</h3>
 <div class="card">
-<p style="font-size:13px;margin-bottom:12px">OCR errors in the source data are modeled explicitly. The canonical name links to the persistent E53_Place; the erroneous form links to the specific E93_Presence where it appeared.</p>
 <table>
-<thead><tr><th>Entity</th><th>Linked To</th><th>Name</th><th>Type</th></tr></thead>
+<thead><tr><th>Name</th><th>Type</th><th>Linked To</th><th>Relationship</th></tr></thead>
 <tbody>
-  <tr><td>E41_Appellation</td><td class="mono">PLACE_ON142032</td><td>Westmeath</td><td>canonical</td></tr>
-  <tr><td>E41_Appellation</td><td class="mono">ON114011_1881</td><td>Wesmeath</td><td>variant (OCR)</td></tr>
+  <tr><td>Westmeath</td><td>canonical</td><td class="mono">PLACE_ON142032</td><td>P1_is_identified_by</td></tr>
+  <tr><td>Wesmeath</td><td>variant (OCR error)</td><td class="mono">ON114011_1881</td><td>P1_is_identified_by</td></tr>
 </tbody>
 </table>
+<p class="dim" style="margin-top:8px;font-size:12px">The canonical name attaches to the persistent E53_Place. OCR errors and historical variants attach to the specific E93_Presence where they appeared. This preserves the original data while providing a corrected canonical form.</p>
 </div>
 
-<h3>Place Hierarchy (P89_falls_within)</h3>
+<h3>Administrative Hierarchy (P89_falls_within)</h3>
 <div class="card">
-<p style="font-size:13px;margin-bottom:12px">The persistent place links to its census division over time. Each P89 relationship carries a <code>during_period</code> property to track changing administrative hierarchies.</p>
 <table>
-<thead><tr><th>CSD Place</th><th>CD Place</th><th>During</th></tr></thead>
+<thead><tr><th>CSD Place</th><th>CD Place</th><th>During Period</th></tr></thead>
 <tbody>
   <tr><td class="mono">PLACE_ON142032</td><td class="mono">CD_ON_Renfrew</td><td>1851, 1861, 1921</td></tr>
   <tr><td class="mono">PLACE_ON142032</td><td class="mono">CD_ON_Renfrew,_North&mdash;Nord</td><td>1871&ndash;1901</td></tr>
   <tr><td class="mono">PLACE_ON142032</td><td class="mono">CD_ON_Renfrew_N</td><td>1911</td></tr>
 </tbody>
 </table>
-<p class="dim" style="margin-top:8px;font-size:12px">Renfrew County was split into North and South ridings in 1871 and reunified by 1921. The CIDOC-CRM model records all three administrative configurations.</p>
-</div>
-</section>
+<p class="dim" style="margin-top:8px;font-size:12px">Renfrew County was split into North and South ridings in 1871, then reunified by 1921. The P89 relationship carries a <code>during_period</code> property to record all configurations.</p>
 </div>
 
-<!-- COMPARISON -->
-<div id="comparison" class="tab-content">
-
-<section>
-<h2>Model Comparison</h2>
-
-<div class="two-col">
-<div class="card highlight">
-  <span class="model-label hgis">HGIS / GIS Flat Model</span>
-  <h3>Representation</h3>
-  <ul style="font-size:13px;padding-left:20px">
-    <li><strong>Identity:</strong> TCP UID per census year (7 different IDs for Westmeath)</li>
-    <li><strong>Continuity:</strong> Spatial overlap links between consecutive year-layers</li>
-    <li><strong>Name:</strong> Stored per polygon in the census tables</li>
-    <li><strong>Geography:</strong> Full polygon boundary per year</li>
-    <li><strong>Hierarchy:</strong> CSD &rarr; CD &rarr; Province, per year</li>
-    <li><strong>Data:</strong> Census variables join on polygon ID + year</li>
-  </ul>
-  <h3 style="margin-top:16px">Strengths</h3>
-  <ul style="font-size:13px;padding-left:20px;color:#059669">
-    <li>Simple, flat structure &mdash; easy to work with in standard GIS tools</li>
-    <li>Each year is self-contained</li>
-    <li>No ambiguity about what polygon a measurement refers to</li>
-    <li>Full polygon geometry preserved (not just centroids)</li>
-  </ul>
-  <h3 style="margin-top:12px">Limitations</h3>
-  <ul style="font-size:13px;padding-left:20px;color:#dc2626">
-    <li>No persistent identity &mdash; Westmeath is 7 different entities</li>
-    <li>Cross-year queries require walking link chains</li>
-    <li>Same UID reused for different places in different years</li>
-    <li>No standard vocabulary for relationship types</li>
-  </ul>
-</div>
-
-<div class="card cidoc-card">
-  <span class="model-label cidoc">CIDOC-CRM</span>
-  <h3>Representation</h3>
-  <ul style="font-size:13px;padding-left:20px">
-    <li><strong>Identity:</strong> One E53_Place per real-world place (PLACE_ON142032)</li>
-    <li><strong>Continuity:</strong> Multiple E93_Presences linked to one E53_Place via P166</li>
-    <li><strong>Name:</strong> E41_Appellation with temporal validity</li>
-    <li><strong>Geography:</strong> E94_Space_Primitive (centroid per presence)</li>
-    <li><strong>Hierarchy:</strong> E53 &rarr; E53 via P89, time-scoped</li>
-    <li><strong>Data:</strong> E16_Measurement &rarr; E93_Presence via P39</li>
-  </ul>
-  <h3 style="margin-top:16px">Strengths</h3>
-  <ul style="font-size:13px;padding-left:20px;color:#059669">
-    <li>Persistent identity &mdash; one node for &ldquo;Westmeath&rdquo; across 70 years</li>
-    <li>Clean separation of place, time, space, and measurement</li>
-    <li>OCR variants and canonical names modeled explicitly</li>
-    <li>Full provenance (E42_Identifier retains original TCP UIDs)</li>
-    <li>Interoperable with cultural heritage standards (CIDOC-CRM 7.x)</li>
-    <li>Split/merge history via lineage relationships</li>
-  </ul>
-  <h3 style="margin-top:12px">Limitations</h3>
-  <ul style="font-size:13px;padding-left:20px;color:#dc2626">
-    <li>More complex to query (multiple hops)</li>
-    <li>Centroids only, not full polygon boundaries</li>
-    <li>Requires Union-Find pre-processing step</li>
-    <li>Higher node/relationship count</li>
-  </ul>
-</div>
-</div>
-
-<h3>Side-by-Side: Querying Westmeath&rsquo;s Population History</h3>
-<div class="two-col">
-<div class="card highlight">
-<span class="model-label hgis">HGIS</span>
-<pre>-- Must know the chain of IDs:
-SELECT year, population
-FROM census_data
-WHERE polygon_id IN (
-  'ON033008', 'ON096020', 'ON082003',
-  'ON114011', 'ON110012', 'ON116010',
-  'ON142032'
-)
-ORDER BY year;
--- Requires pre-computing the identity chain
--- from year_links spatial analysis</pre>
-</div>
-<div class="card cidoc-card">
-<span class="model-label cidoc">CIDOC-CRM (Cypher)</span>
-<pre>MATCH (place:E53_Place
-        {place_id: 'PLACE_ON142032'})
-  &lt;-[:P166_was_a_presence_of]-
-  (p:E93_Presence)
-  -[:P164_is_temporally_specified_by]-&gt;
-  (period:E4_Period)
-OPTIONAL MATCH (p)&lt;-[:P39_measured]-
-  (m:E16_Measurement)-[:P40]-&gt;(d:E54)
-WHERE m.label CONTAINS 'POP_XX_N'
-RETURN period.year, d.value AS pop
-ORDER BY period.year</pre>
-</div>
-</div>
-
-<h3>Key Structural Differences</h3>
+<h3>Place Lineage (Splits &amp; Merges)</h3>
 <div class="card">
+<p style="font-size:13px;margin-bottom:8px">When a CSD splits or merges between census years, the knowledge graph records the lineage as a directed relationship between persistent E53_Place nodes. Westmeath itself never split, but the project records 8,255 lineage relationships across Canada.</p>
 <table>
-<thead><tr><th>Aspect</th><th>HGIS</th><th>CIDOC-CRM</th></tr></thead>
+<thead><tr><th>Lineage Type</th><th>Meaning</th><th>Example</th></tr></thead>
 <tbody>
-  <tr>
-    <td><strong>Entities for Westmeath</strong></td>
-    <td>8 polygon features (one per year)</td>
-    <td>1 E53_Place + 8 E93_Presence + 8 E94_Space_Primitive + 8 E42_Identifier</td>
-  </tr>
-  <tr>
-    <td><strong>Place identity</strong></td>
-    <td>Implicit (derived from spatial overlap)</td>
-    <td>Explicit (persistent ID from Union-Find)</td>
-  </tr>
-  <tr>
-    <td><strong>Temporal scope</strong></td>
-    <td>Year encoded in layer name / join key</td>
-    <td>E4_Period node with explicit P164 link</td>
-  </tr>
-  <tr>
-    <td><strong>Administrative change</strong></td>
-    <td>Different CD name in different year-layers</td>
-    <td>Multiple P89 relationships with during_period</td>
-  </tr>
-  <tr>
-    <td><strong>OCR errors</strong></td>
-    <td>Preserved as-is in source attribute</td>
-    <td>Canonical E41 on place; variant E41 on presence</td>
-  </tr>
-  <tr>
-    <td><strong>Boundary changes</strong></td>
-    <td>CONTAINS/WITHIN links between year-layers</td>
-    <td>SPLIT_FROM / MERGED_INTO lineage on E53_Place</td>
-  </tr>
-  <tr>
-    <td><strong>Measurement link</strong></td>
-    <td>Direct join: polygon_id + year</td>
-    <td>E16 &rarr; P39 &rarr; E93_Presence</td>
-  </tr>
+  <tr><td class="mono">SPLIT_FROM</td><td>Child CSD carved out of parent</td><td>A new township created from part of an existing one</td></tr>
+  <tr><td class="mono">MERGED_INTO</td><td>CSD absorbed into another</td><td>A small CSD annexed by a growing city</td></tr>
 </tbody>
 </table>
 </div>
@@ -685,81 +877,253 @@ ORDER BY period.year</pre>
 </section>
 </div>
 
-<!-- SAMPLE QUERIES -->
+<!-- ============================================================ -->
+<!-- COMPARISON -->
+<!-- ============================================================ -->
+<div id="comparison" class="tab-content">
+
+<section>
+<h2>HGIS &harr; Knowledge Graph Comparison</h2>
+
+<div class="two-col">
+<div class="card highlight">
+  <span class="model-label hgis">HGIS Flat Model</span>
+  <h3>Data Structure</h3>
+  <ul style="font-size:13px;padding-left:20px">
+    <li><strong>Spatial:</strong> FileGDB with one polygon layer per census year</li>
+    <li><strong>Tabular:</strong> Excel spreadsheets with one row per CSD per year</li>
+    <li><strong>Identity:</strong> TCP UID per census year (not persistent)</li>
+    <li><strong>Linking:</strong> Computed post-hoc via spatial overlap (IOU)</li>
+    <li><strong>Names:</strong> Stored as-is in attribute fields (OCR errors included)</li>
+    <li><strong>Hierarchy:</strong> CSD &rarr; CD encoded in UID prefix + attribute</li>
+    <li><strong>Provenance:</strong> Filename convention (year_volume_table)</li>
+  </ul>
+</div>
+
+<div class="card cidoc-card">
+  <span class="model-label cidoc">CIDOC-CRM Knowledge Graph</span>
+  <h3>Data Structure</h3>
+  <ul style="font-size:13px;padding-left:20px">
+    <li><strong>Spatial:</strong> E53_Place (persistent) + E93_Presence (per year) + E94_Space_Primitive (centroid)</li>
+    <li><strong>Tabular:</strong> E16_Measurement &rarr; E54_Dimension &rarr; E58_Unit</li>
+    <li><strong>Identity:</strong> Persistent place ID from Union-Find over SAME_AS chains</li>
+    <li><strong>Linking:</strong> P132_spatiotemporally_overlaps + PLACE_LINEAGE</li>
+    <li><strong>Names:</strong> E41_Appellation (canonical on place, variants on presence)</li>
+    <li><strong>Hierarchy:</strong> P89_falls_within with temporal scope</li>
+    <li><strong>Provenance:</strong> E73_Information_Object &rarr; P70_documents &rarr; E16 + E42_Identifier (TCP UID)</li>
+  </ul>
+</div>
+</div>
+
+<h3>Structural Comparison</h3>
+<div class="card">
+<table>
+<thead><tr><th>Aspect</th><th>HGIS</th><th>CIDOC-CRM</th></tr></thead>
+<tbody>
+  <tr>
+    <td><strong>Westmeath&rsquo;s entities</strong></td>
+    <td>8 polygon features + 454 spreadsheet rows</td>
+    <td>1 E53_Place + 8 E93_Presence + 8 E94_Space + 8 E42_Identifier + 2 E41_Appellation + 454 E16_Measurement + 454 E54_Dimension</td>
+  </tr>
+  <tr>
+    <td><strong>Place identity</strong></td>
+    <td>Implicit (computed from IOU)</td>
+    <td>Explicit (<code>PLACE_ON142032</code>)</td>
+  </tr>
+  <tr>
+    <td><strong>Time binding</strong></td>
+    <td>Year column in spreadsheet</td>
+    <td>E93 &rarr; P164 &rarr; E4_Period + E52_Time-Span</td>
+  </tr>
+  <tr>
+    <td><strong>&ldquo;Wesmeath&rdquo; OCR error</strong></td>
+    <td>Stored as attribute value in 1881 row</td>
+    <td>Variant E41_Appellation on 1881 presence; canonical &ldquo;Westmeath&rdquo; on E53_Place</td>
+  </tr>
+  <tr>
+    <td><strong>Renfrew CD split</strong></td>
+    <td>Different CD name string per year</td>
+    <td>Multiple P89 relationships with during_period</td>
+  </tr>
+  <tr>
+    <td><strong>A measurement</strong></td>
+    <td>Cell in spreadsheet (row=CSD, col=variable)</td>
+    <td>E16 &rarr; P39 &rarr; E93 + P2 &rarr; E55_Type + P40 &rarr; E54 &rarr; P91 &rarr; E58_Unit</td>
+  </tr>
+  <tr>
+    <td><strong>Source tracking</strong></td>
+    <td>Filename convention</td>
+    <td>E73_Information_Object with DOI + P70_documents</td>
+  </tr>
+  <tr>
+    <td><strong>Querying across time</strong></td>
+    <td>Must know chain of 7 UIDs, join to each year&rsquo;s table</td>
+    <td>Match persistent place, traverse P166 to all presences</td>
+  </tr>
+  <tr>
+    <td><strong>Geometry</strong></td>
+    <td>Full polygon boundaries</td>
+    <td>Centroid only (original polygon boundaries not in graph)</td>
+  </tr>
+  <tr>
+    <td><strong>Interoperability</strong></td>
+    <td>GIS tools (QGIS, ArcGIS)</td>
+    <td>ISO 21127 (CIDOC-CRM), SPARQL-compatible, LOD-ready</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<h3>What the Conversion Gains</h3>
+<div class="card cidoc-card">
+<ul style="font-size:13px;padding-left:20px">
+  <li><strong>Persistent identity:</strong> &ldquo;Show me everything about Westmeath&rdquo; is one query, not 7 table joins</li>
+  <li><strong>Semantic typing:</strong> Every measurement has a formal type (E55), unit (E58), and provenance (E73) &mdash; not just a column header</li>
+  <li><strong>Temporal reasoning:</strong> Administrative changes (CD splits/merges) are first-class relationships, not implicit in changing attribute values</li>
+  <li><strong>Data quality:</strong> OCR errors become explicit variant names, not silent data corruption</li>
+  <li><strong>Cross-dataset linking:</strong> Standard ontology classes (E53, E93, E16) can link to other CIDOC-CRM datasets</li>
+  <li><strong>Full provenance chain:</strong> Any measurement traces back to its source file (DOI), presence (TCP UID), and variable definition</li>
+</ul>
+</div>
+
+<h3>What the Conversion Loses</h3>
+<div class="card highlight">
+<ul style="font-size:13px;padding-left:20px">
+  <li><strong>Full polygon geometry:</strong> Only centroids are stored; boundary analysis requires returning to the FileGDB</li>
+  <li><strong>Simplicity:</strong> A flat spreadsheet cell becomes a 6-node path (E73 &rarr; E16 &rarr; E54 &rarr; E58 + E93 + E55)</li>
+  <li><strong>GIS tool support:</strong> Standard GIS tools cannot directly consume the knowledge graph</li>
+  <li><strong>Storage efficiency:</strong> 666,423 measurements generate ~4M nodes and relationships (vs &sim;500 MB of CSVs)</li>
+</ul>
+</div>
+
+</section>
+</div>
+
+<!-- ============================================================ -->
+<!-- QUERIES -->
+<!-- ============================================================ -->
 <div id="queries" class="tab-content">
 
 <section>
-<h2>Sample CIDOC-CRM Queries</h2>
+<h2>Sample Neo4j (Cypher) Queries</h2>
+<p class="dim" style="margin-bottom:16px">These queries demonstrate how the CIDOC-CRM model enables temporal, thematic, and provenance queries that would require complex joins in the flat HGIS model.</p>
 
-<h3>All census data for a place</h3>
+<h3>All census data for a place, all years</h3>
 <div class="card cidoc-card">
-<pre>// Every measurement for Westmeath, all years
+<pre>// Every measurement for Westmeath across all census years
 MATCH (place:E53_Place {name: 'Westmeath', province: 'ON'})
   &lt;-[:P166_was_a_presence_of]-(p:E93_Presence)
   -[:P164_is_temporally_specified_by]-&gt;(period:E4_Period)
 OPTIONAL MATCH (p)&lt;-[:P39_measured]-(m:E16_Measurement)
+  -[:P2_has_type]-&gt;(vtype:E55_Type)
   -[:P40_observed_dimension]-&gt;(d:E54_Dimension)
   -[:P91_has_unit]-&gt;(u:E58_Measurement_Unit)
-RETURN period.year, m.label, d.value, u.label
-ORDER BY period.year, m.label</pre>
+RETURN period.year, vtype.category, vtype.label, d.value, u.label
+ORDER BY period.year, vtype.category, vtype.label</pre>
+<p class="dim" style="font-size:12px;margin-top:4px">Returns 454 rows: all population, agriculture, manufacturing, ethnicity, mortality, building, and fisheries data.</p>
 </div>
 
-<h3>Trace provenance back to source GIS</h3>
+<h3>Agricultural production over time</h3>
 <div class="card cidoc-card">
-<pre>// Which TCP UID did Westmeath have in each census year?
+<pre>// Track oat and potato production in Westmeath across decades
 MATCH (place:E53_Place {place_id: 'PLACE_ON142032'})
   &lt;-[:P166_was_a_presence_of]-(p:E93_Presence)
-  -[:P1_is_identified_by]-&gt;(id:E42_Identifier {identifier_type: 'TCP_UID'})
-RETURN p.census_year AS year, id.value AS tcp_uid
-ORDER BY year</pre>
+  &lt;-[:P39_measured]-(m:E16_Measurement)
+  -[:P2_has_type]-&gt;(vtype:E55_Type)
+  -[:P40_observed_dimension]-&gt;(d:E54_Dimension)
+WHERE vtype.variable_name IN ['OAT_XX_B', 'POT_XX_B']
+RETURN p.census_year AS year, vtype.label, d.value
+ORDER BY year, vtype.label</pre>
+</div>
+
+<h3>Ethnic composition timeline</h3>
+<div class="card cidoc-card">
+<pre>// French Canadian vs. non-French population over time
+MATCH (place:E53_Place {place_id: 'PLACE_ON142032'})
+  &lt;-[:P166_was_a_presence_of]-(p:E93_Presence)
+  &lt;-[:P39_measured]-(m:E16_Measurement)
+  -[:P2_has_type]-&gt;(vtype:E55_Type {category: 'ETH'})
+  -[:P40_observed_dimension]-&gt;(d:E54_Dimension)
+RETURN p.census_year, vtype.label, d.value
+ORDER BY p.census_year</pre>
+</div>
+
+<h3>Housing stock detail (1891)</h3>
+<div class="card cidoc-card">
+<pre>// Building construction details: rooms, stories, material
+MATCH (p:E93_Presence {presence_id: 'ON114011_1891'})
+  &lt;-[:P39_measured]-(m:E16_Measurement)
+  -[:P2_has_type]-&gt;(vtype:E55_Type {category: 'BLD'})
+  -[:P40_observed_dimension]-&gt;(d:E54_Dimension)
+RETURN vtype.label, d.value
+ORDER BY vtype.label</pre>
+<p class="dim" style="font-size:12px;margin-top:4px">Returns: 1-storey houses (391), 2-storey (113), wood (594), stone (3), brick (5), 1-room (23), 2-room (42), etc.</p>
+</div>
+
+<h3>Full provenance chain</h3>
+<div class="card cidoc-card">
+<pre>// Trace a measurement back to its source file and original TCP UID
+MATCH (m:E16_Measurement {measurement_id: 'MEAS_ON082003_1871_POP_XX_N'})
+  -[:P39_measured]-&gt;(p:E93_Presence)
+  -[:P1_is_identified_by]-&gt;(tcpuid:E42_Identifier)
+MATCH (m)-[:P2_has_type]-&gt;(vtype:E55_Type)
+MATCH (m)-[:P40_observed_dimension]-&gt;(d:E54_Dimension)
+  -[:P91_has_unit]-&gt;(u:E58_Measurement_Unit)
+MATCH (source:E73_Information_Object)-[:P70_documents]-&gt;(m)
+RETURN source.label AS source_file,
+       tcpuid.value AS original_tcp_uid,
+       vtype.label AS variable,
+       d.value AS value, u.label AS unit</pre>
+<p class="dim" style="font-size:12px;margin-top:4px">Returns: source=1871_V1T1_CSD_202306.xlsx, tcp_uid=ON082003, variable=Total population, value=2632, unit=persons</p>
+</div>
+
+<h3>Compare two places across categories</h3>
+<div class="card cidoc-card">
+<pre>// Compare Westmeath and a neighbour (Ross) in 1891
+MATCH (place:E53_Place)-[:P122_borders_with]-(neighbour:E53_Place)
+WHERE place.place_id = 'PLACE_ON142032'
+  AND neighbour.name = 'Ross'
+WITH place, neighbour
+UNWIND [place, neighbour] AS p
+MATCH (p)&lt;-[:P166_was_a_presence_of]-(pres:E93_Presence {census_year: 1891})
+  &lt;-[:P39_measured]-(m:E16_Measurement)
+  -[:P2_has_type]-&gt;(vtype:E55_Type)
+  -[:P40_observed_dimension]-&gt;(d:E54_Dimension)
+WHERE vtype.variable_name IN ['POP_XX_N', 'HOUSE_XX_N', 'OAT_XX_B']
+RETURN p.name, vtype.label, d.value
+ORDER BY p.name, vtype.label</pre>
+</div>
+
+<h3>Find all places by category coverage</h3>
+<div class="card cidoc-card">
+<pre>// Which places have manufacturing data in 1851?
+MATCH (m:E16_Measurement)-[:P2_has_type]-&gt;(vtype:E55_Type {category: 'MFG'})
+  -[:P39_measured]-&gt;(p:E93_Presence {census_year: 1851})
+  -[:P166_was_a_presence_of]-&gt;(place:E53_Place)
+WITH place, count(m) AS mfg_vars
+RETURN place.name, place.province, mfg_vars
+ORDER BY mfg_vars DESC LIMIT 20</pre>
 </div>
 
 <h3>Administrative hierarchy over time</h3>
 <div class="card cidoc-card">
-<pre>// Which census division was Westmeath in during each period?
+<pre>// Westmeath's changing census division assignment
 MATCH (place:E53_Place {place_id: 'PLACE_ON142032'})
   -[r:P89_falls_within]-&gt;(cd:E53_Place {place_type: 'CD'})
 RETURN cd.name AS census_division, r.during_period
 ORDER BY r.during_period</pre>
 </div>
 
-<h3>Find neighbours</h3>
-<div class="card cidoc-card">
-<pre>// Westmeath's neighbours in 1871 with shared border lengths
-MATCH (place:E53_Place {place_id: 'PLACE_ON142032'})
-  -[b:P122_borders_with {during_period: 'CENSUS_1871'}]-
-  (neighbour:E53_Place)
-RETURN neighbour.name, b.shared_border_length_m
-ORDER BY b.shared_border_length_m DESC</pre>
-</div>
-
-<h3>Places that split or merged</h3>
-<div class="card cidoc-card">
-<pre>// What places split from or merged into Westmeath's neighbours?
-MATCH (place:E53_Place {place_id: 'PLACE_ON142032'})
-  -[:P122_borders_with]-(neighbour:E53_Place)
-  -[lin:PLACE_LINEAGE]-(related:E53_Place)
-RETURN neighbour.name, lin.lineage_type, related.name, lin.change_year
-ORDER BY lin.change_year</pre>
-</div>
-
-<h3>OCR corrections</h3>
-<div class="card cidoc-card">
-<pre>// Find all places with OCR name variants
-MATCH (place:E53_Place)-[:P1_is_identified_by]-&gt;
-      (canonical:E41_Appellation {type: 'canonical'})
-MATCH (presence:E93_Presence)-[:P166_was_a_presence_of]-&gt;(place)
-MATCH (presence)-[:P1_is_identified_by]-&gt;
-      (variant:E41_Appellation {type: 'variant'})
-RETURN place.name AS canonical, variant.name AS ocr_error,
-       presence.census_year AS year
-ORDER BY place.name</pre>
-</div>
-
 </section>
 </div>
 
 </div><!-- container -->
+
+<footer style="text-align:center;padding:24px;color:#6b7280;font-size:12px;border-top:1px solid #e0e3e8;margin-top:40px">
+  <p>Canada History Knowledge Graph &mdash; <a href="https://github.com/jburnford/Canada-History-Knowledge-Graph" style="color:#2563eb">GitHub Repository</a></p>
+  <p>Source data: <a href="https://borealisdata.ca/dataset.xhtml?persistentId=doi:10.5683/SP3/PKUZJN" style="color:#2563eb">Canadian Historical GIS (CHGIS)</a> via Borealis</p>
+  <p>Ontology: <a href="https://www.cidoc-crm.org/" style="color:#2563eb">CIDOC-CRM v7.1.1</a> (ISO 21127)</p>
+</footer>
 
 <script>
 function showTab(id, el) {
@@ -772,6 +1136,11 @@ if (location.hash) {
   const id = location.hash.slice(1);
   const el = document.querySelector(`nav a[href="#${id}"]`);
   if (el) showTab(id, el);
+}
+function toggleSection(header) {
+  header.classList.toggle('open');
+  const body = header.nextElementSibling;
+  body.classList.toggle('open');
 }
 </script>
 </body>
