@@ -1,0 +1,437 @@
+#!/usr/bin/env python3
+"""
+Build Neo4j CIDOC-CRM data with persistent place identities.
+
+Fork of build_neo4j_cidoc_crm.py that uses persistent_places_output/
+to correctly assign E53_Place nodes to persistent geographic entities
+instead of raw TCP UIDs.
+
+Changes from v1:
+- e53_place_csd.csv: place_id = persistent_place_id (not raw tcpuid)
+- p166_was_presence_of_*.csv: :END_ID = persistent_place_id
+- p89_falls_within_*.csv: :START_ID = persistent_place_id
+- p122_borders_with_*.csv: both IDs = persistent_place_id
+
+Unchanged:
+- e93_presence_*.csv (presence IDs keep {tcpuid}_{year} format)
+- e94_space_primitive_*.csv (centroid IDs unchanged)
+- e4_period.csv (census periods unchanged)
+- p164_temporally_specified_by_*.csv (presence→period unchanged)
+- p161_has_spatial_projection_*.csv (presence→centroid unchanged)
+"""
+
+import geopandas as gpd
+import pandas as pd
+from pathlib import Path
+from shapely import make_valid
+import argparse
+import sys
+from typing import Dict, Set, Tuple
+
+
+def load_persistent_place_mapping(places_dir: Path) -> Tuple[dict, pd.DataFrame]:
+    """
+    Load persistent place mapping and registry.
+
+    Returns:
+        (mapping, registry_df)
+        mapping: dict of (tcpuid, year) -> persistent_place_id
+        registry_df: DataFrame of persistent place registry
+    """
+    mapping_file = places_dir / "tcpuid_year_to_place.csv"
+    registry_file = places_dir / "persistent_place_registry.csv"
+
+    mapping_df = pd.read_csv(mapping_file)
+    registry_df = pd.read_csv(registry_file)
+
+    # Build lookup dict
+    mapping = {}
+    for _, row in mapping_df.iterrows():
+        mapping[(row["tcpuid"], int(row["year"]))] = row["persistent_place_id"]
+
+    print(f"  Loaded {len(mapping)} (tcpuid, year) -> persistent_place_id mappings", file=sys.stderr)
+    print(f"  Loaded {len(registry_df)} persistent places from registry", file=sys.stderr)
+    return mapping, registry_df
+
+
+def load_year_layer(gdb_path: str, year: int) -> gpd.GeoDataFrame:
+    """Load CSD layer for a specific year from FileGDB."""
+    if year == 1911:
+        layer_name = f"CANADA_{year}_CSD_V2T2"
+    else:
+        layer_name = f"CANADA_{year}_CSD"
+    print(f"Loading {layer_name}...", file=sys.stderr)
+
+    gdf = gpd.read_file(gdb_path, layer=layer_name)
+
+    # Standardize column names
+    rename_map = {}
+    for col in gdf.columns:
+        if col == f'TCPUID_CSD_{year}' or col == f'V2t2_UID_{year}':
+            rename_map[col] = 'tcpuid'
+        elif col == f'PR_{year}':
+            rename_map[col] = 'pr'
+        elif col in [f'Name_CD_{year}', f'NAME_CD_{year}']:
+            rename_map[col] = 'cd_name'
+        elif col in [f'Name_CSD_{year}', f'NAME_CSD_{year}']:
+            rename_map[col] = 'csd_name'
+
+    gdf = gdf.rename(columns=rename_map)
+    cols_to_keep = ['tcpuid', 'pr', 'cd_name', 'csd_name', 'geometry']
+    gdf = gdf[cols_to_keep]
+
+    # Validate geometries
+    invalid_mask = ~gdf.is_valid
+    if invalid_mask.any():
+        print(f"  Fixing {invalid_mask.sum()} invalid geometries...", file=sys.stderr)
+        gdf.loc[invalid_mask, 'geometry'] = gdf.loc[invalid_mask, 'geometry'].apply(make_valid)
+
+    # Reproject to EPSG:3347
+    if gdf.crs is None or gdf.crs.to_epsg() != 3347:
+        print(f"  Reprojecting to EPSG:3347...", file=sys.stderr)
+        gdf = gdf.to_crs(epsg=3347)
+
+    gdf['area'] = gdf.geometry.area
+    print(f"  Loaded {len(gdf)} CSDs", file=sys.stderr)
+    return gdf
+
+
+def resolve_place_id(tcpuid: str, year: int, mapping: dict, fallback_places: dict,
+                     name: str = '', province: str = '') -> str:
+    """
+    Look up persistent_place_id for a (tcpuid, year).
+    If not found in mapping (singleton not in year_links), create a fallback.
+    """
+    key = (tcpuid, year)
+    if key in mapping:
+        return mapping[key]
+
+    # Fallback for CSDs not in any year_links (appeared in only one year
+    # with no spatial overlap to adjacent census years)
+    fallback_id = f"PLACE_{tcpuid}_{year}"
+    if fallback_id not in fallback_places:
+        fallback_places[fallback_id] = {'name': name, 'province': province, 'year': year}
+    return fallback_id
+
+
+def extract_e93_presences(gdf: gpd.GeoDataFrame, year: int) -> pd.DataFrame:
+    """E93_Presence nodes - unchanged from v1."""
+    print(f"  Extracting E93_Presence nodes for {year}...", file=sys.stderr)
+    return pd.DataFrame({
+        'presence_id:ID': gdf['tcpuid'] + f'_{year}',
+        'csd_tcpuid': gdf['tcpuid'],
+        'census_year:int': year,
+        'area_sqm:float': gdf['area'].round(2),
+        ':LABEL': 'E93_Presence'
+    })
+
+
+def extract_e94_space_primitives(gdf: gpd.GeoDataFrame, year: int) -> pd.DataFrame:
+    """E94_Space_Primitive nodes - unchanged from v1."""
+    print(f"  Computing E94_Space_Primitive (centroids) for {year}...", file=sys.stderr)
+    centroids_3347 = gdf.geometry.centroid
+    centroids_latlon = centroids_3347.to_crs(epsg=4326)
+    return pd.DataFrame({
+        'space_id:ID': gdf['tcpuid'] + f'_{year}_centroid',
+        'latitude:float': centroids_latlon.y.round(6),
+        'longitude:float': centroids_latlon.x.round(6),
+        'crs': 'EPSG:4326',
+        ':LABEL': 'E94_Space_Primitive'
+    })
+
+
+def extract_p166_was_presence_of(gdf: gpd.GeoDataFrame, year: int,
+                                  mapping: dict, fallback_places: dict) -> pd.DataFrame:
+    """P166: E93_Presence -> E53_Place (using persistent place IDs)."""
+    print(f"  Creating P166_was_a_presence_of relationships...", file=sys.stderr)
+    place_ids = [
+        resolve_place_id(uid, year, mapping, fallback_places,
+                         name=row['csd_name'], province=row['pr'])
+        for uid, (_, row) in zip(gdf['tcpuid'], gdf.iterrows())
+    ]
+    return pd.DataFrame({
+        ':START_ID': gdf['tcpuid'] + f'_{year}',
+        ':END_ID': place_ids,
+        ':TYPE': 'P166_was_a_presence_of'
+    })
+
+
+def extract_p164_temporally_specified_by(gdf: gpd.GeoDataFrame, year: int) -> pd.DataFrame:
+    """P164: E93_Presence -> E4_Period - unchanged from v1."""
+    print(f"  Creating P164_is_temporally_specified_by relationships...", file=sys.stderr)
+    return pd.DataFrame({
+        ':START_ID': gdf['tcpuid'] + f'_{year}',
+        ':END_ID': f'CENSUS_{year}',
+        ':TYPE': 'P164_is_temporally_specified_by'
+    })
+
+
+def extract_p161_spatial_projection(gdf: gpd.GeoDataFrame, year: int) -> pd.DataFrame:
+    """P161: E93_Presence -> E94_Space_Primitive - unchanged from v1."""
+    print(f"  Creating P161_has_spatial_projection relationships...", file=sys.stderr)
+    return pd.DataFrame({
+        ':START_ID': gdf['tcpuid'] + f'_{year}',
+        ':END_ID': gdf['tcpuid'] + f'_{year}_centroid',
+        ':TYPE': 'P161_has_spatial_projection'
+    })
+
+
+def extract_p89_falls_within(gdf: gpd.GeoDataFrame, year: int,
+                              mapping: dict, fallback_places: dict) -> pd.DataFrame:
+    """P89: E53_Place (CSD) -> E53_Place (CD), using persistent place IDs."""
+    print(f"  Creating P89_falls_within relationships for {year}...", file=sys.stderr)
+    place_ids = [
+        resolve_place_id(uid, year, mapping, fallback_places,
+                         name=row['csd_name'], province=row['pr'])
+        for uid, (_, row) in zip(gdf['tcpuid'], gdf.iterrows())
+    ]
+    cd_ids = 'CD_' + gdf['pr'] + '_' + gdf['cd_name'].str.replace(' ', '_')
+    return pd.DataFrame({
+        ':START_ID': place_ids,
+        ':END_ID': cd_ids,
+        'during_period': f'CENSUS_{year}',
+        ':TYPE': 'P89_falls_within'
+    }).drop_duplicates()
+
+
+def extract_p122_borders_with(gdf: gpd.GeoDataFrame, year: int,
+                               mapping: dict, fallback_places: dict) -> pd.DataFrame:
+    """P122: E53_Place -> E53_Place borders, using persistent place IDs."""
+    print(f"  Computing P122_borders_with relationships for {year}...", file=sys.stderr)
+
+    borders = []
+    sindex = gdf.sindex
+
+    for idx, row in gdf.iterrows():
+        geom = row['geometry']
+        tcpuid = row['tcpuid']
+        place_id = resolve_place_id(tcpuid, year, mapping, fallback_places,
+                                    name=row['csd_name'], province=row['pr'])
+
+        possible_neighbors = list(sindex.intersection(geom.bounds))
+
+        for neighbor_idx in possible_neighbors:
+            if neighbor_idx == idx:
+                continue
+
+            neighbor_row = gdf.iloc[neighbor_idx]
+            neighbor_geom = neighbor_row['geometry']
+            neighbor_tcpuid = neighbor_row['tcpuid']
+            neighbor_place_id = resolve_place_id(
+                neighbor_tcpuid, year, mapping, fallback_places,
+                name=neighbor_row['csd_name'], province=neighbor_row['pr'])
+
+            # Avoid duplicates (only A->B, not B->A)
+            if place_id >= neighbor_place_id:
+                continue
+
+            if not geom.touches(neighbor_geom):
+                continue
+
+            try:
+                intersection = geom.boundary.intersection(neighbor_geom.boundary)
+                border_length = intersection.length
+
+                if border_length > 1.0:
+                    borders.append({
+                        ':START_ID': place_id,
+                        ':END_ID': neighbor_place_id,
+                        'during_period': f'CENSUS_{year}',
+                        'shared_border_length_m:float': round(border_length, 2),
+                        ':TYPE': 'P122_borders_with'
+                    })
+            except Exception as e:
+                print(f"  Warning: Border computation error: {e}", file=sys.stderr)
+                continue
+
+        if (idx + 1) % 500 == 0:
+            print(f"    Processed {idx + 1}/{len(gdf)} CSDs...", file=sys.stderr)
+
+    print(f"  Found {len(borders)} border relationships", file=sys.stderr)
+    return pd.DataFrame(borders)
+
+
+def process_year(gdb_path: str, year: int, out_dir: Path,
+                 mapping: dict, fallback_places: dict,
+                 all_cd_places: set):
+    """Process a single census year."""
+    print(f"\n{'='*60}", file=sys.stderr)
+    print(f"Processing year {year}", file=sys.stderr)
+    print(f"{'='*60}", file=sys.stderr)
+
+    gdf = load_year_layer(gdb_path, year)
+    stats = {}
+
+    # E93_Presence nodes (unchanged)
+    presences = extract_e93_presences(gdf, year)
+    presences.to_csv(out_dir / f'e93_presence_{year}.csv', index=False)
+    stats['presences'] = len(presences)
+    print(f"  Wrote {len(presences)} E93_Presence nodes")
+
+    # E94_Space_Primitive nodes (unchanged)
+    space_primitives = extract_e94_space_primitives(gdf, year)
+    space_primitives.to_csv(out_dir / f'e94_space_primitive_{year}.csv', index=False)
+    stats['space_primitives'] = len(space_primitives)
+    print(f"  Wrote {len(space_primitives)} E94_Space_Primitive nodes")
+
+    # Collect CD places
+    for _, row in gdf[['cd_name', 'pr']].drop_duplicates().iterrows():
+        cd_id = f"CD_{row['pr']}_{row['cd_name'].replace(' ', '_')}"
+        all_cd_places.add((cd_id, row['cd_name'], row['pr']))
+
+    # P166: Presence -> Place (using persistent IDs)
+    p166 = extract_p166_was_presence_of(gdf, year, mapping, fallback_places)
+    p166.to_csv(out_dir / f'p166_was_presence_of_{year}.csv', index=False)
+    stats['p166'] = len(p166)
+    print(f"  Wrote {len(p166)} P166_was_a_presence_of relationships")
+
+    # P164: Presence -> Period (unchanged)
+    p164 = extract_p164_temporally_specified_by(gdf, year)
+    p164.to_csv(out_dir / f'p164_temporally_specified_by_{year}.csv', index=False)
+    stats['p164'] = len(p164)
+    print(f"  Wrote {len(p164)} P164_is_temporally_specified_by relationships")
+
+    # P161: Presence -> Space Primitive (unchanged)
+    p161 = extract_p161_spatial_projection(gdf, year)
+    p161.to_csv(out_dir / f'p161_spatial_projection_{year}.csv', index=False)
+    stats['p161'] = len(p161)
+    print(f"  Wrote {len(p161)} P161_has_spatial_projection relationships")
+
+    # P89: CSD Place -> CD Place (using persistent IDs)
+    p89 = extract_p89_falls_within(gdf, year, mapping, fallback_places)
+    p89.to_csv(out_dir / f'p89_falls_within_{year}.csv', index=False)
+    stats['p89'] = len(p89)
+    print(f"  Wrote {len(p89)} P89_falls_within relationships")
+
+    # P122: CSD Place -> CSD Place borders (using persistent IDs)
+    p122 = extract_p122_borders_with(gdf, year, mapping, fallback_places)
+    p122.to_csv(out_dir / f'p122_borders_with_{year}.csv', index=False)
+    stats['p122'] = len(p122)
+    print(f"  Wrote {len(p122)} P122_borders_with relationships")
+
+    return stats
+
+
+def main():
+    parser = argparse.ArgumentParser(
+        description="Build Neo4j CIDOC-CRM data with persistent place identities"
+    )
+    parser.add_argument('--gdb', required=True, help='Path to TCP FileGDB')
+    parser.add_argument(
+        '--years',
+        default='1851,1861,1871,1881,1891,1901,1911,1921',
+        help='Comma-separated census years'
+    )
+    parser.add_argument('--out', default='neo4j_cidoc_crm_v2', help='Output directory')
+    parser.add_argument(
+        '--persistent-places',
+        default='persistent_places_output',
+        help='Directory with persistent place registry files'
+    )
+
+    args = parser.parse_args()
+
+    years = [int(y.strip()) for y in args.years.split(',')]
+    out_dir = Path(args.out)
+    out_dir.mkdir(parents=True, exist_ok=True)
+    places_dir = Path(args.persistent_places)
+
+    # Load persistent place mapping
+    print(f"\n{'='*60}", file=sys.stderr)
+    print(f"Loading persistent place registry", file=sys.stderr)
+    print(f"{'='*60}", file=sys.stderr)
+    mapping, registry_df = load_persistent_place_mapping(places_dir)
+    fallback_places = {}  # Track CSDs not in any year_links
+
+    # E4_Period nodes (unchanged)
+    print(f"\n{'='*60}", file=sys.stderr)
+    print(f"Creating E4_Period nodes", file=sys.stderr)
+    print(f"{'='*60}", file=sys.stderr)
+    periods = pd.DataFrame({
+        'period_id:ID': [f'CENSUS_{y}' for y in years],
+        'year:int': years,
+        'label': [f'{y} Canadian Census' for y in years],
+        ':LABEL': 'E4_Period'
+    })
+    periods.to_csv(out_dir / 'e4_period.csv', index=False)
+    print(f"  Wrote {len(periods)} E4_Period nodes")
+
+    # Process each year
+    all_cd_places = set()
+    total_stats = {k: 0 for k in ['presences', 'space_primitives', 'p166', 'p164', 'p161', 'p89', 'p122']}
+
+    for year in years:
+        stats = process_year(args.gdb, year, out_dir, mapping, fallback_places, all_cd_places)
+        for key in total_stats:
+            total_stats[key] += stats[key]
+
+    # E53_Place nodes (CSD) - from persistent place registry + fallbacks
+    print(f"\n{'='*60}", file=sys.stderr)
+    print(f"Creating E53_Place nodes (persistent)", file=sys.stderr)
+    print(f"{'='*60}", file=sys.stderr)
+
+    # Start with registry places
+    csd_places = []
+    for _, row in registry_df.iterrows():
+        csd_places.append({
+            'place_id:ID': row['persistent_place_id'],
+            'name': row['canonical_name'],
+            'province': row['province'],
+            'place_type': 'CSD',
+            'years_active': row['years_active'],
+            ':LABEL': 'E53_Place'
+        })
+
+    # Add fallback places (not in year_links) - name/province collected during processing
+    print(f"  Fallback places (not in year_links): {len(fallback_places)}", file=sys.stderr)
+    for place_id, info in fallback_places.items():
+        csd_places.append({
+            'place_id:ID': place_id,
+            'name': info['name'],
+            'province': info['province'],
+            'place_type': 'CSD',
+            'years_active': str(info['year']),
+            ':LABEL': 'E53_Place'
+        })
+
+    csd_places_df = pd.DataFrame(csd_places).drop_duplicates(subset=['place_id:ID'])
+    csd_places_df.to_csv(out_dir / 'e53_place_csd.csv', index=False)
+    print(f"  Wrote {len(csd_places_df)} E53_Place (CSD) nodes (persistent)")
+
+    # CD Places (unchanged logic)
+    cd_places_df = pd.DataFrame([
+        {'place_id:ID': cd_id, 'place_type': 'CD', 'name': name, 'province': prov, ':LABEL': 'E53_Place'}
+        for cd_id, name, prov in all_cd_places
+    ])
+    cd_places_df.to_csv(out_dir / 'e53_place_cd.csv', index=False)
+    print(f"  Wrote {len(cd_places_df)} E53_Place (CD) nodes")
+
+    # Copy lineage file if it exists
+    lineage_src = places_dir / "place_lineage.csv"
+    if lineage_src.exists():
+        lineage_df = pd.read_csv(lineage_src)
+        lineage_df.to_csv(out_dir / 'place_lineage.csv', index=False)
+        print(f"  Copied {len(lineage_df)} lineage relationships")
+
+    # Summary
+    print(f"\n{'='*60}", file=sys.stderr)
+    print(f"SUMMARY", file=sys.stderr)
+    print(f"{'='*60}", file=sys.stderr)
+    print(f"E53_Place (CSD): {len(csd_places_df):,} (persistent)", file=sys.stderr)
+    print(f"  From registry: {len(registry_df):,}", file=sys.stderr)
+    print(f"  Fallback singletons: {len(fallback_places):,}", file=sys.stderr)
+    print(f"E53_Place (CD): {len(cd_places_df):,}", file=sys.stderr)
+    print(f"E4_Period: {len(periods):,}", file=sys.stderr)
+    print(f"E93_Presence: {total_stats['presences']:,}", file=sys.stderr)
+    print(f"E94_Space_Primitive: {total_stats['space_primitives']:,}", file=sys.stderr)
+    print(f"\nRelationships:", file=sys.stderr)
+    print(f"P166_was_a_presence_of: {total_stats['p166']:,}", file=sys.stderr)
+    print(f"P164_is_temporally_specified_by: {total_stats['p164']:,}", file=sys.stderr)
+    print(f"P161_has_spatial_projection: {total_stats['p161']:,}", file=sys.stderr)
+    print(f"P89_falls_within: {total_stats['p89']:,}", file=sys.stderr)
+    print(f"P122_borders_with: {total_stats['p122']:,}", file=sys.stderr)
+    print(f"\nOutput: {out_dir}/", file=sys.stderr)
+
+
+if __name__ == '__main__':
+    main()

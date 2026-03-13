@@ -1,0 +1,351 @@
+appellation_id:ID,:LABEL,name,type,tcpuid,notes,year
+APP_NB015002_CANONICAL,E41_Appellation,Carleton,canonical,NB015002,Canonical name for NB015002 (OCR corrected),
+APP_NB015002_1901_VARIANT,E41_Appellation,Clarendon,variant,NB015002,"OCR variant of ""Carleton""",1901.0
+APP_NB022005_CANONICAL,E41_Appellation,Maugerville,canonical,NB022005,Canonical name for NB022005 (OCR corrected),
+APP_NB022007_CANONICAL,E41_Appellation,Sheffield,canonical,NB022007,Canonical name for NB022007 (OCR corrected),
+APP_NB023011_CANONICAL,E41_Appellation,St. Hilaire,canonical,NB023011,Canonical name for NB023011 (OCR corrected),
+APP_NB023012_CANONICAL,E41_Appellation,St. Jacques,canonical,NB023012,Canonical name for NB023012 (OCR corrected),
+APP_NB023013_CANONICAL,E41_Appellation,St. Leonard's,canonical,NB023013,Canonical name for NB023013 (OCR corrected),
+APP_NB023013_1901_VARIANT,E41_Appellation,St. Léonard,variant,NB023013,"OCR variant of ""St. Leonard's""",1901.0
+APP_NB028999_CANONICAL,E41_Appellation,NO DATA,canonical,NB028999,Canonical name for NB028999 (OCR corrected),
+APP_NB032003_CANONICAL,E41_Appellation,St. Martins,canonical,NB032003,Canonical name for NB032003 (OCR corrected),
+APP_NB032004_CANONICAL,E41_Appellation,Simonds,canonical,NB032004,Canonical name for NB032004 (OCR corrected),
+APP_NB036008_CANONICAL,E41_Appellation,New Maryland,canonical,NB036008,Canonical name for NB036008 (OCR corrected),
+APP_NB036009_CANONICAL,E41_Appellation,North Lake,canonical,NB036009,Canonical name for NB036009 (OCR corrected),
+APP_NB036010_CANONICAL,E41_Appellation,Prince William,canonical,NB036010,Canonical name for NB036010 (OCR corrected),
+APP_NB036011_CANONICAL,E41_Appellation,Queensbury,canonical,NB036011,Canonical name for NB036011 (OCR corrected),
+APP_NB036013_CANONICAL,E41_Appellation,Southampton,canonical,NB036013,Canonical name for NB036013 (OCR corrected),
+APP_NB036014_CANONICAL,E41_Appellation,Stanley,canonical,NB036014,Canonical name for NB036014 (OCR corrected),
+APP_NB995999_CANONICAL,E41_Appellation,NO DATA,canonical,NB995999,Canonical name for NB995999 (OCR corrected),
+APP_NL998999_CANONICAL,E41_Appellation,NO DATA,canonical,NL998999,Canonical name for NL998999 (OCR corrected),
+APP_NL999999_CANONICAL,E41_Appellation,NO DATA,canonical,NL999999,Canonical name for NL999999 (OCR corrected),
+APP_NS004999_CANONICAL,E41_Appellation,NO DATA,canonical,NS004999,Canonical name for NS004999 (OCR corrected),
+APP_NS010999_CANONICAL,E41_Appellation,NO DATA,canonical,NS010999,Canonical name for NS010999 (OCR corrected),
+APP_NS013999_CANONICAL,E41_Appellation,NO DATA,canonical,NS013999,Canonical name for NS013999 (OCR corrected),
+APP_NS016999_CANONICAL,E41_Appellation,NO DATA,canonical,NS016999,Canonical name for NS016999 (OCR corrected),
+APP_NS020013_CANONICAL,E41_Appellation,Middle River,canonical,NS020013,Canonical name for NS020013 (OCR corrected),
+APP_NS020999_CANONICAL,E41_Appellation,NO DATA,canonical,NS020999,Canonical name for NS020999 (OCR corrected),
+APP_NS026001_CANONICAL,E41_Appellation,Annapolis Royal,canonical,NS026001,Canonical name for NS026001 (OCR corrected),
+APP_NS026002_CANONICAL,E41_Appellation,Bear River,canonical,NS026002,Canonical name for NS026002 (OCR corrected),
+APP_NS026003_CANONICAL,E41_Appellation,Belleisle,canonical,NS026003,Canonical name for NS026003 (OCR corrected),
+APP_NS026004_CANONICAL,E41_Appellation,Bridgetown,canonical,NS026004,Canonical name for NS026004 (OCR corrected),
+APP_NS026005_CANONICAL,E41_Appellation,Carleton's Corner,canonical,NS026005,Canonical name for NS026005 (OCR corrected),
+APP_NS026005_1901_VARIANT,E41_Appellation,Carleton Corner,variant,NS026005,"OCR variant of ""Carleton's Corner""",1901.0
+APP_NS026006_CANONICAL,E41_Appellation,Clarence,canonical,NS026006,Canonical name for NS026006 (OCR corrected),
+APP_NS026007_CANONICAL,E41_Appellation,Clements,canonical,NS026007,Canonical name for NS026007 (OCR corrected),
+APP_NS026007_1901_VARIANT,E41_Appellation,Clementsport,variant,NS026007,"OCR variant of ""Clements""",1901.0
+APP_NS026008_CANONICAL,E41_Appellation,Clementsvale,canonical,NS026008,Canonical name for NS026008 (OCR corrected),
+APP_NS026010_CANONICAL,E41_Appellation,Dalhousie,canonical,NS026010,Canonical name for NS026010 (OCR corrected),
+APP_NS026011_CANONICAL,E41_Appellation,Granville Ferry,canonical,NS026011,Canonical name for NS026011 (OCR corrected),
+APP_NS026012_CANONICAL,E41_Appellation,"Granville, Lower",canonical,NS026012,Canonical name for NS026012 (OCR corrected),
+APP_NS026013_CANONICAL,E41_Appellation,Hampton,canonical,NS026013,Canonical name for NS026013 (OCR corrected),
+APP_NS026014_CANONICAL,E41_Appellation,Lawrencetown Lane,canonical,NS026014,Canonical name for NS026014 (OCR corrected),
+APP_NS026015_CANONICAL,E41_Appellation,Lequille,canonical,NS026015,Canonical name for NS026015 (OCR corrected),
+APP_NS026016_CANONICAL,E41_Appellation,Maitland,canonical,NS026016,Canonical name for NS026016 (OCR corrected),
+APP_NS026017_CANONICAL,E41_Appellation,Margaretsville,canonical,NS026017,Canonical name for NS026017 (OCR corrected),
+APP_NS026018_CANONICAL,E41_Appellation,Meadowvale,canonical,NS026018,Canonical name for NS026018 (OCR corrected),
+APP_NS026019_CANONICAL,E41_Appellation,Malvern,canonical,NS026019,Canonical name for NS026019 (OCR corrected),
+APP_NS026019_1901_VARIANT,E41_Appellation,Melvern,variant,NS026019,"OCR variant of ""Malvern""",1901.0
+APP_NS026020_CANONICAL,E41_Appellation,Middleton,canonical,NS026020,Canonical name for NS026020 (OCR corrected),
+APP_NS026021_CANONICAL,E41_Appellation,Milford,canonical,NS026021,Canonical name for NS026021 (OCR corrected),
+APP_NS026022_CANONICAL,E41_Appellation,New Albany,canonical,NS026022,Canonical name for NS026022 (OCR corrected),
+APP_NS026023_CANONICAL,E41_Appellation,Nictaux,canonical,NS026023,Canonical name for NS026023 (OCR corrected),
+APP_NS026023_1901_VARIANT,E41_Appellation,Nictau,variant,NS026023,"OCR variant of ""Nictaux""",1901.0
+APP_NS026024_CANONICAL,E41_Appellation,Parker’s Cove,canonical,NS026024,Canonical name for NS026024 (OCR corrected),
+APP_NS026024_1901_VARIANT,E41_Appellation,Parker Cove,variant,NS026024,"OCR variant of ""Parker’s Cove""",1901.0
+APP_NS026025_CANONICAL,E41_Appellation,Port George,canonical,NS026025,Canonical name for NS026025 (OCR corrected),
+APP_NS026026_CANONICAL,E41_Appellation,Port Lorne,canonical,NS026026,Canonical name for NS026026 (OCR corrected),
+APP_NS026028_CANONICAL,E41_Appellation,Springfield,canonical,NS026028,Canonical name for NS026028 (OCR corrected),
+APP_NS029012_CANONICAL,E41_Appellation,Lower Londonderry,canonical,NS029012,Canonical name for NS029012 (OCR corrected),
+APP_NS029012_1901_VARIANT,E41_Appellation,Middle Londonderry,variant,NS029012,"OCR variant of ""Lower Londonderry""",1901.0
+APP_NS029018_CANONICAL,E41_Appellation,Tatamagouche E,canonical,NS029018,Canonical name for NS029018 (OCR corrected),
+APP_NS029018_1901_VARIANT,E41_Appellation,"Tatamagouche, West—Ouest",variant,NS029018,"OCR variant of ""Tatamagouche E""",1901.0
+APP_NS029021_CANONICAL,E41_Appellation,Upper Stewiacke W-O,canonical,NS029021,Canonical name for NS029021 (OCR corrected),
+APP_NS029021_1901_VARIANT,E41_Appellation,"Upper Stewiacke, East—Est",variant,NS029021,"OCR variant of ""Upper Stewiacke W-O""",1901.0
+APP_NS029022_CANONICAL,E41_Appellation,Upper Stewiacke E,canonical,NS029022,Canonical name for NS029022 (OCR corrected),
+APP_NS029022_1901_VARIANT,E41_Appellation,"Upper Stewiacke, West—Ouest",variant,NS029022,"OCR variant of ""Upper Stewiacke E""",1901.0
+APP_NS030001_CANONICAL,E41_Appellation,"Amherst, Town—Ville",canonical,NS030001,Canonical name for NS030001 (OCR corrected),
+APP_NS032001_CANONICAL,E41_Appellation,Caledonia,canonical,NS032001,Canonical name for NS032001 (OCR corrected),
+APP_NS032002_CANONICAL,E41_Appellation,Canso,canonical,NS032002,Canonical name for NS032002 (OCR corrected),
+APP_NS032003_CANONICAL,E41_Appellation,Country Harbour,canonical,NS032003,Canonical name for NS032003 (OCR corrected),
+APP_NS032004_CANONICAL,E41_Appellation,Crow Harbour,canonical,NS032004,Canonical name for NS032004 (OCR corrected),
+APP_NS032010_CANONICAL,E41_Appellation,Isaac’s Harbour,canonical,NS032010,Canonical name for NS032010 (OCR corrected),
+APP_NS032010_1901_VARIANT,E41_Appellation,Isaac Harbour,variant,NS032010,"OCR variant of ""Isaac’s Harbour""",1901.0
+APP_NS032011_CANONICAL,E41_Appellation,Larry’s River,canonical,NS032011,Canonical name for NS032011 (OCR corrected),
+APP_NS032011_1901_VARIANT,E41_Appellation,Larry River,variant,NS032011,"OCR variant of ""Larry’s River""",1901.0
+APP_NS032012_CANONICAL,E41_Appellation,Liscombe,canonical,NS032012,Canonical name for NS032012 (OCR corrected),
+APP_NS032012_1901_VARIANT,E41_Appellation,Liscomb,variant,NS032012,"OCR variant of ""Liscombe""",1901.0
+APP_NS032013_CANONICAL,E41_Appellation,Manchester,canonical,NS032013,Canonical name for NS032013 (OCR corrected),
+APP_NS032014_CANONICAL,E41_Appellation,Marie Joseph,canonical,NS032014,Canonical name for NS032014 (OCR corrected),
+APP_NS032015_CANONICAL,E41_Appellation,Melford,canonical,NS032015,Canonical name for NS032015 (OCR corrected),
+APP_NS033001_CANONICAL,E41_Appellation,"Halifax, Ward—Quartier No. 1",canonical,NS033001,Canonical name for NS033001 (OCR corrected),
+APP_NS033002_CANONICAL,E41_Appellation,"Halifax, Ward—Quartier No. 2",canonical,NS033002,Canonical name for NS033002 (OCR corrected),
+APP_NS033003_CANONICAL,E41_Appellation,"Halifax, Ward—Quartier No. 3",canonical,NS033003,Canonical name for NS033003 (OCR corrected),
+APP_NS033004_CANONICAL,E41_Appellation,"Halifax, Ward—Quartier No. 4",canonical,NS033004,Canonical name for NS033004 (OCR corrected),
+APP_NS033005_CANONICAL,E41_Appellation,"Halifax, Ward—Quartier No. 5",canonical,NS033005,Canonical name for NS033005 (OCR corrected),
+APP_NS033006_CANONICAL,E41_Appellation,"Halifax, Ward—Quartier No. 6",canonical,NS033006,Canonical name for NS033006 (OCR corrected),
+APP_NS037999_CANONICAL,E41_Appellation,NO DATA,canonical,NS037999,Canonical name for NS037999 (OCR corrected),
+APP_NS039999_CANONICAL,E41_Appellation,NO DATA,canonical,NS039999,Canonical name for NS039999 (OCR corrected),
+APP_NS041016_CANONICAL,E41_Appellation,North Shore,canonical,NS041016,Canonical name for NS041016 (OCR corrected),
+APP_NS041016_1911_VARIANT,E41_Appellation,North River,variant,NS041016,"OCR variant of ""North Shore""",1911.0
+APP_NS043999_CANONICAL,E41_Appellation,NO DATA,canonical,NS043999,Canonical name for NS043999 (OCR corrected),
+APP_NS044999_CANONICAL,E41_Appellation,NO DATA,canonical,NS044999,Canonical name for NS044999 (OCR corrected),
+APP_NS045999_CANONICAL,E41_Appellation,NO DATA,canonical,NS045999,Canonical name for NS045999 (OCR corrected),
+APP_NS046999_CANONICAL,E41_Appellation,NO DATA,canonical,NS046999,Canonical name for NS046999 (OCR corrected),
+APP_NS047999_CANONICAL,E41_Appellation,NO DATA,canonical,NS047999,Canonical name for NS047999 (OCR corrected),
+APP_NS050999_CANONICAL,E41_Appellation,NO DATA,canonical,NS050999,Canonical name for NS050999 (OCR corrected),
+APP_NS052999_CANONICAL,E41_Appellation,NO DATA,canonical,NS052999,Canonical name for NS052999 (OCR corrected),
+APP_NS053999_CANONICAL,E41_Appellation,NO DATA,canonical,NS053999,Canonical name for NS053999 (OCR corrected),
+APP_NS996999_CANONICAL,E41_Appellation,NO DATA,canonical,NS996999,Canonical name for NS996999 (OCR corrected),
+APP_ON038007_CANONICAL,E41_Appellation,"Preston, Village",canonical,ON038007,Canonical name for ON038007 (OCR corrected),
+APP_ON038007_1871_VARIANT,E41_Appellation,"Georgetown, Village",variant,ON038007,"OCR variant of ""Preston, Village""",1871.0
+APP_PE001001_CANONICAL,E41_Appellation,Township No. 1,canonical,PE001001,Canonical name for PE001001 (OCR corrected),
+APP_PE001001_1921_VARIANT,E41_Appellation,Township 38,variant,PE001001,"OCR variant of ""Township No. 1""",1921.0
+APP_PE001002_CANONICAL,E41_Appellation,Township No. 2,canonical,PE001002,Canonical name for PE001002 (OCR corrected),
+APP_PE001003_CANONICAL,E41_Appellation,Township No. 3,canonical,PE001003,Canonical name for PE001003 (OCR corrected),
+APP_PE001003_1921_VARIANT,E41_Appellation,Township 40,variant,PE001003,"OCR variant of ""Township No. 3""",1921.0
+APP_PE001004_CANONICAL,E41_Appellation,Township No. 4,canonical,PE001004,Canonical name for PE001004 (OCR corrected),
+APP_PE001004_1921_VARIANT,E41_Appellation,Township 41,variant,PE001004,"OCR variant of ""Township No. 4""",1921.0
+APP_PE001005_CANONICAL,E41_Appellation,Township No. 5,canonical,PE001005,Canonical name for PE001005 (OCR corrected),
+APP_PE001005_1921_VARIANT,E41_Appellation,Township 42,variant,PE001005,"OCR variant of ""Township No. 5""",1921.0
+APP_PE001006_CANONICAL,E41_Appellation,Township No. 6,canonical,PE001006,Canonical name for PE001006 (OCR corrected),
+APP_PE001006_1921_VARIANT,E41_Appellation,Township 43,variant,PE001006,"OCR variant of ""Township No. 6""",1921.0
+APP_PE001007_CANONICAL,E41_Appellation,Township No. 7,canonical,PE001007,Canonical name for PE001007 (OCR corrected),
+APP_PE001007_1921_VARIANT,E41_Appellation,Township 44,variant,PE001007,"OCR variant of ""Township No. 7""",1921.0
+APP_PE001008_CANONICAL,E41_Appellation,Township No. 8,canonical,PE001008,Canonical name for PE001008 (OCR corrected),
+APP_PE001008_1921_VARIANT,E41_Appellation,Township 45,variant,PE001008,"OCR variant of ""Township No. 8""",1921.0
+APP_PE001009_CANONICAL,E41_Appellation,Township No. 9,canonical,PE001009,Canonical name for PE001009 (OCR corrected),
+APP_PE001009_1921_VARIANT,E41_Appellation,Township 46,variant,PE001009,"OCR variant of ""Township No. 9""",1921.0
+APP_PE001011_CANONICAL,E41_Appellation,Township No. 11,canonical,PE001011,Canonical name for PE001011 (OCR corrected),
+APP_PE001011_1921_VARIANT,E41_Appellation,Township 51,variant,PE001011,"OCR variant of ""Township No. 11""",1921.0
+APP_PE001012_CANONICAL,E41_Appellation,Township No. 12,canonical,PE001012,Canonical name for PE001012 (OCR corrected),
+APP_PE001012_1921_VARIANT,E41_Appellation,Township 52,variant,PE001012,"OCR variant of ""Township No. 12""",1921.0
+APP_PE001013_CANONICAL,E41_Appellation,Township No. 13,canonical,PE001013,Canonical name for PE001013 (OCR corrected),
+APP_PE001014_CANONICAL,E41_Appellation,Township No. 14,canonical,PE001014,Canonical name for PE001014 (OCR corrected),
+APP_PE001014_1921_VARIANT,E41_Appellation,Township 54,variant,PE001014,"OCR variant of ""Township No. 14""",1921.0
+APP_PE001015_CANONICAL,E41_Appellation,Township No. 15,canonical,PE001015,Canonical name for PE001015 (OCR corrected),
+APP_PE001015_1921_VARIANT,E41_Appellation,Township 55,variant,PE001015,"OCR variant of ""Township No. 15""",1921.0
+APP_PE001016_CANONICAL,E41_Appellation,Township No. 16,canonical,PE001016,Canonical name for PE001016 (OCR corrected),
+APP_PE001016_1921_VARIANT,E41_Appellation,Township 56,variant,PE001016,"OCR variant of ""Township No. 16""",1921.0
+APP_PE001018_CANONICAL,E41_Appellation,Township No. 17,canonical,PE001018,Canonical name for PE001018 (OCR corrected),
+APP_PE001018_1921_VARIANT,E41_Appellation,Township 61,variant,PE001018,"OCR variant of ""Township No. 17""",1921.0
+APP_PE001019_CANONICAL,E41_Appellation,Township No. 19,canonical,PE001019,Canonical name for PE001019 (OCR corrected),
+APP_PE001019_1881_VARIANT,E41_Appellation,Township No. 18,variant,PE001019,"OCR variant of ""Township No. 19""",1881.0
+APP_PE001019_1921_VARIANT,E41_Appellation,Township 63,variant,PE001019,"OCR variant of ""Township No. 19""",1921.0
+APP_PE001020_CANONICAL,E41_Appellation,Township No. 25,canonical,PE001020,Canonical name for PE001020 (OCR corrected),
+APP_PE001020_1881_VARIANT,E41_Appellation,Township No. 19,variant,PE001020,"OCR variant of ""Township No. 25""",1881.0
+APP_PE001020_1921_VARIANT,E41_Appellation,Township 64,variant,PE001020,"OCR variant of ""Township No. 25""",1921.0
+APP_PE001021_CANONICAL,E41_Appellation,Township No. 26,canonical,PE001021,Canonical name for PE001021 (OCR corrected),
+APP_PE001021_1881_VARIANT,E41_Appellation,Township No. 25,variant,PE001021,"OCR variant of ""Township No. 26""",1881.0
+APP_PE001021_1921_VARIANT,E41_Appellation,Township 66,variant,PE001021,"OCR variant of ""Township No. 26""",1921.0
+APP_PE001022_CANONICAL,E41_Appellation,Township No. 27,canonical,PE001022,Canonical name for PE001022 (OCR corrected),
+APP_PE001022_1881_VARIANT,E41_Appellation,Township No. 26,variant,PE001022,"OCR variant of ""Township No. 27""",1881.0
+APP_PE001024_CANONICAL,E41_Appellation,Township No. 17,canonical,PE001024,Canonical name for PE001024 (OCR corrected),
+APP_PE001024_1881_VARIANT,E41_Appellation,Township No. 28,variant,PE001024,"OCR variant of ""Township No. 17""",1881.0
+APP_PE002002_CANONICAL,E41_Appellation,Township No. 21,canonical,PE002002,Canonical name for PE002002 (OCR corrected),
+APP_PE002002_1881_VARIANT,E41_Appellation,Township No. 20,variant,PE002002,"OCR variant of ""Township No. 21""",1881.0
+APP_PE002002_1921_VARIANT,E41_Appellation,Township 2,variant,PE002002,"OCR variant of ""Township No. 21""",1921.0
+APP_PE002003_CANONICAL,E41_Appellation,Township No. 22,canonical,PE002003,Canonical name for PE002003 (OCR corrected),
+APP_PE002003_1881_VARIANT,E41_Appellation,Township No. 21,variant,PE002003,"OCR variant of ""Township No. 22""",1881.0
+APP_PE002003_1921_VARIANT,E41_Appellation,Township 3,variant,PE002003,"OCR variant of ""Township No. 22""",1921.0
+APP_PE002004_CANONICAL,E41_Appellation,Township No. 29,canonical,PE002004,Canonical name for PE002004 (OCR corrected),
+APP_PE002004_1881_VARIANT,E41_Appellation,Township No. 22,variant,PE002004,"OCR variant of ""Township No. 29""",1881.0
+APP_PE002005_CANONICAL,E41_Appellation,Township No. 30,canonical,PE002005,Canonical name for PE002005 (OCR corrected),
+APP_PE002005_1881_VARIANT,E41_Appellation,Township No. 23,variant,PE002005,"OCR variant of ""Township No. 30""",1881.0
+APP_PE002005_1921_VARIANT,E41_Appellation,Township 5,variant,PE002005,"OCR variant of ""Township No. 30""",1921.0
+APP_PE002006_CANONICAL,E41_Appellation,Township No. 67,canonical,PE002006,Canonical name for PE002006 (OCR corrected),
+APP_PE002006_1881_VARIANT,E41_Appellation,Township No. 24,variant,PE002006,"OCR variant of ""Township No. 67""",1881.0
+APP_PE002006_1921_VARIANT,E41_Appellation,Township 6,variant,PE002006,"OCR variant of ""Township No. 67""",1921.0
+APP_PE002007_CANONICAL,E41_Appellation,Township No. 23,canonical,PE002007,Canonical name for PE002007 (OCR corrected),
+APP_PE002007_1881_VARIANT,E41_Appellation,Township No. 29,variant,PE002007,"OCR variant of ""Township No. 23""",1881.0
+APP_PE002007_1921_VARIANT,E41_Appellation,Township 7,variant,PE002007,"OCR variant of ""Township No. 23""",1921.0
+APP_PE002008_CANONICAL,E41_Appellation,Township No. 24,canonical,PE002008,Canonical name for PE002008 (OCR corrected),
+APP_PE002008_1881_VARIANT,E41_Appellation,Township No. 30,variant,PE002008,"OCR variant of ""Township No. 24""",1881.0
+APP_PE002008_1921_VARIANT,E41_Appellation,Township 8,variant,PE002008,"OCR variant of ""Township No. 24""",1921.0
+APP_PE002009_CANONICAL,E41_Appellation,Township No. 31,canonical,PE002009,Canonical name for PE002009 (OCR corrected),
+APP_PE002009_1921_VARIANT,E41_Appellation,Township 9,variant,PE002009,"OCR variant of ""Township No. 31""",1921.0
+APP_PE002011_CANONICAL,E41_Appellation,Township No. 65,canonical,PE002011,Canonical name for PE002011 (OCR corrected),
+APP_PE002011_1881_VARIANT,E41_Appellation,Township No. 33,variant,PE002011,"OCR variant of ""Township No. 65""",1881.0
+APP_PE002011_1921_VARIANT,E41_Appellation,Township 11,variant,PE002011,"OCR variant of ""Township No. 65""",1921.0
+APP_PE002012_CANONICAL,E41_Appellation,Township No. 33,canonical,PE002012,Canonical name for PE002012 (OCR corrected),
+APP_PE002012_1881_VARIANT,E41_Appellation,Township No. 34,variant,PE002012,"OCR variant of ""Township No. 33""",1881.0
+APP_PE002013_CANONICAL,E41_Appellation,Township No. 34,canonical,PE002013,Canonical name for PE002013 (OCR corrected),
+APP_PE002013_1881_VARIANT,E41_Appellation,Township No. 35,variant,PE002013,"OCR variant of ""Township No. 34""",1881.0
+APP_PE002013_1921_VARIANT,E41_Appellation,Township 13,variant,PE002013,"OCR variant of ""Township No. 34""",1921.0
+APP_PE002014_CANONICAL,E41_Appellation,Township No. 35,canonical,PE002014,Canonical name for PE002014 (OCR corrected),
+APP_PE002014_1881_VARIANT,E41_Appellation,Township No. 36,variant,PE002014,"OCR variant of ""Township No. 35""",1881.0
+APP_PE002014_1921_VARIANT,E41_Appellation,Township 14,variant,PE002014,"OCR variant of ""Township No. 35""",1921.0
+APP_PE002015_CANONICAL,E41_Appellation,Township No. 36,canonical,PE002015,Canonical name for PE002015 (OCR corrected),
+APP_PE002015_1881_VARIANT,E41_Appellation,Township No. 37,variant,PE002015,"OCR variant of ""Township No. 36""",1881.0
+APP_PE002015_1921_VARIANT,E41_Appellation,Township 15,variant,PE002015,"OCR variant of ""Township No. 36""",1921.0
+APP_PE002016_CANONICAL,E41_Appellation,Township No. 37,canonical,PE002016,Canonical name for PE002016 (OCR corrected),
+APP_PE002016_1881_VARIANT,E41_Appellation,Township No. 48,variant,PE002016,"OCR variant of ""Township No. 37""",1881.0
+APP_PE002016_1921_VARIANT,E41_Appellation,Township 16,variant,PE002016,"OCR variant of ""Township No. 37""",1921.0
+APP_PE002017_CANONICAL,E41_Appellation,Township No. 48,canonical,PE002017,Canonical name for PE002017 (OCR corrected),
+APP_PE002017_1881_VARIANT,E41_Appellation,Township No. 49,variant,PE002017,"OCR variant of ""Township No. 48""",1881.0
+APP_PE002017_1921_VARIANT,E41_Appellation,Township 17,variant,PE002017,"OCR variant of ""Township No. 48""",1921.0
+APP_PE002018_CANONICAL,E41_Appellation,Township No. 49,canonical,PE002018,Canonical name for PE002018 (OCR corrected),
+APP_PE002018_1881_VARIANT,E41_Appellation,Township No. 50,variant,PE002018,"OCR variant of ""Township No. 49""",1881.0
+APP_PE002018_1921_VARIANT,E41_Appellation,Township 18,variant,PE002018,"OCR variant of ""Township No. 49""",1921.0
+APP_PE002019_CANONICAL,E41_Appellation,Township No. 50,canonical,PE002019,Canonical name for PE002019 (OCR corrected),
+APP_PE002019_1881_VARIANT,E41_Appellation,Township No. 57,variant,PE002019,"OCR variant of ""Township No. 50""",1881.0
+APP_PE002020_CANONICAL,E41_Appellation,Township No. 57,canonical,PE002020,Canonical name for PE002020 (OCR corrected),
+APP_PE002020_1881_VARIANT,E41_Appellation,Township No. 58,variant,PE002020,"OCR variant of ""Township No. 57""",1881.0
+APP_PE002020_1921_VARIANT,E41_Appellation,Township 25,variant,PE002020,"OCR variant of ""Township No. 57""",1921.0
+APP_PE002021_CANONICAL,E41_Appellation,Township No. 58,canonical,PE002021,Canonical name for PE002021 (OCR corrected),
+APP_PE002021_1881_VARIANT,E41_Appellation,Township No. 60,variant,PE002021,"OCR variant of ""Township No. 58""",1881.0
+APP_PE002021_1921_VARIANT,E41_Appellation,Township 26,variant,PE002021,"OCR variant of ""Township No. 58""",1921.0
+APP_PE002022_CANONICAL,E41_Appellation,Township No. 60,canonical,PE002022,Canonical name for PE002022 (OCR corrected),
+APP_PE002022_1881_VARIANT,E41_Appellation,Township No. 62,variant,PE002022,"OCR variant of ""Township No. 60""",1881.0
+APP_PE002022_1921_VARIANT,E41_Appellation,Township 27,variant,PE002022,"OCR variant of ""Township No. 60""",1921.0
+APP_PE002023_CANONICAL,E41_Appellation,Township No. 62,canonical,PE002023,Canonical name for PE002023 (OCR corrected),
+APP_PE002023_1881_VARIANT,E41_Appellation,Township No. 65,variant,PE002023,"OCR variant of ""Township No. 62""",1881.0
+APP_PE002023_1921_VARIANT,E41_Appellation,Township 28,variant,PE002023,"OCR variant of ""Township No. 62""",1921.0
+APP_PE003001_CANONICAL,E41_Appellation,Township No. 43,canonical,PE003001,Canonical name for PE003001 (OCR corrected),
+APP_PE003001_1881_VARIANT,E41_Appellation,Township No. 47,variant,PE003001,"OCR variant of ""Township No. 43""",1881.0
+APP_PE003001_1921_VARIANT,E41_Appellation,Township 20,variant,PE003001,"OCR variant of ""Township No. 43""",1921.0
+APP_PE003002_CANONICAL,E41_Appellation,Township No. 44,canonical,PE003002,Canonical name for PE003002 (OCR corrected),
+APP_PE003002_1881_VARIANT,E41_Appellation,Township No. 46,variant,PE003002,"OCR variant of ""Township No. 44""",1881.0
+APP_PE003002_1921_VARIANT,E41_Appellation,Township 21,variant,PE003002,"OCR variant of ""Township No. 44""",1921.0
+APP_PE003004_CANONICAL,E41_Appellation,Township No. 46,canonical,PE003004,Canonical name for PE003004 (OCR corrected),
+APP_PE003004_1881_VARIANT,E41_Appellation,Township No. 44,variant,PE003004,"OCR variant of ""Township No. 46""",1881.0
+APP_PE003004_1921_VARIANT,E41_Appellation,Township 23,variant,PE003004,"OCR variant of ""Township No. 46""",1921.0
+APP_PE003005_CANONICAL,E41_Appellation,Township No. 47,canonical,PE003005,Canonical name for PE003005 (OCR corrected),
+APP_PE003005_1881_VARIANT,E41_Appellation,Township No. 43,variant,PE003005,"OCR variant of ""Township No. 47""",1881.0
+APP_PE003005_1921_VARIANT,E41_Appellation,Township 24,variant,PE003005,"OCR variant of ""Township No. 47""",1921.0
+APP_PE003006_CANONICAL,E41_Appellation,Township No. 38,canonical,PE003006,Canonical name for PE003006 (OCR corrected),
+APP_PE003006_1881_VARIANT,E41_Appellation,Township No. 42,variant,PE003006,"OCR variant of ""Township No. 38""",1881.0
+APP_PE003006_1921_VARIANT,E41_Appellation,Township 29,variant,PE003006,"OCR variant of ""Township No. 38""",1921.0
+APP_PE003007_CANONICAL,E41_Appellation,Township No. 39,canonical,PE003007,Canonical name for PE003007 (OCR corrected),
+APP_PE003007_1881_VARIANT,E41_Appellation,Township No. 41,variant,PE003007,"OCR variant of ""Township No. 39""",1881.0
+APP_PE003007_1921_VARIANT,E41_Appellation,Township 30,variant,PE003007,"OCR variant of ""Township No. 39""",1921.0
+APP_PE003009_CANONICAL,E41_Appellation,Township No. 41,canonical,PE003009,Canonical name for PE003009 (OCR corrected),
+APP_PE003009_1881_VARIANT,E41_Appellation,Township No. 39,variant,PE003009,"OCR variant of ""Township No. 41""",1881.0
+APP_PE003009_1921_VARIANT,E41_Appellation,Township 32,variant,PE003009,"OCR variant of ""Township No. 41""",1921.0
+APP_PE003010_CANONICAL,E41_Appellation,Township No. 42,canonical,PE003010,Canonical name for PE003010 (OCR corrected),
+APP_PE003010_1881_VARIANT,E41_Appellation,Township No. 38,variant,PE003010,"OCR variant of ""Township No. 42""",1881.0
+APP_PE003010_1921_VARIANT,E41_Appellation,Township 33,variant,PE003010,"OCR variant of ""Township No. 42""",1921.0
+APP_PE003012_CANONICAL,E41_Appellation,Township No. 51,canonical,PE003012,Canonical name for PE003012 (OCR corrected),
+APP_PE003012_1881_VARIANT,E41_Appellation,Township No. 55,variant,PE003012,"OCR variant of ""Township No. 51""",1881.0
+APP_PE003012_1921_VARIANT,E41_Appellation,Township 35,variant,PE003012,"OCR variant of ""Township No. 51""",1921.0
+APP_PE003013_CANONICAL,E41_Appellation,Township No. 52,canonical,PE003013,Canonical name for PE003013 (OCR corrected),
+APP_PE003013_1881_VARIANT,E41_Appellation,Township No. 54,variant,PE003013,"OCR variant of ""Township No. 52""",1881.0
+APP_PE003014_CANONICAL,E41_Appellation,Township No. 53,canonical,PE003014,Canonical name for PE003014 (OCR corrected),
+APP_PE003014_1921_VARIANT,E41_Appellation,Township 37,variant,PE003014,"OCR variant of ""Township No. 53""",1921.0
+APP_PE003015_CANONICAL,E41_Appellation,Township No. 54,canonical,PE003015,Canonical name for PE003015 (OCR corrected),
+APP_PE003015_1881_VARIANT,E41_Appellation,Township No. 52,variant,PE003015,"OCR variant of ""Township No. 54""",1881.0
+APP_PE003015_1921_VARIANT,E41_Appellation,Township 48,variant,PE003015,"OCR variant of ""Township No. 54""",1921.0
+APP_PE003016_CANONICAL,E41_Appellation,Township No. 55,canonical,PE003016,Canonical name for PE003016 (OCR corrected),
+APP_PE003016_1881_VARIANT,E41_Appellation,Township No. 51,variant,PE003016,"OCR variant of ""Township No. 55""",1881.0
+APP_PE003016_1921_VARIANT,E41_Appellation,Township 49,variant,PE003016,"OCR variant of ""Township No. 55""",1921.0
+APP_PE003017_CANONICAL,E41_Appellation,Township No. 59,canonical,PE003017,Canonical name for PE003017 (OCR corrected),
+APP_PE003017_1881_VARIANT,E41_Appellation,Township No. 66,variant,PE003017,"OCR variant of ""Township No. 59""",1881.0
+APP_PE003017_1921_VARIANT,E41_Appellation,Township 50,variant,PE003017,"OCR variant of ""Township No. 59""",1921.0
+APP_PE003018_CANONICAL,E41_Appellation,Township No. 61,canonical,PE003018,Canonical name for PE003018 (OCR corrected),
+APP_PE003018_1881_VARIANT,E41_Appellation,Township No. 59,variant,PE003018,"OCR variant of ""Township No. 61""",1881.0
+APP_PE003018_1921_VARIANT,E41_Appellation,Township 57,variant,PE003018,"OCR variant of ""Township No. 61""",1921.0
+APP_PE003019_CANONICAL,E41_Appellation,Township No. 63,canonical,PE003019,Canonical name for PE003019 (OCR corrected),
+APP_PE003019_1881_VARIANT,E41_Appellation,Township No. 61,variant,PE003019,"OCR variant of ""Township No. 63""",1881.0
+APP_PE003019_1921_VARIANT,E41_Appellation,Township 58,variant,PE003019,"OCR variant of ""Township No. 63""",1921.0
+APP_PE003020_CANONICAL,E41_Appellation,Township No. 64,canonical,PE003020,Canonical name for PE003020 (OCR corrected),
+APP_PE003020_1881_VARIANT,E41_Appellation,Township No. 63,variant,PE003020,"OCR variant of ""Township No. 64""",1881.0
+APP_PE003020_1921_VARIANT,E41_Appellation,Township 60,variant,PE003020,"OCR variant of ""Township No. 64""",1921.0
+APP_PE003021_CANONICAL,E41_Appellation,Township No. 66,canonical,PE003021,Canonical name for PE003021 (OCR corrected),
+APP_PE003021_1881_VARIANT,E41_Appellation,Township No. 64,variant,PE003021,"OCR variant of ""Township No. 66""",1881.0
+APP_PE003021_1921_VARIANT,E41_Appellation,Township 62,variant,PE003021,"OCR variant of ""Township No. 66""",1921.0
+APP_PE134002_CANONICAL,E41_Appellation,Township No. 38,canonical,PE134002,Canonical name for PE134002 (OCR corrected),
+APP_PE134002_1901_VARIANT,E41_Appellation,Township 2,variant,PE134002,"OCR variant of ""Township No. 38""",1901.0
+APP_PE134003_CANONICAL,E41_Appellation,Township No. 39,canonical,PE134003,Canonical name for PE134003 (OCR corrected),
+APP_PE134003_1901_VARIANT,E41_Appellation,Township 3,variant,PE134003,"OCR variant of ""Township No. 39""",1901.0
+APP_PE134004_CANONICAL,E41_Appellation,Township No. 40,canonical,PE134004,Canonical name for PE134004 (OCR corrected),
+APP_PE134004_1901_VARIANT,E41_Appellation,Township 4,variant,PE134004,"OCR variant of ""Township No. 40""",1901.0
+APP_PE134005_CANONICAL,E41_Appellation,Township No. 41,canonical,PE134005,Canonical name for PE134005 (OCR corrected),
+APP_PE134005_1901_VARIANT,E41_Appellation,Township 5,variant,PE134005,"OCR variant of ""Township No. 41""",1901.0
+APP_PE134006_CANONICAL,E41_Appellation,Township No. 42,canonical,PE134006,Canonical name for PE134006 (OCR corrected),
+APP_PE134006_1901_VARIANT,E41_Appellation,Township 6,variant,PE134006,"OCR variant of ""Township No. 42""",1901.0
+APP_PE134007_CANONICAL,E41_Appellation,Township No. 43,canonical,PE134007,Canonical name for PE134007 (OCR corrected),
+APP_PE134007_1901_VARIANT,E41_Appellation,Township 7,variant,PE134007,"OCR variant of ""Township No. 43""",1901.0
+APP_PE134008_CANONICAL,E41_Appellation,Township No. 44,canonical,PE134008,Canonical name for PE134008 (OCR corrected),
+APP_PE134008_1901_VARIANT,E41_Appellation,Township 8,variant,PE134008,"OCR variant of ""Township No. 44""",1901.0
+APP_PE134009_CANONICAL,E41_Appellation,Township No. 45,canonical,PE134009,Canonical name for PE134009 (OCR corrected),
+APP_PE134009_1901_VARIANT,E41_Appellation,Township 9,variant,PE134009,"OCR variant of ""Township No. 45""",1901.0
+APP_PE134012_CANONICAL,E41_Appellation,Township No. 51,canonical,PE134012,Canonical name for PE134012 (OCR corrected),
+APP_PE134012_1901_VARIANT,E41_Appellation,Township 12,variant,PE134012,"OCR variant of ""Township No. 51""",1901.0
+APP_PE135002_CANONICAL,E41_Appellation,Township No. 1,canonical,PE135002,Canonical name for PE135002 (OCR corrected),
+APP_PE135002_1901_VARIANT,E41_Appellation,Township 33,variant,PE135002,"OCR variant of ""Township No. 1""",1901.0
+APP_PE135003_CANONICAL,E41_Appellation,Township No. 2,canonical,PE135003,Canonical name for PE135003 (OCR corrected),
+APP_PE135003_1901_VARIANT,E41_Appellation,Township 34,variant,PE135003,"OCR variant of ""Township No. 2""",1901.0
+APP_PE135004_CANONICAL,E41_Appellation,Township No. 3,canonical,PE135004,Canonical name for PE135004 (OCR corrected),
+APP_PE135004_1901_VARIANT,E41_Appellation,Township 35,variant,PE135004,"OCR variant of ""Township No. 3""",1901.0
+APP_PE135005_CANONICAL,E41_Appellation,Township No. 4,canonical,PE135005,Canonical name for PE135005 (OCR corrected),
+APP_PE135005_1901_VARIANT,E41_Appellation,Township 36,variant,PE135005,"OCR variant of ""Township No. 4""",1901.0
+APP_PE135006_CANONICAL,E41_Appellation,Township No. 5,canonical,PE135006,Canonical name for PE135006 (OCR corrected),
+APP_PE135006_1901_VARIANT,E41_Appellation,Township 37,variant,PE135006,"OCR variant of ""Township No. 5""",1901.0
+APP_PE135007_CANONICAL,E41_Appellation,Township No. 6,canonical,PE135007,Canonical name for PE135007 (OCR corrected),
+APP_PE135007_1901_VARIANT,E41_Appellation,Township 48,variant,PE135007,"OCR variant of ""Township No. 6""",1901.0
+APP_PE135008_CANONICAL,E41_Appellation,Township No. 7,canonical,PE135008,Canonical name for PE135008 (OCR corrected),
+APP_PE135008_1901_VARIANT,E41_Appellation,Township 49,variant,PE135008,"OCR variant of ""Township No. 7""",1901.0
+APP_PE135009_CANONICAL,E41_Appellation,Township No. 8,canonical,PE135009,Canonical name for PE135009 (OCR corrected),
+APP_PE135009_1901_VARIANT,E41_Appellation,Township 50,variant,PE135009,"OCR variant of ""Township No. 8""",1901.0
+APP_PE135010_CANONICAL,E41_Appellation,Township No. 9,canonical,PE135010,Canonical name for PE135010 (OCR corrected),
+APP_PE135010_1901_VARIANT,E41_Appellation,Township 57,variant,PE135010,"OCR variant of ""Township No. 9""",1901.0
+APP_PE135013_CANONICAL,E41_Appellation,Township No. 12,canonical,PE135013,Canonical name for PE135013 (OCR corrected),
+APP_PE135013_1901_VARIANT,E41_Appellation,Township 62,variant,PE135013,"OCR variant of ""Township No. 12""",1901.0
+APP_PE135014_CANONICAL,E41_Appellation,Township No. 13,canonical,PE135014,Canonical name for PE135014 (OCR corrected),
+APP_PE135014_1901_VARIANT,E41_Appellation,Township 61,variant,PE135014,"OCR variant of ""Township No. 13""",1901.0
+APP_PE136001_CANONICAL,E41_Appellation,Charlottetown Royalty,canonical,PE136001,Canonical name for PE136001 (OCR corrected),
+APP_PE136001_1901_VARIANT,E41_Appellation,"Charlottetown, City & Royalty",variant,PE136001,"OCR variant of ""Charlottetown Royalty""",1901.0
+APP_PE136002_CANONICAL,E41_Appellation,Township No. 20,canonical,PE136002,Canonical name for PE136002 (OCR corrected),
+APP_PE136002_1901_VARIANT,E41_Appellation,Township 20,variant,PE136002,"OCR variant of ""Township No. 20""",1901.0
+APP_PE136003_CANONICAL,E41_Appellation,Township No. 21,canonical,PE136003,Canonical name for PE136003 (OCR corrected),
+APP_PE136003_1901_VARIANT,E41_Appellation,Township 21,variant,PE136003,"OCR variant of ""Township No. 21""",1901.0
+APP_PE136004_CANONICAL,E41_Appellation,Township No. 22,canonical,PE136004,Canonical name for PE136004 (OCR corrected),
+APP_PE136004_1901_VARIANT,E41_Appellation,Township 22,variant,PE136004,"OCR variant of ""Township No. 22""",1901.0
+APP_PE136005_CANONICAL,E41_Appellation,Township No. 23,canonical,PE136005,Canonical name for PE136005 (OCR corrected),
+APP_PE136005_1901_VARIANT,E41_Appellation,Township 23,variant,PE136005,"OCR variant of ""Township No. 23""",1901.0
+APP_PE136007_CANONICAL,E41_Appellation,Township No. 29,canonical,PE136007,Canonical name for PE136007 (OCR corrected),
+APP_PE136007_1901_VARIANT,E41_Appellation,Township 32,variant,PE136007,"OCR variant of ""Township No. 29""",1901.0
+APP_PE997999_CANONICAL,E41_Appellation,NO DATA,canonical,PE997999,Canonical name for PE997999 (OCR corrected),
+APP_QC037005_CANONICAL,E41_Appellation,Sherrington,canonical,QC037005,Canonical name for QC037005 (OCR corrected),
+APP_QC037005_1921_VARIANT,E41_Appellation,Harrington,variant,QC037005,"OCR variant of ""Sherrington""",1921.0
+APP_QC048999_CANONICAL,E41_Appellation,NO DATA,canonical,QC048999,Canonical name for QC048999 (OCR corrected),
+APP_QC069999_CANONICAL,E41_Appellation,NO DATA,canonical,QC069999,Canonical name for QC069999 (OCR corrected),
+APP_QC080999_CANONICAL,E41_Appellation,NO DATA,canonical,QC080999,Canonical name for QC080999 (OCR corrected),
+APP_QC096003_CANONICAL,E41_Appellation,Chatham,canonical,QC096003,Canonical name for QC096003 (OCR corrected),
+APP_QC137001_CANONICAL,E41_Appellation,Arundel,canonical,QC137001,Canonical name for QC137001 (OCR corrected),
+APP_QC137002_CANONICAL,E41_Appellation,"Carillon, Village",canonical,QC137002,Canonical name for QC137002 (OCR corrected),
+APP_QC137003_CANONICAL,E41_Appellation,Chatham,canonical,QC137003,Canonical name for QC137003 (OCR corrected),
+APP_QC137010_CANONICAL,E41_Appellation,Mille Isles,canonical,QC137010,Canonical name for QC137010 (OCR corrected),
+APP_QC137010_1901_VARIANT,E41_Appellation,Mille Iles,variant,QC137010,"OCR variant of ""Mille Isles""",1901.0
+APP_QC138002_CANONICAL,E41_Appellation,St. André,canonical,QC138002,Canonical name for QC138002 (OCR corrected),
+APP_QC140001_CANONICAL,E41_Appellation,"Beauharnois, Town—Ville",canonical,QC140001,Canonical name for QC140001 (OCR corrected),
+APP_QC141009_CANONICAL,E41_Appellation,St. Michel,canonical,QC141009,Canonical name for QC141009 (OCR corrected),
+APP_QC141010_CANONICAL,E41_Appellation,St. Néré,canonical,QC141010,Canonical name for QC141010 (OCR corrected),
+APP_QC141010_1901_VARIANT,E41_Appellation,St. Nérée,variant,QC141010,"OCR variant of ""St. Néré""",1901.0
+APP_QC141012_CANONICAL,E41_Appellation,St. Raphaël,canonical,QC141012,Canonical name for QC141012 (OCR corrected),
+APP_QC141013_CANONICAL,E41_Appellation,St. Valier ,canonical,QC141013,Canonical name for QC141013 (OCR corrected),
+APP_QC141013_1901_VARIANT,E41_Appellation,St. Valier,variant,QC141013,"OCR variant of ""St. Valier """,1901.0
+APP_QC142999_CANONICAL,E41_Appellation,NO DATA,canonical,QC142999,Canonical name for QC142999 (OCR corrected),
+APP_QC143999_CANONICAL,E41_Appellation,NO DATA,canonical,QC143999,Canonical name for QC143999 (OCR corrected),
+APP_QC145009_CANONICAL,E41_Appellation,St. Bruno,canonical,QC145009,Canonical name for QC145009 (OCR corrected),
+APP_QC145010_CANONICAL,E41_Appellation,St. Hubert,canonical,QC145010,Canonical name for QC145010 (OCR corrected),
+APP_QC145011_CANONICAL,E41_Appellation,St. Lambert,canonical,QC145011,Canonical name for QC145011 (OCR corrected),
+APP_QC146999_CANONICAL,E41_Appellation,NO DATA,canonical,QC146999,Canonical name for QC146999 (OCR corrected),
+APP_QC147999_CANONICAL,E41_Appellation,NO DATA,canonical,QC147999,Canonical name for QC147999 (OCR corrected),
+APP_QC150002_CANONICAL,E41_Appellation,Bury,canonical,QC150002,Canonical name for QC150002 (OCR corrected),
+APP_QC150003_CANONICAL,E41_Appellation,Chesham,canonical,QC150003,Canonical name for QC150003 (OCR corrected),
+APP_QC151012_CANONICAL,E41_Appellation,Ste. Scholastique,canonical,QC151012,Canonical name for QC151012 (OCR corrected),
+APP_QC154010_CANONICAL,E41_Appellation,Grande Vallée des Monts,canonical,QC154010,Canonical name for QC154010 (OCR corrected),
+APP_QC154999_CANONICAL,E41_Appellation,NO DATA,canonical,QC154999,Canonical name for QC154999 (OCR corrected),
+APP_QC158999_CANONICAL,E41_Appellation,NO DATA,canonical,QC158999,Canonical name for QC158999 (OCR corrected),
+APP_QC159999_CANONICAL,E41_Appellation,NO DATA,canonical,QC159999,Canonical name for QC159999 (OCR corrected),
+APP_QC172007_CANONICAL,E41_Appellation,St. François,canonical,QC172007,Canonical name for QC172007 (OCR corrected),
+APP_QC172999_CANONICAL,E41_Appellation,NO DATA,canonical,QC172999,Canonical name for QC172999 (OCR corrected),
+APP_QC173999_CANONICAL,E41_Appellation,NO DATA,canonical,QC173999,Canonical name for QC173999 (OCR corrected),
+APP_QC178010_CANONICAL,E41_Appellation,St. Alban,canonical,QC178010,Canonical name for QC178010 (OCR corrected),
+APP_QC178010_1911_VARIANT,E41_Appellation,St. Laurent,variant,QC178010,"OCR variant of ""St. Alban""",1911.0
+APP_QC178999_CANONICAL,E41_Appellation,NO DATA,canonical,QC178999,Canonical name for QC178999 (OCR corrected),
+APP_QC184006_CANONICAL,E41_Appellation,Ste. Angèle,canonical,QC184006,Canonical name for QC184006 (OCR corrected),
+APP_QC184006_1911_VARIANT,E41_Appellation,Ste. Angèle de Laval,variant,QC184006,"OCR variant of ""Ste. Angèle""",1911.0
+APP_QC190005_CANONICAL,E41_Appellation,St. Clet,canonical,QC190005,Canonical name for QC190005 (OCR corrected),
+APP_QC190005_1901_VARIANT,E41_Appellation,St. Charles,variant,QC190005,"OCR variant of ""St. Clet""",1901.0
