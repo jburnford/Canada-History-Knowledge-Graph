@@ -1,0 +1,172 @@
+cd_id,cd_name,province,wikidata_qid,wikidata_label,wikidata_type
+CD_QC_Terrebonne,Terrebonne,QC,Q2991445,"Terrebonne County, Quebec",historic county of Quebec
+CD_ON_Ontario,Ontario,ON,Q7094641,Ontario County,former county of Ontario
+CD_QC_Montmagny,Montmagny,QC,Q2991338,comté de Montmagny,historic county of Quebec
+CD_ON_Stormont,Stormont,ON,Q1617717,Stormont County,former county of Ontario
+CD_ON_Addington,Addington,ON,Q4681175,Addington County,former county of Ontario
+CD_QC_Mégantic,Mégantic,QC,Q2991353,Mégantic County,historic county of Quebec
+CD_NS_Hants,Hants,NS,Q2630239,Hants County,county of Nova Scotia
+CD_QC_Pontiac,Pontiac,QC,Q16543141,comté de Pontiac,historic county of Quebec
+CD_NS_Kings,Kings,NS,Q671105,Kings County,county of Nova Scotia
+CD_ON_Manitoulin,Manitoulin,ON,Q1815566,Manitoulin District,district of Ontario
+CD_ON_Middlesex,Middlesex,ON,Q1931946,Middlesex County,county of Ontario
+CD_QC_L'Assomption,L'Assomption,QC,Q2991286,comté de L'Assomption,historic county of Quebec
+CD_QC_Rimouski,Rimouski,QC,Q2991393,comté de Rimouski,historic county of Quebec
+CD_ON_Lincoln,Lincoln,ON,Q6550599,Lincoln County,former county of Ontario
+CD_ON_Elgin,Elgin,ON,Q500757,Elgin County,county of Ontario
+CD_PE_Queens,Queens,PE,Q2006290,Queens County,county of Prince Edward Island
+CD_QC_Richmond,Richmond,QC,Q2991392,Richmond County,historic county of Quebec
+CD_NB_Charlotte,Charlotte,NB,Q1067162,Charlotte County,county of New Brunswick
+CD_ON_Renfrew,Renfrew,ON,Q1815526,Renfrew County,county of Ontario
+CD_NB_Northumberland,Northumberland,NB,Q937673,Northumberland County,county of New Brunswick
+CD_QC_Matane,Matane,QC,Q2991318,comté de Matane,historic county of Quebec
+CD_ON_Parry_Sound,Parry Sound,ON,Q1798108,Parry Sound District,district of Ontario
+CD_QC_Napierville,Napierville,QC,Q2991357,comté de Napierville,historic county of Quebec
+CD_QC_Chambly,Chambly,QC,Q2991170,"Chambly County, Quebec",historic county of Quebec
+CD_NB_Westmorland,Westmorland,NB,Q1147110,Westmorland County,county of New Brunswick
+CD_BC_Yale,Yale,BC,,,MINTED_URI: BC electoral district-based CD
+CD_ON_Lanark,Lanark,ON,Q1801761,Lanark County,county of Ontario
+CD_QC_Brome,Brome,QC,Q2991146,Brome County,historic county of Quebec
+CD_QC_Joliette,Joliette,QC,Q2991275,comté de Joliette,historic county of Quebec
+CD_PE_Prince,Prince,PE,Q2110336,Prince County,county of Prince Edward Island
+CD_QC_Montmorency,Montmorency,QC,,,MINTED_URI: 1921 CD spans comté No. 1 (Q2991335) + No. 2 (Q2991337/Île d'Orléans)
+CD_QC_Stanstead,Stanstead,QC,Q2991434,comté de Stanstead,historic county of Quebec
+CD_QC_Vaudreuil,Vaudreuil,QC,Q16543157,Vaudreuil County,historic county of Quebec
+CD_ON_Simcoe,Simcoe,ON,Q1437636,Simcoe County,county of Ontario
+CD_QC_Argenteuil,Argenteuil,QC,Q2991090,Argenteuil County,historic county of Quebec
+CD_QC_Champlain,Champlain,QC,Q16543127,Champlain County,historic county of Quebec
+CD_PE_Kings,Kings,PE,Q1742133,Kings County,county of Prince Edward Island
+CD_BC_New_Westminster,New Westminster,BC,,,MINTED_URI: BC electoral district-based CD
+CD_BC_Vancouver_Centre,Vancouver Centre,BC,,,MINTED_URI: BC electoral district-based CD
+CD_QC_Dorchester,Dorchester,QC,Q2991219,Dorchester county,historic county of Quebec
+CD_NB_Gloucester,Gloucester,NB,Q963112,Gloucester County,county of New Brunswick
+CD_ON_Wellington,Wellington,ON,Q1525404,Wellington County,county of Ontario
+CD_NS_Colchester,Colchester,NS,Q595326,Colchester County,county of Nova Scotia
+CD_QC_Témiscamingue,Témiscamingue,QC,Q16543153,comté de Témiscamingue,historic county of Quebec
+CD_BC_Burrard,Burrard,BC,,,MINTED_URI: BC electoral district-based CD
+CD_QC_Iberville,Iberville,QC,Q2991101,comté d'Iberville,historic county of Quebec
+CD_BC_Cariboo,Cariboo,BC,,,MINTED_URI: BC electoral district-based CD
+CD_NB_York,York,NB,Q1752038,York County,county of New Brunswick
+CD_ON_Algoma,Algoma,ON,Q2140691,Algoma District,district of Ontario
+CD_NS_Halifax,Halifax,NS,Q2630280,Halifax County,county of Nova Scotia
+CD_ON_Rainy_River,Rainy River,ON,Q943829,Rainy River District,district of Ontario
+CD_ON_Lambton,Lambton,ON,Q1406913,Lambton County,county of Ontario
+CD_ON_Brant,Brant,ON,Q384944,County of Brant,county of Ontario
+CD_ON_Welland,Welland,ON,Q7981153,Welland County,former county of Ontario
+CD_ON_Muskoka,Muskoka,ON,,,MINTED_URI: no Wikidata entity for Muskoka District as historic CD
+CD_QC_Montréal_&_Jésus_Islands—Iles,Montréal & Jésus Islands—Iles,QC,,,MINTED_URI: composite CD (Île de Montréal + Île Jésus)
+CD_QC_Nicolet,Nicolet,QC,Q2991363,Comté de Nicolet,historic county of Quebec
+CD_ON_Frontenac,Frontenac,ON,Q739928,Frontenac County,county of Ontario
+CD_QC_Missisquoi,Missisquoi,QC,Q2991331,Missisquoi County,historic county of Quebec
+CD_QC_L'IsIet,L'IsIet,QC,Q2991287,comté de L'Islet,historic county of Quebec
+CD_BC_Nanaimo,Nanaimo,BC,,,MINTED_URI: BC electoral district-based CD
+CD_QC_Laprairie,Laprairie,QC,Q2991296,comté de Laprairie,historic county of Quebec
+CD_QC_Charlevoix,Charlevoix,QC,Q2991176,comté de Charlevoix,historic county of Quebec
+CD_QC_Maskinongé,Maskinongé,QC,Q2991316,comté de Maskinongé,historic county of Quebec
+CD_QC_Témiscouata,Témiscouata,QC,Q2991451,comté de Témiscouata,historic county of Quebec
+CD_NB_Kent,Kent,NB,Q2542413,Kent County,county of New Brunswick
+CD_QC_Portneuf,Portneuf,QC,Q2991380,Portneuf County,historic county of Quebec
+CD_QC_Huntingdon,Huntingdon,QC,Q2991267,Huntingdon County,historic county of Quebec
+CD_NS_Antigonish,Antigonish,NS,Q575491,Antigonish County,county of Nova Scotia
+CD_ON_Bruce,Bruce,ON,Q991601,Bruce County,county of Ontario
+CD_NS_Shelburne,Shelburne,NS,Q2096191,Shelburne County,county of Nova Scotia
+CD_ON_Haliburton,Haliburton,ON,Q1571033,Haliburton County,county of Ontario
+CD_YT_Yukon,Yukon,YT,Q2009,Yukon,territory of Canada
+CD_QC_Beauce,Beauce,QC,Q2991122,comté de Beauce,historic county of Quebec
+CD_QC_Hull,Hull,QC,Q2991266,Hull County,historic county of Quebec
+CD_ON_Victoria,Victoria,ON,Q7926663,Victoria County,former county of Ontario
+CD_QC_Québec,Québec,QC,Q7269765,Quebec County,historic county of Quebec
+CD_QC_Berthier,Berthier,QC,Q2991133,Bertheir County,historic county of Quebec
+CD_NB_St._John,St. John,NB,Q1786989,Saint John County,county of New Brunswick
+CD_ON_York,York,ON,Q70460110,County of York,county of Ontario
+CD_NB_Queens,Queens,NB,Q2542396,Queens County,county of New Brunswick
+CD_QC_Bellechasse,Bellechasse,QC,Q2991127,Bellechasse County,historic county of Quebec
+CD_ON_Russell,Russell,ON,Q7381437,Russell County,former county of Ontario
+CD_QC_Shefford,Shefford,QC,Q2991426,Shefford County,historic county of Quebec
+CD_NB_Albert,Albert,NB,Q1293527,Albert County,county of New Brunswick
+CD_NS_Cape_Breton,Cape Breton,NS,Q2658942,Cape Breton County,county of Nova Scotia
+CD_ON_Durham,Durham,ON,Q5316491,Durham County,former county of Ontario
+CD_QC_Bagot,Bagot,QC,Q2991115,comté de Bagot,historic county of Quebec
+CD_QC_Rouville,Rouville,QC,Q2991403,comté de Rouville,historic county of Quebec
+CD_NS_Queens,Queens,NS,Q2006307,Queens County,county of Nova Scotia
+CD_ON_Haldimand,Haldimand,ON,Q385346,Haldimand County,county of Ontario
+CD_ON_Northumberland,Northumberland,ON,Q1752156,Northumberland County,county of Ontario
+CD_NS_Pictou,Pictou,NS,Q2092485,Pictou County,county of Nova Scotia
+CD_QC_Bonaventure,Bonaventure,QC,Q2991139,Comté de Bonaventure,historic county of Quebec
+CD_QC_Compton,Compton,QC,Q2991198,Compton County,historic county of Quebec
+CD_QC_Chicoutimi,Chicoutimi,QC,Q2991181,Chicoutimi County,historic county of Quebec
+CD_NS_Inverness,Inverness,NS,Q2630310,Inverness County,county of Nova Scotia
+CD_ON_Timiskaming,Timiskaming,ON,Q385780,Timiskaming District,district of Ontario
+CD_NB_Victoria,Victoria,NB,Q1520380,Victoria County,county of New Brunswick
+CD_QC_Lévis,Lévis,QC,Q2991311,Lévis County,historic county of Quebec
+CD_QC_St._Hyacinthe,St. Hyacinthe,QC,Q2991405,comté de Saint-Hyacinthe,historic county of Quebec
+CD_NS_Victoria,Victoria,NS,Q1116334,Victoria County,county of Nova Scotia
+CD_QC_St._Maurice,St. Maurice,QC,Q2991407,comté de Saint-Maurice,historic county of Quebec
+CD_QC_Gaspé,Gaspé,QC,Q2991234,comté de Gaspé,historic county of Quebec
+CD_QC_St._Jean,St. Jean,QC,Q2991409,Saint-Jean County,historic county of Quebec
+CD_ON_Perth,Perth,ON,Q177690,Perth County,county of Ontario
+CD_ON_Grey,Grey,ON,Q1546177,Grey County,county of Ontario
+CD_QC_Montcalm,Montcalm,QC,Q2991334,comté de Montcalm,historic county of Quebec
+CD_BC_Comox-Alberni,Comox-Alberni,BC,,,MINTED_URI: BC electoral district-based CD
+CD_ON_Carleton,Carleton,ON,Q4215324,Carleton County,former county of Ontario
+CD_BC_Skeena,Skeena,BC,,,MINTED_URI: BC electoral district-based CD
+CD_ON_Wentworth,Wentworth,ON,Q7983017,Wentworth County,former county of Ontario
+CD_ON_Leeds,Leeds,ON,Q14875251,Leeds County,former county of Ontario
+CD_NS_Annapolis,Annapolis,NS,Q564523,Annapolis County,county of Nova Scotia
+CD_QC_Lotbinière,Lotbinière,QC,Q2991307,comté de Lotbinière,historic county of Quebec
+CD_BC_Vancouver_South,Vancouver South,BC,,,MINTED_URI: BC electoral district-based CD
+CD_QC_Arthabaska,Arthabaska,QC,Q2991091,Arthabaska County,historic county of Quebec
+CD_ON_Prince_Edward,Prince Edward,ON,Q385085,Prince Edward County,municipality in Ontario
+CD_ON_Peel,Peel,ON,Q7160206,Peel County,former county of Ontario
+CD_BC_Fraser_Valley,Fraser Valley,BC,,,MINTED_URI: BC electoral district-based CD
+CD_ON_Dufferin,Dufferin,ON,Q1145335,Dufferin County,county of Ontario
+CD_NS_Digby,Digby,NS,Q2630244,Digby County,county of Nova Scotia
+CD_QC_Verchères,Verchères,QC,Q2991456,comté de Verchères,historic county of Quebec
+CD_BC_Victoria_City,Victoria City,BC,,,MINTED_URI: BC electoral district-based CD
+CD_ON_Hastings,Hastings,ON,Q1588807,Hastings County,county of Ontario
+CD_QC_Kamouraska,Kamouraska,QC,Q2991280,Kamouraska County,historic county of Quebec
+CD_ON_Glengarry,Glengarry,ON,Q5568538,Glengarry County,former county of Ontario
+CD_ON_Grenville,Grenville,ON,Q5607516,Grenville County,former county of Ontario
+CD_NS_Lunenburg,Lunenburg,NS,Q142312,Lunenburg County,county of Nova Scotia
+CD_NS_Richmond,Richmond,NS,Q2658971,Richmond County,county of Nova Scotia
+CD_NL_Labrador,Labrador,NL,Q380307,Labrador,region of Newfoundland and Labrador
+CD_NS_Yarmouth,Yarmouth,NS,Q388130,Yarmouth County,county of Nova Scotia
+CD_ON_Kenora,Kenora,ON,Q1638386,Kenora District,district of Ontario
+CD_ON_Waterloo,Waterloo,ON,Q7974224,Waterloo County,former county of Ontario
+CD_ON_Essex,Essex,ON,Q953088,Essex County,county of Ontario
+CD_ON_Sudbury,Sudbury,ON,Q383600,Sudbury District,district of Ontario
+CD_QC_Frontenac,Frontenac,QC,Q2991230,Frontenac County,historic county of Quebec
+CD_QC_Deux_Montagnes,Deux Montagnes,QC,Q2991213,comté de Deux-Montagnes,historic county of Quebec
+CD_NB_Sunbury,Sunbury,NB,Q543098,Sunbury County,county of New Brunswick
+CD_QC_Beauharnois,Beauharnois,QC,Q2991124,comté de Beauharnois,historic county of Quebec
+CD_ON_Dundas,Dundas,ON,Q5314760,Dundas County,former county of Ontario
+CD_QC_Châteauguay,Châteauguay,QC,Q2991186,comté de Châteauguay,historic county of Quebec
+CD_NB_Madawaska,Madawaska,NB,Q181004,Madawaska County,county of New Brunswick
+CD_ON_Huron,Huron,ON,Q1638493,Huron County,county of Ontario
+CD_QC_Richelieu,Richelieu,QC,Q2991390,Comté de Richelieu,historic county of Quebec
+CD_NL_Newfoundland,Newfoundland,NL,Q48335,Newfoundland,island of Newfoundland and Labrador
+CD_ON_Halton,Halton,ON,Q14875161,Halton County,former county of Ontario
+CD_ON_Kent,Kent,ON,Q6391659,Kent County,former county of Ontario
+CD_QC_Soulanges,Soulanges,QC,Q16543148,comté de Soulanges,historic county of Quebec
+CD_ON_Norfolk,Norfolk,ON,Q385229,Norfolk County,county of Ontario
+CD_BC_Kootenay_West,Kootenay West,BC,,,MINTED_URI: BC electoral district-based CD
+CD_ON_Prescott,Prescott,ON,Q7240842,Prescott County,former county of Ontario
+CD_NB_Carleton,Carleton,NB,Q2429216,Carleton County,county of New Brunswick
+CD_NS_Cumberland,Cumberland,NS,Q2559621,Cumberland County,county of Nova Scotia
+CD_QC_Wolfe,Wolfe,QC,Q2991471,comté de Wolfe,historic county of Quebec
+CD_ON_Lennox,Lennox,ON,Q17108580,Lennox County,former county of Ontario
+CD_BC_Kootenay_East,Kootenay East,BC,,,MINTED_URI: BC electoral district-based CD
+CD_NT_Northwest_Territories,Northwest Territories,NT,Q2007,Northwest Territories,territory of Canada
+CD_QC_Labelle,Labelle,QC,Q2991288,Labelle County,historic county of Quebec
+CD_NS_Guysborough,Guysborough,NS,Q501045,Guysborough County,county of Nova Scotia
+CD_NB_Kings,Kings,NB,Q1670967,Kings County,county of New Brunswick
+CD_QC_Sherbrooke,Sherbrooke,QC,Q2991427,comté de Sherbrooke,historic county of Quebec
+CD_ON_Thunder_Bay,Thunder Bay,ON,Q385689,Thunder Bay District,district of Ontario
+CD_ON_Oxford,Oxford,ON,Q382652,Oxford County,county of Ontario
+CD_ON_Peterborough,Peterborough,ON,Q730542,Peterborough County,county of Ontario
+CD_QC_Drummond,Drummond,QC,Q2991220,Drummond county,historic county of Quebec
+CD_NB_Restigouche,Restigouche,NB,Q2542491,Restigouche County,county of New Brunswick
+CD_QC_Lac_St._Jean,Lac St. Jean,QC,,,MINTED_URI: 1921 CD spans comté Est (Q2991289) + Ouest (Q2991290)
+CD_QC_Saguenay,Saguenay,QC,Q2991404,Saguenay County,historic county of Quebec
+CD_QC_Yamaska,Yamaska,QC,Q2991475,comté de Yamaska,historic county of Quebec
+CD_ON_Nipissing,Nipissing,ON,Q1436530,Nipissing District,district of Ontario
