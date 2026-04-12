@@ -89,6 +89,12 @@ GOOD_P31_QIDS = {
     "Q155239",     # Indian reservation of Canada
     # Other
     "Q15642541",   # human-geographic territorial entity
+    "Q131822041",  # parish of New Brunswick (alternate QID)
+    "Q3477348",    # urban area (used for some former MB RMs)
+    "Q21507948",   # former village
+    "Q106071744",  # former town
+    "Q130626256",  # city in Canada
+    "Q618123",     # geographical feature (also has local urban district)
 }
 
 # Entity types that are ALWAYS wrong for a CSD
