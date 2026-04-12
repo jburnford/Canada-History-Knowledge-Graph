@@ -78,6 +78,10 @@ GOOD_P31_QIDS = {
     "Q130628050",  # city in New Brunswick
     "Q59341087",   # town in Nova Scotia
     "Q15731904",   # municipal district of Nova Scotia
+    "Q55774719",   # township municipality in Ontario
+    "Q14762300",   # single-tier municipality (Ontario)
+    "Q56885635",   # dispersed rural community
+    "Q15210668",   # lower-tier municipality of Ontario
     # Western
     "Q14586662",   # organized hamlet of Saskatchewan
     "Q6644778",    # village in Saskatchewan
