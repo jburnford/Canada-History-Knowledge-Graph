@@ -54,6 +54,8 @@ GOOD_P31_QIDS = {
     "Q55440238",   # city in Alberta
     "Q55430416",   # town in Alberta
     "Q17366755",   # hamlet in Alberta
+    "Q6644696",    # village in Alberta
+    "Q3257686",    # locality (used for ghost towns / former settlements)
     "Q131905118",  # town in Manitoba
     "Q23953065",   # local urban district
     "Q15092400",   # independent city
