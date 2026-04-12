@@ -77,6 +77,7 @@ GOOD_P31_QIDS = {
     "Q2989457",    # urban-type settlement
     "Q130628050",  # city in New Brunswick
     "Q59341087",   # town in Nova Scotia
+    "Q15731904",   # municipal district of Nova Scotia
     # Western
     "Q14586662",   # organized hamlet of Saskatchewan
     "Q6644778",    # village in Saskatchewan
