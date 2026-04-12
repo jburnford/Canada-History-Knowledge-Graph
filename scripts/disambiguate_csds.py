@@ -82,6 +82,13 @@ GOOD_P31_QIDS = {
     "Q107150024",  # municipal district of Alberta
     # PEI
     "Q22978485",   # town in Prince Edward Island
+    # BC types
+    "Q60458065",   # city in British Columbia
+    "Q1549591",    # big city
+    # Indigenous reserves (valid CSDs in census)
+    "Q155239",     # Indian reservation of Canada
+    # Other
+    "Q15642541",   # human-geographic territorial entity
 }
 
 # Entity types that are ALWAYS wrong for a CSD
