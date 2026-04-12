@@ -72,6 +72,9 @@ GOOD_P31_QIDS = {
     # NB/NS types
     "Q28121225",   # parish of New Brunswick
     "Q107146157",  # municipal district of Nova Scotia
+    "Q52132873",   # town in New Brunswick
+    "Q6644759",    # village of New Brunswick
+    "Q2989457",    # urban-type settlement
     # Western
     "Q14586662",   # organized hamlet of Saskatchewan
     "Q6644778",    # village in Saskatchewan
