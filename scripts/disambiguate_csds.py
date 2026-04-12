@@ -81,6 +81,10 @@ GOOD_P31_QIDS = {
     "Q55774719",   # township municipality in Ontario
     "Q14762300",   # single-tier municipality (Ontario)
     "Q56885635",   # dispersed rural community
+    "Q56885310",   # compact rural community
+    "Q5154611",    # community
+    "Q956318",     # designated place of Canada
+    "Q6593035",    # separated municipality in Ontario
     "Q15210668",   # lower-tier municipality of Ontario
     # Western
     "Q14586662",   # organized hamlet of Saskatchewan
