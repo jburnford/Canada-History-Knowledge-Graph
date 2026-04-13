@@ -63,6 +63,7 @@ GOOD_P31_QIDS = {
     # Ontario types
     "Q3012437",    # geographic township of Ontario
     "Q96759164",   # geographic township of Ontario (alternate QID)
+    "Q2936646",    # township of Canada (generic)
     "Q102473225",  # geographic township of Quebec
     "Q34763",      # peninsula (some CSDs are peninsulas/islands)
     "Q28746",      # township municipality in Ontario
@@ -296,6 +297,10 @@ def show_batch(args):
 
     pending = [q for q in queue if q["csd_id"] not in verified]
 
+    if getattr(args, "provinces", None):
+        provs = {p.strip().upper() for p in args.provinces.split(",") if p.strip()}
+        pending = [q for q in pending if q["province"] in provs]
+
     if not pending:
         print("All CSDs have been verified!")
         return
@@ -458,6 +463,8 @@ def main():
                         help="Show next N CSDs to process (default 50)")
     parser.add_argument("--verify", action="store_true", help="Batch-verify all QIDs via Wikidata API")
     parser.add_argument("--status", action="store_true", help="Report progress")
+    parser.add_argument("--provinces", type=str, default=None,
+                        help="Comma-separated province codes to filter show-batch (e.g. ON,SK)")
     args = parser.parse_args()
 
     if args.prepare:
