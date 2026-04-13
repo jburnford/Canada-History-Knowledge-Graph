@@ -89,6 +89,7 @@ GOOD_P31_QIDS = {
     "Q15210668",   # lower-tier municipality of Ontario
     # Western
     "Q14586662",   # organized hamlet of Saskatchewan
+    "Q115865269",  # organized hamlet of Saskatchewan (alternate QID)
     "Q6644778",    # village in Saskatchewan
     "Q6643756",    # town in Saskatchewan
     "Q130627673",  # city in Saskatchewan
