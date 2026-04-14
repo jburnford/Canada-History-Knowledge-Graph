@@ -67,6 +67,7 @@ GOOD_P31_QIDS = {
     "Q102473225",  # geographic township of Quebec
     "Q34763",      # peninsula (some CSDs are peninsulas/islands)
     "Q28746",      # township municipality in Ontario
+    "Q7209617",    # police village (historic Ontario unincorporated settlement)
     "Q15640053",   # lower-tier municipality of Ontario
     "Q7643933",    # single-tier municipality
     "Q5765388",    # separated municipality in Ontario
@@ -112,6 +113,27 @@ GOOD_P31_QIDS = {
     "Q130626256",  # city in Canada
     "Q618123",     # geographical feature (also has local urban district)
 }
+
+# Province → set of accepted Wikidata QIDs (for P131 chain verification).
+# Some provinces have multiple QIDs in active use (e.g. Q1973 and Q1974 for BC).
+PROVINCE_QIDS = {
+    "AB": {"Q1951"},          # Alberta
+    "BC": {"Q1974", "Q1973"}, # British Columbia (two QIDs in use)
+    "MB": {"Q1948"},          # Manitoba
+    "NB": {"Q1965"},          # New Brunswick
+    "NL": {"Q1969"},          # Newfoundland and Labrador
+    "NS": {"Q1952"},          # Nova Scotia
+    "ON": {"Q1904"},          # Ontario
+    "PE": {"Q1959"},          # Prince Edward Island
+    "QC": {"Q176"},           # Quebec
+    "SK": {"Q1989"},          # Saskatchewan
+    "NT": {"Q2007"},          # Northwest Territories
+    "YT": {"Q2009"},          # Yukon
+    "NU": {"Q1880"},          # Nunavut
+}
+
+# Maximum allowed distance (km) between CSD centroid and Wikidata coordinate
+MAX_DISTANCE_KM = 50
 
 # Entity types that are ALWAYS wrong for a CSD
 BAD_TYPES = {
@@ -346,21 +368,110 @@ def fetch_wikidata_entities(qids):
     return results
 
 
+def _entity_p131(entity):
+    """Extract P131 (located in admin entity) QIDs from an entity."""
+    out = []
+    for claim in entity.get("claims", {}).get("P131", []):
+        v = claim.get("mainsnak", {}).get("datavalue", {}).get("value", {})
+        if isinstance(v, dict) and "id" in v:
+            out.append(v["id"])
+    return out
+
+
+def _entity_coord(entity):
+    """Extract P625 (coordinate location) lat/lon from an entity."""
+    for claim in entity.get("claims", {}).get("P625", []):
+        v = claim.get("mainsnak", {}).get("datavalue", {}).get("value", {})
+        if isinstance(v, dict) and "latitude" in v:
+            return float(v["latitude"]), float(v["longitude"])
+    return None
+
+
+def _load_centroids_and_provinces():
+    """Build {csd_id: (lat, lon)} and {csd_id: province} from queue + matches."""
+    centroids = {}
+    provinces = {}
+    queue = load_queue()
+    for r in queue:
+        provinces[r["csd_id"]] = r.get("province") or r["csd_id"][:2]
+        try:
+            if r.get("lat") and r.get("lon"):
+                centroids[r["csd_id"]] = (float(r["lat"]), float(r["lon"]))
+        except (ValueError, TypeError):
+            pass
+    for row in load_matches():
+        cid = row["csd_id"]
+        provinces.setdefault(cid, cid[:2])
+        if cid not in centroids:
+            try:
+                centroids[cid] = (float(row["our_lat"]), float(row["our_lon"]))
+            except (ValueError, TypeError):
+                pass
+    return centroids, provinces
+
+
+def _reaches_province(start_qid, target_prov_qids, all_entities, max_depth=5):
+    """Walk the P131 chain from start_qid looking for any target_prov_qids."""
+    seen = set()
+    stack = [(start_qid, 0)]
+    while stack:
+        qid, depth = stack.pop()
+        if qid in target_prov_qids:
+            return True
+        if depth >= max_depth or qid in seen:
+            continue
+        seen.add(qid)
+        ent = all_entities.get(qid)
+        if not ent:
+            continue
+        for parent in _entity_p131(ent):
+            stack.append((parent, depth + 1))
+    return False
+
+
 def verify(args):
-    """Batch-verify all verified matches against Wikidata API."""
+    """Batch-verify all verified matches against Wikidata API.
+
+    Checks every matched QID for:
+      - entity exists
+      - label is consistent
+      - P31 (instance of) is a settlement/municipality type
+      - P131 chain reaches the expected province
+      - P625 coordinate is within MAX_DISTANCE_KM of CSD centroid
+    """
     verified = load_verified()
     if not verified:
         print("No verified matches to check.")
         return
+
+    centroids, provinces = _load_centroids_and_provinces()
 
     qids = list(set(v["wikidata_qid"] for v in verified.values() if v.get("wikidata_qid")))
     print(f"Verifying {len(qids)} unique QIDs from {len(verified)} matches...")
 
     entities = fetch_wikidata_entities(qids)
 
+    # Iteratively resolve P131 parents until the chain bottoms out (or hits
+    # max depth). Quebec municipalities typically need 3 hops:
+    # municipality → MRC → administrative region → Quebec.
+    province_qid_set = set()
+    for s in PROVINCE_QIDS.values():
+        province_qid_set.update(s)
+    for hop in range(1, 5):
+        needed = set()
+        for ent in list(entities.values()):
+            for parent in _entity_p131(ent):
+                if parent not in entities and parent not in province_qid_set:
+                    needed.add(parent)
+        if not needed:
+            break
+        print(f"Resolving {len(needed)} P131 parents (hop {hop})...")
+        entities.update(fetch_wikidata_entities(sorted(needed)))
+
     good = 0
     warnings = 0
     bad = 0
+    bad_records = []
 
     for csd_id, match in sorted(verified.items()):
         qid = match.get("wikidata_qid")
@@ -368,40 +479,78 @@ def verify(args):
             continue
 
         if qid not in entities:
-            print(f"  MISSING: {csd_id} → {qid} (not found in Wikidata)")
+            msg = f"MISSING: {csd_id} → {qid} (not found in Wikidata)"
+            print(f"  {msg}")
             bad += 1
+            bad_records.append(msg)
             continue
 
         entity = entities[qid]
-
-        # Check label match
         wd_label = entity.get("labels", {}).get("en", {}).get("value", "")
+        wd_desc = entity.get("descriptions", {}).get("en", {}).get("value", "")
         our_label = match.get("wikidata_label", "")
 
+        is_bad = False
+
+        # Label sanity check
         if wd_label.lower() != our_label.lower():
-            # Allow substring matching
-            if wd_label.lower() in our_label.lower() or our_label.lower() in wd_label.lower():
-                pass  # Close enough
+            if (wd_label.lower() in our_label.lower()
+                    or our_label.lower() in wd_label.lower()):
+                pass
             else:
                 print(f"  LABEL MISMATCH: {csd_id} → {qid}: "
                       f"we have \"{our_label}\", Wikidata has \"{wd_label}\"")
                 warnings += 1
 
-        # Check P31 types
-        claims = entity.get("claims", {})
-        p31_claims = claims.get("P31", [])
+        # P31 type check
         p31_qids = set()
-        for claim in p31_claims:
-            mainsnak = claim.get("mainsnak", {})
-            datavalue = mainsnak.get("datavalue", {})
-            value = datavalue.get("value", {})
-            if isinstance(value, dict) and "id" in value:
-                p31_qids.add(value["id"])
-
+        for claim in entity.get("claims", {}).get("P31", []):
+            v = claim.get("mainsnak", {}).get("datavalue", {}).get("value", {})
+            if isinstance(v, dict) and "id" in v:
+                p31_qids.add(v["id"])
         if p31_qids and not p31_qids.intersection(GOOD_P31_QIDS):
-            wd_desc = entity.get("descriptions", {}).get("en", {}).get("value", "")
-            print(f"  BAD TYPE: {csd_id} \"{match['csd_name']}\" → {qid} \"{wd_label}\" "
-                  f"({wd_desc}) P31={p31_qids}")
+            msg = (f"BAD TYPE: {csd_id} \"{match['csd_name']}\" → {qid} "
+                   f"\"{wd_label}\" ({wd_desc}) P31={p31_qids}")
+            print(f"  {msg}")
+            is_bad = True
+            bad_records.append(msg)
+
+        # P131 province check
+        prov = provinces.get(csd_id, csd_id[:2])
+        target_set = PROVINCE_QIDS.get(prov)
+        if target_set:
+            if not _reaches_province(qid, target_set, entities):
+                p131 = _entity_p131(entity)
+                if not p131:
+                    # Empty P131: probably a stub entity. Can't prove wrong
+                    # province but worth flagging.
+                    print(f"  STUB (empty P131): {csd_id} \"{match['csd_name']}\""
+                          f" → {qid} \"{wd_label}\" ({wd_desc})")
+                    warnings += 1
+                else:
+                    msg = (f"WRONG PROVINCE: {csd_id} \"{match['csd_name']}\" "
+                           f"→ {qid} \"{wd_label}\" — expected {prov} "
+                           f"({sorted(target_set)}); P131={p131}")
+                    print(f"  {msg}")
+                    is_bad = True
+                    bad_records.append(msg)
+
+        # P625 distance check
+        coord = _entity_coord(entity)
+        cent = centroids.get(csd_id)
+        if coord and cent:
+            dist = haversine(cent[0], cent[1], coord[0], coord[1])
+            if dist > MAX_DISTANCE_KM:
+                msg = (f"FAR: {csd_id} \"{match['csd_name']}\" → {qid} "
+                       f"\"{wd_label}\" {dist:.1f} km from centroid "
+                       f"(centroid={cent}, wd={coord})")
+                print(f"  {msg}")
+                # Distance > 50 km is a warning, not auto-fail: Wikidata
+                # coordinates are sometimes stale (especially SK RMs). The
+                # P131 + label + P31 checks above are the hard gates.
+                warnings += 1
+
+        if is_bad:
             bad += 1
         else:
             good += 1
