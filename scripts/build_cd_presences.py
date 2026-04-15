@@ -172,10 +172,11 @@ def extract_p10_csd_within_cd(csd_gdf: gpd.GeoDataFrame, cd_gdf: gpd.GeoDataFram
     csd_gdf = csd_gdf.copy()
     csd_gdf['cd_id'] = 'CD_' + csd_gdf['pr'] + '_' + csd_gdf['cd_name'].str.replace(' ', '_')
 
+    # C3: no edge properties. The year is encoded in the presence IDs
+    # (MB008010_1901), and each presence links to its E4_Period via P164.
     relationships = pd.DataFrame({
         ':START_ID': csd_gdf['tcpuid'] + f'_{year}',  # CSD presence
         ':END_ID': csd_gdf['cd_id'] + f'_{year}',  # CD presence
-        'during_period': f'CENSUS_{year}',
         ':TYPE': 'P10_falls_within'
     })
 

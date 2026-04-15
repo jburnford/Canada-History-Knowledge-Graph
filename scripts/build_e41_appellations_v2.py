@@ -103,11 +103,12 @@ def create_p1_is_identified_by(canonical_df: pd.DataFrame,
     # Canonical: persistent_place -> E41_Appellation
     for tcpuid in ocr_corrections['tcpuid'].unique():
         place_id = raw_to_place.get(tcpuid, f'PLACE_{tcpuid}')
+        # C3: no edge properties. The canonical/variant/tcp_uid distinction
+        # lives on the appellation/identifier node itself (its `type` column).
         relationships.append({
             ':START_ID': place_id,
             ':END_ID': f'APP_{tcpuid}_CANONICAL',
             ':TYPE': 'P1_is_identified_by',
-            'type': 'canonical_name'
         })
 
     # Variant: E93_Presence -> E41_Appellation (unchanged)
@@ -118,7 +119,6 @@ def create_p1_is_identified_by(canonical_df: pd.DataFrame,
                 ':START_ID': presence_id,
                 ':END_ID': f"APP_{row['tcpuid']}_{int(row['year'])}_VARIANT",
                 ':TYPE': 'P1_is_identified_by',
-                'type': 'variant_name'
             })
 
     return pd.DataFrame(relationships)
@@ -153,7 +153,6 @@ def create_e42_identifiers(places_dir: Path) -> tuple:
             ':START_ID': presence_id,
             ':END_ID': identifier_id,
             ':TYPE': 'P1_is_identified_by',
-            'type': 'tcp_uid'
         })
 
     print(f"  Created {len(identifiers)} E42_Identifier nodes (TCP UID provenance)", file=sys.stderr)
@@ -208,17 +207,17 @@ def main():
     print(f"  Wrote {len(e42_nodes)} E42_Identifier nodes", file=sys.stderr)
     print(f"  Wrote {len(e42_rels)} provenance relationships", file=sys.stderr)
 
-    # Summary
+    # Summary. P1 relationship rows no longer carry a type column (C3: no
+    # edge properties); the canonical/variant distinction lives on the
+    # E41_Appellation node itself.
     canonical_count = len(appellations[appellations['type'] == 'canonical']) if len(appellations) > 0 else 0
     variant_count = len(appellations[appellations['type'] == 'variant']) if len(appellations) > 0 else 0
-    canonical_links = len(p1_rels[p1_rels['type'] == 'canonical_name']) if len(p1_rels) > 0 else 0
-    variant_links = len(p1_rels[p1_rels['type'] == 'variant_name']) if len(p1_rels) > 0 else 0
 
     print(f"\n{'='*60}", file=sys.stderr)
     print(f"SUMMARY", file=sys.stderr)
     print(f"{'='*60}", file=sys.stderr)
     print(f"E41_Appellation: {len(appellations)} ({canonical_count} canonical, {variant_count} variants)", file=sys.stderr)
-    print(f"P1 relationships: {len(p1_rels)} ({canonical_links} canonical, {variant_links} variant)", file=sys.stderr)
+    print(f"P1 relationships: {len(p1_rels)}", file=sys.stderr)
     print(f"E42_Identifier: {len(e42_nodes)} (TCP UID provenance)", file=sys.stderr)
     print(f"Output: {out_dir}/", file=sys.stderr)
 
