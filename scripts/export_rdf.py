@@ -44,13 +44,25 @@ def escape_turtle(s: str) -> str:
     return s.replace("\\", "\\\\").replace('"', '\\"').replace("\n", "\\n").replace("\r", "")
 
 
+# Characters safe in a Turtle prefixed-name local part (conservative subset).
+_SAFE_LOCAL_RE = re.compile(r"[^A-Za-z0-9_.\-]")
+
+
+def safe_local(neo4j_id: str) -> str:
+    """Percent-encode characters that aren't valid in a Turtle prefixed local name."""
+    return _SAFE_LOCAL_RE.sub(lambda m: f"%{ord(m.group()):02X}", neo4j_id)
+
+
+def b(neo4j_id: str) -> str:
+    """Emit a base:-prefixed URI with safe local name encoding."""
+    return f"base:{safe_local(neo4j_id)}"
+
+
 def uri(neo4j_id: str, uri_map: dict | None = None) -> str:
     if uri_map and neo4j_id in uri_map:
         u = uri_map[neo4j_id]
-        if u.startswith("http://www.wikidata.org/"):
-            return f"<{u}>"
         return f"<{u}>"
-    return f"base:{neo4j_id}"
+    return b(neo4j_id)
 
 
 def read_csv(path: Path) -> list[dict]:
@@ -269,13 +281,13 @@ def main():
             # --- Shared nodes ---
             f.write("\n# E4_Period nodes\n")
             for r in e4_periods:
-                s = f"base:{r['period_id:ID']}"
+                s = b(r['period_id:ID'])
                 triple(s, "a", "crm:E4_Period")
                 triple(s, "rdfs:label", lang(r["label"]))
 
             f.write("\n# E52_Time-Span nodes\n")
             for r in e52_timespans:
-                s = f"base:{r['timespan_id:ID']}"
+                s = b(r['timespan_id:ID'])
                 triple(s, "a", "crm:E52_Time-Span")
                 triple(s, "rdfs:label", lang(r["label"]))
                 triple(s, "crm:P82a_begin_of_the_begin", lit(r["begin_of_begin"], "xsd:date"))
@@ -283,7 +295,7 @@ def main():
 
             f.write("\n# P4: E4_Period → E52_Time-Span\n")
             for r in p4_period_ts:
-                triple(f"base:{r[':START_ID']}", "crm:P4_has_time-span", f"base:{r[':END_ID']}")
+                triple(b(r[':START_ID']), "crm:P4_has_time-span", b(r[':END_ID']))
 
             f.write("\n# E58_Measurement_Unit nodes\n")
             emitted_units = set()
@@ -292,7 +304,7 @@ def main():
                 if uid in emitted_units:
                     continue
                 emitted_units.add(uid)
-                s = f"base:{uid}"
+                s = b(uid)
                 triple(s, "a", "crm:E58_Measurement_Unit")
                 triple(s, "rdfs:label", lang(r["label"]))
                 if r.get("wikidata_qid"):
@@ -300,13 +312,13 @@ def main():
 
             f.write("\n# E55_Type nodes (variable types)\n")
             for r in e55_types:
-                s = f"base:{r['type_id:ID']}"
+                s = b(r['type_id:ID'])
                 triple(s, "a", "crm:E55_Type")
                 triple(s, "rdfs:label", lang(r.get("label", r["type_id:ID"])))
 
             f.write("\n# E73_Information_Object (provenance)\n")
             for r in e73_objects:
-                s = f"base:{r['info_object_id:ID']}"
+                s = b(r['info_object_id:ID'])
                 triple(s, "a", "crm:E73_Information_Object")
                 triple(s, "rdfs:label", lang(r["label"]))
                 if r.get("access_uri"):
@@ -326,7 +338,7 @@ def main():
 
             f.write(f"\n# E33_E41_Linguistic_Appellation ({prov})\n")
             for r in prov_apps:
-                s = f"base:{r['appellation_id:ID']}"
+                s = b(r['appellation_id:ID'])
                 triple(s, "a", "crm:E33_E41_Linguistic_Appellation")
                 triple(s, "rdfs:label", lang(f"Name: {r['name']}"))
                 triple(s, "crm:P190_has_symbolic_content", lit(r["name"]))
@@ -338,12 +350,12 @@ def main():
                 if key in seen_p1:
                     continue
                 seen_p1.add(key)
-                s = uri(r[":START_ID"], uri_map) if r[":START_ID"] in place_ids else f"base:{r[':START_ID']}"
-                triple(s, "crm:P1_is_identified_by", f"base:{r[':END_ID']}")
+                s = uri(r[":START_ID"], uri_map) if r[":START_ID"] in place_ids else b(r[':START_ID'])
+                triple(s, "crm:P1_is_identified_by", b(r[':END_ID']))
 
             f.write(f"\n# E93_Presence ({prov} CSDs)\n")
             for r in prov_presences:
-                s = f"base:{r['presence_id:ID']}"
+                s = b(r['presence_id:ID'])
                 triple(s, "a", "crm:E93_Presence")
                 name = r.get("name", r["presence_id:ID"])
                 year_m = re.search(r"_(\d{4})$", r["presence_id:ID"])
@@ -352,28 +364,28 @@ def main():
 
             f.write(f"\n# E93_Presence ({prov} CDs)\n")
             for r in cd_presences:
-                s = f"base:{r['presence_id:ID']}"
+                s = b(r['presence_id:ID'])
                 triple(s, "a", "crm:E93_Presence")
                 triple(s, "rdfs:label", lang(r.get("label", r["presence_id:ID"])))
 
             f.write(f"\n# P166: E93_Presence → E53_Place\n")
             for r in prov_p166:
-                triple(f"base:{r[':START_ID']}", "crm:P166i_was_a_presence_of",
+                triple(b(r[':START_ID']), "crm:P166i_was_a_presence_of",
                        uri(r[":END_ID"], uri_map))
 
             f.write(f"\n# P164: E93_Presence → E4_Period\n")
             for r in prov_p164:
-                triple(f"base:{r[':START_ID']}", "crm:P164_is_temporally_specified_by",
-                       f"base:{r[':END_ID']}")
+                triple(b(r[':START_ID']), "crm:P164_is_temporally_specified_by",
+                       b(r[':END_ID']))
 
             f.write(f"\n# P4: E93_Presence → E52_Time-Span\n")
             for r in prov_p4_ts:
-                triple(f"base:{r[':START_ID']}", "crm:P4_has_time-span", f"base:{r[':END_ID']}")
+                triple(b(r[':START_ID']), "crm:P4_has_time-span", b(r[':END_ID']))
 
             f.write(f"\n# E94_Space_Primitive + P161 + P168 WKT\n")
             for r in all_space:
                 sid = r["space_id:ID"]
-                s = f"base:{sid}"
+                s = b(sid)
                 lat = r.get("latitude", r.get("lat", ""))
                 lon = r.get("longitude", r.get("lon", ""))
                 if lat and lon:
@@ -384,41 +396,41 @@ def main():
 
             f.write(f"\n# P161: E93_Presence → E94_Space_Primitive\n")
             for r in prov_p161:
-                triple(f"base:{r[':START_ID']}", "crm:P161_has_spatial_projection",
-                       f"base:{r[':END_ID']}")
+                triple(b(r[':START_ID']), "crm:P161_has_spatial_projection",
+                       b(r[':END_ID']))
 
             f.write(f"\n# P10: CSD presence → CD presence\n")
             for r in prov_p10:
-                triple(f"base:{r[':START_ID']}", "crm:P10_falls_within", f"base:{r[':END_ID']}")
+                triple(b(r[':START_ID']), "crm:P10_falls_within", b(r[':END_ID']))
 
             f.write(f"\n# P122: E93 borders + E16/E54/E58 reification\n")
             for r in prov_p122:
-                triple(f"base:{r[':START_ID']}", "crm:P122_borders_with", f"base:{r[':END_ID']}")
+                triple(b(r[':START_ID']), "crm:P122_borders_with", b(r[':END_ID']))
             for r in prov_e16_border:
-                s = f"base:{r['measurement_id:ID']}"
+                s = b(r['measurement_id:ID'])
                 triple(s, "a", "crm:E16_Measurement")
                 triple(s, "rdfs:label", lang(f"Border length measurement ({r.get('year:int', '')})"))
             for r in prov_e54_border:
-                s = f"base:{r['dimension_id:ID']}"
+                s = b(r['dimension_id:ID'])
                 triple(s, "a", "crm:E54_Dimension")
                 triple(s, "crm:P90_has_value", lit(r["value:float"], "xsd:decimal"))
             for r in prov_p39_border:
-                triple(f"base:{r[':START_ID']}", "crm:P39_measured", f"base:{r[':END_ID']}")
+                triple(b(r[':START_ID']), "crm:P39_measured", b(r[':END_ID']))
             for r in prov_p40_border:
-                triple(f"base:{r[':START_ID']}", "crm:P40_observed_dimension", f"base:{r[':END_ID']}")
+                triple(b(r[':START_ID']), "crm:P40_observed_dimension", b(r[':END_ID']))
             for r in prov_p91_border:
-                triple(f"base:{r[':START_ID']}", "crm:P91_has_unit", f"base:{r[':END_ID']}")
+                triple(b(r[':START_ID']), "crm:P91_has_unit", b(r[':END_ID']))
 
             # --- Census observations ---
             f.write(f"\n# E16_Measurement (census observations)\n")
             for r in prov_e16_obs:
-                s = f"base:{r['measurement_id:ID']}"
+                s = b(r['measurement_id:ID'])
                 triple(s, "a", "crm:E16_Measurement")
                 triple(s, "rdfs:label", lang(r["label"]))
 
             f.write(f"\n# E54_Dimension (census values)\n")
             for r in prov_e54_obs:
-                s = f"base:{r['dimension_id:ID']}"
+                s = b(r['dimension_id:ID'])
                 triple(s, "a", "crm:E54_Dimension")
                 v = r.get("value:float", "")
                 vs = r.get("value_string", "")
@@ -429,17 +441,17 @@ def main():
 
             f.write(f"\n# Census observation relationships\n")
             for r in prov_p39_obs:
-                triple(f"base:{r[':START_ID']}", "crm:P39_measured", f"base:{r[':END_ID']}")
+                triple(b(r[':START_ID']), "crm:P39_measured", b(r[':END_ID']))
             for r in prov_p40_obs:
-                triple(f"base:{r[':START_ID']}", "crm:P40_observed_dimension", f"base:{r[':END_ID']}")
+                triple(b(r[':START_ID']), "crm:P40_observed_dimension", b(r[':END_ID']))
             for r in prov_p91_obs:
-                triple(f"base:{r[':START_ID']}", "crm:P91_has_unit", f"base:{r[':END_ID']}")
+                triple(b(r[':START_ID']), "crm:P91_has_unit", b(r[':END_ID']))
             for r in prov_p2_obs:
-                triple(f"base:{r[':START_ID']}", "crm:P2_has_type", f"base:{r[':END_ID']}")
+                triple(b(r[':START_ID']), "crm:P2_has_type", b(r[':END_ID']))
             for r in prov_p4_meas_ts:
-                triple(f"base:{r[':START_ID']}", "crm:P4_has_time-span", f"base:{r[':END_ID']}")
+                triple(b(r[':START_ID']), "crm:P4_has_time-span", b(r[':END_ID']))
             for r in prov_p70_obs:
-                triple(f"base:{r[':START_ID']}", "crm:P70_documents", f"base:{r[':END_ID']}")
+                triple(b(r[':START_ID']), "crm:P70_documents", b(r[':END_ID']))
 
         size_mb = ttl_path.stat().st_size / (1024 * 1024)
         print(f"\n  Wrote {triple_count:,} triples → {ttl_path.name} ({size_mb:.1f} MB)")
