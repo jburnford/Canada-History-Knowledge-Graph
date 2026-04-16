@@ -95,6 +95,13 @@ class CensusDataV2:
 
         # Tracking
         self.source_files = set()
+        # Dedup: the same (tcpuid, year, var) may be reported by multiple
+        # source tables. We emit one canonical E16/E54 per key and append an
+        # extra P70_documents edge for each additional source that reports it.
+        self.emitted_measurements: set[str] = set()
+        # Counters for the final summary
+        self.rows_skipped_non_csd = 0
+        self.duplicate_measurements = 0
 
 
 # ============================================================================
@@ -192,11 +199,22 @@ def process_census_table_v2(table_path, year, gdf_mapping, id_col_name, mastvar_
     """Process a single census table and create v2.0 observations."""
     print(f"\n  Processing {table_path.name}...")
 
-    # Read table
+    # Read table. Some older-year tables have three metadata rows before the
+    # real header (skiprows=3); newer-year tables (1911, 1921) have the header
+    # on row 0 but use `{source_name}_{year}` as the ID column instead of
+    # `TCPUID_CSD_{year}`. Accept either column name as proof of a valid read.
+    def _has_id_column(frame) -> bool:
+        if f'TCPUID_CSD_{year}' in frame.columns:
+            return True
+        return any(
+            str(c) == f'{source_name}_{year}' or f'{source_name}_{year}' in str(c)
+            for c in frame.columns
+        )
+
     df = None
     try:
         df = pd.read_excel(table_path)
-        if f'TCPUID_CSD_{year}' not in df.columns:
+        if not _has_id_column(df):
             df = pd.read_excel(table_path, skiprows=3)
     except Exception as e:
         print(f"    ERROR reading file: {e}")
@@ -247,6 +265,24 @@ def process_census_table_v2(table_path, year, gdf_mapping, id_col_name, mastvar_
         if pd.isna(csd_table_id):
             continue
 
+        # Skip aggregate rows (country + CD-level). We only want CSD-level
+        # measurements in this output; CD and country totals can be derived
+        # downstream from the CSD-level data, and including them here triples
+        # any naive sum across the province (see workshop validation memo).
+        # Some rows have non-numeric CD_NO like "20N" — treat those as valid
+        # CSD rows (if CD_NO isn't a plain zero, it's not the aggregate row).
+        def _is_zero(v) -> bool:
+            if pd.isna(v):
+                return False
+            try:
+                return int(v) == 0
+            except (ValueError, TypeError):
+                return False
+
+        if _is_zero(row.get('CSD_NO')) or _is_zero(row.get('CD_NO')):
+            data_v2.rows_skipped_non_csd += 1
+            continue
+
         # Validate ID exists in GDB
         if gdf_mapping is not None:
             match = gdf_mapping[gdf_mapping[id_col_name] == csd_table_id]
@@ -283,18 +319,29 @@ def process_census_table_v2(table_path, year, gdf_mapping, id_col_name, mastvar_
             # Infer unit
             unit_id = infer_unit_id(var_name_normalized)
 
-            # Create E16_Measurement
+            measurement_id = f"MEAS_{tcpuid}_{year}_{var_name_normalized}"
+            dimension_id = f"DIM_{tcpuid}_{year}_{var_name_normalized}"
+            variable_type_id = f"VAR_{var_name_normalized}"
+
+            # Always emit a P70_documents edge for this source, even when
+            # the (tcpuid, year, var) was already reported by another table.
+            # That preserves full provenance without duplicating :IDs.
+            data_v2.p70_documents.append({
+                ':START_ID': info_obj['info_object_id:ID'],
+                ':END_ID': measurement_id,
+                ':TYPE': 'P70_documents'
+            })
+
+            if measurement_id in data_v2.emitted_measurements:
+                data_v2.duplicate_measurements += 1
+                continue
+            data_v2.emitted_measurements.add(measurement_id)
+
             measurement = create_measurement(tcpuid, year, var_name_normalized, category, source_name)
             data_v2.measurements.append(measurement)
 
-            # Create E54_Dimension
             dimension = create_dimension(tcpuid, year, var_name_normalized, value_numeric, value_string)
             data_v2.dimensions.append(dimension)
-
-            # Create relationships
-            measurement_id = measurement['measurement_id:ID']
-            dimension_id = dimension['dimension_id:ID']
-            variable_type_id = f"VAR_{var_name_normalized}"
 
             data_v2.p39_measured.append({
                 ':START_ID': measurement_id,
@@ -324,12 +371,6 @@ def process_census_table_v2(table_path, year, gdf_mapping, id_col_name, mastvar_
                 ':START_ID': measurement_id,
                 ':END_ID': timespan_id,
                 ':TYPE': 'P4_has_time-span'
-            })
-
-            data_v2.p70_documents.append({
-                ':START_ID': info_obj['info_object_id:ID'],
-                ':END_ID': measurement_id,
-                ':TYPE': 'P70_documents'
             })
 
             observations_created += 1
@@ -450,34 +491,60 @@ def export_v2_csvs(data_v2, output_dir):
     df.to_csv(output_dir / 'e4_periods.csv', index=False)
     print(f"  ✓ E4 periods: {len(df)} → e4_periods.csv")
 
-    # E16_Measurement (all)
-    df = pd.DataFrame(data_v2.measurements)
-    df.to_csv(output_dir / 'e16_measurements_all.csv', index=False)
-    print(f"  ✓ E16 measurements: {len(df):,} → e16_measurements_all.csv")
-
-    # E54_Dimension (all)
-    df = pd.DataFrame(data_v2.dimensions)
-    df.to_csv(output_dir / 'e54_dimensions_all.csv', index=False)
-    print(f"  ✓ E54 dimensions: {len(df):,} → e54_dimensions_all.csv")
-
-    # E73_Information_Object (all)
+    # E73_Information_Object (all years in one file — small)
     df = pd.DataFrame(data_v2.info_objects)
     df.to_csv(output_dir / 'e73_information_objects.csv', index=False)
     print(f"  ✓ E73 info objects: {len(df)} → e73_information_objects.csv")
 
-    # Relationships
-    for name, data, filename in [
-        ('P39 measured', data_v2.p39_measured, 'p39_measured_all.csv'),
-        ('P40 observed_dimension', data_v2.p40_observed_dimension, 'p40_observed_dimension_all.csv'),
-        ('P91 has_unit', data_v2.p91_has_unit, 'p91_has_unit_all.csv'),
-        ('P2 has_type', data_v2.p2_has_type, 'p2_has_type_all.csv'),
-        ('P4 measurement→timespan', data_v2.p4_measurement_timespan, 'p4_measurement_timespan_all.csv'),
-        ('P4 period→timespan', data_v2.p4_period_timespan, 'p4_period_timespan.csv'),
-        ('P70 documents', data_v2.p70_documents, 'p70_documents_all.csv'),
+    # Measurement/dimension nodes and their relationships are split per-year
+    # to keep individual files under GitHub's 100MB hard limit. The year is
+    # embedded in the measurement/dimension IDs ("MEAS_{tcpuid}_{year}_{var}"
+    # and "DIM_{tcpuid}_{year}_{var}") and in the :END_ID of the period-level
+    # P70_documents edges via the measurement_id. Group by parsing year out
+    # of the relevant ID field.
+    year_re = re.compile(r'_(\d{4})_')
+
+    def _year_from_id_field(row: dict, field: str) -> int | None:
+        m = year_re.search(str(row.get(field, '')))
+        return int(m.group(1)) if m else None
+
+    def _split_and_write(data: list, stem: str, year_field: str) -> int:
+        by_year: dict[int, list] = {}
+        for r in data:
+            y = _year_from_id_field(r, year_field)
+            if y is None:
+                continue
+            by_year.setdefault(y, []).append(r)
+        written = 0
+        for y in sorted(by_year):
+            df = pd.DataFrame(by_year[y])
+            path = output_dir / f'{stem}_{y}.csv'
+            df.to_csv(path, index=False)
+            print(f"  ✓ {stem}_{y}: {len(df):,} rows")
+            written += len(df)
+        return written
+
+    print("\n  E16_Measurement (per year):")
+    total_e16 = _split_and_write(data_v2.measurements, 'e16_measurements', 'measurement_id:ID')
+
+    print("\n  E54_Dimension (per year):")
+    total_e54 = _split_and_write(data_v2.dimensions, 'e54_dimensions', 'dimension_id:ID')
+
+    for label, rows, stem, year_field in [
+        ('P39 measured',          data_v2.p39_measured,            'p39_measured',            ':START_ID'),
+        ('P40 observed_dimension', data_v2.p40_observed_dimension, 'p40_observed_dimension',  ':START_ID'),
+        ('P91 has_unit',          data_v2.p91_has_unit,            'p91_has_unit',            ':START_ID'),
+        ('P2 has_type',           data_v2.p2_has_type,             'p2_has_type',             ':START_ID'),
+        ('P4 meas→timespan',      data_v2.p4_measurement_timespan, 'p4_measurement_timespan', ':START_ID'),
+        ('P70 documents',         data_v2.p70_documents,           'p70_documents',           ':END_ID'),
     ]:
-        df = pd.DataFrame(data)
-        df.to_csv(output_dir / filename, index=False)
-        print(f"  ✓ {name}: {len(df):,} → {filename}")
+        print(f"\n  {label} (per year):")
+        _split_and_write(rows, stem, year_field)
+
+    # P4 period→timespan stays as a single file — one row per census year.
+    df = pd.DataFrame(data_v2.p4_period_timespan)
+    df.to_csv(output_dir / 'p4_period_timespan.csv', index=False)
+    print(f"\n  ✓ P4 period→timespan: {len(df)} → p4_period_timespan.csv")
 
     # Summary
     print(f"\n  Summary:")
@@ -487,6 +554,10 @@ def export_v2_csvs(data_v2, output_dir):
     print(f"    Time-spans: {len(data_v2.timespans)}")
     print(f"    Periods: {len(data_v2.periods)}")
     print(f"    Source files: {len(data_v2.info_objects)}")
+    print(f"    Non-CSD rows skipped: {data_v2.rows_skipped_non_csd:,}")
+    print(f"    Duplicate (tcpuid, year, var) collapsed: "
+          f"{data_v2.duplicate_measurements:,} "
+          f"(extra P70 provenance edges emitted instead)")
 
 
 # ============================================================================
