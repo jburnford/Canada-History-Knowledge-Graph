@@ -178,6 +178,16 @@ def extract_p164_temporally_specified_by(gdf: gpd.GeoDataFrame, year: int) -> pd
     })
 
 
+def extract_p4_has_time_span(gdf: gpd.GeoDataFrame, year: int) -> pd.DataFrame:
+    """P4: E93_Presence -> E52_Time-Span (M5: explicit ISO 8601 bounds)."""
+    print(f"  Creating P4_has_time-span relationships...", file=sys.stderr)
+    return pd.DataFrame({
+        ':START_ID': gdf['tcpuid'] + f'_{year}',
+        ':END_ID': f'TIMESPAN_{year}',
+        ':TYPE': 'P4_has_time-span'
+    })
+
+
 def extract_p161_spatial_projection(gdf: gpd.GeoDataFrame, year: int) -> pd.DataFrame:
     """P161: E93_Presence -> E94_Space_Primitive - unchanged from v1."""
     print(f"  Creating P161_has_spatial_projection relationships...", file=sys.stderr)
@@ -352,6 +362,12 @@ def process_year(gdb_path: str, year: int, out_dir: Path,
     stats['p164'] = len(p164)
     print(f"  Wrote {len(p164)} P164_is_temporally_specified_by relationships")
 
+    # P4: Presence -> Time-Span (M5: explicit ISO bounds)
+    p4_ts = extract_p4_has_time_span(gdf, year)
+    p4_ts.to_csv(out_dir / f'p4_has_time_span_{year}.csv', index=False)
+    stats['p4_time_span'] = len(p4_ts)
+    print(f"  Wrote {len(p4_ts)} P4_has_time-span relationships")
+
     # P161: Presence -> Space Primitive (unchanged)
     p161 = extract_p161_spatial_projection(gdf, year)
     p161.to_csv(out_dir / f'p161_spatial_projection_{year}.csv', index=False)
@@ -407,7 +423,7 @@ def main():
 
     # E4_Period nodes (unchanged)
     print(f"\n{'='*60}", file=sys.stderr)
-    print(f"Creating E4_Period nodes", file=sys.stderr)
+    print(f"Creating E4_Period and E52_Time-Span nodes", file=sys.stderr)
     print(f"{'='*60}", file=sys.stderr)
     periods = pd.DataFrame({
         'period_id:ID': [f'CENSUS_{y}' for y in years],
@@ -417,6 +433,28 @@ def main():
     })
     periods.to_csv(out_dir / 'e4_period.csv', index=False)
     print(f"  Wrote {len(periods)} E4_Period nodes")
+
+    # E52_Time-Span nodes (M5: one per census year, shared across presences
+    # and measurements). The same TIMESPAN_YYYY IDs are also created by
+    # build_census_observations_v2.py — they must be idempotent.
+    timespans = pd.DataFrame({
+        'timespan_id:ID': [f'TIMESPAN_{y}' for y in years],
+        ':LABEL': 'E52_Time-Span',
+        'label': [f'Census Year {y}' for y in years],
+        'begin_of_begin': [f'{y}-01-01' for y in years],
+        'end_of_end': [f'{y}-12-31' for y in years],
+    })
+    timespans.to_csv(out_dir / 'e52_timespans.csv', index=False)
+    print(f"  Wrote {len(timespans)} E52_Time-Span nodes")
+
+    # P4: E4_Period -> E52_Time-Span (link census events to their date bounds)
+    p4_period_ts = pd.DataFrame({
+        ':START_ID': [f'CENSUS_{y}' for y in years],
+        ':END_ID': [f'TIMESPAN_{y}' for y in years],
+        ':TYPE': 'P4_has_time-span',
+    })
+    p4_period_ts.to_csv(out_dir / 'p4_period_timespan.csv', index=False)
+    print(f"  Wrote {len(p4_period_ts)} P4 period→timespan relationships")
 
     # E58_Measurement_Unit: shared across all years. Just one node (metre),
     # grounded to Wikidata Q11573 via owl:sameAs in the RDF export layer.
@@ -434,8 +472,8 @@ def main():
     all_cd_places = set()
     total_stats = {
         k: 0 for k in [
-            'presences', 'space_primitives', 'p166', 'p164', 'p161',
-            'p122_edges', 'border_measurements',
+            'presences', 'space_primitives', 'p166', 'p164', 'p4_time_span',
+            'p161', 'p122_edges', 'border_measurements',
         ]
     }
 
@@ -506,6 +544,7 @@ def main():
     print(f"\nRelationships:", file=sys.stderr)
     print(f"P166_was_a_presence_of: {total_stats['p166']:,}", file=sys.stderr)
     print(f"P164_is_temporally_specified_by: {total_stats['p164']:,}", file=sys.stderr)
+    print(f"P4_has_time-span (presence→E52): {total_stats['p4_time_span']:,}", file=sys.stderr)
     print(f"P161_has_spatial_projection: {total_stats['p161']:,}", file=sys.stderr)
     print(f"P122_borders_with (edges): {total_stats['p122_edges']:,}", file=sys.stderr)
     print(f"E16_Measurement (borders): {total_stats['border_measurements']:,}", file=sys.stderr)
