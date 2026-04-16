@@ -386,8 +386,8 @@ def main():
             for r in all_space:
                 sid = r["space_id:ID"]
                 s = b(sid)
-                lat = r.get("latitude", r.get("lat", ""))
-                lon = r.get("longitude", r.get("lon", ""))
+                lat = r.get("latitude:float", r.get("latitude", r.get("lat", "")))
+                lon = r.get("longitude:float", r.get("longitude", r.get("lon", "")))
                 if lat and lon:
                     triple(s, "a", "crm:E94_Space_Primitive")
                     wkt = f"POINT({lon} {lat})"
