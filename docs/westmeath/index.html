@@ -229,6 +229,7 @@ pre {
   <a href="#cidoc" onclick="showTab('cidoc',this)">CIDOC-CRM Model</a>
   <a href="#comparison" onclick="showTab('comparison',this)">Comparison</a>
   <a href="#queries" onclick="showTab('queries',this)">Queries</a>
+  <a href="#final-model" onclick="showTab('final-model',this)">Final Model &amp; Data</a>
 </nav>
 
 <div class="container">
@@ -1112,6 +1113,192 @@ MATCH (place:E53_Place {place_id: 'PLACE_ON142032'})
   -[r:P89_falls_within]-&gt;(cd:E53_Place {place_type: 'CD'})
 RETURN cd.name AS census_division, r.during_period
 ORDER BY r.during_period</pre>
+</div>
+
+</section>
+</div>
+
+<!-- ============================================================ -->
+<!-- FINAL MODEL & DATA -->
+<!-- ============================================================ -->
+<div id="final-model" class="tab-content">
+
+<section>
+<h2>Final LINCS-Compatible Model (April 2026)</h2>
+<p class="dim" style="margin-bottom:16px">The model documented on the <em>CIDOC-CRM Model</em> tab has been revised for LINCS compatibility. This tab describes the final published form, what changed, and where to get the data.</p>
+
+<h3>What Changed</h3>
+<div class="card lod-card">
+<table>
+<thead><tr><th>Issue</th><th>Before</th><th>After</th></tr></thead>
+<tbody>
+  <tr>
+    <td><strong>Place URIs</strong></td>
+    <td>Internal Neo4j IDs (<code>PLACE_ON065002</code>)</td>
+    <td>Wikidata URIs for grounded places (<code>wikidata:Q138886</code>), <code>http://temp.lincsproject.ca/census/place/{id}</code> for the rest. Per LINCS policy: reuse existing authority URIs; mint permanent URIs only at publication.</td>
+  </tr>
+  <tr>
+    <td><strong>Place names</strong></td>
+    <td>Flat <code>name</code> property on E53</td>
+    <td><code>E33_E41_Linguistic_Appellation</code> nodes linked via <code>P1_is_identified_by</code> with <code>P190_has_symbolic_content</code>. 13,654 appellation nodes (100% coverage).</td>
+  </tr>
+  <tr>
+    <td><strong>Edge properties</strong></td>
+    <td><code>P89</code> carried <code>during_period</code>; <code>P122</code> carried <code>during_period</code> + <code>shared_border_length_m</code></td>
+    <td><code>P89</code> deleted (redundant with presence-level <code>P10</code>). <code>P122</code> reified: thin E93&rarr;E93 edge + <code>E16_Measurement &rarr; E54_Dimension &rarr; E58_Measurement_Unit</code> cluster for border length.</td>
+  </tr>
+  <tr>
+    <td><strong>Temporal bounds</strong></td>
+    <td>Presences linked to <code>E4_Period</code> only</td>
+    <td>Also linked to <code>E52_Time-Span</code> via <code>P4_has_time-span</code> with <code>P82a_begin_of_the_begin</code> / <code>P82b_end_of_the_end</code> (ISO 8601).</td>
+  </tr>
+  <tr>
+    <td><strong>Census observations</strong></td>
+    <td>1851&ndash;1901 only; no SK or AB</td>
+    <td>1851&ndash;1921, all provinces. 1,561,527 unique measurements. SK 1921 population validated at 757,510 (exact match to published total).</td>
+  </tr>
+  <tr>
+    <td><strong>P122 endpoints</strong></td>
+    <td><code>E53_Place &rarr; E53_Place</code></td>
+    <td><code>E93_Presence &rarr; E93_Presence</code> (borders are per-year polygon facts, matching the <code>P10</code> precedent). <a href="https://github.com/jburnford/Canada-History-Knowledge-Graph/blob/main/docs/P122_PRESENCE_LEVEL_DECISION.md">Decision rationale</a>.</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+<h3>Final Node &amp; Relationship Counts</h3>
+<div class="card cidoc-card">
+<table>
+<thead><tr><th>CIDOC-CRM Class</th><th>Role</th><th>Count</th></tr></thead>
+<tbody>
+  <tr><td class="mono">E53_Place</td><td>Persistent place (CSD or CD)</td><td>12,798 CSD + 579 CD</td></tr>
+  <tr><td class="mono">E93_Presence</td><td>Place at a specific census year</td><td>20,811 CSD + 1,482 CD</td></tr>
+  <tr><td class="mono">E33_E41_Linguistic_Appellation</td><td>Place name (canonical, variant, or default)</td><td>13,654</td></tr>
+  <tr><td class="mono">E4_Period</td><td>Census year concept</td><td>8</td></tr>
+  <tr><td class="mono">E52_Time-Span</td><td>Temporal extent with ISO bounds</td><td>8</td></tr>
+  <tr><td class="mono">E94_Space_Primitive</td><td>Centroid coordinates</td><td>22,293</td></tr>
+  <tr><td class="mono">E16_Measurement</td><td>Census observation or border length</td><td>1,561,527 + 45,598 (borders)</td></tr>
+  <tr><td class="mono">E54_Dimension</td><td>Numeric value</td><td>1,561,527 + 45,598</td></tr>
+  <tr><td class="mono">E55_Type</td><td>Variable definition</td><td>490</td></tr>
+  <tr><td class="mono">E58_Measurement_Unit</td><td>Unit of measure</td><td>12 (persons, acres, metres, ...)</td></tr>
+  <tr><td class="mono">E42_Identifier</td><td>Original TCP UID (provenance)</td><td>18,770</td></tr>
+  <tr><td class="mono">E73_Information_Object</td><td>Source spreadsheet</td><td>27</td></tr>
+</tbody>
+</table>
+</div>
+
+<div class="card cidoc-card">
+<table>
+<thead><tr><th>Relationship</th><th>From &rarr; To</th><th>Notes</th></tr></thead>
+<tbody>
+  <tr><td class="mono">P166_was_a_presence_of</td><td>E93 &rarr; E53</td><td>Presence manifests place</td></tr>
+  <tr><td class="mono">P164_temporally_specified_by</td><td>E93 &rarr; E4</td><td>Presence belongs to census year</td></tr>
+  <tr><td class="mono">P4_has_time-span</td><td>E93 &rarr; E52</td><td>ISO 8601 date bounds</td></tr>
+  <tr><td class="mono">P161_has_spatial_projection</td><td>E93 &rarr; E94</td><td>Centroid coordinates</td></tr>
+  <tr><td class="mono">P168_place_is_defined_by</td><td>E94 &rarr; WKT literal</td><td><code>POINT(lon lat)</code> geometry</td></tr>
+  <tr><td class="mono">P1_is_identified_by</td><td>E53/E93 &rarr; E33_E41/E42</td><td>Names and identifiers</td></tr>
+  <tr><td class="mono">P190_has_symbolic_content</td><td>E33_E41 &rarr; literal</td><td>The actual name string</td></tr>
+  <tr><td class="mono">P10_falls_within</td><td>E93 (CSD) &rarr; E93 (CD)</td><td>Presence-level admin hierarchy</td></tr>
+  <tr><td class="mono">P122_borders_with</td><td>E93 &rarr; E93</td><td>Adjacent presences (per-year)</td></tr>
+  <tr><td class="mono">P39_measured</td><td>E16 &rarr; E93</td><td>What was measured</td></tr>
+  <tr><td class="mono">P40_observed_dimension</td><td>E16 &rarr; E54</td><td>Measured value</td></tr>
+  <tr><td class="mono">P90_has_value</td><td>E54 &rarr; literal</td><td>Numeric result</td></tr>
+  <tr><td class="mono">P91_has_unit</td><td>E54 &rarr; E58</td><td>Unit of measure</td></tr>
+  <tr><td class="mono">P2_has_type</td><td>E16 &rarr; E55</td><td>What variable</td></tr>
+  <tr><td class="mono">P70_documents</td><td>E73 &rarr; E16</td><td>Source table provenance</td></tr>
+  <tr><td class="mono">P132_spatiotemporally_overlaps</td><td>E93 &rarr; E93</td><td>Cross-year continuity (pending reification)</td></tr>
+</tbody>
+</table>
+</div>
+
+<h3>Wikidata Grounding</h3>
+<div class="card lod-card">
+<p>Census Subdivisions are grounded to Wikidata via MCP semantic vector search, verified with P31/P131 type and administrative-hierarchy checks.</p>
+<table style="margin-top:12px">
+<thead><tr><th>Province</th><th>Wikidata URIs</th><th>Temp URIs (unmatched)</th><th>Total decided</th></tr></thead>
+<tbody>
+  <tr><td>Ontario</td><td>1,047</td><td>413</td><td>1,460</td></tr>
+  <tr><td>Saskatchewan</td><td>701</td><td>93</td><td>794</td></tr>
+  <tr><td><em>Other provinces</em></td><td><em>887</em></td><td><em>25</em></td><td><em>912 + 9,607 ungrounded</em></td></tr>
+</tbody>
+</table>
+<p style="margin-top:12px;font-size:12px;color:#6b7280">Ungrounded places use <code>http://temp.lincsproject.ca/census/place/{tcpuid}</code>. Permanent <code>http://id.lincsproject.ca/...</code> URIs will be minted by LINCS at publication time.</p>
+</div>
+
+<h3>Download the Data</h3>
+<div class="card highlight">
+<p><strong>RDF/Turtle exports</strong> (CIDOC-CRM, LINCS-compatible):</p>
+<ul style="margin:12px 0 12px 20px">
+  <li><a href="https://github.com/jburnford/Canada-History-Knowledge-Graph/raw/main/rdf_export/sk_census_1851_1921.ttl.gz" style="color:#2563eb">Saskatchewan (378,691 triples, 27 MB)</a> &mdash; <code>sk_census_1851_1921.ttl.gz</code></li>
+  <li><a href="https://github.com/jburnford/Canada-History-Knowledge-Graph/raw/main/rdf_export/on_census_1851_1921.ttl.gz" style="color:#2563eb">Ontario (6,076,044 triples, 443 MB uncompressed)</a> &mdash; <code>on_census_1851_1921.ttl.gz</code></li>
+</ul>
+<p><strong>Neo4j CSV files</strong> (for loading into a property graph):</p>
+<ul style="margin:12px 0 12px 20px">
+  <li><a href="https://github.com/jburnford/Canada-History-Knowledge-Graph/tree/main/neo4j_cidoc_crm_v2" style="color:#2563eb"><code>neo4j_cidoc_crm_v2/</code></a> &mdash; Spatial structure, borders, appellations, identifiers</li>
+  <li><a href="https://github.com/jburnford/Canada-History-Knowledge-Graph/tree/main/neo4j_census_v2" style="color:#2563eb"><code>neo4j_census_v2/</code></a> &mdash; Census observations (1,561,527 measurements, 1851&ndash;1921)</li>
+</ul>
+<p><strong>Export script</strong>:</p>
+<ul style="margin:12px 0 0 20px">
+  <li><a href="https://github.com/jburnford/Canada-History-Knowledge-Graph/blob/main/scripts/export_rdf.py" style="color:#2563eb"><code>scripts/export_rdf.py</code></a> &mdash; generates per-province Turtle from the CSV files. Run <code>python3 scripts/export_rdf.py --provinces ON,SK</code> to regenerate.</li>
+</ul>
+</div>
+
+<h3>Known Limitations</h3>
+<div class="card">
+<ul style="margin-left:20px">
+  <li><strong>P132 edge properties</strong>: <code>spatiotemporally_overlaps_with</code> still carries <code>overlap_type</code>, <code>iou</code>, and fraction values as edge properties that vanish on RDF export. Needs proper reification (likely <code>E13_Attribute_Assignment</code>).</li>
+  <li><strong>P122 domain</strong>: edges run between <code>E93_Presence</code> nodes rather than <code>E53_Place</code>, which is pragmatically correct but technically outside CIDOC-CRM&rsquo;s formal domain for P122. See <a href="https://github.com/jburnford/Canada-History-Knowledge-Graph/blob/main/docs/P122_PRESENCE_LEVEL_DECISION.md" style="color:#2563eb">decision rationale</a>.</li>
+  <li><strong>Grounding coverage</strong>: Only ON and SK are fully verified. Other provinces have partial coverage (see Wikidata Grounding table above). The remaining ~1,975 CSDs will be grounded in a follow-up pass.</li>
+  <li><strong>Base URI</strong>: uses <code>http://temp.lincsproject.ca/census/</code> as a staging prefix. The final scheme will be decided with the LINCS team before publication.</li>
+</ul>
+</div>
+
+<h3>Sample Turtle</h3>
+<div class="card cidoc-card">
+<pre style="font-size:11px;overflow-x:auto;line-height:1.5"><code>@prefix crm: &lt;http://www.cidoc-crm.org/cidoc-crm/&gt; .
+@prefix wikidata: &lt;http://www.wikidata.org/entity/&gt; .
+@prefix base: &lt;http://temp.lincsproject.ca/census/&gt; .
+
+# Westmeath, Ontario (Wikidata-grounded E53_Place)
+wikidata:Q3132705 a crm:E53_Place ;
+    rdfs:label "Westmeath"@en .
+
+# Appellation
+base:APP_PLACE_ON142032_NAME a crm:E33_E41_Linguistic_Appellation ;
+    rdfs:label "Name: Westmeath"@en ;
+    crm:P190_has_symbolic_content "Westmeath" .
+
+wikidata:Q3132705 crm:P1_is_identified_by base:APP_PLACE_ON142032_NAME .
+
+# 1871 presence
+base:ON082003_1871 a crm:E93_Presence ;
+    rdfs:label "Westmeath (1871)"@en .
+
+base:ON082003_1871 crm:P166i_was_a_presence_of wikidata:Q3132705 .
+base:ON082003_1871 crm:P164_is_temporally_specified_by base:CENSUS_1871 .
+base:ON082003_1871 crm:P4_has_time-span base:TIMESPAN_1871 .
+
+# Time-span with ISO bounds
+base:TIMESPAN_1871 a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "1871-01-01"^^xsd:date ;
+    crm:P82b_end_of_the_end "1871-12-31"^^xsd:date .
+
+# WKT geometry
+base:ON082003_1871_centroid a crm:E94_Space_Primitive ;
+    crm:P168_place_is_defined_by "POINT(-76.884 45.763)"^^geo:wktLiteral .
+
+base:ON082003_1871 crm:P161_has_spatial_projection base:ON082003_1871_centroid .
+
+# Census observation
+base:MEAS_ON082003_1871_POP_TOT a crm:E16_Measurement ;
+    rdfs:label "POP_TOT for ON082003 in 1871"@en .
+
+base:MEAS_ON082003_1871_POP_TOT crm:P39_measured base:ON082003_1871 .
+base:MEAS_ON082003_1871_POP_TOT crm:P40_observed_dimension base:DIM_ON082003_1871_POP_TOT .
+
+base:DIM_ON082003_1871_POP_TOT a crm:E54_Dimension ;
+    crm:P90_has_value "2283.0"^^xsd:decimal ;
+    crm:P91_has_unit base:UNIT_PERSONS .</code></pre>
 </div>
 
 </section>
