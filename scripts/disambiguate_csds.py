@@ -46,6 +46,7 @@ GOOD_P31_QIDS = {
     "Q27676428",   # municipality (Quebec)
     "Q27676416",   # city or town of Quebec
     "Q27676420",   # village municipality of Quebec
+    "Q27676422",   # township municipality of Quebec
     "Q17143723",   # Catholic parish (can be valid for QC CSDs)
     "Q28203007",   # administrative sector
     "Q188509",     # suburb
@@ -65,6 +66,7 @@ GOOD_P31_QIDS = {
     "Q96759164",   # geographic township of Ontario (alternate QID)
     "Q2936646",    # township of Canada (generic)
     "Q102473225",  # geographic township of Quebec
+    "Q23019040",   # geographic township of Quebec (alternate QID)
     "Q34763",      # peninsula (some CSDs are peninsulas/islands)
     "Q28746",      # township municipality in Ontario
     "Q7209617",    # police village (historic Ontario unincorporated settlement)
@@ -99,6 +101,9 @@ GOOD_P31_QIDS = {
     "Q107150024",  # municipal district of Alberta
     # PEI
     "Q22978485",   # town in Prince Edward Island
+    "Q15068900",   # town in Prince Edward Island (alternate QID)
+    "Q3788231",    # municipal government in Canada
+    "Q115860085",  # fire district of Prince Edward Island
     # BC types
     "Q60458065",   # city in British Columbia
     "Q1549591",    # big city
@@ -124,7 +129,7 @@ PROVINCE_QIDS = {
     "NL": {"Q1969"},          # Newfoundland and Labrador
     "NS": {"Q1952"},          # Nova Scotia
     "ON": {"Q1904"},          # Ontario
-    "PE": {"Q1959"},          # Prince Edward Island
+    "PE": {"Q1959", "Q1978"},  # Prince Edward Island (both QIDs in use)
     "QC": {"Q176"},           # Quebec
     "SK": {"Q1989"},          # Saskatchewan
     "NT": {"Q2007"},          # Northwest Territories
