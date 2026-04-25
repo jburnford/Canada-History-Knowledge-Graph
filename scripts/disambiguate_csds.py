@@ -108,6 +108,8 @@ GOOD_P31_QIDS = {
     # BC types
     "Q60458065",   # city in British Columbia
     "Q1549591",    # big city
+    "Q3327871",    # district municipality (BC)
+    "Q5532181",    # General Service Area (NS unincorporated community type)
     # Indigenous reserves (valid CSDs in census)
     "Q155239",     # Indian reservation of Canada
     # Other
