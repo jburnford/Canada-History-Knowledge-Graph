@@ -81,6 +81,7 @@ GOOD_P31_QIDS = {
     "Q2989457",    # urban-type settlement
     "Q130628050",  # city in New Brunswick
     "Q59341087",   # town in Nova Scotia
+    "Q130629307",  # city in Nova Scotia
     "Q15731904",   # municipal district of Nova Scotia
     "Q55774719",   # township municipality in Ontario
     "Q14762300",   # single-tier municipality (Ontario)
@@ -105,6 +106,9 @@ GOOD_P31_QIDS = {
     "Q15068900",   # town in Prince Edward Island (alternate QID)
     "Q3788231",    # municipal government in Canada
     "Q115860085",  # fire district of Prince Edward Island
+    "Q82794",      # region (used by Wikidata for all PEI Lots / townships)
+    "Q3518810",    # unorganized area of Canada (e.g. Unorganized Yukon)
+    "Q21507383",   # provincial or territorial capital city in Canada
     # BC types
     "Q60458065",   # city in British Columbia
     "Q1549591",    # big city
