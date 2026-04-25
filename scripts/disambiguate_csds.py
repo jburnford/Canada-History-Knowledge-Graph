@@ -99,6 +99,7 @@ GOOD_P31_QIDS = {
     "Q23677523",   # designated place of Canada
     "Q50330042",   # improvement district of Alberta
     "Q107150024",  # municipal district of Alberta
+    "Q14762205",   # municipal district of Alberta (alternate QID used by Forty Mile, Mountain View, Flagstaff, Sturgeon counties)
     # PEI
     "Q22978485",   # town in Prince Edward Island
     "Q15068900",   # town in Prince Edward Island (alternate QID)
