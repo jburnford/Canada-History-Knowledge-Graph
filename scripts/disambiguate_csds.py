@@ -47,6 +47,7 @@ GOOD_P31_QIDS = {
     "Q27676416",   # city or town of Quebec
     "Q27676420",   # village municipality of Quebec
     "Q27676422",   # township municipality of Quebec
+    "Q27676424",   # united townships municipality of Quebec
     "Q17143723",   # Catholic parish (can be valid for QC CSDs)
     "Q28203007",   # administrative sector
     "Q188509",     # suburb
