@@ -1,0 +1,67 @@
+csd_id,csd_name,modern_qid,modern_label,modern_inception,n_predecessors,best_predecessor_qid,best_predecessor_label,best_predecessor_inception,best_name_similarity,best_valid_p31,decision,reason,target_qid,target_label
+MB157002,Lorne,Q18378208,Lorne,2015,3,Q1660604,Lorne,,1.00,True,SWITCH,Modern is N→1 merger (3 predecessors); best predecessor matches CSD name (1.00),Q1660604,Lorne
+MB167006,Ste Rose,Q18378262,Ste. Rose,2015,2,Q1661557,Ste. Rose,1902,0.94,True,SWITCH,Modern is N→1 merger (2 predecessors); best predecessor matches CSD name (0.94),Q1661557,Ste. Rose
+MB168002,Gilbert Plains,Q18702171,Gilbert Plains,2015,2,Q1659686,Gilbert Plains,1897,1.00,True,SWITCH,Modern is N→1 merger (2 predecessors); best predecessor matches CSD name (1.00),Q1659686,Gilbert Plains
+QC038010,Ste. Clothilde de Horton,Q3464220,Sainte-Clotilde-de-Horton,1997,2,Q138064146,Sainte-Clothilde-de-Horton,1864,0.92,True,SWITCH,Modern is N→1 merger (2 predecessors); best predecessor matches CSD name (0.92),Q138064146,Sainte-Clothilde-de-Horton
+QC038018,Tingwick,Q3529187,Tingwick,1981,2,Q138056910,Tingwick,1864,1.00,True,SWITCH,Modern is N→1 merger (2 predecessors); best predecessor matches CSD name (1.00),Q138056910,Tingwick
+QC038023,"Daveluyville, VL",Q60649450,Daveluyville,2016,2,Q142414,Daveluyville,1901,0.86,True,SWITCH,Modern is N→1 merger (2 predecessors); best predecessor matches CSD name (0.86),Q142414,Daveluyville
+QC039018,"Upton, VL",Q1001007,Upton,1998,2,Q138094585,Upton,1878,0.71,True,REVIEW,Best predecessor name match is 0.71 (borderline); manual check,Q138094585,Upton
+QC042018,"St. Charles, VL",Q3461950,Saint-Charles-de-Bellechasse,1993,2,Q138578087,Saint-Charles,1915,0.71,True,REVIEW,Best predecessor name match is 0.71 (borderline); manual check,Q138578087,Saint-Charles
+QC045007,"Eastman, VL",Q3046582,Eastman,2001,2,Q138457690,Eastman,1888,0.78,True,REVIEW,Best predecessor name match is 0.78 (borderline); manual check,Q138457690,Eastman
+QC046002,Chambly (St. Joseph),Q142069,Chambly,1965,2,Q138018022,Chambly,1855,0.52,True,REVIEW,"No predecessor with strong name match (best sim=0.52, valid_type=True)",Q138018022,Chambly
+QC047002,Champlain (La Visitation),Q2955899,Champlain,1982,2,Q139493759,Champlain,1917,0.53,True,REVIEW,"No predecessor with strong name match (best sim=0.53, valid_type=True)",Q139493759,Champlain
+QC047006,Ste. Anne de la Pérade,Q3464159,Sainte-Anne-de-la-Pérade,1989,2,Q138586845,Sainte-Anne-de-la-Pérade,1855,0.91,True,SWITCH,Modern is N→1 merger (2 predecessors); best predecessor matches CSD name (0.91),Q138586845,Sainte-Anne-de-la-Pérade
+QC047034,"Champlain, VL",Q2955899,Champlain,1982,2,Q139493759,Champlain,1917,0.82,True,SWITCH,Modern is N→1 merger (2 predecessors); best predecessor matches CSD name (0.82),Q139493759,Champlain
+QC051006,Compton,Q2990879,Compton,1994,2,Q138228646,Compton,1855,1.00,True,SWITCH,Modern is N→1 merger (2 predecessors); best predecessor matches CSD name (1.00),Q138228646,Compton
+QC051011,La Patrie (Ditton),Q1844577,La Patrie,1997,2,Q138161436,La Patrie,1941,0.67,True,REVIEW,Best predecessor name match is 0.67 (borderline); manual check,Q138161436,La Patrie
+QC051020,"Compton, VL",Q2990879,Compton,1994,2,Q138228646,Compton,1855,0.78,True,REVIEW,Best predecessor name match is 0.78 (borderline); manual check,Q138228646,Compton
+QC054010,St. Germain de Grantham,Q3462266,Saint-Germain-de-Grantham,1995,2,Q138066885,Saint-Germain-de-Grantham,1858,0.92,True,SWITCH,Modern is N→1 merger (2 predecessors); best predecessor matches CSD name (0.92),Q138066885,Saint-Germain-de-Grantham
+QC055010,St. Gédéon de Marlow,Q3462367,Saint-Gédéon-de-Beauce,2003,2,Q138846311,Saint-Gédéon-de-Beauce,1950,0.67,True,REVIEW,Best predecessor name match is 0.67 (borderline); manual check,Q138846311,Saint-Gédéon-de-Beauce
+QC056012,Grande Rivière,Q142969,Grande-Rivière,1974,3,Q138660423,Grande-Rivière,1855,1.00,True,SWITCH,Modern is N→1 merger (3 predecessors); best predecessor matches CSD name (1.00),Q138660423,Grande-Rivière
+QC056025,Percé,Q141991,Percé,1971,5,Q139032279,Percé,1868,1.00,True,SWITCH,Modern is N→1 merger (5 predecessors); best predecessor matches CSD name (1.00),Q139032279,Percé
+QC057030,"Aylmer, T-V",Q2874904,Aylmer,1975,3,Q138372625,Aylmer,1847,0.71,True,REVIEW,Best predecessor name match is 0.71 (borderline); manual check,Q138372625,Aylmer
+QC057032,"Gracefield, VL",Q141536,Gracefield,2002,3,Q138554356,Gracefield,1905,0.83,True,SWITCH,Modern is N→1 merger (3 predecessors); best predecessor matches CSD name (0.83),Q138554356,Gracefield
+QC061013,St. Pacôme,Q379188,Saint-Pacôme,1980,2,Q138796189,Saint-Pacôme,1866,0.82,True,SWITCH,Modern is N→1 merger (2 predecessors); best predecessor matches CSD name (0.82),Q138796189,Saint-Pacôme
+QC062045,Ripon,Q3433048,Ripon,2000,2,Q138732141,Ripon,1861,1.00,True,SWITCH,Modern is N→1 merger (2 predecessors); best predecessor matches CSD name (1.00),Q138732141,Ripon
+QC062048,St. André Avelin,Q2362715,Saint-André-Avellin,1997,2,Q138721960,Saint-André-Avellin,1855,0.86,True,SWITCH,Modern is N→1 merger (2 predecessors); best predecessor matches CSD name (0.86),Q138721960,Saint-André-Avellin
+QC062059,"Chénéville, VL",Q2972038,Chénéville,1996,2,Q138729958,Chénéville,1903,0.83,True,SWITCH,Modern is N→1 merger (2 predecessors); best predecessor matches CSD name (0.83),Q138729958,Chénéville
+QC062060,"Ferme Neuve, VL",Q948364,Ferme-Neuve,1997,2,Q138527598,Ferme-Neuve,1901,0.85,True,SWITCH,Modern is N→1 merger (2 predecessors); best predecessor matches CSD name (0.85),Q138527598,Ferme-Neuve
+QC062061,"Labelle, VL",Q3214315,Labelle,1973,2,Q138208363,Labelle,1902,0.78,True,REVIEW,Best predecessor name match is 0.78 (borderline); manual check,Q138208363,Labelle
+QC063003,"Hébertville, par.",Q138303777,Hébertville,2026,3,Q3144525,Hébertville,1859,0.79,True,REVIEW,Best predecessor name match is 0.79 (borderline); manual check,Q3144525,Hébertville
+QC063018,"St. Gédéon, par.",Q3462366,Saint-Gédéon,1975,2,Q138779669,Saint-Gédéon,1887,0.64,True,REVIEW,Best predecessor name match is 0.64 (borderline); manual check,Q138779669,Saint-Gédéon
+QC063020,"St. Jérôme, par. (Caron  & Metabetchouan tps.-cts. pt.)",Q63730953,Métabetchouan,1975,2,Q138786075,Saint-Jérôme,1873,0.27,True,REVIEW,"No predecessor with strong name match (best sim=0.27, valid_type=True)",Q138786075,Saint-Jérôme
+QC063028,"Hébertville, VL",Q138303777,Hébertville,2026,3,Q3144525,Hébertville,1859,0.85,True,SWITCH,Modern is N→1 merger (3 predecessors); best predecessor matches CSD name (0.85),Q3144525,Hébertville
+QC063033,"St. Gédéon, VL",Q3462366,Saint-Gédéon,1975,2,Q138779669,Saint-Gédéon,1887,0.69,True,REVIEW,Best predecessor name match is 0.69 (borderline); manual check,Q138779669,Saint-Gédéon
+QC067003,L'Islet,Q953369,L'Islet,2000,3,Q3204356,L'Islet,1950,1.00,True,SWITCH,Modern is N→1 merger (3 predecessors); best predecessor matches CSD name (1.00),Q3204356,L'Islet
+QC068001,Deschaillons (St. Jean),Q3024305,Deschaillons-sur-Saint-Laurent,1990,2,Q138318987,Deschaillons,1891,0.69,True,REVIEW,Best predecessor name match is 0.69 (borderline); manual check,Q138318987,Deschaillons
+QC068020,"Fortierville, VL",Q3078488,Fortierville,1998,2,Q138529569,Fortierville,1913,0.86,True,SWITCH,Modern is N→1 merger (2 predecessors); best predecessor matches CSD name (0.86),Q138529569,Fortierville
+QC068022,"Leclercville, VL",Q3228751,Leclercville,2000,2,Q139541186,Leclercville,1874,0.86,True,SWITCH,Modern is N→1 merger (2 predecessors); best predecessor matches CSD name (0.86),Q139541186,Leclercville
+QC068023,"Lotbinière, VL",Q3259966,Lotbinière,1979,2,Q139541242,Lotbinière,1914,0.83,True,SWITCH,Modern is N→1 merger (2 predecessors); best predecessor matches CSD name (0.83),Q139541242,Lotbinière
+QC070020,St. Ulric de la Rivière Blanche,Q3463458,Saint-Ulric,2000,2,Q138002366,Saint-Ulric-de-Matane,1860,0.62,True,REVIEW,Best predecessor name match is 0.62 (borderline); manual check,Q138002366,Saint-Ulric-de-Matane
+QC070027,"Val Brillant, VL",Q771284,Val-Brillant,1986,2,Q138016279,Val-Brillant,1915,0.86,True,SWITCH,Modern is N→1 merger (2 predecessors); best predecessor matches CSD name (0.86),Q138016279,Val-Brillant
+QC071024,"Laurierville, VL",Q3219674,Laurierville,1997,2,Q139491054,Laurierville,1902,0.86,True,SWITCH,Modern is N→1 merger (2 predecessors); best predecessor matches CSD name (0.86),Q139491054,Laurierville
+QC071026,"Plessisville, VL",Q124101719,Plessisville,2024,2,Q766671,Plessisville,1855,0.86,True,SWITCH,Modern is N→1 merger (2 predecessors); best predecessor matches CSD name (0.86),Q766671,Plessisville
+QC072001,Dunham,Q142229,Dunham,1971,2,Q138207981,Dunham,1855,1.00,True,SWITCH,Modern is N→1 merger (2 predecessors); best predecessor matches CSD name (1.00),Q138207981,Dunham
+QC072017,"Dunham, VL",Q142229,Dunham,1971,2,Q138207981,Dunham,1855,0.75,True,REVIEW,Best predecessor name match is 0.75 (borderline); manual check,Q138207981,Dunham
+QC072018,"Frelighsburg, VL",Q3087431,Frelighsburg,1985,2,Q138530673,Frelighsburg,1855,0.86,True,SWITCH,Modern is N→1 merger (2 predecessors); best predecessor matches CSD name (0.86),Q138530673,Frelighsburg
+QC073002,St. Alexis,Q3461722,Saint-Alexis,2012,1,Q3461721,Saint-Alexis,1855,0.82,True,KEEP_MODERN,"Single replacement, modern label fits (0.82) ≥ predecessor (0.82)",Q3461722,Saint-Alexis
+QC073014,"St. Alexis, VL",Q3461722,Saint-Alexis,2012,1,Q3461721,Saint-Alexis,1855,0.69,True,REVIEW,Best predecessor name match is 0.69 (borderline); manual check,Q3461721,Saint-Alexis
+QC076023,"Laval de Montréal, T-V",Q141810,Laval,1965,3,Q3219746,Laval-des-Rapides,1912,0.56,True,REVIEW,"No predecessor with strong name match (best sim=0.56, valid_type=True)",Q3219746,Laval-des-Rapides
+QC076047,"Laval des Rapides, T-V",Q141810,Laval,1965,3,Q3219746,Laval-des-Rapides,1912,0.87,True,SWITCH,Modern is N→1 merger (3 predecessors); best predecessor matches CSD name (0.87),Q3219746,Laval-des-Rapides
+QC078001,Bécancour,Q141542,Bécancour,1965,11,Q14875509,Bécancour,1909,1.00,True,SWITCH,Modern is N→1 merger (11 predecessors); best predecessor matches CSD name (1.00),Q14875509,Bécancour
+QC078013,St. Léonard d'Aston,Q2392099,Saint-Léonard-d'Aston,1994,2,Q138114566,Saint-Léonard-d'Aston,1912,0.89,True,SWITCH,Modern is N→1 merger (2 predecessors); best predecessor matches CSD name (0.89),Q138114566,Saint-Léonard-d'Aston
+QC078026,"Bécancour, VL",Q141542,Bécancour,1965,11,Q14875509,Bécancour,1909,0.82,True,SWITCH,Modern is N→1 merger (11 predecessors); best predecessor matches CSD name (0.82),Q14875509,Bécancour
+QC079004,Allumette Island—Ile,Q1550291,L'Isle-aux-Allumettes,1998,3,Q138026168,L'Isle-aux-Allumettes,1855,0.50,True,REVIEW,"No predecessor with strong name match (best sim=0.50, valid_type=True)",Q138026168,L'Isle-aux-Allumettes
+QC080018,St. Raymond,Q142097,Saint-Raymond,1995,2,Q137772105,Saint-Raymond (town),1898,0.65,True,REVIEW,Best predecessor name match is 0.65 (borderline); manual check,Q137772105,Saint-Raymond (town)
+QC080028,"Pont Rouge, VL",Q142313,Pont-Rouge,1996,2,Q134392444,Pont-Rouge,1911,0.83,True,SWITCH,Modern is N→1 merger (2 predecessors); best predecessor matches CSD name (0.83),Q134392444,Pont-Rouge
+QC080034,"St. Raymond, VL",Q142097,Saint-Raymond,1995,2,Q137772105,Saint-Raymond (town),1898,0.63,True,REVIEW,Best predecessor name match is 0.63 (borderline); manual check,Q137772105,Saint-Raymond (town)
+QC089001,Côteau du Lac (St. Ignace),Q141571,Coteau-du-Lac,1982,2,Q138277576,Coteau-du-Lac,1907,0.67,True,REVIEW,Best predecessor name match is 0.67 (borderline); manual check,Q138277576,Coteau-du-Lac
+QC089007,"Côteau du Lac, VL",Q141571,Coteau-du-Lac,1982,2,Q138277576,Coteau-du-Lac,1907,0.87,True,SWITCH,Modern is N→1 merger (2 predecessors); best predecessor matches CSD name (0.87),Q138277576,Coteau-du-Lac
+QC090013,"Dixville, VL",Q369807,Dixville,1995,2,Q138427279,Dixville,1874,0.80,True,SWITCH,Modern is N→1 merger (2 predecessors); best predecessor matches CSD name (0.80),Q138427279,Dixville
+QC090014,"Hatley, VL",Q3128316,Hatley,1995,2,Q138661887,Hatley,1912,0.75,True,REVIEW,Best predecessor name match is 0.75 (borderline); manual check,Q138661887,Hatley
+QC092010,"Lacolle, VL",Q3215834,Lacolle,2001,2,Q138849373,Lacolle,1920,0.78,True,REVIEW,Best predecessor name match is 0.78 (borderline); manual check,Q138849373,Lacolle
+QC094060,"Amos, VL",Q132681711,Amos,2025,2,Q141705,Amos,1914,0.67,True,REVIEW,Best predecessor name match is 0.67 (borderline); manual check,Q141705,Amos
+QC098002,Contrecoeur,Q141547,Contrecœur,1976,2,Q138271762,Contrecœur,1855,0.86,True,SWITCH,Modern is N→1 merger (2 predecessors); best predecessor matches CSD name (0.86),Q138271762,Contrecœur
+QC099002,Dudswell,Q731955,Dudswell,1995,3,Q138456226,Dudswell,1855,1.00,True,SWITCH,Modern is N→1 merger (3 predecessors); best predecessor matches CSD name (1.00),Q138456226,Dudswell
+QC099013,Weedon,Q3567038,Weedon,1996,2,Q138528745,Weedon,1855,1.00,True,SWITCH,Modern is N→1 merger (2 predecessors); best predecessor matches CSD name (1.00),Q138528745,Weedon
+QC100019,"St. Guillaume, VL",Q3462360,Saint-Guillaume,1995,2,Q138103957,Saint-Guillaume,1867,0.75,True,REVIEW,Best predecessor name match is 0.75 (borderline); manual check,Q138103957,Saint-Guillaume
