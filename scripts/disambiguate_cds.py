@@ -74,7 +74,8 @@ GOOD_P31_QIDS = {
     "Q4204495",     # former county of Ontario (Addington's P31)
     # Quebec
     "Q1191257",     # regional county municipality (MRC)
-    "Q2989456",     # historic county of Quebec
+    "Q2989456",     # historic county of Quebec (legacy alternate)
+    "Q2991491",     # historic county of Quebec (canonical, used by Q2991xxx series)
     "Q186103",      # administrative region of Quebec
     "Q2989455",     # county of Quebec
     "Q3464914",     # equivalent territory (Quebec MRC-equivalent)
