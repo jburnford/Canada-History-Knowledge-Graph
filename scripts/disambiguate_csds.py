@@ -69,6 +69,8 @@ GOOD_P31_QIDS = {
     "Q102473225",  # geographic township of Quebec
     "Q23019040",   # geographic township of Quebec (alternate QID)
     "Q34763",      # peninsula (some CSDs are peninsulas/islands)
+    "Q23442",      # island (some CSDs ARE the island, e.g. Wolfe Island)
+    "Q162602",     # river island
     "Q28746",      # township municipality in Ontario
     "Q7209617",    # police village (historic Ontario unincorporated settlement)
     "Q15640053",   # lower-tier municipality of Ontario
@@ -619,6 +621,129 @@ def status(args):
             print(f"    {s}: {c}")
 
 
+def _entity_inception_years(entity):
+    """Extract all P571 (inception) years from an entity. Returns sorted list of ints."""
+    years = []
+    for claim in entity.get("claims", {}).get("P571", []):
+        v = claim.get("mainsnak", {}).get("datavalue", {}).get("value", {})
+        if isinstance(v, dict) and "time" in v:
+            # Format: "+1855-07-01T00:00:00Z" or "-0500-01-01T00:00:00Z"
+            t = v["time"]
+            if t.startswith("+") or t.startswith("-"):
+                try:
+                    sign = 1 if t.startswith("+") else -1
+                    year_str = t[1:].split("-")[0]
+                    years.append(sign * int(year_str))
+                except (ValueError, IndexError):
+                    pass
+    return sorted(years)
+
+
+def _entity_replaces(entity):
+    """Extract P1365 (replaces) QIDs — historic predecessor entities."""
+    out = []
+    for claim in entity.get("claims", {}).get("P1365", []):
+        v = claim.get("mainsnak", {}).get("datavalue", {}).get("value", {})
+        if isinstance(v, dict) and "id" in v:
+            out.append(v["id"])
+    return out
+
+
+def review_anachronism(args):
+    """Flag matched QIDs whose Wikidata entity didn't exist before the cutoff year.
+
+    The 1921 census predates many modern Quebec/Ontario municipalities formed
+    by post-1980 mergers. Entities with all P571 (inception) values after the
+    cutoff are likely territorial successors rather than the actual 1921 CSD,
+    and should be reviewed manually — preferably by substituting the historic
+    predecessor entity referenced via P1365 (replaces).
+    """
+    cutoff = args.cutoff_year
+    print(f"Loading matched entries with QIDs (inception cutoff: {cutoff})...")
+
+    verified = load_verified()
+    matched = [(cid, m) for cid, m in verified.items()
+               if m.get("status") == "matched" and m.get("wikidata_qid")]
+    print(f"  {len(matched)} matched entries")
+
+    qids = sorted({m["wikidata_qid"] for _, m in matched})
+    print(f"  Fetching {len(qids)} unique entities for P571/P1365...")
+    entities = fetch_wikidata_entities(qids)
+
+    flagged = []  # (csd_id, csd_name, qid, label, min_inception, replaces_qids)
+    no_inception = []
+
+    for csd_id, m in matched:
+        qid = m["wikidata_qid"]
+        ent = entities.get(qid)
+        if not ent:
+            continue
+        years = _entity_inception_years(ent)
+        if not years:
+            no_inception.append((csd_id, m["csd_name"], qid, m.get("wikidata_label", "")))
+            continue
+        if min(years) > cutoff:
+            replaces = _entity_replaces(ent)
+            flagged.append((csd_id, m["csd_name"], qid, m.get("wikidata_label", ""),
+                            min(years), max(years), replaces))
+
+    # Resolve P1365 predecessor entities so we can show their info
+    pred_qids = sorted({q for f in flagged for q in f[6]})
+    pred_entities = {}
+    if pred_qids:
+        print(f"  Fetching {len(pred_qids)} predecessor entities (P1365)...")
+        pred_entities = fetch_wikidata_entities(pred_qids)
+
+    out_path = REPO_DIR / "wikidata_grounding" / f"csd_anachronism_review_{cutoff}.csv"
+    with open(out_path, "w", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(["csd_id", "csd_name", "matched_qid", "matched_label",
+                    "min_inception", "max_inception",
+                    "predecessor_qids", "predecessor_labels",
+                    "predecessor_inception_min"])
+        for csd_id, name, qid, label, min_y, max_y, preds in sorted(flagged):
+            pred_labels = []
+            pred_min_year = ""
+            for p in preds:
+                ent = pred_entities.get(p)
+                if ent:
+                    plabel = ent.get("labels", {}).get("en", {}).get("value", "")
+                    pred_labels.append(f"{p}={plabel}")
+                    pyears = _entity_inception_years(ent)
+                    if pyears:
+                        pmin = min(pyears)
+                        if pred_min_year == "" or pmin < pred_min_year:
+                            pred_min_year = pmin
+                else:
+                    pred_labels.append(p)
+            w.writerow([csd_id, name, qid, label, min_y, max_y,
+                        ";".join(preds), ";".join(pred_labels), pred_min_year])
+
+    # Summary
+    print(f"\nResults:")
+    print(f"  {len(matched) - len(flagged) - len(no_inception)} matched entities with pre-{cutoff} inception")
+    print(f"  {len(no_inception)} matched entities with no P571 inception in Wikidata")
+    print(f"  {len(flagged)} matched entities with all inceptions post-{cutoff} -- FLAGGED")
+    print(f"\nReport written to: {out_path}")
+
+    # Show counts by inception decade
+    from collections import Counter
+    decade_counts = Counter((y // 10) * 10 for _, _, _, _, y, _, _ in flagged)
+    if decade_counts:
+        print(f"\nFlagged entity inception by decade:")
+        for decade in sorted(decade_counts):
+            print(f"  {decade}s: {decade_counts[decade]}")
+
+    # Show top-10 flagged with predecessors available
+    with_preds = [f for f in flagged if f[6]]
+    if with_preds:
+        print(f"\n{len(with_preds)}/{len(flagged)} flagged entities have P1365 predecessors")
+        print("Sample (first 10):")
+        for csd_id, name, qid, label, min_y, _, preds in with_preds[:10]:
+            preds_str = ";".join(preds)
+            print(f"  {csd_id} \"{name}\" → {qid} \"{label}\" ({min_y}); replaces: {preds_str}")
+
+
 def main():
     parser = argparse.ArgumentParser(description="CSD disambiguation queue manager")
     parser.add_argument("--prepare", action="store_true", help="Build queue from matches + unmatched")
@@ -626,6 +751,10 @@ def main():
                         help="Show next N CSDs to process (default 50)")
     parser.add_argument("--verify", action="store_true", help="Batch-verify all QIDs via Wikidata API")
     parser.add_argument("--status", action="store_true", help="Report progress")
+    parser.add_argument("--review-anachronism", action="store_true",
+                        help="Flag matched QIDs whose Wikidata entity didn't exist before --cutoff-year")
+    parser.add_argument("--cutoff-year", type=int, default=1930,
+                        help="Inception cutoff for --review-anachronism (default 1930)")
     parser.add_argument("--provinces", type=str, default=None,
                         help="Comma-separated province codes to filter show-batch (e.g. ON,SK)")
     args = parser.parse_args()
@@ -636,6 +765,8 @@ def main():
         show_batch(args)
     elif args.verify:
         verify(args)
+    elif args.review_anachronism:
+        review_anachronism(args)
     elif args.status:
         status(args)
     else:
