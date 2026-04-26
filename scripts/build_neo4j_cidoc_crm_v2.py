@@ -32,6 +32,7 @@ Unchanged:
 - p161_has_spatial_projection_*.csv (presence→centroid unchanged)
 """
 
+import csv
 import geopandas as gpd
 import pandas as pd
 from pathlib import Path
@@ -324,7 +325,8 @@ def extract_p122_borders_reified(gdf: gpd.GeoDataFrame, year: int) -> dict:
 
 def process_year(gdb_path: str, year: int, out_dir: Path,
                  mapping: dict, fallback_places: dict,
-                 all_cd_places: set):
+                 all_cd_places: set,
+                 cd_chain_map: dict = None):
     """Process a single census year."""
     print(f"\n{'='*60}", file=sys.stderr)
     print(f"Processing year {year}", file=sys.stderr)
@@ -345,10 +347,14 @@ def process_year(gdb_path: str, year: int, out_dir: Path,
     stats['space_primitives'] = len(space_primitives)
     print(f"  Wrote {len(space_primitives)} E94_Space_Primitive nodes")
 
-    # Collect CD places
+    # Collect CD places. Apply chain mapping when available so that
+    # e53_place_cd.csv ends up keyed by chain place_id (post-Phase-1)
+    # rather than by year-name. Singletons not in the chain registry
+    # fall through to the raw cd_id and are emitted unchanged.
     for _, row in gdf[['cd_name', 'pr']].drop_duplicates().iterrows():
-        cd_id = f"CD_{row['pr']}_{row['cd_name'].replace(' ', '_')}"
-        all_cd_places.add((cd_id, row['cd_name'], row['pr']))
+        raw_cd_id = f"CD_{row['pr']}_{row['cd_name'].replace(' ', '_')}"
+        chain_id = (cd_chain_map or {}).get((raw_cd_id, year), raw_cd_id)
+        all_cd_places.add((chain_id, row['cd_name'], row['pr']))
 
     # P166: Presence -> Place (using persistent IDs)
     p166 = extract_p166_was_presence_of(gdf, year, mapping, fallback_places)
@@ -406,6 +412,11 @@ def main():
         default='persistent_places_output',
         help='Directory with persistent place registry files'
     )
+    parser.add_argument(
+        '--cd-chains',
+        default='persistent_cds_output',
+        help='Directory with persistent CD chain registry + lineage'
+    )
 
     args = parser.parse_args()
 
@@ -420,6 +431,26 @@ def main():
     print(f"{'='*60}", file=sys.stderr)
     mapping, registry_df = load_persistent_place_mapping(places_dir)
     fallback_places = {}  # Track CSDs not in any year_links
+
+    # Load CD chain mapping + registry (Phase 1 outputs).
+    cd_chains_dir = Path(args.cd_chains)
+    cd_chain_map = {}
+    cd_chain_registry_df = None
+    cd_chain_mapping_path = cd_chains_dir / "cd_id_year_to_chain.csv"
+    cd_chain_registry_path = cd_chains_dir / "persistent_cd_registry.csv"
+    if cd_chain_mapping_path.exists():
+        with cd_chain_mapping_path.open() as f:
+            for r in csv.DictReader(f):
+                cd_chain_map[(r["raw_cd_id"], int(r["year"]))] = r["chain_place_id"]
+        print(f"  Loaded {len(cd_chain_map):,} CD chain mappings from "
+              f"{cd_chain_mapping_path.relative_to(cd_chains_dir.parent)}",
+              file=sys.stderr)
+    else:
+        print(f"  Warning: {cd_chain_mapping_path} not found - CD chains "
+              f"disabled, will mint year-name CDs (pre-Phase-1 behavior)",
+              file=sys.stderr)
+    if cd_chain_registry_path.exists():
+        cd_chain_registry_df = pd.read_csv(cd_chain_registry_path)
 
     # E4_Period nodes (unchanged)
     print(f"\n{'='*60}", file=sys.stderr)
@@ -478,7 +509,8 @@ def main():
     }
 
     for year in years:
-        stats = process_year(args.gdb, year, out_dir, mapping, fallback_places, all_cd_places)
+        stats = process_year(args.gdb, year, out_dir, mapping, fallback_places,
+                             all_cd_places, cd_chain_map)
         for key in total_stats:
             total_stats[key] += stats[key]
 
@@ -515,20 +547,56 @@ def main():
     csd_places_df.to_csv(out_dir / 'e53_place_csd.csv', index=False)
     print(f"  Wrote {len(csd_places_df)} E53_Place (CSD) nodes (persistent)")
 
-    # CD Places (unchanged logic)
-    cd_places_df = pd.DataFrame([
-        {'place_id:ID': cd_id, 'place_type': 'CD', 'name': name, 'province': prov, ':LABEL': 'E53_Place'}
-        for cd_id, name, prov in all_cd_places
-    ])
+    # CD Places: prefer the chain registry (one row per persistent CD chain
+    # with canonical_name + years_active). Fall back to year-name CDs collected
+    # during process_year if no chain registry is available.
+    if cd_chain_registry_df is not None:
+        cd_rows = []
+        for _, row in cd_chain_registry_df.iterrows():
+            cd_rows.append({
+                'place_id:ID': row['place_id'],
+                'place_type': 'CD',
+                'name': row['canonical_name'],
+                'province': row['province'],
+                'years_active': row['years_active'],
+                ':LABEL': 'E53_Place',
+            })
+        # Add singleton CDs that the chain pipeline missed (rare; e.g.,
+        # CDs in years where the chain pipeline filtered them out).
+        registered_chain_ids = set(cd_chain_registry_df['place_id'])
+        for chain_id, name, prov in all_cd_places:
+            if chain_id not in registered_chain_ids:
+                cd_rows.append({
+                    'place_id:ID': chain_id,
+                    'place_type': 'CD',
+                    'name': name,
+                    'province': prov,
+                    'years_active': '',
+                    ':LABEL': 'E53_Place',
+                })
+        cd_places_df = pd.DataFrame(cd_rows).drop_duplicates(subset=['place_id:ID'])
+    else:
+        cd_places_df = pd.DataFrame([
+            {'place_id:ID': cd_id, 'place_type': 'CD', 'name': name,
+             'province': prov, 'years_active': '', ':LABEL': 'E53_Place'}
+            for cd_id, name, prov in all_cd_places
+        ])
     cd_places_df.to_csv(out_dir / 'e53_place_cd.csv', index=False)
     print(f"  Wrote {len(cd_places_df)} E53_Place (CD) nodes")
 
-    # Copy lineage file if it exists
+    # Copy CSD lineage file if it exists
     lineage_src = places_dir / "place_lineage.csv"
     if lineage_src.exists():
         lineage_df = pd.read_csv(lineage_src)
         lineage_df.to_csv(out_dir / 'place_lineage.csv', index=False)
-        print(f"  Copied {len(lineage_df)} lineage relationships")
+        print(f"  Copied {len(lineage_df)} CSD lineage relationships")
+
+    # Copy CD lineage file if it exists (Phase 1 output)
+    cd_lineage_src = cd_chains_dir / "cd_lineage.csv"
+    if cd_lineage_src.exists():
+        cd_lineage_df = pd.read_csv(cd_lineage_src)
+        cd_lineage_df.to_csv(out_dir / 'cd_lineage.csv', index=False)
+        print(f"  Copied {len(cd_lineage_df)} CD lineage relationships")
 
     # Summary
     print(f"\n{'='*60}", file=sys.stderr)

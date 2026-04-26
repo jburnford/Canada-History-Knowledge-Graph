@@ -11,12 +11,65 @@ Author: Claude Code
 Date: October 1, 2025
 """
 
+import csv
 import geopandas as gpd
 import pandas as pd
 from pathlib import Path
 import argparse
 import sys
 from typing import List, Dict, Set, Tuple
+
+
+def load_chain_mapping(mapping_path: Path) -> Dict[Tuple[str, int], str]:
+    """Load (raw_cd_id, year) -> chain_place_id mapping from
+    persistent_cds_output/cd_id_year_to_chain.csv.
+
+    Returns empty dict if file missing (in which case build_cd_presences
+    falls back to year-name-keyed cd_ids — pre-Phase-1 behavior)."""
+    mapping = {}
+    if not mapping_path.exists():
+        print(f"  Warning: {mapping_path} not found - using raw cd_ids "
+              f"(no chain collapse). Run scripts/build_persistent_cds.py first.",
+              file=sys.stderr)
+        return mapping
+    with mapping_path.open() as f:
+        for r in csv.DictReader(f):
+            mapping[(r["raw_cd_id"], int(r["year"]))] = r["chain_place_id"]
+    print(f"  Loaded {len(mapping):,} (raw_cd_id, year) → chain mappings",
+          file=sys.stderr)
+    return mapping
+
+
+def apply_chain_mapping(cd_gdf: gpd.GeoDataFrame, year: int,
+                         chain_map: Dict[Tuple[str, int], str]) -> gpd.GeoDataFrame:
+    """Substitute raw cd_id with chain_place_id where a mapping exists.
+    Falls through to raw cd_id for any (cd_id, year) not in the chain
+    registry (typically singletons that the chain pipeline didn't process)."""
+    if not chain_map:
+        return cd_gdf
+    cd_gdf = cd_gdf.copy()
+    cd_gdf["cd_id"] = cd_gdf.apply(
+        lambda r: chain_map.get((r["cd_id"], year), r["cd_id"]),
+        axis=1,
+    )
+    # After chain substitution, multiple raw cd_ids in the same year may
+    # collapse onto one chain_id. Dissolve again to merge geometries +
+    # sum num_csds (the dissolve sum is approximate; we recompute below).
+    # Practically rare for CDs (year-pair Union-Find rarely fuses within-year),
+    # but guard against it.
+    if cd_gdf["cd_id"].duplicated().any():
+        # Re-dissolve duplicates within this year by chain_id.
+        agg_csds = cd_gdf.groupby("cd_id", as_index=False)["num_csds"].sum()
+        cd_gdf = cd_gdf.dissolve(by="cd_id", as_index=False)
+        cd_gdf = cd_gdf.drop(columns=["num_csds"]).merge(agg_csds, on="cd_id")
+        # Recompute area + centroid from re-dissolved geometry.
+        proj = cd_gdf.to_crs("EPSG:3347")
+        cd_gdf["area"] = proj.geometry.area
+        wgs = cd_gdf.to_crs("EPSG:4326")
+        cents = wgs.geometry.centroid
+        cd_gdf["centroid_lat"] = cents.y
+        cd_gdf["centroid_lon"] = cents.x
+    return cd_gdf
 
 
 def load_gdb_cd_layer(gdb_path: str, year: int) -> gpd.GeoDataFrame:
@@ -160,32 +213,45 @@ def extract_p161_cd_spatial_projection(gdf: gpd.GeoDataFrame, year: int) -> pd.D
     return relationships
 
 
-def extract_p10_csd_within_cd(csd_gdf: gpd.GeoDataFrame, cd_gdf: gpd.GeoDataFrame, year: int) -> pd.DataFrame:
+def extract_p10_csd_within_cd(csd_gdf: gpd.GeoDataFrame, cd_gdf: gpd.GeoDataFrame,
+                               year: int, chain_map: Dict[Tuple[str, int], str]
+                               ) -> pd.DataFrame:
     """
     P10_falls_within: E93_Presence (CSD) -> E93_Presence (CD)
 
     This creates temporal administrative hierarchy linking CSD presences to CD presences.
+    The CD presence id is derived from the CHAIN id (post-chaining), so a CSD
+    in 1911 inside "Renfrew, North—Nord" links to CD presence
+    'CD_ON_Renfrew_North_1911' regardless of the raw NAME_CD spelling.
     """
     print(f"  Creating P10_falls_within (CSD presence → CD presence) relationships...", file=sys.stderr)
 
-    # Add CD identifiers to CSD dataframe
+    # Add CD identifiers to CSD dataframe.
     csd_gdf = csd_gdf.copy()
-    csd_gdf['cd_id'] = 'CD_' + csd_gdf['pr'] + '_' + csd_gdf['cd_name'].str.replace(' ', '_')
+    csd_gdf['raw_cd_id'] = 'CD_' + csd_gdf['pr'] + '_' + csd_gdf['cd_name'].str.replace(' ', '_')
+    # Apply chain mapping (fall through to raw cd_id if no chain entry).
+    csd_gdf['cd_id'] = csd_gdf['raw_cd_id'].apply(
+        lambda rid: chain_map.get((rid, year), rid)
+    )
 
     # C3: no edge properties. The year is encoded in the presence IDs
     # (MB008010_1901), and each presence links to its E4_Period via P164.
     relationships = pd.DataFrame({
         ':START_ID': csd_gdf['tcpuid'] + f'_{year}',  # CSD presence
-        ':END_ID': csd_gdf['cd_id'] + f'_{year}',  # CD presence
+        ':END_ID': csd_gdf['cd_id'] + f'_{year}',  # CD presence (chain-aware)
         ':TYPE': 'P10_falls_within'
     })
 
     return relationships
 
 
-def load_cd_temporal_links(links_dir: Path) -> pd.DataFrame:
+def load_cd_temporal_links(links_dir: Path,
+                            chain_map: Dict[Tuple[str, int], str]) -> pd.DataFrame:
     """
     Load CD temporal links from cd_links_output directory.
+    Translate raw cd_from/cd_to to chain place_ids before constructing
+    presence ids. Drops self-loop edges that arise when both endpoints
+    belong to the same chain in adjacent years.
     """
     all_links = []
 
@@ -205,9 +271,16 @@ def load_cd_temporal_links(links_dir: Path) -> pd.DataFrame:
             suitable = df[df['relationship'].isin(['SAME_AS', 'CONTAINS', 'WITHIN'])].copy()
 
             for _, row in suitable.iterrows():
+                from_chain = chain_map.get((row['cd_from'], year_from), row['cd_from'])
+                to_chain = chain_map.get((row['cd_to'], year_to), row['cd_to'])
+                start_id = f"{from_chain}_{year_from}"
+                end_id = f"{to_chain}_{year_to}"
+                if start_id == end_id:
+                    # Same chain in same year — degenerate self-loop after collapse.
+                    continue
                 all_links.append({
-                    ':START_ID': row['cd_from'] + f'_{year_from}',
-                    ':END_ID': row['cd_to'] + f'_{year_to}',
+                    ':START_ID': start_id,
+                    ':END_ID': end_id,
                     'overlap_type': row['relationship'],
                     'iou:float': row['iou'],
                     'from_fraction:float': row['from_fraction'],
@@ -220,7 +293,9 @@ def load_cd_temporal_links(links_dir: Path) -> pd.DataFrame:
     return pd.DataFrame(all_links)
 
 
-def process_year(gdb_path: str, year: int, out_dir: Path) -> Tuple[gpd.GeoDataFrame, Dict[str, int]]:
+def process_year(gdb_path: str, year: int, out_dir: Path,
+                 chain_map: Dict[Tuple[str, int], str]
+                 ) -> Tuple[gpd.GeoDataFrame, Dict[str, int]]:
     """
     Process a single census year for CD presences.
     """
@@ -230,6 +305,8 @@ def process_year(gdb_path: str, year: int, out_dir: Path) -> Tuple[gpd.GeoDataFr
 
     # Load CD geometries
     cd_gdf = load_gdb_cd_layer(gdb_path, year)
+    cd_gdf = apply_chain_mapping(cd_gdf, year, chain_map)
+    print(f"  Post-chaining: {len(cd_gdf)} unique CD chains for {year}", file=sys.stderr)
 
     # Also load CSD layer for P10 relationships (use V2T2 for 1911)
     if year == 1911:
@@ -259,7 +336,7 @@ def process_year(gdb_path: str, year: int, out_dir: Path) -> Tuple[gpd.GeoDataFr
     p166 = extract_p166_cd_was_presence_of(cd_gdf, year)
     p164 = extract_p164_cd_temporally_specified_by(cd_gdf, year)
     p161 = extract_p161_cd_spatial_projection(cd_gdf, year)
-    p10 = extract_p10_csd_within_cd(csd_gdf, cd_gdf, year)
+    p10 = extract_p10_csd_within_cd(csd_gdf, cd_gdf, year, chain_map)
 
     # Write files
     presences.to_csv(out_dir / f'e93_presence_cd_{year}.csv', index=False)
@@ -293,6 +370,8 @@ def main():
     parser.add_argument('--gdb', required=True, help='Path to TCP GDB file')
     parser.add_argument('--years', required=True, help='Comma-separated years (e.g., 1851,1861,1871)')
     parser.add_argument('--cd-links', default='cd_links_output', help='CD temporal links directory')
+    parser.add_argument('--chain-mapping', default='persistent_cds_output/cd_id_year_to_chain.csv',
+                        help='Chain mapping CSV from build_persistent_cds.py')
     parser.add_argument('--out', required=True, help='Output directory for CSV files')
     args = parser.parse_args()
 
@@ -309,6 +388,8 @@ def main():
     print(f"GDB: {args.gdb}", file=sys.stderr)
     print(f"Years: {years}", file=sys.stderr)
     print(f"Output: {out_dir}/", file=sys.stderr)
+    print(f"Chain mapping: {args.chain_mapping}", file=sys.stderr)
+    chain_map = load_chain_mapping(Path(args.chain_mapping))
 
     # Process each year
     total_stats = {
@@ -323,7 +404,7 @@ def main():
     all_cd_ids = set()
 
     for year in years:
-        cd_gdf, stats = process_year(args.gdb, year, out_dir)
+        cd_gdf, stats = process_year(args.gdb, year, out_dir, chain_map)
         for key in total_stats:
             total_stats[key] += stats[key]
         all_cd_ids.update(cd_gdf['cd_id'].unique())
@@ -334,7 +415,7 @@ def main():
     print(f"{'='*60}", file=sys.stderr)
 
     links_dir = Path(args.cd_links)
-    cd_temporal_links = load_cd_temporal_links(links_dir)
+    cd_temporal_links = load_cd_temporal_links(links_dir, chain_map)
 
     if len(cd_temporal_links) > 0:
         cd_temporal_links.to_csv(out_dir / 'p132_spatiotemporally_overlaps_with_cd.csv', index=False)

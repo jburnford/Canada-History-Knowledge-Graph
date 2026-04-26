@@ -30,10 +30,13 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parents[1]
 JSONL = REPO / "wikidata_grounding" / "csd_verified_matches.jsonl"
 CD_JSONL = REPO / "wikidata_grounding" / "cd_verified_matches.jsonl"
+CD_CHAIN_MAP = REPO / "persistent_cds_output" / "cd_id_year_to_chain.csv"
+CD_CHAIN_REGISTRY = REPO / "persistent_cds_output" / "persistent_cd_registry.csv"
 E53_CSD = REPO / "neo4j_cidoc_crm_v2" / "e53_place_csd.csv"
 E53_CD = REPO / "neo4j_cidoc_crm_v2" / "e53_place_cd.csv"
 OUT = REPO / "neo4j_cidoc_crm_v2" / "e53_place_uri.csv"
 UNPLACED = REPO / "neo4j_cidoc_crm_v2" / "e53_place_uri_unplaced.csv"
+CD_CONFLICTS = REPO / "wikidata_grounding" / "cd_qid_conflicts.csv"
 
 WIKIDATA_PREFIX = "http://www.wikidata.org/entity/"
 HGIS_PAGE_BASE = "https://jimclifford.ca/hgiscanada/places"
@@ -56,10 +59,25 @@ def minted_page_url(name: str, place_id: str, province: str) -> str:
     return f"{HGIS_PAGE_BASE}/{province.lower()}/{slugify(name)}-{stem}/"
 
 
-def minted_cd_url(name: str, province: str) -> str:
-    """Construct the CD index page URL. CD identity is name+province
-    (one row per CD in e53_place_cd.csv), so no place_id stem is needed."""
-    return f"{HGIS_CD_BASE}/{province.lower()}/{slugify(name)}/"
+def minted_cd_url(name: str, province: str, chain_place_id: str = "") -> str:
+    """Construct the CD index page URL.
+
+    Default uses just `name` + `province`. When `chain_place_id` carries a
+    collision-disambiguator suffix (e.g., `CD_ON_York_1921` for the post-merge
+    1921 York chain), append that year suffix to the URL slug so two chains
+    sharing canonical_name+province get distinct URLs. Mirrors the chain-id
+    pattern from build_persistent_cds.py:chain_id_for + collision suffix."""
+    slug = slugify(name)
+    if chain_place_id:
+        # Detect suffix: chain_place_id is `CD_<prov>_<canonical>` optionally
+        # followed by `_<year>` or `_<year_first>_<year_last>`. Anything beyond
+        # the canonical-name portion is a collision disambiguator.
+        expected_prefix = f"CD_{province}_{name.replace(' ', '_')}"
+        if chain_place_id.startswith(expected_prefix + "_"):
+            tail = chain_place_id[len(expected_prefix) + 1:]
+            if tail:
+                slug = f"{slug}-{slugify(tail)}"
+    return f"{HGIS_CD_BASE}/{province.lower()}/{slug}/"
 
 
 def load_grounding(path: Path) -> dict[str, dict]:
@@ -84,6 +102,75 @@ def load_cd_grounding(path: Path) -> dict[str, dict]:
             r = json.loads(line)
             out[r["cd_id"]] = r
     return out
+
+
+def load_cd_chain_members(mapping_path: Path) -> dict[str, list[str]]:
+    """Returns chain_place_id -> sorted list of distinct raw_cd_ids that
+    map to that chain (across all years). Used to gather grounding records
+    for a chain and resolve QID conflicts."""
+    members: dict[str, set[str]] = {}
+    if not mapping_path.exists():
+        return {}
+    with mapping_path.open() as f:
+        for r in csv.DictReader(f):
+            members.setdefault(r["chain_place_id"], set()).add(r["raw_cd_id"])
+    return {k: sorted(v) for k, v in members.items()}
+
+
+def load_cd_chain_canonical(registry_path: Path) -> dict[str, dict]:
+    """Returns chain_place_id -> {canonical_name, num_years, anchor_year}."""
+    out: dict[str, dict] = {}
+    if not registry_path.exists():
+        return out
+    with registry_path.open() as f:
+        for r in csv.DictReader(f):
+            out[r["place_id"]] = {
+                "canonical_name": r["canonical_name"],
+                "num_years": int(r["num_years"]),
+                "anchor_year": int(r["anchor_year"]),
+            }
+    return out
+
+
+def resolve_chain_qid(member_records: list[dict], canonical_name: str
+                       ) -> tuple[dict | None, list[dict]]:
+    """Apply deterministic priority to pick a representative record for a
+    chain when its members have mixed grounding records.
+
+    Returns (chosen_record_or_None, conflict_audit_rows).
+
+    Rule:
+      1. Filter to status == 'matched' members.
+      2. If 0 → return (None, []) (chain falls through to mint URI).
+      3. If 1 → return that record.
+      4. If multiple distinct QIDs → priority:
+         (a) member whose 'csd_name' / 'cd_name' equals canonical_name exactly
+         (b) lex order on cd_id (deterministic tie-break)
+         Log all conflicting QIDs so user can review.
+      5. If multiple records agree on same QID → pick first; no conflict.
+    """
+    matched = [r for r in member_records if r.get("status") == "matched"
+               and r.get("wikidata_qid")]
+    if not matched:
+        return None, []
+    distinct_qids = {r["wikidata_qid"] for r in matched}
+    if len(distinct_qids) == 1:
+        return matched[0], []
+    # Conflict: prefer canonical-name match, then lex.
+    def _name_match(rec: dict) -> bool:
+        nm = rec.get("cd_name") or rec.get("csd_name") or ""
+        return nm.strip().lower() == (canonical_name or "").strip().lower()
+    canonical_picks = [r for r in matched if _name_match(r)]
+    pool = canonical_picks if canonical_picks else matched
+    chosen = sorted(pool, key=lambda r: r.get("cd_id", ""))[0]
+    audit = [
+        {"cd_id": r.get("cd_id", ""),
+         "wikidata_qid": r.get("wikidata_qid", ""),
+         "wikidata_label": r.get("wikidata_label", ""),
+         "is_chosen": r is chosen}
+        for r in matched
+    ]
+    return chosen, audit
 
 
 def uri_for(tcpuid: str, record: dict | None,
@@ -155,37 +242,75 @@ def main() -> None:
             province_source.setdefault(province, Counter())[source] += 1
 
     cd_grounding = load_cd_grounding(CD_JSONL)
+    cd_chain_members = load_cd_chain_members(CD_CHAIN_MAP)
+    cd_chain_canonical = load_cd_chain_canonical(CD_CHAIN_REGISTRY)
     print(f"Loaded {len(cd_grounding):,} verified records from {CD_JSONL.name}")
+    print(f"Loaded {len(cd_chain_members):,} chain → members from {CD_CHAIN_MAP.name}")
     cd_status_counter: Counter[str] = Counter()
     cd_source_counter: Counter[str] = Counter()
     cd_province_source: dict[str, Counter[str]] = {}
     cd_grounding_used: set[str] = set()
+    cd_conflict_rows = []
 
     with E53_CD.open() as f:
         reader = csv.DictReader(f)
         for row in reader:
-            place_id = row["place_id:ID"]
-            assert place_id.startswith("CD_"), place_id
+            chain_id = row["place_id:ID"]
+            assert chain_id.startswith("CD_"), chain_id
             province = row["province"]
             name = row["name"]
-            record = cd_grounding.get(place_id)
-            if record:
-                cd_grounding_used.add(place_id)
-            if record and record.get("status") == "matched":
-                qid = record["wikidata_qid"]
+
+            # Gather grounding records for all raw cd_ids that map to this chain.
+            # Fall back to the chain id itself if the chain registry isn't
+            # available (singletons / pre-Phase-1 mode).
+            raw_members = cd_chain_members.get(chain_id, [chain_id])
+            member_records = []
+            for rid in raw_members:
+                rec = cd_grounding.get(rid)
+                if rec:
+                    member_records.append(rec)
+                    cd_grounding_used.add(rid)
+
+            canonical_name = (cd_chain_canonical.get(chain_id) or {}).get(
+                "canonical_name", name
+            )
+            chosen, conflict_audit = resolve_chain_qid(member_records, canonical_name)
+
+            if conflict_audit:
+                for ar in conflict_audit:
+                    cd_conflict_rows.append({
+                        "chain_place_id": chain_id,
+                        "canonical_name": canonical_name,
+                        "province": province,
+                        **ar,
+                    })
+
+            if chosen is not None:
+                qid = chosen["wikidata_qid"]
                 uri = f"{WIKIDATA_PREFIX}{qid}"
                 source = "wikidata"
+                status = "matched"
+                wd_label = chosen.get("wikidata_label", "")
+                mint_reason = ""
             else:
-                uri = minted_cd_url(name, province)
+                # No matched member: pick a representative mint_reason if any
+                # member said mint_uri; else status=ungrounded.
+                mint_member = next(
+                    (r for r in member_records if r.get("status") == "mint_uri"),
+                    None,
+                )
+                uri = minted_cd_url(name, province, chain_id)
                 source = "minted_hgis_cd"
                 qid = ""
-            status = record["status"] if record else "ungrounded"
-            mint_reason = (record or {}).get("mint_reason", "") if record else ""
-            wd_label = (record or {}).get("wikidata_label", "") if record else ""
+                status = "mint_uri" if mint_member else (
+                    member_records[0].get("status") if member_records else "ungrounded"
+                )
+                mint_reason = (mint_member or {}).get("mint_reason", "") if mint_member else ""
+                wd_label = ""
 
             rows_out.append(
                 {
-                    "place_id:ID": place_id,
+                    "place_id:ID": chain_id,
                     "uri": uri,
                     "uri_source": source,
                     "wikidata_qid": qid,
@@ -197,6 +322,20 @@ def main() -> None:
             cd_status_counter[status] += 1
             cd_source_counter[source] += 1
             cd_province_source.setdefault(province, Counter())[source] += 1
+
+    # Write chain-level QID conflict audit file (whenever any conflict occurred).
+    if cd_conflict_rows:
+        CD_CONFLICTS.parent.mkdir(parents=True, exist_ok=True)
+        with CD_CONFLICTS.open("w", newline="") as f:
+            writer = csv.DictWriter(f, fieldnames=[
+                "chain_place_id", "canonical_name", "province",
+                "cd_id", "wikidata_qid", "wikidata_label", "is_chosen",
+            ])
+            writer.writeheader()
+            writer.writerows(cd_conflict_rows)
+        n_chains = len({r["chain_place_id"] for r in cd_conflict_rows})
+        print(f"\nWARNING: {n_chains} CD chains had member-QID conflicts; "
+              f"deterministic pick written to {CD_CONFLICTS.relative_to(REPO)}")
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     with OUT.open("w", newline="") as f:

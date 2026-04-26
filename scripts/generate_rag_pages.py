@@ -122,12 +122,44 @@ def url_for_place(name: str, place_id: str, base: str,
     return f"{base}/places/{province.lower()}/{slugify(name)}-{stem}/"
 
 
-def url_for_cd(cd_name: str, province: str, base: str) -> str:
-    """Return the URL for a per-CD index page. CD identity is name+province
-    (one row per CD in e53_place_cd.csv), so no place_id stem is needed.
-    Mirrors join_wikidata_to_places.minted_cd_url() exactly so the URI
-    sidecar entries point to the same paths the page generator emits."""
+# Populated by main() after prefetch_cd_data so render_page (CSD year pages)
+# can resolve raw NAME_CD strings to the canonical CD chain URL. Empty falls
+# back to name-based URL (pre-Phase-1 behavior).
+_CD_CHAIN_BY_RAW_YEAR: dict = {}
+_CD_CHAIN_URL_SLUG: dict = {}  # chain_id -> last path segment ("renfrew-north")
+_CD_CANONICAL_BY_CHAIN: dict = {}
+
+
+def url_for_cd(cd_name: str, province: str, base: str, *, year: int = None,
+               chain_place_id: str = None) -> str:
+    """Return the URL for a per-CD index page.
+
+    When chain lookups are populated (post-Phase-1) AND either an explicit
+    chain_place_id is provided OR a year is provided that lets us derive the
+    raw cd_id, return the chain's canonical URL (which handles collision
+    disambiguators like `york-1921`). Otherwise fall back to name-based URL
+    (pre-Phase-1 behavior, may 404 if a chain canonicalized to a different
+    slug)."""
+    chain_id = chain_place_id
+    if not chain_id and year is not None and _CD_CHAIN_BY_RAW_YEAR:
+        raw_cd_id = f"CD_{province}_{cd_name.replace(' ', '_')}"
+        chain_id = _CD_CHAIN_BY_RAW_YEAR.get((raw_cd_id, int(year)))
+    if chain_id and chain_id in _CD_CHAIN_URL_SLUG:
+        return f"{base}/cds/{province.lower()}/{_CD_CHAIN_URL_SLUG[chain_id]}/"
     return f"{base}/cds/{province.lower()}/{slugify(cd_name)}/"
+
+
+def cd_link_label(raw_cd_name: str, year: int = None, province: str = "") -> str:
+    """Return the link text for a CSD page's "Part of: <CD>" line. Uses
+    canonical chain name when the raw cd_name is in a chain; falls back
+    to raw name."""
+    if year is None or not _CD_CHAIN_BY_RAW_YEAR:
+        return raw_cd_name
+    raw_cd_id = f"CD_{province}_{raw_cd_name.replace(' ', '_')}"
+    chain_id = _CD_CHAIN_BY_RAW_YEAR.get((raw_cd_id, int(year)))
+    if chain_id:
+        return _CD_CANONICAL_BY_CHAIN.get(chain_id, raw_cd_name)
+    return raw_cd_name
 
 
 # Canonical HTML template for a Presence page. Hard-coded baseurl baked in
@@ -816,11 +848,15 @@ def render_page(row, traj, neighbours, measurements, overlaps, *, site_url: str,
     is_ir = is_indian_reserve(name)
 
     # County meta line — link to the CD index page when a real CD name exists.
+    # Pass `year` so url_for_cd can resolve the raw NAME_CD to the chain URL
+    # (handles canonicalization like "Renfrew, North—Nord" → "renfrew-north"
+    # and disambiguators like "york-1921").
     county_meta = ""
     if cd_name:
-        cd_href = url_for_cd(cd_name, prov_code, base)
+        cd_href = url_for_cd(cd_name, prov_code, base, year=year)
+        cd_display = cd_link_label(cd_name, year=year, province=prov_code)
         county_meta = (f"\n&nbsp;|&nbsp; <strong>County:</strong> "
-                       f'<a href="{cd_href}">{html.escape(cd_name)}</a>')
+                       f'<a href="{cd_href}">{html.escape(cd_display)}</a>')
 
     # Wikidata meta line (header) — suppressed for IR pages.
     wikidata_meta = ""
@@ -1393,6 +1429,8 @@ rounding; for cities split into wards, the per-CSD sum may diverge from the publ
 <h2>Constituent Census Subdivisions by year</h2>
 {years_html}
 
+{lineage_section}
+
 <h2>Identifiers</h2>
 <ul>
 <li><strong>HGIS Canada CD ID:</strong> <code>{cd_id}</code></li>
@@ -1427,15 +1465,20 @@ page for the full data pipeline.</p>
 
 def prefetch_cd_data(presence_data):
     """Read CDs + their constituent CSDs per year directly from CIDOC-CRM
-    CSV files. Independent of Kuzu since the CSV layer is the post-Phase-2
-    source of truth for CD URIs.
+    CSV files. Independent of Kuzu since the CSV layer is the post-Phase-2/3
+    source of truth for CD chains, URIs, and lineage.
 
     Returns:
-      cds: list of (cd_id, cd_name, province, uri, qid, status, mint_reason)
-      cd_to_csds_by_year: dict[cd_id] -> dict[year] -> list[(csd_name, csd_place_id, csd_qid, csd_pop)]
+      cds: list of (chain_id, canonical_name, province, uri, qid, status, mint_reason, years_active)
+      cd_to_csds_by_year: dict[chain_id] -> dict[year] -> list[(csd_name, csd_place_id, csd_qid, csd_pop)]
+      cd_chain_url: dict[chain_id] -> URL path (from e53_place_uri.csv) — single source for CD URLs
+      raw_cd_to_chain: dict[(raw_cd_id, year)] -> chain_id — for CSD presence pages to resolve cd_name → chain URL
+      cd_canonical_by_chain: dict[chain_id] -> canonical_name (used for nice link text + lineage section)
+      cd_lineage_by_chain: dict[chain_id] -> list of (lineage_type, other_chain_id, change_year)
     """
     import csv as _csv
     cidoc = REPO / "neo4j_cidoc_crm_v2"
+    chains_dir = REPO / "persistent_cds_output"
 
     # 1. e53_place_uri.csv keyed on place_id for QID + URI lookup.
     uri_by_id = {}
@@ -1443,19 +1486,54 @@ def prefetch_cd_data(presence_data):
         for r in _csv.DictReader(f):
             uri_by_id[r["place_id:ID"]] = r
 
-    # 2. e53_place_cd.csv master list (one row per CD).
+    # 2. e53_place_cd.csv master list (one row per CD chain post-Phase-3).
     cds = []
+    cd_canonical_by_chain = {}
     with (cidoc / "e53_place_cd.csv").open() as f:
         for r in _csv.DictReader(f):
-            u = uri_by_id.get(r["place_id:ID"], {})
+            chain_id = r["place_id:ID"]
+            canonical = r["name"]
+            cd_canonical_by_chain[chain_id] = canonical
+            u = uri_by_id.get(chain_id, {})
             cds.append((
-                r["place_id:ID"], r["name"], r["province"],
+                chain_id, canonical, r["province"],
                 u.get("uri", ""), u.get("wikidata_qid", ""),
                 u.get("grounding_status", ""), u.get("mint_reason", ""),
+                r.get("years_active", ""),
             ))
-    print(f"[prefetch-cds] {len(cds)} CDs", flush=True)
+    print(f"[prefetch-cds] {len(cds)} CD chains", flush=True)
 
-    # 3. Walk CD-CSD relationships year by year.
+    # 3. Build chain URL lookup from URI sidecar. For wikidata-grounded chains,
+    # synthesize the page URL from chain_id (we still want users to click into
+    # the local CD index page even when the canonical URI is Wikidata).
+    cd_chain_url = {}
+    for chain_id, canonical, province, uri, qid, status, mr, _ya in cds:
+        # Mirror minted_cd_url logic for collision-disambiguated chain ids.
+        expected_prefix = f"CD_{province}_{canonical.replace(' ', '_')}"
+        url_slug = slugify(canonical)
+        if chain_id.startswith(expected_prefix + "_"):
+            tail = chain_id[len(expected_prefix) + 1:]
+            if tail:
+                url_slug = f"{url_slug}-{slugify(tail)}"
+        cd_chain_url[chain_id] = f"/hgiscanada/cds/{province.lower()}/{url_slug}/"
+
+    # 4. Load (raw_cd_id, year) -> chain_id mapping.
+    raw_cd_to_chain = {}
+    chain_map_path = chains_dir / "cd_id_year_to_chain.csv"
+    if chain_map_path.exists():
+        with chain_map_path.open() as f:
+            for r in _csv.DictReader(f):
+                raw_cd_to_chain[(r["raw_cd_id"], int(r["year"]))] = r["chain_place_id"]
+        print(f"[prefetch-cds] {len(raw_cd_to_chain)} raw_cd → chain mappings",
+              flush=True)
+    else:
+        print(f"[prefetch-cds] WARNING: {chain_map_path} not found - "
+              f"CSD pages will link by raw cd_name (may 404)", flush=True)
+
+    # 5. Walk CD-CSD relationships year by year. CD presence id IS chain-based
+    # post-Phase-3 (e.g., CD_ON_Renfrew_North_1881), and the cd_id column on
+    # the CD presence row IS the chain place_id, so this aggregates CSDs under
+    # their chain naturally.
     cd_to_csds_by_year = defaultdict(lambda: defaultdict(list))
     years_present = set()
     for year in (1851, 1861, 1871, 1881, 1891, 1901, 1911, 1921):
@@ -1464,46 +1542,81 @@ def prefetch_cd_data(presence_data):
         if not cd_pres_path.exists() or not rel_path.exists():
             continue
         years_present.add(year)
-        cd_pres_to_id = {}
+        cd_pres_to_chain = {}
         with cd_pres_path.open() as f:
             for r in _csv.DictReader(f):
-                cd_pres_to_id[r["presence_id:ID"]] = r["cd_id"]
+                cd_pres_to_chain[r["presence_id:ID"]] = r["cd_id"]
         with rel_path.open() as f:
             for r in _csv.DictReader(f):
                 csd_pres_id = r[":START_ID"]
                 cd_pres_id = r[":END_ID"]
-                cd_id = cd_pres_to_id.get(cd_pres_id)
-                if not cd_id:
+                chain_id = cd_pres_to_chain.get(cd_pres_id)
+                if not chain_id:
                     continue
                 csd_info = presence_data.get(csd_pres_id)
                 if not csd_info:
                     continue
-                # presence_data tuple shape per prefetch_all_data:
-                # (place_id, name, qid, place_type, province, tcpuid, year,
-                #  area_sqm, lat, lon, pop, pop_m, pop_f, density, cd_name, ...)
                 csd_place_id = csd_info[0]
                 csd_name = csd_info[1]
                 csd_qid = csd_info[2]
                 csd_pop = csd_info[10]
-                cd_to_csds_by_year[cd_id][year].append(
+                cd_to_csds_by_year[chain_id][year].append(
                     (csd_name, csd_place_id, csd_qid, csd_pop)
                 )
-    print(f"[prefetch-cds] CD-CSD memberships across {len(years_present)} years", flush=True)
-    return cds, cd_to_csds_by_year
+    print(f"[prefetch-cds] CD-CSD memberships across {len(years_present)} years",
+          flush=True)
+
+    # 6. Load CD lineage edges (Phase 1 output, copied to neo4j_cidoc_crm_v2 in Phase 3).
+    cd_lineage_by_chain = defaultdict(list)
+    cd_lineage_path = cidoc / "cd_lineage.csv"
+    if cd_lineage_path.exists():
+        with cd_lineage_path.open() as f:
+            for r in _csv.DictReader(f):
+                ltype = r["lineage_type"]
+                start = r[":START_ID"]
+                end = r[":END_ID"]
+                yr_raw = r.get("change_year:int", "") or r.get("change_year", "")
+                try:
+                    change_year = int(yr_raw) if yr_raw else None
+                except ValueError:
+                    change_year = None
+                # Index from BOTH endpoints so the page can render both
+                # "split into" (parent's view) and "split from" (child's view).
+                cd_lineage_by_chain[start].append(("out", ltype, end, change_year))
+                cd_lineage_by_chain[end].append(("in", ltype, start, change_year))
+        n_edges = sum(len(v) for v in cd_lineage_by_chain.values()) // 2
+        print(f"[prefetch-cds] {n_edges} CD lineage edges", flush=True)
+
+    return (cds, cd_to_csds_by_year, cd_chain_url, raw_cd_to_chain,
+            cd_canonical_by_chain, cd_lineage_by_chain)
 
 
-def render_cd_page(cd_row, csds_by_year, *, site_url: str, base: str
-                   ) -> tuple[str, str, str]:
-    """Return (rel_dir, body, canonical) for a CD index page."""
-    cd_id, cd_name, prov_code, uri, qid, status, mint_reason = cd_row
+def render_cd_page(cd_row, csds_by_year, lineage_edges, *,
+                   site_url: str, base: str) -> tuple[str, str, str]:
+    """Return (rel_dir, body, canonical) for a CD index page.
+
+    cd_row tuple: (chain_id, canonical_name, province, uri, qid, status,
+                   mint_reason, years_active_string).
+    lineage_edges: list of (direction, lineage_type, other_chain_id, change_year)
+                   from the Phase-1 cd_lineage.csv. Empty list if none.
+    """
+    (cd_id, cd_name, prov_code, uri, qid, status, mint_reason,
+     years_active_str) = cd_row
     province = PROVINCE_NAMES.get(prov_code, prov_code)
-    page_path = url_for_cd(cd_name, prov_code, base)
+    page_path = url_for_cd(cd_name, prov_code, base, chain_place_id=cd_id)
     canonical = f"{site_url}{page_path}"
     home_url = f"{base}/"
     prov_index_url = f"{base}/places/{prov_code.lower()}/"
     about_url = f"{base}/about/"
 
     years = sorted(csds_by_year.keys())
+    # Prefer years_active from registry (covers gap-spanning chains via Rule 4
+    # where csds_by_year skips middle years that belonged to split children).
+    if years_active_str:
+        try:
+            years = sorted(int(y) for y in years_active_str.split(";") if y)
+        except ValueError:
+            pass
     years_active = (
         f"{years[0]}–{years[-1]}" if len(years) > 1
         else (str(years[0]) if years else "—")
@@ -1574,6 +1687,49 @@ def render_cd_page(cd_row, csds_by_year, *, site_url: str, base: str
         f"Constituent Census Subdivisions listed for each census year."
     )
 
+    # Lineage section: split-from / merged-into / split-into edges.
+    # Group by (direction, lineage_type, change_year) for prose rendering.
+    lineage_section = ""
+    if lineage_edges:
+        from collections import defaultdict as _dd
+        groups = _dd(list)  # (direction, ltype, year) -> list of other_chain_id
+        for direction, ltype, other_id, change_year in lineage_edges:
+            groups[(direction, ltype, change_year)].append(other_id)
+        # Render each group as a sentence.
+        sentences = []
+        for (direction, ltype, change_year), others in sorted(
+            groups.items(), key=lambda kv: (kv[0][2] or 0, kv[0][0], kv[0][1])
+        ):
+            other_links = []
+            for other_id in sorted(set(others)):
+                other_canonical = _CD_CANONICAL_BY_CHAIN.get(other_id, other_id)
+                # Derive prov from chain id (CD_<PROV>_...).
+                other_parts = other_id.split("_", 2)
+                other_prov = other_parts[1] if len(other_parts) >= 2 else prov_code
+                other_url = (f"{base}/cds/{other_prov.lower()}/"
+                             f"{_CD_CHAIN_URL_SLUG.get(other_id, slugify(other_canonical))}/")
+                other_links.append(
+                    f'<a href="{other_url}">{html.escape(other_canonical)}</a>'
+                )
+            joined = ", ".join(other_links)
+            yr_str = f" in {change_year}" if change_year else ""
+            if direction == "out" and ltype == "SPLIT_FROM":
+                sentences.append(f"<li>Split into {joined}{yr_str}.</li>")
+            elif direction == "in" and ltype == "SPLIT_FROM":
+                sentences.append(f"<li>Split off from {joined}{yr_str}.</li>")
+            elif direction == "out" and ltype == "MERGED_INTO":
+                sentences.append(f"<li>Merged into {joined}{yr_str}.</li>")
+            elif direction == "in" and ltype == "MERGED_INTO":
+                sentences.append(f"<li>Re-formed from {joined}{yr_str}.</li>")
+        if sentences:
+            lineage_section = (
+                "<h2>Lineage</h2>\n"
+                "<p>Boundary changes connecting this Census Division to others "
+                "in the 1851–1921 series, derived from spatial polygon overlap "
+                "across census-year boundary files.</p>\n"
+                "<ul>\n" + "\n".join(sentences) + "\n</ul>"
+            )
+
     jsonld_obj = {
         "@context": "https://schema.org",
         "@type": "AdministrativeArea",
@@ -1603,6 +1759,7 @@ def render_cd_page(cd_row, csds_by_year, *, site_url: str, base: str
         intro=intro,
         traj_rows="\n".join(traj_rows),
         years_html="\n".join(year_sections),
+        lineage_section=lineage_section,
         about_url=about_url,
         cd_id=cd_id,
         jsonld=json.dumps(jsonld_obj, indent=2),
@@ -1838,7 +1995,7 @@ def render_province_index_page(prov_code: str, places_in_prov: list,
         for cd_id, cd_name, cd_qid, num_csds_max in sorted(
             cds_in_prov, key=lambda r: (r[1] or "").lower()
         ):
-            cd_href = url_for_cd(cd_name, prov_code, base)
+            cd_href = url_for_cd(cd_name, prov_code, base, chain_place_id=cd_id)
             wd_marker = ""
             if cd_qid:
                 wd_marker = (
@@ -1949,6 +2106,27 @@ def main():
     prefetched = prefetch_all_data(conn)
     place_to_presences = prefetched[1]
 
+    # Pre-fetch CD chain lookups BEFORE rendering any presence pages, so the
+    # CSD presence pages can build chain-aware "Part of: <CD>" links via the
+    # module-level _CD_CHAIN_BY_RAW_YEAR / _CD_CHAIN_URL_SLUG globals.
+    cds = []
+    cd_to_csds_by_year = {}
+    cd_lineage_by_chain = {}
+    cds, cd_to_csds_by_year, _cd_chain_url_full, _raw_to_chain, \
+        _canonical_by_chain, cd_lineage_by_chain = prefetch_cd_data(prefetched[0])
+    # Populate module-level globals used by url_for_cd / cd_link_label.
+    _CD_CHAIN_BY_RAW_YEAR.clear()
+    _CD_CHAIN_BY_RAW_YEAR.update(_raw_to_chain)
+    _CD_CANONICAL_BY_CHAIN.clear()
+    _CD_CANONICAL_BY_CHAIN.update(_canonical_by_chain)
+    # Convert full URL paths to last-segment slugs for url_for_cd lookup.
+    _CD_CHAIN_URL_SLUG.clear()
+    for chain_id, url_path in _cd_chain_url_full.items():
+        # url_path is "/hgiscanada/cds/<prov>/<slug>/" — extract <slug>.
+        parts = [p for p in url_path.split("/") if p]
+        if parts:
+            _CD_CHAIN_URL_SLUG[chain_id] = parts[-1]
+
     written_urls = []
     year_counts = {}
     for pid in targets:
@@ -1983,22 +2161,20 @@ def main():
             place_pages_written += 1
         print(f"Wrote {place_pages_written} per-Place index page(s).")
 
-    # CD index pages (one per Census Division). --all mode only, since they
-    # need the full presence_data prefetch for CSD lookups.
-    cds = []
-    cd_to_csds_by_year = {}
+    # CD index pages (one per Census Division chain). --all mode only;
+    # uses pre-fetched cds + cd_to_csds_by_year + cd_lineage_by_chain.
     cd_pages_written = 0
     if args.all:
-        cds, cd_to_csds_by_year = prefetch_cd_data(prefetched[0])
         for cd_row in cds:
             cd_id = cd_row[0]
             csds_by_year = cd_to_csds_by_year.get(cd_id, {})
             if not csds_by_year:
-                # CD has no constituent CSDs in any year — orphan; skip
-                # rather than emitting an empty page.
+                # Chain has no constituent CSDs in any year (rare orphan).
                 continue
+            lineage_edges = cd_lineage_by_chain.get(cd_id, [])
             rel_dir, body, canonical = render_cd_page(
-                cd_row, csds_by_year, site_url=site_url, base=base
+                cd_row, csds_by_year, lineage_edges,
+                site_url=site_url, base=base,
             )
             full_dir = out_dir / rel_dir
             full_dir.mkdir(parents=True, exist_ok=True)
@@ -2035,7 +2211,10 @@ def main():
         # Group CDs by province for the province-index "Census Divisions" section.
         cds_by_prov = defaultdict(list)
         for cd_row in cds:
-            cd_id, cd_name, prov_code, _uri, qid, _status, _mr = cd_row
+            cd_id = cd_row[0]
+            cd_name = cd_row[1]
+            prov_code = cd_row[2]
+            qid = cd_row[4]
             csds_by_year = cd_to_csds_by_year.get(cd_id, {})
             num_csds_max = max((len(v) for v in csds_by_year.values()), default=0)
             if num_csds_max == 0:
