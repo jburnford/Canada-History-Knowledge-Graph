@@ -2,16 +2,17 @@
 """Join verified Wikidata matches onto E53_Place nodes as a URI sidecar.
 
 Produces neo4j_cidoc_crm_v2/e53_place_uri.csv — one row per E53_Place with the
-URI the RDF exporter should use as the subject. LINCS policy (per Susan, LINCS
-team): use existing authority URIs where possible, temporary URIs under
-http://temp.lincsproject.ca/ otherwise. Permanent minting happens at publication
-time, not here.
+URI the RDF exporter should use as the subject.
 
-URI assignment:
+URI assignment (post-v9.2):
   - status=matched  -> http://www.wikidata.org/entity/{QID}
-  - status=mint_uri -> http://temp.lincsproject.ca/census/place/{tcpuid}
-  - status=skip     -> http://temp.lincsproject.ca/census/place/{tcpuid}
-  - ungrounded      -> http://temp.lincsproject.ca/census/place/{tcpuid}
+  - status=mint_uri -> https://jimclifford.ca/hgiscanada/places/<prov>/<slug>-<id>/
+  - status=skip     -> https://jimclifford.ca/hgiscanada/places/<prov>/<slug>-<id>/
+  - ungrounded      -> https://jimclifford.ca/hgiscanada/places/<prov>/<slug>-<id>/
+
+The minted URI is the actual GitHub Pages page URL. Pages dereference to a
+CIDOC-CRM-rich HTML representation. Migration to w3id.org or LINCS later layers
+on without invalidating the place_id portion (a redirect rule is enough).
 
 The Neo4j :ID column stays as PLACE_{tcpuid}; this sidecar only supplies the
 URI property so the RDF exporter can emit the right subject. No existing CSVs
@@ -28,14 +29,37 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[1]
 JSONL = REPO / "wikidata_grounding" / "csd_verified_matches.jsonl"
+CD_JSONL = REPO / "wikidata_grounding" / "cd_verified_matches.jsonl"
 E53_CSD = REPO / "neo4j_cidoc_crm_v2" / "e53_place_csd.csv"
+E53_CD = REPO / "neo4j_cidoc_crm_v2" / "e53_place_cd.csv"
 OUT = REPO / "neo4j_cidoc_crm_v2" / "e53_place_uri.csv"
 UNPLACED = REPO / "neo4j_cidoc_crm_v2" / "e53_place_uri_unplaced.csv"
 
 WIKIDATA_PREFIX = "http://www.wikidata.org/entity/"
-TEMP_PREFIX = "http://temp.lincsproject.ca/census/place/"
+HGIS_PAGE_BASE = "https://jimclifford.ca/hgiscanada/places"
+HGIS_CD_BASE = "https://jimclifford.ca/hgiscanada/cds"
 GROUNDING_YEAR = "1921"  # JSONL grounding was done against the 1921 CSD snapshot
 SUFFIX_RE = re.compile(r"_(\d{4})$")
+SLUG_RE = re.compile(r"[^a-z0-9]+")
+
+
+def slugify(s: str) -> str:
+    """Match scripts/generate_rag_pages.py:slugify exactly so minted URIs
+    align with the actual rendered page URLs."""
+    return SLUG_RE.sub("-", s.lower()).strip("-")
+
+
+def minted_page_url(name: str, place_id: str, province: str) -> str:
+    """Construct the per-Place page URL the static site renders for this chain.
+    Mirrors generate_rag_pages.url_for_place()."""
+    stem = slugify(place_id.replace("PLACE_", ""))
+    return f"{HGIS_PAGE_BASE}/{province.lower()}/{slugify(name)}-{stem}/"
+
+
+def minted_cd_url(name: str, province: str) -> str:
+    """Construct the CD index page URL. CD identity is name+province
+    (one row per CD in e53_place_cd.csv), so no place_id stem is needed."""
+    return f"{HGIS_CD_BASE}/{province.lower()}/{slugify(name)}/"
 
 
 def load_grounding(path: Path) -> dict[str, dict]:
@@ -50,12 +74,26 @@ def load_grounding(path: Path) -> dict[str, dict]:
     return out
 
 
-def uri_for(tcpuid: str, record: dict | None) -> tuple[str, str, str]:
-    """Return (uri, uri_source, wikidata_qid_or_empty)."""
+def load_cd_grounding(path: Path) -> dict[str, dict]:
+    out: dict[str, dict] = {}
+    with path.open() as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            r = json.loads(line)
+            out[r["cd_id"]] = r
+    return out
+
+
+def uri_for(tcpuid: str, record: dict | None,
+            *, place_id: str, name: str, province: str) -> tuple[str, str, str]:
+    """Return (uri, uri_source, wikidata_qid_or_empty).
+    Wikidata when matched; minted GitHub Pages URL otherwise."""
     if record and record.get("status") == "matched":
         qid = record["wikidata_qid"]
         return f"{WIKIDATA_PREFIX}{qid}", "wikidata", qid
-    return f"{TEMP_PREFIX}{tcpuid}", "temp_lincs", ""
+    return minted_page_url(name, place_id, province), "minted_hgis", ""
 
 
 def base_tcpuid(tcpuid: str) -> str:
@@ -93,7 +131,10 @@ def main() -> None:
                 record = grounding[base]
                 grounding_used.add(base)
 
-            uri, source, qid = uri_for(base, record)
+            uri, source, qid = uri_for(
+                base, record,
+                place_id=place_id, name=row["name"], province=province,
+            )
             status = record["status"] if record else "ungrounded"
             mint_reason = (record or {}).get("mint_reason", "") if record else ""
             wd_label = (record or {}).get("wikidata_label", "") if record else ""
@@ -112,6 +153,50 @@ def main() -> None:
             status_counter[status] += 1
             source_counter[source] += 1
             province_source.setdefault(province, Counter())[source] += 1
+
+    cd_grounding = load_cd_grounding(CD_JSONL)
+    print(f"Loaded {len(cd_grounding):,} verified records from {CD_JSONL.name}")
+    cd_status_counter: Counter[str] = Counter()
+    cd_source_counter: Counter[str] = Counter()
+    cd_province_source: dict[str, Counter[str]] = {}
+    cd_grounding_used: set[str] = set()
+
+    with E53_CD.open() as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            place_id = row["place_id:ID"]
+            assert place_id.startswith("CD_"), place_id
+            province = row["province"]
+            name = row["name"]
+            record = cd_grounding.get(place_id)
+            if record:
+                cd_grounding_used.add(place_id)
+            if record and record.get("status") == "matched":
+                qid = record["wikidata_qid"]
+                uri = f"{WIKIDATA_PREFIX}{qid}"
+                source = "wikidata"
+            else:
+                uri = minted_cd_url(name, province)
+                source = "minted_hgis_cd"
+                qid = ""
+            status = record["status"] if record else "ungrounded"
+            mint_reason = (record or {}).get("mint_reason", "") if record else ""
+            wd_label = (record or {}).get("wikidata_label", "") if record else ""
+
+            rows_out.append(
+                {
+                    "place_id:ID": place_id,
+                    "uri": uri,
+                    "uri_source": source,
+                    "wikidata_qid": qid,
+                    "wikidata_label": wd_label,
+                    "grounding_status": status,
+                    "mint_reason": mint_reason,
+                }
+            )
+            cd_status_counter[status] += 1
+            cd_source_counter[source] += 1
+            cd_province_source.setdefault(province, Counter())[source] += 1
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     with OUT.open("w", newline="") as f:
@@ -158,20 +243,44 @@ def main() -> None:
                     }
                 )
 
-    print("\nGrounding status:")
+    cd_unused = set(cd_grounding) - cd_grounding_used
+    if cd_unused:
+        print(
+            f"\nWARNING: {len(cd_unused)} CD grounding records had no matching "
+            f"row in {E53_CD.name} (cd_id mismatch): {sorted(cd_unused)[:5]}..."
+        )
+
+    print("\nCSD grounding status:")
     for status, n in sorted(status_counter.items(), key=lambda x: -x[1]):
-        print(f"  {status:12s} {n:6,}  ({n / total:5.1%})")
-    print("\nURI source:")
+        print(f"  {status:12s} {n:6,}  ({n / sum(status_counter.values()):5.1%})")
+    print("\nCSD URI source:")
     for source, n in sorted(source_counter.items(), key=lambda x: -x[1]):
-        print(f"  {source:12s} {n:6,}  ({n / total:5.1%})")
-    print("\nPer-province URI source (wikidata / temp_lincs):")
+        print(f"  {source:12s} {n:6,}  ({n / sum(source_counter.values()):5.1%})")
+    print("\nCSD per-province URI source (wikidata / minted_hgis):")
     for prov in sorted(province_source):
         c = province_source[prov]
         wd = c.get("wikidata", 0)
-        tmp = c.get("temp_lincs", 0)
-        tot = wd + tmp
+        mt = c.get("minted_hgis", 0)
+        tot = wd + mt
         pct = wd / tot if tot else 0.0
-        print(f"  {prov:3s}  wikidata={wd:5,}  temp={tmp:5,}  total={tot:5,}  ({pct:5.1%} grounded)")
+        print(f"  {prov:3s}  wikidata={wd:5,}  minted={mt:5,}  total={tot:5,}  ({pct:5.1%} grounded)")
+
+    cd_total = sum(cd_status_counter.values())
+    if cd_total:
+        print("\nCD grounding status:")
+        for status, n in sorted(cd_status_counter.items(), key=lambda x: -x[1]):
+            print(f"  {status:12s} {n:6,}  ({n / cd_total:5.1%})")
+        print("\nCD URI source:")
+        for source, n in sorted(cd_source_counter.items(), key=lambda x: -x[1]):
+            print(f"  {source:18s} {n:6,}  ({n / cd_total:5.1%})")
+        print("\nCD per-province URI source (wikidata / minted_hgis_cd):")
+        for prov in sorted(cd_province_source):
+            c = cd_province_source[prov]
+            wd = c.get("wikidata", 0)
+            mt = c.get("minted_hgis_cd", 0)
+            tot = wd + mt
+            pct = wd / tot if tot else 0.0
+            print(f"  {prov:3s}  wikidata={wd:4,}  minted={mt:4,}  total={tot:4,}  ({pct:5.1%} grounded)")
 
 
 if __name__ == "__main__":
