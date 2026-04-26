@@ -2080,7 +2080,7 @@ def main():
     site_url = args.site_url.rstrip("/")
     base = args.base_path.rstrip("/")
 
-    import kuzu
+    import ladybug as kuzu  # Ladybug is the maintained Kuzu fork (post-Apple-acquisition)
     db = kuzu.Database(str(DB_PATH))
     conn = kuzu.Connection(db)
 
