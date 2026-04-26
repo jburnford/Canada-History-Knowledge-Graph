@@ -58,10 +58,15 @@ GOOD_P31_QIDS = {
     "Q18810091",    # census division of Canada (umbrella type for any CD)
     "Q82794",       # region (used by Labrador and other geographic CDs)
     # Ontario
-    "Q1799794",     # district of Ontario
-    "Q1647195",     # former county of Ontario
-    "Q3271856",     # county of Ontario
-    "Q15640019",    # regional municipality of Ontario
+    "Q14763130",    # district of Ontario (actual modern QID)
+    "Q14763041",    # county of Ontario (actual modern QID)
+    "Q14762890",    # regional municipality of Ontario (actual modern QID)
+    "Q14762300",    # single-tier municipality (used by post-amalgamation counties)
+    "Q16295254",    # upper-tier municipality (used by Ontario counties)
+    "Q1799794",     # district of Ontario (legacy QID, may still appear)
+    "Q1647195",     # former county of Ontario (legacy)
+    "Q3271856",     # county of Ontario (legacy)
+    "Q15640019",    # regional municipality of Ontario (legacy)
     "Q11688081",    # united counties of Ontario
     "Q2576666",     # single-tier municipality (Ontario CDs sometimes)
     "Q15640053",    # lower-tier municipality of Ontario (rare for CD level but possible)
