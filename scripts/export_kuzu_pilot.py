@@ -462,19 +462,41 @@ def main():
     for vcode in sorted(all_vcodes):
         vt = var_types.get(vcode, {})
         if vt:
+            comparable_str = (vt.get("comparable_across_years", "") or "").strip().lower()
+            comparable = "true" if comparable_str == "true" else "false"
+            try:
+                year_count = int(vt.get("year_count") or 0)
+            except (TypeError, ValueError):
+                year_count = 0
+            try:
+                presence_count = int(vt.get("presence_count") or 0)
+            except (TypeError, ValueError):
+                presence_count = 0
             var_rows.append([
                 vcode,
                 vt.get("label", vcode),
                 vt.get("category", "") or infer_category(vcode),
                 vt.get("unit", ""),
+                vt.get("source_tables", "") or "",
+                year_count,
+                comparable,
+                presence_count,
+                vt.get("quality", "") or "undocumented",
             ])
         else:
             # Synthetic entry so FK references resolve. Label = humanised code.
             human = vcode.replace("VAR_", "").replace("_", " ")
-            var_rows.append([vcode, human, infer_category(vcode), ""])
+            var_rows.append([
+                vcode, human, infer_category(vcode),
+                "", "", 0, "false", 0, "undocumented",
+            ])
     csv_write(
         out_root / "nodes" / "census_variable.csv",
-        ["var_code", "label", "category", "unit"],
+        [
+            "var_code", "label", "category", "unit",
+            "source_tables", "year_count", "comparable_across_years",
+            "presence_count", "quality",
+        ],
         var_rows,
     )
     synth = len(referenced_vcodes - set(var_types.keys()))
@@ -717,6 +739,11 @@ CREATE NODE TABLE CensusVariable (
   label STRING,
   category STRING,
   unit STRING,
+  source_tables STRING,
+  year_count INT64,
+  comparable_across_years BOOLEAN,
+  presence_count INT64,
+  quality STRING,
   PRIMARY KEY (var_code)
 );
 

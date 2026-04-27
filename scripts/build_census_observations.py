@@ -20,10 +20,65 @@ from collections import defaultdict
 import re
 
 
-def infer_unit(variable_name):
-    """Infer measurement unit from variable name."""
-    name_upper = variable_name.upper()
+_UNIT_PREFIX_PATTERNS = [
+    ('acres of', 'acres'),
+    ('bushels of', 'bushels'),
+    ('barrels of', 'barrels'),
+    ('pounds of', 'pounds'),
+    ('tons of', 'tons'),
+    ('gallons of', 'gallons'),
+    ('quintals of', 'quintals'),
+    ('yards of', 'yards'),
+    ('feet of', 'feet'),
+    ('fathoms of', 'fathoms'),
+    ('value of', 'dollars'),
+    ('total area', 'acres'),
+    ('area in acres', 'acres'),
+    ('area in square miles', 'square_miles'),
+    ('capacity of', 'gallons'),
+    ('deaths in the past year', 'deaths'),
+    ('deaths among', 'deaths'),
+    ('deaths,', 'deaths'),
+]
 
+_HEAD_NOUN_TO_UNIT = {
+    # persons
+    **{w: 'persons' for w in (
+        'males', 'females', 'persons', 'men', 'women', 'children',
+        'adult', 'adults', 'single', 'married', 'widowed', 'divorced',
+        'french', 'indigenous', 'negroes', 'jews', 'jewish',
+        'protestants', 'catholics', 'presbyterians', 'methodists',
+        'baptists', 'anglicans', 'lutherans', 'quakers', 'christians',
+        'hindus', 'pagans', 'mennonites', 'unitarians',
+        'employees', 'hands', 'operatives', 'apprentices',
+        'members',
+    )},
+    # buildings
+    **{w: 'buildings' for w in (
+        'houses', 'dwellings', 'churches', 'schoolhouses', 'schools',
+        'homes', 'shanties',
+    )},
+    # establishments
+    **{w: 'establishments' for w in (
+        'factories', 'mills', 'shops', 'kilns', 'breweries', 'distilleries',
+        'works', 'establishments', 'tanneries', 'foundries', 'forges',
+        'refineries', 'creameries', 'cheeseries', 'bakeries',
+    )},
+    # head of livestock
+    **{w: 'head' for w in (
+        'oxen', 'cattle', 'sheep', 'swine', 'hogs', 'lambs', 'calves',
+        'horses', 'cows', 'pigs', 'colts', 'milch', 'bulls', 'steers',
+    )},
+    # vessels
+    **{w: 'vessels' for w in ('boats', 'vessels', 'ships', 'barges')},
+    # households (CD-level supplement codes)
+    'households': 'households',
+}
+
+
+def _infer_unit_from_name(variable_name):
+    """Legacy name-based inference; used as fallback when no description."""
+    name_upper = (variable_name or '').upper()
     if any(x in name_upper for x in ['POP', 'AGE_', 'RELIGION', 'BIRTH', 'LANG', 'RACE', 'OCCUPATION']):
         return 'persons'
     elif 'ACRES' in name_upper:
@@ -44,6 +99,70 @@ def infer_unit(variable_name):
         return 'percent'
     else:
         return 'unknown'
+
+
+def infer_unit(variable_name, description=None, category=None):
+    """Infer measurement unit, preferring the Mastvar description text.
+
+    Order of inference:
+      1. Explicit unit prefixes in the description ("Acres of …", "Bushels of …").
+      2. "Number of <head noun>" — look up the head noun in known buckets.
+      3. Category-default for person-heavy categories when the description
+         starts with "Number of" but the head noun doesn't match a bucket.
+      4. Fallback to the legacy name-based heuristic.
+    """
+    if description:
+        d = str(description).strip().lower()
+        for prefix, unit in _UNIT_PREFIX_PATTERNS:
+            if d.startswith(prefix):
+                return unit
+        if 'population per square' in d or 'persons per square' in d:
+            return 'persons_per_sq_mi'
+        if d.startswith('average size of families') or d.startswith('average number'):
+            return 'persons'
+        if 'percentage' in d or 'per cent' in d or d.startswith('percent') or '%' in d:
+            return 'percent'
+        if d.startswith('total population') or d == 'population' or d.startswith('population'):
+            return 'persons'
+        if d.startswith('persons recorded') or d.startswith('persons aged'):
+            return 'persons'
+        # Generic "number of <X>" search — catches "Total (rural + urban) number
+        # of dwellings", "Rural number of households", etc., not just leading
+        # "Number of X". Falls through to head-noun bucket lookup below.
+        nm = re.search(r'\bnumber of (\w+)', d)
+        if nm:
+            head_first = nm.group(1)
+            if head_first in _HEAD_NOUN_TO_UNIT:
+                return _HEAD_NOUN_TO_UNIT[head_first]
+            if category in ('POP', 'AGE', 'ETH', 'REL', 'DTH'):
+                return 'persons'
+            if category == 'BLD':
+                return 'buildings'
+            if category == 'MFG':
+                return 'establishments'
+            return 'count'
+        if d.startswith('number of') or d.startswith('number or'):
+            head = d.replace('number of', '', 1).replace('number or', '', 1).strip()
+            head_first = re.split(r'[\s,]', head, 1)[0]
+            if head_first in _HEAD_NOUN_TO_UNIT:
+                return _HEAD_NOUN_TO_UNIT[head_first]
+            # Category-based default for "Number of X" residuals.
+            if category in ('POP', 'AGE', 'ETH', 'REL', 'DTH'):
+                return 'persons'
+            if category == 'BLD':
+                return 'buildings'
+            if category == 'MFG':
+                return 'establishments'
+            return 'count'
+        if d.startswith('deaths'):
+            return 'deaths'
+        if d.startswith('total number of deaths'):
+            return 'deaths'
+        if d.startswith('ratio of'):
+            return 'ratio'
+        if 'logs produced' in d or d.startswith('logs '):
+            return 'logs'
+    return _infer_unit_from_name(variable_name)
 
 
 def load_master_variables(mastvar_path):
@@ -75,34 +194,132 @@ def load_master_variables(mastvar_path):
     return df
 
 
-def create_variable_types(mastvar_df, output_dir):
+_PILOT_YEARS = (1851, 1861, 1871, 1881, 1891, 1901, 1911, 1921)
+
+
+def _build_var_provenance_index(obs_dir):
+    """Read p2_has_type, p70_documents, e73 CSVs from obs_dir; build:
+        var_year_table[var_code][year] -> most-common source_table
+        var_years[var_code] -> set of years
+        var_count[var_code] -> total measurement-count across all years
+
+    Returns (var_year_table, var_years, var_count). If any expected file is
+    missing the function returns empty dicts and a warning is printed.
+    """
+    import csv as _csv
+    from collections import defaultdict, Counter
+    obs = Path(obs_dir)
+
+    e73_path = obs / 'e73_information_objects.csv'
+    if not e73_path.exists():
+        print(f"  WARN: {e73_path} missing — provenance enrichment skipped")
+        return {}, {}, {}
+    src_table = {}
+    with e73_path.open() as f:
+        for r in _csv.DictReader(f):
+            src_table[r['info_object_id:ID']] = r['source_table']
+
+    var_year_table = defaultdict(lambda: defaultdict(Counter))
+    var_years = defaultdict(set)
+    var_count = Counter()
+    for year in _PILOT_YEARS:
+        p2 = obs / f'p2_has_type_{year}.csv'
+        p70 = obs / f'p70_documents_{year}.csv'
+        if not p2.exists():
+            continue
+        mid_to_var = {}
+        with p2.open() as f:
+            for r in _csv.DictReader(f):
+                mid = r[':START_ID']
+                v = r[':END_ID']
+                mid_to_var[mid] = v
+                var_years[v].add(year)
+                var_count[v] += 1
+        if p70.exists():
+            with p70.open() as f:
+                for r in _csv.DictReader(f):
+                    sid = r[':START_ID']
+                    mid = r[':END_ID']
+                    v = mid_to_var.get(mid)
+                    if v:
+                        table = src_table.get(sid, '')
+                        if table:
+                            var_year_table[v][year][table] += 1
+    # Collapse Counters to most-common single value per (var, year)
+    flat = {}
+    for v, ymap in var_year_table.items():
+        flat[v] = {y: cnt.most_common(1)[0][0] for y, cnt in ymap.items()}
+    return flat, dict(var_years), dict(var_count)
+
+
+def _format_source_tables(var_year_table_map):
+    """Render var->{year:table} as 'YYYY:Vxxx,YYYY:Vxxx' sorted by year."""
+    if not var_year_table_map:
+        return ''
+    parts = [f"{y}:{tbl}" for y, tbl in sorted(var_year_table_map.items())]
+    return ','.join(parts)
+
+
+def _quality_for_count(presence_count):
+    if presence_count == 0:
+        return 'undocumented'
+    if presence_count < 100:
+        return 'sparse'
+    return 'signal'
+
+
+def create_variable_types(mastvar_df, output_dir, obs_dir=None):
     """
     Create E55_Type nodes for all variables.
 
-    Args:
-        mastvar_df: DataFrame from master variables file
-        output_dir: Output directory for CSV files
+    Enriched columns when obs_dir is provided (or defaults to output_dir):
+      source_tables           - 'YYYY:Vxxx,YYYY:Vxxx' (per-year provenance)
+      year_count              - number of distinct years where var appears
+      comparable_across_years - true when year_count >= 2
+      presence_count           - total measurement-count (nationwide)
+      quality                 - undocumented | sparse | signal
     """
     print("\nCreating E55_Type variable taxonomy...")
+
+    if obs_dir is None:
+        obs_dir = output_dir
+    var_year_table, var_years, var_count = _build_var_provenance_index(obs_dir)
 
     variable_types = []
     for _, row in mastvar_df.iterrows():
         var_name = row['Name']
+        var_code = f"VAR_{var_name}"
+        explicit_unit = row.get('Unit') if 'Unit' in mastvar_df.columns else None
+        if explicit_unit and pd.notna(explicit_unit) and str(explicit_unit).strip():
+            unit = str(explicit_unit).strip()
+        else:
+            unit = infer_unit(var_name, row.get('Description'), row.get('Category'))
+        years = var_years.get(var_code, set())
+        cnt = var_count.get(var_code, 0)
         variable_types.append({
-            'type_id:ID': f"VAR_{var_name}",
+            'type_id:ID': var_code,
             ':LABEL': 'E55_Type',
             'label': row['Description'],
             'category': row['Category'],
-            'unit': infer_unit(var_name),
-            'variable_name': var_name
+            'unit': unit,
+            'variable_name': var_name,
+            'source_tables': _format_source_tables(var_year_table.get(var_code, {})),
+            'year_count': len(years),
+            'comparable_across_years': 'true' if len(years) >= 2 else 'false',
+            'presence_count': cnt,
+            'quality': _quality_for_count(cnt),
         })
 
-    # Create output DataFrame
     df = pd.DataFrame(variable_types)
     output_path = output_dir / 'e55_variable_types.csv'
     df.to_csv(output_path, index=False)
-    print(f"  Created {len(df)} variable types → {output_path}")
 
+    # Diagnostics
+    qcounts = df['quality'].value_counts().to_dict()
+    print(f"  Created {len(df)} variable types → {output_path}")
+    print(f"    quality: {qcounts}")
+    print(f"    comparable_across_years=true: {(df['comparable_across_years']=='true').sum()}")
+    print(f"    units assigned: {(df['unit']!='unknown').sum()}/{len(df)}")
     return df
 
 
