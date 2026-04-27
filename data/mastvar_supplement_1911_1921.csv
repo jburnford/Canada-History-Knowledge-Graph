@@ -1,0 +1,109 @@
+Name,Description,Category,1911,1921
+AREA_ACRES,Area in acres,POP,X,
+AREA_SQ_MI,Area in square miles,POP,X,
+POP_M,Number of males in the population,POP,X,X
+POP_F,Number of females in the population,POP,X,X
+POP_TOT,Total population,POP,X,X
+POP_PER_SQ_MI,Population per square mile,POP,X,
+POP,Population in the previous census (1901 reference column included in 1911 V1T1),POP,X,
+M_SINGLE,Number of single (never-married) males,POP,X,
+M_MARRIED,Number of married males,POP,X,
+M_WIDOWED,Number of widowed males,POP,X,
+M_DIVORCED,Number of divorced males,POP,X,
+M_LEGAL_SEP,Number of legally separated males,POP,X,
+M_NOT_GIVEN,Number of males with marital status not given,POP,X,
+F_SINGLE,Number of single (never-married) females,POP,X,
+F_MARRIED,Number of married females,POP,X,
+F_WIDOWED,Number of widowed females,POP,X,
+F_DIVORCED,Number of divorced females,POP,X,
+F_LEGAL_SEP,Number of legally separated females,POP,X,
+F_NOT_GIVEN,Number of females with marital status not given,POP,X,
+DWELLINGS,Number of dwellings,BLD,X,
+FAMILIES,Number of families,POP,X,
+ADVENTISTS,Number of Adventists,REL,X,X
+ANGLICANS,Number of Anglicans (Church of England),REL,X,X
+BAPTISTS,Number of Baptists,REL,X,X
+BRETHREN,Number of Brethren,REL,X,X
+CHRISTIANS,Number of Christians (general / no denomination specified),REL,X,X
+CONGREGATIONALISTS,Number of Congregationalists,REL,X,X
+DISCIPLES,Number of Disciples of Christ,REL,X,
+DISCIPLES_OF_CHRIST,Number of Disciples of Christ,REL,,X
+EASTERN_RELIGIONS,Number of adherents of Eastern religions,REL,,X
+EVANGELICAL_ASSOCIATION,Number of members of the Evangelical Association,REL,,X
+FRIENDS,Number of Friends (Quakers),REL,X,
+GREEK_CHURCH,Number of Greek (Orthodox) Church adherents,REL,X,X
+JEWS,Number of Jews,REL,X,X
+LUTHERANS,Number of Lutherans,REL,X,X
+MENNONITES,Number of Mennonites,REL,X,X
+METHODISTS,Number of Methodists,REL,X,X
+MORMONS,Number of Mormons (Latter-day Saints),REL,X,X
+PRESBYTERIANS,Number of Presbyterians,REL,X,X
+ROMAN_CATHOLICS,Number of Roman Catholics,REL,X,X
+SALVATION_ARMY,Number of Salvation Army adherents,REL,X,X
+PROTESTANTS,Number of Protestants (general / no denomination specified),REL,X,X
+PAGANS,"Persons recorded under the 1911 official census category ""Pagans""; primarily applied to Indigenous adherents of traditional spiritual practices. The label reflects period Christian-normative framing and is preserved as the historical source category.",REL,X,
+VARIOUS_SECTS,Number of adherents of various sects (residual category in 1911),REL,X,
+OTHER_SECTS,Number of adherents of other sects (residual category in 1921),REL,,X
+UNSPECIFIED,Number of persons whose religion or origin is unspecified,REL,X,X
+BRIT_ENGLISH,Number of persons of British origin (English),ETH,X,
+BRIT_IRISH,Number of persons of British origin (Irish),ETH,X,X
+BRIT_SCOTCH,Number of persons of British origin (Scotch / Scottish),ETH,X,X
+BRIT_OTHER,Number of persons of British origin (other),ETH,X,X
+BRIT_ENG,Number of persons of British origin (English),ETH,,X
+FRENCH,Number of persons of French origin,ETH,X,
+EUR_FRENCH,Number of persons of French origin,ETH,,X
+GERMAN,Number of persons of German origin,ETH,X,
+EUR_GERMAN,Number of persons of German origin,ETH,,X
+AUSTRO_HUNGARIAN,Number of persons of Austro-Hungarian origin,ETH,X,
+EUR_AUSTRIAN,Number of persons of Austrian origin,ETH,,X
+BELGIAN,Number of persons of Belgian origin,ETH,X,
+EUR_BELGIAN,Number of persons of Belgian origin,ETH,,X
+BULGARIAN_AND_RUMANIAN,Number of persons of Bulgarian or Romanian origin,ETH,X,
+CHINESE,Number of persons of Chinese origin,ETH,X,
+ASIA_CHINESE_AND_JAPANESE,Number of persons of Chinese or Japanese origin,ETH,,X
+ASIA_SYRIAN,Number of persons of Syrian origin,ETH,,X
+ASIA_OTHER,Number of persons of other Asian origin,ETH,,X
+DUTCH,Number of persons of Dutch origin,ETH,X,
+EUR_DUTCH,Number of persons of Dutch origin,ETH,,X
+EUR_FINNISH,Number of persons of Finnish origin,ETH,,X
+GREEK,Number of persons of Greek origin,ETH,X,
+EUR_GREEK,Number of persons of Greek origin,ETH,,X
+HINDU,"Persons recorded under the 1911 official census category ""Hindu""; in 1911 this label denoted South Asian origin (not religious identification). Reflects period British-colonial conflation of religion and ethnicity; modern usage of ""Hindu"" is religious.",ETH,X,
+INDIAN,"Persons recorded under the official census category ""Indian""; corresponds to what is now described as Indigenous (First Nations; in northern enumerations also Inuit) origin. ""Indian"" was simultaneously a census category and the legal/administrative term under the Indian Act (1876).",ETH,X,X
+ITALIAN,Number of persons of Italian origin,ETH,X,
+EUR_ITALIAN,Number of persons of Italian origin,ETH,,X
+JAPANESE,Number of persons of Japanese origin,ETH,X,
+JEWISH,"Persons recorded under the 1911 official census category ""Jewish"" (origin/ethnicity, distinct from the V2T2 religion category ""Jews"").",ETH,X,
+EUR_HEBREW,"Persons recorded under the 1921 official census category ""Hebrew"" (origin/ethnicity); now described as Jewish origin.",ETH,,X
+NEGRO,"Persons recorded under the 1911/1921 official census category ""Negro""; refers to people of African descent. Term is now considered offensive and is preserved here only as the historical source label.",ETH,X,X
+POLISH,Number of persons of Polish origin,ETH,X,
+EUR_POLISH,Number of persons of Polish origin,ETH,,X
+RUSSIAN,Number of persons of Russian origin,ETH,X,
+EUR_RUSSIAN,Number of persons of Russian origin,ETH,,X
+SCANDINAVIAN,Number of persons of Scandinavian origin,ETH,X,
+EUR_SCANDINAVIAN,Number of persons of Scandinavian origin,ETH,,X
+EUR_UKRAINIAN,Number of persons of Ukrainian origin,ETH,,X
+EUR_OTHER,Number of persons of other European origin,ETH,,X
+SWISS,Number of persons of Swiss origin,ETH,X,
+POP_5YRS_AND_OVER,Population aged 5 years and over,POP,X,
+CAN_READ_AND_WRITE_5YRS_AND_OVER,Persons aged 5 and over who can both read and write,POP,X,
+CAN_READ_ONLY_5YRS_AND_OVER,Persons aged 5 and over who can read only,POP,X,
+CAN_READ_NOR_WRITE_5YRS_AND_OVER,Persons aged 5 and over who can neither read nor write,POP,X,
+PCT_CAN_READ_AND_WRITE_5YRS_AND_OVER,Percentage of population aged 5 and over who can both read and write,POP,X,
+PCT_CAN_READ_ONLY_5YRS_AND_OVER,Percentage of population aged 5 and over who can read only,POP,X,
+PCT_CAN_READ_NOR_WRITE_5YRS_AND_OVER,Percentage of population aged 5 and over who can neither read nor write,POP,X,
+CAN_BORN_M,Number of males born in Canada,POP,,X
+CAN_BORN_F,Number of females born in Canada,POP,,X
+BRIT_BORN_M,Number of males born in the British Empire (excluding Canada),POP,,X
+BRIT_BORN_F,Number of females born in the British Empire (excluding Canada),POP,,X
+FOREIGN_BORN_M,Number of males born outside the British Empire,POP,,X
+FOREIGN_BORN_F,Number of females born outside the British Empire,POP,,X
+T_POP_TOT,Total (rural + urban) population (CD-level),POP,,X
+T_NUM_OF_DWELLINGS,Total (rural + urban) number of dwellings (CD-level),BLD,,X
+T_NUM_OF_HOUSEHOLDS,Total (rural + urban) number of households (CD-level),POP,,X
+R_POP_TOT,Rural population (CD-level),POP,,X
+R_NUM_OF_DWELLINGS,Rural number of dwellings (CD-level),BLD,,X
+R_NUM_OF_HOUSEHOLDS,Rural number of households (CD-level),POP,,X
+U_POP_TOT,Urban population (CD-level),POP,,X
+U_NUM_OF_DWELLINGS,Urban number of dwellings (CD-level),BLD,,X
+U_NUM_OF_HOUSEHOLDS,Urban number of households (CD-level),POP,,X

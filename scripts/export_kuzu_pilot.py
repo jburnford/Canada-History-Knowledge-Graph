@@ -41,23 +41,23 @@ YEARS = [1851, 1861, 1871, 1881, 1891, 1901, 1911, 1921]
 # Variable name drift: pilot_column -> {year: source_var_name}
 # See pilot/variables.md for the rationale.
 VAR_MAP = {
+    # Ingestion now reads only CSD-format files for 1851-1901 (whose column
+    # headers use the regularized Mastvar names like POP_XX_N/POP_MX_N/POP_FX_N)
+    # and PUB-format files for 1911/1921 (which use POP_TOT/POP_M/POP_F).
     "pop_total": {
-        1851: "VAR_POP_XX_N",
-        1861: "VAR_POP_TOT",
-        1871: "VAR_POP_XX_N",  # POP_TOT only 71 rows in 1871, incomplete
-        1881: "VAR_POP_TOT",
-        1891: "VAR_POP_TOT",
-        1901: "VAR_POP_TOT",
-        1911: "VAR_POP_TOT",
-        1921: "VAR_POP_TOT",
+        1851: "VAR_POP_XX_N", 1861: "VAR_POP_XX_N", 1871: "VAR_POP_XX_N",
+        1881: "VAR_POP_XX_N", 1891: "VAR_POP_XX_N", 1901: "VAR_POP_XX_N",
+        1911: "VAR_POP_TOT",  1921: "VAR_POP_TOT",
     },
     "pop_total_m": {
-        1851: "VAR_POP_MX_N", 1861: "VAR_POP_MX_N", 1871: "VAR_POP_MX_N", 1881: "VAR_POP_MX_N",
-        1891: "VAR_POP_M", 1901: "VAR_POP_M", 1911: "VAR_POP_M", 1921: "VAR_POP_M",
+        1851: "VAR_POP_MX_N", 1861: "VAR_POP_MX_N", 1871: "VAR_POP_MX_N",
+        1881: "VAR_POP_MX_N", 1891: "VAR_POP_MX_N", 1901: "VAR_POP_MX_N",
+        1911: "VAR_POP_M",    1921: "VAR_POP_M",
     },
     "pop_total_f": {
-        1851: "VAR_POP_FX_N", 1861: "VAR_POP_FX_N", 1871: "VAR_POP_FX_N", 1881: "VAR_POP_FX_N",
-        1891: "VAR_POP_F", 1901: "VAR_POP_F", 1911: "VAR_POP_F", 1921: "VAR_POP_F",
+        1851: "VAR_POP_FX_N", 1861: "VAR_POP_FX_N", 1871: "VAR_POP_FX_N",
+        1881: "VAR_POP_FX_N", 1891: "VAR_POP_FX_N", 1901: "VAR_POP_FX_N",
+        1911: "VAR_POP_F",    1921: "VAR_POP_F",
     },
     "pop_per_sq_mi": {
         1911: "VAR_POP_PER_SQ_MI",

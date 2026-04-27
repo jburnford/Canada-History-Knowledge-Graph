@@ -130,7 +130,6 @@ VAR_FRMLU_GX_A,E55_Type,Acres of farmland in gardens,AGR,unknown,FRMLU_GX_A
 VAR_FRMLU_PST_A,E55_Type,Acres of farmland in pasture,AGR,unknown,FRMLU_PST_A
 VAR_FRMLU_WOD_A,E55_Type,Acres of farmland in woodland or forest,AGR,unknown,FRMLU_WOD_A
 VAR_FRMSZ_0to10_N,E55_Type,Number of persons living on farms under 10 acres,AGR,unknown,FRMSZ_0to10_N
-VAR_FRMSZ_0to10_N,E55_Type,Number of persons living on farms under 10 acres,AGR,unknown,FRMSZ_0to10_N
 VAR_FRMSZ_100to200_N,E55_Type,Number of persons living on farms between 100 and 200 acres,AGR,unknown,FRMSZ_100to200_N
 VAR_FRMSZ_101to200_N,E55_Type,Number of persons living on farms between 101 and 200 acres,AGR,unknown,FRMSZ_101to200_N
 VAR_FRMSZ_10to20_N,E55_Type,Number of persons living on farms between 10 and 20 acres,AGR,unknown,FRMSZ_10to20_N
@@ -160,6 +159,7 @@ VAR_HAY_XX_T,E55_Type,Tons of hay produced in the past year,AGR,unknown,HAY_XX_T
 VAR_HOP_XX_LB,E55_Type,Pounds of hops produced in the past year,AGR,unknown,HOP_XX_LB
 VAR_HRS_0to03_N,E55_Type,Number of horses aged 3 years and under,AGR,unknown,HRS_0to03_N
 VAR_HRS_ov03_N,E55_Type,Number of horses aged over 3 years,AGR,unknown,HRS_ov03_N
+VAR_HRS_ov03_V,E55_Type,Value of horses aged over 3 years,AGR,unknown,HRS_ov03_V
 VAR_HRS_XX_N,E55_Type,Number of horses,AGR,unknown,HRS_XX_N
 VAR_LEG_CS_B,E55_Type,Bushels of clover seed produced in the past year,AGR,unknown,LEG_CS_B
 VAR_LEG_VX_B,E55_Type,Bushels of vetches produced in the past year,AGR,unknown,LEG_VX_B
@@ -489,3 +489,111 @@ VAR_REL_PP_N,E55_Type,Number of members of the Presbyterian Church of the Lower 
 VAR_REL_QU_N,E55_Type,Number of Quakers,REL,unknown,REL_QU_N
 VAR_REL_RC_N,E55_Type,Number of Roman Catholics,REL,unknown,REL_RC_N
 VAR_REL_UN_N,E55_Type,Number of Universalists,REL,unknown,REL_UN_N
+VAR_AREA_ACRES,E55_Type,Area in acres,POP,acres,AREA_ACRES
+VAR_AREA_SQ_MI,E55_Type,Area in square miles,POP,square_miles,AREA_SQ_MI
+VAR_POP_M,E55_Type,Number of males in the population,POP,persons,POP_M
+VAR_POP_F,E55_Type,Number of females in the population,POP,persons,POP_F
+VAR_POP_TOT,E55_Type,Total population,POP,persons,POP_TOT
+VAR_POP_PER_SQ_MI,E55_Type,Population per square mile,POP,persons,POP_PER_SQ_MI
+VAR_POP,E55_Type,Population in the previous census (1901 reference column included in 1911 V1T1),POP,persons,POP
+VAR_M_SINGLE,E55_Type,Number of single (never-married) males,POP,unknown,M_SINGLE
+VAR_M_MARRIED,E55_Type,Number of married males,POP,unknown,M_MARRIED
+VAR_M_WIDOWED,E55_Type,Number of widowed males,POP,unknown,M_WIDOWED
+VAR_M_DIVORCED,E55_Type,Number of divorced males,POP,unknown,M_DIVORCED
+VAR_M_LEGAL_SEP,E55_Type,Number of legally separated males,POP,unknown,M_LEGAL_SEP
+VAR_M_NOT_GIVEN,E55_Type,Number of males with marital status not given,POP,unknown,M_NOT_GIVEN
+VAR_F_SINGLE,E55_Type,Number of single (never-married) females,POP,unknown,F_SINGLE
+VAR_F_MARRIED,E55_Type,Number of married females,POP,unknown,F_MARRIED
+VAR_F_WIDOWED,E55_Type,Number of widowed females,POP,unknown,F_WIDOWED
+VAR_F_DIVORCED,E55_Type,Number of divorced females,POP,unknown,F_DIVORCED
+VAR_F_LEGAL_SEP,E55_Type,Number of legally separated females,POP,unknown,F_LEGAL_SEP
+VAR_F_NOT_GIVEN,E55_Type,Number of females with marital status not given,POP,unknown,F_NOT_GIVEN
+VAR_DWELLINGS,E55_Type,Number of dwellings,BLD,unknown,DWELLINGS
+VAR_FAMILIES,E55_Type,Number of families,POP,unknown,FAMILIES
+VAR_ADVENTISTS,E55_Type,Number of Adventists,REL,unknown,ADVENTISTS
+VAR_ANGLICANS,E55_Type,Number of Anglicans (Church of England),REL,unknown,ANGLICANS
+VAR_BAPTISTS,E55_Type,Number of Baptists,REL,unknown,BAPTISTS
+VAR_BRETHREN,E55_Type,Number of Brethren,REL,unknown,BRETHREN
+VAR_CHRISTIANS,E55_Type,Number of Christians (general / no denomination specified),REL,unknown,CHRISTIANS
+VAR_CONGREGATIONALISTS,E55_Type,Number of Congregationalists,REL,unknown,CONGREGATIONALISTS
+VAR_DISCIPLES,E55_Type,Number of Disciples of Christ,REL,unknown,DISCIPLES
+VAR_DISCIPLES_OF_CHRIST,E55_Type,Number of Disciples of Christ,REL,unknown,DISCIPLES_OF_CHRIST
+VAR_EASTERN_RELIGIONS,E55_Type,Number of adherents of Eastern religions,REL,persons,EASTERN_RELIGIONS
+VAR_EVANGELICAL_ASSOCIATION,E55_Type,Number of members of the Evangelical Association,REL,unknown,EVANGELICAL_ASSOCIATION
+VAR_FRIENDS,E55_Type,Number of Friends (Quakers),REL,unknown,FRIENDS
+VAR_GREEK_CHURCH,E55_Type,Number of Greek (Orthodox) Church adherents,REL,unknown,GREEK_CHURCH
+VAR_JEWS,E55_Type,Number of Jews,REL,unknown,JEWS
+VAR_LUTHERANS,E55_Type,Number of Lutherans,REL,unknown,LUTHERANS
+VAR_MENNONITES,E55_Type,Number of Mennonites,REL,unknown,MENNONITES
+VAR_METHODISTS,E55_Type,Number of Methodists,REL,unknown,METHODISTS
+VAR_MORMONS,E55_Type,Number of Mormons (Latter-day Saints),REL,unknown,MORMONS
+VAR_PRESBYTERIANS,E55_Type,Number of Presbyterians,REL,unknown,PRESBYTERIANS
+VAR_ROMAN_CATHOLICS,E55_Type,Number of Roman Catholics,REL,unknown,ROMAN_CATHOLICS
+VAR_SALVATION_ARMY,E55_Type,Number of Salvation Army adherents,REL,unknown,SALVATION_ARMY
+VAR_PROTESTANTS,E55_Type,Number of Protestants (general / no denomination specified),REL,unknown,PROTESTANTS
+VAR_PAGANS,E55_Type,"Persons recorded under the 1911 official census category ""Pagans""; primarily applied to Indigenous adherents of traditional spiritual practices. The label reflects period Christian-normative framing and is preserved as the historical source category.",REL,unknown,PAGANS
+VAR_VARIOUS_SECTS,E55_Type,Number of adherents of various sects (residual category in 1911),REL,unknown,VARIOUS_SECTS
+VAR_OTHER_SECTS,E55_Type,Number of adherents of other sects (residual category in 1921),REL,unknown,OTHER_SECTS
+VAR_UNSPECIFIED,E55_Type,Number of persons whose religion or origin is unspecified,REL,unknown,UNSPECIFIED
+VAR_BRIT_ENGLISH,E55_Type,Number of persons of British origin (English),ETH,unknown,BRIT_ENGLISH
+VAR_BRIT_IRISH,E55_Type,Number of persons of British origin (Irish),ETH,unknown,BRIT_IRISH
+VAR_BRIT_SCOTCH,E55_Type,Number of persons of British origin (Scotch / Scottish),ETH,unknown,BRIT_SCOTCH
+VAR_BRIT_OTHER,E55_Type,Number of persons of British origin (other),ETH,unknown,BRIT_OTHER
+VAR_BRIT_ENG,E55_Type,Number of persons of British origin (English),ETH,unknown,BRIT_ENG
+VAR_FRENCH,E55_Type,Number of persons of French origin,ETH,unknown,FRENCH
+VAR_EUR_FRENCH,E55_Type,Number of persons of French origin,ETH,unknown,EUR_FRENCH
+VAR_GERMAN,E55_Type,Number of persons of German origin,ETH,unknown,GERMAN
+VAR_EUR_GERMAN,E55_Type,Number of persons of German origin,ETH,unknown,EUR_GERMAN
+VAR_AUSTRO_HUNGARIAN,E55_Type,Number of persons of Austro-Hungarian origin,ETH,unknown,AUSTRO_HUNGARIAN
+VAR_EUR_AUSTRIAN,E55_Type,Number of persons of Austrian origin,ETH,unknown,EUR_AUSTRIAN
+VAR_BELGIAN,E55_Type,Number of persons of Belgian origin,ETH,unknown,BELGIAN
+VAR_EUR_BELGIAN,E55_Type,Number of persons of Belgian origin,ETH,unknown,EUR_BELGIAN
+VAR_BULGARIAN_AND_RUMANIAN,E55_Type,Number of persons of Bulgarian or Romanian origin,ETH,unknown,BULGARIAN_AND_RUMANIAN
+VAR_CHINESE,E55_Type,Number of persons of Chinese origin,ETH,unknown,CHINESE
+VAR_ASIA_CHINESE_AND_JAPANESE,E55_Type,Number of persons of Chinese or Japanese origin,ETH,unknown,ASIA_CHINESE_AND_JAPANESE
+VAR_ASIA_SYRIAN,E55_Type,Number of persons of Syrian origin,ETH,unknown,ASIA_SYRIAN
+VAR_ASIA_OTHER,E55_Type,Number of persons of other Asian origin,ETH,unknown,ASIA_OTHER
+VAR_DUTCH,E55_Type,Number of persons of Dutch origin,ETH,unknown,DUTCH
+VAR_EUR_DUTCH,E55_Type,Number of persons of Dutch origin,ETH,unknown,EUR_DUTCH
+VAR_EUR_FINNISH,E55_Type,Number of persons of Finnish origin,ETH,unknown,EUR_FINNISH
+VAR_GREEK,E55_Type,Number of persons of Greek origin,ETH,unknown,GREEK
+VAR_EUR_GREEK,E55_Type,Number of persons of Greek origin,ETH,unknown,EUR_GREEK
+VAR_HINDU,E55_Type,"Persons recorded under the 1911 official census category ""Hindu""; in 1911 this label denoted South Asian origin (not religious identification). Reflects period British-colonial conflation of religion and ethnicity; modern usage of ""Hindu"" is religious.",ETH,unknown,HINDU
+VAR_INDIAN,E55_Type,"Persons recorded under the official census category ""Indian""; corresponds to what is now described as Indigenous (First Nations; in northern enumerations also Inuit) origin. ""Indian"" was simultaneously a census category and the legal/administrative term under the Indian Act (1876).",ETH,unknown,INDIAN
+VAR_ITALIAN,E55_Type,Number of persons of Italian origin,ETH,unknown,ITALIAN
+VAR_EUR_ITALIAN,E55_Type,Number of persons of Italian origin,ETH,unknown,EUR_ITALIAN
+VAR_JAPANESE,E55_Type,Number of persons of Japanese origin,ETH,unknown,JAPANESE
+VAR_JEWISH,E55_Type,"Persons recorded under the 1911 official census category ""Jewish"" (origin/ethnicity, distinct from the V2T2 religion category ""Jews"").",ETH,unknown,JEWISH
+VAR_EUR_HEBREW,E55_Type,"Persons recorded under the 1921 official census category ""Hebrew"" (origin/ethnicity); now described as Jewish origin.",ETH,unknown,EUR_HEBREW
+VAR_NEGRO,E55_Type,"Persons recorded under the 1911/1921 official census category ""Negro""; refers to people of African descent. Term is now considered offensive and is preserved here only as the historical source label.",ETH,unknown,NEGRO
+VAR_POLISH,E55_Type,Number of persons of Polish origin,ETH,unknown,POLISH
+VAR_EUR_POLISH,E55_Type,Number of persons of Polish origin,ETH,unknown,EUR_POLISH
+VAR_RUSSIAN,E55_Type,Number of persons of Russian origin,ETH,unknown,RUSSIAN
+VAR_EUR_RUSSIAN,E55_Type,Number of persons of Russian origin,ETH,unknown,EUR_RUSSIAN
+VAR_SCANDINAVIAN,E55_Type,Number of persons of Scandinavian origin,ETH,unknown,SCANDINAVIAN
+VAR_EUR_SCANDINAVIAN,E55_Type,Number of persons of Scandinavian origin,ETH,unknown,EUR_SCANDINAVIAN
+VAR_EUR_UKRAINIAN,E55_Type,Number of persons of Ukrainian origin,ETH,unknown,EUR_UKRAINIAN
+VAR_EUR_OTHER,E55_Type,Number of persons of other European origin,ETH,unknown,EUR_OTHER
+VAR_SWISS,E55_Type,Number of persons of Swiss origin,ETH,unknown,SWISS
+VAR_POP_5YRS_AND_OVER,E55_Type,Population aged 5 years and over,POP,persons,POP_5YRS_AND_OVER
+VAR_CAN_READ_AND_WRITE_5YRS_AND_OVER,E55_Type,Persons aged 5 and over who can both read and write,POP,unknown,CAN_READ_AND_WRITE_5YRS_AND_OVER
+VAR_CAN_READ_ONLY_5YRS_AND_OVER,E55_Type,Persons aged 5 and over who can read only,POP,unknown,CAN_READ_ONLY_5YRS_AND_OVER
+VAR_CAN_READ_NOR_WRITE_5YRS_AND_OVER,E55_Type,Persons aged 5 and over who can neither read nor write,POP,unknown,CAN_READ_NOR_WRITE_5YRS_AND_OVER
+VAR_PCT_CAN_READ_AND_WRITE_5YRS_AND_OVER,E55_Type,Percentage of population aged 5 and over who can both read and write,POP,percent,PCT_CAN_READ_AND_WRITE_5YRS_AND_OVER
+VAR_PCT_CAN_READ_ONLY_5YRS_AND_OVER,E55_Type,Percentage of population aged 5 and over who can read only,POP,percent,PCT_CAN_READ_ONLY_5YRS_AND_OVER
+VAR_PCT_CAN_READ_NOR_WRITE_5YRS_AND_OVER,E55_Type,Percentage of population aged 5 and over who can neither read nor write,POP,percent,PCT_CAN_READ_NOR_WRITE_5YRS_AND_OVER
+VAR_CAN_BORN_M,E55_Type,Number of males born in Canada,POP,unknown,CAN_BORN_M
+VAR_CAN_BORN_F,E55_Type,Number of females born in Canada,POP,unknown,CAN_BORN_F
+VAR_BRIT_BORN_M,E55_Type,Number of males born in the British Empire (excluding Canada),POP,unknown,BRIT_BORN_M
+VAR_BRIT_BORN_F,E55_Type,Number of females born in the British Empire (excluding Canada),POP,unknown,BRIT_BORN_F
+VAR_FOREIGN_BORN_M,E55_Type,Number of males born outside the British Empire,POP,unknown,FOREIGN_BORN_M
+VAR_FOREIGN_BORN_F,E55_Type,Number of females born outside the British Empire,POP,unknown,FOREIGN_BORN_F
+VAR_T_POP_TOT,E55_Type,Total (rural + urban) population (CD-level),POP,persons,T_POP_TOT
+VAR_T_NUM_OF_DWELLINGS,E55_Type,Total (rural + urban) number of dwellings (CD-level),BLD,unknown,T_NUM_OF_DWELLINGS
+VAR_T_NUM_OF_HOUSEHOLDS,E55_Type,Total (rural + urban) number of households (CD-level),POP,unknown,T_NUM_OF_HOUSEHOLDS
+VAR_R_POP_TOT,E55_Type,Rural population (CD-level),POP,persons,R_POP_TOT
+VAR_R_NUM_OF_DWELLINGS,E55_Type,Rural number of dwellings (CD-level),BLD,unknown,R_NUM_OF_DWELLINGS
+VAR_R_NUM_OF_HOUSEHOLDS,E55_Type,Rural number of households (CD-level),POP,unknown,R_NUM_OF_HOUSEHOLDS
+VAR_U_POP_TOT,E55_Type,Urban population (CD-level),POP,persons,U_POP_TOT
+VAR_U_NUM_OF_DWELLINGS,E55_Type,Urban number of dwellings (CD-level),BLD,unknown,U_NUM_OF_DWELLINGS
+VAR_U_NUM_OF_HOUSEHOLDS,E55_Type,Urban number of households (CD-level),POP,unknown,U_NUM_OF_HOUSEHOLDS

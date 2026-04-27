@@ -50,13 +50,28 @@ def load_master_variables(mastvar_path):
     """
     Load master variables file to understand variable definitions.
 
+    Mastvar covers regularized CSD/CD-format codes for 1851-1901. The
+    1911/1921 PUB-format codes are documented in
+    data/mastvar_supplement_1911_1921.csv and merged here.
+
     Returns:
         DataFrame with columns: Name, Description, Category, {years}
     """
     print(f"Loading master variables from {mastvar_path}...")
     df = pd.read_excel(mastvar_path)
-    print(f"  Found {len(df)} variable definitions")
-    print(f"  Categories: {df['Category'].unique().tolist()}")
+    print(f"  Found {len(df)} variable definitions in Mastvar")
+
+    supp_path = Path(__file__).resolve().parent.parent / 'data' / 'mastvar_supplement_1911_1921.csv'
+    if supp_path.exists():
+        supp = pd.read_csv(supp_path)
+        print(f"  Found {len(supp)} additional codes in 1911/1921 PUB supplement")
+        merged = pd.concat([df, supp], ignore_index=True, sort=False)
+        merged = merged.drop_duplicates(subset='Name', keep='first')
+        df = merged
+        print(f"  Merged total: {len(df)} unique variable definitions")
+    else:
+        print(f"  WARNING: supplement not found at {supp_path}")
+    print(f"  Categories: {sorted(df['Category'].dropna().unique().tolist())}")
     return df
 
 

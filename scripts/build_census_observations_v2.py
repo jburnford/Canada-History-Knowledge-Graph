@@ -109,11 +109,32 @@ class CensusDataV2:
 # ============================================================================
 
 def load_master_variables(mastvar_path):
-    """Load master variables file to understand variable definitions."""
+    """Load master variables file to understand variable definitions.
+
+    The TCP Mastvar.xlsx documents codes for the regularized CSD/CD-format
+    tables, which only cover censuses 1851-1901. The 1911 and 1921 census
+    tables exist only in PUB format and use different (PUB-specific) variable
+    codes — these are documented in data/mastvar_supplement_1911_1921.csv.
+    Both are merged here so downstream code sees one unified vocabulary.
+    """
     print(f"Loading master variables from {mastvar_path}...")
     df = pd.read_excel(mastvar_path)
-    print(f"  Found {len(df)} variable definitions")
-    print(f"  Categories: {df['Category'].unique().tolist()}")
+    print(f"  Found {len(df)} variable definitions in Mastvar")
+
+    # Load the 1911/1921 PUB supplement if present.
+    supp_path = Path(__file__).resolve().parent.parent / 'data' / 'mastvar_supplement_1911_1921.csv'
+    if supp_path.exists():
+        supp = pd.read_csv(supp_path)
+        print(f"  Found {len(supp)} additional codes in 1911/1921 PUB supplement")
+        # Concat and drop duplicates on Name (Mastvar wins on conflicts).
+        merged = pd.concat([df, supp], ignore_index=True, sort=False)
+        merged = merged.drop_duplicates(subset='Name', keep='first')
+        df = merged
+        print(f"  Merged total: {len(df)} unique variable definitions")
+    else:
+        print(f"  WARNING: supplement not found at {supp_path}; "
+              f"1911/1921 codes will lack metadata")
+    print(f"  Categories: {sorted(df['Category'].dropna().unique().tolist())}")
     return df
 
 
@@ -141,8 +162,16 @@ def load_gdb_layer(gdb_path, year):
 
 
 def normalize_column_name(col):
-    """Normalize column name by removing year suffix."""
-    return re.sub(r'_\d{4}$', '', col)
+    """Normalize column name by removing year suffix and pandas duplicate suffix.
+
+    pandas appends ``.1``, ``.2``, etc. when an xlsx has multiple columns with
+    the same header (e.g. POP_XX_N appearing in two source sections); strip
+    those so the canonical variable id matches Mastvar.
+    """
+    s = str(col)
+    s = re.sub(r'\.\d+$', '', s)        # pandas duplicate-column suffix
+    s = re.sub(r'_\d{4}$', '', s)       # year suffix (1851, 1911, etc.)
+    return s
 
 
 # ============================================================================
@@ -194,10 +223,32 @@ def create_info_object(source_name, year):
 # Census Table Processing
 # ============================================================================
 
+def _load_v1t1_crosswalk(year: int):
+    """Return dict v1t1_code -> tcpuid for the year, or None if no crosswalk
+    file exists. Currently only 1911 is supported (the year with the
+    township-pattern collision problem)."""
+    from pathlib import Path as _P
+    repo = _P(__file__).resolve().parents[1]
+    cw_path = repo / "wikidata_grounding" / f"v1t1_{year}_crosswalk.csv"
+    if not cw_path.exists():
+        return None
+    import csv as _csv
+    out = {}
+    with cw_path.open() as f:
+        for row in _csv.DictReader(f):
+            code = row.get("v1t1_code", "").strip()
+            tcpuid = row.get("tcpuid", "").strip()
+            if code and tcpuid:
+                out[code] = tcpuid
+    print(f"    Loaded V1T1 crosswalk: {len(out)} {year} mappings")
+    return out
+
+
 def process_census_table_v2(table_path, year, gdf_mapping, id_col_name, mastvar_df,
                             source_name, data_v2):
     """Process a single census table and create v2.0 observations."""
     print(f"\n  Processing {table_path.name}...")
+    v1t1_crosswalk = _load_v1t1_crosswalk(year) if year == 1911 else None
 
     # Read table. Some older-year tables have three metadata rows before the
     # real header (skiprows=3); newer-year tables (1911, 1921) have the header
@@ -241,13 +292,24 @@ def process_census_table_v2(table_path, year, gdf_mapping, id_col_name, mastvar_
     print(f"    Using ID column: {id_col}")
     print(f"    Processing {len(df)} rows...")
 
-    # Get data columns
+    # Get data columns. PUB-format tables (1911, 1921) have additional metadata
+    # columns that the CSD-format tables lack: CSD_TYPE (city/town/village text
+    # marker), LINE_NO (V2T28 only), PR_CD (province-CD identifier in CD-level
+    # tables), and the table-self-id column (e.g. `V2T2_1911`) which the
+    # `_has_id_column` logic accepts as id_col but which still needs filtering
+    # when the file ALSO has a TCPUID_CSD column.
     metadata_cols = {
-        'ROW_ID', id_col, 'PR', 'CD_NO', 'CSD_NO', 'PR_CD_CSD', 'NOTES', 'YEAR',
-        'NAME_CD_' + str(year), 'NAME_CSD_' + str(year), 'NUMBER_CSD_' + str(year),
+        'ROW_ID', id_col, 'PR', 'CD_NO', 'CSD_NO', 'PR_CD_CSD', 'PR_CD',
+        'CSD_TYPE', 'LINE_NO', 'NOTES', 'YEAR',
+        'NAME_CD_' + str(year), 'NAME_CSD_' + str(year), 'NAME_COUNTY_' + str(year),
+        'NUMBER_CD_' + str(year), 'NUMBER_CSD_' + str(year),
         'TCPUID_CD_' + str(year), 'TCPUID_CSD_' + str(year)
     }
-    data_cols = [col for col in df.columns if col not in metadata_cols]
+    # Also drop any column whose name is a table-self-id like `V1T1_1911`,
+    # `V2T2_1911`, `V3T3_1921`. These are present even when not picked as id_col.
+    table_self_id_pattern = re.compile(rf'^V\d+T\d+_{year}$')
+    data_cols = [col for col in df.columns
+                 if col not in metadata_cols and not table_self_id_pattern.match(str(col))]
     print(f"    Found {len(data_cols)} data columns")
 
     # Create info object for this source
@@ -279,17 +341,40 @@ def process_census_table_v2(table_path, year, gdf_mapping, id_col_name, mastvar_
             except (ValueError, TypeError):
                 return False
 
-        if _is_zero(row.get('CSD_NO')) or _is_zero(row.get('CD_NO')):
-            data_v2.rows_skipped_non_csd += 1
-            continue
-
-        # Validate ID exists in GDB
-        if gdf_mapping is not None:
-            match = gdf_mapping[gdf_mapping[id_col_name] == csd_table_id]
-            if len(match) == 0:
+        # Skip non-CSD-level rows. CSD-format files (1851-1901) don't have a
+        # CSD_NO column — they're inherently CSD-level (joined to GDB via
+        # TCPUID_CSD_{year}), so no per-row filter is needed. PUB-format files
+        # (1911, 1921) DO have CSD_NO; we use it to skip country/province/CD
+        # aggregate rows. The 1921 V3T3 Housing table is CD-level only (no
+        # CSD_NO column at all) — when CSD_NO is absent there entirely, every
+        # row is non-CSD and must be skipped.
+        if 'CSD_NO' in df.columns:
+            csd_no = row.get('CSD_NO')
+            if csd_no is None or pd.isna(csd_no) or _is_zero(csd_no):
+                data_v2.rows_skipped_non_csd += 1
+                continue
+            if _is_zero(row.get('CD_NO')):
+                data_v2.rows_skipped_non_csd += 1
                 continue
 
-        tcpuid = csd_table_id
+        # Bind V1T1 row to a GDB TCPUID. For 1911, use the explicit V1T1↔GDB
+        # crosswalk (wikidata_grounding/v1t1_1911_crosswalk.csv) — naive string
+        # equality silently mis-joins because V1T1's prairie township-level
+        # codes collide with unrelated GDB CSD codes (e.g. SK216003 = "T24 R1
+        # MW3" in V1T1 but "Saskatoon c" in the GDB). For other years the naive
+        # join still applies; their V1T1 has no township-pattern rows.
+        if year == 1911 and v1t1_crosswalk is not None:
+            tcpuid = v1t1_crosswalk.get(csd_table_id)
+            if not tcpuid:
+                # Either dropped (township-pattern, CD-aggregate) or unmatched.
+                # Either way, no measurements emitted for this V1T1 row.
+                continue
+        else:
+            if gdf_mapping is not None:
+                match = gdf_mapping[gdf_mapping[id_col_name] == csd_table_id]
+                if len(match) == 0:
+                    continue
+            tcpuid = csd_table_id
         presence_id = f"{tcpuid}_{year}"
         timespan_id = f"TIMESPAN_{year}"
 
@@ -405,8 +490,16 @@ def process_year_tables_v2(year, tables_dir, gdb_path, mastvar_df, data_v2):
         print(f"ERROR: Year directory not found: {year_dir}")
         return
 
-    excel_files = list(year_dir.glob('*.xlsx'))
-    excel_files = [f for f in excel_files if not f.name.startswith('TCP_CANADA')]
+    # Per TCP_CANADA_TABLES_202306.pdf: each table comes in OCR / CD / CSD / Pub
+    # Tab formats, except 1911 and 1921 which exist only in Pub Tab. CSD (and CD)
+    # column headers are the regularized variable names that match Mastvar; PUB
+    # uses different shortened names; OCR is raw multi-row headers that pandas
+    # mangles into "C01_…", "C02_…" artifacts. Read only the canonical format
+    # for each year so variable codes align with the e55 type registry.
+    if year <= 1901:
+        excel_files = list(year_dir.glob(f'{year}_*_CSD_*.xlsx'))
+    else:
+        excel_files = list(year_dir.glob(f'{year}_*_PUB_*.xlsx'))
 
     if len(excel_files) == 0:
         print(f"WARNING: No Excel files found in {year_dir}")
