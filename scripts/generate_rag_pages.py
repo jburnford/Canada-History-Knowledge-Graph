@@ -715,39 +715,182 @@ def fmt_value(fval, sval):
     return f"{fval:,.2f}"
 
 
+# Mastvar labels often end with " produced in the past year" — strip for prose.
+_LABEL_SUFFIX_NOISE = re.compile(
+    r'\s+(produced\s+in\s+the\s+past\s+year|in\s+the\s+past\s+year)\s*$',
+    re.IGNORECASE,
+)
+_UNIT_PREFIX_WORDS = (
+    'Bushels', 'Acres', 'Pounds', 'Tons', 'Gallons', 'Quintals',
+    'Yards', 'Feet', 'Fathoms', 'Barrels',
+)
+# Labels longer than this render as their own sentence (avoids run-on commas
+# for sensitive-term descriptions like NEGRO/INDIAN/JEWISH/etc.)
+_LONG_LABEL_THRESHOLD = 70
+
+
+def _humanize_phrase(value_str: str, label: str, unit: str) -> str:
+    """Render one (value, label, unit) tuple as a natural-language fragment.
+
+    Heuristics (try in order):
+      "Number of X"       -> "<value> X"
+      "<UnitWord> of X"   -> "<value> <unitword> of X"   (lowercases prefix)
+      "Value of X"        -> "$<value> value of X"
+      starts with "Total" -> "<label>: <value>"
+      everything else     -> "<label>: <value>"
+    """
+    if not label:
+        return f"{value_str} ({unit or 'count'})"
+    s = _LABEL_SUFFIX_NOISE.sub('', label.strip())
+    s_low = s.lower()
+    if s_low.startswith('number of '):
+        return f"{value_str} {s[len('Number of '):]}"
+    if s_low.startswith('number or '):
+        return f"{value_str} {s[len('Number or '):]}"
+    for w in _UNIT_PREFIX_WORDS:
+        if s.startswith(w + ' '):
+            return f"{value_str} {w.lower()}{s[len(w):]}"
+    if s.startswith('Value of '):
+        return f"${value_str} value{s[len('Value of'):]}"
+    # Natural-language pre-pend for these phrasings ("Total population",
+    # "Average size of families", "Population per square mile", "Area in acres",
+    # "Persons aged 5 and over who can both read and write", etc.). Lowercase
+    # only the leading word so proper nouns (Indigenous, V1T1, Indian Act) are
+    # preserved.
+    PREPEND_PREFIXES = (
+        'total ', 'average ', 'population ', 'area ', 'persons ',
+        'rural ', 'urban ',
+    )
+    if any(s_low.startswith(p) for p in PREPEND_PREFIXES):
+        first, _, rest = s.partition(' ')
+        first_lc = first[:1].lower() + first[1:] if first else first
+        decapped = f"{first_lc} {rest}" if rest else first_lc
+        return f"{value_str} {decapped}"
+    return f"{s}: {value_str}"
+
+
+def _source_tables_for_year(source_tables_str: str, year: int):
+    """Parse 'YYYY:Vxxx,YYYY:Vxxx' and return the table for `year`, or None."""
+    if not source_tables_str:
+        return None
+    for entry in source_tables_str.split(','):
+        y, _, t = entry.partition(':')
+        if y.strip() == str(year):
+            return t.strip()
+    return None
+
+
+def _format_citation(year: int, tables: set) -> str:
+    """'(Source: 1881 Census of Canada, V1T1; V3T24.)' — empty if no tables."""
+    if not tables:
+        return ''
+    joined = '; '.join(sorted(tables))
+    return f' <em>(Source: {year} Census of Canada, {joined}.)</em>'
+
+
 def render_measurements_section(measurements: list, year: int) -> str:
-    """measurements is a list of (category, label, value_float, value_string).
-    Returns an HTML block with one collapsible <details> per category."""
+    """measurements is a list of 8-tuples:
+        (category, label, fval, sval, var_code, unit, source_tables, quality)
+
+    Renders one prose paragraph per category. Within each paragraph:
+      - Signal-quality vars listed by descending value, comma-joined.
+      - Long-label vars (sensitive-term descriptions) get their own sentence.
+      - Sparse-quality vars folded into a per-category footnote.
+      - Source-table citation appended in italics.
+    """
     if not measurements:
         return ""
-    by_cat = {}
-    for cat, label, fval, sval in measurements:
-        by_cat.setdefault(cat or "OTHER", []).append((label, fval, sval))
+    by_cat: dict = {}
+    for cat, label, fval, sval, var_code, unit, source_tables, quality in measurements:
+        by_cat.setdefault(cat or "OTHER", []).append(
+            (label, fval, sval, var_code, unit, source_tables, quality)
+        )
 
     ordered = [c for c in CATEGORY_ORDER if c in by_cat] + \
               sorted(c for c in by_cat if c not in CATEGORY_ORDER)
 
-    blocks = [f"<h2>Full census record, {year}</h2>",
-              f"<p>The {year} census recorded <strong>{sum(len(v) for v in by_cat.values())}</strong> "
-              f"measurements for this Census Subdivision across "
-              f"<strong>{len(by_cat)}</strong> categories. Tables below are collapsible.</p>"]
-    for i, cat in enumerate(ordered):
+    total = sum(len(v) for v in by_cat.values())
+    blocks = [
+        f"<h2>Full census record, {year}</h2>",
+        f"<p>The {year} census recorded <strong>{total}</strong> "
+        f"measurements for this Census Subdivision across "
+        f"<strong>{len(by_cat)}</strong> "
+        f"categor{'ies' if len(by_cat) != 1 else 'y'}.</p>",
+    ]
+
+    for cat in ordered:
         rows = by_cat[cat]
-        rows.sort(key=lambda r: (r[0] or "").lower())
         cat_label = CATEGORY_LABELS.get(cat, cat)
-        # First category open by default; the rest collapsed.
-        open_attr = " open" if i == 0 else ""
-        table_rows = "\n".join(
-            f"<tr><td>{html.escape(label or '')}</td>"
-            f"<td>{fmt_value(fval, sval)}</td></tr>"
-            for label, fval, sval in rows
-        )
+
+        signal = [r for r in rows if (r[6] or '').lower() != 'sparse']
+        sparse = [r for r in rows if (r[6] or '').lower() == 'sparse']
+
+        # Sort signal by descending numeric value; non-numeric/strings drop to
+        # the end. Stable secondary sort by label for determinism.
+        def _sort_key(r):
+            fval = r[1]
+            try:
+                v = float(fval) if fval is not None else float('-inf')
+            except (TypeError, ValueError):
+                v = float('-inf')
+            return (-v, (r[0] or '').lower())
+        signal.sort(key=_sort_key)
+
+        # Build phrases and gather per-row source tables for the current year.
+        short_phrases = []
+        long_sentences = []
+        tables_year = set()
+        for label, fval, sval, var_code, unit, src_tbls, _q in signal:
+            phrase = _humanize_phrase(fmt_value(fval, sval), label or '', unit or '')
+            tbl = _source_tables_for_year(src_tbls or '', year)
+            if tbl:
+                tables_year.add(tbl)
+            # Use the cleaned label length (post suffix-strip) so AGR variants
+            # like "Bushels of clover, timothy, or other grass seed produced in
+            # the past year" don't get split off into their own sentence just
+            # because of the boilerplate suffix.
+            cleaned = _LABEL_SUFFIX_NOISE.sub('', (label or '').strip())
+            if len(cleaned) > _LONG_LABEL_THRESHOLD:
+                # Avoid double-period when the label itself ends with one.
+                ending = '' if phrase.rstrip().endswith('.') else '.'
+                long_sentences.append(phrase + ending)
+            else:
+                short_phrases.append(phrase)
+
+        # Body: short fragments comma-joined as one sentence + long entries
+        # as their own sentences.
+        body_parts = []
+        if short_phrases:
+            joined = ', '.join(html.escape(p) for p in short_phrases)
+            body_parts.append(f"This community's record includes {joined}.")
+        for s in long_sentences:
+            body_parts.append(html.escape(s))
+
+        body = ' '.join(body_parts) if body_parts else ''
+        citation = _format_citation(year, tables_year)
+
+        # Sparse footnote — collapsed to one trailing sentence.
+        footnote = ''
+        if sparse:
+            sparse_phrases = []
+            for label, fval, sval, var_code, unit, _src, _q in sparse:
+                sparse_phrases.append(
+                    _humanize_phrase(fmt_value(fval, sval), label or '', unit or '')
+                )
+            joined = ', '.join(html.escape(p) for p in sparse_phrases)
+            footnote = (
+                f' <span class="sparse-footnote"><em>The {year} enumerator '
+                f'also recorded {joined} — single-county tallies of limited '
+                f'cross-year comparability.</em></span>'
+            )
+
+        if not body and not footnote:
+            continue
+
         blocks.append(
-            f'<details{open_attr}><summary><strong>{cat_label}</strong> '
-            f'({len(rows)} variable{"s" if len(rows) != 1 else ""})</summary>\n'
-            f'<table>\n<tr><th>Variable</th><th>Value</th></tr>\n'
-            f'{table_rows}\n</table>\n</details>'
+            f'<p><strong>{cat_label} ({year}).</strong> {body}{citation}{footnote}</p>'
         )
+
     return "\n".join(blocks)
 
 
@@ -1021,10 +1164,67 @@ def render_page(row, traj, neighbours, measurements, overlaps, *, site_url: str,
             "@type": "AdministrativeArea",
             "name": f"{cd_name} County, {province}",
         }
-    if pop:
-        jsonld_obj["additionalProperty"] = [
-            {"@type": "PropertyValue", "name": f"Population ({year})", "value": pop}
-        ]
+    # additionalProperty: top-N signal-quality Schema.org PropertyValue
+    # entries — enough for crawlers / Schema.org consumers without bloating
+    # the page. The full per-measurement dataset is referenced via subjectOf
+    # below so programmatic consumers can pick it up from facts/<year>.jsonl.
+    JSONLD_PROPERTY_CAP = 30
+    if measurements:
+        signal = [m for m in measurements if (m[7] or "").lower() != "sparse"]
+
+        def _vsort(m):
+            fval = m[2]
+            try:
+                return -float(fval) if fval is not None else 0
+            except (TypeError, ValueError):
+                return 0
+        signal.sort(key=_vsort)
+
+        props = []
+        for cat, label, fval, sval, var_code, unit, src_tbls, quality in signal[:JSONLD_PROPERTY_CAP]:
+            value = sval if (sval is not None and sval != "") else fval
+            if value is None:
+                continue
+            if isinstance(value, float) and value == int(value):
+                value = int(value)
+            bare = (var_code or "").removeprefix("VAR_") if var_code else ""
+            tbl = _source_tables_for_year(src_tbls or "", year)
+            entry = {
+                "@type": "PropertyValue",
+                "name": label or bare,
+                "value": value,
+            }
+            if bare:
+                entry["propertyID"] = f"{site_url}{base}/vocab/var/{bare}"
+            if unit:
+                entry["unitText"] = unit
+            if cat:
+                entry["valueReference"] = {
+                    "@type": "DefinedTerm",
+                    "name": CATEGORY_LABELS.get(cat, cat),
+                    "inDefinedTermSet": f"{site_url}{base}/vocab/category/{cat}",
+                }
+            if tbl:
+                entry["citation"] = f"{year} Census of Canada, {tbl}"
+            props.append(entry)
+        if props:
+            jsonld_obj["additionalProperty"] = props
+
+        # Pointer to the full per-year facts file for programmatic consumers.
+        jsonld_obj["subjectOf"] = {
+            "@type": "Dataset",
+            "name": f"Full census measurements ({year})",
+            "description": (
+                f"All {len(measurements)} measurements recorded for this "
+                f"Census Subdivision in {year}, in JSONL form. "
+                f"Filter by tcpuid={tcpuid} and year={year} for this subject."
+            ),
+            "distribution": {
+                "@type": "DataDownload",
+                "encodingFormat": "application/x-ndjson",
+                "contentUrl": f"{site_url}{base}/facts/{year}.jsonl",
+            },
+        }
 
     return PAGE_TEMPLATE.format(
         title=html.escape(title),
@@ -1106,15 +1306,19 @@ def prefetch_all_data(conn):
     print(f"[prefetch]   {sum(len(v) for v in neighbours_by_presence.values())} neighbour rows", flush=True)
 
     print("[prefetch] measurements...", flush=True)
-    # meas_by_presence[presence_id] -> [(category, label, fval, sval)]
+    # meas_by_presence[presence_id] ->
+    #   [(category, label, fval, sval, var_code, unit, source_tables, quality)]
     meas_by_presence = defaultdict(list)
     res = conn.execute(
         "MATCH (pr:Presence)-[:MEASURED_AT]->(m:Measurement)-[:OF_VARIABLE]->(v:CensusVariable) "
-        "RETURN pr.presence_id, v.category, v.label, m.value_float, m.value_string;"
+        "RETURN pr.presence_id, v.category, v.label, m.value_float, m.value_string, "
+        "v.var_code, v.unit, v.source_tables, v.quality;"
     )
     while res.has_next():
         r = res.get_next()
-        meas_by_presence[r[0]].append((r[1], r[2], r[3], r[4]))
+        meas_by_presence[r[0]].append(
+            (r[1], r[2], r[3], r[4], r[5], r[6], r[7], r[8])
+        )
     print(f"[prefetch]   {sum(len(v) for v in meas_by_presence.values())} measurement rows", flush=True)
 
     print("[prefetch] OVERLAPS_TEMPORALLY...", flush=True)
