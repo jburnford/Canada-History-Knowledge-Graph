@@ -1486,6 +1486,19 @@ def prefetch_cd_data(presence_data):
         for r in _csv.DictReader(f):
             uri_by_id[r["place_id:ID"]] = r
 
+    # 1b. Load Wikipedia sitelinks (QID -> en/fr URL). Same source the
+    # CSD pages use via Ladybug Place.enwiki_url / frwiki_url; here we
+    # join in directly since CD prefetch reads CSVs not Ladybug.
+    wiki_by_qid = {}
+    sitelinks_path = REPO / "wikidata_grounding" / "wikipedia_sitelinks.csv"
+    if sitelinks_path.exists():
+        with sitelinks_path.open() as f:
+            for r in _csv.DictReader(f):
+                wiki_by_qid[r["qid"]] = (
+                    r.get("enwiki_url", "") or "",
+                    r.get("frwiki_url", "") or "",
+                )
+
     # 2. e53_place_cd.csv master list (one row per CD chain post-Phase-3).
     cds = []
     cd_canonical_by_chain = {}
@@ -1495,19 +1508,24 @@ def prefetch_cd_data(presence_data):
             canonical = r["name"]
             cd_canonical_by_chain[chain_id] = canonical
             u = uri_by_id.get(chain_id, {})
+            qid = u.get("wikidata_qid", "")
+            enwiki, frwiki = wiki_by_qid.get(qid, ("", ""))
             cds.append((
                 chain_id, canonical, r["province"],
-                u.get("uri", ""), u.get("wikidata_qid", ""),
+                u.get("uri", ""), qid,
                 u.get("grounding_status", ""), u.get("mint_reason", ""),
                 r.get("years_active", ""),
+                enwiki, frwiki,
             ))
-    print(f"[prefetch-cds] {len(cds)} CD chains", flush=True)
+    print(f"[prefetch-cds] {len(cds)} CD chains "
+          f"({sum(1 for c in cds if c[8])} with EN Wikipedia, "
+          f"{sum(1 for c in cds if c[9])} with FR Wikipedia)", flush=True)
 
     # 3. Build chain URL lookup from URI sidecar. For wikidata-grounded chains,
     # synthesize the page URL from chain_id (we still want users to click into
     # the local CD index page even when the canonical URI is Wikidata).
     cd_chain_url = {}
-    for chain_id, canonical, province, uri, qid, status, mr, _ya in cds:
+    for chain_id, canonical, province, uri, qid, status, mr, _ya, _en, _fr in cds:
         # Mirror minted_cd_url logic for collision-disambiguated chain ids.
         expected_prefix = f"CD_{province}_{canonical.replace(' ', '_')}"
         url_slug = slugify(canonical)
@@ -1596,12 +1614,12 @@ def render_cd_page(cd_row, csds_by_year, lineage_edges, *,
     """Return (rel_dir, body, canonical) for a CD index page.
 
     cd_row tuple: (chain_id, canonical_name, province, uri, qid, status,
-                   mint_reason, years_active_string).
+                   mint_reason, years_active_string, enwiki_url, frwiki_url).
     lineage_edges: list of (direction, lineage_type, other_chain_id, change_year)
                    from the Phase-1 cd_lineage.csv. Empty list if none.
     """
     (cd_id, cd_name, prov_code, uri, qid, status, mint_reason,
-     years_active_str) = cd_row
+     years_active_str, enwiki_url, frwiki_url) = cd_row
     province = PROVINCE_NAMES.get(prov_code, prov_code)
     page_path = url_for_cd(cd_name, prov_code, base, chain_place_id=cd_id)
     canonical = f"{site_url}{page_path}"
@@ -1681,6 +1699,16 @@ def render_cd_page(cd_row, csds_by_year, lineage_edges, *,
                          f'title="Wikidata: {qid}">')
         wikidata_id = (f'<li><strong>Wikidata:</strong> '
                        f'<a href="https://www.wikidata.org/wiki/{qid}">{qid}</a></li>')
+        if enwiki_url:
+            wikidata_id += (
+                f'\n<li><strong>Wikipedia (EN):</strong> '
+                f'<a href="{html.escape(enwiki_url)}">{html.escape(enwiki_url)}</a></li>'
+            )
+        if frwiki_url:
+            wikidata_id += (
+                f'\n<li><strong>Wikipédia (FR):</strong> '
+                f'<a href="{html.escape(frwiki_url)}">{html.escape(frwiki_url)}</a></li>'
+            )
 
     description = (
         f"{cd_name} Census Division in {province}, {years_active}. "
@@ -1742,7 +1770,12 @@ def render_cd_page(cd_row, csds_by_year, lineage_edges, *,
         "url": canonical,
     }
     if qid:
-        jsonld_obj["sameAs"] = f"http://www.wikidata.org/entity/{qid}"
+        same_as = [f"http://www.wikidata.org/entity/{qid}"]
+        if enwiki_url:
+            same_as.append(enwiki_url)
+        if frwiki_url:
+            same_as.append(frwiki_url)
+        jsonld_obj["sameAs"] = same_as if len(same_as) > 1 else same_as[0]
 
     body = CD_PAGE_TEMPLATE.format(
         title=f"{cd_name}, {province} — Census Division",
