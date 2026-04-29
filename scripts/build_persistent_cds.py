@@ -771,6 +771,148 @@ def apply_rule4_gap_bridge(registry, lineage_edges, member_to_chain):
     return fused_audit
 
 
+# OCR-typo-tolerant within-province chain merger. Two safeguards prevent
+# false positives:
+#   1. Levenshtein distance ≤ 1 (single-character insert/delete/substitute).
+#      Catches Renfew/Renfrew (1) and Glengary/Glengarry (1) but rejects
+#      different ward names (Montréal, Ste. Anne / Montréal, St. Antoine, dist=5).
+#   2. Identical numeric tokens. Without this, "Division No. 1" / "Division
+#      No. 10" / "Division No. 11" would all collapse — they're distance 1
+#      from each other but are distinct administrative units.
+TYPO_MAX_DISTANCE = 1
+
+
+def _numeric_tokens(s: str) -> tuple:
+    return tuple(re.findall(r"\d+", s or ""))
+
+
+def merge_typo_chains(registry, member_to_chain, lineage_edges):
+    """Merge same-province chain pairs whose canonical names differ by a
+    single non-numeric character (Renfew/Renfrew, Glengary/Glengarry) and
+    whose years_active overlap. The smaller chain (fewer years, then fewer
+    members) absorbs into the larger so the chain id of the dominant variant
+    survives.
+
+    Required because the chain-builder Union-Find runs over (cd_id, year)
+    edges, which only union ACROSS years — same-year typo pairs (Renfew 1861
+    + Renfrew 1861, both real polygons in the GDB) never get merged via
+    Rules 1-4. This step closes that gap.
+
+    Mutates registry + member_to_chain + lineage_edges in place. Returns
+    audit list of merges."""
+    try:
+        from rapidfuzz.distance import Levenshtein
+    except ImportError:
+        print("  rapidfuzz not available; skipping typo-merge step",
+              file=sys.stderr)
+        return []
+
+    by_prov = defaultdict(list)
+    for r in registry:
+        by_prov[r["province"]].append(r)
+
+    redirect = {}  # losing_chain_id -> winning_chain_id
+    merges_audit = []
+
+    for prov, chains in by_prov.items():
+        for i, a in enumerate(chains):
+            for b in chains[i + 1:]:
+                a_name = a["canonical_name"]
+                b_name = b["canonical_name"]
+                if not a_name or not b_name:
+                    continue
+                # Already-equal normalized names — handled by display-label layer.
+                if normalize_for_match(a_name) == normalize_for_match(b_name):
+                    continue
+                # Numeric token equality: rejects "Division No. 1" vs "Division
+                # No. 10", which would otherwise pass the distance check.
+                if _numeric_tokens(a_name) != _numeric_tokens(b_name):
+                    continue
+                dist = Levenshtein.distance(a_name, b_name)
+                if dist > TYPO_MAX_DISTANCE:
+                    continue
+                # Require year overlap so we don't fuse a 1861 chain with a
+                # genuinely-different 1921 chain that happens to share a name.
+                a_years = {int(y) for y in a["years_active"].split(";") if y}
+                b_years = {int(y) for y in b["years_active"].split(";") if y}
+                if not (a_years & b_years):
+                    continue
+                # Pick winner: more years_active first, then more members.
+                a_id, b_id = a["place_id"], b["place_id"]
+                a_count = sum(1 for v in member_to_chain.values() if v == a_id)
+                b_count = sum(1 for v in member_to_chain.values() if v == b_id)
+                if (a["num_years"], a_count) >= (b["num_years"], b_count):
+                    winner, loser = a, b
+                else:
+                    winner, loser = b, a
+                redirect[loser["place_id"]] = winner["place_id"]
+                merges_audit.append({
+                    "loser_chain_id": loser["place_id"],
+                    "loser_canonical": loser["canonical_name"],
+                    "winner_chain_id": winner["place_id"],
+                    "winner_canonical": winner["canonical_name"],
+                    "edit_distance": dist,
+                    "province": prov,
+                    "loser_years": loser["years_active"],
+                    "winner_years": winner["years_active"],
+                })
+
+    if not redirect:
+        print(f"  Typo-merge: 0 pairs found at edit-distance<={TYPO_MAX_DISTANCE}",
+              file=sys.stderr)
+        return []
+
+    # Resolve transitive redirects (loser of one pair was also loser of another).
+    def resolve(cid):
+        seen = set()
+        while cid in redirect and cid not in seen:
+            seen.add(cid)
+            cid = redirect[cid]
+        return cid
+
+    # Apply: drop loser rows from registry, remap member_to_chain, remap lineage.
+    losers = set(redirect.keys())
+    registry[:] = [r for r in registry if r["place_id"] not in losers]
+    # Sum loser years_active into winner.
+    winners_to_update = defaultdict(set)
+    for loser_id, winner_id in redirect.items():
+        target = resolve(winner_id)
+        loser_years_str = next(
+            (m["loser_years"] for m in merges_audit
+             if m["loser_chain_id"] == loser_id),
+            "",
+        )
+        for y in loser_years_str.split(";"):
+            if y.strip():
+                winners_to_update[target].add(int(y))
+    for r in registry:
+        if r["place_id"] in winners_to_update:
+            existing = {int(y) for y in r["years_active"].split(";") if y}
+            merged = existing | winners_to_update[r["place_id"]]
+            r["years_active"] = ";".join(str(y) for y in sorted(merged))
+            r["num_years"] = len(merged)
+
+    for k, v in list(member_to_chain.items()):
+        if v in losers:
+            member_to_chain[k] = resolve(v)
+    for edge in lineage_edges:
+        if edge[":START_ID"] in losers:
+            edge[":START_ID"] = resolve(edge[":START_ID"])
+        if edge[":END_ID"] in losers:
+            edge[":END_ID"] = resolve(edge[":END_ID"])
+    # Drop self-loops created by remap.
+    lineage_edges[:] = [e for e in lineage_edges
+                        if e[":START_ID"] != e[":END_ID"]]
+
+    print(f"  Typo-merge: {len(merges_audit)} pairs merged "
+          f"(edit-distance<={TYPO_MAX_DISTANCE})", file=sys.stderr)
+    for m in merges_audit:
+        print(f"    {m['loser_canonical']!r} -> {m['winner_canonical']!r} "
+              f"({m['province']}, dist={m['edit_distance']})",
+              file=sys.stderr)
+    return merges_audit
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Build persistent CD registry from cd_links spatial overlap"
@@ -824,6 +966,11 @@ def main():
 
     print(f"\nApplying Rule 4 (gap-spanning lineage bridge)...", file=sys.stderr)
     rule4_audit = apply_rule4_gap_bridge(registry, lineage_edges, member_to_chain)
+
+    # Note: typo-merge runs as a separate post-step (scripts/typo_merge_cds.py)
+    # because it must operate on a registry built from clean cd_links data,
+    # and inlining it here breaks if e93_presence_cd has already been
+    # regenerated downstream (chain_ids leak back as raw_cd_ids via augment).
 
     print(f"\nWriting outputs to {out_dir}/...", file=sys.stderr)
 

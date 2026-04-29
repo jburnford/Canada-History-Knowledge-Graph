@@ -1,0 +1,599 @@
+var_code,label,category,unit,source_tables,year_count,comparable_across_years,presence_count,quality
+VAR_ADVENTISTS,Number of Adventists,REL,persons,"1911:V2T2,1921:V1T38",2,true,1274,signal
+VAR_AGE_01to02F_N,Number of females aged 1 to 2,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1889,signal
+VAR_AGE_01to02M_N,Number of males aged 1 to 2,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1894,signal
+VAR_AGE_02to03F_N,Number of females aged 2 to 3,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1894,signal
+VAR_AGE_02to03M_N,Number of males aged 2 to 3,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1899,signal
+VAR_AGE_03to04F_N,Number of females age 3 to 4,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1894,signal
+VAR_AGE_03to04M_N,Number of males aged 3 to 4,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1902,signal
+VAR_AGE_04to05F_N,Number of females aged 4 to 5,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1886,signal
+VAR_AGE_04to05M_N,Number of males aged 4 to 5,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1897,signal
+VAR_AGE_05to10F_N,Number of females aged 5 to 10,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1921,signal
+VAR_AGE_05to10M_N,Number of males aged 5 to 10,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1925,signal
+VAR_AGE_05to16F_N,Number of females aged 5 to 16,AGE,persons,1871:V1T1,1,false,71,sparse
+VAR_AGE_05to16M_N,Number of males aged 5 to 16,AGE,persons,1871:V1T1,1,false,71,sparse
+VAR_AGE_0to01F_N,Number of females under age 1,AGE,persons,1851:V1T3,1,false,863,signal
+VAR_AGE_0to01M_N,Number of males under age 1,AGE,persons,1851:V1T3,1,false,863,signal
+VAR_AGE_0to05F_N,Number of females aged 0 to 5,AGE,persons,1871:V1T1,1,false,71,sparse
+VAR_AGE_0to05M_N,Number of males aged under 5,AGE,persons,1871:V1T1,1,false,71,sparse
+VAR_AGE_0to17FS_N,Number of single females under 18,AGE,persons,"1871:V1T1,1881:V1T1,1891:V1T3",3,true,6307,signal
+VAR_AGE_0to17MS_N,Number of single males under 18,AGE,persons,"1871:V1T1,1881:V1T1,1891:V1T3",3,true,6311,signal
+VAR_AGE_0to17XS_N,Number of single persons under 18,AGE,persons,"1871:V1T1,1881:V1T1,1891:V1T3",3,true,6311,signal
+VAR_AGE_10to15FM_N,Number of married females aged 10 to 15,AGE,persons,"1851:V1T3,1861:V1T5",2,true,44,sparse
+VAR_AGE_10to15FS_N,Number of single females aged 10 to 15,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1920,signal
+VAR_AGE_10to15MM_N,Number of married males aged 10 to 15,AGE,persons,1861:V1T5,1,false,11,sparse
+VAR_AGE_10to15MS_N,Number of single males aged 10 to 15,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1931,signal
+VAR_AGE_15to20FM_N,Number of married females aged 15 to 20,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1737,signal
+VAR_AGE_15to20FS_N,Number of single females aged 15 to 20,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1927,signal
+VAR_AGE_15to20MM_N,Number of married males aged 15 to 20,AGE,persons,"1851:V1T3,1861:V1T5",2,true,988,signal
+VAR_AGE_15to20MS_N,Number of single males aged 15 to 20,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1932,signal
+VAR_AGE_16to21F_N,Number of females aged 16 to 21,AGE,persons,1871:V1T1,1,false,71,sparse
+VAR_AGE_16to21M_N,Number of males aged 16 to 21,AGE,persons,1871:V1T1,1,false,71,sparse
+VAR_AGE_20to30FM_N,Number of married females aged 20 to 30,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1916,signal
+VAR_AGE_20to30FS_N,Number of single females aged 20 to 30,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1909,signal
+VAR_AGE_20to30FW_N,Number of widowed females aged 20 to 30,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1227,signal
+VAR_AGE_20to30MM_N,Number of married males aged 20 to 30,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1915,signal
+VAR_AGE_20to30MS_N,Number of single males aged 20 to 30,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1932,signal
+VAR_AGE_20to30MW_N,Number of widowed males aged 20 to 30,AGE,persons,"1851:V1T3,1861:V1T5",2,true,977,signal
+VAR_AGE_21to45F_N,Number of females aged 21-45,AGE,persons,1871:V1T1,1,false,71,sparse
+VAR_AGE_21to45M_N,Number of males aged 21 to 45,AGE,persons,1871:V1T1,1,false,71,sparse
+VAR_AGE_30to40FM_N,Number of married females aged 30 to 40,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1916,signal
+VAR_AGE_30to40FS_N,Number of single females aged 30 to 40,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1780,signal
+VAR_AGE_30to40FW_N,Number of widowed females aged 30 to 40,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1562,signal
+VAR_AGE_30to40MM_N,Number of married males aged 30 to 40,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1921,signal
+VAR_AGE_30to40MS_N,Number of single males aged 30 to 40,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1868,signal
+VAR_AGE_30to40MW_N,Number of widowed males aged 30 to 40,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1441,signal
+VAR_AGE_40to50FM_N,Number of married females aged 40 to 50,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1899,signal
+VAR_AGE_40to50FS_N,Number of single females aged 40 to 50,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1629,signal
+VAR_AGE_40to50FW_N,Number of widowed females aged 40 to 50,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1681,signal
+VAR_AGE_40to50MM_N,Number of married males aged 40 to 50,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1907,signal
+VAR_AGE_40to50MS_N,Number of single males aged 40 to 50,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1764,signal
+VAR_AGE_40to50MW_N,Number of widowed males aged 40 to 50,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1591,signal
+VAR_AGE_45to60F_N,Number of females aged 45-60,AGE,persons,1871:V1T1,1,false,71,sparse
+VAR_AGE_45to60M_N,Number of males aged 45 to 60,AGE,persons,1871:V1T1,1,false,71,sparse
+VAR_AGE_50to60FM_N,Number of married females aged 50 to 60,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1881,signal
+VAR_AGE_50to60FS_N,Number of single females aged 50 to 60,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1494,signal
+VAR_AGE_50to60FW_N,Number of widowed females aged 50 to 60,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1735,signal
+VAR_AGE_50to60MM_N,Number of married males aged 50 to 60,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1905,signal
+VAR_AGE_50to60MS_N,Number of single males aged 50 to 60,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1620,signal
+VAR_AGE_50to60MW_N,Number of widowed males aged 50 to 60,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1665,signal
+VAR_AGE_60to70FM_N,Number of married females aged 60 to 70,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1835,signal
+VAR_AGE_60to70FS_N,Number of single females aged 60 to 70,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1217,signal
+VAR_AGE_60to70FW_N,Number of widowed females aged 60 to 70,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1729,signal
+VAR_AGE_60to70MM_N,Number of married males aged 60 to 70,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1873,signal
+VAR_AGE_60to70MS_N,Number of single males aged 60 to 70,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1382,signal
+VAR_AGE_60to70MW_N,Number of widowed males aged 60 to 70,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1672,signal
+VAR_AGE_70to80FM_N,Number of married females aged 70 to 80,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1546,signal
+VAR_AGE_70to80FS_N,Number of single females aged 70 to 80,AGE,persons,"1851:V1T3,1861:V1T5",2,true,923,signal
+VAR_AGE_70to80FW_N,Number of widowed females aged 70 to 80,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1620,signal
+VAR_AGE_70to80MM_N,Number of married males aged 70 to 80,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1705,signal
+VAR_AGE_70to80MS_N,Number of single males aged 70 to 80,AGE,persons,"1851:V1T3,1861:V1T5",2,true,915,signal
+VAR_AGE_70to80MW_N,Number of widowed males aged 70 to 80,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1518,signal
+VAR_AGE_80to90FM_N,Number of married females aged 80 to 90,AGE,persons,"1851:V1T3,1861:V1T5",2,true,706,signal
+VAR_AGE_80to90FS_N,Number of single females aged 80 to 90,AGE,persons,"1851:V1T3,1861:V1T5",2,true,406,signal
+VAR_AGE_80to90FW_N,Number of widowed females aged 80 to 90,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1186,signal
+VAR_AGE_80to90MM_N,Number of married males aged 80 to 90,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1211,signal
+VAR_AGE_80to90MS_N,Number of single males aged 80 to 90,AGE,persons,"1851:V1T3,1861:V1T5",2,true,439,signal
+VAR_AGE_80to90MW_N,Number of widowed males aged 80 to 90,AGE,persons,"1851:V1T3,1861:V1T5",2,true,1144,signal
+VAR_AGE_90to100FM_N,Number of married females aged 90 to 100,AGE,persons,"1851:V1T3,1861:V1T5",2,true,118,signal
+VAR_AGE_90to100FS_N,Number of single females aged 90 to 100,AGE,persons,"1851:V1T3,1861:V1T5",2,true,93,sparse
+VAR_AGE_90to100FW_N,Number of widowed females aged 90 to 100,AGE,persons,"1851:V1T3,1861:V1T5",2,true,420,signal
+VAR_AGE_90to100MM_N,Number of married males aged 90 to 100,AGE,persons,"1851:V1T3,1861:V1T5",2,true,277,signal
+VAR_AGE_90to100MS_N,Number of single males aged 90 to 100,AGE,persons,"1851:V1T3,1861:V1T5",2,true,98,sparse
+VAR_AGE_90to100MW_N,Number of widowed males aged 90 to 100,AGE,persons,"1851:V1T3,1861:V1T5",2,true,348,signal
+VAR_AGE_NF_N,Number of females of unknown age,AGE,persons,"1851:V1T3,1861:V1T5",2,true,658,signal
+VAR_AGE_NM_N,Number of males of unknown age,AGE,persons,"1851:V1T3,1861:V1T5",2,true,810,signal
+VAR_AGE_ov100FM_N,Number of married females over 100,AGE,persons,"1851:V1T3,1861:V1T5",2,true,7,sparse
+VAR_AGE_ov100FS_N,Number of single females over 100,AGE,persons,"1851:V1T3,1861:V1T5",2,true,10,sparse
+VAR_AGE_ov100FW_N,Number of widowed females over 100,AGE,persons,"1851:V1T3,1861:V1T5",2,true,49,sparse
+VAR_AGE_ov100MM_N,Number of married males over 100,AGE,persons,"1851:V1T3,1861:V1T5",2,true,29,sparse
+VAR_AGE_ov100MS_N,Number of single males over 100,AGE,persons,"1851:V1T3,1861:V1T5",2,true,10,sparse
+VAR_AGE_ov100MW_N,Number of widowed males over 100,AGE,persons,"1851:V1T3,1861:V1T5",2,true,48,sparse
+VAR_AGE_ov60F_N,Number of females over 60,AGE,persons,1871:V1T1,1,false,71,sparse
+VAR_AGE_ov60M_N,Number of males over 60,AGE,persons,1871:V1T1,1,false,71,sparse
+VAR_ANGLICANS,Number of Anglicans (Church of England),REL,persons,"1911:V2T2,1921:V1T38",2,true,6064,signal
+VAR_AREA_ACRES,Area in acres,POP,acres,1911:V1T1,1,false,2425,signal
+VAR_AREA_SQ_MI,Area in square miles,POP,square_miles,1911:V1T1,1,false,2424,signal
+VAR_ARE_XX_A,Total area (acres),AGR,acres,"1871:V1T1,1901:V1T7",2,true,4198,signal
+VAR_ASIA_CHINESE_AND_JAPANESE,Number of persons of Chinese or Japanese origin,ETH,persons,1921:V1T27,1,false,1226,signal
+VAR_ASIA_OTHER,Number of persons of other Asian origin,ETH,persons,1921:V1T27,1,false,165,signal
+VAR_ASIA_SYRIAN,Number of persons of Syrian origin,ETH,persons,1921:V1T27,1,false,504,signal
+VAR_AUSTRO_HUNGARIAN,Number of persons of Austro-Hungarian origin,ETH,persons,1911:V2T7,1,false,440,signal
+VAR_BAPTISTS,Number of Baptists,REL,persons,"1911:V2T2,1921:V1T38",2,true,4941,signal
+VAR_BAR_XX_A,Acres of barley,AGR,acres,"1851:V2T6,1861:V2T11,1891:V4T2",3,true,3963,signal
+VAR_BAR_XX_B,Bushels of barley produced in the past year,AGR,bushels,"1851:V2T6,1861:V2T11,1871:V1T1,1881:V3T24,1891:V4T2",5,true,6036,signal
+VAR_BEAN_XX_B,Bushels of beans produced in the past year,AGR,bushels,"1851:V2T6,1861:V2T11,1871:V1T1,1891:V4T2",4,true,3355,signal
+VAR_BEEF_XX_BL,Barrels of beef produced in the past year,AGR,barrels,"1851:V2T6,1861:V2T11",2,true,1618,signal
+VAR_BELGIAN,Number of persons of Belgian origin,ETH,persons,1911:V2T7,1,false,327,signal
+VAR_BIRTH_FX_N,Number of female births in the past year,POP,persons,"1851:V1T3,1861:V1T5",2,true,1877,signal
+VAR_BIRTH_LY_N,Number of births in the past year,POP,persons,1871:V1T1,1,false,71,sparse
+VAR_BIRTH_MX_N,Number of male births in the past year,POP,persons,"1851:V1T3,1861:V1T5",2,true,1879,signal
+VAR_BLD_CX_N,Number of churches,BLD,buildings,1871:V1T1,1,false,64,sparse
+VAR_BLD_SX_N,Number or schoolhouses,BLD,buildings,1871:V1T1,1,false,69,sparse
+VAR_BRCK_PX_N,Number of bricks produced in the past year,MFG,establishments,1871:V1T1,1,false,13,sparse
+VAR_BRCK_XX_N,Number of brick kilns,MFG,establishments,1871:V1T1,1,false,14,sparse
+VAR_BRDI_XX_N,Number of breweries and distilleries,MFG,establishments,1871:V1T1,1,false,10,sparse
+VAR_BRETHREN,Number of Brethren,REL,persons,"1911:V2T2,1921:V1T38",2,true,1075,signal
+VAR_BREW_EX_N,Number of employees in breweries,MFG,persons,1851:V2T7,1,false,102,signal
+VAR_BREW_NR_N,Number of breweries not reporting,MFG,establishments,1851:V2T7,1,false,107,signal
+VAR_BREW_PX_G,Gallons of beer produced in breweries in the past year,MFG,gallons,1851:V2T7,1,false,107,signal
+VAR_BREW_XC_N,Number of breweries returning capital,MFG,establishments,1851:V2T7,1,false,104,signal
+VAR_BREW_XR_N,Number of breweries reporting,MFG,establishments,1851:V2T7,1,false,112,signal
+VAR_BREW_XX_N,Number of breweries,MFG,establishments,1851:V2T7,1,false,176,signal
+VAR_BRIT_BORN_F,Number of females born in the British Empire (excluding Canada),POP,persons,1921:V1T16,1,false,3899,signal
+VAR_BRIT_BORN_M,Number of males born in the British Empire (excluding Canada),POP,persons,1921:V1T16,1,false,4057,signal
+VAR_BRIT_ENG,Number of persons of British origin (English),ETH,persons,1921:V1T27,1,false,4245,signal
+VAR_BRIT_ENGLISH,Number of persons of British origin (English),ETH,persons,1911:V2T7,1,false,2439,signal
+VAR_BRIT_IRISH,Number of persons of British origin (Irish),ETH,persons,"1911:V2T7,1921:V1T27",2,true,6412,signal
+VAR_BRIT_OTHER,Number of persons of British origin (other),ETH,persons,"1911:V2T7,1921:V1T27",2,true,3103,signal
+VAR_BRIT_SCOTCH,Number of persons of British origin (Scotch / Scottish),ETH,persons,"1911:V2T7,1921:V1T27",2,true,6185,signal
+VAR_BULGARIAN_AND_RUMANIAN,Number of persons of Bulgarian or Romanian origin,ETH,persons,1911:V2T7,1,false,135,signal
+VAR_BUT_XX_LB,Pounds of homemade butter,AGR,pounds,"1851:V2T6,1861:V2T11,1871:V1T1,1891:V4T3",4,true,4258,signal
+VAR_BWT_XX_A,Acres of buckwheat,AGR,acres,"1851:V2T6,1861:V2T11",2,true,1494,signal
+VAR_BWT_XX_B,Bushels of buckwheat produced in the past year,AGR,bushels,"1851:V2T6,1861:V2T11,1871:V1T1,1881:V3T24,1891:V4T2",5,true,5313,signal
+VAR_CAN_BORN_F,Number of females born in Canada,POP,persons,1921:V1T16,1,false,5134,signal
+VAR_CAN_BORN_M,Number of males born in Canada,POP,persons,1921:V1T16,1,false,5285,signal
+VAR_CAN_READ_AND_WRITE_5YRS_AND_OVER,Persons aged 5 and over who can both read and write,POP,persons,,0,false,0,undocumented
+VAR_CAN_READ_NOR_WRITE_5YRS_AND_OVER,Persons aged 5 and over who can neither read nor write,POP,persons,,0,false,0,undocumented
+VAR_CAN_READ_ONLY_5YRS_AND_OVER,Persons aged 5 and over who can read only,POP,persons,,0,false,0,undocumented
+VAR_CAR_MISC_N,"Number of riding wagons, carriages, wood sleds, and jaunting sleds",MFG,establishments,1871:V1T1,1,false,68,sparse
+VAR_CAR_SM_N,Number of carriages and sleighs produced in the past year,MFG,establishments,1871:V1T1,1,false,34,sparse
+VAR_CAR_XH_N,Number of carriages for hire,MFG,establishments,1861:V2T11,1,false,392,signal
+VAR_CAR_XH_V,Value of carriages for hire (dollars),MFG,dollars,1861:V2T11,1,false,373,signal
+VAR_CAR_XP_N,Number of carriages for pleasure,MFG,establishments,1861:V2T11,1,false,972,signal
+VAR_CAR_XP_V,Value of carriages for pleasure (dollars),MFG,dollars,1861:V2T11,1,false,974,signal
+VAR_CFM_EX_N,Number of employees in carding and fulling mills,MFG,persons,1851:V2T7,1,false,443,signal
+VAR_CFM_NR_N,Number of carding and fulling mills not reporting,MFG,establishments,1851:V2T7,1,false,350,signal
+VAR_CFM_PCF_YD,Yards of fulled cloth produced in the past year,MFG,yards,"1851:V2T6,1861:V2T11,1871:V1T1",3,true,1732,signal
+VAR_CFM_PCNF_YD,Yards of not-fulled cloth produced in the past year,MFG,yards,1871:V1T1,1,false,71,sparse
+VAR_CFM_PC_YD,Yards of cloth produced in carding and fulling mills in the past year,MFG,yards,1851:V2T7,1,false,426,signal
+VAR_CFM_PW_LB,Pounds of wool produced in carding and fulling mills in the past year,MFG,pounds,1851:V2T7,1,false,482,signal
+VAR_CFM_XC_N,Number of carding and fulling mills returning capital,MFG,establishments,1851:V2T7,1,false,532,signal
+VAR_CFM_XR_N,Number of carding and fulling mills reporting,MFG,establishments,1851:V2T7,1,false,545,signal
+VAR_CFM_XX_N,Number of carding and fulling mills,MFG,establishments,"1851:V2T7,1871:V1T1",2,true,592,signal
+VAR_CFM_XY_N,Number of fulling and dressing mills,MFG,establishments,1871:V1T1,1,false,17,sparse
+VAR_CHINESE,Number of persons of Chinese origin,ETH,persons,1911:V2T7,1,false,464,signal
+VAR_CHRISTIANS,Number of Christians (general / no denomination specified),REL,persons,"1911:V2T2,1921:V1T38",2,true,1325,signal
+VAR_CLOTH_PC_YD,Yards of cloth produced in the past year,MFG,yards,1871:V1T1,1,false,44,sparse
+VAR_CLOTH_PF_YD,Yards of flannel produced in the past year,MFG,yards,"1851:V2T6,1861:V2T11",2,true,1690,signal
+VAR_CLOTH_PL_YD,Yards of linen produced in the past year,MFG,yards,"1851:V2T6,1861:V2T11",2,true,1061,signal
+VAR_CLOTH_XX_N,Number of cloth factories,MFG,establishments,1871:V1T1,1,false,6,sparse
+VAR_CONGREGATIONALISTS,Number of Congregationalists,REL,persons,"1911:V2T2,1921:V1T38",2,true,2114,signal
+VAR_CRN_XX_A,Acres of corn,AGR,acres,"1851:V2T6,1861:V2T11",2,true,1399,signal
+VAR_CRN_XX_B,Bushels of corn produced in the past year,AGR,bushels,"1851:V2T6,1861:V2T11,1871:V1T1,1881:V3T24,1891:V4T2",5,true,5081,signal
+VAR_CTL_CH_N,Number of calves and heifers,AGR,head,"1851:V2T6,1861:V2T11",2,true,1794,signal
+VAR_CTL_MX_N,Number of milk cows,AGR,count,"1851:V2T6,1861:V2T11,1891:V4T3",3,true,4332,signal
+VAR_CTL_OB_N,"Number of bulls, oxen, or steers",AGR,head,"1851:V2T6,1861:V2T11",2,true,1798,signal
+VAR_CTL_OTH_N,Number of other cattle,AGR,count,1891:V4T3,1,false,2447,signal
+VAR_CTL_OX_N,Number of oxen,AGR,head,1891:V4T3,1,false,2000,signal
+VAR_CTL_PC_LB,Pounds of cheese produced on farms in the past year,AGR,pounds,"1851:V2T6,1861:V2T11,1871:V1T1,1891:V4T3",4,true,2600,signal
+VAR_CTL_SX_N,Number of cattle killed or sold in the past year,AGR,head,1891:V4T3,1,false,2375,signal
+VAR_CTL_XX_N,Number of cattle,AGR,head,1871:V1T1,1,false,71,sparse
+VAR_DISCIPLES,Number of Disciples of Christ,REL,persons,1911:V2T2,1,false,366,signal
+VAR_DISCIPLES_OF_CHRIST,Number of Disciples of Christ,REL,persons,1921:V1T38,1,false,495,signal
+VAR_DIST_EX_N,Number of employees in distilleries,MFG,persons,1851:V2T7,1,false,104,signal
+VAR_DIST_NR_N,Number of distilleries not reporting,MFG,establishments,1851:V2T7,1,false,58,sparse
+VAR_DIST_PX_G,Gallons of liquor produced in distilleries in the past year,MFG,gallons,1851:V2T7,1,false,75,sparse
+VAR_DIST_XC_N,Number of distilleries returning capital,MFG,establishments,1851:V2T7,1,false,101,signal
+VAR_DIST_XR_N,Number of distilleries reporting,MFG,establishments,1851:V2T7,1,false,144,signal
+VAR_DIST_XX_N,Number of distilleries,MFG,establishments,1851:V2T7,1,false,165,signal
+VAR_DTH_01to02F_N,Deaths in the past year among females aged 1 to 2,DTH,deaths,"1851:V1T3,1861:V1T5",2,true,861,signal
+VAR_DTH_01to02M_N,Deaths in the past year among males aged 1 to 2,DTH,deaths,"1851:V1T3,1861:V1T5",2,true,877,signal
+VAR_DTH_02to03F_N,Deaths in the past year among females aged 2 to 3,DTH,deaths,"1851:V1T3,1861:V1T5",2,true,559,signal
+VAR_DTH_02to03M_N,Deaths in the past year among males aged 2 to 3,DTH,deaths,"1851:V1T3,1861:V1T5",2,true,582,signal
+VAR_DTH_03to04F_N,Deaths in the past year among females aged 3 to 4,DTH,deaths,"1851:V1T3,1861:V1T5",2,true,424,signal
+VAR_DTH_03to04M_N,Deaths in the past year among males age 3 to 4,DTH,deaths,"1851:V1T3,1861:V1T5",2,true,449,signal
+VAR_DTH_04to05F_N,Deaths in the past year among females aged 4 to 5,DTH,deaths,"1851:V1T3,1861:V1T5",2,true,341,signal
+VAR_DTH_04to05M_N,Deaths in the past year among males aged 4 to 5,DTH,deaths,"1851:V1T3,1861:V1T5",2,true,336,signal
+VAR_DTH_05to10F_N,Deaths in the past year among females aged 5 to 10,DTH,deaths,"1851:V1T3,1861:V1T5",2,true,604,signal
+VAR_DTH_05to10M_N,Deaths in the past year among males aged 5 to 10,DTH,deaths,"1851:V1T3,1861:V1T5",2,true,635,signal
+VAR_DTH_0to01F_N,Deaths in the past year among females under age 1,DTH,deaths,"1851:V1T3,1861:V1T5",2,true,1309,signal
+VAR_DTH_0to01M_N,Deaths in the past year among males under age 1,DTH,deaths,"1851:V1T3,1861:V1T5",2,true,1377,signal
+VAR_DTH_10to15F_N,Deaths in the past year among females aged 10 to 15,DTH,deaths,"1851:V1T3,1861:V1T5",2,true,444,signal
+VAR_DTH_10to15M_N,Deaths in the past year among males aged 10 to 15,DTH,deaths,"1851:V1T3,1861:V1T5",2,true,432,signal
+VAR_DTH_15to20F_N,Deaths in the past year among females aged 15 to 20,DTH,deaths,"1851:V1T3,1861:V1T5",2,true,505,signal
+VAR_DTH_15to20M_N,Deaths in the past year among males aged 15 to 20,DTH,deaths,"1851:V1T3,1861:V1T5",2,true,492,signal
+VAR_DTH_20to30F_N,Deaths in the past year among females aged 20 to 30,DTH,deaths,"1851:V1T3,1861:V1T5",2,true,790,signal
+VAR_DTH_20to30M_N,Deaths in the past year among males aged 20 to 30,DTH,deaths,"1851:V1T3,1861:V1T5",2,true,724,signal
+VAR_DTH_30to40F_N,Deaths in the past year among females aged 30 to 40,DTH,deaths,"1851:V1T3,1861:V1T5",2,true,734,signal
+VAR_DTH_30to40M_N,Deaths in the past year among males aged 30 to 40,DTH,deaths,"1851:V1T3,1861:V1T5",2,true,607,signal
+VAR_DTH_40to50F_N,Deaths in the past year among females aged 40 to 50,DTH,deaths,"1851:V1T3,1861:V1T5",2,true,552,signal
+VAR_DTH_40to50M_N,Deaths in the past year among males aged 40 to 50,DTH,deaths,"1851:V1T3,1861:V1T5",2,true,607,signal
+VAR_DTH_50to60F_N,Deaths in the past year among females aged 50 to 60,DTH,deaths,"1851:V1T3,1861:V1T5",2,true,489,signal
+VAR_DTH_50to60M_N,Deaths in the past year among males aged 50 to 60,DTH,deaths,"1851:V1T3,1861:V1T5",2,true,585,signal
+VAR_DTH_60to70F_N,Deaths in the past year among females aged 60 to 70,DTH,deaths,"1851:V1T3,1861:V1T5",2,true,533,signal
+VAR_DTH_60to70M_N,Deaths in the past year among males aged 60 to 70,DTH,deaths,"1851:V1T3,1861:V1T5",2,true,619,signal
+VAR_DTH_70to80F_N,Deaths in the past year among females aged 70 to 80,DTH,deaths,"1851:V1T3,1861:V1T5",2,true,480,signal
+VAR_DTH_70to80M_N,Deaths in the past year among males aged 70 to 80,DTH,deaths,"1851:V1T3,1861:V1T5",2,true,575,signal
+VAR_DTH_80to90F_N,Deaths in the past year among females aged 80 to 90,DTH,deaths,"1851:V1T3,1861:V1T5",2,true,266,signal
+VAR_DTH_80to90M_N,Deaths in the past year among males aged 80 to 90,DTH,deaths,"1851:V1T3,1861:V1T5",2,true,371,signal
+VAR_DTH_90to100F_N,Deaths in the past year among females aged 90 to 100,DTH,deaths,"1851:V1T3,1861:V1T5",2,true,100,signal
+VAR_DTH_90to100M_N,Deaths in the past year among males aged 90 to 100,DTH,deaths,"1851:V1T3,1861:V1T5",2,true,99,sparse
+VAR_DTH_BR_PR,Ratio of deaths to births in the past year,DTH,ratio,,0,false,0,undocumented
+VAR_DTH_FX_N,Deaths in the past year among females of all ages,DTH,deaths,"1851:V1T3,1861:V1T5",2,true,1761,signal
+VAR_DTH_MX_N,Deaths in the past year among males of all ages,DTH,deaths,"1851:V1T3,1861:V1T5",2,true,1779,signal
+VAR_DTH_NF_N,Deaths in the past year among females of unknown age,DTH,deaths,"1851:V1T3,1861:V1T5",2,true,567,signal
+VAR_DTH_NM_N,Deaths in the past year among males of unknown age,DTH,deaths,"1851:V1T3,1861:V1T5",2,true,654,signal
+VAR_DTH_XX_N,Total number of deaths in the past year,DTH,persons,"1851:V1T3,1861:V1T5,1871:V1T1",3,true,1905,signal
+VAR_DTH_ov100F_N,Deaths in the past year among females over 100,DTH,deaths,"1851:V1T3,1861:V1T5",2,true,24,sparse
+VAR_DTH_ov100M_N,Deaths in the past year among males over 100,DTH,deaths,"1851:V1T3,1861:V1T5",2,true,10,sparse
+VAR_DUTCH,Number of persons of Dutch origin,ETH,persons,1911:V2T7,1,false,1112,signal
+VAR_DWELLINGS,Number of dwellings,BLD,buildings,1911:V1T2,1,false,3380,signal
+VAR_EASTERN_RELIGIONS,Number of adherents of Eastern religions,REL,persons,1921:V1T38,1,false,854,signal
+VAR_EDU_LF_N,Number of adult females unable to read or write,POP,persons,1861:V1T5,1,false,1007,signal
+VAR_EDU_LM_N,Number of adult males unable to read or write,POP,persons,1861:V1T5,1,false,1013,signal
+VAR_EDU_SF_N,Number of females attending school,POP,persons,"1851:V1T3,1861:V1T5",2,true,1803,signal
+VAR_EDU_SM_N,Number of males attending school,POP,persons,"1851:V1T3,1861:V1T5",2,true,1806,signal
+VAR_ETH_FC_N,Number of French Canadians,ETH,persons,"1851:V1T1,1861:V1T1,1891:V1T3",3,true,3665,signal
+VAR_ETH_FI_N,Number of Indigenous females,ETH,persons,"1851:V1T3,1861:V1T5,1871:V1T1",3,true,179,signal
+VAR_ETH_FN_N,Number of female negroes or coloured persons,ETH,persons,"1851:V1T3,1861:V1T5",2,true,271,signal
+VAR_ETH_MI_N,Number of Indigenous males,ETH,persons,"1851:V1T3,1861:V1T5,1871:V1T1",3,true,218,signal
+VAR_ETH_MN_N,Number of male negroes or coloured persons,ETH,persons,"1851:V1T3,1861:V1T5",2,true,335,signal
+VAR_ETH_NFC_N,Number of persons who are not French Canadian,ETH,persons,1891:V1T3,1,false,2366,signal
+VAR_ETH_XA_N,"Number of persons native to Canada, not of French origin",ETH,persons,"1851:V1T1,1861:V1T1",2,true,1846,signal
+VAR_ETH_XI_N,Number of Indigenous persons,ETH,persons,"1851:V1T1,1861:V1T1",2,true,144,signal
+VAR_ETH_XN_N,Number of negroes or coloured persons,ETH,persons,"1851:V1T1,1861:V1T1",2,true,228,signal
+VAR_EUR_AUSTRIAN,Number of persons of Austrian origin,ETH,persons,1921:V1T27,1,false,1573,signal
+VAR_EUR_BELGIAN,Number of persons of Belgian origin,ETH,persons,1921:V1T27,1,false,1142,signal
+VAR_EUR_DUTCH,Number of persons of Dutch origin,ETH,persons,1921:V1T27,1,false,2451,signal
+VAR_EUR_FINNISH,Number of persons of Finnish origin,ETH,persons,1921:V1T27,1,false,613,signal
+VAR_EUR_FRENCH,Number of persons of French origin,ETH,persons,1921:V1T27,1,false,4434,signal
+VAR_EUR_GERMAN,Number of persons of German origin,ETH,persons,1921:V1T27,1,false,3112,signal
+VAR_EUR_GREEK,Number of persons of Greek origin,ETH,persons,1921:V1T27,1,false,338,signal
+VAR_EUR_HEBREW,"Persons recorded under the 1921 official census category ""Hebrew"" (origin/ethnicity); now described as Jewish origin.",ETH,persons,1921:V1T27,1,false,1100,signal
+VAR_EUR_ITALIAN,Number of persons of Italian origin,ETH,persons,1921:V1T27,1,false,1159,signal
+VAR_EUR_OTHER,Number of persons of other European origin,ETH,persons,1921:V1T27,1,false,1915,signal
+VAR_EUR_POLISH,Number of persons of Polish origin,ETH,persons,1921:V1T27,1,false,1389,signal
+VAR_EUR_RUSSIAN,Number of persons of Russian origin,ETH,persons,1921:V1T27,1,false,1610,signal
+VAR_EUR_SCANDINAVIAN,Number of persons of Scandinavian origin,ETH,persons,1921:V1T27,1,false,2480,signal
+VAR_EUR_UKRAINIAN,Number of persons of Ukrainian origin,ETH,persons,1921:V1T27,1,false,930,signal
+VAR_EVANGELICAL_ASSOCIATION,Number of members of the Evangelical Association,REL,persons,1921:V1T38,1,false,467,signal
+VAR_FAMILIES,Number of families,POP,persons,1911:V1T2,1,false,3382,signal
+VAR_FISH_BLM_N,Number of cooper's shops,FSH,count,1871:V1T1,1,false,19,sparse
+VAR_FISH_BL_N,Number of fishing barrels produced in the past year,FSH,count,1871:V1T1,1,false,22,sparse
+VAR_FISH_BM_N,Number of men on fishing boats,FSH,persons,1881:V3T27,1,false,376,signal
+VAR_FISH_BX_N,Number of fishing boats,FSH,count,"1871:V1T1,1881:V3T27",2,true,433,signal
+VAR_FISH_CH_Q,Quintals of codfish or hake produced in the past year,FSH,quintals,1871:V1T1,1,false,52,sparse
+VAR_FISH_CX_Q,Quintals of cod produced in the past year,FSH,quintals,1881:V3T27,1,false,341,signal
+VAR_FISH_EE_BL,Barrels of eels produced in the past year,FSH,barrels,1881:V3T27,1,false,180,signal
+VAR_FISH_EX_N,Number of men employed in fishing,FSH,persons,1871:V1T1,1,false,44,sparse
+VAR_FISH_FX_Q,Quintals of fascines fish produced in the past year,FSH,quintals,1881:V3T27,1,false,131,signal
+VAR_FISH_GX_BL,Barrels of gaspareaux produced in the past year,FSH,barrels,1881:V3T27,1,false,204,signal
+VAR_FISH_HA_BL,Barrels of herring or alewives produced in the past year,FSH,barrels,"1871:V1T1,1881:V3T27",2,true,407,signal
+VAR_FISH_HP_Q,"Quintals of haddock, hake, or pollock produced in the past year",FSH,quintals,1881:V3T27,1,false,232,signal
+VAR_FISH_HS_LB,Pounds of hake sounds cured in the past year,FSH,pounds,1871:V1T1,1,false,14,sparse
+VAR_FISH_HX_BL,Barrels of halibut produced in the past year,FSH,barrels,1881:V3T27,1,false,128,signal
+VAR_FISH_LX_LB,Pounds of lobster canned in the past year,FSH,pounds,1881:V3T27,1,false,97,sparse
+VAR_FISH_MX_BL,Barrels of mackerel produced in the past year,FSH,barrels,"1871:V1T1,1881:V3T27",2,true,370,signal
+VAR_FISH_NX_F,Fathoms of fishing nets,FSH,fathoms,1881:V3T27,1,false,393,signal
+VAR_FISH_OTH_BL,Barrels of other fish produced in the past year,FSH,barrels,1881:V3T27,1,false,205,signal
+VAR_FISH_OX_G,Gallons of fish oil produced in the past year,FSH,gallons,"1871:V1T1,1881:V3T27",2,true,353,signal
+VAR_FISH_OY_BL,Barrels of oysters produced in the past year,FSH,barrels,1881:V3T27,1,false,62,sparse
+VAR_FISH_PC_BL,Barrels of cured fish produced in the past year,FSH,barrels,1851:V2T6,1,false,171,signal
+VAR_FISH_PD_Q,Quintals of dried fish sold in the past year,FSH,quintals,1861:V2T11,1,false,73,sparse
+VAR_FISH_PF_LB,Pounds of fresh fish sold in the past year,FSH,pounds,1861:V2T11,1,false,100,signal
+VAR_FISH_PS_BL,Barrels of salted fish sold in the past year,FSH,barrels,1861:V2T11,1,false,192,signal
+VAR_FISH_SH_BL,Barrels of shad produced in the past year,FSH,barrels,1881:V3T27,1,false,78,sparse
+VAR_FISH_SL_LB,Pounds of preserved shell and other fish produced during the past year,FSH,pounds,1871:V1T1,1,false,4,sparse
+VAR_FISH_SM_N,Number of shoremen,FSH,count,1881:V3T27,1,false,167,signal
+VAR_FISH_SN_BL,Barrels of sardines produced in the past year,FSH,barrels,1881:V3T27,1,false,68,sparse
+VAR_FISH_SX_BL,Barrels of salmon produced in the past year,FSH,barrels,1881:V3T27,1,false,191,signal
+VAR_FISH_SX_V,Value of salmon produced in the past year,FSH,dollars,1871:V1T1,1,false,6,sparse
+VAR_FISH_TX_BL,Barrels of trout produced in the past year,FSH,barrels,1881:V3T27,1,false,163,signal
+VAR_FISH_VM_N,Number of men on fishing vessels,FSH,persons,1881:V3T27,1,false,166,signal
+VAR_FISH_VX_N,Number of fishing vessels,FSH,count,1881:V3T27,1,false,166,signal
+VAR_FISH_WX_BL,Barrels of whitefish produced in the past year,FSH,barrels,1881:V3T27,1,false,26,sparse
+VAR_FISH_XE_N,Number of fishing establishments,FSH,count,1871:V1T1,1,false,33,sparse
+VAR_FLH_XX_LB,Pounds of flax or hemp produced in the past year,AGR,pounds,"1851:V2T6,1861:V2T11",2,true,1243,signal
+VAR_FLX_MX_N,Number of flax manufactories,MFG,establishments,1871:V1T1,1,false,6,sparse
+VAR_FLX_XX_LB,Pounds of flax produced in the past year,AGR,pounds,1871:V1T1,1,false,62,sparse
+VAR_FML_XI_A,Acres of improved land in farms,AGR,acres,1891:V2T16,1,false,2460,signal
+VAR_FML_XX_A,Acres of land in farms,AGR,acres,"1851:V2T6,1861:V2T11,1891:V2T16",3,true,4287,signal
+VAR_FOREIGN_BORN_F,Number of females born outside the British Empire,POP,persons,1921:V1T16,1,false,4472,signal
+VAR_FOREIGN_BORN_M,Number of males born outside the British Empire,POP,persons,1921:V1T16,1,false,4666,signal
+VAR_FOWL_CX_N,Number of chickens,AGR,count,1891:V4T3,1,false,2465,signal
+VAR_FOWL_DX_N,Number of ducks,AGR,count,1891:V4T3,1,false,2282,signal
+VAR_FOWL_GX_N,Number of geese,AGR,count,1891:V4T3,1,false,2289,signal
+VAR_FOWL_OTH_N,Number of other fowl,AGR,count,1891:V4T3,1,false,1821,signal
+VAR_FOWL_TX_N,Number of turkeys,AGR,count,1891:V4T3,1,false,2077,signal
+VAR_FRENCH,Number of persons of French origin,ETH,persons,1911:V2T7,1,false,2581,signal
+VAR_FRIENDS,Number of Friends (Quakers),REL,persons,1911:V2T2,1,false,245,signal
+VAR_FRMLU_ARA_A,Acres of farmland in arable land,AGR,acres,1871:V1T1,1,false,71,sparse
+VAR_FRMLU_CLT_A,Acres of farmland under cultivation,AGR,acres,"1851:V2T6,1861:V2T11",2,true,1826,signal
+VAR_FRMLU_CRP_A,Acres of farmland under crops,AGR,acres,"1851:V2T6,1861:V2T11,1891:V2T16",3,true,4274,signal
+VAR_FRMLU_GO_A,Acres of farmland in gardens or orchards,AGR,acres,"1851:V2T6,1891:V2T16",2,true,3030,signal
+VAR_FRMLU_GX_A,Acres of farmland in gardens,AGR,acres,1861:V2T11,1,false,880,signal
+VAR_FRMLU_PST_A,Acres of farmland in pasture,AGR,acres,"1851:V2T6,1861:V2T11,1891:V2T16",3,true,4248,signal
+VAR_FRMLU_WOD_A,Acres of farmland in woodland or forest,AGR,acres,"1851:V2T6,1861:V2T11,1891:V2T16",3,true,4225,signal
+VAR_FRMSZ_0to10_N,Number of persons living on farms under 10 acres,AGR,persons,"1851:V2T6,1861:V2T11,1891:V2T16",3,true,3848,signal
+VAR_FRMSZ_100to200_N,Number of persons living on farms between 100 and 200 acres,AGR,persons,"1851:V2T6,1861:V2T11",2,true,1766,signal
+VAR_FRMSZ_101to200_N,Number of persons living on farms between 101 and 200 acres,AGR,persons,1891:V2T16,1,false,2352,signal
+VAR_FRMSZ_10to20_N,Number of persons living on farms between 10 and 20 acres,AGR,persons,"1851:V2T6,1861:V2T11",2,true,1356,signal
+VAR_FRMSZ_11to50_N,Number of persons living on farms between 11 and 50 acres,AGR,persons,1891:V2T16,1,false,2356,signal
+VAR_FRMSZ_20to50_N,Number of persons living on farms between 20 and 50 acres,AGR,persons,"1851:V2T6,1861:V2T11",2,true,1706,signal
+VAR_FRMSZ_50to100_N,Number of persons living on farms between 50 and 100 acres,AGR,persons,"1851:V2T6,1861:V2T11",2,true,1783,signal
+VAR_FRMSZ_51to100_N,Number of persons living on farms between 51 and 100 acres,AGR,persons,1891:V2T16,1,false,2360,signal
+VAR_FRMSZ_ov200_N,Number of persons living on farms over 200 acres,AGR,persons,"1851:V2T6,1861:V2T11",2,true,1595,signal
+VAR_FRMSZ_ov201_N,Number of persons living on farms over 200 acres,AGR,persons,1891:V2T16,1,false,2234,signal
+VAR_FRMTN_EX_N,Number of employees on farms,AGR,persons,1891:V2T16,1,false,894,signal
+VAR_FRMTN_OX_A,Acres of farmland owned,AGR,acres,1871:V1T1,1,false,71,sparse
+VAR_FRMTN_OX_N,Number of farm occupants who own their land,AGR,count,1891:V2T16,1,false,2458,signal
+VAR_FRMTN_RX_A,Acres of farmland rented,AGR,acres,1871:V1T1,1,false,66,sparse
+VAR_FRMTN_SX_A,Acres of farmland neither owned nor rented,AGR,acres,1871:V1T1,1,false,32,sparse
+VAR_FRMTN_TX_N,Number of farm occupants who rent their land,AGR,count,1891:V2T16,1,false,2301,signal
+VAR_FRMTN_VX_A,Acres of farmland held by verbal agreement,AGR,acres,1871:V1T1,1,false,45,sparse
+VAR_FRMTN_XA_A,Acres of farmland held by townspeople who are not farmers,AGR,acres,1861:V2T11,1,false,764,signal
+VAR_FRM_Q1_N,Number of persons holding farmland of first quality,AGR,persons,1871:V1T1,1,false,70,sparse
+VAR_FRM_Q2_N,Number of persons holding farmland of second quality,AGR,persons,1871:V1T1,1,false,69,sparse
+VAR_FRM_Q3_N,Number of persons holding farmland of third quality,AGR,persons,1871:V1T1,1,false,64,sparse
+VAR_FRM_XX_N,Number of occupants of farms,AGR,count,"1851:V2T6,1861:V2T11,1891:V2T16",3,true,4284,signal
+VAR_FRM_XX_V,Value of farms (dollars),AGR,dollars,1861:V2T11,1,false,1017,signal
+VAR_FRT_LK_N,Number of lime kilns,MFG,establishments,1871:V1T1,1,false,38,sparse
+VAR_FRT_LP_BL,Barrels of lime produced in the past year,MFG,barrels,1871:V1T1,1,false,28,sparse
+VAR_FRT_LX_A,Acres of farmland fertilized with lime,AGR,acres,1871:V1T1,1,false,42,sparse
+VAR_FRT_SX_A,Acres of farmland fertilized with shell manure,AGR,acres,1871:V1T1,1,false,61,sparse
+VAR_FRU_AO_V,Value of apples and other fruits produced in the past year,AGR,dollars,1871:V1T1,1,false,60,sparse
+VAR_FRU_PC_G,Gallons of cider produced in the past year,AGR,gallons,"1851:V2T6,1861:V2T11",2,true,477,signal
+VAR_FRU_PX_V,Value of garden and orchard crops produced in the past year,AGR,dollars,1861:V2T11,1,false,814,signal
+VAR_F_DIVORCED,Number of divorced females,POP,persons,1911:V1T2,1,false,274,signal
+VAR_F_LEGAL_SEP,Number of legally separated females,POP,persons,1911:V1T2,1,false,513,signal
+VAR_F_MARRIED,Number of married females,POP,persons,1911:V1T2,1,false,3352,signal
+VAR_F_NOT_GIVEN,Number of females with marital status not given,POP,persons,1911:V1T2,1,false,954,signal
+VAR_F_SINGLE,Number of single (never-married) females,POP,persons,1911:V1T2,1,false,3342,signal
+VAR_F_WIDOWED,Number of widowed females,POP,persons,1911:V1T2,1,false,3130,signal
+VAR_GERMAN,Number of persons of German origin,ETH,persons,1911:V2T7,1,false,1802,signal
+VAR_GRA_TX_B,Bushels of timothy grass seed produced in the past year,AGR,bushels,1871:V1T1,1,false,70,sparse
+VAR_GRA_XS_B,"Bushels of clover, timothy, or other grass seed produced in the past year",AGR,bushels,"1851:V2T6,1861:V2T11,1881:V3T24,1891:V4T2",4,true,4534,signal
+VAR_GREEK,Number of persons of Greek origin,ETH,persons,1911:V2T7,1,false,184,signal
+VAR_GREEK_CHURCH,Number of Greek (Orthodox) Church adherents,REL,persons,"1911:V2T2,1921:V1T38",2,true,1692,signal
+VAR_GRIST_EX_N,Number of employees in grist mills,MFG,persons,1851:V2T7,1,false,658,signal
+VAR_GRIST_NR_N,Number of grist mills not reporting,MFG,establishments,1851:V2T7,1,false,595,signal
+VAR_GRIST_PD_BL,Barrels of flour produced per day by grist mills reporting daily production,MFG,barrels,1851:V2T7,1,false,305,signal
+VAR_GRIST_PD_N,Number of grist mills reporting daily production,MFG,establishments,1851:V2T7,1,false,292,signal
+VAR_GRIST_PL_N,Number of grist mills reporting value of annual production or rent,MFG,establishments,1851:V2T7,1,false,495,signal
+VAR_GRIST_PL_V,Value of annual production or rent from grist mills (pounds sterling),MFG,dollars,1851:V2T7,1,false,509,signal
+VAR_GRIST_PW_BL,Barrels of flour produced per week by grist mills reporting weekly production,MFG,barrels,1851:V2T7,1,false,296,signal
+VAR_GRIST_PW_N,Number of grist mills reporting weekly production ,MFG,establishments,1851:V2T7,1,false,296,signal
+VAR_GRIST_PY_BL,Barrels of flour produced per year by grist mills reporting annual production,MFG,barrels,1851:V2T7,1,false,587,signal
+VAR_GRIST_PY_N,Number of grist mills reporting annual production,MFG,establishments,1851:V2T7,1,false,588,signal
+VAR_GRIST_SX_N,Number of grist mills powered by steam,MFG,establishments,1851:V2T7,1,false,502,signal
+VAR_GRIST_WX_N,Number of grist mills powered by water,MFG,establishments,1851:V2T7,1,false,732,signal
+VAR_GRIST_XC_N,Number of grist mills returning capital,MFG,establishments,1851:V2T7,1,false,661,signal
+VAR_GRIST_XC_V,Value of capital returned by grist mills (pounds sterling),MFG,dollars,1851:V2T7,1,false,667,signal
+VAR_GRIST_XX_N,Number of grist mills,MFG,establishments,"1851:V2T7,1871:V1T1",2,true,801,signal
+VAR_HAY_XX_A,Acres of hay crops,AGR,acres,"1881:V3T24,1891:V4T2",2,true,4422,signal
+VAR_HAY_XX_T,Tons of hay produced in the past year,AGR,tons,"1851:V2T6,1861:V2T11,1871:V1T1,1881:V3T24,1891:V4T2",5,true,6390,signal
+VAR_HINDU,"Persons recorded under the 1911 official census category ""Hindu""; in 1911 this label denoted South Asian origin (not religious identification). Reflects period British-colonial conflation of religion and ethnicity; modern usage of ""Hindu"" is religious.",ETH,persons,1911:V2T7,1,false,42,sparse
+VAR_HOP_XX_LB,Pounds of hops produced in the past year,AGR,pounds,"1851:V2T6,1861:V2T11",2,true,784,signal
+VAR_HOUSE_01R_N,Number of houses of 1 room,BLD,buildings,1891:V1T2,1,false,1605,signal
+VAR_HOUSE_01S_N,Number of houses of 1 story,BLD,buildings,1891:V1T2,1,false,2463,signal
+VAR_HOUSE_02R_N,Number of houses of 2 rooms,BLD,buildings,1891:V1T2,1,false,2378,signal
+VAR_HOUSE_02S_N,Number of houses of 2 stories,BLD,buildings,1891:V1T2,1,false,2332,signal
+VAR_HOUSE_03R_N,Number of houses of 3 rooms,BLD,buildings,1891:V1T2,1,false,2423,signal
+VAR_HOUSE_03S_N,Number of houses of 3 stories,BLD,buildings,1891:V1T2,1,false,1063,signal
+VAR_HOUSE_04R_N,Number of houses of 4 rooms,BLD,buildings,1891:V1T2,1,false,2448,signal
+VAR_HOUSE_05R_N,Number of houses of 5 rooms,BLD,buildings,1891:V1T2,1,false,2431,signal
+VAR_HOUSE_06to10R_N,Number of houses of 6 to 10 rooms,BLD,buildings,1891:V1T2,1,false,2441,signal
+VAR_HOUSE_11to15R_N,Number of houses of 11 to 15 rooms,BLD,buildings,1891:V1T2,1,false,2155,signal
+VAR_HOUSE_BX_N,Number of houses built of brick,BLD,buildings,1891:V1T2,1,false,1331,signal
+VAR_HOUSE_SX_N,Number of houses built of stone,BLD,buildings,1891:V1T2,1,false,1123,signal
+VAR_HOUSE_TS_N,Number of dwellings that are temporary shanties,BLD,buildings,"1871:V1T1,1881:V1T1",2,true,912,signal
+VAR_HOUSE_TV_N,Number of dwellings that are temporary vessels,BLD,buildings,"1871:V1T1,1881:V1T1",2,true,108,signal
+VAR_HOUSE_TX_N,Number of dwellings that are vessels and shanties,BLD,buildings,1891:V1T2,1,false,890,signal
+VAR_HOUSE_WX_N,Number of houses built of wood,BLD,buildings,1891:V1T2,1,false,2467,signal
+VAR_HOUSE_XC_N,Number of houses under construction,BLD,buildings,"1871:V1T1,1881:V1T1,1891:V1T2",3,true,4959,signal
+VAR_HOUSE_XI_N,Number of inhabited houses,BLD,buildings,"1871:V1T1,1881:V1T1",2,true,3836,signal
+VAR_HOUSE_XO_N,Number of occupied houses,BLD,buildings,"1871:V1T1,1881:V1T1,1891:V1T2",3,true,6310,signal
+VAR_HOUSE_XU_N,Number of uninhabited houses,BLD,buildings,"1871:V1T1,1881:V1T1,1891:V1T2",3,true,5805,signal
+VAR_HOUSE_XX_N,Number of houses,BLD,buildings,"1891:V1T2,1901:V1T7",2,true,5652,signal
+VAR_HOUSE_ov04S_N,Number of houses of more than 3 stories,BLD,buildings,1891:V1T2,1,false,307,signal
+VAR_HOUSE_ov16R_N,Number of houses of over 15 rooms,BLD,buildings,1891:V1T2,1,false,1514,signal
+VAR_HRS_0to03_N,Number of horses aged 3 years and under,AGR,head,"1861:V2T11,1891:V4T3",2,true,3386,signal
+VAR_HRS_XX_N,Number of horses,AGR,head,"1851:V2T6,1871:V1T1",2,true,872,signal
+VAR_HRS_ov03_N,Number of horses aged over 3 years,AGR,head,"1861:V2T11,1891:V4T3",2,true,3528,signal
+VAR_HRS_ov03_V,Value of horses aged over 3 years,AGR,dollars,1861:V2T11,1,false,964,signal
+VAR_INDIAN,"Persons recorded under the official census category ""Indian""; corresponds to what is now described as Indigenous (First Nations; in northern enumerations also Inuit) origin. ""Indian"" was simultaneously a census category and the legal/administrative term under the Indian Act (1876).",ETH,persons,"1911:V2T7,1921:V1T27",2,true,1436,signal
+VAR_IRON_EX_N,Number of employees in foundries,MFG,persons,1851:V2T7,1,false,243,signal
+VAR_IRON_NR_N,Number of foundries not reporting,MFG,establishments,1851:V2T7,1,false,164,signal
+VAR_IRON_PX_V,Value of iron produced in foundries in the past year (pounds sterling),MFG,dollars,1851:V2T7,1,false,279,signal
+VAR_IRON_XC_N,Number of foundries returning capital,MFG,establishments,1851:V2T7,1,false,326,signal
+VAR_IRON_XR_N,Number of foundries reporting,MFG,establishments,1851:V2T7,1,false,310,signal
+VAR_IRON_XX_N,Number of foundries,MFG,establishments,1851:V2T7,1,false,353,signal
+VAR_ITALIAN,Number of persons of Italian origin,ETH,persons,1911:V2T7,1,false,640,signal
+VAR_JAPANESE,Number of persons of Japanese origin,ETH,persons,1911:V2T7,1,false,66,sparse
+VAR_JEWISH,"Persons recorded under the 1911 official census category ""Jewish"" (origin/ethnicity, distinct from the V2T2 religion category ""Jews"").",ETH,persons,1911:V2T7,1,false,553,signal
+VAR_JEWS,Number of Jews,REL,persons,"1911:V2T2,1921:V1T38",2,true,1589,signal
+VAR_LEG_CS_B,Bushels of clover seed produced in the past year,AGR,bushels,1871:V1T1,1,false,55,sparse
+VAR_LEG_VX_B,Bushels of vetches produced in the past year,AGR,bushels,1871:V1T1,1,false,11,sparse
+VAR_LUTHERANS,Number of Lutherans,REL,persons,"1911:V2T2,1921:V1T38",2,true,3411,signal
+VAR_MACH_FI_V,Value of farm implements in dollars,AGR,dollars,1861:V2T11,1,false,1007,signal
+VAR_MACH_FX_N,Number of farming mills,AGR,count,1871:V1T1,1,false,67,sparse
+VAR_MACH_HB_N,Number of hay-making machines,AGR,count,1871:V1T1,1,false,53,sparse
+VAR_MACH_HE_N,Number of hay elevators,AGR,count,1871:V1T1,1,false,30,sparse
+VAR_MACH_HM_N,Number of hay mowing machines,AGR,count,1871:V1T1,1,false,68,sparse
+VAR_MACH_MD_N,Number of mud-digging machines,AGR,count,1871:V1T1,1,false,64,sparse
+VAR_MACH_OTH_N,Number of other machines,AGR,count,1871:V1T1,1,false,48,sparse
+VAR_MACH_PX_N,"Number of pianos, melodeons, and organs",MFG,establishments,1871:V1T1,1,false,35,sparse
+VAR_MACH_SM_N,Number of stamping machines,MFG,establishments,1871:V1T1,1,false,46,sparse
+VAR_MACH_ST_N,Number of steam engines,MFG,establishments,1871:V1T1,1,false,13,sparse
+VAR_MACH_SX_N,Number of sewing machines,MFG,establishments,1871:V1T1,1,false,51,sparse
+VAR_MACH_TX_N,Number of threshing machines,AGR,count,1871:V1T1,1,false,71,sparse
+VAR_MENNONITES,Number of Mennonites,REL,persons,"1911:V2T2,1921:V1T38",2,true,783,signal
+VAR_METHODISTS,Number of Methodists,REL,persons,"1911:V2T2,1921:V1T38",2,true,5551,signal
+VAR_MINE_CU_T,Tons of copper produced by mines in the past year,MFG,tons,1861:V2T11,1,false,3,sparse
+VAR_MINE_CU_V,Value of copper produced by mines in the past year,MFG,dollars,1861:V2T11,1,false,4,sparse
+VAR_MINE_FE_T,Tons of iron produced by mines in the past year,MFG,tons,,0,false,0,undocumented
+VAR_MINE_FE_V,Value of iron produced by mines in the past year,MFG,dollars,,0,false,0,undocumented
+VAR_MORMONS,Number of Mormons (Latter-day Saints),REL,persons,"1911:V2T2,1921:V1T38",2,true,1030,signal
+VAR_MPL_PS_LB,Pounds of maple sugar produced in the past year,AGR,pounds,"1851:V2T6,1861:V2T11",2,true,1625,signal
+VAR_M_DIVORCED,Number of divorced males,POP,persons,1911:V1T2,1,false,326,signal
+VAR_M_LEGAL_SEP,Number of legally separated males,POP,persons,1911:V1T2,1,false,516,signal
+VAR_M_MARRIED,Number of married males,POP,persons,1911:V1T2,1,false,3389,signal
+VAR_M_NOT_GIVEN,Number of males with marital status not given,POP,persons,1911:V1T2,1,false,1237,signal
+VAR_M_SINGLE,Number of single (never-married) males,POP,persons,1911:V1T2,1,false,3391,signal
+VAR_M_WIDOWED,Number of widowed males,POP,persons,1911:V1T2,1,false,3131,signal
+VAR_NEGRO,"Persons recorded under the 1911/1921 official census category ""Negro""; refers to people of African descent. Term is now considered offensive and is preserved here only as the historical source label.",ETH,persons,"1911:V2T7,1921:V1T27",2,true,981,signal
+VAR_OAT_XX_A,Acres of oats,AGR,acres,"1851:V2T6,1861:V2T11,1891:V4T2",3,true,4204,signal
+VAR_OAT_XX_B,Bushels of oats produced in the past year,AGR,bushels,"1851:V2T6,1861:V2T11,1871:V1T1,1881:V3T24,1891:V4T2",5,true,6346,signal
+VAR_ORIG_AT_HU_N,Number of persons originating in Austria or Hungary,ETH,persons,1851:V1T1,1,false,8,sparse
+VAR_ORIG_BI_N,"Number of persons originating in Guernsey, Jersey, or other British islands",ETH,persons,1861:V1T1,1,false,246,signal
+VAR_ORIG_BP_N,Number of persons originating in the British Provinces,ETH,persons,1871:V1T1,1,false,71,sparse
+VAR_ORIG_CH_N,Number of persons originating in Switzerland,ETH,persons,"1851:V1T1,1861:V1T1",2,true,224,signal
+VAR_ORIG_DE_NL_N,Number of persons originating in Germany or Holland,ETH,persons,"1851:V1T1,1861:V1T1",2,true,759,signal
+VAR_ORIG_EI_N,Number of persons originating in the East Indies,ETH,persons,"1851:V1T1,1861:V1T1",2,true,184,signal
+VAR_ORIG_EN_N,Number of persons originating in England,ETH,persons,1871:V1T1,1,false,70,sparse
+VAR_ORIG_ES_PT_N,Number of persons originating in Spain or Portugal,ETH,persons,"1851:V1T1,1861:V1T1",2,true,140,signal
+VAR_ORIG_EW_N,Number of persons originating in England or Wales,ETH,persons,"1851:V1T1,1861:V1T1",2,true,1642,signal
+VAR_ORIG_FR_N,Number of persons originating in France,ETH,persons,"1851:V1T1,1861:V1T1",2,true,652,signal
+VAR_ORIG_GG_N,Number of persons originating in Guernsey,ETH,persons,1851:V1T1,1,false,28,sparse
+VAR_ORIG_IR_N,Number of persons originating in Ireland,ETH,persons,"1851:V1T1,1861:V1T1,1871:V1T1",3,true,1802,signal
+VAR_ORIG_IT_GR_N,Number of persons originating in Italy or Greece,ETH,persons,"1851:V1T1,1861:V1T1",2,true,135,signal
+VAR_ORIG_JI_N,Number of persons originating in Jersey or other British islands,ETH,persons,1851:V1T1,1,false,76,sparse
+VAR_ORIG_NB_N,Number of persons originating in New Brunswick,ETH,persons,"1851:V1T1,1861:V1T1",2,true,673,signal
+VAR_ORIG_NF_N,Number of persons originating in Newfoundland,ETH,persons,"1851:V1T1,1861:V1T1",2,true,228,signal
+VAR_ORIG_NS_PEI_N,Number of persons originating in Nova Scotia or Prince Edward Island,ETH,persons,"1851:V1T1,1861:V1T1",2,true,764,signal
+VAR_ORIG_NX_N,Number of persons whose origin is unknown,ETH,persons,"1851:V1T1,1861:V1T1",2,true,383,signal
+VAR_ORIG_OTH_N,Number of persons originating in all other places,ETH,persons,"1851:V1T1,1861:V1T1,1871:V1T1",3,true,465,signal
+VAR_ORIG_PE_N,Number of persons originating in Prince Edward Island,ETH,persons,1871:V1T1,1,false,71,sparse
+VAR_ORIG_RU_PL_N,Number of persons originating in Russia or Poland,ETH,persons,1861:V1T1,1,false,80,sparse
+VAR_ORIG_RU_PR_PL_N,"Number of persons originating in Russia, Prussia, or Poland",ETH,persons,1851:V1T1,1,false,35,sparse
+VAR_ORIG_SC_N,Number of persons originating in Scotland,ETH,persons,"1851:V1T1,1861:V1T1,1871:V1T1",3,true,1635,signal
+VAR_ORIG_SE_NO_N,Number of persons originating in Sweden or Norway,ETH,persons,"1851:V1T1,1861:V1T1",2,true,169,signal
+VAR_ORIG_US_N,Number of persons originating in the United States,ETH,persons,"1851:V1T1,1861:V1T1",2,true,1500,signal
+VAR_ORIG_WI_N,Number of persons originating in the West Indies,ETH,persons,"1851:V1T1,1861:V1T1",2,true,346,signal
+VAR_OTHER_SECTS,Number of adherents of other sects (residual category in 1921),REL,persons,1921:V1T38,1,false,2550,signal
+VAR_PAGANS,"Persons recorded under the 1911 official census category ""Pagans""; primarily applied to Indigenous adherents of traditional spiritual practices. The label reflects period Christian-normative framing and is preserved as the historical source category.",REL,persons,1911:V2T2,1,false,87,sparse
+VAR_PCT_CAN_READ_AND_WRITE_5YRS_AND_OVER,Percentage of population aged 5 and over who can both read and write,POP,percent,,0,false,0,undocumented
+VAR_PCT_CAN_READ_NOR_WRITE_5YRS_AND_OVER,Percentage of population aged 5 and over who can neither read nor write,POP,percent,,0,false,0,undocumented
+VAR_PCT_CAN_READ_ONLY_5YRS_AND_OVER,Percentage of population aged 5 and over who can read only,POP,percent,,0,false,0,undocumented
+VAR_PEA_BX_A,Bushels of peas and beans produced in the past year,AGR,bushels,1881:V3T24,1,false,1995,signal
+VAR_PEA_XX_A,Acres of peas,AGR,acres,"1851:V2T6,1861:V2T11",2,true,1753,signal
+VAR_PEA_XX_B,Bushels of peas produced in the past year,AGR,bushels,"1851:V2T6,1861:V2T11,1871:V1T1,1891:V4T2",4,true,4038,signal
+VAR_POLISH,Number of persons of Polish origin,ETH,persons,1911:V2T7,1,false,389,signal
+VAR_POP,Population in the previous census (1901 reference column included in 1911 V1T1),POP,persons,1911:V1T1,1,false,2534,signal
+VAR_POP_5YRS_AND_OVER,Population aged 5 years and over,POP,persons,,0,false,0,undocumented
+VAR_POP_AVF_PR,Average size of families,POP,persons,1891:V1T3,1,false,2474,signal
+VAR_POP_BF_N,Number of blind females,POP,persons,"1851:V1T3,1861:V1T5",2,true,539,signal
+VAR_POP_BM_N,Number of blind males,POP,persons,"1851:V1T3,1861:V1T5",2,true,704,signal
+VAR_POP_BX_N,Number of blind persons,POP,persons,1871:V1T1,1,false,34,sparse
+VAR_POP_F,Number of females in the population,POP,persons,"1911:V1T1,1921:V1T16",2,true,8585,signal
+VAR_POP_FDD_N,Number of deaf and dumb females,POP,persons,"1851:V1T3,1861:V1T5",2,true,659,signal
+VAR_POP_FD_N,Number of divorced females,POP,persons,1901:V1T7,1,false,213,signal
+VAR_POP_FL_N,Number of lunatic females,POP,persons,"1851:V1T3,1861:V1T5",2,true,993,signal
+VAR_POP_FMAF_N,Female members of the family who are absent,POP,persons,1851:V1T3,1,false,715,signal
+VAR_POP_FMAM_N,Male members of the family who are present,POP,persons,1851:V1T3,1,false,762,signal
+VAR_POP_FMF_N,Female members of the family who are present,POP,persons,"1851:V1T3,1861:V1T5",2,true,1925,signal
+VAR_POP_FMM_N,Male members of the family who are present,POP,persons,"1851:V1T3,1861:V1T5",2,true,1925,signal
+VAR_POP_FM_N,Number of married females,POP,persons,"1851:V1T3,1861:V1T5,1871:V1T1,1881:V1T1,1891:V1T3,1901:V1T7",6,true,11423,signal
+VAR_POP_FNMF_N,Females present who are not members of the family,POP,persons,"1851:V1T3,1861:V1T5",2,true,1863,signal
+VAR_POP_FNMM_N,Males present who are not members of the family,POP,persons,"1851:V1T3,1861:V1T5",2,true,1878,signal
+VAR_POP_FS_N,Number of single females,POP,persons,"1851:V1T3,1861:V1T5,1901:V1T7",3,true,5124,signal
+VAR_POP_FW_N,Number of widowed females,POP,persons,"1851:V1T3,1861:V1T5,1871:V1T1,1881:V1T1,1891:V1T3,1901:V1T7",6,true,11120,signal
+VAR_POP_FX_N,Number of females,POP,persons,"1851:V1T3,1861:V1T5,1871:V1T1,1881:V1T1,1891:V1T3,1901:V1T7",6,true,11436,signal
+VAR_POP_M,Number of males in the population,POP,persons,"1911:V1T1,1921:V1T16",2,true,8769,signal
+VAR_POP_MDD_N,Number of deaf and dumb males,POP,persons,"1851:V1T3,1861:V1T5",2,true,826,signal
+VAR_POP_MD_N,Number of divorced males,POP,persons,1901:V1T7,1,false,224,signal
+VAR_POP_ML_N,Number of lunatic males,POP,persons,"1851:V1T3,1861:V1T5",2,true,1040,signal
+VAR_POP_MM_N,Number of married males,POP,persons,"1851:V1T3,1861:V1T5,1871:V1T1,1881:V1T1,1891:V1T3,1901:V1T7",6,true,11416,signal
+VAR_POP_MS_N,Number of single males,POP,persons,"1851:V1T3,1861:V1T5,1901:V1T7",3,true,5116,signal
+VAR_POP_MW_N,Number of widowed males,POP,persons,"1851:V1T3,1861:V1T5,1871:V1T1,1881:V1T1,1891:V1T3,1901:V1T7",6,true,11179,signal
+VAR_POP_MX_N,Number of males,POP,persons,"1851:V1T3,1861:V1T5,1871:V1T1,1881:V1T1,1891:V1T3,1901:V1T7",6,true,11442,signal
+VAR_POP_PER_SQ_MI,Population per square mile,POP,persons_per_sq_mi,1911:V1T1,1,false,2376,signal
+VAR_POP_RM_N,Number of persons married in the past year,POP,persons,1871:V1T1,1,false,67,sparse
+VAR_POP_SX_N,Number of persons at sea,POP,persons,"1851:V1T1,1861:V1T1",2,true,326,signal
+VAR_POP_TOT,Total population,POP,persons,"1911:V1T1,1921:V1T16",2,true,8771,signal
+VAR_POP_XDD_N,Number of deaf and dumb persons,POP,persons,1871:V1T1,1,false,33,sparse
+VAR_POP_XF_N,Number of families,POP,persons,"1851:V1T3,1871:V1T1,1881:V1T1,1891:V1T2,1901:V1T7",5,true,10436,signal
+VAR_POP_XI_N,Number of insane persons,POP,persons,1871:V1T1,1,false,51,sparse
+VAR_POP_XM_N,Number of married persons,POP,persons,"1871:V1T1,1881:V1T1,1891:V1T3",3,true,6380,signal
+VAR_POP_XS_N,Number of single persons,POP,persons,1871:V1T1,1,false,71,sparse
+VAR_POP_XW_N,Number of widowed persons,POP,persons,"1871:V1T1,1881:V1T1,1891:V1T3",3,true,6280,signal
+VAR_POP_XX_N,Total population,POP,persons,"1851:V1T3,1861:V1T5,1871:V1T1,1881:V1T1,1891:V1T3,1901:V1T7",6,true,11623,signal
+VAR_POT_XX_A,Acres of potatoes,AGR,acres,"1851:V2T6,1861:V2T11,1881:V3T24,1891:V4T2",4,true,6348,signal
+VAR_POT_XX_B,Bushels of potatoes produced in the past year,AGR,bushels,"1851:V2T6,1861:V2T11,1871:V1T1,1881:V3T24,1891:V4T2",5,true,6441,signal
+VAR_PRESBYTERIANS,Number of Presbyterians,REL,persons,"1911:V2T2,1921:V1T38",2,true,6008,signal
+VAR_PROTESTANTS,Number of Protestants (general / no denomination specified),REL,persons,"1911:V2T2,1921:V1T38",2,true,1496,signal
+VAR_REL_BC_N,Number of Bible Christians,REL,persons,1871:V1T1,1,false,44,sparse
+VAR_REL_BX_N,Number of Baptists,REL,persons,1871:V1T1,1,false,62,sparse
+VAR_REL_CE_N,Number of members of the Church of England,REL,persons,1871:V1T1,1,false,66,sparse
+VAR_REL_KS_N,Number of members of the Kirk of Scotland,REL,persons,1871:V1T1,1,false,60,sparse
+VAR_REL_ME_N,Number of Methodists,REL,persons,1871:V1T1,1,false,64,sparse
+VAR_REL_OTH_N,Number of members of other denominations,REL,persons,1871:V1T1,1,false,45,sparse
+VAR_REL_PP_N,Number of members of the Presbyterian Church of the Lower Provinces,REL,persons,1871:V1T1,1,false,70,sparse
+VAR_REL_QU_N,Number of Quakers,REL,persons,1871:V1T1,1,false,6,sparse
+VAR_REL_RC_N,Number of Roman Catholics,REL,persons,1871:V1T1,1,false,71,sparse
+VAR_REL_UN_N,Number of Universalists,REL,persons,1871:V1T1,1,false,13,sparse
+VAR_ROMAN_CATHOLICS,Number of Roman Catholics,REL,persons,"1911:V2T2,1921:V1T38",2,true,7406,signal
+VAR_ROOT_CX_B,Bushels of carrots produced in the past year,AGR,bushels,"1851:V2T6,1861:V2T11",2,true,1277,signal
+VAR_ROOT_MW_A,Acres of mangel wurtzel,AGR,acres,1861:V2T11,1,false,445,signal
+VAR_ROOT_MW_B,Bushels of mangel wurtzel produced in the past year,AGR,bushels,"1851:V2T6,1861:V2T11",2,true,936,signal
+VAR_ROOT_OTH_B,Bushels of other root crops produced in the past year,AGR,bushels,"1871:V1T1,1881:V3T24",2,true,2078,signal
+VAR_ROOT_TX_A,Acres of turnips,AGR,acres,"1851:V2T6,1861:V2T11,1891:V4T2",3,true,3817,signal
+VAR_ROOT_TX_B,Bushels of turnips produced in the past year,AGR,bushels,"1851:V2T6,1861:V2T11,1871:V1T1,1881:V3T24,1891:V4T2",5,true,6051,signal
+VAR_RUSSIAN,Number of persons of Russian origin,ETH,persons,1911:V2T7,1,false,392,signal
+VAR_RYE_XX_A,Acres of rye,AGR,acres,"1851:V2T6,1861:V2T11",2,true,1389,signal
+VAR_RYE_XX_B,Bushels of rye produced in the past year,AGR,bushels,"1851:V2T6,1861:V2T11,1881:V3T24,1891:V4T2",4,true,3996,signal
+VAR_R_NUM_OF_DWELLINGS,Rural number of dwellings (CD-level),BLD,buildings,,0,false,0,undocumented
+VAR_R_NUM_OF_HOUSEHOLDS,Rural number of households (CD-level),POP,households,,0,false,0,undocumented
+VAR_R_POP_TOT,Rural population (CD-level),POP,persons,,0,false,0,undocumented
+VAR_SALVATION_ARMY,Number of Salvation Army adherents,REL,persons,"1911:V2T2,1921:V1T38",2,true,1597,signal
+VAR_SCANDINAVIAN,Number of persons of Scandinavian origin,ETH,persons,1911:V2T7,1,false,856,signal
+VAR_SHP_WC_LB,Pounds of coarse wool produced on farms in the past year,AGR,pounds,1891:V4T3,1,false,2332,signal
+VAR_SHP_WF_LB,Pounds of fine wool produced on farms in the past year,AGR,pounds,1891:V4T3,1,false,1599,signal
+VAR_SHP_WX_LB,Pounds of wool produced on farms in the past year,AGR,pounds,"1851:V2T6,1861:V2T11",2,true,1756,signal
+VAR_SHP_XS_N,Number of sheep slaughtered or sold,AGR,head,1891:V4T3,1,false,2266,signal
+VAR_SHP_XX_N,Number of sheep,AGR,head,"1851:V2T6,1861:V2T11,1871:V1T1,1891:V4T3",4,true,4279,signal
+VAR_SILO_XX_T,Capacity of silos (tons),AGR,gallons,1891:V2T16,1,false,373,signal
+VAR_STO_XX_V,Value of all livestock,AGR,dollars,1861:V2T11,1,false,1062,signal
+VAR_SWISS,Number of persons of Swiss origin,ETH,persons,1911:V2T7,1,false,464,signal
+VAR_SWN_PX_BL,Barrels of pork produced in the past year,AGR,barrels,"1851:V2T6,1861:V2T11",2,true,1746,signal
+VAR_SWN_XS_N,Number of swine slaughtered or sold,AGR,head,1891:V4T3,1,false,2376,signal
+VAR_SWN_XX_N,Number of swine,AGR,head,"1851:V2T6,1861:V2T11,1871:V1T1,1891:V4T3",4,true,4369,signal
+VAR_TAN_EX_N,Number of employees in tanneries,MFG,persons,1851:V2T7,1,false,422,signal
+VAR_TAN_NR_N,Number of tanneries not reporting,MFG,establishments,1851:V2T7,1,false,434,signal
+VAR_TAN_PX_LB,Pounds of leather produced in tanneries in the past year,MFG,pounds,1871:V1T1,1,false,33,sparse
+VAR_TAN_PX_V,Value of leather produced in tanneries in the past year (pounds sterling),MFG,dollars,1851:V2T7,1,false,417,signal
+VAR_TAN_XC_N,Number of tanneries returning capital,MFG,establishments,1851:V2T7,1,false,440,signal
+VAR_TAN_XR_N,Number of tanneries reporting,MFG,establishments,1851:V2T7,1,false,462,signal
+VAR_TAN_XX_N,Number of tanneries,MFG,establishments,"1851:V2T7,1871:V1T1",2,true,596,signal
+VAR_TOB_XX_LB,Pounds of tobacco produced in the past year,AGR,pounds,"1851:V2T6,1871:V1T1",2,true,451,signal
+VAR_T_NUM_OF_DWELLINGS,Total (rural + urban) number of dwellings (CD-level),BLD,buildings,,0,false,0,undocumented
+VAR_T_NUM_OF_HOUSEHOLDS,Total (rural + urban) number of households (CD-level),POP,households,,0,false,0,undocumented
+VAR_T_POP_TOT,Total (rural + urban) population (CD-level),POP,persons,,0,false,0,undocumented
+VAR_UNSPECIFIED,Number of persons whose religion or origin is unspecified,REL,persons,"1911:V2T7,1921:V1T27",2,true,3167,signal
+VAR_U_NUM_OF_DWELLINGS,Urban number of dwellings (CD-level),BLD,buildings,,0,false,0,undocumented
+VAR_U_NUM_OF_HOUSEHOLDS,Urban number of households (CD-level),POP,households,,0,false,0,undocumented
+VAR_U_POP_TOT,Urban population (CD-level),POP,persons,,0,false,0,undocumented
+VAR_VARIOUS_SECTS,Number of adherents of various sects (residual category in 1911),REL,persons,1911:V2T2,1,false,1287,signal
+VAR_VAX_SN_N,Number of persons neither infected with smallpox nor vaccinated,POP,persons,1871:V1T1,1,false,70,sparse
+VAR_WAG_CT_N,"Number of carts, trucks, and truck-wagons",MFG,establishments,1871:V1T1,1,false,71,sparse
+VAR_WHT_SX_A,Acres of spring wheat,AGR,acres,1861:V2T11,1,false,988,signal
+VAR_WHT_SX_B,Bushels of spring wheat produced in the past year,AGR,bushels,"1861:V2T11,1881:V3T24,1891:V4T2",3,true,5058,signal
+VAR_WHT_WX_A,Acres of winter wheat,AGR,acres,1861:V2T11,1,false,574,signal
+VAR_WHT_WX_B,Bushels of winter wheat produced in the past year,AGR,bushels,"1861:V2T11,1871:V1T1,1881:V3T24,1891:V4T2",4,true,2577,signal
+VAR_WHT_XX_A,Acres of wheat,AGR,acres,"1851:V2T6,1881:V3T24,1891:V4T2",3,true,4930,signal
+VAR_WHT_XX_B,Bushels of wheat produced in the past year,AGR,bushels,"1851:V2T6,1871:V1T1",2,true,870,signal
+VAR_WOOD_EX_N,Number of employees in saw mills,MFG,persons,1851:V2T7,1,false,715,signal
+VAR_WOOD_NR_N,Number of saw mills not reporting,MFG,establishments,1851:V2T7,1,false,635,signal
+VAR_WOOD_PD_LF,Feet of lumber produced daily by saw mills reporting daily production,MFG,feet,1851:V2T7,1,false,310,signal
+VAR_WOOD_PD_N,Number of saw mills reporting daily production,MFG,establishments,1851:V2T7,1,false,318,signal
+VAR_WOOD_PL_LG,Logs produced by saw mills reporting production by number of logs,MFG,establishments,1851:V2T7,1,false,202,signal
+VAR_WOOD_PL_N,Number of saw mills reporting production by number of logs,MFG,establishments,1851:V2T7,1,false,219,signal
+VAR_WOOD_PX_N,Number of saw mills reporting value of annual production or rent,MFG,establishments,1851:V2T7,1,false,512,signal
+VAR_WOOD_PX_V,Value of annual production or rent from saw mills (pounds sterling),MFG,dollars,1851:V2T7,1,false,513,signal
+VAR_WOOD_PY_LF,Feet of lumber produced per year by saw mills reporting annual production,MFG,feet,1851:V2T7,1,false,579,signal
+VAR_WOOD_PY_N,Number of saw mills reporting annual production,MFG,establishments,1851:V2T7,1,false,585,signal
+VAR_WOOD_SL_N,Number of shingle and lath mills,MFG,establishments,1871:V1T1,1,false,48,sparse
+VAR_WOOD_SX_N,Number of saw mills powered by steam,MFG,establishments,1851:V2T7,1,false,541,signal
+VAR_WOOD_WX_N,Number of saw mills powered by water,MFG,establishments,1851:V2T7,1,false,752,signal
+VAR_WOOD_XC_N,Number of saw mills returning capital,MFG,establishments,1851:V2T7,1,false,705,signal
+VAR_WOOD_XC_V,Value of capital returned by saw mills (pounds sterling),MFG,dollars,1851:V2T7,1,false,706,signal
+VAR_WOOD_XP_N,Number of saw mill plants,MFG,establishments,1851:V2T7,1,false,422,signal
+VAR_WOOD_XX_N,Number of saw mills,MFG,establishments,"1851:V2T7,1871:V1T1",2,true,816,signal
+VAR_WOOL_EX_N,Number of employees in woollen factories,MFG,persons,1851:V2T7,1,false,207,signal
+VAR_WOOL_NR_N,Number of woollen factories not reporting,MFG,establishments,1851:V2T7,1,false,106,signal
+VAR_WOOL_PC_YD,Yards of cloth produced in woollen factories in the past year,MFG,yards,1851:V2T7,1,false,198,signal
+VAR_WOOL_PX_V,Value of cloth produced in woollen factories in the past year (pounds sterling),MFG,dollars,1851:V2T7,1,false,198,signal
+VAR_WOOL_XC_N,Number of woollen factories returning capital,MFG,establishments,1851:V2T7,1,false,254,signal
+VAR_WOOL_XR_N,Number of woollen factories reporting,MFG,establishments,1851:V2T7,1,false,279,signal
+VAR_WOOL_XX_N,Number of woollen factories,MFG,establishments,1851:V2T7,1,false,293,signal

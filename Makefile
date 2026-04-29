@@ -111,6 +111,16 @@ neo4j_cidoc_crm_v2/p132_spatiotemporally_overlaps_with_csd.csv: \
 		year_links_output/SUMMARY_ALL_YEARS.md
 	$(PYTHON) scripts/build_p132_overlaps.py --out neo4j_cidoc_crm_v2
 
+# E41 appellations (canonical names + OCR variants tied to persistent places).
+neo4j_cidoc_crm_v2/e41_appellations.csv: \
+		scripts/build_e41_appellations_v2.py \
+		canonical_names_final.csv \
+		persistent_places_output/persistent_place_registry.csv
+	$(PYTHON) scripts/build_e41_appellations_v2.py \
+		--canonical-names canonical_names_final.csv \
+		--persistent-places persistent_places_output \
+		--out neo4j_cidoc_crm_v2
+
 # ---- Stage 4: Wikidata grounding → URI sidecar -----------------------------
 
 neo4j_cidoc_crm_v2/e53_place_uri.csv: \
@@ -152,6 +162,7 @@ rag_site/index.html: \
 		neo4j_cidoc_crm_v2/e53_place_uri.csv \
 		neo4j_cidoc_crm_v2/p10_csd_within_cd_presence_1901.csv \
 		neo4j_cidoc_crm_v2/p132_spatiotemporally_overlaps_with_csd.csv \
+		neo4j_cidoc_crm_v2/e41_appellations.csv \
 		data/lincs_person_csd_links.csv
 	$(PYTHON) scripts/generate_rag_pages.py --all
 

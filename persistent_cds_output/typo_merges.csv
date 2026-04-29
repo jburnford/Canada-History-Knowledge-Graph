@@ -1,0 +1,4 @@
+loser_chain_id,loser_canonical,winner_chain_id,winner_canonical,edit_distance,province,loser_years,winner_years
+CD_NS_Cap_Breton,Cap Breton,CD_NS_Cape_Breton,Cape Breton,1,NS,1891,1871;1881;1891;1901;1921
+CD_ON_Renfew,Renfew,CD_ON_Renfrew,Renfrew,1,ON,1861,1851;1861;1921
+CD_QC_Hochalaga,Hochalaga,CD_QC_Hochelaga,Hochelaga,1,QC,1891,1861;1871;1881;1891;1901;1911

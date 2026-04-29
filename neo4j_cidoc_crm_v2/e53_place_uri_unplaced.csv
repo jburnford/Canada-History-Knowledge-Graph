@@ -1,13 +1,13 @@
 csd_id,status,csd_name,wikidata_qid,wikidata_label
-NS004017,mint_uri,Milford,,
-ON121001,mint_uri,Camden,,
-ON128014,mint_uri,Williams E,,
+NB025009,matched,Shippigan,Q3365922,Shippegan Parish
+NB035011,matched,"Shediac, T-V",Q1009713,Shediac
+ON105004,mint_uri,Grower N,,
+ON106008,matched,"Grand Valley, VL",Q5328891,Grand Valley
+ON109007,matched,Yarmouth,Q102473224,Yarmouth
+ON113007,mint_uri,"Cardinal, VL",,
+ON123003,mint_uri,Burgess N,,
+ON123006,matched,Drummond,Q115261318,Drummond
+ON136006,matched,"Brampton, T-V",Q44198,Brampton
 QC040018,matched,St. Séverin,Q112912786,Saint-Séverin
-QC040026,mint_uri,"St. Georges E., VL",,
-QC041002,matched,St. Clément,Q112912016,Saint-Clément
-QC046004,matched,St. Basile le Grand,Q112911926,Saint-Basile-le-Grand
-QC052005,matched,St. Colomban,Q112912026,Saint-Colomban
-QC062037,matched,Notre Dame de Bonsecours,Q3344580,Notre-Dame-de-Bonsecours
-QC068025,matched,"Ste. Agathe, VL",Q112912885,Sainte-Agathe
-QC076014,mint_uri,"Outremont, C",,
-QC078011,matched,St. Grégoire le Grand,Q112912263,Saint-Grégoire-le-Grand
+QC049007,matched,Ste. Philomène,Q112913095,Sainte-Philomène
+QC096009,matched,St. Janvier,Q112912323,Saint-Janvier

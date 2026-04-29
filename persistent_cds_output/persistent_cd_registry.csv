@@ -106,7 +106,6 @@ CD_NL_Labrador,Labrador,NL,CD_NL_Labrador,1921,1891;1901;1911;1921,4
 CD_NL_Newfoundland,Newfoundland,NL,CD_NL_Newfoundland,1921,1851;1861;1871;1881;1891;1901;1911;1921,8
 CD_NS_Annapolis,Annapolis,NS,CD_NS_Annapolis,1921,1871;1881;1891;1901;1911;1921,6
 CD_NS_Antigonish,Antigonish,NS,CD_NS_Antigonish,1921,1871;1881;1891;1901;1911;1921,6
-CD_NS_Cap_Breton,Cap Breton,NS,CD_NS_Cap_Breton,1891,1891,1
 CD_NS_Cape_Breton,Cape Breton,NS,CD_NS_Cape_Breton,1901,1871;1881;1891;1901;1921,5
 CD_NS_Cape_Breton_N._&_Victoria,Cape Breton N. & Victoria,NS,CD_NS_Cape_Breton_N._&_Victoria,1911,1911,1
 CD_NS_Cape_Breton_South,Cape Breton South,NS,CD_NS_Cape_Breton_S.,1911,1911,1
@@ -283,7 +282,6 @@ CD_ON_Peterborough_West,Peterborough West,ON,CD_ON_Peterborough_W-O,1911,1871;18
 CD_ON_Prescott,Prescott,ON,CD_ON_Prescott,1921,1851;1861;1871;1881;1891;1901;1911;1921,8
 CD_ON_Prince_Edward,Prince Edward,ON,CD_ON_Prince_Edward,1921,1851;1861;1871;1881;1891;1901;1911;1921,8
 CD_ON_Rainy_River,Rainy River,ON,CD_ON_Rainy_River,1921,1921,1
-CD_ON_Renfew,Renfew,ON,CD_ON_Renfew,1861,1861,1
 CD_ON_Renfrew,Renfrew,ON,CD_ON_Renfrew,1861,1851;1861;1921,3
 CD_ON_Renfrew_North,Renfrew North,ON,CD_ON_Renfrew_N,1911,1871;1881;1891;1901;1911,5
 CD_ON_Renfrew_South,Renfrew South,ON,CD_ON_Renfrew_S,1911,1871;1881;1891;1901;1911,5
@@ -368,11 +366,10 @@ CD_QC_Champlain_1891_1891,Champlain,QC,CD_QC_Champlain,1891,1891,1
 CD_QC_Champlain_North,Champlain North,QC,CD_QC_Champlain_Nord,1871,1871,1
 CD_QC_Champlain_South,Champlain South,QC,CD_QC_Champlain_Sud,1871,1871,1
 CD_QC_Charlevoix,Charlevoix,QC,CD_QC_Charlevoix,1921,1861;1871;1881;1891;1901;1911;1921,7
-CD_QC_Chateauguay,Chateauguay,QC,CD_QC_Chateauguay,1901,1861;1871;1881;1891;1901,5
+CD_QC_Chateauguay,Chateauguay,QC,CD_QC_Châteauguay,1921,1861;1871;1881;1891;1901;1911;1921,7
 CD_QC_Chicoutimi,Chicoutimi,QC,CD_QC_Chicoutimi,1871,1861;1871,2
 CD_QC_Chicoutimi_&_Saguenay,Chicoutimi & Saguenay,QC,CD_QC_Chicoutimi_&_Saguenay,1911,1881;1891;1901;1911,4
 CD_QC_Chicoutimi_1921,Chicoutimi,QC,CD_QC_Chicoutimi,1921,1921,1
-CD_QC_Châteauguay,Châteauguay,QC,CD_QC_Châteauguay,1921,1911;1921,2
 CD_QC_City_of_Montreal,City of Montreal,QC,CD_QC_City_of_Montreal,1861,1851;1861,2
 CD_QC_City_of_Quebec,City of Quebec,QC,CD_QC_City_of_Quebec,1861,1851;1861,2
 CD_QC_City_of_Three_Rivers,City of Three Rivers,QC,CD_QC_City_of_Three_Rivers,1861,1861,1
@@ -389,7 +386,6 @@ CD_QC_Gaspé,Gaspé,QC,CD_QC_Gaspé,1861,1851;1861;1881;1891;1901;1911;1921,7
 CD_QC_Gaspé_Centre,Gaspé Centre,QC,CD_QC_Gaspé_Centre,1871,1871,1
 CD_QC_Gaspé_South,Gaspé South,QC,CD_QC_Gaspé_Sud,1871,1871,1
 CD_QC_Gaspé_West,Gaspé West,QC,CD_QC_Gaspé_Ouest,1871,1871,1
-CD_QC_Hochalaga,Hochalaga,QC,CD_QC_Hochalaga,1891,1891,1
 CD_QC_Hochelaga,Hochelaga,QC,CD_QC_Hochelaga,1911,1861;1871;1881;1891;1901;1911,6
 CD_QC_Hull,Hull,QC,CD_QC_Hull,1921,1921,1
 CD_QC_Huntingdon,Huntingdon,QC,CD_QC_Huntingdon,1861,1851;1861;1881;1891;1901;1911;1921,7
@@ -400,13 +396,11 @@ CD_QC_Iberville_1921,Iberville,QC,CD_QC_Iberville,1921,1921,1
 CD_QC_Isles_de_la_Magdeleine,Isles de la Magdeleine,QC,CD_QC_Isles_de_la_Magdeleine,1871,1871,1
 CD_QC_Jacques-Cartier,Jacques-Cartier,QC,CD_QC_Jacques-Cartier_,1891,1891,1
 CD_QC_Jacques-Cartier_1891,Jacques-Cartier,QC,CD_QC_Jacques-Cartier,1891,1891,1
-CD_QC_Jacques-Cartier_1901,Jacques-Cartier,QC,CD_QC_Jacques-Cartier,1911,1901;1911,2
-CD_QC_Jacques_Cartier,Jacques Cartier,QC,CD_QC_Jacques-Cartier,1881,1861;1871;1881,3
+CD_QC_Jacques_Cartier,Jacques Cartier,QC,CD_QC_Jacques-Cartier,1881,1861;1871;1881;1901;1911,5
 CD_QC_Joliette,Joliette,QC,CD_QC_Joliette,1921,1861;1871;1881;1891;1901;1911;1921,7
 CD_QC_Kamouraska,Kamouraska,QC,CD_QC_Kamouraska,1921,1851;1861;1871;1881;1891;1901;1911;1921,8
-CD_QC_L'Assomption,L'Assomption,QC,CD_QC_L’Assomption,1901,1861;1871;1881;1891;1901,5
-CD_QC_L'Assomption_1911,L'Assomption,QC,CD_QC_L'Assomption,1921,1911;1921,2
-CD_QC_L'Islet,L'Islet,QC,CD_QC_L'IsIet,1921,1861;1871;1881;1891;1901;1911;1921,7
+CD_QC_L'Assomption,L'Assomption,QC,CD_QC_L'Assomption,1921,1861;1871;1881;1891;1901;1911;1921,7
+CD_QC_L'Islet,L'Islet,QC,CD_QC_L'IsIet,1921,1851;1861;1871;1881;1891;1901;1911;1921,8
 CD_QC_Labelle,Labelle,QC,CD_QC_Labelle,1921,1901;1911;1921,3
 CD_QC_Labrador,Labrador,QC,CD_QC_Labrador,1871,1871,1
 CD_QC_Lac_St._Jean,Lac St. Jean,QC,CD_QC_Lac_St._Jean,1921,1921,1
@@ -415,16 +409,14 @@ CD_QC_Laprairie_&_Napierville,Laprairie & Napierville,QC,CD_QC_Laprairie_&_Napie
 CD_QC_Laprairie_1921,Laprairie,QC,CD_QC_Laprairie,1921,1921,1
 CD_QC_Laval,Laval,QC,CD_QC_Laval,1911,1861;1871;1881;1891;1901;1911,6
 CD_QC_Leinster,Leinster,QC,CD_QC_Leinster,1851,1851,1
-CD_QC_Lotbiniere,Lotbiniere,QC,CD_QC_Lotbiniere,1871,1851;1861;1871,3
-CD_QC_Lotbinière,Lotbinière,QC,CD_QC_Lotbinière,1921,1881;1891;1901;1911;1921,5
+CD_QC_Lotbinière,Lotbinière,QC,CD_QC_Lotbinière,1921,1851;1861;1871;1881;1891;1901;1911;1921,8
 CD_QC_Lévis,Lévis,QC,CD_QC_Lévis,1861,1861;1881;1891;1901;1911;1921,6
 CD_QC_Lévis_(Comté),Lévis (Comté),QC,CD_QC_Lévis_(Comté),1871,1871,1
 CD_QC_Lévis_(Ville),Lévis (Ville),QC,CD_QC_Lévis_(Ville),1871,1871,1
-CD_QC_L’Islet,L’Islet,QC,CD_QC_L’Islet,1851,1851,1
 CD_QC_Maisonneuve,Maisonneuve,QC,CD_QC_Maisonneuve,1911,1901;1911,2
-CD_QC_Maskinonge,Maskinonge,QC,CD_QC_Maskinonge,1871,1861;1871,2
-CD_QC_Maskinongé,Maskinongé,QC,CD_QC_Maskinongé,1921,1881;1891;1901;1911;1921,5
+CD_QC_Maskinongé,Maskinongé,QC,CD_QC_Maskinongé,1921,1861;1871;1881;1891;1901;1911;1921,7
 CD_QC_Matane,Matane,QC,CD_QC_Matane,1921,1921,1
+CD_QC_Megantic,Megantic,QC,CD_QC_Megantic,1851,1851,1
 CD_QC_Missisquoi,Missisquoi,QC,CD_QC_Missisquoi,1921,1851;1861;1871;1881;1891;1901;1911;1921,8
 CD_QC_Montcalm,Montcalm,QC,CD_QC_Montcalm,1921,1861;1871;1881;1891;1901;1911;1921,7
 CD_QC_Montmagny,Montmagny,QC,CD_QC_Montmagny,1921,1861;1871;1881;1891;1901;1911;1921,7
@@ -440,7 +432,7 @@ CD_QC_Montréal,Montréal,QC,CD_QC_Montréal,1851,1851,1
 "CD_QC_Montréal,_Ste._Marie","Montréal, Ste. Marie",QC,"CD_QC_Montréal,_Ste._Marie",1911,1901;1911,2
 CD_QC_Montréal_&_Jésus_Islands—Iles,Montréal & Jésus Islands—Iles,QC,CD_QC_Montréal_&_Jésus_Islands—Iles,1921,1921,1
 CD_QC_Montréal_1881,Montréal,QC,CD_QC_Montréal,1901,1881;1891;1901,3
-CD_QC_Mégantic,Mégantic,QC,CD_QC_Mégantic,1921,1851;1861;1871;1881;1891;1901;1911;1921,8
+CD_QC_Mégantic,Mégantic,QC,CD_QC_Mégantic,1921,1861;1871;1881;1891;1901;1911;1921,7
 CD_QC_Mégantic_1861,Mégantic,QC,CD_QC_Mégantic,1861,1861,1
 CD_QC_Napierville,Napierville,QC,CD_QC_Napierville,1891,1861;1871;1881;1891,4
 CD_QC_Napierville_1921,Napierville,QC,CD_QC_Napierville,1921,1921,1
@@ -487,9 +479,8 @@ CD_QC_St._Maurice_1921,St. Maurice,QC,CD_QC_St._Maurice,1921,1921,1
 CD_QC_Stanstead,Stanstead,QC,CD_QC_Stanstead,1921,1851;1861;1871;1881;1891;1901;1911;1921,8
 CD_QC_Temiscouata,Temiscouata,QC,CD_QC_Témiscouata,1921,1861;1871;1881;1891;1901;1911;1921,7
 CD_QC_Terrebonne,Terrebonne,QC,CD_QC_Terrebonne,1921,1851;1861;1871;1881;1891;1901;1911;1921,8
-CD_QC_Trois-Rivières,Trois-Rivières,QC,CD_QC_Trois-Rivières,1891,1881;1891,2
+CD_QC_Trois-Rivières,Trois-Rivières,QC,CD_QC_Trois-Rivières,1891,1871;1881;1891,3
 CD_QC_Trois-Rivières_&_St._Maurice,Trois-Rivières & St. Maurice,QC,CD_QC_Trois-Rivières_&_St._Maurice,1911,1881;1891;1901;1911,4
-CD_QC_Trois_Rivieres,Trois Rivieres,QC,CD_QC_Trois_Rivieres,1871,1871,1
 CD_QC_Témiscamingue,Témiscamingue,QC,CD_QC_Témiscamingue,1921,1921,1
 "CD_QC_Unorganized_Districts_-_Abitibi,_Ashuanipi,_Mistassini","Unorganized Districts - Abitibi, Ashuanipi, Mistassini",QC,"CD_QC_Unorganized_Districts_-_Abitibi,_Ashuanipi,_Mistassini",1901,1901,1
 CD_QC_Unorganized_parts_-_Parties_non_organisées,Unorganized parts - Parties non organisées,QC,CD_QC_Unorganized_parts_-_Parties_non_organisées,1911,1911,1

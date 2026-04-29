@@ -30,6 +30,7 @@ Thumbs.db
 # ---- User-local config + scratch ------------------------------------------
 config.local.toml
 sandbox/
+.claude/
 
 # ---- Source data (large; lives at config.data_root, not in repo) ----------
 *.zip
