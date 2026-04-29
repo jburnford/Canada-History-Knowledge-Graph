@@ -157,12 +157,24 @@ data/lincs_person_csd_links.csv: \
 
 # ---- Stage 6: Site render --------------------------------------------------
 
+# Kuzu / Ladybug pilot DB — generate_rag_pages.py reads from this. Defaults
+# to all provinces (export_kuzu_pilot.py's --provinces default = all Canada).
+# The directory name `on_kuzu` is historical; the DB now contains every
+# province. Override via export_kuzu_pilot.py --provinces if needed.
+pilot/on_kuzu/nodes/place.csv: \
+		scripts/export_kuzu_pilot.py \
+		neo4j_cidoc_crm_v2/e53_place_uri.csv \
+		neo4j_cidoc_crm_v2/p10_csd_within_cd_presence_1901.csv \
+		neo4j_cidoc_crm_v2/e41_appellations.csv
+	$(PYTHON) scripts/export_kuzu_pilot.py
+
 rag_site/index.html: \
 		scripts/generate_rag_pages.py \
 		neo4j_cidoc_crm_v2/e53_place_uri.csv \
 		neo4j_cidoc_crm_v2/p10_csd_within_cd_presence_1901.csv \
 		neo4j_cidoc_crm_v2/p132_spatiotemporally_overlaps_with_csd.csv \
 		neo4j_cidoc_crm_v2/e41_appellations.csv \
+		pilot/on_kuzu/nodes/place.csv \
 		data/lincs_person_csd_links.csv
 	$(PYTHON) scripts/generate_rag_pages.py --all
 	$(PYTHON) scripts/emit_facts_jsonl.py --out rag_site

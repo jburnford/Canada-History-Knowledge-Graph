@@ -68,11 +68,15 @@ def load_persistent_place_mapping(places_dir: Path) -> Tuple[dict, pd.DataFrame]
 
 
 def load_year_layer(gdb_path: str, year: int) -> gpd.GeoDataFrame:
-    """Load CSD layer for a specific year from FileGDB."""
-    if year == 1911:
-        layer_name = f"CANADA_{year}_CSD_V2T2"
-    else:
-        layer_name = f"CANADA_{year}_CSD"
+    """Load CSD layer for a specific year from FileGDB.
+
+    1911 has three CSD layers in the GDB: the base (CANADA_1911_CSD, with
+    ward-level granularity — e.g. Toronto Centre has 4 ward-quartier rows),
+    V1T1, and V2T2 (which dissolves wards into the parent electoral district
+    to match V2T2's published-table aggregation). The base layer is the
+    correct one for the persistent-place pipeline; V2T2 hid Toronto's wards
+    and produced 1-CSD CD pages on the rendered site (#1-csd-toronto bug)."""
+    layer_name = f"CANADA_{year}_CSD"
     print(f"Loading {layer_name}...", file=sys.stderr)
 
     gdf = gpd.read_file(gdb_path, layer=layer_name)

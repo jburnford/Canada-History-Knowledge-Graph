@@ -23,12 +23,16 @@ from typing import Tuple, List, Dict
 
 
 def load_year_layer(gdb_path: str, year: int) -> gpd.GeoDataFrame:
-    """Load CSD layer for a specific year from FileGDB."""
-    # Use V2T2 variant for 1911 (aligns with population data)
-    if year == 1911:
-        layer_name = f"CANADA_{year}_CSD_V2T2"
-    else:
-        layer_name = f"CANADA_{year}_CSD"
+    """Load CSD layer for a specific year from FileGDB.
+
+    The 1911 GDB exposes three CSD layers: the base (CANADA_1911_CSD, with
+    ward-level granularity), V1T1, and V2T2 (which dissolves wards into the
+    parent electoral district). We use the base layer everywhere — V2T2's
+    dissolved aggregation hid Toronto's ward-level CSDs and surfaced as the
+    "Toronto Centre 1911 has 1 CSD" bug. Trade-off: V2T2 religion-table
+    measurements published at electoral-district level no longer link cleanly
+    to ward-level CSDs; that's documented in DATA_QUALITY_TODOS.md."""
+    layer_name = f"CANADA_{year}_CSD"
     print(f"Loading {layer_name}...", file=sys.stderr)
 
     gdf = gpd.read_file(gdb_path, layer=layer_name)

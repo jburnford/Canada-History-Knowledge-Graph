@@ -81,11 +81,11 @@ def load_gdb_cd_layer(gdb_path: str, year: int) -> gpd.GeoDataFrame:
     """
     print(f"  Loading GDB layer for {year}...", file=sys.stderr)
 
-    # Load CSD layer (use V2T2 for 1911)
-    if year == 1911:
-        layer_name = f'CANADA_{year}_CSD_V2T2'
-    else:
-        layer_name = f'CANADA_{year}_CSD'
+    # Use the base CSD layer for every year. The 1911 GDB also exposes
+    # CANADA_1911_CSD_V1T1 and CANADA_1911_CSD_V2T2 dissolved variants;
+    # V2T2 hides Toronto's ward-level CSDs (collapses 18 rows to 5) and
+    # surfaced as the "Toronto Centre 1911 has 1 CSD" bug on the site.
+    layer_name = f'CANADA_{year}_CSD'
     gdf = gpd.read_file(gdb_path, layer=layer_name)
 
     # Standardize column names (columns have year suffixes like Name_CD_1851)
@@ -308,11 +308,8 @@ def process_year(gdb_path: str, year: int, out_dir: Path,
     cd_gdf = apply_chain_mapping(cd_gdf, year, chain_map)
     print(f"  Post-chaining: {len(cd_gdf)} unique CD chains for {year}", file=sys.stderr)
 
-    # Also load CSD layer for P10 relationships (use V2T2 for 1911)
-    if year == 1911:
-        layer_name = f'CANADA_{year}_CSD_V2T2'
-    else:
-        layer_name = f'CANADA_{year}_CSD'
+    # Base CSD layer (no year-specific dissolved variants — see load_gdb_cd_layer above).
+    layer_name = f'CANADA_{year}_CSD'
     csd_gdf = gpd.read_file(gdb_path, layer=layer_name)
 
     # Standardize CSD column names (columns have year suffixes like Name_CD_1851)
