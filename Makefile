@@ -165,6 +165,7 @@ rag_site/index.html: \
 		neo4j_cidoc_crm_v2/e41_appellations.csv \
 		data/lincs_person_csd_links.csv
 	$(PYTHON) scripts/generate_rag_pages.py --all
+	$(PYTHON) scripts/emit_facts_jsonl.py --out rag_site
 
 # ---- Deploy -----------------------------------------------------------------
 
