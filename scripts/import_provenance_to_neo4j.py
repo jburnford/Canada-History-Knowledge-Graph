@@ -9,7 +9,7 @@ import pandas as pd
 NEO4J_URI = "bolt://localhost:7690"
 NEO4J_USER = "neo4j"
 NEO4J_PASSWORD = "canadacensus123"
-DATA_DIR = Path("/home/jic823/GraphRAG_test/neo4j_provenance")
+DATA_DIR = Path(__file__).resolve().parents[1] / "neo4j_provenance"
 
 def import_provenance():
     """Import provenance metadata to Neo4j."""

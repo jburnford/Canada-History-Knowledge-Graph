@@ -10,7 +10,7 @@ import sys
 NEO4J_URI = "bolt://localhost:7690"
 NEO4J_USER = "neo4j"
 NEO4J_PASSWORD = "canadacensus123"
-DATA_DIR = Path("/home/jic823/GraphRAG_test/neo4j_cidoc_crm")
+DATA_DIR = Path(__file__).resolve().parents[1] / "neo4j_cidoc_crm_v2"
 
 def import_1921_data():
     """Import 1921 data to Neo4j."""

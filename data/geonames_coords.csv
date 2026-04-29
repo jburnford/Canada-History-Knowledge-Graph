@@ -1,0 +1,2373 @@
+id,lat,lon,name,country,feature_class,source
+174982,40.250000,45.000000,Armenia,AM,A,geonames_api
+255683,38.246200,21.735080,Pátrai,GR,P,geonames_api
+272103,33.843889,35.907222,Zahlé,,,lincs_inline
+298795,39.000000,35.000000,Türkiye,TR,A,geonames_api
+350155,20.267350,38.534550,Red Sea,,H,geonames_api
+390903,39.000000,22.000000,Greece,GR,A,geonames_api
+498817,59.938630,30.314130,St Petersburg,RU,P,geonames_api
+587116,40.500000,47.500000,Azerbaijan,AZ,A,geonames_api
+597427,55.416670,24.000000,Lithuania,LT,A,geonames_api
+617790,47.250000,28.583330,Moldova,MD,A,geonames_api
+618569,47.000000,28.500000,Bessarabia,MD,L,geonames_api
+621380,53.614000,28.702500,Staryye Lyady,BY,P,geonames_api
+630336,53.000000,28.000000,Belarus,BY,A,geonames_api
+630468,53.146360,29.205520,Babruysk,BY,P,geonames_api
+650224,62.892380,27.677030,Kuopio,FI,P,geonames_api
+660013,64.000000,26.000000,Finland,FI,A,geonames_api
+687699,47.839720,35.140570,Zaporizhzhia,UA,A,geonames_api
+689067,51.000000,26.000000,Volhynia,UA,L,geonames_api
+690791,49.000000,32.000000,Ukraine,UA,A,geonames_api
+693301,50.474520,24.280880,Sokal,UA,P,geonames_api
+694422,44.555250,33.538510,Sebastopol City,UA,A,geonames_api
+701822,47.095140,37.541310,Mariupol,UA,P,geonames_api
+705389,48.559444,25.077500,Piadyky,,,lincs_inline
+705735,48.438670,25.761110,Kitsman,UA,P,geonames_api
+707099,49.023980,24.372060,Kalush,UA,P,geonames_api
+712264,48.404480,24.854220,Nyzhnii Bereziv,UA,P,geonames_api
+712930,44.511180,33.599420,Balaklava,UA,P,geonames_api
+719819,47.000000,20.000000,Hungary,HU,A,geonames_api
+756135,52.229770,21.011780,Warsaw,PL,P,geonames_api
+757718,54.111750,22.930870,Suwałki,PL,P,geonames_api
+798544,52.000000,20.000000,Poland,PL,A,geonames_api
+938753,-27.171790,26.126990,Witpoort,ZA,P,geonames_api
+953987,-29.000000,24.000000,South Africa,ZA,A,geonames_api
+964420,-33.961090,25.614940,Port Elizabeth,ZA,P,geonames_api
+1168579,30.000000,70.000000,Pakistan,PK,A,geonames_api
+1253993,11.413400,76.695210,Ootacamund,IN,P,geonames_api
+1257845,23.838770,78.738740,Saugor,IN,P,geonames_api
+1263214,28.980020,77.706360,Meerut,IN,P,geonames_api
+1264763,31.718680,74.633040,Lopoke,IN,P,geonames_api
+1269395,19.841020,75.886360,Jālna,IN,P,geonames_api
+1269750,22.000000,79.000000,India,IN,A,geonames_api
+1272832,32.220060,76.320130,Dharamsala,IN,P,geonames_api
+1275004,22.562630,88.363040,Kolkata,IN,P,geonames_api
+1275339,19.072830,72.882610,Mumbai,IN,P,geonames_api
+1277333,12.971940,77.593690,Bengaluru,IN,P,geonames_api
+1279228,19.094570,74.738430,Ahilyanagar,IN,P,geonames_api
+1279259,27.183330,78.016670,Agra,IN,P,geonames_api
+1667982,25.171960,121.442900,Danshui,TW,P,geonames_api
+1799000,22.935720,113.355240,panyu,CN,A,geonames_api
+1807227,39.045150,114.747460,Huangshikou,CN,P,geonames_api
+1809935,23.500000,113.250000,Guangdong,CN,A,geonames_api
+1814991,35.000000,105.000000,China,CN,A,geonames_api
+1850147,35.689500,139.691710,Tokyo,JP,P,geonames_api
+1861060,35.685360,139.753090,Japan,JP,A,geonames_api
+1862415,34.400000,132.450000,Hiroshima,JP,P,geonames_api
+1880251,1.366670,103.800000,Singapore,SG,A,geonames_api
+2017370,60.000000,100.000000,Russia,RU,A,geonames_api
+2061327,-30.000000,135.000000,South Australia,AU,A,geonames_api
+2077456,-25.000000,135.000000,Australia,AU,A,geonames_api
+2112319,35.897670,140.499430,Katori-shi,JP,P,geonames_api
+2137075,-18.800000,169.083330,Erromango Island,VU,T,geonames_api
+2147714,-33.867850,151.207320,Sydney,AU,P,geonames_api
+2152274,-20.000000,145.000000,Queensland,AU,A,geonames_api
+2165798,-38.147110,144.360690,Geelong,AU,P,geonames_api
+2174003,-27.467940,153.028090,Brisbane,AU,P,geonames_api
+2179985,-35.983330,174.450000,Waipu,NZ,P,geonames_api
+2182437,-41.383330,173.083330,Spring Grove,NZ,P,geonames_api
+2186224,-42.000000,174.000000,New Zealand,NZ,A,geonames_api
+2306104,5.556020,-0.196900,Accra,GH,P,geonames_api
+2409306,8.487140,-13.235600,Freetown,SL,P,geonames_api
+2411585,36.144740,-5.352570,Gibraltar,GI,P,geonames_api
+2464470,36.818970,10.165790,Tunis,TN,P,geonames_api
+2510769,40.000000,-4.000000,Spain,ES,A,geonames_api
+2514301,39.888530,4.265830,Maó,ES,P,geonames_api
+2524907,39.298900,16.253070,Cosenza,IT,P,geonames_api
+2562772,35.881820,14.449080,Malta,MT,T,geonames_api
+2623032,56.000000,10.000000,Denmark,DK,A,geonames_api
+2625287,65.538960,-19.471550,Víðimýri,IS,S,geonames_api
+2625830,64.510100,-14.512780,Þvottá,IS,S,geonames_api
+2627068,65.500000,-19.250000,Skagafjarðarsýsla,IS,A,geonames_api
+2629492,64.181050,-15.913910,Kálfafellsstaður,IS,S,geonames_api
+2629691,65.000000,-18.000000,Iceland,IS,A,geonames_api
+2630646,66.093220,-17.348280,Héðinshöfði,IS,T,geonames_api
+2633397,53.864370,-1.687430,Yeadon,GB,P,geonames_api
+2633521,50.817950,-0.375380,Worthing,GB,P,geonames_api
+2633560,52.166670,-2.166670,Worcestershire,GB,A,geonames_api
+2633643,56.666670,-3.466670,Woodhill House,GB,S,geonames_api
+2633678,51.792800,-2.765980,Wonastow,GB,P,geonames_api
+2633707,51.285270,-0.033720,Woldingham,GB,P,geonames_api
+2633868,51.250000,-1.916670,Wiltshire,GB,A,geonames_api
+2633939,50.679480,-1.287640,Isle of Wight,GB,T,geonames_api
+2633982,58.439060,-3.094240,Wick,GB,P,geonames_api
+2634135,54.487740,-0.614980,Whitby,GB,P,geonames_api
+2634341,51.497500,-0.135700,City of Westminster,GB,P,geonames_api
+2634424,57.683330,-5.000000,Wester Ross,GB,L,geonames_api
+2634491,52.518680,-1.994500,West Bromwich,GB,P,geonames_api
+2634614,51.856030,-0.819510,Weedon,GB,P,geonames_api
+2634667,58.472620,-3.305890,Watten,GB,P,geonames_api
+2634725,52.283330,-1.583330,Warwick,GB,P,geonames_api
+2634739,53.392540,-2.580240,Warrington,GB,P,geonames_api
+2634780,51.033330,-2.100000,Wardour Castle,GB,S,geonames_api
+2634865,60.228740,-1.563130,Walls,GB,P,geonames_api
+2634895,52.500000,-3.500000,Wales,GB,A,geonames_api
+2635043,52.898380,-1.864880,Uttoxeter,GB,P,geonames_api
+2635113,51.415050,-0.092700,Upper Norwood,GB,P,geonames_api
+2635140,58.350000,-3.250000,Upper Camster,GB,P,geonames_api
+2635167,54.758440,-2.695310,United Kingdom,GB,A,geonames_api
+2635259,54.583330,-7.000000,County Tyrone,GB,A,geonames_api
+2635329,57.538400,-2.459320,Turriff,GB,P,geonames_api
+2635340,50.358510,-4.117700,Turnchapel,GB,P,geonames_api
+2635412,50.265260,-5.054360,Truro,GB,P,geonames_api
+2635427,51.318890,-2.208610,Trowbridge,GB,P,geonames_api
+2635563,55.944390,-2.954120,Tranent,GB,P,geonames_api
+2635592,57.203430,-2.929690,Towie,GB,P,geonames_api
+2635608,51.603730,-0.067940,Tottenham,GB,P,geonames_api
+2635650,50.461980,-3.525220,Torquay,GB,P,geonames_api
+2635724,55.850000,-4.183330,Tollcross,GB,P,geonames_api
+2635759,52.431110,1.189530,Tivetshall St Margaret,GB,P,geonames_api
+2635781,56.494340,-6.910060,Tiree,GB,T,geonames_api
+2635788,55.117930,-3.563470,Tinwald,GB,P,geonames_api
+2635881,58.592710,-3.525940,Thurso,GB,P,geonames_api
+2635981,55.233330,-3.766670,Thornhill,GB,P,geonames_api
+2636002,51.608890,-2.520280,Thornbury,GB,P,geonames_api
+2636056,51.350000,1.333330,Isle of Thanet,GB,L,geonames_api
+2636132,50.545810,-3.496710,Teignmouth,GB,P,geonames_api
+2636174,50.549440,-4.144180,Tavistock,GB,P,geonames_api
+2636177,51.014940,-3.102930,Taunton,GB,P,geonames_api
+2636258,56.713170,-2.860220,Tannadice,GB,P,geonames_api
+2636271,54.354860,-6.413960,Tandragee,GB,P,geonames_api
+2636432,51.620790,-3.943230,Swansea,GB,P,geonames_api
+2636438,50.944040,-1.180210,Swanmore,GB,P,geonames_api
+2636445,50.608270,-1.956640,Swanage,GB,P,geonames_api
+2636507,58.250000,-4.500000,Sutherlandshire,GB,A,geonames_api
+2636512,51.250000,-0.333330,Surrey,GB,A,geonames_api
+2636561,52.166670,1.000000,Suffolk,GB,A,geonames_api
+2636605,57.503030,-2.046370,Stuartfield,GB,P,geonames_api
+2636612,53.300000,0.183330,Strubby,GB,P,geonames_api
+2636619,51.393230,0.477130,Strood,GB,P,geonames_api
+2636638,58.964980,-3.296010,Stromness,GB,P,geonames_api
+2636675,51.428970,-0.131840,Streatham,GB,P,geonames_api
+2636703,55.812090,-4.026490,Strathclyde,GB,A,geonames_api
+2636719,54.902340,-5.027310,Stranraer,GB,P,geonames_api
+2636721,54.566670,-5.916670,Stranmillis,GB,P,geonames_api
+2636745,54.833330,-7.333330,Strabane,GB,A,geonames_api
+2636749,52.188930,0.997740,Stowmarket,GB,P,geonames_api
+2636790,58.209250,-6.386490,Stornoway,GB,P,geonames_api
+2636803,54.835800,-4.979040,Stoneykirk,GB,P,geonames_api
+2636811,51.750000,-2.283330,Stonehouse,GB,P,geonames_api
+2636856,50.325080,-3.598620,Stoke Fleming,GB,P,geonames_api
+2636872,58.250000,-5.350000,Point of Stoer,GB,T,geonames_api
+2636909,56.115320,-4.233860,Stirling,GB,A,geonames_api
+2636915,54.605290,-1.421910,Stillington,GB,P,geonames_api
+2636932,55.679860,-4.514350,Stewarton,GB,P,geonames_api
+2637022,52.916670,-1.266670,Stapleford,GB,P,geonames_api
+2637097,51.766670,-2.283330,Standish,GB,P,geonames_api
+2637229,57.667030,-3.098790,River Spey,GB,H,geonames_api
+2637330,50.783510,-1.090710,Southsea,GB,P,geonames_api
+2637336,58.766670,-2.966670,South Ronaldsay,GB,T,geonames_api
+2637343,53.645810,-3.010080,Southport,GB,P,geonames_api
+2637370,51.588990,-1.190560,South Moreton,GB,P,geonames_api
+2637371,54.850000,-1.700000,South Moor,GB,P,geonames_api
+2637395,51.494370,-0.173210,South Kensington,GB,P,geonames_api
+2637432,51.333330,-1.500000,Southern England,GB,A,geonames_api
+2637474,51.160350,0.257320,Southborough,GB,P,geonames_api
+2637532,51.083330,-3.000000,Somerset,GB,A,geonames_api
+2637799,54.556540,-7.118370,Sixmilecross,GB,P,geonames_api
+2637853,50.690940,-3.239700,Sidmouth,GB,P,geonames_api
+2637861,51.426190,0.103600,Sidcup,GB,P,geonames_api
+2637875,50.766670,-3.066670,Shute,GB,P,geonames_api
+2637918,51.525090,-0.076950,Shoreditch,GB,P,geonames_api
+2637958,53.833330,-1.766670,Shipley,GB,P,geonames_api
+2638077,53.382970,-1.465900,Sheffield,GB,P,geonames_api
+2638096,50.922650,-1.199530,Shedfield,GB,P,geonames_api
+2638157,51.005280,-2.193330,Shaftesbury,GB,P,geonames_api
+2638229,55.547380,-2.839110,Selkirk,GB,P,geonames_api
+2638262,54.321230,-2.525140,Sedbergh,GB,P,geonames_api
+2638348,53.496520,-0.674290,Scotter,GB,P,geonames_api
+2638360,55.733700,-3.834270,Carluke,,,lincs_inline
+2638379,52.367060,1.156740,Scole,GB,P,geonames_api
+2638399,54.333330,-6.366670,Scarva,GB,P,geonames_api
+2638473,52.439840,-0.284220,Sawtry,GB,P,geonames_api
+2638520,55.365270,-3.921600,Sanquhar,GB,P,geonames_api
+2638542,51.272230,1.337760,Sandwich,GB,P,geonames_api
+2638568,50.651580,-1.161030,Sandown,GB,P,geonames_api
+2638580,51.346750,-0.786550,Sandhurst,GB,P,geonames_api
+2638588,51.073920,1.147440,Sandgate,GB,P,geonames_api
+2638593,51.332280,-2.831220,Sandford,GB,P,geonames_api
+2638648,55.636160,-4.785880,Saltcoats,GB,P,geonames_api
+2638655,52.666670,-2.750000,Shropshire,GB,A,geonames_api
+2638665,56.113990,-3.570340,Saline,GB,P,geonames_api
+2638703,51.366670,1.416670,Saint Peters,GB,P,geonames_api
+2638710,59.966670,-1.350000,Saint Ninian’s Isle,GB,T,geonames_api
+2638717,52.216670,-0.266670,Saint Neots,GB,P,geonames_api
+2638768,51.529910,-0.174670,St John's Wood,GB,P,geonames_api
+2638774,52.378320,1.407240,Saint James,GB,P,geonames_api
+2638783,50.116670,-5.416670,Saint Hilary,GB,P,geonames_api
+2638848,55.573010,-2.644100,Saint Boswells,GB,P,geonames_api
+2638854,51.402780,-3.413890,St Athan,GB,P,geonames_api
+2638864,56.338710,-2.799020,St Andrews,GB,P,geonames_api
+2638878,52.023370,0.242340,Saffron Walden,GB,P,geonames_api
+2638942,53.454170,-2.224590,Rusholme,GB,P,geonames_api
+2638958,52.616670,1.650000,Runham,GB,P,geonames_api
+2638991,56.455330,-5.436330,Rubha Garbh,GB,T,geonames_api
+2639033,55.500000,-2.500000,Roxburghshire,GB,A,geonames_api
+2639080,57.133330,-3.850000,Rothiemurchus,GB,P,geonames_api
+2639083,55.836480,-5.055080,Rothesay,GB,P,geonames_api
+2639086,57.526240,-3.206630,Rothes,GB,P,geonames_api
+2639091,51.500000,-0.050000,Rotherhithe,GB,P,geonames_api
+2639110,51.916670,-2.566670,Ross on Wye,GB,P,geonames_api
+2639129,57.666670,-5.000000,Ross and Cromarty,GB,A,geonames_api
+2639134,56.009850,-4.801510,Rosneath,GB,P,geonames_api
+2639253,53.369230,-3.004180,Rock Ferry,GB,P,geonames_api
+2639268,51.387640,0.505460,Rochester,GB,P,geonames_api
+2639322,52.838650,-0.370270,Rippingale,GB,P,geonames_api
+2639323,54.135790,-1.528260,Ripon,GB,P,geonames_api
+2639382,52.336490,0.992720,Rickinghall,GB,P,geonames_api
+2639389,51.461710,-0.306330,Richmond,GB,P,geonames_api
+2639390,54.383330,-6.550000,Richhill,GB,P,geonames_api
+2639492,55.972000,-4.583990,Renton,GB,P,geonames_api
+2639495,55.871970,-4.392530,Renfrew,GB,P,geonames_api
+2639577,51.456250,-0.971130,Reading,GB,P,geonames_api
+2639583,51.585710,0.604590,Rayleigh,GB,P,geonames_api
+2639628,54.955340,-6.480900,Rasharkin,GB,P,geonames_api
+2639796,51.417600,0.744410,Queenborough,GB,P,geonames_api
+2639912,53.762820,-2.704520,Preston,GB,P,geonames_api
+2639992,57.681440,-2.689560,Portsoy,GB,P,geonames_api
+2640076,55.856600,-5.065030,Port Bannatyne,GB,P,geonames_api
+2640101,50.714290,-1.984580,Poole,GB,P,geonames_api
+2640132,53.691070,-1.312690,Pontefract,GB,P,geonames_api
+2640192,50.390740,-4.060220,Plympton,GB,P,geonames_api
+2640194,50.371530,-4.143050,Plymouth,GB,P,geonames_api
+2640351,57.505170,-1.784350,Peterhead,GB,P,geonames_api
+2640357,56.500000,-4.000000,Perthshire,GB,A,geonames_api
+2640358,56.395220,-3.431390,Perth,GB,P,geonames_api
+2640377,50.118610,-5.537150,Penzance,GB,P,geonames_api
+2640401,51.225030,-1.528090,Penton Mewsey,GB,P,geonames_api
+2640413,50.168120,-5.104160,Penryn,GB,P,geonames_api
+2640460,52.725560,-2.115600,Penkridge,GB,P,geonames_api
+2640526,55.651900,-3.188800,Peebles,GB,P,geonames_api
+2640611,53.297980,-3.084280,Parkgate,GB,P,geonames_api
+2640620,52.195460,1.374240,Parham,GB,P,geonames_api
+2640677,55.831730,-4.432540,Paisley,GB,P,geonames_api
+2640678,51.785680,-2.195550,Painswick,GB,P,geonames_api
+2640681,50.435650,-3.567890,Paignton,GB,P,geonames_api
+2640723,55.458070,-2.477370,Oxnam,GB,P,geonames_api
+2640729,51.752220,-1.255960,Oxford,GB,P,geonames_api
+2640765,51.243890,-1.261540,Overton,GB,P,geonames_api
+2640801,57.750000,-7.000000,Outer Hebrides,GB,T,geonames_api
+2640895,58.938090,-3.131080,Orphir,GB,P,geonames_api
+2640908,53.566850,-2.881780,Ormskirk,GB,P,geonames_api
+2640923,59.000000,-3.000000,Orkney Islands,GB,A,geonames_api
+2640938,58.133330,-3.600000,Ord of Caithness,GB,T,geonames_api
+2640967,54.600000,-7.300000,Omagh,GB,P,geonames_api
+2640968,54.583330,-7.250000,Omagh,GB,A,geonames_api
+2641170,52.953600,-1.150470,Nottingham,GB,P,geonames_api
+2641181,52.627830,1.298340,Norwich,GB,P,geonames_api
+2641224,53.258820,-2.520250,Northwich,GB,P,geonames_api
+2641364,54.500000,-6.500000,Northern Ireland,GB,A,geonames_api
+2641544,55.773340,-4.333390,Newton Mearns,GB,P,geonames_api
+2641546,53.450000,-2.600000,Newton-le-Willows,GB,P,geonames_api
+2641557,50.528580,-3.611860,Newton Abbot,GB,P,geonames_api
+2641661,51.475340,-0.038370,New Cross,GB,P,geonames_api
+2641673,54.973280,-1.613960,Newcastle upon Tyne,GB,P,geonames_api
+2641843,51.663170,-3.804430,Neath,GB,P,geonames_api
+2641907,57.500000,-3.833330,Nairnshire,GB,A,geonames_api
+2641910,57.580940,-3.879730,Nairn,GB,P,geonames_api
+2641942,55.941700,-3.049910,Musselburgh,GB,P,geonames_api
+2642006,56.500000,-3.066670,Muirhead,GB,P,geonames_api
+2642101,54.233330,-6.466670,Mount Norris,GB,P,geonames_api
+2642136,51.029290,-2.216270,Motcombe,GB,P,geonames_api
+2642170,51.366670,-1.050000,Mortimer Lodge,GB,S,geonames_api
+2642182,55.168820,-1.688930,Morpeth,GB,P,geonames_api
+2642414,51.403220,-0.168310,Mitcham,GB,P,geonames_api
+2642429,55.474580,-2.689230,Minto,GB,P,geonames_api
+2642624,55.066670,-3.233330,Middlebie,GB,P,geonames_api
+2642682,58.637200,-3.229860,Mey,GB,P,geonames_api
+2642689,52.523320,0.554020,Methwold,GB,P,geonames_api
+2642768,58.785630,-3.264000,Melsetter,GB,P,geonames_api
+2642822,55.483330,-3.200000,Megget Water,GB,H,geonames_api
+2643040,50.805130,-4.522410,Marhamchurch,GB,P,geonames_api
+2643044,51.381320,1.386170,Margate,GB,P,geonames_api
+2643096,53.164950,-1.193840,Mansfield Woodhouse,GB,P,geonames_api
+2643097,53.133330,-1.200000,Mansfield,GB,P,geonames_api
+2643123,53.480950,-2.237430,Manchester,GB,P,geonames_api
+2643179,51.266670,0.516670,Maidstone,GB,P,geonames_api
+2643251,52.589650,-3.853080,Machynlleth,GB,P,geonames_api
+2643284,56.583330,-4.333330,Glen Lyon,GB,T,geonames_api
+2643304,50.872590,-1.576620,Lyndhurst,GB,P,geonames_api
+2643312,50.759160,-1.538280,Lymington,GB,P,geonames_api
+2643337,52.456340,-1.202180,Lutterworth,GB,P,geonames_api
+2643553,53.366640,-0.004380,Louth,GB,P,geonames_api
+2643714,52.302600,-1.081130,Long Buckby,GB,P,geonames_api
+2643736,54.998100,-7.309340,Londonderry,GB,P,geonames_api
+2643743,51.508530,-0.125740,London,GB,P,geonames_api
+2643750,56.083330,-4.600000,Loch Lomond,GB,H,geonames_api
+2643760,56.647520,-3.682160,Logierait,GB,P,geonames_api
+2643791,55.123020,-3.356350,Lockerbie,GB,P,geonames_api
+2643842,57.398330,-5.498950,Lochcarron,GB,P,geonames_api
+2643859,56.950000,-5.050000,Lochaber,GB,L,geonames_api
+2643862,55.879450,-3.158740,Loanhead,GB,P,geonames_api
+2643937,51.540280,-3.373890,Llantrisant,GB,P,geonames_api
+2644216,51.672040,-1.549010,Littleworth,GB,P,geonames_api
+2644240,54.567380,-2.674140,Little Strickland,GB,P,geonames_api
+2644411,54.523370,-6.035270,Lisburn,GB,P,geonames_api
+2644431,55.516670,-2.366670,Linton,GB,P,geonames_api
+2644473,53.416670,-0.333330,Parts of Lindsey,GB,A,geonames_api
+2644487,53.226830,-0.537920,Lincoln,GB,P,geonames_api
+2644502,55.000000,-7.000000,Limavady,GB,A,geonames_api
+2644559,50.873980,0.008800,Lewes,GB,P,geonames_api
+2644688,53.796480,-1.547850,Leeds,GB,P,geonames_api
+2644737,52.285200,-1.520000,Royal Leamington Spa,GB,P,geonames_api
+2644809,56.833380,-2.465400,Laurencekirk,GB,P,geonames_api
+2644832,55.883440,-3.114980,Lasswade,GB,P,geonames_api
+2644853,55.733330,-3.966670,Larkhall,GB,P,geonames_api
+2645090,57.283870,-5.711170,Kyle of Lochalsh,GB,P,geonames_api
+2645163,54.009100,-1.468510,Knaresborough,GB,P,geonames_api
+2645236,55.316670,-4.766670,Kirkoswald,GB,P,geonames_api
+2645291,55.385610,-3.998360,Kirkconnel,GB,P,geonames_api
+2645298,56.116830,-3.159990,Kirkcaldy,GB,P,geonames_api
+2645346,56.126730,-4.170830,Kippen,GB,P,geonames_api
+2645425,53.744600,-0.335250,Hull,GB,P,geonames_api
+2645525,56.069450,-3.719640,Kincardine,GB,P,geonames_api
+2645541,55.653330,-4.706660,Kilwinning,GB,P,geonames_api
+2645551,52.333750,-1.175050,Kilsby,GB,P,geonames_api
+2645572,55.992250,-4.932380,Kilmun,GB,P,geonames_api
+2645593,56.014100,-5.571620,Kilmichael of Inverlussa,GB,P,geonames_api
+2645603,56.133540,-5.486140,Kilmartin,GB,P,geonames_api
+2645605,55.611710,-4.495810,Kilmarnock,GB,P,geonames_api
+2645614,54.350000,-6.783330,Killylea,GB,P,geonames_api
+2645645,56.042390,-4.368400,Killearn,GB,P,geonames_api
+2645689,56.356810,-5.176300,Kilchrenan,GB,P,geonames_api
+2645712,55.750820,-4.687910,Kilbirnie,GB,P,geonames_api
+2645801,51.500940,-0.191750,Kensington,GB,P,geonames_api
+2645818,56.566670,-3.983330,Kenmore,GB,P,geonames_api
+2645826,54.326810,-2.747570,Kendal,GB,P,geonames_api
+2645849,55.598140,-2.433820,Kelso,GB,P,geonames_api
+2645880,57.536330,-2.948110,Keith,GB,P,geonames_api
+2645947,55.947710,-3.090330,Joppa,GB,P,geonames_api
+2645951,55.829060,-4.516050,Johnstone,GB,P,geonames_api
+2646004,51.475180,-0.342460,Isleworth,GB,P,geonames_api
+2646010,58.333330,-6.583330,Isle of Lewis,GB,T,geonames_api
+2646057,52.059170,1.155450,Ipswich,GB,P,geonames_api
+2646088,57.479080,-4.223980,Inverness,GB,P,geonames_api
+2646140,56.230520,-5.074740,Inveraray,GB,P,geonames_api
+2646157,57.342730,-2.613210,Insch,GB,P,geonames_api
+2646255,53.283330,-2.833330,Ince,GB,P,geonames_api
+2646384,57.447410,-2.786080,Huntly,GB,P,geonames_api
+2646458,53.649040,-1.784160,Huddersfield,GB,P,geonames_api
+2646503,53.012890,-0.959410,Hoveringham,GB,P,geonames_api
+2646504,50.830880,-0.167200,Hove,GB,P,geonames_api
+2646557,51.063140,-0.327570,Horsham,GB,P,geonames_api
+2646580,51.587520,-0.122040,Hornsey,GB,P,geonames_api
+2646658,50.799600,-3.188990,Honiton,GB,P,geonames_api
+2646914,51.629070,-0.749340,High Wycombe,GB,P,geonames_api
+2646943,57.120000,-4.710000,Scottish Highlands,GB,L,geonames_api
+2647074,52.056840,-2.714820,Hereford,GB,P,geonames_api
+2647101,51.533330,-0.900000,Henley on Thames,GB,P,geonames_api
+2647149,54.245770,-1.056830,Helmsley,GB,P,geonames_api
+2647212,53.416540,-2.169890,Heaton Norris,GB,P,geonames_api
+2647262,51.377860,0.016820,Hayes,GB,P,geonames_api
+2647297,55.422730,-2.786660,Hawick,GB,P,geonames_api
+2647356,50.855680,0.580090,Hastings,GB,P,geonames_api
+2647516,51.518090,-0.335170,Hanwell,GB,P,geonames_api
+2647525,53.024920,-2.173950,Hanley,GB,P,geonames_api
+2647630,58.512270,-3.491550,Halkirk,GB,P,geonames_api
+2647632,53.716670,-1.850000,Halifax,GB,P,geonames_api
+2647686,55.956120,-2.783320,Haddington,GB,P,geonames_api
+2647948,55.948380,-4.761210,Greenock,GB,P,geonames_api
+2647973,57.050000,-4.950000,Greenfield,GB,P,geonames_api
+2647984,52.608310,1.730520,Great Yarmouth,GB,P,geonames_api
+2648201,54.458360,-3.025190,Grasmere,GB,P,geonames_api
+2648272,50.795090,-1.129020,Gosport,GB,P,geonames_api
+2648404,51.865680,-2.243100,Gloucester,GB,P,geonames_api
+2648506,56.033330,-5.216670,Glendaruel,GB,T,geonames_api
+2648579,55.865150,-4.257630,Glasgow,GB,P,geonames_api
+2648608,56.608580,-3.003320,Glamis,GB,P,geonames_api
+2648773,54.962090,-1.601680,Gateshead,GB,P,geonames_api
+2648829,53.900810,-2.774170,Garstang,GB,P,geonames_api
+2648909,55.600930,-4.381720,Galston,GB,P,geonames_api
+2648945,53.383330,-0.766670,Gainsborough,GB,P,geonames_api
+2649024,51.228340,-2.322110,Frome,GB,P,geonames_api
+2649089,57.687440,-2.018440,Fraserburgh,GB,P,geonames_api
+2649192,57.609970,-3.621150,Forres,GB,P,geonames_api
+2649207,56.643820,-2.890010,Forfar,GB,P,geonames_api
+2649258,51.081690,1.167340,Folkestone,GB,P,geonames_api
+2649463,54.210000,-0.289170,Filey,GB,P,geonames_api
+2649468,56.333330,-3.000000,Fifeshire,GB,A,geonames_api
+2649532,54.333330,-7.500000,County Fermanagh,GB,L,geonames_api
+2649584,52.908770,1.279910,Felbrigg,GB,P,geonames_api
+2649770,51.197100,1.266200,Eythorne,GB,P,geonames_api
+2649800,50.617230,-3.402330,Exmouth,GB,P,geonames_api
+2649808,50.723600,-3.527510,Exeter,GB,P,geonames_api
+2649993,51.442510,-1.101640,Englefield,GB,P,geonames_api
+2650122,57.649470,-3.318430,Elgin,GB,P,geonames_api
+2650225,55.952060,-3.196480,Edinburgh,GB,P,geonames_api
+2650328,50.855556,0.552500,"St Leonards (East Sussex), England",,,lincs_inline
+2650497,50.768710,0.284530,Eastbourne,GB,P,geonames_api
+2650607,57.296470,-3.769260,Duthil,GB,P,geonames_api
+2650628,54.776760,-1.575660,Durham,GB,P,geonames_api
+2650629,54.776800,-1.575750,Durham,GB,A,geonames_api
+2650673,55.777040,-2.345750,Duns,GB,P,geonames_api
+2650710,55.711980,-4.536220,Dunlop,GB,P,geonames_api
+2650730,54.500000,-6.833330,Dungannon,GB,A,geonames_api
+2650732,56.071560,-3.458870,Dunfermline,GB,P,geonames_api
+2650752,56.469130,-2.974890,Dundee,GB,P,geonames_api
+2650795,55.166670,-3.500000,Dumfriesshire,GB,A,geonames_api
+2650797,55.083330,-3.833330,Dumfries and Galloway,GB,A,geonames_api
+2650798,55.069590,-3.611390,Dumfries,GB,P,geonames_api
+2650812,56.618800,-3.945230,Dull,GB,P,geonames_api
+2650892,57.302350,-6.306790,Drynoch,GB,P,geonames_api
+2651037,54.333330,-5.750000,County Down,GB,A,geonames_api
+2651073,55.550000,-3.850000,Douglas,GB,P,geonames_api
+2651079,50.750000,-2.333330,Dorset,GB,A,geonames_api
+2651123,53.522850,-1.131160,Doncaster,GB,P,geonames_api
+2651194,56.416670,-4.433330,Glen Dochart,GB,T,geonames_api
+2651222,56.045650,-2.781410,Dirleton,GB,P,geonames_api
+2651286,53.690760,-1.629070,Dewsbury,GB,P,geonames_api
+2651287,50.783020,-2.320950,Dewlish,GB,P,geonames_api
+2651289,50.378070,-4.175340,Devonport,GB,P,geonames_api
+2651292,50.482000,-3.524000,St Marychurch,,,lincs_inline
+2651323,56.588540,-6.186460,Dervaig,GB,P,geonames_api
+2651366,56.023500,-3.908120,Denny,GB,P,geonames_api
+2651468,51.223160,1.402800,Deal,GB,P,geonames_api
+2651474,50.581180,-3.466440,Dawlish,GB,P,geonames_api
+2651498,50.352200,-3.579400,Dartmouth,GB,P,geonames_api
+2651513,54.524290,-1.550390,Darlington,GB,P,geonames_api
+2651559,55.397570,-4.591690,Dalrymple,GB,P,geonames_api
+2651575,55.324190,-4.402000,Dalmellington,GB,P,geonames_api
+2651708,54.984730,-3.347000,Cummertrees,GB,P,geonames_api
+2651817,51.383330,-0.100000,Croydon,GB,P,geonames_api
+2651819,57.516670,-4.033330,Croy,GB,P,geonames_api
+2651983,56.372680,-3.838910,Crieff,GB,P,geonames_api
+2652034,50.783330,-3.650000,Crediton,GB,P,geonames_api
+2652113,56.285220,-3.003560,Craigrothie,GB,P,geonames_api
+2652355,50.416670,-4.750000,Cornwall,GB,A,geonames_api
+2652591,51.795350,-2.613540,Coleford,GB,P,geonames_api
+2652601,55.651110,-2.252950,Coldstream,GB,P,geonames_api
+2652618,51.889210,0.904210,Colchester,GB,P,geonames_api
+2652747,56.577830,-3.450220,Clunie,GB,P,geonames_api
+2652843,51.461110,-2.620000,Clifton,GB,P,geonames_api
+2652909,52.106720,1.111340,Claydon,GB,P,geonames_api
+2652958,54.633330,-5.716670,Clandeboye,GB,S,geonames_api
+2652976,56.107430,-3.750980,Clackmannan,GB,P,geonames_api
+2653121,51.492710,-0.258010,Chiswick,GB,P,geonames_api
+2653225,53.250000,-1.416670,Chesterfield,GB,P,geonames_api
+2653228,53.190500,-2.891890,Chester,GB,P,geonames_api
+2653234,53.166670,-2.583330,Cheshire,GB,L,geonames_api
+2653261,51.900060,-2.079720,Cheltenham,GB,P,geonames_api
+2653300,53.216670,-1.600000,Chatsworth House,GB,S,geonames_api
+2653591,52.842910,-1.341880,Castle Donington,GB,P,geonames_api
+2653704,56.502630,-2.705300,Carnoustie,GB,P,geonames_api
+2653775,54.895100,-2.938200,Carlisle,GB,P,geonames_api
+2653789,50.692760,-1.317500,Carisbrooke,GB,P,geonames_api
+2653885,57.350000,-4.916670,Glen Cannich,GB,T,geonames_api
+2653947,51.337050,-0.742610,Camberley,GB,P,geonames_api
+2653989,56.244100,-4.216370,Callander,GB,P,geonames_api
+2654019,54.416670,-3.500000,Calder Hall,GB,S,geonames_api
+2654143,50.990030,0.134410,Buxted,GB,P,geonames_api
+2654201,53.649110,-0.684530,Burton upon Stather,GB,P,geonames_api
+2654215,54.183690,-2.721090,Burton-in-Kendal,GB,P,geonames_api
+2654327,52.454340,1.438180,Bungay,GB,P,geonames_api
+2654497,56.474510,-2.867820,Broughty Ferry,GB,P,geonames_api
+2654604,55.575390,-5.147170,Brodick,GB,P,geonames_api
+2654614,51.800000,-0.233330,Brocket Hall,GB,S,geonames_api
+2654623,50.820140,-2.800090,Broadwindsor,GB,P,geonames_api
+2654662,50.350000,-4.033330,Brixton,GB,P,geonames_api
+2654669,54.000000,-4.000000,British Isles,GB,T,geonames_api
+2654675,51.455230,-2.596650,Bristol,GB,P,geonames_api
+2654710,50.828380,-0.139470,Brighton,GB,P,geonames_api
+2654726,50.733800,-2.758310,Bridport,GB,P,geonames_api
+2654787,51.486190,-0.308300,Brentford,GB,P,geonames_api
+2654824,56.729930,-2.657290,Brechin,GB,P,geonames_api
+2654840,56.583330,-6.633330,Breachacha Castle,GB,S,geonames_api
+2654909,51.089600,-0.798120,Bramshott,GB,P,geonames_api
+2654993,53.793910,-1.752060,Bradford,GB,P,geonames_api
+2655051,55.755830,-6.284260,Bowmore,GB,P,geonames_api
+2655130,55.802720,-4.068350,Bothwell,GB,P,geonames_api
+2655177,54.812200,-4.134140,Borgue,GB,P,geonames_api
+2655192,55.583330,-2.833330,Scottish Borders,GB,A,geonames_api
+2655210,55.873290,-3.105100,Bonnyrigg,GB,P,geonames_api
+2655215,56.016670,-3.616670,Bo'ness,GB,P,geonames_api
+2655477,57.583330,-4.250000,Black Isle,GB,T,geonames_api
+2655524,53.750000,-2.483330,Blackburn,GB,P,geonames_api
+2655562,51.871130,0.158680,Bishop's Stortford,GB,P,geonames_api
+2655603,52.481420,-1.899830,Birmingham,GB,P,geonames_api
+2655820,55.750000,-2.500000,Berwickshire,GB,A,geonames_api
+2655894,55.227710,-6.148160,Fair Head,GB,T,geonames_api
+2655952,55.816670,-4.016670,Bellshill,GB,P,geonames_api
+2655984,54.596820,-5.925410,Belfast,GB,P,geonames_api
+2656044,52.000000,-0.500000,Bedfordshire,GB,L,geonames_api
+2656173,51.375100,-2.361720,Bath,GB,P,geonames_api
+2656281,51.080220,-4.058080,Barnstaple,GB,P,geonames_api
+2656295,51.650000,-0.200000,Barnet,GB,P,geonames_api
+2656382,56.089780,-3.910920,Bannockburn,GB,P,geonames_api
+2656399,57.500000,-3.083330,Banffshire,GB,A,geonames_api
+2656402,57.664770,-2.529640,Banff,GB,P,geonames_api
+2656406,52.063200,-1.342220,Banbury,GB,P,geonames_api
+2656407,54.350000,-6.283330,Banbridge,GB,P,geonames_api
+2656422,50.989540,-3.487590,Bampton,GB,P,geonames_api
+2656633,51.360210,-0.687850,Bagshot,GB,A,geonames_api
+2656708,55.462730,-4.633930,Ayr,GB,P,geonames_api
+2656719,51.816650,-0.814580,Aylesbury,GB,P,geonames_api
+2656787,54.414170,-6.975510,Aughnacloy,GB,P,geonames_api
+2656799,56.291580,-3.234280,Auchtermuchty,GB,P,geonames_api
+2656924,51.308730,-0.299720,Ashtead,GB,P,geonames_api
+2656944,55.491990,-2.837040,Ashkirk,GB,P,geonames_api
+2656946,55.177190,-1.564120,Ashington,GB,P,geonames_api
+2656965,51.129200,-2.810080,Ashcott,GB,P,geonames_api
+2657000,54.633330,-6.683330,Artrea,GB,P,geonames_api
+2657059,54.250000,-6.500000,County Armàgh,GB,L,geonames_api
+2657060,54.350000,-6.666670,Armagh,GB,P,geonames_api
+2657088,56.250000,-5.250000,Argyllshire,GB,A,geonames_api
+2657215,56.563170,-2.587360,Arbroath,GB,P,geonames_api
+2657230,55.133330,-3.400000,Applegarth Town,GB,P,geonames_api
+2657254,55.000000,-6.166670,County Antrim,GB,A,geonames_api
+2657256,54.666670,-6.250000,Antrim,GB,A,geonames_api
+2657258,50.370130,-4.252310,Antony,GB,P,geonames_api
+2657293,54.988390,-3.256470,Annan,GB,P,geonames_api
+2657306,56.666670,-2.916670,Angus,GB,A,geonames_api
+2657429,57.268180,-5.632380,Loch Alsh,GB,H,geonames_api
+2657438,55.413180,-1.705630,Alnwick,GB,P,geonames_api
+2657471,56.115860,-3.789970,Alloa,GB,P,geonames_api
+2657613,55.866020,-3.980250,Airdrie,GB,P,geonames_api
+2657676,51.371350,-0.493530,Addlestone,GB,P,geonames_api
+2657680,53.944520,-1.884240,Addingham,GB,P,geonames_api
+2657697,51.509010,-0.276200,Acton,GB,P,geonames_api
+2657770,53.753790,-2.358630,Accrington,GB,P,geonames_api
+2657798,57.470760,-3.225090,Charlestown of Aberlour,GB,P,geonames_api
+2657830,57.166670,-2.666670,Aberdeenshire,GB,A,geonames_api
+2657832,57.143690,-2.098140,Aberdeen,GB,P,geonames_api
+2658143,46.166990,6.184360,Veyrier,CH,P,geonames_api
+2658434,47.000160,8.014270,Switzerland,CH,A,geonames_api
+2659496,46.991790,6.931000,Neuchâtel,CH,P,geonames_api
+2660167,46.614360,7.685510,Kien,CH,P,geonames_api
+2673730,59.329380,18.068710,Stockholm,SE,P,geonames_api
+2747373,52.076670,4.298610,The Hague,NL,P,geonames_api
+2750405,52.250000,5.750000,Netherlands,NL,A,geonames_api
+2759794,52.374030,4.889690,Amsterdam,NL,P,geonames_api
+2759899,52.631670,4.748610,Alkmaar,NL,P,geonames_api
+2761369,48.208490,16.372080,Vienna,AT,P,geonames_api
+2770921,47.763270,15.697710,Nasswald,AT,P,geonames_api
+2782113,47.333330,13.333330,Austria,AT,A,geonames_api
+2786318,50.483750,5.866740,Spa,BE,P,geonames_api
+2792898,50.715700,4.218320,Lembeek,BE,P,geonames_api
+2798866,51.151840,5.390600,Eksel,BE,P,geonames_api
+2799645,51.028690,4.101060,Dendermonde,BE,P,geonames_api
+2802361,50.750000,4.500000,Belgium,BE,A,geonames_api
+2848273,51.179830,7.192500,Remscheid,DE,P,geonames_api
+2851523,52.675020,7.949830,Quakenbrück,DE,P,geonames_api
+2872003,49.930120,10.959210,Memmelsdorf,DE,P,geonames_api
+2888020,51.211190,14.391570,Kleinwelka,DE,P,geonames_api
+2897136,52.566670,9.250000,Husum,DE,P,geonames_api
+2905643,51.016240,14.743810,Herrnhut,DE,P,geonames_api
+2909240,50.069060,8.486320,Hattersheim,DE,P,geonames_api
+2910831,52.370520,9.733220,Hanover,DE,P,geonames_api
+2921044,51.500000,10.500000,Germany,DE,A,geonames_api
+2937552,50.661700,10.124720,Diedorf,DE,P,geonames_api
+2947739,49.237240,7.256170,Blieskastel,DE,P,geonames_api
+2952984,49.898730,10.900670,Bamberg,DE,P,geonames_api
+2953481,48.500000,9.000000,Baden-Wurttemberg,DE,A,geonames_api
+2953504,48.760600,8.239750,Baden-Baden,DE,P,geonames_api
+2960935,53.000000,-6.416670,County Wicklow,IE,A,geonames_api
+2960963,52.500000,-6.666670,County Wexford,IE,A,geonames_api
+2960964,52.334170,-6.457500,Wexford,IE,P,geonames_api
+2960972,53.500000,-7.500000,County Westmeath,IE,A,geonames_api
+2960992,52.258330,-7.111940,Waterford,IE,P,geonames_api
+2961123,52.270420,-9.702640,Tralee,IE,P,geonames_api
+2961191,52.666670,-7.833330,County Tipperary,IE,A,geonames_api
+2961214,52.681940,-7.802220,Thurles,IE,P,geonames_api
+2961224,52.526670,-7.137220,Thomastown,IE,P,geonames_api
+2961237,52.794720,-7.833890,Templemore,IE,P,geonames_api
+2961344,53.983330,-7.233330,Stradone,IE,P,geonames_api
+2961349,53.015560,-7.152780,Stradbally,IE,P,geonames_api
+2961354,52.536390,-7.220000,Stonyford,IE,P,geonames_api
+2961423,54.269690,-8.469430,Sligo,IE,P,geonames_api
+2961531,52.572500,-9.102500,Shanagolden,IE,P,geonames_api
+2961622,54.935530,-7.461090,Saint Johnstown,IE,P,geonames_api
+2961730,52.951110,-7.801670,Roscrea,IE,P,geonames_api
+2961732,53.633330,-8.183330,Roscommon,IE,P,geonames_api
+2961897,55.036730,-7.649230,Rathmelton,IE,P,geonames_api
+2961905,52.524440,-8.938060,Rathkeale,IE,P,geonames_api
+2961920,52.854720,-7.580280,Rathdowney,IE,P,geonames_api
+2962139,52.852780,-6.216940,Avoca,IE,P,geonames_api
+2962256,53.885080,-9.545260,Newport,IE,P,geonames_api
+2962293,54.156390,-7.135000,Newbliss,IE,P,geonames_api
+2962449,53.120560,-8.960560,Moy,IE,P,geonames_api
+2962476,53.113610,-7.320000,Mountmellick,IE,P,geonames_api
+2962505,54.646390,-8.195560,Mountcharles,IE,P,geonames_api
+2962540,52.289440,-7.248330,Mooncoin,IE,P,geonames_api
+2962543,53.293080,-6.153120,Monkstown,IE,P,geonames_api
+2962547,53.367780,-8.697780,Monivea,IE,P,geonames_api
+2962567,54.250000,-7.000000,County Monaghan,IE,A,geonames_api
+2962570,53.916670,-7.866670,Mohill,IE,P,geonames_api
+2962661,53.666670,-6.666670,Co Meath,IE,A,geonames_api
+2962666,53.900000,-9.250000,County Mayo,IE,A,geonames_api
+2962722,55.296100,-7.263520,Malin,IE,P,geonames_api
+2962725,53.450830,-6.154440,Malahide,IE,P,geonames_api
+2962745,51.906630,-8.969680,Macroom,IE,P,geonames_api
+2962839,53.666670,-7.750000,Co Longford,IE,A,geonames_api
+2962862,52.116670,-9.666670,Listry Bridge,IE,P,geonames_api
+2962898,52.136670,-7.930830,Lismore,IE,P,geonames_api
+2962943,52.664720,-8.623060,Limerick,IE,P,geonames_api
+2962975,54.116670,-8.000000,County Leitrim,IE,A,geonames_api
+2963155,51.707500,-8.530560,Kinsale,IE,P,geonames_api
+2963199,52.905020,-6.604350,Kiltegan,IE,P,geonames_api
+2963218,52.640110,-9.485090,Kilrush,IE,P,geonames_api
+2963275,52.400000,-8.577220,Kilmallock,IE,P,geonames_api
+2963283,52.205450,-7.425730,Kilmacthomas,IE,P,geonames_api
+2963367,54.016670,-7.533330,Killashandra,IE,P,geonames_api
+2963397,52.583330,-7.250000,County Kilkenny,IE,A,geonames_api
+2963398,52.654170,-7.252220,Kilkenny,IE,P,geonames_api
+2963419,52.360510,-8.471750,Kilfinane,IE,P,geonames_api
+2963459,52.383330,-9.733330,Kilcooly,IE,P,geonames_api
+2963517,52.166670,-9.750000,Co Kerry,IE,A,geonames_api
+2963597,52.395611,-6.945076,"New Ross, County Wexford (Republic of Ireland)",,,lincs_inline
+2963918,52.629440,-7.073330,Gowran,IE,P,geonames_api
+2963998,52.570280,-9.282780,Glin,IE,P,geonames_api
+2964106,52.787780,-7.513890,Glashare Castle,IE,S,geonames_api
+2964179,53.333330,-9.000000,Galway,IE,A,geonames_api
+2964180,53.272450,-9.050950,Galway,IE,P,geonames_api
+2964400,52.944720,-9.292220,Ennistimon,IE,P,geonames_api
+2964504,53.835000,-6.396110,Dunleer,IE,P,geonames_api
+2964573,53.380460,-6.271130,Co Dublin,IE,A,geonames_api
+2964574,53.333060,-6.248890,Dublin,IE,P,geonames_api
+2964613,53.636810,-7.168940,Drumcree,IE,P,geonames_api
+2964751,54.916670,-8.000000,Donegal,IE,A,geonames_api
+2964992,53.683330,-9.000000,Crossboyne,IE,P,geonames_api
+2965111,52.947780,-9.063060,Corrofin,IE,P,geonames_api
+2965139,51.966670,-8.583330,Cork,IE,A,geonames_api
+2965140,51.897970,-8.470610,Cork,IE,P,geonames_api
+2965260,51.850460,-8.294800,Cobh,IE,P,geonames_api
+2965402,51.623060,-8.870560,Clonakilty,IE,P,geonames_api
+2965413,52.940280,-8.035560,Cloghjordan,IE,P,geonames_api
+2965449,53.489070,-10.019100,Clifden,IE,P,geonames_api
+2965463,52.003060,-7.819440,Clashmore,IE,P,geonames_api
+2965479,52.833330,-9.000000,Clare,IE,A,geonames_api
+2965516,52.350000,-8.683330,Charleville,IE,P,geonames_api
+2965534,53.916670,-7.250000,Cavan,IE,A,geonames_api
+2965535,53.990830,-7.360560,Cavan,IE,P,geonames_api
+2965573,53.679350,-7.297360,Castlepollard,IE,P,geonames_api
+2965599,53.374830,-6.363360,Castleknock,IE,P,geonames_api
+2965650,53.433330,-8.483330,Castleblakeney,IE,P,geonames_api
+2965726,52.349170,-7.413060,Carrick-on-Suir,IE,P,geonames_api
+2965767,52.666670,-6.833330,Carlow,IE,A,geonames_api
+2965772,54.040000,-6.188330,Carlingford,IE,P,geonames_api
+2965841,52.545000,-7.391110,Callan,IE,P,geonames_api
+2965929,54.477820,-8.280940,Bundoran,IE,P,geonames_api
+2965932,52.655300,-6.653590,Bunclody,IE,P,geonames_api
+2966055,52.995280,-8.128060,Borrisokane,IE,P,geonames_api
+2966131,53.301500,-6.177800,Blackrock,IE,P,geonames_api
+2966356,51.680250,-9.452540,Bantry,IE,P,geonames_api
+2966359,52.450000,-8.066670,Bansha Castle,IE,S,geonames_api
+2966370,51.746940,-8.742500,Bandon,IE,P,geonames_api
+2966384,52.453060,-6.865280,Ballywilliam,IE,P,geonames_api
+2966406,54.500000,-8.183330,Ballyshannon,IE,P,geonames_api
+2966420,52.788890,-7.330280,Ballyragget,IE,P,geonames_api
+2966492,54.083330,-8.516670,Ballymote,IE,P,geonames_api
+2966650,52.580560,-6.568060,Ballycarney,IE,P,geonames_api
+2966719,53.741790,-8.635550,Ballinlough,IE,P,geonames_api
+2966767,52.873890,-7.308060,Ballinakill,IE,P,geonames_api
+2966778,54.116670,-9.166670,Ballina,IE,P,geonames_api
+2966796,53.916670,-6.966670,Bailieborough,IE,P,geonames_api
+2966815,53.302220,-8.312500,Aughrim,IE,P,geonames_api
+2967076,52.561940,-8.795560,Adare,IE,P,geonames_api
+2967092,52.913310,-7.344560,Abbeyleix,IE,P,geonames_api
+2967108,45.127640,-0.662250,Blaye,FR,P,geonames_api
+2967879,48.122790,-1.209830,Vitré,FR,P,geonames_api
+2969284,45.525690,4.874840,Vienne,FR,P,geonames_api
+2969679,48.803590,2.134240,Versailles,FR,P,geonames_api
+2970140,46.641690,-1.304070,Vendée,FR,A,geonames_api
+2970698,47.906370,3.786080,Varennes,FR,P,geonames_api
+2970990,45.478730,2.292470,Valiergues,FR,P,geonames_api
+2971041,50.359090,3.525060,Valenciennes,FR,P,geonames_api
+2971518,48.781310,-0.818210,Truttemer-le-Grand,FR,P,geonames_api
+2972181,49.538830,4.638030,Tourteron,FR,P,geonames_api
+2972284,50.723910,3.161170,Tourcoing,FR,P,geonames_api
+2972328,43.124420,5.928360,Toulon,FR,P,geonames_api
+2972695,46.981500,-0.211750,Thouars,FR,P,geonames_api
+2973267,47.033760,5.405000,Tavaux,FR,P,geonames_api
+2973393,43.805830,4.660280,Tarascon,FR,P,geonames_api
+2973475,47.354800,5.438870,Talmay,FR,P,geonames_api
+2973783,48.583920,7.745530,Strasbourg,FR,P,geonames_api
+2974550,48.183240,-0.128910,Sillé-le-Guillaume,FR,P,geonames_api
+2975771,50.240570,3.444300,Saulzoir,FR,P,geonames_api
+2977246,43.423320,6.773500,Saint-Raphaël,FR,P,geonames_api
+2977251,45.287070,4.819720,Saint-Rambert-d'Albon,FR,P,geonames_api
+2977378,44.593700,4.576590,Saint-Pons,FR,P,geonames_api
+2977446,48.114790,-1.026490,Saint-Pierre-la-Cour,FR,P,geonames_api
+2977762,45.246340,4.274160,Saint-Pal-de-Mons,FR,P,geonames_api
+2977845,50.748340,2.260910,Saint-Omer,FR,P,geonames_api
+2978517,48.375010,-0.697450,Saint-Mars-sur-Colmont,FR,P,geonames_api
+2978566,45.149140,5.316730,Saint-Marcellin,FR,P,geonames_api
+2979344,47.194240,-1.724850,Saint-Jean-de-Boiseau,FR,P,geonames_api
+2980015,44.450000,4.183330,Saint-Genest-de-Beauzon,FR,P,geonames_api
+2980916,48.935640,2.353870,Saint-Denis,FR,P,geonames_api
+2981059,48.530950,6.603160,Saint-Clément,FR,P,geonames_api
+2981206,45.475900,4.512940,Saint-Chamond,FR,P,geonames_api
+2981402,44.052030,2.129110,Saint-Benoît-de-Carmaux,FR,P,geonames_api
+2981492,49.104650,6.704020,Saint-Avold,FR,P,geonames_api
+2981591,48.262760,-1.608470,Saint-Aubin-d'Aubigné,FR,P,geonames_api
+2981752,44.586320,6.534190,Saint-André-d'Embrun,FR,P,geonames_api
+2981760,44.994550,-0.444430,Saint-André-de-Cubzac,FR,P,geonames_api
+2981898,47.268920,1.376140,Saint-Aignan,FR,P,geonames_api
+2982076,47.837650,-0.332940,Sablé-sur-Sarthe,FR,P,geonames_api
+2982652,49.443130,1.099320,Rouen,FR,P,geonames_api
+2982775,49.814330,2.700950,Rosières-en-Santerre,FR,P,geonames_api
+2983165,49.926100,4.522200,Rocroi,FR,P,geonames_api
+2983276,45.943040,-0.967740,Rochefort,FR,P,geonames_api
+2983990,48.111090,-1.674310,Rennes,FR,P,geonames_api
+2984159,49.009440,-1.550790,Regnéville-sur-Mer,FR,P,geonames_api
+2984552,50.183330,3.166670,Raillencourt-Sainte-Olle,FR,P,geonames_api
+2984640,47.904560,-3.134590,Quistinic,FR,P,geonames_api
+2986200,45.062500,5.340940,Pont-en-Royans,FR,P,geonames_api
+2988507,48.851667,2.356389,île Saint-Louis,,,lincs_inline
+2990048,45.235930,5.409840,Notre-Dame-de-l'Osier,FR,P,geonames_api
+2990440,43.703130,7.266080,Nice,FR,P,geonames_api
+2992166,43.610930,3.876350,Montpellier,FR,P,geonames_api
+2992229,48.988260,2.343400,Montmorency,FR,P,geonames_api
+2992466,48.478230,4.770730,Montier-en-Der,FR,P,geonames_api
+2992741,43.739760,7.427320,Monte Carlo,MC,P,geonames_api
+2993875,44.099730,3.078480,Millau,FR,P,geonames_api
+2994160,49.119110,6.172690,Metz,FR,P,geonames_api
+2994497,43.776490,7.504350,Menton,FR,P,geonames_api
+2994981,47.296710,-1.391380,Mauves-sur-Loire,FR,P,geonames_api
+2995401,48.200000,-0.666670,Martigné-sur-Mayenne,FR,P,geonames_api
+2996944,45.749060,4.847890,Lyon,FR,P,geonames_api
+2999160,49.680420,0.211060,Le Tilleul,FR,P,geonames_api
+3003603,48.002100,0.202510,Le Mans,FR,P,geonames_api
+3003796,49.493460,0.107850,Le Havre,FR,P,geonames_api
+3005966,43.747160,5.313460,Lauris,FR,P,geonames_api
+3007609,48.732640,-3.456570,Lannion,FR,P,geonames_api
+3009223,43.124680,6.010330,La Garde,FR,P,geonames_api
+3010315,48.318130,2.571520,La Chapelle-la-Reine,FR,P,geonames_api
+3012248,47.956100,-2.548040,Josselin,FR,P,geonames_api
+3012649,48.821040,2.277180,Issy-les-Moulineaux,FR,P,geonames_api
+3013132,45.033330,5.200000,Hostun,FR,P,geonames_api
+3013502,48.775150,7.170390,Hérange,FR,P,geonames_api
+3015370,47.666670,5.033330,Grancey-le-Château-Neuvelle,FR,P,geonames_api
+3015787,44.909040,1.628160,Gluges,FR,P,geonames_api
+3016060,44.163860,5.004970,Gigondas,FR,P,geonames_api
+3017382,48.856667,2.352222,Paris,,,lincs_inline
+3017798,43.959270,5.779450,Forcalquier,FR,P,geonames_api
+3019875,48.631260,-2.465070,Erquy,FR,P,geonames_api
+3020185,50.059490,2.609420,Englebelmer,FR,P,geonames_api
+3021382,44.092520,6.231990,Digne-les-Bains,FR,P,geonames_api
+3021958,50.222870,3.239190,Cuvillers,FR,P,geonames_api
+3022300,47.412350,-2.167580,Crossac,FR,P,geonames_api
+3022456,49.520140,1.930460,Crillon,FR,P,geonames_api
+3022826,49.045410,-1.445180,Coutances,FR,P,geonames_api
+3023264,49.668460,2.423390,Coullemelle,FR,P,geonames_api
+3025053,47.058930,-0.879740,Cholet,FR,P,geonames_api
+3026164,45.964200,2.467980,Châtelard,FR,P,geonames_api
+3026303,47.716750,-1.376430,Châteaubriant,FR,P,geonames_api
+3027422,45.566280,5.920790,Chambéry,FR,P,geonames_api
+3027572,45.997340,5.168650,Chalamont,FR,P,geonames_api
+3028282,49.201550,-0.797260,Castillon,FR,P,geonames_api
+3028808,43.551350,7.012750,Cannes,FR,P,geonames_api
+3029012,50.571530,1.613250,Camiers,FR,P,geonames_api
+3029030,50.175960,3.234720,Cambrai,FR,P,geonames_api
+3029775,47.968600,-0.234840,Brûlon,FR,P,geonames_api
+3029962,46.048410,6.443990,Brizon,FR,P,geonames_api
+3030293,48.166670,-2.833330,Brittany,FR,A,geonames_api
+3030918,50.166670,3.116670,Bois de Bourlon,FR,V,geonames_api
+3031582,44.841240,-0.580460,Bordeaux,FR,P,geonames_api
+3032639,43.302640,-0.397330,Billère,FR,P,geonames_api
+3032797,43.480550,-1.556840,Biarritz,FR,P,geonames_api
+3033123,47.248780,6.018150,Besançon,FR,P,geonames_api
+3033708,48.013010,6.443460,Bellefontaine,FR,P,geonames_api
+3034157,50.084290,2.657460,Beaumont-Hamel,FR,P,geonames_api
+3035639,48.684360,-1.356860,Avranches,FR,P,geonames_api
+3036059,47.666920,-2.984210,Auray,FR,P,geonames_api
+3036784,50.293010,2.781860,Arras,FR,P,geonames_api
+3037136,49.632020,4.653690,Ardennes,FR,A,geonames_api
+3037514,45.239920,4.670700,Annonay,FR,P,geonames_api
+3037656,47.471560,-0.552020,Angers,FR,P,geonames_api
+3037701,48.176860,-0.784340,Andouillé,FR,P,geonames_api
+3037854,49.900000,2.300000,Amiens,FR,P,geonames_api
+3038354,43.528300,5.449730,Aix-en-Provence,FR,P,geonames_api
+3038789,50.105210,1.835470,Abbeville,FR,P,geonames_api
+3042089,49.245560,-2.138610,Saint John,JE,P,geonames_api
+3042091,49.188040,-2.104910,Saint Helier,JE,P,geonames_api
+3042142,49.216670,-2.116670,Jersey,JE,A,geonames_api
+3042225,54.250000,-4.500000,Isle of Man,IM,A,geonames_api
+3042362,49.455800,-2.577500,Guernsey,,,lincs_inline
+3042400,49.346600,-2.362060,Channel Islands,,T,geonames_api
+3052009,47.683330,17.635120,Győr,HU,P,geonames_api
+3081368,51.102860,17.030060,Wroclaw,PL,P,geonames_api
+3084021,54.277240,19.098760,Świerznica,PL,P,geonames_api
+3090705,53.873090,19.000910,Nowa Wieś,PL,P,geonames_api
+3091150,53.142140,17.601810,Nakło nad Notecią,PL,P,geonames_api
+3092493,52.988870,18.544600,Mała Nieszawka,PL,P,geonames_api
+3117533,41.728150,1.823990,Manresa,ES,P,geonames_api
+3128026,43.262710,-2.925280,Bilbao,ES,P,geonames_api
+3144096,62.000000,10.000000,Norway,NO,A,geonames_api
+3165524,45.070490,7.686820,Turin,IT,P,geonames_api
+3169070,41.891930,12.511330,Rome,IT,P,geonames_api
+3175395,42.833330,12.833330,Italy,IT,A,geonames_api
+3176219,44.404780,8.944390,Genoa,IT,P,geonames_api
+3177019,43.804550,11.294870,Fiesole,IT,P,geonames_api
+3177426,42.776630,10.277880,Elba,IT,T,geonames_api
+3177595,43.910880,8.080290,Diano Marina,IT,P,geonames_api
+3182640,40.972590,14.207450,Aversa,IT,P,geonames_api
+3201926,45.875000,14.980000,Dobrnič,SI,P,geonames_api
+3209498,46.198430,6.186420,Chêne-Bougeries,CH,P,geonames_api
+3237025,49.175830,-2.104170,Hâvre des Pas,JE,H,geonames_api
+3291040,52.368060,-9.770830,Kilmoyly South,IE,P,geonames_api
+3292029,51.973610,-8.593060,Garrycloyne House,IE,S,geonames_api
+3292549,52.127220,-8.637780,Summer Hill,IE,P,geonames_api
+3300477,52.215280,-8.537220,Landscape,IE,L,geonames_api
+3301294,52.195280,-7.512220,Comeragh House,IE,S,geonames_api
+3301983,52.351670,-7.025000,Glenmore,IE,P,geonames_api
+3305640,52.713890,-8.499440,Castleconnell,IE,P,geonames_api
+3311879,53.071110,-8.941110,Tulla,IE,P,geonames_api
+3315329,53.389440,-6.395280,Coolmine House,IE,S,geonames_api
+3333159,53.750000,-0.333330,Kingston upon Hull,GB,A,geonames_api
+3333194,51.500000,-0.566670,Slough,GB,A,geonames_api
+3333195,52.416670,-1.750000,Solihull,GB,A,geonames_api
+3333202,53.416670,-2.166670,Stockport,GB,A,geonames_api
+3336902,42.755080,-7.866210,Galicia,ES,A,geonames_api
+3367577,-34.350270,18.479090,Cape of Good Hope,ZA,T,geonames_api
+3369157,-33.925840,18.423220,Cape Town,ZA,P,geonames_api
+3370751,-15.950000,-5.700000,St. Helena,SH,A,geonames_api
+3373405,10.000000,-25.000000,Atlantic Ocean,,H,geonames_api
+3374036,13.107320,-59.620210,Bridgetown,BB,P,geonames_api
+3374084,13.164530,-59.551650,Barbados,BB,A,geonames_api
+3411923,40.000000,-40.000000,North Atlantic Ocean,,H,geonames_api
+3413829,64.135480,-21.895410,Reykjavik,IS,P,geonames_api
+3420635,69.247210,-53.536820,Qeqertarsuaq,GL,P,geonames_api
+3423823,63.088150,-50.677670,Qeqertarsuatsiaat,GL,P,geonames_api
+3424929,57.000000,-55.000000,Labrador Sea,,H,geonames_api
+3425505,72.000000,-40.000000,Greenland,GL,A,geonames_api
+3449433,-23.960830,-46.333610,Santos,BR,P,geonames_api
+3451189,-22.250000,-42.500000,Rio de Janeiro,BR,A,geonames_api
+3488465,17.991070,-76.957420,Spanish Town,JM,P,geonames_api
+3489940,18.166670,-77.250000,Jamaica,JM,A,geonames_api
+3491393,17.978070,-76.931300,Bernard Lodge,JM,P,geonames_api
+3553478,23.133020,-82.383040,Havana,CU,P,geonames_api
+3571219,19.383330,-71.216670,West Indies,,L,geonames_api
+3573061,32.381670,-64.678060,Saint George,BM,P,geonames_api
+3573103,32.278330,-64.781670,Paget,BM,A,geonames_api
+3573197,32.294900,-64.783030,Hamilton,BM,P,geonames_api
+3573606,11.250000,-60.666670,Tobago,TT,A,geonames_api
+3573890,10.666680,-61.518890,Port of Spain,TT,P,geonames_api
+3575174,17.333330,-62.750000,Saint Kitts and Nevis,KN,A,geonames_api
+3575479,17.133330,-62.616670,Charlestown,KN,P,geonames_api
+3576022,17.120960,-61.843290,St John's,AG,P,geonames_api
+3576395,17.076070,-61.795430,Antigua,AG,T,geonames_api
+3578263,13.000000,-61.000000,Windward Islands,,T,geonames_api
+3582678,17.250000,-88.750000,Belize,BZ,A,geonames_api
+3714424,8.466670,-79.000000,Balboa District,PA,A,geonames_api
+3831451,76.562530,-68.783600,Thule,GL,P,geonames_api
+3870282,-36.724940,-73.116840,Talcahuano,CL,P,geonames_api
+3895114,-30.000000,-71.000000,Chile,CL,A,geonames_api
+3981362,19.433650,-103.516570,Tonila,MX,P,geonames_api
+3995465,25.684350,-100.317210,Monterrey,MX,P,geonames_api
+4140963,38.895110,-77.036370,Washington,US,P,geonames_api
+4145381,39.745950,-75.546590,Wilmington,US,P,geonames_api
+4152872,29.210810,-81.022830,Daytona,US,P,geonames_api
+4160021,30.332180,-81.655650,Jacksonville,US,P,geonames_api
+4164138,25.774270,-80.193660,Miami,US,P,geonames_api
+4165565,26.142340,-81.795960,Naples,US,P,geonames_api
+4167147,28.538340,-81.379240,Orlando,US,P,geonames_api
+4167505,26.705620,-80.036430,Palm Beach,US,P,geonames_api
+4170894,29.894690,-81.314520,St. Augustine,US,P,geonames_api
+4171563,27.770860,-82.679270,St. Petersburg,US,P,geonames_api
+4180531,33.470970,-81.974840,Augusta,US,P,geonames_api
+4195777,34.225510,-84.125020,Forsyth,US,A,geonames_api
+4221552,32.083540,-81.099830,Savannah,US,P,geonames_api
+4232987,39.520320,-89.048970,Assumption,US,P,geonames_api
+4248256,39.005320,-87.739190,Robinson,US,P,geonames_api
+4257390,39.640060,-85.178730,Fayette,US,A,geonames_api
+4272914,39.859720,-95.269700,Highland,US,P,geonames_api
+4274277,38.971670,-95.235250,Lawrence,US,P,geonames_api
+4308112,38.215440,-85.194770,Shelby,US,A,geonames_api
+4347242,38.978590,-76.491840,Annapolis,US,P,geonames_api
+4347778,39.290380,-76.612190,Baltimore,US,P,geonames_api
+4349782,38.459290,-76.030770,Bucktown,US,P,geonames_api
+4361885,39.000390,-76.749970,Maryland,US,A,geonames_api
+4407066,38.627270,-90.197890,St Louis,US,P,geonames_api
+4436296,32.750410,-89.750360,Mississippi,US,A,geonames_api
+4453066,35.600950,-82.554020,Asheville,US,P,geonames_api
+4500546,39.364150,-74.423060,Atlantic City,US,P,geonames_api
+4560349,39.952380,-75.163620,Philadelphia,US,P,geonames_api
+4597040,34.000430,-81.000090,South Carolina,US,A,geonames_api
+4726311,27.763910,-98.238900,San Diego,US,P,geonames_api
+4744091,38.804840,-77.046920,Alexandria,US,P,geonames_api
+4777226,37.000190,-76.311750,Old Point Comfort,US,T,geonames_api
+4781708,37.553760,-77.460260,Richmond,US,P,geonames_api
+4796775,18.348290,-64.983480,U.S. Virgin Islands,VI,A,geonames_api
+4801850,39.288990,-77.859720,Charles Town,US,P,geonames_api
+4801859,38.349820,-81.632620,Charleston,US,P,geonames_api
+4832294,42.408430,-71.011990,Revere,US,P,geonames_api
+4834967,41.596770,-72.620930,Gildersleeve,US,P,geonames_api
+4841377,41.302600,-73.383450,Redding,US,P,geonames_api
+4843811,41.184540,-73.133170,Stratford,US,P,geonames_api
+4853828,41.600540,-93.609110,Des Moines,US,P,geonames_api
+4854711,42.484440,-91.122910,Dyersville,US,P,geonames_api
+4887398,41.850030,-87.650050,Chicago,US,P,geonames_api
+4893037,41.495870,-87.848660,Frankfort,US,P,geonames_api
+4907910,41.467330,-90.567430,Rock Island,US,A,geonames_api
+4908737,41.914190,-88.308690,St. Charles,US,P,geonames_api
+4929055,42.658430,-71.137000,Andover,US,P,geonames_api
+4929256,42.636200,-71.907850,Ashburnham,US,P,geonames_api
+4929283,42.261210,-71.463400,Ashland,US,P,geonames_api
+4931353,42.350100,-71.156440,Brighton,US,P,geonames_api
+4934999,42.054260,-71.739510,Douglas,US,P,geonames_api
+4938064,42.256480,-72.516200,Granby,US,P,geonames_api
+4941635,42.455650,-71.673120,Lancaster,US,P,geonames_api
+4942618,42.633420,-71.316170,Lowell,US,P,geonames_api
+4943097,42.500100,-70.857830,Marblehead,US,P,geonames_api
+4943828,42.726200,-71.190890,Methuen,US,P,geonames_api
+4945256,42.812590,-70.877280,Newburyport,US,P,geonames_api
+4946136,42.352870,-72.045350,Oakham,US,P,geonames_api
+4946410,41.789830,-69.989740,Orleans,US,P,geonames_api
+4950065,42.519770,-70.895520,Salem,US,P,geonames_api
+4951788,42.101480,-72.589810,Springfield,US,P,geonames_api
+4952078,42.287590,-73.320390,Stockbridge,US,P,geonames_api
+4952217,42.437040,-71.505620,Stow,US,P,geonames_api
+4952487,41.748160,-71.189770,Swansea,US,P,geonames_api
+4952629,41.900100,-71.089770,Taunton,US,P,geonames_api
+4954292,51.833056,-3.017222,Abergavenny,,,lincs_inline
+4954380,42.376490,-71.235610,Waltham,US,P,geonames_api
+4954738,42.296490,-71.292560,Wellesley,US,P,geonames_api
+4954850,42.366760,-71.785630,West Boylston,US,P,geonames_api
+4956032,42.479260,-71.152280,Woburn,US,P,geonames_api
+4957003,44.310620,-69.779490,Augusta,US,P,geonames_api
+4957280,44.798840,-68.772650,Bangor,US,P,geonames_api
+4957956,44.425910,-69.006420,Belfast,US,P,geonames_api
+4963985,43.729530,-70.241990,Falmouth,US,P,geonames_api
+4966624,44.883390,-69.447550,Hartland,US,P,geonames_api
+4967563,46.126160,-67.840300,Houlton,US,P,geonames_api
+4968933,43.082990,-70.710090,Kittery Point,US,P,geonames_api
+4971447,45.518110,-68.361410,Mattawamkeag River,US,H,geonames_api
+4971448,45.513670,-68.354470,Mattawamkeag,US,P,geonames_api
+4976361,43.901460,-70.470330,Raymond,US,P,geonames_api
+4980629,44.078970,-69.181710,Thomaston,US,P,geonames_api
+4982236,44.552010,-69.631710,Waterville,US,P,geonames_api
+4983970,42.618580,-82.532300,Algonac,US,P,geonames_api
+4990729,42.331430,-83.045750,Detroit,US,P,geonames_api
+4992519,42.464480,-83.376320,Farmington,US,P,geonames_api
+4995285,45.431680,-84.992000,Harbor Springs,US,P,geonames_api
+5009004,46.495300,-84.345320,Sault Ste. Marie,US,P,geonames_api
+5012748,43.491340,-83.439870,Tuscola,US,A,geonames_api
+5024719,46.783270,-92.106580,Duluth,US,P,geonames_api
+5025971,47.462430,-92.539910,Eveleth,US,P,geonames_api
+5026291,44.294960,-93.268830,Faribault,US,P,geonames_api
+5028525,47.963780,-89.684810,Grand Portage,US,P,geonames_api
+5040515,46.408800,-95.708000,Otter Tail,US,A,geonames_api
+5043193,44.883300,-93.283000,Richfield,US,P,geonames_api
+5043473,44.021630,-92.469900,Rochester,US,P,geonames_api
+5045360,44.944410,-93.093270,Saint Paul,US,P,geonames_api
+5058101,48.207210,-97.342300,Ardoch,US,P,geonames_api
+5060128,48.923330,-97.752580,Leroy,US,P,geonames_api
+5060890,48.767520,-97.551830,Pembina,US,A,geonames_api
+5082636,42.861470,-71.625350,Amherst,US,P,geonames_api
+5083221,42.946470,-71.515900,Bedford,US,P,geonames_api
+5087752,42.764810,-71.439790,Hudson,US,P,geonames_api
+5095281,40.220390,-74.012080,Asbury Park,US,P,geonames_api
+5097598,40.663990,-74.210700,Elizabeth,US,P,geonames_api
+5104853,40.446490,-74.385980,South River,US,P,geonames_api
+5105164,41.209820,-74.607660,Sussex,US,P,geonames_api
+5107134,41.268150,-74.454880,Amity,US,P,geonames_api
+5107444,42.096450,-79.375600,Ashville,US,P,geonames_api
+5107505,42.931730,-76.566050,Auburn,US,P,geonames_api
+5109411,43.994220,-76.064930,Black River,US,H,geonames_api
+5110629,42.886450,-78.878370,Buffalo,US,P,geonames_api
+5110907,43.059510,-77.474160,Bushnell Basin,US,P,geonames_api
+5111398,42.905630,-74.571810,Canajoharie,US,P,geonames_api
+5111535,44.183380,-76.291330,Carleton Island,US,T,geonames_api
+5111745,42.518410,-73.751230,Castleton-on-Hudson,US,P,geonames_api
+5111844,42.250360,-74.249870,Catskill Mountains,US,T,geonames_api
+5115580,41.765150,-73.742860,Dutchess,US,A,geonames_api
+5118223,43.012840,-77.791670,Garbutt,US,P,geonames_api
+5118380,43.000930,-78.193710,Genesee,US,A,geonames_api
+5118424,43.601920,-73.579460,Lake George,US,H,geonames_api
+5118920,41.402040,-74.324320,Goshen,US,P,geonames_api
+5121513,43.300630,-73.585950,Hudson Falls,US,P,geonames_api
+5124290,43.784690,-75.448790,Lewis,US,A,geonames_api
+5124928,42.728080,-77.775490,Livingston,US,A,geonames_api
+5126828,42.598690,-74.332920,Middleburgh,US,P,geonames_api
+5128581,40.714270,-74.005970,New York,US,P,geonames_api
+5130024,41.227870,-73.914030,Oscawana,US,P,geonames_api
+5131803,42.617010,-75.602410,Plymouth,US,P,geonames_api
+5133742,41.926760,-73.912640,Rhinebeck,US,P,geonames_api
+5135152,40.644550,-74.080140,Saint George,US,P,geonames_api
+5135968,44.978760,-74.643020,Saint Regis Mohawk Reservation,US,A,geonames_api
+5136334,43.083130,-73.784570,Saratoga Springs,US,P,geonames_api
+5136456,42.818120,-74.058570,Schenectady,US,A,geonames_api
+5136495,42.588220,-74.442120,Schoharie,US,A,geonames_api
+5137380,43.100080,-73.581780,Schuylerville,US,P,geonames_api
+5138539,40.855930,-73.200670,Smithtown,US,P,geonames_api
+5139155,42.323420,-73.545950,Spencertown,US,P,geonames_api
+5139496,42.535350,-76.924410,Starkey,US,P,geonames_api
+5139568,40.562330,-74.139860,Staten Island,US,P,geonames_api
+5139656,42.267810,-77.383800,Steuben,US,A,geonames_api
+5139782,42.317560,-79.355880,Stockton,US,P,geonames_api
+5140405,43.048120,-76.147420,Syracuse,US,P,geonames_api
+5141630,43.162880,-78.950870,Tuscarora Nation Reservation,US,A,geonames_api
+5143282,42.740060,-78.132790,Warsaw,US,P,geonames_api
+5147057,40.620060,-82.510720,Bellville,US,P,geonames_api
+5171681,41.010060,-81.862360,Seville,US,P,geonames_api
+5192495,40.161480,-76.232450,Hammer Creek,US,H,geonames_api
+5194099,41.576760,-75.258790,Honesdale,US,P,geonames_api
+5207728,40.335650,-75.926870,Reading,US,P,geonames_api
+5219585,41.241190,-77.001080,Williamsport,US,P,geonames_api
+5227270,43.826080,-96.706160,Dell Rapids,US,P,geonames_api
+5229046,44.892460,-96.918960,Kranzburg,US,P,geonames_api
+5233742,42.878130,-73.196770,Bennington,US,P,geonames_api
+5234101,43.798120,-73.087610,Brandon,US,P,geonames_api
+5234183,44.133390,-73.079010,Bristol,US,P,geonames_api
+5234920,43.516180,-72.969830,Clarendon,US,P,geonames_api
+5236007,44.665330,-73.008750,Fairfax,US,P,geonames_api
+5238190,44.514220,-72.010930,Lyndon,US,P,geonames_api
+5239071,42.985640,-72.655930,Newfane,US,P,geonames_api
+5239255,44.994490,-72.399830,North Troy,US,P,geonames_api
+5240081,42.974800,-72.521760,Putney,US,P,geonames_api
+5240475,43.815900,-72.545650,Royalton,US,P,geonames_api
+5240760,43.896450,-73.099840,Salisbury,US,P,geonames_api
+5241770,44.918100,-73.124300,Swanton,US,P,geonames_api
+5242224,44.167280,-73.254010,Vergennes,US,P,geonames_api
+5242283,44.000340,-72.749830,Vermont,US,A,geonames_api
+5242710,43.651450,-73.347340,West Haven,US,P,geonames_api
+5261457,43.073050,-89.401230,Madison,US,P,geonames_api
+5263045,43.038900,-87.906470,Milwaukee,US,P,geonames_api
+5268002,43.051650,-91.141240,Prairie du Chien,US,P,geonames_api
+5272875,44.789150,-88.765440,Shawano,US,A,geonames_api
+5280935,41.413980,-73.303450,Newtown,US,P,geonames_api
+5309842,34.540020,-112.468500,Prescott,US,P,geonames_api
+5324477,34.139730,-118.035340,Arcadia,US,P,geonames_api
+5332921,37.250220,-119.751260,California,US,A,geonames_api
+5338783,34.073900,-117.313650,Colton,US,P,geonames_api
+5356679,38.327140,-121.323280,Hicksville,US,P,geonames_api
+5368361,34.052230,-118.243680,Los Angeles,US,P,geonames_api
+5391811,32.715710,-117.164720,San Diego,US,P,geonames_api
+5391959,37.774930,-122.419420,San Francisco,US,P,geonames_api
+5392171,37.339390,-121.894960,San Jose,US,P,geonames_api
+5392263,37.724930,-122.156080,San Leandro,US,P,geonames_api
+5392952,34.420830,-119.698190,Santa Barbara,US,P,geonames_api
+5393015,37.354110,-121.955240,Santa Clara,US,P,geonames_api
+5393212,34.019490,-118.491380,Santa Monica,US,P,geonames_api
+5419384,39.739150,-104.984700,Denver,US,P,geonames_api
+5640815,48.659010,-112.872120,Blackfeet Indian Reservation,US,A,geonames_api
+5652716,48.501390,-109.791670,Fort Assinniboine Military Reservation (historical),US,S,geonames_api
+5711847,46.187880,-123.831250,Astoria,US,P,geonames_api
+5718132,45.669840,-121.890640,Cascade Locks,US,P,geonames_api
+5718677,45.248730,-122.898150,Champoeg,US,P,geonames_api
+5744253,45.357340,-122.606760,Oregon City,US,P,geonames_api
+5756304,45.594560,-121.178680,The Dalles,US,P,geonames_api
+5768591,43.294360,-100.655980,Rosebud Indian Reservation,US,A,geonames_api
+5769399,45.833380,-101.148300,Standing Rock Reservation,US,A,geonames_api
+5780993,40.760780,-111.891050,Salt Lake City,US,P,geonames_api
+5794609,48.386060,-124.726980,Cape Flattery,US,T,geonames_api
+5809425,48.540930,-123.086020,San Juan Island,US,T,geonames_api
+5809844,47.606210,-122.332070,Seattle,US,P,geonames_api
+5811696,47.659660,-117.429080,Spokane,US,P,geonames_api
+5813757,48.942950,-118.761980,Toroda,US,P,geonames_api
+5814616,45.638730,-122.661490,Vancouver,US,P,geonames_api
+5855811,21.134460,-157.009740,Hawaiian Islands,US,T,geonames_api
+5862371,66.564720,-145.273890,Fort Yukon,US,P,geonames_api
+5870463,64.719440,-158.103060,Nulato,US,P,geonames_api
+5879037,62.552220,-164.552780,Akulurak,US,P,geonames_api
+5881858,45.630990,-62.690440,Abercrombie,CA,P,geonames_api
+5881941,48.100180,-77.782800,Abitibi-Témiscamingue,CA,A,geonames_api
+5881990,46.450140,-64.082040,Abram-Village,CA,P,geonames_api
+5882124,44.550120,-77.332770,Actinolite,CA,P,geonames_api
+5882134,43.629690,-80.041490,Acton,CA,P,geonames_api
+5882320,48.150120,-83.683110,Addison,CA,L,geonames_api
+5883102,52.283330,-117.469000,Alberta,CA,A,geonames_api
+5883166,46.816850,-64.065420,Alberton,CA,P,geonames_api
+5883256,42.583390,-81.683060,Aldborough,CA,L,geonames_api
+5883343,44.181370,-78.066530,Alderville,CA,L,geonames_api
+5883490,45.313170,-74.636650,Alexandria,CA,P,geonames_api
+5883588,45.566800,-74.882580,Alfred,CA,L,geonames_api
+5883649,45.750120,-78.499560,Algonquin Provincial Park,CA,L,geonames_api
+5884021,46.366810,-62.848660,Allisary,CA,P,geonames_api
+5884233,50.108080,-122.990480,Alta Lake,CA,P,geonames_api
+5884241,49.091690,-97.610410,Altbergthal,CA,L,geonames_api
+5884467,45.833450,-64.198740,Amherst Nova Scotia,CA,P,geonames_api
+5884472,42.100090,-83.099850,Amherstburg,CA,P,geonames_api
+5884480,44.133420,-76.716120,Amherst Island,CA,T,geonames_api
+5884821,44.202200,-76.928160,Anderson,CA,P,geonames_api
+5885415,44.583450,-65.165510,Annapolis,CA,A,geonames_api
+5885421,44.742680,-65.517610,Annapolis Royal,CA,P,geonames_api
+5886182,45.616850,-61.998580,Antigonish Nova Scotia,CA,P,geonames_api
+5886183,45.666850,-61.915280,Antigonish County,CA,A,geonames_api
+5886823,47.304972,-53.893056,Little Placentia Sound,,,lincs_inline
+5886894,45.516840,-61.015210,Arichat,CA,P,geonames_api
+5887214,45.433410,-76.349390,Arnprior,CA,P,geonames_api
+5887353,45.917210,-72.082330,Arthabaska,CA,L,geonames_api
+5887443,43.050000,-81.293610,Arva,CA,P,geonames_api
+5887481,45.366780,-71.882380,Ascot,CA,L,geonames_api
+5887531,50.723720,-121.282070,Ashcroft,CA,P,geonames_api
+5887796,49.895800,-97.357860,Assiniboia,CA,L,geonames_api
+5887916,54.716870,-113.285370,Athabasca,CA,P,geonames_api
+5887935,45.035880,-74.177120,Athelstan,CA,P,geonames_api
+5887943,44.616810,-75.949360,Athens,CA,A,geonames_api
+5887944,44.600110,-79.366320,Atherley,CA,P,geonames_api
+5888200,45.017760,-64.873090,Auburn,CA,P,geonames_api
+5888201,43.783390,-81.549770,Auburn,CA,P,geonames_api
+5888254,44.766810,-75.649340,Augusta,CA,L,geonames_api
+5888255,44.750110,-75.599340,Augusta,CA,A,geonames_api
+5888377,44.000110,-79.466320,Aurora,CA,P,geonames_api
+5888574,45.100150,-64.248750,Avonport,CA,P,geonames_api
+5888703,45.033450,-64.832090,Aylesford,CA,P,geonames_api
+5888712,45.833370,-70.999060,Aylmer,CA,L,geonames_api
+5889156,46.100140,-60.748490,Baddeck,CA,P,geonames_api
+5889167,43.400100,-80.649700,Baden,CA,P,geonames_api
+5889292,69.438640,-74.647250,Baffin Island,CA,T,geonames_api
+5890523,46.828380,-73.883880,Baie du Poste,CA,H,geonames_api
+5891548,46.014830,-64.103180,Baie Verte,CA,P,geonames_api
+5891984,44.951770,-76.327470,Balderson,CA,P,geonames_api
+5892379,44.580440,-78.841650,Balsam Lake,CA,H,geonames_api
+5892415,44.018060,-78.147300,Baltimore,CA,P,geonames_api
+5892532,51.176220,-115.569820,Banff,CA,P,geonames_api
+5892710,46.228150,-64.447800,Barachois,CA,P,geonames_api
+5893064,53.066610,-121.519480,Barkerville,CA,P,geonames_api
+5893091,48.848900,-125.380780,Barkley Sound,CA,H,geonames_api
+5893262,45.666850,-62.348610,Barneys River,CA,H,geonames_api
+5893298,45.107270,-71.883430,Barnston,CA,P,geonames_api
+5894171,44.400110,-79.666340,Barrie,CA,P,geonames_api
+5894177,44.233420,-76.466100,Barriefield,CA,L,geonames_api
+5894228,43.562850,-65.561730,Barrington,CA,P,geonames_api
+5894239,43.508850,-65.620570,Barrington Passage,CA,H,geonames_api
+5894468,43.233410,-79.866330,Barton,CA,L,geonames_api
+5894501,50.420410,-114.246410,Bar U Ranch National Historic Site of Canada,CA,L,geonames_api
+5894955,67.584110,-108.502340,Bathurst Inlet,CA,H,geonames_api
+5894987,52.733380,-106.101120,Batoche,CA,P,geonames_api
+5895070,52.734860,-108.309100,Battleford,CA,P,geonames_api
+5895945,52.801470,-106.376130,Beardy's 97 and Okemasis 96,CA,L,geonames_api
+5896216,44.566850,-65.648840,Bear River,CA,P,geonames_api
+5896428,46.973520,-65.571180,Beaubears Island,CA,T,geonames_api
+5896445,45.966770,-70.649030,Beauce-Sartigan,CA,L,geonames_api
+5896495,45.313410,-73.872500,Beauharnois,CA,P,geonames_api
+5896518,45.883590,-64.579730,Beaumont,CA,P,geonames_api
+5897209,46.341060,-72.432240,Bécancour,CA,P,geonames_api
+5897212,46.316750,-72.182400,Bécancour,CA,L,geonames_api
+5897287,45.083410,-76.082680,Beckwith,CA,L,geonames_api
+5897319,46.337000,-63.722000,Bedeque,CA,P,geonames_api
+5897321,44.725520,-63.667320,Bedford,CA,P,geonames_api
+5897540,44.079880,-79.781600,Beeton,CA,P,geonames_api
+5897970,45.940280,-64.612500,Belliveau Village,CA,P,geonames_api
+5898116,49.766700,-113.035170,Belly River,CA,H,geonames_api
+5898437,60.091670,-134.865560,Bennett Lake,CA,H,geonames_api
+5898664,52.365310,-97.029830,Berens River,CA,P,geonames_api
+5898971,46.111290,-64.940480,Berry Mills,CA,P,geonames_api
+5899017,46.083360,-73.182450,Berthierville,CA,P,geonames_api
+5899066,45.059500,-64.741290,Berwick North,CA,P,geonames_api
+5899211,49.816650,-55.781440,Betts Cove,CA,H,geonames_api
+5899324,44.083420,-78.316230,Bewdley,CA,L,geonames_api
+5899423,43.216790,-81.383060,Biddulph,CA,L,geonames_api
+5899532,50.393230,-125.135260,Big Bay,CA,P,geonames_api
+5899628,46.285350,-60.413360,Big Bras d'Or,CA,P,geonames_api
+5901191,45.122960,-64.572380,Billtown,CA,P,geonames_api
+5902673,47.533190,-52.648040,Blackhead,CA,L,geonames_api
+5903130,45.668860,-62.980280,Black River,CA,P,geonames_api
+5903851,46.183360,-82.958170,Blind River,CA,P,geonames_api
+5903955,49.511100,-113.182450,Blood 148,CA,L,geonames_api
+5903999,44.529320,-65.824660,Bloomfield,CA,P,geonames_api
+5905307,45.233380,-72.365800,Bolton,CA,L,geonames_api
+5905393,48.649890,-53.114740,Bonavista,CA,P,geonames_api
+5905407,44.083410,-79.682930,Bond Head,CA,P,geonames_api
+5906831,43.916820,-78.682860,Bowmanville,CA,P,geonames_api
+5906848,49.950070,-111.685050,Bow River,CA,H,geonames_api
+5907990,43.133400,-80.266360,Brantford,CA,P,geonames_api
+5908203,46.735140,-65.880080,Breadalbane,CA,P,geonames_api
+5908722,45.434080,-62.608250,Bridgeville,CA,P,geonames_api
+5908723,44.378560,-64.518820,Bridgewater,CA,P,geonames_api
+5908811,46.233360,-83.266580,Bright,CA,L,geonames_api
+5908836,44.100120,-77.766190,Brighton,CA,P,geonames_api
+5909050,53.999830,-125.003200,British Columbia,CA,A,geonames_api
+5909230,50.377740,-102.579170,Broadview,CA,P,geonames_api
+5909294,44.591320,-75.687050,Brockville,CA,P,geonames_api
+5909464,45.250150,-63.281980,Brookfield,CA,P,geonames_api
+5909489,45.006040,-64.010090,Brooklyn,CA,P,geonames_api
+5909514,50.583410,-111.885090,Brooks,CA,P,geonames_api
+5909665,43.916820,-79.099590,Brougham,CA,L,geonames_api
+5909969,45.683420,-74.415900,Brownsburg-Chatham,CA,P,geonames_api
+5910127,46.300060,-83.799920,Bruce Mines,CA,P,geonames_api
+5910165,46.183410,-62.565350,Brudenell Point,CA,T,geonames_api
+5910166,46.183410,-62.548650,Brudenell River,CA,H,geonames_api
+5910185,45.739650,-63.178620,Brule,CA,P,geonames_api
+5911495,47.082900,-55.190710,Burin,CA,P,geonames_api
+5911592,43.386210,-79.837130,Burlington,CA,P,geonames_api
+5911596,43.282010,-79.896830,Burlington Heights,CA,T,geonames_api
+5912156,49.310000,-122.979000,Burrard Inlet Indian Reserve 3,CA,L,geonames_api
+5912244,45.861530,-66.448550,Burton,CA,P,geonames_api
+5912997,46.466800,-62.615350,Cable Head,CA,T,geonames_api
+5913049,50.810110,-121.324600,Cache Creek,CA,P,geonames_api
+5913246,43.150100,-80.199660,Cainsville,CA,L,geonames_api
+5913414,43.865440,-79.993220,Caledon,CA,P,geonames_api
+5913424,43.067380,-79.954720,Caledonia,CA,P,geonames_api
+5913490,51.050110,-114.085290,Calgary,CA,P,geonames_api
+5913692,45.202350,-64.113360,Cambridge,CA,P,geonames_api
+5913695,43.360100,-80.312690,Cambridge,CA,P,geonames_api
+5913716,44.333420,-76.832730,Camden East,CA,L,geonames_api
+5914203,46.783450,-64.298740,Campbellton,CA,P,geonames_api
+5914799,45.132890,-64.435760,Canard,CA,P,geonames_api
+5914921,45.157920,-64.425200,Canning,CA,P,geonames_api
+5915104,45.333450,-60.998510,Canso,CA,P,geonames_api
+5915569,46.033200,-60.805210,Cape Breton Island,CA,T,geonames_api
+5915577,47.098590,-52.953190,Cape Broyle,CA,P,geonames_api
+5916083,50.009970,-125.191700,Cape Mudge Indian Reserve 10,CA,L,geonames_api
+5916341,46.233430,-63.632020,Cape Traverse,CA,P,geonames_api
+5916380,46.716850,-64.398750,Cape Wolfe,CA,P,geonames_api
+5916408,49.317710,-123.133860,Capilano Indian Reserve 5,CA,L,geonames_api
+5916722,47.739190,-53.227200,Carbonear,CA,P,geonames_api
+5916754,60.166090,-134.703670,Carcross,CA,P,geonames_api
+5916777,46.147240,-66.784680,Cardigan,CA,P,geonames_api
+5916781,46.200100,-62.498640,Cardigan River,CA,H,geonames_api
+5916786,44.783410,-75.382630,Cardinal,CA,P,geonames_api
+5917121,45.569480,-74.374240,Carillon,CA,L,geonames_api
+5917259,43.145570,-79.985990,Carluke,CA,P,geonames_api
+5917644,44.050120,-77.582780,Carrying Place,CA,P,geonames_api
+5917910,46.750150,-64.082030,Cascumpec,CA,P,geonames_api
+5918021,45.316800,-75.082600,Casselman,CA,P,geonames_api
+5918117,45.516810,-76.582710,Castleford,CA,L,geonames_api
+5918581,46.483420,-63.382000,Cavendish,CA,P,geonames_api
+5919023,52.166380,-127.003230,Central Coast Regional District,CA,A,geonames_api
+5919566,45.450080,-73.282460,Chambly,CA,P,geonames_api
+5919916,47.800120,-83.433100,Chapleau,CA,L,geonames_api
+5920283,45.166790,-74.632570,Charlottenburgh,CA,L,geonames_api
+5920288,46.234590,-63.125600,Charlottetown,CA,P,geonames_api
+5920433,45.383380,-73.749190,Châteauguay,CA,P,geonames_api
+5920454,46.997130,-65.548120,Chatham Head,CA,P,geonames_api
+5920457,42.412240,-82.184940,Chatham,CA,P,geonames_api
+5920470,44.450090,-80.899730,Chatsworth,CA,P,geonames_api
+5920546,43.740720,-66.119240,Chebogue Point,CA,P,geonames_api
+5921077,46.633440,-61.015210,Chéticamp,CA,P,geonames_api
+5921225,48.419630,-71.063690,Chicoutimi,CA,P,geonames_api
+5921318,52.116670,-122.566670,Chilcotin Forest,CA,P,geonames_api
+5921556,43.057100,-79.047170,Chippawa,CA,P,geonames_api
+5922204,43.630000,-79.755560,Churchville,CA,P,geonames_api
+5923077,43.972370,-79.129130,Claremont,CA,P,geonames_api
+5924039,43.616790,-81.533070,Clinton,CA,P,geonames_api
+5924578,44.658890,-78.797780,Coboconk,CA,P,geonames_api
+5924579,43.959770,-78.165150,Cobourg,CA,P,geonames_api
+5924962,42.850100,-80.316370,Colborne,CA,L,geonames_api
+5924982,45.333450,-63.248680,Colchester,CA,A,geonames_api
+5925053,44.285540,-78.305440,Coldsprings,CA,P,geonames_api
+5925975,44.483400,-80.216380,Collingwood,CA,P,geonames_api
+5926310,44.288720,-66.127950,Comeauville,CA,P,geonames_api
+5926469,45.233390,-71.832370,Compton,CA,L,geonames_api
+5926510,47.749890,-52.998070,Conception Bay,CA,H,geonames_api
+5926745,44.000100,-80.566400,Conn,CA,L,geonames_api
+5927140,53.411390,-113.121670,Cooking Lake,CA,P,geonames_api
+5927277,44.183410,-79.699640,Cookstown,CA,P,geonames_api
+5927547,46.466780,-81.066440,Copper Cliff,CA,P,geonames_api
+5927917,45.959960,-64.569010,Cormier Cove,CA,P,geonames_api
+5928065,45.018090,-74.728150,Cornwall,CA,P,geonames_api
+5928347,45.250000,-74.216670,Coteau-Landing,CA,P,geonames_api
+5928366,45.283330,-74.233330,Coteau-Station,CA,P,geonames_api
+5928897,45.200150,-61.715260,Country Harbour,CA,H,geonames_api
+5931016,46.000150,-64.832070,Coverdale,CA,L,geonames_api
+5931082,44.631410,-63.432180,Cow Bay,CA,P,geonames_api
+5931109,50.533360,-102.701000,Cowessess 73,CA,L,geonames_api
+5931133,48.755850,-123.638160,Cowichan River,CA,H,geonames_api
+5931581,44.083420,-77.882800,Cramahe,CA,A,geonames_api
+5931800,49.582778,-115.753056,St. Mary's 1,,,lincs_inline
+5933441,44.433890,-79.641940,Crown Hill,CA,P,geonames_api
+5933880,45.750150,-64.165430,Cumberland County,CA,A,geonames_api
+5933901,53.954290,-102.264770,Cumberland House Provincial Park,CA,L,geonames_api
+5934039,47.549890,-53.214780,Cupids,CA,P,geonames_api
+5934090,48.749940,-94.550410,Curran,CA,L,geonames_api
+5934721,44.481790,-79.683240,Dalston,CA,P,geonames_api
+5935042,45.783370,-72.015800,Danville,CA,P,geonames_api
+5935238,43.983420,-78.766260,Darlington,CA,L,geonames_api
+5936421,42.936940,-79.911390,Decewsville,CA,P,geonames_api
+5937173,43.953430,-65.994550,Deerfield,CA,P,geonames_api
+5938160,52.516820,-68.965500,Deschambault,CA,L,geonames_api
+5938187,44.200120,-77.049440,Deseronto,CA,P,geonames_api
+5939236,44.621880,-65.758600,Digby,CA,P,geonames_api
+5940915,46.066790,-80.049660,Dokis Indian Reserve 9,CA,L,geonames_api
+5941660,47.533190,-52.831350,Donovans,CA,L,geonames_api
+5941705,43.383390,-80.432980,Doon,CA,L,geonames_api
+5941759,45.901550,-64.507950,Dorchester,CA,P,geonames_api
+5941812,46.083410,-76.232670,Dorion,CA,L,geonames_api
+5941925,45.447300,-73.753350,Dorval,CA,P,geonames_api
+5942099,45.978320,-66.731080,Douglas,CA,P,geonames_api
+5942545,43.754550,-80.671510,Drayton,CA,P,geonames_api
+5942576,42.583380,-82.183100,Dresden,CA,P,geonames_api
+5942845,45.883360,-72.482410,Drummondville,CA,P,geonames_api
+5943309,52.816780,-106.234420,Duck Lake,CA,P,geonames_api
+5944072,45.133380,-72.782430,Dunham,CA,L,geonames_api
+5944328,46.216670,-64.316670,Dupuis Corner,CA,P,geonames_api
+5944367,45.666770,-72.249100,Durham,CA,L,geonames_api
+5944976,45.578030,-63.139500,Earltown,CA,P,geonames_api
+5945055,46.019210,-60.371570,East Bay,CA,P,geonames_api
+5945694,45.116310,-63.683240,East Gore,CA,P,geonames_api
+5945711,45.083450,-63.748710,East Hants,CA,A,geonames_api
+5945802,43.920980,-77.197850,East Lake,CA,H,geonames_api
+5945973,46.450100,-61.998610,East Point,CA,P,geonames_api
+5946013,43.670630,-65.760900,East Pubnico,CA,P,geonames_api
+5946768,53.550140,-113.468710,Edmonton,CA,P,geonames_api
+5946961,46.965370,-65.628830,Eel Ground,CA,P,geonames_api
+5947115,46.566850,-64.232040,Egmont Bay,CA,H,geonames_api
+5947433,44.980300,-63.216330,Elderbank,CA,P,geonames_api
+5947580,45.800160,-65.115500,Elgin,CA,P,geonames_api
+5947587,42.500090,-81.666470,Elgin County,CA,A,geonames_api
+5947968,44.489540,-76.156230,Ellisville,CA,P,geonames_api
+5948033,44.192780,-79.820560,Elmgrove,CA,P,geonames_api
+5948111,43.683400,-80.432990,Elora,CA,P,geonames_api
+5948498,43.153850,-80.899890,Embro,CA,P,geonames_api
+5948530,46.366830,-63.548710,Emerald Junction,CA,P,geonames_api
+5948770,50.549800,-119.152340,Enderby,CA,P,geonames_api
+5948943,46.281070,-60.544500,Englishtown,CA,P,geonames_api
+5948976,42.850080,-82.116510,Enniskillen,CA,A,geonames_api
+5949533,42.166780,-82.833130,Essex County,CA,A,geonames_api
+5949543,49.229720,-122.811110,Riverview,CA,P,geonames_api
+5949601,51.150100,-108.751440,Eston,CA,P,geonames_api
+5950939,46.466800,-62.115310,Fairfield,CA,P,geonames_api
+5951285,45.268090,-75.829040,Fallowfield,CA,P,geonames_api
+5951724,49.266520,-118.135570,Farron,CA,L,geonames_api
+5952285,44.599850,-63.559690,Fergusons Cove,CA,P,geonames_api
+5952370,49.499960,-115.068710,Fernie,CA,P,geonames_api
+5952452,47.033190,-52.881360,Ferryland,CA,P,geonames_api
+5952770,42.716790,-81.316440,Fingal,CA,P,geonames_api
+5954157,43.335830,-80.063610,Flamborough,CA,P,geonames_api
+5954427,46.000120,-62.881970,Flat River,CA,H,geonames_api
+5954621,42.294170,-82.296670,Fletcher,CA,P,geonames_api
+5954986,45.482980,-67.060760,Flume Ridge,CA,P,geonames_api
+5955497,43.100080,-81.999800,Forest,CA,P,geonames_api
+5955777,52.210000,-81.678000,Fort Albany,CA,P,geonames_api
+5955784,46.316810,-62.931970,Fort Augustus,CA,P,geonames_api
+5955793,58.722240,-111.120530,Fort Chipewyan,CA,P,geonames_api
+5955808,51.466800,-56.964810,Forteau,CA,P,geonames_api
+5955815,42.900120,-78.932860,Fort Erie,CA,P,geonames_api
+5955826,48.616670,-93.400300,Fort Frances,CA,P,geonames_api
+5955860,46.483350,-72.032390,Fortierville,CA,P,geonames_api
+5955879,49.168380,-122.580040,Fort Langley,CA,P,geonames_api
+5955891,49.716710,-113.418570,Fort Macleod,CA,P,geonames_api
+5955913,45.383450,-61.481840,Fort Point,CA,T,geonames_api
+5955925,61.170730,-113.672700,Fort Resolution,CA,P,geonames_api
+5956030,43.200110,-79.549610,Forty Mile Creek,CA,H,geonames_api
+5957091,46.766850,-64.065430,Fox Point,CA,T,geonames_api
+5957607,54.058140,-124.850400,Fraser Lake,CA,P,geonames_api
+5957762,44.166820,-76.916130,Fredericksburgh,CA,L,geonames_api
+5957776,45.945410,-66.665580,Fredericton,CA,P,geonames_api
+5958446,53.176110,-114.525000,Frog Lake,CA,H,geonames_api
+5958506,44.666820,-76.749410,Frontenac County,CA,A,geonames_api
+5958945,45.770140,-66.161660,Gagetown,CA,P,geonames_api
+5959084,48.932940,-123.452650,Galiano Island,CA,T,geonames_api
+5959212,43.355830,-80.310560,Galt City Centre,CA,P,geonames_api
+5959326,44.333420,-76.166070,Gananoque,CA,P,geonames_api
+5959491,44.200120,-76.466100,Garden Island,CA,T,geonames_api
+5959530,46.550060,-84.099930,Garden River Indian Reserve 14,CA,L,geonames_api
+5959878,48.833410,-64.481940,Gaspé,CA,P,geonames_api
+5960304,46.400050,-72.274100,Gentilly,CA,P,geonames_api
+5960531,46.183400,-62.531950,Georgetown,CA,P,geonames_api
+5960533,43.650110,-79.916340,Georgetown,CA,P,geonames_api
+5960540,45.138930,-72.252050,Georgeville,CA,P,geonames_api
+5961436,54.993640,-129.955900,Kincolith,CA,P,geonames_api
+5961564,46.196950,-59.956980,Glace Bay,CA,P,geonames_api
+5961833,45.580040,-62.162350,Glen Bard,CA,P,geonames_api
+5962057,46.112440,-61.363830,Glenora Falls,CA,P,geonames_api
+5962091,45.040880,-72.546500,Glen Sutton,CA,P,geonames_api
+5962202,45.300100,-75.632640,Gloucester,CA,L,geonames_api
+5962421,49.500090,-67.748900,Godbout,CA,L,geonames_api
+5962442,43.741710,-81.713390,Goderich,CA,P,geonames_api
+5962520,47.675210,-81.722320,Gogama,CA,P,geonames_api
+5962535,44.983400,-79.932960,Go Home Bay,CA,H,geonames_api
+5962867,51.066720,-103.184310,Goodeve,CA,P,geonames_api
+5963255,52.316720,-108.267350,Goose Lake,CA,H,geonames_api
+5964055,44.000120,-78.016210,Grafton,CA,P,geonames_api
+5964110,53.503980,-132.309040,Graham Island,CA,T,geonames_api
+5964215,45.400080,-72.732430,Granby,CA,P,geonames_api
+5964318,46.300140,-64.565460,Grande-Digue,CA,P,geonames_api
+5964337,45.220680,-73.301060,Grande-Ligne,CA,P,geonames_api
+5964605,44.656110,-66.771470,Grand Manan,CA,L,geonames_api
+5964633,45.950140,-60.781790,Grand Narrows,CA,P,geonames_api
+5964685,42.850110,-79.566310,Grand River,CA,H,geonames_api
+5964700,46.490000,-80.990010,Sudbury,CA,P,geonames_api
+5965462,49.883360,-106.551220,Gravelbourg,CA,P,geonames_api
+5965546,44.916810,-79.366330,Gravenhurst,CA,P,geonames_api
+5965700,44.340910,-76.108570,Gray's Creek,CA,H,geonames_api
+5965889,45.416850,-63.598700,Great Village,CA,P,geonames_api
+5965944,44.150120,-79.016280,Greenbank,CA,P,geonames_api
+5966373,54.283470,-107.784660,Green Lake,CA,P,geonames_api
+5966617,49.066580,-53.564760,Greenspond,CA,P,geonames_api
+5966678,45.084320,-64.398320,Greenwich,CA,P,geonames_api
+5966925,44.333390,-80.749720,Grey County,CA,A,geonames_api
+5967149,43.200110,-79.566310,Grimsby,CA,P,geonames_api
+5967400,44.364110,-66.090510,Grosses Coques,CA,P,geonames_api
+5967457,55.520280,-116.161110,Grouard,CA,P,geonames_api
+5967629,43.545940,-80.255990,Guelph,CA,P,geonames_api
+5968619,45.383450,-61.498540,Guysborough,CA,P,geonames_api
+5969582,43.965400,-77.286590,Hallowell,CA,P,geonames_api
+5969782,43.250110,-79.849630,Hamilton,CA,P,geonames_api
+5970414,45.066570,-64.179680,Hantsport,CA,P,geonames_api
+5970492,47.686470,-53.232570,Harbour Grace,CA,P,geonames_api
+5970551,47.433190,-53.164780,Harbour Main,CA,P,geonames_api
+5971007,44.675430,-76.124940,Harlem,CA,P,geonames_api
+5971069,43.315400,-80.951040,Harmony,CA,P,geonames_api
+5971258,50.500120,-59.478010,Harrington Harbour,CA,P,geonames_api
+5971696,45.724580,-64.710280,Harvey,CA,P,geonames_api
+5971973,45.183390,-71.932380,Hatley,CA,P,geonames_api
+5972068,46.148340,-64.398920,Haute-Aboujagane,CA,P,geonames_api
+5972146,46.000150,-65.315510,Havelock,CA,P,geonames_api
+5972214,47.402850,-61.815950,Havre-aux-Maisons,CA,P,geonames_api
+5972227,45.683440,-61.531850,Havre Boucher,CA,P,geonames_api
+5972360,45.600090,-74.615950,Hawkesbury,CA,P,geonames_api
+5972863,45.300100,-75.882660,Hazeldean,CA,P,geonames_api
+5972962,49.869700,-97.386260,Headingley,CA,A,geonames_api
+5974382,69.582940,-139.088660,Herschel Island,CA,T,geonames_api
+5974407,43.433400,-80.316370,Hespeler Village,CA,P,geonames_api
+5975217,43.966820,-77.449480,Hillier,CA,L,geonames_api
+5975300,46.071030,-61.347830,Hillsboro,CA,P,geonames_api
+5975301,45.919850,-64.655160,Hillsborough,CA,P,geonames_api
+5975319,43.462640,-81.581800,Hills Green,CA,P,geonames_api
+5976014,43.016670,-80.697500,Holbrook,CA,P,geonames_api
+5976848,46.433420,-63.398700,Hope River,CA,P,geonames_api
+5976863,45.483450,-62.698640,Hopewell,CA,P,geonames_api
+5976866,45.847730,-64.576440,Hopewell Cape,CA,P,geonames_api
+5976869,45.765900,-64.683400,Hopewell Hill,CA,P,geonames_api
+5977103,44.150100,-80.199680,Horning's Mills,CA,P,geonames_api
+5977556,45.108740,-64.291620,Hortonville,CA,P,geonames_api
+5977778,56.200200,-112.501990,House River,CA,H,geonames_api
+5978765,45.333410,-79.216320,Huntsville,CA,P,geonames_api
+5979157,45.308370,-73.235690,Iberville,CA,P,geonames_api
+5979458,43.079240,-81.380510,Ilderton,CA,P,geonames_api
+5979570,50.217950,-63.150790,Île à la Chasse,CA,T,geonames_api
+5979885,46.184760,-72.996940,Île aux Grues,CA,T,geonames_api
+5981573,45.379280,-73.956400,Île Perrot,CA,T,geonames_api
+5982736,45.090430,-63.486190,Indian Brook 14,CA,L,geonames_api
+5982839,50.533360,-103.667750,Indian Head,CA,P,geonames_api
+5983175,43.033390,-80.883020,Ingersoll,CA,P,geonames_api
+5983813,44.850110,-75.916060,Irish Creek,CA,H,geonames_api
+5983969,45.472780,-75.740280,Ironside,CA,P,geonames_api
+5983993,44.850100,-75.316020,Iroquois,CA,P,geonames_api
+5984024,47.533190,-52.864760,Irvine,CA,L,geonames_api
+5984636,47.583310,-58.981870,Isle aux Morts,CA,P,geonames_api
+5984804,48.133440,-82.499840,Ivanhoe,CA,L,geonames_api
+5985048,51.926270,-97.311400,Jackhead,CA,P,geonames_api
+5986174,45.831300,-66.111800,Jemseg,CA,P,geonames_api
+5986388,43.199170,-80.106110,Jerseyville,CA,P,geonames_api
+5986393,45.583440,-66.232160,Jerusalem Ridge,CA,T,geonames_api
+5987650,46.016400,-73.423600,Joliette,CA,P,geonames_api
+5988641,45.410980,-73.681440,Kahnawake,CA,L,geonames_api
+5989045,50.666480,-120.319200,Kamloops,CA,P,geonames_api
+5989068,51.566680,-101.900930,Kamsack,CA,P,geonames_api
+5990206,50.557510,-100.305840,Keeseekoowenin 61,CA,L,geonames_api
+5990343,44.379870,-65.244240,Kejimkujik Lake,CA,H,geonames_api
+5990696,44.400110,-79.582930,Kempenfelt Bay,CA,H,geonames_api
+5990714,44.428820,-65.120470,Kempt,CA,P,geonames_api
+5992375,46.250100,-62.498640,Kings County,CA,A,geonames_api
+5992397,45.884370,-66.908530,Kingsclear,CA,P,geonames_api
+5992496,45.502720,-65.975090,Kingston,CA,P,geonames_api
+5992500,44.229760,-76.480980,Kingston,CA,P,geonames_api
+5992864,43.323490,-81.313320,Kirkton,CA,P,geonames_api
+5992996,43.425370,-80.511200,Kitchener,CA,P,geonames_api
+5993609,50.777290,-125.630550,Knight Inlet,CA,H,geonames_api
+5993723,45.217260,-72.518170,Knowlton,CA,P,geonames_api
+5994006,52.100070,-116.402180,Kootenay Plains,CA,T,geonames_api
+5994135,46.795820,-65.055780,Kouchibouguac,CA,P,geonames_api
+5994265,47.928780,-79.891270,Krugerdorf,CA,P,geonames_api
+5994339,67.827430,-115.096490,Kugluktuk,CA,P,geonames_api
+5994517,58.107320,-68.399680,Kuujjuaq,CA,P,geonames_api
+5995294,45.313930,-73.345410,L'Acadie,CA,P,geonames_api
+6001020,46.223940,-76.054680,Lac Blue Sea,CA,H,geonames_api
+6011715,45.450000,-74.000000,Lake of Two Mountains,CA,H,geonames_api
+6011717,48.710000,-70.495000,Lac des Deux Montagnes,CA,H,geonames_api
+6022129,45.958890,-74.420280,Lac Garry,CA,H,geonames_api
+6024236,45.700040,-73.557920,Lachenaie,CA,P,geonames_api
+6032265,48.024440,-77.053890,Lac Matchi-Manitou,CA,H,geonames_api
+6035592,45.083380,-73.365850,Lacolle,CA,P,geonames_api
+6047032,49.551940,-76.450000,Lac Waswanipi,CA,H,geonames_api
+6047724,49.466610,-54.048070,Ladle Cove,CA,L,geonames_api
+6048370,44.433420,-78.266230,Lakefield,CA,P,geonames_api
+6048611,43.750120,-77.999510,Lake Ontario,CA,H,geonames_api
+6048815,52.131910,-97.261760,Winnipeg,CA,H,geonames_api
+6048894,46.866650,-55.815050,Lamaline,CA,P,geonames_api
+6048988,42.900090,-81.299750,Lambeth,CA,L,geonames_api
+6049022,43.656200,-79.508490,Lambton Mills,CA,P,geonames_api
+6049127,45.083410,-76.332690,Lanark,CA,L,geonames_api
+6049144,45.141790,-74.503460,Lancaster,CA,P,geonames_api
+6049480,43.833410,-79.416310,Langstaff,CA,L,geonames_api
+6049537,45.966770,-73.215850,Lanoraie,CA,P,geonames_api
+6049863,45.416780,-73.499170,La Prairie,CA,P,geonames_api
+6049870,45.665380,-73.051940,La Présentation-de-la-Sainte-Vierge,CA,L,geonames_api
+6049942,45.613390,-60.761440,L'Ardoise,CA,P,geonames_api
+6050263,45.823180,-73.429400,L'Assomption,CA,P,geonames_api
+6050595,52.216820,-68.732100,Lauzon,CA,L,geonames_api
+6050610,45.569950,-73.692000,Laval,CA,P,geonames_api
+6051122,42.050090,-82.599810,Leamington,CA,P,geonames_api
+6051330,50.750070,-103.701030,Lebret,CA,P,geonames_api
+6051719,45.633400,-74.899280,Lefaivre,CA,L,geonames_api
+6052878,44.021940,-78.649170,Leskard,CA,P,geonames_api
+6053033,55.440560,-115.488610,Lesser Slave Lake,CA,H,geonames_api
+6053154,49.699990,-112.818560,Lethbridge,CA,P,geonames_api
+6053889,51.383410,-57.198130,L'Île-Verte,CA,L,geonames_api
+6054258,45.900120,-66.582180,Lincoln,CA,P,geonames_api
+6054350,44.350120,-78.732860,Lindsay,CA,P,geonames_api
+6055050,46.498330,-81.011670,Little Britain,CA,P,geonames_api
+6055388,45.979270,-81.924800,Little Current,CA,P,geonames_api
+6055929,44.710320,-62.840540,Little Harbour,CA,P,geonames_api
+6057388,46.115220,-64.020700,Little Shemogue,CA,P,geonames_api
+6057856,44.036390,-64.720440,Liverpool,CA,P,geonames_api
+6058069,43.033390,-81.466460,Lobo,CA,L,geonames_api
+6058175,45.383390,-74.599260,Lochiel,CA,L,geonames_api
+6058560,42.983390,-81.233040,London,CA,P,geonames_api
+6058563,45.483450,-63.598700,Londonderry,CA,P,geonames_api
+6060249,44.583400,-80.483000,Lora Bay,CA,H,geonames_api
+6060654,46.266820,-63.231990,Lot 32,CA,L,geonames_api
+6060674,46.166810,-62.865370,Lot 50,CA,L,geonames_api
+6060697,46.616750,-71.932390,Lotbinière,CA,P,geonames_api
+6060789,45.916840,-59.965130,Louisbourg,CA,P,geonames_api
+6060839,46.255940,-72.941450,Louiseville,CA,P,geonames_api
+6061152,45.708640,-65.559830,Lower Cove,CA,P,geonames_api
+6061372,46.166810,-62.565350,Lower Montague,CA,P,geonames_api
+6061777,45.394170,-75.815830,Lucerne,CA,P,geonames_api
+6062069,44.378470,-64.316580,Lunenburg,CA,P,geonames_api
+6062173,42.731110,-80.958890,Luton,CA,P,geonames_api
+6062534,46.066840,-61.381830,Mabou,CA,P,geonames_api
+6063989,44.508420,-77.474480,Madoc,CA,P,geonames_api
+6064485,45.316850,-63.498690,Maitland,CA,P,geonames_api
+6064486,44.633420,-75.616040,Maitland,CA,P,geonames_api
+6064946,46.533430,-63.682020,Malpeque,CA,P,geonames_api
+6064966,43.720620,-79.642210,Malton,CA,P,geonames_api
+6065053,45.208380,-66.108560,Manawagonish Island,CA,T,geonames_api
+6065065,45.452590,-61.468250,Manchester,CA,P,geonames_api
+6065171,55.000190,-97.000490,Manitoba,CA,A,geonames_api
+6065218,45.833370,-82.333130,Manitoulin Island,CA,T,geonames_api
+6065256,45.743150,-81.810980,Manitowaning,CA,P,geonames_api
+6065262,46.383410,-75.966050,Maniwaki,CA,P,geonames_api
+6065401,45.216800,-75.682650,Manotick,CA,L,geonames_api
+6065592,49.906280,-109.480940,Maple Creek,CA,P,geonames_api
+6066350,45.433380,-73.165850,Marieville,CA,P,geonames_api
+6066504,44.316800,-80.649710,Markdale,CA,P,geonames_api
+6066867,46.300120,-63.065380,Marshfield,CA,P,geonames_api
+6067481,45.735150,-62.043880,Maryvale,CA,P,geonames_api
+6067494,45.749650,-73.599560,Mascouche,CA,P,geonames_api
+6067547,46.228600,-73.019170,Maskinongé,CA,P,geonames_api
+6067714,45.383450,-63.481990,Masstown,CA,P,geonames_api
+6067959,46.316810,-78.699570,Mattawa,CA,P,geonames_api
+6068246,45.100140,-77.834200,Maxwell,CA,P,geonames_api
+6071491,45.687780,-62.917600,Meadowville,CA,P,geonames_api
+6071618,50.039280,-110.676610,Medicine Hat,CA,P,geonames_api
+6071662,45.991000,-67.476000,Meductic,CA,P,geonames_api
+6071948,48.383460,-82.099880,Melrose,CA,L,geonames_api
+6072045,46.004350,-64.551560,Memramcook,CA,P,geonames_api
+6072283,45.327400,-75.721840,Merivale,CA,P,geonames_api
+6072312,46.266820,-63.031980,Mermaid,CA,P,geonames_api
+6072350,50.112250,-120.794200,Merritt,CA,P,geonames_api
+6072530,54.337310,-130.444040,Metlakatla,CA,P,geonames_api
+6073131,45.050150,-63.148670,Middle Musquodoboit,CA,P,geonames_api
+6073363,44.750100,-79.882960,Midland,CA,P,geonames_api
+6073377,50.915320,-114.059030,Midnapore,CA,P,geonames_api
+6073748,45.330040,-63.300210,Millbrook,CA,P,geonames_api
+6073766,45.666090,-63.378150,Mill Brook,CA,P,geonames_api
+6074108,44.200120,-76.749420,Millhaven,CA,P,geonames_api
+6074229,46.766850,-64.082030,Mill River,CA,H,geonames_api
+6074278,45.615420,-62.899520,Millsville,CA,P,geonames_api
+6074280,45.166850,-67.298890,Milltown,CA,P,geonames_api
+6074292,44.145150,-64.648670,Mill Village,CA,P,geonames_api
+6074375,44.066860,-64.748780,Milton,CA,P,geonames_api
+6074377,43.516810,-79.882940,Milton,CA,P,geonames_api
+6074440,49.981940,-94.670650,Minaki,CA,P,geonames_api
+6074658,52.583370,-105.934430,Minichinas Hills,CA,T,geonames_api
+6075038,45.775260,-64.352880,Minudie,CA,P,geonames_api
+6075061,45.652500,-74.092800,"Sainte‐Scholastique (Mirabel), Que",,,lincs_inline
+6075089,47.083410,-65.365430,Miramichi River,CA,H,geonames_api
+6075165,46.433440,-63.865430,Miscouche,CA,P,geonames_api
+6075349,46.166760,-83.016580,Mississagi River,CA,H,geonames_api
+6075357,43.578900,-79.658300,Mississauga,CA,P,geonames_api
+6075439,48.888930,-72.204900,Mistassini,CA,P,geonames_api
+6076690,46.166810,-62.648660,Montague,CA,P,geonames_api
+6076939,45.650100,-74.932580,Montebello,CA,P,geonames_api
+6076945,50.650000,-119.950000,Monte Creek,CA,P,geonames_api
+6077243,45.508840,-73.587810,Montreal,CA,P,geonames_api
+6077251,45.632020,-73.507500,Montreal East,CA,P,geonames_api
+6077338,45.333380,-73.165850,Mont-Saint-Grégoire,CA,P,geonames_api
+6077340,45.565150,-73.186800,Mont-Saint-Hilaire,CA,P,geonames_api
+6077827,45.292060,-67.278490,Moores Mills,CA,P,geonames_api
+6077991,51.266890,-80.616240,Moose Factory,CA,P,geonames_api
+6078112,50.400050,-105.534450,Moose Jaw,CA,P,geonames_api
+6078652,51.150090,-114.868730,Morley,CA,P,geonames_api
+6078707,42.383390,-81.849780,Morpeth,CA,L,geonames_api
+6078726,49.400000,-97.458980,Morris,CA,A,geonames_api
+6078737,44.900100,-75.182610,Morrisburg,CA,P,geonames_api
+6079068,44.583160,-63.923010,Mosers Island,CA,T,geonames_api
+6081043,44.966200,-65.174110,Mount Hanley,CA,P,geonames_api
+6082311,45.433440,-66.815570,Mount Pleasant,CA,T,geonames_api
+6082315,43.676560,-79.818570,Mount Pleasant,CA,P,geonames_api
+6083361,46.000110,-66.832180,Mouth of Keswick,CA,P,geonames_api
+6084631,46.000120,-62.515340,Murray Harbour,CA,P,geonames_api
+6084782,49.449910,-53.964770,Musgrave Harbour,CA,P,geonames_api
+6085126,45.183440,-66.332160,Musquash,CA,P,geonames_api
+6085154,44.783450,-63.148670,Musquodoboit Harbour,CA,P,geonames_api
+6085593,46.333370,-81.633080,Nairn,CA,L,geonames_api
+6085886,42.800110,-80.066350,Nanticoke,CA,P,geonames_api
+6085960,45.186480,-73.404680,Napierville,CA,P,geonames_api
+6085972,45.769250,-64.239720,Nappan,CA,P,geonames_api
+6086182,43.533400,-80.032950,Nassagaweya,CA,L,geonames_api
+6086198,54.991600,-129.845090,Nass River,CA,H,geonames_api
+6086358,54.077650,-124.605980,Nautley (Fort Fraser) Indian Reserve 1,CA,L,geonames_api
+6086869,43.416810,-79.866330,Nelson,CA,L,geonames_api
+6087315,44.083390,-80.999730,Neustadt,CA,P,geonames_api
+6087418,44.650120,-76.316090,Newboro,CA,P,geonames_api
+6087430,47.620000,-65.650000,"Bathurst, New Brunswick",,,lincs_inline
+6087434,44.316820,-76.866130,Newburgh,CA,P,geonames_api
+6087440,42.683390,-81.799780,Newbury,CA,P,geonames_api
+6087456,47.000110,-65.565440,Newcastle,CA,P,geonames_api
+6087472,43.917220,-78.589720,Newcastle,CA,P,geonames_api
+6087512,42.999720,-80.097220,New Credit,CA,P,geonames_api
+6087513,43.000110,-80.082950,New Credit Indian Reserve 40A,CA,L,geonames_api
+6087533,45.441390,-75.687780,New Edinburgh,CA,P,geonames_api
+6087578,46.416820,-63.348700,New Glasgow,CA,P,geonames_api
+6087579,45.583440,-62.648630,New Glasgow,CA,P,geonames_api
+6087663,46.466830,-63.515410,New London,CA,P,geonames_api
+6087701,44.050110,-79.466310,Newmarket,CA,P,geonames_api
+6087729,45.016850,-64.015430,Newport,CA,L,geonames_api
+6087758,44.733450,-64.448760,New Ross,CA,P,geonames_api
+6087884,43.216820,-79.116270,Niagara,CA,L,geonames_api
+6087892,43.100120,-79.066270,Niagara Falls,CA,P,geonames_api
+6087905,43.256550,-79.085270,Niagara-on-the-Lake,CA,P,geonames_api
+6088132,46.231400,-72.612900,"Saint-Jean-Baptiste-de-Nicolet, L.C",,,lincs_inline
+6088176,44.908620,-65.074830,Nictaux West,CA,P,geonames_api
+6089094,52.493230,-115.879670,Nordegg,CA,P,geonames_api
+6089125,42.833400,-80.382970,Norfolk County,CA,P,geonames_api
+6089169,42.716800,-80.316360,Normandale,CA,L,geonames_api
+6089821,43.416790,-80.849720,North Easthope,CA,L,geonames_api
+6089835,46.327730,-61.005020,North East Margaree,CA,P,geonames_api
+6090513,46.258420,-63.194490,North River,CA,P,geonames_api
+6090589,53.235530,-105.084740,North Saskatchewan River,CA,H,geonames_api
+6090682,46.450130,-63.815420,North St. Eleanors,CA,P,geonames_api
+6091069,69.500610,-121.504450,Northwest Territories,CA,A,geonames_api
+6091109,45.616850,-65.748840,Norton,CA,L,geonames_api
+6091191,42.983400,-80.599690,Norwich,CA,P,geonames_api
+6091192,42.916800,-80.582990,Norwich,CA,L,geonames_api
+6091399,46.876940,-72.309170,Notre-Dame-des-Anges,CA,P,geonames_api
+6091497,44.450100,-80.216380,Nottawa,CA,P,geonames_api
+6091530,44.647778,-63.571389,"Halifax, N.S",,,lincs_inline
+6091732,66.034780,-100.078130,Nunavut,CA,A,geonames_api
+6092028,49.698900,-100.934820,Oak Lake 59A,CA,L,geonames_api
+6092122,43.450110,-79.682920,Oakville,CA,P,geonames_api
+6093060,45.344830,-63.402790,Old Barns,CA,P,geonames_api
+6093943,43.670278,-79.386667,Toronto,,,lincs_inline
+6094201,43.916800,-80.099670,Orangeville,CA,P,geonames_api
+6094291,42.500090,-81.816470,Orford,CA,L,geonames_api
+6094325,44.608680,-79.420680,Orillia,CA,P,geonames_api
+6094407,45.835120,-66.479170,Oromocto,CA,P,geonames_api
+6094466,46.150110,-62.831970,Orwell,CA,P,geonames_api
+6094657,51.233410,-90.233450,Osnaburgh House,CA,L,geonames_api
+6094832,45.333380,-73.915900,Ottawa River,CA,H,geonames_api
+6095645,44.567170,-80.943490,Owen Sound,CA,P,geonames_api
+6095788,54.948530,-95.265980,Oxford House,CA,P,geonames_api
+6095824,44.150120,-77.316170,Ox Point,CA,T,geonames_api
+6096253,45.283410,-76.382700,Pakenham,CA,L,geonames_api
+6096672,45.616667,-75.016667,"Sainte-Angélique (Papineauville), Lower Canada",,,lincs_inline
+6096731,44.869750,-65.207950,Paradise,CA,P,geonames_api
+6098984,50.750070,-104.001060,Pasqua 79,CA,L,geonames_api
+6099045,45.100140,-66.982180,Passamaquoddy Bay,CA,H,geonames_api
+6100491,67.696960,-134.535500,Peel River,CA,H,geonames_api
+6100628,43.050120,-79.349590,Pelham,CA,L,geonames_api
+6100932,44.783400,-79.916370,Penetanguishene,CA,P,geonames_api
+6101112,45.776260,-65.381000,Penobsquis,CA,P,geonames_api
+6101526,44.041670,-78.385830,Perrytown,CA,P,geonames_api
+6101546,44.900110,-76.249390,Perth,CA,P,geonames_api
+6101645,44.300120,-78.316230,Peterborough,CA,P,geonames_api
+6101906,45.939350,-65.180200,Petitcodiac,CA,P,geonames_api
+6103581,42.882000,-82.152000,Petrolia,CA,P,geonames_api
+6103779,45.041710,-73.074580,Philipsburg,CA,P,geonames_api
+6104111,43.900120,-79.132890,Pickering,CA,P,geonames_api
+6104215,44.001760,-77.146370,Picton,CA,P,geonames_api
+6104221,45.678750,-62.709360,Pictou,CA,P,geonames_api
+6104222,45.500150,-62.581930,Pictou County,CA,A,geonames_api
+6104223,45.500150,-62.581930,Pictou,CA,L,geonames_api
+6104971,44.362350,-77.054180,Pinegrove,CA,P,geonames_api
+6105822,44.383420,-76.332690,Pittsburgh,CA,L,geonames_api
+6105892,47.233200,-53.964830,Placentia,CA,P,geonames_api
+6106132,45.650150,-62.915350,Plainfield,CA,P,geonames_api
+6106340,44.438910,-64.881940,Pleasant River,CA,P,geonames_api
+6106623,46.132500,-77.551940,Point Alexander,CA,P,geonames_api
+6107046,51.416800,-57.164820,Pointe au Pot,CA,T,geonames_api
+6107098,50.233440,-63.615330,Pointe aux Esquimaux,CA,T,geonames_api
+6107145,42.283390,-81.849770,Pointe aux Pins,CA,T,geonames_api
+6107215,48.583390,-72.233840,Pointe Bleue,CA,T,geonames_api
+6107685,46.287530,-72.681510,Pointe-du-Lac,CA,A,geonames_api
+6107813,45.566780,-74.382540,Pointe-Fortune,CA,P,geonames_api
+6107815,45.562810,-74.384850,Pointe-Fortune,CA,P,geonames_api
+6107831,45.465400,-75.697940,Pointe-Gatineau,CA,P,geonames_api
+6108700,44.233420,-76.466100,Point Frederick,CA,T,geonames_api
+6110850,49.116580,-53.598060,Pool's Island,CA,L,geonames_api
+6111530,49.992820,-98.269930,Portage la Prairie,CA,A,geonames_api
+6111634,43.883390,-81.716480,Port Albert,CA,L,geonames_api
+6111708,43.550110,-79.582910,Port Credit,CA,P,geonames_api
+6111712,43.200110,-79.266290,Port Dalhousie,CA,P,geonames_api
+6111719,47.583190,-53.214780,Port de Grave,CA,L,geonames_api
+6111871,46.583440,-63.882030,Port Hill,CA,P,geonames_api
+6111882,44.016820,-78.399530,Port Hope,CA,P,geonames_api
+6111940,44.947660,-65.264070,Port Lorne,CA,P,geonames_api
+6111965,43.933460,-64.848790,Port Mouton,CA,P,geonames_api
+6111986,44.100120,-78.949570,Port Perry,CA,L,geonames_api
+6112000,42.616800,-80.466380,Port Rowan,CA,P,geonames_api
+6112010,42.750100,-80.249660,Port Ryerse,CA,L,geonames_api
+6112025,44.216820,-76.516100,Portsmouth,CA,P,geonames_api
+6112027,42.666790,-81.216440,Port Stanley,CA,P,geonames_api
+6112047,43.779500,-79.135170,Port Union,CA,P,geonames_api
+6112057,45.100150,-64.415460,Port Williams,CA,P,geonames_api
+6112485,52.858480,-108.943100,Poundmaker 114,CA,L,geonames_api
+6112698,46.200110,-62.981980,Pownal,CA,P,geonames_api
+6112700,46.166810,-62.981980,Pownal Point,CA,T,geonames_api
+6112854,45.962650,-64.634860,Pré-d'en-Haut,CA,L,geonames_api
+6113027,44.716810,-75.516040,Prescott,CA,P,geonames_api
+6113141,44.715690,-63.434230,Preston,CA,P,geonames_api
+6113334,44.083420,-78.966270,Prince Albert,CA,L,geonames_api
+6113335,53.200080,-105.767720,Prince Albert,CA,P,geonames_api
+6113354,44.000120,-77.249460,Prince Edward County,CA,A,geonames_api
+6113358,46.235278,-63.126667,Charlottetown,,,lincs_inline
+6113462,43.166800,-80.532980,Princeton,CA,L,geonames_api
+6114429,43.500100,-80.199670,Puslinch,CA,L,geonames_api
+6114889,50.550070,-103.884360,Qu'Appelle,CA,P,geonames_api
+6114891,50.483300,-101.484220,Qu'Appelle River,CA,H,geonames_api
+6115047,48.723750,-65.451060,péninsule de la Gaspésie,,,lincs_inline
+6115068,53.004030,-132.034250,Haida Gwaii,CA,T,geonames_api
+6115101,45.833440,-65.998860,Queens County,CA,A,geonames_api
+6115144,43.166820,-79.049570,Queenston,CA,P,geonames_api
+6115187,52.978420,-122.493100,Quesnel,CA,P,geonames_api
+6116309,45.183410,-76.232690,Ramsay,CA,L,geonames_api
+6116338,45.374720,-75.564720,Ramsayville,CA,P,geonames_api
+6116438,49.546890,-96.829520,Randolph,CA,L,geonames_api
+6117332,49.646910,-98.547150,Rathwell,CA,L,geonames_api
+6118001,46.939030,-65.821250,Red Bank,CA,P,geonames_api
+6118158,52.266820,-113.802000,Red Deer,CA,P,geonames_api
+6119109,50.450080,-104.617800,Regina,CA,P,geonames_api
+6119433,46.926944,-52.932778,"Renews, Nfld",,,lincs_inline
+6119448,45.466810,-76.682720,Renfrew,CA,P,geonames_api
+6119496,46.816800,-65.782060,Renous River,CA,H,geonames_api
+6119518,45.742220,-73.450080,Repentigny,CA,P,geonames_api
+6121429,46.180330,-60.019620,Reserve Mines,CA,P,geonames_api
+6121663,46.649830,-64.882940,Rexton,CA,P,geonames_api
+6121847,49.883300,-95.117180,Rice Lake,CA,L,geonames_api
+6122053,46.680730,-64.880440,Richibucto,CA,P,geonames_api
+6122078,45.666770,-72.149100,Richmond,CA,P,geonames_api
+6122081,45.183400,-75.832660,Richmond,CA,P,geonames_api
+6122091,43.871110,-79.437250,Richmond Hill,CA,P,geonames_api
+6122240,50.531920,-99.466910,Riding Mountain,CA,L,geonames_api
+6122288,45.479270,-74.302380,Rigaud,CA,P,geonames_api
+6122696,45.674560,-63.900700,River Philip,CA,P,geonames_api
+6123641,46.606950,-72.384710,Rivière des Envies,CA,H,geonames_api
+6123695,45.650080,-73.582470,Rivière-des-Prairies,CA,L,geonames_api
+6123832,45.877880,-70.624030,Rivière du Moulin,CA,H,geonames_api
+6125653,48.516800,-72.232440,Roberval,CA,P,geonames_api
+6126245,45.450100,-75.682640,Rockcliffe Park,CA,P,geonames_api
+6126542,50.107800,-97.274250,Rockwood,CA,P,geonames_api
+6126749,52.366830,-114.918800,Rocky Mountain House,CA,P,geonames_api
+6127159,46.734520,-65.427050,Rogersville,CA,P,geonames_api
+6128010,52.638770,-106.349010,Rosthern No. 403,CA,A,geonames_api
+6128033,45.380460,-65.967440,Rothesay,CA,P,geonames_api
+6136507,45.266800,-79.966360,Rusholme Island,CA,T,geonames_api
+6136571,45.283400,-75.282620,Russell,CA,L,geonames_api
+6136576,50.780790,-101.284810,Russell,CA,P,geonames_api
+6136615,48.749140,-123.407920,Russell Island,CA,T,geonames_api
+6136775,42.050090,-82.666520,Ruthven,CA,L,geonames_api
+6136944,48.549640,-123.369310,Saanich,CA,P,geonames_api
+6137063,45.898680,-64.368360,Sackville,CA,P,geonames_api
+6137133,53.979610,-111.694880,Saddle Lake 125,CA,L,geonames_api
+6137270,48.416750,-71.065730,Saguenay,CA,P,geonames_api
+6137271,49.866810,-71.749010,Saguenay/Lac-Saint-Jean,CA,A,geonames_api
+6137336,45.916760,-72.932440,Saint-Aimé,CA,A,geonames_api
+6137409,45.558380,-74.333930,Saint-André-Est,CA,P,geonames_api
+6137411,45.073700,-67.053120,Saint Andrews,CA,P,geonames_api
+6137412,45.092190,-67.067070,Saint Andrews,CA,L,geonames_api
+6137445,45.033380,-73.049150,Saint-Armand,CA,P,geonames_api
+6137471,46.400060,-72.882430,Saint-Barnabé,CA,A,geonames_api
+6137484,46.183360,-73.132440,Saint-Barthélemy,CA,A,geonames_api
+6137492,45.567280,-74.096120,Saint-Benoît,CA,L,geonames_api
+6137540,45.533410,-73.349160,Saint-Bruno-de-Montarville,CA,P,geonames_api
+6137566,46.216760,-72.432410,Saint-Célestin,CA,P,geonames_api
+6137571,45.416780,-72.999140,Saint-Césaire,CA,P,geonames_api
+6137591,46.592250,-72.041600,Saint-Charles-des-Grondines,CA,P,geonames_api
+6137598,45.683380,-73.182450,Saint-Charles-sur-Richelieu,CA,P,geonames_api
+6137601,46.033370,-71.882390,Saint-Christophe-d'Arthabaska,CA,A,geonames_api
+6137603,45.100080,-73.765890,Saint-Chrysostome,CA,P,geonames_api
+6137621,48.633390,-71.699100,Saint-Coeur-de-Marie,CA,P,geonames_api
+6137633,45.366780,-73.565880,Saint-Constant,CA,P,geonames_api
+6137663,45.950060,-72.849130,Saint-David,CA,A,geonames_api
+6137676,45.783380,-73.149150,Saint-Denis-sur-Richelieu,CA,P,geonames_api
+6137696,45.950080,-74.132510,Sainte-Adèle,CA,P,geonames_api
+6137702,46.050090,-74.282520,Sainte-Agathe-des-Monts,CA,P,geonames_api
+6137733,45.406180,-73.945600,Sainte-Anne-de-Bellevue,CA,P,geonames_api
+6137737,46.551910,-64.774020,Sainte-Anne-de-Kent,CA,P,geonames_api
+6137740,46.583350,-72.199100,Sainte-Anne-de-la-Pérade,CA,P,geonames_api
+6137753,45.764680,-73.811560,Sainte-Anne-des-Plaines,CA,P,geonames_api
+6137842,45.233380,-73.515880,Saint-Édouard,CA,P,geonames_api
+6137896,45.480380,-73.872490,Sainte-Geneviève,CA,P,geonames_api
+6137900,46.530050,-72.338810,Sainte-Geneviève-de-Batiscan,CA,P,geonames_api
+6137941,45.583380,-73.332460,Sainte-Julie,CA,P,geonames_api
+6137947,45.966770,-73.715870,Sainte-Julienne,CA,P,geonames_api
+6137989,45.316480,-73.344160,Sainte-Marguerite-de-Blairfindie,CA,L,geonames_api
+6138009,46.416390,-64.826890,Sainte-Marie-de-Kent,CA,P,geonames_api
+6138038,45.250080,-73.799190,Sainte-Martine,CA,P,geonames_api
+6138041,46.133370,-73.515860,Sainte-Mélanie,CA,P,geonames_api
+6138048,48.733390,-71.849110,Sainte-Monique,CA,P,geonames_api
+6138059,45.536180,-73.618380,Saint-Enfant-Jésus,CA,L,geonames_api
+6138082,45.646170,-72.898330,Sainte-Rosalie,CA,P,geonames_api
+6138085,45.616780,-73.782490,Sainte-Rose,CA,P,geonames_api
+6138098,45.652580,-74.092010,Sainte-Scholastique,CA,P,geonames_api
+6138121,45.639220,-73.827570,Sainte-Thérèse,CA,P,geonames_api
+6138158,46.368360,-72.531620,Saint-Eugène,CA,A,geonames_api
+6138171,46.283360,-73.032440,Sainte-Ursule,CA,A,geonames_api
+6138175,45.565000,-73.905540,Saint-Eustache,CA,P,geonames_api
+6138210,46.169770,-73.425250,Saint-Félix-de-Valois,CA,P,geonames_api
+6138241,46.063700,-72.819060,Saint-François-du-Lac,CA,P,geonames_api
+6138269,46.292570,-73.384950,Saint-Gabriel-de-Brandon,CA,L,geonames_api
+6138322,45.336780,-73.158850,Saint-Grégoire-le-Grand,CA,L,geonames_api
+6138327,45.883360,-72.765830,Saint-Guillaume,CA,P,geonames_api
+6138335,45.746780,-73.601970,Saint-Henri-de-Mascouche,CA,L,geonames_api
+6138347,45.569480,-73.194150,Saint-Hilaire,CA,L,geonames_api
+6138370,45.800070,-72.865830,Saint-Hugues,CA,P,geonames_api
+6138374,45.630760,-72.956990,Saint-Hyacinthe,CA,P,geonames_api
+6138378,45.651430,-72.941240,Saint-Hyacinthe-le-Confesseur,CA,P,geonames_api
+6138449,45.520320,-73.124300,Saint-Jean-Baptiste,CA,P,geonames_api
+6138495,45.307130,-73.262590,Saint-Jean-sur-Richelieu,CA,P,geonames_api
+6138501,45.780360,-74.003650,Saint-Jérôme,CA,P,geonames_api
+6138517,45.270760,-66.056160,Saint John,CA,P,geonames_api
+6138603,45.500080,-73.510280,Saint-Lambert,CA,P,geonames_api
+6138610,45.500080,-73.665850,St Laurent,CA,P,geonames_api
+6138617,45.400080,-74.132560,Saint-Lazare,CA,P,geonames_api
+6138641,46.006170,-73.568860,Saint-Liguori,CA,A,geonames_api
+6138643,45.850080,-73.765880,Saint-Lin-Laurentides,CA,P,geonames_api
+6138668,46.740130,-64.969830,Saint-Louis de Kent,CA,P,geonames_api
+6138682,45.350000,-73.300000,Saint-Luc,CA,P,geonames_api
+6138752,45.466780,-73.265860,Saint-Mathias-sur-Richelieu,CA,P,geonames_api
+6138791,45.567580,-73.621680,Saint-Michel,CA,P,geonames_api
+6138801,46.393660,-72.660520,Saint-Michel-des-Forges,CA,A,geonames_api
+6138884,45.433380,-72.882430,Saint-Paul-d'Abbotsford,CA,A,geonames_api
+6138906,45.354070,-73.475250,Saint-Philippe,CA,A,geonames_api
+6138914,45.500080,-72.899130,Saint-Pie,CA,A,geonames_api
+6138963,45.533380,-74.199230,Saint-Placide,CA,P,geonames_api
+6138978,45.487280,-73.878890,Saint-Raphaël-Archange,CA,L,geonames_api
+6138980,45.466980,-73.609480,Saint-Raymond,CA,P,geonames_api
+6139012,48.010760,-78.941320,Saint-Roch,CA,P,geonames_api
+6139018,45.850080,-73.599170,Saint-Roch-de-lAchigan,CA,A,geonames_api
+6139043,46.518350,-72.745230,Saint-Sauveur,CA,L,geonames_api
+6139052,45.781970,-70.968450,Saint-Sébastien,CA,L,geonames_api
+6139097,45.833380,-73.349170,Saint-Sulpice,CA,A,geonames_api
+6139123,46.016770,-73.349150,Saint-Thomas,CA,P,geonames_api
+6139151,45.291750,-74.039500,Saint-Timothée,CA,P,geonames_api
+6139161,45.216780,-73.732490,Saint-Urbain-Premier,CA,P,geonames_api
+6139163,45.133380,-73.315860,Saint-Valentin,CA,A,geonames_api
+6139184,45.616780,-73.649180,Saint-Vincent-de-Paul,CA,P,geonames_api
+6139215,46.066760,-72.632420,Saint-Zéphirin-de-Courval,CA,A,geonames_api
+6139289,45.250080,-74.132530,Salaberry-de-Valleyfield,CA,P,geonames_api
+6139317,46.035110,-65.400440,Salem,CA,P,geonames_api
+6139354,46.039050,-65.046280,Salisbury,CA,P,geonames_api
+6139736,43.200110,-79.716320,Saltfleet,CA,L,geonames_api
+6139819,60.111400,-112.232760,Salt River,CA,H,geonames_api
+6139895,45.676430,-73.072630,Salvail,CA,P,geonames_api
+6139922,44.480170,-63.607330,Sambro,CA,P,geonames_api
+6140840,48.450010,-58.498510,Sandy Point,CA,P,geonames_api
+6141190,42.978660,-82.404070,Sarnia,CA,P,geonames_api
+6141242,54.000100,-106.000990,Saskatchewan,CA,A,geonames_api
+6141256,52.132380,-106.668920,Saskatoon,CA,P,geonames_api
+6141389,44.416790,-81.366450,Saugeen Shores,CA,P,geonames_api
+6141439,46.516770,-84.333250,Sault Ste. Marie,CA,P,geonames_api
+6142001,54.800220,-66.831830,Schefferville,CA,P,geonames_api
+6142455,45.988040,-66.936590,Scotch Settlement,CA,P,geonames_api
+6142478,43.016800,-80.366370,Scotland,CA,P,geonames_api
+6142498,45.533380,-71.282360,Scotstown,CA,P,geonames_api
+6142651,45.176180,-72.690820,Scottsmore,CA,L,geonames_api
+6142672,46.166840,-64.565450,Scoudouc,CA,P,geonames_api
+6143758,44.483420,-76.232680,Seeleys Bay,CA,L,geonames_api
+6143909,46.450050,-71.999090,Seigneurie Deschaillons,CA,A,geonames_api
+6143934,45.633380,-74.082510,Seigneurie du Lac-des-Deux-Montagnes,CA,L,geonames_api
+6144016,44.300120,-76.982740,Selby,CA,L,geonames_api
+6144054,50.143600,-96.884520,Selkirk,CA,P,geonames_api
+6144602,55.349980,-118.786020,Sexsmith,CA,P,geonames_api
+6145217,46.180680,-80.385780,Shanty Bay,CA,P,geonames_api
+6145293,44.100110,-79.432910,Sharon,CA,L,geonames_api
+6145563,45.600110,-76.482700,Shawville,CA,P,geonames_api
+6145668,46.219810,-64.541070,Shediac,CA,P,geonames_api
+6145815,44.916850,-62.531920,Sheet Harbour,CA,P,geonames_api
+6145825,45.890030,-66.332100,Sheffield,CA,P,geonames_api
+6145887,43.763250,-65.323550,Shelburne,CA,P,geonames_api
+6146143,45.400080,-71.899080,Sherbrooke,CA,P,geonames_api
+6147186,45.083450,-63.398690,Shubenacadie,CA,P,geonames_api
+6147439,48.649640,-123.402620,Sidney,CA,P,geonames_api
+6147564,50.789000,-112.944950,Siksika 146,CA,L,geonames_api
+6147962,42.833400,-80.299670,Simcoe,CA,P,geonames_api
+6148355,50.483350,-103.451050,Sintaluta,CA,P,geonames_api
+6148678,43.050110,-80.082950,Six Nations Indian Reserve 40,CA,L,geonames_api
+6148858,53.266140,-131.990690,Skidegate,CA,P,geonames_api
+6149993,44.403740,-78.338870,Township of Selwyn,CA,A,geonames_api
+6150174,44.904520,-76.023330,Smiths Falls,CA,P,geonames_api
+6150220,43.100110,-79.549610,Smithville,CA,P,geonames_api
+6151264,48.374630,-123.727620,Sooke,CA,P,geonames_api
+6151304,44.608750,-76.068060,Soperton,CA,P,geonames_api
+6151350,46.041780,-73.113580,Sorel-Tracy,CA,P,geonames_api
+6151455,46.350100,-62.248620,Souris,CA,P,geonames_api
+6151511,45.966040,-67.250640,Southampton,CA,P,geonames_api
+6151514,64.463320,-84.501340,Southampton Island,CA,T,geonames_api
+6151555,46.201650,-60.200990,South Bar,CA,P,geonames_api
+6152296,46.420400,-62.031400,South Lake,CA,H,geonames_api
+6152405,44.983400,-75.449330,South Mountain,CA,P,geonames_api
+6152518,46.226520,-63.104280,Southport,CA,P,geonames_api
+6152559,45.016850,-64.848790,South River,CA,H,geonames_api
+6152594,53.234450,-105.082430,South Saskatchewan River,CA,H,geonames_api
+6152920,46.016840,-61.448540,Southwest Mabou,CA,P,geonames_api
+6153532,44.850110,-75.549330,Spencerville,CA,P,geonames_api
+6153825,56.132460,-96.254840,Split Lake,CA,H,geonames_api
+6154179,45.678160,-65.812540,Springfield,CA,P,geonames_api
+6154188,44.812460,-63.738540,Springfield Lake,CA,H,geonames_api
+6154263,46.266820,-63.148690,Spring Park,CA,P,geonames_api
+6154297,45.454480,-62.623600,Springville,CA,P,geonames_api
+6154636,49.699250,-123.156310,Squamish,CA,P,geonames_api
+6154897,49.674400,-97.111240,St. Adolphe,CA,P,geonames_api
+6155033,53.633440,-113.635330,St. Albert,CA,P,geonames_api
+6155123,49.461390,-113.308330,Stand Off,CA,P,geonames_api
+6155130,45.100090,-74.782580,St. Andrews,CA,L,geonames_api
+6155131,50.250010,-97.000640,St. Andrews,CA,A,geonames_api
+6155163,46.416820,-63.098680,Stanhope,CA,P,geonames_api
+6155187,53.033200,-121.719500,Stanley,CA,P,geonames_api
+6155298,45.014550,-72.091310,Stanstead,CA,P,geonames_api
+6155300,45.018190,-72.090780,Stanstead Plain,CA,P,geonames_api
+6155376,50.963920,-103.392700,Star Blanket 83,CA,L,geonames_api
+6155703,44.402230,-66.040100,St. Bernard,CA,P,geonames_api
+6155708,49.860950,-97.062490,St. Boniface,CA,P,geonames_api
+6155709,49.882800,-97.111330,St. Boniface,CA,L,geonames_api
+6155721,43.171260,-79.242670,St. Catharines,CA,P,geonames_api
+6155734,49.878100,-97.319260,St. Charles,CA,L,geonames_api
+6155764,50.164200,-96.751210,St. Clements,CA,A,geonames_api
+6155790,45.519810,-74.465690,St. Davids,CA,P,geonames_api
+6155866,49.669690,-96.650000,Ste. Anne,CA,P,geonames_api
+6156122,46.421530,-63.809820,St. Eleanors,CA,P,geonames_api
+6156141,45.558540,-62.660690,Stellarton,CA,P,geonames_api
+6156586,45.133450,-63.348680,Stewiacke,CA,P,geonames_api
+6156605,49.931230,-97.543420,St. François Xavier,CA,A,geonames_api
+6156606,49.912800,-97.542370,St. François Xavier,CA,P,geonames_api
+6156608,45.126540,-66.831380,St. George,CA,P,geonames_api
+6156618,46.266800,-62.481940,St. Georges,CA,P,geonames_api
+6156619,48.428520,-58.481510,St. George's,CA,P,geonames_api
+6156848,52.783370,-105.917800,St. Isidore-de-Bellevue,CA,P,geonames_api
+6157004,52.916780,-105.817770,St. Louis,CA,P,geonames_api
+6157040,45.348190,-65.555630,St. Martins,CA,P,geonames_api
+6157062,43.250090,-81.133040,St. Marys,CA,P,geonames_api
+6157098,49.766400,-97.147850,St. Norbert,CA,L,geonames_api
+6157246,46.216820,-77.882820,Stonecliffe,CA,P,geonames_api
+6157355,50.134410,-97.326760,Stonewall,CA,P,geonames_api
+6157427,46.194090,-77.677630,Stoney Point,CA,T,geonames_api
+6157830,46.416800,-62.581950,St. Peters Bay,CA,P,geonames_api
+6157977,43.366790,-80.949720,Stratford,CA,P,geonames_api
+6158027,42.955100,-81.622320,Strathroy,CA,P,geonames_api
+6158143,43.575040,-79.704090,Streetsville,CA,P,geonames_api
+6158349,45.180440,-67.295290,St. Stephen,CA,P,geonames_api
+6158357,42.773610,-81.180380,Saint Thomas,CA,P,geonames_api
+6158457,45.800150,-65.615530,Studholm,CA,L,geonames_api
+6158606,44.469910,-78.703470,Sturgeon Point,CA,P,geonames_api
+6158671,49.829000,-97.106000,St. Vital,CA,L,geonames_api
+6159216,46.400130,-63.548710,Summerfield,CA,P,geonames_api
+6159244,46.391200,-63.788690,Summerside,CA,P,geonames_api
+6159256,45.060000,-74.557220,Summerstown,CA,P,geonames_api
+6159368,45.916830,-66.332170,Sunbury County,CA,A,geonames_api
+6159979,45.710240,-65.483340,Sussex Corner,CA,P,geonames_api
+6159981,45.666860,-65.548830,Sussex,CA,L,geonames_api
+6160070,45.100080,-72.615820,Sutton,CA,P,geonames_api
+6160116,44.300110,-79.366310,Sutton West,CA,P,geonames_api
+6160312,52.499440,-100.729760,Swan Lake,CA,H,geonames_api
+6160366,55.433430,-115.302350,Swan River,CA,H,geonames_api
+6160563,45.207260,-72.728170,Sweetsburg,CA,P,geonames_api
+6161569,50.533300,-101.834240,Tantallon,CA,P,geonames_api
+6161860,45.716850,-63.298680,Tatamagouche,CA,P,geonames_api
+6162689,49.199880,-53.548040,Templeman,CA,L,geonames_api
+6163012,45.700040,-73.647320,Terrebonne,CA,P,geonames_api
+6164166,64.250660,-102.001190,Thelon River,CA,H,geonames_api
+6164499,53.821590,-101.244880,The Pas,CA,P,geonames_api
+6165588,44.450120,-79.099590,Thorah,CA,L,geonames_api
+6165683,43.800110,-79.416300,Thornhill,CA,P,geonames_api
+6165719,43.116820,-79.199580,Thorold,CA,P,geonames_api
+6166142,48.382020,-89.250180,Thunder Bay,CA,P,geonames_api
+6166155,53.466880,-108.934730,Thunderchild,CA,P,geonames_api
+6166216,44.266820,-77.399470,Thurlow,CA,L,geonames_api
+6166303,48.583200,-53.481370,Tickle Cove,CA,L,geonames_api
+6166386,45.993670,-64.009490,Tidnish,CA,P,geonames_api
+6166455,46.950140,-64.032020,Tignish,CA,P,geonames_api
+6166580,42.859860,-80.726170,Tillsonburg,CA,P,geonames_api
+6166909,43.104280,-79.421320,Tintern,CA,P,geonames_api
+6167817,47.666590,-52.731350,Torbay,CA,P,geonames_api
+6167865,43.670300,-79.391100,"Yorkville, Toronto",,,lincs_inline
+6167983,44.024370,-79.805530,Tottenham,CA,P,geonames_api
+6168234,46.350110,-62.965370,Tracadie,CA,P,geonames_api
+6168235,45.616840,-61.665260,Tracadie,CA,P,geonames_api
+6168739,44.951590,-64.933030,Tremont,CA,P,geonames_api
+6168768,44.099170,-77.577550,Trenton,CA,P,geonames_api
+6168771,44.100120,-77.566180,Trent River,CA,H,geonames_api
+6168945,48.366590,-53.364770,Trinity,CA,P,geonames_api
+6169141,46.345150,-72.547700,Trois-Rivières,CA,P,geonames_api
+6169470,46.416810,-62.931970,Trout River,CA,H,geonames_api
+6169611,46.233430,-63.548710,Tryon,CA,P,geonames_api
+6169844,50.977890,-114.338110,Tsuu T'ina Nation 145,CA,L,geonames_api
+6171548,42.600910,-81.464270,Tyrconnell,CA,P,geonames_api
+6171689,46.166810,-62.815360,Uigg,CA,P,geonames_api
+6171947,42.039790,-82.673420,Union,CA,L,geonames_api
+6172001,44.833410,-75.666040,United Counties of Leeds and Grenville,CA,A,geonames_api
+6172175,45.126120,-64.468440,Upper Canard,CA,P,geonames_api
+6172248,45.116850,-64.465460,Upper Dyke,CA,H,geonames_api
+6172249,45.119090,-64.493730,Upper Dyke Village,CA,P,geonames_api
+6172445,45.896770,-66.532570,Upper Maugerville,CA,P,geonames_api
+6172480,45.133450,-62.948650,Upper Musquodoboit,CA,P,geonames_api
+6172653,45.223980,-62.991050,Upper Stewiacke,CA,P,geonames_api
+6172767,46.466840,-64.032040,Urbainville,CA,P,geonames_api
+6172932,44.100120,-79.116280,Uxbridge,CA,P,geonames_api
+6173167,46.133410,-62.731960,Valleyfield,CA,P,geonames_api
+6173331,49.249660,-123.119340,Vancouver,CA,P,geonames_api
+6173508,45.683380,-73.432460,Varennes,CA,P,geonames_api
+6173570,45.400080,-74.032510,Vaudreuil-Dorion,CA,P,geonames_api
+6173750,45.783380,-73.349160,Verchères,CA,P,geonames_api
+6173767,45.460050,-73.570580,Verdun,CA,P,geonames_api
+6174041,48.435900,-123.351550,Victoria,CA,P,geonames_api
+6174095,71.451000,-113.754100,Victoria Island,CA,T,geonames_api
+6174151,46.050070,-71.965790,Victoriaville,CA,P,geonames_api
+6175382,45.800150,-63.481990,Wallace,CA,P,geonames_api
+6175401,45.812770,-63.514850,Wallace Bridge,CA,P,geonames_api
+6175485,42.633390,-81.466450,Wallacetown,CA,L,geonames_api
+6175945,50.266720,-101.967670,Wapella,CA,P,geonames_api
+6176184,42.650090,-81.749780,Wardsville,CA,L,geonames_api
+6176331,53.696930,-97.870910,Warren Landing,CA,P,geonames_api
+6176515,43.310150,-80.580500,Washington,CA,P,geonames_api
+6176563,51.483330,-78.750000,Waskaganish,CA,P,geonames_api
+6176722,43.333410,-79.882930,Waterdown,CA,P,geonames_api
+6176751,42.933400,-80.282960,Waterford,CA,P,geonames_api
+6176752,46.239230,-60.124450,Waterford Lake,CA,H,geonames_api
+6176821,45.350080,-72.515820,Waterloo,CA,P,geonames_api
+6176886,49.083250,-113.868630,Waterton Lakes National Park of Canada,CA,L,geonames_api
+6176902,42.950080,-81.883090,Watford,CA,P,geonames_api
+6177920,75.468290,-93.201090,Wellington Channel,CA,H,geonames_api
+6177995,45.450140,-66.332160,Welsford,CA,P,geonames_api
+6178199,49.149880,-53.564750,Wesleyville,CA,P,geonames_api
+6178225,45.515010,-61.077800,West Arichat,CA,P,geonames_api
+6178287,45.716840,-61.165220,West Bay,CA,P,geonames_api
+6178470,45.500080,-71.665770,Westbury,CA,L,geonames_api
+6178510,45.866960,-64.371600,Westcock,CA,P,geonames_api
+6178909,43.316800,-79.999650,West Flamborough,CA,L,geonames_api
+6179195,42.916790,-81.249740,Westminster,CA,L,geonames_api
+6179226,45.483410,-73.599180,Westmount,CA,P,geonames_api
+6179268,43.703590,-79.515130,Weston,CA,P,geonames_api
+6179370,43.672690,-65.797970,West Pubnico,CA,P,geonames_api
+6179399,46.166820,-63.298700,West River,CA,P,geonames_api
+6179405,45.603100,-61.999960,West River,CA,P,geonames_api
+6179663,44.411850,-65.995690,Weymouth,CA,P,geonames_api
+6179879,46.366820,-63.282000,Wheatley River,CA,P,geonames_api
+6180166,47.416600,-53.531400,Whitbourne,CA,P,geonames_api
+6180170,43.883420,-78.932870,Whitby,CA,P,geonames_api
+6180361,46.116770,-81.733090,Whitefish Falls,CA,L,geonames_api
+6180397,54.368060,-111.897220,Whitefish Lake,CA,H,geonames_api
+6182282,45.133390,-74.582560,Williamstown,CA,L,geonames_api
+6182389,49.383360,-105.634420,Willow Bunch,CA,P,geonames_api
+6182552,46.394530,-63.761220,Wilmot,CA,P,geonames_api
+6182553,44.956690,-65.022330,Wilmot,CA,P,geonames_api
+6182572,46.400130,-63.698720,Wilmot Valley,CA,P,geonames_api
+6182962,42.300080,-83.016540,Windsor,CA,P,geonames_api
+6183115,43.671670,-80.605560,Winfield,CA,P,geonames_api
+6183547,45.099240,-63.233160,Wittenburg,CA,P,geonames_api
+6183689,44.200120,-76.332690,Wolfe Island,CA,T,geonames_api
+6183858,45.083450,-64.365460,Wolfville,CA,P,geonames_api
+6184009,43.783410,-79.599620,Woodbridge,CA,P,geonames_api
+6184364,46.157960,-67.583770,Woodstock,CA,P,geonames_api
+6184365,43.133390,-80.749700,Woodstock,CA,P,geonames_api
+6184825,43.290960,-80.384840,Wrigley Corners,CA,P,geonames_api
+6185138,46.281750,-72.828730,Yamachiche,CA,P,geonames_api
+6185140,46.000060,-72.915800,Yamaska,CA,P,geonames_api
+6185519,45.183400,-79.749650,Yoho Island,CA,T,geonames_api
+6185557,46.166800,-66.998880,York County,CA,A,geonames_api
+6185573,57.002020,-92.305920,York Factory,CA,P,geonames_api
+6185811,62.999620,-135.004040,Yukon,CA,A,geonames_api
+6251999,60.108670,-113.642580,Canada,CA,A,geonames_api
+6252001,39.760000,-98.500000,United States,US,A,geonames_api
+6254925,38.200420,-84.877620,Kentucky,US,A,geonames_api
+6254926,42.360278,-71.057778,Boston,,,lincs_inline
+6254927,40.800000,-77.700000,Pennsylvania,US,A,geonames_api
+6254928,37.548120,-77.446750,Virginia,US,A,geonames_api
+6255148,48.690960,9.140620,Europe,,L,geonames_api
+6255149,46.073230,-100.546880,North America,,L,geonames_api
+6269131,51.492800,-0.222900,"Hammersmith, Eng",,,lincs_inline
+6269281,56.844110,-5.128600,Corpach,GB,P,geonames_api
+6286883,54.354690,-3.380930,Muncaster Castle,GB,S,geonames_api
+6287214,51.129580,1.321420,Dover Castle,GB,S,geonames_api
+6295855,46.217850,-70.778730,Beauceville,CA,P,geonames_api
+6324729,44.642690,-63.576880,Halifax,CA,P,geonames_api
+6324733,47.564940,-52.709310,St. John's,CA,P,geonames_api
+6325476,46.830330,-71.011330,"Saint-Étienne-de-Beaumont (Beaumont), Lower Canada",,,lincs_inline
+6325478,46.858840,-71.192010,Beauport,CA,P,geonames_api
+6325480,46.924950,-70.732040,Berthier-sur-Mer,CA,P,geonames_api
+6325484,47.035300,-70.460000,Cap-Saint-Ignace,CA,P,geonames_api
+6325485,46.899000,-71.305000,Charlesbourg,CA,P,geonames_api
+6325488,46.781390,-71.292170,Sainte-Foy,CA,P,geonames_api
+6325493,47.565930,-69.866310,Kamouraska,CA,P,geonames_api
+6325494,46.812280,-71.214540,Québec,CA,P,geonames_api
+6325521,46.803260,-71.177930,Lévis,CA,P,geonames_api
+6325523,47.103080,-70.350220,L'Islet,CA,P,geonames_api
+6325572,46.698230,-71.582750,Neuville,CA,P,geonames_api
+6354894,46.690580,-71.890110,Portneuf,CA,P,geonames_api
+6354895,48.448790,-68.523960,Rimouski,CA,P,geonames_api
+6354897,47.826990,-69.542430,Rivière-du-Loup,CA,P,geonames_api
+6354908,46.135100,-60.183100,Sydney,CA,P,geonames_api
+6354934,45.400200,-75.806440,Aylmer,CA,P,geonames_api
+6354959,48.541667,-56.125000,Terre-Neuve,,,lincs_inline
+6438135,50.435830,3.330280,Brillon,FR,A,geonames_api
+6534203,46.793920,-71.351910,L'Ancienne-Lorette,CA,P,geonames_api
+6534210,46.759000,-70.950870,Saint-Michel-de-Bellechasse,CA,P,geonames_api
+6545041,45.431770,-73.668990,Lachine,CA,P,geonames_api
+6545170,51.525410,-0.168060,Marylebone,GB,P,geonames_api
+6545249,51.488970,-0.136990,Pimlico,GB,P,geonames_api
+6619474,51.530750,-0.154150,Regent’s Park,GB,L,geonames_api
+6620020,44.597700,4.342400,Ailhon,FR,P,geonames_api
+6620293,51.343050,-0.829850,Yateley,GB,P,geonames_api
+6620354,51.205700,1.157340,Barham,GB,P,geonames_api
+6620467,47.214180,-70.269690,St-Jean-Port-Joli,CA,P,geonames_api
+6620953,46.113530,-70.665260,Saint-Georges,CA,P,geonames_api
+6621052,48.487940,-64.298520,Percé,CA,P,geonames_api
+6639640,49.735300,-116.911530,Ainsworth,CA,P,geonames_api
+6640172,47.401950,-70.383570,Ile aux Coudres,CA,T,geonames_api
+6690232,47.441090,-70.498580,Baie-Saint-Paul,CA,P,geonames_api
+6690590,51.540670,-0.116750,Barnsbury,GB,P,geonames_api
+6690877,51.465930,-0.106520,Brixton,GB,P,geonames_api
+6694299,44.130230,-81.153090,Walkerton,CA,P,geonames_api
+6695808,47.916570,-69.500540,Cacouna,CA,P,geonames_api
+6696260,48.828570,-67.521970,Matane,CA,P,geonames_api
+6930998,55.857490,-3.168950,Roslin,GB,P,geonames_api
+6930999,55.870300,-3.178140,Bilston,GB,P,geonames_api
+6941035,51.454220,-0.098280,Herne Hill,GB,P,geonames_api
+6941063,46.916950,-70.897250,Saint-Jean-de-l'Ile-d'Orléans,CA,P,geonames_api
+6942037,48.116670,-69.166670,Trois Pistoles,CA,P,geonames_api
+6942553,43.200000,-80.383330,Paris,CA,P,geonames_api
+6942645,45.585630,-75.420800,Buckingham,CA,P,geonames_api
+6943718,47.248940,-65.074080,Neguac,CA,P,geonames_api
+6943731,46.556970,-66.125680,Doaktown,CA,P,geonames_api
+6943825,48.045730,-65.492590,Bonaventure,CA,P,geonames_api
+6943827,46.093710,-71.305390,Thetford-Mines,CA,P,geonames_api
+6943830,47.807790,-65.194500,Grande-Anse,CA,P,geonames_api
+6943834,48.102520,-66.119620,Carleton,CA,P,geonames_api
+6945980,46.780800,-67.701100,Tobique Indian Reservation,CA,P,geonames_api
+6945984,46.629220,-70.973400,Saint-Anselme,CA,P,geonames_api
+6945986,47.654000,-70.152680,La Malbaie,CA,P,geonames_api
+6945989,46.434010,-71.011680,Sainte-Marie,CA,P,geonames_api
+6945996,46.850570,-71.360840,Loretteville,CA,P,geonames_api
+6947098,54.180090,-58.429930,Rigolet,CA,P,geonames_api
+6948711,43.772230,-79.256660,Scarborough,CA,A,geonames_api
+6955983,42.187830,-82.872620,Southwestern Ontario,CA,A,geonames_api
+7116544,51.550730,0.702990,Prittlewell,GB,P,geonames_api
+7216749,28.075800,-82.502000,Arlington,US,P,geonames_api
+7286527,46.790430,6.609790,Montagny-près-Yverdon,CH,A,geonames_api
+7287972,51.846280,-1.306000,Shipton On Cherwell,GB,P,geonames_api
+7290043,56.447030,-5.774040,Isle of Mull,GB,P,geonames_api
+7290516,43.244950,-80.251440,St. George,CA,P,geonames_api
+7290895,53.387780,-1.343150,Treeton,GB,A,geonames_api
+7291379,55.522790,-1.887540,Chillingham,GB,A,geonames_api
+7291707,52.383180,-1.890060,Wythall,GB,A,geonames_api
+7291751,52.912260,-1.978320,Leigh,GB,A,geonames_api
+7292011,50.868140,-0.845240,Funtington,GB,A,geonames_api
+7292139,51.747880,-1.323920,Cumnor,GB,A,geonames_api
+7293055,53.278000,-2.478400,Wincham,GB,A,geonames_api
+7293088,50.184890,-5.083870,Mylor,GB,A,geonames_api
+7293450,53.841390,-0.509040,Bishop Burton,GB,A,geonames_api
+7293546,51.860380,1.197890,Thorpe-le-Soken,GB,A,geonames_api
+7293721,51.761940,-0.162020,Essendon,GB,A,geonames_api
+7294763,55.120640,-2.698250,Bewcastle,GB,A,geonames_api
+7294944,50.961680,-4.140880,Great Torrington,GB,A,geonames_api
+7294957,50.722150,-4.163080,Bratton Clovelly,GB,A,geonames_api
+7295055,53.740300,-0.194290,Hedon,GB,A,geonames_api
+7295102,51.819650,0.605470,Faulkbourne,GB,A,geonames_api
+7295385,53.523790,-2.837380,Bickerstaffe,GB,A,geonames_api
+7295666,52.708690,0.421390,West Winch,GB,A,geonames_api
+7295675,52.944480,1.054980,Cley Next the Sea,GB,A,geonames_api
+7296074,51.259310,-0.719190,Ash,GB,A,geonames_api
+7296117,53.673320,-0.391160,Barrow upon Humber,GB,A,geonames_api
+7296254,50.985430,-2.069140,Berwick St. John,GB,A,geonames_api
+7296411,51.360240,-0.337360,Claygate,GB,A,geonames_api
+7296634,52.749860,0.974160,Billingford,GB,A,geonames_api
+7296709,52.435450,-0.536610,Aldwincle,GB,A,geonames_api
+7296757,55.044490,-1.953960,Matfen,GB,A,geonames_api
+7296774,53.988260,-1.908030,Bolton Abbey,GB,A,geonames_api
+7296868,54.461250,-1.791680,Ravensworth,GB,A,geonames_api
+7297571,50.874780,-4.491560,Kilkhampton,GB,A,geonames_api
+7297598,50.815750,-4.062450,Hatherleigh,GB,A,geonames_api
+7297758,53.029130,-2.362770,Betley,GB,A,geonames_api
+7298768,52.684640,0.131920,Leverington,GB,A,geonames_api
+7299153,52.722290,-1.461390,Packington,GB,A,geonames_api
+7299693,52.265210,-2.156170,Droitwich Spa,GB,A,geonames_api
+7300301,50.496210,-3.582580,Kingskerswell,GB,A,geonames_api
+7300381,50.974070,-4.200450,Monkleigh,GB,A,geonames_api
+7300389,50.599430,-4.120300,Mary Tavy,GB,A,geonames_api
+7300559,51.860250,-1.766800,Clapton,GB,A,geonames_api
+7300598,51.769410,-2.634010,Newland,GB,A,geonames_api
+7300675,55.581310,-1.837440,Belford,GB,A,geonames_api
+7300842,53.912560,-1.248410,Healaugh,GB,A,geonames_api
+7301349,52.327650,0.979760,Rickinghall Inferior,GB,A,geonames_api
+7301713,53.124360,0.288910,Croft,GB,A,geonames_api
+7301852,52.471470,1.078090,New Buckenham,GB,A,geonames_api
+7302033,53.921370,-1.486450,Kearby with Netherby,GB,A,geonames_api
+7302143,54.525000,-1.189000,Cleveland,GB,L,geonames_api
+7302470,47.187030,-65.405900,Bartibog,CA,P,geonames_api
+7302644,47.514440,-64.918060,Tracadie–Sheila,CA,P,geonames_api
+7302645,49.503810,-116.735220,Kootenay,CA,L,geonames_api
+7302875,46.500640,-66.249190,New Bandon,CA,P,geonames_api
+7303783,46.236690,-60.217670,Sydney Mines,CA,P,geonames_api
+7522147,47.023890,-70.928330,Sainte-Anne-de-Beaupré,CA,P,geonames_api
+7531345,53.478430,22.169420,Grabowo,PL,A,geonames_api
+7535673,46.671590,-71.788120,Cap-Santé,CA,P,geonames_api
+7535681,46.740640,-71.451310,Saint-Augustin-de-Desmaures,CA,P,geonames_api
+7535692,47.367330,-70.034840,Ste. Anne de la Pocatière,CA,P,geonames_api
+7535694,48.410000,-71.780000,Metabetchouan-Lac-a-la-Croix,CA,P,geonames_api
+7602078,49.089380,-123.082410,Ladner,CA,P,geonames_api
+7732488,53.982140,-97.832650,Norway House,CA,P,geonames_api
+7870923,43.643720,-79.477160,Swansea,CA,P,geonames_api
+7871320,43.706040,-80.377610,Fergus,CA,P,geonames_api
+7874330,56.682450,-5.101950,Glencoe,GB,P,geonames_api
+7910261,52.988990,-1.128670,Woodthorpe,GB,P,geonames_api
+7910406,58.191190,-5.080660,Loch Assynt,GB,P,geonames_api
+8015341,55.819510,-3.797490,Shotts,GB,P,geonames_api
+8063580,55.432020,-4.633010,Alloway,GB,P,geonames_api
+8125784,43.994300,-77.185820,Bloomfield,CA,P,geonames_api
+8125787,44.546200,-78.542030,Bobcaygeon,CA,P,geonames_api
+8131396,46.680370,-71.223270,Breakeyville,CA,P,geonames_api
+8224455,46.663460,-71.573350,Saint-Antoine-de-Tilly,CA,P,geonames_api
+8299622,55.836630,-5.055860,Bute,GB,P,geonames_api
+8354586,46.693140,-71.069270,Saint-Henri,CA,P,geonames_api
+8379101,46.171630,-71.874620,Princeville,CA,P,geonames_api
+8425789,47.310780,-70.177190,Saint-Roch-des-Aulnaies,CA,P,geonames_api
+8556293,43.024230,-80.653600,Burgessville,CA,P,geonames_api
+8556299,45.619800,-74.691500,L'Orignal,CA,P,geonames_api
+8556301,48.369380,-68.712670,Bic,CA,P,geonames_api
+8558520,22.068190,112.949090,Duhu,CN,A,geonames_api
+8593675,48.650550,-123.644940,Shawnigan Lake,CA,P,geonames_api
+8593682,46.996290,-71.196460,Sainte-Brigitte-de-Laval,CA,P,geonames_api
+8593684,43.057100,-80.998760,Thamesford,CA,P,geonames_api
+8593685,47.568650,-70.207790,Saint-Irénée,CA,P,geonames_api
+8593689,47.573050,-70.398670,Saint-Hilarion,CA,P,geonames_api
+8593690,47.782710,-65.717470,Petit-Rocher,CA,P,geonames_api
+8593709,47.425300,-68.205870,Madawaska County,CA,A,geonames_api
+8593821,46.938780,-71.297150,Lac-Beauport,CA,P,geonames_api
+8593824,46.882780,-71.075190,Saint-Pierre-de-l'Île-d'Orléans,CA,P,geonames_api
+8593831,48.166661,-67.000000,"Assemetquagan (Routhierville), Que",,,lincs_inline
+8630140,49.751520,-126.489580,Vancouver Island,CA,L,geonames_api
+8642936,53.011790,-6.329840,Glendalough,IE,A,geonames_api
+8672563,46.309200,-72.828930,Yamachiche,CA,A,geonames_api
+8672565,47.600990,-70.580960,Saint-Urbain,CA,A,geonames_api
+8672575,46.918280,-70.722710,Berthier-sur-Mer,CA,A,geonames_api
+8672577,48.162510,-65.108290,Shigawake,CA,A,geonames_api
+8672584,48.032360,-69.195850,Saint-Éloi,CA,A,geonames_api
+8672615,46.551360,-70.986020,Sainte-Hénédine,CA,A,geonames_api
+8672628,46.959620,-70.950450,Sainte-Famille-de-l'Île-d'Orléans,CA,A,geonames_api
+8672656,46.582230,-71.097860,Saint-Isidore,CA,A,geonames_api
+8672680,46.207750,-71.069380,Sacré-Coeur-de-Jésus,CA,A,geonames_api
+8672713,46.613100,-71.729410,Sainte-Croix,CA,A,geonames_api
+8672716,47.973790,-66.960110,Matapédia,CA,A,geonames_api
+8672737,46.715220,-70.859870,Saint-Gervais,CA,A,geonames_api
+8672746,47.381110,-70.404560,L'Isle-aux-Coudres,CA,A,geonames_api
+8672750,46.353060,-71.215670,Saint-Sylvestre,CA,A,geonames_api
+8672772,45.439360,-73.965800,Senneville,CA,A,geonames_api
+8672786,46.086420,-71.814280,Saint-Norbert-d'Arthabaska,CA,A,geonames_api
+8672808,46.880580,-70.807250,Saint-Vallier,CA,A,geonames_api
+8672839,45.087870,-74.178490,Huntingdon,CA,A,geonames_api
+8672847,46.148020,-71.714480,Sainte-Sophie-d'Halifax,CA,A,geonames_api
+8672882,48.421840,-64.530680,Grande-Rivière,CA,A,geonames_api
+8672908,45.840110,-76.737010,Fort-Coulonge,CA,A,geonames_api
+8672911,46.856200,-70.680530,Saint-François-de-la-Rivière-du-Sud,CA,A,geonames_api
+8672978,46.184480,-73.229430,Saint-Cuthbert,CA,A,geonames_api
+8672991,45.595720,-73.427980,Boucherville,CA,A,geonames_api
+8672992,46.854690,-71.120600,Sainte-Pétronille,CA,A,geonames_api
+8672994,47.472120,-68.806070,Packington,CA,A,geonames_api
+8673029,45.798130,-73.199430,Saint-Antoine-sur-Richelieu,CA,A,geonames_api
+8673090,47.915110,-69.406670,Saint-Arsène,CA,A,geonames_api
+8673106,45.750140,-73.334330,Verchères,CA,A,geonames_api
+8673197,45.685300,-73.227020,Saint-Marc-sur-Richelieu,CA,A,geonames_api
+8673201,46.479590,-72.192460,Saint-Pierre-les-Becquets,CA,A,geonames_api
+8673228,45.111680,-74.349310,Saint-Anicet,CA,A,geonames_api
+8673252,48.057750,-65.350370,New Carlisle,CA,A,geonames_api
+8673256,45.580100,-72.829980,Saint-Dominique,CA,A,geonames_api
+8673258,47.902860,-69.304190,Saint-Épiphane,CA,A,geonames_api
+8673268,46.023840,-72.938880,Yamaska,CA,A,geonames_api
+8673288,45.350510,-74.224340,Saint-Clet,CA,A,geonames_api
+8673324,45.135750,-73.216090,Henryville,CA,A,geonames_api
+8673327,45.046090,-72.810630,Frelighsburg,CA,A,geonames_api
+8673329,48.530460,-67.848820,Saint-Moïse,CA,A,geonames_api
+8673367,45.114240,-73.993520,Ormstown,CA,A,geonames_api
+8673435,45.050120,-73.204310,Clarenceville,CA,A,geonames_api
+8673457,45.340150,-73.458620,Saint-Philippe,CA,A,geonames_api
+8673485,48.102130,-65.287200,Paspébiac,CA,A,geonames_api
+8673491,46.158320,-72.735970,Baie-du-Febvre,CA,A,geonames_api
+8673497,45.150000,-72.983333,"Stanbridge Township, Canada East",,,lincs_inline
+8673533,45.573420,-74.312670,Saint-André-dArgenteuil,CA,A,geonames_api
+8673567,46.246980,-73.533170,Saint-Jean-de-Matha,CA,A,geonames_api
+8673609,45.650130,-72.326830,Durham-Sud,CA,A,geonames_api
+8673644,46.889410,-70.596230,Saint-Pierre-de-la-Rivière-du-Sud,CA,A,geonames_api
+8673663,45.752960,-72.307650,L'Avenir,CA,A,geonames_api
+8673668,47.503290,-69.937930,Saint-Denis-De La Bouteillerie,CA,A,geonames_api
+8673678,48.039300,-69.333240,L'Isle-Verte,CA,A,geonames_api
+8673697,45.612320,-71.596640,Dudswell,CA,A,geonames_api
+8673767,45.433620,-72.346750,Lawrenceville,CA,A,geonames_api
+8673811,45.771940,-72.017340,Danville,CA,A,geonames_api
+8673822,45.310833,-73.746944,Sainte-Philomène,,,lincs_inline
+8673878,46.669240,-72.152040,Saint-Casimir,CA,A,geonames_api
+8673909,45.958030,-73.415380,Saint-Paul,CA,A,geonames_api
+8673969,45.254520,-73.634000,Saint-Rémi,CA,A,geonames_api
+8673980,48.738500,-68.110240,Métis-sur-Mer,CA,A,geonames_api
+8673990,45.342730,-73.799250,Léry,CA,A,geonames_api
+8674003,46.188160,-71.894720,Princeville,CA,A,geonames_api
+8674012,45.302220,-74.188860,Coteau-du-Lac,CA,A,geonames_api
+8674087,45.183320,-72.571550,Brome,CA,A,geonames_api
+8674102,45.885210,-73.118110,Saint-Ours,CA,A,geonames_api
+8674159,46.953020,-70.548970,Montmagny,CA,A,geonames_api
+8674207,45.953850,-73.574370,Saint-Jacques,CA,A,geonames_api
+8674247,46.700810,-73.877380,Saint-Michel-des-Saints,CA,A,geonames_api
+8739995,24.470000,74.870000,Neemuch,IN,A,geonames_api
+8740846,46.758180,-71.239210,Saint Romuald,CA,P,geonames_api
+8740849,46.770620,-71.265130,Sillery,CA,P,geonames_api
+9166267,50.383130,-4.157040,Stoke,GB,P,geonames_api
+9317041,55.933120,-3.041930,Inveresk,GB,P,geonames_api
+9644319,50.074520,31.449500,Pereyaslav-Khmel’nyts’ka Mis’krada,UA,A,geonames_api
+9866191,53.520140,-7.181280,Castledown,IE,L,geonames_api
+9866321,53.637060,-7.060880,Cavestown and Rosmead,IE,P,geonames_api
+9951369,56.063900,-3.495990,Balnacraig,GB,S,geonames_api
+9972749,43.759190,-79.266360,Greater Toronto Area,CA,L,geonames_api
+10128396,47.000190,-70.814310,Saint-François-de-l'Île-d'Orléans,CA,P,geonames_api
+10129991,53.866950,-9.362710,Graffa,IE,L,geonames_api
+11071873,44.959720,-75.030560,Aultsville,CA,P,geonames_api
+11078493,48.054590,33.636850,Zelene Pole,UA,P,geonames_api
+11102303,46.623740,-70.655820,Saint-Damien-de-Buckland,CA,P,geonames_api
+11186237,45.437790,-72.890420,Abbotsford,CA,P,geonames_api
+11257133,46.461720,-73.144230,Saint-Alexis-des-Monts,CA,P,geonames_api
+11429023,46.169490,-73.314940,Saint-Norbert,CA,P,geonames_api
+11497355,46.937370,-70.950390,Orleans Island (historical),CA,T,geonames_api
+11497449,47.432670,-70.017030,Rivière-Ouelle,CA,P,geonames_api
+11551076,51.437770,-0.160550,Upper Tooting,GB,P,geonames_api
+11592111,55.796340,-4.094850,Blantyre,GB,P,geonames_api
+11592295,55.804540,-4.317460,Thornliebank,GB,P,geonames_api
+11609018,52.857700,-2.036860,Staffordshire,GB,L,geonames_api
+11609025,50.751200,-3.810270,Devon,GB,L,geonames_api
+11609036,51.058190,-1.285400,Hampshire,GB,L,geonames_api
+11609038,51.236670,0.723930,Kent,GB,L,geonames_api
+11609047,53.843310,-2.630010,Lancashire,GB,L,geonames_api
+11696023,46.601340,-70.863190,Sainte-Claire,CA,P,geonames_api
+11789602,47.391490,-68.271100,Saint-Basile,CA,P,geonames_api
+11807204,51.790810,-114.116930,Olds,CA,A,geonames_api
+11807205,53.989940,-111.289230,St. Paul,CA,A,geonames_api
+11807207,53.717670,-113.188600,Fort Saskatchewan,CA,A,geonames_api
+11807282,52.674360,-113.593640,Ponoka,CA,A,geonames_api
+11807284,53.798210,-113.638440,Morinville,CA,A,geonames_api
+11807311,49.192380,-113.310090,Cardston,CA,A,geonames_api
+11807325,52.376160,-114.917470,Rocky Mountain House,CA,A,geonames_api
+11820688,52.123990,-114.170100,Markerville,CA,P,geonames_api
+11903570,46.860600,-71.004960,Saint-Laurent-d'Orléans,CA,P,geonames_api
+11962614,48.497500,-64.160840,Île Bonaventure,CA,T,geonames_api
+12022553,44.274720,-76.765000,Ernestown Township,CA,P,geonames_api
+12023438,46.825090,-71.176130,Levis Point,CA,T,geonames_api
+12031994,54.020710,-132.103700,Masset,CA,A,geonames_api
+12047288,51.514010,-0.101660,"St Martin, Ludgate",GB,S,geonames_api
+12047895,51.508860,-0.126900,St Martin-in-the-Fields,GB,S,geonames_api
+12047945,51.492870,-0.270450,Turnham Green,GB,P,geonames_api
+12048236,51.495830,-0.169980,Brompton,GB,P,geonames_api
+12069868,47.885810,-65.811300,Belledune,CA,P,geonames_api
+12069894,47.668280,-64.876470,Pokemouche,CA,P,geonames_api
+12076655,46.511870,-71.596480,Saint-Flavien,CA,P,geonames_api
+12088770,50.842250,-101.172690,Riding Mountain West,CA,A,geonames_api
+12089448,46.483150,-67.649630,Lower Greenfield,CA,P,geonames_api
+12096311,46.116680,-67.583420,Lower Woodstock,CA,P,geonames_api
+12096436,47.203120,-67.870180,Grand-Ruisseau,CA,P,geonames_api
+12096548,47.070710,-65.371900,Loggieville,CA,P,geonames_api
+12096883,47.234010,-67.154710,Nictau,CA,P,geonames_api
+12123277,46.065580,-67.551580,Northampton,CA,P,geonames_api
+12188903,44.131020,-78.362660,Bailieboro,CA,P,geonames_api
+12196137,54.556820,-130.433210,Port Simpson,CA,P,geonames_api
+12212283,33.357700,-97.342750,North Texas,US,L,geonames_api
+12261955,57.327840,-2.200830,Udny Green,GB,P,geonames_api
+12262195,58.331990,-6.682290,Shawbost,GB,P,geonames_api
+12263614,56.534680,-2.795600,Craigton,GB,P,geonames_api
+12264390,57.488400,-2.853090,Cairnie,GB,P,geonames_api
+12264651,54.276990,-2.376760,Cowgill,GB,P,geonames_api
+12317882,44.354200,2.234670,Recoules,FR,P,geonames_api
+12613702,50.506750,-3.777410,Summerhill,GB,T,geonames_api
+12626118,45.475150,-73.622530,Côte-Saint-Antoine,CA,P,geonames_api
+12626136,45.558140,-73.660370,Sault-au-Récollet,CA,P,geonames_api

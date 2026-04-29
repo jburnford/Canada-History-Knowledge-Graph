@@ -10,7 +10,11 @@ import sys
 NEO4J_URI = "bolt://localhost:7690"
 NEO4J_USER = "neo4j"
 NEO4J_PASSWORD = "canadacensus123"
-DATA_DIR = Path("/home/jic823/GraphRAG_test/neo4j_cidoc_crm")
+# In the current pipeline, CIDOC-CRM CSVs live at <repo>/neo4j_cidoc_crm_v2/.
+# Earlier sessions wrote them at /home/jic823/GraphRAG_test/neo4j_cidoc_crm/;
+# leaving that as the default would break for any other user, so default to
+# the in-repo path. Override with --data-dir if you keep the CSVs elsewhere.
+DATA_DIR = Path(__file__).resolve().parents[1] / "neo4j_cidoc_crm_v2"
 
 def import_1911_data():
     """Import corrected 1911 data to Neo4j."""

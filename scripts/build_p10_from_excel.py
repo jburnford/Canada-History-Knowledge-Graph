@@ -339,10 +339,15 @@ def diff_excel_vs_gdb(year: int, excel_p10: pd.DataFrame,
 
 
 def main():
+    # Resolve default data root from config; fall through to a CLI override.
+    sys.path.insert(0, str(REPO / "scripts"))
+    from _config import CONFIG  # noqa: E402
+
     ap = argparse.ArgumentParser()
     ap.add_argument("--data-root",
-                    default="/home/jic823/GraphRAG_test",
-                    help="Root containing 1851/, 1861/, ... per-year folders")
+                    default=str(CONFIG.data_root),
+                    help="Root containing 1851/, 1861/, ... per-year folders "
+                         "(default from config.toml [paths].data_root)")
     ap.add_argument("--years", default=",".join(str(y) for y in EXCEL_SOURCES),
                     help="Comma-separated subset of years to process")
     ap.add_argument("--dry-run", action="store_true",
