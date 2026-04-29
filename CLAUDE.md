@@ -1,288 +1,138 @@
-# GraphRAG Project Documentation
+# CLAUDE.md — guidance for Claude Code sessions
 
-## Project Overview
-Multi-database GraphRAG system combining:
-- **UK Parliamentary data** (Hansard) in Neo4j
-- **Canadian Census geospatial data** (TCP polygons + historical census)
-- **Geospatial analysis** for historical census subdivision linking
+This file is project-specific context for AI sessions working in this repo.
+Onboarding humans: read **README.md** first.
 
-## Environment Setup
+## TL;DR
 
-### Geospatial Environment (COMPLETED ✅)
-- **Location**: `/home/jic823/miniforge3/envs/geo`
-- **Activation**: `conda activate geo`
-- **Packages**: geopandas, shapely, pyproj, fiona, rtree, gdal, pandas, rapidfuzz
-- **Test Command**: `python -c "import geopandas, shapely, pyproj, fiona, rtree, pandas, rapidfuzz; print('All working!')"`
+This is the **HGIS Canada Knowledge Graph** publishing pipeline. It transforms
+TCP/HGIS census polygons + the published Excel tables + LINCS/DCB person data
+into a CIDOC-CRM linked-open-data graph and renders that graph as the static
+site at jimclifford.ca/hgiscanada/.
 
-### Neo4j Instances (COMPLETED ✅)
+**Single command to rebuild everything**: `make all`. The Makefile is the
+source of truth for build order; do not invent ad-hoc orchestration.
 
-#### UK GraphRAG Instance
-- **Container**: `neo4j-uk-graphrag`
-- **Browser**: http://localhost:7475
-- **Bolt**: bolt://localhost:7688
-- **Credentials**: neo4j/ukgraph123
-- **Status**: ✅ Running with Hansard Parliamentary data
-- **Data**: 6,450 MPs, 1,121 constituencies, 34 parties, 17 offices
-- **Start Command**: `docker start neo4j-uk-graphrag`
+**External paths**: live in `config.toml` (committed default) and
+`config.local.toml` (gitignored override). Every script reads paths via
+`from _config import CONFIG`. Do not hardcode `/home/jic823/...` in new code.
 
-#### Saskatchewan Instance  
-- **Container**: `neo4j-saskatchewan`
-- **Browser**: http://localhost:7476
-- **Bolt**: bolt://localhost:7689
-- **Credentials**: neo4j/saskgraph123
-- **Status**: ❌ Empty (no data loaded)
+## Architecture (v10.2+)
 
-## Data Locations
+The graph is built around two persistent-identity registries:
 
-### Canadian Census Geospatial Data (TCP)
-```
-TCP_CANADA_CSD_202306/
-├── TCP_CANADA_CSD_202306/
-    ├── TCP_CANADA_CSD_202306.gdb/          # FileGDB with polygon data
-    ├── TCP_CANADA_HGIS_CSD_202306.pdf      # Documentation
-    └── LPC_CANADA_HGIS_CSD_202306.pdf      # Legend/documentation
-```
+- **`persistent_places_output/persistent_place_registry.csv`** — Census
+  Subdivisions (~13,000) chained across census years via spatial overlap
+  (IoU + canonical-name match). Chain id is the user-stable URL
+  segment for `/places/<prov>/<slug>/`.
+- **`persistent_cds_output/persistent_cd_registry.csv`** — Census Divisions
+  (524 chains as of v10.2) with SPLIT_FROM / MERGED_INTO lineage edges.
+  Chain id powers `/cds/<prov>/<slug>/`.
 
-### Historical Census Tables (ZIP files - NOT EXTRACTED YET)
-```
-1851Tables.zip    # Contains 1851 census subdivision data
-1861Tables.zip    # Contains 1861 census subdivision data  
-1871Tables.zip    # Contains 1871 census subdivision data
-1881Tables.zip    # Contains 1881 census subdivision data
-1891Tables.zip    # Contains 1891 census subdivision data
-1901Tables.zip    # Contains 1901 census subdivision data
-1911Tables.zip    # Contains 1911 census subdivision data
-1921Tables.zip    # Contains 1921 census subdivision data
-```
+The chain-builder (`scripts/build_persistent_cds.py`,
+`scripts/build_persistent_places.py`) uses Union-Find over year-pair spatial
+overlap rules and a within-year typo-merge pass (`scripts/typo_merge_cds.py`)
+that catches OCR variants like Renfew→Renfrew. Name matching uses
+`normalize_for_match()` which folds diacritics, unifies hyphen/space, and
+treats curly/straight apostrophes equivalently.
 
-### 1911 Data (EXTRACTED)
-```
-1911Tables/1911/
-├── 1911_V1T1_PUB_202306.xlsx           # Population by census subdivision
-├── 1911_V1T2_PUB_202306.xlsx           # Additional demographic data
-├── 1911_V2T2_PUB_202306.xlsx           # Religious denominations
-├── 1911_V2T7_PUB_202306.xlsx           # Birthplace data
-├── 1911_V2T28_PUB_202306.xlsx          # Language data
-└── TCP_CANADA_CD-CSD_Mastvar.xlsx      # Master variables crosswalk
-```
+Downstream, `scripts/build_neo4j_cidoc_crm_v2.py` mints the CIDOC-CRM CSVs
+(E53_Place, E93_Presence, E94_Space_Primitive, P166/P164/P161/P122/P89/P10).
+`scripts/build_p10_from_excel.py` overlays the published Excel V1T1/V1T7
+CD↔CSD memberships on top of the GDB-derived p10 — Excel is authoritative
+for 1851–1901; 1911 and 1921 use GDB (PUB-only Excel for those years).
 
-### Generated Outputs
-```
-generated/
-├── ca_1911/
-│   ├── observations.csv                # Processed 1911 observations
-│   └── places.csv                      # Processed 1911 places
-├── canada/
-│   ├── canada_all_1891_crm.ttl        # RDF triples 1891
-│   ├── canada_all_1901_crm.ttl        # RDF triples 1901  
-│   └── canada_all_1911_crm.ttl        # RDF triples 1911
-└── sk_1911/
-    ├── observations.csv                # Saskatchewan 1911 observations
-    └── places.csv                     # Saskatchewan 1911 places
-```
+## Workflow rules
 
-## Scripts Available
+1. **Don't re-introduce hardcoded paths.** New code reads from
+   `scripts._config.CONFIG`. The audit `grep /home/jic823 scripts/*.py`
+   should return only doc/comment mentions.
+2. **Don't break URLs.** Persistent place IDs (CSD chain ids and CD chain
+   ids) are public URL segments. Never rename a chain in a way that
+   produces a different slug, unless you also publish redirects.
+3. **Use the Makefile.** When adding a new pipeline step, add a Make
+   target with explicit prerequisites. Don't write a top-level shell
+   script that bypasses the dependency graph.
+4. **Generated artifacts stay out of git.** `rag_site/`, `pilot/on_kuzu/*.kuzu`,
+   `data_quality/` are gitignored. The persistent registries
+   (`persistent_*_output/`) and the CIDOC CSVs (`neo4j_cidoc_crm_v2/`) are
+   tracked because they're cheap and stable.
+5. **Sandbox one-off scripts.** Anything matching `analysis_*.py`,
+   `*_visualization.*`, scratch CSVs at the top level → move to `sandbox/`
+   (gitignored). Don't litter the root.
+6. **Wikidata MCP for entity disambiguation.** The REST `wbsearchentities`
+   API returns string-similarity garbage. Always use the Wikidata MCP
+   vector search at `https://wd-mcp.wmcloud.org/mcp` (rate-limited to ~5
+   req/min — plan accordingly). See `~/.claude/CLAUDE.md` for details.
 
-### CSD Temporal Linking (PRODUCTION - September 30, 2025)
+## Key files
 
-#### Main Script: `link_csd_years_spatial_v2.py`
-**Purpose**: Link Census Subdivisions across years using pure spatial overlap analysis (no Excel files needed)
+| Path | Role |
+|------|------|
+| `Makefile` | Pipeline orchestrator |
+| `config.toml` | Committed default paths |
+| `scripts/_config.py` | Config loader; `from _config import CONFIG` |
+| `scripts/build_persistent_cds.py` | CD chain registry builder |
+| `scripts/build_persistent_places.py` | CSD chain registry builder |
+| `scripts/typo_merge_cds.py` | Post-step: collapse OCR-variant CD chains |
+| `scripts/build_neo4j_cidoc_crm_v2.py` | CIDOC-CRM CSV emitter (CSDs) |
+| `scripts/build_cd_presences.py` | CD year-presences + GDB-derived p10 |
+| `scripts/build_p10_from_excel.py` | Excel-overlay p10 (1851–1901) |
+| `scripts/join_wikidata_to_places.py` | Mints `e53_place_uri.csv` |
+| `scripts/parse_lincs_dcb.py` + `lincs_*.py` | DCB person pipeline |
+| `scripts/generate_rag_pages.py` | Static site renderer |
 
-**Key Features**:
-- Uses only GDB polygon layers - all data from geometry + attributes
-- Handles column naming inconsistencies (1891, 1911 use uppercase NAME_CD/NAME_CSD)
-- Spatial index for efficient overlap detection
-- IoU + containment fraction analysis for relationship classification
+## Data sources (paths from config.toml)
 
-**Relationship Types**:
-- **SAME_AS**: High overlap (IoU > 0.98), same CSD over time
-- **WITHIN**: CSD contained in another (city split from larger area)
-- **CONTAINS**: CSD contains others (amalgamation)
-- **OVERLAPS**: Partial overlap (boundary changes, Western province redrawing)
+- **`data_root`** — Contains `TCP_CANADA_CSD_202306/...gdb` + per-year folders
+  `1851/.../1901/` with V1T*_CSD_202306.xlsx files. 1891 uses V1T2; 1901 uses
+  V1T7. 1911 and 1921 only have PUB tables (no CSD-level NAME columns), so
+  the Excel-overlay step skips them and the GDB-derived p10 stands.
+- **`lincs_ttl`** + **`lincs_json`** — LINCS Historical Canadians dump.
+  Source data for the DCB person cohort.
 
-**Single Year Pair**:
-```bash
-conda activate geo
-python scripts/link_csd_years_spatial_v2.py \
-  --gdb TCP_CANADA_CSD_202306/TCP_CANADA_CSD_202306/TCP_CANADA_CSD_202306.gdb \
-  --year-from 1901 --year-to 1911 \
-  --out year_links_output
-```
+## CIDOC-CRM modelling notes
 
-**All Years (1851→1921)**:
-```bash
-conda activate geo
-./scripts/link_all_years.sh
-```
+- Persistent places (E53_Place) are stable across census years; year-specific
+  metrics live on E93_Presence nodes (`<chain_id>_<year>`).
+- CSD-within-CD per year is `P10_falls_within` between presence ids
+  (presence-level, not place-level — a CSD can move between CDs over time).
+- Border edges (`P122_borders_with`) are per-year; lengths reified as
+  `E16_Measurement` + `E54_Dimension` (LINCS-conformant pattern).
+- Wikidata grounding lives on E53_Place via `e53_place_uri.csv` — chains map
+  to a single QID even when sub-year variants drift.
 
-**Outputs**:
-- `year_links_YYYY_YYYY.csv` - High-confidence links (SAME_AS with name match, WITHIN, CONTAINS)
-- `ambiguous_YYYY_YYYY.csv` - Needs review (OCR errors, complex overlaps)
-- `summary_YYYY_YYYY.txt` - Statistics by relationship type
+## v10.2 release notes (Apr 2026)
 
-**Test Results (1901→1911)**:
-- 3,221 CSDs (1901) → 3,825 CSDs (1911)
-- 3,336 high-confidence links: 1,514 SAME_AS, 1,329 CONTAINS, 493 WITHIN
-- 917 ambiguous: 470 SAME_AS (OCR errors), 447 OVERLAPS
+Three classes of bug fixed in the v10.2 deploy:
 
-**Column Name Variations**:
-- 1851, 1861, 1871, 1881, 1901, 1921: `Name_CD`, `Name_CSD` (Title Case)
-- 1891, 1911: `NAME_CD`, `NAME_CSD` (UPPERCASE)
+1. **Same-name CD chain disambiguation** — Toronto East 1871 vs 1911 (and 52
+   other province pairs) used to render with identical text in the index;
+   now each gets a year qualifier ("Toronto East (1871)" / "(1911)").
+2. **QC URL collisions** — 8 chain pairs whose names differed only in
+   diacritics or hyphen/space (Châteauguay vs Chateauguay etc.) silently
+   overwrote each other's pages. `normalize_for_match()` folds them into
+   single chains. The 9th case (Jacques-Cartier 1891 split) is handled by
+   a build-time URL-collision fallback in `prefetch_cd_data`.
+3. **CD↔CSD membership accuracy** — Kingston City 1901 had 1 CSD in the
+   GDB-derived p10 but 7 in the published V1T7 table (ward-level breakdown).
+   `build_p10_from_excel.py` overlays Excel as the authoritative source.
 
-### Scripts Directory
-```
-scripts/
-├── link_csd_years_spatial_v2.py        # ✅ PRODUCTION spatial linking
-├── link_all_years.sh                   # Batch process all year pairs
-├── build_neo4j_cidoc_crm.py           # ✅ CIDOC-CRM Neo4j data generator
-├── assign_canonical_names_simple.py   # ✅ OCR error correction
-├── fix_ocr_errors_v2.py               # OCR error detection
-├── build_year_links_spatial.py         # OLD (Codex version, needs Excel)
-├── csd_name_crosswalk.py               # Name standardization utilities
-├── parse_1911_v1t1_sk.py              # Saskatchewan 1911 parser
-├── rdf_generate_pei.py                 # PEI RDF generation
-├── rdf_generate_pei_all_crm.py        # PEI CRM RDF generation
-├── rdf_generate_pei_irish_crm.py      # PEI Irish-specific RDF
-└── xlsx_inspect_in_zip.py             # ZIP file inspection utility
-```
+See `data_quality/p10_excel_vs_gdb.csv` for the per-CD diff between Excel
+and GDB encodings (gitignored, regenerated by `make all`).
 
-### CIDOC-CRM Neo4j Data Generation
+## When something is broken
 
-**Script**: `build_neo4j_cidoc_crm.py`
-
-**Purpose**: Generate CIDOC-CRM compliant Neo4j CSV files with spatial data
-
-**CIDOC-CRM Entities**:
-- **E53_Place**: CSD and CD places (13,135 + 579 nodes)
-- **E4_Period**: Census years (8 periods)
-- **E93_Presence**: Temporal manifestations (21,047 nodes)
-- **E94_Space_Primitive**: Centroids with lat/lon (21,047 nodes)
-
-**CIDOC-CRM Relationships**:
-- **P166_was_a_presence_of**: Presence → Place (21,047)
-- **P164_is_temporally_specified_by**: Presence → Period (21,047)
-- **P161_has_spatial_projection**: Presence → Space (21,047)
-- **P89_falls_within**: CSD → CD hierarchy (21,046)
-- **P122_borders_with**: Border adjacency + length (45,598)
-
-**Usage**:
-```bash
-conda activate geo
-python scripts/build_neo4j_cidoc_crm.py \
-  --gdb TCP_CANADA_CSD_202306/TCP_CANADA_CSD_202306/TCP_CANADA_CSD_202306.gdb \
-  --years 1851,1861,1871,1881,1891,1901,1911,1921 \
-  --out neo4j_cidoc_crm
-```
-
-**Output**: 67 CSV files (9.7 MB) ready for Neo4j LOAD CSV
-
-**Documentation**: `neo4j_cidoc_crm/README_CIDOC_CRM.md`
-
-### OCR Error Detection and Canonical Names
-
-**Script**: `assign_canonical_names_simple.py`
-
-**Purpose**: Detect OCR errors and assign canonical names using temporal consistency
-
-**Algorithm**:
-1. Build temporal chains of CSDs with perfect spatial match (IoU ≥ 0.999)
-2. Find consensus name (most common across years)
-3. Calculate similarity of all names to consensus
-4. Apply canonical name only if names are similar (avg ≥ 70%, min ≥ 60%)
-5. Preserve intentional name changes (Berlin→Kitchener, ward reorganizations)
-
-**Usage**:
-```bash
-conda activate geo
-python scripts/assign_canonical_names_simple.py \
-  --links-dir year_links_output \
-  --min-similarity 70 \
-  --out canonical_names_final.csv
-```
-
-**Results**:
-- **8,949 CSD-year records** analyzed
-- **107 CSDs** with canonical names applied (OCR variants)
-- **3,179 intentional name changes** preserved
-- **5,127 single-year CSDs** (no temporal comparison)
-
-**OCR Error Types Fixed**:
-- Spelling variants: "Melvern" → "Malvern", "Nictau" → "Nictaux"
-- Apostrophe variants: "Parker Cove" → "Parker's Cove"
-- Similar names: "Clarendon" → "Carleton"
-- Accent variants: "St. Léonard" → "St. Leonard's"
-
-**Output File**: `canonical_names_final.csv`
-- Columns: `tcpuid`, `year`, `original_name`, `canonical_name`, `should_apply`, `consensus_count`, `avg_similarity`, `reason`
-- Can be joined with CIDOC-CRM data to add canonical names to E93_Presence nodes
-
-## Current Status - CIDOC-CRM DATA + OCR CORRECTIONS READY FOR NEO4J
-
-### Infrastructure Status
-- ✅ Geospatial environment ready
-- ✅ Neo4j UK GraphRAG populated and working
-- ✅ Temporal linking complete (20,737 links across 1851-1921)
-- ✅ CIDOC-CRM data generated (67 CSV files, 9.7 MB)
-- ✅ OCR error detection and canonical names assigned (1,757 errors detected, 107 corrected)
-- ⏳ Next: Load CIDOC-CRM data into Neo4j with canonical names
-
-### Completed Milestones (September 30, 2025)
-- ✅ **Temporal linking**: 17,060 high-confidence + 3,677 ambiguous links
-- ✅ **CIDOC-CRM model**: 13,135 CSD places, 21,047 presences, 45,598 borders
-- ✅ **Spatial data**: Centroids (lat/lon) + border adjacency with lengths
-- ✅ **OCR corrections**: 107 canonical names assigned, 3,179 intentional name changes preserved
-- ✅ **Pure spatial analysis** - No Excel files needed from GDB layers
-- ✅ **Data quality** - Column naming inconsistencies handled, OCR errors detected
-
-## Technical Notes
-
-### TCP FileGDB Structure
-- Contains polygon geometries for Canadian census subdivisions
-- Multiple years of TCPUID columns (TCPUID_CSD_1851, TCPUID_CSD_1861, etc.)
-- Requires layer detection or explicit layer specification
-
-### Spatial Analysis Method
-- Uses intersection-over-union (IoU) for polygon comparison
-- Classifies relationships based on area overlap thresholds
-- Handles geometric validation and CRS reprojection
-- Includes name normalization for French/English place names
-
-### Docker Commands
-```bash
-# Start UK GraphRAG Neo4j
-docker start neo4j-uk-graphrag
-
-# Check status
-docker ps | grep neo4j
-
-# Access browser
-# http://localhost:7475 (neo4j/ukgraph123)
-```
-
-## File Permissions Note
-The `generated/` directory had permission issues (owned by Docker user ID 7474). Fixed with:
-```bash
-sudo chown -R jic823:jic823 ~/GraphRAG_test/generated/
-```
-
----
-
-**Last Updated**: September 30, 2025
-**Status**: CIDOC-CRM data ready for Neo4j import with OCR corrections applied
-
-## Data Files Generated
-
-### Temporal Linking (`year_links_output/`)
-- `year_links_YYYY_YYYY.csv` - 17,060 high-confidence temporal links
-- `ambiguous_YYYY_YYYY.csv` - 3,677 ambiguous temporal links
-- `SUMMARY_ALL_YEARS.md` - Complete analysis report
-
-### CIDOC-CRM Neo4j Data (`neo4j_cidoc_crm/`)
-- **67 CSV files (9.7 MB)** ready for LOAD CSV import
-- Node types: E53_Place, E4_Period, E93_Presence, E94_Space_Primitive
-- Relationship types: P166, P164, P161, P89, P122
-- `README_CIDOC_CRM.md` - Import guide with sample queries
-
-### Data Quality (`/`)
-- `ocr_corrections.csv` - 1,757 potential OCR errors detected
-- `canonical_names_final.csv` - 107 canonical names assigned, 3,179 name changes preserved
+- Site rebuild fails: `make config-check` first — most failures are missing
+  external inputs (GDB or LINCS dump not at the configured path).
+- URL collision raised at build time: `prefetch_cd_data` raises
+  `RuntimeError` listing the offending chain ids. Either add a normalization
+  rule in `normalize_for_match()` or accept the auto-demoted slug.
+- Chain count changed unexpectedly after a rebuild: diff
+  `persistent_cds_output/persistent_cd_registry.csv` against HEAD. The chain
+  builder is sensitive to the e93/p10 augmentation step (mid-pipeline state
+  can leak chain_ids back as raw_cd_ids); always run `make all` from a
+  clean `persistent_cds_output/`, never re-run mid-pipeline.
+- "1-CSD CD" complaint: cross-check the published Excel table for that
+  (year, CD) — many are real (Toronto Centre City 1901 = Ward 3 (part)).
+  Genuine bugs land in `build_p10_from_excel.py`.
