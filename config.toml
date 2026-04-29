@@ -1,0 +1,28 @@
+# HGIS Canada Knowledge Graph — pipeline configuration
+#
+# Copy to config.local.toml to override values for your environment.
+# config.local.toml is gitignored; this file is the committed default.
+#
+# All paths are absolute. The pipeline fails loudly when any input is missing
+# rather than silently using a stale fallback.
+
+[paths]
+
+# ---- External inputs (you provide these) ------------------------------------
+
+# Root containing the per-census-year folders (1851/, 1861/, ..., 1901/) with
+# V1T*_CSD_202306.xlsx files AND the TCP_CANADA_CSD_202306/ subdirectory that
+# holds the GeoDatabase. Download from the TCP/HGIS portal.
+data_root = "/home/jic823/GraphRAG_test"
+
+# LINCS Historical Canadians dump locations (used only by the DCB persons
+# pipeline — Stage 5). Download from the LINCS Fuseki triplestore export.
+lincs_ttl  = "/home/jic823/CanadaNeo4j/LINCsDATA/hist-cdns.ttl"
+lincs_json = "/home/jic823/CanadaNeo4j/lincs_historical_canadians.json"
+
+# ---- Deploy target ----------------------------------------------------------
+
+# Local working copy of github.com/jburnford/hgiscanada (the GitHub Pages repo
+# served at jimclifford.ca/hgiscanada/). `make deploy` rsyncs rag_site/ here,
+# commits, and pushes.
+hgiscanada_repo = "/home/jic823/hgiscanada"

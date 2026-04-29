@@ -1,4 +1,12 @@
-# Python
+# =============================================================================
+# HGIS Canada Knowledge Graph — gitignore
+#
+# Inputs to the pipeline are checked in (scripts/, cd_links_output/,
+# year_links_output/) or come from outside the repo (the GDB and Excel files
+# at config.data_root). Outputs are derived and stay out of git.
+# =============================================================================
+
+# ---- Python ----------------------------------------------------------------
 __pycache__/
 *.py[cod]
 *$py.class
@@ -9,13 +17,27 @@ venv/
 *.egg-info/
 dist/
 build/
+*.swp
+*.swo
 
-# Source data files (large - not in repo)
+# ---- Editor / OS -----------------------------------------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.conda/
+
+# ---- User-local config + scratch ------------------------------------------
+config.local.toml
+sandbox/
+
+# ---- Source data (large; lives at config.data_root, not in repo) ----------
 *.zip
 *.xlsx
 *.xls
 *.gdb/
 TCP_CANADA_CSD_202306/
+# Per-year Excel folders (1851/.../1901/) and the 1911/1921 tables zip
 1851/
 1861/
 1871/
@@ -25,44 +47,53 @@ TCP_CANADA_CSD_202306/
 1911Tables/
 1921Tables/
 
-# Generated RDF (regenerate as needed)
-*.ttl
-*.rdf
-
-# Generated output directories - KEEP THESE
-# neo4j_cidoc_crm/           # Spatial CIDOC-CRM CSVs (9.7 MB)
-# neo4j_census_observations/ # Census observations CSVs (155 MB)
-# year_links_output/         # Temporal links CSVs (2.3 MB)
-
-# Exclude test output
-neo4j_census_test/
-
-# Other generated outputs
+# ---- Generated outputs (rebuild via `make all`) ---------------------------
+# Static site
+rag_site/
+# KuzuDB / Ladybug pilot DB (the *.kuzu binary is large and rebuildable)
+pilot/on_kuzu/*.kuzu
+*.kuzu
+# Neo4j census v2 backup (stale snapshot, regenerate from data)
+neo4j_census_v2.bak/
+# Excel-vs-GDB diff sidecars
+data_quality/
+# Old generation paths
 generated/
+neo4j_census_test/
+# Logs
 canonical_names.log
 build_cidoc_crm.log
 link_all_years.log
 
-# Conda
-.conda/
+# ---- Generated RDF (Turtle exports) ---------------------------------------
+*.ttl
+*.rdf
+*.dump
 
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
+# ---- Volatile caches (rebuilt by their respective scripts) ----------------
+data/wd_person_places_cache.json
+data/geonames_misses.csv
 
-# OS
-.DS_Store
-Thumbs.db
+# ---- Top-level scratch / one-shot debugging artifacts ---------------------
+# Move to sandbox/ if you need to keep them; otherwise they regenerate from
+# the underlying data.
+analysis_*.py
+analysis_*.json
+april*.md
+build_visualization_data.py
+census_visualization.html
+visualization_data.json
+csd_disambig_input.csv
+canonical_cd_names.csv
+cd_wikidata_matches.csv
+wikidata_grounding/csd_disambig_queue.jsonl
+wikidata_grounding/v1t1_1911_*.csv
 
-# Keep important documentation and configs
+# ---- Whitelist guards (re-include things accidentally caught above) -------
 !CLAUDE.md
 !CENSUS*.md
 !README.md
 !requirements.txt
-
-# Keep scripts
+!config.toml
 !scripts/*.py
 !scripts/*.sh
-*.dump
