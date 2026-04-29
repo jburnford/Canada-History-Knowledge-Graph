@@ -27,12 +27,13 @@ hgiscanada repo published at jimclifford.ca/hgiscanada).
 """
 
 import argparse
+import csv
 import html
 import json
 import re
 import sys
 import unicodedata
-from collections import defaultdict
+from collections import Counter, defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -128,6 +129,11 @@ def url_for_place(name: str, place_id: str, base: str,
 _CD_CHAIN_BY_RAW_YEAR: dict = {}
 _CD_CHAIN_URL_SLUG: dict = {}  # chain_id -> last path segment ("renfrew-north")
 _CD_CANONICAL_BY_CHAIN: dict = {}
+# chain_id -> display label. Bare canonical_name when unique within the
+# province; "<canonical_name> (<year qualifier>)" when two or more chains
+# in the same province share a canonical_name (e.g. Toronto East 1871 and
+# Toronto East 1911 are both real but distinct CDs).
+_CD_DISPLAY_LABEL: dict = {}
 
 
 def url_for_cd(cd_name: str, province: str, base: str, *, year: int = None,
@@ -150,15 +156,21 @@ def url_for_cd(cd_name: str, province: str, base: str, *, year: int = None,
 
 
 def cd_link_label(raw_cd_name: str, year: int = None, province: str = "") -> str:
-    """Return the link text for a CSD page's "Part of: <CD>" line. Uses
-    canonical chain name when the raw cd_name is in a chain; falls back
-    to raw name."""
+    """Return the link text for a CSD page's "Part of: <CD>" line.
+
+    Uses the disambiguated display label when the raw cd_name resolves to a
+    chain that shares its canonical_name with another chain in the same
+    province (e.g. "Toronto East (1871)"). Falls back to canonical_name when
+    the chain is unique, or raw_cd_name when no chain mapping is available."""
     if year is None or not _CD_CHAIN_BY_RAW_YEAR:
         return raw_cd_name
     raw_cd_id = f"CD_{province}_{raw_cd_name.replace(' ', '_')}"
     chain_id = _CD_CHAIN_BY_RAW_YEAR.get((raw_cd_id, int(year)))
     if chain_id:
-        return _CD_CANONICAL_BY_CHAIN.get(chain_id, raw_cd_name)
+        return _CD_DISPLAY_LABEL.get(
+            chain_id,
+            _CD_CANONICAL_BY_CHAIN.get(chain_id, raw_cd_name),
+        )
     return raw_cd_name
 
 
@@ -217,6 +229,7 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
 {overlaps_section}
 {neighbours_section}
 {measurements_section}
+{persons_section}
 
 <h2>Identifiers</h2>
 <ul>
@@ -313,6 +326,8 @@ PLACE_PAGE_TEMPLATE = """<!DOCTYPE html>
 </table>
 <p><em>Cross-year identity established by spatial polygon overlap (SAME_AS chains
 across the Canadian Census Subdivision boundary files).</em></p>
+
+{persons_aggregate_section}
 
 <h2>Identifiers</h2>
 <ul>
@@ -788,6 +803,254 @@ def _format_citation(year: int, tables: set) -> str:
     return f' <em>(Source: {year} Census of Canada, {joined}.)</em>'
 
 
+# ---------------------------------------------------------------------------
+# DCB persons section
+#
+# Surfaces people with Dictionary of Canadian Biography entries on the CSD
+# pages where they had a birth/death/burial event, for every census year their
+# lifespan overlaps. Sourced from data/lincs_person_csd_links.csv (Strategy 1
+# Wikidata-QID match + Strategy 3 GeoNames point-in-polygon, deduped) and
+# data/lincs_dcb_persons.json (full per-person metadata: birth/death years,
+# occupations, DCB URL).
+#
+# Framing is deliberately neutral. The DCB cohort includes both celebrated
+# figures and people whose biographies exist because they were anti-heroes or
+# victims — labelling the section "Notable Canadians" would impose a value
+# judgment the source doesn't make. Heading reads as a sourcing statement
+# rather than an editorial pick.
+# ---------------------------------------------------------------------------
+
+REPO_ROOT = Path(__file__).resolve().parent.parent
+LINCS_LINKS_CSV = REPO_ROOT / "data" / "lincs_person_csd_links.csv"
+LINCS_PERSONS_JSON = REPO_ROOT / "data" / "lincs_dcb_persons.json"
+CENSUS_YEARS_FOR_PERSONS = [1851, 1861, 1871, 1881, 1891, 1901, 1911, 1921]
+
+
+def _closest_census_year(year):
+    if year is None:
+        return None
+    if year <= CENSUS_YEARS_FOR_PERSONS[0]:
+        return CENSUS_YEARS_FOR_PERSONS[0]
+    if year >= CENSUS_YEARS_FOR_PERSONS[-1]:
+        return CENSUS_YEARS_FOR_PERSONS[-1]
+    return min(CENSUS_YEARS_FOR_PERSONS, key=lambda y: abs(y - year))
+
+
+def _connection_tag(event_types: set) -> str:
+    has_birth = "birth" in event_types
+    has_death = "death" in event_types
+    has_burial = "burial" in event_types
+    if has_birth and (has_death or has_burial):
+        return "born and died here" if has_death else "born here, buried here"
+    if has_birth:
+        return "born here"
+    if has_death:
+        return "died here"
+    if has_burial:
+        return "buried here"
+    return ""
+
+
+def _format_lifespan(birth_year, death_year) -> str:
+    if birth_year and death_year:
+        return f"{birth_year}–{death_year}"
+    if birth_year:
+        return f"b. {birth_year}"
+    if death_year:
+        return f"d. {death_year}"
+    return ""
+
+
+def _join_with_and(items: list) -> str:
+    if not items:
+        return ""
+    if len(items) == 1:
+        return items[0]
+    if len(items) == 2:
+        return f"{items[0]} and {items[1]}"
+    return ", ".join(items[:-1]) + f", and {items[-1]}"
+
+
+def prefetch_persons():
+    """Load DCB-cohort person records + place links.
+
+    Returns:
+      persons_by_place_year: dict[(place_id, year)] -> list of person dicts
+      persons_by_place:      dict[place_id] -> list of person dicts (all years)
+
+    Empty defaultdicts are returned silently if the link CSV / persons JSON
+    aren't on disk, so the renderer falls back to the no-section case.
+    """
+    if not LINCS_LINKS_CSV.exists() or not LINCS_PERSONS_JSON.exists():
+        print("[prefetch] DCB person data not found, skipping persons section",
+              flush=True)
+        return defaultdict(list), defaultdict(list)
+
+    print("[prefetch] DCB persons + place links...", flush=True)
+
+    with open(LINCS_PERSONS_JSON) as f:
+        cohort = json.load(f)["persons"]
+    person_meta = {p["personId"]: p for p in cohort}
+
+    # Aggregate the multi-row link table into one entry per (place_id, person_id)
+    # so a person who has both a birth and a death link at the same place
+    # collapses to a single record with combined event_types.
+    by_place_person: dict = {}
+    with open(LINCS_LINKS_CSV) as f:
+        for row in csv.DictReader(f):
+            place_id = row["place_id"]
+            pid = row["person_id"]
+            key = (place_id, pid)
+            if key not in by_place_person:
+                meta = person_meta.get(pid, {})
+                by_place_person[key] = {
+                    "person_id": pid,
+                    "name": row.get("person_name") or meta.get("name") or "Unknown",
+                    "dcb_url": row.get("dcb_url") or meta.get("dcb_url"),
+                    "wikidata_qid": row.get("person_qid") or meta.get("wikidataQid"),
+                    "birth_year": meta.get("birthYear"),
+                    "death_year": meta.get("deathYear"),
+                    "event_types": set(),
+                    "occupations": meta.get("occupations") or [],
+                }
+            by_place_person[key]["event_types"].add(row["event_type"])
+
+    persons_by_place: dict = defaultdict(list)
+    for (place_id, _), entry in by_place_person.items():
+        persons_by_place[place_id].append(entry)
+
+    # Lifespan-overlap surface rule: a person appears on (place, census_year)
+    # for every census year their [birth_year, death_year] interval covers.
+    # Skip persons whose lifespan we don't have at all — without dates we
+    # can't responsibly say "this person was alive in {year}".
+    persons_by_place_year: dict = defaultdict(list)
+    for place_id, entries in persons_by_place.items():
+        for entry in entries:
+            by = entry["birth_year"]
+            dy = entry["death_year"]
+            if by is None and dy is None:
+                continue
+            for cy in CENSUS_YEARS_FOR_PERSONS:
+                if by is not None and cy < by:
+                    continue
+                if dy is not None and cy > dy:
+                    continue
+                persons_by_place_year[(place_id, cy)].append(entry)
+
+    print(f"[prefetch]   {len(persons_by_place)} places with DCB persons, "
+          f"{sum(len(v) for v in persons_by_place_year.values())} (place,year) entries",
+          flush=True)
+    return persons_by_place_year, persons_by_place
+
+
+def _person_link(person: dict) -> str:
+    name = html.escape(person["name"])
+    url = person.get("dcb_url")
+    if url:
+        return f'<a href="{html.escape(url)}">{name}</a>'
+    return name
+
+
+def _persons_table(persons: list) -> str:
+    """Three-column HTML table: Name | Lifespan | Connection.
+
+    Sorted by birth_year ascending (chronological), then name. Stable across
+    runs so the rendered HTML diffs are minimal.
+    """
+    sorted_persons = sorted(
+        persons,
+        key=lambda p: (p.get("birth_year") or 9999, p["name"].lower()),
+    )
+    rows = []
+    for p in sorted_persons:
+        name_cell = _person_link(p)
+        lifespan = html.escape(_format_lifespan(p.get("birth_year"),
+                                                 p.get("death_year")))
+        tag = html.escape(_connection_tag(p["event_types"]))
+        rows.append(
+            f"<tr><td>{name_cell}</td><td>{lifespan}</td>"
+            f"<td>{tag}</td></tr>"
+        )
+    return (
+        "<table class=\"dcb-persons\">\n"
+        "<tr><th>Name</th><th>Lifespan</th><th>Connection</th></tr>\n"
+        + "\n".join(rows)
+        + "\n</table>"
+    )
+
+
+def render_persons_section(persons: list, year: int) -> str:
+    """Per-year section (slotted between measurements and Identifiers).
+
+    Renders every person whose lifespan covers `year`. No cap — this is bonus
+    content where the DCB link itself is the value; comprehensiveness matters
+    more than prose density.
+    """
+    if not persons:
+        return ""
+    intro = (
+        f"<p>The "
+        f'<a href="https://www.biographi.ca/">Dictionary of Canadian Biography</a> '
+        f"includes biographies of {len(persons)} "
+        f"{'person' if len(persons) == 1 else 'people'} "
+        f"connected to this place who were alive in {year}, listed below by "
+        f"birth year. Each name links to that person's DCB entry.</p>"
+    )
+    return (
+        "<h2>People with Dictionary of Canadian Biography entries</h2>\n"
+        + intro + "\n"
+        + _persons_table(persons)
+    )
+
+
+def render_persons_aggregate_section(persons: list) -> str:
+    """Full list of persons connected to a persistent place across all years."""
+    if not persons:
+        return ""
+    intro = (
+        f'<p>The <a href="https://www.biographi.ca/">Dictionary of Canadian '
+        f"Biography</a> includes biographies of {len(persons)} "
+        f"{'person' if len(persons) == 1 else 'people'} connected to this "
+        f"place across the 1851–1921 period, listed below by birth year. "
+        f"Each name links to that person's DCB entry; the connection tag "
+        f"indicates whether the documented event was a birth, death, or "
+        f"burial at this place.</p>"
+    )
+    return (
+        "<h2>People with Dictionary of Canadian Biography entries</h2>\n"
+        + intro + "\n"
+        + _persons_table(persons)
+    )
+
+
+def _persons_jsonld_mentions(persons: list) -> list:
+    """Build Schema.org Person entries for the JSON-LD `mentions` array.
+
+    No cap — `mentions` is machine-readable; the size cost is small per-Person
+    and bots benefit from completeness.
+    """
+    out = []
+    for p in persons:
+        entry = {
+            "@type": "Person",
+            "name": p["name"],
+        }
+        urls = []
+        if p.get("dcb_url"):
+            entry["url"] = p["dcb_url"]
+            urls.append(p["dcb_url"])
+        if p.get("wikidata_qid"):
+            urls.append(f"https://www.wikidata.org/entity/{p['wikidata_qid']}")
+        if urls:
+            entry["sameAs"] = urls if len(urls) > 1 else urls[0]
+        if p.get("birth_year"):
+            entry["birthDate"] = str(p["birth_year"])
+        if p.get("death_year"):
+            entry["deathDate"] = str(p["death_year"])
+        out.append(entry)
+    return out
+
+
 def render_measurements_section(measurements: list, year: int) -> str:
     """measurements is a list of 8-tuples:
         (category, label, fval, sval, var_code, unit, source_tables, quality)
@@ -954,7 +1217,8 @@ def render_overlaps_section(overlaps, year, base, prov_code):
     return "\n".join(blocks)
 
 
-def render_page(row, traj, neighbours, measurements, overlaps, *, site_url: str, base: str) -> str:
+def render_page(row, traj, neighbours, measurements, overlaps, persons, *,
+                site_url: str, base: str) -> str:
     (place_id, name, qid, place_type, prov_code, tcpuid, year, area_sqm,
      lat, lon, pop, pop_m, pop_f, density, cd_name, enwiki_url, frwiki_url) = row
 
@@ -1087,6 +1351,9 @@ def render_page(row, traj, neighbours, measurements, overlaps, *, site_url: str,
 
     # Full measurements (all variables in any category)
     measurements_section = render_measurements_section(measurements, year)
+
+    # People with DCB entries connected to this place who were alive in `year`
+    persons_section = render_persons_section(persons, year)
 
     # Boundary continuity (non-SAME_AS overlaps with adjacent census years)
     overlaps_section = render_overlaps_section(overlaps, year, base, prov_code)
@@ -1226,6 +1493,13 @@ def render_page(row, traj, neighbours, measurements, overlaps, *, site_url: str,
             },
         }
 
+    # Schema.org `mentions` for people with DCB entries surfaced on this page.
+    # The page is *about* the place; it *mentions* the persons.
+    if persons:
+        mentions = _persons_jsonld_mentions(persons)
+        if mentions:
+            jsonld_obj["mentions"] = mentions
+
     return PAGE_TEMPLATE.format(
         title=html.escape(title),
         description=html.escape(description_short),
@@ -1243,6 +1517,7 @@ def render_page(row, traj, neighbours, measurements, overlaps, *, site_url: str,
         overlaps_section=overlaps_section,
         neighbours_section=neighbours_section,
         measurements_section=measurements_section,
+        persons_section=persons_section,
         tcpuid=tcpuid,
         place_id=place_id,
         wikidata_id=wikidata_id,
@@ -1341,13 +1616,18 @@ def prefetch_all_data(conn):
         overlaps_by_presence[r[0]].append(("backward", r[1], r[2], r[3], r[4], r[5], r[6]))
     print(f"[prefetch]   {sum(len(v) for v in overlaps_by_presence.values())} overlap rows", flush=True)
 
-    return presence_data, place_to_presences, neighbours_by_presence, meas_by_presence, overlaps_by_presence
+    persons_by_place_year, persons_by_place = prefetch_persons()
+
+    return (presence_data, place_to_presences, neighbours_by_presence,
+            meas_by_presence, overlaps_by_presence,
+            persons_by_place_year, persons_by_place)
 
 
 def page_for_presence(presence_id, prefetched, *, site_url, base):
     """Look up pre-fetched data and render the year-page."""
-    presence_data, place_to_presences, neighbours_by_presence, \
-        meas_by_presence, overlaps_by_presence = prefetched
+    (presence_data, place_to_presences, neighbours_by_presence,
+     meas_by_presence, overlaps_by_presence,
+     persons_by_place_year, _persons_by_place) = prefetched
 
     row = presence_data.get(presence_id)
     if row is None:
@@ -1359,8 +1639,10 @@ def page_for_presence(presence_id, prefetched, *, site_url, base):
     neighbours = neighbours_by_presence.get((place_id, year), [])
     measurements = meas_by_presence.get(presence_id, [])
     overlaps = overlaps_by_presence.get(presence_id, [])
+    persons = persons_by_place_year.get((place_id, year), [])
 
     body, page_path = render_page(row, traj, neighbours, measurements, overlaps,
+                                  persons,
                                   site_url=site_url, base=base)
     rel_dir = page_path.lstrip("/").rstrip("/")
     if base and rel_dir.startswith(base.lstrip("/")):
@@ -1368,7 +1650,7 @@ def page_for_presence(presence_id, prefetched, *, site_url, base):
     return rel_dir, body, f"{site_url}{page_path}"
 
 
-def render_place_page(place_row, traj, lineage_in, lineage_out, *,
+def render_place_page(place_row, traj, lineage_in, lineage_out, persons, *,
                       site_url: str, base: str) -> tuple[str, str]:
     """place_row = (place_id, name, wikidata_qid, place_type, province, enwiki_url, frwiki_url)
        traj      = list of (year, pop_total, tcpuid)
@@ -1468,6 +1750,9 @@ def render_place_page(place_row, traj, lineage_in, lineage_out, *,
     if is_ir:
         intro = IR_NOTE_HTML + "\n" + intro
 
+    # People with DCB entries — full aggregate across all census years.
+    persons_aggregate_section = render_persons_aggregate_section(persons)
+
     # Trajectory rows with link to each year's detail page.
     traj_rows = []
     for tyr, tpop, ttcpuid in traj:
@@ -1544,6 +1829,11 @@ def render_place_page(place_row, traj, lineage_in, lineage_out, *,
             same_as.append(frwiki_url)
         jsonld_obj["sameAs"] = same_as if len(same_as) > 1 else same_as[0]
 
+    if persons:
+        mentions = _persons_jsonld_mentions(persons)
+        if mentions:
+            jsonld_obj["mentions"] = mentions
+
     body = PLACE_PAGE_TEMPLATE.format(
         title=html.escape(title),
         description=html.escape(description_text[:200]),
@@ -1560,6 +1850,7 @@ def render_place_page(place_row, traj, lineage_in, lineage_out, *,
         name_html=html.escape(name),
         trajectory_rows="\n".join(traj_rows) if traj_rows else "<tr><td colspan=3>No data</td></tr>",
         lineage_section=lineage_section,
+        persons_aggregate_section=persons_aggregate_section,
         place_id=place_id,
         jsonld=json.dumps(jsonld_obj, indent=2),
     )
@@ -1728,9 +2019,16 @@ def prefetch_cd_data(presence_data):
     # 3. Build chain URL lookup from URI sidecar. For wikidata-grounded chains,
     # synthesize the page URL from chain_id (we still want users to click into
     # the local CD index page even when the canonical URI is Wikidata).
+    #
+    # Slugify is lossy (folds diacritics, treats hyphen/space identically), so
+    # two chains with distinct canonical names ("Jacques-Cartier" vs "Jacques
+    # Cartier") can produce the same bare slug. We pass once to mint, then
+    # detect bare-slug collisions and re-mint the loser with an anchor-year
+    # disambiguator. Earliest-anchor wins the bare URL (most stable for inbound
+    # links since the multi-year main chain has the earlier anchor).
     cd_chain_url = {}
-    for chain_id, canonical, province, uri, qid, status, mr, _ya, _en, _fr in cds:
-        # Mirror minted_cd_url logic for collision-disambiguated chain ids.
+    cd_slug_anchor = {}  # chain_id -> (province, slug, anchor_year)
+    for chain_id, canonical, province, uri, qid, status, mr, ya, _en, _fr in cds:
         expected_prefix = f"CD_{province}_{canonical.replace(' ', '_')}"
         url_slug = slugify(canonical)
         if chain_id.startswith(expected_prefix + "_"):
@@ -1738,6 +2036,46 @@ def prefetch_cd_data(presence_data):
             if tail:
                 url_slug = f"{url_slug}-{slugify(tail)}"
         cd_chain_url[chain_id] = f"/hgiscanada/cds/{province.lower()}/{url_slug}/"
+        years = [int(y) for y in (ya or "").split(";") if y]
+        anchor = min(years) if years else 9999
+        cd_slug_anchor[chain_id] = (province, url_slug, anchor, chain_id)
+
+    # Detect bare-slug collisions and demote later-anchor chains to a slugged
+    # disambiguator. Don't touch chain_ids — only URLs.
+    by_url = defaultdict(list)
+    for chain_id, url in cd_chain_url.items():
+        by_url[url].append(chain_id)
+    for url, chain_ids in by_url.items():
+        if len(chain_ids) <= 1:
+            continue
+        # Sort: earliest anchor first; chain_id alpha breaks ties.
+        ranked = sorted(chain_ids, key=lambda cid: (cd_slug_anchor[cid][2],
+                                                     cd_slug_anchor[cid][3]))
+        for cid in ranked[1:]:
+            province, base_slug, anchor, _ = cd_slug_anchor[cid]
+            new_slug = f"{base_slug}-{anchor}"
+            new_url = f"/hgiscanada/cds/{province.lower()}/{new_slug}/"
+            # If this fallback also collides, append chain_id-derived suffix.
+            if new_url in cd_chain_url.values() and new_url != url:
+                tail = slugify(cid)
+                new_url = f"/hgiscanada/cds/{province.lower()}/{base_slug}-{tail}/"
+            cd_chain_url[cid] = new_url
+            print(f"[prefetch-cds] URL collision on {url}: "
+                  f"demoted {cid} to {new_url}", flush=True)
+
+    # Hard guard: any remaining duplicates indicate a deeper bug (e.g., two
+    # chains share the exact same chain_id, or three-way collision wasn't
+    # resolved by the first pass). Fail loudly so we never silently overwrite.
+    final_url_counts = Counter(cd_chain_url.values())
+    final_collisions = [u for u, c in final_url_counts.items() if c > 1]
+    if final_collisions:
+        msg = ["URL collisions remain after disambiguation pass:"]
+        for url in sorted(final_collisions):
+            msg.append(f"  {url}")
+            for cid, u in cd_chain_url.items():
+                if u == url:
+                    msg.append(f"    {cid}")
+        raise RuntimeError("\n".join(msg))
 
     # 4. Load (raw_cd_id, year) -> chain_id mapping.
     raw_cd_to_chain = {}
@@ -1809,8 +2147,34 @@ def prefetch_cd_data(presence_data):
         n_edges = sum(len(v) for v in cd_lineage_by_chain.values()) // 2
         print(f"[prefetch-cds] {n_edges} CD lineage edges", flush=True)
 
+    # 7. Build the display-label dict. When a (province, canonical_name) pair
+    # has more than one chain — Toronto East 1871 vs 1911, Jacques-Cartier
+    # 1891 vs the 1861-1911 main chain, etc. — append a year qualifier so
+    # readers and crawlers can tell the chains apart in the index, page
+    # chrome, JSON-LD, and lineage links. Single chain stays bare.
+    chains_by_prov_name = defaultdict(list)
+    for chain_id, canonical, province, _u, _q, _s, _mr, ya, _en, _fr in cds:
+        chains_by_prov_name[(province, canonical)].append((chain_id, ya))
+    cd_display_label = {}
+    for (_prov, name), chains in chains_by_prov_name.items():
+        if len(chains) == 1:
+            cd_display_label[chains[0][0]] = name
+            continue
+        for chain_id, years_active in chains:
+            years = [y for y in (years_active or "").split(";") if y]
+            if not years:
+                qual = ""
+            elif len(years) == 1:
+                qual = years[0]
+            else:
+                qual = f"{years[0]}–{years[-1]}"
+            cd_display_label[chain_id] = f"{name} ({qual})" if qual else name
+    n_disambig = sum(1 for v in cd_display_label.values() if "(" in v)
+    print(f"[prefetch-cds] {n_disambig} CD chains given disambiguated display labels",
+          flush=True)
+
     return (cds, cd_to_csds_by_year, cd_chain_url, raw_cd_to_chain,
-            cd_canonical_by_chain, cd_lineage_by_chain)
+            cd_canonical_by_chain, cd_lineage_by_chain, cd_display_label)
 
 
 def render_cd_page(cd_row, csds_by_year, lineage_edges, *,
@@ -1825,6 +2189,11 @@ def render_cd_page(cd_row, csds_by_year, lineage_edges, *,
     (cd_id, cd_name, prov_code, uri, qid, status, mint_reason,
      years_active_str, enwiki_url, frwiki_url) = cd_row
     province = PROVINCE_NAMES.get(prov_code, prov_code)
+    # Display label adds a year qualifier when this chain shares its
+    # canonical_name with another chain in the same province (e.g.
+    # "Toronto East (1871)" vs "Toronto East (1911)"). Falls back to bare
+    # cd_name when this chain is the only one with that name.
+    display_name = _CD_DISPLAY_LABEL.get(cd_id, cd_name)
     page_path = url_for_cd(cd_name, prov_code, base, chain_place_id=cd_id)
     canonical = f"{site_url}{page_path}"
     home_url = f"{base}/"
@@ -1878,9 +2247,9 @@ def render_cd_page(cd_row, csds_by_year, lineage_edges, *,
         )
 
     # Intro paragraph.
-    article = "an" if cd_name and cd_name[0].lower() in "aeiou" else "a"
+    article = "an" if display_name and display_name[0].lower() in "aeiou" else "a"
     intro = (
-        f"<strong>{html.escape(cd_name)}</strong> was {article} Census Division "
+        f"<strong>{html.escape(display_name)}</strong> was {article} Census Division "
         f"in {province} as recorded in the {years_active} Canadian census series. "
         f"It comprised the constituent Census Subdivisions listed below for each "
         f"year it appears in the published volumes."
@@ -1915,7 +2284,7 @@ def render_cd_page(cd_row, csds_by_year, lineage_edges, *,
             )
 
     description = (
-        f"{cd_name} Census Division in {province}, {years_active}. "
+        f"{display_name} Census Division in {province}, {years_active}. "
         f"Constituent Census Subdivisions listed for each census year."
     )
 
@@ -1935,13 +2304,17 @@ def render_cd_page(cd_row, csds_by_year, lineage_edges, *,
             other_links = []
             for other_id in sorted(set(others)):
                 other_canonical = _CD_CANONICAL_BY_CHAIN.get(other_id, other_id)
+                # Use display label (with year qualifier when ambiguous), not
+                # bare canonical_name. Otherwise "Split into Toronto East" can
+                # mean either the 1871 or the 1911 chain.
+                other_label = _CD_DISPLAY_LABEL.get(other_id, other_canonical)
                 # Derive prov from chain id (CD_<PROV>_...).
                 other_parts = other_id.split("_", 2)
                 other_prov = other_parts[1] if len(other_parts) >= 2 else prov_code
                 other_url = (f"{base}/cds/{other_prov.lower()}/"
                              f"{_CD_CHAIN_URL_SLUG.get(other_id, slugify(other_canonical))}/")
                 other_links.append(
-                    f'<a href="{other_url}">{html.escape(other_canonical)}</a>'
+                    f'<a href="{other_url}">{html.escape(other_label)}</a>'
                 )
             joined = ", ".join(other_links)
             yr_str = f" in {change_year}" if change_year else ""
@@ -1965,7 +2338,7 @@ def render_cd_page(cd_row, csds_by_year, lineage_edges, *,
     jsonld_obj = {
         "@context": "https://schema.org",
         "@type": "AdministrativeArea",
-        "name": f"{cd_name}, {province}",
+        "name": f"{display_name}, {province}",
         "description": description,
         "containedInPlace": {
             "@type": "AdministrativeArea",
@@ -1982,13 +2355,13 @@ def render_cd_page(cd_row, csds_by_year, lineage_edges, *,
         jsonld_obj["sameAs"] = same_as if len(same_as) > 1 else same_as[0]
 
     body = CD_PAGE_TEMPLATE.format(
-        title=f"{cd_name}, {province} — Census Division",
+        title=f"{display_name}, {province} — Census Division",
         description=description,
         canonical=canonical,
         home_url=home_url,
         prov_index_url=prov_index_url,
         province=province,
-        cd_name=html.escape(cd_name),
+        cd_name=html.escape(display_name),
         years_active=years_active,
         wikidata_meta=wikidata_meta,
         wikidata_link=wikidata_link,
@@ -2007,7 +2380,8 @@ def render_cd_page(cd_row, csds_by_year, lineage_edges, *,
     return rel_dir, body, canonical
 
 
-def fetch_place_pages(conn, place_to_presences, *, site_url: str, base: str):
+def fetch_place_pages(conn, place_to_presences, persons_by_place, *,
+                      site_url: str, base: str):
     """Iterate Places and yield (rel_dir, html, canonical) for each.
     Uses pre-fetched trajectories + batched lineage queries to avoid
     per-place Cypher round-trips."""
@@ -2058,8 +2432,9 @@ def fetch_place_pages(conn, place_to_presences, *, site_url: str, base: str):
         traj = place_to_presences.get(place_id, [])
         lineage_in = lineage_in_by_place.get(place_id, [])
         lineage_out = lineage_out_by_place.get(place_id, [])
+        persons = persons_by_place.get(place_id, [])
         rel_dir, body, canonical = render_place_page(
-            place_row, traj, lineage_in, lineage_out,
+            place_row, traj, lineage_in, lineage_out, persons,
             site_url=site_url, base=base,
         )
         yield rel_dir, body, canonical
@@ -2229,9 +2604,13 @@ def render_province_index_page(prov_code: str, places_in_prov: list,
     cds_section = ""
     if cds_in_prov:
         cd_items = []
+        # Sort by display label so "(1871)" / "(1911)" qualifiers line up
+        # adjacent to the bare-name siblings they disambiguate.
         for cd_id, cd_name, cd_qid, num_csds_max in sorted(
-            cds_in_prov, key=lambda r: (r[1] or "").lower()
+            cds_in_prov,
+            key=lambda r: (_CD_DISPLAY_LABEL.get(r[0], r[1]) or "").lower()
         ):
+            display_name = _CD_DISPLAY_LABEL.get(cd_id, cd_name)
             cd_href = url_for_cd(cd_name, prov_code, base, chain_place_id=cd_id)
             wd_marker = ""
             if cd_qid:
@@ -2246,7 +2625,7 @@ def render_province_index_page(prov_code: str, places_in_prov: list,
                 count_marker = (f' <span style="color:#888;font-size:0.85em">'
                                 f'({num_csds_max} CSDs)</span>')
             cd_items.append(
-                f'<li><a href="{cd_href}">{html.escape(cd_name)}</a>'
+                f'<li><a href="{cd_href}">{html.escape(display_name)}</a>'
                 f'{count_marker}{wd_marker}</li>'
             )
         cds_section = (
@@ -2350,12 +2729,15 @@ def main():
     cd_to_csds_by_year = {}
     cd_lineage_by_chain = {}
     cds, cd_to_csds_by_year, _cd_chain_url_full, _raw_to_chain, \
-        _canonical_by_chain, cd_lineage_by_chain = prefetch_cd_data(prefetched[0])
+        _canonical_by_chain, cd_lineage_by_chain, _display_label = \
+        prefetch_cd_data(prefetched[0])
     # Populate module-level globals used by url_for_cd / cd_link_label.
     _CD_CHAIN_BY_RAW_YEAR.clear()
     _CD_CHAIN_BY_RAW_YEAR.update(_raw_to_chain)
     _CD_CANONICAL_BY_CHAIN.clear()
     _CD_CANONICAL_BY_CHAIN.update(_canonical_by_chain)
+    _CD_DISPLAY_LABEL.clear()
+    _CD_DISPLAY_LABEL.update(_display_label)
     # Convert full URL paths to last-segment slugs for url_for_cd lookup.
     _CD_CHAIN_URL_SLUG.clear()
     for chain_id, url_path in _cd_chain_url_full.items():
@@ -2388,8 +2770,10 @@ def main():
     # because they require iteration over the full Place set.
     place_pages_written = 0
     if args.all:
+        persons_by_place_for_aggregate = prefetched[6]
         for rel_dir, body, canonical in fetch_place_pages(
-            conn, place_to_presences, site_url=site_url, base=base
+            conn, place_to_presences, persons_by_place_for_aggregate,
+            site_url=site_url, base=base
         ):
             full_dir = out_dir / rel_dir
             full_dir.mkdir(parents=True, exist_ok=True)

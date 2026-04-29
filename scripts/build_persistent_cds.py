@@ -37,6 +37,7 @@ import argparse
 import csv
 import re
 import sys
+import unicodedata
 from collections import Counter, defaultdict
 from pathlib import Path
 
@@ -151,6 +152,27 @@ def canonical_cd_name(raw: str) -> str:
     return re.sub(r"\s+", " ", s).strip()
 
 
+def normalize_for_match(name: str) -> str:
+    """Loose name-equality key used by Rules 1-3 chain matching and the
+    Rule 4-NAME / split-detect / Rule 4-BRIDGE name comparisons.
+
+    Folds diacritics (Châteauguay → chateauguay), unifies straight and
+    curly apostrophes and backticks, treats hyphen as space (Jacques-Cartier
+    matches Jacques Cartier), collapses whitespace, lowercases. Used only
+    for matching — does NOT replace canonical_cd_name as displayed."""
+    if not name:
+        return ""
+    # Unify quote variants BEFORE diacritic folding: curly apostrophe is not
+    # ASCII, so the encode("ascii", "ignore") step below would strip it
+    # entirely — silently breaking equality between "L'Islet" (curly) and
+    # "L'Islet" (straight).
+    s = name.replace("’", "'").replace("‘", "'").replace("`", "'")
+    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode("ascii")
+    s = s.replace("-", " ")
+    s = re.sub(r"\s+", " ", s).strip().lower()
+    return s
+
+
 def parse_cd_id(cd_id: str):
     """Return (province, raw_name) from cd_id format CD_<PROV>_<name_underscored>.
     The raw name may contain commas, em-dashes, and other punctuation; we
@@ -207,7 +229,8 @@ class UnionFind:
 def _classify(rel: str, iou: float, frac_from: float, frac_to: float,
               canon1: str, canon2: str) -> int:
     """Return accept-rule number (1, 2, 3) or 0 to reject."""
-    name_match = bool(canon1) and canon1 == canon2
+    n1, n2 = normalize_for_match(canon1), normalize_for_match(canon2)
+    name_match = bool(n1) and n1 == n2
 
     if rel == "SAME_AS":
         if iou >= RULE1_IOU:
@@ -306,7 +329,9 @@ def load_all_cd_links(links_dir: Path):
                         # but together they form a proper SPLIT_FROM lineage.
                         # Filter to canonical-name matches OR strict containment
                         # (max(frac_from, frac_to) >= 0.5) to avoid noise.
-                        canon_match = bool(canon1) and canon1 == canon2
+                        n1 = normalize_for_match(canon1)
+                        n2 = normalize_for_match(canon2)
+                        canon_match = bool(n1) and n1 == n2
                         max_frac = max(frac_from, frac_to)
                         if canon_match or max_frac >= 0.5:
                             # CONTAINS: from-polygon contains to-polygon → high
@@ -387,7 +412,7 @@ def find_name_only_rescue_links(node_meta, accepted_links):
         prov = meta.get("province", "")
         if not canon or not prov:
             continue
-        by_key[(canon, prov, yr)].append((cd_id, yr))
+        by_key[(normalize_for_match(canon), prov, yr)].append((cd_id, yr))
 
     existing_pairs = set()
     for link in accepted_links:
@@ -449,7 +474,9 @@ def detect_splits_and_demote(accepted_links, links_dir: Path):
                     _, name2 = parse_cd_id(cd_to)
                     canon1 = canonical_cd_name(name1)
                     canon2 = canonical_cd_name(name2)
-                    if not canon1 or canon1 != canon2:
+                    n1 = normalize_for_match(canon1)
+                    n2 = normalize_for_match(canon2)
+                    if not n1 or n1 != n2:
                         continue
                     descendants[(cd_from, y1)].add((cd_to, y2))
                     ancestors[(cd_to, y2)].add((cd_from, y1))
@@ -620,15 +647,17 @@ def apply_rule4_gap_bridge(registry, lineage_edges, member_to_chain):
         # excludes spurious lineage neighbours (OCR slivers, name-coincidence
         # CDs) that would otherwise break the merge-target intersection.
         a_canon = a_row.get("canonical_name", "")
+        a_norm = normalize_for_match(a_canon)
         children = set()
         for c in all_children:
             c_row = by_chain.get(c)
             if not c_row:
                 continue
             c_canon = c_row.get("canonical_name", "")
-            if not a_canon or not c_canon:
+            c_norm = normalize_for_match(c_canon)
+            if not a_norm or not c_norm:
                 continue
-            if c_canon == a_canon or c_canon.startswith(a_canon + " "):
+            if c_norm == a_norm or c_norm.startswith(a_norm + " "):
                 children.add(c)
         if not children:
             continue
@@ -648,7 +677,8 @@ def apply_rule4_gap_bridge(registry, lineage_edges, member_to_chain):
             ap_row = by_chain.get(ap_id)
             if not ap_row:
                 continue
-            if (a_row["canonical_name"] != ap_row["canonical_name"]
+            if (normalize_for_match(a_row["canonical_name"])
+                    != normalize_for_match(ap_row["canonical_name"])
                     or a_row["province"] != ap_row["province"]):
                 continue
             a_years = [int(y) for y in a_row["years_active"].split(";") if y]
