@@ -1,0 +1,588 @@
+PR,name_cd,name_csd,tcpuid_csd,csd_presence,chain_id,resolution,valid_csd,valid_chain,year
+ON,"Bytown, Town",East Ward,ON046001,ON046001_1851,"CD_ON_Bytown,_Town",unmatched,True,False,1851
+ON,"Bytown, Town",West Ward,ON046002,ON046002_1851,"CD_ON_Bytown,_Town",unmatched,True,False,1851
+ON,"Bytown, Town",Centre Ward,ON046003,ON046003_1851,"CD_ON_Bytown,_Town",unmatched,True,False,1851
+ON,"London, Town",St. George’s Ward,ON047001,ON047001_1851,"CD_ON_London,_Town",unmatched,True,False,1851
+ON,"London, Town",St. Patrick’s Ward,ON047002,ON047002_1851,"CD_ON_London,_Town",unmatched,True,False,1851
+ON,"London, Town",St. Andrew’s Ward,ON047003,ON047003_1851,"CD_ON_London,_Town",unmatched,True,False,1851
+ON,"London, Town",St. David’s Ward,ON047004,ON047004_1851,"CD_ON_London,_Town",unmatched,True,False,1851
+QC,Ottawa,"Aylmer, Town",QC067001,QC067001_1851,CD_QC_Ottawa,unmatched,True,False,1851
+QC,Ottawa,Allumettes,QC067002,QC067002_1851,CD_QC_Ottawa,unmatched,True,False,1851
+QC,Ottawa,Bristol,QC067003,QC067003_1851,CD_QC_Ottawa,unmatched,True,False,1851
+QC,Ottawa,Buckingham ,QC067004,QC067004_1851,CD_QC_Ottawa,unmatched,True,False,1851
+QC,Ottawa,Calumet,QC067005,QC067005_1851,CD_QC_Ottawa,unmatched,True,False,1851
+QC,Ottawa,Chichester,QC067006,QC067006_1851,CD_QC_Ottawa,unmatched,True,False,1851
+QC,Ottawa,Clarendon,QC067007,QC067007_1851,CD_QC_Ottawa,unmatched,True,False,1851
+QC,Ottawa,Derry,QC067008,QC067008_1851,CD_QC_Ottawa,unmatched,True,False,1851
+QC,Ottawa,Eardley,QC067009,QC067009_1851,CD_QC_Ottawa,unmatched,True,False,1851
+QC,Ottawa,Hull,QC067010,QC067010_1851,CD_QC_Ottawa,unmatched,True,False,1851
+QC,Ottawa,Litchfield,QC067011,QC067011_1851,CD_QC_Ottawa,unmatched,True,False,1851
+QC,Ottawa,Lochaber ,QC067012,QC067012_1851,CD_QC_Ottawa,unmatched,True,False,1851
+QC,Ottawa,"Lochaber, Gore",QC067013,QC067013_1851,CD_QC_Ottawa,unmatched,True,False,1851
+QC,Ottawa,Mansfield,QC067014,QC067014_1851,CD_QC_Ottawa,unmatched,True,False,1851
+QC,Ottawa,Masham,QC067015,QC067015_1851,CD_QC_Ottawa,unmatched,True,False,1851
+QC,Ottawa,Onslow,QC067016,QC067016_1851,CD_QC_Ottawa,unmatched,True,False,1851
+QC,Ottawa,Oldfield,QC067017,QC067017_1851,CD_QC_Ottawa,unmatched,True,False,1851
+QC,Ottawa,Petite Nation,QC067018,QC067018_1851,CD_QC_Ottawa,unmatched,True,False,1851
+QC,Ottawa,Portland,QC067019,QC067019_1851,CD_QC_Ottawa,unmatched,True,False,1851
+QC,Ottawa,Sheen,QC067020,QC067020_1851,CD_QC_Ottawa,unmatched,True,False,1851
+QC,Ottawa,Templeton,QC067021,QC067021_1851,CD_QC_Ottawa,unmatched,True,False,1851
+QC,Ottawa,Wakefield ,QC067022,QC067022_1851,CD_QC_Ottawa,unmatched,True,False,1851
+QC,Ottawa,Waltham ,QC067023,QC067023_1851,CD_QC_Ottawa,unmatched,True,False,1851
+QC,Ottawa,Low,QC067024,QC067024_1851,CD_QC_Ottawa,unmatched,True,False,1851
+QC,Rimouski,Indians,QC071022,QC071022_1851,CD_QC_Rimouski,exact,False,True,1851
+QC,Ottawa,Addington,QC039001,QC039001_1861,CD_QC_Ottawa,unmatched,True,False,1861
+QC,Ottawa,Aumond,QC039002,QC039002_1861,CD_QC_Ottawa,unmatched,True,False,1861
+QC,Ottawa,"Aylmer, Village",QC039003,QC039003_1861,CD_QC_Ottawa,unmatched,True,False,1861
+QC,Ottawa,Aylwin,QC039004,QC039004_1861,CD_QC_Ottawa,unmatched,True,False,1861
+QC,Ottawa,Bidwell,QC039005,QC039005_1861,CD_QC_Ottawa,unmatched,True,False,1861
+QC,Ottawa,Bigelow,QC039006,QC039006_1861,CD_QC_Ottawa,unmatched,True,False,1861
+QC,Ottawa,Blake,QC039007,QC039007_1861,CD_QC_Ottawa,unmatched,True,False,1861
+QC,Ottawa,Bowman,QC039008,QC039008_1861,CD_QC_Ottawa,unmatched,True,False,1861
+QC,Ottawa,Bouchette,QC039009,QC039009_1861,CD_QC_Ottawa,unmatched,True,False,1861
+QC,Ottawa,Bouthillier,QC039010,QC039010_1861,CD_QC_Ottawa,unmatched,True,False,1861
+QC,Ottawa,"Buckingham, Village",QC039011,QC039011_1861,CD_QC_Ottawa,unmatched,True,False,1861
+QC,Ottawa,Buckingham,QC039012,QC039012_1861,CD_QC_Ottawa,unmatched,True,False,1861
+QC,Ottawa,Cameron,QC039013,QC039013_1861,CD_QC_Ottawa,unmatched,True,False,1861
+QC,Ottawa,Denholm,QC039014,QC039014_1861,CD_QC_Ottawa,unmatched,True,False,1861
+QC,Ottawa,"Derry, East and West",QC039015,QC039015_1861,CD_QC_Ottawa,unmatched,True,False,1861
+QC,Ottawa,Dudley ,QC039016,QC039016_1861,CD_QC_Ottawa,unmatched,True,False,1861
+QC,Ottawa,Eardley,QC039017,QC039017_1861,CD_QC_Ottawa,unmatched,True,False,1861
+QC,Ottawa,Egan ,QC039018,QC039018_1861,CD_QC_Ottawa,unmatched,True,False,1861
+QC,Ottawa,Hartwell,QC039019,QC039019_1861,CD_QC_Ottawa,unmatched,True,False,1861
+QC,Ottawa,Hincks ,QC039020,QC039020_1861,CD_QC_Ottawa,unmatched,True,False,1861
+QC,Ottawa,Hull,QC039021,QC039021_1861,CD_QC_Ottawa,unmatched,True,False,1861
+QC,Ottawa,Killaly and Sicotte,QC039022,QC039022_1861,CD_QC_Ottawa,unmatched,True,False,1861
+QC,Ottawa,Kiamica,QC039023,QC039023_1861,CD_QC_Ottawa,unmatched,True,False,1861
+QC,Ottawa,Kensington,QC039024,QC039024_1861,CD_QC_Ottawa,unmatched,True,False,1861
+QC,Ottawa,Lochaber,QC039025,QC039025_1861,CD_QC_Ottawa,unmatched,True,False,1861
+QC,Ottawa,Low,QC039026,QC039026_1861,CD_QC_Ottawa,unmatched,True,False,1861
+QC,Ottawa,Maniwaky and McGill,QC039027,QC039027_1861,CD_QC_Ottawa,unmatched,True,False,1861
+QC,Ottawa,Masham,QC039028,QC039028_1861,CD_QC_Ottawa,unmatched,True,False,1861
+QC,Ottawa,Northfield,QC039029,QC039029_1861,CD_QC_Ottawa,unmatched,True,False,1861
+QC,Ottawa,Petite Nation,QC039030,QC039030_1861,CD_QC_Ottawa,unmatched,True,False,1861
+QC,Ottawa,Portland,QC039031,QC039031_1861,CD_QC_Ottawa,unmatched,True,False,1861
+QC,Ottawa,Preston,QC039032,QC039032_1861,CD_QC_Ottawa,unmatched,True,False,1861
+QC,Ottawa,Rippon,QC039033,QC039033_1861,CD_QC_Ottawa,unmatched,True,False,1861
+QC,Ottawa,"Suffolk, Wells and Villeneuve",QC039034,QC039034_1861,CD_QC_Ottawa,unmatched,True,False,1861
+QC,Ottawa,Ste. Angélique,QC039035,QC039035_1861,CD_QC_Ottawa,unmatched,True,False,1861
+QC,Ottawa,Templeton,QC039036,QC039036_1861,CD_QC_Ottawa,unmatched,True,False,1861
+QC,Ottawa,Wabasse and Wright         ,QC039037,QC039037_1861,CD_QC_Ottawa,unmatched,True,False,1861
+QC,Ottawa,Wakefield,QC039038,QC039038_1861,CD_QC_Ottawa,unmatched,True,False,1861
+QC,Québec,Ancienne Lorette,QC042001,QC042001_1861,CD_QC_Québec,unmatched,True,False,1861
+QC,Québec,Beauport,QC042002,QC042002_1861,CD_QC_Québec,unmatched,True,False,1861
+QC,Québec,Charlesbourg,QC042003,QC042003_1861,CD_QC_Québec,unmatched,True,False,1861
+QC,Québec,General Hospital,QC042004,QC042004_1861,CD_QC_Québec,unmatched,True,False,1861
+QC,Québec,Lunatic Asylum,QC042005,QC042005_1861,CD_QC_Québec,unmatched,True,False,1861
+QC,Québec,Notre Dame de Québec,QC042006,QC042006_1861,CD_QC_Québec,unmatched,True,False,1861
+QC,Québec,St. Ambroise ,QC042007,QC042007_1861,CD_QC_Québec,unmatched,True,False,1861
+QC,Québec,St. Colomb,QC042008,QC042008_1861,CD_QC_Québec,unmatched,True,False,1861
+QC,Québec,St. Dunstan,QC042009,QC042009_1861,CD_QC_Québec,unmatched,True,False,1861
+QC,Québec,St. Edmond ,QC042010,QC042010_1861,CD_QC_Québec,unmatched,True,False,1861
+QC,Québec,Ste. Foy ,QC042011,QC042011_1861,CD_QC_Québec,unmatched,True,False,1861
+QC,Québec,St. Gabriel,QC042012,QC042012_1861,CD_QC_Québec,unmatched,True,False,1861
+QC,Québec,St. Koch,QC042013,QC042013_1861,CD_QC_Québec,unmatched,True,False,1861
+QC,Montreal,Centre Ward,QC061001,QC061001_1861,CD_QC_Montreal,unmatched,True,False,1861
+QC,Montreal,East Ward,QC061002,QC061002_1861,CD_QC_Montreal,unmatched,True,False,1861
+QC,Montreal,St. Ann’s Ward ,QC061003,QC061003_1861,CD_QC_Montreal,unmatched,True,False,1861
+QC,Montreal,St. Antoine Ward,QC061004,QC061004_1861,CD_QC_Montreal,unmatched,True,False,1861
+QC,Montreal,St. James’ Ward,QC061005,QC061005_1861,CD_QC_Montreal,unmatched,True,False,1861
+QC,Montreal,St. Lawrence Ward,QC061006,QC061006_1861,CD_QC_Montreal,unmatched,True,False,1861
+QC,Montreal,St. Lewis’ Ward,QC061007,QC061007_1861,CD_QC_Montreal,unmatched,True,False,1861
+QC,Montreal,St. Mary’s Ward ,QC061008,QC061008_1861,CD_QC_Montreal,unmatched,True,False,1861
+QC,Montreal,West Ward,QC061009,QC061009_1861,CD_QC_Montreal,unmatched,True,False,1861
+QC,Montreal,Religious Institutions,QC061010,QC061010_1861,CD_QC_Montreal,unmatched,True,False,1861
+QC,Quebec,Champlain Ward,QC062001,QC062001_1861,CD_QC_Quebec,unmatched,True,False,1861
+QC,Quebec,Jacques Cartier Ward ,QC062002,QC062002_1861,CD_QC_Quebec,unmatched,True,False,1861
+QC,Quebec,Montcalm Ward,QC062003,QC062003_1861,CD_QC_Quebec,unmatched,True,False,1861
+QC,Quebec,Palace Ward,QC062004,QC062004_1861,CD_QC_Quebec,unmatched,True,False,1861
+QC,Quebec,St. Johns’ Ward,QC062005,QC062005_1861,CD_QC_Quebec,unmatched,True,False,1861
+QC,Quebec,St. Lewis’ Ward,QC062006,QC062006_1861,CD_QC_Quebec,unmatched,True,False,1861
+QC,Quebec,St. Peters’ Ward,QC062007,QC062007_1861,CD_QC_Quebec,unmatched,True,False,1861
+QC,Quebec,St. Roohs’ Ward,QC062008,QC062008_1861,CD_QC_Quebec,unmatched,True,False,1861
+QC,Three Rivers,Banlicue ,QC063001,QC063001_1861,CD_QC_Three_Rivers,unmatched,True,False,1861
+QC,Three Rivers,"Christian Brothers, College, &c",QC063002,QC063002_1861,CD_QC_Three_Rivers,unmatched,True,False,1861
+QC,Three Rivers,Notre Dame Ward,QC063003,QC063003_1861,CD_QC_Three_Rivers,unmatched,True,False,1861
+QC,Three Rivers,St. Lewis’ Ward,QC063004,QC063004_1861,CD_QC_Three_Rivers,unmatched,True,False,1861
+QC,Three Rivers,St. Phillips’ Ward,QC063005,QC063005_1861,CD_QC_Three_Rivers,unmatched,True,False,1861
+QC,Three Rivers,Ste. Ursule Ward,QC063006,QC063006_1861,CD_QC_Three_Rivers,unmatched,True,False,1861
+ON,"Peterborough, North - Nord",Harvey,ON058001,ON058001_1871,"CD_ON_Peterborough,_North_-_Nord",unmatched,True,False,1871
+ON,"Peterborough, North - Nord",Galway. Cavendish,ON058002,ON058002_1871,"CD_ON_Peterborough,_North_-_Nord",unmatched,True,False,1871
+ON,"Peterborough, North - Nord","Burleigh,Anstruther, Monmouth, Chandos, Cardiff",ON058003,ON058003_1871,"CD_ON_Peterborough,_North_-_Nord",unmatched,True,False,1871
+ON,"Peterborough, North - Nord","Snowden, Glamorgan",ON058004,ON058004_1871,"CD_ON_Peterborough,_North_-_Nord",unmatched,True,False,1871
+ON,"Peterborough, North - Nord",Minden,ON058005,ON058005_1871,"CD_ON_Peterborough,_North_-_Nord",unmatched,True,False,1871
+ON,"Peterborough, North - Nord","Stanhope, Sherborne",ON058006,ON058006_1871,"CD_ON_Peterborough,_North_-_Nord",unmatched,True,False,1871
+ON,"Peterborough, North - Nord","Dysart,Dudley, Harcourt, Guilford, Harbum, Bruton",ON058007,ON058007_1871,"CD_ON_Peterborough,_North_-_Nord",unmatched,True,False,1871
+ON,"Ottawa, City - Ville",Wellington Ward,ON077001,ON077001_1871,"CD_ON_Ottawa,_City_-_Ville",unmatched,True,False,1871
+ON,"Ottawa, City - Ville",Victoria Ward,ON077002,ON077002_1871,"CD_ON_Ottawa,_City_-_Ville",unmatched,True,False,1871
+ON,"Ottawa, City - Ville",St. George’s Ward.,ON077003,ON077003_1871,"CD_ON_Ottawa,_City_-_Ville",unmatched,True,False,1871
+ON,"Ottawa, City - Ville",By Ward,ON077004,ON077004_1871,"CD_ON_Ottawa,_City_-_Ville",unmatched,True,False,1871
+ON,"Ottawa, City - Ville",Ottawa Ward,ON077005,ON077005_1871,"CD_ON_Ottawa,_City_-_Ville",unmatched,True,False,1871
+QC,Pontiac South—Sud,"Onslow, Aldfield",QC091001,QC091001_1871,CD_QC_Pontiac_South—Sud,unmatched,True,False,1871
+QC,Pontiac South—Sud,Bristol,QC091002,QC091002_1871,CD_QC_Pontiac_South—Sud,unmatched,True,False,1871
+QC,Pontiac South—Sud,Claredon,QC091003,QC091003_1871,CD_QC_Pontiac_South—Sud,unmatched,True,False,1871
+QC,Pontiac South—Sud,Thorne,QC091004,QC091004_1871,CD_QC_Pontiac_South—Sud,unmatched,True,False,1871
+QC,Pontiac South—Sud,Leslie,QC091005,QC091005_1871,CD_QC_Pontiac_South—Sud,unmatched,True,False,1871
+QC,Pontiac South—Sud,Litchfield,QC091006,QC091006_1871,CD_QC_Pontiac_South—Sud,unmatched,True,False,1871
+QC,Pontiac South—Sud,Portage du Fort,QC091007,QC091007_1871,CD_QC_Pontiac_South—Sud,unmatched,True,False,1871
+QC,Pontiac South—Sud,Calumct,QC091008,QC091008_1871,CD_QC_Pontiac_South—Sud,unmatched,True,False,1871
+QC,Pontiac South—Sud,"Mansfield, Pontefract",QC091009,QC091009_1871,CD_QC_Pontiac_South—Sud,unmatched,True,False,1871
+QC,Pontiac South—Sud,Waltham ,QC091010,QC091010_1871,CD_QC_Pontiac_South—Sud,unmatched,True,False,1871
+QC,Pontiac South—Sud,Allumettes,QC091011,QC091011_1871,CD_QC_Pontiac_South—Sud,unmatched,True,False,1871
+QC,Pontiac South—Sud,Chichester,QC091012,QC091012_1871,CD_QC_Pontiac_South—Sud,unmatched,True,False,1871
+QC,Pontiac South—Sud,Sheen,QC091013,QC091013_1871,CD_QC_Pontiac_South—Sud,unmatched,True,False,1871
+QC,Pontiac North—Nord,Basse Coulonge,QC092001,QC092001_1871,CD_QC_Pontiac_North—Nord,unmatched,True,False,1871
+QC,Pontiac North—Nord,Moyenne Coulonge,QC092002,QC092002_1871,CD_QC_Pontiac_North—Nord,unmatched,True,False,1871
+QC,Pontiac North—Nord,Haute Coulonge,QC092003,QC092003_1871,CD_QC_Pontiac_North—Nord,unmatched,True,False,1871
+QC,Pontiac North—Nord,Basse Rivière Noire,QC092004,QC092004_1871,CD_QC_Pontiac_North—Nord,unmatched,True,False,1871
+QC,Pontiac North—Nord,Moyenne Rivière Noire,QC092005,QC092005_1871,CD_QC_Pontiac_North—Nord,unmatched,True,False,1871
+QC,Pontiac North—Nord,Haute Rivière Noire,QC092006,QC092006_1871,CD_QC_Pontiac_North—Nord,unmatched,True,False,1871
+QC,Pontiac North—Nord,Rivière Creuse,QC092007,QC092007_1871,CD_QC_Pontiac_North—Nord,unmatched,True,False,1871
+QC,Pontiac North—Nord,Bas Dumoine,QC092008,QC092008_1871,CD_QC_Pontiac_North—Nord,unmatched,True,False,1871
+QC,Pontiac North—Nord,Moyen Dumoine,QC092009,QC092009_1871,CD_QC_Pontiac_North—Nord,unmatched,True,False,1871
+QC,Pontiac North—Nord,Haut Dumoine,QC092010,QC092010_1871,CD_QC_Pontiac_North—Nord,unmatched,True,False,1871
+QC,Pontiac North—Nord,Maganacipi ,QC092011,QC092011_1871,CD_QC_Pontiac_North—Nord,unmatched,True,False,1871
+QC,Pontiac North—Nord,Lac de Sept Lieues ,QC092012,QC092012_1871,CD_QC_Pontiac_North—Nord,unmatched,True,False,1871
+QC,Pontiac North—Nord,Kipaoua,QC092013,QC092013_1871,CD_QC_Pontiac_North—Nord,unmatched,True,False,1871
+QC,Pontiac North—Nord,"Temiscamang, East—Est",QC092014,QC092014_1871,CD_QC_Pontiac_North—Nord,unmatched,True,False,1871
+QC,Pontiac North—Nord,Victoria,QC092015,QC092015_1871,CD_QC_Pontiac_North—Nord,unmatched,True,False,1871
+QC,Ottawa West—Ouest,Templeton,QC093001,QC093001_1871,CD_QC_Ottawa_West—Ouest,unmatched,True,False,1871
+QC,Ottawa West—Ouest,Hull,QC093002,QC093002_1871,CD_QC_Ottawa_West—Ouest,unmatched,True,False,1871
+QC,Ottawa West—Ouest,"Aylmer, Village",QC093003,QC093003_1871,CD_QC_Ottawa_West—Ouest,unmatched,True,False,1871
+QC,Ottawa West—Ouest,Eardley,QC093004,QC093004_1871,CD_QC_Ottawa_West—Ouest,unmatched,True,False,1871
+QC,Ottawa West—Ouest,Masham,QC093005,QC093005_1871,CD_QC_Ottawa_West—Ouest,unmatched,True,False,1871
+QC,Ottawa West—Ouest,Wakefield,QC093006,QC093006_1871,CD_QC_Ottawa_West—Ouest,unmatched,True,False,1871
+QC,Ottawa West—Ouest,Low,QC093007,QC093007_1871,CD_QC_Ottawa_West—Ouest,unmatched,True,False,1871
+QC,Ottawa West—Ouest,Pikanock,QC093008,QC093008_1871,CD_QC_Ottawa_West—Ouest,unmatched,True,False,1871
+QC,Ottawa West—Ouest,Aylwin,QC093009,QC093009_1871,CD_QC_Ottawa_West—Ouest,unmatched,True,False,1871
+QC,Ottawa West—Ouest,Hincks,QC093010,QC093010_1871,CD_QC_Ottawa_West—Ouest,unmatched,True,False,1871
+QC,Ottawa West—Ouest,Northfield,QC093011,QC093011_1871,CD_QC_Ottawa_West—Ouest,unmatched,True,False,1871
+QC,Ottawa West—Ouest,Wright,QC093012,QC093012_1871,CD_QC_Ottawa_West—Ouest,unmatched,True,False,1871
+QC,Ottawa West—Ouest,Rivière à l’Aigle,QC093013,QC093013_1871,CD_QC_Ottawa_West—Ouest,unmatched,True,False,1871
+QC,Ottawa West—Ouest,Bouchette,QC093014,QC093014_1871,CD_QC_Ottawa_West—Ouest,unmatched,True,False,1871
+QC,Ottawa West—Ouest,Cameron,QC093015,QC093015_1871,CD_QC_Ottawa_West—Ouest,unmatched,True,False,1871
+QC,Ottawa West—Ouest,Kensington,QC093016,QC093016_1871,CD_QC_Ottawa_West—Ouest,unmatched,True,False,1871
+QC,Ottawa West—Ouest,Tomasine,QC093017,QC093017_1871,CD_QC_Ottawa_West—Ouest,unmatched,True,False,1871
+QC,Ottawa West—Ouest,Kakebonga,QC093018,QC093018_1871,CD_QC_Ottawa_West—Ouest,unmatched,True,False,1871
+QC,Ottawa West—Ouest,Baskatong ,QC093019,QC093019_1871,CD_QC_Ottawa_West—Ouest,unmatched,True,False,1871
+QC,Ottawa East—Est,Lochaber,QC095001,QC095001_1871,CD_QC_Ottawa_East—Est,unmatched,True,False,1871
+QC,Ottawa East—Est,St. Malachie,QC095002,QC095002_1871,CD_QC_Ottawa_East—Est,unmatched,True,False,1871
+QC,Ottawa East—Est,Mulgrave,QC095003,QC095003_1871,CD_QC_Ottawa_East—Est,unmatched,True,False,1871
+QC,Ottawa East—Est,Ste. Angélique,QC095004,QC095004_1871,CD_QC_Ottawa_East—Est,unmatched,True,False,1871
+QC,Ottawa East—Est,Notre Dame de Bonsecours,QC095005,QC095005_1871,CD_QC_Ottawa_East—Est,unmatched,True,False,1871
+QC,Ottawa East—Est,"St. André Avelin, Petite Nation",QC095006,QC095006_1871,CD_QC_Ottawa_East—Est,unmatched,True,False,1871
+QC,Ottawa East—Est,Ripon,QC095007,QC095007_1871,CD_QC_Ottawa_East—Est,unmatched,True,False,1871
+QC,Ottawa East—Est,"Hartwell, Suffolk",QC095008,QC095008_1871,CD_QC_Ottawa_East—Est,unmatched,True,False,1871
+QC,Ottawa East—Est,"Nation, North—Nord",QC095009,QC095009_1871,CD_QC_Ottawa_East—Est,unmatched,True,False,1871
+QC,Ottawa East—Est,"Rouge, North—Nord",QC095010,QC095010_1871,CD_QC_Ottawa_East—Est,unmatched,True,False,1871
+QC,Montreal East—Est,Quartier St. Louis (Ward),QC105001,QC105001_1871,CD_QC_Montreal_East—Est,unmatched,True,False,1871
+QC,Montreal East—Est,Quartier St. Jacques (Ward),QC105002,QC105002_1871,CD_QC_Montreal_East—Est,unmatched,True,False,1871
+QC,Montreal East—Est,Quartier Ste. Marie (Ward),QC105003,QC105003_1871,CD_QC_Montreal_East—Est,unmatched,True,False,1871
+QC,Montreal West—Ouest,Quartier Ste. Anne (Ward),QC106001,QC106001_1871,CD_QC_Montreal_West—Ouest,unmatched,True,False,1871
+QC,Montreal West—Ouest,Quartier St. Antoine (Ward),QC106002,QC106002_1871,CD_QC_Montreal_West—Ouest,unmatched,True,False,1871
+QC,Montreal West—Ouest,Quartier St. Laurent (Ward),QC106003,QC106003_1871,CD_QC_Montreal_West—Ouest,unmatched,True,False,1871
+QC,Huntingdon East—Est,Hemmingford,QC113001,QC113001_1871,CD_QC_Huntingdon_East—Est,unmatched,True,False,1871
+QC,Huntingdon East—Est,Havelock,QC113002,QC113002_1871,CD_QC_Huntingdon_East—Est,unmatched,True,False,1871
+QC,Huntingdon East—Est,Franklin,QC113003,QC113003_1871,CD_QC_Huntingdon_East—Est,unmatched,True,False,1871
+QC,Huntingdon East—Est,Hinchinbrooke,QC113004,QC113004_1871,CD_QC_Huntingdon_East—Est,unmatched,True,False,1871
+QC,Huntingdon East—Est,Elgin,QC113005,QC113005_1871,CD_QC_Huntingdon_East—Est,unmatched,True,False,1871
+QC,Huntingdon West—Ouest,Godmanchester,QC114001,QC114001_1871,CD_QC_Huntingdon_West—Ouest,unmatched,True,False,1871
+QC,Huntingdon West—Ouest,"Huntingdon, Village",QC114002,QC114002_1871,CD_QC_Huntingdon_West—Ouest,unmatched,True,False,1871
+QC,Huntingdon West—Ouest,St. Anicet,QC114003,QC114003_1871,CD_QC_Huntingdon_West—Ouest,unmatched,True,False,1871
+QC,Huntingdon West—Ouest,Dundee,QC114004,QC114004_1871,CD_QC_Huntingdon_West—Ouest,unmatched,True,False,1871
+QC,Saint Maurice South—Sud,Pointe du Lac,QC129001,QC129001_1871,CD_QC_Saint_Maurice_South—Sud,unmatched,True,False,1871
+QC,Saint Maurice South—Sud,Yamachiche,QC129002,QC129002_1871,CD_QC_Saint_Maurice_South—Sud,unmatched,True,False,1871
+QC,Saint Maurice South—Sud,St. Sévère ,QC129003,QC129003_1871,CD_QC_Saint_Maurice_South—Sud,unmatched,True,False,1871
+QC,Saint Maurice South—Sud,St. Barnabé,QC129004,QC129004_1871,CD_QC_Saint_Maurice_South—Sud,unmatched,True,False,1871
+QC,Saint Maurice South—Sud,St. Etienne,QC129005,QC129005_1871,CD_QC_Saint_Maurice_South—Sud,unmatched,True,False,1871
+QC,Saint Maurice South—Sud,Shaouanigan,QC129006,QC129006_1871,CD_QC_Saint_Maurice_South—Sud,unmatched,True,False,1871
+QC,Saint Maurice South—Sud,St. Elie,QC129007,QC129007_1871,CD_QC_Saint_Maurice_South—Sud,unmatched,True,False,1871
+QC,Saint Maurice South—Sud,St. Mathieu,QC129008,QC129008_1871,CD_QC_Saint_Maurice_South—Sud,unmatched,True,False,1871
+QC,Saint Maurice North—Nord,Haut Mataouin,QC130001,QC130001_1871,CD_QC_Saint_Maurice_North—Nord,unmatched,True,False,1871
+QC,Saint Maurice North—Nord,Bas Mataouin,QC130002,QC130002_1871,CD_QC_Saint_Maurice_North—Nord,unmatched,True,False,1871
+QC,Saint Maurice North—Nord,Ouessoneau,QC130003,QC130003_1871,CD_QC_Saint_Maurice_North—Nord,unmatched,True,False,1871
+QC,Saint Maurice North—Nord,Rivière au Rat,QC130004,QC130004_1871,CD_QC_Saint_Maurice_North—Nord,unmatched,True,False,1871
+QC,Saint Maurice North—Nord,Vermillion,QC130005,QC130005_1871,CD_QC_Saint_Maurice_North—Nord,unmatched,True,False,1871
+QC,Saint Maurice North—Nord,Monouan,QC130006,QC130006_1871,CD_QC_Saint_Maurice_North—Nord,unmatched,True,False,1871
+QC,Champlain South—Sud,Cap de la Magdeleine ,QC132001,QC132001_1871,CD_QC_Champlain_South—Sud,unmatched,True,False,1871
+QC,Champlain South—Sud,St. Maurice,QC132002,QC132002_1871,CD_QC_Champlain_South—Sud,unmatched,True,False,1871
+QC,Champlain South—Sud,La Visitation,QC132003,QC132003_1871,CD_QC_Champlain_South—Sud,unmatched,True,False,1871
+QC,Champlain South—Sud,St. Luc,QC132004,QC132004_1871,CD_QC_Champlain_South—Sud,unmatched,True,False,1871
+QC,Champlain South—Sud,St. François Xavier,QC132005,QC132005_1871,CD_QC_Champlain_South—Sud,unmatched,True,False,1871
+QC,Champlain South—Sud,Ste. Geneviève,QC132006,QC132006_1871,CD_QC_Champlain_South—Sud,unmatched,True,False,1871
+QC,Champlain South—Sud,Ste. Anne de la Pérade,QC132007,QC132007_1871,CD_QC_Champlain_South—Sud,unmatched,True,False,1871
+QC,Champlain South—Sud,St. Prosper,QC132008,QC132008_1871,CD_QC_Champlain_South—Sud,unmatched,True,False,1871
+QC,Champlain North—Nord,Mont Carmel,QC133001,QC133001_1871,CD_QC_Champlain_North—Nord,unmatched,True,False,1871
+QC,Champlain North—Nord,St. Narcisse,QC133002,QC133002_1871,CD_QC_Champlain_North—Nord,unmatched,True,False,1871
+QC,Champlain North—Nord,St. Stanislas,QC133003,QC133003_1871,CD_QC_Champlain_North—Nord,unmatched,True,False,1871
+QC,Champlain North—Nord,St. Tite,QC133004,QC133004_1871,CD_QC_Champlain_North—Nord,unmatched,True,False,1871
+QC,Champlain North—Nord,Ste. Flore,QC133005,QC133005_1871,CD_QC_Champlain_North—Nord,unmatched,True,False,1871
+QC,Champlain North—Nord,Batiscan,QC133006,QC133006_1871,CD_QC_Champlain_North—Nord,unmatched,True,False,1871
+QC,Champlain North—Nord,Mékinac,QC133007,QC133007_1871,CD_QC_Champlain_North—Nord,unmatched,True,False,1871
+QC,Champlain North—Nord,Bostonais,QC133008,QC133008_1871,CD_QC_Champlain_North—Nord,unmatched,True,False,1871
+QC,Champlain North—Nord,Croche,QC133009,QC133009_1871,CD_QC_Champlain_North—Nord,unmatched,True,False,1871
+QC,Comte de Quebec,St. Colomban,QC144001,QC144001_1871,CD_QC_Comte_de_Quebec,unmatched,True,False,1871
+QC,Comte de Quebec,Ste. Foy,QC144002,QC144002_1871,CD_QC_Comte_de_Quebec,unmatched,True,False,1871
+QC,Comte de Quebec,L'Ancienne Lorette,QC144003,QC144003_1871,CD_QC_Comte_de_Quebec,unmatched,True,False,1871
+QC,Comte de Quebec,La Jeune Lorette ,QC144004,QC144004_1871,CD_QC_Comte_de_Quebec,unmatched,True,False,1871
+QC,Comte de Quebec,Charlesbourg,QC144005,QC144005_1871,CD_QC_Comte_de_Quebec,unmatched,True,False,1871
+QC,Comte de Quebec,Beauport,QC144006,QC144006_1871,CD_QC_Comte_de_Quebec,unmatched,True,False,1871
+QC,Comte de Quebec,St. Dunstan,QC144007,QC144007_1871,CD_QC_Comte_de_Quebec,unmatched,True,False,1871
+QC,Comte de Quebec,Stoneham,QC144008,QC144008_1871,CD_QC_Comte_de_Quebec,unmatched,True,False,1871
+QC,Comte de Quebec,Tewkesbury,QC144009,QC144009_1871,CD_QC_Comte_de_Quebec,unmatched,True,False,1871
+QC,Comte de Quebec,Valcartier,QC144010,QC144010_1871,CD_QC_Comte_de_Quebec,unmatched,True,False,1871
+QC,Comte de Quebec,"St. Gabriel, West—Ouest",QC144011,QC144011_1871,CD_QC_Comte_de_Quebec,unmatched,True,False,1871
+QC,Quebec West—Ouest,Quartier St. Pierre,QC145001,QC145001_1871,CD_QC_Quebec_West—Ouest,unmatched,True,False,1871
+QC,Quebec West—Ouest,Quartier Champlain,QC145002,QC145002_1871,CD_QC_Quebec_West—Ouest,unmatched,True,False,1871
+QC,Quebec West—Ouest,Quartier Montcalm,QC145003,QC145003_1871,CD_QC_Quebec_West—Ouest,unmatched,True,False,1871
+QC,Quebec West—Ouest,"Banlieue, South—Sud ",QC145004,QC145004_1871,CD_QC_Quebec_West—Ouest,unmatched,True,False,1871
+QC,Quebec East—Est,Quartier St. Roch,QC147001,QC147001_1871,CD_QC_Quebec_East—Est,unmatched,True,False,1871
+QC,Quebec East—Est,Quartier Jacques Cartier,QC147002,QC147002_1871,CD_QC_Quebec_East—Est,unmatched,True,False,1871
+QC,Quebec East—Est,"St. Roch, South—Sud ",QC147003,QC147003_1871,CD_QC_Quebec_East—Est,unmatched,True,False,1871
+QC,Quebec East—Est,"St. Roch, North—Nord ",QC147004,QC147004_1871,CD_QC_Quebec_East—Est,unmatched,True,False,1871
+QC,Beauce West—Ouest,Broughton,QC157001,QC157001_1871,CD_QC_Beauce_West—Ouest,unmatched,True,False,1871
+QC,Beauce West—Ouest,St. Victor,QC157002,QC157002_1871,CD_QC_Beauce_West—Ouest,unmatched,True,False,1871
+QC,Beauce West—Ouest,St. Ephrem,QC157003,QC157003_1871,CD_QC_Beauce_West—Ouest,unmatched,True,False,1871
+QC,Beauce West—Ouest,Shenley,QC157004,QC157004_1871,CD_QC_Beauce_West—Ouest,unmatched,True,False,1871
+QC,Beauce West—Ouest,St. Evariste,QC157005,QC157005_1871,CD_QC_Beauce_West—Ouest,unmatched,True,False,1871
+QC,Beauce West—Ouest,Lambton,QC157006,QC157006_1871,CD_QC_Beauce_West—Ouest,unmatched,True,False,1871
+QC,Beauce West—Ouest,St. Sébastien,QC157007,QC157007_1871,CD_QC_Beauce_West—Ouest,unmatched,True,False,1871
+QC,Beauce West—Ouest,"Spalding, Ditchfield, Woburn, Clinton",QC157008,QC157008_1871,CD_QC_Beauce_West—Ouest,unmatched,True,False,1871
+QC,Beauce East—Est,St. Elzéar,QC158001,QC158001_1871,CD_QC_Beauce_East—Est,unmatched,True,False,1871
+QC,Beauce East—Est,Ste. Marie,QC158002,QC158002_1871,CD_QC_Beauce_East—Est,unmatched,True,False,1871
+QC,Beauce East—Est,St. Frédéric,QC158003,QC158003_1871,CD_QC_Beauce_East—Est,unmatched,True,False,1871
+QC,Beauce East—Est,St. Joseph,QC158004,QC158004_1871,CD_QC_Beauce_East—Est,unmatched,True,False,1871
+QC,Beauce East—Est,St. François,QC158005,QC158005_1871,CD_QC_Beauce_East—Est,unmatched,True,False,1871
+QC,Beauce East—Est,St. George,QC158006,QC158006_1871,CD_QC_Beauce_East—Est,unmatched,True,False,1871
+QC,Beauce East—Est,Linière,QC158007,QC158007_1871,CD_QC_Beauce_East—Est,unmatched,True,False,1871
+QC,Dorchester West—Ouest,St. Bernard,QC159001,QC159001_1871,CD_QC_Dorchester_West—Ouest,unmatched,True,False,1871
+QC,Dorchester West—Ouest,St. Isidore ,QC159002,QC159002_1871,CD_QC_Dorchester_West—Ouest,unmatched,True,False,1871
+QC,Dorchester West—Ouest,Ste. Hénédine,QC159003,QC159003_1871,CD_QC_Dorchester_West—Ouest,unmatched,True,False,1871
+QC,Dorchester West—Ouest,Ste. Marguerite,QC159004,QC159004_1871,CD_QC_Dorchester_West—Ouest,unmatched,True,False,1871
+QC,Dorchester West—Ouest,St. Edouard,QC159005,QC159005_1871,CD_QC_Dorchester_West—Ouest,unmatched,True,False,1871
+QC,Dorchester West—Ouest,Cranbourne,QC159006,QC159006_1871,CD_QC_Dorchester_West—Ouest,unmatched,True,False,1871
+QC,Dorchester West—Ouest,"Watford, Metgermette",QC159007,QC159007_1871,CD_QC_Dorchester_West—Ouest,unmatched,True,False,1871
+QC,Dorchester East—Est,St. Anselme,QC160001,QC160001_1871,CD_QC_Dorchester_East—Est,unmatched,True,False,1871
+QC,Dorchester East—Est,Ste. Claire,QC160002,QC160002_1871,CD_QC_Dorchester_East—Est,unmatched,True,False,1871
+QC,Dorchester East—Est,St. Malachie,QC160003,QC160003_1871,CD_QC_Dorchester_East—Est,unmatched,True,False,1871
+QC,Dorchester East—Est,Standon ,QC160004,QC160004_1871,CD_QC_Dorchester_East—Est,unmatched,True,False,1871
+QC,Dorchester East—Est,"Buckland, West—Ouest",QC160005,QC160005_1871,CD_QC_Dorchester_East—Est,unmatched,True,False,1871
+QC,Dorchester East—Est,Ste. Germaine,QC160006,QC160006_1871,CD_QC_Dorchester_East—Est,unmatched,True,False,1871
+QC,Dorchester East—Est,Ste. Justine,QC160007,QC160007_1871,CD_QC_Dorchester_East—Est,unmatched,True,False,1871
+QC,Bellechasse North—Nord,Beaumont,QC161001,QC161001_1871,CD_QC_Bellechasse_North—Nord,unmatched,True,False,1871
+QC,Bellechasse North—Nord,St. Charles,QC161002,QC161002_1871,CD_QC_Bellechasse_North—Nord,unmatched,True,False,1871
+QC,Bellechasse North—Nord,St. Gervais,QC161003,QC161003_1871,CD_QC_Bellechasse_North—Nord,unmatched,True,False,1871
+QC,Bellechasse North—Nord,St. Michel,QC161004,QC161004_1871,CD_QC_Bellechasse_North—Nord,unmatched,True,False,1871
+QC,Bellechasse North—Nord,St. Raphaël,QC161005,QC161005_1871,CD_QC_Bellechasse_North—Nord,unmatched,True,False,1871
+QC,Bellechasse North—Nord,St. Valier,QC161006,QC161006_1871,CD_QC_Bellechasse_North—Nord,unmatched,True,False,1871
+QC,Bellechasse South—Sud,St. Lazare,QC162001,QC162001_1871,CD_QC_Bellechasse_South—Sud,unmatched,True,False,1871
+QC,Bellechasse South—Sud,"Buckland, East—Est",QC162002,QC162002_1871,CD_QC_Bellechasse_South—Sud,unmatched,True,False,1871
+QC,Bellechasse South—Sud,Armagh,QC162003,QC162003_1871,CD_QC_Bellechasse_South—Sud,unmatched,True,False,1871
+QC,Bellechasse South—Sud,"Mailloux, Roux, Bellechasse, Daaquam",QC162004,QC162004_1871,CD_QC_Bellechasse_South—Sud,unmatched,True,False,1871
+QC,Rimouski West—Ouest,St. Simon,QC167001,QC167001_1871,CD_QC_Rimouski_West—Ouest,unmatched,True,False,1871
+QC,Rimouski West—Ouest,St. Mathieu de Rioux,QC167002,QC167002_1871,CD_QC_Rimouski_West—Ouest,unmatched,True,False,1871
+QC,Rimouski West—Ouest,St. Fabien,QC167003,QC167003_1871,CD_QC_Rimouski_West—Ouest,unmatched,True,False,1871
+QC,Rimouski West—Ouest,Ste. Cécile du Bic,QC167004,QC167004_1871,CD_QC_Rimouski_West—Ouest,unmatched,True,False,1871
+QC,Rimouski West—Ouest,Saint Germain de Rimouski,QC167005,QC167005_1871,CD_QC_Rimouski_West—Ouest,unmatched,True,False,1871
+QC,Rimouski West—Ouest,"Rimouski, Town—Ville ",QC167006,QC167006_1871,CD_QC_Rimouski_West—Ouest,unmatched,True,False,1871
+QC,Rimouski West—Ouest,St. Anaclet,QC167007,QC167007_1871,CD_QC_Rimouski_West—Ouest,unmatched,True,False,1871
+QC,Rimouski West—Ouest,Ste. Luce,QC167008,QC167008_1871,CD_QC_Rimouski_West—Ouest,unmatched,True,False,1871
+QC,Rimouski West—Ouest,St. Donat,QC167009,QC167009_1871,CD_QC_Rimouski_West—Ouest,unmatched,True,False,1871
+QC,Rimouski East—Est,Ste. Flavie,QC168001,QC168001_1871,CD_QC_Rimouski_East—Est,unmatched,True,False,1871
+QC,Rimouski East—Est,Ste. Angèle de Mérici,QC168002,QC168002_1871,CD_QC_Rimouski_East—Est,unmatched,True,False,1871
+QC,Rimouski East—Est,Métis,QC168003,QC168003_1871,CD_QC_Rimouski_East—Est,unmatched,True,False,1871
+QC,Rimouski East—Est,Chemin Métapédia,QC168004,QC168004_1871,CD_QC_Rimouski_East—Est,unmatched,True,False,1871
+QC,Rimouski East—Est,McNider,QC168005,QC168005_1871,CD_QC_Rimouski_East—Est,unmatched,True,False,1871
+QC,Rimouski East—Est,Matane,QC168006,QC168006_1871,CD_QC_Rimouski_East—Est,unmatched,True,False,1871
+QC,Rimouski East—Est,St. Jérôme ,QC168007,QC168007_1871,CD_QC_Rimouski_East—Est,unmatched,True,False,1871
+QC,Rimouski East—Est,Ste. Félicité,QC168008,QC168008_1871,CD_QC_Rimouski_East—Est,unmatched,True,False,1871
+QC,Rimouski East—Est,Cherbourg,QC168009,QC168009_1871,CD_QC_Rimouski_East—Est,unmatched,True,False,1871
+QC,Gaspé West—Ouest,Cap Chat,QC170001,QC170001_1871,CD_QC_Gaspé_West—Ouest,unmatched,True,False,1871
+QC,Gaspé West—Ouest,Ste. Anne des Monts,QC170002,QC170002_1871,CD_QC_Gaspé_West—Ouest,unmatched,True,False,1871
+QC,Gaspé West—Ouest,Mont Louis,QC170003,QC170003_1871,CD_QC_Gaspé_West—Ouest,unmatched,True,False,1871
+QC,Gaspé West—Ouest,Vallée des Monts,QC170004,QC170004_1871,CD_QC_Gaspé_West—Ouest,unmatched,True,False,1871
+QC,Gaspé South—Sud,Malbaie,QC172001,QC172001_1871,CD_QC_Gaspé_South—Sud,unmatched,True,False,1871
+QC,Gaspé South—Sud,Percé,QC172002,QC172002_1871,CD_QC_Gaspé_South—Sud,unmatched,True,False,1871
+QC,Gaspé South—Sud,L’Ance du Cap,QC172003,QC172003_1871,CD_QC_Gaspé_South—Sud,unmatched,True,False,1871
+QC,Gaspé South—Sud,Grande-Rivière,QC172004,QC172004_1871,CD_QC_Gaspé_South—Sud,unmatched,True,False,1871
+QC,Gaspé South—Sud,Pabos,QC172005,QC172005_1871,CD_QC_Gaspé_South—Sud,unmatched,True,False,1871
+NS,"Halifax, West - Ouest","Ward No. 1,(Quartier)",NS196001,NS196001_1871,"CD_NS_Halifax,_West_-_Ouest",unmatched,True,False,1871
+NS,"Halifax, West - Ouest","Ward No. 2, (Quartier) ",NS196002,NS196002_1871,"CD_NS_Halifax,_West_-_Ouest",unmatched,True,False,1871
+NS,"Halifax, West - Ouest","Ward No. 3, (Quartier) ",NS196003,NS196003_1871,"CD_NS_Halifax,_West_-_Ouest",unmatched,True,False,1871
+NS,"Halifax, West - Ouest","Ward No. 4, (Quartier)",NS196004,NS196004_1871,"CD_NS_Halifax,_West_-_Ouest",unmatched,True,False,1871
+NS,"Halifax, West - Ouest","Ward No. 5, 1st section ",NS196005,NS196005_1871,"CD_NS_Halifax,_West_-_Ouest",unmatched,True,False,1871
+NS,"Halifax, West - Ouest","Ward No. 5, 2nd section ",NS196006,NS196006_1871,"CD_NS_Halifax,_West_-_Ouest",unmatched,True,False,1871
+NS,"Halifax, West - Ouest","Ward No. 6, (Quartier)",NS196007,NS196007_1871,"CD_NS_Halifax,_West_-_Ouest",unmatched,True,False,1871
+NS,"Halifax, West - Ouest","North, West Arm",NS196008,NS196008_1871,"CD_NS_Halifax,_West_-_Ouest",unmatched,True,False,1871
+NS,"Halifax, West - Ouest",Ferguson’s Cove,NS196009,NS196009_1871,"CD_NS_Halifax,_West_-_Ouest",unmatched,True,False,1871
+NS,"Halifax, West - Ouest",Portuguese Cove,NS196010,NS196010_1871,"CD_NS_Halifax,_West_-_Ouest",unmatched,True,False,1871
+NS,"Halifax, West - Ouest",Sambro,NS196011,NS196011_1871,"CD_NS_Halifax,_West_-_Ouest",unmatched,True,False,1871
+NS,"Halifax, West - Ouest",Terrence Bay,NS196012,NS196012_1871,"CD_NS_Halifax,_West_-_Ouest",unmatched,True,False,1871
+NS,"Halifax, West - Ouest",Prospect,NS196013,NS196013_1871,"CD_NS_Halifax,_West_-_Ouest",unmatched,True,False,1871
+NS,"Halifax, West - Ouest",Drysdale,NS196014,NS196014_1871,"CD_NS_Halifax,_West_-_Ouest",unmatched,True,False,1871
+NS,"Halifax, West - Ouest",Haggett’s Cove,NS196015,NS196015_1871,"CD_NS_Halifax,_West_-_Ouest",unmatched,True,False,1871
+NS,"Halifax, West - Ouest",French Village,NS196016,NS196016_1871,"CD_NS_Halifax,_West_-_Ouest",unmatched,True,False,1871
+NS,"Halifax, West - Ouest",Black Point,NS196017,NS196017_1871,"CD_NS_Halifax,_West_-_Ouest",unmatched,True,False,1871
+NS,"Halifax, West - Ouest",Hammond’s Plains,NS196018,NS196018_1871,"CD_NS_Halifax,_West_-_Ouest",unmatched,True,False,1871
+NS,"Halifax, West - Ouest",Pier’s Mills,NS196019,NS196019_1871,"CD_NS_Halifax,_West_-_Ouest",unmatched,True,False,1871
+NS,"Halifax, West - Ouest",Sable Island,NS196020,NS196020_1871,"CD_NS_Halifax,_West_-_Ouest",unmatched,True,False,1871
+NS,"Halifax, East - Est",Dartmouth,NS197001,NS197001_1871,"CD_NS_Halifax,_East_-_Est",unmatched,True,False,1871
+NS,"Halifax, East - Est",Windsor Road,NS197002,NS197002_1871,"CD_NS_Halifax,_East_-_Est",unmatched,True,False,1871
+NS,"Halifax, East - Est",Truro Road,NS197003,NS197003_1871,"CD_NS_Halifax,_East_-_Est",unmatched,True,False,1871
+NS,"Halifax, East - Est",Eastern Passage,NS197004,NS197004_1871,"CD_NS_Halifax,_East_-_Est",unmatched,True,False,1871
+NS,"Halifax, East - Est",Preston,NS197005,NS197005_1871,"CD_NS_Halifax,_East_-_Est",unmatched,True,False,1871
+NS,"Halifax, East - Est",Lawrencetown,NS197006,NS197006_1871,"CD_NS_Halifax,_East_-_Est",unmatched,True,False,1871
+NS,"Halifax, East - Est",Chezettcook,NS197007,NS197007_1871,"CD_NS_Halifax,_East_-_Est",unmatched,True,False,1871
+NS,"Halifax, East - Est",Musquodoboit Harbor,NS197008,NS197008_1871,"CD_NS_Halifax,_East_-_Est",unmatched,True,False,1871
+NS,"Halifax, East - Est",Jeddore,NS197009,NS197009_1871,"CD_NS_Halifax,_East_-_Est",unmatched,True,False,1871
+NS,"Halifax, East - Est",Pope’s Harbor,NS197010,NS197010_1871,"CD_NS_Halifax,_East_-_Est",unmatched,True,False,1871
+NS,"Halifax, East - Est",Sheet Harbor,NS197011,NS197011_1871,"CD_NS_Halifax,_East_-_Est",unmatched,True,False,1871
+NS,"Halifax, East - Est",Salmon River,NS197012,NS197012_1871,"CD_NS_Halifax,_East_-_Est",unmatched,True,False,1871
+NS,"Halifax, East - Est",Nicumteauch,NS197013,NS197013_1871,"CD_NS_Halifax,_East_-_Est",unmatched,True,False,1871
+NS,"Halifax, East - Est",Upper Musquodoboit,NS197014,NS197014_1871,"CD_NS_Halifax,_East_-_Est",unmatched,True,False,1871
+NS,"Halifax, East - Est",Middle Musquodoboit ,NS197015,NS197015_1871,"CD_NS_Halifax,_East_-_Est",unmatched,True,False,1871
+NS,"Halifax, East - Est",Little River,NS197016,NS197016_1871,"CD_NS_Halifax,_East_-_Est",unmatched,True,False,1871
+NS,"Halifax, East - Est",Wyse’s Corner,NS197017,NS197017_1871,"CD_NS_Halifax,_East_-_Est",unmatched,True,False,1871
+NS,"Halifax, East - Est",Gay’s River,NS197018,NS197018_1871,"CD_NS_Halifax,_East_-_Est",unmatched,True,False,1871
+PE,Inverness,Hastings,NS004001,NS004001_1881,CD_PE_Inverness,unmatched,True,False,1881
+PE,Inverness,River Inhabitants,NS004002,NS004002_1881,CD_PE_Inverness,unmatched,True,False,1881
+PE,Inverness,North Mountain,NS004003,NS004003_1881,CD_PE_Inverness,unmatched,True,False,1881
+PE,Inverness,Dennis River,NS004004,NS004004_1881,CD_PE_Inverness,unmatched,True,False,1881
+PE,Inverness,Judique,NS004005,NS004005_1881,CD_PE_Inverness,unmatched,True,False,1881
+PE,Inverness,Port Hood,NS004006,NS004006_1881,CD_PE_Inverness,unmatched,True,False,1881
+PE,Inverness,Glencoe,NS004007,NS004007_1881,CD_PE_Inverness,unmatched,True,False,1881
+PE,Inverness,Mabou,NS004008,NS004008_1881,CD_PE_Inverness,unmatched,True,False,1881
+PE,Inverness,West Lake Ainslie,NS004009,NS004009_1881,CD_PE_Inverness,unmatched,True,False,1881
+PE,Inverness,Broad Cove Marsh,NS004010,NS004010_1881,CD_PE_Inverness,unmatched,True,False,1881
+PE,Inverness,Strathlorne,NS004011,NS004011_1881,CD_PE_Inverness,unmatched,True,False,1881
+PE,Inverness,Margaree Harbour,NS004012,NS004012_1881,CD_PE_Inverness,unmatched,True,False,1881
+PE,Inverness,Cheticamp,NS004013,NS004013_1881,CD_PE_Inverness,unmatched,True,False,1881
+PE,Inverness,North-East Margaree,NS004014,NS004014_1881,CD_PE_Inverness,unmatched,True,False,1881
+PE,Inverness,Young’s Bridge,NS004015,NS004015_1881,CD_PE_Inverness,unmatched,True,False,1881
+PE,Inverness,East Lake Ainslie,NS004016,NS004016_1881,CD_PE_Inverness,unmatched,True,False,1881
+PE,Inverness,Whycocomagh,NS004017,NS004017_1881,CD_PE_Inverness,unmatched,True,False,1881
+NB,St. John (County.),Lancaster,NB025001,NB025001_1881,CD_NB_St._John_(County.),unmatched,True,False,1881
+NB,St. John (County.),Musquash,NB025002,NB025002_1881,CD_NB_St._John_(County.),unmatched,True,False,1881
+NB,St. John (County.),"Ward No. 1, Portland Town.",NB025003,NB025003_1881,CD_NB_St._John_(County.),unmatched,True,False,1881
+NB,St. John (County.),"Ward No. 2, Qu’tier.",NB025004,NB025004_1881,CD_NB_St._John_(County.),unmatched,True,False,1881
+NB,St. John (County.),"Ward No. 3, Qu’tier.",NB025005,NB025005_1881,CD_NB_St._John_(County.),unmatched,True,False,1881
+NB,St. John (County.),"Ward No. 4, Qu’tier.",NB025006,NB025006_1881,CD_NB_St._John_(County.),unmatched,True,False,1881
+NB,St. John (County.),"Ward No. 5, Quart’r.",NB025007,NB025007_1881,CD_NB_St._John_(County.),unmatched,True,False,1881
+NB,St. John (County.),Simond’s,NB025008,NB025008_1881,CD_NB_St._John_(County.),unmatched,True,False,1881
+NB,St. John (County.),St. Martin’s,NB025009,NB025009_1881,CD_NB_St._John_(County.),unmatched,True,False,1881
+QC,Ottawa County—Comté.,Buckingham,QC097001,QC097001_1881,CD_QC_Ottawa_County—Comté.,unmatched,True,False,1881
+QC,Ottawa County—Comté.,"Buckingham, Village",QC097002,QC097002_1881,CD_QC_Ottawa_County—Comté.,unmatched,True,False,1881
+QC,Ottawa County—Comté.,"L’Ange Gardien, V'ge",QC097003,QC097003_1881,CD_QC_Ottawa_County—Comté.,unmatched,True,False,1881
+QC,Ottawa County—Comté.,"Portland, East—Est",QC097004,QC097004_1881,CD_QC_Ottawa_County—Comté.,unmatched,True,False,1881
+QC,Ottawa County—Comté.,"Beauman, Villeneuve",QC097005,QC097005_1881,CD_QC_Ottawa_County—Comté.,unmatched,True,False,1881
+QC,Ottawa County—Comté.,"Bigelow, Wells, &c",QC097006,QC097006_1881,CD_QC_Ottawa_County—Comté.,unmatched,True,False,1881
+QC,Ottawa County—Comté.,"La Lièvre, East-Est.",QC097007,QC097007_1881,CD_QC_Ottawa_County—Comté.,unmatched,True,False,1881
+QC,Ottawa County—Comté.,"La Lièvre, W.-Ouest.",QC097008,QC097008_1881,CD_QC_Ottawa_County—Comté.,unmatched,True,False,1881
+QC,Ottawa County—Comté.,"Lochaber, East-Est",QC097009,QC097009_1881,CD_QC_Ottawa_County—Comté.,unmatched,True,False,1881
+QC,Ottawa County—Comté.,"Lochaber, W.-Ouest",QC097010,QC097010_1881,CD_QC_Ottawa_County—Comté.,unmatched,True,False,1881
+QC,Ottawa County—Comté.,"Lochaber, (Gore)",QC097011,QC097011_1881,CD_QC_Ottawa_County—Comté.,unmatched,True,False,1881
+QC,Ottawa County—Comté.,St. Malachie,QC097012,QC097012_1881,CD_QC_Ottawa_County—Comté.,unmatched,True,False,1881
+QC,Ottawa County—Comté.,"Mulgrave, Derry",QC097013,QC097013_1881,CD_QC_Ottawa_County—Comté.,unmatched,True,False,1881
+QC,Ottawa County—Comté.,Ste. Angélique,QC097014,QC097014_1881,CD_QC_Ottawa_County—Comté.,unmatched,True,False,1881
+QC,Ottawa County—Comté.,N.-D de Bonsecours,QC097015,QC097015_1881,CD_QC_Ottawa_County—Comté.,unmatched,True,False,1881
+QC,Ottawa County—Comté.,"Monte Bello, Village",QC097016,QC097016_1881,CD_QC_Ottawa_County—Comté.,unmatched,True,False,1881
+QC,Ottawa County—Comté.,St. André Avelin,QC097017,QC097017_1881,CD_QC_Ottawa_County—Comté.,unmatched,True,False,1881
+QC,Ottawa County—Comté.,Ripon,QC097018,QC097018_1881,CD_QC_Ottawa_County—Comté.,unmatched,True,False,1881
+QC,Ottawa County—Comté.,Hartwell,QC097019,QC097019_1881,CD_QC_Ottawa_County—Comté.,unmatched,True,False,1881
+QC,Ottawa County—Comté.,Suffolk,QC097020,QC097020_1881,CD_QC_Ottawa_County—Comté.,unmatched,True,False,1881
+QC,Ottawa County—Comté.,"Petite Nation, N",QC097021,QC097021_1881,CD_QC_Ottawa_County—Comté.,unmatched,True,False,1881
+QC,Ottawa County—Comté.,Rivière Rouge,QC097022,QC097022_1881,CD_QC_Ottawa_County—Comté.,unmatched,True,False,1881
+QC,Ottawa County—Comté.,"Ponsonby, Namur",QC097023,QC097023_1881,CD_QC_Ottawa_County—Comté.,unmatched,True,False,1881
+QC,Ottawa County—Comté.,"Hull, City—Ville",QC097024,QC097024_1881,CD_QC_Ottawa_County—Comté.,unmatched,True,False,1881
+QC,Ottawa County—Comté.,Hull,QC097025,QC097025_1881,CD_QC_Ottawa_County—Comté.,unmatched,True,False,1881
+QC,Ottawa County—Comté.,"Aylmer, Village",QC097026,QC097026_1881,CD_QC_Ottawa_County—Comté.,unmatched,True,False,1881
+QC,Ottawa County—Comté.,Eardly,QC097027,QC097027_1881,CD_QC_Ottawa_County—Comté.,unmatched,True,False,1881
+QC,Ottawa County—Comté.,"Gatineau, Village",QC097028,QC097028_1881,CD_QC_Ottawa_County—Comté.,unmatched,True,False,1881
+QC,Ottawa County—Comté.,"Templeton, Est",QC097029,QC097029_1881,CD_QC_Ottawa_County—Comté.,unmatched,True,False,1881
+QC,Ottawa County—Comté.,"Templeton, W.-O",QC097030,QC097030_1881,CD_QC_Ottawa_County—Comté.,unmatched,True,False,1881
+QC,Ottawa County—Comté.,Wakefield,QC097031,QC097031_1881,CD_QC_Ottawa_County—Comté.,unmatched,True,False,1881
+QC,Ottawa County—Comté.,Masham,QC097032,QC097032_1881,CD_QC_Ottawa_County—Comté.,unmatched,True,False,1881
+QC,Ottawa County—Comté.,"Portland, W.-Ouest",QC097033,QC097033_1881,CD_QC_Ottawa_County—Comté.,unmatched,True,False,1881
+QC,Ottawa County—Comté.,Lowe,QC097034,QC097034_1881,CD_QC_Ottawa_County—Comté.,unmatched,True,False,1881
+QC,Ottawa County—Comté.,Aylwin,QC097035,QC097035_1881,CD_QC_Ottawa_County—Comté.,unmatched,True,False,1881
+QC,Ottawa County—Comté.,Hincks,QC097036,QC097036_1881,CD_QC_Ottawa_County—Comté.,unmatched,True,False,1881
+QC,Ottawa County—Comté.,Wright,QC097037,QC097037_1881,CD_QC_Ottawa_County—Comté.,unmatched,True,False,1881
+QC,Ottawa County—Comté.,Northfield,QC097038,QC097038_1881,CD_QC_Ottawa_County—Comté.,unmatched,True,False,1881
+QC,Ottawa County—Comté.,Bouchette,QC097039,QC097039_1881,CD_QC_Ottawa_County—Comté.,unmatched,True,False,1881
+QC,Ottawa County—Comté.,Cameron,QC097040,QC097040_1881,CD_QC_Ottawa_County—Comté.,unmatched,True,False,1881
+QC,Ottawa County—Comté.,Denholm,QC097041,QC097041_1881,CD_QC_Ottawa_County—Comté.,unmatched,True,False,1881
+QC,Ottawa County—Comté.,"Egan, Maniwaki",QC097042,QC097042_1881,CD_QC_Ottawa_County—Comté.,unmatched,True,False,1881
+QC,Ottawa County—Comté.,Kensington,QC097043,QC097043_1881,CD_QC_Ottawa_County—Comté.,unmatched,True,False,1881
+QC,Ottawa County—Comté.,Aumond,QC097044,QC097044_1881,CD_QC_Ottawa_County—Comté.,unmatched,True,False,1881
+QC,Ottawa County—Comté.,Unorganiz’d Country,QC097045,QC097045_1881,CD_QC_Ottawa_County—Comté.,unmatched,True,False,1881
+ON,Ottawa (City—Ville.),"Wellington Ward, Q.",ON105001,ON105001_1881,CD_ON_Ottawa_(City—Ville.),unmatched,True,False,1881
+ON,Ottawa (City—Ville.),"Victoria Ward, Q",ON105002,ON105002_1881,CD_ON_Ottawa_(City—Ville.),unmatched,True,False,1881
+ON,Ottawa (City—Ville.),"St George’s Ward, Q.",ON105003,ON105003_1881,CD_ON_Ottawa_(City—Ville.),unmatched,True,False,1881
+ON,Ottawa (City—Ville.),"By Ward, Quartier",ON105004,ON105004_1881,CD_ON_Ottawa_(City—Ville.),unmatched,True,False,1881
+ON,Ottawa (City—Ville.),"Ottawa Ward, Q’tr",ON105005,ON105005_1881,CD_ON_Ottawa_(City—Ville.),unmatched,True,False,1881
+ON,Kingston (City—Ville.),"Victoria Ward, Q’tr.",ON116001,ON116001_1881,CD_ON_Kingston_(City—Ville.),unmatched,True,False,1881
+ON,Kingston (City—Ville.),"Rideau Ward, Qu’tr",ON116002,ON116002_1881,CD_ON_Kingston_(City—Ville.),unmatched,True,False,1881
+ON,Kingston (City—Ville.),"Frontenac Ward,Q’tr",ON116003,ON116003_1881,CD_ON_Kingston_(City—Ville.),unmatched,True,False,1881
+ON,Kingston (City—Ville.),"St.Lawrence Ward, Q",ON116004,ON116004_1881,CD_ON_Kingston_(City—Ville.),unmatched,True,False,1881
+ON,Kingston (City—Ville.),"Ontario Ward, Q’tr",ON116005,ON116005_1881,CD_ON_Kingston_(City—Ville.),unmatched,True,False,1881
+ON,Kingston (City—Ville.),"Sydenham Ward,Q’tr",ON116006,ON116006_1881,CD_ON_Kingston_(City—Ville.),unmatched,True,False,1881
+ON,Kingston (City—Ville.),"Cataraqui Ward,Q’tr",ON116007,ON116007_1881,CD_ON_Kingston_(City—Ville.),unmatched,True,False,1881
+ON,Toronto (City-Ville),"St. Lawrence Ward,Q.",ON134001,ON134001_1881,CD_ON_Toronto_(City-Ville),unmatched,True,False,1881
+ON,Toronto (City-Ville),"St. David’s Ward,Q.",ON134002,ON134002_1881,CD_ON_Toronto_(City-Ville),unmatched,True,False,1881
+ON,Toronto (City-Ville),"St Thomas’ Ward,Q",ON134003,ON134003_1881,CD_ON_Toronto_(City-Ville),unmatched,True,False,1881
+ON,Toronto (City-Ville),"St. John’s Ward, Q.",ON134004,ON134004_1881,CD_ON_Toronto_(City-Ville),unmatched,True,False,1881
+ON,Toronto (City-Ville),"St. James’ Ward, Q.",ON134005,ON134005_1881,CD_ON_Toronto_(City-Ville),unmatched,True,False,1881
+ON,Toronto (City-Ville),"St.George’s Ward,Q.",ON134006,ON134006_1881,CD_ON_Toronto_(City-Ville),unmatched,True,False,1881
+ON,Toronto (City-Ville),"St.Andrew’s Ward,Q.",ON134007,ON134007_1881,CD_ON_Toronto_(City-Ville),unmatched,True,False,1881
+ON,Toronto (City-Ville),"St. Patrick’s Ward,Q.",ON134008,ON134008_1881,CD_ON_Toronto_(City-Ville),unmatched,True,False,1881
+ON,Toronto (City-Ville),"St Stephen’s Ward,Q.",ON134009,ON134009_1881,CD_ON_Toronto_(City-Ville),unmatched,True,False,1881
+ON,Hamilton (City-Ville),"Ward No. 1, Quart’r.",ON149001,ON149001_1881,CD_ON_Hamilton_(City-Ville),unmatched,True,False,1881
+ON,Hamilton (City-Ville),"Ward No. 2, Quart’r.",ON149002,ON149002_1881,CD_ON_Hamilton_(City-Ville),unmatched,True,False,1881
+ON,Hamilton (City-Ville),"Ward No. 3, Quart’r",ON149003,ON149003_1881,CD_ON_Hamilton_(City-Ville),unmatched,True,False,1881
+ON,Hamilton (City-Ville),"Ward No. 4, Quart’r.",ON149004,ON149004_1881,CD_ON_Hamilton_(City-Ville),unmatched,True,False,1881
+ON,Hamilton (City-Ville),"Ward No. 5, Quart’r.",ON149005,ON149005_1881,CD_ON_Hamilton_(City-Ville),unmatched,True,False,1881
+ON,Hamilton (City-Ville),"Ward No. 6, Quart’r.",ON149006,ON149006_1881,CD_ON_Hamilton_(City-Ville),unmatched,True,False,1881
+ON,Hamilton (City-Ville),"Ward No. 7, Quart’r.",ON149007,ON149007_1881,CD_ON_Hamilton_(City-Ville),unmatched,True,False,1881
+ON,London (City-Ville),"Ward No. 1, Quart’r.",ON170001,ON170001_1881,CD_ON_London_(City-Ville),unmatched,True,False,1881
+ON,London (City-Ville),"Ward No. 2, Quart’r",ON170002,ON170002_1881,CD_ON_London_(City-Ville),unmatched,True,False,1881
+ON,London (City-Ville),"Ward No. 3, Quart’r",ON170003,ON170003_1881,CD_ON_London_(City-Ville),unmatched,True,False,1881
+ON,London (City-Ville),"Ward No. 4, Quart’r",ON170004,ON170004_1881,CD_ON_London_(City-Ville),unmatched,True,False,1881
+ON,London (City-Ville),"Ward No. 5, Quart’r",ON170005,ON170005_1881,CD_ON_London_(City-Ville),unmatched,True,False,1881
+ON,London (City-Ville),"Ward No. 6, Quart’r",ON170006,ON170006_1881,CD_ON_London_(City-Ville),unmatched,True,False,1881
+ON,London (City-Ville),"Ward No. 7, Quart’r",ON170007,ON170007_1881,CD_ON_London_(City-Ville),unmatched,True,False,1881
+NB,"St. John, City—Cité",Albert Ward-Quartier,NB020001,NB020001_1891,"CD_NB_St._John,_City—Cité",unmatched,True,False,1891
+NB,"St. John, City—Cité",Brook’s Ward-Quartier,NB020002,NB020002_1891,"CD_NB_St._John,_City—Cité",unmatched,True,False,1891
+NB,"St. John, City—Cité",Dukes Ward-Quartier,NB020003,NB020003_1891,"CD_NB_St._John,_City—Cité",unmatched,True,False,1891
+NB,"St. John, City—Cité",Guy’s Ward-Quartier,NB020004,NB020004_1891,"CD_NB_St._John,_City—Cité",unmatched,True,False,1891
+NB,"St. John, City—Cité",King’s Ward-Quartier,NB020005,NB020005_1891,"CD_NB_St._John,_City—Cité",unmatched,True,False,1891
+NB,"St. John, City—Cité",Prince Ward-Quartier,NB020006,NB020006_1891,"CD_NB_St._John,_City—Cité",unmatched,True,False,1891
+NB,"St. John, City—Cité",Queen’s Ward-Quartier,NB020007,NB020007_1891,"CD_NB_St._John,_City—Cité",unmatched,True,False,1891
+NB,"St. John, City—Cité",Sydney Ward-Quartier,NB020008,NB020008_1891,"CD_NB_St._John,_City—Cité",unmatched,True,False,1891
+NB,"St. John, City—Cité",Wellington Ward-Quartier,NB020009,NB020009_1891,"CD_NB_St._John,_City—Cité",unmatched,True,False,1891
+NS,"Halifax, County-Comté",Polling District No. 7,NS034001,NS034001_1891,"CD_NS_Halifax,_County-Comté",unmatched,True,False,1891
+NS,"Halifax, County-Comté",Polling District No. 8,NS034002,NS034002_1891,"CD_NS_Halifax,_County-Comté",unmatched,True,False,1891
+NS,"Halifax, County-Comté",Polling District No. 9,NS034003,NS034003_1891,"CD_NS_Halifax,_County-Comté",unmatched,True,False,1891
+NS,"Halifax, County-Comté",Polling District No. 10,NS034004,NS034004_1891,"CD_NS_Halifax,_County-Comté",unmatched,True,False,1891
+NS,"Halifax, County-Comté",Polling District No. 11,NS034005,NS034005_1891,"CD_NS_Halifax,_County-Comté",unmatched,True,False,1891
+NS,"Halifax, County-Comté",Polling District No. 12,NS034006,NS034006_1891,"CD_NS_Halifax,_County-Comté",unmatched,True,False,1891
+NS,"Halifax, County-Comté",Polling District No. 13,NS034007,NS034007_1891,"CD_NS_Halifax,_County-Comté",unmatched,True,False,1891
+NS,"Halifax, County-Comté",Polling District No. 14,NS034008,NS034008_1891,"CD_NS_Halifax,_County-Comté",unmatched,True,False,1891
+NS,"Halifax, County-Comté",Polling District No. 15,NS034009,NS034009_1891,"CD_NS_Halifax,_County-Comté",unmatched,True,False,1891
+NS,"Halifax, County-Comté",Polling District No. 16,NS034010,NS034010_1891,"CD_NS_Halifax,_County-Comté",unmatched,True,False,1891
+NS,"Halifax, County-Comté",Polling District No. 17,NS034011,NS034011_1891,"CD_NS_Halifax,_County-Comté",unmatched,True,False,1891
+NS,"Halifax, County-Comté",Polling District No. 18,NS034012,NS034012_1891,"CD_NS_Halifax,_County-Comté",unmatched,True,False,1891
+NS,"Halifax, County-Comté",Polling District No. 19,NS034013,NS034013_1891,"CD_NS_Halifax,_County-Comté",unmatched,True,False,1891
+NS,"Halifax, County-Comté",Polling District No. 20,NS034014,NS034014_1891,"CD_NS_Halifax,_County-Comté",unmatched,True,False,1891
+NS,"Halifax, County-Comté",Polling District No. 21,NS034015,NS034015_1891,"CD_NS_Halifax,_County-Comté",unmatched,True,False,1891
+NS,"Halifax, County-Comté",Polling District No. 22,NS034016,NS034016_1891,"CD_NS_Halifax,_County-Comté",unmatched,True,False,1891
+NS,"Halifax, County-Comté",Polling District No. 23,NS034017,NS034017_1891,"CD_NS_Halifax,_County-Comté",unmatched,True,False,1891
+NS,"Halifax, County-Comté",Polling District No. 24,NS034018,NS034018_1891,"CD_NS_Halifax,_County-Comté",unmatched,True,False,1891
+NS,"Halifax, County-Comté",Polling District No. 25,NS034019,NS034019_1891,"CD_NS_Halifax,_County-Comté",unmatched,True,False,1891
+NS,"Halifax, County-Comté",Polling District No. 26a,NS034020,NS034020_1891,"CD_NS_Halifax,_County-Comté",unmatched,True,False,1891
+NS,"Halifax, County-Comté",Polling District No. 26b,NS034021,NS034021_1891,"CD_NS_Halifax,_County-Comté",unmatched,True,False,1891
+NS,"Halifax, County-Comté",Polling District No. 27a,NS034022,NS034022_1891,"CD_NS_Halifax,_County-Comté",unmatched,True,False,1891
+NS,"Halifax, County-Comté",Polling District No. 27b,NS034023,NS034023_1891,"CD_NS_Halifax,_County-Comté",unmatched,True,False,1891
+NS,"Halifax, County-Comté",Polling District No. 28a,NS034024,NS034024_1891,"CD_NS_Halifax,_County-Comté",unmatched,True,False,1891
+NS,"Halifax, County-Comté",Polling District No. 28b,NS034025,NS034025_1891,"CD_NS_Halifax,_County-Comté",unmatched,True,False,1891
+NS,"Halifax, County-Comté",Polling District No. 29,NS034026,NS034026_1891,"CD_NS_Halifax,_County-Comté",unmatched,True,False,1891
+NS,"Halifax, County-Comté",Polling District No. 30,NS034027,NS034027_1891,"CD_NS_Halifax,_County-Comté",unmatched,True,False,1891
+NS,"Halifax, County-Comté","Dartmouth, Town-Ville",NS034028,NS034028_1891,"CD_NS_Halifax,_County-Comté",unmatched,True,False,1891
+NS,"Halifax, County-Comté",Polling District No. 32a ,NS034029,NS034029_1891,"CD_NS_Halifax,_County-Comté",unmatched,True,False,1891
+NS,"Halifax, County-Comté",Polling District No. 32b,NS034030,NS034030_1891,"CD_NS_Halifax,_County-Comté",unmatched,True,False,1891
+NS,"Halifax, County-Comté",Polling District No. 33,NS034031,NS034031_1891,"CD_NS_Halifax,_County-Comté",unmatched,True,False,1891
+NS,"Halifax, County-Comté",Polling District No. 34,NS034032,NS034032_1891,"CD_NS_Halifax,_County-Comté",unmatched,True,False,1891
+NS,"Halifax, County-Comté",Polling District No. 35,NS034033,NS034033_1891,"CD_NS_Halifax,_County-Comté",unmatched,True,False,1891
+NS,"Halifax, County-Comté",Polling District No. 36,NS034034,NS034034_1891,"CD_NS_Halifax,_County-Comté",unmatched,True,False,1891
+NS,"Halifax, County-Comté",Polling District No. 37,NS034035,NS034035_1891,"CD_NS_Halifax,_County-Comté",unmatched,True,False,1891
+NS,"Halifax, County-Comté",Polling District No. 38,NS034036,NS034036_1891,"CD_NS_Halifax,_County-Comté",unmatched,True,False,1891
+NS,"Halifax, County-Comté",Polling District No. 39,NS034037,NS034037_1891,"CD_NS_Halifax,_County-Comté",unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),Algoma Mills ,ON046001,ON046001_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),Bruce Mines,ON046002,ON046002_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),Day,ON046003,ON046003_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),Echo River,ON046004,ON046004_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),Garden River,ON046005,ON046005_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),Goulais Bay,ON046006,ON046006_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),Grande Pointe ,ON046007,ON046007_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),Hallam and Graham,ON046008,ON046008_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),Hilton,ON046009,ON046009_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),Killarney,ON046010,ON046010_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),Kirkwood,ON046011,ON046011_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),Mamainse,ON046012,ON046012_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),Michipicoton,ON046013,ON046013_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),Mississagua,ON046014,ON046014_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),Otter Tail,ON046015,ON046015_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),Port Findley,ON046016,ON046016_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),Root River and Korah,ON046017,ON046017_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),"Sault Ste. Marie, Center",ON046018,ON046018_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),"Sault Ste. Marie, E",ON046019,ON046019_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),Sault Ste. Marie W-O,ON046020,ON046020_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),Spanish River,ON046021,ON046021_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),St. Joseph,ON046022,ON046022_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),Tenby Bay ,ON046023,ON046023_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),Thessalon (Western Division—Ouest.),ON046024,ON046024_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),"Beaver, and Silver Mountain",ON046025,ON046025_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),"Biscotasing, Chapleau, Missanaoi, White River, Peninsula and Schreiber. ",ON046026,ON046026_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),Chelmsford and Cartie,ON046027,ON046027_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),Fort Francis,ON046028,ON046028_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),Hawk Lake,ON046029,ON046029_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),"Keewatin, North—Nord",ON046030,ON046030_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),"Keewatin, South—Sud",ON046031,ON046031_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),Murillo,ON046032,ON046032_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),"Neebing, Centre & South-Sud",ON046033,ON046033_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),"Neebing, North—Nord",ON046034,ON046034_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),Nipigon and Pays Plat,ON046035,ON046035_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),Norman ,ON046036,ON046036_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),"Port Arthur, Centre",ON046037,ON046037_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),"Port Arthur, North—Nord",ON046038,ON046038_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),"Port Arthur, South—Sud",ON046039,ON046039_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),Rainy River,ON046040,ON046040_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),"Rat Portage, East—Est ",ON046041,ON046041_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),"Rat Portage, West—Ouest",ON046042,ON046042_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),"Savanne, Ignace, Barclay and Vermillion (Manitoulin)",ON046043,ON046043_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),Allan,ON046044,ON046044_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),Assiginack,ON046045,ON046045_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),Barry Island,ON046046,ON046046_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),Kidwell,ON046047,ON046047_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),Billings,ON046048,ON046048_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),Burpee,ON046049,ON046049_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),Campbell,ON046050,ON046050_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),Carnavon,ON046051,ON046051_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),Cockburn Island,ON046052,ON046052_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),Dawson,ON046053,ON046053_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),Duck Islands ,ON046054,ON046054_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),Gordon,ON046055,ON046055_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),"Gore Bay, Town— Ville",ON046056,ON046056_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),Howland ,ON046057,ON046057_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),Mills,ON046058,ON046058_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),Robinson,ON046059,ON046059_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),Sandfield,ON046060,ON046060_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),Sheguiandah,ON046061,ON046061_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),Tehkummah,ON046062,ON046062_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),Wookwamakong,ON046063,ON046063_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+ON,Algoma (Eastern Division-Est.),Unorganized Territory,ON046064,ON046064_1891,CD_ON_Algoma_(Eastern_Division-Est.),unmatched,True,False,1891
+QC,L’lslet,St. Damase,QC165001,QC165001_1891,CD_QC_L’lslet,unmatched,True,False,1891
+QC,L’lslet,Elgin and Taché,QC165002,QC165002_1891,CD_QC_L’lslet,unmatched,True,False,1891
+QC,L’lslet,L’Islet,QC165003,QC165003_1891,CD_QC_L’lslet,unmatched,True,False,1891
+QC,L’lslet,St. Aubert,QC165004,QC165004_1891,CD_QC_L’lslet,unmatched,True,False,1891
+QC,L’lslet,St. Cyrille,QC165005,QC165005_1891,CD_QC_L’lslet,unmatched,True,False,1891
+QC,L’lslet,St. Eugène,QC165006,QC165006_1891,CD_QC_L’lslet,unmatched,True,False,1891
+QC,L’lslet,St. Jean Port Joli,QC165007,QC165007_1891,CD_QC_L’lslet,unmatched,True,False,1891
+QC,L’lslet,Ste. Louise,QC165008,QC165008_1891,CD_QC_L’lslet,unmatched,True,False,1891
+QC,L’lslet,St. Pamphile,QC165009,QC165009_1891,CD_QC_L’lslet,unmatched,True,False,1891
+QC,L’lslet,St. Roch des Aulnaies,QC165010,QC165010_1891,CD_QC_L’lslet,unmatched,True,False,1891
+QC,Rouvilla,"Canrobert, Village",QC189001,QC189001_1901,CD_QC_Rouvilla,unmatched,True,False,1901
+QC,Rouvilla,L’Ange-Gardien,QC189002,QC189002_1901,CD_QC_Rouvilla,unmatched,True,False,1901
+QC,Rouvilla,"Marieville, Village",QC189003,QC189003_1901,CD_QC_Rouvilla,unmatched,True,False,1901
+QC,Rouvilla,Notre-Dame de Bonsecours,QC189004,QC189004_1901,CD_QC_Rouvilla,unmatched,True,False,1901
+QC,Rouvilla,"Richelieu, Village",QC189005,QC189005_1901,CD_QC_Rouvilla,unmatched,True,False,1901
+QC,Rouvilla,Ste. Angèle,QC189006,QC189006_1901,CD_QC_Rouvilla,unmatched,True,False,1901
+QC,Rouvilla,St. Césaire,QC189007,QC189007_1901,CD_QC_Rouvilla,unmatched,True,False,1901
+QC,Rouvilla,"St. Césaire, Village",QC189008,QC189008_1901,CD_QC_Rouvilla,unmatched,True,False,1901
+QC,Rouvilla,St. Hilaire,QC189009,QC189009_1901,CD_QC_Rouvilla,unmatched,True,False,1901
+QC,Rouvilla,St. Jean-Baptiste,QC189010,QC189010_1901,CD_QC_Rouvilla,unmatched,True,False,1901
+QC,Rouvilla,Ste. Marie de Monnoir,QC189011,QC189011_1901,CD_QC_Rouvilla,unmatched,True,False,1901
+QC,Rouvilla,St. Mathias,QC189012,QC189012_1901,CD_QC_Rouvilla,unmatched,True,False,1901
+QC,Rouvilla,St. Michel,QC189013,QC189013_1901,CD_QC_Rouvilla,unmatched,True,False,1901
+QC,Rouvilla,St. Paul d’Abbotsford,QC189014,QC189014_1901,CD_QC_Rouvilla,unmatched,True,False,1901
+QC,Rouvilla,St. Pie,QC189015,QC189015_1901,CD_QC_Rouvilla,unmatched,True,False,1901
+QC,Unorganized Districts,Abitibi Ashuanipi Mistassini,QC20N000,QC20N000_1901,CD_QC_Unorganized_Districts,unmatched,True,False,1901
