@@ -59,8 +59,12 @@ link-cds: $(GDB)
 # Reads cd_links_output/ + year_links_output/ (committed); writes the chain
 # registries that downstream stages key against.
 
-persistent_places_output/persistent_place_registry.csv: \
+persistent_places_output/persistent_place_registry.csv \
+persistent_places_output/place_chain_redirects.csv \
+persistent_places_output/place_chain_bridge_review.csv \
+persistent_places_output/place_chain_bridge_skipped.csv: \
 		scripts/build_persistent_places.py \
+		scripts/_normalize.py \
 		year_links_output/SUMMARY_ALL_YEARS.md
 	$(PYTHON) scripts/build_persistent_places.py
 
@@ -125,9 +129,11 @@ neo4j_cidoc_crm_v2/e41_appellations.csv: \
 
 neo4j_cidoc_crm_v2/e53_place_uri.csv: \
 		scripts/join_wikidata_to_places.py \
+		scripts/_normalize.py \
 		neo4j_cidoc_crm_v2/e53_place_csd.csv \
 		wikidata_grounding/csd_verified_matches.jsonl \
-		wikidata_grounding/cd_verified_matches.jsonl
+		wikidata_grounding/cd_verified_matches.jsonl \
+		wikidata_grounding/csd_chain_qid_xrefs.csv
 	$(PYTHON) scripts/join_wikidata_to_places.py
 
 # ---- Stage 5: DCB persons (Dictionary of Canadian Biography) ---------------
@@ -174,6 +180,7 @@ rag_site/index.html: \
 		neo4j_cidoc_crm_v2/p10_csd_within_cd_presence_1901.csv \
 		neo4j_cidoc_crm_v2/p132_spatiotemporally_overlaps_with_csd.csv \
 		neo4j_cidoc_crm_v2/e41_appellations.csv \
+		persistent_places_output/place_chain_redirects.csv \
 		pilot/on_kuzu/nodes/place.csv \
 		data/lincs_person_csd_links.csv
 	$(PYTHON) scripts/generate_rag_pages.py --all

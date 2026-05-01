@@ -43,6 +43,8 @@ from pathlib import Path
 
 import pandas as pd
 
+from _normalize import normalize_for_match
+
 YEARS = [1851, 1861, 1871, 1881, 1891, 1901, 1911, 1921]
 YEAR_PAIRS = list(zip(YEARS[:-1], YEARS[1:]))
 
@@ -150,27 +152,6 @@ def canonical_cd_name(raw: str) -> str:
             break
 
     return re.sub(r"\s+", " ", s).strip()
-
-
-def normalize_for_match(name: str) -> str:
-    """Loose name-equality key used by Rules 1-3 chain matching and the
-    Rule 4-NAME / split-detect / Rule 4-BRIDGE name comparisons.
-
-    Folds diacritics (Châteauguay → chateauguay), unifies straight and
-    curly apostrophes and backticks, treats hyphen as space (Jacques-Cartier
-    matches Jacques Cartier), collapses whitespace, lowercases. Used only
-    for matching — does NOT replace canonical_cd_name as displayed."""
-    if not name:
-        return ""
-    # Unify quote variants BEFORE diacritic folding: curly apostrophe is not
-    # ASCII, so the encode("ascii", "ignore") step below would strip it
-    # entirely — silently breaking equality between "L'Islet" (curly) and
-    # "L'Islet" (straight).
-    s = name.replace("’", "'").replace("‘", "'").replace("`", "'")
-    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode("ascii")
-    s = s.replace("-", " ")
-    s = re.sub(r"\s+", " ", s).strip().lower()
-    return s
 
 
 def parse_cd_id(cd_id: str):

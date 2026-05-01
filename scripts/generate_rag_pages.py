@@ -123,6 +123,113 @@ def url_for_place(name: str, place_id: str, base: str,
     return f"{base}/places/{province.lower()}/{slugify(name)}-{stem}/"
 
 
+REDIRECT_STUB_TEMPLATE = """<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Moved: {name}</title>
+<link rel="canonical" href="{site_url}{new_url}">
+<meta http-equiv="refresh" content="0; url={site_url}{new_url}">
+<meta name="robots" content="noindex">
+</head>
+<body>
+<p>This persistent place chain merged into a longer-lived chain.
+Redirecting to <a href="{site_url}{new_url}">{name}</a>…</p>
+</body>
+</html>
+"""
+
+
+def _write_stub(out_dir: Path, base: str, old_url: str, new_url: str,
+                 site_url: str, name: str,
+                 fresh_urls: set[str] | None = None) -> bool:
+    """Write a single meta-refresh stub. Returns True if written.
+
+    Won't clobber a page the renderer just wrote in this run (membership
+    checked via fresh_urls). Stale pages from previous builds ARE
+    overwritten — that's the point of the redirect stub.
+
+    fresh_urls contains absolute URLs ({site_url}{path}); old_url is a path
+    starting with `base`. Compare with the absolute form."""
+    if fresh_urls is not None and f"{site_url}{old_url}" in fresh_urls:
+        return False
+    rel_path = old_url[len(base):].lstrip("/")
+    stub_dir = out_dir / rel_path
+    target = stub_dir / "index.html"
+    stub_dir.mkdir(parents=True, exist_ok=True)
+    target.write_text(REDIRECT_STUB_TEMPLATE.format(
+        name=html.escape(name),
+        site_url=site_url,
+        new_url=new_url,
+    ))
+    return True
+
+
+def write_redirect_stubs(out_dir: Path, site_url: str, base: str,
+                          redirects_csv: Path,
+                          known_chain_ids: set[str],
+                          fresh_urls: set[str] | None = None) -> int:
+    """Emit meta-refresh stubs for chain ids subsumed by the bridge pass.
+
+    For each row in place_chain_redirects.csv (Track A output), build the
+    OLD URL the renderer used to emit (using old_canonical_name + old_place_id)
+    and write a 0-second meta-refresh HTML pointing to the NEW chain's URL.
+    Returns count of stubs written.
+    """
+    if not redirects_csv.exists():
+        return 0
+    written = 0
+    with redirects_csv.open() as f:
+        for r in csv.DictReader(f):
+            old_pid = r["old_place_id"]
+            new_pid = r["new_place_id"]
+            if old_pid in known_chain_ids:
+                continue
+            old_url = url_for_place(
+                r["old_canonical_name"], old_pid, base, r["province"])
+            new_url = url_for_place(
+                r["new_canonical_name"], new_pid, base, r["province"])
+            if _write_stub(out_dir, base, old_url, new_url, site_url,
+                            r["old_canonical_name"], fresh_urls):
+                written += 1
+    return written
+
+
+def write_presence_redirect_stubs(out_dir: Path, site_url: str, base: str,
+                                    redirects_csv: Path,
+                                    fresh_urls: set[str] | None = None) -> int:
+    """Emit meta-refresh stubs for per-presence URLs that broke when their
+    chain's canonical_name changed via a bridge merge.
+
+    The presence URL embeds the chain's canonical_name as a slug
+    (e.g. `peterborough-town-of-on093012-1861`). When the bridge merges
+    PLACE_ON093012 ("Peterborough, Town of") into PLACE_ON138017
+    ("Peterborough, C"), the 1861 presence is now rendered at
+    `peterborough-c-on093012-1861` and the old URL would 404. This emits
+    a meta-refresh stub at the old URL so existing inbound links keep working.
+    """
+    if not redirects_csv.exists():
+        return 0
+    written = 0
+    with redirects_csv.open() as f:
+        for r in csv.DictReader(f):
+            tcpuid = r["tcpuid"]
+            year = int(r["year"])
+            prov = r["province"]
+            old_name = r["old_canonical_name"]
+            new_name = r["new_canonical_name"]
+            old_url = url_for_presence(old_name, tcpuid, year, base, prov)
+            new_url = url_for_presence(new_name, tcpuid, year, base, prov)
+            if old_url == new_url:
+                # bridge_normalize differs but slugify(name) coincides — no
+                # actual URL change.
+                continue
+            if _write_stub(out_dir, base, old_url, new_url, site_url, old_name,
+                            fresh_urls):
+                written += 1
+    return written
+
+
 # Populated by main() after prefetch_cd_data so render_page (CSD year pages)
 # can resolve raw NAME_CD strings to the canonical CD chain URL. Empty falls
 # back to name-based URL (pre-Phase-1 behavior).
@@ -2897,6 +3004,35 @@ def main():
 
         # .nojekyll so GitHub Pages serves files raw, no Jekyll build.
         (out_dir / ".nojekyll").write_text("")
+
+        # Redirect stubs for chain ids subsumed by the bridge name-match pass.
+        # The chain rebuild collapsed e.g. four Peterborough chains into one;
+        # the three pre-1921 chain URLs need to redirect to the survivor so
+        # existing inbound links and citations still work.
+        redirects_csv = REPO / "persistent_places_output" / "place_chain_redirects.csv"
+        registry_csv = REPO / "persistent_places_output" / "persistent_place_registry.csv"
+        known_chain_ids: set[str] = set()
+        if registry_csv.exists():
+            with registry_csv.open() as f:
+                for r in csv.DictReader(f):
+                    known_chain_ids.add(r["persistent_place_id"])
+        # Pass the set of URLs we just rendered so stubs don't clobber a
+        # real page that happened to share a slug.
+        fresh_url_set = set(written_urls)
+        n_stubs = write_redirect_stubs(out_dir, site_url, base, redirects_csv,
+                                        known_chain_ids, fresh_url_set)
+        if n_stubs:
+            print(f"Wrote {n_stubs} redirect stub(s) for subsumed chain ids.")
+
+        # Per-presence URL redirects: presence URL embeds the chain's canonical
+        # name slug, which changes when the bridge merges chains with different
+        # canonical names. Without these stubs, inbound links to old presence
+        # URLs (e.g. peterborough-town-of-on093012-1861) would 404.
+        presence_redirects_csv = REPO / "persistent_places_output" / "place_presence_redirects.csv"
+        n_presence_stubs = write_presence_redirect_stubs(
+            out_dir, site_url, base, presence_redirects_csv, fresh_url_set)
+        if n_presence_stubs:
+            print(f"Wrote {n_presence_stubs} redirect stub(s) for renamed presence URLs.")
 
         # sitemap.xml
         if args.all:

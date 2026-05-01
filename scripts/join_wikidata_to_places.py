@@ -24,7 +24,7 @@ from __future__ import annotations
 import csv
 import json
 import re
-from collections import Counter
+from collections import Counter, defaultdict
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[1]
@@ -37,6 +37,13 @@ E53_CD = REPO / "neo4j_cidoc_crm_v2" / "e53_place_cd.csv"
 OUT = REPO / "neo4j_cidoc_crm_v2" / "e53_place_uri.csv"
 UNPLACED = REPO / "neo4j_cidoc_crm_v2" / "e53_place_uri_unplaced.csv"
 CD_CONFLICTS = REPO / "wikidata_grounding" / "cd_qid_conflicts.csv"
+CSD_XREFS = REPO / "wikidata_grounding" / "csd_chain_qid_xrefs.csv"
+
+# Path injection so `from _normalize import …` works whether invoked as
+# `python3 scripts/join_wikidata_to_places.py` or imported as a module.
+import sys as _sys
+_sys.path.insert(0, str(Path(__file__).resolve().parent))
+from _normalize import normalize_for_match, bridge_normalize  # noqa: E402
 
 WIKIDATA_PREFIX = "http://www.wikidata.org/entity/"
 HGIS_PAGE_BASE = "https://jimclifford.ca/hgiscanada/places"
@@ -183,6 +190,31 @@ def uri_for(tcpuid: str, record: dict | None,
     return minted_page_url(name, place_id, province), "minted_hgis", ""
 
 
+def load_csd_xref_overrides(path: Path) -> dict[str, dict]:
+    """Curator override file. Schema:
+        place_id, qid, label, decision, reason
+    decision ∈ {force, suppress}. `force` attaches the QID to a chain that
+    Track A + sibling-lookup couldn't ground; `suppress` removes a sibling
+    match the curator considers wrong (no qid attached, chain stays minted).
+    Empty / missing file is fine."""
+    overrides: dict[str, dict] = {}
+    if not path.exists():
+        return overrides
+    with path.open() as f:
+        for r in csv.DictReader(f):
+            pid = (r.get("place_id") or "").strip()
+            decision = (r.get("decision") or "").strip().lower()
+            if not pid or decision not in {"force", "suppress"}:
+                continue
+            overrides[pid] = {
+                "qid": (r.get("qid") or "").strip(),
+                "label": (r.get("label") or "").strip(),
+                "decision": decision,
+                "reason": (r.get("reason") or "").strip(),
+            }
+    return overrides
+
+
 def base_tcpuid(tcpuid: str) -> str:
     """Strip a trailing _YYYY disambiguation suffix."""
     return SUFFIX_RE.sub("", tcpuid)
@@ -201,18 +233,25 @@ def main() -> None:
     province_source: dict[str, Counter[str]] = {}
     grounding_used: set[str] = set()
 
-    rows_out = []
+    overrides = load_csd_xref_overrides(CSD_XREFS)
+    if overrides:
+        print(f"Loaded {len(overrides):,} CSD chain QID overrides from "
+              f"{CSD_XREFS.relative_to(REPO)}")
+
+    # PHASE 1: direct grounding via 1921 csd_verified_matches.jsonl.
+    # Build per-row scratch state so we can run the sibling pass against it.
+    rows_out: list[dict] = []
+    csd_rows: list[dict] = []  # parallel scratch: {place_id, base, name, province, years}
     with E53_CSD.open() as f:
-        reader = csv.DictReader(f)
-        for row in reader:
+        for row in csv.DictReader(f):
             place_id = row["place_id:ID"]
             assert place_id.startswith("PLACE_"), place_id
             tcpuid = place_id[len("PLACE_"):]
             base = base_tcpuid(tcpuid)
             province = row["province"]
+            name = row["name"]
             years = row["years_active"].split(";") if row["years_active"] else []
 
-            # Only consume grounding when this CSV row is the 1921-active one.
             record = None
             if GROUNDING_YEAR in years and base in grounding:
                 record = grounding[base]
@@ -220,26 +259,113 @@ def main() -> None:
 
             uri, source, qid = uri_for(
                 base, record,
-                place_id=place_id, name=row["name"], province=province,
+                place_id=place_id, name=name, province=province,
             )
             status = record["status"] if record else "ungrounded"
             mint_reason = (record or {}).get("mint_reason", "") if record else ""
             wd_label = (record or {}).get("wikidata_label", "") if record else ""
 
-            rows_out.append(
-                {
-                    "place_id:ID": place_id,
-                    "uri": uri,
-                    "uri_source": source,
-                    "wikidata_qid": qid,
-                    "wikidata_label": wd_label,
-                    "grounding_status": status,
-                    "mint_reason": mint_reason,
-                }
-            )
-            status_counter[status] += 1
-            source_counter[source] += 1
-            province_source.setdefault(province, Counter())[source] += 1
+            out_row = {
+                "place_id:ID": place_id,
+                "uri": uri,
+                "uri_source": source,
+                "wikidata_qid": qid,
+                "wikidata_label": wd_label,
+                "grounding_status": status,
+                "mint_reason": mint_reason,
+            }
+            rows_out.append(out_row)
+            csd_rows.append({
+                "place_id": place_id,
+                "base": base,
+                "name": name,
+                "province": province,
+                "years": years,
+            })
+
+    # PHASE 2: sibling-name inheritance. Index every directly-grounded chain
+    # by (bridge_normalize(name), province) → (qid, label, donor_place_id).
+    # Then any chain whose Phase-1 result is `ungrounded` looks itself up in
+    # the index. On hit, the chain inherits the QID with uri_source =
+    # `wikidata_via_sibling`. Skipped if multiple distinct QIDs collide for
+    # the same key (ambiguity flagged in summary).
+    sibling_index: dict[tuple[str, str], dict] = {}
+    sibling_conflicts: dict[tuple[str, str], set[str]] = defaultdict(set)
+    for out_row, src in zip(rows_out, csd_rows):
+        if out_row["uri_source"] != "wikidata":
+            continue
+        key = (bridge_normalize(src["name"]), src["province"])
+        if not key[0] or not key[1]:
+            continue
+        sibling_conflicts[key].add(out_row["wikidata_qid"])
+        if key not in sibling_index:
+            sibling_index[key] = {
+                "qid": out_row["wikidata_qid"],
+                "label": out_row["wikidata_label"],
+                "donor": out_row["place_id:ID"],
+            }
+    # Drop ambiguous keys (multiple QIDs)
+    for key, qids in sibling_conflicts.items():
+        if len(qids) > 1:
+            sibling_index.pop(key, None)
+
+    # PHASE 3: apply sibling lookup + override file.
+    sibling_inherits = 0
+    override_force = 0
+    override_suppress = 0
+    for out_row, src in zip(rows_out, csd_rows):
+        place_id = out_row["place_id:ID"]
+        ov = overrides.get(place_id)
+
+        # Suppress override: clear any auto-attached QID and keep minted URI.
+        if ov and ov["decision"] == "suppress":
+            if out_row["uri_source"].startswith("wikidata"):
+                # Override fights an auto-match; restore minted URI.
+                out_row["uri"] = minted_page_url(src["name"], place_id, src["province"])
+                out_row["uri_source"] = "minted_hgis"
+                out_row["wikidata_qid"] = ""
+                out_row["wikidata_label"] = ""
+                out_row["grounding_status"] = "ungrounded"
+                out_row["mint_reason"] = f"override_suppress: {ov['reason']}"
+            override_suppress += 1
+            continue
+
+        # Force override: attach a QID regardless of Phase 1 / Phase 2.
+        if ov and ov["decision"] == "force" and ov["qid"]:
+            out_row["uri"] = f"{WIKIDATA_PREFIX}{ov['qid']}"
+            out_row["uri_source"] = "wikidata_via_override"
+            out_row["wikidata_qid"] = ov["qid"]
+            out_row["wikidata_label"] = ov["label"]
+            out_row["grounding_status"] = "matched"
+            out_row["mint_reason"] = ""
+            override_force += 1
+            continue
+
+        # Sibling inheritance: only for chains still ungrounded after Phase 1.
+        if out_row["uri_source"] != "minted_hgis":
+            continue
+        key = (bridge_normalize(src["name"]), src["province"])
+        donor = sibling_index.get(key)
+        if not donor or donor["donor"] == place_id:
+            continue
+        out_row["uri"] = f"{WIKIDATA_PREFIX}{donor['qid']}"
+        out_row["uri_source"] = "wikidata_via_sibling"
+        out_row["wikidata_qid"] = donor["qid"]
+        out_row["wikidata_label"] = donor["label"]
+        out_row["grounding_status"] = "matched"
+        out_row["mint_reason"] = f"sibling: {donor['donor']}"
+        sibling_inherits += 1
+
+    # Recompute counters from final state.
+    for out_row in rows_out:
+        status_counter[out_row["grounding_status"]] += 1
+        source_counter[out_row["uri_source"]] += 1
+        # province lookup via parallel csd_rows
+    for out_row, src in zip(rows_out, csd_rows):
+        province_source.setdefault(src["province"], Counter())[out_row["uri_source"]] += 1
+
+    print(f"\nSibling-name inheritance: {sibling_inherits:,} chains")
+    print(f"Override force / suppress: {override_force:,} / {override_suppress:,}")
 
     cd_grounding = load_cd_grounding(CD_JSONL)
     cd_chain_members = load_cd_chain_members(CD_CHAIN_MAP)
