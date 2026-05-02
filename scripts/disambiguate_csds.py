@@ -58,6 +58,7 @@ GOOD_P31_QIDS = {
     "Q17366755",   # hamlet in Alberta
     "Q6644696",    # village in Alberta
     "Q3257686",    # locality (used for ghost towns / former settlements)
+    "Q74047",      # ghost town (former settlement type; some entities only carry this)
     "Q6641762",    # summer village in Alberta
     "Q131905118",  # town in Manitoba
     "Q23953065",   # local urban district
@@ -362,7 +363,12 @@ def show_batch(args):
 
 
 def fetch_wikidata_entities(qids):
-    """Fetch entity data from Wikidata API in batches of 50."""
+    """Fetch entity data from Wikidata API in batches of 50.
+
+    Retries on HTTP 429 with exponential backoff. Without this, downstream
+    code can mistake transient rate-limit failures for real "wrong province"
+    fails (we couldn't fetch the parent entity to walk the P131 chain).
+    """
     results = {}
     for i in range(0, len(qids), 50):
         batch = qids[i:i + 50]
@@ -370,16 +376,29 @@ def fetch_wikidata_entities(qids):
         url = (f"https://www.wikidata.org/w/api.php?"
                f"action=wbgetentities&ids={ids_str}"
                f"&props=labels|descriptions|claims&languages=en&format=json")
-        try:
-            req = urllib.request.Request(url, headers={"User-Agent": "CSD-Disambig/1.0"})
-            with urllib.request.urlopen(req, timeout=30) as resp:
-                data = json.loads(resp.read().decode())
-                if "entities" in data:
-                    results.update(data["entities"])
-        except (urllib.error.URLError, json.JSONDecodeError) as e:
-            print(f"  API error for batch {i}: {e}", file=sys.stderr)
+        backoff = 2
+        for attempt in range(5):
+            try:
+                req = urllib.request.Request(url, headers={"User-Agent": "CSD-Disambig/1.0"})
+                with urllib.request.urlopen(req, timeout=30) as resp:
+                    data = json.loads(resp.read().decode())
+                    if "entities" in data:
+                        results.update(data["entities"])
+                break
+            except urllib.error.HTTPError as e:
+                if e.code == 429 and attempt < 4:
+                    print(f"  429 rate-limited on batch {i}, sleeping {backoff}s",
+                          file=sys.stderr)
+                    time.sleep(backoff)
+                    backoff *= 2
+                    continue
+                print(f"  HTTP error for batch {i}: {e}", file=sys.stderr)
+                break
+            except (urllib.error.URLError, json.JSONDecodeError) as e:
+                print(f"  API error for batch {i}: {e}", file=sys.stderr)
+                break
         if i + 50 < len(qids):
-            time.sleep(1)  # Be polite
+            time.sleep(1.5)  # Be polite
     return results
 
 
