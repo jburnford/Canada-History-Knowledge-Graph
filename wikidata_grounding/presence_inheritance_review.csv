@@ -1,0 +1,2 @@
+chain_id,name,province,n_presences,decision,inherited_qid,inherited_label,inherited_mint_reason,target_chains,signals,confidence,evidence
+PLACE_ON114004_1901,Hawkesbury W-O,ON,6,REVIEW_CONFLICT,,,,,,,"qids={'Q2573770': 1} | mints={'Historic ON geographic township, merged into Champlain, no WD entity': 1} | qid_targets={'Q2573770': ['PLACE_ON139008']} | mint_targets={'Historic ON geographic township, merged into Champlain, no WD entity': ['PLACE_ON139004']}"

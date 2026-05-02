@@ -75,3 +75,72 @@ def bridge_normalize(name: str) -> str:
             break
         s = new
     return normalize_for_match(s)
+
+
+# Suffix → tier mapping. Pairs to bridge_normalize: bridge_normalize collapses
+# all admin-tier variants to one root, suffix_tier records which tier they
+# came from so sibling-inheritance can avoid the Brantford problem (city-tier
+# Q34180 and bare-tier Township Q115260922 collapsing to one bucket and
+# dropping each other as a conflict).
+_TIER_PATTERNS = [
+    ("URBAN", re.compile(
+        r",?\s+("
+        r"City[—\-]\s*Cit[ée]|Cit[ée]|City|"
+        r"Town\s+of|Town[—\-]\s*Ville|T[—\-]V|Town|Ville|"
+        r"C|T"
+        r")\s*$",
+        re.IGNORECASE)),
+    ("TOWNSHIP", re.compile(
+        r",?\s+(Township[—\-]\s*Canton|Township|Canton|TP)\s*$",
+        re.IGNORECASE)),
+    ("VILLAGE", re.compile(
+        r",?\s+(Village[—\-]\s*Village|Village|VL)\s*$",
+        re.IGNORECASE)),
+    ("PARISH", re.compile(
+        r",?\s+(Parish[—\-]\s*Paroisse|Parish|Paroisse|PAR|par\.?)\s*$",
+        re.IGNORECASE)),
+    ("RESERVE", re.compile(
+        r",?\s+(Reserve[—\-]\s*R[ée]serve|Reserve|R[ée]serve)\s*$",
+        re.IGNORECASE)),
+    ("HAMLET", re.compile(
+        r",?\s+Hamlet\s*$",
+        re.IGNORECASE)),
+]
+
+
+def suffix_tier(name: str) -> str:
+    """Classify a CSD name's admin-tier suffix.
+
+    Returns one of URBAN, TOWNSHIP, VILLAGE, PARISH, RESERVE, HAMLET, BARE.
+    Used by sibling-inheritance to avoid collapsing distinct entities that
+    happen to share a root name (the Brantford City Q34180 vs. Township
+    Q115260922 case).
+
+    Loose about the leading comma — handles both "Saskatoon, C" (proper) and
+    "Saskatoon c" (no-comma OCR variant) as URBAN. Tier checks run in priority
+    order; first match wins. BARE means no recognizable suffix found.
+    """
+    return tier_root(name)[1]
+
+
+def tier_root(name: str) -> tuple[str, str]:
+    """Return (normalized_root_name, tier) by stripping the admin-tier suffix.
+
+    Bridges the comma vs. no-comma variants (e.g., "Saskatoon, C" and
+    "Saskatoon c" both → ("saskatoon", "URBAN")) so sibling-inheritance keys
+    line up across OCR drift. Tier is one of URBAN/TOWNSHIP/VILLAGE/PARISH/
+    RESERVE/HAMLET/BARE.
+
+    Distinct from `bridge_normalize`: bridge_normalize requires a leading
+    comma to strip suffixes, which fails on "Saskatoon c". `tier_root` matches
+    suffixes after either comma or whitespace, so it's robust to that drift.
+    """
+    if not name:
+        return ("", "BARE")
+    s = name.strip()
+    for tier, pat in _TIER_PATTERNS:
+        m = pat.search(s)
+        if m:
+            root = s[: m.start()].rstrip().rstrip(",").rstrip()
+            return (normalize_for_match(root), tier)
+    return (normalize_for_match(s), "BARE")

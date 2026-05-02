@@ -143,7 +143,7 @@ PROVINCE_QIDS = {
     "PE": {"Q1959", "Q1978"},  # Prince Edward Island (both QIDs in use)
     "QC": {"Q176"},           # Quebec
     "SK": {"Q1989"},          # Saskatchewan
-    "NT": {"Q2007"},          # Northwest Territories
+    "NT": {"Q2007", "Q1951", "Q1989"},  # NT + AB + SK (1901 NT CSDs became AB/SK in 1905)
     "YT": {"Q2009"},          # Yukon
     "NU": {"Q1880"},          # Nunavut
 }

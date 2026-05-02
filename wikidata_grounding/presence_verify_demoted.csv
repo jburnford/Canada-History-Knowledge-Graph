@@ -1,0 +1,65 @@
+chain_id,name,province,inherited_qid,inherited_label,phase_a_signals,phase_a_confidence,fail_reason
+PLACE_MB016005,Swan River t-v,MB,Q487931,Swan River,S4_TIER_ROOT_PROVINCE,low,FAR: 210 km from chain centroid
+PLACE_ON054062,Chelmsford t-v,ON,Q22486283,Chelmsford,S4_TIER_ROOT_PROVINCE,low,FAR: 134 km from chain centroid
+PLACE_ON099094,Copper Cliff t-v,ON,Q115178132,Copper Cliff,S4_TIER_ROOT_PROVINCE,low,FAR: 201 km from chain centroid
+PLACE_ON099102,Sudbury t-v,ON,Q383434,Greater Sudbury,S3_AMBIGUOUS_NAMED,medium,FAR: 230 km from chain centroid
+PLACE_QC015018,St. Jean,QC,Q3462540,Saint-Jean-de-l'Île-d'Orléans,S4_TIER_ROOT_PROVINCE,low,FAR: 153 km from chain centroid
+PLACE_QC023005,St. Jean,QC,Q3462540,Saint-Jean-de-l'Île-d'Orléans,S4_TIER_ROOT_PROVINCE,low,FAR: 58 km from chain centroid
+PLACE_QC028002,St. Martin,QC,Q3462931,Saint-Martin,S4_TIER_ROOT_PROVINCE,low,FAR: 246 km from chain centroid
+PLACE_QC038014,St. Laurent,QC,Q3462701,Saint-Laurent-de-l'Île-d'Orléans,S4_TIER_ROOT_PROVINCE,low,FAR: 326 km from chain centroid
+PLACE_QC040015,St. Joseph,QC,Q141613,Saint-Joseph-de-Beauce,S4_TIER_ROOT_PROVINCE,low,FAR: 323 km from chain centroid
+PLACE_QC060005_1851,St. Michel,QC,Q3462990,Saint-Michel-de-Bellechasse,S4_TIER_ROOT_PROVINCE,low,FAR: 180 km from chain centroid
+PLACE_QC061003_1881,St. Joseph,QC,Q141613,Saint-Joseph-de-Beauce,S4_TIER_ROOT_PROVINCE,low,FAR: 179 km from chain centroid
+PLACE_QC065003_1851,St. Joseph,QC,Q141613,Saint-Joseph-de-Beauce,S4_TIER_ROOT_PROVINCE,low,FAR: 219 km from chain centroid
+PLACE_QC065005_1851,St. Laurent,QC,Q3462701,Saint-Laurent-de-l'Île-d'Orléans,S4_TIER_ROOT_PROVINCE,low,FAR: 256 km from chain centroid
+PLACE_QC065012_1851,St. Michel,QC,Q3462990,Saint-Michel-de-Bellechasse,S4_TIER_ROOT_PROVINCE,low,FAR: 265 km from chain centroid
+PLACE_QC068004_1871,St. Jean,QC,Q3462540,Saint-Jean-de-l'Île-d'Orléans,S4_TIER_ROOT_PROVINCE,low,FAR: 259 km from chain centroid
+PLACE_QC070003,St. Michel,QC,Q3462990,Saint-Michel-de-Bellechasse,S4_TIER_ROOT_PROVINCE,low,FAR: 274 km from chain centroid
+PLACE_QC076012,St. Jean,QC,Q3462540,Saint-Jean-de-l'Île-d'Orléans,S4_TIER_ROOT_PROVINCE,low,FAR: 152 km from chain centroid
+PLACE_QC076013_1881,St. Alexis,QC,Q3461722,Saint-Alexis,S4_TIER_ROOT_PROVINCE,low,FAR: 343 km from chain centroid
+PLACE_QC076022_1881,St. Joseph,QC,Q141613,Saint-Joseph-de-Beauce,S4_TIER_ROOT_PROVINCE,low,FAR: 256 km from chain centroid
+PLACE_QC076024,St. Jérôme,QC,Q112912399,Saint-Jérôme,S4_TIER_ROOT_PROVINCE,low,FAR: 335 km from chain centroid
+PLACE_QC078011_1871,St. Tite,QC,Q112912839,Saint-Tite,S4_TIER_ROOT_PROVINCE,low,FAR: 147 km from chain centroid
+PLACE_QC079010_1851,St. François de Sales,QC,Q112912171,Saint-François-de-Sales,S4_TIER_ROOT_PROVINCE,low,FAR: 315 km from chain centroid
+PLACE_QC079013_1851,St. Martin,QC,Q3462931,Saint-Martin,S4_TIER_ROOT_PROVINCE,low,FAR: 246 km from chain centroid
+PLACE_QC081008,St. Joseph,QC,Q141613,Saint-Joseph-de-Beauce,S4_TIER_ROOT_PROVINCE,low,FAR: 271 km from chain centroid
+PLACE_QC087010,St. Ambroise,QC,Q112911857,Saint-Ambroise de la Jeune Lorette,S4_TIER_ROOT_PROVINCE,low,FAR: 190 km from chain centroid
+PLACE_QC092011,St. Laurent,QC,Q3462701,Saint-Laurent-de-l'Île-d'Orléans,S4_TIER_ROOT_PROVINCE,low,FAR: 256 km from chain centroid
+PLACE_QC097003,St. Joseph,QC,Q141613,Saint-Joseph-de-Beauce,S4_TIER_ROOT_PROVINCE,low,FAR: 257 km from chain centroid
+PLACE_QC099010,"St. Jérôme, Village",QC,Q112912401,Saint-Jérôme,S4_TIER_ROOT_PROVINCE,low,FAR: 336 km from chain centroid
+PLACE_QC102011_1871,St. Jean,QC,Q3462540,Saint-Jean-de-l'Île-d'Orléans,S4_TIER_ROOT_PROVINCE,low,FAR: 215 km from chain centroid
+PLACE_QC134002,St. Michel,QC,Q3462990,Saint-Michel-de-Bellechasse,S4_TIER_ROOT_PROVINCE,low,FAR: 181 km from chain centroid
+PLACE_QC135014,St. Léonard,QC,Q3462828,Saint-Léonard-de-Portneuf,S4_TIER_ROOT_PROVINCE,low,FAR: 95 km from chain centroid
+PLACE_QC141003,St. Charles,QC,Q112911987,Saint-Charles,S4_TIER_ROOT_PROVINCE,low,FAR: 211 km from chain centroid
+PLACE_QC149013,St. Alexis,QC,Q3461722,Saint-Alexis,S4_TIER_ROOT_PROVINCE,low,FAR: 333 km from chain centroid
+PLACE_QC149019,St. Dominique,QC,Q3462095,Saint-Dominique,S4_TIER_ROOT_PROVINCE,low,FAR: 336 km from chain centroid
+PLACE_QC149020_1901,St. Dominique,QC,Q3462095,Saint-Dominique,S4_TIER_ROOT_PROVINCE,low,FAR: 338 km from chain centroid
+PLACE_QC149024,St. Jérôme,QC,Q112912399,Saint-Jérôme,S4_TIER_ROOT_PROVINCE,low,FAR: 332 km from chain centroid
+PLACE_QC149025_1901,St. Jean,QC,Q3462540,Saint-Jean-de-l'Île-d'Orléans,S4_TIER_ROOT_PROVINCE,low,FAR: 152 km from chain centroid
+PLACE_QC149026_1901,St. Jérôme,QC,Q112912399,Saint-Jérôme,S4_TIER_ROOT_PROVINCE,low,FAR: 332 km from chain centroid
+PLACE_QC149033_1901,St. Thomas d’Aquin,QC,Q112912829,Saint-Thomas-d'Aquin,S4_TIER_ROOT_PROVINCE,low,FAR: 293 km from chain centroid
+PLACE_QC150023_1911,St. Bruno vl,QC,Q112911961,Saint-Bruno,S4_TIER_ROOT_PROVINCE,low,FAR: 351 km from chain centroid
+PLACE_QC153007_1871,St. Joseph,QC,Q141613,Saint-Joseph-de-Beauce,S4_TIER_ROOT_PROVINCE,low,FAR: 55 km from chain centroid
+PLACE_QC155001_1871,St. Jean,QC,Q3462540,Saint-Jean-de-l'Île-d'Orléans,S4_TIER_ROOT_PROVINCE,low,FAR: 97 km from chain centroid
+PLACE_QC156008,St. Joseph,QC,Q141613,Saint-Joseph-de-Beauce,S4_TIER_ROOT_PROVINCE,low,FAR: 257 km from chain centroid
+PLACE_QC157017,St. Laurent,QC,Q3462701,Saint-Laurent-de-l'Île-d'Orléans,S4_TIER_ROOT_PROVINCE,low,FAR: 256 km from chain centroid
+PLACE_QC158009,St. Laurent,QC,Q3462701,Saint-Laurent-de-l'Île-d'Orléans,S4_TIER_ROOT_PROVINCE,low,FAR: 256 km from chain centroid
+PLACE_QC162008_1911,St. Laurent,QC,Q3462701,Saint-Laurent-de-l'Île-d'Orléans,S4_TIER_ROOT_PROVINCE,low,FAR: 257 km from chain centroid
+PLACE_QC163002_1901,St. Ambroise,QC,Q112911857,Saint-Ambroise de la Jeune Lorette,S4_TIER_ROOT_PROVINCE,low,FAR: 190 km from chain centroid
+PLACE_QC163003,St. Martin,QC,Q3462931,Saint-Martin,S4_TIER_ROOT_PROVINCE,low,FAR: 244 km from chain centroid
+PLACE_QC163010,St. Martin,QC,Q3462931,Saint-Martin,S4_TIER_ROOT_PROVINCE,low,FAR: 244 km from chain centroid
+PLACE_QC164009,St. Joseph,QC,Q141613,Saint-Joseph-de-Beauce,S4_TIER_ROOT_PROVINCE,low,FAR: 54 km from chain centroid
+PLACE_QC168006,St. François de Sales,QC,Q112912171,Saint-François-de-Sales,S4_TIER_ROOT_PROVINCE,low,FAR: 315 km from chain centroid
+PLACE_QC168007,St. Joseph,QC,Q141613,Saint-Joseph-de-Beauce,S4_TIER_ROOT_PROVINCE,low,FAR: 166 km from chain centroid
+PLACE_QC168007_1871,St. Jérôme,QC,Q112912399,Saint-Jérôme,S4_TIER_ROOT_PROVINCE,low,FAR: 596 km from chain centroid
+PLACE_QC168008_1911,St. Martin,QC,Q3462931,Saint-Martin,S4_TIER_ROOT_PROVINCE,low,FAR: 245 km from chain centroid
+PLACE_QC175012,St. Léonard,QC,Q3462828,Saint-Léonard-de-Portneuf,S4_TIER_ROOT_PROVINCE,low,FAR: 95 km from chain centroid
+PLACE_QC184012,St. Léonard,QC,Q3462828,Saint-Léonard-de-Portneuf,S4_TIER_ROOT_PROVINCE,low,FAR: 94 km from chain centroid
+PLACE_QC185005_1891,"St. Ambroise, Village",QC,Q3461746,Saint-Ambroise,S4_TIER_ROOT_PROVINCE,low,FAR: 188 km from chain centroid
+PLACE_QC190007_1891,St. Joseph,QC,Q141613,Saint-Joseph-de-Beauce,S4_TIER_ROOT_PROVINCE,low,FAR: 271 km from chain centroid
+PLACE_QC194009,St. Michel,QC,Q3462990,Saint-Michel-de-Bellechasse,S4_TIER_ROOT_PROVINCE,low,FAR: 228 km from chain centroid
+PLACE_QC197006,St. Michel,QC,Q3462990,Saint-Michel-de-Bellechasse,S4_TIER_ROOT_PROVINCE,low,FAR: 180 km from chain centroid
+PLACE_QC201008,St. Michel,QC,Q3462990,Saint-Michel-de-Bellechasse,S4_TIER_ROOT_PROVINCE,low,FAR: 180 km from chain centroid
+PLACE_QC202020,Ste. Agathe vl,QC,Q112912885,Sainte-Agathe,S4_TIER_ROOT_PROVINCE,low,FAR: 226 km from chain centroid
+PLACE_QC206011,St. Michel,QC,Q3462990,Saint-Michel-de-Bellechasse,S4_TIER_ROOT_PROVINCE,low,FAR: 181 km from chain centroid
+PLACE_SK210009,Theodore vl,SK,Q2204939,Theodore,S4_TIER_ROOT_PROVINCE,low,FAR: 197 km from chain centroid
