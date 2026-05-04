@@ -11168,10 +11168,8 @@ CD_AB_Victoria,Victoria,AB,CD,,,,
 CD_BC_British_Colombia,British Colombia,BC,CD,Q1973,,https://en.wikipedia.org/wiki/British_Columbia,https://fr.wikipedia.org/wiki/Colombie-Britannique
 CD_BC_Burrard,Burrard,BC,CD,,,,
 CD_BC_Burrard_1921,Burrard,BC,CD,,,,
-CD_BC_Burrard_1921_1921,Burrard,BC,CD,,,,
 CD_BC_Cariboo,Cariboo,BC,CD,,,,
 CD_BC_Cariboo_1921,Cariboo,BC,CD,,,,
-CD_BC_Cariboo_1921_1921,Cariboo,BC,CD,,,,
 CD_BC_Comox-Alberni,Comox-Alberni,BC,CD,,,,
 CD_BC_Comox-Atlin,Comox-Atlin,BC,CD,,,,
 CD_BC_Fraser_Valley,Fraser Valley,BC,CD,,,,
@@ -11187,12 +11185,10 @@ CD_BC_Vancouver_City,Vancouver City,BC,CD,Q24639,,https://en.wikipedia.org/wiki/
 CD_BC_Vancouver_South,Vancouver South,BC,CD,,,,
 CD_BC_Victoria,Victoria,BC,CD,,,,
 CD_BC_Victoria_1901,Victoria,BC,CD,,,,
-CD_BC_Victoria_1901_1901,Victoria,BC,CD,,,,
 CD_BC_Victoria_City,Victoria City,BC,CD,,,,
 CD_BC_Yale,Yale,BC,CD,,,,
 CD_BC_Yale_&_Cariboo,Yale & Cariboo,BC,CD,,,,
 CD_BC_Yale_1921,Yale,BC,CD,,,,
-CD_BC_Yale_1921_1921,Yale,BC,CD,,,,
 CD_MB_Brandon,Brandon,MB,CD,,,,
 CD_MB_Dauphin,Dauphin,MB,CD,,,,
 CD_MB_Division_No._1,Division No. 1,MB,CD,Q1363319,,"https://en.wikipedia.org/wiki/Division_No._1,_Manitoba",https://fr.wikipedia.org/wiki/Division_No_1_(Manitoba)
@@ -11219,26 +11215,18 @@ CD_MB_Marquette,Marquette,MB,CD,,,,
 CD_MB_Portage_La_Prairie,Portage La Prairie,MB,CD,,,,
 CD_MB_Provencher,Provencher,MB,CD,,,,
 CD_MB_Provencher_1881,Provencher,MB,CD,,,,
-CD_MB_Provencher_1881_1881,Provencher,MB,CD,,,,
 CD_MB_Provencher_1891,Provencher,MB,CD,,,,
 CD_MB_Provencher_1891_1891,Provencher,MB,CD,,,,
-CD_MB_Provencher_1891_1891_1891,Provencher,MB,CD,,,,
-CD_MB_Provencher_1891_1891_1891_1891,Provencher,MB,CD,,,,
 CD_MB_Selkirk,Selkirk,MB,CD,,,,
 CD_MB_Souris,Souris,MB,CD,,,,
 CD_MB_Winnipeg_City,Winnipeg City,MB,CD,Q2135,,https://en.wikipedia.org/wiki/Winnipeg,https://fr.wikipedia.org/wiki/Winnipeg
-CD_MB_Winnipeg_City_1891,Winnipeg City,MB,CD,Q2135,,https://en.wikipedia.org/wiki/Winnipeg,https://fr.wikipedia.org/wiki/Winnipeg
-CD_MB_Winnipeg_City_1901,Winnipeg City,MB,CD,Q2135,,https://en.wikipedia.org/wiki/Winnipeg,https://fr.wikipedia.org/wiki/Winnipeg
 CD_NB_Albert,Albert,NB,CD,Q1293527,,"https://en.wikipedia.org/wiki/Albert_County,_New_Brunswick",https://fr.wikipedia.org/wiki/Comt%C3%A9_d%27Albert
 CD_NB_Albert_1921,Albert,NB,CD,Q1293527,,"https://en.wikipedia.org/wiki/Albert_County,_New_Brunswick",https://fr.wikipedia.org/wiki/Comt%C3%A9_d%27Albert
-CD_NB_Albert_1921_1921,Albert,NB,CD,,,,
 CD_NB_Carleton,Carleton,NB,CD,Q2429216,,"https://en.wikipedia.org/wiki/Carleton_County,_New_Brunswick",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Carleton
 CD_NB_Charlotte,Charlotte,NB,CD,Q1067162,,"https://en.wikipedia.org/wiki/Charlotte_County,_New_Brunswick",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Charlotte_(Nouveau-Brunswick)
 CD_NB_Gloucester,Gloucester,NB,CD,Q963112,,"https://en.wikipedia.org/wiki/Gloucester_County,_New_Brunswick",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Gloucester_(Nouveau-Brunswick)
 CD_NB_Kent,Kent,NB,CD,Q2542413,,"https://en.wikipedia.org/wiki/Kent_County,_New_Brunswick",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Kent_(Nouveau-Brunswick)
 CD_NB_King's,King's,NB,CD,Q1670967,,"https://en.wikipedia.org/wiki/Kings_County,_New_Brunswick",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Kings_(Nouveau-Brunswick)
-CD_NB_King's_1891,King's,NB,CD,Q1670967,,"https://en.wikipedia.org/wiki/Kings_County,_New_Brunswick",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Kings_(Nouveau-Brunswick)
-CD_NB_King's_1901,King's,NB,CD,Q1670967,,"https://en.wikipedia.org/wiki/Kings_County,_New_Brunswick",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Kings_(Nouveau-Brunswick)
 CD_NB_Kings,Kings,NB,CD,Q1670967,,"https://en.wikipedia.org/wiki/Kings_County,_New_Brunswick",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Kings_(Nouveau-Brunswick)
 CD_NB_Kings_&_Albert,Kings & Albert,NB,CD,,,,
 CD_NB_Madawaska,Madawaska,NB,CD,Q181004,,"https://en.wikipedia.org/wiki/Madawaska_County,_New_Brunswick",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Madawaska
@@ -11249,14 +11237,11 @@ CD_NB_Queens,Queens,NB,CD,Q2542396,,"https://en.wikipedia.org/wiki/Queens_County
 CD_NB_Restigouche,Restigouche,NB,CD,Q2542491,,"https://en.wikipedia.org/wiki/Restigouche_County,_New_Brunswick",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Restigouche
 CD_NB_St._John,St. John,NB,CD,Q1786989,,"https://en.wikipedia.org/wiki/Saint_John_County,_New_Brunswick",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Saint-Jean
 CD_NB_St._John_City,St. John City,NB,CD,,,,
-CD_NB_St._John_City_1881,St. John City,NB,CD,,,,
 CD_NB_Sunbury,Sunbury,NB,CD,Q543098,,"https://en.wikipedia.org/wiki/Sunbury_County,_New_Brunswick",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Sunbury
 CD_NB_Sunbury_&_Queens,Sunbury & Queens,NB,CD,,,,
 CD_NB_Sunbury_1921,Sunbury,NB,CD,Q543098,,"https://en.wikipedia.org/wiki/Sunbury_County,_New_Brunswick",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Sunbury
-CD_NB_Sunbury_1921_1921,Sunbury,NB,CD,,,,
 CD_NB_Victoria,Victoria,NB,CD,Q1520380,,"https://en.wikipedia.org/wiki/Victoria_County,_New_Brunswick",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Victoria_(Nouveau-Brunswick)
 CD_NB_Victoria_1921,Victoria,NB,CD,Q1520380,,"https://en.wikipedia.org/wiki/Victoria_County,_New_Brunswick",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Victoria_(Nouveau-Brunswick)
-CD_NB_Victoria_1921_1921,Victoria,NB,CD,,,,
 CD_NB_Westmorland,Westmorland,NB,CD,Q1147110,,"https://en.wikipedia.org/wiki/Westmorland_County,_New_Brunswick",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Westmorland
 CD_NB_York,York,NB,CD,Q1752038,,"https://en.wikipedia.org/wiki/York_County,_New_Brunswick",https://fr.wikipedia.org/wiki/Comt%C3%A9_d%27York_(Nouveau-Brunswick)
 CD_NL_Labrador,Labrador,NL,CD,Q380307,,https://en.wikipedia.org/wiki/Labrador,https://fr.wikipedia.org/wiki/Labrador
@@ -11266,19 +11251,13 @@ CD_NS_Antigonish,Antigonish,NS,CD,Q575491,,"https://en.wikipedia.org/wiki/Antigo
 CD_NS_Cape_Breton,Cape Breton,NS,CD,Q2658942,,https://en.wikipedia.org/wiki/Cape_Breton_County,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Cap-Breton
 CD_NS_Cape_Breton_N._&_Victoria,Cape Breton N. & Victoria,NS,CD,,,,
 CD_NS_Cape_Breton_South,Cape Breton South,NS,CD,,,,
-CD_NS_Cape_Breton_South_1911,Cape Breton South,NS,CD,,,,
 CD_NS_Colchester,Colchester,NS,CD,Q595326,,https://en.wikipedia.org/wiki/Colchester_County,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Colchester
 CD_NS_Cumberland,Cumberland,NS,CD,Q2559621,,"https://en.wikipedia.org/wiki/Cumberland_County,_Nova_Scotia",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Cumberland_(Nouvelle-%C3%89cosse)
 CD_NS_Digby,Digby,NS,CD,Q2630244,,https://en.wikipedia.org/wiki/Digby_County,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Digby
 CD_NS_Guysborough,Guysborough,NS,CD,Q501045,,https://en.wikipedia.org/wiki/Guysborough_County,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Guysborough
 CD_NS_Halifax_City,Halifax City,NS,CD,Q2630280,,"https://en.wikipedia.org/wiki/Halifax_County,_Nova_Scotia",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Halifax_(Nouvelle-%C3%89cosse)
-CD_NS_Halifax_City_1881,Halifax City,NS,CD,,,,
-CD_NS_Halifax_City_1891,Halifax City,NS,CD,,,,
-CD_NS_Halifax_City_1901,Halifax City,NS,CD,,,,
 CD_NS_Halifax_East,Halifax East,NS,CD,,,,
-CD_NS_Halifax_East_1871,Halifax East,NS,CD,,,,
 CD_NS_Halifax_West,Halifax West,NS,CD,,,,
-CD_NS_Halifax_West_1871,Halifax West,NS,CD,,,,
 CD_NS_Hants,Hants,NS,CD,Q2630239,,"https://en.wikipedia.org/wiki/Hants_County,_Nova_Scotia",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Hants
 CD_NS_Inverness,Inverness,NS,CD,Q2630310,,"https://en.wikipedia.org/wiki/Inverness_County,_Nova_Scotia",https://fr.wikipedia.org/wiki/Comt%C3%A9_d%27Inverness_(Nouvelle-%C3%89cosse)
 CD_NS_Kings,Kings,NS,CD,Q671105,,"https://en.wikipedia.org/wiki/Kings_County,_Nova_Scotia",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Kings_(Nouvelle-%C3%89cosse)
@@ -11287,23 +11266,16 @@ CD_NS_Nova_Scotia,Nova Scotia,NS,CD,Q1952,,https://en.wikipedia.org/wiki/Nova_Sc
 CD_NS_Pictou,Pictou,NS,CD,Q2092485,,https://en.wikipedia.org/wiki/Pictou_County,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Pictou
 CD_NS_Queens,Queens,NS,CD,Q2006307,,"https://en.wikipedia.org/wiki/Queens_County,_Nova_Scotia",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Queens_(Nouvelle-%C3%89cosse)
 CD_NS_Queens_1921,Queens,NS,CD,Q2006307,,"https://en.wikipedia.org/wiki/Queens_County,_Nova_Scotia",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Queens_(Nouvelle-%C3%89cosse)
-CD_NS_Queens_1921_1921,Queens,NS,CD,,,,
 CD_NS_Richmond,Richmond,NS,CD,Q2658971,,"https://en.wikipedia.org/wiki/Richmond_County,_Nova_Scotia",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Richmond_(Nouvelle-%C3%89cosse)
 CD_NS_Shelburne,Shelburne,NS,CD,Q2096191,,https://en.wikipedia.org/wiki/Shelburne_County,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Shelburne
 CD_NS_Shelburne_&_Queens,Shelburne & Queens,NS,CD,,,,
 CD_NS_Shelburne_1921,Shelburne,NS,CD,Q2096191,,https://en.wikipedia.org/wiki/Shelburne_County,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Shelburne
-CD_NS_Shelburne_1921_1921,Shelburne,NS,CD,,,,
 CD_NS_Victoria,Victoria,NS,CD,Q1116334,,"https://en.wikipedia.org/wiki/Victoria_County,_Nova_Scotia",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Victoria_(Nouvelle-%C3%89cosse)
 CD_NS_Victoria_1921,Victoria,NS,CD,Q1116334,,"https://en.wikipedia.org/wiki/Victoria_County,_Nova_Scotia",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Victoria_(Nouvelle-%C3%89cosse)
-CD_NS_Victoria_1921_1921,Victoria,NS,CD,,,,
 CD_NS_Yarmouth,Yarmouth,NS,CD,Q388130,,https://en.wikipedia.org/wiki/Yarmouth_County,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Yarmouth
 CD_NT_Alberta,Alberta,NT,CD,Q5283390,,https://en.wikipedia.org/wiki/District_of_Alberta,https://fr.wikipedia.org/wiki/District_d%27Alberta
 CD_NT_Assiniboia_East,Assiniboia East,NT,CD,,,,
-CD_NT_Assiniboia_East_1891,Assiniboia East,NT,CD,,,,
-CD_NT_Assiniboia_East_1901,Assiniboia East,NT,CD,,,,
 CD_NT_Assiniboia_West,Assiniboia West,NT,CD,,,,
-CD_NT_Assiniboia_West_1891,Assiniboia West,NT,CD,,,,
-CD_NT_Assiniboia_West_1901,Assiniboia West,NT,CD,,,,
 CD_NT_Northwest_Territories,Northwest Territories,NT,CD,Q2007,,https://en.wikipedia.org/wiki/Northwest_Territories,https://fr.wikipedia.org/wiki/Territoires_du_Nord-Ouest
 CD_NT_Saskatchewan,Saskatchewan,NT,CD,Q5283474,,https://en.wikipedia.org/wiki/District_of_Saskatchewan,https://fr.wikipedia.org/wiki/District_de_la_Saskatchewan
 CD_NT_The_Territories,The Territories,NT,CD,,,,
@@ -11312,68 +11284,31 @@ CD_NT_Unorganized_Territories,Unorganized Territories,NT,CD,,,,
 CD_NT_Unorganized_Territories—Territoires_non-organisés,Unorganized Territories—Territoires non-organisés,NT,CD,,,,
 CD_ON_Addington,Addington,ON,CD,Q4681175,,https://en.wikipedia.org/wiki/Addington_County,
 CD_ON_Addington_1871,Addington,ON,CD,Q4681175,,https://en.wikipedia.org/wiki/Addington_County,
-CD_ON_Addington_1871_1871,Addington,ON,CD,,,,
-CD_ON_Addington_1881,Addington,ON,CD,,,,
-CD_ON_Addington_1891,Addington,ON,CD,,,,
-CD_ON_Addington_1901,Addington,ON,CD,,,,
 CD_ON_Addington_1921,Addington,ON,CD,Q4681175,,https://en.wikipedia.org/wiki/Addington_County,
-CD_ON_Addington_1921_1921,Addington,ON,CD,,,,
 CD_ON_Algoma,Algoma,ON,CD,Q2140691,,https://en.wikipedia.org/wiki/Algoma_District,https://fr.wikipedia.org/wiki/District_d%27Algoma
 CD_ON_Algoma_Centre,Algoma Centre,ON,CD,,,,
-CD_ON_Algoma_Centre_1871,Algoma Centre,ON,CD,,,,
 CD_ON_Algoma_East,Algoma East,ON,CD,,,,
-CD_ON_Algoma_East_1871,Algoma East,ON,CD,,,,
 CD_ON_Algoma_East_1911,Algoma East,ON,CD,,,,
-CD_ON_Algoma_East_1911_1911,Algoma East,ON,CD,,,,
 CD_ON_Algoma_West,Algoma West,ON,CD,,,,
-CD_ON_Algoma_West_1871,Algoma West,ON,CD,,,,
 CD_ON_Algoma_West_1911,Algoma West,ON,CD,,,,
-CD_ON_Algoma_West_1911_1911,Algoma West,ON,CD,,,,
 CD_ON_Bothwell,Bothwell,ON,CD,,,,
 CD_ON_Brant,Brant,ON,CD,Q384944,,https://en.wikipedia.org/wiki/County_of_Brant,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Brant
 "CD_ON_Brant,_North_or_East—Nord_ou_East","Brant, North or East—Nord ou East",ON,CD,,,,
-"CD_ON_Brant,_North_or_East—Nord_ou_East_1871","Brant, North or East—Nord ou East",ON,CD,,,,
 "CD_ON_Brant,_South_or_West—Sud_ou_West","Brant, South or West—Sud ou West",ON,CD,,,,
-"CD_ON_Brant,_South_or_West—Sud_ou_West_1871","Brant, South or West—Sud ou West",ON,CD,,,,
 CD_ON_Brant_1861,Brant,ON,CD,Q384944,,https://en.wikipedia.org/wiki/County_of_Brant,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Brant
 CD_ON_Brant_1861_1861,Brant,ON,CD,Q384944,,https://en.wikipedia.org/wiki/County_of_Brant,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Brant
-CD_ON_Brant_1861_1861_1861,Brant,ON,CD,,,,
-CD_ON_Brant_1861_1861_1861_1861,Brant,ON,CD,,,,
 CD_ON_Brant_1911,Brant,ON,CD,Q384944,,https://en.wikipedia.org/wiki/County_of_Brant,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Brant
-CD_ON_Brant_1911_1911,Brant,ON,CD,,,,
-CD_ON_Brant_1921,Brant,ON,CD,,,,
 CD_ON_Brant_North,Brant North,ON,CD,,,,
-CD_ON_Brant_North_1881,Brant North,ON,CD,,,,
-CD_ON_Brant_North_1891,Brant North,ON,CD,,,,
-CD_ON_Brant_North_1891_1891,Brant North,ON,CD,,,,
 CD_ON_Brant_South,Brant South,ON,CD,,,,
-CD_ON_Brant_South_1881,Brant South,ON,CD,,,,
-CD_ON_Brant_South_1891,Brant South,ON,CD,,,,
-CD_ON_Brant_South_1891_1891,Brant South,ON,CD,,,,
-CD_ON_Brant_South_1901,Brant South,ON,CD,,,,
 CD_ON_Brantford,Brantford,ON,CD,Q34180,,https://en.wikipedia.org/wiki/Brantford,https://fr.wikipedia.org/wiki/Brantford
 CD_ON_Brockville,Brockville,ON,CD,Q34047,,https://en.wikipedia.org/wiki/Brockville,https://fr.wikipedia.org/wiki/Brockville_(Ontario)
 CD_ON_Bruce,Bruce,ON,CD,Q991601,,https://en.wikipedia.org/wiki/Bruce_County,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Bruce
 CD_ON_Bruce_1921,Bruce,ON,CD,Q991601,,https://en.wikipedia.org/wiki/Bruce_County,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Bruce
-CD_ON_Bruce_1921_1921,Bruce,ON,CD,,,,
 CD_ON_Bruce_East,Bruce East,ON,CD,,,,
-CD_ON_Bruce_East_1891,Bruce East,ON,CD,,,,
-CD_ON_Bruce_East_1901,Bruce East,ON,CD,,,,
 CD_ON_Bruce_North,Bruce North,ON,CD,,,,
-CD_ON_Bruce_North_1871,Bruce North,ON,CD,,,,
-CD_ON_Bruce_North_1881,Bruce North,ON,CD,,,,
-CD_ON_Bruce_North_1891,Bruce North,ON,CD,,,,
-CD_ON_Bruce_North_1901,Bruce North,ON,CD,,,,
-CD_ON_Bruce_North_1911,Bruce North,ON,CD,,,,
-CD_ON_Bruce_North_1911_1911,Bruce North,ON,CD,,,,
 CD_ON_Bruce_South,Bruce South,ON,CD,,,,
-CD_ON_Bruce_South_1871,Bruce South,ON,CD,,,,
-CD_ON_Bruce_South_1881,Bruce South,ON,CD,,,,
 CD_ON_Bruce_South_1911,Bruce South,ON,CD,,,,
-CD_ON_Bruce_South_1911_1911,Bruce South,ON,CD,,,,
 CD_ON_Bruce_West,Bruce West,ON,CD,,,,
-CD_ON_Bruce_West_1891,Bruce West,ON,CD,,,,
-CD_ON_Bruce_West_1901,Bruce West,ON,CD,,,,
 CD_ON_Bytown,Bytown,ON,CD,Q1930,,https://en.wikipedia.org/wiki/Ottawa,https://fr.wikipedia.org/wiki/Ottawa
 CD_ON_Cardwell,Cardwell,ON,CD,,,,
 CD_ON_Carleton,Carleton,ON,CD,Q4215324,,"https://en.wikipedia.org/wiki/Carleton_County,_Ontario",
@@ -11381,395 +11316,124 @@ CD_ON_Cornwall,Cornwall,ON,CD,Q956690,,"https://en.wikipedia.org/wiki/Cornwall,_
 CD_ON_Dufferin,Dufferin,ON,CD,Q1145335,,https://en.wikipedia.org/wiki/Dufferin_County,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Dufferin
 CD_ON_Dundas,Dundas,ON,CD,Q5314760,,"https://en.wikipedia.org/wiki/Dundas_County,_Ontario",
 CD_ON_Durham,Durham,ON,CD,Q5316491,,"https://en.wikipedia.org/wiki/Durham_County,_Ontario",
-CD_ON_Durham_1861,Durham,ON,CD,Q5316491,,"https://en.wikipedia.org/wiki/Durham_County,_Ontario",
 CD_ON_Durham_East,Durham East,ON,CD,,,,
-CD_ON_Durham_East_1871,Durham East,ON,CD,,,,
-CD_ON_Durham_East_1881,Durham East,ON,CD,,,,
-CD_ON_Durham_East_1891,Durham East,ON,CD,,,,
-CD_ON_Durham_East_1901,Durham East,ON,CD,,,,
 CD_ON_Durham_West,Durham West,ON,CD,,,,
-CD_ON_Durham_West_1871,Durham West,ON,CD,,,,
-CD_ON_Durham_West_1881,Durham West,ON,CD,,,,
-CD_ON_Durham_West_1891,Durham West,ON,CD,,,,
-CD_ON_Durham_West_1901,Durham West,ON,CD,,,,
 CD_ON_Elgin,Elgin,ON,CD,Q500757,,https://en.wikipedia.org/wiki/Elgin_County,https://fr.wikipedia.org/wiki/Comt%C3%A9_d%27Elgin
 CD_ON_Elgin_East,Elgin East,ON,CD,,,,
-CD_ON_Elgin_East_1871,Elgin East,ON,CD,,,,
-CD_ON_Elgin_East_1881,Elgin East,ON,CD,,,,
-CD_ON_Elgin_East_1891,Elgin East,ON,CD,,,,
-CD_ON_Elgin_East_1901,Elgin East,ON,CD,,,,
-CD_ON_Elgin_East_1911,Elgin East,ON,CD,,,,
 CD_ON_Elgin_West,Elgin West,ON,CD,,,,
-CD_ON_Elgin_West_1871,Elgin West,ON,CD,,,,
-CD_ON_Elgin_West_1881,Elgin West,ON,CD,,,,
-CD_ON_Elgin_West_1891,Elgin West,ON,CD,,,,
-CD_ON_Elgin_West_1901,Elgin West,ON,CD,,,,
-CD_ON_Elgin_West_1911,Elgin West,ON,CD,,,,
 CD_ON_Essex,Essex,ON,CD,Q953088,,"https://en.wikipedia.org/wiki/Essex_County,_Ontario",https://fr.wikipedia.org/wiki/Comt%C3%A9_d%27Essex_(Ontario)
 CD_ON_Essex_North,Essex North,ON,CD,,,,
-CD_ON_Essex_North_1891,Essex North,ON,CD,,,,
-CD_ON_Essex_North_1901,Essex North,ON,CD,,,,
-CD_ON_Essex_North_1911,Essex North,ON,CD,,,,
 CD_ON_Essex_South,Essex South,ON,CD,,,,
-CD_ON_Essex_South_1891,Essex South,ON,CD,,,,
-CD_ON_Essex_South_1901,Essex South,ON,CD,,,,
-CD_ON_Essex_South_1911,Essex South,ON,CD,,,,
 CD_ON_Frontenac,Frontenac,ON,CD,Q739928,,https://en.wikipedia.org/wiki/Frontenac_County,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Frontenac_(Ontario)
 CD_ON_Glengarry,Glengarry,ON,CD,Q5568538,,https://en.wikipedia.org/wiki/Glengarry_County,
 CD_ON_Grenville,Grenville,ON,CD,,,,
-CD_ON_Grenville_1861,Grenville,ON,CD,,,,
 CD_ON_Grenville_South,Grenville South,ON,CD,,,,
-CD_ON_Grenville_South_1871,Grenville South,ON,CD,,,,
-CD_ON_Grenville_South_1881,Grenville South,ON,CD,,,,
-CD_ON_Grenville_South_1891,Grenville South,ON,CD,,,,
-CD_ON_Grenville_South_1901,Grenville South,ON,CD,,,,
 CD_ON_Grey,Grey,ON,CD,Q1546177,,https://en.wikipedia.org/wiki/Grey_County,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Grey
-CD_ON_Grey_1921,Grey,ON,CD,Q1546177,,https://en.wikipedia.org/wiki/Grey_County,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Grey
 CD_ON_Grey_East,Grey East,ON,CD,,,,
-CD_ON_Grey_East_1881,Grey East,ON,CD,,,,
-CD_ON_Grey_East_1891,Grey East,ON,CD,,,,
-CD_ON_Grey_East_1901,Grey East,ON,CD,,,,
-CD_ON_Grey_East_1911,Grey East,ON,CD,,,,
-CD_ON_Grey_East_1911_1911,Grey East,ON,CD,,,,
 CD_ON_Grey_North,Grey North,ON,CD,,,,
-CD_ON_Grey_North_1871,Grey North,ON,CD,,,,
-CD_ON_Grey_North_1881,Grey North,ON,CD,,,,
-CD_ON_Grey_North_1891,Grey North,ON,CD,,,,
-CD_ON_Grey_North_1901,Grey North,ON,CD,,,,
-CD_ON_Grey_North_1911,Grey North,ON,CD,,,,
-CD_ON_Grey_North_1911_1911,Grey North,ON,CD,,,,
 CD_ON_Grey_South,Grey South,ON,CD,,,,
-CD_ON_Grey_South_1871,Grey South,ON,CD,,,,
-CD_ON_Grey_South_1881,Grey South,ON,CD,,,,
-CD_ON_Grey_South_1891,Grey South,ON,CD,,,,
-CD_ON_Grey_South_1901,Grey South,ON,CD,,,,
-CD_ON_Grey_South_1911,Grey South,ON,CD,,,,
-CD_ON_Grey_South_1911_1911,Grey South,ON,CD,,,,
 CD_ON_Haldimand,Haldimand,ON,CD,Q385346,,https://en.wikipedia.org/wiki/Haldimand_County,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Haldimand
 CD_ON_Haldimand_&_Monok,Haldimand & Monok,ON,CD,,,,
 CD_ON_Haldimand_1911,Haldimand,ON,CD,Q385346,,https://en.wikipedia.org/wiki/Haldimand_County,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Haldimand
-CD_ON_Haldimand_1911_1911,Haldimand,ON,CD,,,,
-CD_ON_Haldimand_1921,Haldimand,ON,CD,,,,
 CD_ON_Haliburton,Haliburton,ON,CD,Q1571033,,https://en.wikipedia.org/wiki/Haliburton_County,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Haliburton
 CD_ON_Halton,Halton,ON,CD,Q14875161,,https://en.wikipedia.org/wiki/Halton_County,
 CD_ON_Hamilton,Hamilton,ON,CD,Q133116,,"https://en.wikipedia.org/wiki/Hamilton,_Ontario",https://fr.wikipedia.org/wiki/Hamilton_(Ontario)
 CD_ON_Hamilton_City,Hamilton City,ON,CD,Q133116,,"https://en.wikipedia.org/wiki/Hamilton,_Ontario",https://fr.wikipedia.org/wiki/Hamilton_(Ontario)
-CD_ON_Hamilton_City_1881,Hamilton City,ON,CD,,,,
-CD_ON_Hamilton_City_1891,Hamilton City,ON,CD,,,,
-CD_ON_Hamilton_City_1901,Hamilton City,ON,CD,,,,
 CD_ON_Hamilton_East,Hamilton East,ON,CD,,,,
-CD_ON_Hamilton_East_1911,Hamilton East,ON,CD,,,,
 CD_ON_Hamilton_West,Hamilton West,ON,CD,,,,
-CD_ON_Hamilton_West_1911,Hamilton West,ON,CD,,,,
 CD_ON_Hastings,Hastings,ON,CD,Q1588807,,https://en.wikipedia.org/wiki/Hastings_County,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Hastings
 CD_ON_Hastings_1921,Hastings,ON,CD,Q1588807,,https://en.wikipedia.org/wiki/Hastings_County,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Hastings
-CD_ON_Hastings_1921_1921,Hastings,ON,CD,,,,
 CD_ON_Hastings_East,Hastings East,ON,CD,,,,
-CD_ON_Hastings_East_1871,Hastings East,ON,CD,,,,
-CD_ON_Hastings_East_1881,Hastings East,ON,CD,,,,
-CD_ON_Hastings_East_1891,Hastings East,ON,CD,,,,
-CD_ON_Hastings_East_1901,Hastings East,ON,CD,,,,
-CD_ON_Hastings_East_1911,Hastings East,ON,CD,,,,
 CD_ON_Hastings_North,Hastings North,ON,CD,,,,
-CD_ON_Hastings_North_1871,Hastings North,ON,CD,,,,
-CD_ON_Hastings_North_1881,Hastings North,ON,CD,,,,
-CD_ON_Hastings_North_1891,Hastings North,ON,CD,,,,
-CD_ON_Hastings_North_1901,Hastings North,ON,CD,,,,
 CD_ON_Hastings_West,Hastings West,ON,CD,,,,
-CD_ON_Hastings_West_1871,Hastings West,ON,CD,,,,
-CD_ON_Hastings_West_1881,Hastings West,ON,CD,,,,
-CD_ON_Hastings_West_1891,Hastings West,ON,CD,,,,
-CD_ON_Hastings_West_1901,Hastings West,ON,CD,,,,
-CD_ON_Hastings_West_1911,Hastings West,ON,CD,,,,
 CD_ON_Huron,Huron,ON,CD,Q1638493,,"https://en.wikipedia.org/wiki/Huron_County,_Ontario",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Huron_(Ontario)
 CD_ON_Huron_1921,Huron,ON,CD,Q1638493,,"https://en.wikipedia.org/wiki/Huron_County,_Ontario",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Huron_(Ontario)
-CD_ON_Huron_1921_1921,Huron,ON,CD,,,,
 CD_ON_Huron_Centre,Huron Centre,ON,CD,,,,
-CD_ON_Huron_Centre_1881,Huron Centre,ON,CD,,,,
 CD_ON_Huron_East,Huron East,ON,CD,,,,
-CD_ON_Huron_East_1891,Huron East,ON,CD,,,,
-CD_ON_Huron_East_1901,Huron East,ON,CD,,,,
-CD_ON_Huron_East_1911,Huron East,ON,CD,,,,
 CD_ON_Huron_North,Huron North,ON,CD,,,,
-CD_ON_Huron_North_1871,Huron North,ON,CD,,,,
-CD_ON_Huron_North_1881,Huron North,ON,CD,,,,
 CD_ON_Huron_South,Huron South,ON,CD,,,,
-CD_ON_Huron_South_1871,Huron South,ON,CD,,,,
-CD_ON_Huron_South_1881,Huron South,ON,CD,,,,
-CD_ON_Huron_South_1891,Huron South,ON,CD,,,,
-CD_ON_Huron_South_1891_1891,Huron South,ON,CD,,,,
-CD_ON_Huron_South_1901,Huron South,ON,CD,,,,
-CD_ON_Huron_South_1911_1911,Huron South,ON,CD,,,,
 CD_ON_Huron_West,Huron West,ON,CD,,,,
-CD_ON_Huron_West_1891,Huron West,ON,CD,,,,
-CD_ON_Huron_West_1901,Huron West,ON,CD,,,,
-CD_ON_Huron_West_1911,Huron West,ON,CD,,,,
-CD_ON_Huron_West_1911_1911,Huron West,ON,CD,,,,
 CD_ON_Kenora,Kenora,ON,CD,Q1638386,,https://en.wikipedia.org/wiki/Kenora_District,https://fr.wikipedia.org/wiki/District_de_Kenora
 CD_ON_Kent,Kent,ON,CD,Q6391659,,"https://en.wikipedia.org/wiki/Kent_County,_Ontario",
 CD_ON_Kent_1871,Kent,ON,CD,Q6391659,,"https://en.wikipedia.org/wiki/Kent_County,_Ontario",
-CD_ON_Kent_1881,Kent,ON,CD,,,,
-CD_ON_Kent_1891,Kent,ON,CD,,,,
-CD_ON_Kent_1901,Kent,ON,CD,,,,
 CD_ON_Kent_East,Kent East,ON,CD,,,,
-CD_ON_Kent_East_1911,Kent East,ON,CD,,,,
 CD_ON_Kingston,Kingston,ON,CD,Q202973,,"https://en.wikipedia.org/wiki/Kingston,_Ontario",https://fr.wikipedia.org/wiki/Kingston_(Ontario)
 CD_ON_Kingston_City,Kingston City,ON,CD,Q202973,,"https://en.wikipedia.org/wiki/Kingston,_Ontario",https://fr.wikipedia.org/wiki/Kingston_(Ontario)
-CD_ON_Kingston_City_1851,Kingston City,ON,CD,,,,
 CD_ON_Kingston_City_1881,Kingston City,ON,CD,Q202973,,"https://en.wikipedia.org/wiki/Kingston,_Ontario",https://fr.wikipedia.org/wiki/Kingston_(Ontario)
-CD_ON_Kingston_City_1881_1881,Kingston City,ON,CD,,,,
-CD_ON_Kingston_City_1881_1881_1881,Kingston City,ON,CD,,,,
 CD_ON_Kingston_City_1881_1901,Kingston City,ON,CD,Q202973,,"https://en.wikipedia.org/wiki/Kingston,_Ontario",https://fr.wikipedia.org/wiki/Kingston_(Ontario)
-CD_ON_Kingston_City_1891,Kingston City,ON,CD,,,,
-CD_ON_Kingston_City_1891_1891,Kingston City,ON,CD,,,,
-CD_ON_Kingston_City_1901,Kingston City,ON,CD,,,,
-CD_ON_Kingston_City_1901_1901,Kingston City,ON,CD,,,,
 CD_ON_Lambton,Lambton,ON,CD,Q1406913,,https://en.wikipedia.org/wiki/Lambton_County,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Lambton
 CD_ON_Lambton_East,Lambton East,ON,CD,,,,
-CD_ON_Lambton_East_1891,Lambton East,ON,CD,,,,
-CD_ON_Lambton_East_1901,Lambton East,ON,CD,,,,
 CD_ON_Lambton_West,Lambton West,ON,CD,,,,
-CD_ON_Lambton_West_1891,Lambton West,ON,CD,,,,
-CD_ON_Lambton_West_1901,Lambton West,ON,CD,,,,
-CD_ON_Lambton_West_1911,Lambton West,ON,CD,,,,
 CD_ON_Lanark,Lanark,ON,CD,Q1801761,,https://en.wikipedia.org/wiki/Lanark_County,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Lanark
 CD_ON_Lanark_North,Lanark North,ON,CD,,,,
-CD_ON_Lanark_North_1871,Lanark North,ON,CD,,,,
-CD_ON_Lanark_North_1881,Lanark North,ON,CD,,,,
-CD_ON_Lanark_North_1891,Lanark North,ON,CD,,,,
-CD_ON_Lanark_North_1901,Lanark North,ON,CD,,,,
-CD_ON_Lanark_North_1911,Lanark North,ON,CD,,,,
 CD_ON_Lanark_South,Lanark South,ON,CD,,,,
-CD_ON_Lanark_South_1871,Lanark South,ON,CD,,,,
-CD_ON_Lanark_South_1881,Lanark South,ON,CD,,,,
-CD_ON_Lanark_South_1891,Lanark South,ON,CD,,,,
-CD_ON_Lanark_South_1901,Lanark South,ON,CD,,,,
-CD_ON_Lanark_South_1911,Lanark South,ON,CD,,,,
 CD_ON_Leeds,Leeds,ON,CD,Q14875251,,https://en.wikipedia.org/wiki/Leeds_County,
 CD_ON_Leeds_&_Grenville_North,Leeds & Grenville North,ON,CD,,,,
-CD_ON_Leeds_&_Grenville_North_1871,Leeds & Grenville North,ON,CD,,,,
-CD_ON_Leeds_&_Grenville_North_1881,Leeds & Grenville North,ON,CD,,,,
-CD_ON_Leeds_&_Grenville_North_1891,Leeds & Grenville North,ON,CD,,,,
-CD_ON_Leeds_&_Grenville_North_1901,Leeds & Grenville North,ON,CD,,,,
 CD_ON_Leeds_1911,Leeds,ON,CD,Q14875251,,https://en.wikipedia.org/wiki/Leeds_County,
-CD_ON_Leeds_1911_1911,Leeds,ON,CD,,,,
-CD_ON_Leeds_1921,Leeds,ON,CD,,,,
 CD_ON_Leeds_South,Leeds South,ON,CD,,,,
-CD_ON_Leeds_South_1871,Leeds South,ON,CD,,,,
-CD_ON_Leeds_South_1881,Leeds South,ON,CD,,,,
-CD_ON_Leeds_South_1891,Leeds South,ON,CD,,,,
-CD_ON_Leeds_South_1901,Leeds South,ON,CD,,,,
 CD_ON_Lennox,Lennox,ON,CD,Q17108580,,https://en.wikipedia.org/wiki/Lennox_County,
 CD_ON_Lennox_&_Addington,Lennox & Addington,ON,CD,Q1313055,,https://en.wikipedia.org/wiki/Lennox_and_Addington_County,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Lennox_et_Addington
 CD_ON_Lennox_1871,Lennox,ON,CD,Q17108580,,https://en.wikipedia.org/wiki/Lennox_County,
-CD_ON_Lennox_1871_1871,Lennox,ON,CD,,,,
-CD_ON_Lennox_1881,Lennox,ON,CD,,,,
-CD_ON_Lennox_1891,Lennox,ON,CD,,,,
-CD_ON_Lennox_1901,Lennox,ON,CD,,,,
 CD_ON_Lennox_1921,Lennox,ON,CD,Q17108580,,https://en.wikipedia.org/wiki/Lennox_County,
-CD_ON_Lennox_1921_1921,Lennox,ON,CD,,,,
 CD_ON_Lennox_and_Addington,Lennox and Addington,ON,CD,Q1313055,,https://en.wikipedia.org/wiki/Lennox_and_Addington_County,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Lennox_et_Addington
-CD_ON_Lennox_and_Addington_1861,Lennox and Addington,ON,CD,,,,
 CD_ON_Lincoln,Lincoln,ON,CD,Q6550599,,"https://en.wikipedia.org/wiki/Lincoln_County,_Ontario",
 CD_ON_Lincoln_&_Niagara,Lincoln & Niagara,ON,CD,,,,
 CD_ON_London,London,ON,CD,Q92561,,"https://en.wikipedia.org/wiki/London,_Ontario",https://fr.wikipedia.org/wiki/London_(Ontario)
 CD_ON_London_City,London City,ON,CD,Q92561,,"https://en.wikipedia.org/wiki/London,_Ontario",https://fr.wikipedia.org/wiki/London_(Ontario)
-CD_ON_London_City_1851,London City,ON,CD,,,,
-CD_ON_London_City_1881,London City,ON,CD,,,,
-CD_ON_London_City_1891,London City,ON,CD,,,,
-CD_ON_London_City_1901,London City,ON,CD,,,,
 CD_ON_Manitoulin,Manitoulin,ON,CD,Q1815566,,https://en.wikipedia.org/wiki/Manitoulin_District,https://fr.wikipedia.org/wiki/District_de_Manitoulin
 CD_ON_Manitoulin_1921,Manitoulin,ON,CD,Q1815566,,https://en.wikipedia.org/wiki/Manitoulin_District,https://fr.wikipedia.org/wiki/District_de_Manitoulin
-CD_ON_Manitoulin_1921_1921,Manitoulin,ON,CD,,,,
 CD_ON_Middlesex,Middlesex,ON,CD,Q1931946,,"https://en.wikipedia.org/wiki/Middlesex_County,_Ontario",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Middlesex_(Ontario)
-CD_ON_Middlesex_1921,Middlesex,ON,CD,Q1931946,,"https://en.wikipedia.org/wiki/Middlesex_County,_Ontario",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Middlesex_(Ontario)
 CD_ON_Middlesex_East,Middlesex East,ON,CD,,,,
-CD_ON_Middlesex_East_1871,Middlesex East,ON,CD,,,,
-CD_ON_Middlesex_East_1881,Middlesex East,ON,CD,,,,
-CD_ON_Middlesex_East_1891,Middlesex East,ON,CD,,,,
-CD_ON_Middlesex_East_1891_1891,Middlesex East,ON,CD,,,,
-CD_ON_Middlesex_East_1901,Middlesex East,ON,CD,,,,
-CD_ON_Middlesex_East_1911_1911,Middlesex East,ON,CD,,,,
 CD_ON_Middlesex_North,Middlesex North,ON,CD,,,,
-CD_ON_Middlesex_North_1871,Middlesex North,ON,CD,,,,
-CD_ON_Middlesex_North_1881,Middlesex North,ON,CD,,,,
-CD_ON_Middlesex_North_1891,Middlesex North,ON,CD,,,,
-CD_ON_Middlesex_North_1891_1891,Middlesex North,ON,CD,,,,
-CD_ON_Middlesex_North_1901,Middlesex North,ON,CD,,,,
-CD_ON_Middlesex_North_1911_1911,Middlesex North,ON,CD,,,,
 CD_ON_Middlesex_South,Middlesex South,ON,CD,,,,
-CD_ON_Middlesex_South_1891,Middlesex South,ON,CD,,,,
-CD_ON_Middlesex_South_1901,Middlesex South,ON,CD,,,,
 CD_ON_Middlesex_West,Middlesex West,ON,CD,,,,
-CD_ON_Middlesex_West_1871,Middlesex West,ON,CD,,,,
-CD_ON_Middlesex_West_1881,Middlesex West,ON,CD,,,,
-CD_ON_Middlesex_West_1891,Middlesex West,ON,CD,,,,
-CD_ON_Middlesex_West_1891_1891,Middlesex West,ON,CD,,,,
-CD_ON_Middlesex_West_1901,Middlesex West,ON,CD,,,,
-CD_ON_Middlesex_West_1911_1911,Middlesex West,ON,CD,,,,
 CD_ON_Monck,Monck,ON,CD,,,,
 CD_ON_Muskoka,Muskoka,ON,CD,,,,
 CD_ON_Muskoka_&_Parry_Sound,Muskoka & Parry Sound,ON,CD,,,,
 CD_ON_Muskoka_1911,Muskoka,ON,CD,,,,
-CD_ON_Muskoka_1911_1911,Muskoka,ON,CD,,,,
-CD_ON_Muskoka_1921,Muskoka,ON,CD,,,,
 CD_ON_Niagara,Niagara,ON,CD,,,,
 CD_ON_Nipissing,Nipissing,ON,CD,Q1436530,,https://en.wikipedia.org/wiki/Nipissing_District,https://fr.wikipedia.org/wiki/District_de_Nipissing
 CD_ON_Nipissing_1891,Nipissing,ON,CD,Q1436530,,https://en.wikipedia.org/wiki/Nipissing_District,https://fr.wikipedia.org/wiki/District_de_Nipissing
-CD_ON_Nipissing_1891_1891,Nipissing,ON,CD,,,,
-CD_ON_Nipissing_1901,Nipissing,ON,CD,,,,
-CD_ON_Nipissing_1911,Nipissing,ON,CD,,,,
-CD_ON_Nipissing_1921,Nipissing,ON,CD,,,,
 CD_ON_Nipissing_North,Nipissing North,ON,CD,,,,
-CD_ON_Nipissing_North_1871,Nipissing North,ON,CD,,,,
 CD_ON_Nipissing_South,Nipissing South,ON,CD,,,,
-CD_ON_Nipissing_South_1871,Nipissing South,ON,CD,,,,
 CD_ON_Norfolk,Norfolk,ON,CD,Q385229,,"https://en.wikipedia.org/wiki/Norfolk_County,_Ontario",https://fr.wikipedia.org/wiki/Norfolk_(Ontario)
 CD_ON_Norfolk_North,Norfolk North,ON,CD,,,,
-CD_ON_Norfolk_North_1871,Norfolk North,ON,CD,,,,
-CD_ON_Norfolk_North_1881,Norfolk North,ON,CD,,,,
-CD_ON_Norfolk_North_1891,Norfolk North,ON,CD,,,,
-CD_ON_Norfolk_North_1901,Norfolk North,ON,CD,,,,
 CD_ON_Norfolk_South,Norfolk South,ON,CD,,,,
-CD_ON_Norfolk_South_1871,Norfolk South,ON,CD,,,,
-CD_ON_Norfolk_South_1881,Norfolk South,ON,CD,,,,
-CD_ON_Norfolk_South_1891,Norfolk South,ON,CD,,,,
-CD_ON_Norfolk_South_1901,Norfolk South,ON,CD,,,,
 CD_ON_Northumberland,Northumberland,ON,CD,Q1752156,,"https://en.wikipedia.org/wiki/Northumberland_County,_Ontario",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Northumberland_(Ontario)
 CD_ON_Northumberland_East,Northumberland East,ON,CD,,,,
-CD_ON_Northumberland_East_1871,Northumberland East,ON,CD,,,,
-CD_ON_Northumberland_East_1881,Northumberland East,ON,CD,,,,
-CD_ON_Northumberland_East_1891,Northumberland East,ON,CD,,,,
-CD_ON_Northumberland_East_1901,Northumberland East,ON,CD,,,,
-CD_ON_Northumberland_East_1911,Northumberland East,ON,CD,,,,
 CD_ON_Northumberland_West,Northumberland West,ON,CD,,,,
-CD_ON_Northumberland_West_1871,Northumberland West,ON,CD,,,,
-CD_ON_Northumberland_West_1881,Northumberland West,ON,CD,,,,
-CD_ON_Northumberland_West_1891,Northumberland West,ON,CD,,,,
-CD_ON_Northumberland_West_1901,Northumberland West,ON,CD,,,,
-CD_ON_Northumberland_West_1911,Northumberland West,ON,CD,,,,
 CD_ON_Ontario,Ontario,ON,CD,Q7094641,,"https://en.wikipedia.org/wiki/Ontario_County,_Ontario",
-CD_ON_Ontario_1921,Ontario,ON,CD,Q7094641,,"https://en.wikipedia.org/wiki/Ontario_County,_Ontario",
 CD_ON_Ontario_North,Ontario North,ON,CD,,,,
-CD_ON_Ontario_North_1871,Ontario North,ON,CD,,,,
-CD_ON_Ontario_North_1881,Ontario North,ON,CD,,,,
-CD_ON_Ontario_North_1891,Ontario North,ON,CD,,,,
-CD_ON_Ontario_North_1891_1891,Ontario North,ON,CD,,,,
-CD_ON_Ontario_North_1901,Ontario North,ON,CD,,,,
-CD_ON_Ontario_North_1911,Ontario North,ON,CD,,,,
-CD_ON_Ontario_North_1911_1911,Ontario North,ON,CD,,,,
 CD_ON_Ontario_South,Ontario South,ON,CD,,,,
-CD_ON_Ontario_South_1871,Ontario South,ON,CD,,,,
-CD_ON_Ontario_South_1881,Ontario South,ON,CD,,,,
-CD_ON_Ontario_South_1891,Ontario South,ON,CD,,,,
-CD_ON_Ontario_South_1891_1891,Ontario South,ON,CD,,,,
-CD_ON_Ontario_South_1901,Ontario South,ON,CD,,,,
-CD_ON_Ontario_South_1911,Ontario South,ON,CD,,,,
 CD_ON_Ontario_West,Ontario West,ON,CD,,,,
-CD_ON_Ontario_West_1891,Ontario West,ON,CD,,,,
-CD_ON_Ontario_West_1901,Ontario West,ON,CD,,,,
 CD_ON_Ottawa,Ottawa,ON,CD,Q1930,,https://en.wikipedia.org/wiki/Ottawa,https://fr.wikipedia.org/wiki/Ottawa
 CD_ON_Ottawa_City,Ottawa City,ON,CD,Q1930,,https://en.wikipedia.org/wiki/Ottawa,https://fr.wikipedia.org/wiki/Ottawa
-CD_ON_Ottawa_City_1871,Ottawa City,ON,CD,,,,
-CD_ON_Ottawa_City_1881,Ottawa City,ON,CD,,,,
-CD_ON_Ottawa_City_1891,Ottawa City,ON,CD,,,,
-CD_ON_Ottawa_City_1901,Ottawa City,ON,CD,,,,
-CD_ON_Ottawa_City_1911,Ottawa City,ON,CD,,,,
 CD_ON_Oxford,Oxford,ON,CD,Q382652,,"https://en.wikipedia.org/wiki/Oxford_County,_Ontario",https://fr.wikipedia.org/wiki/Comt%C3%A9_d%27Oxford_(Ontario)
-CD_ON_Oxford_1921,Oxford,ON,CD,Q382652,,"https://en.wikipedia.org/wiki/Oxford_County,_Ontario",https://fr.wikipedia.org/wiki/Comt%C3%A9_d%27Oxford_(Ontario)
 CD_ON_Oxford_North,Oxford North,ON,CD,,,,
-CD_ON_Oxford_North_1871,Oxford North,ON,CD,,,,
-CD_ON_Oxford_North_1881,Oxford North,ON,CD,,,,
-CD_ON_Oxford_North_1891,Oxford North,ON,CD,,,,
-CD_ON_Oxford_North_1891_1891,Oxford North,ON,CD,,,,
-CD_ON_Oxford_North_1901,Oxford North,ON,CD,,,,
-CD_ON_Oxford_North_1911,Oxford North,ON,CD,,,,
-CD_ON_Oxford_North_1911_1911,Oxford North,ON,CD,,,,
 CD_ON_Oxford_South,Oxford South,ON,CD,,,,
-CD_ON_Oxford_South_1871,Oxford South,ON,CD,,,,
-CD_ON_Oxford_South_1881,Oxford South,ON,CD,,,,
-CD_ON_Oxford_South_1891,Oxford South,ON,CD,,,,
-CD_ON_Oxford_South_1891_1891,Oxford South,ON,CD,,,,
-CD_ON_Oxford_South_1901,Oxford South,ON,CD,,,,
-CD_ON_Oxford_South_1911,Oxford South,ON,CD,,,,
-CD_ON_Oxford_South_1911_1911,Oxford South,ON,CD,,,,
 CD_ON_Parry_Sound,Parry Sound,ON,CD,Q1798108,,https://en.wikipedia.org/wiki/Parry_Sound_District,https://fr.wikipedia.org/wiki/District_de_Parry_Sound
 CD_ON_Parry_Sound_1911,Parry Sound,ON,CD,Q1798108,,https://en.wikipedia.org/wiki/Parry_Sound_District,https://fr.wikipedia.org/wiki/District_de_Parry_Sound
-CD_ON_Parry_Sound_1911_1911,Parry Sound,ON,CD,,,,
-CD_ON_Parry_Sound_1921,Parry Sound,ON,CD,,,,
 CD_ON_Peel,Peel,ON,CD,Q7160206,,"https://en.wikipedia.org/wiki/Peel_County,_Ontario",
 CD_ON_Perth,Perth,ON,CD,Q177690,,"https://en.wikipedia.org/wiki/Perth_County,_Ontario",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Perth
-CD_ON_Perth_1921,Perth,ON,CD,Q177690,,"https://en.wikipedia.org/wiki/Perth_County,_Ontario",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Perth
 CD_ON_Perth_North,Perth North,ON,CD,,,,
-CD_ON_Perth_North_1871,Perth North,ON,CD,,,,
-CD_ON_Perth_North_1881,Perth North,ON,CD,,,,
-CD_ON_Perth_North_1891,Perth North,ON,CD,,,,
-CD_ON_Perth_North_1901,Perth North,ON,CD,,,,
-CD_ON_Perth_North_1911,Perth North,ON,CD,,,,
-CD_ON_Perth_North_1911_1911,Perth North,ON,CD,,,,
 CD_ON_Perth_South,Perth South,ON,CD,,,,
-CD_ON_Perth_South_1871,Perth South,ON,CD,,,,
-CD_ON_Perth_South_1881,Perth South,ON,CD,,,,
-CD_ON_Perth_South_1891,Perth South,ON,CD,,,,
-CD_ON_Perth_South_1891_1891,Perth South,ON,CD,,,,
-CD_ON_Perth_South_1901,Perth South,ON,CD,,,,
-CD_ON_Perth_South_1911,Perth South,ON,CD,,,,
-CD_ON_Perth_South_1911_1911,Perth South,ON,CD,,,,
 CD_ON_Peterboro,Peterboro,ON,CD,Q730542,,https://en.wikipedia.org/wiki/Peterborough_County,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Peterborough
 CD_ON_Peterborough,Peterborough,ON,CD,Q730542,,https://en.wikipedia.org/wiki/Peterborough_County,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Peterborough
 CD_ON_Peterborough_East,Peterborough East,ON,CD,,,,
-CD_ON_Peterborough_East_1871,Peterborough East,ON,CD,,,,
-CD_ON_Peterborough_East_1881,Peterborough East,ON,CD,,,,
-CD_ON_Peterborough_East_1891,Peterborough East,ON,CD,,,,
-CD_ON_Peterborough_East_1891_1891,Peterborough East,ON,CD,,,,
-CD_ON_Peterborough_East_1901,Peterborough East,ON,CD,,,,
-CD_ON_Peterborough_East_1911,Peterborough East,ON,CD,,,,
 CD_ON_Peterborough_West,Peterborough West,ON,CD,,,,
-CD_ON_Peterborough_West_1871,Peterborough West,ON,CD,,,,
-CD_ON_Peterborough_West_1881,Peterborough West,ON,CD,,,,
-CD_ON_Peterborough_West_1891,Peterborough West,ON,CD,,,,
-CD_ON_Peterborough_West_1901,Peterborough West,ON,CD,,,,
-CD_ON_Peterborough_West_1911,Peterborough West,ON,CD,,,,
 CD_ON_Prescott,Prescott,ON,CD,Q7240842,,https://en.wikipedia.org/wiki/Prescott_County,
 CD_ON_Prince_Edward,Prince Edward,ON,CD,Q385085,,"https://en.wikipedia.org/wiki/Prince_Edward_County,_Ontario",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Prince_Edward_(Ontario)
 CD_ON_Rainy_River,Rainy River,ON,CD,Q943829,,https://en.wikipedia.org/wiki/Rainy_River_District,https://fr.wikipedia.org/wiki/District_de_Rainy_River
 CD_ON_Renfrew,Renfrew,ON,CD,Q1815526,,https://en.wikipedia.org/wiki/Renfrew_County,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Renfrew
 CD_ON_Renfrew_North,Renfrew North,ON,CD,,,,
-CD_ON_Renfrew_North_1871,Renfrew North,ON,CD,,,,
-CD_ON_Renfrew_North_1881,Renfrew North,ON,CD,,,,
-CD_ON_Renfrew_North_1891,Renfrew North,ON,CD,,,,
-CD_ON_Renfrew_North_1901,Renfrew North,ON,CD,,,,
-CD_ON_Renfrew_North_1911,Renfrew North,ON,CD,,,,
 CD_ON_Renfrew_South,Renfrew South,ON,CD,,,,
-CD_ON_Renfrew_South_1871,Renfrew South,ON,CD,,,,
-CD_ON_Renfrew_South_1881,Renfrew South,ON,CD,,,,
-CD_ON_Renfrew_South_1891,Renfrew South,ON,CD,,,,
-CD_ON_Renfrew_South_1901,Renfrew South,ON,CD,,,,
-CD_ON_Renfrew_South_1911,Renfrew South,ON,CD,,,,
 CD_ON_Russell,Russell,ON,CD,Q7381437,,"https://en.wikipedia.org/wiki/Russell_County,_Ontario",
 CD_ON_Simcoe,Simcoe,ON,CD,Q1437636,,https://en.wikipedia.org/wiki/Simcoe_County,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Simcoe
-CD_ON_Simcoe_1921,Simcoe,ON,CD,Q1437636,,https://en.wikipedia.org/wiki/Simcoe_County,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Simcoe
 CD_ON_Simcoe_East,Simcoe East,ON,CD,,,,
-CD_ON_Simcoe_East_1891,Simcoe East,ON,CD,,,,
-CD_ON_Simcoe_East_1901,Simcoe East,ON,CD,,,,
-CD_ON_Simcoe_East_1911,Simcoe East,ON,CD,,,,
 CD_ON_Simcoe_North,Simcoe North,ON,CD,,,,
-CD_ON_Simcoe_North_1871,Simcoe North,ON,CD,,,,
-CD_ON_Simcoe_North_1881,Simcoe North,ON,CD,,,,
-CD_ON_Simcoe_North_1891,Simcoe North,ON,CD,,,,
-CD_ON_Simcoe_North_1901,Simcoe North,ON,CD,,,,
-CD_ON_Simcoe_North_1911,Simcoe North,ON,CD,,,,
 CD_ON_Simcoe_South,Simcoe South,ON,CD,,,,
-CD_ON_Simcoe_South_1871,Simcoe South,ON,CD,,,,
-CD_ON_Simcoe_South_1881,Simcoe South,ON,CD,,,,
-CD_ON_Simcoe_South_1891,Simcoe South,ON,CD,,,,
-CD_ON_Simcoe_South_1901,Simcoe South,ON,CD,,,,
-CD_ON_Simcoe_South_1911,Simcoe South,ON,CD,,,,
-CD_ON_Simcoe_South_1911_1911,Simcoe South,ON,CD,,,,
 CD_ON_Stormont,Stormont,ON,CD,Q1617717,,https://en.wikipedia.org/wiki/Stormont_County,
 CD_ON_Stormont_1891,Stormont,ON,CD,Q1617717,,https://en.wikipedia.org/wiki/Stormont_County,
-CD_ON_Stormont_1911,Stormont,ON,CD,,,,
-CD_ON_Stormont_1921,Stormont,ON,CD,,,,
 CD_ON_Sudbury,Sudbury,ON,CD,Q383600,,https://en.wikipedia.org/wiki/Sudbury_District,https://fr.wikipedia.org/wiki/District_de_Sudbury
 CD_ON_Thunder_Bay,Thunder Bay,ON,CD,Q385689,,https://en.wikipedia.org/wiki/Thunder_Bay_District,https://fr.wikipedia.org/wiki/District_de_Thunder_Bay
 CD_ON_Thunder_Bay_&_Rainy_River,Thunder Bay & Rainy River,ON,CD,,,,
@@ -11777,242 +11441,122 @@ CD_ON_Timiskaming,Timiskaming,ON,CD,Q385780,,https://en.wikipedia.org/wiki/Timis
 CD_ON_Toronto,Toronto,ON,CD,,,,
 CD_ON_Toronto_Centre,Toronto Centre,ON,CD,,,,
 CD_ON_Toronto_Centre_City,Toronto Centre City,ON,CD,,,,
-CD_ON_Toronto_Centre_City_1901,Toronto Centre City,ON,CD,,,,
 CD_ON_Toronto_City,Toronto City,ON,CD,,,,
-CD_ON_Toronto_City_1851,Toronto City,ON,CD,,,,
 CD_ON_Toronto_City_1881,Toronto City,ON,CD,,,,
-CD_ON_Toronto_City_1881_1881,Toronto City,ON,CD,,,,
-CD_ON_Toronto_City_1891,Toronto City,ON,CD,,,,
 CD_ON_Toronto_East,Toronto East,ON,CD,,,,
-CD_ON_Toronto_East_1871,Toronto East,ON,CD,,,,
 CD_ON_Toronto_East_1911,Toronto East,ON,CD,,,,
-CD_ON_Toronto_East_1911_1911,Toronto East,ON,CD,,,,
 CD_ON_Toronto_East_City,Toronto East City,ON,CD,,,,
-CD_ON_Toronto_East_City_1901,Toronto East City,ON,CD,,,,
 CD_ON_Toronto_North,Toronto North,ON,CD,,,,
-CD_ON_Toronto_North_1911,Toronto North,ON,CD,,,,
 CD_ON_Toronto_South,Toronto South,ON,CD,,,,
-CD_ON_Toronto_South_1911,Toronto South,ON,CD,,,,
 CD_ON_Toronto_West,Toronto West,ON,CD,,,,
-CD_ON_Toronto_West_1871,Toronto West,ON,CD,,,,
 CD_ON_Toronto_West_1911,Toronto West,ON,CD,,,,
-CD_ON_Toronto_West_1911_1911,Toronto West,ON,CD,,,,
 CD_ON_Toronto_West_City,Toronto West City,ON,CD,,,,
-CD_ON_Toronto_West_City_1901,Toronto West City,ON,CD,,,,
 CD_ON_Victoria,Victoria,ON,CD,Q7926663,,"https://en.wikipedia.org/wiki/Victoria_County,_Ontario",
 CD_ON_Victoria_North,Victoria North,ON,CD,,,,
-CD_ON_Victoria_North_1871,Victoria North,ON,CD,,,,
-CD_ON_Victoria_North_1881,Victoria North,ON,CD,,,,
-CD_ON_Victoria_North_1891,Victoria North,ON,CD,,,,
-CD_ON_Victoria_North_1901,Victoria North,ON,CD,,,,
 CD_ON_Victoria_South,Victoria South,ON,CD,,,,
-CD_ON_Victoria_South_1871,Victoria South,ON,CD,,,,
-CD_ON_Victoria_South_1881,Victoria South,ON,CD,,,,
-CD_ON_Victoria_South_1891,Victoria South,ON,CD,,,,
-CD_ON_Victoria_South_1901,Victoria South,ON,CD,,,,
 CD_ON_Waterloo,Waterloo,ON,CD,Q7974224,,https://en.wikipedia.org/wiki/Waterloo_County,
 CD_ON_Waterloo_North,Waterloo North,ON,CD,,,,
-CD_ON_Waterloo_North_1871,Waterloo North,ON,CD,,,,
-CD_ON_Waterloo_North_1881,Waterloo North,ON,CD,,,,
-CD_ON_Waterloo_North_1891,Waterloo North,ON,CD,,,,
-CD_ON_Waterloo_North_1901,Waterloo North,ON,CD,,,,
-CD_ON_Waterloo_North_1911,Waterloo North,ON,CD,,,,
 CD_ON_Waterloo_South,Waterloo South,ON,CD,,,,
-CD_ON_Waterloo_South_1871,Waterloo South,ON,CD,,,,
-CD_ON_Waterloo_South_1881,Waterloo South,ON,CD,,,,
-CD_ON_Waterloo_South_1891,Waterloo South,ON,CD,,,,
-CD_ON_Waterloo_South_1901,Waterloo South,ON,CD,,,,
-CD_ON_Waterloo_South_1911,Waterloo South,ON,CD,,,,
 CD_ON_Welland,Welland,ON,CD,Q7981153,,https://en.wikipedia.org/wiki/Welland_County,
 CD_ON_Wellington,Wellington,ON,CD,Q1525404,,"https://en.wikipedia.org/wiki/Wellington_County,_Ontario",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Wellington_(Ontario)
 CD_ON_Wellington_1921,Wellington,ON,CD,Q1525404,,"https://en.wikipedia.org/wiki/Wellington_County,_Ontario",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Wellington_(Ontario)
-CD_ON_Wellington_1921_1921,Wellington,ON,CD,,,,
 CD_ON_Wellington_Centre,Wellington Centre,ON,CD,,,,
-CD_ON_Wellington_Centre_1871,Wellington Centre,ON,CD,,,,
-CD_ON_Wellington_Centre_1881,Wellington Centre,ON,CD,,,,
-CD_ON_Wellington_Centre_1881_1881,Wellington Centre,ON,CD,,,,
-CD_ON_Wellington_Centre_1891,Wellington Centre,ON,CD,,,,
-CD_ON_Wellington_Centre_1901,Wellington Centre,ON,CD,,,,
 CD_ON_Wellington_North,Wellington North,ON,CD,,,,
-CD_ON_Wellington_North_1871,Wellington North,ON,CD,,,,
-CD_ON_Wellington_North_1881,Wellington North,ON,CD,,,,
-CD_ON_Wellington_North_1891,Wellington North,ON,CD,,,,
-CD_ON_Wellington_North_1891_1891,Wellington North,ON,CD,,,,
-CD_ON_Wellington_North_1901,Wellington North,ON,CD,,,,
-CD_ON_Wellington_North_1911_1911,Wellington North,ON,CD,,,,
 CD_ON_Wellington_South,Wellington South,ON,CD,,,,
-CD_ON_Wellington_South_1871,Wellington South,ON,CD,,,,
-CD_ON_Wellington_South_1881,Wellington South,ON,CD,,,,
-CD_ON_Wellington_South_1891,Wellington South,ON,CD,,,,
-CD_ON_Wellington_South_1901,Wellington South,ON,CD,,,,
-CD_ON_Wellington_South_1911,Wellington South,ON,CD,,,,
 CD_ON_Wentworth,Wentworth,ON,CD,Q7983017,,"https://en.wikipedia.org/wiki/Wentworth_County,_Ontario",
 CD_ON_Wentworth_&_Brant_North,Wentworth & Brant North,ON,CD,,,,
-CD_ON_Wentworth_&_Brant_North_1901,Wentworth & Brant North,ON,CD,,,,
 CD_ON_Wentworth_1911,Wentworth,ON,CD,Q7983017,,"https://en.wikipedia.org/wiki/Wentworth_County,_Ontario",
-CD_ON_Wentworth_1911_1911,Wentworth,ON,CD,,,,
-CD_ON_Wentworth_1921,Wentworth,ON,CD,,,,
 CD_ON_Wentworth_North,Wentworth North,ON,CD,,,,
-CD_ON_Wentworth_North_1871,Wentworth North,ON,CD,,,,
-CD_ON_Wentworth_North_1881,Wentworth North,ON,CD,,,,
-CD_ON_Wentworth_North_1891,Wentworth North,ON,CD,,,,
 CD_ON_Wentworth_South,Wentworth South,ON,CD,,,,
-CD_ON_Wentworth_South_1871,Wentworth South,ON,CD,,,,
-CD_ON_Wentworth_South_1881,Wentworth South,ON,CD,,,,
-CD_ON_Wentworth_South_1891,Wentworth South,ON,CD,,,,
-CD_ON_Wentworth_South_1891_1891,Wentworth South,ON,CD,,,,
-CD_ON_Wentworth_South_1901,Wentworth South,ON,CD,,,,
 CD_ON_York,York,ON,CD,Q70460110,,,
 CD_ON_York_1921,York,ON,CD,Q70460110,,,
-CD_ON_York_1921_1921,York,ON,CD,,,,
 CD_ON_York_Centre,York Centre,ON,CD,,,,
 CD_ON_York_East,York East,ON,CD,,,,
-CD_ON_York_East_1871,York East,ON,CD,,,,
-CD_ON_York_East_1881,York East,ON,CD,,,,
-CD_ON_York_East_1891,York East,ON,CD,,,,
-CD_ON_York_East_1901,York East,ON,CD,,,,
 CD_ON_York_North,York North,ON,CD,,,,
-CD_ON_York_North_1871,York North,ON,CD,,,,
-CD_ON_York_North_1881,York North,ON,CD,,,,
-CD_ON_York_North_1891,York North,ON,CD,,,,
-CD_ON_York_North_1891_1891,York North,ON,CD,,,,
-CD_ON_York_North_1901,York North,ON,CD,,,,
-CD_ON_York_North_1911,York North,ON,CD,,,,
-CD_ON_York_North_1911_1911,York North,ON,CD,,,,
 CD_ON_York_South,York South,ON,CD,,,,
-CD_ON_York_South_1911,York South,ON,CD,,,,
 CD_ON_York_West,York West,ON,CD,,,,
-CD_ON_York_West_1871,York West,ON,CD,,,,
-CD_ON_York_West_1881,York West,ON,CD,,,,
-CD_ON_York_West_1891,York West,ON,CD,,,,
-CD_ON_York_West_1901,York West,ON,CD,,,,
 CD_PE_King's,King's,PE,CD,Q1742133,,"https://en.wikipedia.org/wiki/Kings_County,_Prince_Edward_Island",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Kings_(%C3%8Ele-du-Prince-%C3%89douard)
-CD_PE_King's_1891,King's,PE,CD,Q1742133,,"https://en.wikipedia.org/wiki/Kings_County,_Prince_Edward_Island",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Kings_(%C3%8Ele-du-Prince-%C3%89douard)
 CD_PE_Kings,Kings,PE,CD,Q1742133,,"https://en.wikipedia.org/wiki/Kings_County,_Prince_Edward_Island",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Kings_(%C3%8Ele-du-Prince-%C3%89douard)
 CD_PE_Prince,Prince,PE,CD,Q2110336,,"https://en.wikipedia.org/wiki/Prince_County,_Prince_Edward_Island",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Prince
 CD_PE_Prince_East,Prince East,PE,CD,,,,
-CD_PE_Prince_East_1901,Prince East,PE,CD,,,,
 CD_PE_Prince_Edward_Island,Prince Edward Island,PE,CD,,,,
 CD_PE_Prince_West,Prince West,PE,CD,,,,
-CD_PE_Prince_West_1901,Prince West,PE,CD,,,,
 CD_PE_Queen's,Queen's,PE,CD,Q2006290,,"https://en.wikipedia.org/wiki/Queens_County,_Prince_Edward_Island",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Queens_(%C3%8Ele-du-Prince-%C3%89douard)
-CD_PE_Queen's_1891,Queen's,PE,CD,Q2006290,,"https://en.wikipedia.org/wiki/Queens_County,_Prince_Edward_Island",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Queens_(%C3%8Ele-du-Prince-%C3%89douard)
 CD_PE_Queens,Queens,PE,CD,Q2006290,,"https://en.wikipedia.org/wiki/Queens_County,_Prince_Edward_Island",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Queens_(%C3%8Ele-du-Prince-%C3%89douard)
 CD_PE_Queens_East,Queens East,PE,CD,,,,
-CD_PE_Queens_East_1901,Queens East,PE,CD,,,,
 CD_PE_Queens_West,Queens West,PE,CD,,,,
-CD_PE_Queens_West_1901,Queens West,PE,CD,,,,
 CD_QC_Argenteuil,Argenteuil,QC,CD,Q2991090,,"https://en.wikipedia.org/wiki/Argenteuil_County,_Quebec",https://fr.wikipedia.org/wiki/Comt%C3%A9_d%27Argenteuil
 CD_QC_Arthabaska,Arthabaska,QC,CD,Q2991091,,"https://en.wikipedia.org/wiki/Arthabaska_County,_Quebec",https://fr.wikipedia.org/wiki/Comt%C3%A9_d%27Arthabaska
 CD_QC_Arthabaska_1921,Arthabaska,QC,CD,Q2991091,,"https://en.wikipedia.org/wiki/Arthabaska_County,_Quebec",https://fr.wikipedia.org/wiki/Comt%C3%A9_d%27Arthabaska
-CD_QC_Arthabaska_1921_1921,Arthabaska,QC,CD,,,,
 CD_QC_Bagot,Bagot,QC,CD,Q2991115,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Bagot
-CD_QC_Bagot_1891,Bagot,QC,CD,Q2991115,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Bagot
-CD_QC_Bagot_1901,Bagot,QC,CD,Q2991115,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Bagot
 CD_QC_Beauce,Beauce,QC,CD,Q2991122,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Beauce
 CD_QC_Beauce_East,Beauce East,QC,CD,,,,
-CD_QC_Beauce_East_1871,Beauce East,QC,CD,,,,
 CD_QC_Beauce_West,Beauce West,QC,CD,,,,
-CD_QC_Beauce_West_1871,Beauce West,QC,CD,,,,
 CD_QC_Beauharnois,Beauharnois,QC,CD,Q2991124,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Beauharnois
 CD_QC_Bellechasse,Bellechasse,QC,CD,Q2991127,,https://en.wikipedia.org/wiki/Bellechasse_County,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Bellechasse
 CD_QC_Bellechasse_North,Bellechasse North,QC,CD,,,,
-CD_QC_Bellechasse_North_1871,Bellechasse North,QC,CD,,,,
 CD_QC_Bellechasse_South,Bellechasse South,QC,CD,,,,
-CD_QC_Bellechasse_South_1871,Bellechasse South,QC,CD,,,,
 CD_QC_Berthier,Berthier,QC,CD,Q2991133,,https://en.wikipedia.org/wiki/Berthier_County,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Berthier
 CD_QC_Bonaventure,Bonaventure,QC,CD,Q2991139,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Bonaventure
 CD_QC_Brome,Brome,QC,CD,Q2991146,,"https://en.wikipedia.org/wiki/Brome_County,_Quebec",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Brome
 CD_QC_Chambly,Chambly,QC,CD,Q2991170,,"https://en.wikipedia.org/wiki/Chambly_County,_Quebec",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Chambly
 CD_QC_Chambly_&_Verchères,Chambly & Verchères,QC,CD,,,,
 CD_QC_Chambly_1921,Chambly,QC,CD,Q2991170,,"https://en.wikipedia.org/wiki/Chambly_County,_Quebec",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Chambly
-CD_QC_Chambly_1921_1921,Chambly,QC,CD,,,,
 CD_QC_Champlain,Champlain,QC,CD,Q16543127,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Champlain
 CD_QC_Champlain_1891,Champlain,QC,CD,Q16543127,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Champlain
 CD_QC_Champlain_1891_1891,Champlain,QC,CD,Q16543127,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Champlain
-CD_QC_Champlain_1891_1891_1891,Champlain,QC,CD,,,,
-CD_QC_Champlain_1891_1891_1891_1891,Champlain,QC,CD,,,,
 CD_QC_Champlain_North,Champlain North,QC,CD,,,,
-CD_QC_Champlain_North_1871,Champlain North,QC,CD,,,,
 CD_QC_Champlain_South,Champlain South,QC,CD,,,,
-CD_QC_Champlain_South_1871,Champlain South,QC,CD,,,,
 CD_QC_Charlevoix,Charlevoix,QC,CD,Q2991176,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Charlevoix_(Qu%C3%A9bec)
 CD_QC_Chateauguay,Chateauguay,QC,CD,Q2991186,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Ch%C3%A2teauguay
-CD_QC_Chateauguay_1911,Chateauguay,QC,CD,Q2991186,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Ch%C3%A2teauguay
-CD_QC_Chateauguay_1921,Chateauguay,QC,CD,Q2991186,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Ch%C3%A2teauguay
 CD_QC_Chicoutimi,Chicoutimi,QC,CD,Q2991181,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Chicoutimi
 CD_QC_Chicoutimi_&_Saguenay,Chicoutimi & Saguenay,QC,CD,,,,
 CD_QC_Chicoutimi_1921,Chicoutimi,QC,CD,Q2991181,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Chicoutimi
-CD_QC_Chicoutimi_1921_1921,Chicoutimi,QC,CD,,,,
 CD_QC_City_of_Montreal,City of Montreal,QC,CD,,,,
 CD_QC_City_of_Quebec,City of Quebec,QC,CD,,,,
 CD_QC_City_of_Three_Rivers,City of Three Rivers,QC,CD,,,,
 CD_QC_Compton,Compton,QC,CD,Q2991198,,"https://en.wikipedia.org/wiki/Compton_County,_Quebec",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Compton
 CD_QC_Deux-Montagnes,Deux-Montagnes,QC,CD,Q2991213,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Deux-Montagnes
-CD_QC_Deux-Montagnes_1921,Deux-Montagnes,QC,CD,Q2991213,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Deux-Montagnes
 CD_QC_Dorchester,Dorchester,QC,CD,Q2991219,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Dorchester_(Qu%C3%A9bec)
 CD_QC_Dorchester_East,Dorchester East,QC,CD,,,,
-CD_QC_Dorchester_East_1871,Dorchester East,QC,CD,,,,
 CD_QC_Dorchester_West,Dorchester West,QC,CD,,,,
-CD_QC_Dorchester_West_1871,Dorchester West,QC,CD,,,,
 CD_QC_Drummond,Drummond,QC,CD,Q2991220,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Drummond
 CD_QC_Drummond_&_Arthabaska,Drummond & Arthabaska,QC,CD,,,,
-CD_QC_Drummond_&_Arthabaska_1891,Drummond & Arthabaska,QC,CD,,,,
 CD_QC_Drummond_1921,Drummond,QC,CD,Q2991220,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Drummond
-CD_QC_Drummond_1921_1921,Drummond,QC,CD,,,,
 CD_QC_Frontenac,Frontenac,QC,CD,Q2991230,,"https://en.wikipedia.org/wiki/Frontenac_County,_Quebec",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Frontenac_(Qu%C3%A9bec)
 CD_QC_Gaspé,Gaspé,QC,CD,Q2991234,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Gasp%C3%A9
 CD_QC_Gaspé_Centre,Gaspé Centre,QC,CD,,,,
 CD_QC_Gaspé_South,Gaspé South,QC,CD,,,,
-CD_QC_Gaspé_South_1871,Gaspé South,QC,CD,,,,
 CD_QC_Gaspé_West,Gaspé West,QC,CD,,,,
-CD_QC_Gaspé_West_1871,Gaspé West,QC,CD,,,,
 CD_QC_Hochelaga,Hochelaga,QC,CD,Q14875521,,"https://en.wikipedia.org/wiki/Hochelaga_County,_Quebec",https://fr.wikipedia.org/wiki/Comt%C3%A9_d%27Hochelaga
 CD_QC_Hull,Hull,QC,CD,Q2991266,,"https://en.wikipedia.org/wiki/Hull_County,_Quebec",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Hull
 CD_QC_Huntingdon,Huntingdon,QC,CD,Q2991267,,"https://en.wikipedia.org/wiki/Huntingdon_County,_Quebec",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Huntingdon_(Qu%C3%A9bec)
 CD_QC_Huntingdon_East,Huntingdon East,QC,CD,,,,
-CD_QC_Huntingdon_East_1871,Huntingdon East,QC,CD,,,,
 CD_QC_Huntingdon_West,Huntingdon West,QC,CD,,,,
-CD_QC_Huntingdon_West_1871,Huntingdon West,QC,CD,,,,
 CD_QC_Iberville,Iberville,QC,CD,Q2991101,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_d%27Iberville
 CD_QC_Iberville_1921,Iberville,QC,CD,Q2991101,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_d%27Iberville
-CD_QC_Iberville_1921_1921,Iberville,QC,CD,,,,
 CD_QC_Isles_de_la_Magdeleine,Isles de la Magdeleine,QC,CD,,,,
 CD_QC_Jacques-Cartier,Jacques-Cartier,QC,CD,Q13580765,,"https://en.wikipedia.org/wiki/Jacques-Cartier_County,_Quebec",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Jacques-Cartier
 CD_QC_Jacques-Cartier_1891,Jacques-Cartier,QC,CD,Q13580765,,"https://en.wikipedia.org/wiki/Jacques-Cartier_County,_Quebec",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Jacques-Cartier
-CD_QC_Jacques-Cartier_1891_1891,Jacques-Cartier,QC,CD,,,,
 CD_QC_Jacques_Cartier,Jacques Cartier,QC,CD,Q13580765,,"https://en.wikipedia.org/wiki/Jacques-Cartier_County,_Quebec",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Jacques-Cartier
-CD_QC_Jacques_Cartier_1881,Jacques Cartier,QC,CD,Q13580765,,"https://en.wikipedia.org/wiki/Jacques-Cartier_County,_Quebec",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Jacques-Cartier
-CD_QC_Jacques_Cartier_1901,Jacques Cartier,QC,CD,Q13580765,,"https://en.wikipedia.org/wiki/Jacques-Cartier_County,_Quebec",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Jacques-Cartier
-CD_QC_Jacques_Cartier_1911,Jacques Cartier,QC,CD,Q13580765,,"https://en.wikipedia.org/wiki/Jacques-Cartier_County,_Quebec",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Jacques-Cartier
 CD_QC_Joliette,Joliette,QC,CD,Q2991275,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Joliette
 CD_QC_Kamouraska,Kamouraska,QC,CD,Q2991280,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Kamouraska
 CD_QC_L'Assomption,L'Assomption,QC,CD,Q2991286,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_L%27Assomption
-CD_QC_L'Assomption_1891,L'Assomption,QC,CD,Q2991286,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_L%27Assomption
-CD_QC_L'Assomption_1901,L'Assomption,QC,CD,Q2991286,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_L%27Assomption
 CD_QC_L'Islet,L'Islet,QC,CD,Q2991287,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_L%27Islet
-CD_QC_L'Islet_1851,L'Islet,QC,CD,Q2991287,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_L%27Islet
-CD_QC_L'Islet_1891,L'Islet,QC,CD,Q2991287,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_L%27Islet
-CD_QC_L'Islet_1901,L'Islet,QC,CD,Q2991287,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_L%27Islet
 CD_QC_Labelle,Labelle,QC,CD,Q2991288,,"https://en.wikipedia.org/wiki/Labelle_County,_Quebec",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Labelle
 CD_QC_Labrador,Labrador,QC,CD,,,,
 CD_QC_Lac_St._Jean,Lac St. Jean,QC,CD,,,,
 CD_QC_Laprairie,Laprairie,QC,CD,Q2991296,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Laprairie
 CD_QC_Laprairie_&_Napierville,Laprairie & Napierville,QC,CD,,,,
 CD_QC_Laprairie_1921,Laprairie,QC,CD,Q2991296,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Laprairie
-CD_QC_Laprairie_1921_1921,Laprairie,QC,CD,,,,
 CD_QC_Laval,Laval,QC,CD,,,,
 CD_QC_Leinster,Leinster,QC,CD,,,,
 CD_QC_Lotbinière,Lotbinière,QC,CD,Q2991307,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Lotbini%C3%A8re
-CD_QC_Lotbinière_1861,Lotbinière,QC,CD,Q2991307,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Lotbini%C3%A8re
-CD_QC_Lotbinière_1871,Lotbinière,QC,CD,Q2991307,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Lotbini%C3%A8re
 CD_QC_Lévis,Lévis,QC,CD,Q2991311,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_L%C3%A9vis
 CD_QC_Lévis_(Comté),Lévis (Comté),QC,CD,,,,
 CD_QC_Lévis_(Ville),Lévis (Ville),QC,CD,,,,
 CD_QC_Maisonneuve,Maisonneuve,QC,CD,,,,
 CD_QC_Maskinongé,Maskinongé,QC,CD,Q2991316,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Maskinong%C3%A9
-CD_QC_Maskinongé_1861,Maskinongé,QC,CD,Q2991316,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Maskinong%C3%A9
-CD_QC_Maskinongé_1871,Maskinongé,QC,CD,Q2991316,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Maskinong%C3%A9
 CD_QC_Matane,Matane,QC,CD,Q2991318,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Matane
 CD_QC_Megantic,Megantic,QC,CD,Q2991353,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_M%C3%A9gantic
 CD_QC_Missisquoi,Missisquoi,QC,CD,Q2991331,,"https://en.wikipedia.org/wiki/Missisquoi_County,_Quebec",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Missisquoi
@@ -12021,9 +11565,7 @@ CD_QC_Montmagny,Montmagny,QC,CD,Q2991338,,,https://fr.wikipedia.org/wiki/Comt%C3
 CD_QC_Montmorency,Montmorency,QC,CD,,,,
 CD_QC_Montreal_Centre,Montreal Centre,QC,CD,,,,
 CD_QC_Montreal_East,Montreal East,QC,CD,,,,
-CD_QC_Montreal_East_1871,Montreal East,QC,CD,,,,
 CD_QC_Montreal_West,Montreal West,QC,CD,,,,
-CD_QC_Montreal_West_1871,Montreal West,QC,CD,,,,
 CD_QC_Montréal,Montréal,QC,CD,,,,
 "CD_QC_Montréal,_St._Antoine","Montréal, St. Antoine",QC,CD,,,,
 "CD_QC_Montréal,_St._Jacques","Montréal, St. Jacques",QC,CD,,,,
@@ -12032,115 +11574,65 @@ CD_QC_Montréal,Montréal,QC,CD,,,,
 "CD_QC_Montréal,_Ste._Marie","Montréal, Ste. Marie",QC,CD,,,,
 CD_QC_Montréal_&_Jésus_Islands—Iles,Montréal & Jésus Islands—Iles,QC,CD,,,,
 CD_QC_Montréal_1881,Montréal,QC,CD,,,,
-CD_QC_Montréal_1881_1881,Montréal,QC,CD,,,,
-CD_QC_Montréal_1891,Montréal,QC,CD,,,,
-CD_QC_Montréal_1901,Montréal,QC,CD,,,,
 CD_QC_Mégantic,Mégantic,QC,CD,Q2991353,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_M%C3%A9gantic
 CD_QC_Mégantic_1861,Mégantic,QC,CD,Q2991353,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_M%C3%A9gantic
-CD_QC_Mégantic_1861_1861,Mégantic,QC,CD,,,,
-CD_QC_Mégantic_1871,Mégantic,QC,CD,Q2991353,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_M%C3%A9gantic
-CD_QC_Mégantic_1881,Mégantic,QC,CD,Q2991353,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_M%C3%A9gantic
 CD_QC_Napierville,Napierville,QC,CD,Q2991357,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Napierville
 CD_QC_Napierville_1921,Napierville,QC,CD,Q2991357,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Napierville
-CD_QC_Napierville_1921_1921,Napierville,QC,CD,,,,
 CD_QC_Nicolet,Nicolet,QC,CD,Q2991363,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Nicolet
 CD_QC_Ottaoua_Centre,Ottaoua Centre,QC,CD,,,,
 CD_QC_Ottaoua_East,Ottaoua East,QC,CD,,,,
-CD_QC_Ottaoua_East_1871,Ottaoua East,QC,CD,,,,
 CD_QC_Ottawa_County,Ottawa County,QC,CD,Q2991266,,"https://en.wikipedia.org/wiki/Hull_County,_Quebec",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Hull
-CD_QC_Ottawa_County_1881,Ottawa County,QC,CD,,,,
-CD_QC_Ottawa_County_1891,Ottawa County,QC,CD,,,,
 CD_QC_Ottawa_West,Ottawa West,QC,CD,,,,
-CD_QC_Ottawa_West_1871,Ottawa West,QC,CD,,,,
 CD_QC_Outaouais,Outaouais,QC,CD,Q2991266,,"https://en.wikipedia.org/wiki/Hull_County,_Quebec",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Hull
 CD_QC_Pontiac,Pontiac,QC,CD,Q16543141,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Pontiac
 CD_QC_Pontiac_North,Pontiac North,QC,CD,,,,
-CD_QC_Pontiac_North_1871,Pontiac North,QC,CD,,,,
 CD_QC_Pontiac_South,Pontiac South,QC,CD,,,,
-CD_QC_Pontiac_South_1871,Pontiac South,QC,CD,,,,
 CD_QC_Portneuf,Portneuf,QC,CD,Q2991380,,https://en.wikipedia.org/wiki/Portneuf_County,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Portneuf
 CD_QC_Quebec_Centre,Quebec Centre,QC,CD,,,,
 CD_QC_Quebec_City,Quebec City,QC,CD,,,,
-CD_QC_Quebec_City_1881,Quebec City,QC,CD,,,,
-CD_QC_Quebec_City_1891,Quebec City,QC,CD,,,,
 CD_QC_Quebec_County,Quebec County,QC,CD,Q7269765,,"https://en.wikipedia.org/wiki/Quebec_County,_Quebec",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Qu%C3%A9bec
-CD_QC_Quebec_County_1851,Quebec County,QC,CD,,,,
-CD_QC_Quebec_County_1881,Quebec County,QC,CD,,,,
-CD_QC_Quebec_County_1891,Quebec County,QC,CD,,,,
-CD_QC_Quebec_County_1901,Quebec County,QC,CD,,,,
-CD_QC_Quebec_County_1911,Quebec County,QC,CD,,,,
-CD_QC_Quebec_County_1921,Quebec County,QC,CD,,,,
 CD_QC_Quebec_East,Quebec East,QC,CD,,,,
-CD_QC_Quebec_East_1871,Quebec East,QC,CD,,,,
 CD_QC_Quebec_West,Quebec West,QC,CD,,,,
-CD_QC_Quebec_West_1871,Quebec West,QC,CD,,,,
 CD_QC_Québec_Centre,Québec Centre,QC,CD,,,,
 CD_QC_Québec_East,Québec East,QC,CD,,,,
-CD_QC_Québec_East_1901,Québec East,QC,CD,,,,
-CD_QC_Québec_East_1911,Québec East,QC,CD,,,,
 CD_QC_Québec_West,Québec West,QC,CD,,,,
-CD_QC_Québec_West_1901,Québec West,QC,CD,,,,
-CD_QC_Québec_West_1911,Québec West,QC,CD,,,,
 CD_QC_Richelieu,Richelieu,QC,CD,Q2991390,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Richelieu
 CD_QC_Richmond,Richmond,QC,CD,Q2991392,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Richmond_(Qu%C3%A9bec)
 CD_QC_Richmond_&_Wolfe,Richmond & Wolfe,QC,CD,,,,
 CD_QC_Richmond_1921,Richmond,QC,CD,Q2991392,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Richmond_(Qu%C3%A9bec)
-CD_QC_Richmond_1921_1921,Richmond,QC,CD,,,,
 CD_QC_Rimouski,Rimouski,QC,CD,Q2991393,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Rimouski
 CD_QC_Rimouski_East,Rimouski East,QC,CD,,,,
-CD_QC_Rimouski_East_1871,Rimouski East,QC,CD,,,,
 CD_QC_Rimouski_West,Rimouski West,QC,CD,,,,
-CD_QC_Rimouski_West_1871,Rimouski West,QC,CD,,,,
 CD_QC_Rouville,Rouville,QC,CD,Q2991403,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Rouville
 CD_QC_Saguenay,Saguenay,QC,CD,Q2991404,,"https://en.wikipedia.org/wiki/Saguenay_County,_Quebec",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Saguenay
 CD_QC_Saguenay_1921,Saguenay,QC,CD,Q2991404,,"https://en.wikipedia.org/wiki/Saguenay_County,_Quebec",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Saguenay
-CD_QC_Saguenay_1921_1921,Saguenay,QC,CD,,,,
 CD_QC_Saint_Maurice_North,Saint Maurice North,QC,CD,,,,
-CD_QC_Saint_Maurice_North_1871,Saint Maurice North,QC,CD,,,,
 CD_QC_Saint_Maurice_South,Saint Maurice South,QC,CD,,,,
-CD_QC_Saint_Maurice_South_1871,Saint Maurice South,QC,CD,,,,
 CD_QC_Shefford,Shefford,QC,CD,Q2991426,,"https://en.wikipedia.org/wiki/Shefford_County,_Quebec",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Shefford
 CD_QC_Sherbrooke,Sherbrooke,QC,CD,Q2991427,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Sherbrooke
 CD_QC_Sherbrooke_1861,Sherbrooke,QC,CD,Q2991427,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Sherbrooke
-CD_QC_Sherbrooke_1871,Sherbrooke,QC,CD,,,,
-CD_QC_Sherbrooke_1881,Sherbrooke,QC,CD,,,,
-CD_QC_Sherbrooke_1891,Sherbrooke,QC,CD,,,,
-CD_QC_Sherbrooke_1901,Sherbrooke,QC,CD,,,,
-CD_QC_Sherbrooke_1911,Sherbrooke,QC,CD,,,,
-CD_QC_Sherbrooke_1921,Sherbrooke,QC,CD,,,,
 CD_QC_Soulanges,Soulanges,QC,CD,Q16543148,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Soulanges
 CD_QC_St._Hyacinthe,St. Hyacinthe,QC,CD,Q2991405,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Saint-Hyacinthe
 CD_QC_St._Jean,St. Jean,QC,CD,Q2991409,,"https://en.wikipedia.org/wiki/Saint-Jean_County,_Quebec",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Saint-Jean_(Qu%C3%A9bec)
 CD_QC_St._Jean_&_Iberville,St. Jean & Iberville,QC,CD,,,,
 CD_QC_St._Jean_1921,St. Jean,QC,CD,Q2991409,,"https://en.wikipedia.org/wiki/Saint-Jean_County,_Quebec",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Saint-Jean_(Qu%C3%A9bec)
-CD_QC_St._Jean_1921_1921,St. Jean,QC,CD,,,,
 CD_QC_St._Maurice,St. Maurice,QC,CD,Q2991407,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Saint-Maurice
 CD_QC_St._Maurice_1921,St. Maurice,QC,CD,Q2991407,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Saint-Maurice
-CD_QC_St._Maurice_1921_1921,St. Maurice,QC,CD,,,,
 CD_QC_Stanstead,Stanstead,QC,CD,Q2991434,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Stanstead
 CD_QC_Temiscouata,Temiscouata,QC,CD,Q2991451,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_T%C3%A9miscouata
-CD_QC_Temiscouata_1891,Temiscouata,QC,CD,Q2991451,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_T%C3%A9miscouata
-CD_QC_Temiscouata_1911,Temiscouata,QC,CD,Q2991451,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_T%C3%A9miscouata
-CD_QC_Temiscouata_1921,Temiscouata,QC,CD,Q2991451,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_T%C3%A9miscouata
 CD_QC_Terrebonne,Terrebonne,QC,CD,Q2991445,,"https://en.wikipedia.org/wiki/Terrebonne_County,_Quebec",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Terrebonne
 CD_QC_Trois-Rivières,Trois-Rivières,QC,CD,,,,
 CD_QC_Trois-Rivières_&_St._Maurice,Trois-Rivières & St. Maurice,QC,CD,Q2991407,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Saint-Maurice
-CD_QC_Trois-Rivières_1871,Trois-Rivières,QC,CD,,,,
 CD_QC_Témiscamingue,Témiscamingue,QC,CD,Q16543153,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_T%C3%A9miscamingue
 "CD_QC_Unorganized_Districts_-_Abitibi,_Ashuanipi,_Mistassini","Unorganized Districts - Abitibi, Ashuanipi, Mistassini",QC,CD,,,,
 CD_QC_Unorganized_parts_-_Parties_non_organisées,Unorganized parts - Parties non organisées,QC,CD,,,,
 CD_QC_Vaudreuil,Vaudreuil,QC,CD,Q16543157,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Vaudreuil
 CD_QC_Verchères,Verchères,QC,CD,Q2991456,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Verch%C3%A8res
-CD_QC_Verchères_1861,Verchères,QC,CD,Q2991456,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Verch%C3%A8res
-CD_QC_Verchères_1871,Verchères,QC,CD,Q2991456,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Verch%C3%A8res
 CD_QC_Verchères_1921,Verchères,QC,CD,Q2991456,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Verch%C3%A8res
-CD_QC_Verchères_1921_1921,Verchères,QC,CD,,,,
 CD_QC_Wolfe,Wolfe,QC,CD,Q2991471,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Wolfe_(Qu%C3%A9bec)
 CD_QC_Wolfe_1921,Wolfe,QC,CD,Q2991471,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Wolfe_(Qu%C3%A9bec)
-CD_QC_Wolfe_1921_1921,Wolfe,QC,CD,,,,
 CD_QC_Wright,Wright,QC,CD,Q2991266,,"https://en.wikipedia.org/wiki/Hull_County,_Quebec",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Hull
 CD_QC_Yamaska,Yamaska,QC,CD,Q2991475,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Yamaska
-CD_QC_Yamaska_1891,Yamaska,QC,CD,Q2991475,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Yamaska
 CD_SK_Assiniboia,Assiniboia,SK,CD,,,,
 CD_SK_Battleford,Battleford,SK,CD,,,,
 CD_SK_Division_No._1,Division No. 1,SK,CD,Q1363817,,"https://en.wikipedia.org/wiki/Division_No._1,_Saskatchewan",

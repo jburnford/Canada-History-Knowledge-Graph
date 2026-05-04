@@ -674,12 +674,9 @@ Q1336,Rimouski,PLACE_QC040008_1881,CSD,Rimouski,QC,1881,1881,1,6
 Q1336,Rimouski,PLACE_QC188007,CSD,Rimouski,QC,1891,1901,2,6
 Q1336,Rimouski,PLACE_QC084019,CSD,"Rimouski, T-V",QC,1911,1921,2,6
 Q1336,Rimouski,PLACE_QC193007_1911,CSD,Rimouski,QC,1911,1911,1,6
-Q13580765,Jacques-Cartier County,CD_QC_Jacques_Cartier,CD,Jacques Cartier,QC,1861,1911,5,6
-Q13580765,Jacques-Cartier County,CD_QC_Jacques_Cartier_1881,CD,Jacques Cartier,QC,1881,1881,1,6
-Q13580765,Jacques-Cartier County,CD_QC_Jacques-Cartier,CD,Jacques-Cartier,QC,1891,1891,1,6
-Q13580765,Jacques-Cartier County,CD_QC_Jacques-Cartier_1891,CD,Jacques-Cartier,QC,1891,1891,1,6
-Q13580765,Jacques-Cartier County,CD_QC_Jacques_Cartier_1901,CD,Jacques Cartier,QC,1901,1901,1,6
-Q13580765,Jacques-Cartier County,CD_QC_Jacques_Cartier_1911,CD,Jacques Cartier,QC,1911,1911,1,6
+Q13580765,Jacques-Cartier County,CD_QC_Jacques_Cartier,CD,Jacques Cartier,QC,1861,1911,5,3
+Q13580765,Jacques-Cartier County,CD_QC_Jacques-Cartier,CD,Jacques-Cartier,QC,1891,1891,1,3
+Q13580765,Jacques-Cartier County,CD_QC_Jacques-Cartier_1891,CD,Jacques-Cartier,QC,1891,1891,1,3
 Q1363726,Okotoks,PLACE_NT202085,CSD,Okotoks,NT,1901,1901,1,3
 Q1363726,Okotoks,PLACE_AB003008,CSD,Okotoks t-v,AB,1911,1911,1,3
 Q1363726,Okotoks,PLACE_AB192020_1921,CSD,"Okotoks, T-V",AB,1921,1921,1,3
@@ -1059,8 +1056,6 @@ Q1436809,Whycocomagh,PLACE_NS036020,CSD,Whycocomagh,NS,1871,1891,3,4
 Q1436809,Whycocomagh,PLACE_NS036021,CSD,Whycocomagh S,NS,1891,1891,1,4
 Q1436809,Whycocomagh,PLACE_NS035024_1901,CSD,"Whycocomagh, North side—Côté nord",NS,1901,1901,1,4
 Q1436809,Whycocomagh,PLACE_NS035025,CSD,"Whycocomagh, South side—Côté sud",NS,1901,1901,1,4
-Q1437636,Simcoe County,CD_ON_Simcoe,CD,Simcoe,ON,1851,1861,2,2
-Q1437636,Simcoe County,CD_ON_Simcoe_1921,CD,Simcoe,ON,1921,1921,1,2
 Q1438546,Fort Frances,PLACE_ON044043,CSD,Fort Frances,ON,1901,1901,1,3
 Q1438546,Fort Frances,PLACE_ON123122_1911,CSD,Fort Frances t-v,ON,1911,1911,1,3
 Q1438546,Fort Frances,PLACE_ON141047,CSD,"Fort Frances, T-V",ON,1911,1921,2,3
@@ -1104,8 +1099,6 @@ Q1525404,Wellington County,CD_ON_Wellington,CD,Wellington,ON,1851,1861,2,2
 Q1525404,Wellington County,CD_ON_Wellington_1921,CD,Wellington,ON,1921,1921,1,2
 Q153470,Pilot Mound,PLACE_MB017005,CSD,Pilot Mound vl (T3 R11 MW1),MB,1911,1911,1,2
 Q153470,Pilot Mound,PLACE_MB157012_1921,CSD,"Pilot Mound, VL",MB,1921,1921,1,2
-Q1546177,Grey County,CD_ON_Grey,CD,Grey,ON,1851,1861,2,2
-Q1546177,Grey County,CD_ON_Grey_1921,CD,Grey,ON,1921,1921,1,2
 Q1588807,Hastings County,CD_ON_Hastings,CD,Hastings,ON,1851,1861,2,2
 Q1588807,Hastings County,CD_ON_Hastings_1921,CD,Hastings,ON,1921,1921,1,2
 Q15982096,Galt,PLACE_ON038006_1851,CSD,Galt,ON,1851,1851,1,5
@@ -1113,7 +1106,7 @@ Q15982096,Galt,PLACE_ON101003_1861,CSD,"Galt, Town of",ON,1861,1861,1,5
 Q15982096,Galt,PLACE_ON122003,CSD,"Galt, Town—Ville",ON,1871,1901,4,5
 Q15982096,Galt,PLACE_ON131004_1911,CSD,Galt t-v,ON,1911,1911,1,5
 Q15982096,Galt,PLACE_ON150006_1921,CSD,"Galt, C",ON,1921,1921,1,5
-Q1617717,Stormont County,CD_ON_Stormont,CD,Stormont,ON,1851,1901,6,2
+Q1617717,Stormont County,CD_ON_Stormont,CD,Stormont,ON,1851,1881,4,2
 Q1617717,Stormont County,CD_ON_Stormont_1891,CD,Stormont,ON,1891,1921,4,2
 Q1638493,Huron County,CD_ON_Huron,CD,Huron,ON,1851,1861,2,2
 Q1638493,Huron County,CD_ON_Huron_1921,CD,Huron,ON,1921,1921,1,2
@@ -1179,10 +1172,8 @@ Q1661880,Westbourne,PLACE_MB164007_1921,CSD,Westbourne,MB,1921,1921,1,2
 Q1661973,Whitewater,PLACE_MB009029,CSD,Whitewater,MB,1891,1891,1,3
 Q1661973,Whitewater,PLACE_MB006017,CSD,Whitewater,MB,1901,1901,1,3
 Q1661973,Whitewater,PLACE_MB158007,CSD,Whitewater,MB,1921,1921,1,3
-Q1670967,Kings County,CD_NB_King's,CD,King's,NB,1871,1901,4,4
-Q1670967,Kings County,CD_NB_King's_1891,CD,King's,NB,1891,1891,1,4
-Q1670967,Kings County,CD_NB_King's_1901,CD,King's,NB,1901,1901,1,4
-Q1670967,Kings County,CD_NB_Kings,CD,Kings,NB,1921,1921,1,4
+Q1670967,Kings County,CD_NB_King's,CD,King's,NB,1871,1901,4,2
+Q1670967,Kings County,CD_NB_Kings,CD,Kings,NB,1921,1921,1,2
 Q168855,Killarney,PLACE_MB023005,CSD,Killarney t-v,MB,1911,1911,1,2
 Q168855,Killarney,PLACE_MB157010_1921,CSD,"Killarney, T-V",MB,1921,1921,1,2
 Q16891177,Esquesing,PLACE_ON014001,CSD,Esquessing,ON,1851,1851,1,2
@@ -1198,9 +1189,8 @@ Q17147002,Kemptville,PLACE_ON085003_1891,CSD,Kemptville,ON,1891,1891,1,3
 Q17147002,Kemptville,PLACE_ON082003_1901,CSD,"Kemptville, Village",ON,1901,1901,1,3
 Q172,Toronto,PLACE_ON043001,CSD,"Toronto, City",ON,1851,1851,1,2
 Q172,Toronto,PLACE_ON154011,CSD,"Toronto, C",ON,1921,1921,1,2
-Q1742133,Kings County,CD_PE_King's,CD,King's,PE,1871,1891,3,3
-Q1742133,Kings County,CD_PE_King's_1891,CD,King's,PE,1891,1891,1,3
-Q1742133,Kings County,CD_PE_Kings,CD,Kings,PE,1901,1921,3,3
+Q1742133,Kings County,CD_PE_King's,CD,King's,PE,1871,1891,3,2
+Q1742133,Kings County,CD_PE_Kings,CD,Kings,PE,1901,1921,3,2
 Q1743441,Ryley,PLACE_AB006019,CSD,Ryley vl (T50 R17 MW4),AB,1911,1911,1,2
 Q1743441,Ryley,PLACE_AB198034_1921,CSD,"Ryley, VL",AB,1921,1921,1,2
 Q1743545,Cardston,PLACE_NT202024,CSD,Cardston,NT,1901,1901,1,3
@@ -1247,8 +1237,6 @@ Q1746515,Warner,PLACE_AB189012,CSD,36. Warner,AB,1921,1921,1,3
 Q1746515,Warner,PLACE_AB189031_1921,CSD,"Warner, VL",AB,1921,1921,1,3
 Q1746566,Claresholm,PLACE_AB003004,CSD,Claresholm t-v,AB,1911,1911,1,2
 Q1746566,Claresholm,PLACE_AB190021_1921,CSD,"Claresholm, T-V",AB,1921,1921,1,2
-Q177690,Perth County,CD_ON_Perth,CD,Perth,ON,1851,1861,2,2
-Q177690,Perth County,CD_ON_Perth_1921,CD,Perth,ON,1921,1921,1,2
 Q179553,Saanich,PLACE_BC003012,CSD,Saanich N & S,BC,1881,1891,2,2
 Q179553,Saanich,PLACE_BC212004,CSD,Saanich,BC,1911,1921,2,2
 Q1798108,Parry Sound District,CD_ON_Parry_Sound,CD,Parry Sound,ON,1871,1871,1,2
@@ -1461,8 +1449,6 @@ Q1930,Ottawa,CD_ON_Ottawa_City,CD,Ottawa City,ON,1871,1911,5,4
 Q1930,Ottawa,PLACE_ON105011_1921,CSD,"Ottawa, C",ON,1921,1921,1,4
 Q1930444,Granum,PLACE_AB003018,CSD,Granum vl (T10 R26 MW4),AB,1911,1911,1,2
 Q1930444,Granum,PLACE_AB190024_1921,CSD,"Granum, T-V",AB,1921,1921,1,2
-Q1931946,Middlesex County,CD_ON_Middlesex,CD,Middlesex,ON,1851,1861,2,2
-Q1931946,Middlesex County,CD_ON_Middlesex_1921,CD,Middlesex,ON,1921,1921,1,2
 Q1938153,Smiths Falls,PLACE_ON085006_1891,CSD,"Smith’s Falls, Town—Ville",ON,1861,1891,4,5
 Q1938153,Smiths Falls,PLACE_ON081010_1901,CSD,"Smiths Falls (part), Town—Ville",ON,1901,1901,1,5
 Q1938153,Smiths Falls,PLACE_ON082006,CSD,"Smiths Falls (part), Town—Ville",ON,1901,1901,1,5
@@ -1587,9 +1573,8 @@ Q2004280,Kinley,PLACE_SK216024,CSD,Kinley vl (T36 R10 MW3),SK,1911,1911,1,2
 Q2004280,Kinley,PLACE_SK182034_1921,CSD,"Kinley, VL",SK,1921,1921,1,2
 Q2004293,Kisbey,PLACE_SK207023,CSD,Kisbey vl (T8 R5 MW2),SK,1911,1911,1,2
 Q2004293,Kisbey,PLACE_SK171037_1921,CSD,"Kisbey, VL",SK,1921,1921,1,2
-Q2006290,Queens County,CD_PE_Queen's,CD,Queen's,PE,1871,1891,3,3
-Q2006290,Queens County,CD_PE_Queen's_1891,CD,Queen's,PE,1891,1891,1,3
-Q2006290,Queens County,CD_PE_Queens,CD,Queens,PE,1911,1921,2,3
+Q2006290,Queens County,CD_PE_Queen's,CD,Queen's,PE,1871,1891,3,2
+Q2006290,Queens County,CD_PE_Queens,CD,Queens,PE,1911,1921,2,2
 Q2006307,Queens County,CD_NS_Queens,CD,Queens,NS,1871,1891,3,2
 Q2006307,Queens County,CD_NS_Queens_1921,CD,Queens,NS,1921,1921,1,2
 Q202973,Kingston,CD_ON_Kingston_City,CD,Kingston City,ON,1851,1851,1,6
@@ -1654,12 +1639,10 @@ Q2128700,Fort Macleod,PLACE_AB190025_1921,CSD,"Macleod, T-V",AB,1921,1921,1,3
 Q2132,Victoria,PLACE_BC004003_1881,CSD,Victoria,BC,1881,1901,3,3
 Q2132,Victoria,PLACE_BC004004,CSD,"Victoria, City—Cité",BC,1901,1901,1,3
 Q2132,Victoria,PLACE_BC217001,CSD,Victoria City,BC,1911,1921,2,3
-Q2135,Winnipeg,PLACE_MB160013,CSD,"Winnipeg, C",MB,1881,1921,2,6
-Q2135,Winnipeg,CD_MB_Winnipeg_City,CD,Winnipeg City,MB,1891,1911,3,6
-Q2135,Winnipeg,CD_MB_Winnipeg_City_1891,CD,Winnipeg City,MB,1891,1891,1,6
-Q2135,Winnipeg,CD_MB_Winnipeg_City_1901,CD,Winnipeg City,MB,1901,1901,1,6
-Q2135,Winnipeg,PLACE_MB022010,CSD,Winnipeg c pt,MB,1911,1911,1,6
-Q2135,Winnipeg,PLACE_MB024001,CSD,Winnipeg c pt,MB,1911,1911,1,6
+Q2135,Winnipeg,PLACE_MB160013,CSD,"Winnipeg, C",MB,1881,1921,2,4
+Q2135,Winnipeg,CD_MB_Winnipeg_City,CD,Winnipeg City,MB,1891,1911,3,4
+Q2135,Winnipeg,PLACE_MB022010,CSD,Winnipeg c pt,MB,1911,1911,1,4
+Q2135,Winnipeg,PLACE_MB024001,CSD,Winnipeg c pt,MB,1911,1911,1,4
 Q2146186,Tofield,PLACE_AB006009,CSD,Tofield t-v,AB,1911,1911,1,2
 Q2146186,Tofield,PLACE_AB199023_1921,CSD,"Tofield, T-V",AB,1921,1921,1,2
 Q2201016,McTaggart,PLACE_SK214025,CSD,McTaggart vl (T9 R15 MW2),SK,1911,1911,1,2
@@ -1976,44 +1959,21 @@ Q2991091,Arthabaska County,CD_QC_Arthabaska,CD,Arthabaska,QC,1861,1871,2,2
 Q2991091,Arthabaska County,CD_QC_Arthabaska_1921,CD,Arthabaska,QC,1921,1921,1,2
 Q2991101,comté d'Iberville,CD_QC_Iberville,CD,Iberville,QC,1861,1891,4,2
 Q2991101,comté d'Iberville,CD_QC_Iberville_1921,CD,Iberville,QC,1921,1921,1,2
-Q2991115,comté de Bagot,CD_QC_Bagot,CD,Bagot,QC,1861,1891,4,3
-Q2991115,comté de Bagot,CD_QC_Bagot_1891,CD,Bagot,QC,1891,1891,1,3
-Q2991115,comté de Bagot,CD_QC_Bagot_1901,CD,Bagot,QC,1901,1921,3,3
 Q2991170,"Chambly County, Quebec",CD_QC_Chambly,CD,Chambly,QC,1851,1891,5,2
 Q2991170,"Chambly County, Quebec",CD_QC_Chambly_1921,CD,Chambly,QC,1921,1921,1,2
 Q2991181,Chicoutimi County,CD_QC_Chicoutimi,CD,Chicoutimi,QC,1861,1871,2,2
 Q2991181,Chicoutimi County,CD_QC_Chicoutimi_1921,CD,Chicoutimi,QC,1921,1921,1,2
-Q2991186,comté de Châteauguay,CD_QC_Chateauguay,CD,Chateauguay,QC,1861,1921,7,3
-Q2991186,comté de Châteauguay,CD_QC_Chateauguay_1911,CD,Chateauguay,QC,1911,1911,1,3
-Q2991186,comté de Châteauguay,CD_QC_Chateauguay_1921,CD,Chateauguay,QC,1921,1921,1,3
-Q2991213,comté de Deux-Montagnes,CD_QC_Deux-Montagnes,CD,Deux-Montagnes,QC,1851,1921,8,2
-Q2991213,comté de Deux-Montagnes,CD_QC_Deux-Montagnes_1921,CD,Deux-Montagnes,QC,1921,1921,1,2
 Q2991220,Drummond county,CD_QC_Drummond,CD,Drummond,QC,1851,1871,3,2
 Q2991220,Drummond county,CD_QC_Drummond_1921,CD,Drummond,QC,1921,1921,1,2
 Q2991266,comté de Hull,CD_QC_Outaouais,CD,Outaouais,QC,1851,1861,2,4
 Q2991266,comté de Hull,CD_QC_Ottawa_County,CD,Ottawa County,QC,1881,1891,2,4
 Q2991266,comté de Hull,CD_QC_Wright,CD,Wright,QC,1901,1911,2,4
 Q2991266,Hull County,CD_QC_Hull,CD,Hull,QC,1921,1921,1,4
-Q2991286,comté de L'Assomption,CD_QC_L'Assomption,CD,L'Assomption,QC,1861,1921,7,3
-Q2991286,comté de L'Assomption,CD_QC_L'Assomption_1891,CD,L'Assomption,QC,1891,1891,1,3
-Q2991286,comté de L'Assomption,CD_QC_L'Assomption_1901,CD,L'Assomption,QC,1901,1901,1,3
-Q2991287,comté de L'Islet,CD_QC_L'Islet,CD,L'Islet,QC,1851,1921,8,4
-Q2991287,comté de L'Islet,CD_QC_L'Islet_1851,CD,L'Islet,QC,1851,1851,1,4
-Q2991287,comté de L'Islet,CD_QC_L'Islet_1891,CD,L'Islet,QC,1891,1891,1,4
-Q2991287,comté de L'Islet,CD_QC_L'Islet_1901,CD,L'Islet,QC,1901,1901,1,4
 Q2991296,comté de Laprairie,CD_QC_Laprairie,CD,Laprairie,QC,1861,1891,4,2
 Q2991296,comté de Laprairie,CD_QC_Laprairie_1921,CD,Laprairie,QC,1921,1921,1,2
-Q2991307,comté de Lotbinière,CD_QC_Lotbinière,CD,Lotbinière,QC,1851,1921,8,3
-Q2991307,comté de Lotbinière,CD_QC_Lotbinière_1861,CD,Lotbinière,QC,1861,1861,1,3
-Q2991307,comté de Lotbinière,CD_QC_Lotbinière_1871,CD,Lotbinière,QC,1871,1871,1,3
-Q2991316,comté de Maskinongé,CD_QC_Maskinongé,CD,Maskinongé,QC,1861,1921,7,3
-Q2991316,comté de Maskinongé,CD_QC_Maskinongé_1861,CD,Maskinongé,QC,1861,1861,1,3
-Q2991316,comté de Maskinongé,CD_QC_Maskinongé_1871,CD,Maskinongé,QC,1871,1871,1,3
-Q2991353,comté de Mégantic,CD_QC_Megantic,CD,Megantic,QC,1851,1851,1,5
-Q2991353,comté de Mégantic,CD_QC_Mégantic,CD,Mégantic,QC,1861,1921,7,5
-Q2991353,comté de Mégantic,CD_QC_Mégantic_1861,CD,Mégantic,QC,1861,1861,1,5
-Q2991353,comté de Mégantic,CD_QC_Mégantic_1871,CD,Mégantic,QC,1871,1871,1,5
-Q2991353,comté de Mégantic,CD_QC_Mégantic_1881,CD,Mégantic,QC,1881,1881,1,5
+Q2991353,comté de Mégantic,CD_QC_Megantic,CD,Megantic,QC,1851,1851,1,3
+Q2991353,comté de Mégantic,CD_QC_Mégantic,CD,Mégantic,QC,1861,1921,7,3
+Q2991353,comté de Mégantic,CD_QC_Mégantic_1861,CD,Mégantic,QC,1861,1861,1,3
 Q2991357,comté de Napierville,CD_QC_Napierville,CD,Napierville,QC,1861,1891,4,2
 Q2991357,comté de Napierville,CD_QC_Napierville_1921,CD,Napierville,QC,1921,1921,1,2
 Q2991392,comté de Richmond,CD_QC_Richmond,CD,Richmond,QC,1861,1871,2,2
@@ -2025,20 +1985,12 @@ Q2991407,comté de Saint-Maurice,CD_QC_Trois-Rivières_&_St._Maurice,CD,Trois-Ri
 Q2991407,comté de Saint-Maurice,CD_QC_St._Maurice_1921,CD,St. Maurice,QC,1921,1921,1,3
 Q2991409,comté de Saint-Jean,CD_QC_St._Jean,CD,St. Jean,QC,1861,1891,4,2
 Q2991409,comté de Saint-Jean,CD_QC_St._Jean_1921,CD,St. Jean,QC,1921,1921,1,2
-Q2991427,comté de Sherbrooke,CD_QC_Sherbrooke,CD,Sherbrooke,QC,1851,1861,2,2
+Q2991427,comté de Sherbrooke,CD_QC_Sherbrooke,CD,Sherbrooke,QC,1851,1851,1,2
 Q2991427,comté de Sherbrooke,CD_QC_Sherbrooke_1861,CD,Sherbrooke,QC,1861,1921,7,2
-Q2991451,comté de Témiscouata,CD_QC_Temiscouata,CD,Temiscouata,QC,1861,1921,7,4
-Q2991451,comté de Témiscouata,CD_QC_Temiscouata_1891,CD,Temiscouata,QC,1891,1891,1,4
-Q2991451,comté de Témiscouata,CD_QC_Temiscouata_1911,CD,Temiscouata,QC,1911,1911,1,4
-Q2991451,comté de Témiscouata,CD_QC_Temiscouata_1921,CD,Temiscouata,QC,1921,1921,1,4
-Q2991456,comté de Verchères,CD_QC_Verchères,CD,Verchères,QC,1851,1891,5,4
-Q2991456,comté de Verchères,CD_QC_Verchères_1861,CD,Verchères,QC,1861,1861,1,4
-Q2991456,comté de Verchères,CD_QC_Verchères_1871,CD,Verchères,QC,1871,1871,1,4
-Q2991456,comté de Verchères,CD_QC_Verchères_1921,CD,Verchères,QC,1921,1921,1,4
+Q2991456,comté de Verchères,CD_QC_Verchères,CD,Verchères,QC,1851,1891,5,2
+Q2991456,comté de Verchères,CD_QC_Verchères_1921,CD,Verchères,QC,1921,1921,1,2
 Q2991471,comté de Wolfe,CD_QC_Wolfe,CD,Wolfe,QC,1861,1871,2,2
 Q2991471,comté de Wolfe,CD_QC_Wolfe_1921,CD,Wolfe,QC,1921,1921,1,2
-Q2991475,comté de Yamaska,CD_QC_Yamaska,CD,Yamaska,QC,1851,1921,8,2
-Q2991475,comté de Yamaska,CD_QC_Yamaska_1891,CD,Yamaska,QC,1891,1891,1,2
 Q29921023,Elgin,PLACE_QC048003_1851,CSD,"Elgin, Township",QC,1851,1851,1,2
 Q29921023,Elgin,PLACE_QC058002,CSD,Elgin,QC,1861,1921,7,2
 Q2995979,Hull,PLACE_QC093002,CSD,Hull,QC,1851,1871,3,7
@@ -2638,8 +2590,6 @@ Q368241,Medicine Hat,PLACE_AB004004_1911,CSD,Medicine Hat c,AB,1911,1911,1,6
 Q368241,Medicine Hat,PLACE_AB189023_1921,CSD,"Medicine Hat, C",AB,1921,1921,1,6
 Q371275,Saint-Zéphirin-de-Courval,PLACE_QC197009_1891,CSD,St. Zéphirin de Courval,QC,1891,1891,1,2
 Q371275,Saint-Zéphirin-de-Courval,PLACE_QC100014_1921,CSD,St. Zéphirin de Courval,QC,1921,1921,1,2
-Q382652,Oxford County,CD_ON_Oxford,CD,Oxford,ON,1851,1861,2,2
-Q382652,Oxford County,CD_ON_Oxford_1921,CD,Oxford,ON,1921,1921,1,2
 Q383434,Greater Sudbury,PLACE_ON146134,CSD,"Sudbury, T-V",ON,1901,1921,2,3
 Q383434,Greater Sudbury,PLACE_ON099102,CSD,Sudbury t-v,ON,1911,1911,1,3
 Q383434,Greater Sudbury,PLACE_ON099171_1911,CSD,Sudbury t-v,ON,1911,1911,1,3
@@ -2856,8 +2806,6 @@ Q5270746,Diamond City,PLACE_AB004013,CSD,Diamond City vl (T10 R21 MW4),AB,1911,1
 Q5270746,Diamond City,PLACE_AB190023_1921,CSD,"Diamond City, T-V",AB,1921,1921,1,2
 Q52999,Newmarket,PLACE_ON099001_1871,CSD,"Newmarket, Town—Ville",ON,1871,1901,4,2
 Q52999,Newmarket,PLACE_ON154015,CSD,"Newmarket, T-V",ON,1911,1921,2,2
-Q5316491,Durham County,CD_ON_Durham,CD,Durham,ON,1851,1921,4,2
-Q5316491,Durham County,CD_ON_Durham_1861,CD,Durham,ON,1861,1861,1,2
 Q5325107,Eagle Head,PLACE_NS040004_1891,CSD,Eagle Head,NS,1891,1891,1,2
 Q5325107,Eagle Head,PLACE_NS017004,CSD,Eagle Head,NS,1911,1921,2,2
 Q5329203,East Pubnico,PLACE_NS044016,CSD,Pubnico E,NS,1891,1891,1,2
@@ -3067,7 +3015,7 @@ Q63761,Gladstone,PLACE_MB008004_1901,CSD,"Gladstone, Town—Ville",MB,1881,1901,
 Q63761,Gladstone,PLACE_MB007010_1891,CSD,"Gladstone, Town—Ville",MB,1891,1891,1,4
 Q63761,Gladstone,PLACE_MB020005,CSD,Gladstone t-v,MB,1911,1911,1,4
 Q63761,Gladstone,PLACE_MB164009_1921,CSD,"Gladstone, T-V",MB,1921,1921,1,4
-Q6391659,Kent County,CD_ON_Kent,CD,Kent,ON,1851,1921,5,2
+Q6391659,Kent County,CD_ON_Kent,CD,Kent,ON,1851,1921,3,2
 Q6391659,Kent County,CD_ON_Kent_1871,CD,Kent,ON,1871,1911,5,2
 Q639408,Waterloo,PLACE_ON038002,CSD,Waterloo,ON,1851,1851,1,6
 Q639408,Waterloo,PLACE_ON162004,CSD,"Waterloo, Village",ON,1861,1881,3,6
@@ -3157,8 +3105,6 @@ Q7057936,Northeast Margaree,PLACE_NS036010_1891,CSD,Margarie N-E,NS,1891,1891,1,
 Q7057936,Northeast Margaree,PLACE_NS035012_1901,CSD,"Margaree, Northeast—Nord-est",NS,1901,1901,1,3
 Q7080623,Ohaton,PLACE_AB006018,CSD,Ohaton vl (T46 R19 MW4),AB,1911,1911,1,2
 Q7080623,Ohaton,PLACE_AB196048_1921,CSD,"Ohaton, VL",AB,1921,1921,1,2
-Q7094641,Ontario County,CD_ON_Ontario,CD,Ontario,ON,1851,1861,2,2
-Q7094641,Ontario County,CD_ON_Ontario_1921,CD,Ontario,ON,1921,1921,1,2
 Q7128296,Palmerston,PLACE_ON153010,CSD,"Palmerston, Town—Ville",ON,1881,1881,1,4
 Q7128296,Palmerston,PLACE_ON172009,CSD,"Palmerston, Town—Ville",ON,1881,1881,1,4
 Q7128296,Palmerston,PLACE_ON125011_1891,CSD,"Palmerston, Town—Ville",ON,1891,1901,2,4

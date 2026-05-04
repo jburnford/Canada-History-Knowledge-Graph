@@ -26,10 +26,8 @@ CD_AB_Victoria,CD,Victoria,AB,1911,E53_Place
 CD_BC_British_Colombia,CD,British Colombia,BC,1871,E53_Place
 CD_BC_Burrard,CD,Burrard,BC,1901,E53_Place
 CD_BC_Burrard_1921,CD,Burrard,BC,1921,E53_Place
-CD_BC_Burrard_1921_1921,CD,Burrard,BC,1921,E53_Place
 CD_BC_Cariboo,CD,Cariboo,BC,1881;1891,E53_Place
 CD_BC_Cariboo_1921,CD,Cariboo,BC,1921,E53_Place
-CD_BC_Cariboo_1921_1921,CD,Cariboo,BC,1921,E53_Place
 CD_BC_Comox-Alberni,CD,Comox-Alberni,BC,1921,E53_Place
 CD_BC_Comox-Atlin,CD,Comox-Atlin,BC,1911,E53_Place
 CD_BC_Fraser_Valley,CD,Fraser Valley,BC,1921,E53_Place
@@ -45,12 +43,10 @@ CD_BC_Vancouver_City,CD,Vancouver City,BC,1911,E53_Place
 CD_BC_Vancouver_South,CD,Vancouver South,BC,1921,E53_Place
 CD_BC_Victoria,CD,Victoria,BC,1881;1891,E53_Place
 CD_BC_Victoria_1901,CD,Victoria,BC,1901,E53_Place
-CD_BC_Victoria_1901_1901,CD,Victoria,BC,1901,E53_Place
 CD_BC_Victoria_City,CD,Victoria City,BC,1901;1911;1921,E53_Place
 CD_BC_Yale,CD,Yale,BC,1881;1891,E53_Place
 CD_BC_Yale_&_Cariboo,CD,Yale & Cariboo,BC,1901;1911,E53_Place
 CD_BC_Yale_1921,CD,Yale,BC,1921,E53_Place
-CD_BC_Yale_1921_1921,CD,Yale,BC,1921,E53_Place
 CD_MB_Brandon,CD,Brandon,MB,1901;1911,E53_Place
 CD_MB_Dauphin,CD,Dauphin,MB,1911,E53_Place
 CD_MB_Division_No._1,CD,Division No. 1,MB,1921,E53_Place
@@ -77,26 +73,18 @@ CD_MB_Marquette,CD,Marquette,MB,1881;1891;1901;1911,E53_Place
 CD_MB_Portage_La_Prairie,CD,Portage La Prairie,MB,1911,E53_Place
 CD_MB_Provencher,CD,Provencher,MB,1881;1901;1911,E53_Place
 CD_MB_Provencher_1881,CD,Provencher,MB,1881,E53_Place
-CD_MB_Provencher_1881_1881,CD,Provencher,MB,1881,E53_Place
 CD_MB_Provencher_1891,CD,Provencher,MB,1891,E53_Place
 CD_MB_Provencher_1891_1891,CD,Provencher,MB,1891,E53_Place
-CD_MB_Provencher_1891_1891_1891,CD,Provencher,MB,1891,E53_Place
-CD_MB_Provencher_1891_1891_1891_1891,CD,Provencher,MB,1891,E53_Place
 CD_MB_Selkirk,CD,Selkirk,MB,1881;1891;1901;1911,E53_Place
 CD_MB_Souris,CD,Souris,MB,1911,E53_Place
 CD_MB_Winnipeg_City,CD,Winnipeg City,MB,1891;1901;1911,E53_Place
-CD_MB_Winnipeg_City_1891,CD,Winnipeg City,MB,1891,E53_Place
-CD_MB_Winnipeg_City_1901,CD,Winnipeg City,MB,1901,E53_Place
 CD_NB_Albert,CD,Albert,NB,1871;1881;1891;1901,E53_Place
 CD_NB_Albert_1921,CD,Albert,NB,1921,E53_Place
-CD_NB_Albert_1921_1921,CD,Albert,NB,1921,E53_Place
 CD_NB_Carleton,CD,Carleton,NB,1871;1881;1891;1901;1911;1921,E53_Place
 CD_NB_Charlotte,CD,Charlotte,NB,1871;1881;1891;1901;1911;1921,E53_Place
 CD_NB_Gloucester,CD,Gloucester,NB,1871;1881;1891;1901;1911;1921,E53_Place
 CD_NB_Kent,CD,Kent,NB,1871;1881;1891;1901;1911;1921,E53_Place
 CD_NB_King's,CD,King's,NB,1871;1881;1891;1901,E53_Place
-CD_NB_King's_1891,CD,King's,NB,1891,E53_Place
-CD_NB_King's_1901,CD,King's,NB,1901,E53_Place
 CD_NB_Kings,CD,Kings,NB,1921,E53_Place
 CD_NB_Kings_&_Albert,CD,Kings & Albert,NB,1911,E53_Place
 CD_NB_Madawaska,CD,Madawaska,NB,1921,E53_Place
@@ -107,14 +95,11 @@ CD_NB_Queens,CD,Queens,NB,1921,E53_Place
 CD_NB_Restigouche,CD,Restigouche,NB,1871;1881;1891;1901;1911;1921,E53_Place
 CD_NB_St._John,CD,St. John,NB,1871;1881;1891;1901;1911;1921,E53_Place
 CD_NB_St._John_City,CD,St. John City,NB,1881,E53_Place
-CD_NB_St._John_City_1881,CD,St. John City,NB,1881,E53_Place
 CD_NB_Sunbury,CD,Sunbury,NB,1871;1881;1891,E53_Place
 CD_NB_Sunbury_&_Queens,CD,Sunbury & Queens,NB,1901;1911,E53_Place
 CD_NB_Sunbury_1921,CD,Sunbury,NB,1921,E53_Place
-CD_NB_Sunbury_1921_1921,CD,Sunbury,NB,1921,E53_Place
 CD_NB_Victoria,CD,Victoria,NB,1871;1881;1891;1901;1911,E53_Place
 CD_NB_Victoria_1921,CD,Victoria,NB,1921,E53_Place
-CD_NB_Victoria_1921_1921,CD,Victoria,NB,1921,E53_Place
 CD_NB_Westmorland,CD,Westmorland,NB,1871;1881;1891;1901;1911;1921,E53_Place
 CD_NB_York,CD,York,NB,1871;1881;1891;1901;1911;1921,E53_Place
 CD_NL_Labrador,CD,Labrador,NL,1891;1901;1911;1921,E53_Place
@@ -124,19 +109,13 @@ CD_NS_Antigonish,CD,Antigonish,NS,1871;1881;1891;1901;1911;1921,E53_Place
 CD_NS_Cape_Breton,CD,Cape Breton,NS,1871;1881;1891;1901;1921,E53_Place
 CD_NS_Cape_Breton_N._&_Victoria,CD,Cape Breton N. & Victoria,NS,1911,E53_Place
 CD_NS_Cape_Breton_South,CD,Cape Breton South,NS,1911,E53_Place
-CD_NS_Cape_Breton_South_1911,CD,Cape Breton South,NS,1911,E53_Place
 CD_NS_Colchester,CD,Colchester,NS,1871;1881;1891;1901;1911;1921,E53_Place
 CD_NS_Cumberland,CD,Cumberland,NS,1871;1881;1891;1901;1911;1921,E53_Place
 CD_NS_Digby,CD,Digby,NS,1871;1881;1891;1901;1911;1921,E53_Place
 CD_NS_Guysborough,CD,Guysborough,NS,1871;1881;1891;1901;1911;1921,E53_Place
 CD_NS_Halifax_City,CD,Halifax City,NS,1881;1891;1901;1911;1921,E53_Place
-CD_NS_Halifax_City_1881,CD,Halifax City,NS,1881,E53_Place
-CD_NS_Halifax_City_1891,CD,Halifax City,NS,1891,E53_Place
-CD_NS_Halifax_City_1901,CD,Halifax City,NS,1901;1911;1921,E53_Place
 CD_NS_Halifax_East,CD,Halifax East,NS,1871,E53_Place
-CD_NS_Halifax_East_1871,CD,Halifax East,NS,1871,E53_Place
 CD_NS_Halifax_West,CD,Halifax West,NS,1871,E53_Place
-CD_NS_Halifax_West_1871,CD,Halifax West,NS,1871,E53_Place
 CD_NS_Hants,CD,Hants,NS,1871;1881;1891;1901;1911;1921,E53_Place
 CD_NS_Inverness,CD,Inverness,NS,1871;1881;1891;1901;1911;1921,E53_Place
 CD_NS_Kings,CD,Kings,NS,1871;1881;1891;1901;1911;1921,E53_Place
@@ -145,23 +124,16 @@ CD_NS_Nova_Scotia,CD,Nova Scotia,NS,1851;1861,E53_Place
 CD_NS_Pictou,CD,Pictou,NS,1871;1881;1891;1901;1911;1921,E53_Place
 CD_NS_Queens,CD,Queens,NS,1871;1881;1891,E53_Place
 CD_NS_Queens_1921,CD,Queens,NS,1921,E53_Place
-CD_NS_Queens_1921_1921,CD,Queens,NS,1921,E53_Place
 CD_NS_Richmond,CD,Richmond,NS,1871;1881;1891;1901;1911;1921,E53_Place
 CD_NS_Shelburne,CD,Shelburne,NS,1871;1881;1891,E53_Place
 CD_NS_Shelburne_&_Queens,CD,Shelburne & Queens,NS,1901;1911,E53_Place
 CD_NS_Shelburne_1921,CD,Shelburne,NS,1921,E53_Place
-CD_NS_Shelburne_1921_1921,CD,Shelburne,NS,1921,E53_Place
 CD_NS_Victoria,CD,Victoria,NS,1871;1881;1891;1901,E53_Place
 CD_NS_Victoria_1921,CD,Victoria,NS,1921,E53_Place
-CD_NS_Victoria_1921_1921,CD,Victoria,NS,1921,E53_Place
 CD_NS_Yarmouth,CD,Yarmouth,NS,1871;1881;1891;1901;1911;1921,E53_Place
 CD_NT_Alberta,CD,Alberta,NT,1891;1901,E53_Place
 CD_NT_Assiniboia_East,CD,Assiniboia East,NT,1891;1901,E53_Place
-CD_NT_Assiniboia_East_1891,CD,Assiniboia East,NT,1891,E53_Place
-CD_NT_Assiniboia_East_1901,CD,Assiniboia East,NT,1901,E53_Place
 CD_NT_Assiniboia_West,CD,Assiniboia West,NT,1891;1901,E53_Place
-CD_NT_Assiniboia_West_1891,CD,Assiniboia West,NT,1891,E53_Place
-CD_NT_Assiniboia_West_1901,CD,Assiniboia West,NT,1901,E53_Place
 CD_NT_Northwest_Territories,CD,Northwest Territories,NT,1911;1921,E53_Place
 CD_NT_Saskatchewan,CD,Saskatchewan,NT,1891;1901,E53_Place
 CD_NT_The_Territories,CD,The Territories,NT,1851;1861;1871;1881,E53_Place
@@ -170,68 +142,31 @@ CD_NT_Unorganized_Territories,CD,Unorganized Territories,NT,1901,E53_Place
 CD_NT_Unorganized_Territories—Territoires_non-organisés,CD,Unorganized Territories—Territoires non-organisés,NT,1901,E53_Place
 CD_ON_Addington,CD,Addington,ON,1851,E53_Place
 CD_ON_Addington_1871,CD,Addington,ON,1871;1881;1891;1901,E53_Place
-CD_ON_Addington_1871_1871,CD,Addington,ON,1871,E53_Place
-CD_ON_Addington_1881,CD,Addington,ON,1881,E53_Place
-CD_ON_Addington_1891,CD,Addington,ON,1891,E53_Place
-CD_ON_Addington_1901,CD,Addington,ON,1901,E53_Place
 CD_ON_Addington_1921,CD,Addington,ON,1921,E53_Place
-CD_ON_Addington_1921_1921,CD,Addington,ON,1921,E53_Place
 CD_ON_Algoma,CD,Algoma,ON,1861;1881;1891;1901;1921,E53_Place
 CD_ON_Algoma_Centre,CD,Algoma Centre,ON,1871,E53_Place
-CD_ON_Algoma_Centre_1871,CD,Algoma Centre,ON,1871,E53_Place
 CD_ON_Algoma_East,CD,Algoma East,ON,1871,E53_Place
-CD_ON_Algoma_East_1871,CD,Algoma East,ON,1871,E53_Place
 CD_ON_Algoma_East_1911,CD,Algoma East,ON,1911,E53_Place
-CD_ON_Algoma_East_1911_1911,CD,Algoma East,ON,1911,E53_Place
 CD_ON_Algoma_West,CD,Algoma West,ON,1871,E53_Place
-CD_ON_Algoma_West_1871,CD,Algoma West,ON,1871,E53_Place
 CD_ON_Algoma_West_1911,CD,Algoma West,ON,1911,E53_Place
-CD_ON_Algoma_West_1911_1911,CD,Algoma West,ON,1911,E53_Place
 CD_ON_Bothwell,CD,Bothwell,ON,1871;1881;1891;1901,E53_Place
 CD_ON_Brant,CD,Brant,ON,1851,E53_Place
 "CD_ON_Brant,_North_or_East—Nord_ou_East",CD,"Brant, North or East—Nord ou East",ON,1871,E53_Place
-"CD_ON_Brant,_North_or_East—Nord_ou_East_1871",CD,"Brant, North or East—Nord ou East",ON,1871,E53_Place
 "CD_ON_Brant,_South_or_West—Sud_ou_West",CD,"Brant, South or West—Sud ou West",ON,1871,E53_Place
-"CD_ON_Brant,_South_or_West—Sud_ou_West_1871",CD,"Brant, South or West—Sud ou West",ON,1871,E53_Place
 CD_ON_Brant_1861,CD,Brant,ON,1861,E53_Place
 CD_ON_Brant_1861_1861,CD,Brant,ON,1861,E53_Place
-CD_ON_Brant_1861_1861_1861,CD,Brant,ON,1861,E53_Place
-CD_ON_Brant_1861_1861_1861_1861,CD,Brant,ON,1861,E53_Place
 CD_ON_Brant_1911,CD,Brant,ON,1911;1921,E53_Place
-CD_ON_Brant_1911_1911,CD,Brant,ON,1911,E53_Place
-CD_ON_Brant_1921,CD,Brant,ON,1921,E53_Place
-CD_ON_Brant_North,CD,Brant North,ON,1881,E53_Place
-CD_ON_Brant_North_1881,CD,Brant North,ON,1881,E53_Place
-CD_ON_Brant_North_1891,CD,Brant North,ON,1891,E53_Place
-CD_ON_Brant_North_1891_1891,CD,Brant North,ON,1891,E53_Place
-CD_ON_Brant_South,CD,Brant South,ON,1881,E53_Place
-CD_ON_Brant_South_1881,CD,Brant South,ON,1881,E53_Place
-CD_ON_Brant_South_1891,CD,Brant South,ON,1891;1901,E53_Place
-CD_ON_Brant_South_1891_1891,CD,Brant South,ON,1891,E53_Place
-CD_ON_Brant_South_1901,CD,Brant South,ON,1901,E53_Place
+CD_ON_Brant_North,CD,Brant North,ON,1881;1891,E53_Place
+CD_ON_Brant_South,CD,Brant South,ON,1881;1891;1901,E53_Place
 CD_ON_Brantford,CD,Brantford,ON,1911,E53_Place
 CD_ON_Brockville,CD,Brockville,ON,1871;1881;1891;1901;1911,E53_Place
 CD_ON_Bruce,CD,Bruce,ON,1851;1861,E53_Place
 CD_ON_Bruce_1921,CD,Bruce,ON,1921,E53_Place
-CD_ON_Bruce_1921_1921,CD,Bruce,ON,1921,E53_Place
 CD_ON_Bruce_East,CD,Bruce East,ON,1891;1901,E53_Place
-CD_ON_Bruce_East_1891,CD,Bruce East,ON,1891,E53_Place
-CD_ON_Bruce_East_1901,CD,Bruce East,ON,1901,E53_Place
-CD_ON_Bruce_North,CD,Bruce North,ON,1871;1881;1891;1901,E53_Place
-CD_ON_Bruce_North_1871,CD,Bruce North,ON,1871,E53_Place
-CD_ON_Bruce_North_1881,CD,Bruce North,ON,1881,E53_Place
-CD_ON_Bruce_North_1891,CD,Bruce North,ON,1891,E53_Place
-CD_ON_Bruce_North_1901,CD,Bruce North,ON,1901,E53_Place
-CD_ON_Bruce_North_1911,CD,Bruce North,ON,1911,E53_Place
-CD_ON_Bruce_North_1911_1911,CD,Bruce North,ON,1911,E53_Place
+CD_ON_Bruce_North,CD,Bruce North,ON,1871;1881;1891;1901;1911,E53_Place
 CD_ON_Bruce_South,CD,Bruce South,ON,1871;1881,E53_Place
-CD_ON_Bruce_South_1871,CD,Bruce South,ON,1871,E53_Place
-CD_ON_Bruce_South_1881,CD,Bruce South,ON,1881,E53_Place
 CD_ON_Bruce_South_1911,CD,Bruce South,ON,1911,E53_Place
-CD_ON_Bruce_South_1911_1911,CD,Bruce South,ON,1911,E53_Place
 CD_ON_Bruce_West,CD,Bruce West,ON,1891;1901,E53_Place
-CD_ON_Bruce_West_1891,CD,Bruce West,ON,1891,E53_Place
-CD_ON_Bruce_West_1901,CD,Bruce West,ON,1901,E53_Place
 CD_ON_Bytown,CD,Bytown,ON,1851,E53_Place
 CD_ON_Cardwell,CD,Cardwell,ON,1871;1881;1891;1901,E53_Place
 CD_ON_Carleton,CD,Carleton,ON,1851;1861;1871;1881;1891;1901;1911;1921,E53_Place
@@ -239,395 +174,124 @@ CD_ON_Cornwall,CD,Cornwall,ON,1871;1881,E53_Place
 CD_ON_Dufferin,CD,Dufferin,ON,1911;1921,E53_Place
 CD_ON_Dundas,CD,Dundas,ON,1851;1861;1871;1881;1891;1901;1911;1921,E53_Place
 CD_ON_Durham,CD,Durham,ON,1851;1861;1911;1921,E53_Place
-CD_ON_Durham_1861,CD,Durham,ON,1861,E53_Place
 CD_ON_Durham_East,CD,Durham East,ON,1871;1881;1891;1901,E53_Place
-CD_ON_Durham_East_1871,CD,Durham East,ON,1871,E53_Place
-CD_ON_Durham_East_1881,CD,Durham East,ON,1881,E53_Place
-CD_ON_Durham_East_1891,CD,Durham East,ON,1891,E53_Place
-CD_ON_Durham_East_1901,CD,Durham East,ON,1901,E53_Place
 CD_ON_Durham_West,CD,Durham West,ON,1871;1881;1891;1901,E53_Place
-CD_ON_Durham_West_1871,CD,Durham West,ON,1871,E53_Place
-CD_ON_Durham_West_1881,CD,Durham West,ON,1881,E53_Place
-CD_ON_Durham_West_1891,CD,Durham West,ON,1891,E53_Place
-CD_ON_Durham_West_1901,CD,Durham West,ON,1901,E53_Place
 CD_ON_Elgin,CD,Elgin,ON,1851;1861;1921,E53_Place
 CD_ON_Elgin_East,CD,Elgin East,ON,1871;1881;1891;1901;1911,E53_Place
-CD_ON_Elgin_East_1871,CD,Elgin East,ON,1871,E53_Place
-CD_ON_Elgin_East_1881,CD,Elgin East,ON,1881,E53_Place
-CD_ON_Elgin_East_1891,CD,Elgin East,ON,1891,E53_Place
-CD_ON_Elgin_East_1901,CD,Elgin East,ON,1901,E53_Place
-CD_ON_Elgin_East_1911,CD,Elgin East,ON,1911,E53_Place
 CD_ON_Elgin_West,CD,Elgin West,ON,1871;1881;1891;1901;1911,E53_Place
-CD_ON_Elgin_West_1871,CD,Elgin West,ON,1871,E53_Place
-CD_ON_Elgin_West_1881,CD,Elgin West,ON,1881,E53_Place
-CD_ON_Elgin_West_1891,CD,Elgin West,ON,1891,E53_Place
-CD_ON_Elgin_West_1901,CD,Elgin West,ON,1901,E53_Place
-CD_ON_Elgin_West_1911,CD,Elgin West,ON,1911,E53_Place
 CD_ON_Essex,CD,Essex,ON,1851;1861;1871;1881;1921,E53_Place
 CD_ON_Essex_North,CD,Essex North,ON,1891;1901;1911,E53_Place
-CD_ON_Essex_North_1891,CD,Essex North,ON,1891,E53_Place
-CD_ON_Essex_North_1901,CD,Essex North,ON,1901,E53_Place
-CD_ON_Essex_North_1911,CD,Essex North,ON,1911,E53_Place
 CD_ON_Essex_South,CD,Essex South,ON,1891;1901;1911,E53_Place
-CD_ON_Essex_South_1891,CD,Essex South,ON,1891,E53_Place
-CD_ON_Essex_South_1901,CD,Essex South,ON,1901,E53_Place
-CD_ON_Essex_South_1911,CD,Essex South,ON,1911,E53_Place
 CD_ON_Frontenac,CD,Frontenac,ON,1851;1861;1871;1881;1891;1901;1911;1921,E53_Place
 CD_ON_Glengarry,CD,Glengarry,ON,1851;1861;1871;1881;1891;1901;1911;1921,E53_Place
 CD_ON_Grenville,CD,Grenville,ON,1851;1861;1911;1921,E53_Place
-CD_ON_Grenville_1861,CD,Grenville,ON,1861,E53_Place
 CD_ON_Grenville_South,CD,Grenville South,ON,1871;1881;1891;1901,E53_Place
-CD_ON_Grenville_South_1871,CD,Grenville South,ON,1871,E53_Place
-CD_ON_Grenville_South_1881,CD,Grenville South,ON,1881,E53_Place
-CD_ON_Grenville_South_1891,CD,Grenville South,ON,1891,E53_Place
-CD_ON_Grenville_South_1901,CD,Grenville South,ON,1901,E53_Place
-CD_ON_Grey,CD,Grey,ON,1851;1861,E53_Place
-CD_ON_Grey_1921,CD,Grey,ON,1921,E53_Place
-CD_ON_Grey_East,CD,Grey East,ON,1881;1891;1901,E53_Place
-CD_ON_Grey_East_1881,CD,Grey East,ON,1881,E53_Place
-CD_ON_Grey_East_1891,CD,Grey East,ON,1891,E53_Place
-CD_ON_Grey_East_1901,CD,Grey East,ON,1901,E53_Place
-CD_ON_Grey_East_1911,CD,Grey East,ON,1911,E53_Place
-CD_ON_Grey_East_1911_1911,CD,Grey East,ON,1911,E53_Place
-CD_ON_Grey_North,CD,Grey North,ON,1871;1881;1891;1901,E53_Place
-CD_ON_Grey_North_1871,CD,Grey North,ON,1871,E53_Place
-CD_ON_Grey_North_1881,CD,Grey North,ON,1881,E53_Place
-CD_ON_Grey_North_1891,CD,Grey North,ON,1891,E53_Place
-CD_ON_Grey_North_1901,CD,Grey North,ON,1901,E53_Place
-CD_ON_Grey_North_1911,CD,Grey North,ON,1911,E53_Place
-CD_ON_Grey_North_1911_1911,CD,Grey North,ON,1911,E53_Place
-CD_ON_Grey_South,CD,Grey South,ON,1871;1881;1891;1901,E53_Place
-CD_ON_Grey_South_1871,CD,Grey South,ON,1871,E53_Place
-CD_ON_Grey_South_1881,CD,Grey South,ON,1881,E53_Place
-CD_ON_Grey_South_1891,CD,Grey South,ON,1891,E53_Place
-CD_ON_Grey_South_1901,CD,Grey South,ON,1901,E53_Place
-CD_ON_Grey_South_1911,CD,Grey South,ON,1911,E53_Place
-CD_ON_Grey_South_1911_1911,CD,Grey South,ON,1911,E53_Place
+CD_ON_Grey,CD,Grey,ON,1851;1861;1921,E53_Place
+CD_ON_Grey_East,CD,Grey East,ON,1881;1891;1901;1911,E53_Place
+CD_ON_Grey_North,CD,Grey North,ON,1871;1881;1891;1901;1911,E53_Place
+CD_ON_Grey_South,CD,Grey South,ON,1871;1881;1891;1901;1911,E53_Place
 CD_ON_Haldimand,CD,Haldimand,ON,1851;1861;1871;1881;1891,E53_Place
 CD_ON_Haldimand_&_Monok,CD,Haldimand & Monok,ON,1901,E53_Place
 CD_ON_Haldimand_1911,CD,Haldimand,ON,1911;1921,E53_Place
-CD_ON_Haldimand_1911_1911,CD,Haldimand,ON,1911,E53_Place
-CD_ON_Haldimand_1921,CD,Haldimand,ON,1921,E53_Place
 CD_ON_Haliburton,CD,Haliburton,ON,1921,E53_Place
 CD_ON_Halton,CD,Halton,ON,1851;1861;1871;1881;1891;1901;1911;1921,E53_Place
 CD_ON_Hamilton,CD,Hamilton,ON,1851;1861;1871,E53_Place
 CD_ON_Hamilton_City,CD,Hamilton City,ON,1881;1891;1901,E53_Place
-CD_ON_Hamilton_City_1881,CD,Hamilton City,ON,1881,E53_Place
-CD_ON_Hamilton_City_1891,CD,Hamilton City,ON,1891,E53_Place
-CD_ON_Hamilton_City_1901,CD,Hamilton City,ON,1901,E53_Place
 CD_ON_Hamilton_East,CD,Hamilton East,ON,1911,E53_Place
-CD_ON_Hamilton_East_1911,CD,Hamilton East,ON,1911,E53_Place
 CD_ON_Hamilton_West,CD,Hamilton West,ON,1911,E53_Place
-CD_ON_Hamilton_West_1911,CD,Hamilton West,ON,1911,E53_Place
 CD_ON_Hastings,CD,Hastings,ON,1851;1861,E53_Place
 CD_ON_Hastings_1921,CD,Hastings,ON,1921,E53_Place
-CD_ON_Hastings_1921_1921,CD,Hastings,ON,1921,E53_Place
 CD_ON_Hastings_East,CD,Hastings East,ON,1871;1881;1891;1901;1911,E53_Place
-CD_ON_Hastings_East_1871,CD,Hastings East,ON,1871,E53_Place
-CD_ON_Hastings_East_1881,CD,Hastings East,ON,1881,E53_Place
-CD_ON_Hastings_East_1891,CD,Hastings East,ON,1891,E53_Place
-CD_ON_Hastings_East_1901,CD,Hastings East,ON,1901,E53_Place
-CD_ON_Hastings_East_1911,CD,Hastings East,ON,1911,E53_Place
 CD_ON_Hastings_North,CD,Hastings North,ON,1871;1881;1891;1901,E53_Place
-CD_ON_Hastings_North_1871,CD,Hastings North,ON,1871,E53_Place
-CD_ON_Hastings_North_1881,CD,Hastings North,ON,1881,E53_Place
-CD_ON_Hastings_North_1891,CD,Hastings North,ON,1891,E53_Place
-CD_ON_Hastings_North_1901,CD,Hastings North,ON,1901,E53_Place
 CD_ON_Hastings_West,CD,Hastings West,ON,1871;1881;1891;1901;1911,E53_Place
-CD_ON_Hastings_West_1871,CD,Hastings West,ON,1871,E53_Place
-CD_ON_Hastings_West_1881,CD,Hastings West,ON,1881,E53_Place
-CD_ON_Hastings_West_1891,CD,Hastings West,ON,1891,E53_Place
-CD_ON_Hastings_West_1901,CD,Hastings West,ON,1901,E53_Place
-CD_ON_Hastings_West_1911,CD,Hastings West,ON,1911,E53_Place
 CD_ON_Huron,CD,Huron,ON,1851;1861,E53_Place
 CD_ON_Huron_1921,CD,Huron,ON,1921,E53_Place
-CD_ON_Huron_1921_1921,CD,Huron,ON,1921,E53_Place
 CD_ON_Huron_Centre,CD,Huron Centre,ON,1881,E53_Place
-CD_ON_Huron_Centre_1881,CD,Huron Centre,ON,1881,E53_Place
 CD_ON_Huron_East,CD,Huron East,ON,1891;1901;1911,E53_Place
-CD_ON_Huron_East_1891,CD,Huron East,ON,1891,E53_Place
-CD_ON_Huron_East_1901,CD,Huron East,ON,1901,E53_Place
-CD_ON_Huron_East_1911,CD,Huron East,ON,1911,E53_Place
 CD_ON_Huron_North,CD,Huron North,ON,1871;1881,E53_Place
-CD_ON_Huron_North_1871,CD,Huron North,ON,1871,E53_Place
-CD_ON_Huron_North_1881,CD,Huron North,ON,1881,E53_Place
-CD_ON_Huron_South,CD,Huron South,ON,1871;1881;1911,E53_Place
-CD_ON_Huron_South_1871,CD,Huron South,ON,1871,E53_Place
-CD_ON_Huron_South_1881,CD,Huron South,ON,1881,E53_Place
-CD_ON_Huron_South_1891,CD,Huron South,ON,1891;1901,E53_Place
-CD_ON_Huron_South_1891_1891,CD,Huron South,ON,1891,E53_Place
-CD_ON_Huron_South_1901,CD,Huron South,ON,1901,E53_Place
-CD_ON_Huron_South_1911_1911,CD,Huron South,ON,1911,E53_Place
-CD_ON_Huron_West,CD,Huron West,ON,1891;1901,E53_Place
-CD_ON_Huron_West_1891,CD,Huron West,ON,1891,E53_Place
-CD_ON_Huron_West_1901,CD,Huron West,ON,1901,E53_Place
-CD_ON_Huron_West_1911,CD,Huron West,ON,1911,E53_Place
-CD_ON_Huron_West_1911_1911,CD,Huron West,ON,1911,E53_Place
+CD_ON_Huron_South,CD,Huron South,ON,1871;1881;1891;1901;1911,E53_Place
+CD_ON_Huron_West,CD,Huron West,ON,1891;1901;1911,E53_Place
 CD_ON_Kenora,CD,Kenora,ON,1921,E53_Place
-CD_ON_Kent,CD,Kent,ON,1851;1861;1871;1911;1921,E53_Place
+CD_ON_Kent,CD,Kent,ON,1851;1861;1921,E53_Place
 CD_ON_Kent_1871,CD,Kent,ON,1871;1881;1891;1901;1911,E53_Place
-CD_ON_Kent_1881,CD,Kent,ON,1881,E53_Place
-CD_ON_Kent_1891,CD,Kent,ON,1891,E53_Place
-CD_ON_Kent_1901,CD,Kent,ON,1901,E53_Place
 CD_ON_Kent_East,CD,Kent East,ON,1911,E53_Place
-CD_ON_Kent_East_1911,CD,Kent East,ON,1911,E53_Place
 CD_ON_Kingston,CD,Kingston,ON,1861;1871;1911,E53_Place
 CD_ON_Kingston_City,CD,Kingston City,ON,1851,E53_Place
-CD_ON_Kingston_City_1851,CD,Kingston City,ON,1851,E53_Place
 CD_ON_Kingston_City_1881,CD,Kingston City,ON,1881;1891;1901,E53_Place
-CD_ON_Kingston_City_1881_1881,CD,Kingston City,ON,1881,E53_Place
-CD_ON_Kingston_City_1881_1881_1881,CD,Kingston City,ON,1881,E53_Place
 CD_ON_Kingston_City_1881_1901,CD,Kingston City,ON,1881;1891;1901,E53_Place
-CD_ON_Kingston_City_1891,CD,Kingston City,ON,1891,E53_Place
-CD_ON_Kingston_City_1891_1891,CD,Kingston City,ON,1891,E53_Place
-CD_ON_Kingston_City_1901,CD,Kingston City,ON,1901,E53_Place
-CD_ON_Kingston_City_1901_1901,CD,Kingston City,ON,1901,E53_Place
 CD_ON_Lambton,CD,Lambton,ON,1851;1861;1871;1881;1921,E53_Place
 CD_ON_Lambton_East,CD,Lambton East,ON,1891;1901;1911,E53_Place
-CD_ON_Lambton_East_1891,CD,Lambton East,ON,1891,E53_Place
-CD_ON_Lambton_East_1901,CD,Lambton East,ON,1901,E53_Place
 CD_ON_Lambton_West,CD,Lambton West,ON,1891;1901;1911,E53_Place
-CD_ON_Lambton_West_1891,CD,Lambton West,ON,1891,E53_Place
-CD_ON_Lambton_West_1901,CD,Lambton West,ON,1901,E53_Place
-CD_ON_Lambton_West_1911,CD,Lambton West,ON,1911,E53_Place
 CD_ON_Lanark,CD,Lanark,ON,1851;1861;1921,E53_Place
 CD_ON_Lanark_North,CD,Lanark North,ON,1871;1881;1891;1901;1911,E53_Place
-CD_ON_Lanark_North_1871,CD,Lanark North,ON,1871,E53_Place
-CD_ON_Lanark_North_1881,CD,Lanark North,ON,1881,E53_Place
-CD_ON_Lanark_North_1891,CD,Lanark North,ON,1891,E53_Place
-CD_ON_Lanark_North_1901,CD,Lanark North,ON,1901,E53_Place
-CD_ON_Lanark_North_1911,CD,Lanark North,ON,1911,E53_Place
 CD_ON_Lanark_South,CD,Lanark South,ON,1871;1881;1891;1901;1911,E53_Place
-CD_ON_Lanark_South_1871,CD,Lanark South,ON,1871,E53_Place
-CD_ON_Lanark_South_1881,CD,Lanark South,ON,1881,E53_Place
-CD_ON_Lanark_South_1891,CD,Lanark South,ON,1891,E53_Place
-CD_ON_Lanark_South_1901,CD,Lanark South,ON,1901,E53_Place
-CD_ON_Lanark_South_1911,CD,Lanark South,ON,1911,E53_Place
 CD_ON_Leeds,CD,Leeds,ON,1851;1861,E53_Place
 CD_ON_Leeds_&_Grenville_North,CD,Leeds & Grenville North,ON,1871;1881;1891;1901,E53_Place
-CD_ON_Leeds_&_Grenville_North_1871,CD,Leeds & Grenville North,ON,1871,E53_Place
-CD_ON_Leeds_&_Grenville_North_1881,CD,Leeds & Grenville North,ON,1881,E53_Place
-CD_ON_Leeds_&_Grenville_North_1891,CD,Leeds & Grenville North,ON,1891,E53_Place
-CD_ON_Leeds_&_Grenville_North_1901,CD,Leeds & Grenville North,ON,1901,E53_Place
 CD_ON_Leeds_1911,CD,Leeds,ON,1911;1921,E53_Place
-CD_ON_Leeds_1911_1911,CD,Leeds,ON,1911,E53_Place
-CD_ON_Leeds_1921,CD,Leeds,ON,1921,E53_Place
 CD_ON_Leeds_South,CD,Leeds South,ON,1871;1881;1891;1901,E53_Place
-CD_ON_Leeds_South_1871,CD,Leeds South,ON,1871,E53_Place
-CD_ON_Leeds_South_1881,CD,Leeds South,ON,1881,E53_Place
-CD_ON_Leeds_South_1891,CD,Leeds South,ON,1891,E53_Place
-CD_ON_Leeds_South_1901,CD,Leeds South,ON,1901,E53_Place
 CD_ON_Lennox,CD,Lennox,ON,1851,E53_Place
 CD_ON_Lennox_&_Addington,CD,Lennox & Addington,ON,1911,E53_Place
 CD_ON_Lennox_1871,CD,Lennox,ON,1871;1881;1891;1901,E53_Place
-CD_ON_Lennox_1871_1871,CD,Lennox,ON,1871,E53_Place
-CD_ON_Lennox_1881,CD,Lennox,ON,1881,E53_Place
-CD_ON_Lennox_1891,CD,Lennox,ON,1891,E53_Place
-CD_ON_Lennox_1901,CD,Lennox,ON,1901,E53_Place
 CD_ON_Lennox_1921,CD,Lennox,ON,1921,E53_Place
-CD_ON_Lennox_1921_1921,CD,Lennox,ON,1921,E53_Place
 CD_ON_Lennox_and_Addington,CD,Lennox and Addington,ON,1861,E53_Place
-CD_ON_Lennox_and_Addington_1861,CD,Lennox and Addington,ON,1861,E53_Place
 CD_ON_Lincoln,CD,Lincoln,ON,1851;1861;1871;1881;1911;1921,E53_Place
 CD_ON_Lincoln_&_Niagara,CD,Lincoln & Niagara,ON,1891;1901,E53_Place
 CD_ON_London,CD,London,ON,1911,E53_Place
 CD_ON_London_City,CD,London City,ON,1851;1861;1871;1881;1891;1901,E53_Place
-CD_ON_London_City_1851,CD,London City,ON,1851;1861;1871,E53_Place
-CD_ON_London_City_1881,CD,London City,ON,1881,E53_Place
-CD_ON_London_City_1891,CD,London City,ON,1891,E53_Place
-CD_ON_London_City_1901,CD,London City,ON,1901,E53_Place
 CD_ON_Manitoulin,CD,Manitoulin,ON,1871,E53_Place
 CD_ON_Manitoulin_1921,CD,Manitoulin,ON,1921,E53_Place
-CD_ON_Manitoulin_1921_1921,CD,Manitoulin,ON,1921,E53_Place
-CD_ON_Middlesex,CD,Middlesex,ON,1851;1861,E53_Place
-CD_ON_Middlesex_1921,CD,Middlesex,ON,1921,E53_Place
-CD_ON_Middlesex_East,CD,Middlesex East,ON,1871;1881;1911,E53_Place
-CD_ON_Middlesex_East_1871,CD,Middlesex East,ON,1871,E53_Place
-CD_ON_Middlesex_East_1881,CD,Middlesex East,ON,1881,E53_Place
-CD_ON_Middlesex_East_1891,CD,Middlesex East,ON,1891;1901,E53_Place
-CD_ON_Middlesex_East_1891_1891,CD,Middlesex East,ON,1891,E53_Place
-CD_ON_Middlesex_East_1901,CD,Middlesex East,ON,1901,E53_Place
-CD_ON_Middlesex_East_1911_1911,CD,Middlesex East,ON,1911,E53_Place
-CD_ON_Middlesex_North,CD,Middlesex North,ON,1871;1881;1911,E53_Place
-CD_ON_Middlesex_North_1871,CD,Middlesex North,ON,1871,E53_Place
-CD_ON_Middlesex_North_1881,CD,Middlesex North,ON,1881,E53_Place
-CD_ON_Middlesex_North_1891,CD,Middlesex North,ON,1891;1901,E53_Place
-CD_ON_Middlesex_North_1891_1891,CD,Middlesex North,ON,1891,E53_Place
-CD_ON_Middlesex_North_1901,CD,Middlesex North,ON,1901,E53_Place
-CD_ON_Middlesex_North_1911_1911,CD,Middlesex North,ON,1911,E53_Place
+CD_ON_Middlesex,CD,Middlesex,ON,1851;1861;1921,E53_Place
+CD_ON_Middlesex_East,CD,Middlesex East,ON,1871;1881;1891;1901;1911,E53_Place
+CD_ON_Middlesex_North,CD,Middlesex North,ON,1871;1881;1891;1901;1911,E53_Place
 CD_ON_Middlesex_South,CD,Middlesex South,ON,1891;1901,E53_Place
-CD_ON_Middlesex_South_1891,CD,Middlesex South,ON,1891,E53_Place
-CD_ON_Middlesex_South_1901,CD,Middlesex South,ON,1901,E53_Place
-CD_ON_Middlesex_West,CD,Middlesex West,ON,1871;1881;1911,E53_Place
-CD_ON_Middlesex_West_1871,CD,Middlesex West,ON,1871,E53_Place
-CD_ON_Middlesex_West_1881,CD,Middlesex West,ON,1881,E53_Place
-CD_ON_Middlesex_West_1891,CD,Middlesex West,ON,1891;1901,E53_Place
-CD_ON_Middlesex_West_1891_1891,CD,Middlesex West,ON,1891,E53_Place
-CD_ON_Middlesex_West_1901,CD,Middlesex West,ON,1901,E53_Place
-CD_ON_Middlesex_West_1911_1911,CD,Middlesex West,ON,1911,E53_Place
+CD_ON_Middlesex_West,CD,Middlesex West,ON,1871;1881;1891;1901;1911,E53_Place
 CD_ON_Monck,CD,Monck,ON,1871;1881;1891,E53_Place
 CD_ON_Muskoka,CD,Muskoka,ON,1871;1881,E53_Place
 CD_ON_Muskoka_&_Parry_Sound,CD,Muskoka & Parry Sound,ON,1891;1901,E53_Place
 CD_ON_Muskoka_1911,CD,Muskoka,ON,1911;1921,E53_Place
-CD_ON_Muskoka_1911_1911,CD,Muskoka,ON,1911,E53_Place
-CD_ON_Muskoka_1921,CD,Muskoka,ON,1921,E53_Place
 CD_ON_Niagara,CD,Niagara,ON,1871;1881,E53_Place
 CD_ON_Nipissing,CD,Nipissing,ON,1861,E53_Place
 CD_ON_Nipissing_1891,CD,Nipissing,ON,1891;1901;1911;1921,E53_Place
-CD_ON_Nipissing_1891_1891,CD,Nipissing,ON,1891,E53_Place
-CD_ON_Nipissing_1901,CD,Nipissing,ON,1901,E53_Place
-CD_ON_Nipissing_1911,CD,Nipissing,ON,1911,E53_Place
-CD_ON_Nipissing_1921,CD,Nipissing,ON,1921,E53_Place
 CD_ON_Nipissing_North,CD,Nipissing North,ON,1871,E53_Place
-CD_ON_Nipissing_North_1871,CD,Nipissing North,ON,1871,E53_Place
 CD_ON_Nipissing_South,CD,Nipissing South,ON,1871,E53_Place
-CD_ON_Nipissing_South_1871,CD,Nipissing South,ON,1871,E53_Place
 CD_ON_Norfolk,CD,Norfolk,ON,1851;1861;1911;1921,E53_Place
 CD_ON_Norfolk_North,CD,Norfolk North,ON,1871;1881;1891;1901,E53_Place
-CD_ON_Norfolk_North_1871,CD,Norfolk North,ON,1871,E53_Place
-CD_ON_Norfolk_North_1881,CD,Norfolk North,ON,1881,E53_Place
-CD_ON_Norfolk_North_1891,CD,Norfolk North,ON,1891,E53_Place
-CD_ON_Norfolk_North_1901,CD,Norfolk North,ON,1901,E53_Place
 CD_ON_Norfolk_South,CD,Norfolk South,ON,1871;1881;1891;1901,E53_Place
-CD_ON_Norfolk_South_1871,CD,Norfolk South,ON,1871,E53_Place
-CD_ON_Norfolk_South_1881,CD,Norfolk South,ON,1881,E53_Place
-CD_ON_Norfolk_South_1891,CD,Norfolk South,ON,1891,E53_Place
-CD_ON_Norfolk_South_1901,CD,Norfolk South,ON,1901,E53_Place
 CD_ON_Northumberland,CD,Northumberland,ON,1851;1861;1921,E53_Place
 CD_ON_Northumberland_East,CD,Northumberland East,ON,1871;1881;1891;1901;1911,E53_Place
-CD_ON_Northumberland_East_1871,CD,Northumberland East,ON,1871,E53_Place
-CD_ON_Northumberland_East_1881,CD,Northumberland East,ON,1881,E53_Place
-CD_ON_Northumberland_East_1891,CD,Northumberland East,ON,1891,E53_Place
-CD_ON_Northumberland_East_1901,CD,Northumberland East,ON,1901,E53_Place
-CD_ON_Northumberland_East_1911,CD,Northumberland East,ON,1911,E53_Place
 CD_ON_Northumberland_West,CD,Northumberland West,ON,1871;1881;1891;1901;1911,E53_Place
-CD_ON_Northumberland_West_1871,CD,Northumberland West,ON,1871,E53_Place
-CD_ON_Northumberland_West_1881,CD,Northumberland West,ON,1881,E53_Place
-CD_ON_Northumberland_West_1891,CD,Northumberland West,ON,1891,E53_Place
-CD_ON_Northumberland_West_1901,CD,Northumberland West,ON,1901,E53_Place
-CD_ON_Northumberland_West_1911,CD,Northumberland West,ON,1911,E53_Place
-CD_ON_Ontario,CD,Ontario,ON,1851;1861,E53_Place
-CD_ON_Ontario_1921,CD,Ontario,ON,1921,E53_Place
-CD_ON_Ontario_North,CD,Ontario North,ON,1871;1881,E53_Place
-CD_ON_Ontario_North_1871,CD,Ontario North,ON,1871,E53_Place
-CD_ON_Ontario_North_1881,CD,Ontario North,ON,1881,E53_Place
-CD_ON_Ontario_North_1891,CD,Ontario North,ON,1891;1901,E53_Place
-CD_ON_Ontario_North_1891_1891,CD,Ontario North,ON,1891,E53_Place
-CD_ON_Ontario_North_1901,CD,Ontario North,ON,1901,E53_Place
-CD_ON_Ontario_North_1911,CD,Ontario North,ON,1911,E53_Place
-CD_ON_Ontario_North_1911_1911,CD,Ontario North,ON,1911,E53_Place
-CD_ON_Ontario_South,CD,Ontario South,ON,1871;1881,E53_Place
-CD_ON_Ontario_South_1871,CD,Ontario South,ON,1871,E53_Place
-CD_ON_Ontario_South_1881,CD,Ontario South,ON,1881,E53_Place
-CD_ON_Ontario_South_1891,CD,Ontario South,ON,1891;1901;1911,E53_Place
-CD_ON_Ontario_South_1891_1891,CD,Ontario South,ON,1891,E53_Place
-CD_ON_Ontario_South_1901,CD,Ontario South,ON,1901,E53_Place
-CD_ON_Ontario_South_1911,CD,Ontario South,ON,1911,E53_Place
+CD_ON_Ontario,CD,Ontario,ON,1851;1861;1921,E53_Place
+CD_ON_Ontario_North,CD,Ontario North,ON,1871;1881;1891;1901;1911,E53_Place
+CD_ON_Ontario_South,CD,Ontario South,ON,1871;1881;1891;1901;1911,E53_Place
 CD_ON_Ontario_West,CD,Ontario West,ON,1891;1901,E53_Place
-CD_ON_Ontario_West_1891,CD,Ontario West,ON,1891,E53_Place
-CD_ON_Ontario_West_1901,CD,Ontario West,ON,1901,E53_Place
 CD_ON_Ottawa,CD,Ottawa,ON,1861,E53_Place
 CD_ON_Ottawa_City,CD,Ottawa City,ON,1871;1881;1891;1901;1911,E53_Place
-CD_ON_Ottawa_City_1871,CD,Ottawa City,ON,1871,E53_Place
-CD_ON_Ottawa_City_1881,CD,Ottawa City,ON,1881,E53_Place
-CD_ON_Ottawa_City_1891,CD,Ottawa City,ON,1891,E53_Place
-CD_ON_Ottawa_City_1901,CD,Ottawa City,ON,1901,E53_Place
-CD_ON_Ottawa_City_1911,CD,Ottawa City,ON,1911,E53_Place
-CD_ON_Oxford,CD,Oxford,ON,1851;1861,E53_Place
-CD_ON_Oxford_1921,CD,Oxford,ON,1921,E53_Place
-CD_ON_Oxford_North,CD,Oxford North,ON,1871;1881,E53_Place
-CD_ON_Oxford_North_1871,CD,Oxford North,ON,1871,E53_Place
-CD_ON_Oxford_North_1881,CD,Oxford North,ON,1881,E53_Place
-CD_ON_Oxford_North_1891,CD,Oxford North,ON,1891;1901,E53_Place
-CD_ON_Oxford_North_1891_1891,CD,Oxford North,ON,1891,E53_Place
-CD_ON_Oxford_North_1901,CD,Oxford North,ON,1901,E53_Place
-CD_ON_Oxford_North_1911,CD,Oxford North,ON,1911,E53_Place
-CD_ON_Oxford_North_1911_1911,CD,Oxford North,ON,1911,E53_Place
-CD_ON_Oxford_South,CD,Oxford South,ON,1871;1881,E53_Place
-CD_ON_Oxford_South_1871,CD,Oxford South,ON,1871,E53_Place
-CD_ON_Oxford_South_1881,CD,Oxford South,ON,1881,E53_Place
-CD_ON_Oxford_South_1891,CD,Oxford South,ON,1891;1901,E53_Place
-CD_ON_Oxford_South_1891_1891,CD,Oxford South,ON,1891,E53_Place
-CD_ON_Oxford_South_1901,CD,Oxford South,ON,1901,E53_Place
-CD_ON_Oxford_South_1911,CD,Oxford South,ON,1911,E53_Place
-CD_ON_Oxford_South_1911_1911,CD,Oxford South,ON,1911,E53_Place
+CD_ON_Oxford,CD,Oxford,ON,1851;1861;1921,E53_Place
+CD_ON_Oxford_North,CD,Oxford North,ON,1871;1881;1891;1901;1911,E53_Place
+CD_ON_Oxford_South,CD,Oxford South,ON,1871;1881;1891;1901;1911,E53_Place
 CD_ON_Parry_Sound,CD,Parry Sound,ON,1871,E53_Place
 CD_ON_Parry_Sound_1911,CD,Parry Sound,ON,1911;1921,E53_Place
-CD_ON_Parry_Sound_1911_1911,CD,Parry Sound,ON,1911,E53_Place
-CD_ON_Parry_Sound_1921,CD,Parry Sound,ON,1921,E53_Place
 CD_ON_Peel,CD,Peel,ON,1851;1861;1871;1881;1891;1901;1911;1921,E53_Place
-CD_ON_Perth,CD,Perth,ON,1851;1861,E53_Place
-CD_ON_Perth_1921,CD,Perth,ON,1921,E53_Place
-CD_ON_Perth_North,CD,Perth North,ON,1871;1881;1891;1901,E53_Place
-CD_ON_Perth_North_1871,CD,Perth North,ON,1871,E53_Place
-CD_ON_Perth_North_1881,CD,Perth North,ON,1881,E53_Place
-CD_ON_Perth_North_1891,CD,Perth North,ON,1891,E53_Place
-CD_ON_Perth_North_1901,CD,Perth North,ON,1901,E53_Place
-CD_ON_Perth_North_1911,CD,Perth North,ON,1911,E53_Place
-CD_ON_Perth_North_1911_1911,CD,Perth North,ON,1911,E53_Place
-CD_ON_Perth_South,CD,Perth South,ON,1871;1881,E53_Place
-CD_ON_Perth_South_1871,CD,Perth South,ON,1871,E53_Place
-CD_ON_Perth_South_1881,CD,Perth South,ON,1881,E53_Place
-CD_ON_Perth_South_1891,CD,Perth South,ON,1891;1901,E53_Place
-CD_ON_Perth_South_1891_1891,CD,Perth South,ON,1891,E53_Place
-CD_ON_Perth_South_1901,CD,Perth South,ON,1901,E53_Place
-CD_ON_Perth_South_1911,CD,Perth South,ON,1911,E53_Place
-CD_ON_Perth_South_1911_1911,CD,Perth South,ON,1911,E53_Place
+CD_ON_Perth,CD,Perth,ON,1851;1861;1921,E53_Place
+CD_ON_Perth_North,CD,Perth North,ON,1871;1881;1891;1901;1911,E53_Place
+CD_ON_Perth_South,CD,Perth South,ON,1871;1881;1891;1901;1911,E53_Place
 CD_ON_Peterboro,CD,Peterboro,ON,1851,E53_Place
 CD_ON_Peterborough,CD,Peterborough,ON,1861;1921,E53_Place
-CD_ON_Peterborough_East,CD,Peterborough East,ON,1871;1881,E53_Place
-CD_ON_Peterborough_East_1871,CD,Peterborough East,ON,1871,E53_Place
-CD_ON_Peterborough_East_1881,CD,Peterborough East,ON,1881,E53_Place
-CD_ON_Peterborough_East_1891,CD,Peterborough East,ON,1891;1901;1911,E53_Place
-CD_ON_Peterborough_East_1891_1891,CD,Peterborough East,ON,1891,E53_Place
-CD_ON_Peterborough_East_1901,CD,Peterborough East,ON,1901,E53_Place
-CD_ON_Peterborough_East_1911,CD,Peterborough East,ON,1911,E53_Place
+CD_ON_Peterborough_East,CD,Peterborough East,ON,1871;1881;1891;1901;1911,E53_Place
 CD_ON_Peterborough_West,CD,Peterborough West,ON,1871;1881;1891;1901;1911,E53_Place
-CD_ON_Peterborough_West_1871,CD,Peterborough West,ON,1871,E53_Place
-CD_ON_Peterborough_West_1881,CD,Peterborough West,ON,1881,E53_Place
-CD_ON_Peterborough_West_1891,CD,Peterborough West,ON,1891,E53_Place
-CD_ON_Peterborough_West_1901,CD,Peterborough West,ON,1901,E53_Place
-CD_ON_Peterborough_West_1911,CD,Peterborough West,ON,1911,E53_Place
 CD_ON_Prescott,CD,Prescott,ON,1851;1861;1871;1881;1891;1901;1911;1921,E53_Place
 CD_ON_Prince_Edward,CD,Prince Edward,ON,1851;1861;1871;1881;1891;1901;1911;1921,E53_Place
 CD_ON_Rainy_River,CD,Rainy River,ON,1921,E53_Place
 CD_ON_Renfrew,CD,Renfrew,ON,1851;1861;1921,E53_Place
 CD_ON_Renfrew_North,CD,Renfrew North,ON,1871;1881;1891;1901;1911,E53_Place
-CD_ON_Renfrew_North_1871,CD,Renfrew North,ON,1871,E53_Place
-CD_ON_Renfrew_North_1881,CD,Renfrew North,ON,1881,E53_Place
-CD_ON_Renfrew_North_1891,CD,Renfrew North,ON,1891,E53_Place
-CD_ON_Renfrew_North_1901,CD,Renfrew North,ON,1901,E53_Place
-CD_ON_Renfrew_North_1911,CD,Renfrew North,ON,1911,E53_Place
 CD_ON_Renfrew_South,CD,Renfrew South,ON,1871;1881;1891;1901;1911,E53_Place
-CD_ON_Renfrew_South_1871,CD,Renfrew South,ON,1871,E53_Place
-CD_ON_Renfrew_South_1881,CD,Renfrew South,ON,1881,E53_Place
-CD_ON_Renfrew_South_1891,CD,Renfrew South,ON,1891,E53_Place
-CD_ON_Renfrew_South_1901,CD,Renfrew South,ON,1901,E53_Place
-CD_ON_Renfrew_South_1911,CD,Renfrew South,ON,1911,E53_Place
 CD_ON_Russell,CD,Russell,ON,1851;1861;1871;1881;1891;1901;1911;1921,E53_Place
-CD_ON_Simcoe,CD,Simcoe,ON,1851;1861,E53_Place
-CD_ON_Simcoe_1921,CD,Simcoe,ON,1921,E53_Place
+CD_ON_Simcoe,CD,Simcoe,ON,1851;1861;1921,E53_Place
 CD_ON_Simcoe_East,CD,Simcoe East,ON,1891;1901;1911,E53_Place
-CD_ON_Simcoe_East_1891,CD,Simcoe East,ON,1891,E53_Place
-CD_ON_Simcoe_East_1901,CD,Simcoe East,ON,1901,E53_Place
-CD_ON_Simcoe_East_1911,CD,Simcoe East,ON,1911,E53_Place
 CD_ON_Simcoe_North,CD,Simcoe North,ON,1871;1881;1891;1901;1911,E53_Place
-CD_ON_Simcoe_North_1871,CD,Simcoe North,ON,1871,E53_Place
-CD_ON_Simcoe_North_1881,CD,Simcoe North,ON,1881,E53_Place
-CD_ON_Simcoe_North_1891,CD,Simcoe North,ON,1891,E53_Place
-CD_ON_Simcoe_North_1901,CD,Simcoe North,ON,1901,E53_Place
-CD_ON_Simcoe_North_1911,CD,Simcoe North,ON,1911,E53_Place
-CD_ON_Simcoe_South,CD,Simcoe South,ON,1871;1881;1891;1901,E53_Place
-CD_ON_Simcoe_South_1871,CD,Simcoe South,ON,1871,E53_Place
-CD_ON_Simcoe_South_1881,CD,Simcoe South,ON,1881,E53_Place
-CD_ON_Simcoe_South_1891,CD,Simcoe South,ON,1891,E53_Place
-CD_ON_Simcoe_South_1901,CD,Simcoe South,ON,1901,E53_Place
-CD_ON_Simcoe_South_1911,CD,Simcoe South,ON,1911,E53_Place
-CD_ON_Simcoe_South_1911_1911,CD,Simcoe South,ON,1911,E53_Place
-CD_ON_Stormont,CD,Stormont,ON,1851;1861;1871;1881;1891;1901,E53_Place
+CD_ON_Simcoe_South,CD,Simcoe South,ON,1871;1881;1891;1901;1911,E53_Place
+CD_ON_Stormont,CD,Stormont,ON,1851;1861;1871;1881,E53_Place
 CD_ON_Stormont_1891,CD,Stormont,ON,1891;1901;1911;1921,E53_Place
-CD_ON_Stormont_1911,CD,Stormont,ON,1911,E53_Place
-CD_ON_Stormont_1921,CD,Stormont,ON,1921,E53_Place
 CD_ON_Sudbury,CD,Sudbury,ON,1921,E53_Place
 CD_ON_Thunder_Bay,CD,Thunder Bay,ON,1921,E53_Place
 CD_ON_Thunder_Bay_&_Rainy_River,CD,Thunder Bay & Rainy River,ON,1911,E53_Place
@@ -635,242 +299,122 @@ CD_ON_Timiskaming,CD,Timiskaming,ON,1921,E53_Place
 CD_ON_Toronto,CD,Toronto,ON,1861,E53_Place
 CD_ON_Toronto_Centre,CD,Toronto Centre,ON,1911,E53_Place
 CD_ON_Toronto_Centre_City,CD,Toronto Centre City,ON,1901,E53_Place
-CD_ON_Toronto_Centre_City_1901,CD,Toronto Centre City,ON,1901,E53_Place
 CD_ON_Toronto_City,CD,Toronto City,ON,1851,E53_Place
-CD_ON_Toronto_City_1851,CD,Toronto City,ON,1851,E53_Place
 CD_ON_Toronto_City_1881,CD,Toronto City,ON,1881;1891,E53_Place
-CD_ON_Toronto_City_1881_1881,CD,Toronto City,ON,1881,E53_Place
-CD_ON_Toronto_City_1891,CD,Toronto City,ON,1891,E53_Place
 CD_ON_Toronto_East,CD,Toronto East,ON,1871,E53_Place
-CD_ON_Toronto_East_1871,CD,Toronto East,ON,1871,E53_Place
 CD_ON_Toronto_East_1911,CD,Toronto East,ON,1911,E53_Place
-CD_ON_Toronto_East_1911_1911,CD,Toronto East,ON,1911,E53_Place
 CD_ON_Toronto_East_City,CD,Toronto East City,ON,1901,E53_Place
-CD_ON_Toronto_East_City_1901,CD,Toronto East City,ON,1901,E53_Place
 CD_ON_Toronto_North,CD,Toronto North,ON,1911,E53_Place
-CD_ON_Toronto_North_1911,CD,Toronto North,ON,1911,E53_Place
 CD_ON_Toronto_South,CD,Toronto South,ON,1911,E53_Place
-CD_ON_Toronto_South_1911,CD,Toronto South,ON,1911,E53_Place
 CD_ON_Toronto_West,CD,Toronto West,ON,1871,E53_Place
-CD_ON_Toronto_West_1871,CD,Toronto West,ON,1871,E53_Place
 CD_ON_Toronto_West_1911,CD,Toronto West,ON,1911,E53_Place
-CD_ON_Toronto_West_1911_1911,CD,Toronto West,ON,1911,E53_Place
 CD_ON_Toronto_West_City,CD,Toronto West City,ON,1901,E53_Place
-CD_ON_Toronto_West_City_1901,CD,Toronto West City,ON,1901,E53_Place
 CD_ON_Victoria,CD,Victoria,ON,1851;1861;1911;1921,E53_Place
 CD_ON_Victoria_North,CD,Victoria North,ON,1871;1881;1891;1901,E53_Place
-CD_ON_Victoria_North_1871,CD,Victoria North,ON,1871,E53_Place
-CD_ON_Victoria_North_1881,CD,Victoria North,ON,1881,E53_Place
-CD_ON_Victoria_North_1891,CD,Victoria North,ON,1891,E53_Place
-CD_ON_Victoria_North_1901,CD,Victoria North,ON,1901,E53_Place
 CD_ON_Victoria_South,CD,Victoria South,ON,1871;1881;1891;1901,E53_Place
-CD_ON_Victoria_South_1871,CD,Victoria South,ON,1871,E53_Place
-CD_ON_Victoria_South_1881,CD,Victoria South,ON,1881,E53_Place
-CD_ON_Victoria_South_1891,CD,Victoria South,ON,1891,E53_Place
-CD_ON_Victoria_South_1901,CD,Victoria South,ON,1901,E53_Place
 CD_ON_Waterloo,CD,Waterloo,ON,1851;1861;1921,E53_Place
 CD_ON_Waterloo_North,CD,Waterloo North,ON,1871;1881;1891;1901;1911,E53_Place
-CD_ON_Waterloo_North_1871,CD,Waterloo North,ON,1871,E53_Place
-CD_ON_Waterloo_North_1881,CD,Waterloo North,ON,1881,E53_Place
-CD_ON_Waterloo_North_1891,CD,Waterloo North,ON,1891,E53_Place
-CD_ON_Waterloo_North_1901,CD,Waterloo North,ON,1901,E53_Place
-CD_ON_Waterloo_North_1911,CD,Waterloo North,ON,1911,E53_Place
 CD_ON_Waterloo_South,CD,Waterloo South,ON,1871;1881;1891;1901;1911,E53_Place
-CD_ON_Waterloo_South_1871,CD,Waterloo South,ON,1871,E53_Place
-CD_ON_Waterloo_South_1881,CD,Waterloo South,ON,1881,E53_Place
-CD_ON_Waterloo_South_1891,CD,Waterloo South,ON,1891,E53_Place
-CD_ON_Waterloo_South_1901,CD,Waterloo South,ON,1901,E53_Place
-CD_ON_Waterloo_South_1911,CD,Waterloo South,ON,1911,E53_Place
 CD_ON_Welland,CD,Welland,ON,1851;1861;1871;1881;1891;1901;1911;1921,E53_Place
 CD_ON_Wellington,CD,Wellington,ON,1851;1861,E53_Place
 CD_ON_Wellington_1921,CD,Wellington,ON,1921,E53_Place
-CD_ON_Wellington_1921_1921,CD,Wellington,ON,1921,E53_Place
-CD_ON_Wellington_Centre,CD,Wellington Centre,ON,1871,E53_Place
-CD_ON_Wellington_Centre_1871,CD,Wellington Centre,ON,1871,E53_Place
-CD_ON_Wellington_Centre_1881,CD,Wellington Centre,ON,1881;1891;1901,E53_Place
-CD_ON_Wellington_Centre_1881_1881,CD,Wellington Centre,ON,1881,E53_Place
-CD_ON_Wellington_Centre_1891,CD,Wellington Centre,ON,1891,E53_Place
-CD_ON_Wellington_Centre_1901,CD,Wellington Centre,ON,1901,E53_Place
-CD_ON_Wellington_North,CD,Wellington North,ON,1871;1881;1911,E53_Place
-CD_ON_Wellington_North_1871,CD,Wellington North,ON,1871,E53_Place
-CD_ON_Wellington_North_1881,CD,Wellington North,ON,1881,E53_Place
-CD_ON_Wellington_North_1891,CD,Wellington North,ON,1891;1901,E53_Place
-CD_ON_Wellington_North_1891_1891,CD,Wellington North,ON,1891,E53_Place
-CD_ON_Wellington_North_1901,CD,Wellington North,ON,1901,E53_Place
-CD_ON_Wellington_North_1911_1911,CD,Wellington North,ON,1911,E53_Place
+CD_ON_Wellington_Centre,CD,Wellington Centre,ON,1871;1881;1891;1901,E53_Place
+CD_ON_Wellington_North,CD,Wellington North,ON,1871;1881;1891;1901;1911,E53_Place
 CD_ON_Wellington_South,CD,Wellington South,ON,1871;1881;1891;1901;1911,E53_Place
-CD_ON_Wellington_South_1871,CD,Wellington South,ON,1871,E53_Place
-CD_ON_Wellington_South_1881,CD,Wellington South,ON,1881,E53_Place
-CD_ON_Wellington_South_1891,CD,Wellington South,ON,1891,E53_Place
-CD_ON_Wellington_South_1901,CD,Wellington South,ON,1901,E53_Place
-CD_ON_Wellington_South_1911,CD,Wellington South,ON,1911,E53_Place
 CD_ON_Wentworth,CD,Wentworth,ON,1851;1861,E53_Place
 CD_ON_Wentworth_&_Brant_North,CD,Wentworth & Brant North,ON,1901,E53_Place
-CD_ON_Wentworth_&_Brant_North_1901,CD,Wentworth & Brant North,ON,1901,E53_Place
 CD_ON_Wentworth_1911,CD,Wentworth,ON,1911;1921,E53_Place
-CD_ON_Wentworth_1911_1911,CD,Wentworth,ON,1911,E53_Place
-CD_ON_Wentworth_1921,CD,Wentworth,ON,1921,E53_Place
 CD_ON_Wentworth_North,CD,Wentworth North,ON,1871;1881;1891,E53_Place
-CD_ON_Wentworth_North_1871,CD,Wentworth North,ON,1871,E53_Place
-CD_ON_Wentworth_North_1881,CD,Wentworth North,ON,1881,E53_Place
-CD_ON_Wentworth_North_1891,CD,Wentworth North,ON,1891,E53_Place
-CD_ON_Wentworth_South,CD,Wentworth South,ON,1871;1881,E53_Place
-CD_ON_Wentworth_South_1871,CD,Wentworth South,ON,1871,E53_Place
-CD_ON_Wentworth_South_1881,CD,Wentworth South,ON,1881,E53_Place
-CD_ON_Wentworth_South_1891,CD,Wentworth South,ON,1891;1901,E53_Place
-CD_ON_Wentworth_South_1891_1891,CD,Wentworth South,ON,1891,E53_Place
-CD_ON_Wentworth_South_1901,CD,Wentworth South,ON,1901,E53_Place
+CD_ON_Wentworth_South,CD,Wentworth South,ON,1871;1881;1891;1901,E53_Place
 CD_ON_York,CD,York,ON,1851;1861,E53_Place
 CD_ON_York_1921,CD,York,ON,1921,E53_Place
-CD_ON_York_1921_1921,CD,York,ON,1921,E53_Place
 CD_ON_York_Centre,CD,York Centre,ON,1911,E53_Place
 CD_ON_York_East,CD,York East,ON,1871;1881;1891;1901,E53_Place
-CD_ON_York_East_1871,CD,York East,ON,1871,E53_Place
-CD_ON_York_East_1881,CD,York East,ON,1881,E53_Place
-CD_ON_York_East_1891,CD,York East,ON,1891,E53_Place
-CD_ON_York_East_1901,CD,York East,ON,1901,E53_Place
-CD_ON_York_North,CD,York North,ON,1871;1881,E53_Place
-CD_ON_York_North_1871,CD,York North,ON,1871,E53_Place
-CD_ON_York_North_1881,CD,York North,ON,1881,E53_Place
-CD_ON_York_North_1891,CD,York North,ON,1891;1901,E53_Place
-CD_ON_York_North_1891_1891,CD,York North,ON,1891,E53_Place
-CD_ON_York_North_1901,CD,York North,ON,1901,E53_Place
-CD_ON_York_North_1911,CD,York North,ON,1911,E53_Place
-CD_ON_York_North_1911_1911,CD,York North,ON,1911,E53_Place
+CD_ON_York_North,CD,York North,ON,1871;1881;1891;1901;1911,E53_Place
 CD_ON_York_South,CD,York South,ON,1911,E53_Place
-CD_ON_York_South_1911,CD,York South,ON,1911,E53_Place
 CD_ON_York_West,CD,York West,ON,1871;1881;1891;1901,E53_Place
-CD_ON_York_West_1871,CD,York West,ON,1871,E53_Place
-CD_ON_York_West_1881,CD,York West,ON,1881,E53_Place
-CD_ON_York_West_1891,CD,York West,ON,1891,E53_Place
-CD_ON_York_West_1901,CD,York West,ON,1901,E53_Place
 CD_PE_King's,CD,King's,PE,1871;1881;1891,E53_Place
-CD_PE_King's_1891,CD,King's,PE,1891,E53_Place
 CD_PE_Kings,CD,Kings,PE,1901;1911;1921,E53_Place
 CD_PE_Prince,CD,Prince,PE,1871;1881;1891;1911;1921,E53_Place
 CD_PE_Prince_East,CD,Prince East,PE,1901,E53_Place
-CD_PE_Prince_East_1901,CD,Prince East,PE,1901,E53_Place
 CD_PE_Prince_Edward_Island,CD,Prince Edward Island,PE,1851;1861,E53_Place
 CD_PE_Prince_West,CD,Prince West,PE,1901,E53_Place
-CD_PE_Prince_West_1901,CD,Prince West,PE,1901,E53_Place
 CD_PE_Queen's,CD,Queen's,PE,1871;1881;1891,E53_Place
-CD_PE_Queen's_1891,CD,Queen's,PE,1891,E53_Place
 CD_PE_Queens,CD,Queens,PE,1911;1921,E53_Place
 CD_PE_Queens_East,CD,Queens East,PE,1901,E53_Place
-CD_PE_Queens_East_1901,CD,Queens East,PE,1901,E53_Place
 CD_PE_Queens_West,CD,Queens West,PE,1901,E53_Place
-CD_PE_Queens_West_1901,CD,Queens West,PE,1901,E53_Place
 CD_QC_Argenteuil,CD,Argenteuil,QC,1861;1871;1881;1891;1901;1911;1921,E53_Place
 CD_QC_Arthabaska,CD,Arthabaska,QC,1861;1871,E53_Place
 CD_QC_Arthabaska_1921,CD,Arthabaska,QC,1921,E53_Place
-CD_QC_Arthabaska_1921_1921,CD,Arthabaska,QC,1921,E53_Place
-CD_QC_Bagot,CD,Bagot,QC,1861;1871;1881;1891,E53_Place
-CD_QC_Bagot_1891,CD,Bagot,QC,1891,E53_Place
-CD_QC_Bagot_1901,CD,Bagot,QC,1901;1911;1921,E53_Place
+CD_QC_Bagot,CD,Bagot,QC,1861;1871;1881;1891;1901;1911;1921,E53_Place
 CD_QC_Beauce,CD,Beauce,QC,1861;1881;1891;1901;1911;1921,E53_Place
 CD_QC_Beauce_East,CD,Beauce East,QC,1871,E53_Place
-CD_QC_Beauce_East_1871,CD,Beauce East,QC,1871,E53_Place
 CD_QC_Beauce_West,CD,Beauce West,QC,1871,E53_Place
-CD_QC_Beauce_West_1871,CD,Beauce West,QC,1871,E53_Place
 CD_QC_Beauharnois,CD,Beauharnois,QC,1851;1861;1871;1881;1891;1901;1911;1921,E53_Place
 CD_QC_Bellechasse,CD,Bellechasse,QC,1851;1861;1881;1891;1901;1911;1921,E53_Place
 CD_QC_Bellechasse_North,CD,Bellechasse North,QC,1871,E53_Place
-CD_QC_Bellechasse_North_1871,CD,Bellechasse North,QC,1871,E53_Place
 CD_QC_Bellechasse_South,CD,Bellechasse South,QC,1871,E53_Place
-CD_QC_Bellechasse_South_1871,CD,Bellechasse South,QC,1871,E53_Place
 CD_QC_Berthier,CD,Berthier,QC,1851;1861;1871;1881;1891;1901;1911;1921,E53_Place
 CD_QC_Bonaventure,CD,Bonaventure,QC,1851;1861;1871;1881;1891;1901;1911;1921,E53_Place
 CD_QC_Brome,CD,Brome,QC,1861;1871;1881;1891;1901;1911;1921,E53_Place
 CD_QC_Chambly,CD,Chambly,QC,1851;1861;1871;1881;1891,E53_Place
 CD_QC_Chambly_&_Verchères,CD,Chambly & Verchères,QC,1901;1911,E53_Place
 CD_QC_Chambly_1921,CD,Chambly,QC,1921,E53_Place
-CD_QC_Chambly_1921_1921,CD,Chambly,QC,1921,E53_Place
 CD_QC_Champlain,CD,Champlain,QC,1851;1861;1881;1901;1911;1921,E53_Place
 CD_QC_Champlain_1891,CD,Champlain,QC,1891,E53_Place
 CD_QC_Champlain_1891_1891,CD,Champlain,QC,1891,E53_Place
-CD_QC_Champlain_1891_1891_1891,CD,Champlain,QC,1891,E53_Place
-CD_QC_Champlain_1891_1891_1891_1891,CD,Champlain,QC,1891,E53_Place
 CD_QC_Champlain_North,CD,Champlain North,QC,1871,E53_Place
-CD_QC_Champlain_North_1871,CD,Champlain North,QC,1871,E53_Place
 CD_QC_Champlain_South,CD,Champlain South,QC,1871,E53_Place
-CD_QC_Champlain_South_1871,CD,Champlain South,QC,1871,E53_Place
 CD_QC_Charlevoix,CD,Charlevoix,QC,1861;1871;1881;1891;1901;1911;1921,E53_Place
 CD_QC_Chateauguay,CD,Chateauguay,QC,1861;1871;1881;1891;1901;1911;1921,E53_Place
-CD_QC_Chateauguay_1911,CD,Chateauguay,QC,1911,E53_Place
-CD_QC_Chateauguay_1921,CD,Chateauguay,QC,1921,E53_Place
 CD_QC_Chicoutimi,CD,Chicoutimi,QC,1861;1871,E53_Place
 CD_QC_Chicoutimi_&_Saguenay,CD,Chicoutimi & Saguenay,QC,1881;1891;1901;1911,E53_Place
 CD_QC_Chicoutimi_1921,CD,Chicoutimi,QC,1921,E53_Place
-CD_QC_Chicoutimi_1921_1921,CD,Chicoutimi,QC,1921,E53_Place
 CD_QC_City_of_Montreal,CD,City of Montreal,QC,1851;1861,E53_Place
 CD_QC_City_of_Quebec,CD,City of Quebec,QC,1851;1861,E53_Place
 CD_QC_City_of_Three_Rivers,CD,City of Three Rivers,QC,1861,E53_Place
 CD_QC_Compton,CD,Compton,QC,1861;1871;1881;1891;1901;1911;1921,E53_Place
 CD_QC_Deux-Montagnes,CD,Deux-Montagnes,QC,1851;1861;1871;1881;1891;1901;1911;1921,E53_Place
-CD_QC_Deux-Montagnes_1921,CD,Deux-Montagnes,QC,1921,E53_Place
 CD_QC_Dorchester,CD,Dorchester,QC,1851;1861;1881;1891;1901;1911;1921,E53_Place
 CD_QC_Dorchester_East,CD,Dorchester East,QC,1871,E53_Place
-CD_QC_Dorchester_East_1871,CD,Dorchester East,QC,1871,E53_Place
 CD_QC_Dorchester_West,CD,Dorchester West,QC,1871,E53_Place
-CD_QC_Dorchester_West_1871,CD,Dorchester West,QC,1871,E53_Place
 CD_QC_Drummond,CD,Drummond,QC,1851;1861;1871,E53_Place
 CD_QC_Drummond_&_Arthabaska,CD,Drummond & Arthabaska,QC,1881;1891;1901;1911,E53_Place
-CD_QC_Drummond_&_Arthabaska_1891,CD,Drummond & Arthabaska,QC,1891,E53_Place
 CD_QC_Drummond_1921,CD,Drummond,QC,1921,E53_Place
-CD_QC_Drummond_1921_1921,CD,Drummond,QC,1921,E53_Place
 CD_QC_Frontenac,CD,Frontenac,QC,1921,E53_Place
 CD_QC_Gaspé,CD,Gaspé,QC,1851;1861;1881;1891;1901;1911;1921,E53_Place
 CD_QC_Gaspé_Centre,CD,Gaspé Centre,QC,1871,E53_Place
 CD_QC_Gaspé_South,CD,Gaspé South,QC,1871,E53_Place
-CD_QC_Gaspé_South_1871,CD,Gaspé South,QC,1871,E53_Place
 CD_QC_Gaspé_West,CD,Gaspé West,QC,1871,E53_Place
-CD_QC_Gaspé_West_1871,CD,Gaspé West,QC,1871,E53_Place
 CD_QC_Hochelaga,CD,Hochelaga,QC,1861;1871;1881;1891;1901;1911,E53_Place
 CD_QC_Hull,CD,Hull,QC,1921,E53_Place
 CD_QC_Huntingdon,CD,Huntingdon,QC,1851;1861;1881;1891;1901;1911;1921,E53_Place
 CD_QC_Huntingdon_East,CD,Huntingdon East,QC,1871,E53_Place
-CD_QC_Huntingdon_East_1871,CD,Huntingdon East,QC,1871,E53_Place
 CD_QC_Huntingdon_West,CD,Huntingdon West,QC,1871,E53_Place
-CD_QC_Huntingdon_West_1871,CD,Huntingdon West,QC,1871,E53_Place
 CD_QC_Iberville,CD,Iberville,QC,1861;1871;1881;1891,E53_Place
 CD_QC_Iberville_1921,CD,Iberville,QC,1921,E53_Place
-CD_QC_Iberville_1921_1921,CD,Iberville,QC,1921,E53_Place
 CD_QC_Isles_de_la_Magdeleine,CD,Isles de la Magdeleine,QC,1871,E53_Place
 CD_QC_Jacques-Cartier,CD,Jacques-Cartier,QC,1891,E53_Place
 CD_QC_Jacques-Cartier_1891,CD,Jacques-Cartier,QC,1891,E53_Place
-CD_QC_Jacques-Cartier_1891_1891,CD,Jacques-Cartier,QC,1891,E53_Place
 CD_QC_Jacques_Cartier,CD,Jacques Cartier,QC,1861;1871;1881;1901;1911,E53_Place
-CD_QC_Jacques_Cartier_1881,CD,Jacques Cartier,QC,1881,E53_Place
-CD_QC_Jacques_Cartier_1901,CD,Jacques Cartier,QC,1901,E53_Place
-CD_QC_Jacques_Cartier_1911,CD,Jacques Cartier,QC,1911,E53_Place
 CD_QC_Joliette,CD,Joliette,QC,1861;1871;1881;1891;1901;1911;1921,E53_Place
 CD_QC_Kamouraska,CD,Kamouraska,QC,1851;1861;1871;1881;1891;1901;1911;1921,E53_Place
 CD_QC_L'Assomption,CD,L'Assomption,QC,1861;1871;1881;1891;1901;1911;1921,E53_Place
-CD_QC_L'Assomption_1891,CD,L'Assomption,QC,1891,E53_Place
-CD_QC_L'Assomption_1901,CD,L'Assomption,QC,1901,E53_Place
 CD_QC_L'Islet,CD,L'Islet,QC,1851;1861;1871;1881;1891;1901;1911;1921,E53_Place
-CD_QC_L'Islet_1851,CD,L'Islet,QC,1851,E53_Place
-CD_QC_L'Islet_1891,CD,L'Islet,QC,1891,E53_Place
-CD_QC_L'Islet_1901,CD,L'Islet,QC,1901,E53_Place
 CD_QC_Labelle,CD,Labelle,QC,1901;1911;1921,E53_Place
 CD_QC_Labrador,CD,Labrador,QC,1871,E53_Place
 CD_QC_Lac_St._Jean,CD,Lac St. Jean,QC,1921,E53_Place
 CD_QC_Laprairie,CD,Laprairie,QC,1861;1871;1881;1891,E53_Place
 CD_QC_Laprairie_&_Napierville,CD,Laprairie & Napierville,QC,1901;1911,E53_Place
 CD_QC_Laprairie_1921,CD,Laprairie,QC,1921,E53_Place
-CD_QC_Laprairie_1921_1921,CD,Laprairie,QC,1921,E53_Place
 CD_QC_Laval,CD,Laval,QC,1861;1871;1881;1891;1901;1911,E53_Place
 CD_QC_Leinster,CD,Leinster,QC,1851,E53_Place
 CD_QC_Lotbinière,CD,Lotbinière,QC,1851;1861;1871;1881;1891;1901;1911;1921,E53_Place
-CD_QC_Lotbinière_1861,CD,Lotbinière,QC,1861,E53_Place
-CD_QC_Lotbinière_1871,CD,Lotbinière,QC,1871,E53_Place
 CD_QC_Lévis,CD,Lévis,QC,1861;1881;1891;1901;1911;1921,E53_Place
 CD_QC_Lévis_(Comté),CD,Lévis (Comté),QC,1871,E53_Place
 CD_QC_Lévis_(Ville),CD,Lévis (Ville),QC,1871,E53_Place
 CD_QC_Maisonneuve,CD,Maisonneuve,QC,1901;1911,E53_Place
 CD_QC_Maskinongé,CD,Maskinongé,QC,1861;1871;1881;1891;1901;1911;1921,E53_Place
-CD_QC_Maskinongé_1861,CD,Maskinongé,QC,1861,E53_Place
-CD_QC_Maskinongé_1871,CD,Maskinongé,QC,1871,E53_Place
 CD_QC_Matane,CD,Matane,QC,1921,E53_Place
 CD_QC_Megantic,CD,Megantic,QC,1851,E53_Place
 CD_QC_Missisquoi,CD,Missisquoi,QC,1851;1861;1871;1881;1891;1901;1911;1921,E53_Place
@@ -879,9 +423,7 @@ CD_QC_Montmagny,CD,Montmagny,QC,1861;1871;1881;1891;1901;1911;1921,E53_Place
 CD_QC_Montmorency,CD,Montmorency,QC,1851;1861;1871;1881;1891;1901;1911;1921,E53_Place
 CD_QC_Montreal_Centre,CD,Montreal Centre,QC,1871,E53_Place
 CD_QC_Montreal_East,CD,Montreal East,QC,1871,E53_Place
-CD_QC_Montreal_East_1871,CD,Montreal East,QC,1871,E53_Place
 CD_QC_Montreal_West,CD,Montreal West,QC,1871,E53_Place
-CD_QC_Montreal_West_1871,CD,Montreal West,QC,1871,E53_Place
 CD_QC_Montréal,CD,Montréal,QC,1851,E53_Place
 "CD_QC_Montréal,_St._Antoine",CD,"Montréal, St. Antoine",QC,1901;1911,E53_Place
 "CD_QC_Montréal,_St._Jacques",CD,"Montréal, St. Jacques",QC,1901;1911,E53_Place
@@ -890,115 +432,65 @@ CD_QC_Montréal,CD,Montréal,QC,1851,E53_Place
 "CD_QC_Montréal,_Ste._Marie",CD,"Montréal, Ste. Marie",QC,1901;1911,E53_Place
 CD_QC_Montréal_&_Jésus_Islands—Iles,CD,Montréal & Jésus Islands—Iles,QC,1921,E53_Place
 CD_QC_Montréal_1881,CD,Montréal,QC,1881;1891;1901,E53_Place
-CD_QC_Montréal_1881_1881,CD,Montréal,QC,1881,E53_Place
-CD_QC_Montréal_1891,CD,Montréal,QC,1891,E53_Place
-CD_QC_Montréal_1901,CD,Montréal,QC,1901,E53_Place
 CD_QC_Mégantic,CD,Mégantic,QC,1861;1871;1881;1891;1901;1911;1921,E53_Place
 CD_QC_Mégantic_1861,CD,Mégantic,QC,1861,E53_Place
-CD_QC_Mégantic_1861_1861,CD,Mégantic,QC,1861,E53_Place
-CD_QC_Mégantic_1871,CD,Mégantic,QC,1871,E53_Place
-CD_QC_Mégantic_1881,CD,Mégantic,QC,1881,E53_Place
 CD_QC_Napierville,CD,Napierville,QC,1861;1871;1881;1891,E53_Place
 CD_QC_Napierville_1921,CD,Napierville,QC,1921,E53_Place
-CD_QC_Napierville_1921_1921,CD,Napierville,QC,1921,E53_Place
 CD_QC_Nicolet,CD,Nicolet,QC,1851;1861;1871;1881;1891;1901;1911;1921,E53_Place
 CD_QC_Ottaoua_Centre,CD,Ottaoua Centre,QC,1871,E53_Place
 CD_QC_Ottaoua_East,CD,Ottaoua East,QC,1871,E53_Place
-CD_QC_Ottaoua_East_1871,CD,Ottaoua East,QC,1871,E53_Place
 CD_QC_Ottawa_County,CD,Ottawa County,QC,1881;1891,E53_Place
-CD_QC_Ottawa_County_1881,CD,Ottawa County,QC,1881,E53_Place
-CD_QC_Ottawa_County_1891,CD,Ottawa County,QC,1891,E53_Place
 CD_QC_Ottawa_West,CD,Ottawa West,QC,1871,E53_Place
-CD_QC_Ottawa_West_1871,CD,Ottawa West,QC,1871,E53_Place
 CD_QC_Outaouais,CD,Outaouais,QC,1851;1861,E53_Place
 CD_QC_Pontiac,CD,Pontiac,QC,1861;1881;1891;1901;1911;1921,E53_Place
 CD_QC_Pontiac_North,CD,Pontiac North,QC,1871,E53_Place
-CD_QC_Pontiac_North_1871,CD,Pontiac North,QC,1871,E53_Place
 CD_QC_Pontiac_South,CD,Pontiac South,QC,1871,E53_Place
-CD_QC_Pontiac_South_1871,CD,Pontiac South,QC,1871,E53_Place
 CD_QC_Portneuf,CD,Portneuf,QC,1851;1861;1871;1881;1891;1901;1911;1921,E53_Place
 CD_QC_Quebec_Centre,CD,Quebec Centre,QC,1871,E53_Place
 CD_QC_Quebec_City,CD,Quebec City,QC,1881;1891,E53_Place
-CD_QC_Quebec_City_1881,CD,Quebec City,QC,1881,E53_Place
-CD_QC_Quebec_City_1891,CD,Quebec City,QC,1891,E53_Place
 CD_QC_Quebec_County,CD,Quebec County,QC,1851;1861;1871;1881;1891;1901;1911;1921,E53_Place
-CD_QC_Quebec_County_1851,CD,Quebec County,QC,1851;1861;1871,E53_Place
-CD_QC_Quebec_County_1881,CD,Quebec County,QC,1881,E53_Place
-CD_QC_Quebec_County_1891,CD,Quebec County,QC,1891,E53_Place
-CD_QC_Quebec_County_1901,CD,Quebec County,QC,1901,E53_Place
-CD_QC_Quebec_County_1911,CD,Quebec County,QC,1911,E53_Place
-CD_QC_Quebec_County_1921,CD,Quebec County,QC,1921,E53_Place
 CD_QC_Quebec_East,CD,Quebec East,QC,1871,E53_Place
-CD_QC_Quebec_East_1871,CD,Quebec East,QC,1871,E53_Place
 CD_QC_Quebec_West,CD,Quebec West,QC,1871,E53_Place
-CD_QC_Quebec_West_1871,CD,Quebec West,QC,1871,E53_Place
 CD_QC_Québec_Centre,CD,Québec Centre,QC,1901;1911,E53_Place
 CD_QC_Québec_East,CD,Québec East,QC,1901;1911,E53_Place
-CD_QC_Québec_East_1901,CD,Québec East,QC,1901,E53_Place
-CD_QC_Québec_East_1911,CD,Québec East,QC,1911,E53_Place
 CD_QC_Québec_West,CD,Québec West,QC,1901;1911,E53_Place
-CD_QC_Québec_West_1901,CD,Québec West,QC,1901,E53_Place
-CD_QC_Québec_West_1911,CD,Québec West,QC,1911,E53_Place
 CD_QC_Richelieu,CD,Richelieu,QC,1851;1861;1871;1881;1891;1901;1911;1921,E53_Place
 CD_QC_Richmond,CD,Richmond,QC,1861;1871,E53_Place
 CD_QC_Richmond_&_Wolfe,CD,Richmond & Wolfe,QC,1881;1891;1901;1911,E53_Place
 CD_QC_Richmond_1921,CD,Richmond,QC,1921,E53_Place
-CD_QC_Richmond_1921_1921,CD,Richmond,QC,1921,E53_Place
 CD_QC_Rimouski,CD,Rimouski,QC,1851;1861;1881;1891;1901;1911;1921,E53_Place
 CD_QC_Rimouski_East,CD,Rimouski East,QC,1871,E53_Place
-CD_QC_Rimouski_East_1871,CD,Rimouski East,QC,1871,E53_Place
 CD_QC_Rimouski_West,CD,Rimouski West,QC,1871,E53_Place
-CD_QC_Rimouski_West_1871,CD,Rimouski West,QC,1871,E53_Place
 CD_QC_Rouville,CD,Rouville,QC,1851;1861;1871;1881;1891;1901;1911;1921,E53_Place
 CD_QC_Saguenay,CD,Saguenay,QC,1851;1861;1871,E53_Place
 CD_QC_Saguenay_1921,CD,Saguenay,QC,1921,E53_Place
-CD_QC_Saguenay_1921_1921,CD,Saguenay,QC,1921,E53_Place
 CD_QC_Saint_Maurice_North,CD,Saint Maurice North,QC,1871,E53_Place
-CD_QC_Saint_Maurice_North_1871,CD,Saint Maurice North,QC,1871,E53_Place
 CD_QC_Saint_Maurice_South,CD,Saint Maurice South,QC,1871,E53_Place
-CD_QC_Saint_Maurice_South_1871,CD,Saint Maurice South,QC,1871,E53_Place
 CD_QC_Shefford,CD,Shefford,QC,1851;1861;1871;1881;1891;1901;1911;1921,E53_Place
-CD_QC_Sherbrooke,CD,Sherbrooke,QC,1851;1861,E53_Place
+CD_QC_Sherbrooke,CD,Sherbrooke,QC,1851,E53_Place
 CD_QC_Sherbrooke_1861,CD,Sherbrooke,QC,1861;1871;1881;1891;1901;1911;1921,E53_Place
-CD_QC_Sherbrooke_1871,CD,Sherbrooke,QC,1871,E53_Place
-CD_QC_Sherbrooke_1881,CD,Sherbrooke,QC,1881,E53_Place
-CD_QC_Sherbrooke_1891,CD,Sherbrooke,QC,1891,E53_Place
-CD_QC_Sherbrooke_1901,CD,Sherbrooke,QC,1901,E53_Place
-CD_QC_Sherbrooke_1911,CD,Sherbrooke,QC,1911,E53_Place
-CD_QC_Sherbrooke_1921,CD,Sherbrooke,QC,1921,E53_Place
 CD_QC_Soulanges,CD,Soulanges,QC,1861;1871;1881;1891;1901;1911;1921,E53_Place
 CD_QC_St._Hyacinthe,CD,St. Hyacinthe,QC,1851;1861;1871;1881;1891;1901;1911;1921,E53_Place
 CD_QC_St._Jean,CD,St. Jean,QC,1861;1871;1881;1891,E53_Place
 CD_QC_St._Jean_&_Iberville,CD,St. Jean & Iberville,QC,1901;1911,E53_Place
 CD_QC_St._Jean_1921,CD,St. Jean,QC,1921,E53_Place
-CD_QC_St._Jean_1921_1921,CD,St. Jean,QC,1921,E53_Place
 CD_QC_St._Maurice,CD,St. Maurice,QC,1851;1861,E53_Place
 CD_QC_St._Maurice_1921,CD,St. Maurice,QC,1921,E53_Place
-CD_QC_St._Maurice_1921_1921,CD,St. Maurice,QC,1921,E53_Place
 CD_QC_Stanstead,CD,Stanstead,QC,1851;1861;1871;1881;1891;1901;1911;1921,E53_Place
 CD_QC_Temiscouata,CD,Temiscouata,QC,1861;1871;1881;1891;1901;1911;1921,E53_Place
-CD_QC_Temiscouata_1891,CD,Temiscouata,QC,1891,E53_Place
-CD_QC_Temiscouata_1911,CD,Temiscouata,QC,1911,E53_Place
-CD_QC_Temiscouata_1921,CD,Temiscouata,QC,1921,E53_Place
 CD_QC_Terrebonne,CD,Terrebonne,QC,1851;1861;1871;1881;1891;1901;1911;1921,E53_Place
 CD_QC_Trois-Rivières,CD,Trois-Rivières,QC,1871;1881;1891,E53_Place
 CD_QC_Trois-Rivières_&_St._Maurice,CD,Trois-Rivières & St. Maurice,QC,1881;1891;1901;1911,E53_Place
-CD_QC_Trois-Rivières_1871,CD,Trois-Rivières,QC,1871,E53_Place
 CD_QC_Témiscamingue,CD,Témiscamingue,QC,1921,E53_Place
 "CD_QC_Unorganized_Districts_-_Abitibi,_Ashuanipi,_Mistassini",CD,"Unorganized Districts - Abitibi, Ashuanipi, Mistassini",QC,1901,E53_Place
 CD_QC_Unorganized_parts_-_Parties_non_organisées,CD,Unorganized parts - Parties non organisées,QC,1911,E53_Place
 CD_QC_Vaudreuil,CD,Vaudreuil,QC,1851;1861;1871;1881;1891;1901;1911;1921,E53_Place
 CD_QC_Verchères,CD,Verchères,QC,1851;1861;1871;1881;1891,E53_Place
-CD_QC_Verchères_1861,CD,Verchères,QC,1861,E53_Place
-CD_QC_Verchères_1871,CD,Verchères,QC,1871,E53_Place
 CD_QC_Verchères_1921,CD,Verchères,QC,1921,E53_Place
-CD_QC_Verchères_1921_1921,CD,Verchères,QC,1921,E53_Place
 CD_QC_Wolfe,CD,Wolfe,QC,1861;1871,E53_Place
 CD_QC_Wolfe_1921,CD,Wolfe,QC,1921,E53_Place
-CD_QC_Wolfe_1921_1921,CD,Wolfe,QC,1921,E53_Place
 CD_QC_Wright,CD,Wright,QC,1901;1911,E53_Place
 CD_QC_Yamaska,CD,Yamaska,QC,1851;1861;1871;1881;1891;1901;1911;1921,E53_Place
-CD_QC_Yamaska_1891,CD,Yamaska,QC,1891,E53_Place
 CD_SK_Assiniboia,CD,Assiniboia,SK,1911,E53_Place
 CD_SK_Battleford,CD,Battleford,SK,1911,E53_Place
 CD_SK_Division_No._1,CD,Division No. 1,SK,1921,E53_Place

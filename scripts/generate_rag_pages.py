@@ -2267,6 +2267,7 @@ def prefetch_cd_data(presence_data):
         if len(chains) == 1:
             cd_display_label[chains[0][0]] = name
             continue
+        proposed = {}
         for chain_id, years_active in chains:
             years = [y for y in (years_active or "").split(";") if y]
             if not years:
@@ -2275,7 +2276,21 @@ def prefetch_cd_data(presence_data):
                 qual = years[0]
             else:
                 qual = f"{years[0]}–{years[-1]}"
-            cd_display_label[chain_id] = f"{name} ({qual})" if qual else name
+            proposed[chain_id] = f"{name} ({qual})" if qual else name
+        # Tiebreaker: when two chains share name AND year range (e.g. ON has
+        # two distinct CDs both named "Brant" both spanning only 1861, with
+        # different geometries from raw cd_ids `CD_ON_Brant` vs `CD_ON_Brant_`),
+        # the year qualifier alone collides. Append "(var. N)" to ties past
+        # the first, ordered by chain_id for determinism.
+        by_label = defaultdict(list)
+        for chain_id, lbl in proposed.items():
+            by_label[lbl].append(chain_id)
+        for lbl, tied in by_label.items():
+            if len(tied) == 1:
+                cd_display_label[tied[0]] = lbl
+                continue
+            for i, chain_id in enumerate(sorted(tied), start=1):
+                cd_display_label[chain_id] = lbl if i == 1 else f"{lbl} (var. {i})"
     n_disambig = sum(1 for v in cd_display_label.values() if "(" in v)
     print(f"[prefetch-cds] {n_disambig} CD chains given disambiguated display labels",
           flush=True)

@@ -136,6 +136,15 @@ neo4j_cidoc_crm_v2/e53_place_uri.csv: \
 		wikidata_grounding/csd_chain_qid_xrefs.csv
 	$(PYTHON) scripts/join_wikidata_to_places.py
 
+# Cross-chain QID xref: chains sharing a Wikidata QID, used by the renderer
+# to emit the "Same Wikidata entity, other presences" link block.
+neo4j_cidoc_crm_v2/e53_qid_xref.csv: \
+		scripts/build_qid_xref.py \
+		neo4j_cidoc_crm_v2/e53_place_uri.csv \
+		neo4j_cidoc_crm_v2/e53_place_csd.csv \
+		neo4j_cidoc_crm_v2/e53_place_cd.csv
+	$(PYTHON) scripts/build_qid_xref.py
+
 # ---- Stage 5: DCB persons (Dictionary of Canadian Biography) ---------------
 # Independent of CD chains; depends only on persistent_place registries.
 
@@ -177,6 +186,7 @@ pilot/on_kuzu/nodes/place.csv: \
 rag_site/index.html: \
 		scripts/generate_rag_pages.py \
 		neo4j_cidoc_crm_v2/e53_place_uri.csv \
+		neo4j_cidoc_crm_v2/e53_qid_xref.csv \
 		neo4j_cidoc_crm_v2/p10_csd_within_cd_presence_1901.csv \
 		neo4j_cidoc_crm_v2/p132_spatiotemporally_overlaps_with_csd.csv \
 		neo4j_cidoc_crm_v2/e41_appellations.csv \

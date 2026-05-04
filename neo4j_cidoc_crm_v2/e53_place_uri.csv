@@ -11168,10 +11168,8 @@ CD_AB_Victoria,https://jimclifford.ca/hgiscanada/cds/ab/victoria/,minted_hgis_cd
 CD_BC_British_Colombia,http://www.wikidata.org/entity/Q1973,wikidata,Q1973,British Columbia,matched,
 CD_BC_Burrard,https://jimclifford.ca/hgiscanada/cds/bc/burrard/,minted_hgis_cd,,,mint_uri,BC 1921 federal electoral district named after Burrard Inlet; no modern county equivalent.
 CD_BC_Burrard_1921,https://jimclifford.ca/hgiscanada/cds/bc/burrard-1921/,minted_hgis_cd,,,mint_uri,BC 1921 federal electoral district named after Burrard Inlet; no modern county equivalent.
-CD_BC_Burrard_1921_1921,https://jimclifford.ca/hgiscanada/cds/bc/burrard-1921-1921/,minted_hgis_cd,,,ungrounded,
 CD_BC_Cariboo,https://jimclifford.ca/hgiscanada/cds/bc/cariboo/,minted_hgis_cd,,,mint_uri,BC 1921 federal electoral district named after Cariboo region; not coterminous with modern Cariboo Regional District.
 CD_BC_Cariboo_1921,https://jimclifford.ca/hgiscanada/cds/bc/cariboo-1921/,minted_hgis_cd,,,mint_uri,BC 1921 federal electoral district named after Cariboo region; not coterminous with modern Cariboo Regional District.
-CD_BC_Cariboo_1921_1921,https://jimclifford.ca/hgiscanada/cds/bc/cariboo-1921-1921/,minted_hgis_cd,,,ungrounded,
 CD_BC_Comox-Alberni,https://jimclifford.ca/hgiscanada/cds/bc/comox-alberni/,minted_hgis_cd,,,mint_uri,BC 1921 federal electoral district; no modern equivalent.
 CD_BC_Comox-Atlin,https://jimclifford.ca/hgiscanada/cds/bc/comox-atlin/,minted_hgis_cd,,,mint_uri,BC 1921 federal electoral district; no modern equivalent.
 CD_BC_Fraser_Valley,https://jimclifford.ca/hgiscanada/cds/bc/fraser-valley/,minted_hgis_cd,,,mint_uri,BC 1921 federal electoral district; not coterminous with modern Fraser Valley Regional District.
@@ -11187,12 +11185,10 @@ CD_BC_Vancouver_City,http://www.wikidata.org/entity/Q24639,wikidata,Q24639,Vanco
 CD_BC_Vancouver_South,https://jimclifford.ca/hgiscanada/cds/bc/vancouver-south/,minted_hgis_cd,,,mint_uri,BC 1921 federal electoral district inside city of Vancouver; no modern equivalent.
 CD_BC_Victoria,https://jimclifford.ca/hgiscanada/cds/bc/victoria/,minted_hgis_cd,,,mint_uri,BC 1921 federal electoral district covering area around Victoria; not coterminous with City of Victoria.
 CD_BC_Victoria_1901,https://jimclifford.ca/hgiscanada/cds/bc/victoria-1901/,minted_hgis_cd,,,mint_uri,BC 1921 federal electoral district covering area around Victoria; not coterminous with City of Victoria.
-CD_BC_Victoria_1901_1901,https://jimclifford.ca/hgiscanada/cds/bc/victoria-1901-1901/,minted_hgis_cd,,,ungrounded,
 CD_BC_Victoria_City,https://jimclifford.ca/hgiscanada/cds/bc/victoria-city/,minted_hgis_cd,,,mint_uri,BC 1921 federal electoral district covering area around Victoria (variant with trailing space); not coterminous with City of Victoria.
 CD_BC_Yale,https://jimclifford.ca/hgiscanada/cds/bc/yale/,minted_hgis_cd,,,mint_uri,BC 1921 federal electoral district named after Yale; no modern county/CD equivalent.
 CD_BC_Yale_&_Cariboo,https://jimclifford.ca/hgiscanada/cds/bc/yale-cariboo/,minted_hgis_cd,,,mint_uri,BC composite federal electoral district (Yale + Cariboo); no single Wikidata entity.
 CD_BC_Yale_1921,https://jimclifford.ca/hgiscanada/cds/bc/yale-1921/,minted_hgis_cd,,,mint_uri,BC 1921 federal electoral district named after Yale; no modern county/CD equivalent.
-CD_BC_Yale_1921_1921,https://jimclifford.ca/hgiscanada/cds/bc/yale-1921-1921/,minted_hgis_cd,,,ungrounded,
 CD_MB_Brandon,https://jimclifford.ca/hgiscanada/cds/mb/brandon/,minted_hgis_cd,,,mint_uri,MB 1921 federal electoral district named after Brandon; not coterminous with city.
 CD_MB_Dauphin,https://jimclifford.ca/hgiscanada/cds/mb/dauphin/,minted_hgis_cd,,,mint_uri,MB 1921 federal electoral district named after Dauphin; not coterminous with town.
 CD_MB_Division_No._1,http://www.wikidata.org/entity/Q1363319,wikidata,Q1363319,Division No. 1,matched,
@@ -11219,26 +11215,18 @@ CD_MB_Marquette,https://jimclifford.ca/hgiscanada/cds/mb/marquette/,minted_hgis_
 CD_MB_Portage_La_Prairie,https://jimclifford.ca/hgiscanada/cds/mb/portage-la-prairie/,minted_hgis_cd,,,mint_uri,MB 1921 federal electoral district named after Portage la Prairie; not coterminous with town.
 CD_MB_Provencher,https://jimclifford.ca/hgiscanada/cds/mb/provencher/,minted_hgis_cd,,,mint_uri,MB 1921 federal electoral district named after J.-N. Provencher; no modern county equivalent.
 CD_MB_Provencher_1881,https://jimclifford.ca/hgiscanada/cds/mb/provencher-1881/,minted_hgis_cd,,,mint_uri,MB 1921 federal electoral district named after J.-N. Provencher (variant with trailing space); no modern county equivalent.
-CD_MB_Provencher_1881_1881,https://jimclifford.ca/hgiscanada/cds/mb/provencher-1881-1881/,minted_hgis_cd,,,ungrounded,
 CD_MB_Provencher_1891,https://jimclifford.ca/hgiscanada/cds/mb/provencher-1891/,minted_hgis_cd,,,mint_uri,MB 1921 federal electoral district named after J.-N. Provencher (variant with trailing space); no modern county equivalent.
 CD_MB_Provencher_1891_1891,https://jimclifford.ca/hgiscanada/cds/mb/provencher-1891-1891/,minted_hgis_cd,,,mint_uri,MB 1921 federal electoral district named after J.-N. Provencher; no modern county equivalent.
-CD_MB_Provencher_1891_1891_1891,https://jimclifford.ca/hgiscanada/cds/mb/provencher-1891-1891-1891/,minted_hgis_cd,,,ungrounded,
-CD_MB_Provencher_1891_1891_1891_1891,https://jimclifford.ca/hgiscanada/cds/mb/provencher-1891-1891-1891-1891/,minted_hgis_cd,,,ungrounded,
 CD_MB_Selkirk,https://jimclifford.ca/hgiscanada/cds/mb/selkirk/,minted_hgis_cd,,,mint_uri,MB 1921 federal electoral district named after Lord Selkirk; not coterminous with town.
 CD_MB_Souris,https://jimclifford.ca/hgiscanada/cds/mb/souris/,minted_hgis_cd,,,mint_uri,MB 1921 federal electoral district named after Souris River/town; no modern equivalent.
 CD_MB_Winnipeg_City,http://www.wikidata.org/entity/Q2135,wikidata,Q2135,Winnipeg,matched,
-CD_MB_Winnipeg_City_1891,http://www.wikidata.org/entity/Q2135,wikidata,Q2135,Winnipeg,matched,
-CD_MB_Winnipeg_City_1901,http://www.wikidata.org/entity/Q2135,wikidata,Q2135,Winnipeg,matched,
 CD_NB_Albert,http://www.wikidata.org/entity/Q1293527,wikidata,Q1293527,Albert County,matched,
 CD_NB_Albert_1921,http://www.wikidata.org/entity/Q1293527,wikidata,Q1293527,Albert County,matched,
-CD_NB_Albert_1921_1921,https://jimclifford.ca/hgiscanada/cds/nb/albert-1921-1921/,minted_hgis_cd,,,ungrounded,
 CD_NB_Carleton,http://www.wikidata.org/entity/Q2429216,wikidata,Q2429216,Carleton County,matched,
 CD_NB_Charlotte,http://www.wikidata.org/entity/Q1067162,wikidata,Q1067162,Charlotte County,matched,
 CD_NB_Gloucester,http://www.wikidata.org/entity/Q963112,wikidata,Q963112,Gloucester County,matched,
 CD_NB_Kent,http://www.wikidata.org/entity/Q2542413,wikidata,Q2542413,Kent County,matched,
 CD_NB_King's,http://www.wikidata.org/entity/Q1670967,wikidata,Q1670967,Kings County,matched,
-CD_NB_King's_1891,http://www.wikidata.org/entity/Q1670967,wikidata,Q1670967,Kings County,matched,
-CD_NB_King's_1901,http://www.wikidata.org/entity/Q1670967,wikidata,Q1670967,Kings County,matched,
 CD_NB_Kings,http://www.wikidata.org/entity/Q1670967,wikidata,Q1670967,Kings County,matched,
 CD_NB_Kings_&_Albert,https://jimclifford.ca/hgiscanada/cds/nb/kings-albert/,minted_hgis_cd,,,mint_uri,NB composite CD covering Kings and Albert counties together; no single Wikidata entity.
 CD_NB_Madawaska,http://www.wikidata.org/entity/Q181004,wikidata,Q181004,Madawaska County,matched,
@@ -11249,14 +11237,11 @@ CD_NB_Queens,http://www.wikidata.org/entity/Q2542396,wikidata,Q2542396,Queens Co
 CD_NB_Restigouche,http://www.wikidata.org/entity/Q2542491,wikidata,Q2542491,Restigouche County,matched,
 CD_NB_St._John,http://www.wikidata.org/entity/Q1786989,wikidata,Q1786989,Saint John County,matched,
 CD_NB_St._John_City,https://jimclifford.ca/hgiscanada/cds/nb/st-john-city/,minted_hgis_cd,,,mint_uri,NB 1921 census subdivision for City of Saint John (city portion only); historic city pre-amalgamation has no separate Wikidata entity.
-CD_NB_St._John_City_1881,https://jimclifford.ca/hgiscanada/cds/nb/st-john-city-1881/,minted_hgis_cd,,,ungrounded,
 CD_NB_Sunbury,http://www.wikidata.org/entity/Q543098,wikidata,Q543098,Sunbury County,matched,
 CD_NB_Sunbury_&_Queens,https://jimclifford.ca/hgiscanada/cds/nb/sunbury-queens/,minted_hgis_cd,,,mint_uri,NB composite CD covering Sunbury and Queens counties together; no single Wikidata entity.
 CD_NB_Sunbury_1921,http://www.wikidata.org/entity/Q543098,wikidata,Q543098,Sunbury County,matched,
-CD_NB_Sunbury_1921_1921,https://jimclifford.ca/hgiscanada/cds/nb/sunbury-1921-1921/,minted_hgis_cd,,,ungrounded,
 CD_NB_Victoria,http://www.wikidata.org/entity/Q1520380,wikidata,Q1520380,Victoria County,matched,
 CD_NB_Victoria_1921,http://www.wikidata.org/entity/Q1520380,wikidata,Q1520380,Victoria County,matched,
-CD_NB_Victoria_1921_1921,https://jimclifford.ca/hgiscanada/cds/nb/victoria-1921-1921/,minted_hgis_cd,,,ungrounded,
 CD_NB_Westmorland,http://www.wikidata.org/entity/Q1147110,wikidata,Q1147110,Westmorland County,matched,
 CD_NB_York,http://www.wikidata.org/entity/Q1752038,wikidata,Q1752038,York County,matched,
 CD_NL_Labrador,http://www.wikidata.org/entity/Q380307,wikidata,Q380307,Labrador,matched,
@@ -11266,19 +11251,13 @@ CD_NS_Antigonish,http://www.wikidata.org/entity/Q575491,wikidata,Q575491,Antigon
 CD_NS_Cape_Breton,http://www.wikidata.org/entity/Q2658942,wikidata,Q2658942,Cape Breton County,matched,
 CD_NS_Cape_Breton_N._&_Victoria,https://jimclifford.ca/hgiscanada/cds/ns/cape-breton-n-victoria/,minted_hgis_cd,,,mint_uri,NS composite CD covering northern Cape Breton + Victoria County; no single Wikidata entity.
 CD_NS_Cape_Breton_South,https://jimclifford.ca/hgiscanada/cds/ns/cape-breton-south/,minted_hgis_cd,,,mint_uri,NS 1921 federal electoral subdivision (South half of Cape Breton); no single Wikidata entity.
-CD_NS_Cape_Breton_South_1911,https://jimclifford.ca/hgiscanada/cds/ns/cape-breton-south-1911/,minted_hgis_cd,,,ungrounded,
 CD_NS_Colchester,http://www.wikidata.org/entity/Q595326,wikidata,Q595326,Colchester County,matched,
 CD_NS_Cumberland,http://www.wikidata.org/entity/Q2559621,wikidata,Q2559621,Cumberland County,matched,
 CD_NS_Digby,http://www.wikidata.org/entity/Q2630244,wikidata,Q2630244,Digby County,matched,
 CD_NS_Guysborough,http://www.wikidata.org/entity/Q501045,wikidata,Q501045,Guysborough County,matched,
 CD_NS_Halifax_City,http://www.wikidata.org/entity/Q2630280,wikidata,Q2630280,Halifax County,matched,
-CD_NS_Halifax_City_1881,https://jimclifford.ca/hgiscanada/cds/ns/halifax-city-1881/,minted_hgis_cd,,,ungrounded,
-CD_NS_Halifax_City_1891,https://jimclifford.ca/hgiscanada/cds/ns/halifax-city-1891/,minted_hgis_cd,,,ungrounded,
-CD_NS_Halifax_City_1901,https://jimclifford.ca/hgiscanada/cds/ns/halifax-city-1901/,minted_hgis_cd,,,ungrounded,
 CD_NS_Halifax_East,https://jimclifford.ca/hgiscanada/cds/ns/halifax-east/,minted_hgis_cd,,,mint_uri,NS 1921 federal electoral subdivision (East half of Halifax County); no Wikidata entity.
-CD_NS_Halifax_East_1871,https://jimclifford.ca/hgiscanada/cds/ns/halifax-east-1871/,minted_hgis_cd,,,ungrounded,
 CD_NS_Halifax_West,https://jimclifford.ca/hgiscanada/cds/ns/halifax-west/,minted_hgis_cd,,,mint_uri,NS 1921 federal electoral subdivision (West half of Halifax County); no Wikidata entity.
-CD_NS_Halifax_West_1871,https://jimclifford.ca/hgiscanada/cds/ns/halifax-west-1871/,minted_hgis_cd,,,ungrounded,
 CD_NS_Hants,http://www.wikidata.org/entity/Q2630239,wikidata,Q2630239,Hants County,matched,
 CD_NS_Inverness,http://www.wikidata.org/entity/Q2630310,wikidata,Q2630310,Inverness County,matched,
 CD_NS_Kings,http://www.wikidata.org/entity/Q671105,wikidata,Q671105,Kings County,matched,
@@ -11287,23 +11266,16 @@ CD_NS_Nova_Scotia,http://www.wikidata.org/entity/Q1952,wikidata,Q1952,Nova Scoti
 CD_NS_Pictou,http://www.wikidata.org/entity/Q2092485,wikidata,Q2092485,Pictou County,matched,
 CD_NS_Queens,http://www.wikidata.org/entity/Q2006307,wikidata,Q2006307,Queens County,matched,
 CD_NS_Queens_1921,http://www.wikidata.org/entity/Q2006307,wikidata,Q2006307,Queens County,matched,
-CD_NS_Queens_1921_1921,https://jimclifford.ca/hgiscanada/cds/ns/queens-1921-1921/,minted_hgis_cd,,,ungrounded,
 CD_NS_Richmond,http://www.wikidata.org/entity/Q2658971,wikidata,Q2658971,Richmond County,matched,
 CD_NS_Shelburne,http://www.wikidata.org/entity/Q2096191,wikidata,Q2096191,Shelburne County,matched,
 CD_NS_Shelburne_&_Queens,https://jimclifford.ca/hgiscanada/cds/ns/shelburne-queens/,minted_hgis_cd,,,mint_uri,NS composite CD covering Shelburne and Queens counties together; no single Wikidata entity.
 CD_NS_Shelburne_1921,http://www.wikidata.org/entity/Q2096191,wikidata,Q2096191,Shelburne County,matched,
-CD_NS_Shelburne_1921_1921,https://jimclifford.ca/hgiscanada/cds/ns/shelburne-1921-1921/,minted_hgis_cd,,,ungrounded,
 CD_NS_Victoria,http://www.wikidata.org/entity/Q1116334,wikidata,Q1116334,Victoria County,matched,
 CD_NS_Victoria_1921,http://www.wikidata.org/entity/Q1116334,wikidata,Q1116334,Victoria County,matched,
-CD_NS_Victoria_1921_1921,https://jimclifford.ca/hgiscanada/cds/ns/victoria-1921-1921/,minted_hgis_cd,,,ungrounded,
 CD_NS_Yarmouth,http://www.wikidata.org/entity/Q388130,wikidata,Q388130,Yarmouth County,matched,
 CD_NT_Alberta,http://www.wikidata.org/entity/Q5283390,wikidata,Q5283390,Alberta District,matched,
 CD_NT_Assiniboia_East,https://jimclifford.ca/hgiscanada/cds/nt/assiniboia-east/,minted_hgis_cd,,,mint_uri,East half of pre-1905 Assiniboia District (NWT); no single Wikidata entity for the half.
-CD_NT_Assiniboia_East_1891,https://jimclifford.ca/hgiscanada/cds/nt/assiniboia-east-1891/,minted_hgis_cd,,,ungrounded,
-CD_NT_Assiniboia_East_1901,https://jimclifford.ca/hgiscanada/cds/nt/assiniboia-east-1901/,minted_hgis_cd,,,ungrounded,
 CD_NT_Assiniboia_West,https://jimclifford.ca/hgiscanada/cds/nt/assiniboia-west/,minted_hgis_cd,,,mint_uri,West half of pre-1905 Assiniboia District (NWT); no single Wikidata entity for the half.
-CD_NT_Assiniboia_West_1891,https://jimclifford.ca/hgiscanada/cds/nt/assiniboia-west-1891/,minted_hgis_cd,,,ungrounded,
-CD_NT_Assiniboia_West_1901,https://jimclifford.ca/hgiscanada/cds/nt/assiniboia-west-1901/,minted_hgis_cd,,,ungrounded,
 CD_NT_Northwest_Territories,http://www.wikidata.org/entity/Q2007,wikidata,Q2007,Northwest Territories,matched,
 CD_NT_Saskatchewan,http://www.wikidata.org/entity/Q5283474,wikidata,Q5283474,Saskatchewan District,matched,
 CD_NT_The_Territories,https://jimclifford.ca/hgiscanada/cds/nt/the-territories/,minted_hgis_cd,,,mint_uri,Composite/aggregate NWT census row; no single Wikidata entity covers the boundary.
@@ -11312,68 +11284,31 @@ CD_NT_Unorganized_Territories,https://jimclifford.ca/hgiscanada/cds/nt/unorganiz
 CD_NT_Unorganized_Territories—Territoires_non-organisés,https://jimclifford.ca/hgiscanada/cds/nt/unorganized-territories-territoires-non-organis-s/,minted_hgis_cd,,,mint_uri,Aggregate of unorganized NWT areas; no single Wikidata entity covers the boundary.
 CD_ON_Addington,http://www.wikidata.org/entity/Q4681175,wikidata,Q4681175,Addington County,matched,
 CD_ON_Addington_1871,http://www.wikidata.org/entity/Q4681175,wikidata,Q4681175,Addington County,matched,
-CD_ON_Addington_1871_1871,https://jimclifford.ca/hgiscanada/cds/on/addington-1871-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_Addington_1881,https://jimclifford.ca/hgiscanada/cds/on/addington-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Addington_1891,https://jimclifford.ca/hgiscanada/cds/on/addington-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Addington_1901,https://jimclifford.ca/hgiscanada/cds/on/addington-1901/,minted_hgis_cd,,,ungrounded,
 CD_ON_Addington_1921,http://www.wikidata.org/entity/Q4681175,wikidata,Q4681175,Addington County,matched,
-CD_ON_Addington_1921_1921,https://jimclifford.ca/hgiscanada/cds/on/addington-1921-1921/,minted_hgis_cd,,,ungrounded,
 CD_ON_Algoma,http://www.wikidata.org/entity/Q2140691,wikidata,Q2140691,Algoma District,matched,
 CD_ON_Algoma_Centre,https://jimclifford.ca/hgiscanada/cds/on/algoma-centre/,minted_hgis_cd,,,mint_uri,ON federal/provincial electoral subdivision (Centre Algoma); no Wikidata entity.
-CD_ON_Algoma_Centre_1871,https://jimclifford.ca/hgiscanada/cds/on/algoma-centre-1871/,minted_hgis_cd,,,ungrounded,
 CD_ON_Algoma_East,https://jimclifford.ca/hgiscanada/cds/on/algoma-east/,minted_hgis_cd,,,mint_uri,ON federal/provincial electoral subdivision (East Algoma); no Wikidata entity.
-CD_ON_Algoma_East_1871,https://jimclifford.ca/hgiscanada/cds/on/algoma-east-1871/,minted_hgis_cd,,,ungrounded,
 CD_ON_Algoma_East_1911,https://jimclifford.ca/hgiscanada/cds/on/algoma-east-1911/,minted_hgis_cd,,,mint_uri,ON federal/provincial electoral subdivision (East half of Algoma District); no Wikidata entity.
-CD_ON_Algoma_East_1911_1911,https://jimclifford.ca/hgiscanada/cds/on/algoma-east-1911-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_Algoma_West,https://jimclifford.ca/hgiscanada/cds/on/algoma-west/,minted_hgis_cd,,,mint_uri,ON federal/provincial electoral subdivision (West Algoma); no Wikidata entity.
-CD_ON_Algoma_West_1871,https://jimclifford.ca/hgiscanada/cds/on/algoma-west-1871/,minted_hgis_cd,,,ungrounded,
 CD_ON_Algoma_West_1911,https://jimclifford.ca/hgiscanada/cds/on/algoma-west-1911/,minted_hgis_cd,,,mint_uri,ON federal/provincial electoral subdivision (West half of Algoma District); no Wikidata entity.
-CD_ON_Algoma_West_1911_1911,https://jimclifford.ca/hgiscanada/cds/on/algoma-west-1911-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_Bothwell,https://jimclifford.ca/hgiscanada/cds/on/bothwell/,minted_hgis_cd,,,mint_uri,"ON federal electoral district (1867-1904), not a county; protocol excludes electoral districts."
 CD_ON_Brant,http://www.wikidata.org/entity/Q384944,wikidata,Q384944,County of Brant,matched,
 "CD_ON_Brant,_North_or_East—Nord_ou_East",https://jimclifford.ca/hgiscanada/cds/on/brant-north-or-east-nord-ou-east/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision of Brant County; no Wikidata entity.
-"CD_ON_Brant,_North_or_East—Nord_ou_East_1871",https://jimclifford.ca/hgiscanada/cds/on/brant-north-or-east-nord-ou-east-1871/,minted_hgis_cd,,,ungrounded,
 "CD_ON_Brant,_South_or_West—Sud_ou_West",https://jimclifford.ca/hgiscanada/cds/on/brant-south-or-west-sud-ou-west/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision of Brant County; no Wikidata entity.
-"CD_ON_Brant,_South_or_West—Sud_ou_West_1871",https://jimclifford.ca/hgiscanada/cds/on/brant-south-or-west-sud-ou-west-1871/,minted_hgis_cd,,,ungrounded,
 CD_ON_Brant_1861,http://www.wikidata.org/entity/Q384944,wikidata,Q384944,County of Brant,matched,
 CD_ON_Brant_1861_1861,http://www.wikidata.org/entity/Q384944,wikidata,Q384944,County of Brant,matched,
-CD_ON_Brant_1861_1861_1861,https://jimclifford.ca/hgiscanada/cds/on/brant-1861-1861-1861/,minted_hgis_cd,,,ungrounded,
-CD_ON_Brant_1861_1861_1861_1861,https://jimclifford.ca/hgiscanada/cds/on/brant-1861-1861-1861-1861/,minted_hgis_cd,,,ungrounded,
 CD_ON_Brant_1911,http://www.wikidata.org/entity/Q384944,wikidata,Q384944,County of Brant,matched,
-CD_ON_Brant_1911_1911,https://jimclifford.ca/hgiscanada/cds/on/brant-1911-1911/,minted_hgis_cd,,,ungrounded,
-CD_ON_Brant_1921,https://jimclifford.ca/hgiscanada/cds/on/brant-1921/,minted_hgis_cd,,,ungrounded,
 CD_ON_Brant_North,https://jimclifford.ca/hgiscanada/cds/on/brant-north/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (North Brant); no Wikidata entity.
-CD_ON_Brant_North_1881,https://jimclifford.ca/hgiscanada/cds/on/brant-north-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Brant_North_1891,https://jimclifford.ca/hgiscanada/cds/on/brant-north-1891/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (North Brant); no Wikidata entity.
-CD_ON_Brant_North_1891_1891,https://jimclifford.ca/hgiscanada/cds/on/brant-north-1891-1891/,minted_hgis_cd,,,ungrounded,
 CD_ON_Brant_South,https://jimclifford.ca/hgiscanada/cds/on/brant-south/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (South Brant); no Wikidata entity.
-CD_ON_Brant_South_1881,https://jimclifford.ca/hgiscanada/cds/on/brant-south-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Brant_South_1891,https://jimclifford.ca/hgiscanada/cds/on/brant-south-1891/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (South Brant); no Wikidata entity.
-CD_ON_Brant_South_1891_1891,https://jimclifford.ca/hgiscanada/cds/on/brant-south-1891-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Brant_South_1901,https://jimclifford.ca/hgiscanada/cds/on/brant-south-1901/,minted_hgis_cd,,,ungrounded,
 CD_ON_Brantford,http://www.wikidata.org/entity/Q34180,wikidata,Q34180,Brantford,matched,
 CD_ON_Brockville,http://www.wikidata.org/entity/Q34047,wikidata,Q34047,Brockville,matched,
 CD_ON_Bruce,http://www.wikidata.org/entity/Q991601,wikidata,Q991601,Bruce County,matched,
 CD_ON_Bruce_1921,http://www.wikidata.org/entity/Q991601,wikidata,Q991601,Bruce County,matched,
-CD_ON_Bruce_1921_1921,https://jimclifford.ca/hgiscanada/cds/on/bruce-1921-1921/,minted_hgis_cd,,,ungrounded,
 CD_ON_Bruce_East,https://jimclifford.ca/hgiscanada/cds/on/bruce-east/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (East Bruce); no Wikidata entity.
-CD_ON_Bruce_East_1891,https://jimclifford.ca/hgiscanada/cds/on/bruce-east-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Bruce_East_1901,https://jimclifford.ca/hgiscanada/cds/on/bruce-east-1901/,minted_hgis_cd,,,ungrounded,
 CD_ON_Bruce_North,https://jimclifford.ca/hgiscanada/cds/on/bruce-north/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (North Bruce); no Wikidata entity.
-CD_ON_Bruce_North_1871,https://jimclifford.ca/hgiscanada/cds/on/bruce-north-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_Bruce_North_1881,https://jimclifford.ca/hgiscanada/cds/on/bruce-north-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Bruce_North_1891,https://jimclifford.ca/hgiscanada/cds/on/bruce-north-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Bruce_North_1901,https://jimclifford.ca/hgiscanada/cds/on/bruce-north-1901/,minted_hgis_cd,,,ungrounded,
-CD_ON_Bruce_North_1911,https://jimclifford.ca/hgiscanada/cds/on/bruce-north-1911/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (North Bruce); no Wikidata entity.
-CD_ON_Bruce_North_1911_1911,https://jimclifford.ca/hgiscanada/cds/on/bruce-north-1911-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_Bruce_South,https://jimclifford.ca/hgiscanada/cds/on/bruce-south/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (South Bruce); no Wikidata entity.
-CD_ON_Bruce_South_1871,https://jimclifford.ca/hgiscanada/cds/on/bruce-south-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_Bruce_South_1881,https://jimclifford.ca/hgiscanada/cds/on/bruce-south-1881/,minted_hgis_cd,,,ungrounded,
 CD_ON_Bruce_South_1911,https://jimclifford.ca/hgiscanada/cds/on/bruce-south-1911/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (South Bruce); no Wikidata entity.
-CD_ON_Bruce_South_1911_1911,https://jimclifford.ca/hgiscanada/cds/on/bruce-south-1911-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_Bruce_West,https://jimclifford.ca/hgiscanada/cds/on/bruce-west/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (West Bruce); no Wikidata entity.
-CD_ON_Bruce_West_1891,https://jimclifford.ca/hgiscanada/cds/on/bruce-west-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Bruce_West_1901,https://jimclifford.ca/hgiscanada/cds/on/bruce-west-1901/,minted_hgis_cd,,,ungrounded,
 CD_ON_Bytown,http://www.wikidata.org/entity/Q1930,wikidata,Q1930,Ottawa,matched,
 CD_ON_Cardwell,https://jimclifford.ca/hgiscanada/cds/on/cardwell/,minted_hgis_cd,,,mint_uri,"ON federal electoral district (1867-1904), not a county; protocol excludes electoral districts."
 CD_ON_Carleton,http://www.wikidata.org/entity/Q4215324,wikidata,Q4215324,Carleton County,matched,
@@ -11381,395 +11316,124 @@ CD_ON_Cornwall,http://www.wikidata.org/entity/Q956690,wikidata,Q956690,Cornwall,
 CD_ON_Dufferin,http://www.wikidata.org/entity/Q1145335,wikidata,Q1145335,Dufferin County,matched,
 CD_ON_Dundas,http://www.wikidata.org/entity/Q5314760,wikidata,Q5314760,Dundas County,matched,
 CD_ON_Durham,http://www.wikidata.org/entity/Q5316491,wikidata,Q5316491,Durham County,matched,
-CD_ON_Durham_1861,http://www.wikidata.org/entity/Q5316491,wikidata,Q5316491,Durham County,matched,
 CD_ON_Durham_East,https://jimclifford.ca/hgiscanada/cds/on/durham-east/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (East Durham); no Wikidata entity.
-CD_ON_Durham_East_1871,https://jimclifford.ca/hgiscanada/cds/on/durham-east-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_Durham_East_1881,https://jimclifford.ca/hgiscanada/cds/on/durham-east-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Durham_East_1891,https://jimclifford.ca/hgiscanada/cds/on/durham-east-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Durham_East_1901,https://jimclifford.ca/hgiscanada/cds/on/durham-east-1901/,minted_hgis_cd,,,ungrounded,
 CD_ON_Durham_West,https://jimclifford.ca/hgiscanada/cds/on/durham-west/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (West Durham); no Wikidata entity.
-CD_ON_Durham_West_1871,https://jimclifford.ca/hgiscanada/cds/on/durham-west-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_Durham_West_1881,https://jimclifford.ca/hgiscanada/cds/on/durham-west-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Durham_West_1891,https://jimclifford.ca/hgiscanada/cds/on/durham-west-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Durham_West_1901,https://jimclifford.ca/hgiscanada/cds/on/durham-west-1901/,minted_hgis_cd,,,ungrounded,
 CD_ON_Elgin,http://www.wikidata.org/entity/Q500757,wikidata,Q500757,Elgin County,matched,
 CD_ON_Elgin_East,https://jimclifford.ca/hgiscanada/cds/on/elgin-east/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (East Elgin); no Wikidata entity.
-CD_ON_Elgin_East_1871,https://jimclifford.ca/hgiscanada/cds/on/elgin-east-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_Elgin_East_1881,https://jimclifford.ca/hgiscanada/cds/on/elgin-east-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Elgin_East_1891,https://jimclifford.ca/hgiscanada/cds/on/elgin-east-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Elgin_East_1901,https://jimclifford.ca/hgiscanada/cds/on/elgin-east-1901/,minted_hgis_cd,,,ungrounded,
-CD_ON_Elgin_East_1911,https://jimclifford.ca/hgiscanada/cds/on/elgin-east-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_Elgin_West,https://jimclifford.ca/hgiscanada/cds/on/elgin-west/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (West Elgin); no Wikidata entity.
-CD_ON_Elgin_West_1871,https://jimclifford.ca/hgiscanada/cds/on/elgin-west-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_Elgin_West_1881,https://jimclifford.ca/hgiscanada/cds/on/elgin-west-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Elgin_West_1891,https://jimclifford.ca/hgiscanada/cds/on/elgin-west-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Elgin_West_1901,https://jimclifford.ca/hgiscanada/cds/on/elgin-west-1901/,minted_hgis_cd,,,ungrounded,
-CD_ON_Elgin_West_1911,https://jimclifford.ca/hgiscanada/cds/on/elgin-west-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_Essex,http://www.wikidata.org/entity/Q953088,wikidata,Q953088,Essex County,matched,
 CD_ON_Essex_North,https://jimclifford.ca/hgiscanada/cds/on/essex-north/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (North Essex); no Wikidata entity.
-CD_ON_Essex_North_1891,https://jimclifford.ca/hgiscanada/cds/on/essex-north-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Essex_North_1901,https://jimclifford.ca/hgiscanada/cds/on/essex-north-1901/,minted_hgis_cd,,,ungrounded,
-CD_ON_Essex_North_1911,https://jimclifford.ca/hgiscanada/cds/on/essex-north-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_Essex_South,https://jimclifford.ca/hgiscanada/cds/on/essex-south/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (South Essex); no Wikidata entity.
-CD_ON_Essex_South_1891,https://jimclifford.ca/hgiscanada/cds/on/essex-south-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Essex_South_1901,https://jimclifford.ca/hgiscanada/cds/on/essex-south-1901/,minted_hgis_cd,,,ungrounded,
-CD_ON_Essex_South_1911,https://jimclifford.ca/hgiscanada/cds/on/essex-south-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_Frontenac,http://www.wikidata.org/entity/Q739928,wikidata,Q739928,Frontenac County,matched,
 CD_ON_Glengarry,http://www.wikidata.org/entity/Q5568538,wikidata,Q5568538,Glengarry County,matched,
 CD_ON_Grenville,https://jimclifford.ca/hgiscanada/cds/on/grenville/,minted_hgis_cd,,,mint_uri,"Q5607516 (Grenville County, Ontario) has only P31=geographical feature, not a county/admin type. No alternative county-typed Wikidata entity for the historic Grenville County."
-CD_ON_Grenville_1861,https://jimclifford.ca/hgiscanada/cds/on/grenville-1861/,minted_hgis_cd,,,mint_uri,"Q5607516 (Grenville County, Ontario) has only P31=geographical feature, not a county/admin type. No alternative county-typed Wikidata entity for the historic Grenville County."
 CD_ON_Grenville_South,https://jimclifford.ca/hgiscanada/cds/on/grenville-south/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (South Grenville); no Wikidata entity.
-CD_ON_Grenville_South_1871,https://jimclifford.ca/hgiscanada/cds/on/grenville-south-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_Grenville_South_1881,https://jimclifford.ca/hgiscanada/cds/on/grenville-south-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Grenville_South_1891,https://jimclifford.ca/hgiscanada/cds/on/grenville-south-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Grenville_South_1901,https://jimclifford.ca/hgiscanada/cds/on/grenville-south-1901/,minted_hgis_cd,,,ungrounded,
 CD_ON_Grey,http://www.wikidata.org/entity/Q1546177,wikidata,Q1546177,Grey County,matched,
-CD_ON_Grey_1921,http://www.wikidata.org/entity/Q1546177,wikidata,Q1546177,Grey County,matched,
 CD_ON_Grey_East,https://jimclifford.ca/hgiscanada/cds/on/grey-east/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (East Grey); no Wikidata entity.
-CD_ON_Grey_East_1881,https://jimclifford.ca/hgiscanada/cds/on/grey-east-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Grey_East_1891,https://jimclifford.ca/hgiscanada/cds/on/grey-east-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Grey_East_1901,https://jimclifford.ca/hgiscanada/cds/on/grey-east-1901/,minted_hgis_cd,,,ungrounded,
-CD_ON_Grey_East_1911,https://jimclifford.ca/hgiscanada/cds/on/grey-east-1911/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (East Grey); no Wikidata entity.
-CD_ON_Grey_East_1911_1911,https://jimclifford.ca/hgiscanada/cds/on/grey-east-1911-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_Grey_North,https://jimclifford.ca/hgiscanada/cds/on/grey-north/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (North Grey); no Wikidata entity.
-CD_ON_Grey_North_1871,https://jimclifford.ca/hgiscanada/cds/on/grey-north-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_Grey_North_1881,https://jimclifford.ca/hgiscanada/cds/on/grey-north-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Grey_North_1891,https://jimclifford.ca/hgiscanada/cds/on/grey-north-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Grey_North_1901,https://jimclifford.ca/hgiscanada/cds/on/grey-north-1901/,minted_hgis_cd,,,ungrounded,
-CD_ON_Grey_North_1911,https://jimclifford.ca/hgiscanada/cds/on/grey-north-1911/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (North Grey); no Wikidata entity.
-CD_ON_Grey_North_1911_1911,https://jimclifford.ca/hgiscanada/cds/on/grey-north-1911-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_Grey_South,https://jimclifford.ca/hgiscanada/cds/on/grey-south/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (South Grey); no Wikidata entity.
-CD_ON_Grey_South_1871,https://jimclifford.ca/hgiscanada/cds/on/grey-south-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_Grey_South_1881,https://jimclifford.ca/hgiscanada/cds/on/grey-south-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Grey_South_1891,https://jimclifford.ca/hgiscanada/cds/on/grey-south-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Grey_South_1901,https://jimclifford.ca/hgiscanada/cds/on/grey-south-1901/,minted_hgis_cd,,,ungrounded,
-CD_ON_Grey_South_1911,https://jimclifford.ca/hgiscanada/cds/on/grey-south-1911/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (South Grey); no Wikidata entity.
-CD_ON_Grey_South_1911_1911,https://jimclifford.ca/hgiscanada/cds/on/grey-south-1911-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_Haldimand,http://www.wikidata.org/entity/Q385346,wikidata,Q385346,Haldimand County,matched,
 CD_ON_Haldimand_&_Monok,https://jimclifford.ca/hgiscanada/cds/on/haldimand-monok/,minted_hgis_cd,,,mint_uri,ON composite CD (Haldimand County + Monck township/electoral); no single Wikidata entity.
 CD_ON_Haldimand_1911,http://www.wikidata.org/entity/Q385346,wikidata,Q385346,Haldimand County,matched,
-CD_ON_Haldimand_1911_1911,https://jimclifford.ca/hgiscanada/cds/on/haldimand-1911-1911/,minted_hgis_cd,,,ungrounded,
-CD_ON_Haldimand_1921,https://jimclifford.ca/hgiscanada/cds/on/haldimand-1921/,minted_hgis_cd,,,ungrounded,
 CD_ON_Haliburton,http://www.wikidata.org/entity/Q1571033,wikidata,Q1571033,Haliburton County,matched,
 CD_ON_Halton,http://www.wikidata.org/entity/Q14875161,wikidata,Q14875161,Halton County,matched,
 CD_ON_Hamilton,http://www.wikidata.org/entity/Q133116,wikidata,Q133116,Hamilton,matched,
 CD_ON_Hamilton_City,http://www.wikidata.org/entity/Q133116,wikidata,Q133116,Hamilton,matched,
-CD_ON_Hamilton_City_1881,https://jimclifford.ca/hgiscanada/cds/on/hamilton-city-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Hamilton_City_1891,https://jimclifford.ca/hgiscanada/cds/on/hamilton-city-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Hamilton_City_1901,https://jimclifford.ca/hgiscanada/cds/on/hamilton-city-1901/,minted_hgis_cd,,,ungrounded,
 CD_ON_Hamilton_East,https://jimclifford.ca/hgiscanada/cds/on/hamilton-east/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (East Hamilton city); no Wikidata entity.
-CD_ON_Hamilton_East_1911,https://jimclifford.ca/hgiscanada/cds/on/hamilton-east-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_Hamilton_West,https://jimclifford.ca/hgiscanada/cds/on/hamilton-west/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (West Hamilton city); no Wikidata entity.
-CD_ON_Hamilton_West_1911,https://jimclifford.ca/hgiscanada/cds/on/hamilton-west-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_Hastings,http://www.wikidata.org/entity/Q1588807,wikidata,Q1588807,Hastings County,matched,
 CD_ON_Hastings_1921,http://www.wikidata.org/entity/Q1588807,wikidata,Q1588807,Hastings County,matched,
-CD_ON_Hastings_1921_1921,https://jimclifford.ca/hgiscanada/cds/on/hastings-1921-1921/,minted_hgis_cd,,,ungrounded,
 CD_ON_Hastings_East,https://jimclifford.ca/hgiscanada/cds/on/hastings-east/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (East Hastings); no Wikidata entity.
-CD_ON_Hastings_East_1871,https://jimclifford.ca/hgiscanada/cds/on/hastings-east-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_Hastings_East_1881,https://jimclifford.ca/hgiscanada/cds/on/hastings-east-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Hastings_East_1891,https://jimclifford.ca/hgiscanada/cds/on/hastings-east-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Hastings_East_1901,https://jimclifford.ca/hgiscanada/cds/on/hastings-east-1901/,minted_hgis_cd,,,ungrounded,
-CD_ON_Hastings_East_1911,https://jimclifford.ca/hgiscanada/cds/on/hastings-east-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_Hastings_North,https://jimclifford.ca/hgiscanada/cds/on/hastings-north/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (North Hastings); no Wikidata entity.
-CD_ON_Hastings_North_1871,https://jimclifford.ca/hgiscanada/cds/on/hastings-north-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_Hastings_North_1881,https://jimclifford.ca/hgiscanada/cds/on/hastings-north-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Hastings_North_1891,https://jimclifford.ca/hgiscanada/cds/on/hastings-north-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Hastings_North_1901,https://jimclifford.ca/hgiscanada/cds/on/hastings-north-1901/,minted_hgis_cd,,,ungrounded,
 CD_ON_Hastings_West,https://jimclifford.ca/hgiscanada/cds/on/hastings-west/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (West Hastings); no Wikidata entity.
-CD_ON_Hastings_West_1871,https://jimclifford.ca/hgiscanada/cds/on/hastings-west-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_Hastings_West_1881,https://jimclifford.ca/hgiscanada/cds/on/hastings-west-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Hastings_West_1891,https://jimclifford.ca/hgiscanada/cds/on/hastings-west-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Hastings_West_1901,https://jimclifford.ca/hgiscanada/cds/on/hastings-west-1901/,minted_hgis_cd,,,ungrounded,
-CD_ON_Hastings_West_1911,https://jimclifford.ca/hgiscanada/cds/on/hastings-west-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_Huron,http://www.wikidata.org/entity/Q1638493,wikidata,Q1638493,Huron County,matched,
 CD_ON_Huron_1921,http://www.wikidata.org/entity/Q1638493,wikidata,Q1638493,Huron County,matched,
-CD_ON_Huron_1921_1921,https://jimclifford.ca/hgiscanada/cds/on/huron-1921-1921/,minted_hgis_cd,,,ungrounded,
 CD_ON_Huron_Centre,https://jimclifford.ca/hgiscanada/cds/on/huron-centre/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (Centre Huron); no Wikidata entity.
-CD_ON_Huron_Centre_1881,https://jimclifford.ca/hgiscanada/cds/on/huron-centre-1881/,minted_hgis_cd,,,ungrounded,
 CD_ON_Huron_East,https://jimclifford.ca/hgiscanada/cds/on/huron-east/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (East Huron); no Wikidata entity.
-CD_ON_Huron_East_1891,https://jimclifford.ca/hgiscanada/cds/on/huron-east-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Huron_East_1901,https://jimclifford.ca/hgiscanada/cds/on/huron-east-1901/,minted_hgis_cd,,,ungrounded,
-CD_ON_Huron_East_1911,https://jimclifford.ca/hgiscanada/cds/on/huron-east-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_Huron_North,https://jimclifford.ca/hgiscanada/cds/on/huron-north/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (North Huron); no Wikidata entity.
-CD_ON_Huron_North_1871,https://jimclifford.ca/hgiscanada/cds/on/huron-north-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_Huron_North_1881,https://jimclifford.ca/hgiscanada/cds/on/huron-north-1881/,minted_hgis_cd,,,ungrounded,
 CD_ON_Huron_South,https://jimclifford.ca/hgiscanada/cds/on/huron-south/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (South Huron); no Wikidata entity.
-CD_ON_Huron_South_1871,https://jimclifford.ca/hgiscanada/cds/on/huron-south-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_Huron_South_1881,https://jimclifford.ca/hgiscanada/cds/on/huron-south-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Huron_South_1891,https://jimclifford.ca/hgiscanada/cds/on/huron-south-1891/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (South Huron); no Wikidata entity.
-CD_ON_Huron_South_1891_1891,https://jimclifford.ca/hgiscanada/cds/on/huron-south-1891-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Huron_South_1901,https://jimclifford.ca/hgiscanada/cds/on/huron-south-1901/,minted_hgis_cd,,,ungrounded,
-CD_ON_Huron_South_1911_1911,https://jimclifford.ca/hgiscanada/cds/on/huron-south-1911-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_Huron_West,https://jimclifford.ca/hgiscanada/cds/on/huron-west/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (West Huron); no Wikidata entity.
-CD_ON_Huron_West_1891,https://jimclifford.ca/hgiscanada/cds/on/huron-west-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Huron_West_1901,https://jimclifford.ca/hgiscanada/cds/on/huron-west-1901/,minted_hgis_cd,,,ungrounded,
-CD_ON_Huron_West_1911,https://jimclifford.ca/hgiscanada/cds/on/huron-west-1911/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (West Huron); no Wikidata entity.
-CD_ON_Huron_West_1911_1911,https://jimclifford.ca/hgiscanada/cds/on/huron-west-1911-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_Kenora,http://www.wikidata.org/entity/Q1638386,wikidata,Q1638386,Kenora District,matched,
 CD_ON_Kent,http://www.wikidata.org/entity/Q6391659,wikidata,Q6391659,Kent County,matched,
 CD_ON_Kent_1871,http://www.wikidata.org/entity/Q6391659,wikidata,Q6391659,Kent County,matched,
-CD_ON_Kent_1881,https://jimclifford.ca/hgiscanada/cds/on/kent-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Kent_1891,https://jimclifford.ca/hgiscanada/cds/on/kent-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Kent_1901,https://jimclifford.ca/hgiscanada/cds/on/kent-1901/,minted_hgis_cd,,,ungrounded,
 CD_ON_Kent_East,https://jimclifford.ca/hgiscanada/cds/on/kent-east/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (East Kent); no Wikidata entity.
-CD_ON_Kent_East_1911,https://jimclifford.ca/hgiscanada/cds/on/kent-east-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_Kingston,http://www.wikidata.org/entity/Q202973,wikidata,Q202973,Kingston,matched,
 CD_ON_Kingston_City,http://www.wikidata.org/entity/Q202973,wikidata,Q202973,Kingston,matched,
-CD_ON_Kingston_City_1851,https://jimclifford.ca/hgiscanada/cds/on/kingston-city-1851/,minted_hgis_cd,,,ungrounded,
 CD_ON_Kingston_City_1881,http://www.wikidata.org/entity/Q202973,wikidata,Q202973,Kingston,matched,
-CD_ON_Kingston_City_1881_1881,https://jimclifford.ca/hgiscanada/cds/on/kingston-city-1881-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Kingston_City_1881_1881_1881,https://jimclifford.ca/hgiscanada/cds/on/kingston-city-1881-1881-1881/,minted_hgis_cd,,,ungrounded,
 CD_ON_Kingston_City_1881_1901,http://www.wikidata.org/entity/Q202973,wikidata,Q202973,Kingston,matched,
-CD_ON_Kingston_City_1891,https://jimclifford.ca/hgiscanada/cds/on/kingston-city-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Kingston_City_1891_1891,https://jimclifford.ca/hgiscanada/cds/on/kingston-city-1891-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Kingston_City_1901,https://jimclifford.ca/hgiscanada/cds/on/kingston-city-1901/,minted_hgis_cd,,,ungrounded,
-CD_ON_Kingston_City_1901_1901,https://jimclifford.ca/hgiscanada/cds/on/kingston-city-1901-1901/,minted_hgis_cd,,,ungrounded,
 CD_ON_Lambton,http://www.wikidata.org/entity/Q1406913,wikidata,Q1406913,Lambton County,matched,
 CD_ON_Lambton_East,https://jimclifford.ca/hgiscanada/cds/on/lambton-east/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (East Lambton); no Wikidata entity.
-CD_ON_Lambton_East_1891,https://jimclifford.ca/hgiscanada/cds/on/lambton-east-1891/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (East Lambton); no Wikidata entity.
-CD_ON_Lambton_East_1901,https://jimclifford.ca/hgiscanada/cds/on/lambton-east-1901/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (East Lambton); no Wikidata entity.
 CD_ON_Lambton_West,https://jimclifford.ca/hgiscanada/cds/on/lambton-west/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (West Lambton); no Wikidata entity.
-CD_ON_Lambton_West_1891,https://jimclifford.ca/hgiscanada/cds/on/lambton-west-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Lambton_West_1901,https://jimclifford.ca/hgiscanada/cds/on/lambton-west-1901/,minted_hgis_cd,,,ungrounded,
-CD_ON_Lambton_West_1911,https://jimclifford.ca/hgiscanada/cds/on/lambton-west-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_Lanark,http://www.wikidata.org/entity/Q1801761,wikidata,Q1801761,Lanark County,matched,
 CD_ON_Lanark_North,https://jimclifford.ca/hgiscanada/cds/on/lanark-north/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (North Lanark); no Wikidata entity.
-CD_ON_Lanark_North_1871,https://jimclifford.ca/hgiscanada/cds/on/lanark-north-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_Lanark_North_1881,https://jimclifford.ca/hgiscanada/cds/on/lanark-north-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Lanark_North_1891,https://jimclifford.ca/hgiscanada/cds/on/lanark-north-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Lanark_North_1901,https://jimclifford.ca/hgiscanada/cds/on/lanark-north-1901/,minted_hgis_cd,,,ungrounded,
-CD_ON_Lanark_North_1911,https://jimclifford.ca/hgiscanada/cds/on/lanark-north-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_Lanark_South,https://jimclifford.ca/hgiscanada/cds/on/lanark-south/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (South Lanark); no Wikidata entity.
-CD_ON_Lanark_South_1871,https://jimclifford.ca/hgiscanada/cds/on/lanark-south-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_Lanark_South_1881,https://jimclifford.ca/hgiscanada/cds/on/lanark-south-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Lanark_South_1891,https://jimclifford.ca/hgiscanada/cds/on/lanark-south-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Lanark_South_1901,https://jimclifford.ca/hgiscanada/cds/on/lanark-south-1901/,minted_hgis_cd,,,ungrounded,
-CD_ON_Lanark_South_1911,https://jimclifford.ca/hgiscanada/cds/on/lanark-south-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_Leeds,http://www.wikidata.org/entity/Q14875251,wikidata,Q14875251,Leeds County,matched,
 CD_ON_Leeds_&_Grenville_North,https://jimclifford.ca/hgiscanada/cds/on/leeds-grenville-north/,minted_hgis_cd,,,mint_uri,ON composite CD (North Leeds + Grenville); no single Wikidata entity.
-CD_ON_Leeds_&_Grenville_North_1871,https://jimclifford.ca/hgiscanada/cds/on/leeds-grenville-north-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_Leeds_&_Grenville_North_1881,https://jimclifford.ca/hgiscanada/cds/on/leeds-grenville-north-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Leeds_&_Grenville_North_1891,https://jimclifford.ca/hgiscanada/cds/on/leeds-grenville-north-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Leeds_&_Grenville_North_1901,https://jimclifford.ca/hgiscanada/cds/on/leeds-grenville-north-1901/,minted_hgis_cd,,,ungrounded,
 CD_ON_Leeds_1911,http://www.wikidata.org/entity/Q14875251,wikidata,Q14875251,Leeds County,matched,
-CD_ON_Leeds_1911_1911,https://jimclifford.ca/hgiscanada/cds/on/leeds-1911-1911/,minted_hgis_cd,,,ungrounded,
-CD_ON_Leeds_1921,https://jimclifford.ca/hgiscanada/cds/on/leeds-1921/,minted_hgis_cd,,,ungrounded,
 CD_ON_Leeds_South,https://jimclifford.ca/hgiscanada/cds/on/leeds-south/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (South Leeds); no Wikidata entity.
-CD_ON_Leeds_South_1871,https://jimclifford.ca/hgiscanada/cds/on/leeds-south-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_Leeds_South_1881,https://jimclifford.ca/hgiscanada/cds/on/leeds-south-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Leeds_South_1891,https://jimclifford.ca/hgiscanada/cds/on/leeds-south-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Leeds_South_1901,https://jimclifford.ca/hgiscanada/cds/on/leeds-south-1901/,minted_hgis_cd,,,ungrounded,
 CD_ON_Lennox,http://www.wikidata.org/entity/Q17108580,wikidata,Q17108580,Lennox County,matched,
 CD_ON_Lennox_&_Addington,http://www.wikidata.org/entity/Q1313055,wikidata,Q1313055,Lennox and Addington County,matched,
 CD_ON_Lennox_1871,http://www.wikidata.org/entity/Q17108580,wikidata,Q17108580,Lennox County,matched,
-CD_ON_Lennox_1871_1871,https://jimclifford.ca/hgiscanada/cds/on/lennox-1871-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_Lennox_1881,https://jimclifford.ca/hgiscanada/cds/on/lennox-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Lennox_1891,https://jimclifford.ca/hgiscanada/cds/on/lennox-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Lennox_1901,https://jimclifford.ca/hgiscanada/cds/on/lennox-1901/,minted_hgis_cd,,,ungrounded,
 CD_ON_Lennox_1921,http://www.wikidata.org/entity/Q17108580,wikidata,Q17108580,Lennox County,matched,
-CD_ON_Lennox_1921_1921,https://jimclifford.ca/hgiscanada/cds/on/lennox-1921-1921/,minted_hgis_cd,,,ungrounded,
 CD_ON_Lennox_and_Addington,http://www.wikidata.org/entity/Q1313055,wikidata,Q1313055,Lennox and Addington County,matched,
-CD_ON_Lennox_and_Addington_1861,https://jimclifford.ca/hgiscanada/cds/on/lennox-and-addington-1861/,minted_hgis_cd,,,ungrounded,
 CD_ON_Lincoln,http://www.wikidata.org/entity/Q6550599,wikidata,Q6550599,Lincoln County,matched,
 CD_ON_Lincoln_&_Niagara,https://jimclifford.ca/hgiscanada/cds/on/lincoln-niagara/,minted_hgis_cd,,,mint_uri,ON composite CD covering Lincoln + Niagara counties; Q3241311 is electoral district (excluded by protocol).
 CD_ON_London,http://www.wikidata.org/entity/Q92561,wikidata,Q92561,London,matched,
 CD_ON_London_City,http://www.wikidata.org/entity/Q92561,wikidata,Q92561,London,matched,
-CD_ON_London_City_1851,https://jimclifford.ca/hgiscanada/cds/on/london-city-1851/,minted_hgis_cd,,,ungrounded,
-CD_ON_London_City_1881,https://jimclifford.ca/hgiscanada/cds/on/london-city-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_London_City_1891,https://jimclifford.ca/hgiscanada/cds/on/london-city-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_London_City_1901,https://jimclifford.ca/hgiscanada/cds/on/london-city-1901/,minted_hgis_cd,,,ungrounded,
 CD_ON_Manitoulin,http://www.wikidata.org/entity/Q1815566,wikidata,Q1815566,Manitoulin District,matched,
 CD_ON_Manitoulin_1921,http://www.wikidata.org/entity/Q1815566,wikidata,Q1815566,Manitoulin District,matched,
-CD_ON_Manitoulin_1921_1921,https://jimclifford.ca/hgiscanada/cds/on/manitoulin-1921-1921/,minted_hgis_cd,,,ungrounded,
 CD_ON_Middlesex,http://www.wikidata.org/entity/Q1931946,wikidata,Q1931946,Middlesex County,matched,
-CD_ON_Middlesex_1921,http://www.wikidata.org/entity/Q1931946,wikidata,Q1931946,Middlesex County,matched,
 CD_ON_Middlesex_East,https://jimclifford.ca/hgiscanada/cds/on/middlesex-east/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (East Middlesex); no Wikidata entity.
-CD_ON_Middlesex_East_1871,https://jimclifford.ca/hgiscanada/cds/on/middlesex-east-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_Middlesex_East_1881,https://jimclifford.ca/hgiscanada/cds/on/middlesex-east-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Middlesex_East_1891,https://jimclifford.ca/hgiscanada/cds/on/middlesex-east-1891/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (East Middlesex); no Wikidata entity.
-CD_ON_Middlesex_East_1891_1891,https://jimclifford.ca/hgiscanada/cds/on/middlesex-east-1891-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Middlesex_East_1901,https://jimclifford.ca/hgiscanada/cds/on/middlesex-east-1901/,minted_hgis_cd,,,ungrounded,
-CD_ON_Middlesex_East_1911_1911,https://jimclifford.ca/hgiscanada/cds/on/middlesex-east-1911-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_Middlesex_North,https://jimclifford.ca/hgiscanada/cds/on/middlesex-north/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (North Middlesex); no Wikidata entity.
-CD_ON_Middlesex_North_1871,https://jimclifford.ca/hgiscanada/cds/on/middlesex-north-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_Middlesex_North_1881,https://jimclifford.ca/hgiscanada/cds/on/middlesex-north-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Middlesex_North_1891,https://jimclifford.ca/hgiscanada/cds/on/middlesex-north-1891/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (North Middlesex); no Wikidata entity.
-CD_ON_Middlesex_North_1891_1891,https://jimclifford.ca/hgiscanada/cds/on/middlesex-north-1891-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Middlesex_North_1901,https://jimclifford.ca/hgiscanada/cds/on/middlesex-north-1901/,minted_hgis_cd,,,ungrounded,
-CD_ON_Middlesex_North_1911_1911,https://jimclifford.ca/hgiscanada/cds/on/middlesex-north-1911-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_Middlesex_South,https://jimclifford.ca/hgiscanada/cds/on/middlesex-south/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (South Middlesex); no Wikidata entity.
-CD_ON_Middlesex_South_1891,https://jimclifford.ca/hgiscanada/cds/on/middlesex-south-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Middlesex_South_1901,https://jimclifford.ca/hgiscanada/cds/on/middlesex-south-1901/,minted_hgis_cd,,,ungrounded,
 CD_ON_Middlesex_West,https://jimclifford.ca/hgiscanada/cds/on/middlesex-west/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (West Middlesex); no Wikidata entity.
-CD_ON_Middlesex_West_1871,https://jimclifford.ca/hgiscanada/cds/on/middlesex-west-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_Middlesex_West_1881,https://jimclifford.ca/hgiscanada/cds/on/middlesex-west-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Middlesex_West_1891,https://jimclifford.ca/hgiscanada/cds/on/middlesex-west-1891/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (West Middlesex); no Wikidata entity.
-CD_ON_Middlesex_West_1891_1891,https://jimclifford.ca/hgiscanada/cds/on/middlesex-west-1891-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Middlesex_West_1901,https://jimclifford.ca/hgiscanada/cds/on/middlesex-west-1901/,minted_hgis_cd,,,ungrounded,
-CD_ON_Middlesex_West_1911_1911,https://jimclifford.ca/hgiscanada/cds/on/middlesex-west-1911-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_Monck,https://jimclifford.ca/hgiscanada/cds/on/monck/,minted_hgis_cd,,,mint_uri,"ON federal electoral district (1867-1898), not a county; protocol excludes electoral districts."
 CD_ON_Muskoka,https://jimclifford.ca/hgiscanada/cds/on/muskoka/,minted_hgis_cd,,,mint_uri,Historic Muskoka District as 19th-century CD; not coterminous with modern Muskoka District Municipality (Q382508).
 CD_ON_Muskoka_&_Parry_Sound,https://jimclifford.ca/hgiscanada/cds/on/muskoka-parry-sound/,minted_hgis_cd,,,mint_uri,ON composite CD covering Muskoka + Parry Sound; no single Wikidata entity.
 CD_ON_Muskoka_1911,https://jimclifford.ca/hgiscanada/cds/on/muskoka-1911/,minted_hgis_cd,,,mint_uri,Historic Muskoka District as 19th-century CD; not coterminous with modern Muskoka District Municipality (Q382508).
-CD_ON_Muskoka_1911_1911,https://jimclifford.ca/hgiscanada/cds/on/muskoka-1911-1911/,minted_hgis_cd,,,ungrounded,
-CD_ON_Muskoka_1921,https://jimclifford.ca/hgiscanada/cds/on/muskoka-1921/,minted_hgis_cd,,,ungrounded,
 CD_ON_Niagara,https://jimclifford.ca/hgiscanada/cds/on/niagara/,minted_hgis_cd,,,mint_uri,"Historic Niagara CD; not coterminous with modern Regional Municipality of Niagara, no clear Wikidata county equivalent."
 CD_ON_Nipissing,http://www.wikidata.org/entity/Q1436530,wikidata,Q1436530,Nipissing District,matched,
 CD_ON_Nipissing_1891,http://www.wikidata.org/entity/Q1436530,wikidata,Q1436530,Nipissing District,matched,
-CD_ON_Nipissing_1891_1891,https://jimclifford.ca/hgiscanada/cds/on/nipissing-1891-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Nipissing_1901,https://jimclifford.ca/hgiscanada/cds/on/nipissing-1901/,minted_hgis_cd,,,ungrounded,
-CD_ON_Nipissing_1911,https://jimclifford.ca/hgiscanada/cds/on/nipissing-1911/,minted_hgis_cd,,,ungrounded,
-CD_ON_Nipissing_1921,https://jimclifford.ca/hgiscanada/cds/on/nipissing-1921/,minted_hgis_cd,,,ungrounded,
 CD_ON_Nipissing_North,https://jimclifford.ca/hgiscanada/cds/on/nipissing-north/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (North Nipissing); no Wikidata entity.
-CD_ON_Nipissing_North_1871,https://jimclifford.ca/hgiscanada/cds/on/nipissing-north-1871/,minted_hgis_cd,,,ungrounded,
 CD_ON_Nipissing_South,https://jimclifford.ca/hgiscanada/cds/on/nipissing-south/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (South Nipissing); no Wikidata entity.
-CD_ON_Nipissing_South_1871,https://jimclifford.ca/hgiscanada/cds/on/nipissing-south-1871/,minted_hgis_cd,,,ungrounded,
 CD_ON_Norfolk,http://www.wikidata.org/entity/Q385229,wikidata,Q385229,Norfolk County,matched,
 CD_ON_Norfolk_North,https://jimclifford.ca/hgiscanada/cds/on/norfolk-north/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (North Norfolk); no Wikidata entity.
-CD_ON_Norfolk_North_1871,https://jimclifford.ca/hgiscanada/cds/on/norfolk-north-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_Norfolk_North_1881,https://jimclifford.ca/hgiscanada/cds/on/norfolk-north-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Norfolk_North_1891,https://jimclifford.ca/hgiscanada/cds/on/norfolk-north-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Norfolk_North_1901,https://jimclifford.ca/hgiscanada/cds/on/norfolk-north-1901/,minted_hgis_cd,,,ungrounded,
 CD_ON_Norfolk_South,https://jimclifford.ca/hgiscanada/cds/on/norfolk-south/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (South Norfolk); no Wikidata entity.
-CD_ON_Norfolk_South_1871,https://jimclifford.ca/hgiscanada/cds/on/norfolk-south-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_Norfolk_South_1881,https://jimclifford.ca/hgiscanada/cds/on/norfolk-south-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Norfolk_South_1891,https://jimclifford.ca/hgiscanada/cds/on/norfolk-south-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Norfolk_South_1901,https://jimclifford.ca/hgiscanada/cds/on/norfolk-south-1901/,minted_hgis_cd,,,ungrounded,
 CD_ON_Northumberland,http://www.wikidata.org/entity/Q1752156,wikidata,Q1752156,Northumberland County,matched,
 CD_ON_Northumberland_East,https://jimclifford.ca/hgiscanada/cds/on/northumberland-east/,minted_hgis_cd,,,mint_uri,"ON federal electoral subdivision (East Northumberland, OCR variant); no Wikidata entity."
-CD_ON_Northumberland_East_1871,https://jimclifford.ca/hgiscanada/cds/on/northumberland-east-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_Northumberland_East_1881,https://jimclifford.ca/hgiscanada/cds/on/northumberland-east-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Northumberland_East_1891,https://jimclifford.ca/hgiscanada/cds/on/northumberland-east-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Northumberland_East_1901,https://jimclifford.ca/hgiscanada/cds/on/northumberland-east-1901/,minted_hgis_cd,,,ungrounded,
-CD_ON_Northumberland_East_1911,https://jimclifford.ca/hgiscanada/cds/on/northumberland-east-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_Northumberland_West,https://jimclifford.ca/hgiscanada/cds/on/northumberland-west/,minted_hgis_cd,,,mint_uri,"ON federal electoral subdivision (West Northumberland, OCR variant); no Wikidata entity."
-CD_ON_Northumberland_West_1871,https://jimclifford.ca/hgiscanada/cds/on/northumberland-west-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_Northumberland_West_1881,https://jimclifford.ca/hgiscanada/cds/on/northumberland-west-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Northumberland_West_1891,https://jimclifford.ca/hgiscanada/cds/on/northumberland-west-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Northumberland_West_1901,https://jimclifford.ca/hgiscanada/cds/on/northumberland-west-1901/,minted_hgis_cd,,,ungrounded,
-CD_ON_Northumberland_West_1911,https://jimclifford.ca/hgiscanada/cds/on/northumberland-west-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_Ontario,http://www.wikidata.org/entity/Q7094641,wikidata,Q7094641,Ontario County,matched,
-CD_ON_Ontario_1921,http://www.wikidata.org/entity/Q7094641,wikidata,Q7094641,Ontario County,matched,
 CD_ON_Ontario_North,https://jimclifford.ca/hgiscanada/cds/on/ontario-north/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (North Ontario County); no Wikidata entity.
-CD_ON_Ontario_North_1871,https://jimclifford.ca/hgiscanada/cds/on/ontario-north-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_Ontario_North_1881,https://jimclifford.ca/hgiscanada/cds/on/ontario-north-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Ontario_North_1891,https://jimclifford.ca/hgiscanada/cds/on/ontario-north-1891/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (North Ontario County); no Wikidata entity.
-CD_ON_Ontario_North_1891_1891,https://jimclifford.ca/hgiscanada/cds/on/ontario-north-1891-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Ontario_North_1901,https://jimclifford.ca/hgiscanada/cds/on/ontario-north-1901/,minted_hgis_cd,,,ungrounded,
-CD_ON_Ontario_North_1911,https://jimclifford.ca/hgiscanada/cds/on/ontario-north-1911/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (North Ontario County); no Wikidata entity.
-CD_ON_Ontario_North_1911_1911,https://jimclifford.ca/hgiscanada/cds/on/ontario-north-1911-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_Ontario_South,https://jimclifford.ca/hgiscanada/cds/on/ontario-south/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (South Ontario County); no Wikidata entity.
-CD_ON_Ontario_South_1871,https://jimclifford.ca/hgiscanada/cds/on/ontario-south-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_Ontario_South_1881,https://jimclifford.ca/hgiscanada/cds/on/ontario-south-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Ontario_South_1891,https://jimclifford.ca/hgiscanada/cds/on/ontario-south-1891/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (South Ontario County); no Wikidata entity.
-CD_ON_Ontario_South_1891_1891,https://jimclifford.ca/hgiscanada/cds/on/ontario-south-1891-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Ontario_South_1901,https://jimclifford.ca/hgiscanada/cds/on/ontario-south-1901/,minted_hgis_cd,,,ungrounded,
-CD_ON_Ontario_South_1911,https://jimclifford.ca/hgiscanada/cds/on/ontario-south-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_Ontario_West,https://jimclifford.ca/hgiscanada/cds/on/ontario-west/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (West Ontario County); no Wikidata entity.
-CD_ON_Ontario_West_1891,https://jimclifford.ca/hgiscanada/cds/on/ontario-west-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Ontario_West_1901,https://jimclifford.ca/hgiscanada/cds/on/ontario-west-1901/,minted_hgis_cd,,,ungrounded,
 CD_ON_Ottawa,http://www.wikidata.org/entity/Q1930,wikidata,Q1930,Ottawa,matched,
 CD_ON_Ottawa_City,http://www.wikidata.org/entity/Q1930,wikidata,Q1930,Ottawa,matched,
-CD_ON_Ottawa_City_1871,https://jimclifford.ca/hgiscanada/cds/on/ottawa-city-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_Ottawa_City_1881,https://jimclifford.ca/hgiscanada/cds/on/ottawa-city-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Ottawa_City_1891,https://jimclifford.ca/hgiscanada/cds/on/ottawa-city-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Ottawa_City_1901,https://jimclifford.ca/hgiscanada/cds/on/ottawa-city-1901/,minted_hgis_cd,,,ungrounded,
-CD_ON_Ottawa_City_1911,https://jimclifford.ca/hgiscanada/cds/on/ottawa-city-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_Oxford,http://www.wikidata.org/entity/Q382652,wikidata,Q382652,Oxford County,matched,
-CD_ON_Oxford_1921,http://www.wikidata.org/entity/Q382652,wikidata,Q382652,Oxford County,matched,
 CD_ON_Oxford_North,https://jimclifford.ca/hgiscanada/cds/on/oxford-north/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (North Oxford); no Wikidata entity.
-CD_ON_Oxford_North_1871,https://jimclifford.ca/hgiscanada/cds/on/oxford-north-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_Oxford_North_1881,https://jimclifford.ca/hgiscanada/cds/on/oxford-north-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Oxford_North_1891,https://jimclifford.ca/hgiscanada/cds/on/oxford-north-1891/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (North Oxford); no Wikidata entity.
-CD_ON_Oxford_North_1891_1891,https://jimclifford.ca/hgiscanada/cds/on/oxford-north-1891-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Oxford_North_1901,https://jimclifford.ca/hgiscanada/cds/on/oxford-north-1901/,minted_hgis_cd,,,ungrounded,
-CD_ON_Oxford_North_1911,https://jimclifford.ca/hgiscanada/cds/on/oxford-north-1911/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (North Oxford); no Wikidata entity.
-CD_ON_Oxford_North_1911_1911,https://jimclifford.ca/hgiscanada/cds/on/oxford-north-1911-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_Oxford_South,https://jimclifford.ca/hgiscanada/cds/on/oxford-south/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (South Oxford); no Wikidata entity.
-CD_ON_Oxford_South_1871,https://jimclifford.ca/hgiscanada/cds/on/oxford-south-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_Oxford_South_1881,https://jimclifford.ca/hgiscanada/cds/on/oxford-south-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Oxford_South_1891,https://jimclifford.ca/hgiscanada/cds/on/oxford-south-1891/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (South Oxford); no Wikidata entity.
-CD_ON_Oxford_South_1891_1891,https://jimclifford.ca/hgiscanada/cds/on/oxford-south-1891-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Oxford_South_1901,https://jimclifford.ca/hgiscanada/cds/on/oxford-south-1901/,minted_hgis_cd,,,ungrounded,
-CD_ON_Oxford_South_1911,https://jimclifford.ca/hgiscanada/cds/on/oxford-south-1911/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (South Oxford); no Wikidata entity.
-CD_ON_Oxford_South_1911_1911,https://jimclifford.ca/hgiscanada/cds/on/oxford-south-1911-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_Parry_Sound,http://www.wikidata.org/entity/Q1798108,wikidata,Q1798108,Parry Sound District,matched,
 CD_ON_Parry_Sound_1911,http://www.wikidata.org/entity/Q1798108,wikidata,Q1798108,Parry Sound District,matched,
-CD_ON_Parry_Sound_1911_1911,https://jimclifford.ca/hgiscanada/cds/on/parry-sound-1911-1911/,minted_hgis_cd,,,ungrounded,
-CD_ON_Parry_Sound_1921,https://jimclifford.ca/hgiscanada/cds/on/parry-sound-1921/,minted_hgis_cd,,,ungrounded,
 CD_ON_Peel,http://www.wikidata.org/entity/Q7160206,wikidata,Q7160206,Peel County,matched,
 CD_ON_Perth,http://www.wikidata.org/entity/Q177690,wikidata,Q177690,Perth County,matched,
-CD_ON_Perth_1921,http://www.wikidata.org/entity/Q177690,wikidata,Q177690,Perth County,matched,
 CD_ON_Perth_North,https://jimclifford.ca/hgiscanada/cds/on/perth-north/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (north half of Perth County); no separate Wikidata entity
-CD_ON_Perth_North_1871,https://jimclifford.ca/hgiscanada/cds/on/perth-north-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_Perth_North_1881,https://jimclifford.ca/hgiscanada/cds/on/perth-north-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Perth_North_1891,https://jimclifford.ca/hgiscanada/cds/on/perth-north-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Perth_North_1901,https://jimclifford.ca/hgiscanada/cds/on/perth-north-1901/,minted_hgis_cd,,,ungrounded,
-CD_ON_Perth_North_1911,https://jimclifford.ca/hgiscanada/cds/on/perth-north-1911/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (north half of Perth County); no separate Wikidata entity
-CD_ON_Perth_North_1911_1911,https://jimclifford.ca/hgiscanada/cds/on/perth-north-1911-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_Perth_South,https://jimclifford.ca/hgiscanada/cds/on/perth-south/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (south half of Perth County); no separate Wikidata entity
-CD_ON_Perth_South_1871,https://jimclifford.ca/hgiscanada/cds/on/perth-south-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_Perth_South_1881,https://jimclifford.ca/hgiscanada/cds/on/perth-south-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Perth_South_1891,https://jimclifford.ca/hgiscanada/cds/on/perth-south-1891/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (south half of Perth County); no separate Wikidata entity
-CD_ON_Perth_South_1891_1891,https://jimclifford.ca/hgiscanada/cds/on/perth-south-1891-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Perth_South_1901,https://jimclifford.ca/hgiscanada/cds/on/perth-south-1901/,minted_hgis_cd,,,ungrounded,
-CD_ON_Perth_South_1911,https://jimclifford.ca/hgiscanada/cds/on/perth-south-1911/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (south half of Perth County); no separate Wikidata entity
-CD_ON_Perth_South_1911_1911,https://jimclifford.ca/hgiscanada/cds/on/perth-south-1911-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_Peterboro,http://www.wikidata.org/entity/Q730542,wikidata,Q730542,Peterborough County,matched,
 CD_ON_Peterborough,http://www.wikidata.org/entity/Q730542,wikidata,Q730542,Peterborough County,matched,
 CD_ON_Peterborough_East,https://jimclifford.ca/hgiscanada/cds/on/peterborough-east/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (east half of Peterborough County); no separate Wikidata entity
-CD_ON_Peterborough_East_1871,https://jimclifford.ca/hgiscanada/cds/on/peterborough-east-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_Peterborough_East_1881,https://jimclifford.ca/hgiscanada/cds/on/peterborough-east-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Peterborough_East_1891,https://jimclifford.ca/hgiscanada/cds/on/peterborough-east-1891/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (east half of Peterborough County); no separate Wikidata entity
-CD_ON_Peterborough_East_1891_1891,https://jimclifford.ca/hgiscanada/cds/on/peterborough-east-1891-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Peterborough_East_1901,https://jimclifford.ca/hgiscanada/cds/on/peterborough-east-1901/,minted_hgis_cd,,,ungrounded,
-CD_ON_Peterborough_East_1911,https://jimclifford.ca/hgiscanada/cds/on/peterborough-east-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_Peterborough_West,https://jimclifford.ca/hgiscanada/cds/on/peterborough-west/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (west half of Peterborough County); no separate Wikidata entity
-CD_ON_Peterborough_West_1871,https://jimclifford.ca/hgiscanada/cds/on/peterborough-west-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_Peterborough_West_1881,https://jimclifford.ca/hgiscanada/cds/on/peterborough-west-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Peterborough_West_1891,https://jimclifford.ca/hgiscanada/cds/on/peterborough-west-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Peterborough_West_1901,https://jimclifford.ca/hgiscanada/cds/on/peterborough-west-1901/,minted_hgis_cd,,,ungrounded,
-CD_ON_Peterborough_West_1911,https://jimclifford.ca/hgiscanada/cds/on/peterborough-west-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_Prescott,http://www.wikidata.org/entity/Q7240842,wikidata,Q7240842,Prescott County,matched,
 CD_ON_Prince_Edward,http://www.wikidata.org/entity/Q385085,wikidata,Q385085,Prince Edward County,matched,
 CD_ON_Rainy_River,http://www.wikidata.org/entity/Q943829,wikidata,Q943829,Rainy River District,matched,
 CD_ON_Renfrew,http://www.wikidata.org/entity/Q1815526,wikidata,Q1815526,Renfrew County,matched,
 CD_ON_Renfrew_North,https://jimclifford.ca/hgiscanada/cds/on/renfrew-north/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (north half of Renfrew County); no separate Wikidata entity
-CD_ON_Renfrew_North_1871,https://jimclifford.ca/hgiscanada/cds/on/renfrew-north-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_Renfrew_North_1881,https://jimclifford.ca/hgiscanada/cds/on/renfrew-north-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Renfrew_North_1891,https://jimclifford.ca/hgiscanada/cds/on/renfrew-north-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Renfrew_North_1901,https://jimclifford.ca/hgiscanada/cds/on/renfrew-north-1901/,minted_hgis_cd,,,ungrounded,
-CD_ON_Renfrew_North_1911,https://jimclifford.ca/hgiscanada/cds/on/renfrew-north-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_Renfrew_South,https://jimclifford.ca/hgiscanada/cds/on/renfrew-south/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (south half of Renfrew County); no separate Wikidata entity
-CD_ON_Renfrew_South_1871,https://jimclifford.ca/hgiscanada/cds/on/renfrew-south-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_Renfrew_South_1881,https://jimclifford.ca/hgiscanada/cds/on/renfrew-south-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Renfrew_South_1891,https://jimclifford.ca/hgiscanada/cds/on/renfrew-south-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Renfrew_South_1901,https://jimclifford.ca/hgiscanada/cds/on/renfrew-south-1901/,minted_hgis_cd,,,ungrounded,
-CD_ON_Renfrew_South_1911,https://jimclifford.ca/hgiscanada/cds/on/renfrew-south-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_Russell,http://www.wikidata.org/entity/Q7381437,wikidata,Q7381437,Russell County,matched,
 CD_ON_Simcoe,http://www.wikidata.org/entity/Q1437636,wikidata,Q1437636,Simcoe County,matched,
-CD_ON_Simcoe_1921,http://www.wikidata.org/entity/Q1437636,wikidata,Q1437636,Simcoe County,matched,
 CD_ON_Simcoe_East,https://jimclifford.ca/hgiscanada/cds/on/simcoe-east/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (east part of Simcoe County); no separate Wikidata entity
-CD_ON_Simcoe_East_1891,https://jimclifford.ca/hgiscanada/cds/on/simcoe-east-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Simcoe_East_1901,https://jimclifford.ca/hgiscanada/cds/on/simcoe-east-1901/,minted_hgis_cd,,,ungrounded,
-CD_ON_Simcoe_East_1911,https://jimclifford.ca/hgiscanada/cds/on/simcoe-east-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_Simcoe_North,https://jimclifford.ca/hgiscanada/cds/on/simcoe-north/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (north part of Simcoe County); no separate Wikidata entity
-CD_ON_Simcoe_North_1871,https://jimclifford.ca/hgiscanada/cds/on/simcoe-north-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_Simcoe_North_1881,https://jimclifford.ca/hgiscanada/cds/on/simcoe-north-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Simcoe_North_1891,https://jimclifford.ca/hgiscanada/cds/on/simcoe-north-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Simcoe_North_1901,https://jimclifford.ca/hgiscanada/cds/on/simcoe-north-1901/,minted_hgis_cd,,,ungrounded,
-CD_ON_Simcoe_North_1911,https://jimclifford.ca/hgiscanada/cds/on/simcoe-north-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_Simcoe_South,https://jimclifford.ca/hgiscanada/cds/on/simcoe-south/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (south part of Simcoe County); no separate Wikidata entity
-CD_ON_Simcoe_South_1871,https://jimclifford.ca/hgiscanada/cds/on/simcoe-south-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_Simcoe_South_1881,https://jimclifford.ca/hgiscanada/cds/on/simcoe-south-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Simcoe_South_1891,https://jimclifford.ca/hgiscanada/cds/on/simcoe-south-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Simcoe_South_1901,https://jimclifford.ca/hgiscanada/cds/on/simcoe-south-1901/,minted_hgis_cd,,,ungrounded,
-CD_ON_Simcoe_South_1911,https://jimclifford.ca/hgiscanada/cds/on/simcoe-south-1911/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (south part of Simcoe County); no separate Wikidata entity
-CD_ON_Simcoe_South_1911_1911,https://jimclifford.ca/hgiscanada/cds/on/simcoe-south-1911-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_Stormont,http://www.wikidata.org/entity/Q1617717,wikidata,Q1617717,Stormont County,matched,
 CD_ON_Stormont_1891,http://www.wikidata.org/entity/Q1617717,wikidata,Q1617717,Stormont County,matched,
-CD_ON_Stormont_1911,https://jimclifford.ca/hgiscanada/cds/on/stormont-1911/,minted_hgis_cd,,,ungrounded,
-CD_ON_Stormont_1921,https://jimclifford.ca/hgiscanada/cds/on/stormont-1921/,minted_hgis_cd,,,ungrounded,
 CD_ON_Sudbury,http://www.wikidata.org/entity/Q383600,wikidata,Q383600,Sudbury District,matched,
 CD_ON_Thunder_Bay,http://www.wikidata.org/entity/Q385689,wikidata,Q385689,Thunder Bay District,matched,
 CD_ON_Thunder_Bay_&_Rainy_River,https://jimclifford.ca/hgiscanada/cds/on/thunder-bay-rainy-river/,minted_hgis_cd,,,mint_uri,Composite CD spanning Thunder Bay District (Q385689) + Rainy River District (Q943829); no single Wikidata entity
@@ -11777,242 +11441,122 @@ CD_ON_Timiskaming,http://www.wikidata.org/entity/Q385780,wikidata,Q385780,Timisk
 CD_ON_Toronto,https://jimclifford.ca/hgiscanada/cds/on/toronto/,minted_hgis_cd,,,mint_uri,Historic 19th/early-20th-century census City of Toronto; boundaries differ from modern Toronto (Q172)
 CD_ON_Toronto_Centre,https://jimclifford.ca/hgiscanada/cds/on/toronto-centre/,minted_hgis_cd,,,mint_uri,Historic Toronto federal electoral subdivision; no separate Wikidata entity for census-defined boundary
 CD_ON_Toronto_Centre_City,https://jimclifford.ca/hgiscanada/cds/on/toronto-centre-city/,minted_hgis_cd,,,mint_uri,Historic Toronto city electoral subdivision; no separate Wikidata entity for census-defined boundary
-CD_ON_Toronto_Centre_City_1901,https://jimclifford.ca/hgiscanada/cds/on/toronto-centre-city-1901/,minted_hgis_cd,,,ungrounded,
 CD_ON_Toronto_City,https://jimclifford.ca/hgiscanada/cds/on/toronto-city/,minted_hgis_cd,,,mint_uri,Historic 19th/early-20th-century census City of Toronto; boundaries differ from modern Toronto (Q172)
-CD_ON_Toronto_City_1851,https://jimclifford.ca/hgiscanada/cds/on/toronto-city-1851/,minted_hgis_cd,,,ungrounded,
 CD_ON_Toronto_City_1881,https://jimclifford.ca/hgiscanada/cds/on/toronto-city-1881/,minted_hgis_cd,,,mint_uri,Historic 19th/early-20th-century census City of Toronto; boundaries differ from modern Toronto (Q172)
-CD_ON_Toronto_City_1881_1881,https://jimclifford.ca/hgiscanada/cds/on/toronto-city-1881-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Toronto_City_1891,https://jimclifford.ca/hgiscanada/cds/on/toronto-city-1891/,minted_hgis_cd,,,ungrounded,
 CD_ON_Toronto_East,https://jimclifford.ca/hgiscanada/cds/on/toronto-east/,minted_hgis_cd,,,mint_uri,Historic Toronto federal electoral subdivision (east); no separate Wikidata entity
-CD_ON_Toronto_East_1871,https://jimclifford.ca/hgiscanada/cds/on/toronto-east-1871/,minted_hgis_cd,,,ungrounded,
 CD_ON_Toronto_East_1911,https://jimclifford.ca/hgiscanada/cds/on/toronto-east-1911/,minted_hgis_cd,,,mint_uri,Historic Toronto federal electoral subdivision (east); no separate Wikidata entity
-CD_ON_Toronto_East_1911_1911,https://jimclifford.ca/hgiscanada/cds/on/toronto-east-1911-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_Toronto_East_City,https://jimclifford.ca/hgiscanada/cds/on/toronto-east-city/,minted_hgis_cd,,,mint_uri,Historic Toronto city electoral subdivision (east); no separate Wikidata entity
-CD_ON_Toronto_East_City_1901,https://jimclifford.ca/hgiscanada/cds/on/toronto-east-city-1901/,minted_hgis_cd,,,ungrounded,
 CD_ON_Toronto_North,https://jimclifford.ca/hgiscanada/cds/on/toronto-north/,minted_hgis_cd,,,mint_uri,Historic Toronto federal electoral subdivision (north); no separate Wikidata entity
-CD_ON_Toronto_North_1911,https://jimclifford.ca/hgiscanada/cds/on/toronto-north-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_Toronto_South,https://jimclifford.ca/hgiscanada/cds/on/toronto-south/,minted_hgis_cd,,,mint_uri,Historic Toronto federal electoral subdivision (south); no separate Wikidata entity
-CD_ON_Toronto_South_1911,https://jimclifford.ca/hgiscanada/cds/on/toronto-south-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_Toronto_West,https://jimclifford.ca/hgiscanada/cds/on/toronto-west/,minted_hgis_cd,,,mint_uri,Historic Toronto federal electoral subdivision (west); no separate Wikidata entity
-CD_ON_Toronto_West_1871,https://jimclifford.ca/hgiscanada/cds/on/toronto-west-1871/,minted_hgis_cd,,,ungrounded,
 CD_ON_Toronto_West_1911,https://jimclifford.ca/hgiscanada/cds/on/toronto-west-1911/,minted_hgis_cd,,,mint_uri,Historic Toronto federal electoral subdivision (west); no separate Wikidata entity
-CD_ON_Toronto_West_1911_1911,https://jimclifford.ca/hgiscanada/cds/on/toronto-west-1911-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_Toronto_West_City,https://jimclifford.ca/hgiscanada/cds/on/toronto-west-city/,minted_hgis_cd,,,mint_uri,Historic Toronto city electoral subdivision (west); no separate Wikidata entity
-CD_ON_Toronto_West_City_1901,https://jimclifford.ca/hgiscanada/cds/on/toronto-west-city-1901/,minted_hgis_cd,,,ungrounded,
 CD_ON_Victoria,http://www.wikidata.org/entity/Q7926663,wikidata,Q7926663,Victoria County,matched,
 CD_ON_Victoria_North,https://jimclifford.ca/hgiscanada/cds/on/victoria-north/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (north half of Victoria County); no separate Wikidata entity
-CD_ON_Victoria_North_1871,https://jimclifford.ca/hgiscanada/cds/on/victoria-north-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_Victoria_North_1881,https://jimclifford.ca/hgiscanada/cds/on/victoria-north-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Victoria_North_1891,https://jimclifford.ca/hgiscanada/cds/on/victoria-north-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Victoria_North_1901,https://jimclifford.ca/hgiscanada/cds/on/victoria-north-1901/,minted_hgis_cd,,,ungrounded,
 CD_ON_Victoria_South,https://jimclifford.ca/hgiscanada/cds/on/victoria-south/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (south half of Victoria County); no separate Wikidata entity
-CD_ON_Victoria_South_1871,https://jimclifford.ca/hgiscanada/cds/on/victoria-south-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_Victoria_South_1881,https://jimclifford.ca/hgiscanada/cds/on/victoria-south-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Victoria_South_1891,https://jimclifford.ca/hgiscanada/cds/on/victoria-south-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Victoria_South_1901,https://jimclifford.ca/hgiscanada/cds/on/victoria-south-1901/,minted_hgis_cd,,,ungrounded,
 CD_ON_Waterloo,http://www.wikidata.org/entity/Q7974224,wikidata,Q7974224,Waterloo County,matched,
 CD_ON_Waterloo_North,https://jimclifford.ca/hgiscanada/cds/on/waterloo-north/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (north half of Waterloo County); no separate Wikidata entity
-CD_ON_Waterloo_North_1871,https://jimclifford.ca/hgiscanada/cds/on/waterloo-north-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_Waterloo_North_1881,https://jimclifford.ca/hgiscanada/cds/on/waterloo-north-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Waterloo_North_1891,https://jimclifford.ca/hgiscanada/cds/on/waterloo-north-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Waterloo_North_1901,https://jimclifford.ca/hgiscanada/cds/on/waterloo-north-1901/,minted_hgis_cd,,,ungrounded,
-CD_ON_Waterloo_North_1911,https://jimclifford.ca/hgiscanada/cds/on/waterloo-north-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_Waterloo_South,https://jimclifford.ca/hgiscanada/cds/on/waterloo-south/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (south half of Waterloo County); no separate Wikidata entity
-CD_ON_Waterloo_South_1871,https://jimclifford.ca/hgiscanada/cds/on/waterloo-south-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_Waterloo_South_1881,https://jimclifford.ca/hgiscanada/cds/on/waterloo-south-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Waterloo_South_1891,https://jimclifford.ca/hgiscanada/cds/on/waterloo-south-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Waterloo_South_1901,https://jimclifford.ca/hgiscanada/cds/on/waterloo-south-1901/,minted_hgis_cd,,,ungrounded,
-CD_ON_Waterloo_South_1911,https://jimclifford.ca/hgiscanada/cds/on/waterloo-south-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_Welland,http://www.wikidata.org/entity/Q7981153,wikidata,Q7981153,Welland County,matched,
 CD_ON_Wellington,http://www.wikidata.org/entity/Q1525404,wikidata,Q1525404,Wellington County,matched,
 CD_ON_Wellington_1921,http://www.wikidata.org/entity/Q1525404,wikidata,Q1525404,Wellington County,matched,
-CD_ON_Wellington_1921_1921,https://jimclifford.ca/hgiscanada/cds/on/wellington-1921-1921/,minted_hgis_cd,,,ungrounded,
 CD_ON_Wellington_Centre,https://jimclifford.ca/hgiscanada/cds/on/wellington-centre/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (centre of Wellington County); no separate Wikidata entity
-CD_ON_Wellington_Centre_1871,https://jimclifford.ca/hgiscanada/cds/on/wellington-centre-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_Wellington_Centre_1881,https://jimclifford.ca/hgiscanada/cds/on/wellington-centre-1881/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (centre of Wellington County); no separate Wikidata entity
-CD_ON_Wellington_Centre_1881_1881,https://jimclifford.ca/hgiscanada/cds/on/wellington-centre-1881-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Wellington_Centre_1891,https://jimclifford.ca/hgiscanada/cds/on/wellington-centre-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Wellington_Centre_1901,https://jimclifford.ca/hgiscanada/cds/on/wellington-centre-1901/,minted_hgis_cd,,,ungrounded,
 CD_ON_Wellington_North,https://jimclifford.ca/hgiscanada/cds/on/wellington-north/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (north of Wellington County); no separate Wikidata entity
-CD_ON_Wellington_North_1871,https://jimclifford.ca/hgiscanada/cds/on/wellington-north-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_Wellington_North_1881,https://jimclifford.ca/hgiscanada/cds/on/wellington-north-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Wellington_North_1891,https://jimclifford.ca/hgiscanada/cds/on/wellington-north-1891/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (north of Wellington County); no separate Wikidata entity
-CD_ON_Wellington_North_1891_1891,https://jimclifford.ca/hgiscanada/cds/on/wellington-north-1891-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Wellington_North_1901,https://jimclifford.ca/hgiscanada/cds/on/wellington-north-1901/,minted_hgis_cd,,,ungrounded,
-CD_ON_Wellington_North_1911_1911,https://jimclifford.ca/hgiscanada/cds/on/wellington-north-1911-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_Wellington_South,https://jimclifford.ca/hgiscanada/cds/on/wellington-south/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (south of Wellington County); no separate Wikidata entity
-CD_ON_Wellington_South_1871,https://jimclifford.ca/hgiscanada/cds/on/wellington-south-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_Wellington_South_1881,https://jimclifford.ca/hgiscanada/cds/on/wellington-south-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Wellington_South_1891,https://jimclifford.ca/hgiscanada/cds/on/wellington-south-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Wellington_South_1901,https://jimclifford.ca/hgiscanada/cds/on/wellington-south-1901/,minted_hgis_cd,,,ungrounded,
-CD_ON_Wellington_South_1911,https://jimclifford.ca/hgiscanada/cds/on/wellington-south-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_Wentworth,http://www.wikidata.org/entity/Q7983017,wikidata,Q7983017,Wentworth County,matched,
 CD_ON_Wentworth_&_Brant_North,https://jimclifford.ca/hgiscanada/cds/on/wentworth-brant-north/,minted_hgis_cd,,,mint_uri,Composite CD spanning parts of Wentworth County (Q7983017) + Brant County; no single Wikidata entity
-CD_ON_Wentworth_&_Brant_North_1901,https://jimclifford.ca/hgiscanada/cds/on/wentworth-brant-north-1901/,minted_hgis_cd,,,ungrounded,
 CD_ON_Wentworth_1911,http://www.wikidata.org/entity/Q7983017,wikidata,Q7983017,Wentworth County,matched,
-CD_ON_Wentworth_1911_1911,https://jimclifford.ca/hgiscanada/cds/on/wentworth-1911-1911/,minted_hgis_cd,,,ungrounded,
-CD_ON_Wentworth_1921,https://jimclifford.ca/hgiscanada/cds/on/wentworth-1921/,minted_hgis_cd,,,ungrounded,
 CD_ON_Wentworth_North,https://jimclifford.ca/hgiscanada/cds/on/wentworth-north/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (north of Wentworth County); no separate Wikidata entity
-CD_ON_Wentworth_North_1871,https://jimclifford.ca/hgiscanada/cds/on/wentworth-north-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_Wentworth_North_1881,https://jimclifford.ca/hgiscanada/cds/on/wentworth-north-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Wentworth_North_1891,https://jimclifford.ca/hgiscanada/cds/on/wentworth-north-1891/,minted_hgis_cd,,,ungrounded,
 CD_ON_Wentworth_South,https://jimclifford.ca/hgiscanada/cds/on/wentworth-south/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (south of Wentworth County); no separate Wikidata entity
-CD_ON_Wentworth_South_1871,https://jimclifford.ca/hgiscanada/cds/on/wentworth-south-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_Wentworth_South_1881,https://jimclifford.ca/hgiscanada/cds/on/wentworth-south-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_Wentworth_South_1891,https://jimclifford.ca/hgiscanada/cds/on/wentworth-south-1891/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (south of Wentworth County); no separate Wikidata entity
-CD_ON_Wentworth_South_1891_1891,https://jimclifford.ca/hgiscanada/cds/on/wentworth-south-1891-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_Wentworth_South_1901,https://jimclifford.ca/hgiscanada/cds/on/wentworth-south-1901/,minted_hgis_cd,,,ungrounded,
 CD_ON_York,http://www.wikidata.org/entity/Q70460110,wikidata,Q70460110,County of York,matched,
 CD_ON_York_1921,http://www.wikidata.org/entity/Q70460110,wikidata,Q70460110,County of York,matched,
-CD_ON_York_1921_1921,https://jimclifford.ca/hgiscanada/cds/on/york-1921-1921/,minted_hgis_cd,,,ungrounded,
 CD_ON_York_Centre,https://jimclifford.ca/hgiscanada/cds/on/york-centre/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (centre of York County); no separate Wikidata entity
 CD_ON_York_East,https://jimclifford.ca/hgiscanada/cds/on/york-east/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (east of York County); no separate Wikidata entity
-CD_ON_York_East_1871,https://jimclifford.ca/hgiscanada/cds/on/york-east-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_York_East_1881,https://jimclifford.ca/hgiscanada/cds/on/york-east-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_York_East_1891,https://jimclifford.ca/hgiscanada/cds/on/york-east-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_York_East_1901,https://jimclifford.ca/hgiscanada/cds/on/york-east-1901/,minted_hgis_cd,,,ungrounded,
 CD_ON_York_North,https://jimclifford.ca/hgiscanada/cds/on/york-north/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (north of York County); no separate Wikidata entity
-CD_ON_York_North_1871,https://jimclifford.ca/hgiscanada/cds/on/york-north-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_York_North_1881,https://jimclifford.ca/hgiscanada/cds/on/york-north-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_York_North_1891,https://jimclifford.ca/hgiscanada/cds/on/york-north-1891/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (north of York County); no separate Wikidata entity
-CD_ON_York_North_1891_1891,https://jimclifford.ca/hgiscanada/cds/on/york-north-1891-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_York_North_1901,https://jimclifford.ca/hgiscanada/cds/on/york-north-1901/,minted_hgis_cd,,,ungrounded,
-CD_ON_York_North_1911,https://jimclifford.ca/hgiscanada/cds/on/york-north-1911/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (north of York County); no separate Wikidata entity
-CD_ON_York_North_1911_1911,https://jimclifford.ca/hgiscanada/cds/on/york-north-1911-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_York_South,https://jimclifford.ca/hgiscanada/cds/on/york-south/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (south of York County); no separate Wikidata entity
-CD_ON_York_South_1911,https://jimclifford.ca/hgiscanada/cds/on/york-south-1911/,minted_hgis_cd,,,ungrounded,
 CD_ON_York_West,https://jimclifford.ca/hgiscanada/cds/on/york-west/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (west of York County); no separate Wikidata entity
-CD_ON_York_West_1871,https://jimclifford.ca/hgiscanada/cds/on/york-west-1871/,minted_hgis_cd,,,ungrounded,
-CD_ON_York_West_1881,https://jimclifford.ca/hgiscanada/cds/on/york-west-1881/,minted_hgis_cd,,,ungrounded,
-CD_ON_York_West_1891,https://jimclifford.ca/hgiscanada/cds/on/york-west-1891/,minted_hgis_cd,,,ungrounded,
-CD_ON_York_West_1901,https://jimclifford.ca/hgiscanada/cds/on/york-west-1901/,minted_hgis_cd,,,ungrounded,
 CD_PE_King's,http://www.wikidata.org/entity/Q1742133,wikidata,Q1742133,Kings County,matched,
-CD_PE_King's_1891,http://www.wikidata.org/entity/Q1742133,wikidata,Q1742133,Kings County,matched,
 CD_PE_Kings,http://www.wikidata.org/entity/Q1742133,wikidata,Q1742133,Kings County,matched,
 CD_PE_Prince,http://www.wikidata.org/entity/Q2110336,wikidata,Q2110336,Prince County,matched,
 CD_PE_Prince_East,https://jimclifford.ca/hgiscanada/cds/pe/prince-east/,minted_hgis_cd,,,mint_uri,Federal electoral subdivision (east half of Prince County); no separate Wikidata entity
-CD_PE_Prince_East_1901,https://jimclifford.ca/hgiscanada/cds/pe/prince-east-1901/,minted_hgis_cd,,,ungrounded,
 CD_PE_Prince_Edward_Island,https://jimclifford.ca/hgiscanada/cds/pe/prince-edward-island/,minted_hgis_cd,,,mint_uri,Province-wide CD (single CD covering all PEI in some early census years); not equivalent to PEI province (Q1978) at CD level
 CD_PE_Prince_West,https://jimclifford.ca/hgiscanada/cds/pe/prince-west/,minted_hgis_cd,,,mint_uri,Federal electoral subdivision (west half of Prince County); no separate Wikidata entity
-CD_PE_Prince_West_1901,https://jimclifford.ca/hgiscanada/cds/pe/prince-west-1901/,minted_hgis_cd,,,ungrounded,
 CD_PE_Queen's,http://www.wikidata.org/entity/Q2006290,wikidata,Q2006290,Queens County,matched,
-CD_PE_Queen's_1891,http://www.wikidata.org/entity/Q2006290,wikidata,Q2006290,Queens County,matched,
 CD_PE_Queens,http://www.wikidata.org/entity/Q2006290,wikidata,Q2006290,Queens County,matched,
 CD_PE_Queens_East,https://jimclifford.ca/hgiscanada/cds/pe/queens-east/,minted_hgis_cd,,,mint_uri,Federal electoral subdivision (east half of Queens County); no separate Wikidata entity
-CD_PE_Queens_East_1901,https://jimclifford.ca/hgiscanada/cds/pe/queens-east-1901/,minted_hgis_cd,,,ungrounded,
 CD_PE_Queens_West,https://jimclifford.ca/hgiscanada/cds/pe/queens-west/,minted_hgis_cd,,,mint_uri,Federal electoral subdivision (west half of Queens County); no separate Wikidata entity
-CD_PE_Queens_West_1901,https://jimclifford.ca/hgiscanada/cds/pe/queens-west-1901/,minted_hgis_cd,,,ungrounded,
 CD_QC_Argenteuil,http://www.wikidata.org/entity/Q2991090,wikidata,Q2991090,Argenteuil County,matched,
 CD_QC_Arthabaska,http://www.wikidata.org/entity/Q2991091,wikidata,Q2991091,Arthabaska County,matched,
 CD_QC_Arthabaska_1921,http://www.wikidata.org/entity/Q2991091,wikidata,Q2991091,Arthabaska County,matched,
-CD_QC_Arthabaska_1921_1921,https://jimclifford.ca/hgiscanada/cds/qc/arthabaska-1921-1921/,minted_hgis_cd,,,ungrounded,
 CD_QC_Bagot,http://www.wikidata.org/entity/Q2991115,wikidata,Q2991115,comté de Bagot,matched,
-CD_QC_Bagot_1891,http://www.wikidata.org/entity/Q2991115,wikidata,Q2991115,comté de Bagot,matched,
-CD_QC_Bagot_1901,http://www.wikidata.org/entity/Q2991115,wikidata,Q2991115,comté de Bagot,matched,
 CD_QC_Beauce,http://www.wikidata.org/entity/Q2991122,wikidata,Q2991122,Beauce County,matched,
 CD_QC_Beauce_East,https://jimclifford.ca/hgiscanada/cds/qc/beauce-east/,minted_hgis_cd,,,mint_uri,Federal electoral subdivision (east half of Beauce County); no separate Wikidata entity
-CD_QC_Beauce_East_1871,https://jimclifford.ca/hgiscanada/cds/qc/beauce-east-1871/,minted_hgis_cd,,,ungrounded,
 CD_QC_Beauce_West,https://jimclifford.ca/hgiscanada/cds/qc/beauce-west/,minted_hgis_cd,,,mint_uri,Federal electoral subdivision (west half of Beauce County); no separate Wikidata entity
-CD_QC_Beauce_West_1871,https://jimclifford.ca/hgiscanada/cds/qc/beauce-west-1871/,minted_hgis_cd,,,ungrounded,
 CD_QC_Beauharnois,http://www.wikidata.org/entity/Q2991124,wikidata,Q2991124,comté de Beauharnois,matched,
 CD_QC_Bellechasse,http://www.wikidata.org/entity/Q2991127,wikidata,Q2991127,Bellechasse County,matched,
 CD_QC_Bellechasse_North,https://jimclifford.ca/hgiscanada/cds/qc/bellechasse-north/,minted_hgis_cd,,,mint_uri,Federal electoral subdivision (north of Bellechasse County); no separate Wikidata entity
-CD_QC_Bellechasse_North_1871,https://jimclifford.ca/hgiscanada/cds/qc/bellechasse-north-1871/,minted_hgis_cd,,,ungrounded,
 CD_QC_Bellechasse_South,https://jimclifford.ca/hgiscanada/cds/qc/bellechasse-south/,minted_hgis_cd,,,mint_uri,Federal electoral subdivision (south of Bellechasse County); no separate Wikidata entity
-CD_QC_Bellechasse_South_1871,https://jimclifford.ca/hgiscanada/cds/qc/bellechasse-south-1871/,minted_hgis_cd,,,ungrounded,
 CD_QC_Berthier,http://www.wikidata.org/entity/Q2991133,wikidata,Q2991133,Bertheir County,matched,
 CD_QC_Bonaventure,http://www.wikidata.org/entity/Q2991139,wikidata,Q2991139,Comté de Bonaventure,matched,
 CD_QC_Brome,http://www.wikidata.org/entity/Q2991146,wikidata,Q2991146,Brome County,matched,
 CD_QC_Chambly,http://www.wikidata.org/entity/Q2991170,wikidata,Q2991170,"Chambly County, Quebec",matched,
 CD_QC_Chambly_&_Verchères,https://jimclifford.ca/hgiscanada/cds/qc/chambly-verch-res/,minted_hgis_cd,,,mint_uri,Composite CD spanning Chambly County (Q2991170) + Verchères County; no single Wikidata entity
 CD_QC_Chambly_1921,http://www.wikidata.org/entity/Q2991170,wikidata,Q2991170,"Chambly County, Quebec",matched,
-CD_QC_Chambly_1921_1921,https://jimclifford.ca/hgiscanada/cds/qc/chambly-1921-1921/,minted_hgis_cd,,,ungrounded,
 CD_QC_Champlain,http://www.wikidata.org/entity/Q16543127,wikidata,Q16543127,Champlain County,matched,
 CD_QC_Champlain_1891,http://www.wikidata.org/entity/Q16543127,wikidata,Q16543127,Champlain County,matched,
 CD_QC_Champlain_1891_1891,http://www.wikidata.org/entity/Q16543127,wikidata,Q16543127,Champlain County,matched,
-CD_QC_Champlain_1891_1891_1891,https://jimclifford.ca/hgiscanada/cds/qc/champlain-1891-1891-1891/,minted_hgis_cd,,,ungrounded,
-CD_QC_Champlain_1891_1891_1891_1891,https://jimclifford.ca/hgiscanada/cds/qc/champlain-1891-1891-1891-1891/,minted_hgis_cd,,,ungrounded,
 CD_QC_Champlain_North,https://jimclifford.ca/hgiscanada/cds/qc/champlain-north/,minted_hgis_cd,,,mint_uri,Federal electoral subdivision (north of Champlain County); no separate Wikidata entity
-CD_QC_Champlain_North_1871,https://jimclifford.ca/hgiscanada/cds/qc/champlain-north-1871/,minted_hgis_cd,,,ungrounded,
 CD_QC_Champlain_South,https://jimclifford.ca/hgiscanada/cds/qc/champlain-south/,minted_hgis_cd,,,mint_uri,Federal electoral subdivision (south of Champlain County); no separate Wikidata entity
-CD_QC_Champlain_South_1871,https://jimclifford.ca/hgiscanada/cds/qc/champlain-south-1871/,minted_hgis_cd,,,ungrounded,
 CD_QC_Charlevoix,http://www.wikidata.org/entity/Q2991176,wikidata,Q2991176,comté de Charlevoix,matched,
 CD_QC_Chateauguay,http://www.wikidata.org/entity/Q2991186,wikidata,Q2991186,comté de Châteauguay,matched,
-CD_QC_Chateauguay_1911,http://www.wikidata.org/entity/Q2991186,wikidata,Q2991186,comté de Châteauguay,matched,
-CD_QC_Chateauguay_1921,http://www.wikidata.org/entity/Q2991186,wikidata,Q2991186,comté de Châteauguay,matched,
 CD_QC_Chicoutimi,http://www.wikidata.org/entity/Q2991181,wikidata,Q2991181,Chicoutimi County,matched,
 CD_QC_Chicoutimi_&_Saguenay,https://jimclifford.ca/hgiscanada/cds/qc/chicoutimi-saguenay/,minted_hgis_cd,,,mint_uri,Composite CD spanning Chicoutimi County (Q2991181) + Saguenay County; no single Wikidata entity
 CD_QC_Chicoutimi_1921,http://www.wikidata.org/entity/Q2991181,wikidata,Q2991181,Chicoutimi County,matched,
-CD_QC_Chicoutimi_1921_1921,https://jimclifford.ca/hgiscanada/cds/qc/chicoutimi-1921-1921/,minted_hgis_cd,,,ungrounded,
 CD_QC_City_of_Montreal,https://jimclifford.ca/hgiscanada/cds/qc/city-of-montreal/,minted_hgis_cd,,,mint_uri,Historic 19th/early-20th-century census City of Montreal; boundaries differ from modern Montreal (Q340)
 CD_QC_City_of_Quebec,https://jimclifford.ca/hgiscanada/cds/qc/city-of-quebec/,minted_hgis_cd,,,mint_uri,Historic 19th/early-20th-century census City of Quebec; boundaries differ from modern Quebec City (Q3083)
 CD_QC_City_of_Three_Rivers,https://jimclifford.ca/hgiscanada/cds/qc/city-of-three-rivers/,minted_hgis_cd,,,mint_uri,Historic 19th/early-20th-century census City of Three Rivers (Trois-Rivières); boundaries differ from modern Trois-Rivières (Q140970)
 CD_QC_Compton,http://www.wikidata.org/entity/Q2991198,wikidata,Q2991198,Compton County,matched,
 CD_QC_Deux-Montagnes,http://www.wikidata.org/entity/Q2991213,wikidata,Q2991213,comté de Deux-Montagnes,matched,
-CD_QC_Deux-Montagnes_1921,http://www.wikidata.org/entity/Q2991213,wikidata,Q2991213,comté de Deux-Montagnes,matched,
 CD_QC_Dorchester,http://www.wikidata.org/entity/Q2991219,wikidata,Q2991219,Dorchester county,matched,
 CD_QC_Dorchester_East,https://jimclifford.ca/hgiscanada/cds/qc/dorchester-east/,minted_hgis_cd,,,mint_uri,Federal electoral subdivision (east half of Dorchester County); no separate Wikidata entity
-CD_QC_Dorchester_East_1871,https://jimclifford.ca/hgiscanada/cds/qc/dorchester-east-1871/,minted_hgis_cd,,,ungrounded,
 CD_QC_Dorchester_West,https://jimclifford.ca/hgiscanada/cds/qc/dorchester-west/,minted_hgis_cd,,,mint_uri,Federal electoral subdivision (west half of Dorchester County); no separate Wikidata entity
-CD_QC_Dorchester_West_1871,https://jimclifford.ca/hgiscanada/cds/qc/dorchester-west-1871/,minted_hgis_cd,,,ungrounded,
 CD_QC_Drummond,http://www.wikidata.org/entity/Q2991220,wikidata,Q2991220,Drummond county,matched,
 CD_QC_Drummond_&_Arthabaska,https://jimclifford.ca/hgiscanada/cds/qc/drummond-arthabaska/,minted_hgis_cd,,,mint_uri,Composite CD spanning Drummond County (Q2991220) + Arthabaska County (Q2991091); no single Wikidata entity
-CD_QC_Drummond_&_Arthabaska_1891,https://jimclifford.ca/hgiscanada/cds/qc/drummond-arthabaska-1891/,minted_hgis_cd,,,mint_uri,Composite CD spanning Drummond County (Q2991220) + Arthabaska County (Q2991091); no single Wikidata entity
 CD_QC_Drummond_1921,http://www.wikidata.org/entity/Q2991220,wikidata,Q2991220,Drummond county,matched,
-CD_QC_Drummond_1921_1921,https://jimclifford.ca/hgiscanada/cds/qc/drummond-1921-1921/,minted_hgis_cd,,,ungrounded,
 CD_QC_Frontenac,http://www.wikidata.org/entity/Q2991230,wikidata,Q2991230,Frontenac County,matched,
 CD_QC_Gaspé,http://www.wikidata.org/entity/Q2991234,wikidata,Q2991234,comté de Gaspé,matched,
 CD_QC_Gaspé_Centre,https://jimclifford.ca/hgiscanada/cds/qc/gasp-centre/,minted_hgis_cd,,,mint_uri,Federal electoral subdivision (centre of Gaspé County); no separate Wikidata entity
 CD_QC_Gaspé_South,https://jimclifford.ca/hgiscanada/cds/qc/gasp-south/,minted_hgis_cd,,,mint_uri,Federal electoral subdivision (south of Gaspé County); no separate Wikidata entity
-CD_QC_Gaspé_South_1871,https://jimclifford.ca/hgiscanada/cds/qc/gasp-south-1871/,minted_hgis_cd,,,ungrounded,
 CD_QC_Gaspé_West,https://jimclifford.ca/hgiscanada/cds/qc/gasp-west/,minted_hgis_cd,,,mint_uri,Federal electoral subdivision (west of Gaspé County); no separate Wikidata entity
-CD_QC_Gaspé_West_1871,https://jimclifford.ca/hgiscanada/cds/qc/gasp-west-1871/,minted_hgis_cd,,,ungrounded,
 CD_QC_Hochelaga,http://www.wikidata.org/entity/Q14875521,wikidata,Q14875521,Hochelaga County,matched,
 CD_QC_Hull,http://www.wikidata.org/entity/Q2991266,wikidata,Q2991266,Hull County,matched,
 CD_QC_Huntingdon,http://www.wikidata.org/entity/Q2991267,wikidata,Q2991267,Huntingdon County,matched,
 CD_QC_Huntingdon_East,https://jimclifford.ca/hgiscanada/cds/qc/huntingdon-east/,minted_hgis_cd,,,mint_uri,Federal electoral subdivision (east half of Huntingdon County); no separate Wikidata entity
-CD_QC_Huntingdon_East_1871,https://jimclifford.ca/hgiscanada/cds/qc/huntingdon-east-1871/,minted_hgis_cd,,,ungrounded,
 CD_QC_Huntingdon_West,https://jimclifford.ca/hgiscanada/cds/qc/huntingdon-west/,minted_hgis_cd,,,mint_uri,Federal electoral subdivision (west half of Huntingdon County); no separate Wikidata entity
-CD_QC_Huntingdon_West_1871,https://jimclifford.ca/hgiscanada/cds/qc/huntingdon-west-1871/,minted_hgis_cd,,,ungrounded,
 CD_QC_Iberville,http://www.wikidata.org/entity/Q2991101,wikidata,Q2991101,comté d'Iberville,matched,
 CD_QC_Iberville_1921,http://www.wikidata.org/entity/Q2991101,wikidata,Q2991101,comté d'Iberville,matched,
-CD_QC_Iberville_1921_1921,https://jimclifford.ca/hgiscanada/cds/qc/iberville-1921-1921/,minted_hgis_cd,,,ungrounded,
 CD_QC_Isles_de_la_Magdeleine,https://jimclifford.ca/hgiscanada/cds/qc/isles-de-la-magdeleine/,minted_hgis_cd,,,mint_uri,Magdalen Islands historic CD (later part of Gaspé / Îles-de-la-Madeleine); no separate historic-county Wikidata entity for the CD-era boundary
 CD_QC_Jacques-Cartier,http://www.wikidata.org/entity/Q13580765,wikidata,Q13580765,Jacques-Cartier County,matched,
 CD_QC_Jacques-Cartier_1891,http://www.wikidata.org/entity/Q13580765,wikidata,Q13580765,Jacques-Cartier County,matched,
-CD_QC_Jacques-Cartier_1891_1891,https://jimclifford.ca/hgiscanada/cds/qc/jacques-cartier-1891-1891/,minted_hgis_cd,,,ungrounded,
 CD_QC_Jacques_Cartier,http://www.wikidata.org/entity/Q13580765,wikidata,Q13580765,Jacques-Cartier County,matched,
-CD_QC_Jacques_Cartier_1881,http://www.wikidata.org/entity/Q13580765,wikidata,Q13580765,Jacques-Cartier County,matched,
-CD_QC_Jacques_Cartier_1901,http://www.wikidata.org/entity/Q13580765,wikidata,Q13580765,Jacques-Cartier County,matched,
-CD_QC_Jacques_Cartier_1911,http://www.wikidata.org/entity/Q13580765,wikidata,Q13580765,Jacques-Cartier County,matched,
 CD_QC_Joliette,http://www.wikidata.org/entity/Q2991275,wikidata,Q2991275,comté de Joliette,matched,
 CD_QC_Kamouraska,http://www.wikidata.org/entity/Q2991280,wikidata,Q2991280,Kamouraska County,matched,
 CD_QC_L'Assomption,http://www.wikidata.org/entity/Q2991286,wikidata,Q2991286,comté de L'Assomption,matched,
-CD_QC_L'Assomption_1891,http://www.wikidata.org/entity/Q2991286,wikidata,Q2991286,comté de L'Assomption,matched,
-CD_QC_L'Assomption_1901,http://www.wikidata.org/entity/Q2991286,wikidata,Q2991286,comté de L'Assomption,matched,
 CD_QC_L'Islet,http://www.wikidata.org/entity/Q2991287,wikidata,Q2991287,comté de L'Islet,matched,
-CD_QC_L'Islet_1851,http://www.wikidata.org/entity/Q2991287,wikidata,Q2991287,comté de L'Islet,matched,
-CD_QC_L'Islet_1891,http://www.wikidata.org/entity/Q2991287,wikidata,Q2991287,comté de L'Islet,matched,
-CD_QC_L'Islet_1901,http://www.wikidata.org/entity/Q2991287,wikidata,Q2991287,comté de L'Islet,matched,
 CD_QC_Labelle,http://www.wikidata.org/entity/Q2991288,wikidata,Q2991288,Labelle County,matched,
 CD_QC_Labrador,https://jimclifford.ca/hgiscanada/cds/qc/labrador/,minted_hgis_cd,,,mint_uri,Quebec-claimed Labrador CD (pre-1927 Privy Council ruling); not equivalent to modern NL Labrador
 CD_QC_Lac_St._Jean,https://jimclifford.ca/hgiscanada/cds/qc/lac-st-jean/,minted_hgis_cd,,,mint_uri,1921 CD spans comté Lac-St-Jean Est (Q2991289) + Ouest (Q2991290); no single Wikidata entity
 CD_QC_Laprairie,http://www.wikidata.org/entity/Q2991296,wikidata,Q2991296,comté de Laprairie,matched,
 CD_QC_Laprairie_&_Napierville,https://jimclifford.ca/hgiscanada/cds/qc/laprairie-napierville/,minted_hgis_cd,,,mint_uri,Composite CD spanning Laprairie County (Q2991296) + Napierville County; no single Wikidata entity
 CD_QC_Laprairie_1921,http://www.wikidata.org/entity/Q2991296,wikidata,Q2991296,comté de Laprairie,matched,
-CD_QC_Laprairie_1921_1921,https://jimclifford.ca/hgiscanada/cds/qc/laprairie-1921-1921/,minted_hgis_cd,,,ungrounded,
 CD_QC_Laval,https://jimclifford.ca/hgiscanada/cds/qc/laval/,minted_hgis_cd,,,mint_uri,"Historic Laval County (Île Jésus, 1853-1965), no Wikidata entity for the historic county; modern Laval (Q141810) is post-amalgamation city"
 CD_QC_Leinster,https://jimclifford.ca/hgiscanada/cds/qc/leinster/,minted_hgis_cd,,,mint_uri,Pre-1853 Lower Canada county (predecessor of Berthier/Joliette/L'Assomption/Montcalm); no Wikidata entity
 CD_QC_Lotbinière,http://www.wikidata.org/entity/Q2991307,wikidata,Q2991307,comté de Lotbinière,matched,
-CD_QC_Lotbinière_1861,http://www.wikidata.org/entity/Q2991307,wikidata,Q2991307,comté de Lotbinière,matched,
-CD_QC_Lotbinière_1871,http://www.wikidata.org/entity/Q2991307,wikidata,Q2991307,comté de Lotbinière,matched,
 CD_QC_Lévis,http://www.wikidata.org/entity/Q2991311,wikidata,Q2991311,Lévis County,matched,
 CD_QC_Lévis_(Comté),https://jimclifford.ca/hgiscanada/cds/qc/l-vis-comt/,minted_hgis_cd,,,mint_uri,Disambiguating CD label (Comté) within Lévis area; not a distinct Wikidata entity from Lévis County (Q2991311)
 CD_QC_Lévis_(Ville),https://jimclifford.ca/hgiscanada/cds/qc/l-vis-ville/,minted_hgis_cd,,,mint_uri,Historic city of Lévis as separate CD inside Lévis County
 CD_QC_Maisonneuve,https://jimclifford.ca/hgiscanada/cds/qc/maisonneuve/,minted_hgis_cd,,,mint_uri,Historic Montreal-area municipality / electoral district inside Hochelaga County; no distinct historic-county entity
 CD_QC_Maskinongé,http://www.wikidata.org/entity/Q2991316,wikidata,Q2991316,comté de Maskinongé,matched,
-CD_QC_Maskinongé_1861,http://www.wikidata.org/entity/Q2991316,wikidata,Q2991316,comté de Maskinongé,matched,
-CD_QC_Maskinongé_1871,http://www.wikidata.org/entity/Q2991316,wikidata,Q2991316,comté de Maskinongé,matched,
 CD_QC_Matane,http://www.wikidata.org/entity/Q2991318,wikidata,Q2991318,comté de Matane,matched,
 CD_QC_Megantic,http://www.wikidata.org/entity/Q2991353,wikidata,Q2991353,comté de Mégantic,matched,
 CD_QC_Missisquoi,http://www.wikidata.org/entity/Q2991331,wikidata,Q2991331,Missisquoi County,matched,
@@ -12021,9 +11565,7 @@ CD_QC_Montmagny,http://www.wikidata.org/entity/Q2991338,wikidata,Q2991338,comté
 CD_QC_Montmorency,https://jimclifford.ca/hgiscanada/cds/qc/montmorency/,minted_hgis_cd,,,mint_uri,OCR variant of Montmorency; 1921 CD spans comté Montmorency No. 1 (Q2991335) + No. 2 (Q2991337); no single Wikidata entity covers union
 CD_QC_Montreal_Centre,https://jimclifford.ca/hgiscanada/cds/qc/montreal-centre/,minted_hgis_cd,,,mint_uri,Historic Montreal city electoral subdivision
 CD_QC_Montreal_East,https://jimclifford.ca/hgiscanada/cds/qc/montreal-east/,minted_hgis_cd,,,mint_uri,Historic Montreal city electoral subdivision
-CD_QC_Montreal_East_1871,https://jimclifford.ca/hgiscanada/cds/qc/montreal-east-1871/,minted_hgis_cd,,,ungrounded,
 CD_QC_Montreal_West,https://jimclifford.ca/hgiscanada/cds/qc/montreal-west/,minted_hgis_cd,,,mint_uri,Historic Montreal city electoral subdivision
-CD_QC_Montreal_West_1871,https://jimclifford.ca/hgiscanada/cds/qc/montreal-west-1871/,minted_hgis_cd,,,ungrounded,
 CD_QC_Montréal,https://jimclifford.ca/hgiscanada/cds/qc/montr-al/,minted_hgis_cd,,,mint_uri,City of Montréal as census division (1921); not a historic county
 "CD_QC_Montréal,_St._Antoine",https://jimclifford.ca/hgiscanada/cds/qc/montr-al-st-antoine/,minted_hgis_cd,,,mint_uri,Historic Montreal city ward (St. Antoine)
 "CD_QC_Montréal,_St._Jacques",https://jimclifford.ca/hgiscanada/cds/qc/montr-al-st-jacques/,minted_hgis_cd,,,mint_uri,Historic Montreal city ward (St. Jacques)
@@ -12032,115 +11574,65 @@ CD_QC_Montréal,https://jimclifford.ca/hgiscanada/cds/qc/montr-al/,minted_hgis_c
 "CD_QC_Montréal,_Ste._Marie",https://jimclifford.ca/hgiscanada/cds/qc/montr-al-ste-marie/,minted_hgis_cd,,,mint_uri,Historic Montreal city ward (Ste. Marie)
 CD_QC_Montréal_&_Jésus_Islands—Iles,https://jimclifford.ca/hgiscanada/cds/qc/montr-al-j-sus-islands-iles/,minted_hgis_cd,,,mint_uri,Composite CD covering Île de Montréal + Île Jésus; no single Wikidata entity
 CD_QC_Montréal_1881,https://jimclifford.ca/hgiscanada/cds/qc/montr-al-1881/,minted_hgis_cd,,,mint_uri,City of Montréal as census division (1921); not a historic county
-CD_QC_Montréal_1881_1881,https://jimclifford.ca/hgiscanada/cds/qc/montr-al-1881-1881/,minted_hgis_cd,,,ungrounded,
-CD_QC_Montréal_1891,https://jimclifford.ca/hgiscanada/cds/qc/montr-al-1891/,minted_hgis_cd,,,ungrounded,
-CD_QC_Montréal_1901,https://jimclifford.ca/hgiscanada/cds/qc/montr-al-1901/,minted_hgis_cd,,,ungrounded,
 CD_QC_Mégantic,http://www.wikidata.org/entity/Q2991353,wikidata,Q2991353,comté de Mégantic,matched,
 CD_QC_Mégantic_1861,http://www.wikidata.org/entity/Q2991353,wikidata,Q2991353,comté de Mégantic,matched,
-CD_QC_Mégantic_1861_1861,https://jimclifford.ca/hgiscanada/cds/qc/m-gantic-1861-1861/,minted_hgis_cd,,,ungrounded,
-CD_QC_Mégantic_1871,http://www.wikidata.org/entity/Q2991353,wikidata,Q2991353,comté de Mégantic,matched,
-CD_QC_Mégantic_1881,http://www.wikidata.org/entity/Q2991353,wikidata,Q2991353,comté de Mégantic,matched,
 CD_QC_Napierville,http://www.wikidata.org/entity/Q2991357,wikidata,Q2991357,comté de Napierville,matched,
 CD_QC_Napierville_1921,http://www.wikidata.org/entity/Q2991357,wikidata,Q2991357,comté de Napierville,matched,
-CD_QC_Napierville_1921_1921,https://jimclifford.ca/hgiscanada/cds/qc/napierville-1921-1921/,minted_hgis_cd,,,ungrounded,
 CD_QC_Nicolet,http://www.wikidata.org/entity/Q2991363,wikidata,Q2991363,comté de Nicolet,matched,
 CD_QC_Ottaoua_Centre,https://jimclifford.ca/hgiscanada/cds/qc/ottaoua-centre/,minted_hgis_cd,,,mint_uri,OCR-typo electoral subdivision of Hull/Ottawa County area
 CD_QC_Ottaoua_East,https://jimclifford.ca/hgiscanada/cds/qc/ottaoua-east/,minted_hgis_cd,,,mint_uri,OCR-typo electoral subdivision of Hull/Ottawa County area
-CD_QC_Ottaoua_East_1871,https://jimclifford.ca/hgiscanada/cds/qc/ottaoua-east-1871/,minted_hgis_cd,,,ungrounded,
 CD_QC_Ottawa_County,http://www.wikidata.org/entity/Q2991266,wikidata,Q2991266,comté de Hull,matched,
-CD_QC_Ottawa_County_1881,https://jimclifford.ca/hgiscanada/cds/qc/ottawa-county-1881/,minted_hgis_cd,,,ungrounded,
-CD_QC_Ottawa_County_1891,https://jimclifford.ca/hgiscanada/cds/qc/ottawa-county-1891/,minted_hgis_cd,,,ungrounded,
 CD_QC_Ottawa_West,https://jimclifford.ca/hgiscanada/cds/qc/ottawa-west/,minted_hgis_cd,,,mint_uri,Electoral subdivision of Hull/Ottawa County area
-CD_QC_Ottawa_West_1871,https://jimclifford.ca/hgiscanada/cds/qc/ottawa-west-1871/,minted_hgis_cd,,,ungrounded,
 CD_QC_Outaouais,http://www.wikidata.org/entity/Q2991266,wikidata,Q2991266,comté de Hull,matched,
 CD_QC_Pontiac,http://www.wikidata.org/entity/Q16543141,wikidata,Q16543141,comté de Pontiac,matched,
 CD_QC_Pontiac_North,https://jimclifford.ca/hgiscanada/cds/qc/pontiac-north/,minted_hgis_cd,,,mint_uri,Electoral subdivision of Pontiac County
-CD_QC_Pontiac_North_1871,https://jimclifford.ca/hgiscanada/cds/qc/pontiac-north-1871/,minted_hgis_cd,,,ungrounded,
 CD_QC_Pontiac_South,https://jimclifford.ca/hgiscanada/cds/qc/pontiac-south/,minted_hgis_cd,,,mint_uri,Electoral subdivision of Pontiac County
-CD_QC_Pontiac_South_1871,https://jimclifford.ca/hgiscanada/cds/qc/pontiac-south-1871/,minted_hgis_cd,,,ungrounded,
 CD_QC_Portneuf,http://www.wikidata.org/entity/Q2991380,wikidata,Q2991380,comté de Portneuf,matched,
 CD_QC_Quebec_Centre,https://jimclifford.ca/hgiscanada/cds/qc/quebec-centre/,minted_hgis_cd,,,mint_uri,Historic Quebec City ward
 CD_QC_Quebec_City,https://jimclifford.ca/hgiscanada/cds/qc/quebec-city/,minted_hgis_cd,,,mint_uri,City of Quebec as census division (1921); not a historic county
-CD_QC_Quebec_City_1881,https://jimclifford.ca/hgiscanada/cds/qc/quebec-city-1881/,minted_hgis_cd,,,ungrounded,
-CD_QC_Quebec_City_1891,https://jimclifford.ca/hgiscanada/cds/qc/quebec-city-1891/,minted_hgis_cd,,,ungrounded,
 CD_QC_Quebec_County,http://www.wikidata.org/entity/Q7269765,wikidata,Q7269765,comté de Québec,matched,
-CD_QC_Quebec_County_1851,https://jimclifford.ca/hgiscanada/cds/qc/quebec-county-1851/,minted_hgis_cd,,,ungrounded,
-CD_QC_Quebec_County_1881,https://jimclifford.ca/hgiscanada/cds/qc/quebec-county-1881/,minted_hgis_cd,,,ungrounded,
-CD_QC_Quebec_County_1891,https://jimclifford.ca/hgiscanada/cds/qc/quebec-county-1891/,minted_hgis_cd,,,ungrounded,
-CD_QC_Quebec_County_1901,https://jimclifford.ca/hgiscanada/cds/qc/quebec-county-1901/,minted_hgis_cd,,,ungrounded,
-CD_QC_Quebec_County_1911,https://jimclifford.ca/hgiscanada/cds/qc/quebec-county-1911/,minted_hgis_cd,,,ungrounded,
-CD_QC_Quebec_County_1921,https://jimclifford.ca/hgiscanada/cds/qc/quebec-county-1921/,minted_hgis_cd,,,ungrounded,
 CD_QC_Quebec_East,https://jimclifford.ca/hgiscanada/cds/qc/quebec-east/,minted_hgis_cd,,,mint_uri,Historic Quebec City ward
-CD_QC_Quebec_East_1871,https://jimclifford.ca/hgiscanada/cds/qc/quebec-east-1871/,minted_hgis_cd,,,ungrounded,
 CD_QC_Quebec_West,https://jimclifford.ca/hgiscanada/cds/qc/quebec-west/,minted_hgis_cd,,,mint_uri,Historic Quebec City ward
-CD_QC_Quebec_West_1871,https://jimclifford.ca/hgiscanada/cds/qc/quebec-west-1871/,minted_hgis_cd,,,ungrounded,
 CD_QC_Québec_Centre,https://jimclifford.ca/hgiscanada/cds/qc/qu-bec-centre/,minted_hgis_cd,,,mint_uri,Historic Quebec City ward
 CD_QC_Québec_East,https://jimclifford.ca/hgiscanada/cds/qc/qu-bec-east/,minted_hgis_cd,,,mint_uri,Historic Quebec City ward
-CD_QC_Québec_East_1901,https://jimclifford.ca/hgiscanada/cds/qc/qu-bec-east-1901/,minted_hgis_cd,,,ungrounded,
-CD_QC_Québec_East_1911,https://jimclifford.ca/hgiscanada/cds/qc/qu-bec-east-1911/,minted_hgis_cd,,,ungrounded,
 CD_QC_Québec_West,https://jimclifford.ca/hgiscanada/cds/qc/qu-bec-west/,minted_hgis_cd,,,mint_uri,Historic Quebec City ward
-CD_QC_Québec_West_1901,https://jimclifford.ca/hgiscanada/cds/qc/qu-bec-west-1901/,minted_hgis_cd,,,ungrounded,
-CD_QC_Québec_West_1911,https://jimclifford.ca/hgiscanada/cds/qc/qu-bec-west-1911/,minted_hgis_cd,,,ungrounded,
 CD_QC_Richelieu,http://www.wikidata.org/entity/Q2991390,wikidata,Q2991390,comté de Richelieu,matched,
 CD_QC_Richmond,http://www.wikidata.org/entity/Q2991392,wikidata,Q2991392,comté de Richmond,matched,
 CD_QC_Richmond_&_Wolfe,https://jimclifford.ca/hgiscanada/cds/qc/richmond-wolfe/,minted_hgis_cd,,,mint_uri,Composite CD: Richmond County (Q2991392) + Wolfe County (Q2991471); no single Wikidata entity
 CD_QC_Richmond_1921,http://www.wikidata.org/entity/Q2991392,wikidata,Q2991392,comté de Richmond,matched,
-CD_QC_Richmond_1921_1921,https://jimclifford.ca/hgiscanada/cds/qc/richmond-1921-1921/,minted_hgis_cd,,,ungrounded,
 CD_QC_Rimouski,http://www.wikidata.org/entity/Q2991393,wikidata,Q2991393,comté de Rimouski,matched,
 CD_QC_Rimouski_East,https://jimclifford.ca/hgiscanada/cds/qc/rimouski-east/,minted_hgis_cd,,,mint_uri,Electoral subdivision of Rimouski County
-CD_QC_Rimouski_East_1871,https://jimclifford.ca/hgiscanada/cds/qc/rimouski-east-1871/,minted_hgis_cd,,,ungrounded,
 CD_QC_Rimouski_West,https://jimclifford.ca/hgiscanada/cds/qc/rimouski-west/,minted_hgis_cd,,,mint_uri,Electoral subdivision of Rimouski County
-CD_QC_Rimouski_West_1871,https://jimclifford.ca/hgiscanada/cds/qc/rimouski-west-1871/,minted_hgis_cd,,,ungrounded,
 CD_QC_Rouville,http://www.wikidata.org/entity/Q2991403,wikidata,Q2991403,comté de Rouville,matched,
 CD_QC_Saguenay,http://www.wikidata.org/entity/Q2991404,wikidata,Q2991404,comté de Saguenay,matched,
 CD_QC_Saguenay_1921,http://www.wikidata.org/entity/Q2991404,wikidata,Q2991404,comté de Saguenay,matched,
-CD_QC_Saguenay_1921_1921,https://jimclifford.ca/hgiscanada/cds/qc/saguenay-1921-1921/,minted_hgis_cd,,,ungrounded,
 CD_QC_Saint_Maurice_North,https://jimclifford.ca/hgiscanada/cds/qc/saint-maurice-north/,minted_hgis_cd,,,mint_uri,Electoral subdivision of Saint-Maurice County
-CD_QC_Saint_Maurice_North_1871,https://jimclifford.ca/hgiscanada/cds/qc/saint-maurice-north-1871/,minted_hgis_cd,,,ungrounded,
 CD_QC_Saint_Maurice_South,https://jimclifford.ca/hgiscanada/cds/qc/saint-maurice-south/,minted_hgis_cd,,,mint_uri,Electoral subdivision of Saint-Maurice County
-CD_QC_Saint_Maurice_South_1871,https://jimclifford.ca/hgiscanada/cds/qc/saint-maurice-south-1871/,minted_hgis_cd,,,ungrounded,
 CD_QC_Shefford,http://www.wikidata.org/entity/Q2991426,wikidata,Q2991426,comté de Shefford,matched,
 CD_QC_Sherbrooke,http://www.wikidata.org/entity/Q2991427,wikidata,Q2991427,comté de Sherbrooke,matched,
 CD_QC_Sherbrooke_1861,http://www.wikidata.org/entity/Q2991427,wikidata,Q2991427,comté de Sherbrooke,matched,
-CD_QC_Sherbrooke_1871,https://jimclifford.ca/hgiscanada/cds/qc/sherbrooke-1871/,minted_hgis_cd,,,ungrounded,
-CD_QC_Sherbrooke_1881,https://jimclifford.ca/hgiscanada/cds/qc/sherbrooke-1881/,minted_hgis_cd,,,ungrounded,
-CD_QC_Sherbrooke_1891,https://jimclifford.ca/hgiscanada/cds/qc/sherbrooke-1891/,minted_hgis_cd,,,ungrounded,
-CD_QC_Sherbrooke_1901,https://jimclifford.ca/hgiscanada/cds/qc/sherbrooke-1901/,minted_hgis_cd,,,ungrounded,
-CD_QC_Sherbrooke_1911,https://jimclifford.ca/hgiscanada/cds/qc/sherbrooke-1911/,minted_hgis_cd,,,ungrounded,
-CD_QC_Sherbrooke_1921,https://jimclifford.ca/hgiscanada/cds/qc/sherbrooke-1921/,minted_hgis_cd,,,ungrounded,
 CD_QC_Soulanges,http://www.wikidata.org/entity/Q16543148,wikidata,Q16543148,comté de Soulanges,matched,
 CD_QC_St._Hyacinthe,http://www.wikidata.org/entity/Q2991405,wikidata,Q2991405,comté de Saint-Hyacinthe,matched,
 CD_QC_St._Jean,http://www.wikidata.org/entity/Q2991409,wikidata,Q2991409,comté de Saint-Jean,matched,
 CD_QC_St._Jean_&_Iberville,https://jimclifford.ca/hgiscanada/cds/qc/st-jean-iberville/,minted_hgis_cd,,,mint_uri,Composite CD: Saint-Jean County (Q2991409) + Iberville County (Q2991101); no single Wikidata entity
 CD_QC_St._Jean_1921,http://www.wikidata.org/entity/Q2991409,wikidata,Q2991409,comté de Saint-Jean,matched,
-CD_QC_St._Jean_1921_1921,https://jimclifford.ca/hgiscanada/cds/qc/st-jean-1921-1921/,minted_hgis_cd,,,ungrounded,
 CD_QC_St._Maurice,http://www.wikidata.org/entity/Q2991407,wikidata,Q2991407,comté de Saint-Maurice,matched,
 CD_QC_St._Maurice_1921,http://www.wikidata.org/entity/Q2991407,wikidata,Q2991407,comté de Saint-Maurice,matched,
-CD_QC_St._Maurice_1921_1921,https://jimclifford.ca/hgiscanada/cds/qc/st-maurice-1921-1921/,minted_hgis_cd,,,ungrounded,
 CD_QC_Stanstead,http://www.wikidata.org/entity/Q2991434,wikidata,Q2991434,comté de Stanstead,matched,
 CD_QC_Temiscouata,http://www.wikidata.org/entity/Q2991451,wikidata,Q2991451,comté de Témiscouata,matched,
-CD_QC_Temiscouata_1891,http://www.wikidata.org/entity/Q2991451,wikidata,Q2991451,comté de Témiscouata,matched,
-CD_QC_Temiscouata_1911,http://www.wikidata.org/entity/Q2991451,wikidata,Q2991451,comté de Témiscouata,matched,
-CD_QC_Temiscouata_1921,http://www.wikidata.org/entity/Q2991451,wikidata,Q2991451,comté de Témiscouata,matched,
 CD_QC_Terrebonne,http://www.wikidata.org/entity/Q2991445,wikidata,Q2991445,comté de Terrebonne,matched,
 CD_QC_Trois-Rivières,https://jimclifford.ca/hgiscanada/cds/qc/trois-rivi-res/,minted_hgis_cd,,,mint_uri,Historic city of Trois-Rivières as census division (inside Saint-Maurice County)
 CD_QC_Trois-Rivières_&_St._Maurice,http://www.wikidata.org/entity/Q2991407,wikidata,Q2991407,comté de Saint-Maurice,matched,
-CD_QC_Trois-Rivières_1871,https://jimclifford.ca/hgiscanada/cds/qc/trois-rivi-res-1871/,minted_hgis_cd,,,mint_uri,Historic city of Trois-Rivières as census division (inside Saint-Maurice County)
 CD_QC_Témiscamingue,http://www.wikidata.org/entity/Q16543153,wikidata,Q16543153,comté de Témiscamingue,matched,
 "CD_QC_Unorganized_Districts_-_Abitibi,_Ashuanipi,_Mistassini",https://jimclifford.ca/hgiscanada/cds/qc/unorganized-districts-abitibi-ashuanipi-mistassini/,minted_hgis_cd,,,mint_uri,"Composite unorganized northern Quebec territory (Abitibi, Ashuanipi, Mistassini); no single Wikidata entity"
 CD_QC_Unorganized_parts_-_Parties_non_organisées,https://jimclifford.ca/hgiscanada/cds/qc/unorganized-parts-parties-non-organis-es/,minted_hgis_cd,,,mint_uri,Unorganized northern Quebec territory aggregate; no single Wikidata entity
 CD_QC_Vaudreuil,http://www.wikidata.org/entity/Q16543157,wikidata,Q16543157,comté de Vaudreuil,matched,
 CD_QC_Verchères,http://www.wikidata.org/entity/Q2991456,wikidata,Q2991456,comté de Verchères,matched,
-CD_QC_Verchères_1861,http://www.wikidata.org/entity/Q2991456,wikidata,Q2991456,comté de Verchères,matched,
-CD_QC_Verchères_1871,http://www.wikidata.org/entity/Q2991456,wikidata,Q2991456,comté de Verchères,matched,
 CD_QC_Verchères_1921,http://www.wikidata.org/entity/Q2991456,wikidata,Q2991456,comté de Verchères,matched,
-CD_QC_Verchères_1921_1921,https://jimclifford.ca/hgiscanada/cds/qc/verch-res-1921-1921/,minted_hgis_cd,,,ungrounded,
 CD_QC_Wolfe,http://www.wikidata.org/entity/Q2991471,wikidata,Q2991471,comté de Wolfe,matched,
 CD_QC_Wolfe_1921,http://www.wikidata.org/entity/Q2991471,wikidata,Q2991471,comté de Wolfe,matched,
-CD_QC_Wolfe_1921_1921,https://jimclifford.ca/hgiscanada/cds/qc/wolfe-1921-1921/,minted_hgis_cd,,,ungrounded,
 CD_QC_Wright,http://www.wikidata.org/entity/Q2991266,wikidata,Q2991266,comté de Hull,matched,
 CD_QC_Yamaska,http://www.wikidata.org/entity/Q2991475,wikidata,Q2991475,comté de Yamaska,matched,
-CD_QC_Yamaska_1891,http://www.wikidata.org/entity/Q2991475,wikidata,Q2991475,comté de Yamaska,matched,
 CD_SK_Assiniboia,https://jimclifford.ca/hgiscanada/cds/sk/assiniboia/,minted_hgis_cd,,,mint_uri,Pre-1911 SK named census district / federal electoral district; no modern county equivalent
 CD_SK_Battleford,https://jimclifford.ca/hgiscanada/cds/sk/battleford/,minted_hgis_cd,,,mint_uri,Pre-1911 SK named census district / federal electoral district; no modern county equivalent
 CD_SK_Division_No._1,http://www.wikidata.org/entity/Q1363817,wikidata,Q1363817,Division No. 1,matched,
