@@ -11184,8 +11184,7 @@ CD_BC_Vancouver_Centre,https://jimclifford.ca/hgiscanada/cds/bc/vancouver-centre
 CD_BC_Vancouver_City,http://www.wikidata.org/entity/Q24639,wikidata,Q24639,Vancouver,matched,
 CD_BC_Vancouver_South,https://jimclifford.ca/hgiscanada/cds/bc/vancouver-south/,minted_hgis_cd,,,mint_uri,BC 1921 federal electoral district inside city of Vancouver; no modern equivalent.
 CD_BC_Victoria,https://jimclifford.ca/hgiscanada/cds/bc/victoria/,minted_hgis_cd,,,mint_uri,BC 1921 federal electoral district covering area around Victoria; not coterminous with City of Victoria.
-CD_BC_Victoria_1901,https://jimclifford.ca/hgiscanada/cds/bc/victoria-1901/,minted_hgis_cd,,,mint_uri,BC 1921 federal electoral district covering area around Victoria; not coterminous with City of Victoria.
-CD_BC_Victoria_City,https://jimclifford.ca/hgiscanada/cds/bc/victoria-city/,minted_hgis_cd,,,mint_uri,BC 1921 federal electoral district covering area around Victoria (variant with trailing space); not coterminous with City of Victoria.
+CD_BC_Victoria_City,https://jimclifford.ca/hgiscanada/cds/bc/victoria-city/,minted_hgis_cd,,,mint_uri,"BC 1921 federal electoral district named ""Victoria City""; identity with modern City of Victoria boundary unclear."
 CD_BC_Yale,https://jimclifford.ca/hgiscanada/cds/bc/yale/,minted_hgis_cd,,,mint_uri,BC 1921 federal electoral district named after Yale; no modern county/CD equivalent.
 CD_BC_Yale_&_Cariboo,https://jimclifford.ca/hgiscanada/cds/bc/yale-cariboo/,minted_hgis_cd,,,mint_uri,BC composite federal electoral district (Yale + Cariboo); no single Wikidata entity.
 CD_BC_Yale_1921,https://jimclifford.ca/hgiscanada/cds/bc/yale-1921/,minted_hgis_cd,,,mint_uri,BC 1921 federal electoral district named after Yale; no modern county/CD equivalent.
@@ -11214,9 +11213,6 @@ CD_MB_Manitoba,http://www.wikidata.org/entity/Q1948,wikidata,Q1948,Manitoba,matc
 CD_MB_Marquette,https://jimclifford.ca/hgiscanada/cds/mb/marquette/,minted_hgis_cd,,,mint_uri,MB 1921 federal electoral district named after Jacques Marquette; no modern equivalent.
 CD_MB_Portage_La_Prairie,https://jimclifford.ca/hgiscanada/cds/mb/portage-la-prairie/,minted_hgis_cd,,,mint_uri,MB 1921 federal electoral district named after Portage la Prairie; not coterminous with town.
 CD_MB_Provencher,https://jimclifford.ca/hgiscanada/cds/mb/provencher/,minted_hgis_cd,,,mint_uri,MB 1921 federal electoral district named after J.-N. Provencher; no modern county equivalent.
-CD_MB_Provencher_1881,https://jimclifford.ca/hgiscanada/cds/mb/provencher-1881/,minted_hgis_cd,,,mint_uri,MB 1921 federal electoral district named after J.-N. Provencher (variant with trailing space); no modern county equivalent.
-CD_MB_Provencher_1891,https://jimclifford.ca/hgiscanada/cds/mb/provencher-1891/,minted_hgis_cd,,,mint_uri,MB 1921 federal electoral district named after J.-N. Provencher (variant with trailing space); no modern county equivalent.
-CD_MB_Provencher_1891_1891,https://jimclifford.ca/hgiscanada/cds/mb/provencher-1891-1891/,minted_hgis_cd,,,mint_uri,MB 1921 federal electoral district named after J.-N. Provencher; no modern county equivalent.
 CD_MB_Selkirk,https://jimclifford.ca/hgiscanada/cds/mb/selkirk/,minted_hgis_cd,,,mint_uri,MB 1921 federal electoral district named after Lord Selkirk; not coterminous with town.
 CD_MB_Souris,https://jimclifford.ca/hgiscanada/cds/mb/souris/,minted_hgis_cd,,,mint_uri,MB 1921 federal electoral district named after Souris River/town; no modern equivalent.
 CD_MB_Winnipeg_City,http://www.wikidata.org/entity/Q2135,wikidata,Q2135,Winnipeg,matched,
@@ -11295,8 +11291,6 @@ CD_ON_Bothwell,https://jimclifford.ca/hgiscanada/cds/on/bothwell/,minted_hgis_cd
 CD_ON_Brant,http://www.wikidata.org/entity/Q384944,wikidata,Q384944,County of Brant,matched,
 "CD_ON_Brant,_North_or_East—Nord_ou_East",https://jimclifford.ca/hgiscanada/cds/on/brant-north-or-east-nord-ou-east/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision of Brant County; no Wikidata entity.
 "CD_ON_Brant,_South_or_West—Sud_ou_West",https://jimclifford.ca/hgiscanada/cds/on/brant-south-or-west-sud-ou-west/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision of Brant County; no Wikidata entity.
-CD_ON_Brant_1861,http://www.wikidata.org/entity/Q384944,wikidata,Q384944,County of Brant,matched,
-CD_ON_Brant_1861_1861,http://www.wikidata.org/entity/Q384944,wikidata,Q384944,County of Brant,matched,
 CD_ON_Brant_1911,http://www.wikidata.org/entity/Q384944,wikidata,Q384944,County of Brant,matched,
 CD_ON_Brant_North,https://jimclifford.ca/hgiscanada/cds/on/brant-north/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (North Brant); no Wikidata entity.
 CD_ON_Brant_South,https://jimclifford.ca/hgiscanada/cds/on/brant-south/,minted_hgis_cd,,,mint_uri,ON federal electoral subdivision (South Brant); no Wikidata entity.
@@ -11375,7 +11369,7 @@ CD_ON_Lennox,http://www.wikidata.org/entity/Q17108580,wikidata,Q17108580,Lennox 
 CD_ON_Lennox_&_Addington,http://www.wikidata.org/entity/Q1313055,wikidata,Q1313055,Lennox and Addington County,matched,
 CD_ON_Lennox_1871,http://www.wikidata.org/entity/Q17108580,wikidata,Q17108580,Lennox County,matched,
 CD_ON_Lennox_1921,http://www.wikidata.org/entity/Q17108580,wikidata,Q17108580,Lennox County,matched,
-CD_ON_Lennox_and_Addington,http://www.wikidata.org/entity/Q1313055,wikidata,Q1313055,Lennox and Addington County,matched,
+CD_ON_Lennox_and_Addington,https://jimclifford.ca/hgiscanada/cds/on/lennox-and-addington/,minted_hgis_cd,,,ungrounded,
 CD_ON_Lincoln,http://www.wikidata.org/entity/Q6550599,wikidata,Q6550599,Lincoln County,matched,
 CD_ON_Lincoln_&_Niagara,https://jimclifford.ca/hgiscanada/cds/on/lincoln-niagara/,minted_hgis_cd,,,mint_uri,ON composite CD covering Lincoln + Niagara counties; Q3241311 is electoral district (excluded by protocol).
 CD_ON_London,http://www.wikidata.org/entity/Q92561,wikidata,Q92561,London,matched,
@@ -11503,8 +11497,6 @@ CD_QC_Chambly,http://www.wikidata.org/entity/Q2991170,wikidata,Q2991170,"Chambly
 CD_QC_Chambly_&_Verchères,https://jimclifford.ca/hgiscanada/cds/qc/chambly-verch-res/,minted_hgis_cd,,,mint_uri,Composite CD spanning Chambly County (Q2991170) + Verchères County; no single Wikidata entity
 CD_QC_Chambly_1921,http://www.wikidata.org/entity/Q2991170,wikidata,Q2991170,"Chambly County, Quebec",matched,
 CD_QC_Champlain,http://www.wikidata.org/entity/Q16543127,wikidata,Q16543127,Champlain County,matched,
-CD_QC_Champlain_1891,http://www.wikidata.org/entity/Q16543127,wikidata,Q16543127,Champlain County,matched,
-CD_QC_Champlain_1891_1891,http://www.wikidata.org/entity/Q16543127,wikidata,Q16543127,Champlain County,matched,
 CD_QC_Champlain_North,https://jimclifford.ca/hgiscanada/cds/qc/champlain-north/,minted_hgis_cd,,,mint_uri,Federal electoral subdivision (north of Champlain County); no separate Wikidata entity
 CD_QC_Champlain_South,https://jimclifford.ca/hgiscanada/cds/qc/champlain-south/,minted_hgis_cd,,,mint_uri,Federal electoral subdivision (south of Champlain County); no separate Wikidata entity
 CD_QC_Charlevoix,http://www.wikidata.org/entity/Q2991176,wikidata,Q2991176,comté de Charlevoix,matched,
@@ -11537,8 +11529,6 @@ CD_QC_Iberville,http://www.wikidata.org/entity/Q2991101,wikidata,Q2991101,comté
 CD_QC_Iberville_1921,http://www.wikidata.org/entity/Q2991101,wikidata,Q2991101,comté d'Iberville,matched,
 CD_QC_Isles_de_la_Magdeleine,https://jimclifford.ca/hgiscanada/cds/qc/isles-de-la-magdeleine/,minted_hgis_cd,,,mint_uri,Magdalen Islands historic CD (later part of Gaspé / Îles-de-la-Madeleine); no separate historic-county Wikidata entity for the CD-era boundary
 CD_QC_Jacques-Cartier,http://www.wikidata.org/entity/Q13580765,wikidata,Q13580765,Jacques-Cartier County,matched,
-CD_QC_Jacques-Cartier_1891,http://www.wikidata.org/entity/Q13580765,wikidata,Q13580765,Jacques-Cartier County,matched,
-CD_QC_Jacques_Cartier,http://www.wikidata.org/entity/Q13580765,wikidata,Q13580765,Jacques-Cartier County,matched,
 CD_QC_Joliette,http://www.wikidata.org/entity/Q2991275,wikidata,Q2991275,comté de Joliette,matched,
 CD_QC_Kamouraska,http://www.wikidata.org/entity/Q2991280,wikidata,Q2991280,Kamouraska County,matched,
 CD_QC_L'Assomption,http://www.wikidata.org/entity/Q2991286,wikidata,Q2991286,comté de L'Assomption,matched,
@@ -11662,3 +11652,15 @@ CD_SK_Regina,https://jimclifford.ca/hgiscanada/cds/sk/regina/,minted_hgis_cd,,,m
 CD_SK_Saltcoats,https://jimclifford.ca/hgiscanada/cds/sk/saltcoats/,minted_hgis_cd,,,mint_uri,Pre-1911 SK named census district / federal electoral district; no modern county equivalent
 CD_SK_Saskatoon,https://jimclifford.ca/hgiscanada/cds/sk/saskatoon/,minted_hgis_cd,,,mint_uri,Pre-1911 SK named census district / federal electoral district; no modern county equivalent
 CD_YT_Yukon,http://www.wikidata.org/entity/Q2009,wikidata,Q2009,Yukon,matched,
+CD_ON_Grenville_,https://jimclifford.ca/hgiscanada/cds/on/grenville/,minted_hgis_cd,,,mint_uri,"Q5607516 (Grenville County, Ontario) has only P31=geographical feature, not a county/admin type. No alternative county-typed Wikidata entity for the historic Grenville County."
+CD_ON_Glengary_,http://www.wikidata.org/entity/Q5568538,wikidata,Q5568538,Glengarry County,matched,
+CD_QC_Jacques-Cartier_,http://www.wikidata.org/entity/Q13580765,wikidata,Q13580765,Jacques-Cartier County,matched,
+CD_BC_Victoria_,https://jimclifford.ca/hgiscanada/cds/bc/victoria/,minted_hgis_cd,,,mint_uri,BC 1921 federal electoral district covering area around Victoria (variant with trailing space); not coterminous with City of Victoria.
+CD_ON_Brant_,http://www.wikidata.org/entity/Q384944,wikidata,Q384944,County of Brant,matched,
+CD_MB_Provencher_,https://jimclifford.ca/hgiscanada/cds/mb/provencher/,minted_hgis_cd,,,mint_uri,MB 1921 federal electoral district named after J.-N. Provencher (variant with trailing space); no modern county equivalent.
+CD_QC_Drummond_&_Arthabaska_,https://jimclifford.ca/hgiscanada/cds/qc/drummond-arthabaska/,minted_hgis_cd,,,mint_uri,Composite CD spanning Drummond County (Q2991220) + Arthabaska County (Q2991091); no single Wikidata entity
+CD_QC_Champlain_,http://www.wikidata.org/entity/Q16543127,wikidata,Q16543127,Champlain County,matched,
+CD_QC_Yamaska_,http://www.wikidata.org/entity/Q2991475,wikidata,Q2991475,comté de Yamaska,matched,
+CD_ON_Durham_,http://www.wikidata.org/entity/Q5316491,wikidata,Q5316491,Durham County,matched,
+CD_ON_Lennox_and_Addington_,http://www.wikidata.org/entity/Q1313055,wikidata,Q1313055,Lennox and Addington County,matched,
+CD_QC_Bagot_,http://www.wikidata.org/entity/Q2991115,wikidata,Q2991115,comté de Bagot,matched,

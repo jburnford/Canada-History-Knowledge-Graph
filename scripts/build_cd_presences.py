@@ -100,6 +100,14 @@ def load_gdb_cd_layer(gdb_path: str, year: int) -> gpd.GeoDataFrame:
     if missing:
         raise ValueError(f"Missing columns in {year}: {missing}")
 
+    # Strip whitespace from cd_name. The GDB has trailing-space typos in
+    # cd_name for several CD/year combos (1861 Brant, 1881 Provencher,
+    # 1891 Provencher/Champlain/Jacques-Cartier, 1901 Victoria) that, if
+    # left unstripped, dissolve into a SECOND CD record with id like
+    # CD_ON_Brant_ (trailing underscore). Stripping at the source merges
+    # them into the canonical CD. Mirror of link_cd_years_spatial.py.
+    gdf['cd_name'] = gdf['cd_name'].fillna('').str.strip()
+
     # Fix invalid geometries before dissolving
     gdf['geometry'] = gdf['geometry'].buffer(0)
 

@@ -41,9 +41,8 @@ CD_BC_Vancouver,CD,Vancouver,BC,1881;1891;1901,E53_Place
 CD_BC_Vancouver_Centre,CD,Vancouver Centre,BC,1921,E53_Place
 CD_BC_Vancouver_City,CD,Vancouver City,BC,1911,E53_Place
 CD_BC_Vancouver_South,CD,Vancouver South,BC,1921,E53_Place
-CD_BC_Victoria,CD,Victoria,BC,1881;1891,E53_Place
-CD_BC_Victoria_1901,CD,Victoria,BC,1901,E53_Place
-CD_BC_Victoria_City,CD,Victoria City,BC,1901;1911;1921,E53_Place
+CD_BC_Victoria,CD,Victoria,BC,1881;1891;1901,E53_Place
+CD_BC_Victoria_City,CD,Victoria City,BC,1911;1921,E53_Place
 CD_BC_Yale,CD,Yale,BC,1881;1891,E53_Place
 CD_BC_Yale_&_Cariboo,CD,Yale & Cariboo,BC,1901;1911,E53_Place
 CD_BC_Yale_1921,CD,Yale,BC,1921,E53_Place
@@ -71,10 +70,7 @@ CD_MB_Macdonald,CD,Macdonald,MB,1901;1911,E53_Place
 CD_MB_Manitoba,CD,Manitoba,MB,1871,E53_Place
 CD_MB_Marquette,CD,Marquette,MB,1881;1891;1901;1911,E53_Place
 CD_MB_Portage_La_Prairie,CD,Portage La Prairie,MB,1911,E53_Place
-CD_MB_Provencher,CD,Provencher,MB,1881;1901;1911,E53_Place
-CD_MB_Provencher_1881,CD,Provencher,MB,1881,E53_Place
-CD_MB_Provencher_1891,CD,Provencher,MB,1891,E53_Place
-CD_MB_Provencher_1891_1891,CD,Provencher,MB,1891,E53_Place
+CD_MB_Provencher,CD,Provencher,MB,1881;1891;1901;1911,E53_Place
 CD_MB_Selkirk,CD,Selkirk,MB,1881;1891;1901;1911,E53_Place
 CD_MB_Souris,CD,Souris,MB,1911,E53_Place
 CD_MB_Winnipeg_City,CD,Winnipeg City,MB,1891;1901;1911,E53_Place
@@ -150,11 +146,9 @@ CD_ON_Algoma_East_1911,CD,Algoma East,ON,1911,E53_Place
 CD_ON_Algoma_West,CD,Algoma West,ON,1871,E53_Place
 CD_ON_Algoma_West_1911,CD,Algoma West,ON,1911,E53_Place
 CD_ON_Bothwell,CD,Bothwell,ON,1871;1881;1891;1901,E53_Place
-CD_ON_Brant,CD,Brant,ON,1851,E53_Place
+CD_ON_Brant,CD,Brant,ON,1851;1861,E53_Place
 "CD_ON_Brant,_North_or_East—Nord_ou_East",CD,"Brant, North or East—Nord ou East",ON,1871,E53_Place
 "CD_ON_Brant,_South_or_West—Sud_ou_West",CD,"Brant, South or West—Sud ou West",ON,1871,E53_Place
-CD_ON_Brant_1861,CD,Brant,ON,1861,E53_Place
-CD_ON_Brant_1861_1861,CD,Brant,ON,1861,E53_Place
 CD_ON_Brant_1911,CD,Brant,ON,1911;1921,E53_Place
 CD_ON_Brant_North,CD,Brant North,ON,1881;1891,E53_Place
 CD_ON_Brant_South,CD,Brant South,ON,1881;1891;1901,E53_Place
@@ -360,9 +354,7 @@ CD_QC_Brome,CD,Brome,QC,1861;1871;1881;1891;1901;1911;1921,E53_Place
 CD_QC_Chambly,CD,Chambly,QC,1851;1861;1871;1881;1891,E53_Place
 CD_QC_Chambly_&_Verchères,CD,Chambly & Verchères,QC,1901;1911,E53_Place
 CD_QC_Chambly_1921,CD,Chambly,QC,1921,E53_Place
-CD_QC_Champlain,CD,Champlain,QC,1851;1861;1881;1901;1911;1921,E53_Place
-CD_QC_Champlain_1891,CD,Champlain,QC,1891,E53_Place
-CD_QC_Champlain_1891_1891,CD,Champlain,QC,1891,E53_Place
+CD_QC_Champlain,CD,Champlain,QC,1851;1861;1881;1891;1901;1911;1921,E53_Place
 CD_QC_Champlain_North,CD,Champlain North,QC,1871,E53_Place
 CD_QC_Champlain_South,CD,Champlain South,QC,1871,E53_Place
 CD_QC_Charlevoix,CD,Charlevoix,QC,1861;1871;1881;1891;1901;1911;1921,E53_Place
@@ -394,9 +386,7 @@ CD_QC_Huntingdon_West,CD,Huntingdon West,QC,1871,E53_Place
 CD_QC_Iberville,CD,Iberville,QC,1861;1871;1881;1891,E53_Place
 CD_QC_Iberville_1921,CD,Iberville,QC,1921,E53_Place
 CD_QC_Isles_de_la_Magdeleine,CD,Isles de la Magdeleine,QC,1871,E53_Place
-CD_QC_Jacques-Cartier,CD,Jacques-Cartier,QC,1891,E53_Place
-CD_QC_Jacques-Cartier_1891,CD,Jacques-Cartier,QC,1891,E53_Place
-CD_QC_Jacques_Cartier,CD,Jacques Cartier,QC,1861;1871;1881;1901;1911,E53_Place
+CD_QC_Jacques-Cartier,CD,Jacques-Cartier,QC,1861;1871;1881;1891;1901;1911,E53_Place
 CD_QC_Joliette,CD,Joliette,QC,1861;1871;1881;1891;1901;1911;1921,E53_Place
 CD_QC_Kamouraska,CD,Kamouraska,QC,1851;1861;1871;1881;1891;1901;1911;1921,E53_Place
 CD_QC_L'Assomption,CD,L'Assomption,QC,1861;1871;1881;1891;1901;1911;1921,E53_Place
@@ -520,3 +510,15 @@ CD_SK_Regina,CD,Regina,SK,1911,E53_Place
 CD_SK_Saltcoats,CD,Saltcoats,SK,1911,E53_Place
 CD_SK_Saskatoon,CD,Saskatoon,SK,1911,E53_Place
 CD_YT_Yukon,CD,Yukon,YT,1911;1921,E53_Place
+CD_ON_Grenville_,CD,Grenville ,ON,,E53_Place
+CD_ON_Glengary_,CD,Glengary ,ON,,E53_Place
+CD_QC_Jacques-Cartier_,CD,Jacques-Cartier ,QC,,E53_Place
+CD_BC_Victoria_,CD,Victoria ,BC,,E53_Place
+CD_ON_Brant_,CD,Brant ,ON,,E53_Place
+CD_MB_Provencher_,CD,Provencher ,MB,,E53_Place
+CD_QC_Drummond_&_Arthabaska_,CD,Drummond & Arthabaska ,QC,,E53_Place
+CD_QC_Champlain_,CD,Champlain ,QC,,E53_Place
+CD_QC_Yamaska_,CD,Yamaska ,QC,,E53_Place
+CD_ON_Durham_,CD,Durham ,ON,,E53_Place
+CD_ON_Lennox_and_Addington_,CD,Lennox and Addington ,ON,,E53_Place
+CD_QC_Bagot_,CD,Bagot ,QC,,E53_Place

@@ -661,8 +661,8 @@ Q1276220,Vegreville,PLACE_AB007005,CSD,Vegreville t-v,AB,1911,1911,1,2
 Q1276220,Vegreville,PLACE_AB198021_1921,CSD,"Vegreville, T-V",AB,1921,1921,1,2
 Q1293527,Albert County,CD_NB_Albert,CD,Albert,NB,1871,1901,4,2
 Q1293527,Albert County,CD_NB_Albert_1921,CD,Albert,NB,1921,1921,1,2
-Q1313055,Lennox and Addington County,CD_ON_Lennox_and_Addington,CD,Lennox and Addington,ON,1861,1861,1,2
 Q1313055,Lennox and Addington County,CD_ON_Lennox_&_Addington,CD,Lennox & Addington,ON,1911,1911,1,2
+Q1313055,Lennox and Addington County,CD_ON_Lennox_and_Addington_,CD,Lennox and Addington ,ON,,,0,2
 Q133116,Hamilton,CD_ON_Hamilton,CD,Hamilton,ON,1851,1871,3,5
 Q133116,Hamilton,CD_ON_Hamilton_City,CD,Hamilton City,ON,1881,1901,3,5
 Q133116,Hamilton,PLACE_ON077001_1911,CSD,Hamilton c pt,ON,1911,1911,1,5
@@ -674,9 +674,8 @@ Q1336,Rimouski,PLACE_QC040008_1881,CSD,Rimouski,QC,1881,1881,1,6
 Q1336,Rimouski,PLACE_QC188007,CSD,Rimouski,QC,1891,1901,2,6
 Q1336,Rimouski,PLACE_QC084019,CSD,"Rimouski, T-V",QC,1911,1921,2,6
 Q1336,Rimouski,PLACE_QC193007_1911,CSD,Rimouski,QC,1911,1911,1,6
-Q13580765,Jacques-Cartier County,CD_QC_Jacques_Cartier,CD,Jacques Cartier,QC,1861,1911,5,3
-Q13580765,Jacques-Cartier County,CD_QC_Jacques-Cartier,CD,Jacques-Cartier,QC,1891,1891,1,3
-Q13580765,Jacques-Cartier County,CD_QC_Jacques-Cartier_1891,CD,Jacques-Cartier,QC,1891,1891,1,3
+Q13580765,Jacques-Cartier County,CD_QC_Jacques-Cartier,CD,Jacques-Cartier,QC,1861,1911,6,2
+Q13580765,Jacques-Cartier County,CD_QC_Jacques-Cartier_,CD,Jacques-Cartier ,QC,,,0,2
 Q1363726,Okotoks,PLACE_NT202085,CSD,Okotoks,NT,1901,1901,1,3
 Q1363726,Okotoks,PLACE_AB003008,CSD,Okotoks t-v,AB,1911,1911,1,3
 Q1363726,Okotoks,PLACE_AB192020_1921,CSD,"Okotoks, T-V",AB,1921,1921,1,3
@@ -1119,9 +1118,8 @@ Q1642364,Woodstock,PLACE_ON106006_1911_1911,CSD,Woodstock c,ON,1911,1911,1,3
 Q16461,Nanaimo,PLACE_BC003005,CSD,"Nanaimo, City—Cité",BC,1891,1901,2,3
 Q16461,Nanaimo,PLACE_BC010006,CSD,Nanaimo c,BC,1911,1911,1,3
 Q16461,Nanaimo,PLACE_BC212009,CSD,"Nanaimo and suburbs, C",BC,1921,1921,1,3
-Q16543127,Champlain County,CD_QC_Champlain,CD,Champlain,QC,1851,1921,6,3
-Q16543127,Champlain County,CD_QC_Champlain_1891,CD,Champlain,QC,1891,1891,1,3
-Q16543127,Champlain County,CD_QC_Champlain_1891_1891,CD,Champlain,QC,1891,1891,1,3
+Q16543127,Champlain County,CD_QC_Champlain,CD,Champlain,QC,1851,1921,7,2
+Q16543127,Champlain County,CD_QC_Champlain_,CD,Champlain ,QC,,,0,2
 Q1658106,Birtle,PLACE_MB009003_1891,CSD,Birtle,MB,1891,1901,2,2
 Q1658106,Birtle,PLACE_MB165002,CSD,Birtle,MB,1921,1921,1,2
 Q1658351,Brenda,PLACE_MB009004,CSD,Brenda,MB,1891,1891,1,3
@@ -1959,6 +1957,8 @@ Q2991091,Arthabaska County,CD_QC_Arthabaska,CD,Arthabaska,QC,1861,1871,2,2
 Q2991091,Arthabaska County,CD_QC_Arthabaska_1921,CD,Arthabaska,QC,1921,1921,1,2
 Q2991101,comté d'Iberville,CD_QC_Iberville,CD,Iberville,QC,1861,1891,4,2
 Q2991101,comté d'Iberville,CD_QC_Iberville_1921,CD,Iberville,QC,1921,1921,1,2
+Q2991115,comté de Bagot,CD_QC_Bagot,CD,Bagot,QC,1861,1921,7,2
+Q2991115,comté de Bagot,CD_QC_Bagot_,CD,Bagot ,QC,,,0,2
 Q2991170,"Chambly County, Quebec",CD_QC_Chambly,CD,Chambly,QC,1851,1891,5,2
 Q2991170,"Chambly County, Quebec",CD_QC_Chambly_1921,CD,Chambly,QC,1921,1921,1,2
 Q2991181,Chicoutimi County,CD_QC_Chicoutimi,CD,Chicoutimi,QC,1861,1871,2,2
@@ -1991,6 +1991,8 @@ Q2991456,comté de Verchères,CD_QC_Verchères,CD,Verchères,QC,1851,1891,5,2
 Q2991456,comté de Verchères,CD_QC_Verchères_1921,CD,Verchères,QC,1921,1921,1,2
 Q2991471,comté de Wolfe,CD_QC_Wolfe,CD,Wolfe,QC,1861,1871,2,2
 Q2991471,comté de Wolfe,CD_QC_Wolfe_1921,CD,Wolfe,QC,1921,1921,1,2
+Q2991475,comté de Yamaska,CD_QC_Yamaska,CD,Yamaska,QC,1851,1921,8,2
+Q2991475,comté de Yamaska,CD_QC_Yamaska_,CD,Yamaska ,QC,,,0,2
 Q29921023,Elgin,PLACE_QC048003_1851,CSD,"Elgin, Township",QC,1851,1851,1,2
 Q29921023,Elgin,PLACE_QC058002,CSD,Elgin,QC,1861,1921,7,2
 Q2995979,Hull,PLACE_QC093002,CSD,Hull,QC,1851,1871,3,7
@@ -2595,10 +2597,9 @@ Q383434,Greater Sudbury,PLACE_ON099102,CSD,Sudbury t-v,ON,1911,1911,1,3
 Q383434,Greater Sudbury,PLACE_ON099171_1911,CSD,Sudbury t-v,ON,1911,1911,1,3
 Q3845986,Vermilion,PLACE_AB007006,CSD,Vermilion t-v,AB,1911,1911,1,2
 Q3845986,Vermilion,PLACE_AB198022_1921,CSD,"Vermilion, T-V",AB,1921,1921,1,2
-Q384944,County of Brant,CD_ON_Brant,CD,Brant,ON,1851,1851,1,4
-Q384944,County of Brant,CD_ON_Brant_1861,CD,Brant,ON,1861,1861,1,4
-Q384944,County of Brant,CD_ON_Brant_1861_1861,CD,Brant,ON,1861,1861,1,4
-Q384944,County of Brant,CD_ON_Brant_1911,CD,Brant,ON,1911,1921,2,4
+Q384944,County of Brant,CD_ON_Brant,CD,Brant,ON,1851,1861,2,3
+Q384944,County of Brant,CD_ON_Brant_1911,CD,Brant,ON,1911,1921,2,3
+Q384944,County of Brant,CD_ON_Brant_,CD,Brant ,ON,,,0,3
 Q385346,Haldimand County,CD_ON_Haldimand,CD,Haldimand,ON,1851,1891,5,2
 Q385346,Haldimand County,CD_ON_Haldimand_1911,CD,Haldimand,ON,1911,1921,2,2
 Q386338,Whitby,PLACE_ON089011,CSD,"Whitby, East",ON,1861,1861,1,7
@@ -2806,6 +2807,8 @@ Q5270746,Diamond City,PLACE_AB004013,CSD,Diamond City vl (T10 R21 MW4),AB,1911,1
 Q5270746,Diamond City,PLACE_AB190023_1921,CSD,"Diamond City, T-V",AB,1921,1921,1,2
 Q52999,Newmarket,PLACE_ON099001_1871,CSD,"Newmarket, Town—Ville",ON,1871,1901,4,2
 Q52999,Newmarket,PLACE_ON154015,CSD,"Newmarket, T-V",ON,1911,1921,2,2
+Q5316491,Durham County,CD_ON_Durham,CD,Durham,ON,1851,1921,4,2
+Q5316491,Durham County,CD_ON_Durham_,CD,Durham ,ON,,,0,2
 Q5325107,Eagle Head,PLACE_NS040004_1891,CSD,Eagle Head,NS,1891,1891,1,2
 Q5325107,Eagle Head,PLACE_NS017004,CSD,Eagle Head,NS,1911,1921,2,2
 Q5329203,East Pubnico,PLACE_NS044016,CSD,Pubnico E,NS,1891,1891,1,2
@@ -2845,6 +2848,8 @@ Q5533651,Gentilly,PLACE_QC184002_1911,CSD,Gentilly,QC,1911,1911,1,5
 Q5533651,Gentilly,PLACE_QC078002_1921,CSD,Gentilly,QC,1921,1921,1,5
 Q5567507,Gleichen,PLACE_AB004014,CSD,Gleichen vl (T22 R4 MW4),AB,1911,1911,1,2
 Q5567507,Gleichen,PLACE_AB194028_1921,CSD,"Gleichen, T-V",AB,1921,1921,1,2
+Q5568538,Glengarry County,CD_ON_Glengarry,CD,Glengarry,ON,1851,1921,8,2
+Q5568538,Glengarry County,CD_ON_Glengary_,CD,Glengary ,ON,,,0,2
 Q5572083,Gloucester,PLACE_ON118004_1911,CSD,Gloucester,ON,1851,1911,7,2
 Q5572083,Gloucester,PLACE_ON105002_1921,CSD,Gloucester,ON,1921,1921,1,2
 Q559147,Essex,PLACE_ON060005_1901,CSD,"Essex, Town—Ville",ON,1901,1901,1,2

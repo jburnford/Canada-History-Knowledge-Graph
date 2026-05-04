@@ -41,9 +41,8 @@ CD_BC_Vancouver,Vancouver,BC,CD_BC_Vancouver,1901,1881;1891;1901,3
 CD_BC_Vancouver_Centre,Vancouver Centre,BC,CD_BC_Vancouver_Centre,1921,1921,1
 CD_BC_Vancouver_City,Vancouver City,BC,CD_BC_Vancouver_City,1911,1911,1
 CD_BC_Vancouver_South,Vancouver South,BC,CD_BC_Vancouver_South,1921,1921,1
-CD_BC_Victoria,Victoria,BC,CD_BC_Victoria,1891,1881;1891,2
-CD_BC_Victoria_1901,Victoria,BC,CD_BC_Victoria,1901,1901,1
-CD_BC_Victoria_City,Victoria City,BC,CD_BC_Victoria_City,1921,1901;1911;1921,3
+CD_BC_Victoria,Victoria,BC,CD_BC_Victoria,1901,1881;1891;1901,3
+CD_BC_Victoria_City,Victoria City,BC,CD_BC_Victoria_City,1921,1911;1921,2
 CD_BC_Yale,Yale,BC,CD_BC_Yale,1891,1881;1891,2
 CD_BC_Yale_&_Cariboo,Yale & Cariboo,BC,CD_BC_Yale_&_Cariboo,1911,1901;1911,2
 CD_BC_Yale_1921,Yale,BC,CD_BC_Yale,1921,1921,1
@@ -71,10 +70,7 @@ CD_MB_Macdonald,Macdonald,MB,CD_MB_Macdonald,1911,1901;1911,2
 CD_MB_Manitoba,Manitoba,MB,CD_MB_Manitoba,1871,1871,1
 CD_MB_Marquette,Marquette,MB,CD_MB_Marquette,1911,1881;1891;1901;1911,4
 CD_MB_Portage_La_Prairie,Portage La Prairie,MB,CD_MB_Portage_La_Prairie,1911,1911,1
-CD_MB_Provencher,Provencher,MB,CD_MB_Provencher,1881,1881;1901;1911,3
-CD_MB_Provencher_1881,Provencher,MB,CD_MB_Provencher_,1881,1881,1
-CD_MB_Provencher_1891,Provencher,MB,CD_MB_Provencher_,1891,1891,1
-CD_MB_Provencher_1891_1891,Provencher,MB,CD_MB_Provencher,1891,1891,1
+CD_MB_Provencher,Provencher,MB,CD_MB_Provencher,1911,1881;1891;1901;1911,4
 CD_MB_Selkirk,Selkirk,MB,CD_MB_Selkirk,1911,1881;1891;1901;1911,4
 CD_MB_Souris,Souris,MB,CD_MB_Souris,1911,1911,1
 CD_MB_Winnipeg_City,Winnipeg City,MB,CD_MB_Winnipeg_City,1911,1891;1901;1911,3
@@ -150,11 +146,9 @@ CD_ON_Algoma_East_1911,Algoma East,ON,CD_ON_Algoma_E,1911,1911,1
 CD_ON_Algoma_West,Algoma West,ON,"CD_ON_Algoma,_West—Ouest",1871,1871,1
 CD_ON_Algoma_West_1911,Algoma West,ON,CD_ON_Algoma_W-O,1911,1911,1
 CD_ON_Bothwell,Bothwell,ON,CD_ON_Bothwell,1901,1871;1881;1891;1901,4
-CD_ON_Brant,Brant,ON,CD_ON_Brant,1851,1851,1
+CD_ON_Brant,Brant,ON,CD_ON_Brant,1861,1851;1861,2
 "CD_ON_Brant,_North_or_East—Nord_ou_East","Brant, North or East—Nord ou East",ON,"CD_ON_Brant,_North_or_East—Nord_ou_Est",1871,1871,1
 "CD_ON_Brant,_South_or_West—Sud_ou_West","Brant, South or West—Sud ou West",ON,"CD_ON_Brant,_South_or_West—Sud_ou_Ouest",1871,1871,1
-CD_ON_Brant_1861,Brant,ON,CD_ON_Brant,1861,1861,1
-CD_ON_Brant_1861_1861,Brant,ON,CD_ON_Brant_,1861,1861,1
 CD_ON_Brant_1911,Brant,ON,CD_ON_Brant,1921,1911;1921,2
 CD_ON_Brant_North,Brant North,ON,"CD_ON_Brant,_North—Nord",1891,1881;1891,2
 CD_ON_Brant_South,Brant South,ON,"CD_ON_Brant,_South—Sud",1901,1881;1891;1901,3
@@ -173,7 +167,7 @@ CD_ON_Carleton,Carleton,ON,CD_ON_Carleton,1921,1851;1861;1871;1881;1891;1901;191
 CD_ON_Cornwall,Cornwall,ON,CD_ON_Cornwall,1881,1871;1881,2
 CD_ON_Dufferin,Dufferin,ON,CD_ON_Dufferin,1921,1911;1921,2
 CD_ON_Dundas,Dundas,ON,CD_ON_Dundas,1921,1851;1861;1871;1881;1891;1901;1911;1921,8
-CD_ON_Durham,Durham,ON,CD_ON_Durham_,1861,1851;1861;1911;1921,4
+CD_ON_Durham,Durham,ON,CD_ON_Durham,1861,1851;1861;1911;1921,4
 CD_ON_Durham_East,Durham East,ON,"CD_ON_Durham,_East—Est",1901,1871;1881;1891;1901,4
 CD_ON_Durham_West,Durham West,ON,"CD_ON_Durham,_West—Ouest",1901,1871;1881;1891;1901,4
 CD_ON_Elgin,Elgin,ON,CD_ON_Elgin,1861,1851;1861;1921,3
@@ -184,7 +178,7 @@ CD_ON_Essex_North,Essex North,ON,CD_ON_Essex_N,1911,1891;1901;1911,3
 CD_ON_Essex_South,Essex South,ON,CD_ON_Essex_S,1911,1891;1901;1911,3
 CD_ON_Frontenac,Frontenac,ON,CD_ON_Frontenac,1921,1851;1861;1871;1881;1891;1901;1911;1921,8
 CD_ON_Glengarry,Glengarry,ON,CD_ON_Glengarry,1921,1851;1861;1871;1881;1891;1901;1911;1921,8
-CD_ON_Grenville,Grenville,ON,CD_ON_Grenville_,1861,1851;1861;1911;1921,4
+CD_ON_Grenville,Grenville,ON,CD_ON_Grenville,1861,1851;1861;1911;1921,4
 CD_ON_Grenville_South,Grenville South,ON,"CD_ON_Grenville,_South—Sud",1901,1871;1881;1891;1901,4
 CD_ON_Grey,Grey,ON,CD_ON_Grey,1861,1851;1861;1921,3
 CD_ON_Grey_East,Grey East,ON,CD_ON_Grey_E,1911,1881;1891;1901;1911,4
@@ -233,7 +227,7 @@ CD_ON_Lennox,Lennox,ON,CD_ON_Lennox,1851,1851,1
 CD_ON_Lennox_&_Addington,Lennox & Addington,ON,CD_ON_Lennox_&_Addington,1911,1911,1
 CD_ON_Lennox_1871,Lennox,ON,CD_ON_Lennox,1901,1871;1881;1891;1901,4
 CD_ON_Lennox_1921,Lennox,ON,CD_ON_Lennox,1921,1921,1
-CD_ON_Lennox_and_Addington,Lennox and Addington,ON,CD_ON_Lennox_and_Addington_,1861,1861,1
+CD_ON_Lennox_and_Addington,Lennox and Addington,ON,CD_ON_Lennox_and_Addington,1861,1861,1
 CD_ON_Lincoln,Lincoln,ON,CD_ON_Lincoln,1881,1851;1861;1871;1881;1911;1921,6
 CD_ON_Lincoln_&_Niagara,Lincoln & Niagara,ON,CD_ON_Lincoln_&_Niagara,1901,1891;1901,2
 CD_ON_London,London,ON,CD_ON_London,1911,1911,1
@@ -360,9 +354,7 @@ CD_QC_Brome,Brome,QC,CD_QC_Brome,1921,1861;1871;1881;1891;1901;1911;1921,7
 CD_QC_Chambly,Chambly,QC,CD_QC_Chambly,1891,1851;1861;1871;1881;1891,5
 CD_QC_Chambly_&_Verchères,Chambly & Verchères,QC,CD_QC_Chambly_&_Verchères,1911,1901;1911,2
 CD_QC_Chambly_1921,Chambly,QC,CD_QC_Chambly,1921,1921,1
-CD_QC_Champlain,Champlain,QC,CD_QC_Champlain,1861,1851;1861;1881;1901;1911;1921,6
-CD_QC_Champlain_1891,Champlain,QC,CD_QC_Champlain_,1891,1891,1
-CD_QC_Champlain_1891_1891,Champlain,QC,CD_QC_Champlain,1891,1891,1
+CD_QC_Champlain,Champlain,QC,CD_QC_Champlain,1861,1851;1861;1881;1891;1901;1911;1921,7
 CD_QC_Champlain_North,Champlain North,QC,CD_QC_Champlain_Nord,1871,1871,1
 CD_QC_Champlain_South,Champlain South,QC,CD_QC_Champlain_Sud,1871,1871,1
 CD_QC_Charlevoix,Charlevoix,QC,CD_QC_Charlevoix,1921,1861;1871;1881;1891;1901;1911;1921,7
@@ -394,9 +386,7 @@ CD_QC_Huntingdon_West,Huntingdon West,QC,CD_QC_Huntingdon_Ouest,1871,1871,1
 CD_QC_Iberville,Iberville,QC,CD_QC_Iberville,1891,1861;1871;1881;1891,4
 CD_QC_Iberville_1921,Iberville,QC,CD_QC_Iberville,1921,1921,1
 CD_QC_Isles_de_la_Magdeleine,Isles de la Magdeleine,QC,CD_QC_Isles_de_la_Magdeleine,1871,1871,1
-CD_QC_Jacques-Cartier,Jacques-Cartier,QC,CD_QC_Jacques-Cartier_,1891,1891,1
-CD_QC_Jacques-Cartier_1891,Jacques-Cartier,QC,CD_QC_Jacques-Cartier,1891,1891,1
-CD_QC_Jacques_Cartier,Jacques Cartier,QC,CD_QC_Jacques-Cartier,1881,1861;1871;1881;1901;1911,5
+CD_QC_Jacques-Cartier,Jacques-Cartier,QC,CD_QC_Jacques-Cartier,1911,1861;1871;1881;1891;1901;1911,6
 CD_QC_Joliette,Joliette,QC,CD_QC_Joliette,1921,1861;1871;1881;1891;1901;1911;1921,7
 CD_QC_Kamouraska,Kamouraska,QC,CD_QC_Kamouraska,1921,1851;1861;1871;1881;1891;1901;1911;1921,8
 CD_QC_L'Assomption,L'Assomption,QC,CD_QC_L'Assomption,1921,1861;1871;1881;1891;1901;1911;1921,7

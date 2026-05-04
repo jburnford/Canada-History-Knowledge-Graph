@@ -71,7 +71,7 @@ CD_ON_Huron_East_1901,CD_ON_Huron_East,1901,990574112.62,8,E93_Presence
 CD_ON_Huron_South_1901,CD_ON_Huron_South,1901,1098039623.48,8,E93_Presence
 CD_ON_Huron_West_1901,CD_ON_Huron_West,1901,1061612983.61,7,E93_Presence
 CD_NS_Inverness_1901,CD_NS_Inverness,1901,4241431980.04,26,E93_Presence
-CD_QC_Jacques_Cartier_1901,CD_QC_Jacques_Cartier,1901,314095114.55,25,E93_Presence
+CD_QC_Jacques-Cartier_1901,CD_QC_Jacques-Cartier,1901,314095114.55,25,E93_Presence
 CD_QC_Joliette_1901,CD_QC_Joliette,1901,7863375806.87,15,E93_Presence
 CD_QC_Kamouraska_1901,CD_QC_Kamouraska,1901,2842419878.34,16,E93_Presence
 CD_NB_Kent_1901,CD_NB_Kent,1901,4720822750.22,11,E93_Presence
@@ -188,9 +188,8 @@ CD_NT_Unorganized_Territories_1901,CD_NT_Unorganized_Territories,1901,5007749928
 CD_NT_Unorganized_Territories—Territoires_non-organisés_1901,CD_NT_Unorganized_Territories—Territoires_non-organisés,1901,834085320177.23,2,E93_Presence
 CD_BC_Vancouver_1901,CD_BC_Vancouver,1901,33219432808.29,9,E93_Presence
 CD_QC_Vaudreuil_1901,CD_QC_Vaudreuil,1901,518975345.04,12,E93_Presence
-CD_BC_Victoria_1901_1901,CD_BC_Victoria_1901,1901,166589390.19,3,E93_Presence
+CD_BC_Victoria_1901,CD_BC_Victoria,1901,186369334.69,4,E93_Presence
 CD_NS_Victoria_1901,CD_NS_Victoria,1901,3014254590.15,19,E93_Presence
-CD_BC_Victoria_City_1901,CD_BC_Victoria_City,1901,19779944.49,1,E93_Presence
 CD_NB_Victoria_1901,CD_NB_Victoria,1901,9204550196.34,13,E93_Presence
 CD_ON_Victoria_North_1901,CD_ON_Victoria_North,1901,3835305203.97,17,E93_Presence
 CD_ON_Victoria_South_1901,CD_ON_Victoria_South,1901,1186745627.44,8,E93_Presence

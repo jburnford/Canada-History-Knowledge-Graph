@@ -4,8 +4,7 @@ CD_NL_Newfoundland_1861,CD_NL_Newfoundland,1861,111661003634.19,1,E93_Presence
 CD_NS_Nova_Scotia_1861,CD_NS_Nova_Scotia,1861,58128852430.63,1,E93_Presence
 CD_NT_The_Territories_1861,CD_NT_The_Territories,1861,8345738710911.56,1,E93_Presence
 CD_ON_Algoma_1861,CD_ON_Algoma,1861,109494630795.31,2,E93_Presence
-CD_ON_Brant_1861_1861,CD_ON_Brant_1861,1861,292263617.69,3,E93_Presence
-CD_ON_Brant_1861_1861_1861,CD_ON_Brant_1861_1861,1861,874630275.68,5,E93_Presence
+CD_ON_Brant_1861,CD_ON_Brant,1861,1166893893.37,8,E93_Presence
 CD_ON_Bruce_1861,CD_ON_Bruce,1861,4343790678.64,16,E93_Presence
 CD_ON_Carleton_1861,CD_ON_Carleton,1861,2564586995.38,11,E93_Presence
 CD_ON_Dundas_1861,CD_ON_Dundas,1861,1062423486.58,6,E93_Presence
@@ -78,7 +77,7 @@ CD_QC_Gaspé_1861,CD_QC_Gaspé,1861,12136459436.47,18,E93_Presence
 CD_QC_Hochelaga_1861,CD_QC_Hochelaga,1861,235856415.85,8,E93_Presence
 CD_QC_Huntingdon_1861,CD_QC_Huntingdon,1861,987466927.69,7,E93_Presence
 CD_QC_Iberville_1861,CD_QC_Iberville,1861,524661147.12,6,E93_Presence
-CD_QC_Jacques_Cartier_1861,CD_QC_Jacques_Cartier,1861,257333014.06,8,E93_Presence
+CD_QC_Jacques-Cartier_1861,CD_QC_Jacques-Cartier,1861,257333014.06,8,E93_Presence
 CD_QC_Joliette_1861,CD_QC_Joliette,1861,1809586269.26,15,E93_Presence
 CD_QC_Kamouraska_1861,CD_QC_Kamouraska,1861,2834514247.32,14,E93_Presence
 CD_QC_L'Assomption_1861,CD_QC_L'Assomption,1861,681836062.03,11,E93_Presence

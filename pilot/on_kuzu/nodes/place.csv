@@ -11184,7 +11184,6 @@ CD_BC_Vancouver_Centre,Vancouver Centre,BC,CD,,,,
 CD_BC_Vancouver_City,Vancouver City,BC,CD,Q24639,,https://en.wikipedia.org/wiki/Vancouver,https://fr.wikipedia.org/wiki/Vancouver
 CD_BC_Vancouver_South,Vancouver South,BC,CD,,,,
 CD_BC_Victoria,Victoria,BC,CD,,,,
-CD_BC_Victoria_1901,Victoria,BC,CD,,,,
 CD_BC_Victoria_City,Victoria City,BC,CD,,,,
 CD_BC_Yale,Yale,BC,CD,,,,
 CD_BC_Yale_&_Cariboo,Yale & Cariboo,BC,CD,,,,
@@ -11214,9 +11213,6 @@ CD_MB_Manitoba,Manitoba,MB,CD,Q1948,,https://en.wikipedia.org/wiki/Manitoba,http
 CD_MB_Marquette,Marquette,MB,CD,,,,
 CD_MB_Portage_La_Prairie,Portage La Prairie,MB,CD,,,,
 CD_MB_Provencher,Provencher,MB,CD,,,,
-CD_MB_Provencher_1881,Provencher,MB,CD,,,,
-CD_MB_Provencher_1891,Provencher,MB,CD,,,,
-CD_MB_Provencher_1891_1891,Provencher,MB,CD,,,,
 CD_MB_Selkirk,Selkirk,MB,CD,,,,
 CD_MB_Souris,Souris,MB,CD,,,,
 CD_MB_Winnipeg_City,Winnipeg City,MB,CD,Q2135,,https://en.wikipedia.org/wiki/Winnipeg,https://fr.wikipedia.org/wiki/Winnipeg
@@ -11295,8 +11291,6 @@ CD_ON_Bothwell,Bothwell,ON,CD,,,,
 CD_ON_Brant,Brant,ON,CD,Q384944,,https://en.wikipedia.org/wiki/County_of_Brant,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Brant
 "CD_ON_Brant,_North_or_East—Nord_ou_East","Brant, North or East—Nord ou East",ON,CD,,,,
 "CD_ON_Brant,_South_or_West—Sud_ou_West","Brant, South or West—Sud ou West",ON,CD,,,,
-CD_ON_Brant_1861,Brant,ON,CD,Q384944,,https://en.wikipedia.org/wiki/County_of_Brant,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Brant
-CD_ON_Brant_1861_1861,Brant,ON,CD,Q384944,,https://en.wikipedia.org/wiki/County_of_Brant,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Brant
 CD_ON_Brant_1911,Brant,ON,CD,Q384944,,https://en.wikipedia.org/wiki/County_of_Brant,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Brant
 CD_ON_Brant_North,Brant North,ON,CD,,,,
 CD_ON_Brant_South,Brant South,ON,CD,,,,
@@ -11375,7 +11369,7 @@ CD_ON_Lennox,Lennox,ON,CD,Q17108580,,https://en.wikipedia.org/wiki/Lennox_County
 CD_ON_Lennox_&_Addington,Lennox & Addington,ON,CD,Q1313055,,https://en.wikipedia.org/wiki/Lennox_and_Addington_County,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Lennox_et_Addington
 CD_ON_Lennox_1871,Lennox,ON,CD,Q17108580,,https://en.wikipedia.org/wiki/Lennox_County,
 CD_ON_Lennox_1921,Lennox,ON,CD,Q17108580,,https://en.wikipedia.org/wiki/Lennox_County,
-CD_ON_Lennox_and_Addington,Lennox and Addington,ON,CD,Q1313055,,https://en.wikipedia.org/wiki/Lennox_and_Addington_County,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Lennox_et_Addington
+CD_ON_Lennox_and_Addington,Lennox and Addington,ON,CD,,,,
 CD_ON_Lincoln,Lincoln,ON,CD,Q6550599,,"https://en.wikipedia.org/wiki/Lincoln_County,_Ontario",
 CD_ON_Lincoln_&_Niagara,Lincoln & Niagara,ON,CD,,,,
 CD_ON_London,London,ON,CD,Q92561,,"https://en.wikipedia.org/wiki/London,_Ontario",https://fr.wikipedia.org/wiki/London_(Ontario)
@@ -11503,8 +11497,6 @@ CD_QC_Chambly,Chambly,QC,CD,Q2991170,,"https://en.wikipedia.org/wiki/Chambly_Cou
 CD_QC_Chambly_&_Verchères,Chambly & Verchères,QC,CD,,,,
 CD_QC_Chambly_1921,Chambly,QC,CD,Q2991170,,"https://en.wikipedia.org/wiki/Chambly_County,_Quebec",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Chambly
 CD_QC_Champlain,Champlain,QC,CD,Q16543127,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Champlain
-CD_QC_Champlain_1891,Champlain,QC,CD,Q16543127,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Champlain
-CD_QC_Champlain_1891_1891,Champlain,QC,CD,Q16543127,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Champlain
 CD_QC_Champlain_North,Champlain North,QC,CD,,,,
 CD_QC_Champlain_South,Champlain South,QC,CD,,,,
 CD_QC_Charlevoix,Charlevoix,QC,CD,Q2991176,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Charlevoix_(Qu%C3%A9bec)
@@ -11537,8 +11529,6 @@ CD_QC_Iberville,Iberville,QC,CD,Q2991101,,,https://fr.wikipedia.org/wiki/Comt%C3
 CD_QC_Iberville_1921,Iberville,QC,CD,Q2991101,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_d%27Iberville
 CD_QC_Isles_de_la_Magdeleine,Isles de la Magdeleine,QC,CD,,,,
 CD_QC_Jacques-Cartier,Jacques-Cartier,QC,CD,Q13580765,,"https://en.wikipedia.org/wiki/Jacques-Cartier_County,_Quebec",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Jacques-Cartier
-CD_QC_Jacques-Cartier_1891,Jacques-Cartier,QC,CD,Q13580765,,"https://en.wikipedia.org/wiki/Jacques-Cartier_County,_Quebec",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Jacques-Cartier
-CD_QC_Jacques_Cartier,Jacques Cartier,QC,CD,Q13580765,,"https://en.wikipedia.org/wiki/Jacques-Cartier_County,_Quebec",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Jacques-Cartier
 CD_QC_Joliette,Joliette,QC,CD,Q2991275,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Joliette
 CD_QC_Kamouraska,Kamouraska,QC,CD,Q2991280,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Kamouraska
 CD_QC_L'Assomption,L'Assomption,QC,CD,Q2991286,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_L%27Assomption
@@ -11662,3 +11652,15 @@ CD_SK_Regina,Regina,SK,CD,,,,
 CD_SK_Saltcoats,Saltcoats,SK,CD,,,,
 CD_SK_Saskatoon,Saskatoon,SK,CD,,,,
 CD_YT_Yukon,Yukon,YT,CD,Q2009,,https://en.wikipedia.org/wiki/Yukon,https://fr.wikipedia.org/wiki/Yukon
+CD_ON_Grenville_,Grenville ,ON,CD,,,,
+CD_ON_Glengary_,Glengary ,ON,CD,Q5568538,,https://en.wikipedia.org/wiki/Glengarry_County,
+CD_QC_Jacques-Cartier_,Jacques-Cartier ,QC,CD,Q13580765,,"https://en.wikipedia.org/wiki/Jacques-Cartier_County,_Quebec",https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Jacques-Cartier
+CD_BC_Victoria_,Victoria ,BC,CD,,,,
+CD_ON_Brant_,Brant ,ON,CD,Q384944,,https://en.wikipedia.org/wiki/County_of_Brant,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Brant
+CD_MB_Provencher_,Provencher ,MB,CD,,,,
+CD_QC_Drummond_&_Arthabaska_,Drummond & Arthabaska ,QC,CD,,,,
+CD_QC_Champlain_,Champlain ,QC,CD,Q16543127,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Champlain
+CD_QC_Yamaska_,Yamaska ,QC,CD,Q2991475,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Yamaska
+CD_ON_Durham_,Durham ,ON,CD,Q5316491,,"https://en.wikipedia.org/wiki/Durham_County,_Ontario",
+CD_ON_Lennox_and_Addington_,Lennox and Addington ,ON,CD,Q1313055,,https://en.wikipedia.org/wiki/Lennox_and_Addington_County,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Lennox_et_Addington
+CD_QC_Bagot_,Bagot ,QC,CD,Q2991115,,,https://fr.wikipedia.org/wiki/Comt%C3%A9_de_Bagot

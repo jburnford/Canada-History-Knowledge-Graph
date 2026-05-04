@@ -6,8 +6,7 @@ CD_NT_The_Territories_1851,CD_ON_Nipissing_1861,CONTAINS,0.0065,0.0065,1.0,1851,
 CD_NT_The_Territories_1851,CD_ON_Algoma_1861,CONTAINS,0.0128,0.0128,0.9999,1851,1861,P132_spatiotemporally_overlaps_with
 CD_NT_The_Territories_1851,CD_NT_The_Territories_1861,WITHIN,0.9785,0.9785,1.0,1851,1861,P132_spatiotemporally_overlaps_with
 CD_ON_Addington_1851,CD_ON_Lennox_and_Addington_1861,WITHIN,0.3636,1.0,0.3636,1851,1861,P132_spatiotemporally_overlaps_with
-CD_ON_Brant_1851,CD_ON_Brant_1861_1861,CONTAINS,0.2505,0.2505,1.0,1851,1861,P132_spatiotemporally_overlaps_with
-CD_ON_Brant_1851,CD_ON_Brant_1861_1861_1861,CONTAINS,0.7495,0.7495,1.0,1851,1861,P132_spatiotemporally_overlaps_with
+CD_ON_Brant_1851,CD_ON_Brant_1861,SAME_AS,1.0,1.0,1.0,1851,1861,P132_spatiotemporally_overlaps_with
 CD_ON_Bruce_1851,CD_ON_Bruce_1861,WITHIN,0.647,1.0,0.647,1851,1861,P132_spatiotemporally_overlaps_with
 CD_ON_Bytown_1851,CD_ON_Ottawa_1861,WITHIN,0.686,1.0,0.686,1851,1861,P132_spatiotemporally_overlaps_with
 CD_ON_Carleton_1851,CD_ON_Carleton_1861,SAME_AS,0.9985,0.9985,1.0,1851,1861,P132_spatiotemporally_overlaps_with
@@ -57,8 +56,8 @@ CD_PE_Prince_Edward_Island_1851,CD_PE_Prince_Edward_Island_1861,SAME_AS,1.0,1.0,
 CD_QC_Beauharnois_1851,CD_QC_Huntingdon_1861,CONTAINS,0.498,0.498,1.0,1851,1861,P132_spatiotemporally_overlaps_with
 CD_QC_Beauharnois_1851,CD_QC_Beauharnois_1861,CONTAINS,0.1987,0.1987,1.0,1851,1861,P132_spatiotemporally_overlaps_with
 CD_QC_Bellechasse_1851,CD_QC_Bellechasse_1861,CONTAINS,0.6324,0.6536,0.9511,1851,1861,P132_spatiotemporally_overlaps_with
-CD_QC_Berthier_1851,CD_QC_Joliette_1861,CONTAINS,0.5567,0.5567,1.0,1851,1861,P132_spatiotemporally_overlaps_with
 CD_QC_Berthier_1851,CD_QC_Berthier_1861,CONTAINS,0.4411,0.4411,1.0,1851,1861,P132_spatiotemporally_overlaps_with
+CD_QC_Berthier_1851,CD_QC_Joliette_1861,CONTAINS,0.5567,0.5567,1.0,1851,1861,P132_spatiotemporally_overlaps_with
 CD_QC_Bonaventure_1851,CD_QC_Bonaventure_1861,SAME_AS,1.0,1.0,1.0,1851,1861,P132_spatiotemporally_overlaps_with
 CD_QC_Chambly_1851,CD_QC_Chambly_1861,CONTAINS,0.6683,0.6737,0.9881,1851,1861,P132_spatiotemporally_overlaps_with
 CD_QC_Champlain_1851,CD_QC_Champlain_1861,CONTAINS,0.9409,0.9409,1.0,1851,1861,P132_spatiotemporally_overlaps_with
@@ -146,6 +145,8 @@ CD_ON_Algoma_1861,CD_ON_Manitoulin_1871,CONTAINS,0.0313,0.0313,1.0,1861,1871,P13
 CD_ON_Algoma_1861,CD_ON_Algoma_Centre_1871,CONTAINS,0.0563,0.0563,1.0,1861,1871,P132_spatiotemporally_overlaps_with
 CD_ON_Algoma_1861,CD_ON_Algoma_East_1871,CONTAINS,0.2888,0.2888,1.0,1861,1871,P132_spatiotemporally_overlaps_with
 CD_ON_Algoma_1861,CD_ON_Algoma_West_1871,CONTAINS,0.6236,0.6236,1.0,1861,1871,P132_spatiotemporally_overlaps_with
+CD_ON_Brant_1861,"CD_ON_Brant,_South_or_West—Sud_ou_West_1871",CONTAINS,0.4376,0.4376,1.0,1861,1871,P132_spatiotemporally_overlaps_with
+CD_ON_Brant_1861,"CD_ON_Brant,_North_or_East—Nord_ou_East_1871",CONTAINS,0.5624,0.5624,1.0,1861,1871,P132_spatiotemporally_overlaps_with
 CD_ON_Bruce_1861,CD_ON_Bruce_South_1871,CONTAINS,0.4229,0.4229,1.0,1861,1871,P132_spatiotemporally_overlaps_with
 CD_ON_Bruce_1861,CD_ON_Bruce_North_1871,CONTAINS,0.5771,0.5771,1.0,1861,1871,P132_spatiotemporally_overlaps_with
 CD_ON_Carleton_1861,CD_ON_Carleton_1871,CONTAINS,0.6944,0.6951,0.9986,1861,1871,P132_spatiotemporally_overlaps_with
@@ -252,7 +253,7 @@ CD_QC_Hochelaga_1861,CD_QC_Hochelaga_1871,SAME_AS,1.0,1.0,1.0,1861,1871,P132_spa
 CD_QC_Huntingdon_1861,CD_QC_Huntingdon_West_1871,CONTAINS,0.4304,0.4304,1.0,1861,1871,P132_spatiotemporally_overlaps_with
 CD_QC_Huntingdon_1861,CD_QC_Huntingdon_East_1871,CONTAINS,0.5696,0.5696,1.0,1861,1871,P132_spatiotemporally_overlaps_with
 CD_QC_Iberville_1861,CD_QC_Iberville_1871,SAME_AS,1.0,1.0,1.0,1861,1871,P132_spatiotemporally_overlaps_with
-CD_QC_Jacques_Cartier_1861,CD_QC_Jacques_Cartier_1871,SAME_AS,1.0,1.0,1.0,1861,1871,P132_spatiotemporally_overlaps_with
+CD_QC_Jacques-Cartier_1861,CD_QC_Jacques-Cartier_1871,SAME_AS,1.0,1.0,1.0,1861,1871,P132_spatiotemporally_overlaps_with
 CD_QC_Joliette_1861,CD_QC_Joliette_1871,WITHIN,0.9736,0.9985,0.975,1861,1871,P132_spatiotemporally_overlaps_with
 CD_QC_Kamouraska_1861,CD_QC_Kamouraska_1871,SAME_AS,1.0,1.0,1.0,1861,1871,P132_spatiotemporally_overlaps_with
 CD_QC_L'Assomption_1861,CD_QC_L'Assomption_1871,SAME_AS,0.9851,0.9851,1.0,1861,1871,P132_spatiotemporally_overlaps_with
@@ -304,8 +305,7 @@ CD_BC_British_Colombia_1871,CD_BC_Victoria_1881,CONTAINS,0.0002,0.0002,1.0,1871,
 CD_BC_British_Colombia_1871,CD_BC_Vancouver_1881,CONTAINS,0.0361,0.0361,1.0,1871,1881,P132_spatiotemporally_overlaps_with
 CD_BC_British_Colombia_1871,CD_BC_Cariboo_1881,CONTAINS,0.3594,0.3595,0.999,1871,1881,P132_spatiotemporally_overlaps_with
 CD_BC_British_Colombia_1871,CD_BC_New_Westminster_1881,CONTAINS,0.4611,0.4611,1.0,1871,1881,P132_spatiotemporally_overlaps_with
-CD_MB_Manitoba_1871,CD_MB_Provencher_1881,CONTAINS,0.0586,0.0586,1.0,1871,1881,P132_spatiotemporally_overlaps_with
-CD_MB_Manitoba_1871,CD_MB_Provencher_1881_1881,CONTAINS,0.0051,0.0051,1.0,1871,1881,P132_spatiotemporally_overlaps_with
+CD_MB_Manitoba_1871,CD_MB_Provencher_1881,CONTAINS,0.0637,0.0637,1.0,1871,1881,P132_spatiotemporally_overlaps_with
 CD_MB_Manitoba_1871,CD_MB_Selkirk_1881,CONTAINS,0.0202,0.0202,1.0,1871,1881,P132_spatiotemporally_overlaps_with
 CD_MB_Manitoba_1871,CD_MB_Marquette_1881,CONTAINS,0.1209,0.1209,1.0,1871,1881,P132_spatiotemporally_overlaps_with
 CD_MB_Manitoba_1871,CD_MB_Lisgar_1881,CONTAINS,0.0481,0.0481,0.9971,1871,1881,P132_spatiotemporally_overlaps_with
@@ -464,7 +464,7 @@ CD_QC_Huntingdon_East_1871,CD_QC_Huntingdon_1881,WITHIN,0.5696,1.0,0.5696,1871,1
 CD_QC_Huntingdon_West_1871,CD_QC_Huntingdon_1881,WITHIN,0.4304,1.0,0.4304,1871,1881,P132_spatiotemporally_overlaps_with
 CD_QC_Iberville_1871,CD_QC_Iberville_1881,SAME_AS,0.998,0.998,1.0,1871,1881,P132_spatiotemporally_overlaps_with
 CD_QC_Isles_de_la_Magdeleine_1871,CD_QC_Gaspé_1881,WITHIN,0.0203,1.0,0.0203,1871,1881,P132_spatiotemporally_overlaps_with
-CD_QC_Jacques_Cartier_1871,CD_QC_Jacques_Cartier_1881,SAME_AS,1.0,1.0,1.0,1871,1881,P132_spatiotemporally_overlaps_with
+CD_QC_Jacques-Cartier_1871,CD_QC_Jacques-Cartier_1881,SAME_AS,1.0,1.0,1.0,1871,1881,P132_spatiotemporally_overlaps_with
 CD_QC_Joliette_1871,CD_QC_Joliette_1881,WITHIN,0.2357,1.0,0.2357,1871,1881,P132_spatiotemporally_overlaps_with
 CD_QC_Kamouraska_1871,CD_QC_Kamouraska_1881,SAME_AS,1.0,1.0,1.0,1871,1881,P132_spatiotemporally_overlaps_with
 CD_QC_L'Assomption_1871,CD_QC_L'Assomption_1881,SAME_AS,1.0,1.0,1.0,1871,1881,P132_spatiotemporally_overlaps_with
@@ -639,8 +639,7 @@ CD_QC_Berthier_1881,CD_QC_Berthier_1891,SAME_AS,1.0,1.0,1.0,1881,1891,P132_spati
 CD_QC_Bonaventure_1881,CD_QC_Bonaventure_1891,SAME_AS,0.9999,0.9999,1.0,1881,1891,P132_spatiotemporally_overlaps_with
 CD_QC_Brome_1881,CD_QC_Brome_1891,SAME_AS,1.0,1.0,1.0,1881,1891,P132_spatiotemporally_overlaps_with
 CD_QC_Chambly_1881,CD_QC_Chambly_1891,SAME_AS,1.0,1.0,1.0,1881,1891,P132_spatiotemporally_overlaps_with
-CD_QC_Champlain_1881,CD_QC_Champlain_1891_1891,CONTAINS,0.1222,0.1222,1.0,1881,1891,P132_spatiotemporally_overlaps_with
-CD_QC_Champlain_1881,CD_QC_Champlain_1891_1891_1891,CONTAINS,0.8778,0.8778,1.0,1881,1891,P132_spatiotemporally_overlaps_with
+CD_QC_Champlain_1881,CD_QC_Champlain_1891,SAME_AS,1.0,1.0,1.0,1881,1891,P132_spatiotemporally_overlaps_with
 CD_QC_Charlevoix_1881,CD_QC_Charlevoix_1891,SAME_AS,0.9987,0.9987,1.0,1881,1891,P132_spatiotemporally_overlaps_with
 CD_QC_Chateauguay_1881,CD_QC_Chateauguay_1891,SAME_AS,1.0,1.0,1.0,1881,1891,P132_spatiotemporally_overlaps_with
 CD_QC_Chicoutimi_&_Saguenay_1881,CD_QC_Chicoutimi_&_Saguenay_1891,SAME_AS,1.0,1.0,1.0,1881,1891,P132_spatiotemporally_overlaps_with
@@ -653,8 +652,7 @@ CD_QC_Hochelaga_1881,CD_QC_Hochelaga_1891,CONTAINS,0.0151,0.0151,1.0,1881,1891,P
 CD_QC_Hochelaga_1881,CD_QC_Hochelaga_1891,SAME_AS,0.9849,0.9849,1.0,1881,1891,P132_spatiotemporally_overlaps_with
 CD_QC_Huntingdon_1881,CD_QC_Huntingdon_1891,SAME_AS,1.0,1.0,1.0,1881,1891,P132_spatiotemporally_overlaps_with
 CD_QC_Iberville_1881,CD_QC_Iberville_1891,SAME_AS,1.0,1.0,1.0,1881,1891,P132_spatiotemporally_overlaps_with
-CD_QC_Jacques_Cartier_1881,CD_QC_Jacques-Cartier_1891,CONTAINS,0.8728,0.8728,1.0,1881,1891,P132_spatiotemporally_overlaps_with
-CD_QC_Jacques_Cartier_1881,CD_QC_Jacques-Cartier_1891_1891,CONTAINS,0.1272,0.1272,1.0,1881,1891,P132_spatiotemporally_overlaps_with
+CD_QC_Jacques-Cartier_1881,CD_QC_Jacques-Cartier_1891,SAME_AS,1.0,1.0,1.0,1881,1891,P132_spatiotemporally_overlaps_with
 CD_QC_Joliette_1881,CD_QC_Joliette_1891,SAME_AS,1.0,1.0,1.0,1881,1891,P132_spatiotemporally_overlaps_with
 CD_QC_Kamouraska_1881,CD_QC_Kamouraska_1891,SAME_AS,0.9972,1.0,0.9972,1881,1891,P132_spatiotemporally_overlaps_with
 CD_QC_L'Assomption_1881,CD_QC_L'Assomption_1891,SAME_AS,0.9993,1.0,0.9993,1881,1891,P132_spatiotemporally_overlaps_with
@@ -696,14 +694,12 @@ CD_QC_Yamaska_1881,CD_QC_Yamaska_1891,SAME_AS,1.0,1.0,1.0,1881,1891,P132_spatiot
 CD_BC_Cariboo_1891,CD_BC_Yale_&_Cariboo_1901,WITHIN,0.688,1.0,0.688,1891,1901,P132_spatiotemporally_overlaps_with
 CD_BC_New_Westminster_1891,CD_BC_Burrard_1901,WITHIN,0.9768,0.9768,1.0,1891,1901,P132_spatiotemporally_overlaps_with
 CD_BC_Vancouver_1891,CD_BC_Vancouver_1901,SAME_AS,1.0,1.0,1.0,1891,1901,P132_spatiotemporally_overlaps_with
-CD_BC_Victoria_1891,CD_BC_Victoria_City_1901,CONTAINS,0.1061,0.1061,1.0,1891,1901,P132_spatiotemporally_overlaps_with
-CD_BC_Victoria_1891,CD_BC_Victoria_1901_1901,CONTAINS,0.8939,0.8939,1.0,1891,1901,P132_spatiotemporally_overlaps_with
+CD_BC_Victoria_1891,CD_BC_Victoria_1901,SAME_AS,1.0,1.0,1.0,1891,1901,P132_spatiotemporally_overlaps_with
 CD_BC_Yale_1891,CD_BC_Yale_&_Cariboo_1901,WITHIN,0.31,0.9844,0.3115,1891,1901,P132_spatiotemporally_overlaps_with
 CD_MB_Lisgar_1891,CD_MB_Selkirk_1901,WITHIN,0.9295,0.9851,0.9427,1891,1901,P132_spatiotemporally_overlaps_with
 CD_MB_Marquette_1891,CD_MB_Macdonald_1901,CONTAINS,0.3264,0.3294,0.9725,1891,1901,P132_spatiotemporally_overlaps_with
 CD_MB_Marquette_1891,CD_MB_Marquette_1901,CONTAINS,0.5839,0.5839,1.0,1891,1901,P132_spatiotemporally_overlaps_with
-CD_MB_Provencher_1891_1891_1891,CD_MB_Provencher_1901,WITHIN,0.3848,1.0,0.3848,1891,1901,P132_spatiotemporally_overlaps_with
-CD_MB_Provencher_1891_1891,CD_MB_Provencher_1901,WITHIN,0.6121,0.9958,0.6137,1891,1901,P132_spatiotemporally_overlaps_with
+CD_MB_Provencher_1891,CD_MB_Provencher_1901,SAME_AS,0.9959,0.9974,0.9985,1891,1901,P132_spatiotemporally_overlaps_with
 CD_MB_Selkirk_1891,CD_MB_Brandon_1901,CONTAINS,0.5816,0.5816,1.0,1891,1901,P132_spatiotemporally_overlaps_with
 CD_MB_Winnipeg_City_1891,CD_MB_Winnipeg_City_1901,WITHIN,0.979,0.979,1.0,1891,1901,P132_spatiotemporally_overlaps_with
 CD_NB_Albert_1891,CD_NB_Albert_1901,SAME_AS,1.0,1.0,1.0,1891,1901,P132_spatiotemporally_overlaps_with
@@ -847,8 +843,7 @@ CD_QC_Berthier_1891,CD_QC_Berthier_1901,SAME_AS,0.9876,0.9876,1.0,1891,1901,P132
 CD_QC_Bonaventure_1891,CD_QC_Bonaventure_1901,SAME_AS,1.0,1.0,1.0,1891,1901,P132_spatiotemporally_overlaps_with
 CD_QC_Brome_1891,CD_QC_Brome_1901,SAME_AS,1.0,1.0,1.0,1891,1901,P132_spatiotemporally_overlaps_with
 CD_QC_Chambly_1891,CD_QC_Chambly_&_Verchères_1901,WITHIN,0.4014,1.0,0.4014,1891,1901,P132_spatiotemporally_overlaps_with
-CD_QC_Champlain_1891_1891_1891,CD_QC_Champlain_1901,WITHIN,0.8778,1.0,0.8778,1891,1901,P132_spatiotemporally_overlaps_with
-CD_QC_Champlain_1891_1891,CD_QC_Champlain_1901,WITHIN,0.1222,1.0,0.1222,1891,1901,P132_spatiotemporally_overlaps_with
+CD_QC_Champlain_1891,CD_QC_Champlain_1901,SAME_AS,1.0,1.0,1.0,1891,1901,P132_spatiotemporally_overlaps_with
 CD_QC_Charlevoix_1891,CD_QC_Charlevoix_1901,SAME_AS,1.0,1.0,1.0,1891,1901,P132_spatiotemporally_overlaps_with
 CD_QC_Chateauguay_1891,CD_QC_Chateauguay_1901,WITHIN,0.9296,1.0,0.9296,1891,1901,P132_spatiotemporally_overlaps_with
 CD_QC_Chicoutimi_&_Saguenay_1891,CD_QC_Chicoutimi_&_Saguenay_1901,SAME_AS,1.0,1.0,1.0,1891,1901,P132_spatiotemporally_overlaps_with
@@ -861,8 +856,7 @@ CD_QC_Hochelaga_1891,CD_QC_Maisonneuve_1901,WITHIN,0.1309,1.0,0.1309,1891,1901,P
 CD_QC_Hochelaga_1891,CD_QC_Hochelaga_1901,CONTAINS,0.0379,0.0379,1.0,1891,1901,P132_spatiotemporally_overlaps_with
 CD_QC_Huntingdon_1891,CD_QC_Huntingdon_1901,SAME_AS,1.0,1.0,1.0,1891,1901,P132_spatiotemporally_overlaps_with
 CD_QC_Iberville_1891,CD_QC_St._Jean_&_Iberville_1901,WITHIN,0.5902,1.0,0.5902,1891,1901,P132_spatiotemporally_overlaps_with
-CD_QC_Jacques-Cartier_1891_1891,CD_QC_Jacques_Cartier_1901,WITHIN,0.1042,1.0,0.1042,1891,1901,P132_spatiotemporally_overlaps_with
-CD_QC_Jacques-Cartier_1891,CD_QC_Jacques_Cartier_1901,WITHIN,0.7151,1.0,0.7151,1891,1901,P132_spatiotemporally_overlaps_with
+CD_QC_Jacques-Cartier_1891,CD_QC_Jacques-Cartier_1901,WITHIN,0.8193,1.0,0.8193,1891,1901,P132_spatiotemporally_overlaps_with
 CD_QC_Joliette_1891,CD_QC_Joliette_1901,SAME_AS,1.0,1.0,1.0,1891,1901,P132_spatiotemporally_overlaps_with
 CD_QC_Kamouraska_1891,CD_QC_Kamouraska_1901,SAME_AS,1.0,1.0,1.0,1891,1901,P132_spatiotemporally_overlaps_with
 CD_QC_Laval_1891,CD_QC_Laval_1901,WITHIN,0.6369,1.0,0.6369,1891,1901,P132_spatiotemporally_overlaps_with
@@ -907,8 +901,7 @@ CD_QC_Yamaska_1891,CD_QC_Yamaska_1901,SAME_AS,0.9852,0.9942,0.9909,1891,1901,P13
 CD_BC_Burrard_1901,CD_BC_Vancouver_City_1911,CONTAINS,0.0037,0.0037,0.9517,1901,1911,P132_spatiotemporally_overlaps_with
 CD_BC_New_Westminster_1901,CD_BC_New_Westminster_1911,WITHIN,0.7794,0.9931,0.7837,1901,1911,P132_spatiotemporally_overlaps_with
 CD_BC_Vancouver_1901,CD_BC_Nanaimo_1911,CONTAINS,0.2019,0.2029,0.9759,1901,1911,P132_spatiotemporally_overlaps_with
-CD_BC_Victoria_1901_1901,CD_BC_Nanaimo_1911,WITHIN,0.0241,1.0,0.0241,1901,1911,P132_spatiotemporally_overlaps_with
-CD_BC_Victoria_City_1901,CD_BC_Victoria_City_1911,SAME_AS,1.0,1.0,1.0,1901,1911,P132_spatiotemporally_overlaps_with
+CD_BC_Victoria_1901,CD_BC_Victoria_City_1911,CONTAINS,0.1061,0.1061,1.0,1901,1911,P132_spatiotemporally_overlaps_with
 CD_BC_Yale_&_Cariboo_1901,CD_BC_Kootenay_1911,CONTAINS,0.1736,0.1744,0.9753,1901,1911,P132_spatiotemporally_overlaps_with
 CD_MB_Brandon_1901,CD_MB_Brandon_1911,CONTAINS,0.5402,0.5402,1.0,1901,1911,P132_spatiotemporally_overlaps_with
 CD_MB_Lisgar_1901,CD_MB_Lisgar_1911,CONTAINS,0.3882,0.3882,1.0,1901,1911,P132_spatiotemporally_overlaps_with
@@ -1027,7 +1020,7 @@ CD_QC_Drummond_&_Arthabaska_1901,CD_QC_Drummond_&_Arthabaska_1911,CONTAINS,0.890
 CD_QC_Gaspé_1901,CD_QC_Gaspé_1911,SAME_AS,1.0,1.0,1.0,1901,1911,P132_spatiotemporally_overlaps_with
 CD_QC_Hochelaga_1901,CD_QC_Hochelaga_1911,SAME_AS,1.0,1.0,1.0,1901,1911,P132_spatiotemporally_overlaps_with
 CD_QC_Huntingdon_1901,CD_QC_Huntingdon_1911,SAME_AS,1.0,1.0,1.0,1901,1911,P132_spatiotemporally_overlaps_with
-CD_QC_Jacques_Cartier_1901,CD_QC_Jacques_Cartier_1911,SAME_AS,1.0,1.0,1.0,1901,1911,P132_spatiotemporally_overlaps_with
+CD_QC_Jacques-Cartier_1901,CD_QC_Jacques-Cartier_1911,SAME_AS,1.0,1.0,1.0,1901,1911,P132_spatiotemporally_overlaps_with
 CD_QC_Joliette_1901,CD_QC_Joliette_1911,SAME_AS,0.9995,1.0,0.9995,1901,1911,P132_spatiotemporally_overlaps_with
 CD_QC_Kamouraska_1901,CD_QC_Kamouraska_1911,SAME_AS,1.0,1.0,1.0,1901,1911,P132_spatiotemporally_overlaps_with
 CD_QC_Labelle_1901,CD_QC_Labelle_1911,WITHIN,0.77,0.9977,0.7714,1901,1911,P132_spatiotemporally_overlaps_with
@@ -1245,7 +1238,7 @@ CD_QC_Drummond_&_Arthabaska_1911,CD_QC_Arthabaska_1921_1921,CONTAINS,0.555,0.555
 CD_QC_Gaspé_1911,CD_QC_Gaspé_1921,SAME_AS,1.0,1.0,1.0,1911,1921,P132_spatiotemporally_overlaps_with
 CD_QC_Hochelaga_1911,CD_QC_Montréal_&_Jésus_Islands—Iles_1921,WITHIN,0.0116,1.0,0.0116,1911,1921,P132_spatiotemporally_overlaps_with
 CD_QC_Huntingdon_1911,CD_QC_Huntingdon_1921,SAME_AS,1.0,1.0,1.0,1911,1921,P132_spatiotemporally_overlaps_with
-CD_QC_Jacques_Cartier_1911,CD_QC_Montréal_&_Jésus_Islands—Iles_1921,WITHIN,0.4118,1.0,0.4118,1911,1921,P132_spatiotemporally_overlaps_with
+CD_QC_Jacques-Cartier_1911,CD_QC_Montréal_&_Jésus_Islands—Iles_1921,WITHIN,0.4118,1.0,0.4118,1911,1921,P132_spatiotemporally_overlaps_with
 CD_QC_Joliette_1911,CD_QC_Joliette_1921,SAME_AS,1.0,1.0,1.0,1911,1921,P132_spatiotemporally_overlaps_with
 CD_QC_Kamouraska_1911,CD_QC_Kamouraska_1921,SAME_AS,1.0,1.0,1.0,1911,1921,P132_spatiotemporally_overlaps_with
 CD_QC_L'Assomption_1911,CD_QC_L'Assomption_1921,SAME_AS,1.0,1.0,1.0,1911,1921,P132_spatiotemporally_overlaps_with
