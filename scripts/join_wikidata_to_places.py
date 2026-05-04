@@ -23,21 +23,28 @@ from __future__ import annotations
 
 import csv
 import json
+import math
 import re
 from collections import Counter, defaultdict
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[1]
 JSONL = REPO / "wikidata_grounding" / "csd_verified_matches.jsonl"
+PRESENCE_JSONL = REPO / "wikidata_grounding" / "presence_verified_matches.jsonl"
 CD_JSONL = REPO / "wikidata_grounding" / "cd_verified_matches.jsonl"
 CD_CHAIN_MAP = REPO / "persistent_cds_output" / "cd_id_year_to_chain.csv"
 CD_CHAIN_REGISTRY = REPO / "persistent_cds_output" / "persistent_cd_registry.csv"
+TCPUID_TO_PLACE = REPO / "persistent_places_output" / "tcpuid_year_to_place.csv"
+CIDOC_DIR = REPO / "neo4j_cidoc_crm_v2"
 E53_CSD = REPO / "neo4j_cidoc_crm_v2" / "e53_place_csd.csv"
 E53_CD = REPO / "neo4j_cidoc_crm_v2" / "e53_place_cd.csv"
 OUT = REPO / "neo4j_cidoc_crm_v2" / "e53_place_uri.csv"
 UNPLACED = REPO / "neo4j_cidoc_crm_v2" / "e53_place_uri_unplaced.csv"
 CD_CONFLICTS = REPO / "wikidata_grounding" / "cd_qid_conflicts.csv"
 CSD_XREFS = REPO / "wikidata_grounding" / "csd_chain_qid_xrefs.csv"
+SIBLING_REVIEW_QUEUE = REPO / "wikidata_grounding" / "sibling_review_queue.jsonl"
+YEARS = (1851, 1861, 1871, 1881, 1891, 1901, 1911, 1921)
+MAX_SIBLING_KM = 50.0
 
 # Path injection so `from _normalize import …` works whether invoked as
 # `python3 scripts/join_wikidata_to_places.py` or imported as a module.
@@ -108,6 +115,133 @@ def load_cd_grounding(path: Path) -> dict[str, dict]:
                 continue
             r = json.loads(line)
             out[r["cd_id"]] = r
+    return out
+
+
+def haversine_km(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
+    R = 6371.0
+    dlat = math.radians(lat2 - lat1)
+    dlon = math.radians(lon2 - lon1)
+    a = (math.sin(dlat / 2) ** 2
+         + math.cos(math.radians(lat1)) * math.cos(math.radians(lat2))
+         * math.sin(dlon / 2) ** 2)
+    return R * 2 * math.asin(math.sqrt(a))
+
+
+def _load_presence_centroids() -> dict[tuple[str, int], tuple[float, float]]:
+    """(tcpuid, year) → (lat, lon) from per-year e94 centroid files."""
+    out: dict[tuple[str, int], tuple[float, float]] = {}
+    for year in YEARS:
+        path = CIDOC_DIR / f"e94_space_primitive_{year}.csv"
+        if not path.exists():
+            continue
+        with path.open() as f:
+            for row in csv.DictReader(f):
+                space_id = row.get("space_id:ID", "")
+                if not space_id.endswith("_centroid"):
+                    continue
+                stem = space_id[: -len("_centroid")]
+                parts = stem.rsplit("_", 1)
+                if len(parts) != 2 or not parts[1].isdigit():
+                    continue
+                tcpuid, yr = parts[0], int(parts[1])
+                try:
+                    out[(tcpuid, yr)] = (
+                        float(row["latitude:float"]),
+                        float(row["longitude:float"]),
+                    )
+                except (ValueError, TypeError, KeyError):
+                    pass
+    return out
+
+
+CHAIN_SUFFIX_RE = re.compile(r"(?:_(\d{4}))+$")
+
+
+def _tcpuid_from_place_id(place_id: str) -> str:
+    """PLACE_ON065002 → ON065002; PLACE_AB001999_1911 → AB001999.
+    The trailing _YYYY (optionally repeated) is a disambiguation suffix and
+    must be stripped to recover the TCPUID for centroid lookup."""
+    if place_id.startswith("PLACE_"):
+        stem = place_id[len("PLACE_"):]
+    else:
+        stem = place_id
+    return CHAIN_SUFFIX_RE.sub("", stem)
+
+
+def load_chain_centroids() -> dict[str, tuple[float, float]]:
+    """Compute representative chain centroid as the latest-year presence
+    centroid. Joins e94 per-presence centroids onto chain place_ids using
+    the years_active field on e53_place_csd plus tcpuid_year_to_place
+    fallbacks. Place_ids with year-suffix disambiguators (e.g.
+    PLACE_AB001999_1911) are resolved by stripping the suffix to recover
+    the TCPUID."""
+    presence_coords = _load_presence_centroids()
+    chain_to_presences: dict[str, list[tuple[int, float, float]]] = defaultdict(list)
+
+    # Pass 1: tcpuid_year_to_place mapping (handles base PLACE_<tcpuid> chains
+    # whose presences span multiple TCPUIDs across years).
+    if TCPUID_TO_PLACE.exists():
+        with TCPUID_TO_PLACE.open() as f:
+            for row in csv.DictReader(f):
+                try:
+                    year = int(row["year"])
+                except (ValueError, KeyError):
+                    continue
+                tcpuid = row.get("tcpuid", "")
+                place_id = row.get("persistent_place_id", "")
+                coord = presence_coords.get((tcpuid, year))
+                if not coord or not place_id:
+                    continue
+                chain_to_presences[place_id].append((year, coord[0], coord[1]))
+
+    # Pass 2: for chains in e53_place_csd that the registry mapping missed
+    # (year-suffix-disambiguated chains), derive (tcpuid, year) from the
+    # place_id + years_active and look up coords directly.
+    if E53_CSD.exists():
+        with E53_CSD.open() as f:
+            for row in csv.DictReader(f):
+                place_id = row["place_id:ID"]
+                if place_id in chain_to_presences:
+                    continue
+                tcpuid = _tcpuid_from_place_id(place_id)
+                years_str = row.get("years_active", "")
+                for ystr in years_str.split(";"):
+                    ystr = ystr.strip()
+                    if not ystr.isdigit():
+                        continue
+                    year = int(ystr)
+                    coord = presence_coords.get((tcpuid, year))
+                    if coord:
+                        chain_to_presences[place_id].append((year, coord[0], coord[1]))
+
+    out: dict[str, tuple[float, float]] = {}
+    for place_id, presences in chain_to_presences.items():
+        presences.sort(key=lambda x: x[0])
+        out[place_id] = (presences[-1][1], presences[-1][2])
+    return out
+
+
+def load_presence_grounding(path: Path) -> dict[str, dict]:
+    """Phase C output: per-presence records keyed by `current_chain` (E53 place_id).
+    Multiple presences may map to one chain; collapse to the best status per chain.
+    Priority: matched > mint_uri > skip. Returns chain_place_id -> representative record."""
+    if not path.exists():
+        return {}
+    priority = {"matched": 3, "mint_uri": 2, "skip": 1}
+    out: dict[str, dict] = {}
+    with path.open() as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            r = json.loads(line)
+            chain = r.get("current_chain")
+            if not chain:
+                continue
+            cur = out.get(chain)
+            if cur is None or priority.get(r["status"], 0) > priority.get(cur["status"], 0):
+                out[chain] = r
     return out
 
 
@@ -283,16 +417,60 @@ def main() -> None:
                 "years": years,
             })
 
+    # PHASE 1.5: per-presence grounding from Phase C output. For any chain
+    # still ungrounded after Phase 1, apply the chain-level Phase C decision:
+    #   matched   → wd:Q… URI, uri_source = "wikidata_via_presence"
+    #   mint_uri  → minted GitHub Pages URL, uri_source = "minted_hgis",
+    #               grounding_status = "mint_uri" (with mint_reason from record)
+    #   skip      → minted URL, uri_source = "minted_hgis",
+    #               grounding_status = "skip" (no Wikidata sameAs at RDF emit)
+    presence_grounding = load_presence_grounding(PRESENCE_JSONL)
+    print(f"\nLoaded {len(presence_grounding):,} chain-level Phase C decisions "
+          f"from {PRESENCE_JSONL.name}")
+    presence_applied = Counter()
+    for out_row, src in zip(rows_out, csd_rows):
+        if out_row["uri_source"] != "minted_hgis":
+            continue  # already grounded by Phase 1 (1921 grounding)
+        rec = presence_grounding.get(out_row["place_id:ID"])
+        if not rec:
+            continue
+        st = rec["status"]
+        if st == "matched":
+            qid = rec["wikidata_qid"]
+            out_row["uri"] = f"{WIKIDATA_PREFIX}{qid}"
+            out_row["uri_source"] = "wikidata_via_presence"
+            out_row["wikidata_qid"] = qid
+            out_row["wikidata_label"] = rec.get("wikidata_label", "")
+            out_row["grounding_status"] = "matched"
+            out_row["mint_reason"] = ""
+        elif st == "mint_uri":
+            # URI stays as the minted page URL from Phase 1; just upgrade the
+            # status and attach the curator-provided mint_reason.
+            out_row["grounding_status"] = "mint_uri"
+            out_row["mint_reason"] = rec.get("mint_reason", "")
+        elif st == "skip":
+            out_row["grounding_status"] = "skip"
+            out_row["mint_reason"] = rec.get("mint_reason", "")
+        presence_applied[st] += 1
+    print(f"Phase C applied: matched={presence_applied['matched']:,} "
+          f"mint_uri={presence_applied['mint_uri']:,} "
+          f"skip={presence_applied['skip']:,}")
+
     # PHASE 2: sibling-name inheritance. Index every directly-grounded chain
-    # by (bridge_normalize(name), province) → (qid, label, donor_place_id).
-    # Then any chain whose Phase-1 result is `ungrounded` looks itself up in
-    # the index. On hit, the chain inherits the QID with uri_source =
-    # `wikidata_via_sibling`. Skipped if multiple distinct QIDs collide for
-    # the same key (ambiguity flagged in summary).
+    # by (bridge_normalize(name), province) → (qid, label, donor_place_id,
+    # donor_centroid). Then any chain whose Phase-1/1.5 result is `ungrounded`
+    # looks itself up in the index. On hit, the chain inherits the QID with
+    # uri_source = `wikidata_via_sibling` ONLY IF the candidate's chain
+    # centroid is within MAX_SIBLING_KM of the donor's chain centroid. This
+    # blocks the common-name false-positive pattern (multiple QC parishes
+    # named "St. François" in different regions all inheriting one parish's
+    # QID). Skipped if multiple distinct QIDs collide for the same key.
+    chain_centroids = load_chain_centroids()
+    print(f"\nLoaded {len(chain_centroids):,} chain centroids for sibling-distance gate")
     sibling_index: dict[tuple[str, str], dict] = {}
     sibling_conflicts: dict[tuple[str, str], set[str]] = defaultdict(set)
     for out_row, src in zip(rows_out, csd_rows):
-        if out_row["uri_source"] != "wikidata":
+        if not out_row["uri_source"].startswith("wikidata"):
             continue
         key = (bridge_normalize(src["name"]), src["province"])
         if not key[0] or not key[1]:
@@ -303,6 +481,7 @@ def main() -> None:
                 "qid": out_row["wikidata_qid"],
                 "label": out_row["wikidata_label"],
                 "donor": out_row["place_id:ID"],
+                "donor_centroid": chain_centroids.get(out_row["place_id:ID"]),
             }
     # Drop ambiguous keys (multiple QIDs)
     for key, qids in sibling_conflicts.items():
@@ -311,6 +490,9 @@ def main() -> None:
 
     # PHASE 3: apply sibling lookup + override file.
     sibling_inherits = 0
+    sibling_rejected_far = 0
+    sibling_rejected_no_centroid = 0
+    review_queue: list[dict] = []
     override_force = 0
     override_suppress = 0
     for out_row, src in zip(rows_out, csd_rows):
@@ -341,12 +523,61 @@ def main() -> None:
             override_force += 1
             continue
 
-        # Sibling inheritance: only for chains still ungrounded after Phase 1.
+        # Sibling inheritance: only for chains still genuinely ungrounded.
+        # Skip chains whose grounding_status is already mint_uri or skip —
+        # those represent explicit Phase C decisions ("no separate WD entity"
+        # / "aggregate enumeration") that the sibling pass must not overrule.
         if out_row["uri_source"] != "minted_hgis":
+            continue
+        if out_row["grounding_status"] != "ungrounded":
             continue
         key = (bridge_normalize(src["name"]), src["province"])
         donor = sibling_index.get(key)
         if not donor or donor["donor"] == place_id:
+            continue
+        # Centroid gate: distinct QC parishes named e.g. "Ste. Anne" sit
+        # in different parts of the province. Refuse to inherit a donor's
+        # QID if the candidate chain's centroid is more than MAX_SIBLING_KM
+        # from the donor's chain centroid.
+        cand_cent = chain_centroids.get(place_id)
+        donor_cent = donor.get("donor_centroid")
+        if cand_cent and donor_cent:
+            d_km = haversine_km(cand_cent[0], cand_cent[1],
+                                donor_cent[0], donor_cent[1])
+            if d_km > MAX_SIBLING_KM:
+                sibling_rejected_far += 1
+                review_queue.append({
+                    "place_id": place_id,
+                    "name": src["name"],
+                    "province": src["province"],
+                    "candidate_lat": cand_cent[0],
+                    "candidate_lon": cand_cent[1],
+                    "rejected_qid": donor["qid"],
+                    "rejected_label": donor["label"],
+                    "donor_chain": donor["donor"],
+                    "donor_lat": donor_cent[0],
+                    "donor_lon": donor_cent[1],
+                    "distance_km": round(d_km, 1),
+                    "reason": "sibling_far",
+                })
+                continue
+        else:
+            # Lacking centroid for either side — refuse to inherit blindly.
+            sibling_rejected_no_centroid += 1
+            review_queue.append({
+                "place_id": place_id,
+                "name": src["name"],
+                "province": src["province"],
+                "candidate_lat": (cand_cent or (None, None))[0],
+                "candidate_lon": (cand_cent or (None, None))[1],
+                "rejected_qid": donor["qid"],
+                "rejected_label": donor["label"],
+                "donor_chain": donor["donor"],
+                "donor_lat": (donor_cent or (None, None))[0],
+                "donor_lon": (donor_cent or (None, None))[1],
+                "distance_km": None,
+                "reason": "no_centroid",
+            })
             continue
         out_row["uri"] = f"{WIKIDATA_PREFIX}{donor['qid']}"
         out_row["uri_source"] = "wikidata_via_sibling"
@@ -365,7 +596,16 @@ def main() -> None:
         province_source.setdefault(src["province"], Counter())[out_row["uri_source"]] += 1
 
     print(f"\nSibling-name inheritance: {sibling_inherits:,} chains")
+    print(f"Sibling rejected (far >{MAX_SIBLING_KM:.0f} km): {sibling_rejected_far:,}")
+    print(f"Sibling rejected (no centroid): {sibling_rejected_no_centroid:,}")
     print(f"Override force / suppress: {override_force:,} / {override_suppress:,}")
+    if review_queue:
+        SIBLING_REVIEW_QUEUE.parent.mkdir(parents=True, exist_ok=True)
+        with SIBLING_REVIEW_QUEUE.open("w") as f:
+            for entry in review_queue:
+                f.write(json.dumps(entry) + "\n")
+        print(f"Wrote {len(review_queue):,} rejected sibling candidates -> "
+              f"{SIBLING_REVIEW_QUEUE.relative_to(REPO)}")
 
     cd_grounding = load_cd_grounding(CD_JSONL)
     cd_chain_members = load_cd_chain_members(CD_CHAIN_MAP)
