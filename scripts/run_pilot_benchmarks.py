@@ -48,6 +48,7 @@ SELECT ?presence ?period WHERE {
   ?presence a crm:E93_Presence ;
             crm:P166_was_a_presence_of wd:Q115263132 ;
             crm:P10_falls_within ?period .
+  ?period a crm:E4_Period .
 } ORDER BY ?period
 """,
         "B": SPARQL_PREFIX + """
