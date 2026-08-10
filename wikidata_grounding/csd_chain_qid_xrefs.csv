@@ -1,92 +1,66 @@
 place_id,qid,label,decision,reason
-PLACE_NS035002,Q4974713,Brooklyn,force,sibling-review: replaces wrong sibling Q4974720
-PLACE_QC012005_1861,Q3464159,Sainte-Anne-de-la-Pérade,force,sibling-review: replaces wrong sibling Q112912908
-PLACE_QC019014_1861,Q51557,Sainte-Anne-des-Monts,force,sibling-review: replaces wrong sibling Q112912908
-PLACE_QC026006,Q3461776,Saint-André-de-Kamouraska,force,sibling-review: replaces wrong sibling Q138794640
-PLACE_QC026008,Q3462069,Saint-Denis-De La Bouteillerie,force,sibling-review: replaces wrong sibling Q112912052
+PLACE_NS012014,Q4974713,Brooklyn,force,sibling-review: replaces wrong sibling Q4974720 [remapped from PLACE_NS035002 after 2026-08-09 re-chaining]
+PLACE_QC047006_1921,Q3464159,Sainte-Anne-de-la-Pérade,force,sibling-review: replaces wrong sibling Q112912908 [remapped from PLACE_QC012005_1861 after 2026-08-09 re-chaining]
+PLACE_QC056026,Q51557,Sainte-Anne-des-Monts,force,sibling-review: replaces wrong sibling Q112912908 [remapped from PLACE_QC019014_1861 after 2026-08-09 re-chaining]
+PLACE_QC042011,Q3461776,Saint-André-de-Kamouraska,force,sibling-review: replaces wrong sibling Q138794640 [remapped from PLACE_QC026006 after 2026-08-09 re-chaining]
+PLACE_QC061007_1871,Q3462069,Saint-Denis-De La Bouteillerie,force,sibling-review: replaces wrong sibling Q112912052 [remapped from PLACE_QC026008 after 2026-08-09 re-chaining]
 PLACE_QC038009,Q3463195,Saint-Pierre-les-Becquets,force,sibling-review: replaces wrong sibling Q3463183
 PLACE_QC040018_1881_1921,Q3463428,Saint-Séverin,force,sibling-review: replaces wrong sibling Q3463430
-PLACE_QC041005,Q142490,Neuville,force,sibling-review: replaces wrong sibling Q3393516
-PLACE_QC041019,Q3462421,Saint-Honoré-de-Témiscouata,force,sibling-review: replaces wrong sibling Q3462423
-PLACE_QC042011,Q3461776,Saint-André-de-Kamouraska,force,sibling-review: replaces wrong sibling Q138794640
+PLACE_QC186007,Q142490,Neuville,force,sibling-review: replaces wrong sibling Q3393516 [remapped from PLACE_QC041005 after 2026-08-09 re-chaining]
+PLACE_QC095016,Q3462421,Saint-Honoré-de-Témiscouata,force,sibling-review: replaces wrong sibling Q3462423 [remapped from PLACE_QC041019 after 2026-08-09 re-chaining]
 PLACE_QC043005_1881,Q3463285,Saint-Roch-des-Aulnaies,force,sibling-review: replaces wrong sibling Q112912763
 PLACE_QC044005,Q2899316,Berthier-sur-Mer,force,sibling-review: replaces wrong sibling Q139046
-PLACE_QC046006,Q141420,Marieville,force,sibling-review: replaces wrong sibling Q141652
-PLACE_QC046008_1881,Q3462681,Saint-Lambert-de-Lauzon,force,sibling-review: replaces wrong sibling Q112912474
+PLACE_QC123005,Q141420,Marieville,force,sibling-review: replaces wrong sibling Q141652 [remapped from PLACE_QC046006 after 2026-08-09 re-chaining]
+PLACE_QC066008,Q3462681,Saint-Lambert-de-Lauzon,force,sibling-review: replaces wrong sibling Q112912474 [remapped from PLACE_QC046008_1881 after 2026-08-09 re-chaining]
 PLACE_QC048008,Q3463170,Saint-Pierre-de-Broughton,force,sibling-review: replaces wrong sibling Q3463183
-PLACE_QC048008_1851,Q3463460,Saint-Urbain-Premier,force,sibling-review: replaces wrong sibling Q112912843
+PLACE_QC049008_1851_1921,Q3463460,Saint-Urbain-Premier,force,sibling-review: replaces wrong sibling Q112912843 [remapped from PLACE_QC048008_1851 after 2026-08-09 re-chaining]
 PLACE_QC048019,Q3463423,Saint-Sébastien,force,sibling-review: replaces wrong sibling Q112912782
-PLACE_QC049002_1851,Q2899316,Berthier-sur-Mer,force,sibling-review: replaces wrong sibling Q139046
+PLACE_QC074003,Q2899316,Berthier-sur-Mer,force,sibling-review: replaces wrong sibling Q139046 [remapped from PLACE_QC049002_1851 after 2026-08-09 re-chaining]
 PLACE_QC049008,Q932023,Saint-Antoine-de-Tilly,force,sibling-review: replaces wrong sibling Q112911888
-PLACE_QC052001_1881,Q3462129,Saint-Eugène,force,sibling-review: replaces wrong sibling Q112912126
-PLACE_QC052005,Q142333,Saint-Bruno-de-Montarville,force,sibling-review: replaces wrong sibling Q112911961
-PLACE_QC052005_1881,Q3462266,Saint-Germain-de-Grantham,force,sibling-review: replaces wrong sibling Q112912230
-PLACE_QC054003,Q3462503,Saint-Jean-Chrysostome,force,sibling-review: replaces wrong sibling Q112912360
+PLACE_QC054009_1911,Q3462129,Saint-Eugène,force,sibling-review: replaces wrong sibling Q112912126 [remapped from PLACE_QC052001_1881 after 2026-08-09 re-chaining]
+PLACE_QC046005,Q142333,Saint-Bruno-de-Montarville,force,sibling-review: replaces wrong sibling Q112911961 [remapped from PLACE_QC052005 after 2026-08-09 re-chaining]
+PLACE_QC054010_1921,Q3462266,Saint-Germain-de-Grantham,force,sibling-review: replaces wrong sibling Q112912230 [remapped from PLACE_QC052005_1881 after 2026-08-09 re-chaining]
+PLACE_QC066006_1911,Q3462503,Saint-Jean-Chrysostome,force,sibling-review: replaces wrong sibling Q112912360 [remapped from PLACE_QC054003 after 2026-08-09 re-chaining]
 PLACE_QC054008_1851,Q3462681,Saint-Lambert-de-Lauzon,force,sibling-review: replaces wrong sibling Q112912474
-PLACE_QC057009_1851,Q3462475,Saint-Jacques-le-Mineur,force,sibling-review: replaces wrong sibling Q112912312
-PLACE_QC057010,Q3463573,Saint-Édouard,force,sibling-review: replaces wrong sibling Q3463568
-PLACE_QC057011_1851,Q3462008,Saint-Cyprien-de-Napierville,force,sibling-review: replaces wrong sibling Q112912034
-PLACE_QC058006_1851,Q3461776,Saint-André-de-Kamouraska,force,sibling-review: replaces wrong sibling Q138794640
+PLACE_QC064004_1851,Q3462475,Saint-Jacques-le-Mineur,force,sibling-review: replaces wrong sibling Q112912312 [remapped from PLACE_QC057009_1851 after 2026-08-09 re-chaining]
+PLACE_QC166009,Q3463573,Saint-Édouard,force,sibling-review: replaces wrong sibling Q3463568 [remapped from PLACE_QC057010 after 2026-08-09 re-chaining]
+PLACE_QC161008,Q3462008,Saint-Cyprien-de-Napierville,force,sibling-review: replaces wrong sibling Q112912034 [remapped from PLACE_QC057011_1851 after 2026-08-09 re-chaining]
 PLACE_QC060003,Q3463285,Saint-Roch-des-Aulnaies,force,sibling-review: replaces wrong sibling Q112912763
-PLACE_QC061004_1881,Q540163,Sainte-Anne-de-Sorel,force,sibling-review: replaces wrong sibling Q112912908
+PLACE_QC082002,Q540163,Sainte-Anne-de-Sorel,force,sibling-review: replaces wrong sibling Q112912908 [remapped from PLACE_QC061004_1881 after 2026-08-09 re-chaining]
 PLACE_QC061005,Q932023,Saint-Antoine-de-Tilly,force,sibling-review: replaces wrong sibling Q112911888
-PLACE_QC065007_1851,Q141500,Sainte-Anne-de-Bellevue,force,sibling-review: replaces wrong sibling Q112912908
-PLACE_QC067005_1851,Q3205666,L'Île-du-Grand-Calumet,force,sibling-review: replaces wrong sibling Q5024058
+PLACE_QC108006,Q141500,Sainte-Anne-de-Bellevue,force,sibling-review: replaces wrong sibling Q112912908 [remapped from PLACE_QC065007_1851 after 2026-08-09 re-chaining]
+PLACE_QC079006,Q3205666,L'Île-du-Grand-Calumet,force,sibling-review: replaces wrong sibling Q5024058 [remapped from PLACE_QC067005_1851 after 2026-08-09 re-chaining]
 PLACE_QC072004,Q141420,Marieville,force,sibling-review: replaces wrong sibling Q141652
 PLACE_QC073007_1851,Q141410,Louiseville,force,sibling-review: replaces wrong sibling Q142024
-PLACE_QC078011,Q3463379,Saint-Simon,force,sibling-review: replaces wrong sibling Q112913285
+PLACE_QC039011,Q3463379,Saint-Simon,force,sibling-review: replaces wrong sibling Q112913285 [remapped from PLACE_QC078011 after 2026-08-09 re-chaining]
 PLACE_QC080011,Q3461756,Saint-André-d'Argenteuil,force,sibling-review: replaces wrong sibling Q138794640
-PLACE_QC082004_1871,Q3464279,Sainte-Geneviève-de-Batiscan,force,sibling-review: replaces wrong sibling Q112912999
-PLACE_QC083003,Q3462181,Saint-François-du-Lac,force,sibling-review: replaces wrong sibling Q3462178
+PLACE_QC047008_1871,Q3464279,Sainte-Geneviève-de-Batiscan,force,sibling-review: replaces wrong sibling Q112912999 [remapped from PLACE_QC082004_1871 after 2026-08-09 re-chaining]
+PLACE_QC206007,Q3462181,Saint-François-du-Lac,force,sibling-review: replaces wrong sibling Q3462178 [remapped from PLACE_QC083003 after 2026-08-09 re-chaining]
 PLACE_QC085001,Q141410,Louiseville,force,sibling-review: replaces wrong sibling Q142024
-PLACE_QC091008_1871,Q3205666,L'Île-du-Grand-Calumet,force,sibling-review: replaces wrong sibling Q5024058
-PLACE_QC091015,Q6674375,Longue-Pointe,force,sibling-review: replaces wrong sibling Q3259157
+PLACE_QC168011_1911,Q6674375,Longue-Pointe,force,sibling-review: replaces wrong sibling Q3259157 [remapped from PLACE_QC091015 after 2026-08-09 re-chaining]
 PLACE_QC099006,Q141492,Sainte-Anne-des-Plaines,force,sibling-review: replaces wrong sibling Q112912908
-PLACE_QC108006,Q141500,Sainte-Anne-de-Bellevue,force,sibling-review: replaces wrong sibling Q112912908
-PLACE_QC115004_1871,Q3462475,Saint-Jacques-le-Mineur,force,sibling-review: replaces wrong sibling Q112912312
-PLACE_QC116004,Q3463573,Saint-Édouard,force,sibling-review: replaces wrong sibling Q3463568
-PLACE_QC116006,Q3462008,Saint-Cyprien-de-Napierville,force,sibling-review: replaces wrong sibling Q112912034
-PLACE_QC118008,Q142333,Saint-Bruno-de-Montarville,force,sibling-review: replaces wrong sibling Q112911961
-PLACE_QC123005,Q141420,Marieville,force,sibling-review: replaces wrong sibling Q141652
 PLACE_QC127003,Q731223,Sainte-Cécile-de-Milton,force,sibling-review: replaces wrong sibling Q112912944
 PLACE_QC127004_1871,Q3463478,Saint-Valérien-de-Milton,force,sibling-review: replaces wrong sibling Q3463479
-PLACE_QC128002,Q141410,Louiseville,force,sibling-review: replaces wrong sibling Q142024
-PLACE_QC134007,Q3463161,Saint-Pie-de-Guire,force,sibling-review: replaces wrong sibling Q112912693
+PLACE_QC069003_1891,Q141410,Louiseville,force,sibling-review: replaces wrong sibling Q142024 [remapped from PLACE_QC128002 after 2026-08-09 re-chaining]
+PLACE_QC100012,Q3463161,Saint-Pie-de-Guire,force,sibling-review: replaces wrong sibling Q112912693 [remapped from PLACE_QC134007 after 2026-08-09 re-chaining]
 PLACE_QC136003,Q3462266,Saint-Germain-de-Grantham,force,sibling-review: replaces wrong sibling Q112912230
 PLACE_QC138011,Q3463379,Saint-Simon,force,sibling-review: replaces wrong sibling Q112913285
-PLACE_QC138013,Q3463379,Saint-Simon,force,sibling-review: replaces wrong sibling Q112913285
-PLACE_QC144012_1911,Q143227,Saint-Georges,force,sibling-review: replaces wrong sibling Q112912215
-PLACE_QC144014,Q3462420,Saint-Honoré-de-Shenley,force,sibling-review: replaces wrong sibling Q3462423
-PLACE_QC145009,Q142333,Saint-Bruno-de-Montarville,force,sibling-review: replaces wrong sibling Q112911961
-PLACE_QC148009,Q141927,Sainte-Anne-de-Beaupré,force,sibling-review: replaces wrong sibling Q112912908
-PLACE_QC150005_1911,Q142333,Saint-Bruno-de-Montarville,force,sibling-review: replaces wrong sibling Q112911961
-PLACE_QC151007,Q3464279,Sainte-Geneviève-de-Batiscan,force,sibling-review: replaces wrong sibling Q112912999
+PLACE_QC040001_1911,Q143227,Saint-Georges,force,sibling-review: replaces wrong sibling Q112912215 [remapped from PLACE_QC144012_1911 after 2026-08-09 re-chaining]
+PLACE_QC040012_1891,Q3462420,Saint-Honoré-de-Shenley,force,sibling-review: replaces wrong sibling Q3462423 [remapped from PLACE_QC144014 after 2026-08-09 re-chaining]
+PLACE_QC178002,Q141927,Sainte-Anne-de-Beaupré,force,sibling-review: replaces wrong sibling Q112912908 [remapped from PLACE_QC148009 after 2026-08-09 re-chaining]
 PLACE_QC154006,Q3462681,Saint-Lambert-de-Lauzon,force,sibling-review: replaces wrong sibling Q112912474
 PLACE_QC154054,Q5664602,Harrington Harbour,force,sibling-review: replaces wrong sibling Q63243254
-PLACE_QC155008,Q6674375,Longue-Pointe,force,sibling-review: replaces wrong sibling Q3259157
-PLACE_QC161008,Q3462008,Saint-Cyprien-de-Napierville,force,sibling-review: replaces wrong sibling Q112912034
-PLACE_QC161009,Q3463573,Saint-Édouard,force,sibling-review: replaces wrong sibling Q3463568
-PLACE_QC163003_1901,Q6674375,Longue-Pointe,force,sibling-review: replaces wrong sibling Q3259157
-PLACE_QC164004,Q3463285,Saint-Roch-des-Aulnaies,force,sibling-review: replaces wrong sibling Q112912763
-PLACE_QC164007_1871,Q3462069,Saint-Denis-De La Bouteillerie,force,sibling-review: replaces wrong sibling Q112912052
-PLACE_QC164008,Q3462503,Saint-Jean-Chrysostome,force,sibling-review: replaces wrong sibling Q112912360
-PLACE_QC166008_1911,Q3462008,Saint-Cyprien-de-Napierville,force,sibling-review: replaces wrong sibling Q112912034
-PLACE_QC166009_1911,Q3463573,Saint-Édouard,force,sibling-review: replaces wrong sibling Q3463568
-PLACE_QC168004_1891,Q141410,Louiseville,force,sibling-review: replaces wrong sibling Q142024
-PLACE_QC168011_1911,Q6674375,Longue-Pointe,force,sibling-review: replaces wrong sibling Q3259157
-PLACE_QC170008,Q2388738,Saint-Marcel,force,sibling-review: replaces wrong sibling Q112912558
-PLACE_QC173003_1881,Q141927,Sainte-Anne-de-Beaupré,force,sibling-review: replaces wrong sibling Q112912908
-PLACE_QC181007,Q142490,Neuville,force,sibling-review: replaces wrong sibling Q3393516
-PLACE_QC186019_1911,Q142320,Saint-Marc-des-Carrières,force,sibling-review: replaces wrong sibling Q112912553
+PLACE_QC077001,Q3462008,Saint-Cyprien-de-Napierville,force,sibling-review: replaces wrong sibling Q112912034 [remapped from PLACE_QC166008_1911 after 2026-08-09 re-chaining]
+PLACE_QC067001,Q2388738,Saint-Marcel,force,sibling-review: replaces wrong sibling Q112912558 [remapped from PLACE_QC170008 after 2026-08-09 re-chaining]
+PLACE_QC080033,Q142320,Saint-Marc-des-Carrières,force,sibling-review: replaces wrong sibling Q112912553 [remapped from PLACE_QC186019_1911 after 2026-08-09 re-chaining]
 PLACE_QC191008,Q3463114,Saint-Paul-de-l'Île-aux-Noix,force,sibling-review: replaces wrong sibling Q112912662
-PLACE_QC192015,Q3462470,Saint-Jacques-de-Leeds,force,sibling-review: replaces wrong sibling Q112912312
+PLACE_QC099010_1911,Q3462470,Saint-Jacques-de-Leeds,force,sibling-review: replaces wrong sibling Q112912312 [remapped from PLACE_QC192015 after 2026-08-09 re-chaining]
 PLACE_QC193003_1881,Q141738,Sainte-Agathe-des-Monts,force,sibling-review: replaces wrong sibling Q112912885
-PLACE_QC196012_1911,Q3463114,Saint-Paul-de-l'Île-aux-Noix,force,sibling-review: replaces wrong sibling Q112912662
+PLACE_QC092007_1911,Q3463114,Saint-Paul-de-l'Île-aux-Noix,force,sibling-review: replaces wrong sibling Q112912662 [remapped from PLACE_QC196012_1911 after 2026-08-09 re-chaining]
 PLACE_QC196013_1901,Q3462013,Saint-Cyprien,force,sibling-review: replaces wrong sibling Q112912034
-PLACE_QC197005,Q3462181,Saint-François-du-Lac,force,sibling-review: replaces wrong sibling Q3462178
-PLACE_QC197009_1881,Q3463478,Saint-Valérien-de-Milton,force,sibling-review: replaces wrong sibling Q3463479
-PLACE_QC201007_1901,Q3462181,Saint-François-du-Lac,force,sibling-review: replaces wrong sibling Q3462178
-PLACE_QC201011_1911,Q3462013,Saint-Cyprien,force,sibling-review: replaces wrong sibling Q112912034
-PLACE_QC201016,Q3462421,Saint-Honoré-de-Témiscouata,force,sibling-review: replaces wrong sibling Q3462423
+PLACE_QC087009,Q3463478,Saint-Valérien-de-Milton,force,sibling-review: replaces wrong sibling Q3463479 [remapped from PLACE_QC197009_1881 after 2026-08-09 re-chaining]
+PLACE_QC095010_1911,Q3462013,Saint-Cyprien,force,sibling-review: replaces wrong sibling Q112912034 [remapped from PLACE_QC201011_1911 after 2026-08-09 re-chaining]
 PLACE_QC202003,Q141738,Sainte-Agathe-des-Monts,force,sibling-review: replaces wrong sibling Q112912885
-PLACE_QC206007,Q3462181,Saint-François-du-Lac,force,sibling-review: replaces wrong sibling Q3462178
+PLACE_NB035011_1911_1921,Q1009713,Shediac,force,unplaced-triage 2026-08-09: verified 1921 match for Shediac T-V; replaces sibling-inherited Q7492307 (parish)
+PLACE_QC048002_1851_1921,Q2720280,L'Isle-aux-Coudres,force,"unplaced-triage 2026-08-09: verified 1921 match, chain was ungrounded"
+PLACE_QC048007_1881_1921,Q112912151,Saint-Fidèle,force,"unplaced-triage 2026-08-09: verified 1921 match, chain was ungrounded"

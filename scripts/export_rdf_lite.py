@@ -83,7 +83,10 @@ _SAFE_LOCAL_RE = re.compile(r"[^A-Za-z0-9_.\-]")
 
 
 def safe_local(neo4j_id: str) -> str:
-    return _SAFE_LOCAL_RE.sub(lambda m: f"%{ord(m.group()):02X}", neo4j_id)
+    # UTF-8 percent-encoding (RFC 3987): é → %C3%A9, — → %E2%80%94.
+    return _SAFE_LOCAL_RE.sub(
+        lambda m: "".join(f"%{byte:02X}" for byte in m.group().encode("utf-8")),
+        neo4j_id)
 
 
 def b(neo4j_id: str) -> str:
@@ -395,11 +398,12 @@ def main():
             # P166 -> E53
             place_meta = uri_by_place.get(pres["place_id"], {})
             place_uri = place_meta.get("uri", "") or f"{BASE}{safe_local(pres['place_id'])}"
-            triple(s, "crm:P166i_was_a_presence_of", f"<{place_uri}>")
-            # P164 -> E4_Period
+            triple(s, "crm:P166_was_a_presence_of", f"<{place_uri}>")
+            # P10 -> E4_Period (spacetime containment; P164's range is E52,
+            # and Lite has no time-span nodes)
             period_id = period_id_by_year.get(year)
             if period_id:
-                triple(s, "crm:P164_is_temporally_specified_by", b(period_id))
+                triple(s, "crm:P10_falls_within", b(period_id))
             # observed_on: inline xsd:date (replaces P4 -> E52_Time-Span)
             triple(s, "base:observed_on", lit(f"{year}-06-01", "xsd:date"))
             # Inline measurement values (the core Lite collapse).
@@ -434,7 +438,7 @@ def main():
             triple(s, "rdfs:label", lang(f"{cd_id} ({year})"))
             period_id = period_id_by_year.get(year)
             if period_id:
-                triple(s, "crm:P164_is_temporally_specified_by", b(period_id))
+                triple(s, "crm:P10_falls_within", b(period_id))
 
         # P122 borders (Lite: no reification — simple edge)
         f.write(f"\n# P122_borders_with (Lite: no E16 reification)\n")

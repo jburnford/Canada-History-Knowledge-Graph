@@ -110,6 +110,7 @@ CD_NS_Cumberland,Cumberland,NS,CD_NS_Cumberland,1921,1871;1881;1891;1901;1911;19
 CD_NS_Digby,Digby,NS,CD_NS_Digby,1921,1871;1881;1891;1901;1911;1921,6
 CD_NS_Guysborough,Guysborough,NS,CD_NS_Guysborough,1921,1871;1881;1891;1901;1911;1921,6
 CD_NS_Halifax_City,Halifax City,NS,CD_NS_Halifax,1921,1881;1891;1901;1911;1921,5
+CD_NS_Halifax_County,Halifax County,NS,CD_NS_Halifax_(County-Comté),1881,1881,1
 CD_NS_Halifax_East,Halifax East,NS,"CD_NS_Halifax,_East",1871,1871,1
 CD_NS_Halifax_West,Halifax West,NS,"CD_NS_Halifax,_West",1871,1871,1
 CD_NS_Hants,Hants,NS,CD_NS_Hants,1921,1871;1881;1891;1901;1911;1921,6
@@ -269,8 +270,7 @@ CD_ON_Peel,Peel,ON,CD_ON_Peel,1921,1851;1861;1871;1881;1891;1901;1911;1921,8
 CD_ON_Perth,Perth,ON,CD_ON_Perth,1861,1851;1861;1921,3
 CD_ON_Perth_North,Perth North,ON,CD_ON_Perth_N,1911,1871;1881;1891;1901;1911,5
 CD_ON_Perth_South,Perth South,ON,CD_ON_Perth_S,1911,1871;1881;1891;1901;1911,5
-CD_ON_Peterboro,Peterboro,ON,CD_ON_Peterboro,1851,1851,1
-CD_ON_Peterborough,Peterborough,ON,CD_ON_Peterborough,1861,1861;1921,2
+CD_ON_Peterborough,Peterborough,ON,CD_ON_Peterborough,1861,1851;1861;1921,3
 CD_ON_Peterborough_East,Peterborough East,ON,CD_ON_Peterborough_E,1911,1871;1881;1891;1901;1911,5
 CD_ON_Peterborough_West,Peterborough West,ON,CD_ON_Peterborough_W-O,1911,1871;1881;1891;1901;1911,5
 CD_ON_Prescott,Prescott,ON,CD_ON_Prescott,1921,1851;1861;1871;1881;1891;1901;1911;1921,8

@@ -46,13 +46,13 @@ QUERIES = [
         "A": SPARQL_PREFIX + """
 SELECT ?presence ?period WHERE {
   ?presence a crm:E93_Presence ;
-            crm:P166i_was_a_presence_of wd:Q115263132 ;
-            crm:P164_is_temporally_specified_by ?period .
+            crm:P166_was_a_presence_of wd:Q115263132 ;
+            crm:P10_falls_within ?period .
 } ORDER BY ?period
 """,
         "B": SPARQL_PREFIX + """
 SELECT ?presence ?date WHERE {
-  ?presence crm:P166i_was_a_presence_of wd:Q115263132 ;
+  ?presence crm:P166_was_a_presence_of wd:Q115263132 ;
             base:observed_on ?date .
 } ORDER BY ?date
 """,
@@ -68,7 +68,7 @@ RETURN pr.presence_id, pr.year ORDER BY pr.year;
         "title": "Westmeath population trajectory 1851-1921 (total + sex split)",
         "A": SPARQL_PREFIX + """
 SELECT ?presence ?val_total WHERE {
-  ?presence crm:P166i_was_a_presence_of wd:Q115263132 .
+  ?presence crm:P166_was_a_presence_of wd:Q115263132 .
   ?meas crm:P39_measured ?presence ;
         crm:P40_observed_dimension ?dim .
   ?dim crm:P90_has_value ?val_total .
@@ -77,7 +77,7 @@ SELECT ?presence ?val_total WHERE {
 """,
         "B": SPARQL_PREFIX + """
 SELECT ?presence ?date ?total ?male ?female WHERE {
-  ?presence crm:P166i_was_a_presence_of wd:Q115263132 ;
+  ?presence crm:P166_was_a_presence_of wd:Q115263132 ;
             base:observed_on ?date ;
             base:pop_total ?total .
   OPTIONAL { ?presence base:pop_total_m ?male . }
@@ -95,7 +95,7 @@ RETURN pr.year, pr.pop_total, pr.pop_total_m, pr.pop_total_f ORDER BY pr.year;
         "title": "CSDs bordering Westmeath in 1871",
         "A": SPARQL_PREFIX + """
 SELECT DISTINCT ?neighbor_presence WHERE {
-  ?westmeath_presence crm:P166i_was_a_presence_of wd:Q115263132 .
+  ?westmeath_presence crm:P166_was_a_presence_of wd:Q115263132 .
   FILTER(CONTAINS(STR(?westmeath_presence), "1871"))
   { ?westmeath_presence crm:P122_borders_with ?neighbor_presence . }
   UNION
@@ -104,7 +104,7 @@ SELECT DISTINCT ?neighbor_presence WHERE {
 """,
         "B": SPARQL_PREFIX + """
 SELECT DISTINCT ?neighbor_presence WHERE {
-  ?westmeath_presence crm:P166i_was_a_presence_of wd:Q115263132 ;
+  ?westmeath_presence crm:P166_was_a_presence_of wd:Q115263132 ;
                       base:observed_on "1871-06-01"^^xsd:date .
   { ?westmeath_presence crm:P122_borders_with ?neighbor_presence . }
   UNION
@@ -123,7 +123,7 @@ RETURN DISTINCT np.name;
         "title": "Westmeath 1911 population density (float / fractional test)",
         "A": SPARQL_PREFIX + """
 SELECT ?val WHERE {
-  ?presence crm:P166i_was_a_presence_of wd:Q115263132 .
+  ?presence crm:P166_was_a_presence_of wd:Q115263132 .
   FILTER(CONTAINS(STR(?presence), "1911"))
   ?meas crm:P39_measured ?presence ;
         crm:P40_observed_dimension ?dim .
@@ -133,7 +133,7 @@ SELECT ?val WHERE {
 """,
         "B": SPARQL_PREFIX + """
 SELECT ?val WHERE {
-  ?presence crm:P166i_was_a_presence_of wd:Q115263132 ;
+  ?presence crm:P166_was_a_presence_of wd:Q115263132 ;
             base:observed_on "1911-06-01"^^xsd:date ;
             base:pop_per_sq_mi ?val .
 }
@@ -174,7 +174,7 @@ RETURN p.name ORDER BY p.name;
         "title": "Null-vs-zero probe: Westmeath 1851 population density",
         "A": SPARQL_PREFIX + """
 SELECT ?val WHERE {
-  ?presence crm:P166i_was_a_presence_of wd:Q115263132 .
+  ?presence crm:P166_was_a_presence_of wd:Q115263132 .
   FILTER(CONTAINS(STR(?presence), "1851"))
   OPTIONAL {
     ?meas crm:P39_measured ?presence ;
@@ -186,7 +186,7 @@ SELECT ?val WHERE {
 """,
         "B": SPARQL_PREFIX + """
 SELECT ?val WHERE {
-  ?presence crm:P166i_was_a_presence_of wd:Q115263132 ;
+  ?presence crm:P166_was_a_presence_of wd:Q115263132 ;
             base:observed_on "1851-06-01"^^xsd:date .
   OPTIONAL { ?presence base:pop_per_sq_mi ?val . }
 }

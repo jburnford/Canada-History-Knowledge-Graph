@@ -33,7 +33,7 @@ HGIS_REPO    := $(shell $(PYTHON) -c 'from scripts._config import CONFIG; print(
 
 # ---- Phony targets ---------------------------------------------------------
 
-.PHONY: all site dcb link link-csds link-cds deploy clean distclean config-check
+.PHONY: all site dcb link link-csds link-cds deploy clean distclean config-check residents
 
 all: rag_site/index.html
 
@@ -54,6 +54,7 @@ link-csds: $(GDB)
 
 link-cds: $(GDB)
 	$(CONDA_RUN) bash scripts/link_cd_all_years.sh
+	$(CONDA_RUN) $(PYTHON) scripts/dump_cd_inventory.py
 
 # ---- Stage 2: Persistent identity registries -------------------------------
 # Reads cd_links_output/ + year_links_output/ (committed); writes the chain
@@ -68,9 +69,18 @@ persistent_places_output/place_chain_bridge_skipped.csv: \
 		year_links_output/SUMMARY_ALL_YEARS.md
 	$(PYTHON) scripts/build_persistent_places.py
 
+# cd_inventory.csv is the GDB-derived (cd_id, year) universe used for
+# singleton chains. It replaced the old augmentation from neo4j_cidoc_crm_v2
+# downstream outputs, which re-ingested chain ids as raw CDs on any rerun.
+# Regenerates only when the dump script changes (needs the geo env + GDB,
+# like the rest of the link stage); the CSV itself is committed.
+cd_links_output/cd_inventory.csv: scripts/dump_cd_inventory.py
+	$(CONDA_RUN) $(PYTHON) scripts/dump_cd_inventory.py
+
 persistent_cds_output/persistent_cd_registry.csv: \
 		scripts/build_persistent_cds.py \
-		cd_links_output/SUMMARY_CD_LINKS.md
+		cd_links_output/SUMMARY_CD_LINKS.md \
+		cd_links_output/cd_inventory.csv
 	$(PYTHON) scripts/build_persistent_cds.py
 
 # Typo-merge post-step: collapses Renfew/Renfrew-style same-year intra-province
@@ -196,6 +206,83 @@ rag_site/index.html: \
 	$(PYTHON) scripts/generate_rag_pages.py --all
 	$(PYTHON) scripts/emit_facts_jsonl.py --out rag_site
 
+# ---- Stage 5b: 1881 Borealis residents pipeline ----------------------------
+#
+# Source: Borealis deposit doi:10.5683/SP3/FXZEVO (TCP/Dillon 1881 Canadian
+# Census, individual-level, 4.28M rows). Renders /residents/ pages under each
+# 1881 CSD presence URL. Single-shot dataset; 1891+ data is paywalled.
+#
+# Off the `make all` critical path so a residents-pipeline failure can't
+# block the main site rebuild. Run explicitly via `make residents`.
+
+.PHONY: residents residents-with-ttl
+
+residents_1881_output/residents_1881_report.json: \
+		scripts/prepare_1881_residents.py \
+		scripts/_config.py \
+		scripts/_fix_mojibake.py \
+		residents_1881_output/unmatched_tcpuid_rescue.csv \
+		persistent_places_output/tcpuid_year_to_place.csv \
+		persistent_places_output/persistent_place_registry.csv
+	$(PYTHON) scripts/prepare_1881_residents.py
+
+# Rescue mapping for Borealis TCPUIDs absent from our 1881 chain registry.
+# Generated from the quarantine parquet (after a first-pass prepare run);
+# subsequent prepare runs apply it as a fallback join. Bootstraps via a
+# guarded `make rescue` target — a fresh distclean creates it from an
+# empty quarantine.
+residents_1881_output/unmatched_tcpuid_rescue.csv: \
+		scripts/rescue_unmatched_1881.py \
+		scripts/_normalize.py \
+		scripts/_fix_mojibake.py
+	@if [ ! -f residents_1881_output/quarantine/unmatched_chain.parquet ]; then \
+		echo "borealis_tcpuid,province,distnam,sdistnam,matched_chain,matched_chain_canonical,match_score,match_method" > $@; \
+	else \
+		$(PYTHON) scripts/rescue_unmatched_1881.py; \
+	fi
+
+residents_1881_output/dbirthpl_qid_xref.csv: \
+		scripts/ground_dbirthpl_wikidata.py \
+		residents_1881_output/residents_1881_report.json
+	$(PYTHON) scripts/ground_dbirthpl_wikidata.py
+
+residents_1881_output/csd_1881_summary.parquet: \
+		scripts/aggregate_1881_residents.py \
+		residents_1881_output/residents_1881_report.json
+	$(PYTHON) scripts/aggregate_1881_residents.py
+
+residents_1881_output/cidoc.stamp: \
+		scripts/build_residents_cidoc.py \
+		residents_1881_output/residents_1881_report.json \
+		residents_1881_output/dbirthpl_qid_xref.csv \
+		persistent_places_output/persistent_place_registry.csv \
+		persistent_places_output/tcpuid_year_to_place.csv
+	$(PYTHON) scripts/build_residents_cidoc.py
+
+# Render output is under rag_site/places/<prov>/<slug>-<tcpuid>-1881/residents/.
+# We touch a stamp file to anchor the dependency. Note: depends on
+# rag_site/index.html so generate_rag_pages.py runs first — that's the step
+# that emits sitemap.xml from scratch, and the residents renderer augments
+# the existing sitemap with overview URLs. Reverse order would lose the
+# residents URLs every rebuild.
+rag_site/.residents_1881_stamp: \
+		scripts/render_1881_residents_pages.py \
+		scripts/_fix_mojibake.py \
+		residents_1881_output/cidoc.stamp \
+		residents_1881_output/csd_1881_summary.parquet \
+		residents_1881_output/dbirthpl_qid_xref.csv \
+		rag_site/index.html
+	$(PYTHON) scripts/render_1881_residents_pages.py
+	@touch $@
+
+residents: rag_site/.residents_1881_stamp
+
+# Opt-in variant: also emit per-CSD residents.ttl sidecars for LOD harvesters.
+# Adds ~500 MB to rag_site/. Only enable once GH Pages headroom confirmed.
+residents-with-ttl:
+	$(PYTHON) scripts/render_1881_residents_pages.py --with-ttl
+	@touch rag_site/.residents_1881_stamp
+
 # ---- Deploy -----------------------------------------------------------------
 
 deploy: rag_site/index.html
@@ -226,3 +313,4 @@ distclean: clean
 	rm -rf persistent_cds_output/ persistent_places_output/
 	rm -f data/lincs_dcb_persons.json data/lincs_dcb_links.csv
 	rm -rf data_quality/
+	rm -rf residents_1881_output/

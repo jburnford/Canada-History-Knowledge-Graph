@@ -58,6 +58,8 @@ pilot/on_kuzu/*.kuzu
 neo4j_census_v2.bak/
 # Excel-vs-GDB diff sidecars
 data_quality/
+# 1881 TCP residents pipeline output (Borealis deposit derived)
+residents_1881_output/
 # Old generation paths
 generated/
 neo4j_census_test/

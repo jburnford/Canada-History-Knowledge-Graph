@@ -1,0 +1,2573 @@
+tcpuid_from,year_from,name_from,tcpuid_to,year_to,name_to,province,iou,name_similarity
+ON003003,1851,Bruce,ON066005,1861,Pence,ON,1.0,58.0
+ON008004,1851,Gosfield,ON071004,1861,Golded,ON,1.0,70.0
+ON015009,1851,Grimsthorpe,ON078004,1861,Hungerford,ON,1.0,56.67
+ON019007,1851,Elmsley N,ON082007,1861,Elinsley,ON,0.9862,79.41
+ON030003,1851,Dummer & Burleigh,ON093005,1861,Dummer,ON,1.0,62.24
+ON006007,1851,Port Hope,ON069009,1861,"Port Hope, Town of",ON,1.0,76.67
+ON007008,1851,"St. Thomas, Village",ON070007,1861,"St. Thomas, Town of",ON,1.0,74.21
+ON008010,1851,Tilbury W-O,ON071012,1861,"Tilbury,West",ON,1.0,78.7
+ON009003,1851,Hinchinbrook,ON072003,1861,Han,ON,1.0,48.67
+ON015007,1851,Thurlow,ON078011,1861,Thurlow and Belleville Seminar,ON,1.0,56.49
+ON016014,1851,Stanley,ON079014,1861,Stanley and Bayfield,ON,1.0,66.3
+ON017002,1851,Chatham,ON080003,1861,Chatham and Gore,ON,1.0,72.61
+ON017003,1851,Dover East & Dover West,ON080004,1861,Dover,ON,1.0,55.0
+ON021002,1851,Fredericksburg,ON084007,1861,Frederichsburgh,ON,1.0,76.6
+ON001004,1851,Shefford,ON084011,1861,Sheffield,ON,1.0,68.03
+ON025006,1851,Woodhouse,ON087008,1861,Woodhouse and Gore,ON,1.0,76.67
+ON026008,1851,Scugog,ON089008,1861,Scugog Island,ON,1.0,74.21
+ON027002,1851,Zorra W-O,ON090014,1861,"Zorra, West",ON,0.9898,79.0
+ON027012,1851,"Ingersol, Town",ON090005,1861,"Ingersoll, Village",ON,1.0,73.75
+ON030005,1851,Monaghan,ON093010,1861,"Monaghan, North",ON,1.0,74.41
+ON047003,1851,"London, St. Andrew’s Ward",ON110005,1861,Ward No. 5,ON,1.0,46.0
+ON047004,1851,"London, St. David’s Ward",ON110006,1861,Ward No. 6,ON,1.0,46.47
+ON038006,1851,Galt,ON101003,1861,"Galt, Town of",ON,1.0,62.94
+ON040009,1851,Chippewa,ON102002,1861,"Chippawa, Village",ON,1.0,69.2
+ON036001,1851,Cornwall,ON099002,1861,"Cornwall, Township",ON,1.0,73.08
+ON045001,1851,"Kingston, Sydenham Ward",ON109006,1861,Sydenham Ward,ON,1.0,72.37
+ON045002,1851,"Kingston, Rideau Ward",ON109004,1861,Rideau Ward,ON,0.9993,69.94
+ON045004,1851,"Kingston, Cataraqui Ward",ON109001,1861,Cataraqui Ward,ON,1.0,73.4
+ON045006,1851,"Kingston, St. Lawrence Ward",ON109005,1861,St. Lawrence Ward,ON,1.0,75.91
+ON026011,1851,Oshawa,ON089003,1861,"Oshawa, Village",ON,1.0,70.0
+QC080013,1851,Chatham,QC002002,1861,Chatham,QC,1.0,77.83
+QC080017,1851,Gore,QC002005,1861,Gore,QC,1.0,77.83
+QC080015,1851,Grenville,QC002004,1861,Grenville,QC,1.0,77.83
+QC055002,1851,"Acton, Township",QC004001,1861,Acton,QC,1.0,39.62
+QC078010,1851,Ste. Rosalie,QC004007,1861,Ste. Rosalie,QC,1.0,76.67
+QC054012,1851,St. Elzéar,QC005012,1861,St. Elzéar,QC,1.0,77.5
+QC054016,1851,St. François,QC005014,1861,St. François,QC,1.0,77.5
+QC054015,1851,St. Frédéric,QC005013,1861,St. Frédéric,QC,1.0,77.5
+QC054017,1851,St. George,QC005015,1861,St. Georges,QC,1.0,74.17
+QC054014,1851,St. Joseph la Beauce,QC005016,1861,St. Joseph,QC,1.0,54.17
+QC054013,1851,Ste. Marie,QC005017,1861,Ste. Marie de la Beauce,QC,0.9811,49.92
+QC048005,1851,"Beauharnois, Village",QC006001,1861,Beauharnois,QC,1.0,79.68
+QC051008,1851,Nouvelle,QC009010,1861,Nouvelle and Shoolbreds,QC,1.0,66.13
+QC051001,1851,Port Daniel,QC009003,1861,Daniel (Port),QC,1.0,65.0
+QC077004,1851,Bolton,QC010001,1861,Bolton,QC,1.0,74.29
+QC075008,1851,Brome,QC010002,1861,Brome,QC,1.0,74.62
+QC077005,1851,Potton,QC010004,1861,Potton,QC,1.0,74.29
+QC063001,1851,Sutton,QC010005,1861,Sutton,QC,1.0,74.0
+QC053001,1851,Ste. Anne Lapérade,QC012005,1861,Ste. Anne,QC,1.0,76.67
+QC053002,1851,"St. François X., Batiscan",QC012001,1861,Batiscan,QC,1.0,63.94
+QC074001,1851,Baie St. Paul,QC013001,1861,Baie St. Paul,QC,1.0,76.67
+QC074004,1851,Isles aux Coudres,QC013005,1861,Isle-aux-Coudres,QC,1.0,66.06
+QC074005,1851,Eboulements,QC013004,1861,Eboulements,QC,1.0,76.67
+QC074009,1851,Malbaie,QC013009,1861,St. Etienne (Murray Bay),QC,1.0,24.73
+QC074003,1851,Petite Rivière,QC013006,1861,Petite Rivière St. François-Xavier,QC,1.0,47.5
+QC074010,1851,St. Fidèle,QC013010,1861,St. Fidèle,QC,1.0,76.67
+QC074007,1851,"Settrington, Township",QC013008,1861,Settrington,QC,1.0,54.79
+QC074006,1851,St. Irénée,QC013011,1861,St. Irénée,QC,1.0,76.67
+QC074011,1851,"Callières, Township",QC013002,1861,Callières,QC,1.0,51.67
+QC074002,1851,St. Urbain,QC013012,1861,St. Urbain,QC,1.0,76.67
+QC057007,1851,Chateauguay,QC014003,1861,St. Joachim de Chateauguay,QC,1.0,50.19
+QC057006,1851,Ste. Philomène,QC014006,1861,Ste. Philomène,QC,1.0,78.57
+QC048008,1851,St. Urbain,QC014007,1861,St. Urbain Premier,QC,1.0,60.91
+QC074024,1851,"Jonquière, Township",QC015008,1861,Jonquière,QC,1.0,48.33
+QC076010,1851,Bury,QC016001,1861,Bury,QC,1.0,77.06
+QC076002,1851,Clifton,QC016002,1861,Clifton,QC,1.0,77.06
+QC076004,1851,Compton,QC016003,1861,Compton,QC,1.0,77.06
+QC076008,1851,Eaton,QC016004,1861,Eaton,QC,1.0,77.06
+QC076001,1851,Hereford,QC016006,1861,Hereford,QC,1.0,77.06
+QC076011,1851,Lingwick,QC016007,1861,Lingwick,QC,1.0,77.06
+QC076018,1851,Westbury,QC016010,1861,Westbury,QC,1.0,77.06
+QC076020,1851,Winslow,QC016011,1861,Winslow,QC,1.0,77.06
+QC080006,1851,Mission du Lac,QC056001,1861,Lake of Two Mountains,QC,1.0,46.0
+QC055004,1851,"Durham, Township",QC018001,1861,Durham,QC,1.0,68.18
+QC055005,1851,"Grantham, Township",QC018002,1861,Grantham,QC,1.0,73.08
+QC055013,1851,"Horton, Township",QC003008,1861,Horton,QC,1.0,41.52
+QC055014,1851,"Bulstrode, Township",QC003005,1861,Bulstrode,QC,1.0,48.33
+QC055011,1851,"Stanfold, Township",QC003010,1861,Stanfold,QC,1.0,46.41
+QC055009,1851,"Tingwick, Township",QC003011,1861,Tingwick,QC,1.0,46.41
+QC055008,1851,"Simpson, Township",QC018004,1861,Simpson,QC,1.0,70.83
+QC055010,1851,"Wickham, Township",QC018007,1861,Wickham,QC,1.0,70.83
+QC055003,1851,"Warwick, Township",QC003012,1861,Warwick,QC,1.0,44.17
+QC056005,1851,"Douglass, Township",QC019003,1861,Douglas,QC,1.0,69.2
+QC056009,1851,"Fox, Township",QC019004,1861,Fox,QC,1.0,56.25
+QC056004,1851,"Malbay, Township",QC019009,1861,Malbaie,QC,1.0,66.52
+QC056003,1851,"Percé, Township",QC019013,1861,Percé,QC,1.0,65.0
+QC065011,1851,Montréal,QC020002,1861,"Montréal, Parish",QC,1.0,53.73
+QC048003,1851,"Elgin, Township",QC021001,1861,Elgin,QC,1.0,43.57
+QC048009,1851,"Godmanchester, Township",QC021005,1861,"Huntingdon, Village, and Godmanchester",QC,0.9857,38.41
+QC048001,1851,St. Anicet,QC021006,1861,St. Anicet,QC,1.0,78.57
+QC065012,1851,St. Michel,QC024001,1861,"Lachine, Parish",QC,1.0,22.02
+QC065007,1851,Ste. Anne,QC024004,1861,Ste. Anne,QC,1.0,75.22
+QC065006,1851,Ste. Geneviève,QC024005,1861,"Ste. Geneviève, Parish",QC,0.9801,59.66
+QC065008,1851,St. Joachim,QC024003,1861,La Pointe Claire,QC,1.0,25.96
+QC065005,1851,St. Laurent,QC024007,1861,St. Laurent,QC,1.0,75.22
+QC080007,1851,St. Raphaël,QC024008,1861,St. Raphaël and Isle Bizard,QC,1.0,46.95
+QC050015,1851,St. Alphonse,QC025001,1861,Cathcart,QC,1.0,25.25
+QC050016,1851,Daillebout,QC025012,1861,Ste. Mélanie,QC,1.0,30.34
+QC057008,1851,Sault St. Louis,QC027007,1861,Sault St. Louis,QC,1.0,73.16
+QC057003,1851,St. Constant,QC027003,1861,St. Constant,QC,1.0,73.16
+QC057005,1851,St. Isidore,QC027004,1861,St. Isidore,QC,1.0,73.16
+QC057009,1851,St. Jacques,QC027005,1861,St. Jacques le Mineur,QC,1.0,51.28
+QC057004,1851,St. Philippe,QC027006,1861,St. Philippe,QC,1.0,73.16
+QC057002,1851,"Laprairie, Village",QC027001,1861,"Laprairie, Village",QC,1.0,73.16
+QC057011,1851,St. Cyprien,QC037001,1861,St. Cyprien and Convent,QC,1.0,51.01
+QC057014,1851,Sherrington,QC037005,1861,Sherrington,QC,1.0,75.71
+QC059003,1851,St. Sulpice,QC001011,1861,St. Sulpice,QC,1.0,79.0
+QC065002,1851,Enfant Jésus,QC020005,1861,Pointe aux Trembles,QC,1.0,29.64
+QC065003,1851,St. Joseph,QC020006,1861,Rivière des Prairies,QC,1.0,21.06
+QC079010,1851,St. François de Sales,QC028001,1861,St. François de Sales,QC,1.0,70.0
+QC079012,1851,Ste. Rose,QC028003,1861,"Ste. Rose, Parish and Village",QC,1.0,33.16
+QC079011,1851,St. Vincent de Paul,QC028004,1861,St. Vincent de Paul,QC,0.9981,70.0
+QC065001,1851,St. François,QC020001,1861,Longue Pointe,QC,1.0,23.86
+QC065004,1851,Sault aux Récollets,QC020007,1861,Sault au Récollet,QC,1.0,73.17
+QC054005,1851,St. Henri,QC029004,1861,St. Henri,QC,1.0,74.0
+QC054001,1851,"St. Joseph, Pointe Lévi",QC029002,1861,St. Joseph de la Pointe Lévis and Convent,QC,1.0,52.12
+QC061006,1851,Ste. Croix,QC030005,1861,Ste. Croix and Convent,QC,1.0,70.75
+QC061007,1851,"St. Louis, Lotbinière",QC030001,1861,Lotbinière,QC,1.0,72.16
+QC072005,1851,"St. George, Manoir de Caldwell",QC033007,1861,St. George de Clarenceville,QC,1.0,53.33
+QC072008,1851,St. Thomas de Foucault,QC033009,1861,St. Thomas,QC,1.0,50.42
+QC059010,1851,St. Alexis,QC034005,1861,St. Alexis,QC,1.0,77.5
+QC059012,1851,Kilkenny,QC034003,1861,Kilkenny,QC,1.0,77.5
+QC059008,1851,St. Esprit,QC034006,1861,St. Esprit,QC,1.0,77.5
+QC059013,1851,Ste. Julienne,QC034008,1861,Ste. Julienne,QC,1.0,77.5
+QC059015,1851,Chertsey,QC034001,1861,Chertsey,QC,1.0,77.5
+QC049002,1851,Berthier,QC035001,1861,Berthier,QC,1.0,73.0
+QC049001,1851,St. François & St. Pierre,QC035009,1861,St. François,QC,1.0,48.41
+QC060002,1851,St. Thomas,QC035012,1861,St. Thomas,QC,1.0,73.75
+QC060001,1851,"Montmagny, Village",QC035007,1861,"Montmagny, Village",QC,1.0,73.75
+QC066008,1851,Nicolet,QC038004,1861,Nicolet and Seminary,QC,1.0,66.3
+QC055001,1851,"Aston, Township",QC003003,1861,Aston,QC,1.0,38.33
+QC067005,1851,Calumet,QC040007,1861,Isle du Calumet,QC,1.0,55.8
+QC070004,1851,"St. Pierre, Sorel",QC043007,1861,Sorel Parish,QC,1.0,54.14
+QC076017,1851,Dudswell,QC059001,1861,Dudswell,QC,1.0,78.0
+QC076021,1851,Stratford,QC059006,1861,Stratford,QC,1.0,78.0
+QC062006,1851,Wolfstown,QC059009,1861,Wolfestown,QC,1.0,70.93
+QC076012,1851,Weedon,QC059007,1861,Weedon,QC,1.0,78.0
+QC076016,1851,Windsor,QC044008,1861,Windsor,QC,1.0,76.67
+QC070008,1851,St. Barnabé,QC050002,1861,St. Barnabé,QC,1.0,78.18
+QC070007,1851,St. Denis,QC050005,1861,St. Denis and Convent,QC,1.0,50.18
+QC057013,1851,"St. Bernard, Lacolle",QC051002,1861,Lacolle,QC,1.0,45.77
+QC052014,1851,"St. John, Parish",QC051003,1861,"St. Jean, Parish",QC,1.0,65.0
+QC072001,1851,Christieville,QC022001,1861,Iberville,QC,1.0,65.72
+QC052013,1851,"St. John, Village",QC051004,1861,"St. Johns, Town of",QC,1.0,43.75
+QC076005,1851,Orford & Sherbrooke in Orford,QC064002,1861,Orford,QC,0.9915,45.43
+QC081009,1851,St. Clet,QC049003,1861,St. Clet,QC,1.0,76.67
+QC081007,1851,St. Ignace,QC049004,1861,St. Ignace,QC,1.0,76.67
+QC081008,1851,St. Joseph,QC049005,1861,St. Joseph and Convent,QC,0.9972,50.42
+QC081010,1851,St. Zotique,QC049008,1861,St. Zotique,QC,0.9875,76.67
+QC071004,1851,St. George de Kacouna,QC054009,1861,St. George de Kakouna,QC,1.0,76.14
+QC071010,1851,Isle Verte,QC054004,1861,Isle Verte,QC,1.0,79.47
+QC071009,1851,St. Eloi,QC054008,1861,St. Eloi,QC,1.0,79.47
+QC079007,1851,Lacorne,QC055008,1861,Ste. Sophie,QC,1.0,45.56
+QC073002,1851,Shawanegan,QC052003,1861,St. Boniface,QC,1.0,49.09
+QC081002,1851,Vaudreuil,QC057006,1861,"Vaudreuil, Parish",QC,1.0,78.46
+QC067001,1851,"Aylmer, Town",QC039003,1861,"Aylmer, Village",QC,1.0,71.48
+QC059005,1851,Lachenaie,QC001005,1861,Lachenaie,QC,1.0,79.0
+QC070003,1851,William Henry,QC043008,1861,"Sorel, Town, College and Convent",QC,1.0,51.78
+QC079002,1851,"Ste. Thérèse, Village",QC055010,1861,"Ste. Thérèse de Blainville, Village and College",QC,1.0,73.24
+QC079013,1851,St. Martin,QC028002,1861,St. Martin,QC,1.0,70.0
+QC074016,1851,Petit Saguenay & St. Jean,QC015018,1861,St. Jean,QC,1.0,37.27
+QC055018,1851,"Kingsey, Township",QC018003,1861,Kingsey,QC,1.0,70.83
+QC071002,1851,Fraserville,QC054003,1861,Fraserville,QC,1.0,79.47
+QC050004,1851,Berthier,QC008001,1861,"Berthier, Parish",QC,0.9862,76.67
+QC065009,1851,"Lachine, Village",QC024002,1861,"Lachine, Village",QC,1.0,75.22
+QC067008,1851,Derry,QC039015,1861,"Derry, East and West",QC,1.0,58.0
+QC054002,1851,Notre Dame de la Victoire,QC029001,1861,Notre Dame de la Victoire,QC,1.0,74.0
+QC080014,1851,Wentworth,QC002012,1861,Wentworth,QC,1.0,77.83
+QC080016,1851,Harrington,QC002006,1861,Harrington,QC,1.0,77.83
+QC054020,1851,Jersey,QC005006,1861,Jersey,QC,1.0,77.5
+QC054021,1851,Linière,QC005008,1861,Linière,QC,1.0,77.5
+QC074018,1851,"Harvey, Township",QC015007,1861,Harvey,QC,1.0,41.52
+QC074020,1851,"Tremblay, Township",QC015022,1861,Tremblay,QC,1.0,46.41
+QC074019,1851,"Simard, Township",QC015016,1861,Simard,QC,1.0,41.52
+QC074025,1851,"Kinogomi, Township",QC015009,1861,Kinogami,QC,1.0,41.03
+QC074026,1851,"Labarre, Township",QC015010,1861,Labarre,QC,1.0,44.17
+QC074027,1851,"Métabetchouan, Township",QC015013,1861,Metabetchouan,QC,1.0,50.0
+QC055007,1851,"Wendover, Township",QC018006,1861,Wendover,QC,1.0,73.08
+QC058009,1851,"Woodbridge, Township",QC026013,1861,Woodbridge,QC,0.9888,76.67
+QC058002,1851,"Ixworth, Township",QC026001,1861,Ixworth,QC,1.0,70.83
+QC059016,1851,Wexford,QC034010,1861,Wexford,QC,1.0,77.5
+QC060014,1851,Grosse Ile,QC035002,1861,Grosse Isle,QC,1.0,70.42
+QC060012,1851,Ile aux Oies,QC035004,1861,Isle aux Oies,QC,1.0,70.95
+QC060008,1851,Cap St. Ignace,QC035010,1861,St. Ignace,QC,1.0,62.08
+QC076019,1851,Garthby,QC059002,1861,Garthby,QC,1.0,78.0
+QC060011,1851,Ile aux Grues,QC035003,1861,Isle aux Grues,QC,1.0,71.16
+QC067017,1851,Oldfield,QC040002,1861,Aldfield,QC,1.0,72.5
+QC065999,1851,NO DATA,QC020999,1861,NO DATA,QC,1.0,77.06
+ON065003,1861,Burford,ON015001,1871,Burford,ON,1.0,77.89
+ON065004,1861,"Dumfries, South",ON016001,1871,"Dumfries, S",ON,0.9862,67.34
+ON065008,1861,Tuscarora,ON015005,1871,Tuscarora,ON,1.0,78.11
+ON065005,1861,Oakland,ON015002,1871,Oakland,ON,1.0,77.89
+ON065001,1861,"Brantford, Town of",ON015004,1871,"Brantford, Town—Ville",ON,1.0,61.74
+ON083007,1861,Elizabethtown,ON068004,1871,Elizabethtown,ON,0.997,78.0
+ON066005,1861,Pence,ON028001,1871,Bruce,ON,1.0,41.64
+ON066011,1861,Kincaraio,ON027005,1871,Kincardine,ON,1.0,65.86
+ON066009,1861,Grenock,ON027007,1871,Greenock,ON,1.0,79.62
+ON066013,1861,Kinlas,ON027002,1871,Kinloss,ON,1.0,68.13
+ON098010,1861,Mono,ON040003,1871,Mono,ON,0.9903,78.57
+ON098012,1861,Mulmer,ON041004,1871,Mulmur,ON,1.0,73.99
+ON069001,1861,Bowmanville,ON050002,1871,"Bowmanville, Town—Ville",ON,1.0,60.29
+ON069009,1861,"Port Hope, Town of",ON051002,1871,"Port Hope, Town—Ville",ON,1.0,70.21
+ON069008,1861,Newcastle,ON050005,1871,"Newcastle, Village",ON,1.0,61.67
+ON070003,1861,Dorchester,ON006004,1871,"Dorchester, S",ON,1.0,75.87
+ON070001,1861,Aldborough,ON005001,1871,Aidborough,ON,1.0,76.64
+ON070007,1861,"St. Thomas, Town of",ON006002,1871,"Saint Thomas, Town—Ville",ON,1.0,63.84
+ON071004,1861,Golded,ON001005,1871,Gosfield,ON,1.0,70.0
+ON071999,1861,NO DATA,ON001007,1871,Pelée,ON,1.0,30.0
+ON072003,1861,Han,ON064008,1871,Hinchinbrooke,ON,1.0,27.5
+ON072004,1861,Kennebec,ON064007,1871,Kenebec,ON,1.0,75.33
+ON072005,1861,Kingston,ON065001,1871,"Kingston, Township",ON,0.9896,73.08
+ON072011,1861,Pittsburgh,ON065005,1871,"Pittsburg, Howe Island",ON,0.9902,73.75
+ON074003,1861,"Gower, South",ON070007,1871,"Gower, S",ON,1.0,70.21
+ON074007,1861,"Present, town of",ON069002,1871,"Prescott, Town—Ville",ON,1.0,61.4
+ON074005,1861,"Mernakville, Village",ON070004,1871,"Merrickville, Village",ON,1.0,75.67
+ON075013,1861,"Owen Sound, Town of",ON037007,1871,"Owen Sound, Town—Ville",ON,1.0,66.63
+ON076001,1861,Canboro,ON018003,1871,Canborough,ON,1.0,66.22
+ON076006,1861,Moulton and Sherbrooke,ON018001,1871,"Moulton, Sherbrooke",ON,1.0,70.03
+ON076005,1861,"Dunnville, Village",ON018002,1871,"Dunnville, Village",ON,1.0,78.57
+ON108002,1861,St. Georges’ Ward,ON024001,1871,"Hamilton, St. George’s Ward—Quartier",ON,1.0,72.26
+ON078002,1861,Elzevir,ON062006,1871,"Elzevir, Grimsthorpe",ON,1.0,53.44
+ON078006,1861,Mador,ON062005,1871,Madoc,ON,0.9869,73.14
+ON078011,1861,Thurlow and Belleville Seminar,ON061001,1871,Thurlow,ON,1.0,44.95
+ON078010,1861,Sydney,ON060001,1871,Sidney,ON,1.0,75.48
+ON078001,1861,"Belleville, Town of",ON060003,1871,"Belleville, Town—Ville",ON,1.0,71.78
+ON079017,1861,Turnbury,ON026011,1871,Turnberry,ON,1.0,71.28
+ON079014,1861,Stanley and Bayfield,ON025004,1871,Stanley,ON,1.0,50.58
+ON079004,1861,Colborno,ON026001,1871,Colborne,ON,1.0,74.89
+ON079006,1861,"Goderich, Town of",ON025007,1871,"Goderich, Town—Ville",ON,1.0,67.26
+ON080006,1861,Howard,ON003001,1871,Howard,ON,1.0,75.0
+ON080007,1861,Orford,ON003002,1871,Orford,ON,1.0,75.0
+ON080004,1861,Dover,ON002005,1871,Dover,ON,1.0,76.67
+ON080005,1861,Harwich,ON002004,1871,Harwich,ON,1.0,76.67
+ON080008,1861,Raleigh,ON002003,1871,Raleigh,ON,1.0,76.67
+ON080009,1861,Romney,ON002001,1871,Romney,ON,1.0,76.67
+ON080010,1861,Tilbury East,ON002002,1871,"Tilbury, E",ON,1.0,63.94
+ON080002,1861,"Chatham, Town of",ON002007,1871,"Chatham, Town—Ville",ON,1.0,58.67
+ON109002,1861,Frontenac Ward,ON066003,1871,"Kingston, Frontenac Ward—Quartier",ON,1.0,71.7
+ON082007,1861,Elinsley,ON079003,1871,"Elmsley, N",ON,1.0,62.32
+ON082015,1861,"Sherbrooke, South",ON079005,1871,"Sherbrooke, S",ON,1.0,76.32
+ON082012,1861,"Perth, Town of",ON079008,1871,"Perth, Town—Ville",ON,1.0,65.33
+ON083004,1861,"Crosby, North",ON067008,1871,"Crosby, N",ON,1.0,71.56
+ON083005,1861,"Crosby, South",ON067007,1871,"Crosby, S",ON,1.0,71.56
+ON083006,1861,Elmsley,ON070002,1871,Elmsley,ON,1.0,78.82
+ON084004,1861,Camden,ON064001,1871,"Camden, E",ON,0.9935,74.62
+ON085007,1861,Niagara,ON020001,1871,"Niagara, Township",ON,1.0,45.12
+ON086004,1861,"Dorchester, North",ON009002,1871,"Dorchester, N",ON,1.0,79.95
+ON086007,1861,London,ON009003,1871,"London, Township",ON,1.0,57.47
+ON086010,1861,Nissouri,ON009004,1871,"Nissouri, W-O",ON,1.0,72.62
+ON079002,1861,Biddulph,ON008006,1871,Biddulph,ON,1.0,74.62
+ON079011,1861,McGillivray,ON008005,1871,McGillivray,ON,1.0,74.62
+ON086012,1861,"Williams, East",ON008002,1871,"Williams, W-O",ON,1.0,69.85
+ON086013,1861,"Williams, West",ON008003,1871,"Williams, E",ON,1.0,79.6
+ON087008,1861,Woodhouse and Gore,ON011004,1871,Woodhouse,ON,1.0,63.47
+ON087004,1861,"Simcoe, Town of",ON012004,1871,"Simcoe, Town—Ville",ON,1.0,67.06
+ON089009,1861,Thora,ON049006,1871,Thorah,ON,1.0,79.79
+ON089008,1861,Scugog Island,ON049003,1871,Scugog,ON,1.0,60.36
+ON089012,1861,"Whitby, West",ON048002,1871,"Whitby, W-O",ON,1.0,71.58
+ON111001,1861,By Ward,ON077004,1871,"Ottawa, By Ward—Quartier",ON,1.0,47.27
+ON111003,1861,St. Georges’ Ward,ON077003,1871,"Ottawa, St. George’s Ward—Quartier",ON,1.0,59.57
+ON111004,1861,Victoria Ward,ON077002,1871,"Ottawa, Victoria Ward—Quartier",ON,1.0,57.98
+ON090006,1861,"Nissouri, East",ON014001,1871,"Nissouri, E",ON,1.0,76.6
+ON090013,1861,"Zorra, East",ON014004,1871,"Zorra, E",ON,1.0,73.95
+ON090014,1861,"Zorra, West",ON014002,1871,"Zorra, W-O",ON,1.0,68.33
+ON090012,1861,"Woodstock, Town of",ON014005,1871,"Woodstock, Town—Ville",ON,1.0,68.85
+ON090007,1861,"Norwich, North",ON013003,1871,"Norwich, N",ON,1.0,73.99
+ON090008,1861,"Norwich, South",ON013002,1871,"Norwich, S",ON,1.0,73.99
+ON090010,1861,"Oxford, East",ON013004,1871,"Oxford, E",ON,1.0,75.65
+ON090009,1861,"Oxford, North",ON013007,1871,"Oxford, N",ON,0.9889,72.92
+ON090011,1861,"Oxford, West",ON013005,1871,"Oxford, W-O",ON,0.9896,70.43
+ON091006,1861,Toronto,ON039001,1871,"Toronto, Township",ON,1.0,70.83
+ON091002,1861,"Brampton, Town of",ON039005,1871,"Brampton, Village",ON,1.0,71.18
+ON092003,1861,"Easthope, North",ON030004,1871,"Easthope, N",ON,1.0,72.87
+ON092013,1861,"Stratford, Town of",ON030003,1871,"Stratford, Town—Ville",ON,1.0,67.48
+ON092004,1861,"Easthope, South",ON029007,1871,"Easthope, S",ON,1.0,73.52
+ON092007,1861,Pullarton,ON029004,1871,Fullarton,ON,1.0,76.51
+ON093007,1861,Galway,ON058002,1871,"Galway, Cavendish",ON,1.0,57.7
+ON093006,1861,Ennismore,ON056005,1871,Enmsmore,ON,1.0,77.65
+ON093010,1861,"Monaghan, North",ON056002,1871,"Monaghan, N",ON,1.0,79.23
+ON088009,1861,"Monaghan, South",ON056001,1871,"Monaghan, S",ON,1.0,67.13
+ON096002,1861,Alice,ON082009,1871,"Alice, Fraser",ON,1.0,55.04
+ON096008,1861,"Brudenoll, Raglan and Radcliffe",ON081007,1871,"Brudenell, Raglan, Radcliffe, Lyndoch",ON,1.0,70.33
+ON096004,1861,Arnprior,ON081002,1871,"Arnprior, Village",ON,1.0,61.6
+ON067002,1861,Gloucester,ON076005,1871,Gloucester,ON,0.9966,78.0
+ON067009,1861,Osgoode,ON076007,1871,Osgoode,ON,1.0,78.0
+ON098014,1861,Orillia and Matchedash,ON042011,1871,"Orillia, Matchedash",ON,0.9934,76.46
+ON098004,1861,"Collingwood, Town of",ON042002,1871,"Collingwood, Town—Ville",ON,1.0,70.35
+ON071013,1861,"Winder, Town of",ON001011,1871,"Windsor, Town—Ville",ON,1.0,75.29
+ON110007,1861,Ward No. 7,ON010007,1871,"London, Ward—Quartier No. 7",ON,1.0,67.84
+ON110001,1861,Ward No. 1,ON010001,1871,"London, Ward—Quartier No. 1",ON,1.0,67.84
+ON110005,1861,Ward No. 5,ON010005,1871,"London, Ward—Quartier No. 5",ON,1.0,67.84
+ON110003,1861,Ward No. 3,ON010003,1871,"London, Ward—Quartier No. 3",ON,1.0,67.84
+ON110006,1861,Ward No. 6,ON010006,1871,"London, Ward—Quartier No. 6",ON,1.0,67.84
+ON110002,1861,Ward No. 2,ON010002,1871,"London, Ward—Quartier No. 2",ON,1.0,67.84
+ON110004,1861,Ward No. 4,ON010004,1871,"London, Ward—Quartier No. 4",ON,1.0,67.84
+ON101008,1861,"Waterloo, North",ON032003,1871,"Waterloo, N",ON,1.0,76.37
+ON101001,1861,"Berlin, Village",ON032004,1871,"Berlin, Town—Ville",ON,1.0,72.29
+ON101002,1861,"Dumfries, North",ON031003,1871,"Dumfries, N",ON,1.0,77.01
+ON101009,1861,"Waterloo, South",ON031005,1871,"Waterloo, S",ON,1.0,77.01
+ON101003,1861,"Galt, Town of",ON031004,1871,"Galt, Town—Ville",ON,1.0,66.05
+ON104006,1861,"Flamboro, East",ON023004,1871,Flamborough East,ON,1.0,78.67
+ON104007,1861,"Flamboro, West",ON023002,1871,"Flamborough, W-O",ON,1.0,69.33
+ON108005,1861,St. Patricks’ Ward,ON024005,1871,"Hamilton, St. Patrick’s Ward—Quartier",ON,1.0,73.27
+ON108003,1861,St. Lawrence Ward,ON024004,1871,"Hamilton, St. Lawrence Ward—Quartier",ON,1.0,74.91
+ON108004,1861,St. Mary’s Ward,ON024002,1871,"Hamilton, St. Mary's Ward—Quartier",ON,1.0,70.0
+ON102007,1861,Pelham,ON018006,1871,Pelham,ON,1.0,75.0
+ON102011,1861,Wainfleet.,ON018007,1871,Wainfleet,ON,1.0,71.32
+ON065006,1861,Onondag,ON016004,1871,Onondaga,ON,1.0,73.44
+ON103009,1861,"Guelph, Town of",ON033003,1871,"Guelph, Town—Ville",ON,1.0,70.26
+ON098002,1861,"Barrie, Town of",ON042005,1871,"Barrie, Town—Ville",ON,1.0,65.91
+ON112005,1861,St. Johns’ Ward,ON046004,1871,"Toronto, St. John’s Ward—Quartier",ON,1.0,56.99
+ON100011,1861,"Lindsay, Town of",ON052003,1871,"Lindsay, Town—Ville",ON,1.0,69.78
+ON105004,1861,"Gwillimhury, North",ON043007,1871,"Gwillimbury, N",ON,1.0,68.88
+ON083009,1861,Kitley,ON070001,1871,Kitley,ON,1.0,78.82
+ON098007,1861,"Gwillimbury, west",ON041002,1871,"Gwillimbury, W-O",ON,1.0,75.05
+ON112006,1861,St. Lawrence Ward,ON047001,1871,"Toronto, St. Lawrence Ward—Quartier",ON,1.0,63.27
+ON112003,1861,St. Georges’ Ward,ON046001,1871,"Toronto, St. George’s Ward—Quartier",ON,1.0,59.23
+ON112001,1861,St. Andrews’ Ward,ON046002,1871,"Toronto, St. Andrew’s Ward—Quartier",ON,1.0,59.23
+ON112004,1861,St. James’ Ward,ON047002,1871,"Toronto, St. James' Ward—Quartier",ON,1.0,58.33
+ON112002,1861,St. Davids’ Ward,ON047003,1871,"Toronto, St. David’s Ward—Quartier",ON,1.0,59.5
+ON112007,1861,St. Patricks’ Ward,ON046003,1871,"Toronto, St. Patrick’s Ward—Quartier",ON,1.0,60.23
+ON098001,1861,Adjala,ON040004,1871,Adjala,ON,1.0,78.57
+ON093012,1861,"Peterborough, Town of",ON056003,1871,"Peterborough, Town—Ville",ON,1.0,76.0
+ON101004,1861,"Hamburg, Village",ON031002,1871,"New Hamburg, Village",ON,1.0,80.0
+ON104005,1861,"Dundas, Town of",ON023003,1871,"Dundas, Town—Ville",ON,1.0,68.91
+ON108001,1861,St. Andrews’ Ward,ON024003,1871,"Hamilton, St. Andrew’s Ward—Quartier",ON,1.0,72.26
+ON066999,1861,NO DATA,ON028008,1871,Lindsay and Bury,ON,1.0,37.98
+ON089013,1861,"Whitby, Town of",ON048003,1871,"Whitby, Town—Ville",ON,1.0,67.71
+ON088004,1861,"Cobourg, Town of",ON054002,1871,"Cobourg, Town—Ville",ON,1.0,73.0
+ON109007,1861,Victoria Ward,ON066001,1871,"Kingston, Victoria Ward—Quartier",ON,1.0,70.44
+ON109006,1861,Sydenham Ward,ON066006,1871,"Kingston, Sydenham Ward—Quartier",ON,1.0,70.44
+ON109004,1861,Rideau Ward,ON066002,1871,"Kingston, Rideau Ward—Quartier",ON,1.0,67.56
+ON109001,1861,Cataraqui Ward,ON066007,1871,"Kingston, Cataraqui Ward—Quartier",ON,1.0,71.7
+ON109003,1861,Ontario Ward,ON066005,1871,"Kingston, Ontario Ward—Quartier",ON,1.0,69.07
+ON109005,1861,St. Lawrence Ward,ON066004,1871,"Kingston, St. Lawrence Ward—Quartier",ON,1.0,74.91
+ON111002,1861,Ottawa Ward,ON077005,1871,"Ottawa, Ottawa Ward—Quartier",ON,1.0,55.14
+ON111005,1861,Wellington Ward,ON077001,1871,"Ottawa, Wellington Ward—Quartier",ON,1.0,60.33
+ON082003,1861,Burgess,ON079004,1871,"Burgess, N",ON,1.0,60.37
+ON084005,1861,Denbigh and Abinger,ON064005,1871,"Denbigh, Abinger, Ashby, Effingham",ON,1.0,60.88
+ON093014,1861,Snowden,ON058004,1871,"Snowden, Glamorgan",ON,1.0,45.41
+ON093001,1861,Ashburton,ON057002,1871,"Ashburnham, Village",ON,0.9984,56.18
+ON098999,1861,NO DATA,ON085999,1871,NO DATA,ON,0.9822,79.23
+QC002011,1861,St. Jérôme,QC096008,1871,Mille Isles,QC,1.0,43.33
+QC004009,1861,Upton,QC122008,1871,St. Ephrem,QC,1.0,39.33
+QC005017,1861,Ste. Marie de la Beauce,QC158002,1871,Ste. Marie,QC,1.0,64.92
+QC006004,1861,St. Louis de Gonzague,QC111005,1871,St. Louis,QC,1.0,72.0
+QC006001,1861,Beauharnois,QC111002,1871,"Beauharnois, Town—Ville",QC,1.0,75.29
+QC007999,1861,NO DATA,QC162004,1871,"Mailloux, Roux, Bellechasse, Daaquam",QC,1.0,41.66
+QC008002,1861,"Berthier, Village and Convent",QC103004,1871,"Berthier, Town—Ville",QC,1.0,72.86
+QC009003,1861,Daniel (Port),QC169001,1871,Port Daniel,QC,1.0,65.0
+QC012005,1861,Ste. Anne,QC132007,1871,Ste. Anne de la Pérade,QC,1.0,65.19
+QC012001,1861,Batiscan,QC132005,1871,St. François Xavier,QC,1.0,45.29
+QC013009,1861,St. Etienne (Murray Bay),QC149009,1871,Malbaie,QC,1.0,48.06
+QC013006,1861,Petite Rivière St. François-Xavier,QC149001,1871,Petite Rivière,QC,1.0,70.83
+QC014003,1861,St. Joachim de Chateauguay,QC112001,1871,St. Joachim,QC,1.0,71.62
+QC056001,1861,Lake of Two Mountains,QC097002,1871,Lac des Deux Montagnes,QC,1.0,54.63
+QC056007,1861,"St. Eustache, Parish",QC097004,1871,St. Eustache,QC,1.0,68.06
+QC056013,1861,"Ste. Scholastique, Parish",QC097009,1871,Ste. Scholastique,QC,1.0,72.22
+QC056012,1861,"Ste. Scholastique, Village and Convent",QC097010,1871,"Ste. Scholastique, Village",QC,1.0,72.43
+QC019007,1861,Grand River,QC172004,1871,Grande-Rivière,QC,1.0,71.83
+QC019014,1861,Ste. Anne,QC170002,1871,Ste. Anne des Monts,QC,1.0,63.75
+QC021007,1861,St. Régis and Dundee,QC114004,1871,Dundee,QC,1.0,55.38
+QC021005,1861,"Huntingdon, Village, and Godmanchester",QC114001,1871,Godmanchester,QC,0.9819,58.76
+QC024001,1861,"Lachine, Parish",QC108001,1871,Lachine,QC,1.0,74.55
+QC024008,1861,St. Raphaël and Isle Bizard,QC108009,1871,Isle Bizard,QC,1.0,70.53
+QC027002,1861,"Laprairie, Parish",QC115001,1871,Laprairie,QC,1.0,78.46
+QC027005,1861,St. Jacques le Mineur,QC115004,1871,St. Jacques,QC,1.0,78.12
+QC037001,1861,St. Cyprien and Convent,QC116006,1871,St. Cyprien,QC,1.0,75.29
+QC001007,1861,St. Henri de Mascouche,QC100002,1871,St. Henri,QC,1.0,70.65
+QC029003,1861,St. Etienne de Lauzon,QC154005,1871,St. Etienne,QC,1.0,64.79
+QC029008,1861,St. Romuald d’Etchemin,QC154003,1871,Etchemin,QC,1.0,54.0
+QC023002,1861,L’Islet,QC164001,1871,"L’lslet, St. Eugène",QC,1.0,62.31
+QC023005,1861,St. Jean,QC164002,1871,St. Jean Port-Joli,QC,1.0,73.08
+QC023001,1861,Ashford,QC164006,1871,"Ste. Louise, Ashford",QC,1.0,66.3
+QC030005,1861,Ste. Croix and Convent,QC155005,1871,Ste. Croix,QC,1.0,73.75
+QC030008,1861,St. Jean Deschaillons,QC155001,1871,St. Jean,QC,0.9985,68.62
+QC032005,1861,Ireland,QC156007,1871,"Ireland, Coleraine",QC,1.0,69.2
+QC033007,1861,St. George de Clarenceville,QC125002,1871,St. George,QC,1.0,67.84
+QC033004,1861,"Philipsburgh, Village",QC125004,1871,Philipsburg,QC,1.0,78.12
+QC034004,1861,Rawdon,QC101006,1871,St. Patrick,QC,1.0,38.24
+QC034001,1861,Chertsey,QC101008,1871,St. Thédodore,QC,1.0,50.0
+QC061003,1861,St. Ann’s Ward,QC106001,1871,"Montréal, Ste. Anne Ward—Quartier",QC,1.0,51.74
+QC061009,1861,West Ward,QC104001,1871,"Montréal, Ouest Ward—Quartier",QC,1.0,44.96
+QC061002,1861,East Ward,QC104003,1871,"Montréal, Est Ward—Quartier",QC,1.0,46.59
+QC061005,1861,St. James’ Ward,QC105002,1871,"Montréal, St. Jacques Ward—Quartier",QC,0.9806,53.54
+QC061008,1861,St. Mary’s Ward,QC105003,1871,"Montréal, Ste. Marie Ward—Quartier",QC,0.9923,51.43
+QC038004,1861,Nicolet and Seminary,QC135001,1871,Nicolet,QC,1.0,66.3
+QC038009,1861,St. Pierre,QC135008,1871,St. Pierre les Becquets,QC,1.0,72.42
+QC040007,1861,Isle du Calumet,QC091008,1871,Calumet,QC,1.0,67.88
+QC062004,1861,Palace Ward,QC146001,1871,"Québec, du Palais Ward—Quartier",QC,1.0,43.33
+QC062005,1861,St. Johns’ Ward,QC146002,1871,"Québec, St. Jean Ward—Quartier",QC,1.0,47.56
+QC062006,1861,St. Lewis’ Ward,QC146003,1871,"Québec, St. Louis Ward—Quartier",QC,1.0,49.86
+QC062002,1861,Jacques Cartier Ward,QC147002,1871,"Québec, Jacques Cartier Ward—Quartier",QC,1.0,64.12
+QC062008,1861,St. Rochs’ Ward,QC147001,1871,"Québec, St. Roch Ward—Quartier",QC,1.0,55.44
+QC062001,1861,Champlain Ward,QC145002,1871,"Québec, Champlain Ward—Quartier",QC,1.0,57.4
+QC062007,1861,St. Peters’ Ward,QC145001,1871,"Québec, St. Pierre Ward—Quartier",QC,1.0,48.85
+QC042007,1861,St. Ambroise,QC144004,1871,La Jeune Lorette,QC,1.0,45.0
+QC043004,1861,"St. Ours, Parish",QC120002,1871,St. Ours,QC,1.0,76.67
+QC044003,1861,"Danville, Village, Academy and College of St. Francis",QC138007,1871,"Danville, Village",QC,1.0,64.0
+QC045001,1861,Bic,QC167004,1871,Ste. Cécile du Bic,QC,1.0,41.82
+QC045004,1861,"Matane, Township",QC168006,1871,Matane,QC,1.0,62.18
+QC046008,1861,St. Paul d’Abbotsford,QC123010,1871,Abbotsford,QC,1.0,75.16
+QC046002,1861,"Marieville, College and Convent",QC123006,1871,Marieville,QC,1.0,64.15
+QC050005,1861,St. Denis and Convent,QC121004,1871,St. Denis,QC,1.0,72.0
+QC050006,1861,"St. Hyacinthe, Seminary and Convent",QC121008,1871,"St. Hyacinthe, Town—Ville",QC,1.0,74.33
+QC051003,1861,"St. Jean, Parish",QC117004,1871,St. Jean,QC,1.0,67.84
+QC051006,1861,Ste. Marguerite (L’Acadie),QC117003,1871,L’Acadie,QC,1.0,54.12
+QC051004,1861,"St. Johns, Town of",QC117005,1871,"St. Jean, Town—Ville",QC,1.0,65.39
+QC049005,1861,St. Joseph and Convent,QC110007,1871,Soulanges,QC,1.0,52.58
+QC054011,1861,St. Patrice de la Rivière du Loup,QC166002,1871,Rivière du Loup,QC,1.0,73.75
+QC055012,1861,"Terrebonne, Village, and College Masson",QC099001,1871,"Terrebonne, Town—Ville",QC,1.0,69.02
+QC063005,1861,St. Phillips’ Ward,QC131001,1871,"Trois-Rivières, St. Philippe Ward—Quartier",QC,1.0,50.88
+QC057006,1861,"Vaudreuil, Parish",QC109002,1871,Vaudreuil,QC,1.0,78.46
+QC047010,1861,Island of Anticosti,QC152005,1871,Anticosti,QC,1.0,52.5
+QC001005,1861,Lachenaie,QC100001,1871,St. Charles,QC,1.0,58.0
+QC043008,1861,"Sorel, Town, College and Convent",QC120006,1871,"Sorel, Town—Ville",QC,1.0,70.0
+QC049002,1861,Cedars,QC110006,1871,Les Cèdres,QC,1.0,65.0
+QC055010,1861,"Ste. Thérèse de Blainville, Village and College",QC099004,1871,"Ste. Thérèse, Village",QC,1.0,73.24
+QC063003,1861,Notre Dame Ward,QC131004,1871,"Trois-Rivières, Notre Dame Ward—Quartier",QC,1.0,54.06
+QC063004,1861,St. Lewis’ Ward,QC131002,1871,"Trois-Rivières, St. Louis Ward—Quartier",QC,0.989,46.99
+QC049001,1861,Coteau Landing,QC110005,1871,"Côteau Landing, Village",QC,1.0,79.19
+QC019006,1861,"Gaspé Bay, South",QC171006,1871,"Gaspé, S",QC,1.0,64.31
+QC054003,1861,Fraserville,QC166003,1871,"Fraserville, Village",QC,1.0,79.68
+QC008001,1861,"Berthier, Parish",QC103003,1871,Berthier,QC,1.0,76.67
+QC056009,1861,St. Joseph du Lac,QC097003,1871,St. Joseph,QC,1.0,67.41
+QC001010,1861,St. Paul l’Ermite,QC100005,1871,St. Paul,QC,1.0,74.8
+QC011003,1861,"Chambly, Parish",QC118005,1871,Chambly,QC,1.0,74.55
+QC026006,1861,St. André,QC165012,1871,"St. André, Notre Dame du Portage",QC,1.0,60.73
+ON035006,1871,Luther,ON153008,1881,Luther E & W-O,ON,1.0,72.0
+ON071002,1871,"Iroquois, Village",ON102002,1881,Iroquois,ON,1.0,74.8
+ON001007,1871,Pelée,ON181009,1881,Pelee Island,ON,1.0,62.94
+ON065001,1871,"Kingston, Township",ON115001,1881,Kingston,ON,1.0,73.08
+ON017009,1871,Dunn,ON144008,1881,Dunn,ON,1.0,78.57
+ON060003,1871,"Belleville, Town—Ville",ON121003,1881,"Belleville, City—Cité",ON,1.0,78.84
+ON002006,1871,Chatham,ON180007,1881,Chatham,ON,0.9904,76.67
+ON003005,1871,"Bothwell, Town—Ville",ON178008,1881,Bothwell,ON,1.0,70.0
+ON002005,1871,Dover,ON180006,1881,Dover,ON,0.9941,76.67
+ON002004,1871,Harwich,ON180004,1881,Harwich,ON,0.9894,76.67
+ON002003,1871,Raleigh,ON180003,1881,Raleigh,ON,0.9942,76.67
+ON002001,1871,Romney,ON180001,1881,Romney,ON,1.0,76.67
+ON002002,1871,"Tilbury, E",ON180002,1881,Tilbury E,ON,1.0,72.98
+ON009003,1871,"London, Township",ON167003,1881,London,ON,0.9897,68.18
+ON085009,1871,Macaulay,ON131009,1881,"Macauly, Bracebridge, Village",ON,1.0,56.49
+ON055003,1871,"Brighton, Township",ON123003,1881,Brighton,ON,0.9992,73.08
+ON059008,1871,"Marysburg, S",ON119007,1881,Marysborough N,ON,1.0,78.46
+ON059009,1871,"Marysburg, N",ON119006,1881,Marysborough S,ON,1.0,78.46
+ON081005,1871,"Matawatchan, Griffith",ON113010,1881,"Griffith, Matawatchan",ON,1.0,66.67
+ON002999,1871,NO DATA,ON180999,1881,NO DATA,ON,1.0,76.67
+ON073004,1871,"Cornwall, Township",ON100004,1881,Cornwall,ON,0.9912,73.08
+ON072002,1871,Finch,ON101003,1881,Roxborough,ON,1.0,39.33
+ON072003,1871,Roxborough,ON101002,1881,Finch,ON,1.0,39.33
+ON058007,1871,"Dysart, Dudley, Harcourt, Guilford, Harbum, Bruton",ON125011,1881,"Dysart, Dudley, Harcourt & C.",ON,1.0,76.08
+ON087001,1871,"Manitoulin, E",ON182012,1881,Wookwamakang,ON,1.0,24.3
+NB175004,1871,St. George,NB026004,1881,"St. George, Town—Ville",NB,1.0,73.75
+NB175011,1871,West Isles,NB026016,1881,Deer Island,NB,1.0,63.33
+NS201008,1871,Tracadie,NS021008,1881,Heatherton,NS,1.0,45.56
+NS205004,1871,Beaver Cove,NS006002,1881,Boisdale,NS,1.0,52.11
+NS205001,1871,Howley’s Kerry,NS006003,1881,Boularderie,NS,1.0,52.4
+NS205005,1871,Christmas Island,NS006001,1881,Grand Narrows,NS,1.0,49.31
+NS204001,1871,Washabucht,NS005003,1881,Grand Narrows,NS,1.0,42.17
+NS204006,1871,King’s Cove,NS005007,1881,New Campbellton,NS,1.0,51.54
+NS204009,1871,Plaster,NS005011,1881,North Shore,NS,1.0,45.56
+NS204008,1871,"Monro’s Point, St. Ann’s",NS005009,1881,North Gut,NS,1.0,51.21
+NS205003,1871,Ball’s Bridge,NS006005,1881,Ball's Creek,NS,1.0,74.8
+NS205010,1871,Mira Bay,NS006018,1881,North Mira,NS,1.0,61.11
+NS205008,1871,Lingan Mines,NS006009,1881,Lingan,NS,1.0,76.67
+NS199012,1871,Old Burns,NS019015,1881,Clifton,NS,1.0,47.5
+NS199010,1871,Onslow,NS019006,1881,Lower Onslow,NS,1.0,76.67
+NS199009,1871,Upper Onslow,NS019007,1881,North River,NS,1.0,42.17
+NS198002,1871,Head of Amherst,NS022002,1881,Amherst Shore,NS,1.0,65.0
+NS191010,1871,Bellevaux,NS015010,1881,Church Point,NS,1.0,36.67
+NS191002,1871,Long Island,NS015005,1881,Freeport,NS,1.0,37.37
+NS191007,1871,Head of St. Mary’s,NS015002,1881,"Marshall, Town—Ville",NS,1.0,44.74
+NS191008,1871,St. Mary’s Bay,NS015007,1881,Plympton,NS,1.0,36.36
+NS191011,1871,Clare,NS015009,1881,St. Bernards,NS,1.0,46.47
+NS191003,1871,Petit Passage,NS015013,1881,Tiverton,NS,1.0,50.0
+NS191001,1871,Brier Island,NS015006,1881,Westport,NS,1.0,44.0
+NS202011,1871,Stormont,NS008005,1881,Country Harbour,NS,1.0,48.26
+NS196019,1871,Pier’s Mills,NS010012,1881,Pier's Mills,NS,1.0,79.6
+NS197018,1871,Gay’s River,NS010031,1881,Gay's River,NS,1.0,79.06
+NS197013,1871,Nicumteauch,NS010026,1881,Nicumteouch,NS,1.0,79.06
+NS196014,1871,Drysdale,NS010007,1881,Drysdale's Cove,NS,1.0,64.12
+NS196012,1871,Terrence Bay,NS010005,1881,Lower Prospect,NS,1.0,42.35
+NS196013,1871,Prospect,NS010006,1881,Upper Prospect,NS,1.0,66.34
+NS188014,1871,Forks,NS018004,1881,Windsor Forks,NS,1.0,68.89
+NS188012,1871,Windsor,NS018003,1881,"Windsor, Town—Ville",NS,1.0,67.69
+NS203010,1871,Broad Cove District,NS004010,1881,Broad Cove Marsh,NS,1.0,78.0
+NS203011,1871,Margaree,NS004012,1881,Margaree Harbour,NS,1.0,76.67
+NS203001,1871,Plaster Cove,NS004001,1881,Hastings,NS,1.0,51.0
+NS203004,1871,River Dennis,NS004004,1881,Dennis River,NS,1.0,65.0
+NS203009,1871,Broad Cove Intervale,NS004011,1881,Strathlorne,NS,1.0,52.58
+NS195008,1871,Mahone Bay,NS011003,1881,Block House,NS,1.0,50.0
+NS195007,1871,La Have,NS011004,1881,Summerside,NS,1.0,38.24
+NS195010,1871,Sandy Beaches,NS011011,1881,Bayswater,NS,1.0,55.45
+NS195009,1871,Tancook Island,NS011010,1881,Tancook,NS,1.0,76.67
+NS206013,1871,Little Arichat,NS007011,1881,Arichat W-O,NS,1.0,69.2
+NS206001,1871,Framboise,NS007013,1881,Forchu,NS,1.0,48.67
+NS194007,1871,Brookfield,NS012011,1881,Local District No. 11,NS,1.0,43.55
+NS194001,1871,Port Mouton,NS012004,1881,Local District No. 4,NS,1.0,52.58
+NS193008,1871,Louis Head,NS013007,1881,"Sable River, Louis Head",NS,1.0,72.42
+NS193001,1871,Shag Harbor,NS013008,1881,Shag & Wood's Harbour,NS,1.0,78.12
+NS193006,1871,Shelburne,NS013003,1881,"Shelburn, Town—Ville",NS,1.0,73.45
+NS203014,1871,Young Bridge or Forks,NS004015,1881,Young's Bridge,NS,1.0,78.0
+QC122011,1871,Actonvale,QC058012,1881,"Actonvale, Village",QC,1.0,76.67
+QC111001,1871,St. Clément,QC073003,1881,"Melocheville, St. Clément",QC,1.0,72.78
+QC111005,1871,St. Louis,QC073005,1881,St. Louis de Gonzague,QC,1.0,72.0
+QC169007,1871,Carleton,QC038009,1881,"Carleton, Township",QC,1.0,73.08
+QC169002,1871,Hope,QC038002,1881,"Hope, Township",QC,1.0,61.11
+QC169006,1871,Maria,QC038008,1881,"Maria, Township",QC,1.0,65.0
+QC169010,1871,Restigouche,QC038015,1881,"Restigouche, Township",QC,1.0,78.12
+QC149001,1871,Petite Rivière,QC077007,1881,St. F.-X. de la Petite Rivière,QC,1.0,74.55
+QC149006,1871,Settrington,QC077004,1881,St. Hilarion,QC,1.0,66.52
+QC152007,1871,Mécatina,QC076010,1881,Mécatina,QC,1.0,74.14
+QC152006,1871,Natasquan,QC076009,1881,Natashquan,QC,0.9985,70.45
+QC152008,1871,Bonne Espérance,QC076011,1881,Bonne Espérance,QC,1.0,74.14
+QC152004,1871,Pointe aux Esquimaux,QC076007,1881,Pointe aux Esquimaux,QC,1.0,74.14
+QC152002,1871,Pointe des Monts,QC076005,1881,Pointe des Monts,QC,1.0,74.14
+QC152003,1871,Moisie,QC076006,1881,Moisie,QC,1.0,74.14
+QC142003,1871,Clifton,QC054017,1881,Clifton W-O & E,QC,1.0,74.55
+QC160006,1871,Ste. Germaine,QC047012,1881,"Ste. Germaine, lac Etchemin",QC,1.0,70.5
+QC160007,1871,Ste. Justine,QC047013,1881,Ste. Justine de Langevin,QC,1.0,71.67
+QC136009,1871,Durham,QC052010,1881,Ulverton,QC,1.0,36.55
+QC136010,1871,L’Avenir,QC052011,1881,L'Avenir,QC,1.0,77.8
+QC137003,1871,St. Louis,QC052032,1881,St. Louis de Blandford,QC,0.9829,60.0
+QC136007,1871,Wickham,QC052008,1881,Wickham E,QC,1.0,77.8
+QC137005,1871,Victoriaville,QC052016,1881,"Victoriaville, Village",QC,1.0,71.35
+QC137006,1871,Arthabaskaville,QC052026,1881,"Arthabaskaville, Village",QC,1.0,73.2
+QC137009,1871,Princeville,QC052015,1881,"Princeville, Village",QC,1.0,69.03
+QC171004,1871,Cap des Rosiers,QC039008,1881,"St. Alban, Cap des Rosiers",QC,1.0,68.87
+QC173002,1871,Grindstone Island,QC039021,1881,Etang du Nord,QC,1.0,25.56
+QC171002,1871,Sydenham (N.) Fox,QC039006,1881,Rivière au Renard,QC,1.0,34.12
+QC171005,1871,"Gaspé, N, Sydenham, S",QC039009,1881,"Gaspé Bay N, Sydenham S",QC,1.0,78.1
+QC171001,1871,Chloridormes,QC039005,1881,Les Chlorydormes,QC,1.0,72.65
+QC173004,1871,Groupe Nord,QC039023,1881,Grosse Ile,QC,1.0,35.56
+QC171003,1871,L’Anse au Griffon,QC039007,1881,"St. Joseph, Anse au Griffon",QC,1.0,65.37
+QC172001,1871,Malbaie,QC039014,1881,St. Pierre de la Malbaie,QC,1.0,53.04
+QC102009,1871,St. Félix de Valois,QC087006,1881,St. Félix,QC,1.0,75.0
+QC102011,1871,St. Jean,QC087007,1881,St. Jean de Matha,QC,1.0,74.8
+QC094003,1871,L'Ange Gardien,QC097003,1881,"L'Ange Gardien, Village",QC,1.0,67.97
+QC095006,1871,"St. André Avelin, Petite Nation",QC097017,1881,St. André Avelin,QC,1.0,65.31
+QC115004,1871,St. Jacques,QC069006,1881,St. Jacques le Mineur,QC,1.0,78.12
+QC100002,1871,St. Henri,QC088002,1881,Mascouche,QC,1.0,53.33
+QC098006,1871,St. François,QC093006,1881,St. Francois de Sales,QC,1.0,76.67
+QC154005,1871,St. Etienne,QC046010,1881,St. Etienne de Lauzon,QC,1.0,64.79
+QC153007,1871,St. Joseph,QC046004,1881,St. Joseph de Lévis,QC,0.985,64.94
+QC154003,1871,Etchemin,QC046012,1881,St. Romuald,QC,1.0,31.4
+QC164003,1871,"St. Aubert, Fournier",QC043004,1881,"Fournier, St. Aubert",QC,1.0,65.0
+QC164007,1871,"Casgrain, Dionne, Lafontaine, Garneau",QC043008,1881,"Ste. Perpétue, St. Pamphile, Casgrain, Dionne & c",QC,1.0,59.3
+QC155001,1871,St. Jean,QC049001,1881,St. Jean Deschaillons,QC,1.0,65.62
+QC155002,1871,Ste. Emélie,QC049002,1881,"Ste. Emélie, Leclercville, Village",QC,1.0,61.22
+QC107005,1871,Hochelaga,QC091005,1881,"Hochelaga, Village",QC,0.9979,76.67
+QC125002,1871,St. George,QC065002,1881,St. George de Clarenceville,QC,1.0,67.84
+QC125004,1871,Philipsburg,QC065004,1881,"Philipsburg, Village",QC,1.0,79.68
+QC101007,1871,St. Calixte,QC089007,1881,St. Calixte de Beauport,QC,1.0,75.29
+QC101008,1871,St. Thédodore,QC089008,1881,St. Theodore de Chertsey,QC,1.0,71.62
+QC163004,1871,"Cap St. Ignace, Bourdages, Patton & Talon",QC044007,1881,Cap St Ignace,QC,1.0,63.7
+QC105003,1871,"Montréal, Ste. Marie Ward—Quartier",QC090007,1881,"Montréal, St. Mary's Ward—Quartier",QC,0.9954,79.71
+QC135001,1871,Nicolet,QC051007,1881,"Nicolet, Town—Ville",QC,1.0,67.69
+QC091011,1871,Allumettes,QC098015,1881,"Chapeau (Village), Allumette Island",QC,1.0,54.44
+QC091008,1871,Calumet,QC098012,1881,Calumet Island,QC,1.0,70.0
+QC091006,1871,Litchfield,QC098011,1881,"Bryson (Village), Litchfield Upper",QC,1.0,55.15
+QC091007,1871,Portage du Fort,QC098010,1881,"Portage du Fort, Village",QC,1.0,77.18
+QC143011,1871,Neuville,QC081014,1881,Ste. Jeanne de Neuville,QC,1.0,66.13
+QC146005,1871,"Québec, Banlieue Centre Ward—Quartier",QC079009,1881,"Québec, Banlieue Centre",QC,1.0,71.85
+QC146004,1871,"Québec, Montcalm (Centre) Ward—Quartier",QC079008,1881,"Québec, Montcalm Ward—Quartier (Centre)",QC,1.0,72.03
+QC145004,1871,"Québec, Banlieue Sud Ward—Quartier",QC079013,1881,"Québec, Banlieue S",QC,1.0,63.46
+QC145003,1871,"Québec, Montcalm (W-O) Ward—Quartier",QC079012,1881,"Québec, Montcalm Ward—Quartier (W-O)",QC,1.0,73.33
+QC144004,1871,La Jeune Lorette,QC080006,1881,St. Ambroise,QC,1.0,38.33
+QC144001,1871,St. Colomban,QC080009,1881,St. Colomb de Sillery,QC,1.0,65.76
+QC144007,1871,St. Dunstan,QC080003,1881,Lac Beauport,QC,1.0,41.59
+QC144010,1871,Valcartier,QC080005,1881,St. Gabriel de Valcartier E,QC,1.0,61.17
+QC138002,1871,Melbourne,QC053011,1881,"Melbourne, Brompton Gore",QC,1.0,58.18
+QC168002,1871,Ste. Angèle de Mérici,QC040016,1881,Ste. Angèle,QC,1.0,72.12
+QC168006,1871,Matane,QC040023,1881,St. Ulric,QC,1.0,33.33
+QC123010,1871,Abbotsford,QC063009,1881,St. Paul d'Abbotsford,QC,1.0,75.16
+QC123006,1871,Marieville,QC063005,1881,"Marieville, Village",QC,1.0,78.28
+QC123012,1871,Canrobert,QC063011,1881,"Canrobert, Village",QC,1.0,76.67
+QC124001,1871,Henriville,QC064007,1881,St. George,QC,1.0,51.0
+QC124003,1871,Iberville,QC064002,1881,"Iberville, Town—Ville",QC,1.0,72.0
+QC127006,1871,Waterloo,QC059006,1881,"Waterloo, Village",QC,1.0,74.8
+QC110007,1871,Soulanges,QC074007,1881,St. Joseph de Soulanges,QC,1.0,69.38
+QC099014,1871,Ste. Agathe des Monts,QC094015,1881,Ste. Agathe,QC,1.0,78.12
+QC099008,1871,New Glasgow,QC094008,1881,"New Glasgow, Village",QC,1.0,79.68
+QC109006,1871,Newton,QC075004,1881,Ste. Justine de Newton,QC,1.0,60.0
+QC134005,1871,La Baie,QC057005,1881,La Baie du Febvre,QC,1.0,70.83
+QC134007,1871,St. Pie,QC057006,1881,St. Pie de Guire,QC,1.0,72.61
+QC134004,1871,Pierreville,QC057004,1881,St. Thomas de Pierreville,QC,1.0,72.78
+QC134002,1871,St. Michel,QC057001,1881,"Yamaska, Village",QC,1.0,51.54
+QC169009,1871,Mann,QC038013,1881,"Mann, Township",QC,1.0,61.11
+QC152001,1871,Manicouagan,QC076004,1881,Manicouagan,QC,1.0,74.14
+QC152005,1871,Anticosti,QC076008,1881,Isle of Anticosti,QC,1.0,52.6
+QC173001,1871,Groupe Sud,QC039020,1881,Hâvre Amherst,QC,1.0,26.57
+QC170004,1871,Vallée des Monts,QC039004,1881,La Grande Vallée,QC,1.0,45.0
+QC100001,1871,St. Charles,QC088001,1881,Lachenaie,QC,0.9838,58.0
+QC167002,1871,St. Mathieu de Rioux,QC040001,1881,St. Mathieu,QC,1.0,71.5
+QC168007,1871,St. Jérôme,QC040024,1881,Matane,QC,1.0,41.5
+QC110006,1871,Les Cèdres,QC074008,1881,"Les Cèdres, Village",QC,1.0,78.28
+QC134001,1871,Yamaska,QC057002,1881,St. Michel,QC,1.0,38.24
+QC173003,1871,Allright Island,QC039022,1881,Hâvre aux Maisons,QC,1.0,24.1
+QC091003,1871,Clarendon,QC098006,1881,Clarendon N & S,QC,0.9842,75.83
+QC147003,1871,"St. Roch, S",QC079003,1881,"Québec, St. Roch S",QC,1.0,64.28
+QC150002,1871,Grande Baie,QC076013,1881,St. Alexis,QC,1.0,39.35
+QC095009,1871,"Nation, N",QC097021,1881,Petite Nation N,QC,1.0,64.31
+QC147004,1871,"St. Roch, N",QC079004,1881,"Québec, St. Roch N",QC,1.0,64.28
+QC100005,1871,St. Paul,QC088005,1881,St. Paul l'Ermite,QC,0.9807,74.8
+QC165012,1871,"St. André, Notre Dame du Portage",QC042011,1881,St. André,QC,1.0,60.73
+ON182016,1881,Thessalon,ON046024,1891,Thessalon (Western Division),ON,1.0,64.05
+ON177005,1881,Amabel,ON052002,1891,Amabel & Saugeen,ON,0.9922,68.18
+ON108009,1881,Fitzroy,ON083004,1891,Fitzroy,ON,1.0,79.23
+ON108002,1881,Gower N,ON055005,1891,North Gower,ON,1.0,68.89
+ON108007,1881,Huntley,ON083005,1891,Huntley,ON,1.0,79.23
+ON102002,1881,Iroquois,ON057002,1891,"Iroquois, Village",ON,1.0,74.8
+ON163003,1881,"St. Thomas, Town—Ville",ON060005,1891,"St. Thomas, City—Cité",ON,1.0,78.84
+ON181017,1881,Tilbury W-O,ON062007,1891,Tilbury,ON,0.989,68.08
+ON107006,1881,"Kemptville, Village",ON085003,1891,Kemptville,ON,1.0,78.28
+ON146003,1881,Cayuga S,ON094002,1891,Cayuga S,ON,1.0,78.57
+ON175004,1881,Wawanosh E,ON078004,1891,East Wawanosh,ON,1.0,66.34
+ON175008,1881,"Wingham, Village",ON076007,1891,"Wingham, Town—Ville",ON,1.0,72.88
+ON180007,1881,Chatham,ON047003,1891,Chatham,ON,1.0,75.0
+ON178001,1881,Howard,ON061004,1891,Howard,ON,1.0,74.8
+ON178002,1881,Orford,ON061005,1891,Orford,ON,1.0,74.8
+ON178008,1881,Bothwell,ON047001,1891,"Bothwell, Town—Ville",ON,1.0,70.0
+ON178009,1881,"Ridgetown, Village",ON061006,1891,"Ridgetown, Town—Ville",ON,1.0,62.24
+ON180008,1881,"Wallaceburgh, Village",ON047008,1891,"Wallaceburg, Village",ON,1.0,73.29
+ON178005,1881,Euphemia,ON093003,1891,Euphemia,ON,1.0,74.14
+ON179017,1881,"Forest, Village",ON082001,1891,"Forest, Town—Ville",ON,1.0,71.31
+ON118006,1881,"Denbigh, Abinger, Ashby, Effingham",ON045001,1891,"Abinger, Effingham, Ashby & Denbigh",ON,1.0,70.58
+ON144001,1881,Caistor,ON130003,1891,Caistor,ON,1.0,72.4
+ON145009,1881,"Grimsby, Village",ON130007,1891,"Grimsby, Village",ON,1.0,74.44
+ON131010,1881,Stephenson. Brunel,ON095005,1891,Brunel & Stephenson,ON,1.0,52.84
+ON131999,1881,NO DATA,ON095002,1891,"Baxter, Gibson & Freeman",ON,1.0,28.55
+ON131004,1881,"Medora, Wood",ON117004,1891,Medora & Wood,ON,1.0,69.43
+ON131005,1881,Monck,ON117006,1891,Monck,ON,1.0,77.83
+ON131001,1881,Morrison,ON101009,1891,Morrison,ON,1.0,74.62
+ON131003,1881,Muskoka,ON117007,1891,Muskoka,ON,1.0,77.83
+ON131025,1881,McMurrich & Stisted,ON095020,1891,Stisted & McMurrich,ON,1.0,48.16
+ON131002,1881,Gravenhurst,ON117001,1891,"Gravenhurst, Town—Ville",ON,1.0,53.12
+ON114004,1881,"Head, Clara, Maria",ON114005,1891,"Head, Maria & Clara",ON,1.0,79.19
+ON131024,1881,"Ryerson, Armour",ON095001,1891,Armour & Ryerson,ON,1.0,46.61
+ON131019,1881,"McKellar, Hagerman",ON095018,1891,McKellar & Hagerman,ON,1.0,79.32
+ON131023,1881,"Lount, Machar & Laurier",ON095016,1891,"Laurier, Machar & Lount",ON,1.0,60.65
+ON131021,1881,"McKenzie, Ferrie, Wilson, Mills, McConkey, Hardy",ON095009,1891,"Ferrie, Mills, Hardy, Wilson, McConkey & McKenzie",ON,1.0,53.97
+ON131017,1881,"Shawanaga, Lake Shore",ON095004,1891,"Blair, Brown, Burton, Shawanaga, Harrison, Walbridge, Mowat & French River",ON,1.0,40.05
+ON140001,1881,"Toronto, Township",ON107004,1891,Toronto,ON,1.0,70.83
+ON114009,1881,"Rolph, Buchanan, Wylie",ON114004,1891,"Buchanan, Wylie & Rolph",ON,1.0,76.67
+ON139009,1881,Penetanguishene,ON117011,1891,"Penetanguishene, Town—Ville",ON,1.0,67.65
+ON101003,1881,Roxborough,ON056005,1891,Finch,ON,1.0,27.11
+ON101001,1881,Osmabruck,ON056006,1891,Osnabruck,ON,1.0,80.0
+ON101002,1881,Finch,ON056007,1891,Roxborough,ON,1.0,27.11
+ON125010,1881,"Stanhope, Sherburne, McClintock",ON121013,1891,"Stanhope, Sherburne & McClintock",ON,1.0,76.67
+ON137008,1881,Gwillimbury N,ON132005,1891,Gwillimbury N & Snake Island,ON,0.9945,74.39
+ON107001,1881,Kitley,ON050007,1891,Kitley,ON,1.0,79.23
+ON111007,1881,"Smith's Falls, Village",ON085006,1891,"Smith’s Falls, Town—Ville",ON,1.0,68.33
+ON133010,1881,"Uxbridge, Village",ON103005,1891,"Uxbridge, Town—Ville",ON,1.0,75.7
+ON137009,1881,Georgina,ON132003,1891,Georgina & Georgina Island,ON,0.9878,62.94
+MB186001,1881,Gladstone,MB007010,1891,"Gladstone, Town—Ville",MB,1.0,72.0
+MB186009,1881,Morris W-O,MB008009,1891,Morris,MB,1.0,61.97
+MB184001,1881,Morris W-O,MB008010,1891,"Morris, Town—Ville",MB,1.0,70.0
+BC189003,1881,William's Lake and Canoe Creek,BC001011,1891,Williams’ Lake,BC,1.0,71.36
+NT193017,1881,Labrador,NL001999,1891,Labrador,NT,1.0,77.83
+NB026007,1881,"St. Andrew's, Town—Ville",NB013009,1891,"St. Andrew’s, Town & Parish—Ville & Paroisse",NB,1.0,77.35
+NB026004,1881,"St. George, Town—Ville",NB013012,1891,"St. George, Town & Parish—Ville & Paroisse",NB,1.0,78.12
+NB026016,1881,Deer Island,NB013018,1891,West Isles (Deer Island),NB,1.0,74.0
+NB037001,1881,Eldon,NB019005,1891,Eldon and Restigouche River,NB,1.0,51.88
+NB025009,1881,Saint Martin's,NB021008,1891,St. Martin’s,NB,1.0,79.18
+NB025005,1881,"Portland, Ward—Quartier No. 3",NB021001,1891,"Portland, Dufferin, Ward—Quartier",NB,1.0,77.27
+NB025004,1881,"Portland, Ward—Quartier No. 2",NB021002,1891,"Portland, Lansdowne, Ward—Quartier",NB,1.0,76.44
+NB025003,1881,"Portland, Ward—Quartier No. 1",NB021003,1891,"Portland, Lorne, Ward—Quartier",NB,1.0,79.91
+NB025007,1881,"Portland, Ward—Quartier No. 5",NB021004,1891,"Portland, Stanley, Ward—Quartier",NB,1.0,78.12
+NB025006,1881,"Portland, Ward—Quartier No. 4",NB021005,1891,"Portland, Victoria, Ward—Quartier",NB,1.0,77.27
+NB033006,1881,"Moncton, Town—Ville",NB024003,1891,"Moncton, City—Cité",NB,1.0,75.41
+NS016014,1881,Morse's Road,NS026010,1891,Dalhousie,NS,1.0,50.0
+NS016007,1881,Broad Cove,NS026012,1891,"Granville, Lower",NS,1.0,56.92
+NS021005,1881,Cape George,NS027004,1891,Ballantyne’s Cove,NS,1.0,55.0
+NS021009,1881,Tracadie,NS027008,1891,Lenwood,NS,1.0,39.33
+NS021006,1881,Morristown,NS027011,1891,Mahoney’s Beach,NS,1.0,46.8
+NS021007,1881,St. Andrew's,NS027013,1891,Pomquet River,NS,1.0,52.4
+NS006018,1881,North Mira,NS028013,1891,Hillside Mira,NS,1.0,66.52
+NS019016,1881,Broofield Corner,NS029003,1891,Brookfield,NS,1.0,78.46
+NS019012,1881,Kemptown,NS029008,1891,"Kempt, Town—Ville",NS,1.0,74.8
+NS022007,1881,Victoria Cross Road,NS030016,1891,Victoria,NS,1.0,71.48
+NS008016,1881,Goshen & Giant's Lake,NS032008,1891,Goshen,NS,1.0,61.11
+NS008003,1881,Cape Canso,NS032002,1891,Canso,NS,1.0,76.67
+NS010012,1881,Pier's Mills,NS034009,1891,Polling District No. 15,NS,1.0,41.0
+NS010008,1881,Haggett's Cove,NS034036,1891,Polling District No. 38,NS,1.0,39.92
+NS010017,1881,Eastern Passage,NS034031,1891,Polling District No. 33,NS,1.0,39.42
+NS010002,1881,Ferguson's Cove,NS034001,1891,Polling District No. 7,NS,1.0,39.92
+NS010031,1881,Gay's River,NS034013,1891,Polling District No. 19,NS,1.0,37.47
+NS010011,1881,Hammond's Plains,NS034010,1891,Polling District No. 16,NS,1.0,42.54
+NS010019,1881,Lawrencetown,NS034026,1891,Polling District No. 29,NS,1.0,41.0
+NS010029,1881,Little River,NS034033,1891,Polling District No. 35,NS,1.0,41.0
+NS010030,1881,Wyse's Corner,NS034014,1891,Polling District No. 20,NS,1.0,32.67
+NS010028,1881,Middle Musquodoboit,NS034015,1891,Polling District No. 21,NS,1.0,37.67
+NS010001,1881,North West Arm,NS034008,1891,Polling District No. 14,NS,1.0,39.92
+NS010025,1881,Salmon River,NS034032,1891,Polling District No. 34,NS,1.0,41.0
+NS010003,1881,Portuguese Cove,NS034002,1891,Polling District No. 8,NS,1.0,43.7
+NS010015,1881,Windsor Road,NS034011,1891,Polling District No. 17,NS,1.0,49.0
+NS010004,1881,Sambro,NS034003,1891,Polling District No. 9,NS,1.0,36.0
+NS010024,1881,Sheet Harbor,NS034019,1891,Polling District No. 25,NS,1.0,37.0
+NS010026,1881,Nicumteouch,NS034018,1891,Polling District No. 24,NS,1.0,41.59
+NS010007,1881,Drysdale's Cove,NS034007,1891,Polling District No. 13,NS,1.0,35.74
+NS010005,1881,Lower Prospect,NS034017,1891,Polling District No. 23,NS,1.0,39.92
+NS010027,1881,Upper Musquodoboit,NS034016,1891,Polling District No. 22,NS,1.0,38.07
+NS010006,1881,Upper Prospect,NS034004,1891,Polling District No. 10,NS,1.0,39.92
+NS018004,1881,Windsor Forks,NS035007,1891,Forks,NS,1.0,68.89
+NS018016,1881,Rawdon N,NS035014,1891,Rawdon Church,NS,1.0,76.67
+NS018008,1881,Rawdon S,NS035019,1891,South Rawdon & Uniacke,NS,1.0,62.67
+NS004014,1881,North-East Margaree,NS036010,1891,Margarie N-E,NS,1.0,66.13
+NS004012,1881,Margaree Harbour,NS036009,1891,Margarie,NS,1.0,70.83
+NS004004,1881,Dennis River,NS036017,1891,River Dennis,NS,1.0,65.0
+NS017006,1881,Kentville,NS037006,1891,Kentville & Canaan,NS,1.0,71.67
+NS020024,1881,Gulf Shore,NS039002,1891,Bailey’s Brook,NS,1.0,47.5
+NS020005,1881,Cariboo,NS039005,1891,Cariboo E & W-O,NS,1.0,74.55
+NS020010,1881,West River & Green Hill,NS039011,1891,Green Hill,NS,1.0,72.42
+NS020011,1881,Gairloch,NS039018,1891,Mill Brook,NS,1.0,53.33
+NS020007,1881,Pictou,NS039022,1891,Pictou Island & Fisher's Grant,NS,1.0,53.33
+NS020002,1881,West Branch River John,NS039025,1891,"River John, West branche",NS,1.0,66.52
+NS007011,1881,Arichat W-O,NS041015,1891,West Arichat,NS,1.0,72.61
+NS007013,1881,Forchu,NS041005,1891,Framboise,NS,1.0,48.67
+NS012011,1881,Local District No. 11,NS040001,1891,Brookfield,NS,1.0,41.24
+NS012006,1881,Local District No. 6,NS040002,1891,Brooklyn,NS,1.0,42.69
+NS012012,1881,Local District No. 12,NS040003,1891,Caledonia,NS,1.0,51.03
+NS013002,1881,"Birchtown, Gunning Cove",NS042005,1891,Church-Over,NS,1.0,58.82
+NS012007,1881,Local District No. 7,NS040004,1891,Eagle Head,NS,1.0,46.36
+NS012010,1881,Local District No. 10,NS040005,1891,Greenfield,NS,1.0,36.72
+NS012003,1881,Local District No. 3,NS040006,1891,Hunt’s Point,NS,1.0,40.82
+NS012013,1881,Local District No. 13,NS040007,1891,Kempt,NS,1.0,33.08
+NS012005,1881,Local District No. 5,NS040010,1891,Milton,NS,1.0,43.85
+NS013001,1881,Clyde River,NS042011,1891,North-East Harbonr,NS,1.0,49.31
+NS012008,1881,Local District No. 8,NS040011,1891,Port Medway,NS,1.0,45.76
+NS012004,1881,Local District No. 4,NS040012,1891,Port Mouton,NS,1.0,50.27
+NS013007,1881,"Sable River, Louis Head",NS042009,1891,Louis Head,NS,1.0,72.42
+NS012009,1881,Local District No. 9,NS040009,1891,Mill Village,NS,1.0,45.19
+NS014007,1881,West Tusket River,NS044022,1891,Tusket Lakes,NS,1.0,68.62
+NS014006,1881,Kempt,NS044012,1891,Kemptville,NS,1.0,76.67
+NS014001,1881,Plymouth,NS044023,1891,Tusket Wedge,NS,1.0,44.0
+NS020015,1881,Albion Mines,NS039026,1891,Stellarton,NS,1.0,49.09
+NS010016,1881,Truro Road,NS034012,1891,Polling District No. 18,NS,1.0,37.97
+NS004015,1881,Young's Bridge,NS036011,1891,Margarie S-O,NS,1.0,51.54
+QC058012,1881,"Actonvale, Village",QC138001,1891,"Acton, Town—Ville",QC,1.0,78.0
+QC048008,1881,St. Pierre,QC139021,1891,St. Pierre de Broughton,QC,0.9978,72.42
+QC048018,1881,Lambton,QC139025,1891,St. Vital de Lambton,QC,1.0,66.3
+QC073003,1881,"Melocheville, St. Clément",QC140004,1891,St. Clément,QC,1.0,72.78
+QC086005,1881,Isle du Pad,QC142012,1891,Visitation de l’île Dupas,QC,1.0,65.0
+QC038009,1881,"Carleton, Township",QC143001,1891,Carleton,QC,0.9845,73.08
+QC038011,1881,St. Jean l'Évangéliste,QC143013,1891,Nouvelle & Shoolbred E,QC,0.9912,45.91
+QC038015,1881,"Restigouche, Township",QC143019,1891,Restigouche,QC,1.0,78.12
+QC067010,1881,St. Bazile,QC145008,1891,St. Bazile le Grand,QC,1.0,78.28
+QC082009,1881,Mont Carmel,QC146003,1891,Notre-Dame du Mont Carmel,QC,1.0,72.78
+QC077007,1881,St. F.-X. de la Petite Rivière,QC147005,1891,Petite Rivière,QC,1.0,74.55
+QC076017,1881,St. François-Xavier,QC149001,1891,Chicoutimi,QC,1.0,41.76
+QC076020,1881,Kénogami,QC149018,1891,St. Cyriac,QC,1.0,35.05
+QC076018,1881,Laterrière,QC149006,1891,Notre-Dame de Laterrière,QC,1.0,68.45
+QC076022,1881,St. Joseph,QC149025,1891,St. Joseph d’Alma,QC,1.0,79.12
+QC054017,1881,Clifton W-O & E,QC150004,1891,"Clifton E & W-O, & St. Edwidge and Martinville, Village",QC,1.0,60.0
+QC047004,1881,St. Edouard,QC152004,1891,St. Edouard de Frampton,QC,1.0,75.29
+QC047005,1881,Cranbourne,QC152012,1891,St. Odilon de Cranbourne,QC,1.0,71.18
+QC052020,1881,Chester E,QC153022,1891,Ste. Hélène,QC,1.0,65.0
+QC052010,1881,Ulverton,QC153004,1891,Durham,QC,1.0,50.0
+QC052001,1881,St. Eugène,QC153019,1891,St. Eugène de Grantham,QC,1.0,73.75
+QC052005,1881,St. Germain,QC153020,1891,St. Germain de Grantham,QC,1.0,75.29
+QC039008,1881,"St. Alban, Cap des Rosiers",QC154003,1891,Cap Rosier,QC,1.0,68.89
+QC039006,1881,Rivière au Renard,QC154007,1891,Fox & Sydenham N,QC,1.0,51.21
+QC039023,1881,Grosse Ile,QC154011,1891,"Grosse Ile, Isle Bryon & Bird Rocks",QC,1.0,61.11
+QC039007,1881,"St. Joseph, Anse au Griffon",QC154015,1891,L’Anse aux Griffons,QC,1.0,75.65
+QC039014,1881,St. Pierre de la Malbaie,QC154017,1891,Malbaie,QC,1.0,61.61
+QC039018,1881,Ste. Adelaïde de Pabos,QC154020,1891,Pabos,QC,1.0,55.93
+QC091008,1881,"St. Gabriel, Village",QC155017,1891,"Montréal, St. Gabriel, Ward—Quartier",QC,1.0,67.5
+QC091011,1881,"N.-Dame de Grâce, W-O",QC155011,1891,"Notre-Dame-de-Grâce, Village",QC,1.0,72.86
+QC087012,1881,St. Alphonse,QC159002,1891,St. Alphonse de Rodriguez,QC,1.0,75.41
+QC087010,1881,St. Ambroise,QC159003,1891,St. Ambroise de Kildare,QC,1.0,78.0
+QC087006,1881,St. Félix,QC159009,1891,St. Félix de Valois,QC,1.0,75.0
+QC042001,1881,Ste. Anne,QC160005,1891,Ste. Anne de la Pocatière,QC,1.0,67.06
+QC042009,1881,Kamouraska,QC160010,1891,St. Louis,QC,1.0,52.11
+QC097005,1881,"Bowman, Villeneuve",QC176008,1891,Bowman & Villeneuve,QC,1.0,78.17
+QC097003,1881,"L'Ange Gardien, Village",QC176022,1891,L’Ange Gardien,QC,1.0,63.04
+QC097013,1881,"Mulgrave, Derry",QC176030,1891,Mulgrave & Derry,QC,1.0,77.07
+QC097023,1881,"Ponsonby, Namur",QC176034,1891,Ponsonby,QC,1.0,62.54
+QC097014,1881,Ste. Angelique,QC176040,1891,Ste. Angélique,QC,1.0,78.85
+QC070003,1881,St. Michel,QC174004,1891,St. Michel Archange,QC,1.0,78.28
+QC070005,1881,Sherrington,QC174005,1891,St. Patrice de Sherrington,QC,1.0,71.62
+QC088002,1881,Mascouche,QC162007,1891,St. Henri de Mascouche,QC,1.0,68.15
+QC088004,1881,St. Roch,QC162010,1891,St. Roch de l’Achigan,QC,1.0,66.12
+QC091017,1881,Rivière des Prairies,QC155020,1891,"St. Joseph, Riv. des Prairies",QC,1.0,75.71
+QC046007,1881,St. Henri,QC164007,1891,St. Henri de Lauzon,QC,1.0,75.0
+QC046008,1881,St. Lambert,QC164010,1891,St. Lambert de Lauzon,QC,1.0,78.12
+QC046012,1881,St. Romuald,QC164012,1891,St. Romuald d’Etchemin,QC,1.0,76.67
+QC046001,1881,"Lévis, Town—Ville",QC164003,1891,"Lévis, City—Cité",QC,1.0,72.42
+QC049012,1881,St. Patrice,QC166013,1891,St. Patrice de Beaurivage,QC,1.0,72.78
+QC089007,1881,St. Calixte de Beauport,QC170002,1891,"St. Calixte, Village",QC,1.0,72.33
+QC044005,1881,Berthier,QC171002,1891,L’Assomption de Berthier,QC,1.0,65.0
+QC044004,1881,St. François,QC171007,1891,St. François de la Rivière du Sud,QC,1.0,67.33
+QC078013,1881,Laval,QC172004,1891,Ste. Brigitte de Laval,QC,1.0,55.93
+QC078011,1881,St. Tite,QC172013,1891,St. Tite des Caps,QC,1.0,74.8
+QC051004,1881,Ste. Angèle,QC175006,1891,Ste. Angèle de Laval,QC,1.0,79.68
+QC051014,1881,Ste. Brigitte,QC175007,1891,Ste. Brigitte des Saults,QC,1.0,79.19
+QC098010,1881,"Portage du Fort, Village",QC177018,1891,Portage du Fort (Village) & Lower Litchfield,QC,1.0,77.35
+QC079009,1881,"Québec, Banlieue Centre",QC179001,1891,Banlieu,QC,1.0,53.75
+QC079008,1881,"Québec, Montcalm Ward—Quartier (Centre)",QC179005,1891,"Québec, Montcalm Centre, Ward—Quartier",QC,1.0,75.63
+QC079013,1881,"Québec, Banlieue S",QC179002,1891,"Banlieu, South—Sud",QC,1.0,56.08
+QC080003,1881,Lac Beauport,QC180008,1891,"St. Dunstan, Lac Beauport",QC,1.0,72.55
+QC053011,1881,"Melbourne, Brompton Gore",QC182008,1891,"Melbourne, Brompton, Gore and New Rockland, Village",QC,1.0,74.8
+QC053017,1881,St. Julien de Wolfestown,QC182018,1891,St. Julien,QC,1.0,71.18
+QC053003,1881,"Richmond, Village",QC182010,1891,Richmond,QC,1.0,74.8
+QC053007,1881,"Danville, Village",QC182003,1891,Danville,QC,1.0,74.8
+QC040020,1881,"McNider, Township",QC183006,1891,N.-D. de l'Assomption,QC,1.0,55.79
+QC040006,1881,Notre Dame du Sacré Cœur,QC183007,1891,N.-D. du Sacré-Cœur,QC,1.0,78.84
+QC040016,1881,Ste. Angèle,QC183013,1891,Ste. Angèle de Merrici,QC,1.0,76.67
+QC040013,1881,St. Gabriel,QC183022,1891,St. Gabriel & St. Marcelin,QC,1.0,71.62
+QC040015,1881,St. Joseph,QC183024,1891,St. Joseph de Lepage,QC,1.0,76.67
+QC068001,1881,Lacolle,QC186001,1891,St. Bernard de Lacolle,QC,1.0,63.79
+QC068004,1881,St. Jean,QC186002,1891,St. Jean l’Evangéliste,QC,1.0,67.33
+QC068003,1881,L'Acadie,QC186005,1891,Ste. Marguerite de Blairfindie,QC,1.0,48.42
+QC074007,1881,St. Joseph de Soulanges,QC190007,1891,St. Joseph,QC,1.0,72.42
+QC096009,1881,Wolfe,QC193005,1891,St. Faustin,QC,1.0,20.75
+QC096008,1881,"De Salaberry, Grandison",QC193010,1891,St. Jovite,QC,1.0,24.73
+QC094001,1881,"Terrebonne, Town—Ville",QC193011,1891,St. Louis,QC,1.0,48.06
+QC094017,1881,Doncaster,QC193012,1891,Ste. Lucie,QC,1.0,52.11
+QC094002,1881,Terrebonne,QC193018,1891,"Terrebonne, Town—Ville",QC,1.0,73.75
+QC084007,1881,Shawenegan,QC187003,1891,St. Boniface,QC,1.0,49.09
+QC084005,1881,St. Elie,QC187004,1891,St. Elie de Caxton,QC,1.0,73.08
+QC084004,1881,St. Etienne,QC187005,1891,St. Etienne des Grès,QC,1.0,79.68
+QC075007,1881,Isle Perrot,QC195005,1891,Ste. Jeanne de l’île Perrot,QC,1.0,66.84
+QC097045,1881,Unorganized Territory,QC176042,1891,"Sicotte, Lytton & Baskatong",QC,1.0,31.35
+QC097028,1881,"Gatineau, Village",QC176033,1891,Pointe Gatineau,QC,1.0,48.85
+QC038013,1881,"Mann, Township",QC143006,1891,Mann & Indian Reserve,QC,1.0,58.0
+QC039004,1881,La Grande Vallée,QC154010,1891,Grande Vallée des Monts,QC,1.0,76.67
+QC044006,1881,Ile aux Grues,QC171006,1891,St. Antoine de l'Ile aux Grues,QC,1.0,72.33
+QC091001,1881,"St. Jean Baptiste, Village",QC155019,1891,"Montréal, St. Jean-Baptiste, Ward—Quartier",QC,1.0,71.18
+QC052031,1881,St. Samuel,QC175017,1891,St. Samuel,QC,1.0,74.29
+QC061001,1881,"Sorel, Town—Ville",QC181001,1891,"Sorel, City—Cité",QC,1.0,72.42
+QC040025,1881,Ste. Félicité,QC183020,1891,Ste. Félicité & Cherbourg,QC,1.0,77.89
+QC061004,1881,Ste. Anne,QC181003,1891,Ste. Anne de Sorel,QC,1.0,76.67
+QC038012,1881,"Escuminac, Village",QC143014,1891,Nouvelle & Shoolbred W-O,QC,1.0,46.67
+QC079003,1881,"Québec, St. Roch S",QC179013,1891,"St. Roch, South —Sud",QC,1.0,57.92
+QC053010,1881,Brompton,QC182001,1891,Brompton & St. Frs.-Xavier,QC,1.0,62.94
+QC062006,1881,St. Louis,QC185010,1891,St. Louis de Bonsecours,QC,1.0,69.38
+QC061007,1881,St. Louis,QC181005,1891,St. Louis de Bonsecours,QC,1.0,69.38
+QC076012,1881,St. Jean,QC149004,1891,L’Anse St. Jean,QC,1.0,75.97
+QC097021,1881,Petite Nation N,QC176037,1891,Preston & Addington,QC,1.0,46.79
+QC079004,1881,"Québec, St. Roch N",QC179012,1891,"St. Roch, North—Nord",QC,1.0,57.92
+QC081004,1881,Bourg Louis,QC178001,1891,"Bourg Louis, Village",QC,1.0,79.68
+ON048003,1891,Brantford,ON127004,1901,"Brantford, East—Est",ON,1.0,67.17
+ON048004,1891,Dumfries S,ON127005,1901,"Dumfries, South—Sud",ON,1.0,70.45
+ON049001,1891,Brantford W-O,ON046002,1901,"Brantford, West—Ouest",ON,1.0,79.41
+ON052002,1891,Amabel & Saugeen,ON049002,1901,Amabel & Saugeen Ind. Reserve,ON,1.0,79.78
+ON062010,1891,"Windsor, Town—Ville",ON059012,1901,"Windsor, City—Cité",ON,1.0,75.41
+ON062009,1891,Walkerville,ON059011,1901,"Walkerville, Town—Ville",ON,1.0,75.29
+ON063003,1891,Colchester N,ON060003,1901,"Colchester, North—Nord",ON,1.0,79.41
+ON063005,1891,"Essex Centre, Village",ON060005,1901,"Essex, Town—Ville",ON,1.0,74.21
+ON062008,1891,"Tilbury Centre (Village), part",ON059009,1901,"Tilbury (part), Village",ON,1.0,74.91
+ON085002,1891,Gower S,ON082002,1901,"Gower, South—Sud",ON,1.0,72.61
+ON085003,1891,Kemptville,ON082003,1901,"Kemptville, Village",ON,1.0,78.28
+ON094001,1891,Canboro',ON067002,1901,Canboro,ON,1.0,76.24
+ON070002,1891,Cayuga N,ON067003,1901,"Cayuga, North—Nord",ON,1.0,63.85
+ON094002,1891,Cayuga S,ON067004,1901,"Cayuga, South—Sud",ON,1.0,55.71
+ON070008,1891,Walpole,ON094008,1901,Walpole,ON,1.0,74.44
+ON078004,1891,East Wawanosh,ON075006,1901,"Wawanosh, East—Est",ON,1.0,66.13
+ON078007,1891,Wawanosh W-O,ON075007,1901,"Wawanosh, West—Ouest",ON,1.0,78.12
+ON079008,1891,Tilbury E,ON076008,1901,"Tilbury, East—Est",ON,1.0,78.46
+ON079002,1891,"Chatham, Town—Ville",ON076002,1901,"Chatham, City—Cite",ON,1.0,79.19
+ON079007,1891,"Tilbury Centre (Village), part",ON076007,1901,"Tilbury (part), Village",ON,1.0,74.91
+ON084003,1891,Burgess N,ON081003,1901,"Burgess, North—Nord",ON,1.0,75.0
+ON084006,1891,Elmsley N,ON081006,1901,"Elmsley, North—Nord",ON,0.9927,75.0
+ON086003,1891,Crosby,ON083003,1901,"Crosby, North—Nord",ON,1.0,65.0
+ON086004,1891,Crosby S,ON083004,1901,"Crosby, South—Sud",ON,1.0,74.8
+ON085001,1891,Elmsley S,ON082001,1901,"Elmsley, South—Sud",ON,0.9904,76.67
+ON094005,1891,Gainsborough,ON085003,1901,Gainsborough,ON,1.0,75.45
+ON130005,1891,Grimsby N,ON128008,1901,"Grimsby, North—Nord",ON,1.0,75.0
+ON130006,1891,Grimsby S,ON128009,1901,"Grimsby, South—Sud",ON,1.0,76.67
+ON090001,1891,Dorchester N,ON087001,1901,"Dorchester, North—Nord",ON,1.0,79.41
+ON090006,1891,Nissouri W-O,ON087006,1901,"Nissouri, West—Ouest",ON,1.0,78.12
+ON091009,1891,Williams W-O,ON088009,1901,"Williams, West—Ouest",ON,1.0,78.12
+ON114005,1891,"Head, Maria & Clara",ON092016,1901,"Clara, Head & Maria",ON,1.0,41.13
+ON102005,1891,Whitby W-O,ON098007,1901,"Whitby, West—Ouest",ON,1.0,75.0
+ON102004,1891,Whitby E,ON098005,1901,"Whitby, East—Est",ON,1.0,76.67
+ON105007,1891,Zorra E,ON101007,1901,"Zorra, East—Est",ON,1.0,74.55
+ON105008,1891,Zorra W-O,ON101008,1901,"Zorra, West—Ouest",ON,1.0,73.08
+ON105006,1891,"Woodstock, Town—Ville",ON101006,1901,"Woodstock, City—Cité",ON,1.0,77.8
+ON106003,1891,Norwich N,ON102003,1901,"Norwich, North—Nord",ON,1.0,75.0
+ON106004,1891,Norwich S,ON102004,1901,"Norwich, South—Sud",ON,1.0,76.67
+ON106007,1891,Oxford E,ON102007,1901,"Oxford, East—Est",ON,1.0,76.67
+ON106008,1891,Oxford N,ON102008,1901,"Oxford, North—Nord",ON,1.0,73.08
+ON106009,1891,Oxford W-O,ON102009,1901,"Oxford, West—Ouest",ON,1.0,75.0
+ON105002,1891,Easthope N,ON101002,1901,"Easthope, North—Nord",ON,1.0,76.67
+ON108006,1891,Mornington,ON104006,1901,"Mornington, Village",ON,1.0,78.28
+ON105003,1891,Easthope S,ON101003,1901,"Easthope, South—Sud",ON,1.0,78.28
+ON111003,1891,Monaghan S,ON107003,1901,"Monaghan, South—Sud",ON,1.0,78.28
+ON110001,1891,"Ashburnham, Village",ON107004,1901,"Peterborough, Town—Ville",ON,1.0,59.95
+ON113006,1891,Marysburg S,ON109006,1901,"Marysburg, South—Sud",ON,1.0,79.68
+ON114001,1891,Algona S,ON110001,1901,"Algona, South—Sud",ON,1.0,74.8
+ON118003,1891,Creemore,ON114003,1901,"Creemore, Village",ON,1.0,74.8
+ON046032,1891,Murillo,ON044060,1901,Oliver,ON,1.0,40.77
+ON124002,1891,Dumfries N,ON122002,1901,"Dumfries, North—Nord",ON,1.0,76.67
+ON125001,1891,Bertie,ON123002,1901,"Bridgeburg, Village",ON,0.9843,58.0
+ON094007,1891,Pelham,ON085009,1901,Pelham,ON,1.0,75.45
+ON126005,1891,Garafraxa W-O,ON124005,1901,"Garafraxa, West—Ouest",ON,1.0,79.41
+ON129003,1891,Flamborough E,ON128005,1901,"Flamborough, East—Est",ON,1.0,76.94
+ON129004,1891,Flamborough W-O,ON128006,1901,"Flamborough, West—Ouest",ON,1.0,74.99
+ON046053,1891,Dawson,ON044091,1901,Meldrum Bay,ON,1.0,46.47
+ON046040,1891,Rainy River,ON044037,1901,Beaver Mills,ON,1.0,54.35
+ON090005,1891,"London W-O, Village",ON087004,1901,"London, Ward—Quartier 3 & 4 (part city)",ON,1.0,54.14
+ON046002,1891,Bruce Mines,ON044023,1901,Rydal Bank,ON,1.0,50.0
+ON047006,1891,Sombra,ON045006,1901,Sombra & Walpole Island,ON,0.9847,58.97
+MB009020,1891,Oakland,MB006011,1901,Oakland,MB,1.0,74.29
+MB009013,1891,Elton,MB006007,1901,Elton,MB,1.0,74.29
+MB009014,1891,Glenwood,MB006008,1901,Glenwood,MB,1.0,74.29
+MB009028,1891,Whitehead,MB006016,1901,Whitehead,MB,1.0,74.29
+MB009007,1891,Daly,MB006006,1901,Daly,MB,1.0,74.29
+MB009024,1891,Sifton,MB006013,1901,Sifton,MB,1.0,74.29
+MB009030,1891,Woodworth,MB006019,1901,Woodworth,MB,1.0,74.29
+MB009021,1891,Pipestone,MB006012,1901,Pipestone,MB,1.0,74.29
+MB009027,1891,Wallace,MB006014,1901,Wallace,MB,1.0,74.29
+MB009026,1891,"Virden, Town—Ville",MB006015,1901,"Virden, Town—Ville",MB,1.0,74.29
+MB009019,1891,"Morden, Town—Ville",MB007013,1901,"Morden, Village",MB,1.0,69.0
+MB007019,1891,Oak River,MB009014,1901,Hamiota,MB,1.0,47.5
+MB007017,1891,Norfolk N,MB008008,1901,Norfolk North—Nord,MB,1.0,53.33
+MB007007,1891,Cypress N,MB008002,1901,"Cypress, North—Nord",MB,0.9983,51.67
+MB007008,1891,Cypress S,MB008003,1901,"Cypress, South—Sud",MB,1.0,53.33
+MB007010,1891,"Gladstone, Town—Ville",MB008004,1901,"Gladstone, Town—Ville",MB,1.0,76.67
+MB007016,1891,"Neepawa, Town—Ville",MB008007,1901,"Neepawa, Town—Ville",MB,1.0,76.67
+MB007023,1891,"Portage la Prairie, Town—Ville",MB008012,1901,"Portage la Prairie, Town—Ville",MB,1.0,76.67
+BC002003,1891,"Vancouver, City—Cité",BC001004,1901,"Vancouver, City—Cité",BC,1.0,72.73
+BC003007,1891,Goldstream and Sooke,BC003009,1901,"Victoria, South—Sud",BC,1.0,51.54
+NL001999,1891,Labrador,NL999999,1901,NO DATA,NL,1.0,48.67
+NB013018,1891,West Isles (Deer Island),NB015017,1901,West Isles,NB,1.0,71.18
+NB021001,1891,"Portland, Dufferin, Ward—Quartier",NB021009,1901,"St. John, Dufferin, Ward—Quartier",NB,1.0,76.16
+NB021002,1891,"Portland, Lansdowne, Ward—Quartier",NB021010,1901,"St. John, Lansdowne, Ward—Quartier",NB,1.0,76.54
+NB021003,1891,"Portland, Lorne, Ward—Quartier",NB021011,1901,"St. John, Lorne, Ward—Quartier",NB,1.0,74.89
+NB021004,1891,"Portland, Stanley, Ward—Quartier",NB021012,1901,"St. John, Stanley, Ward—Quartier",NB,1.0,75.76
+NB021005,1891,"Portland, Victoria, Ward—Quartier",NB021013,1901,"St. John, Victoria, Ward—Quartier",NB,1.0,76.16
+NB023008,1891,Ste. Anne,NB023008,1901,St. Anns,NB,1.0,74.79
+NB023013,1891,St. Leonard's,NB023013,1901,St. Léonard,NB,1.0,75.48
+NS026009,1891,Clements W-O,NS026009,1901,"Clements, West—Ouest",NS,1.0,78.12
+NS026027,1891,Round Hill (Moschelle),NS026027,1901,Round Hill,NS,1.0,73.75
+NS027002,1891,"Antigonish, Village",NS027003,1901,"Antigonish, South—Sud",NS,1.0,72.0
+NS027004,1891,Ballantyne’s Cove,NS027004,1901,Cape George,NS,1.0,55.0
+NS027005,1891,Fraser’s Mills,NS027015,1901,South-River,NS,1.0,46.8
+NS027010,1891,Malignant Brook,NS027009,1901,Maryvale,NS,1.0,48.26
+NS027011,1891,Mahoney’s Beach,NS027010,1901,Morristown,NS,1.0,46.8
+NS027014,1891,Salt Springs,NS027011,1901,North Grant,NS,1.0,54.35
+NS027012,1891,Merland,NS027016,1901,Tracadie,NS,1.0,58.0
+NS028014,1891,Leitche’s Creek,NS028012,1901,George River,NS,1.0,55.93
+NS043013,1891,New Haven,NS041013,1901,Neil Harbour,NS,1.0,63.33
+NS028020,1891,North Sydney,NS028022,1901,"North Sydney, Town—Ville",NS,1.0,76.67
+NS028007,1891,Cow Bay,NS028023,1901,Port Morien,NS,1.0,45.56
+NS028022,1891,Sydney Forks,NS028025,1901,South Forks,NS,1.0,72.61
+NS029010,1891,Lower Stewiacke S,NS029007,1901,Gays River,NS,1.0,45.56
+NS029008,1891,"Kempt, Town—Ville",NS029008,1901,Kemptown,NS,1.0,74.8
+NS030004,1891,Advocate Harbour,NS030029,1901,Polling district No. 33,NS,1.0,47.95
+NS030006,1891,Malagash,NS030015,1901,Polling district No. 17,NS,1.0,43.55
+NS030016,1891,Victoria,NS030017,1901,Polling district No. 19,NS,1.0,48.06
+NS030012,1891,River Philip,NS030018,1901,Polling district No. 20,NS,1.0,46.0
+NS030015,1891,Springhill,NS030022,1901,Polling district No. 24,NS,1.0,51.21
+NS030019,1891,Wentworth,NS030014,1901,Polling district No. 16,NS,1.0,47.5
+NS030017,1891,Westchester,NS030016,1901,Polling district No. 18,NS,1.0,46.47
+NS030010,1891,Parrsboro’,NS030033,1901,Polling district No. 38,NS,1.0,46.97
+NS032005,1891,Forks St. Mary’s,NS032005,1901,Forks,NS,1.0,63.33
+NS032007,1891,Guysborough Intervale,NS032009,1901,Intervale,NS,1.0,72.0
+NS034034,1891,Polling District No. 36,NS033009,1901,"Chezzetcook, East—Est",NS,1.0,37.51
+NS034024,1891,Polling District No. 28a,NS033010,1901,"Chezzetcook, West—Ouest",NS,1.0,36.49
+NS034036,1891,Polling District No. 38,NS033013,1901,East Dover,NS,1.0,38.57
+NS034031,1891,Polling District No. 33,NS033014,1901,Eastern Passage,NS,1.0,40.02
+NS034006,1891,Polling District No. 12,NS033017,1901,"French, Village",NS,1.0,32.65
+NS034013,1891,Polling District No. 19,NS033018,1901,Gays River,NS,1.0,38.57
+NS034005,1891,Polling District No. 11,NS033019,1901,Hackett Cove,NS,1.0,37.6
+NS034010,1891,Polling District No. 16,NS033020,1901,Hammond Plains,NS,1.0,40.52
+NS034030,1891,Polling District No.  32b,NS033022,1901,Hubbard Cove,NS,1.0,32.95
+NS034029,1891,Polling District No. 32a,NS033023,1901,Ingram River,NS,1.0,44.93
+NS034023,1891,Polling District No. 27b,NS033024,1901,Jeddore,NS,1.0,30.63
+NS034026,1891,Polling District No. 29,NS033025,1901,Lawrencetown,NS,1.0,41.6
+NS034033,1891,Polling District No. 35,NS033026,1901,Little River,NS,1.0,41.6
+NS034014,1891,Polling District No. 20,NS033027,1901,Meagher Grant,NS,1.0,37.16
+NS034015,1891,Polling District No. 21,NS033028,1901,Middle Musquodoboit,NS,1.0,38.27
+NS034035,1891,Polling District No. 37,NS033029,1901,Musquodoboit Harbour,NS,1.0,41.13
+NS034008,1891,Polling District No. 14,NS033030,1901,Northwest Arm,NS,1.0,37.16
+NS034032,1891,Polling District No. 34,NS033031,1901,Port Dufferin,NS,1.0,48.82
+NS034037,1891,Polling District No. 39,NS033032,1901,Porter Lake,NS,1.0,42.19
+NS034002,1891,Polling District No. 8,NS033033,1901,Portuguese Cove,NS,1.0,44.3
+NS034027,1891,Polling District No. 30,NS033034,1901,Preston,NS,1.0,40.27
+NS034011,1891,Polling District No. 17,NS033045,1901,Thirteen-mile House,NS,1.0,38.27
+NS034003,1891,Polling District No. 9,NS033037,1901,Sambro,NS,1.0,36.6
+NS034025,1891,Polling District No. 28b,NS033038,1901,Seaforth,NS,1.0,34.72
+NS034019,1891,Polling District No. 25,NS033039,1901,Sheet Harbour,NS,1.0,37.16
+NS034022,1891,Polling District No. 27a,NS033040,1901,Ship Harbour,NS,1.0,37.16
+NS034021,1891,Polling District No. 26b,NS033041,1901,Shoal Bay,NS,1.0,38.57
+NS034018,1891,Polling District No. 24,NS033042,1901,Smith Cove,NS,1.0,42.81
+NS034020,1891,Polling District No. 26a,NS033043,1901,Spry Bay,NS,1.0,39.1
+NS034007,1891,Polling District No. 13,NS033036,1901,Prospect Road,NS,1.0,48.82
+NS034017,1891,Polling District No. 23,NS033044,1901,Terence Bay,NS,1.0,38.07
+NS034016,1891,Polling District No. 22,NS033046,1901,Upper Musquodoboit,NS,1.0,38.67
+NS034004,1891,Polling District No. 10,NS033047,1901,Upper Prospect,NS,1.0,40.52
+NS035014,1891,Rawdon Church,NS034011,1901,Rawdon,NS,1.0,74.21
+NS035002,1891,Brooklyn,NS034016,1901,South Newport,NS,1.0,43.33
+NS036010,1891,Margarie N-E,NS035012,1901,"Margaree, Northeast—Nord-est",NS,1.0,68.5
+NS036011,1891,Margarie S-O,NS035013,1901,"Margaree, Southwest—Sud-ouest",NS,1.0,67.56
+NS036017,1891,River Dennis,NS035019,1901,Denys River,NS,1.0,60.43
+NS036018,1891,River Inhabitants,NS035020,1901,Inhabitants River (part),NS,1.0,67.56
+NS036012,1891,North Mountain,NS035023,1901,West Bay,NS,1.0,49.09
+NS036020,1891,Whycocomagh,NS035024,1901,"Whycocomagh, North side—Côté nord",NS,1.0,65.0
+NS036021,1891,Whycocomagh S,NS035025,1901,"Whycocomagh, South side—Côté sud",NS,1.0,70.44
+NS036004,1891,"Hawkesbury, Town—Ville",NS035017,1901,Port Hawkesbury,NS,1.0,67.84
+NS038001,1891,Baywater,NS037032,1901,Sandy Beaches,NS,1.0,56.67
+NS039007,1891,East River,NS038005,1901,Bridgeville,NS,1.0,56.67
+NS039009,1891,French River,NS038036,1901,Wentworth Grant,NS,1.0,55.93
+NS039020,1891,"New Glasgow, Town—Ville",NS038025,1901,New Glasgow,NS,1.0,75.29
+NS041015,1891,West Arichat,NS039002,1901,"Arichat, West—Ouest",NS,1.0,61.61
+NS041014,1891,Upper l’Ardoise,NS039015,1901,Rockdale,NS,1.0,48.26
+NS042001,1891,Barrington,NS040001,1901,Barrington Head,NS,1.0,76.0
+NS042004,1891,Cape Sable Island Centre,NS040009,1901,North Cape Island,NS,1.0,57.56
+NS042003,1891,Cape Sable Island,NS040003,1901,Clark Harbour,NS,1.0,43.33
+NS042013,1891,Port Clyde,NS040004,1901,Clyde River,NS,1.0,53.33
+NS040004,1891,Eagle Head,NS040019,1901,Beach Meadows,NS,1.0,50.92
+NS042006,1891,Green Harbour,NS040013,1901,Ragged Island,NS,1.0,41.54
+NS040006,1891,Hunt’s Point,NS040024,1901,Hunt Point,NS,1.0,78.04
+NS042007,1891,Jordan Bay W-O,NS040006,1901,Jordan Bay,NS,1.0,78.33
+NS042008,1891,Jordan Falls,NS040007,1901,Jordan River,NS,1.0,60.83
+NS042009,1891,Louis Head,NS040014,1901,Sable River,NS,1.0,40.0
+NS042017,1891,Shelburne,NS040017,1901,"Shelburne, Town—Ville",NS,1.0,62.0
+NS044022,1891,Tusket Lakes,NS042007,1901,Forest Lakes (Tusket),NS,1.0,63.94
+NS044016,1891,Pubnico E,NS042015,1901,"Pubnico, East—Est",NS,1.0,78.46
+NS044018,1891,Pubnico W-O,NS042017,1901,"Pubnico, West—Ouest",NS,1.0,76.67
+NS037007,1891,Gaspereaux,NS036026,1901,Ward—Quartier No. 7,NS,1.0,41.76
+NS042002,1891,Barrington Passage,NS040005,1901,Doctor Cove,NS,1.0,39.31
+NS034012,1891,Polling District No. 18,NS033015,1901,Fall River,NS,1.0,42.81
+PE134019,1891,Township No. 61,PE135014,1901,Township 61,PE,1.0,64.69
+PE134020,1891,Township No. 63,PE135015,1901,Township 63,PE,1.0,64.69
+PE134021,1891,Township No. 64,PE135016,1901,Township 64,PE,1.0,64.69
+PE135002,1891,Township No. 1,PE134001,1901,Township 1,PE,1.0,73.33
+PE135003,1891,Township No. 2,PE134002,1901,Township 2,PE,1.0,73.33
+PE135004,1891,Township No. 3,PE134003,1901,Township 3,PE,1.0,73.33
+PE135005,1891,Township No. 4,PE134004,1901,Township 4,PE,1.0,73.33
+PE135006,1891,Township No. 5,PE134005,1901,Township 5,PE,1.0,73.33
+PE135007,1891,Township No. 6,PE134006,1901,Township 6,PE,1.0,73.33
+PE135008,1891,Township No. 7,PE134007,1901,Township 7,PE,1.0,73.33
+PE135009,1891,Township No. 8,PE134008,1901,Township 8,PE,1.0,73.33
+PE135010,1891,Township No. 9,PE134009,1901,Township 9,PE,1.0,73.33
+PE135011,1891,Township No. 10,PE134010,1901,Township 10,PE,1.0,74.23
+PE135012,1891,Township No. 11,PE134011,1901,Township 11,PE,1.0,74.23
+PE135013,1891,Township No. 12,PE134012,1901,Township 12,PE,1.0,74.23
+PE135014,1891,Township No. 13,PE134013,1901,Township 13,PE,1.0,74.23
+PE135015,1891,Township No. 14,PE134014,1901,Township 14,PE,1.0,74.23
+PE135016,1891,Township No. 15,PE133002,1901,Township 15,PE,1.0,75.59
+PE135017,1891,Township No. 16,PE134015,1901,Township 16,PE,1.0,74.23
+PE135018,1891,Township No. 17,PE133003,1901,Township 17,PE,1.0,75.59
+PE135019,1891,Township No. 18,PE133004,1901,Township 18,PE,1.0,75.59
+PE135020,1891,Township No. 19,PE133005,1901,Township 19,PE,1.0,75.59
+PE135021,1891,Township No. 25,PE133006,1901,Township 25,PE,1.0,75.59
+PE135022,1891,Township No. 26,PE133007,1901,Township 26,PE,1.0,75.59
+PE135023,1891,Township No. 27,PE133008,1901,Township 27,PE,1.0,75.59
+PE135024,1891,Township No. 28,PE133009,1901,Township 28,PE,1.0,75.59
+PE136002,1891,Township No. 20,PE136002,1901,Township 20,PE,1.0,73.63
+PE136003,1891,Township No. 21,PE136003,1901,Township 21,PE,1.0,73.63
+PE136004,1891,Township No. 22,PE136004,1901,Township 22,PE,1.0,73.63
+PE136005,1891,Township No. 23,PE136005,1901,Township 23,PE,1.0,73.63
+PE136006,1891,Township No. 24,PE135001,1901,Township 24,PE,1.0,74.88
+PE136007,1891,Township No. 29,PE133010,1901,Township 29,PE,1.0,67.06
+PE136008,1891,Township No. 30,PE133011,1901,Township 30,PE,1.0,67.06
+PE136009,1891,Township No. 31,PE136006,1901,Township 31,PE,1.0,73.63
+PE136010,1891,Township No. 32,PE136007,1901,Township 32,PE,1.0,73.63
+PE136011,1891,Township No. 33,PE135002,1901,Township 33,PE,1.0,74.88
+PE136012,1891,Township No. 34,PE135003,1901,Township 34,PE,1.0,74.88
+PE136013,1891,Township No. 35,PE135004,1901,Township 35,PE,1.0,74.88
+PE136014,1891,Township No. 36,PE135005,1901,Township 36,PE,1.0,74.88
+PE136015,1891,Township No. 37,PE135006,1901,Township 37,PE,1.0,74.88
+PE136016,1891,Township No. 48,PE135007,1901,Township 48,PE,1.0,74.88
+PE136017,1891,Township No. 49,PE135008,1901,Township 49,PE,1.0,74.88
+PE136018,1891,Township No. 50,PE135009,1901,Township 50,PE,1.0,74.88
+PE136019,1891,Township No. 57,PE135010,1901,Township 57,PE,1.0,74.88
+PE136020,1891,Township No. 58,PE135011,1901,Township 58,PE,1.0,74.88
+PE136021,1891,Township No. 60,PE135012,1901,Township 60,PE,1.0,74.88
+PE136022,1891,Township No. 62,PE135013,1901,Township 62,PE,1.0,74.88
+PE136023,1891,Township No. 65,PE136008,1901,Township 65,PE,1.0,73.63
+PE136024,1891,Township No. 67,PE133012,1901,Township 67,PE,1.0,67.06
+PE136001,1891,Charlottetown Royalty,PE136001,1901,"Charlottetown, City & Royalty",PE,1.0,73.2
+QC138009,1891,St. Pie,QC189015,1901,St. Pie,QC,1.0,74.62
+QC139003,1891,Dorset,QC139030,1901,"Shenley, Jersey, Dorset & Marlow",QC,1.0,52.11
+QC139010,1891,St. Honoré de Shenley,QC139015,1901,St. Honoré,QC,1.0,75.16
+QC139027,1891,Woburn & Clinton,QC139031,1901,Woburn & Louise,QC,1.0,79.68
+QC141003,1891,Buckland,QC141001,1901,Notre-Dame de Buckland,QC,1.0,67.33
+QC141002,1891,Beaumont,QC141005,1901,St. Etienne de Beaumont,QC,1.0,66.13
+QC142005,1891,Lavaltrie,QC162005,1901,Lavaltrie,QC,1.0,76.0
+QC142003,1891,Courcelle,QC142012,1901,St. Zénon,QC,1.0,37.78
+QC144002,1891,Bolton W-O,QC144002,1901,"Bolton, West—Ouest",QC,1.0,75.0
+QC147005,1891,Petite Rivière,QC147007,1901,Petite Rivière St. François,QC,1.0,77.8
+QC149007,1891,Notre-Dame d’Hébertville,QC149010,1901,Hébertville,QC,0.9999,71.27
+QC149006,1891,Notre-Dame de Laterrière,QC149015,1901,N.-D. de Laterrière & Township,QC,1.0,71.35
+QC149009,1891,N.-D. du Lac St. Jean & Roberval,QC149016,1901,Roberval & Charlevoix,QC,1.0,48.4
+QC149017,1891,St. Charles & St. Ambroise,QC149004,1901,Bourget & St. Charles,QC,1.0,63.02
+QC149027,1891,St. Prime & Ashuapmouchouan S,QC149032,1901,St. Prime,QC,1.0,60.43
+QC149032,1891,Mécatina,QC149047,1901,Mekattina,QC,1.0,76.68
+QC150010,1891,"Hereford & Paquetteville, Village",QC150012,1901,Hereford,QC,1.0,57.32
+QC153022,1891,Ste. Hélène,QC153019,1901,"Chester, East—Est (Ste. Hélène)",QC,1.0,66.67
+QC153003,1891,ChesterN,QC153020,1901,"Chester, North—Nord",QC,1.0,71.48
+QC153025,1891,St. Paul,QC153021,1901,"Chester, West—Ouest (St. Paul)",QC,1.0,59.47
+QC154018,1891,Mont Louis,QC154015,1901,Mont Louis & Riv. Magdeleine,QC,1.0,66.84
+QC155018,1891,"St. Henri, Town—Ville",QC155003,1901,"St. Henri, City—Cité",QC,1.0,77.8
+QC155002,1891,"Côte St. Antoine, Village",QC155004,1901,"Westmount, City—Cité",QC,1.0,54.89
+QC155005,1891,"Côte St. Paul, Village",QC157019,1901,"St. Paul, Town—Ville",QC,1.0,57.5
+QC155012,1891,N.-Dame des Neiges W-O,QC157007,1901,"Notre-Dame des Neiges, West—Ouest",QC,1.0,58.41
+QC155013,1891,"Outremont, Village",QC157008,1901,"Outremont, Town—Ville",QC,1.0,64.94
+QC155022,1891,"Verdun, Village",QC157024,1901,"Verdun, Village",QC,1.0,77.5
+QC155004,1891,Côte St. Paul,QC157002,1901,Côte St. Paul,QC,1.0,77.5
+QC155001,1891,"Côte des Neiges, Village",QC157001,1901,"Côte des Neiges, Village",QC,1.0,77.5
+QC159002,1891,St. Alphonse de Rodriguez,QC158002,1901,St. Alphonse,QC,0.9868,75.41
+QC159003,1891,St. Ambroise de Kildare,QC158003,1901,St. Ambroise,QC,0.9894,78.0
+QC159008,1891,Ste. Emélie de l’Energie,QC158009,1901,Ste. Emilie,QC,1.0,74.0
+QC160011,1891,St. Onésime d'Ixworth,QC159013,1901,St. Onésime,QC,1.0,78.12
+QC176001,1891,Amherst,QC160001,1901,Amherst,QC,1.0,72.22
+QC176016,1891,Hartwell,QC160007,1901,Hartwell,QC,1.0,72.22
+QC176021,1891,Labelle,QC160010,1901,Labelle,QC,1.0,72.22
+QC176022,1891,L’Ange Gardien,QC160012,1901,L’Ange-Gardien,QC,1.0,67.22
+QC176027,1891,Marchand,QC160020,1901,Marchand,QC,1.0,72.22
+QC176030,1891,Mulgrave & Derry,QC160025,1901,Mulgrave & Derry,QC,1.0,72.22
+QC176031,1891,Notre-Dame de Bon Secours,QC160026,1901,Notre-Dame de Bonsecours,QC,0.9822,70.79
+QC176034,1891,Ponsonby,QC160029,1901,Ponsonby,QC,1.0,72.22
+QC176036,1891,Portland W-O,QC160031,1901,Portland West—Ouest,QC,1.0,51.9
+QC176038,1891,Ripon,QC160032,1901,Ripon,QC,1.0,72.22
+QC176039,1891,St. André Avelin,QC160033,1901,St. André-Avellin,QC,1.0,65.86
+QC176041,1891,St. Malachie,QC160035,1901,St. Malachie,QC,1.0,72.22
+QC176009,1891,"Buckingham, Town—Ville",QC160002,1901,"Buckingham, Town—Ville",QC,0.9999,72.22
+QC176029,1891,"Montebello, Village",QC160022,1901,"Montebello, Village",QC,1.0,72.22
+QC176045,1891,"Thurso, Village",QC160037,1901,"Thurso, Village",QC,1.0,72.22
+QC161003,1891,Sault St. Louis,QC148010,1901,Sault St. Louis,QC,1.0,76.0
+QC155020,1891,"St. Joseph, Riv. des Prairies",QC163005,1901,Rivière des Prairies,QC,1.0,58.57
+QC155021,1891,"St. Léonard, Port Maurice",QC163009,1901,St. Léonard de Port Maurice,QC,1.0,77.47
+QC164009,1891,St. Joseph,QC164009,1901,St. Joseph de Lévis,QC,1.0,78.28
+QC164012,1891,St. Romuald d’Etchemin,QC164012,1901,St. Romuald,QC,1.0,76.67
+QC165002,1891,Elgin & Taché,QC165009,1901,Ste. Perpétue,QC,1.0,46.15
+QC166007,1891,"Ste. Emilie & Leclercville, Village",QC166009,1901,Ste. Emilie,QC,0.9862,63.48
+QC155007,1891,"Montréal, Hochelaga, Ward—Quartier",QC167002,1901,"Montreal, Hochelaga, Ward—Quartier",QC,0.9934,73.94
+QC155010,1891,"Mile End, Village",QC167007,1901,"St. Louis, Town—Ville",QC,1.0,35.47
+QC168001,1891,Halifax N,QC169002,1901,"Halifax, North—Nord",QC,1.0,75.0
+QC168002,1891,Halifax S,QC169003,1901,"Halifax, South—Sud",QC,0.9872,76.67
+QC168004,1891,Ireland N,QC169005,1901,"Ireland, North—Nord",QC,1.0,75.0
+QC168005,1891,Ireland S & Coleraine,QC169006,1901,"Ireland, South—Sud",QC,0.9998,65.9
+QC168006,1891,Leeds E,QC169009,1901,"Leeds, East—Est",QC,1.0,74.55
+QC168014,1891,Thetford N,QC169018,1901,"Thetford, North—Nord",QC,1.0,76.67
+QC168010,1891,Somerset N,QC169016,1901,"Somerset, North—Nord",QC,1.0,76.67
+QC168015,1891,Thetford S,QC169019,1901,"Thetford, South—Sud",QC,1.0,78.28
+QC169006,1891,Farnham W-O,QC170006,1901,"Farnham, West—Ouest",QC,1.0,76.67
+QC169009,1891,"N.-D. de Stanbridge, Village",QC191002,1901,"Notre-Dame de Stanbridge, Village",QC,1.0,65.67
+QC169013,1891,St. George de Clarenceville,QC170012,1901,St. George,QC,1.0,67.84
+QC169018,1891,St. Ignace,QC170013,1901,St. Ignace de Stanbridge,QC,1.0,71.18
+QC170002,1891,"St. Calixte, Village",QC171002,1901,St. Calixte,QC,1.0,79.68
+QC171007,1891,St. François de la Rivière du Sud,QC172007,1901,St. François,QC,1.0,67.33
+QC173009,1891,"Montréal, West, Ward—Quartier",QC174003,1901,"Montreal, West Ward—Quartier Ouest",QC,0.9948,71.05
+QC173004,1891,"Montréal, St. Antoine, Ward—Quartier",QC175001,1901,"Montreal, St. Antoine Ward—Quartier",QC,1.0,77.54
+QC173005,1891,"Montréal, St. James', Ward—Quartier",QC176002,1901,"Montreal, St. James Ward—Quartier St. Jacques",QC,1.0,66.5
+QC173006,1891,"Montréal, St. Lawrence, Ward—Quartier",QC177001,1901,"Montreal, St. Laurent Ward—Quartier",QC,1.0,72.72
+QC173007,1891,"Montréal, St. Louis, Ward—Quartier",QC177002,1901,"Montreal, St. Louis Ward—Quartier",QC,1.0,77.37
+QC173008,1891,"Montréal, St. Mary’s, Ward—Quartier",QC178001,1901,"Montreal, St. Mary’s Ward—Quartier Ste. Marie",QC,1.0,68.52
+QC177016,1891,Onslow N,QC180016,1901,"Onslow, North—Nord",QC,1.0,73.08
+QC177017,1891,Onslow S,QC180017,1901,"Onslow, South—Sud",QC,1.0,74.8
+QC179001,1891,Banlieu,QC182001,1901,"Québec, Banlieue (Notre-Dame de Québec)",QC,1.0,45.59
+QC180005,1891,St. Ambroise de la J. Lorette,QC185004,1901,St. Ambroise,QC,1.0,70.98
+QC180008,1891,"St. Dunstan, Lac Beauport",QC185007,1901,St. Dunstan,QC,1.0,72.78
+QC181006,1891,St. Marcel,QC138010,1901,St. Marcel,QC,1.0,70.0
+QC182016,1891,St. Fortunat de Wolfeston,QC187026,1901,St. Fortunat,QC,1.0,75.41
+QC182007,1891,Ham S,QC187027,1901,"St. Joseph de Ham, South—Sud",QC,1.0,51.21
+QC182010,1891,Richmond,QC187009,1901,"Richmond, Town—Ville",QC,1.0,70.0
+QC182003,1891,Danville,QC187004,1901,"Danville, Village",QC,1.0,74.8
+QC183003,1891,Dalibaire,QC188017,1901,St. Edouard des Mechins (Dalibaire),QC,1.0,58.64
+QC183033,1891,Tessier,QC188026,1901,St. Luc (Tessier),QC,1.0,70.83
+QC183010,1891,Romieux,QC188032,1901,St. Paul des Capucins (Romieux),QC,1.0,55.79
+QC184013,1891,St. Michel de Rougemont,QC189013,1901,St. Michel,QC,1.0,72.42
+QC186001,1891,St. Bernard de Lacolle,QC170011,1901,St. Bernard de Lacolle,QC,1.0,73.33
+QC188001,1891,Ely,QC192001,1901,"Ely, South—Sud",QC,1.0,54.71
+QC188008,1891,Stukely N,QC192014,1901,"Stukely, North—Nord",QC,1.0,75.0
+QC188009,1891,Stukely S,QC192015,1901,"Stukely, South, Sud",QC,1.0,75.0
+QC190007,1891,St. Joseph,QC194007,1901,St. Joseph de Soulanges,QC,0.9996,72.42
+QC193011,1891,St. Louis,QC197012,1901,St. Louis de Terrebonne,QC,0.9908,69.38
+QC187003,1891,St. Boniface,QC198008,1901,St. Boniface (Shawinigan),QC,1.0,62.33
+QC195009,1891,Très St. Sacrement,QC199010,1901,Très-St. Rédempteur,QC,1.0,75.41
+QC176002,1891,Aumond,QC200001,1901,Aumond,QC,1.0,74.62
+QC176003,1891,Aylwin,QC200003,1901,Aylwin,QC,1.0,74.62
+QC176006,1891,Bouchette,QC200005,1901,Bouchette,QC,1.0,74.62
+QC176011,1891,Cameron,QC200008,1901,Cameron,QC,1.0,74.62
+QC176014,1891,Eardley,QC200009,1901,Eardley,QC,1.0,74.62
+QC176015,1891,Egan,QC200010,1901,Egan,QC,1.0,74.62
+QC176017,1891,Hincks,QC200011,1901,Hincks,QC,1.0,74.62
+QC176020,1891,Kensington,QC200014,1901,Kensington,QC,1.0,74.62
+QC176025,1891,Low,QC200015,1901,Low,QC,1.0,74.62
+QC176028,1891,Masham,QC200017,1901,Masham,QC,1.0,74.62
+QC176032,1891,Northfield,QC200018,1901,Northfield,QC,1.0,74.62
+QC176042,1891,"Sicotte, Lytton & Baskatong",QC200020,1901,"Sicotte, Lytton & Baskatong",QC,1.0,74.62
+QC176044,1891,Templeton,QC200021,1901,Templeton,QC,1.0,74.62
+QC176049,1891,Wright,QC200025,1901,Wright,QC,1.0,74.62
+QC176018,1891,"Hull, City—Cité",QC200012,1901,"Hull, City—Cité",QC,1.0,74.62
+QC176004,1891,"Aylmer, Town—Ville",QC200002,1901,"Aylmer, Town—Ville",QC,1.0,74.62
+QC176026,1891,Maniwaki,QC200016,1901,Maniwaki,QC,1.0,74.62
+QC176033,1891,Pointe Gatineau,QC200019,1901,"Pointe Gatineau, Village",QC,1.0,58.46
+QC149028,1891,Isle of Anticosti,QC149045,1901,Île d'Anticosti,QC,1.0,79.77
+QC176035,1891,Portland E,QC160030,1901,Portland East—Est,QC,1.0,54.07
+QC155003,1891,"Côte St. Louis, Town—Ville",QC167005,1901,"Montreal, St. Denis, Ward—Quartier",QC,1.0,38.0
+QC155999,1891,NO DATA,QC157999,1901,NO DATA,QC,1.0,77.5
+QC167012,1891,Unorganized Territory,QC168012,1901,Unorganized territory—Territoire non-organisé,QC,1.0,74.55
+QC169008,1891,Notre-Dame des Anges,QC191001,1901,Notre-Dame des Anges,QC,1.0,76.0
+QC155019,1891,"Montréal, St. Jean-Baptiste, Ward—Quartier",QC167006,1901,"Montreal, St. Jean-Baptiste, Ward—Quartier",QC,1.0,74.33
+QC183012,1891,Ste. Anne de la Pointe au Père,QC188011,1901,Ste. Anne,QC,1.0,62.31
+QC183020,1891,Ste. Félicité & Cherbourg,QC188019,1901,Ste. Félicité,QC,1.0,77.89
+QC192009,1891,Raudot & St. Jean de Dieu,QC196019,1901,St. Jean de Dieu & Raudot,QC,1.0,72.07
+QC149011,1891,Indian Reserve,QC149012,1901,Ind. Reserve Ouiatchouan,QC,1.0,67.8
+QC155009,1891,"Maisonneuve, Town—Ville",QC167003,1901,"Maisonneuve, Town—Ville",QC,0.9963,76.0
+QC180004,1891,Stoneham and Tewkesbury,QC185012,1901,"Stoneham, Tewkesbury & Unorg. Territory",QC,0.9956,72.9
+QC187009,1891,Unorganized Territory,QC198015,1901,Unorg. territory—Ter. non-organisé,QC,1.0,55.1
+QC149004,1891,L’Anse St. Jean,QC149025,1901,St. Jean,QC,0.9889,75.97
+QC176019,1891,Hull,QC200013,1901,Hull,QC,1.0,74.62
+QC146018,1891,Unorganized Territory,QC146022,1901,Unorg. ter—Ter. non-organisé,QC,1.0,64.29
+MB006015,1901,"Virden, Town—Ville",MB015008,1911,Virden t-v,MB,1.0,75.0
+MB009011,1901,"Dauphin, Town—Ville",MB016003,1911,Dauphin t-v,MB,1.0,54.17
+MB007013,1901,"Morden, Village",MB017002,1911,Morden t-v,MB,1.0,74.8
+MB007010,1901,"Gretna, Village",MB017003,1911,Gretna vl (T1 R1 MW1),MB,1.0,65.0
+MB007007,1901,"Manitou, Village",MB017004,1911,Manitou vl (T3 R8 MW1),MB,1.0,66.84
+MB007009,1901,"Plum Coulee, Village",MB017006,1911,Plum Coulee vl (T3 R3 MW1),MB,1.0,72.61
+MB007003,1901,"Carman, Village",MB018012,1911,Carman t-v,MB,1.0,48.8
+MB009004,1901,"Birtle, Town—Ville",MB019003,1911,Birtle t-v,MB,1.0,75.0
+MB008001,1901,"Carberry, Town—Ville",MB020004,1911,Carberry t-v,MB,1.0,54.79
+MB008007,1901,"Neepawa, Town—Ville",MB020006,1911,Neepawa t-v,MB,1.0,53.33
+MB011003,1901,"East Selkirk, Town—Ville",MB022006,1911,St. Peters,MB,1.0,54.71
+MB011011,1901,"Selkirk, Town—Ville",MB022011,1911,Selkirk t-v,MB,1.0,76.67
+MB006010,1901,"Boissevain, Town—Ville",MB023002,1911,Boissevain t-v,MB,1.0,55.17
+ON092001,1901,Aird Island,ON054001,1911,Aird Island,ON,1.0,73.53
+ON092005,1901,"Balfour, Chelmsford & unorganized territory— Ter. non-organisé",ON054005,1911,Balfour & Morgan,ON,0.9864,30.45
+ON092013,1901,Cartier,ON054016,1911,Cartier,ON,1.0,73.53
+ON044086,1901,Cockburn Island,ON054019,1911,Cockburn,ON,1.0,74.41
+ON092017,1901,Collins Inlet,ON054020,1911,Collins,ON,1.0,52.53
+ON044088,1901,"Gore Bay, Town—Ville",ON054115,1911,Gore Bay t-v,ON,1.0,73.84
+ON044090,1901,"Little Current, Town—Ville",ON054116,1911,Little Current t-v,ON,1.0,79.81
+ON044029,1901,"Thessalon, Town—Ville",ON054118,1911,Thessalon t-v,ON,1.0,75.13
+ON044024,1901,St. Joseph,ON055023,1911,St. Joseph Island,ON,1.0,74.35
+ON044078,1901,White River,ON055037,1911,White River vl non incor,ON,1.0,66.5
+ON127004,1901,"Brantford, East—Est",ON056001,1911,Brantford E,ON,1.0,60.16
+ON102001,1901,Burford,ON056002,1911,Burford,ON,1.0,75.45
+ON127005,1901,"Dumfries, South—Sud",ON056003,1911,Dumfries,ON,1.0,50.31
+ON046003,1901,Onondaga,ON056004,1911,Onondago,ON,1.0,75.54
+ON046004,1901,"Paris, Town—Ville",ON056006,1911,Paris t-v,ON,1.0,57.36
+ON102006,1901,Oakland,ON057001,1911,Oakland,ON,1.0,79.23
+ON046002,1901,"Brantford, West—Ouest",ON057002,1911,Brantford W-O,ON,1.0,66.21
+ON046001,1901,"Brantford, City—Cité",ON057003,1911,Brantford c,ON,1.0,66.48
+ON083009,1901,"Yonge & Escott, Front",ON058002,1911,Yonge & Escott front,ON,1.0,72.91
+ON083010,1901,"Yonge & Escott, Rear",ON058003,1911,Yonge & Escott rear,ON,1.0,72.82
+ON083001,1901,"Athens, Village",ON058005,1911,Athens vl,ON,1.0,57.12
+ON049001,1901,Albemarle & Cape Croker Ind. Reserve,ON059001,1911,Albemarle & Cape Croker I R,ON,1.0,77.5
+ON049002,1901,Amabel & Saugeen Ind. Reserve,ON059002,1911,Amabel & Saugeen I R,ON,0.9927,74.64
+ON050004,1901,"Kincardine, Town—Ville",ON059010,1911,Kincardine t-v,ON,1.0,65.56
+ON049012,1901,"Wiarton, Town—Ville",ON059011,1911,Wiarton t-v,ON,1.0,64.17
+ON050007,1901,"Port Elgin, Village",ON059013,1911,Port Elgin vl,ON,1.0,71.88
+ON049010,1901,"Southampton, Village",ON059014,1911,Southampton vl,ON,1.0,75.15
+ON049011,1901,"Tara, Village",ON059015,1911,Tara vl,ON,1.0,66.5
+ON050009,1901,"Tiverton, Village",ON059016,1911,Tiverton vl,ON,1.0,70.0
+ON049004,1901,"Chesley, Village",ON060008,1911,Chesley t-v,ON,1.0,61.67
+ON048006,1901,"Walkerton, Town—Ville",ON060009,1911,Walkerton t-v,ON,1.0,68.5
+ON050006,1901,"Lucknow, Village",ON060010,1911,Lucknow vl,ON,1.0,71.35
+ON049008,1901,"Paisley, Village",ON060011,1911,Paisley vl,ON,1.0,68.85
+ON048005,1901,"Teeswater, Village",ON060012,1911,Teeswater vl,ON,1.0,75.09
+ON080004,1901,Fitzroy,ON061001,1911,Fitzroy,ON,1.0,79.23
+ON052006,1901,North Gower,ON061003,1911,Gower N,ON,1.0,68.89
+ON080005,1901,Huntley,ON061004,1911,Huntley,ON,1.0,79.23
+ON052002,1901,"Hintonburg, Village",ON061009,1911,Hintonburg Ottawa city part,ON,1.0,69.57
+ON052007,1901,"Ottawa East, Village",ON061010,1911,Ottawa E Ottawa city part,ON,1.0,67.33
+ON125001,1901,Amaranth,ON062001,1911,Amaranth,ON,1.0,76.0
+ON124004,1901,"Garafraxa, East—Est",ON062002,1911,Garafraxa E,ON,1.0,58.26
+ON125007,1901,"Luther, East—Est",ON062003,1911,Luther E,ON,1.0,52.67
+ON064005,1901,Melancthon,ON062004,1911,Melancthon,ON,1.0,72.73
+ON051005,1901,Mono,ON062005,1911,Mono,ON,1.0,77.5
+ON115006,1901,Mulmur,ON062006,1911,Mulmur,ON,1.0,72.4
+ON124008,1901,"Orangeville, Town—Ville",ON062007,1911,Orangeville t-v,ON,1.0,58.5
+ON125005,1901,"Grand Valley, Village",ON062008,1911,Grand Valley vl,ON,1.0,64.33
+ON064009,1901,"Shelburne, Village",ON062009,1911,Shelburne vl,ON,1.0,58.73
+ON056001,1901,"Bowmanville, Town—Ville",ON064007,1911,Bowmanville t-v,ON,1.0,66.58
+ON055005,1901,"Port Hope, Town—Ville",ON064008,1911,Port Hope t-v,ON,1.0,65.78
+ON055004,1901,"Millbrook, Village",ON064009,1911,Millbrook vl,ON,1.0,72.36
+ON056005,1901,"Newcastle, Village",ON064010,1911,Newcastle vl,ON,1.0,71.0
+ON087002,1901,"Dorchester, South—Sud",ON065002,1911,Dorchester S,ON,1.0,57.83
+ON057001,1901,"Aylmer, Town—Ville",ON065005,1911,Aylmer t-v,ON,1.0,64.09
+ON057004,1901,"Port Stanley, Village",ON065006,1911,Port Stanley vl,ON,1.0,77.42
+ON087007,1901,"Springfield, Village",ON065007,1911,Springfield vl,ON,1.0,64.57
+ON057006,1901,"Vienna, Town—Ville",ON065008,1911,Vienna vl,ON,1.0,65.76
+ON057005,1901,"St. Thomas, City—Cité",ON066004,1911,St Thomas c,ON,1.0,63.12
+ON058003,1901,"Dutton, Village",ON066005,1911,Dutton vl,ON,1.0,70.96
+ON059004,1901,"Sandwich, East—Est",ON067003,1911,Sandwich E,ON,1.0,67.5
+ON059005,1901,"Sandwich, South—Sud",ON067004,1911,Sandwich S,ON,1.0,65.78
+ON059007,1901,"Sandwich, West—Ouest",ON067005,1911,Sandwich W-O,ON,1.0,65.62
+ON059012,1901,"Windsor, City—Cité",ON067006,1911,Windsor c,ON,1.0,64.17
+ON059006,1901,"Sandwich, Town—Ville",ON067007,1911,Sandwich t-v,ON,1.0,65.62
+ON059011,1901,"Walkerville, Town—Ville",ON067008,1911,Walkerville t-v,ON,1.0,69.08
+ON059001,1901,"Belle River, Village",ON067009,1911,Belle River vl,ON,1.0,75.15
+ON060003,1901,"Colchester, North—Nord",ON068002,1911,Colchester N,ON,1.0,67.67
+ON060004,1901,"Colchester, South—Sud",ON068003,1911,Colchester S,ON,1.0,69.17
+ON060006,1901,"Gosfield, North—Nord",ON068004,1911,Gosfield N,ON,1.0,64.93
+ON060007,1901,"Gosfield, South—Sud",ON068005,1911,Gosfield S,ON,1.0,66.54
+ON060010,1901,Malden,ON068006,1911,Maiden,ON,1.0,76.59
+ON059008,1901,"Tilbury, North—Nord",ON068009,1911,Tilbury N,ON,1.0,60.0
+ON059010,1901,"Tilbury, West—Ouest",ON068010,1911,Tilbury W-O,ON,1.0,61.67
+ON060001,1901,"Amherstburg, Town—Ville",ON068011,1911,Amherstburg t-v,ON,1.0,69.84
+ON060005,1901,"Essex, Town—Ville",ON068012,1911,Essex t-v,ON,1.0,61.34
+ON060008,1901,"Kingsville, Village",ON068013,1911,Kingsville t-v,ON,1.0,69.17
+ON060009,1901,"Leamington, Town—Ville",ON068014,1911,Leamington t-v,ON,1.0,68.82
+ON059009,1901,"Tilbury (part), Village",ON068015,1911,Tilbury t-v part,ON,1.0,58.08
+ON043005,1901,Clarendon & Miller,ON069005,1911,Clarendon } Miller,ON,1.0,76.11
+ON043006,1901,Hinchinbrooke,ON069007,1911,Hinchinbrook,ON,1.0,77.2
+ON082002,1901,"Gower, South—Sud",ON071003,1911,Gower S,ON,1.0,56.82
+ON063004,1901,"Prescott, Town—Ville",ON071006,1911,Prescott t-v,ON,1.0,66.75
+ON063002,1901,"Cardinal, Village",ON071007,1911,Cardinal vl,ON,1.0,73.62
+ON082003,1901,"Kemptville, Village",ON071008,1911,Kemptville vl,ON,1.0,71.09
+ON082004,1901,"Merrickville, Village",ON071009,1911,Merrickville vl,ON,1.0,72.54
+ON064010,1901,"Thornbury, Town—Ville",ON072007,1911,Thornbury t-v,ON,1.0,67.41
+ON064002,1901,"Dundalk, Village",ON072008,1911,Dundalk vl,ON,1.0,71.85
+ON066007,1901,"Markdale, Village",ON072009,1911,Markdale vl,ON,1.0,69.29
+ON064008,1901,St. Vincent,ON073003,1911,StVincent,ON,1.0,78.0
+ON064004,1901,"Meaford, Town—Ville",ON073006,1911,Meaford t-v,ON,1.0,61.67
+ON065004,1901,"Owen Sound, Town—Ville",ON073007,1911,Owen Sound t-v,ON,1.0,66.92
+ON066004,1901,"Durham, Town—Ville",ON074006,1911,Durham t-v,ON,1.0,62.14
+ON066003,1901,"Hanover, Village",ON074007,1911,Hanover t-v,ON,1.0,63.81
+ON067003,1901,"Cayuga, North—Nord",ON075002,1911,Cayuga N,ON,1.0,63.85
+ON067004,1901,"Cayuga, South—Sud",ON075003,1911,Cayuga S,ON,1.0,65.57
+ON094008,1901,Walpole,ON075010,1911,Walpole,ON,0.9914,74.44
+ON067007,1901,"Dunnville, Village",ON075011,1911,Dunnville t-v,ON,1.0,70.45
+ON067001,1901,"Caledonia, Village",ON075012,1911,Caledonia vl,ON,1.0,76.77
+ON067005,1901,"Cayuga, Village",ON075013,1911,Cayuga vl,ON,1.0,73.27
+ON067008,1901,"Hagersville, Village",ON075014,1911,Hagersville vl,ON,1.0,78.42
+ON068005,1901,"Milton, Town—Ville",ON076005,1911,Milton t-v,ON,1.0,75.0
+ON068008,1901,"Oakville, Town—Ville",ON076006,1911,Oakville t-v,ON,1.0,78.12
+ON070001,1901,"Deseronto, Town—Ville",ON079014,1911,Deseronto t-v,ON,1.0,70.84
+ON071009,1901,"Madoc, Village",ON079015,1911,Madoc t-v,ON,1.0,60.61
+ON070004,1901,"Tweed, Village",ON079016,1911,Tweed t-v,ON,1.0,64.04
+ON071010,1901,Marmora & Lake,ON080007,1911,Marmora,ON,1.0,65.42
+ON072003,1901,"Trenton, Town—Ville",ON080013,1911,Trenton t-v,ON,1.0,67.29
+ON071011,1901,"Marmora, Village",ON080015,1911,Marmora vl,ON,1.0,72.6
+ON071015,1901,"Stirling, Village",ON080016,1911,Stirling vl,ON,1.0,73.75
+ON073006,1901,Tumberry,ON081004,1911,Turnberry,ON,1.0,76.74
+ON075006,1901,"Wawanosh, East—Est",ON081005,1911,Wawanosh E,ON,1.0,67.5
+ON073007,1901,"Wingham, Town—Ville",ON081006,1911,Wingham t-v,ON,1.0,65.76
+ON073001,1901,"Blyth, Village",ON081007,1911,Blyth vl,ON,1.0,70.0
+ON073002,1901,"Brussels, Village",ON081008,1911,Brussels vl,ON,1.0,74.09
+ON073008,1901,"Wroxeter, Village",ON081009,1911,Wroxeter vl,ON,1.0,74.09
+ON088007,1901,Stephen,ON082004,1911,Stephen,ON,1.0,74.29
+ON105007,1901,Usborne,ON082006,1911,Usborne,ON,1.0,77.83
+ON074006,1901,"Seaforth, Town—Ville",ON082007,1911,Seaforth t-v,ON,1.0,66.39
+ON074001,1901,"Bayfield, Village",ON082008,1911,Bayfield vl,ON,1.0,73.26
+ON088003,1901,"Exeter, Village",ON082009,1911,Exeter vl,ON,1.0,56.79
+ON074003,1901,"Hensall, Village",ON082010,1911,Hensall vl,ON,1.0,72.11
+ON075007,1901,"Wawanosh, West—Ouest",ON083005,1911,Wawanosh W-O,ON,1.0,66.59
+ON075002,1901,"Clinton, Town—Ville",ON083006,1911,Clinton t-v,ON,1.0,65.13
+ON075005,1901,"Goderich, Town—Ville",ON083007,1911,Goderich t-v,ON,1.0,66.59
+ON045002,1901,Camden,ON084001,1911,Camden,ON,1.0,78.57
+ON045003,1901,Chatham,ON084002,1911,Chatham,ON,1.0,78.57
+ON045009,1901,Zone,ON084005,1911,Zone,ON,1.0,78.57
+ON045001,1901,"Bothwell, Town—Ville",ON084006,1911,Bothwell t-v,ON,1.0,56.7
+ON045005,1901,"Dresden, Town—Ville",ON084007,1911,Dresden t-v,ON,1.0,55.24
+ON058006,1901,"Ridgetown, Town—Ville",ON084008,1911,Ridgetown t-v,ON,1.0,59.85
+ON045008,1901,"Wallaceburg, Town—Ville",ON084009,1911,Wallaceburg t-v,ON,1.0,60.15
+ON045007,1901,"Thamesville, village",ON084010,1911,Thamesville vl,ON,1.0,66.22
+ON076003,1901,Dover,ON085001,1911,Dover E } Dover W-O,ON,1.0,49.17
+ON076008,1901,"Tilbury, East—Est",ON085006,1911,Tilbury E,ON,1.0,68.46
+ON076002,1901,"Chatham, City—Cite",ON085007,1911,Chatham c,ON,1.0,66.67
+ON076001,1901,"Blenheim, Town—Ville",ON085008,1911,Blenheim t-v,ON,1.0,68.12
+ON076007,1901,"Tilbury (part), Village",ON085009,1911,Tilbury t-v part,ON,1.0,63.08
+ON061005,1901,"Portsmouth, Village",ON086002,1911,Portsmouth vl,ON,1.0,67.46
+ON078001,1901,"Alvinston, Village",ON087006,1911,Alvinston t-v,ON,1.0,74.51
+ON079001,1901,"Forest, Town—Ville",ON087007,1911,Forest t-v,ON,1.0,66.29
+ON078007,1901,"Petrolia, Town—Ville",ON087008,1911,Petrolia t-v,ON,1.0,72.95
+ON078002,1901,"Arkona, Village",ON087009,1911,Arkona vl,ON,1.0,77.33
+ON078008,1901,"Thedford, Village",ON087011,1911,Thedford vl,ON,1.0,79.83
+ON078010,1901,"Watford, Village",ON087012,1911,Watford vl,ON,1.0,78.67
+ON045004,1901,Dawn,ON088001,1911,Dawn,ON,1.0,79.47
+ON045006,1901,Sombra & Walpole Island,ON088005,1911,Sombra & Walpole Is,ON,1.0,72.81
+ON079006,1901,"Sarnia, Town—Ville",ON088006,1911,Sarnia t-v,ON,1.0,65.0
+ON079004,1901,"Point Edward, Village",ON088008,1911,Point Edward vl,ON,1.0,78.33
+ON079007,1901,"Wyoming, Village",ON088009,1911,Wyoming vl,ON,1.0,73.85
+ON080001,1901,"Almonte, Town—Ville",ON089008,1911,Almonte t-v,ON,1.0,65.13
+ON081004,1901,"Carleton Place, Town—Ville",ON089009,1911,Carleton Place t-v,ON,1.0,70.89
+ON080007,1901,"Lanark, Village",ON089010,1911,Lanark vl,ON,1.0,70.96
+ON081003,1901,"Burgess, North—Nord",ON090003,1911,Burgess N,ON,1.0,64.2
+ON081006,1901,"Elmsley, North—Nord",ON090005,1911,Elmsley N,ON,1.0,64.2
+ON081009,1901,"Sherbrooke, South—Sud",ON090007,1911,Sherbrooke S,ON,1.0,70.11
+ON081008,1901,"Perth, Town—Ville",ON090008,1911,Perth t-v,ON,1.0,62.28
+ON083002,1901,"Bastard & Burgess, South—Sud",ON091001,1911,Bastard & Burgess,ON,1.0,67.17
+ON083003,1901,"Crosby, North—Nord",ON091002,1911,Crosby N,ON,0.9885,57.36
+ON083004,1901,"Crosby, South—Sud",ON091003,1911,Crosby S,ON,1.0,59.09
+ON082001,1901,"Elmsley, South—Sud",ON091004,1911,Elmsley S,ON,1.0,55.49
+ON083006,1901,"Lansdowne & Leeds, Front",ON091006,1911,Leeds & Lansdowne front,ON,1.0,58.97
+ON083007,1901,"Lansdowne & Leeds, Rear",ON091007,1911,Leeds & Lansdowne rear,ON,1.0,57.84
+ON083005,1901,"Gananoque, Town—Ville",ON091008,1911,Gananoque t-v,ON,1.0,63.7
+ON083008,1901,"Newboro, Village",ON091009,1911,Newboro vl,ON,1.0,68.13
+ON043007,1901,"Kaladar, Anglesea & Effingham",ON092006,1911,Anglesea } Effingham } Kaladar,ON,1.0,65.08
+ON084007,1901,"Napanee, Town—Ville",ON092015,1911,Napanee t-v,ON,1.0,61.67
+ON084003,1901,"Bath, Village",ON092016,1911,Bath vl,ON,1.0,64.0
+ON043010,1901,"Newburg, Village",ON092017,1911,Newburgh vl,ON,1.0,71.85
+ON128003,1901,Caistor,ON093001,1911,Caistor,ON,1.0,74.44
+ON128008,1901,"Grimsby, North—Nord",ON093005,1911,Grimsby N,ON,1.0,49.44
+ON128009,1901,"Grimsby, South—Sud",ON093006,1911,Grimsby S,ON,1.0,51.11
+ON085008,1901,"Niagara, Town—Ville",ON093010,1911,Niagara t-v,ON,1.0,64.17
+ON085001,1901,"Beamsville, Village",ON093011,1911,Beamsville vl,ON,1.0,74.37
+ON128010,1901,"Grimsby, Village",ON093012,1911,Grimsby vl,ON,1.0,58.29
+ON085006,1901,"Merritton, Village",ON093013,1911,Merritton vl,ON,1.0,73.5
+ON085010,1901,"Port Dalhousie, Village",ON093014,1911,Port Dalhousie vl,ON,1.0,77.0
+ON087001,1901,"Dorchester, North—Nord",ON095001,1911,Dorchester N,ON,1.0,71.41
+ON087006,1901,"Nissouri, West—Ouest",ON095003,1911,Nissouri W-O,ON,1.0,70.12
+ON088008,1901,"Williams, East—Est",ON096005,1911,Williams E,ON,1.0,70.62
+ON088009,1901,"Williams, West—Ouest",ON096006,1911,Willaims W-O,ON,1.0,64.38
+ON088006,1901,"Parkhill, Town—Ville",ON096007,1911,Parkhill t-v,ON,1.0,68.75
+ON088001,1901,"Ailsa Craig, Village",ON096008,1911,Ailsa Craig vl,ON,1.0,78.27
+ON088004,1901,"Lucan, Village",ON096009,1911,Lucan vl,ON,1.0,71.53
+ON090008,1901,"Strathroy, Town—Ville",ON097006,1911,Strathroy t-v,ON,1.0,70.59
+ON090004,1901,"Glencoe, Village",ON097007,1911,Glencoe vl,ON,1.0,75.02
+ON090007,1901,"Newbury, Village",ON097008,1911,Newbury vl,ON,1.0,75.02
+ON090009,1901,"Wardsville, Village",ON097009,1911,Wardsville vl,ON,1.0,78.05
+ON097005,1901,Draper,ON098005,1911,Draper,ON,1.0,74.62
+ON097006,1901,Macaulay,ON098009,1911,Macaulay,ON,0.9942,74.62
+ON097007,1901,Maclean,ON098010,1911,McLean,ON,1.0,69.23
+ON113004,1901,Medora & Wood,ON098011,1911,Medora & Wood,ON,1.0,77.83
+ON113006,1901,Monck,ON098012,1911,Monck,ON,1.0,77.83
+ON097009,1901,Morrison,ON098013,1911,Morrison,ON,1.0,74.62
+ON113007,1901,Muskoka,ON098014,1911,Muskoka,ON,1.0,77.83
+ON097010,1901,Oakley,ON098015,1911,Oakley,ON,1.0,74.62
+ON097012,1901,Ridout,ON098016,1911,Ridout,ON,1.0,74.62
+ON097013,1901,Ryde,ON098017,1911,Hyde,ON,1.0,57.12
+ON113001,1901,"Gravenhurst, Town—Ville",ON098023,1911,Gravenhurst t-v,ON,1.0,59.41
+ON091022,1901,"Huntsville, Village",ON098024,1911,Huntsville t-v,ON,1.0,65.91
+ON113012,1901,"Port Carling, Village",ON098025,1911,Port Carling vl,ON,1.0,66.16
+ON092019,1901,"Crerar & parts Badgerow, Gibbons & Bastedo",ON099043,1911,Crerar,ON,1.0,47.5
+ON092028,1901,Grant & part Field,ON099065,1911,Grant,ON,1.0,60.43
+ON092034,1901,"Kirkpatrick, Badgerow, Appleby & Casimir (parts)",ON099086,1911,Kirkpatrick,ON,1.0,56.1
+ON092041,1901,"Mattawa, Town—Ville",ON099167,1911,Mattawa t-v,ON,1.0,76.67
+ON092046,1901,"North Bay, Town—Ville",ON099169,1911,North Bay t-v,ON,1.0,79.41
+ON092056,1901,"Sudbury, Town—Ville",ON099171,1911,Sudbury t-v,ON,1.0,76.67
+ON094006,1901,"Walsingham, North—Nord",ON100005,1911,Walsingham N,ON,1.0,66.21
+ON094007,1901,"Walsingham, South--Sud",ON100006,1911,Walsingham S,ON,1.0,66.21
+ON094005,1901,"Simcoe, Town—Ville",ON100009,1911,Simcoe t-v,ON,1.0,61.8
+ON093001,1901,"Delhi, Village",ON100010,1911,Delhi vl,ON,1.0,67.06
+ON094003,1901,"Port Dover, Village",ON100011,1911,Port Dover vl,ON,1.0,73.67
+ON094004,1901,"Port Rowan, Village",ON100012,1911,Port Rowan vl,ON,1.0,73.67
+ON093006,1901,"Waterford, Village",ON100013,1911,Waterford vl,ON,1.0,72.15
+ON095003,1901,"Campbellford, Village",ON101006,1911,Campbellford t-v,ON,1.0,76.39
+ON095002,1901,"Brighton, Village",ON101007,1911,Brighton vl,ON,1.0,78.41
+ON095004,1901,"Colborne, Village",ON101008,1911,Colborne vl,ON,1.0,78.41
+ON095006,1901,"Hastings, Village",ON101009,1911,Hastings vl,ON,1.0,78.41
+ON096002,1901,"Cobourg, Town—Ville",ON102004,1911,Cobourg t-v,ON,1.0,69.33
+ON097001,1901,"Beaverton, Village",ON103008,1911,Beaverton vl,ON,1.0,75.29
+ON097004,1901,"Cannington, Village",ON103009,1911,Cannington vl,ON,1.0,76.16
+ON098007,1901,"Whitby, West—Ouest",ON104004,1911,Whitby,ON,1.0,55.0
+ON098005,1901,"Whitby, East—Est",ON104005,1911,Whitby E,ON,1.0,66.67
+ON098001,1901,"Oshawa, Town—Ville",ON104006,1911,Oshawa t-v,ON,1.0,65.0
+ON098006,1901,"Whitby, Town—Ville",ON104007,1911,Whitby t-v,ON,1.0,65.0
+ON098002,1901,"Port Perry, Village",ON104008,1911,Port Perry vl,ON,1.0,76.88
+ON127003,1901,Blenheim,ON106002,1911,Blenheim,ON,1.0,76.49
+ON101005,1901,"Nissouri, East—Est",ON106003,1911,Nissouri E,ON,1.0,68.46
+ON101007,1901,"Zorra, East—Est",ON106004,1911,Zorra E,ON,0.9911,63.01
+ON101008,1901,"Zorra, West—Ouest",ON106005,1911,Zorra W-O,ON,1.0,61.54
+ON101006,1901,"Woodstock, City—Cité",ON106006,1911,Woodstock c,ON,1.0,68.14
+ON101004,1901,"Embro, Village",ON106007,1911,Embro vl,ON,1.0,69.37
+ON102003,1901,"Norwich, North—Nord",ON107002,1911,Norwich N,ON,1.0,64.2
+ON102004,1901,"Norwich, South—Sud",ON107003,1911,Norwich S,ON,1.0,65.87
+ON102007,1901,"Oxford, East—Est",ON107004,1911,Oxford E,ON,1.0,65.87
+ON102008,1901,"Oxford, North—Nord",ON107005,1911,Oxford N,ON,1.0,62.28
+ON102009,1901,"Oxford, West—Ouest",ON107006,1911,Oxford W-O,ON,1.0,64.2
+ON102002,1901,"Ingersoll, Town—Ville",ON107007,1911,Ingersoll t-v,ON,1.0,68.61
+ON093004,1901,"Tilsonburg, Town—Ville",ON107008,1911,Tilsonburg t-v,ON,1.0,61.67
+ON102005,1901,"Norwich, Village",ON107009,1911,Norwich vl,ON,1.0,73.05
+ON091014,1901,Ferris,ON108011,1911,Ferrie,ON,1.0,78.96
+ON091020,1901,"Himsworth, North & South—Nord & Sud",ON108017,1911,Himsworth,ON,0.9929,49.26
+ON091035,1901,"Parry Sound, Town—Ville",ON108046,1911,Parry Sound t-v,ON,1.0,72.2
+ON091005,1901,"Burks Falls, Village",ON108048,1911,Burks Falls vl,ON,1.0,78.27
+ON091047,1901,"Sundridge, Village",ON108052,1911,Sundridge vl,ON,1.0,76.62
+ON103001,1901,"Brampton, Town—Ville",ON109006,1911,Brampton t-v,ON,1.0,78.12
+ON051003,1901,"Bolton, Village",ON109007,1911,Bolton vl,ON,1.0,62.5
+ON101002,1901,"Easthope, North—Nord",ON110001,1911,Easthope N,ON,1.0,56.27
+ON104006,1901,"Mornington, Village",ON110004,1911,Mornington,ON,1.0,65.78
+ON104007,1901,"Stratford, City—Cité",ON110006,1911,Stratford c,ON,1.0,67.18
+ON104003,1901,"Listowel, Town—Ville",ON110007,1911,Listowel t-v,ON,1.0,65.62
+ON104005,1901,"Milverton, Village",ON110008,1911,Milverton vl,ON,1.0,73.5
+ON105005,1901,"Mitchell, Town—Ville",ON111007,1911,Mitchell t-v,ON,1.0,66.39
+ON105006,1901,"St. Marys, Town—Ville",ON111008,1911,St Marys t-v,ON,1.0,64.93
+ON106013,1901,"Havelock, Village",ON112010,1911,Havelock vl,ON,1.0,78.33
+ON106016,1901,"Lakefield, Village",ON112011,1911,Lakefield vl,ON,1.0,79.33
+ON106020,1901,"Norwood, Village",ON112012,1911,Norwood vl,ON,1.0,77.18
+ON107002,1901,"Monaghan, North—Nord",ON113005,1911,Monaghan N,ON,0.9981,69.17
+ON107003,1901,"Monaghan, South—Sud",ON113006,1911,Monaghan S,ON,1.0,70.78
+ON107004,1901,"Peterborough, Town—Ville",ON113008,1911,Peterborough c } Ashburnham vl,ON,1.0,63.98
+ON109006,1901,"Marysburg, South—Sud",ON115006,1911,Marysburg S,ON,1.0,79.68
+ON109007,1901,"Picton, Town—Ville",ON115008,1911,Picton t-v,ON,1.0,75.0
+ON110001,1901,"Algona, South—Sud",ON116002,1911,Algona S,ON,1.0,64.09
+ON110007,1901,"Pembroke, Town—Ville",ON116016,1911,Pembroke t-v,ON,1.0,67.41
+ON110010,1901,"Cobden, Village",ON116017,1911,Cobden vl,ON,1.0,71.79
+ON110005,1901,"Eganville (part), Village",ON116018,1911,Eganville vl part,ON,1.0,65.95
+ON111012,1901,Raglan & Radcliffe,ON117012,1911,Radcliffe & Raglan,ON,1.0,55.0
+ON111002,1901,"Arnprior, Town—Ville",ON117015,1911,Arnprior t-v,ON,1.0,68.12
+ON111013,1901,"Renfrew, Town—Ville",ON117016,1911,Renfrew t-v,ON,1.0,66.67
+ON111006,1901,"Eganville (part), Village",ON117017,1911,Eganville vl part,ON,1.0,66.67
+ON112006,1901,"New Edinburg (Rideau Ward, Ottawa)",ON118007,1911,"Ottawa, Rideau ward-quartier",ON,1.0,61.61
+ON112008,1901,"Rockland, Village",ON118008,1911,Rockland t-v,ON,1.0,78.28
+ON113005,1901,"Midland, Town—Ville",ON119006,1911,Midland t-v,ON,1.0,66.67
+ON113009,1901,"Orillia, Town—Ville",ON119007,1911,Orillia t-v,ON,1.0,66.67
+ON113011,1901,"Penetanguishene, Town—Ville",ON119008,1911,Penetanguishene t-v,ON,1.0,74.78
+ON114002,1901,"Collingwood, Town—Ville",ON120006,1911,Collingwood t-v,ON,1.0,70.04
+ON114006,1901,"Stayner, Town—Ville",ON120007,1911,Stayner t-v,ON,1.0,65.13
+ON114003,1901,"Creemore, Village",ON120008,1911,Creemore vl,ON,1.0,73.46
+ON051001,1901,Adjala,ON121001,1911,Adjala,ON,1.0,77.5
+ON130006,1901,"Gwillimbury, West—Ouest",ON121003,1911,Gwillimbury WO,ON,1.0,57.97
+ON115002,1901,"Alliston, Town—Ville",ON121007,1911,Alliston t-v,ON,1.0,67.33
+ON114001,1901,"Barrie (part), Town—Ville",ON121008,1911,Barrie t-v,ON,0.9978,52.15
+ON115003,1901,"Beeton, Village",ON121009,1911,Beeton vl,ON,1.0,71.7
+ON130002,1901,"Bradford, Village",ON121010,1911,Bradford vl,ON,1.0,60.0
+ON115009,1901,"Tottenham, Village",ON121011,1911,Tottenham vl,ON,1.0,75.2
+ON053004,1901,Osmabruck,ON122003,1911,Osnabruck,ON,1.0,80.0
+ON053001,1901,"Cornwall, Town—Ville",ON122005,1911,Cornwall t-v,ON,1.0,65.9
+ON044035,1901,Aylesworth,ON123003,1911,Aylesworth,ON,1.0,73.87
+ON044052,1901,McIrvine,ON123040,1911,McIrvine,ON,1.0,73.87
+ON044057,1901,Morley,ON123047,1911,Morley,ON,1.0,73.87
+ON044058,1901,Neebing,ON123050,1911,Neebing,ON,1.0,73.87
+ON044060,1901,Oliver,ON123054,1911,Oliver,ON,1.0,73.87
+ON044067,1901,Rossport,ON123067,1911,Rossport,ON,1.0,73.87
+ON044076,1901,Wabigoon,ON123088,1911,Wabigoon,ON,1.0,73.87
+ON044044,1901,"Fort William, Town—Ville",ON123119,1911,Fort William c,ON,1.0,51.77
+ON044063,1901,"Port Arthur, Town—Ville",ON123120,1911,Port Arthur c,ON,1.0,50.54
+ON044039,1901,Dryden,ON123121,1911,Dryden t-v,ON,1.0,56.37
+ON044043,1901,Fort Frances,ON123122,1911,Fort Frances t-v,ON,1.0,63.87
+ON044048,1901,Keewatin (P. Division),ON123124,1911,Keewatin t-v,ON,1.0,45.05
+ON129006,1901,"Toronto, Ward—Quartier 1 (part)",ON125001,1911,"Toronto, ward-quartier 1 pt",ON,1.0,73.19
+ON118001,1901,"Toronto, Ward—Quartier 3 (part)",ON127003,1911,"Toronto, ward-quartier 3 pt",ON,1.0,77.35
+ON131007,1901,"Toronto, Ward—Quartier 6 (part)",ON128002,1911,"Toronto, ward-quartier 6 pt",ON,1.0,73.87
+ON119003,1901,Carden,ON129004,1911,Garden,ON,1.0,75.48
+ON106006,1901,Cardiff,ON129005,1911,Cardiff,ON,1.0,78.0
+ON106011,1901,Glamorgan,ON129013,1911,Glamorgan,ON,1.0,78.0
+ON106019,1901,Monmouth,ON129025,1911,Monmouth,ON,1.0,78.0
+ON119013,1901,Snowdon,ON129029,1911,Snowden,ON,1.0,77.14
+ON120003,1901,"Lindsay, Town—Ville",ON129033,1911,Lindsay t-v,ON,1.0,64.44
+ON120001,1901,"Bobcaygeon, Village",ON129034,1911,Bobcaygeon vl,ON,1.0,74.65
+ON119008,1901,"Fenelon Falls, Village",ON129035,1911,Fenelon Falls vl,ON,1.0,76.09
+ON120006,1901,"Omemee, Village",ON129037,1911,Omemee vl,ON,1.0,70.28
+ON119017,1901,"Woodville (part), Village",ON129038,1911,Woodville vl,ON,1.0,62.55
+ON121003,1901,Waterloo,ON130001,1911,"Waterloo, N",ON,1.0,78.95
+ON121001,1901,"Berlin, Town—Ville",ON130004,1911,Berlin t-v,ON,1.0,65.0
+ON121004,1901,"Waterloo, Town—Ville",ON130005,1911,Waterloo t-v,ON,1.0,68.12
+ON121002,1901,"Elmira, Village",ON130006,1911,Elmira vl,ON,1.0,72.5
+ON122002,1901,"Dumfries, North—Nord",ON131001,1911,Dumfries N,ON,1.0,67.36
+ON122007,1901,"Waterloo, South—Sud",ON131002,1911,Waterloo S,ON,1.0,68.97
+ON122003,1901,"Galt, Town—Ville",ON131004,1911,Galt t-v,ON,1.0,61.52
+ON122004,1901,"Hespeler, Village",ON131005,1911,Hespeler t-v,ON,1.0,68.97
+ON122006,1901,"Preston, Village",ON131006,1911,Preston t-v,ON,1.0,67.36
+ON122001,1901,"Ayr, Village",ON131007,1911,Ayr vl,ON,1.0,67.36
+ON122005,1901,"New Hamburg, Village",ON131008,1911,New Hamburg vl,ON,1.0,78.34
+ON085009,1901,Pelham,ON132004,1911,Pelham,ON,1.0,77.5
+ON123007,1901,"Niagara Falls, Town—Ville",ON132009,1911,Niagara Falls c,ON,1.0,79.0
+ON123012,1901,"Thorold, Town—Ville",ON132010,1911,Thorold t-v,ON,1.0,76.67
+ON123013,1901,"Welland, Town—Ville",ON132011,1911,Welland t-v,ON,1.0,76.67
+ON124005,1901,"Garafraxa, West—Ouest",ON133002,1911,Garafraxa W-O,ON,1.0,73.41
+ON125008,1901,"Luther, West—Ouest",ON133003,1911,Luther W-O,ON,1.0,66.18
+ON125006,1901,"Harriston, Town—Ville",ON133007,1911,Harriston t-v,ON,1.0,70.59
+ON125010,1901,"Mount Forest, Town—Ville",ON133008,1911,Mount Forest t-v,ON,1.0,73.68
+ON125011,1901,"Palmerston, Town—Ville",ON133009,1911,Palmerston t-v,ON,1.0,71.73
+ON125003,1901,"Arthur, Village",ON133010,1911,Arthur vl,ON,1.0,73.68
+ON125004,1901,"Clifford, Village",ON133011,1911,Clifford vl,ON,1.0,76.18
+ON124001,1901,"Drayton, Village",ON133012,1911,Drayton vl,ON,1.0,77.85
+ON126005,1901,"Guelph, City—Cité",ON134007,1911,Guelph c,ON,1.0,66.62
+ON124002,1901,"Elora, Village",ON134008,1911,Elora vl,ON,1.0,72.91
+ON126003,1901,"Erin, Village",ON134009,1911,Erin vl,ON,1.0,70.82
+ON124003,1901,"Fergus, Village",ON134010,1911,Fergus vl,ON,1.0,74.5
+ON128005,1901,"Flamborough, East—Est",ON135005,1911,Flamborough E,ON,1.0,72.15
+ON128006,1901,"Flamborough, West—Ouest",ON135006,1911,Flamborough W-O,ON,1.0,70.2
+ON128004,1901,"Dundas, Town—Ville",ON135010,1911,Dundas t-v,ON,1.0,63.62
+ON128012,1901,"Waterdown, Village",ON135011,1911,Waterdown vl,ON,1.0,74.62
+ON129005,1901,Scarboro,ON136003,1911,Scarborough,ON,1.0,78.15
+ON129003,1901,"Markham, Village",ON136005,1911,Markham vl,ON,1.0,73.05
+ON131003,1901,"Richmond Hill, Village",ON136007,1911,Richmond Hill vl,ON,1.0,76.73
+ON131010,1901,"Weston, Village",ON136008,1911,Weston vl,ON,1.0,70.28
+ON131011,1901,"Woodbridge, Village",ON136009,1911,Woodbridge vl,ON,1.0,74.65
+ON130003,1901,Georgina & Georgina Island,ON137001,1911,Georgina,ON,0.9952,49.3
+ON130004,1901,"Gwillimbury, East—Est",ON137002,1911,Gwillimbury E,ON,1.0,69.89
+ON130005,1901,"Gwillimbury, North—Nord & Snake Island",ON137003,1911,Gwillimbury N,ON,0.9945,52.05
+ON099006,1901,Whitchurch,ON137005,1911,Whitchurch,ON,1.0,77.2
+ON130001,1901,"Aurora, Town—Ville",ON137006,1911,Aurora t-v,ON,1.0,61.36
+ON099001,1901,"Newmarket, Town—Ville",ON137007,1911,Newmarket t-v,ON,1.0,56.61
+ON130007,1901,"Holland Landing, Village",ON137008,1911,Holland Landing vl,ON,1.0,76.36
+ON099003,1901,"Stouffville, Village",ON137009,1911,Stouffville vl,ON,1.0,64.85
+ON130009,1901,"Sutton, Village",ON137010,1911,Sutton vl,ON,1.0,68.86
+ON092006,1901,Biskotasing,ON054009,1911,Biscotasing,ON,1.0,67.17
+ON044091,1901,Meldrum Bay,ON054023,1911,Dawson,ON,1.0,42.18
+ON092026,1901,Geneva Lake,ON054046,1911,Hess,ON,1.0,12.86
+ON044019,1901,Northwest Point & Lefroy,ON054051,1911,Lefroy,ON,1.0,53.71
+ON044005,1901,Coffin,ON054056,1911,Lumbo,ON,1.0,38.44
+ON044007,1901,Desert Lake,ON055010,1911,Johnston,ON,1.0,37.24
+ON044002,1901,Bar River,ON055014,1911,Laird,ON,1.0,52.5
+ON044010,1901,Garden,ON055032,1911,Garden River I R,ON,1.0,60.68
+ON047007,1901,Kitley,ON091005,1911,Kitlev,ON,1.0,66.33
+ON044061,1901,Pinewood,ON123019,1911,Dilke,ON,1.0,25.41
+ON044075,1901,Vermilion Bay,ON123033,1911,Langton,ON,1.0,24.87
+ON044065,1901,"Rat Portage, Town—Ville",ON123123,1911,Kenora t-v,ON,1.0,29.33
+ON044042,1901,Emo,ON123127,1911,Eno vl not inc-non-inc,ON,1.0,15.07
+ON117001,1901,"Toronto, Ward—Quartier 1 (part)",ON127001,1911,"Toronto, ward-quartier 1 pt",ON,1.0,77.35
+ON118004,1901,"Toronto, Ward—Quartier 6 (part)",ON127006,1911,"Toronto, ward-quartier 6 pt",ON,1.0,76.6
+ON044023,1901,Rydal Bank,ON055020,1911,Plummer,ON,0.9849,30.74
+ON099005,1901,"Uxbridge, Town—Ville",ON103007,1911,Uxbridge t-v,ON,1.0,65.27
+BC003005,1901,"Nanaimo, City—Cité",BC010006,1911,Nanaimo c,BC,1.0,57.92
+BC004004,1901,"Victoria, City—Cité",BC013001,1911,Victoria c,BC,1.0,71.13
+NT206006,1901,Yukon,YT217999,1911,NO DATA,NT,0.9991,18.1
+PE135014,1901,Township 61,PE139018,1911,Township 61,PE,1.0,75.71
+PE135015,1901,Township 63,PE139019,1911,Township 63,PE,1.0,75.71
+PE135016,1901,Township 64,PE139020,1911,Township 64,PE,1.0,75.71
+PE133010,1901,Township 29,PE141006,1911,Township 29,PE,1.0,78.18
+PE133011,1901,Township 30,PE141007,1911,Township 30,PE,1.0,78.18
+PE133012,1901,Township 67,PE141023,1911,Township 67,PE,1.0,78.18
+NS027003,1901,"Antigonish, South—Sud",NS038002,1911,Antigonish S.,NS,1.0,79.41
+NS027015,1901,South-River,NS038004,1911,Dunmore,NS,1.0,53.33
+NS041004,1901,Big Bras d’Or,NS039005,1911,Big Bras d'Or,NS,1.0,79.16
+NS028008,1901,"East Bay, North—Nord",NS039009,1911,East Bay North,NS,1.0,75.98
+NS041010,1901,"Little Narrows, North—Nord",NS039017,1911,Little Narrows N.,NS,1.0,66.64
+NS041011,1901,"Little Narrows, South—Sud",NS039018,1911,Little Narrows S.,NS,1.0,67.88
+NS028022,1901,"North Sydney, Town—Ville",NS039026,1911,North Sydney t-v,NS,1.0,70.83
+NS028027,1901,"Sydney Mines, Town—Ville",NS039027,1911,Sydney Mines t-v,NS,1.0,70.83
+NS028009,1901,"East Bay, South—Sud",NS040007,1911,East Bay S.,NS,1.0,73.07
+NS028019,1901,Loch Lomond,NS040008,1911,Enon,NS,1.0,45.07
+NS028026,1901,"Sydney, Town—Ville",NS040021,1911,Sydney c,NS,1.0,64.09
+NS029019,1901,"Truro, Town—Ville",NS041025,1911,Truro t-v,NS,1.0,73.08
+NS030006,1901,Polling district No. 8,NS042002,1911,Amherst Head,NS,1.0,42.35
+NS030031,1901,Polling district No. 35,NS042005,1911,Diligent River,NS,1.0,52.7
+NS030010,1901,Polling district No. 12,NS042006,1911,Doherty Creek,NS,1.0,45.56
+NS030005,1901,Polling district No. 7,NS042007,1911,East Amherst,NS,1.0,46.47
+NS030002,1901,Polling district No. 4,NS042008,1911,Fort Lawrence,NS,1.0,50.0
+NS030027,1901,Polling district No. 31,NS042009,1911,Joggins,NS,1.0,48.67
+NS030007,1901,Polling district No. 9,NS042010,1911,Linden,NS,1.0,55.0
+NS030026,1901,Polling district No. 30,NS042011,1911,Lower Cove,NS,1.0,46.97
+NS030015,1901,Polling district No. 17,NS042012,1911,Malagash,NS,1.0,43.55
+NS030020,1901,Polling district No. 22,NS042013,1911,Mansfield,NS,1.0,43.12
+NS030017,1901,Polling district No. 19,NS042014,1911,Middleboro,NS,1.0,46.97
+NS030009,1901,Polling district No. 11,NS042016,1911,Pugwash,NS,1.0,44.0
+NS030011,1901,Polling district No. 13,NS042017,1911,Pugwash River,NS,1.0,49.44
+NS030030,1901,Polling district No. 34,NS042018,1911,Port Greville,NS,1.0,49.44
+NS030025,1901,Polling district No. 29,NS042019,1911,River Hebert,NS,1.0,46.0
+NS030018,1901,Polling district No. 20,NS042020,1911,River Philip,NS,1.0,46.0
+NS030022,1901,Polling district No. 24,NS042021,1911,Rodney,NS,1.0,44.48
+NS030028,1901,Polling district No. 32,NS042022,1911,Shulee,NS,1.0,34.83
+NS030012,1901,Polling district No. 14,NS042023,1911,Six Mile Road,NS,1.0,49.44
+NS030021,1901,Polling district No. 23,NS042024,1911,Southampton,NS,1.0,46.47
+NS030008,1901,Polling district No. 10,NS042025,1911,Tidnish,NS,1.0,48.67
+NS030013,1901,Polling district No. 15,NS042026,1911,Wallace Bridge,NS,1.0,48.92
+NS030014,1901,Polling district No. 16,NS042027,1911,Wentworth,NS,1.0,47.5
+NS030016,1901,Polling district No. 18,NS042028,1911,Westchester,NS,1.0,46.47
+NS030003,1901,Polling district No. 5,NS042029,1911,West Amherst,NS,1.0,46.47
+NS030001,1901,"Amherst, Town—Ville",NS042030,1911,Amherst t-v,NS,1.0,76.67
+NS030019,1901,Polling district No. 21,NS042031,1911,Oxford t-v,NS,1.0,42.73
+NS031011,1901,"Marshalls, Town—Ville",NS043010,1911,Marshalls,NS,1.0,72.0
+NS033009,1901,"Chezzetcook, East—Est",NS045002,1911,Chezzetcook E.,NS,1.0,72.38
+NS033010,1901,"Chezzetcook, West—Ouest",NS045003,1911,Chezzetcook W-O,NS,1.0,71.96
+NS033045,1901,Thirteen-mile House,NS045028,1911,Sackville,NS,1.0,35.38
+NS033036,1901,Prospect Road,NS045036,1911,Spryfield,NS,1.0,45.83
+NS033012,1901,"Dartmouth, Town—Ville",NS045041,1911,Dartmouth t-v,NS,1.0,69.79
+NS033001,1901,"Halifax, Ward—Quartier No. 1",NS045043,1911,"Halifax c., Ward No. 1",NS,1.0,73.58
+NS033002,1901,"Halifax, Ward—Quartier No. 2",NS045044,1911,"Halifax c., Ward No. 2",NS,1.0,73.58
+NS033003,1901,"Halifax, Ward—Quartier No. 3",NS045045,1911,"Halifax c., Ward No. 3",NS,1.0,73.58
+NS033004,1901,"Halifax, Ward—Quartier No. 4",NS045046,1911,"Halifax c., Ward No. 4",NS,1.0,73.58
+NS033005,1901,"Halifax, Ward—Quartier No. 5",NS045047,1911,"Halifax c., Ward No. 5",NS,1.0,73.58
+NS033006,1901,"Halifax, Ward—Quartier No. 6",NS045048,1911,"Halifax c., Ward No. 6",NS,1.0,73.58
+NS034019,1901,"Windsor, Town—Ville",NS046019,1911,Windsor t-v,NS,1.0,76.67
+NS035010,1901,"Margaree Harbour, East side—Côté est",NS047010,1911,Margaree Harbour E.,NS,1.0,75.82
+NS035011,1901,"Margaree Harbour, West side—Côté ouest",NS047011,1911,Margaree Harbour W-O,NS,1.0,75.86
+NS035012,1901,"Margaree, Northeast—Nord-est",NS047012,1911,Margaree N. E.,NS,1.0,66.67
+NS035013,1901,"Margaree, Southwest—Sud-ouest",NS047013,1911,Margaree S. W-O,NS,1.0,71.36
+NS035019,1901,Denys River,NS047018,1911,River Denys,NS,1.0,61.82
+NS035020,1901,Inhabitants River (part),NS047019,1911,River Inhabitants,NS,1.0,67.56
+NS035024,1901,"Whycocomagh, North side—Côté nord",NS047023,1911,Whycocomagh N.,NS,1.0,68.72
+NS037010,1901,"Chester, East—Est",NS049009,1911,Chester E.,NS,1.0,76.67
+NS037011,1901,"Chester, West—Ouest",NS049010,1911,Chester W-O,NS,1.0,76.67
+NS037007,1901,"Bridgewater, South—Sud",NS049017,1911,Hebbs Mills,NS,1.0,42.73
+NS037032,1901,Sandy Beaches,NS049003,1911,Blandford,NS,1.0,49.09
+NS037024,1901,Newcombville,NS049042,1911,Waterloo,NS,1.0,44.0
+NS037018,1901,"Lunenburg, Town—Ville",NS049044,1911,Lunenburg t-v,NS,1.0,79.41
+NS038030,1901,"River John, West Branch—Branche Ouest",NS050028,1911,River John W. Branch,NS,1.0,76.67
+NS038028,1901,"Pictou, Town—Ville",NS050034,1911,Pictou t-v,NS,1.0,75.0
+NS039002,1901,"Arichat, West—Ouest",NS051003,1911,Arichat W-O,NS,1.0,76.67
+NS040019,1901,Beach Meadows,NS052010,1911,Eagles Head,NS,1.0,65.0
+NS040013,1901,Ragged Island,NS052012,1911,Green Harbour,NS,1.0,51.54
+NS040026,1901,"Liverpool, Town—Ville",NS052030,1911,Liverpool t-v,NS,1.0,79.41
+NS040017,1901,"Shelburne, Town—Ville",NS052032,1911,Shelburne t-v,NS,1.0,79.41
+NS040027,1901,"Mill, Village",NS052033,1911,Mill vl,NS,1.0,79.0
+NS042015,1901,"Pubnico, East—Est",NS053015,1911,Pubnico E.,NS,1.0,76.67
+NS042017,1901,"Pubnico, West—Ouest",NS053017,1911,Pubnico W-O,NS,1.0,76.67
+NS042020,1901,Tusket Wedge,NS053020,1911,Wedgeport t-v,NS,1.0,58.0
+NS042021,1901,"Yarmouth, Town—Ville",NS053021,1911,Yarmouth t-v,NS,1.0,78.12
+NB014012,1901,"Woodstock, Town—Ville",NB025012,1911,Woodstock t-v,NB,1.0,79.41
+NB015012,1901,"St. George, Town & Parish — Ville et Paroisse",NB026011,1911,St. George,NB,0.9953,55.45
+NB021002,1901,"St. John, Dukis, Ward—Quartier",NB032007,1911,"St. John City, Dukes ward-quartier",NB,1.0,79.79
+QC138002,1901,St. André,QC143001,1911,St. André d'Acton,QC,1.0,78.46
+QC138013,1901,St. Simon,QC143011,1911,St. Simon de Ramsay,QC,1.0,75.0
+QC138001,1901,"Acton, Town—Ville",QC143013,1911,Acton Vale t-v,QC,1.0,70.65
+QC138006,1901,"St. Ephrem d’Upton, Village",QC143014,1911,Upton vl,QC,1.0,62.0
+QC139018,1901,"St. Ludger, Gayhurst & Risborough",QC144024,1911,Ste. Rufine,QC,1.0,52.27
+QC139001,1901,Adstock,QC144022,1911,St. Méthode d'Adstock,QC,1.0,65.0
+QC141011,1901,Ste. Philomène de Mailloux,QC146011,1911,St. Philémon,QC,1.0,66.84
+QC162005,1901,Lavaltrie,QC147003,1911,Lavaltrie,QC,1.0,76.0
+QC142009,1901,St. Ignace,QC147008,1911,St. Ignace de Loyola,QC,1.0,76.67
+QC142002,1901,"Berthier, Town—Ville",QC147013,1911,Berthier t-v,QC,1.0,78.12
+QC144001,1901,"Bolton, East—Est",QC149001,1911,Bolton E.,QC,1.0,74.8
+QC144002,1901,"Bolton, West—Ouest",QC149002,1911,Bolton W-O,QC,1.0,75.0
+QC145007,1901,"Longueuil, Town—Ville",QC150015,1911,Longueuil t-v,QC,0.9947,79.41
+QC146004,1901,La Visitation,QC151002,1911,La Visitation de Champlain,QC,1.0,76.67
+QC149008,1901,Dufferin,QC154010,1911,La Doré pr,QC,1.0,45.56
+QC149021,1901,"St. Félicien, Ashuapmuchuan & Demeules",QC154024,1911,St. Félicien pr,QC,0.9909,66.98
+QC149036,1901,Taillon,QC154029,1911,St. Henri de Taillon pr,QC,1.0,62.67
+QC149035,1901,Taché,QC154034,1911,St. Louis Nazaire pr,QC,1.0,41.2
+QC149007,1901,Delisle (Sacré-Coeur),QC154039,1911,Sacré-Coeur de Marie pr,QC,1.0,65.0
+QC149017,1901,"Roberval, Village",QC154041,1911,Roberval t-v,QC,1.0,78.28
+QC149047,1901,Mekattina,QC154054,1911,Harrington,QC,1.0,52.11
+QC149044,1901,Iberville,QC154057,1911,Mille Vaches pr,QC,1.0,53.33
+QC149041,1901,Bonne Esperance,QC154059,1911,Notre-Dame de Blanc Sablon,QC,1.0,53.9
+QC150008,1901,Ditton,QC155010,1911,La Patrie,QC,1.0,39.33
+QC150007,1901,"Cookshire, Town—Ville",QC155021,1911,Cookshire t-v,QC,1.0,79.41
+QC153002,1901,"Durham, South—Sud",QC158006,1911,Durham S.,QC,1.0,73.08
+QC153016,1901,"Wickham, West—Ouest",QC158033,1911,Wickham W-O,QC,1.0,76.67
+QC154024,1901,Grande Entrée,QC159003,1911,Coffin Island,QC,1.0,46.15
+QC154005,1901,Douglas (Sandy Beach & Seal Cove),QC159005,1911,Douglas W-O,QC,1.0,58.64
+QC154003,1901,Chlorydormes,QC159012,1911,Grand Étang,QC,1.0,42.17
+QC154027,1901,"Wolfe, Bryon Islands, Grosse Ile & Bird Rocks",QC159013,1911,"Grosse Isle, Wolfe, Byron & Bird Rocks",QC,1.0,70.48
+QC155001,1901,"Ste. Cunégonde, City—Cité",QC160001,1911,"Montréal, Ste. Cunégonde ward-quartier",QC,1.0,67.78
+QC155003,1901,"St. Henri, City—Cité",QC160003,1911,"Montréal, St. Henri ward-quartier",QC,1.0,61.7
+QC155004,1901,"Westmount, City—Cité",QC160004,1911,Westmount c,QC,1.0,79.68
+QC157019,1901,"St. Paul, Town—Ville",QC162001,1911,Côte St. Paul,QC,1.0,63.94
+QC157003,1901,"Dorval, Village",QC162012,1911,Dorval t-v,QC,1.0,74.8
+QC157004,1901,"Lachine, Town—Ville",QC162013,1911,Lachine t-v,QC,1.0,76.67
+QC157008,1901,"Outremont, Town—Ville",QC162016,1911,Outremont t-v,QC,1.0,79.41
+QC157024,1901,"Verdun, Village",QC162020,1911,Verdun t-v,QC,1.0,74.8
+QC157002,1901,Côte St. Paul,QC162021,1911,Ville Émard,QC,1.0,47.5
+QC158001,1901,"Joliette, Town—Ville",QC163014,1911,Joliette t-v,QC,1.0,78.12
+QC159009,1901,St. Eleuthère & unorg. ter.—Ter. non-org,QC164008,1911,St. Éleuthère & UNO,QC,1.0,72.71
+QC200006,1901,Bouthillier,QC165005,1911,Bouthillier,QC,1.0,70.0
+QC200007,1901,Bowman,QC165006,1911,Bowman,QC,0.9885,70.0
+QC200023,1901,Wabasee,QC165046,1911,Wabassee,QC,1.0,65.33
+QC148010,1901,Sault St. Louis,QC166002,1911,Sault St. Louis,QC,1.0,75.29
+QC161002,1901,"Laprairie, Village",QC166007,1911,Laprairie t-v,QC,1.0,79.68
+QC162003,1901,"L’Assomption, Town—Ville",QC167011,1911,L'Assomption t-v,QC,1.0,76.5
+QC162004,1901,"Laurentides, Town—Ville",QC167012,1911,Laurentides t-v,QC,1.0,79.08
+QC163001,1901,"Ahuntsic, Village",QC168012,1911,Ahuntsic,QC,1.0,74.8
+QC163002,1901,"Beaurivage, Village",QC168013,1911,Beaurivage,QC,1.0,78.28
+QC163008,1901,St. Joseph de Bordeaux,QC168014,1911,Bordeaux t-v,QC,1.0,62.94
+QC164003,1901,"Lévis, City—Cité",QC169015,1911,Lévis t-v,QC,0.9887,69.2
+QC165002,1901,St. Damase,QC170004,1911,St. Damase (Ashford),QC,0.9879,72.38
+QC167001,1901,"De Lorimier, Village",QC172001,1911,"Montréal, DeLormier ward-quartier",QC,1.0,61.7
+QC167007,1901,"St. Louis, Town—Ville",QC172004,1911,"Montréal, Laurier ward-quartier",QC,1.0,54.23
+QC168004,1901,Rivière du Loup,QC173002,1911,Louiseville,QC,1.0,51.54
+QC168007,1901,St. Joseph,QC173006,1911,St. Joseph de Maskinongé,QC,1.0,71.18
+QC169002,1901,"Halifax, North—Nord",QC174001,1911,Halifax N.,QC,1.0,73.45
+QC169003,1901,"Halifax, South—Sud",QC174002,1911,Halifax S.,QC,1.0,75.0
+QC169005,1901,"Ireland, North—Nord",QC174004,1911,Ireland N.,QC,0.9904,73.45
+QC169006,1901,"Ireland, South—Sud",QC174005,1911,Ireland S.,QC,0.998,75.0
+QC169017,1901,"Somerset, South—Sud",QC174016,1911,Somerset S.,QC,1.0,76.67
+QC169001,1901,"Bernierville (St. Ferdinand), Village",QC174020,1911,Bernierville vl,QC,1.0,70.38
+QC169012,1901,"Plessisville (Somerset), Village",QC174023,1911,Plessisville vl,QC,1.0,74.68
+QC170006,1901,"Farnham, West—Ouest",QC175002,1911,Farnham W-O,QC,0.9918,76.67
+QC191002,1901,"Notre-Dame de Stanbridge, Village",QC175003,1911,Notre-Dame de Stanbridge,QC,1.0,64.95
+QC170001,1901,"Bedford, Town—Ville",QC175012,1911,Bedford t-v,QC,1.0,76.67
+QC170005,1901,"Farnham, Town—Ville",QC175013,1911,Farnham t-v,QC,1.0,76.67
+QC172004,1901,"Montmagny, Town—Ville",QC177012,1911,Montmagny t-v,QC,1.0,79.41
+QC174001,1901,"Montreal, St. Ann’s Ward—Quartier Ste. Anne",QC179002,1911,"Montréal, Ste. Anne ward-quartier",QC,1.0,75.46
+QC180016,1901,"Onslow, North—Nord",QC185019,1911,Onslow N.,QC,1.0,71.48
+QC180017,1901,"Onslow, South—Sud",QC185020,1911,Onslow S.,QC,1.0,73.08
+QC181007,1901,Pointe aux Trembles,QC186007,1911,Neuville,QC,1.0,55.93
+QC183001,1901,"Québec, Jacques-Cartier, Ward—Quartier",QC188001,1911,"Québec, Jacques Cartier ward-quartier",QC,1.0,79.93
+QC184001,1901,"Québec, Banlieue, South—Sud",QC189001,1911,Banlieue S.,QC,1.0,50.69
+QC184003,1901,"Québec, Montcalm (W.—O.), Ward—Quartier",QC189003,1911,"Québec, Montcalm ward-quartier",QC,1.0,72.69
+QC185007,1901,St. Dunstan,QC190007,1911,"St. Dunstan, Lac Beauport",QC,1.0,64.6
+QC185011,1901,St. Gabriel West—Ouest,QC190011,1911,St. Gabriel W-O,QC,1.0,74.79
+QC185005,1901,"St. Ambroise, Village",QC190016,1911,Lorette vl,QC,1.0,44.4
+QC138010,1901,St. Marcel,QC191005,1911,St. Marcel,QC,1.0,70.0
+QC186006,1901,"St. Ours, Town—Ville",QC191012,1911,St. Ours t-v,QC,1.0,78.12
+QC187020,1901,"Ham, North—Nord",QC192007,1911,Ham N.,QC,1.0,63.33
+QC187026,1901,St. Fortunat,QC192012,1911,St. Fortunat de Wolfestown,QC,1.0,74.21
+QC187009,1901,"Richmond, Town—Ville",QC192025,1911,Richmond t-v,QC,1.0,78.12
+QC188033,1901,St. Pierre du Lac,QC193001,1911,Cedar Hall,QC,1.0,50.74
+QC188008,1901,"Rimouski, Town—Ville",QC193036,1911,Rimouski t-v,QC,1.0,78.12
+QC170011,1901,St. Bernard de Lacolle,QC196004,1911,St. Bernard de Lacolle,QC,1.0,76.0
+QC191010,1901,"Iberville, Town—Ville",QC196015,1911,Iberville t-v,QC,1.0,79.41
+QC191004,1901,"St. Jean, Town—Ville",QC196016,1911,St. Jean t-v,QC,1.0,78.12
+QC192001,1901,"Ely, South—Sud",QC197001,1911,Ely S.,QC,1.0,65.0
+QC192014,1901,"Stukely, North—Nord",QC197011,1911,Stukely N.,QC,0.9969,73.45
+QC192015,1901,"Stukely, South, Sud",QC197012,1911,Stukely S.,QC,1.0,73.45
+QC192004,1901,"Granby, Village",QC197013,1911,Granby t-v,QC,1.0,74.8
+QC192016,1901,"Waterloo, Town—Ville",QC197014,1911,Waterloo t-v,QC,1.0,78.12
+QC195004,1901,"Coaticook, Town—Ville",QC200008,1911,Coaticook t-v,QC,1.0,79.41
+QC195009,1901,"Magog, Town—Ville",QC200009,1911,Magog t-v,QC,1.0,73.08
+QC196004,1901,"Fraserville, Town—Ville",QC201023,1911,Fraserville t-v,QC,1.0,78.85
+QC199005,1901,"Rigaud, Village",QC204008,1911,Rigaud t-v,QC,1.0,74.8
+QC200012,1901,"Hull, City—Cité",QC205022,1911,Hull c,QC,0.9995,70.0
+QC200002,1901,"Aylmer, Town—Ville",QC205023,1911,Aylmer t-v,QC,1.0,75.0
+QC153009,1901,St. Bonaventure d’Upton,QC206004,1911,St. Bonaventure d'Upton,QC,1.0,77.67
+QC178999,1901,NO DATA,QC172999,1911,NO DATA,QC,1.0,79.47
+QC139002,1901,"Agnes, Village",QC144034,1911,Agnès vl,QC,0.9994,74.55
+QC150013,1901,"Lake Megantic, Village",QC155024,1911,Lac Mégantic vl,QC,0.9996,79.19
+QC168012,1901,Unorganized territory—Territoire non-organisé,QC173011,1911,Other parts - Autres parties,QC,1.0,54.93
+QC191001,1901,Notre-Dame des Anges,QC175004,1911,Notre-Dame des Anges de Stanbridge,QC,1.0,57.85
+QC173003,1901,Ste. Anne,QC178002,1911,Ste. Anne de Beaupré,QC,1.0,73.45
+QC186011,1901,"Sorel, City—Cité",QC191011,1911,Sorel t-v,QC,1.0,69.2
+QC200026,1901,Unorg. territory—Ter. non-organisé,QC165013,1911,Gravel,QC,0.9995,10.5
+QC149012,1901,Ind. Reserve Ouiatchouan,QC154008,1911,"Indian Reserve, I R",QC,1.0,72.33
+QC139999,1901,NO DATA,QC144039,1911,Other parts - Autres parties,QC,1.0,50.0
+QC199001,1901,"Como, Village",QC204009,1911,Como vl,QC,1.0,79.0
+QC137009,1901,"Lachute, Town—Ville",QC142013,1911,Lachute t-v,QC,1.0,76.67
+QC185012,1901,"Stoneham, Tewkesbury & Unorg. Territory",QC190014,1911,Stoneham & Tewkesbury,QC,0.9956,66.15
+AB001007,1911,Acme vl (T29 R5 MW4),AB194031,1921,"Acme, VL",AB,1.0,35.0
+AB001008,1911,Airdrie vl (T27 R1 MW5),AB194032,1921,"Airdrie, VL",AB,1.0,41.18
+AB001010,1911,Banff vl (T26 R12 MW5),AB194025,1921,Banff (not inc),AB,1.0,37.84
+AB001013,1911,Carstairs vl (T30 R1 MW5),AB194035,1921,"Carstairs, VL",AB,1.0,44.21
+AB001014,1911,Cochrane vl (T26 R4 MW5),AB194036,1921,"Cochrane, VL",AB,1.0,42.78
+AB001015,1911,Crossfield vl (T28 R1 MW5),AB194037,1921,"Crossfield, VL",AB,1.0,45.5
+AB001017,1911,Langdon vl (T23 R27 MW4),AB194039,1921,"Langdon, VL",AB,1.0,40.0
+AB001018,1911,Strathmore vl (T24 R25 MW4),AB194030,1921,"Strathmore, T-V",AB,1.0,40.0
+AB002007,1911,St. Albert t-v,AB199021,1921,"St. Albert, T-V",AB,1.0,78.02
+AB002008,1911,Stony Plain t-v,AB199022,1921,"Stony Plain, T-V",AB,1.0,78.18
+AB002012,1911,Edson vl (T53 R17 MW5),AB200024,1921,"Edson, T-V",AB,1.0,41.06
+AB002014,1911,Entwhistle vl (T53 R7 MW5),AB200025,1921,"Entwistle, VL",AB,1.0,53.51
+AB002015,1911,Morinville vl (T55 R25 MW4),AB199020,1921,"Morinville, T-V",AB,1.0,50.43
+AB003004,1911,Claresholm t-v,AB190021,1921,"Claresholm, T-V",AB,1.0,70.44
+AB003005,1911,High River t-v,AB192018,1921,"High River, T-V",AB,1.0,70.44
+AB003006,1911,Macleod t-v,AB190025,1921,"Macleod, T-V",AB,1.0,69.81
+AB003007,1911,Nanton t-v,AB192019,1921,"Nanton, T-V",AB,1.0,69.52
+AB003008,1911,Okotoks t-v,AB192020,1921,"Okotoks, T-V",AB,1.0,69.81
+AB003009,1911,Pincher Creek t-v,AB190027,1921,"Pincher Creek, T-V",AB,1.0,70.86
+AB003010,1911,Blairmore vl (T7 R4 MW5),AB190019,1921,"Blairmore, T-V",AB,1.0,43.38
+AB003011,1911,Barons vl (T12 R23 MW4),AB192023,1921,"Barons, VL",AB,1.0,41.04
+AB003013,1911,Carmangay vl (T13 R23 MW4),AB192017,1921,"Carmangay, T-V",AB,1.0,41.36
+AB003014,1911,Cayley vl (T7 R28 MW4),AB192025,1921,"Cayley, VL",AB,1.0,42.23
+AB003015,1911,Coleman vl (T8 R4 MW5),AB190022,1921,"Coleman, T-V",AB,1.0,39.92
+AB003016,1911,Cowley vl (T7 R1 MW5),AB190032,1921,"Cowley, VL",AB,1.0,43.5
+AB003017,1911,Frank vl (T7 R3 MW5),AB190033,1921,"Frank, VL",AB,1.0,41.48
+AB003018,1911,Granum vl (T10 R26 MW4),AB190024,1921,"Granum, T-V",AB,1.0,35.8
+AB003022,1911,Pincher City vl (T7 R3 MW4),AB190035,1921,"Pincher City, VL",AB,1.0,51.69
+AB003023,1911,Stavely vl (T14 R27 MW4),AB192021,1921,"Staveley, T-V",AB,1.0,36.91
+AB004003,1911,Lethbridge c,AB190018,1921,"Lethbridge, C",AB,1.0,78.74
+AB004004,1911,Medicine Hat c,AB189023,1921,"Medicine Hat, C",AB,1.0,79.12
+AB004005,1911,Cardston t-v,AB190020,1921,"Cardston, T-V",AB,1.0,78.74
+AB004006,1911,Magrath t-v,AB190026,1921,"Magrath, T-V",AB,1.0,78.49
+AB004007,1911,Raymond t-v,AB190028,1921,"Raymond, T-V",AB,1.0,78.49
+AB004008,1911,Taber t-v,AB189026,1921,"Taber, T-V",AB,1.0,77.85
+AB004010,1911,Bassano vl (T21 R18 MW4),AB191021,1921,"Bassano, T-V",AB,1.0,46.54
+AB004011,1911,Bow Island vl (T10 R11 MW4),AB189024,1921,"Bow Island, T-V",AB,1.0,51.54
+AB004012,1911,Brooks vl (T18 R14 MW4),AB191022,1921,"Brooks, T-V",AB,1.0,44.48
+AB004013,1911,Diamond City vl (T10 R21 MW4),AB190023,1921,"Diamond City, T-V",AB,1.0,54.15
+AB004014,1911,Gleichen vl (T22 R4 MW4),AB194028,1921,"Gleichen, T-V",AB,1.0,49.38
+AB004015,1911,Grassy Lake vl (T10 R13 MW4),AB189028,1921,"Grassy Lake, VL",AB,1.0,57.12
+AB004016,1911,Irvine vl (T11 R2 MW4),AB189025,1921,"Irvine, T-V",AB,1.0,45.48
+AB004018,1911,Munson vl (T30 R20 MW4),AB193032,1921,"Munson, VL",AB,1.0,49.72
+AB004020,1911,Redcliffe vl (T13 R6 MW4),AB191023,1921,"Redcliffe, T-V",AB,1.0,51.03
+AB004022,1911,Sterling vl (T6 R19 MW4),AB190036,1921,"Stirling, VL",AB,1.0,50.43
+AB004023,1911,Warner vl (T4 R17 MW4),AB189031,1921,"Warner, VL",AB,1.0,50.91
+AB005004,1911,Didsbury t-v,AB194027,1921,"Didsbury, T-V",AB,1.0,72.65
+AB005005,1911,Innisfail t-v,AB196027,1921,"Innisfail, T-V",AB,1.0,72.86
+AB005006,1911,Lacombe t-v,AB196028,1921,"Lacombe, T-V",AB,1.0,72.41
+AB005007,1911,Olds t-v,AB194029,1921,"Olds, T-V",AB,1.0,71.34
+AB005008,1911,Ponoka t-v,AB196029,1921,"Ponoka, T-V",AB,1.0,72.12
+AB005009,1911,Red Deer t-v,AB196022,1921,"Red Deer, C",AB,1.0,60.24
+AB005010,1911,Stettler t-v,AB196030,1921,"Stettler, T-V",AB,1.0,72.65
+AB005011,1911,Alix vl (T39 R23 MW4),AB196031,1921,"Alix, VL",AB,1.0,39.25
+AB005012,1911,Blackfalds vl (T39 R27 MW4),AB196035,1921,"Blackfalds, VL",AB,1.0,49.84
+AB005013,1911,Bowden vl (T34 R1 MW5),AB197022,1921,"Bowden, VL",AB,1.0,44.83
+AB005014,1911,Castor vl (T37 R4 MW4),AB195022,1921,"Castor, T-V",AB,1.0,39.39
+AB005015,1911,Erskine vl (T39 R20 MW4),AB196040,1921,"Erskine, VL",AB,1.0,45.45
+AB005017,1911,Gadsby vl (T38 R17 MW4),AB196042,1921,"Gadsby, VL",AB,1.0,43.64
+AB005018,1911,North Red Deer vl (T38 R27 MW4),AB197023,1921,"North Red Deer, VL",AB,1.0,54.03
+AB005019,1911,Penhold vl (T36 R28 MW4),AB196049,1921,"Penhold, VL",AB,1.0,45.45
+AB005020,1911,Provost vl (T39 R2 MW4),AB195039,1921,"Provost, VL",AB,1.0,46.63
+AB005021,1911,Trochu vl (T33 R23 MW4),AB194043,1921,"Trochu, VL",AB,1.0,43.64
+AB006005,1911,Wetaskiwin c,AB196023,1921,"Wetaskiwin, C",AB,1.0,74.7
+AB006006,1911,Camrose t-v,AB196025,1921,"Camrose, T-V",AB,1.0,74.46
+AB006007,1911,Daysland t-v,AB196026,1921,"Daysland, T-V",AB,1.0,74.7
+AB006008,1911,Leduc t-v,AB199019,1921,"Leduc, T-V",AB,1.0,73.52
+AB006009,1911,Tofield t-v,AB199023,1921,"Tofield, T-V",AB,1.0,74.16
+AB006010,1911,Wainwright t-v,AB195025,1921,"Wainwright, T-V",AB,1.0,75.09
+AB006011,1911,Bawlf vl (T46 R18 MW4),AB196033,1921,"Bawlf, VL",AB,1.0,43.63
+AB006012,1911,Ferintosh vl (T44 R21 MW4),AB196041,1921,"Ferintosh, VL",AB,1.0,50.58
+AB006013,1911,Hardisty vl (T43 R9 MW4),AB195024,1921,"Hardisty, T-V",AB,1.0,45.34
+AB006014,1911,Holden vl (T49 R16 MW4),AB198025,1921,"Holden, VL",AB,1.0,45.38
+AB006015,1911,Killam vl (T44 R13 MW4),AB195036,1921,"Killam, VL",AB,1.0,45.68
+AB006016,1911,Millet vl (T47 R25 MW4),AB196045,1921,"Millet, VL",AB,1.0,45.68
+AB006017,1911,New Norway vl (T45 R21 MW4),AB196047,1921,"New Norway, VL",AB,1.0,51.89
+AB006018,1911,Ohaton vl (T46 R19 MW4),AB196048,1921,"Ohaton, VL",AB,1.0,45.68
+AB006019,1911,Ryley vl (T50 R17 MW4),AB198034,1921,"Ryley, VL",AB,1.0,43.33
+AB006020,1911,Sedgewick vl (T44 R12 MW4),AB195040,1921,"Sedgewick, VL",AB,1.0,50.58
+AB006021,1911,Strome vl (T45 R15 MW4),AB195041,1921,"Strome, VL",AB,1.0,45.68
+AB006022,1911,Viking vl (T47 R13 MW4),AB195043,1921,"Viking, VL",AB,1.0,45.68
+AB007004,1911,Fort Saskatchewan t-v,AB199018,1921,"Fort Saskatchewan, T-V",AB,1.0,76.2
+AB007005,1911,Vegreville t-v,AB198021,1921,"Vegreville, T-V",AB,1.0,75.41
+AB007006,1911,Vermilion t-v,AB198022,1921,"Vermilion, T-V",AB,1.0,75.23
+AB007007,1911,Bruederheim vl (T55 R20 MW4),AB198023,1921,"Bruderheim, VL",AB,1.0,51.16
+AB007008,1911,Innisfree vl (T51 R11 MW4),AB198026,1921,"Innisfree, VL",AB,1.0,50.9
+AB007009,1911,Islay vl (T51 R10 MW4),AB198027,1921,"Islay, VL",AB,1.0,43.96
+AB007010,1911,Lamont vl (T55 R19 MW4),AB198029,1921,"Lamont, VL",AB,1.0,46.01
+AB007011,1911,Lavoy vl (T52 R13 MW4),AB198030,1921,"Lavoy, VL",AB,1.0,43.96
+AB007012,1911,Lloydminster vl (T50 R1 MW4),AB198020,1921,"Lloydminster (pt), T-V",AB,1.0,52.63
+AB007013,1911,Mannville vl (T50 R9 MW4),AB198031,1921,"Mannville, VL",AB,1.0,52.04
+AB007014,1911,Mundare vl (T53 R16 MW4),AB198033,1921,"Mundare, VL",AB,1.0,47.83
+BC008007,1911,Prince Rupert c,BC214004,1921,"Prince Rupert, C",BC,1.0,71.27
+BC011003,1911,Dewdney,BC209002,1921,Dewdney,BC,0.9937,76.43
+BC011005,1911,Yale pt,BC209003,1921,Yale (pt),BC,0.9921,67.68
+BC011006,1911,Chilliwack c,BC209005,1921,"Chilliwack, C",BC,1.0,73.63
+BC012002,1911,Vancouver S,BC216002,1921,South Vancouver,BC,1.0,71.22
+BC014009,1911,Enderby c,BC218007,1921,"Enderby, C",BC,1.0,79.65
+BC014013,1911,Kelowna c,BC218010,1921,"Kelowna, C",BC,1.0,79.65
+BC014016,1911,Vernon c,BC218011,1921,"Vernon, C",BC,1.0,79.22
+MB015004,1911,Brandon c,MB161010,1921,"Brandon, C",MB,1.0,74.89
+MB015005,1911,Oak Lake t-v,MB162009,1921,"Oak Lake, T-V",MB,1.0,75.77
+MB015006,1911,Rivers t-v,MB162010,1921,"Rivers, T-V",MB,1.0,75.24
+MB015007,1911,Souris t-v,MB162011,1921,"Souris, T-V",MB,1.0,75.24
+MB015008,1911,Virden t-v,MB162012,1921,"Virden, T-V",MB,1.0,75.24
+MB015009,1911,Elkhorn vl (T12 R28 MW1),MB162013,1921,"Elkhorn, VL",MB,1.0,48.57
+MB015011,1911,Wawanesa vl (T7 R17 MW1),MB161012,1921,"Wawanesa, VL",MB,1.0,51.35
+MB016003,1911,Dauphin t-v,MB167009,1921,"Dauphin, T-V",MB,1.0,75.14
+MB016004,1911,Grand View t-v,MB168012,1921,"Grandview, T-V",MB,1.0,73.18
+MB016006,1911,Gilbert Plains vl (T25 R22 MW1),MB168015,1921,"Gilbert Plains, VL",MB,1.0,56.75
+MB016007,1911,Winnipegosis vl (T31 R18 MW1),MB167010,1921,"Winnipegosis, VL",MB,1.0,54.85
+MB017002,1911,Morden t-v,MB156011,1921,"Morden, T-V",MB,1.0,72.67
+MB017003,1911,Gretna vl (T1 R1 MW1),MB156013,1921,"Gretna, VL",MB,1.0,46.65
+MB017004,1911,Manitou vl (T3 R8 MW1),MB157011,1921,"Manitou, VL",MB,1.0,48.42
+MB017005,1911,Pilot Mound vl (T3 R11 MW1),MB157012,1921,"Pilot Mound, VL",MB,1.0,52.67
+MB017006,1911,Plum Coulee vl (T3 R3 MW1),MB156014,1921,"Plum Coulee, VL",MB,1.0,53.8
+MB017007,1911,Winkler vl (T2 R4 MW1),MB156015,1921,"Winkler, VL",MB,1.0,48.42
+MB018011,1911,Swan Lake I R,MB157009,1921,Indian reserves,MB,1.0,32.83
+MB018012,1911,Carman t-v,MB160014,1921,"Carman, T-V",MB,1.0,74.49
+MB019003,1911,Birtle t-v,MB165015,1921,"Birtle, T-V",MB,1.0,66.67
+MB019004,1911,Minnedosa t-v,MB165016,1921,"Minnedosa, T-V",MB,1.0,67.41
+MB019005,1911,Rapid City vl,MB165017,1921,"Rapid City, T-V",MB,1.0,60.0
+MB019006,1911,Hamiota vl (T14 R23 MW1),MB165019,1921,"Hamiota, VL",MB,1.0,40.0
+MB019007,1911,Russell vl (T21 R28 MW1),MB168013,1921,"Russell, T-V",MB,1.0,35.0
+MB019008,1911,Shoal Lake vl (T17 R23 MW1),MB165020,1921,"Shoal Lake, VL",MB,1.0,44.39
+MB020004,1911,Carberry t-v,MB161011,1921,"Carberry, T-V",MB,1.0,72.82
+MB020005,1911,Gladstone t-v,MB164009,1921,"Gladstone, T-V",MB,1.0,72.86
+MB020006,1911,Neepawa t-v,MB164010,1921,"Neepawa, T-V",MB,1.0,72.41
+MB020007,1911,Portage la Prairie t-v,MB160011,1921,"Portage la Prairie, C",MB,1.0,67.49
+MB022011,1911,Selkirk t-v,MB163010,1921,"Selkirk, T-V",MB,1.0,72.67
+MB022012,1911,Stonewall t-v,MB163011,1921,"Stonewall, T-V",MB,1.0,73.12
+MB022013,1911,Beausejour vl (T12 R7 ME1),MB159012,1921,"Beausejour, T-V",MB,1.0,46.69
+MB022014,1911,Gimli vl (T27 R4 ME1),MB166013,1921,"Gimli, VL",MB,1.0,42.79
+MB022015,1911,Winnipeg Beach vl (T17 R4 ME1),MB163012,1921,"Winnipeg Beach, T-V",MB,1.0,51.43
+MB023002,1911,Boissevain t-v,MB158009,1921,"Boissevain, T-V",MB,1.0,73.59
+MB023003,1911,Deloraine t-v,MB158010,1921,"Deloraine, T-V",MB,1.0,73.41
+MB023004,1911,Hartney t-v,MB158011,1921,"Hartney, T-V",MB,1.0,72.96
+MB023005,1911,Killarney t-v,MB157010,1921,"Killarney, T-V",MB,1.0,73.41
+MB023006,1911,Melita t-v,MB158012,1921,"Melita, T-V",MB,1.0,72.67
+MB023007,1911,Napinka vl (T4 R25 MW1),MB158013,1921,"Napinka, VL",MB,1.0,47.18
+NB033018,1911,Gagetown vl,NB030011,1921,"Gagetown, T-V",NB,1.0,74.7
+NS037008,1911,Dalhousie,NS004018,1921,Morse Road (Dalhousie),NS,1.0,70.65
+NS037010,1911,Granville Lower,NS004026,1921,Thornes Cove (Granville Lower),NS,1.0,76.67
+NS037016,1911,Meadowvale,NS004027,1921,Torbrook (Meadowvale),NS,1.0,75.16
+NS037018,1911,Middleton,NS004003,1921,Brooklyn E. (Middleton),NS,1.0,69.38
+NS038002,1911,Antigonish S.,NS005001,1921,Antigonish (Rural),NS,1.0,79.68
+NS038004,1911,Dunmore,NS005015,1921,"South River, Middle (Dunmore)",NS,1.0,57.22
+NS038016,1911,Upper South River,NS005016,1921,"South River, Upper",NS,1.0,74.0
+NS039008,1911,Cape North,NS020007,1921,Cape N.,NS,1.0,63.96
+NS043013,1911,New Tusket,NS009015,1921,New Tusket & Havelock,NS,1.0,75.16
+NS043017,1911,Sandy Cove,NS009020,1921,Sandy Cove & Centreville,NS,1.0,71.18
+NS044006,1911,Forks,NS010006,1921,Glenelg (Forks),NS,1.0,65.0
+NS045004,1911,Cole Harbour,NS011004,1921,Cole Harbour (Imperial),NS,0.9945,63.0
+NS045007,1911,Fall River,NS011007,1921,Fall River (Waverly Corner),NS,1.0,52.84
+NS045011,1911,Hackett Cove,NS011011,1921,Hackett Cove (Haggens Cove),NS,1.0,58.08
+NS045014,1911,Hubbard Cove,NS011014,1921,Hubbard Cove (North Shore),NS,1.0,59.21
+NS045028,1911,Sackville,NS011030,1921,Sackville (13 Mile House),NS,0.9828,52.06
+NS045036,1911,Spryfield,NS011039,1921,Spryfield (Prospect Road),NS,1.0,52.06
+NS045038,1911,Upper Musquodoboit,NS011023,1921,Musquodoboit Upper,NS,1.0,61.67
+NS046001,1911,Avondale,NS012001,1921,Avondale (Newport Sounding),NS,1.0,62.0
+NS046015,1911,South Newport,NS012014,1921,South Newport (Brooklyn),NS,1.0,79.19
+NS048010,1911,Medford,NS014999,1921,NO DATA,NS,1.0,50.0
+NS049031,1911,Petite Rivière,NS015033,1921,Petite Rivière & Broad Cove,NS,1.0,77.8
+NS049036,1911,Rose Bay,NS015036,1921,Rose Bay (Cross Roads),NS,1.0,67.33
+NS050001,1911,Abercrombie,NS016001,1921,Abercrombie & Granton,NS,1.0,78.12
+NS052001,1911,Barrington Head,NS019001,1921,Barrington Head & Passage,NS,1.0,72.5
+NS052002,1911,Brookfield,NS017001,1921,Brookfield N.,NS,1.0,75.87
+NS052006,1911,Centreville,NS019007,1921,North Cape Island (Centreville),NS,1.0,56.67
+NS052008,1911,Clark Harbour,NS019016,1921,"Clarks Harbour, T-V",NS,1.0,76.88
+NS052013,1911,Hunt Point,NS017006,1921,Hunt Point (White Point),NS,1.0,56.18
+NS052028,1911,Western Head,NS017011,1921,Western Head (Moose Harbour),NS,1.0,57.0
+NS053002,1911,Argyle Head,NS021003,1921,Argyle Head & Lower Argyle,NS,1.0,71.62
+ON054002,1911,Allan,ON127001,1921,Allan,ON,1.0,76.67
+ON054003,1911,Assiginack,ON127002,1921,Assiginack,ON,1.0,76.67
+ON054004,1911,Baldwin,ON146006,1921,Baldwin,ON,1.0,70.0
+ON054006,1911,Barrie Island,ON127003,1921,Barrie Island,ON,1.0,76.67
+ON054007,1911,Bidwell,ON127004,1921,BidweIl,ON,1.0,66.67
+ON054012,1911,Burpee,ON127006,1921,Burpee,ON,1.0,76.67
+ON054013,1911,Campbell,ON127007,1921,Campbell,ON,1.0,76.67
+ON054016,1911,Cartier,ON146019,1921,Cartier,ON,1.0,70.0
+ON054017,1911,Chapleau,ON146022,1921,Chapleau,ON,0.9884,70.0
+ON054019,1911,Cockburn,ON127010,1921,Cockburn,ON,0.9801,76.67
+ON054022,1911,Creighton,ON146028,1921,Creighton,ON,1.0,70.0
+ON054023,1911,Dawson,ON127011,1921,Dawson,ON,1.0,76.67
+ON054025,1911,Denison,ON146031,1921,Denison,ON,1.0,70.0
+ON054026,1911,Denton,ON148054,1921,Denton,ON,1.0,76.32
+ON054027,1911,Doloro,ON148053,1921,Deloro,ON,1.0,64.65
+ON054028,1911,Dowling,ON146033,1921,Dowling,ON,1.0,70.0
+ON054029,1911,Drury,ON146034,1921,Drury,ON,0.9999,70.0
+ON054030,1911,Duck Island,ON127012,1921,Duck Island,ON,1.0,76.67
+ON054035,1911,Foster,ON146042,1921,Foster,ON,1.0,70.0
+ON054039,1911,Gough,ON146047,1921,Gough,ON,1.0,70.0
+ON054041,1911,Graham,ON146049,1921,Graham,ON,0.9998,70.0
+ON054043,1911,Hallam,ON146053,1921,HalIam,ON,1.0,58.33
+ON054044,1911,Harrow,ON146055,1921,Harrow,ON,1.0,70.0
+ON054046,1911,Hess,ON146061,1921,Hess,ON,1.0,70.0
+ON054054,1911,Lorne,ON146074,1921,Lorne,ON,1.0,70.0
+ON054055,1911,Louise,ON146076,1921,Louise,ON,1.0,70.0
+ON054056,1911,Lumbo,ON102064,1921,Morin,ON,1.0,53.71
+ON054057,1911,Lumsden,ON146077,1921,Lumsden,ON,1.0,70.0
+ON054058,1911,MacKinnon,ON146081,1921,Mackinnon,ON,1.0,70.0
+ON054059,1911,May,ON146087,1921,May,ON,1.0,70.0
+ON054062,1911,Mills,ON127015,1921,Mills,ON,1.0,76.67
+ON054065,1911,Nairn,ON146093,1921,Nairn,ON,1.0,70.0
+ON054068,1911,Ogden,ON148142,1921,Ogden,ON,1.0,76.32
+ON054069,1911,Pardee,ON146114,1921,Strathearn,ON,1.0,17.5
+ON054076,1911,Porcupine Branch T N O Ry,ON148090,1921,Hoyle,ON,1.0,20.32
+ON054078,1911,Rayside,ON146103,1921,Rayside,ON,1.0,70.0
+ON054082,1911,Rutherford,ON127017,1921,Rutherford,ON,1.0,76.67
+ON054083,1911,Salter,ON146105,1921,Salter,ON,1.0,70.0
+ON054084,1911,Sandfield,ON127018,1921,Sandfield,ON,1.0,76.67
+ON054085,1911,Shakespeare,ON146110,1921,Shakespeare,ON,1.0,70.0
+ON054086,1911,Shaw,ON148161,1921,Shaw,ON,1.0,76.32
+ON054089,1911,Snider,ON146112,1921,Snider,ON,1.0,70.0
+ON054092,1911,Tehkummah,ON127020,1921,Tehkummah,ON,1.0,76.67
+ON054095,1911,Thornloe,ON148176,1921,Thornelow,ON,1.0,63.96
+ON054098,1911,Trill,ON146120,1921,Trill,ON,1.0,70.0
+ON054099,1911,Turnbull,ON148181,1921,Turnbull,ON,0.9999,76.32
+ON054101,1911,Waters,ON146124,1921,Waters,ON,1.0,70.0
+ON054103,1911,Whitesides,ON148184,1921,Whitesides,ON,1.0,76.32
+ON054104,1911,Whitney,ON148185,1921,Whitney,ON,1.0,76.32
+ON054114,1911,Chelmsford t-v,ON146131,1921,"Chelmsford, T-V",ON,1.0,67.59
+ON054115,1911,Gore Bay t-v,ON127023,1921,"Gore Bay, T-V",ON,1.0,73.87
+ON054116,1911,Little Current t-v,ON127024,1921,"Little Current, T-V",ON,1.0,74.77
+ON054117,1911,Massey t-v,ON146133,1921,"Massey, T-V",ON,1.0,66.67
+ON054119,1911,Webbwood t-v,ON146135,1921,"Webbwood, T-V",ON,1.0,67.2
+ON055024,1911,Tarbutt,ON102088,1921,Tarbutt } Tarbutt Additional,ON,1.0,50.5
+ON058001,1911,Elizabeth town,ON124004,1921,Elizabethtown,ON,1.0,75.41
+ON058002,1911,Yonge & Escott front,ON124009,1921,Yonge & Escott Front,ON,1.0,78.0
+ON058003,1911,Yonge & Escott rear,ON124010,1921,Yonge & Escott Rear,ON,1.0,78.0
+ON058004,1911,Brockville t-v,ON124011,1921,"Brockville, T-V",ON,1.0,75.59
+ON058005,1911,Athens vl,ON124013,1921,"Athens, VL",ON,1.0,74.32
+ON068015,1911,Tilbury t-v part,ON110026,1921,"Tilbury (pt), T-V",ON,1.0,71.67
+ON069018,1911,Wolfe Island,ON111016,1921,Wolfe Island & Garden Island,ON,0.9978,72.0
+ON080007,1911,Marmora,ON118013,1921,Marmora & Lake,ON,0.9957,70.67
+ON085001,1911,Dover E } Dover W-O,ON121003,1921,Dover E & W,ON,1.0,66.67
+ON085009,1911,Tilbury t-v part,ON121017,1921,"Tilbury (pt), T-V",ON,1.0,66.67
+ON086001,1911,Kingston c,ON111017,1921,"Kingston, C",ON,1.0,77.25
+ON086002,1911,Portsmouth vl,ON111018,1921,"Portsmouth, VL",ON,1.0,78.0
+ON088006,1911,Sarnia t-v,ON122012,1921,"Sarnia, C",ON,1.0,74.91
+ON099003,1911,Appleby,ON146002,1921,Appleby,ON,1.0,73.75
+ON099005,1911,Aurey,ON146004,1921,Awrey,ON,1.0,59.75
+ON099011,1911,Blezard,ON146013,1921,Blezard,ON,1.0,73.75
+ON099018,1911,Broder,ON146014,1921,Broder,ON,1.0,73.75
+ON099031,1911,Casimir,ON146020,1921,Casimir,ON,1.0,73.75
+ON099034,1911,Charters,ON148043,1921,Chatters,ON,1.0,79.25
+ON099036,1911,Clara,ON142012,1921,Clara,ON,1.0,73.75
+ON099037,1911,Cleland,ON146025,1921,Cleland,ON,1.0,73.75
+ON099042,1911,Creelman,ON146027,1921,Creelman,ON,1.0,73.75
+ON099045,1911,Davis,ON146029,1921,Davis,ON,1.0,73.75
+ON099048,1911,Dill,ON146032,1921,Dill,ON,1.0,73.75
+ON099050,1911,Dryden,ON146035,1921,Dryden,ON,1.0,73.75
+ON099052,1911,Dunnett,ON146036,1921,Dunnet,ON,1.0,68.37
+ON099056,1911,Falconbridge,ON146040,1921,Falconbridge,ON,1.0,73.75
+ON099060,1911,Garson,ON146045,1921,Garson,ON,1.0,73.75
+ON099067,1911,Hagar,ON146052,1921,Hagar,ON,1.0,73.75
+ON099068,1911,Hanmer,ON146054,1921,Hanmer,ON,1.0,73.75
+ON099069,1911,Harlev,ON148081,1921,Harley,ON,1.0,76.33
+ON099072,1911,Hawley,ON146057,1921,Hawley,ON,1.0,73.75
+ON099073,1911,Head,ON142016,1921,Head,ON,1.0,73.75
+ON099074,1911,Hendrie,ON146058,1921,Hendrie,ON,1.0,73.75
+ON099081,1911,Hutton,ON146062,1921,Hutton,ON,1.0,73.75
+ON099084,1911,Jennings,ON146066,1921,Jennings,ON,1.0,73.75
+ON099102,1911,Maria,ON142020,1921,Maria,ON,1.0,73.75
+ON099104,1911,Martland,ON146084,1921,Martland,ON,1.0,73.75
+ON099111,1911,Muro,ON148134,1921,Munroe,ON,1.0,74.0
+ON099112,1911,Neelon,ON146094,1921,Neelon,ON,1.0,73.75
+ON099117,1911,Pacard,ON148145,1921,Pacaud,ON,1.0,76.33
+ON099125,1911,Rathburne,ON146101,1921,Rathbone,ON,1.0,61.4
+ON099126,1911,Ratter,ON146102,1921,Ratter,ON,1.0,73.75
+ON099131,1911,Scollard,ON146107,1921,Scollard,ON,1.0,73.75
+ON099132,1911,Secord,ON146109,1921,Secord,ON,1.0,73.75
+ON099155,1911,French River I R,ON146011,1921,Bigwood,ON,1.0,9.84
+ON099163,1911,Copper Cliff t-v,ON146132,1921,"Copper Cliff, T-V",ON,1.0,71.63
+ON106008,1911,Tavistock vl pt,ON134017,1921,"Tavistock (pt), VL",ON,1.0,76.62
+ON108050,1911,French River vl,ON135019,1921,Henvey,ON,1.0,56.67
+ON111009,1911,Tavistock vl part,ON137017,1921,"Tavistock (pt), VL",ON,1.0,73.0
+ON113006,1911,Monaghan S,ON132006,1921,Monaghan S,ON,0.9986,76.0
+ON113008,1911,Peterborough c } Ashburnham vl,ON138017,1921,"Peterborough, C",ON,1.0,69.27
+ON118004,1911,Gloucester,ON105002,1921,Gloucester,ON,0.9956,78.0
+ON118005,1911,Osgoode,ON105009,1921,Osgoode,ON,1.0,78.0
+ON118010,1911,Eastview vl,ON105012,1921,"Eastview, T-V",ON,1.0,66.33
+ON119003,1911,Orillia,ON144009,1921,Orillia N & S,ON,1.0,74.71
+ON119011,1911,Christian Islands I R,ON144017,1921,Indian reserves,ON,1.0,52.94
+ON123002,1911,Aubrey,ON120001,1921,Aubrey,ON,1.0,75.81
+ON123008,1911,Britton,ON120002,1921,Britton,ON,1.0,75.81
+ON123022,1911,Eton,ON120005,1921,Eton,ON,1.0,75.81
+ON123031,1911,Lake of the Woods,ON120009,1921,Lake of the Woods,ON,1.0,75.81
+ON123033,1911,Langton,ON120010,1921,Langton,ON,1.0,75.81
+ON123045,1911,Melgund,ON120011,1921,Melgund,ON,1.0,75.81
+ON123049,1911,Mutrie,ON120013,1921,Mutrie,ON,1.0,75.81
+ON123068,1911,Rowell,ON120019,1921,Rowell,ON,1.0,75.81
+ON123069,1911,Rugby,ON120020,1921,Rugby,ON,1.0,75.81
+ON123070,1911,Sandford,ON120021,1921,Sandford,ON,1.0,75.81
+ON123072,1911,Scoble,ON147022,1921,Scobel,ON,1.0,76.67
+ON123085,1911,Temple,ON120023,1921,Temple,ON,1.0,75.81
+ON123087,1911,Van Home,ON120025,1921,VanHorne,ON,1.0,58.31
+ON123090,1911,Wainwright,ON120027,1921,Wainwright,ON,1.0,75.81
+ON123092,1911,White DogPost,ON120028,1921,White Dog Post,ON,1.0,73.21
+ON123096,1911,Along C P R between English & Kaministiquia rivers,ON147027,1921,C.P.R. Conmee-English River,ON,1.0,52.88
+ON123121,1911,Dryden t-v,ON120043,1921,"Dryden, T-V",ON,1.0,72.47
+ON123123,1911,Kenora t-v,ON120045,1921,"Kenora, T-V",ON,1.0,72.47
+ON123124,1911,Keewatin t-v,ON120044,1921,"Keewatin, T-V",ON,1.0,73.01
+ON129023,1911,McCIintock,ON116013,1921,McClintock,ON,1.0,73.0
+ON129028,1911,Sherbourne,ON116017,1921,Sherborne,ON,1.0,76.32
+ON129029,1911,Snowden,ON116018,1921,Snowdon,ON,1.0,70.0
+ON130004,1911,Berlin t-v,ON150007,1921,"Kitchener, C",ON,1.0,45.76
+ON131004,1911,Galt t-v,ON150006,1921,"Galt, C",ON,1.0,73.33
+ON132001,1911,Bertie,ON151015,1921,"Crystal Beach, VL",ON,1.0,48.26
+ON132012,1911,Bridgeburg vl,ON151001,1921,Bertie,ON,0.9841,59.47
+ON136006,1911,Mimico vl,ON154014,1921,"Mimico, T-V",ON,1.0,72.0
+ON136008,1911,Weston vl,ON154017,1921,"Weston, T-V",ON,1.0,72.0
+SK207002,1911,White Bear I R,SK171020,1921,Indian reserves,SK,1.0,29.31
+SK207003,1911,Alameda t-v,SK171021,1921,"Alameda, T-V",SK,1.0,76.96
+SK207004,1911,Arcola t-v,SK171022,1921,"Arcola, T-V",SK,1.0,76.67
+SK207005,1911,Carlyle t-v,SK171023,1921,"Carlyle, T-V",SK,1.0,76.96
+SK207006,1911,Carnduff t-v,SK171024,1921,"Carnduff, T-V",SK,1.0,77.2
+SK207007,1911,Estevan t-v,SK171025,1921,"Estevan, T-V",SK,1.0,76.96
+SK207008,1911,Oxbow t-v,SK171026,1921,"Oxbow, T-V",SK,1.0,76.32
+SK207009,1911,Weyburn t-v,SK172021,1921,"Weyburn, C",SK,1.0,63.33
+SK207010,1911,Antler vl (T7 R30 MW1),SK171027,1921,"Antler, VL",SK,1.0,49.38
+SK207011,1911,Carievale vl (T2 R31 MW1),SK171029,1921,"Carievale, VL",SK,1.0,54.21
+SK207012,1911,Creelman vl (T10 R10 MW1),SK172032,1921,"Creelman, VL",SK,1.0,51.62
+SK207013,1911,Fairlight vl (T10 R31 MW2),SK171030,1921,"Fairlight, VL",SK,1.0,53.08
+SK207014,1911,Fillmore vl (T11 R11 MW1),SK172033,1921,"Fillmore, VL",SK,1.0,51.62
+SK207015,1911,Forget vl (T8 R7 MW2),SK171031,1921,"Forget, VL",SK,1.0,50.65
+SK207016,1911,Frobisher vl (T3 R4 MW2),SK171032,1921,"Frobisher, VL",SK,1.0,55.41
+SK207017,1911,Gainsboro vl (T2 R30 MW1),SK171033,1921,"Gainsboro, VL",SK,1.0,54.21
+SK207018,1911,Glen Ewen vl (T3 R1 MW2),SK171034,1921,"Glen Ewen, VL",SK,1.0,55.41
+SK207019,1911,Goodwater vl (T5 R13 MW2),SK172035,1921,"Goodwater, VL",SK,1.0,54.21
+SK207020,1911,Griffin vl (T8 R11 MW2),SK172036,1921,"Griffin, VL",SK,1.0,51.18
+SK207021,1911,Halbrite vl (T6 R12 MW2),SK172037,1921,"Halbrite, VL",SK,1.0,52.78
+SK207022,1911,Heward vl (T9 R9 MW2),SK171035,1921,"Heward, VL",SK,1.0,50.65
+SK207023,1911,Kisbey vl (T8 R5 MW2),SK171037,1921,"Kisbey, VL",SK,1.0,50.65
+SK207024,1911,Lampman vl (T5 R6 MW2),SK171038,1921,"Lampman, VL",SK,1.0,52.42
+SK207025,1911,Macoun vl (T4 R10 MW2),SK172041,1921,"Macoun, VL",SK,1.0,49.38
+SK207026,1911,Manor vl (T7 R1 MW2),SK171039,1921,"Manor, VL",SK,1.0,48.62
+SK207027,1911,Maryfield vl (T10 R30 MW1),SK171040,1921,"Maryfield, VL",SK,1.0,53.08
+SK207028,1911,Midale vl (T5 R11 MW2),SK172043,1921,"Midale, VL",SK,1.0,49.38
+SK207029,1911,North Portal vl (T1 R5 MW2),SK171041,1921,"North Portal, VL",SK,1.0,58.84
+SK207030,1911,Osage vl (T11 R12 MW2),SK172044,1921,"Osage, VL",SK,1.0,46.13
+SK207031,1911,Redvers vl (T7 R32 MW1),SK171042,1921,"Redvers, VL",SK,1.0,51.18
+SK207032,1911,Roche Percee vl (T1 R6 MW2),SK171043,1921,"Roche Percee, VL",SK,1.0,58.84
+SK207033,1911,Stoughton vl (T8 R8 MW2),SK171044,1921,"Stoughton, VL",SK,1.0,55.41
+SK207034,1911,Wachope vl (T7 R33 MW1),SK171045,1921,"Wauchope, VL",SK,1.0,50.0
+SK207035,1911,Wawota vl (T11 R1 MW2),SK171046,1921,"Wawota, VL",SK,1.0,49.38
+SK208025,1911,Battleford t-v,SK182021,1921,"Battleford, T-V",SK,1.0,69.99
+SK208026,1911,Lloydminster t-v,SK187023,1921,"Lloydminster (pt), T-V",SK,1.0,61.35
+SK208027,1911,North Battleford t-v,SK186026,1921,"North Battleford, C",SK,1.0,63.43
+SK208028,1911,Scott t-v,SK183028,1921,"Scott, T-V",SK,1.0,68.72
+SK208029,1911,Wilkie t-v,SK183030,1921,"Wilkie, T-V",SK,1.0,69.07
+SK208030,1911,Adanac vl (T40 R22 MW3),SK183031,1921,"Adanac, VL",SK,1.0,40.58
+SK208031,1911,"Biggar vl (Tpts 35,36 R14 MW3)",SK182022,1921,"Biggar, T-V",SK,1.0,29.72
+SK208032,1911,Coblenz vl (T38 R19 MW3),SK183033,1921,"Cavell, VL",SK,1.0,22.99
+SK208033,1911,"Delmas vl (Tpts 45,46 R18 MW3)",SK182030,1921,"Delmas, VL",SK,1.0,33.9
+SK208034,1911,"Denzil vl (Tpts 37,38 R26 MW3)",SK183035,1921,"Denzil, VL",SK,1.0,33.9
+SK208035,1911,Fielding vl (T41 R11 MW3),SK186032,1921,"Fielding, VL",SK,1.0,44.02
+SK208036,1911,Harris vl (T32 R12 MW3),SK182032,1921,"Harris, VL",SK,1.0,40.58
+SK208037,1911,Kerr Robert vl (T34 R23 MW3),SK183025,1921,"Kerrobert, T-V",SK,1.0,39.07
+SK208038,1911,Landis vl (T37 R18 MW3),SK183042,1921,"Landis, VL",SK,1.0,40.58
+SK208039,1911,Lashburn vl (T48 R25 MW3),SK187025,1921,"Lashburn, VL",SK,1.0,44.02
+SK208040,1911,Leney vl (T35 R11 MW3),SK182036,1921,"Leney, VL",SK,1.0,38.53
+SK208041,1911,Luseland vl (T36 R24 MW3),SK183045,1921,"Luseland, VL",SK,1.0,44.02
+SK208042,1911,Macklin vl (T39 R28 MW3),SK183027,1921,"Macklin, T-V",SK,1.0,37.4
+SK208043,1911,Maidstone vl (T47 R23 MW3),SK187026,1921,"Maidstone, VL",SK,1.0,45.48
+SK208044,1911,Maymont vl (T41 R12 MW3),SK186037,1921,"Maymont, VL",SK,1.0,42.4
+SK208045,1911,Paynton vl (T46 R21 MW3),SK187030,1921,"Paynton, VL",SK,1.0,42.4
+SK208046,1911,"Perdue vl (Tpts 35,36 R11 MW3)",SK182040,1921,"Perdue, VL",SK,1.0,33.9
+SK208047,1911,Plenty vl (T32 R19 MW3),SK183049,1921,"Plenty, VL",SK,1.0,40.58
+SK208048,1911,Rosetown vl (T30 R15 MW3),SK182025,1921,"Rosetown, T-V",SK,1.0,39.24
+SK208049,1911,Salvador vl (T37 R25 MW3),SK183051,1921,"Salvador, VL",SK,1.0,44.02
+SK208050,1911,Tessier vl (T33 R11 MW3),SK182045,1921,"Tessier, VL",SK,1.0,42.4
+SK208051,1911,Unity vl (T40 R22 MW3),SK183029,1921,"Unity, T-V",SK,1.0,33.02
+SK208052,1911,Zealandia vl (T30 R13 MW3),SK182026,1921,"Zealandia, T-V",SK,1.0,40.9
+SK209003,1911,Davidson t-v,SK181021,1921,"Davidson, T-V",SK,1.0,69.81
+SK209004,1911,Humbolt t-v,SK185028,1921,"Humboldt, T-V",SK,1.0,66.78
+SK209005,1911,Lanigan t-v,SK181024,1921,"Lanigan, T-V",SK,1.0,69.57
+SK209006,1911,Nokomis t-v,SK181025,1921,"Nokomis, T-V",SK,1.0,69.57
+SK209007,1911,Watrous t-v,SK181028,1921,"Watrous, T-V",SK,1.0,69.57
+SK209008,1911,Watson t-v,SK180019,1921,"Watson, T-V",SK,1.0,69.28
+SK209009,1911,Bruno vl (T38 R25 MW2),SK185034,1921,"Bruno, VL",SK,1.0,38.74
+SK209010,1911,Colonsay vl (T35 R28 MW2),SK181034,1921,"Colonsay, VL",SK,1.0,44.23
+SK209011,1911,Dana vl (T38 R26 MW2),SK185037,1921,"Dana, VL",SK,1.0,36.4
+SK209012,1911,Drake vl (T32 R22 MW2),SK181035,1921,"Drake, VL",SK,1.0,38.74
+SK209013,1911,Duval vl (T25 R22 MW2),SK181037,1921,"Duval, VL",SK,1.0,38.74
+SK209014,1911,Elfros vl (T32 R14 MW2),SK180022,1921,"Elfros, VL",SK,1.0,40.79
+SK209015,1911,Foam Lake vl (T30 R14 MW2),SK180023,1921,"Foam Lake, VL",SK,1.0,45.69
+SK209016,1911,Girvin vl (T25 R29 MW2),SK181040,1921,"Girvin, VL",SK,1.0,40.79
+SK209017,1911,Govan vl (T27 R22 MW2),SK181022,1921,"Govan, T-V",SK,1.0,33.23
+SK209018,1911,Guernsey vl (T33 R23 MW2),SK181042,1921,"Guernsey, VL",SK,1.0,44.23
+SK209019,1911,Howell vl (T39 R28 MW2),SK185042,1921,"Howell, VL",SK,1.0,40.79
+SK209020,1911,Ituna vl (T25 R11 MW2),SK180025,1921,"Ituna, VL",SK,1.0,38.74
+SK209021,1911,Jansen vl (T32 R20 MW2),SK180026,1921,"Jansen, VL",SK,1.0,40.79
+SK209022,1911,Jasmin vl (T26 R12 MW2),SK180027,1921,"Jasmin, VL",SK,1.0,40.79
+SK209023,1911,Kelliher vl (T26 R13 MW2),SK180029,1921,"Kelliher, VL",SK,1.0,44.23
+SK209024,1911,Leslie vl (T31 R13 MW2),SK180032,1921,"Leslie, VL",SK,1.0,40.79
+SK209025,1911,Le Ross vl (T27 R14 MW2),SK180031,1921,"Leross, VL",SK,1.0,39.67
+SK209026,1911,Lockwood vl (T31 R22 MW2),SK181047,1921,"Lockwood, VL",SK,1.0,44.23
+SK209027,1911,Muenster vl (T37 R21 MW2),SK185046,1921,"Muenster, VL",SK,1.0,44.23
+SK209028,1911,Punnichy vl (T28 R17 MW2),SK180035,1921,"Punnichy, VL",SK,1.0,44.23
+SK209029,1911,Quill Lake vl (T36 R16 MW2),SK180036,1921,"Quill Lake, VL",SK,1.0,47.0
+SK209030,1911,Quinton vl (T28 R18 MW2),SK180037,1921,"Quinton, VL",SK,1.0,42.61
+SK209031,1911,Raymore vl (T28 R18 MW2),SK180038,1921,"Raymore, VL",SK,1.0,42.61
+SK209032,1911,Semans vl (T28 R20 MW2),SK180039,1921,"Semans, VL",SK,1.0,40.79
+SK209033,1911,Tate vl (T28 R21 MW2),SK180040,1921,"Tate, VL",SK,1.0,36.4
+SK209034,1911,Venn vl (T30 R24 MW2),SK181052,1921,"Venn, VL",SK,1.0,36.4
+SK209035,1911,Viscount vl (T34 R26 MW2),SK181053,1921,"Viscount, VL",SK,1.0,44.23
+SK209036,1911,Wadena vl (T34 R13 MW2),SK180018,1921,"Wadena, T-V",SK,1.0,35.55
+SK209037,1911,Wynyard vl (T32 R16 MW2),SK180020,1921,"Wynyard, T-V",SK,1.0,37.61
+SK210003,1911,Canor t-v,SK179018,1921,"Canora, T-V",SK,1.0,65.61
+SK210004,1911,Yorkton t-v,SK179020,1921,"Yorkton, T-V",SK,1.0,69.57
+SK210005,1911,Buchanan vl,SK179022,1921,"Buchanan, VL",SK,1.0,69.57
+SK210006,1911,Calder Sta vl,SK179023,1921,"Calder, VL",SK,1.0,57.39
+SK210007,1911,Kamsack vl,SK179019,1921,"Kamsack, T-V",SK,1.0,59.88
+SK210008,1911,Sheho vl,SK179032,1921,"Sheho, VL",SK,1.0,68.49
+SK210009,1911,Theodore vl,SK179037,1921,"Theodore, VL",SK,1.0,69.57
+SK210010,1911,Togo vl,SK179038,1921,"Togo, VL",SK,1.0,67.94
+SK210011,1911,Hubbard vl,SK180024,1921,"Hubbard, VL",SK,1.0,69.17
+SK210012,1911,Invermay vl,SK179026,1921,"Invermay, VL",SK,1.0,69.57
+SK210013,1911,Margo vl,SK180034,1921,"Margo, VL",SK,1.0,68.38
+SK210014,1911,Pelly vl,SK179028,1921,"Pelley, VL",SK,1.0,64.83
+SK210015,1911,Springside vl,SK179033,1921,"Springside, VL",SK,1.0,70.02
+SK210016,1911,Stornoway vl,SK179035,1921,"Stornoway, VL",SK,1.0,69.81
+SK211002,1911,Moosejaw c,SK177024,1921,"Moosejaw, C",SK,1.0,72.12
+SK211003,1911,Cacon t-v,SK177025,1921,"Caron, T-V",SK,1.0,64.4
+SK211004,1911,Kindersley t-v,SK183026,1921,"Kindersley, T-V",SK,1.0,72.8
+SK211005,1911,Maple Creek t-v,SK174026,1921,"Maple Creek, T-V",SK,1.0,73.2
+SK211006,1911,Swift Current t-v,SK178025,1921,"Swift Current, C",SK,1.0,64.85
+SK211007,1911,Alsask vl (T28 R29 MW3),SK183024,1921,"Alsask, T-V",SK,1.0,38.16
+SK211008,1911,Brock vl (T28 R20 MW3),SK183032,1921,"Brock, VL",SK,1.0,41.35
+SK211009,1911,Bounty vl (T29 R10 MW3),SK182028,1921,"Bounty, VL",SK,1.0,43.4
+SK211010,1911,Brownlee vl (T20 R1 MW3),SK177033,1921,"Brownlee, VL",SK,1.0,48.23
+SK211011,1911,Eyebrow vl (T21 R2 MW3),SK177038,1921,"Eyebrow, VL",SK,1.0,46.63
+SK211012,1911,Gull Lake vl (T13 R19 MW3),SK178027,1921,"Gull Lake, T-V",SK,1.0,43.95
+SK211013,1911,Herbert vl (T17 R9 MW3),SK177027,1921,"Herbert, T-V",SK,1.0,41.45
+SK211014,1911,Keeler vl (T20 R28 MW2),SK177040,1921,"Keeler, VL",SK,1.0,43.64
+SK211015,1911,Morse vl (T17 R8 MW3),SK177028,1921,"Morse, T-V",SK,1.0,37.07
+SK211016,1911,Marquis vl (T19 R27 MW2),SK177043,1921,"Marquis, VL",SK,1.0,45.45
+SK211017,1911,Mortlach vl (T17 R1 MW3),SK177029,1921,"Mortlach, T-V",SK,1.0,43.29
+SK211018,1911,Netherhill vl (T29 R21 MW2),SK183048,1921,"Netherhill, VL",SK,1.0,49.61
+SK211019,1911,Tompkins vl (T13 R21 MW3),SK178047,1921,"Tompkins, VL",SK,1.0,47.08
+SK211020,1911,Tugaske vl (T22 R3 MW3),SK177048,1921,"Tugaske, VL",SK,1.0,46.63
+SK211021,1911,Tuxford vl (T19 R26 MW2),SK177049,1921,"Tuxford, VL",SK,1.0,45.45
+SK211022,1911,Webb vl (T14 R17 MW3),SK178048,1921,"Webb, VL",SK,1.0,39.25
+SK212018,1911,Prince Albert c,SK185026,1921,"Prince Albert, C",SK,1.0,74.17
+SK212019,1911,Melfort t-v,SK184035,1921,"Melfort, T-V",SK,1.0,73.39
+SK212021,1911,Birch Hills vl (T46 R24 MW2),SK185033,1921,"Birch Hills, VL",SK,1.0,52.01
+SK212022,1911,Duck Lake vl (T44 R2 MW3),SK185027,1921,"Duck Lake, T-V",SK,1.0,45.92
+SK212023,1911,Hudson Bay Jc vl (T45 R3 MW2),SK184037,1921,"Hudson Bay Jct, VL",SK,1.0,54.09
+SK212024,1911,Kinistino vl (T45 R21 MW2),SK185043,1921,"Kinistino, VL",SK,1.0,49.51
+SK212025,1911,Shellbrook vl (T49 R3 MW3),SK186041,1921,"Shellbrook, VL",SK,1.0,51.93
+SK212026,1911,Star City vl (T45 R17 MW2),SK184039,1921,"Star City, VL",SK,1.0,49.51
+SK212029,1911,Tisdale vl (T45 R17 MW2),SK184036,1921,"Tisdale, T-V",SK,1.0,41.43
+SK213003,1911,Broadview t-v,SK175021,1921,"Broadview, T-V",SK,1.0,67.41
+SK213004,1911,Fleming t-v,SK175022,1921,"Fleming, T-V",SK,1.0,66.96
+SK213005,1911,Francis t-v,SK176024,1921,"Francis, T-V",SK,1.0,66.96
+SK213006,1911,Indian Head t-v,SK176025,1921,"Indian Head, T-V",SK,1.0,67.74
+SK213007,1911,Moosomin t-v,SK175026,1921,"Moosomin, T-V",SK,1.0,67.2
+SK213008,1911,Qu'Appelle t-v,SK176027,1921,"Qu'Appelle, T-V",SK,1.0,67.59
+SK213009,1911,Sintaluta t-v,SK176029,1921,"Sintaluta, T-V",SK,1.0,67.41
+SK213010,1911,Wapella t-v,SK175028,1921,"Wapella, T-V",SK,1.0,66.96
+SK213011,1911,Whitewood t-v,SK175029,1921,"Whitewood, T-V",SK,1.0,67.41
+SK213012,1911,Wolseley t-v,SK175030,1921,"Wolseley, T-V",SK,1.0,67.2
+SK213014,1911,Ft. Qu'Appelle vl (T21 R13 MW2),SK176048,1921,"Fort Qu'Appelle, VL",SK,1.0,44.8
+SK213015,1911,Glenavon vl (T14 R9 MW2),SK175039,1921,"Glenavon, VL",SK,1.0,42.78
+SK213016,1911,Grenfel vl (T17 R7 MW2),SK175023,1921,"Grenfell, T-V",SK,1.0,38.89
+SK213017,1911,Kennedy vl (T12 R3 MW2),SK171036,1921,"Kennedy, VL",SK,1.0,41.18
+SK213018,1911,Kipling vl (T13 R5 MW2),SK175043,1921,"Kipling, VL",SK,1.0,41.18
+SK213019,1911,Montmartre vl (T14 R11 MW2),SK176057,1921,"Montmartre, VL",SK,1.0,44.39
+SK213020,1911,Odessa vl (T15 R13 MW2),SK176059,1921,"Odessa, VL",SK,1.0,38.18
+SK213021,1911,Rocanville vl (T16 R31 MW1),SK175048,1921,"Rocanville, VL",SK,1.0,44.39
+SK213022,1911,Sedley vl (T14 R15 MW2),SK176064,1921,"Sedley, VL",SK,1.0,38.18
+SK213023,1911,Summerberry vl (T17 R8 MW2),SK175051,1921,"Summerberry, VL",SK,1.0,46.67
+SK213024,1911,Tyvan vl (T12 R13 MW2),SK172048,1921,"Tyvan, VL",SK,1.0,36.13
+SK213025,1911,Welwyn vl (T15 R30 MW1),SK175054,1921,"Welwyn, VL",SK,1.0,38.18
+SK213026,1911,Windthorst vl (T13 R7 MW2),SK175055,1921,"Windthorst, VL",SK,1.0,45.5
+SK214003,1911,Regina c,SK176022,1921,"Regina, C",SK,1.0,71.88
+SK214004,1911,Balgonie t-v,SK176023,1921,"Balgonie, T-V",SK,1.0,73.2
+SK214005,1911,Craik t-v,SK177026,1921,"Craik, T-V",SK,1.0,72.32
+SK214006,1911,Lumsden t-v,SK176026,1921,"Lumsden, T-V",SK,1.0,72.96
+SK214007,1911,Milestone t-v,SK172022,1921,"Milestone, T-V",SK,1.0,73.41
+SK214008,1911,Rouleau t-v,SK176028,1921,"Rouleau, T-V",SK,1.0,72.96
+SK214009,1911,Strassburg t-v,SK176030,1921,"Strasbourg, T-V",SK,1.0,68.76
+SK214010,1911,Yellow Grass t-v,SK172025,1921,"Yellow Grass, T-V",SK,1.0,73.88
+SK214011,1911,Amulet vl (T8 R21 MW2),SK172026,1921,"Amulet, VL",SK,1.0,45.38
+SK214012,1911,Aylesbury vl (T23 R27 MW2),SK177030,1921,"Aylesbury, VL",SK,1.0,49.08
+SK214013,1911,Belle Plain vl (T16 R23 MW2),SK176033,1921,"Belle Plaine, VL",SK,1.0,50.55
+SK214014,1911,Bulyea vl (T23 R21 MW2),SK176037,1921,"Bulyea, VL",SK,1.0,44.18
+SK214015,1911,Chamberlain vl (T22 R26 MW2),SK176038,1921,"Chamberlain, VL",SK,1.0,51.58
+SK214016,1911,Colgate vl (T5 R15 MW2),SK172031,1921,"Colgate, VL",SK,1.0,47.18
+SK214017,1911,Craven vl (T20 R21 MW2),SK176039,1921,"Craven, VL",SK,1.0,44.18
+SK214018,1911,Disley vl (T19 R22 MW2),SK176042,1921,"Disley, VL",SK,1.0,44.18
+SK214019,1911,Drinkwater vl (T15 R23 MW2),SK176043,1921,"Drinkwater, VL",SK,1.0,50.39
+SK214020,1911,Earl Grey vl (T23 R20 MW2),SK176045,1921,"Earl Grey, VL",SK,1.0,49.08
+SK214021,1911,Forward vl (T8 R18 MW2),SK172034,1921,"Forward, VL",SK,1.0,47.18
+SK214022,1911,Grand Coulee vl (T17 R21 MW2),SK176049,1921,"Grand Coulee, VL",SK,1.0,52.67
+SK214023,1911,Kronau vl (T15 R17 MW2),SK176052,1921,"Kronau, VL",SK,1.0,44.18
+SK214024,1911,Lang vl (T11 R18 MW2),SK172040,1921,"Lang, VL",SK,1.0,39.79
+SK214025,1911,McTaggart vl (T9 R15 MW2),SK172042,1921,"McTaggart, VL",SK,1.0,50.21
+SK214026,1911,Markinch vl (T23 R17 MW2),SK176055,1921,"Markinch, VL",SK,1.0,47.62
+SK214027,1911,Ogema vl (T7 R22 MW2),SK172023,1921,"Ogema, T-V",SK,1.0,37.61
+SK214028,1911,Pense vl (T17 R22 MW2),SK176060,1921,"Pense, VL",SK,1.0,42.13
+SK214029,1911,Radville vl (T5 R18 MW2),SK172024,1921,"Radville, T-V",SK,1.0,43.84
+SK214030,1911,Southey vl (T23 R18 MW2),SK176066,1921,"Southey, VL",SK,1.0,46.0
+SK214031,1911,Wilcox vl (T13 R20 MW2),SK176068,1921,"Wilcox, VL",SK,1.0,44.18
+SK215004,1911,Lemberg t-v,SK175024,1921,"Lemberg, T-V",SK,1.0,72.17
+SK215005,1911,Melville t-v,SK175025,1921,"Melville, T-V",SK,1.0,72.42
+SK215006,1911,Saltcoats t-v,SK175027,1921,"Saltcoats, T-V",SK,1.0,72.62
+SK215007,1911,Abernethy vl (T20 R11 MW2),SK176031,1921,"Abernethy, VL",SK,1.0,48.29
+SK215008,1911,Atwater vl (T21 R2 MW2),SK175031,1921,"Atwater, VL",SK,1.0,46.39
+SK215009,1911,Balcarres vl (T21 R11 MW2),SK176032,1921,"Balcarres, VL",SK,1.0,48.29
+SK215010,1911,Bredenbury vl (T22 R1 MW2),SK175020,1921,"Bredenbury, T-V",SK,1.0,46.19
+SK215011,1911,Birmingham vl (T23 R7 MW2),SK175033,1921,"Birmingham, VL",SK,1.0,50.72
+SK215012,1911,Churchbridge vl (T22 R32 MW1),SK175034,1921,"Churchbridge, VL",SK,1.0,51.88
+SK215013,1911,Cupar vl (T23 R16 MW2),SK176040,1921,"Cupar, VL",SK,1.0,41.35
+SK215014,1911,Dubuc vl (T20 R4 MW2),SK175035,1921,"Dubuc, VL",SK,1.0,42.55
+SK215015,1911,Dysart vl (T23 R15 MW2),SK176044,1921,"Dysart, VL",SK,1.0,43.4
+SK215016,1911,Esterhazy vl (T19 R1 MW2),SK175037,1921,"Esterhazy, VL",SK,1.0,49.43
+SK215017,1911,Fenwood vl (T23 R8 MW2),SK175038,1921,"Fenwood, VL",SK,1.0,46.39
+SK215018,1911,Goodeve vl (T29 R9 MW2),SK175040,1921,"Goodeve, VL",SK,1.0,46.39
+SK215019,1911,Grayson vl (T20 R5 MW2),SK175041,1921,"Grayson, VL",SK,1.0,46.39
+SK215020,1911,Killaly vl (T20 R6 MW2),SK175042,1921,"Killaly, VL",SK,1.0,46.39
+SK215021,1911,Langenburg vl (T21 R31 MW1),SK175044,1921,"Langenburg, VL",SK,1.0,49.61
+SK215022,1911,Lipton vl (T22 R14 MW2),SK176054,1921,"Lipton, VL",SK,1.0,43.4
+SK215023,1911,Neudorf vl (T20 R8 MW2),SK175046,1921,"Neudorf, VL",SK,1.0,46.39
+SK215024,1911,Spyhill vl (T19 R31 MW1),SK175049,1921,"Spy Hill, VL",SK,1.0,44.11
+SK215025,1911,Stockholm vl (T19 R3 MW2),SK175050,1921,"Stockholm, VL",SK,1.0,49.43
+SK215026,1911,Tantallon vl (T18 R32 MW1),SK175052,1921,"Tantallon, VL",SK,1.0,48.29
+SK215027,1911,Waldron vl (T21 R4 MW2),SK175053,1921,"Waldron, VL",SK,1.0,46.39
+SK216003,1911,Saskatoon c,SK181020,1921,"Saskatoon, C",SK,1.0,74.46
+SK216004,1911,Hanley t-v,SK181023,1921,"Hanley, T-V",SK,1.0,74.17
+SK216005,1911,Langham t-v,SK182024,1921,"Langham, T-V",SK,1.0,74.46
+SK216006,1911,Outlook t-v,SK181026,1921,"Outlook, T-V",SK,1.0,74.46
+SK216007,1911,Rosthern t-v,SK185029,1921,"Rosthern, T-V",SK,1.0,74.7
+SK216008,1911,Vonda t-v,SK185030,1921,"Vonda, T-V",SK,1.0,73.82
+SK216009,1911,Aberdeen vl (T39 R2 MW3),SK185031,1921,"Aberdeen, VL",SK,1.0,50.28
+SK216010,1911,Allan vl (T34 R1 MW3),SK181029,1921,"Allan, VL",SK,1.0,44.83
+SK216011,1911,Asquith vl (T36 R9 MW3),SK182020,1921,"Asquith, T-V",SK,1.0,43.5
+SK216012,1911,Bladworth vl (T28 R1 MW3),SK181030,1921,"Bladworth, VL",SK,1.0,51.71
+SK216013,1911,Borden vl (T39 R9 MW3),SK186029,1921,"Borden, VL",SK,1.0,46.88
+SK216014,1911,Broderick vl (T29 R7 MW3),SK181032,1921,"Broderick, VL",SK,1.0,51.71
+SK216015,1911,Clavet vl (T35 R3 MW3),SK181033,1921,"Clavet, VL",SK,1.0,46.88
+SK216016,1911,Delisle vl (T34 R8 MW3),SK182023,1921,"Delisle, T-V",SK,1.0,43.5
+SK216017,1911,Dundurn vl (T33 R4 MW3),SK181036,1921,"Dundurn, VL",SK,1.0,48.68
+SK216018,1911,Elbow vl (T25 R5 MW3),SK181038,1921,"Elbow, VL",SK,1.0,44.83
+SK216019,1911,Elstow vl (T35 R1 MW3),SK181039,1921,"Elstow, VL",SK,1.0,46.88
+SK216020,1911,Glenside vl (T29 R6 MW3),SK181041,1921,"Glenside, VL",SK,1.0,50.28
+SK216021,1911,Hague vl (T41 R3 MW3),SK185040,1921,"Hague, VL",SK,1.0,44.83
+SK216022,1911,Hawarden vl (T28 R5 MW3),SK181043,1921,"Hawarden, VL",SK,1.0,50.28
+SK216023,1911,Kenaston vl (T29 R2 MW3),SK181045,1921,"Kenaston, VL",SK,1.0,50.28
+SK216024,1911,Kinley vl (T36 R10 MW3),SK182034,1921,"Kinley, VL",SK,1.0,45.68
+SK216025,1911,Laird vl (T43 R5 MW3),SK185044,1921,"Laird, VL",SK,1.0,44.83
+SK216026,1911,Laura vl (T33 R9 MW3),SK182035,1921,"Laura, VL",SK,1.0,44.83
+SK216027,1911,Loreburn vl (T26 R5 MW3),SK181048,1921,"Loreburn, VL",SK,1.0,50.28
+SK216028,1911,Osler vl (T39 R4 MW3),SK185047,1921,"Osler, VL",SK,1.0,44.83
+SK216029,1911,Radisson vl (T41 R10 MW3),SK186027,1921,"Radisson, T-V",SK,1.0,44.34
+SK216030,1911,Sutherland vl (T36 R5 MW3),SK181027,1921,"Sutherland, T-V",SK,1.0,48.48
+SK216031,1911,Warman vl (T38 R5 MW3),SK185052,1921,"Warman, VL",SK,1.0,46.88
+YT217999,1911,NO DATA,YT219001,1921,Rural Parts,YT,0.9994,53.33
+SK209039,1911,Zelma vl (T33 R25 MW2),SK181055,1921,"Zelma, VL",SK,1.0,38.74
+SK209038,1911,Young vl (T32 R27 MW2),SK181054,1921,"Young, VL",SK,1.0,38.74
+QC144008,1911,St. Évariste de Forsyth,QC055009,1921,St. Evariste de Forsyth,QC,1.0,78.96
+QC144012,1911,St. Georges,QC040001,1921,Aubert Gallion (St. Georges),QC,1.0,69.49
+QC144013,1911,St. Hilaire Dorset,QC055011,1921,St. Hilaire de Dorset,QC,1.0,76.62
+QC144014,1911,St. Honoré,QC040012,1921,St. Honoré de Shenley,QC,1.0,75.16
+QC144020,1911,Ste. Martine de Courcelle,QC055003,1921,Courcelles (Ste. Martine de Courcelles),QC,1.0,66.69
+QC144021,1911,St. Maxime de Scott,QC053016,1921,St. Maxime de Scott,QC,1.0,77.5
+QC144025,1911,St. Samuel de Gayhurst,QC055006,1921,Gayhurst (St. Samuel),QC,1.0,44.56
+QC145003,1911,St. Étienne,QC041003,1921,St. Etienne de Beauharnois,QC,1.0,67.84
+QC145008,1911,Salaberry de Valleyfield t-v,QC041007,1921,"Valleyfield (Salaberry de), C",QC,1.0,61.93
+QC146005,1911,St. Étienne de Beaumont,QC042001,1921,Beaumont (St. Etienne),QC,1.0,61.11
+QC146008,1911,"St. Magloire (Rioux, Bellechasse, Daaquam)",QC042005,1921,"Roux, Bellechasse & Daaquam (St. Magloire)",QC,1.0,73.33
+QC147001,1911,Berthier,QC043001,1921,Berthier (Ste. Geneviève),QC,1.0,63.94
+QC147012,1911,Visitation (Ile Dupas),QC043002,1921,Ile Dupas (Visitation),QC,1.0,65.0
+QC148008,1911,Matapédia,QC044009,1921,Matapédia (St. Alexis),QC,1.0,70.65
+QC148016,1911,St. Alphonse de Caplan,QC044010,1921,Musselyville,QC,1.0,46.47
+QC150002,1911,Chambly,QC046002,1921,Chambly (St. Joseph),QC,1.0,52.45
+QC150005,1911,St. Bruno,QC046005,1921,St. Bruno de Montarville,QC,0.9917,54.34
+QC150015,1911,Longueuil t-v,QC046007,1921,"Longueuil, C",QC,1.0,72.15
+QC150016,1911,Montréal t-v,QC046009,1921,"Montréal S., T-V",QC,1.0,76.15
+QC151002,1911,La Visitation de Champlain,QC047002,1921,Champlain (La Visitation),QC,0.9917,65.69
+QC151007,1911,Ste. Geneviève,QC047008,1921,Ste. Geneviève de Batiscan,QC,1.0,79.0
+QC151017,1911,St. Stanislas,QC047020,1921,St. Stanislas de la Rivière des Envies,QC,0.9924,65.69
+QC152006,1911,Ste. Agnès,QC048006,1921,Ste. Agnès de Mont Murray,QC,1.0,70.0
+QC152007,1911,St. Fidèle,QC048007,1921,St. Fidèle de Mont Murray,QC,1.0,70.0
+QC154001,1911,Albanel pr,QC063001,1921,Albanel,QC,1.0,66.74
+QC154003,1911,Bagotville pr,QC050002,1921,"Bagotville, par. (St. Alphonse)",QC,1.0,60.72
+QC154005,1911,"Girard, UNO",QC063002,1921,Girard tp.-ct.,QC,1.0,48.29
+QC154006,1911,Grande Baie pr. & Boileau tp. & Ferland tp.,QC050008,1921,"St. Alexis de la Grande Baie, par. (Boileau & Ferland tp.—ct.)",QC,1.0,68.69
+QC154010,1911,La Doré pr,QC063006,1921,"Notre Dame de la Dorée, par.",QC,0.9908,45.93
+QC154012,1911,Normandin pr,QC063005,1921,"Normandin (St. Cyrille, par.)",QC,1.0,50.07
+QC154013,1911,Roberval pr,QC063009,1921,"Roberval, par. (Charlevoix, Roberval, Ouiatchouan tps.-cts.)",QC,1.0,30.78
+QC154015,1911,St. Amédée de Péribonka pr,QC063010,1921,St. Amédée de Péribonka & Ste. Jeanne d'Arc,QC,1.0,59.82
+QC154016,1911,St. André pr,QC063011,1921,"St. André, par.",QC,1.0,71.31
+QC154018,1911,St. Bruno pr,QC063012,1921,"St. Bruno, par. (Kénogami pt.)",QC,1.0,49.09
+QC154019,1911,St. Charles pr,QC050011,1921,St. Charles Borromée (Bourget),QC,1.0,60.72
+QC154020,1911,St. Cyriac pr,QC050005,1921,Kénogami (St. Cyriac),QC,0.9999,60.53
+QC154022,1911,St. Édouard de Péribonka pr,QC063007,1921,Péribonka (St. Edouard),QC,1.0,39.89
+QC154023,1911,Ste. Edwidge pr,QC063015,1921,"Ste. Edwidge, par. (Dalmas tp.-ct.)",QC,1.0,51.09
+QC154024,1911,St. Félicien pr,QC063016,1921,"St. Félicien, par.",QC,0.9905,72.73
+QC154026,1911,St. François de Sales,QC063017,1921,St. François de Sales,QC,1.0,79.09
+QC154028,1911,St. Gédéon pr,QC063018,1921,"St. Gédéon, par.",QC,0.9859,71.85
+QC154033,1911,St. Louis de Métabetchouan pr,QC063022,1921,St. Louis Metabetchouan,QC,0.9925,68.32
+QC154034,1911,St. Louis Nazaire pr,QC050016,1921,St. Louis Nazaire (Taché tp.—ct.),QC,1.0,69.54
+QC154035,1911,St. Méthode,QC063023,1921,St. Méthode,QC,1.0,79.09
+QC154036,1911,St. Michel de Mistassini pr,QC063024,1921,"St. Michel de Mistassini, par.",QC,1.0,75.41
+QC154037,1911,St. Prime pr,QC063025,1921,"St. Prime, par.",QC,1.0,71.31
+QC154038,1911,St. Thomas d'Aquin pr,QC063026,1921,"St. Thomas d'Aquin, par.",QC,1.0,74.42
+QC154041,1911,Roberval t-v,QC063027,1921,"Roberval, T-V",QC,1.0,76.29
+QC154042,1911,Bagotville vl,QC050017,1921,"Bagotville, T-V",QC,1.0,79.35
+QC154044,1911,Hébertville vl,QC063028,1921,"Hébertville, VL",QC,1.0,76.68
+QC154045,1911,Hébertville station vl,QC063029,1921,"Hébertville Stn, VL",QC,1.0,70.55
+QC154046,1911,Jonquières vl,QC050019,1921,"Jonquière, T-V",QC,1.0,76.39
+QC154048,1911,St. Bruno vl,QC063030,1921,"St. Bruno, VL",QC,1.0,76.29
+QC154050,1911,St. Jérôme vl,QC063034,1921,"St. Jérôme, VL",QC,1.0,76.5
+QC154051,1911,Bergeronnes pr,QC086001,1921,Bergeronnes,QC,1.0,78.15
+QC154057,1911,Mille Vaches pr,QC086006,1921,St. Paul de Mille Vaches,QC,1.0,59.63
+QC154058,1911,Natashquan,QC086036,1921,Canton Natashkuan,QC,0.9968,63.22
+QC154065,1911,Sacré-Coeur pr. & Labrosse tp.,QC086007,1921,Sacré Cœur de Jésus & Labrosse tp.-ct.,QC,1.0,65.96
+QC154069,1911,Tadoussac pr,QC086008,1921,"Tadoussac, par.",QC,1.0,78.77
+QC155004,1911,Clifton E. & Clifton W-O,QC051004,1921,Clifton E.,QC,0.9986,71.18
+QC155010,1911,La Patrie,QC051011,1921,La Patrie (Ditton),QC,1.0,76.67
+QC155014,1911,St. Alphonse,QC055020,1921,Winslow S.,QC,1.0,36.7
+QC155015,1911,Ste. Cécile de Whitton,QC055018,1921,Whitton (Ste. Cécile),QC,1.0,47.06
+QC155017,1911,Ste. Edwidge,QC051014,1921,Ste. Edwidge de Clifton,QC,1.0,78.0
+QC155020,1911,Winslow & St. Romain,QC055019,1921,Winslow N. & St. Romain,QC,1.0,76.37
+QC155025,1911,Martinville vl,QC051005,1921,Clifton W.-O.,QC,0.9966,45.56
+QC156008,1911,St. Joseph,QC052008,1921,St. Joseph du Lac,QC,1.0,79.71
+QC157002,1911,Ste. Aurélie,QC040005,1921,Ste. Aurélie (Metgermette N. pt.),QC,1.0,44.83
+QC157017,1911,St. Prosper (Mission),QC053019,1921,St. Prosper (Watford W.-O.),QC,1.0,73.75
+QC158003,1911,Chester N.,QC038003,1921,Chester N. (St. Christophe),QC,1.0,57.19
+QC158028,1911,Stanfold,QC038006,1921,Princeville (Stanfold),QC,1.0,56.69
+QC158032,1911,Wickham,QC054014,1921,Wickham E.,QC,1.0,74.2
+QC158036,1911,Arthabaskaville t-v,QC038020,1921,"Arthabaska, T-V",QC,1.0,77.0
+QC159004,1911,Douglastown,QC056007,1921,Douglas E.,QC,1.0,76.67
+QC160004,1911,Westmount c,QC076016,1921,"Westmount, C",QC,1.0,71.69
+QC162003,1911,Présentation de la Ste. Vierge,QC076004,1921,"La Présentation T. S. Vierge, par.",QC,1.0,58.49
+QC162009,1911,St. Raphaël de l'Ile Bizard,QC076003,1921,"Ile Bizard, par.",QC,1.0,40.74
+QC162012,1911,Dorval t-v,QC076019,1921,"Dorval, T-V",QC,0.9803,74.85
+QC162014,1911,Montréal W-O t-v,QC076026,1921,"Montréal W.-O., T-V",QC,1.0,72.18
+QC162018,1911,Ste. Anne de Bellevue t-v,QC076031,1921,"Ste. Anne de Bellevue, T-V",QC,1.0,76.81
+QC162020,1911,Verdun t-v,QC076015,1921,"Verdun, C",QC,1.0,59.76
+QC162027,1911,St. Pierre aux Liens vl,QC076035,1921,"St. Pierre aux Liens, T-V",QC,1.0,72.35
+QC162028,1911,Senneville vl,QC076040,1921,"Senneville, VL",QC,1.0,75.59
+QC163001,1911,St. Alphonse,QC060002,1921,St. Alphonse de Rodriguez,QC,1.0,75.41
+QC163002,1911,St. Ambroise,QC060003,1921,St. Ambroise de Kildare,QC,1.0,78.0
+QC163005,1911,St. Cléophas,QC060006,1921,St. Cléophas de Brandon,QC,1.0,78.0
+QC163008,1911,Ste. Émilie,QC060009,1921,Ste. Emélie de l'Energie,QC,1.0,70.0
+QC164001,1911,Mont Carmel,QC061001,1921,Mont Carmel (Notre Dame du),QC,1.0,70.53
+QC164007,1911,St. Denis,QC061007,1921,St. Denis de la Bouteillerie,QC,1.0,64.05
+QC164008,1911,St. Éleuthère & UNO,QC061008,1921,St. Eleuthère (Pohénégamook),QC,1.0,74.68
+QC165032,1911,Plaisance,QC062039,1921,Plaisance (Coeur Très Pur de la Bienheureuse Vierge Marie),QC,1.0,48.81
+QC166002,1911,Sault St. Louis,QC064007,1921,Indian reserves (Sault St. Louis),QC,1.0,60.62
+QC166008,1911,St. Cyprien,QC077001,1921,St. Cyprien de Léry,QC,1.0,70.75
+QC166012,1911,St. Rémi,QC077005,1921,St. Rémi de La Salle,QC,1.0,59.41
+QC168002,1911,Rivière des Prairies,QC076006,1921,"Rivière des Prairies, par.",QC,1.0,66.16
+QC168003,1911,Sault au Récollet (partie),QC076025,1921,"Montréal N., T-V",QC,1.0,25.29
+QC168005,1911,St. Elzéar de Laval,QC076042,1921,"St. Elzéar, par.",QC,1.0,53.29
+QC168006,1911,St. François de Sales,QC076043,1921,"St. François de Sales, par.",QC,1.0,66.54
+QC168019,1911,Ste. Rose vl,QC076049,1921,"Ste. Rose, T-V",QC,1.0,64.52
+QC169002,1911,Notre-Dame du Perpétuel Secours,QC066001,1921,Notre Dame de Charny,QC,1.0,71.18
+QC169012,1911,St. Romuald,QC066012,1921,St. Romuald d'Etchemin,QC,1.0,76.67
+QC170007,1911,Ste. Louise,QC067009,1921,Ste. Louise des Aulnaies,QC,1.0,69.71
+QC170008,1911,St. Marcel,QC067001,1921,Arago (St. Marcel),QC,1.0,75.71
+QC171011,1911,St. Jean Deschaillons,QC068001,1921,Deschaillons (St. Jean),QC,1.0,68.18
+QC171013,1911,St. Narcisse,QC068014,1921,St. Narcisse de Beaurivage,QC,1.0,74.21
+QC171014,1911,St. Patrice,QC068016,1921,St. Patrice de Beaurivage,QC,0.9816,72.78
+QC171015,1911,Ste. Philomène,QC068017,1921,Ste. Philomène de Fortierville,QC,0.9949,74.55
+QC171017,1911,Sacré-Coeur,QC068002,1921,Issoudun (N. D. du Sacré Cœur),QC,1.0,57.32
+QC173002,1911,Louiseville,QC069003,1921,Louiseville (Rivière du Loup),QC,1.0,68.5
+QC173004,1911,St. Charles de Mandeville,QC043006,1921,St. Charles de Mandeville,QC,1.0,73.33
+QC175009,1911,St. Thomas,QC072010,1921,St. Thomas de Foucault,QC,1.0,73.75
+QC176001,1911,Ascension,QC062025,1921,L'Ascension (Mousseau et Lynch),QC,1.0,39.5
+QC176003,1911,St. Calixte,QC073003,1921,St. Calixte de Kilkenny,QC,1.0,75.29
+QC177008,1911,St. François,QC074009,1921,St. François de la Rivière du Sud,QC,1.0,67.33
+QC177009,1911,St. Paul de Montminy,QC074004,1921,Montminy (St. Paul),QC,1.0,58.72
+QC177010,1911,St. Pierre,QC074012,1921,St. Pierre de la Rivière du Sud,QC,1.0,64.15
+QC184003,1911,Manceau,QC078012,1921,St. Joseph de Blandford,QC,1.0,39.33
+QC184004,1911,Nicolet,QC078003,1921,Nicolet (St. Jean Baptiste),QC,1.0,58.82
+QC184022,1911,Annaville vl,QC078025,1921,"Annaville (St. Célestin), VL",QC,1.0,72.0
+QC186003,1911,Deschambault,QC080003,1921,Deschambault (St. Joseph),QC,1.0,75.41
+QC186019,1911,St. Marc,QC080033,1921,"St. Marc des Carrières, VL",QC,1.0,62.94
+QC190016,1911,Lorette vl,QC081023,1921,"Loretteville, VL",QC,1.0,72.79
+QC192015,1911,St. Jacques,QC099010,1921,St. Jacques le Majeur,QC,1.0,62.41
+QC192016,1911,St. Joseph de Ham S.,QC099005,1921,Ham S. (St. Joseph),QC,1.0,50.18
+QC192022,1911,Wolfestown,QC099014,1921,Wolfestown (St. Julien de),QC,1.0,53.17
+QC192026,1911,Windsor Mills t-v,QC083012,1921,"Windsor, T-V",QC,1.0,73.1
+QC192030,1911,D'Israéli vl,QC099018,1921,"D'Israeli, VL",QC,1.0,75.89
+QC193004,1911,Notre-Dame de Macnider,QC070003,1921,Notre Dame de McNider,QC,1.0,69.4
+QC193006,1911,Price,QC070017,1921,St. Octave de Métis N.,QC,1.0,14.66
+QC193007,1911,Rimouski,QC084012,1921,St. Germain de Rimouski,QC,1.0,66.13
+QC193013,1911,St. Damase,QC070007,1921,St. Damase,QC,1.0,74.29
+QC193015,1911,St. Édouard des Méchins,QC070002,1921,Dalibaire & Romieux (St. Edouard),QC,1.0,29.29
+QC193025,1911,St. Luc (Tessier),QC070014,1921,St. Luc de Matane,QC,1.0,45.46
+QC193030,1911,St. Octave de Métis,QC070018,1921,St. Octave de Métis S.,QC,1.0,69.16
+QC193031,1911,St. Paul des Capucins,QC070004,1921,Romieux (Les Capucins),QC,1.0,46.61
+QC193033,1911,St. Ulric,QC070020,1921,St. Ulric de la Rivière Blanche,QC,1.0,35.79
+QC193037,1911,Amqui vl,QC070023,1921,"St. Benoit Joseph Labre (Amqui), VL",QC,1.0,30.33
+QC193040,1911,Petit Métis vl,QC070021,1921,"Petit Métis, VL",QC,1.0,71.87
+QC194003,1911,Ste. Angèle,QC085003,1921,Ste. Angèle de Monnoir,QC,1.0,76.67
+QC195002,1911,Notre-Dame,QC091008,1921,St. Hyacinthe (Notre Dame de),QC,1.0,62.31
+QC195004,1911,St. Bernard,QC091003,1921,St. Bernard de Michaudville,QC,1.0,70.53
+QC196002,1911,St. Athanase,QC059003,1921,St. Athanase de Bleury,QC,1.0,68.03
+QC196008,1911,St. Grégoire le Grand,QC059006,1921,St. Grégoire le Grand de Monnoir,QC,1.0,74.09
+QC196012,1911,St. Paul,QC092007,1921,St. Paul de l'Ile aux Noix,QC,1.0,50.08
+QC196016,1911,St. Jean t-v,QC092009,1921,"St. Jean, C",QC,1.0,71.93
+QC197009,1911,St. Valérien,QC087009,1921,St. Valérien de Milton,QC,1.0,79.41
+QC197018,1911,West Shefford vl,QC087018,1921,"Shefford W.-O., VL",QC,1.0,75.29
+QC199002,1911,St. Ignace,QC089001,1921,Côteau du Lac (St. Ignace),QC,0.9895,68.89
+QC200001,1911,Barford,QC090001,1921,Barford (N. & S.),QC,1.0,70.83
+QC201002,1911,Cacouna,QC095002,1921,Cacouna (St. Georges),QC,1.0,65.0
+QC201007,1911,Rivière du Loup,QC095024,1921,St. Patrice de la Rivière du Loup,QC,1.0,73.75
+QC201011,1911,St. Cyprien,QC095010,1921,St. Cyprien (Hocquart),QC,1.0,76.67
+QC201023,1911,Fraserville t-v,QC095029,1921,"Rivière du Loup, C",QC,1.0,51.21
+QC201024,1911,Cacouna vl,QC095031,1921,"Cacouna (St. Georges de), VL",QC,0.9995,66.84
+QC202009,1911,St. Jovite,QC096003,1921,De Salaberry & Grandison (St. Jovite),QC,0.994,59.79
+QC202011,1911,Ste. Lucie,QC096012,1921,Ste. Lucie (Doncaster),QC,1.0,73.75
+QC202013,1911,St. Sauveur,QC096014,1921,St. Sauveur des Monts,QC,1.0,78.12
+QC202014,1911,Ste. Sophie,QC096015,1921,Ste. Sophie de la Corne,QC,1.0,75.29
+QC202015,1911,Ste. Thérèse,QC096016,1921,Ste. Thérèse de Blainville,QC,0.9988,74.21
+QC202020,1911,Ste. Agathe vl,QC096018,1921,"Ste. Agathe des Monts, T-V",QC,1.0,75.5
+QC203001,1911,Banlieue Trois-Rivières,QC093001,1921,"Banlieue (Trois-Rivières, par.)",QC,1.0,76.55
+QC203008,1911,St. Mathieu,QC093009,1921,St. Mathieu du Lac Bellemare,QC,1.0,56.41
+QC203013,1911,Shawinigan Falls t-v,QC093014,1921,"Shawinigan Falls, C",QC,1.0,77.95
+QC204001,1911,Rigaud,QC097001,1921,Rigaud (Ste. Madeleine),QC,1.0,58.97
+QC204007,1911,Vaudreuil,QC097006,1921,St. Michel de Vaudreuil,QC,0.9815,69.38
+QC205001,1911,Aumond,QC057001,1921,Aumond,QC,1.0,76.0
+QC205002,1911,Aylwin,QC057002,1921,Aylwin,QC,1.0,76.0
+QC205003,1911,Baskatong,QC057003,1921,Baskatong,QC,1.0,76.0
+QC205004,1911,Bouchette,QC057004,1921,Bouchette,QC,1.0,76.0
+QC205005,1911,Cameron,QC057005,1921,Cameron,QC,1.0,76.0
+QC205006,1911,Denholm,QC057006,1921,Denholm,QC,1.0,76.0
+QC205007,1911,Eardley,QC057007,1921,Eardley,QC,1.0,76.0
+QC205009,1911,Hincks,QC057009,1921,Hincks,QC,1.0,76.0
+QC205011,1911,Kensington,QC057013,1921,Kensington,QC,1.0,76.0
+QC205012,1911,Low,QC057014,1921,Low,QC,1.0,76.0
+QC205013,1911,Lytton,QC057015,1921,Lytton,QC,1.0,76.0
+QC205014,1911,Maniwaki,QC057028,1921,Réserves Indiennes,QC,1.0,16.77
+QC205017,1911,Sicotte,QC057020,1921,Sicotte,QC,1.0,76.0
+QC205020,1911,Wright,QC057026,1921,Wright,QC,1.0,76.0
+QC205022,1911,Hull c,QC057029,1921,"Hull, C",QC,1.0,70.62
+QC205023,1911,Aylmer t-v,QC057030,1921,"Aylmer, T-V",QC,1.0,72.67
+QC205024,1911,Gracefield vl,QC057032,1921,"Gracefield, VL",QC,1.0,73.41
+QC205025,1911,Maniwaki vl,QC057016,1921,Maniwaki,QC,1.0,64.95
+QC205026,1911,Pointe Gatineau vl,QC057034,1921,"Pointe Gatineau, VL",QC,1.0,74.11
+QC206001,1911,La Baie du Febvre,QC100003,1921,St. Antoine (La Baie du Febvre),QC,0.989,79.58
+QC206014,1911,St. Zéphirin,QC100014,1921,St. Zéphirin de Courval,QC,1.0,78.0
+QC206017,1911,Yamaska vl,QC100020,1921,"St. Michel, VL",QC,1.0,53.33
+QC20N002,1911,East Main,QC094051,1921,East Main,QC,1.0,77.64
+QC20N003,1911,Mistassini,QC094054,1921,Mistassini,QC,1.0,77.64
+QC20N004,1911,Nemiskau,QC094055,1921,Nemiskau,QC,1.0,77.64
+QC20N005,1911,Rupert's House,QC094056,1921,Ruperts House,QC,1.0,75.04
+QC193042,1911,St. Moïse vl,QC070026,1921,"St. Moïse, VL",QC,1.0,71.49
+QC193017,1911,Ste. Félicité,QC070009,1921,Ste. Félicité,QC,1.0,74.29
+QC193041,1911,St. Jérôme de Matane vl,QC070025,1921,"St. Jérôme de Matane, VL",QC,1.0,72.8
+QC147006,1911,St. Damien,QC043008,1921,St. Damien de Brandon,QC,1.0,75.16
+QC191011,1911,Sorel t-v,QC082011,1921,"Sorel, C",QC,1.0,79.41
+QC206011,1911,St. Michel,QC100011,1921,St. Michel d'Yamaska,QC,0.9824,76.67
+QC201019,1911,St. Modeste,QC095023,1921,Ste. Modeste de Whitworth,QC,1.0,72.78
+QC201016,1911,St. Honoré,QC095016,1921,St. Honoré (Armand),QC,0.9956,78.28
+QC201015,1911,St. François-Xavier & St. Hubert,QC095017,1921,St. Hubert & St. François Xavier,QC,1.0,69.38
+QC154049,1911,St. Félicien vl,QC063032,1921,"St. Félicien, VL",QC,1.0,76.83
+QC203014,1911,Baie de Shawinigan vl,QC093016,1921,"Baie Shawinigan, VL",QC,1.0,79.92
+QC177005,1911,"St. Antoine, Ile aux Grues",QC074002,1921,"Ile aux Grues, etc. (St. Antoine par.)",QC,1.0,60.62
+QC174010,1911,Sacré-Coeur de Marie,QC071018,1921,Très Saint Cœur de Marie,QC,1.0,74.55
+QC164017,1911,Kamouraska vl,QC061017,1921,"St. Louis de Kamouraska, VL",QC,1.0,75.5
+QC150007,1911,Beloeil pr,QC098001,1921,Belœil,QC,1.0,63.04
+QC154009,1911,"Kénogami, UNO",QC050012,1921,St. Charles Borromée (Kénogami pt.),QC,1.0,45.6
+QC154055,1911,Ile d'Anticosti,QC086091,1921,Anticosti Island—Ile,QC,1.0,52.55
+QC190012,1911,St. Grégoire de Montmorency,QC081018,1921,"Courville, T-V",QC,1.0,36.02
+QC20N007,1911,Waswanipi,QC094057,1921,Waswanipi,QC,1.0,77.64
+QC148002,1911,Gascons E.,QC044003,1921,Gascons E. (Anse aux),QC,1.0,75.16
+QC148003,1911,Gascons W-O,QC044004,1921,Gascons W.-O. (Anse aux),QC,1.0,74.0

@@ -44,17 +44,8 @@ DEFAULT_DIR = REPO / "persistent_cds_output"
 
 TYPO_MAX_DISTANCE = 1
 
-
-def normalize_for_match(name: str) -> str:
-    """Mirror of build_persistent_cds.normalize_for_match."""
-    import unicodedata
-    if not name:
-        return ""
-    s = name.replace("’", "'").replace("‘", "'").replace("`", "'")
-    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode("ascii")
-    s = s.replace("-", " ")
-    s = re.sub(r"\s+", " ", s).strip().lower()
-    return s
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from _normalize import normalize_for_match  # noqa: E402 (shared, was a drift-prone copy)
 
 
 def numeric_tokens(s: str) -> tuple:

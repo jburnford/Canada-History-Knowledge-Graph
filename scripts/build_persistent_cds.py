@@ -339,44 +339,41 @@ def load_all_cd_links(links_dir: Path):
     return accepted_links, lineage_links, node_meta
 
 
-def augment_node_meta_from_e53(node_meta: dict, cidoc_dir: Path):
-    """Add (cd_id, year) entries for CDs in e53_place_cd.csv that don't appear
-    in any cd_links pair. These become singleton chains. Also need
-    e93_presence_cd_<year>.csv to know which years each CD exists in."""
-    e53_path = cidoc_dir / "e53_place_cd.csv"
-    if not e53_path.exists():
-        print(f"  Warning: {e53_path} not found, skipping augmentation",
-              file=sys.stderr)
-        return
-    cd_master = {}  # cd_id -> {name, province}
-    with open(e53_path) as f:
-        for r in csv.DictReader(f):
-            cd_master[r["place_id:ID"]] = {
-                "name": r["name"], "province": r["province"],
-            }
+def augment_node_meta_from_inventory(node_meta: dict, inventory_path: Path):
+    """Add (cd_id, year) entries for CDs that appear in the GDB but in no
+    cd_links pair. These become singleton chains.
+
+    Reads cd_links_output/cd_inventory.csv (written by
+    scripts/dump_cd_inventory.py directly from the GDB). This REPLACES the
+    old augmentation from neo4j_cidoc_crm_v2/e53_place_cd.csv +
+    e93_presence_cd_*.csv: those are DOWNSTREAM outputs whose cd_id column
+    contains canonicalized chain ids after any prior run. Chain ids like
+    `CD_MB_Winnipeg_City` are indistinguishable from raw ids by shape, so
+    no filter could make that source safe — reruns silently injected
+    hundreds of ghost singleton chains (the 36e08b607 bug and the
+    2026-08-09 933-chain regression). The GDB-derived inventory can never
+    contain chain ids."""
+    if not inventory_path.exists():
+        raise SystemExit(
+            f"ERROR: {inventory_path} not found. Generate it first:\n"
+            f"  conda run -n geo python3 scripts/dump_cd_inventory.py\n"
+            f"(Refusing to fall back to neo4j_cidoc_crm_v2/ downstream "
+            f"outputs — that path re-ingests chain ids as raw CDs.)")
 
     added = 0
-    for yr in YEARS:
-        fpath = cidoc_dir / f"e93_presence_cd_{yr}.csv"
-        if not fpath.exists():
-            continue
-        with open(fpath) as f:
-            for r in csv.DictReader(f):
-                cd_id = r["cd_id"].strip()
-                key = (cd_id, yr)
-                if key in node_meta:
-                    continue
-                meta = cd_master.get(cd_id)
-                if not meta:
-                    continue
-                node_meta[key] = {
-                    "name": meta["name"],
-                    "province": meta["province"],
-                    "canonical_name": canonical_cd_name(meta["name"]),
-                }
-                added += 1
-    print(f"  Augmented node_meta with {added} CD-year presences not in cd_links",
-          file=sys.stderr)
+    with open(inventory_path) as f:
+        for r in csv.DictReader(f):
+            key = (r["cd_id"], int(r["year"]))
+            if key in node_meta:
+                continue
+            node_meta[key] = {
+                "name": r["cd_name"],
+                "province": r["province"],
+                "canonical_name": canonical_cd_name(r["cd_name"]),
+            }
+            added += 1
+    print(f"  Augmented node_meta with {added} CD-year presences not in cd_links "
+          f"(from {inventory_path.name})", file=sys.stderr)
 
 
 def find_name_only_rescue_links(node_meta, accepted_links):
@@ -486,17 +483,57 @@ def detect_splits_and_demote(accepted_links, links_dir: Path):
 
 def build_chains(accepted_links, node_meta):
     """Run Union-Find on accepted links to produce preliminary chains.
-    Returns (registry, member_to_chain) where registry has one row per
-    chain and member_to_chain maps (cd_id, year) -> chain place_id."""
+    Returns (registry, member_to_chain, conflict_links).
+
+    Enforces the one-member-per-(chain, year) invariant: a union that would
+    place two DISTINCT same-year CDs into one chain is rejected and the
+    offending link returned in conflict_links (the caller demotes it to
+    lineage). This is the Halifax guard: in 1891 the GDB's "Halifax,
+    City—Cité" polygon covers the whole county, so BOTH the 1881 City CD
+    and the 1881 County CD pass a chaining rule toward it — without the
+    invariant they fuse into one chain. Links with a canonical-name match
+    are processed first, so on conflict the name-matching continuation
+    (City→City) wins and the pure-spatial link (County→City) is demoted."""
     uf = UnionFind()
     for node in node_meta:
         uf.make_set(node)
     for link in accepted_links:
+        uf.make_set((link["uid_from"], link["year_from"]))
+        uf.make_set((link["uid_to"], link["year_to"]))
+
+    # Track the census years each component occupies. Components start as
+    # singletons {year}; a union is vetoed when the two components share a
+    # year (which would mean two distinct members in that year).
+    comp_years = {node: {node[1]} for node in uf.parent}
+
+    def _name_match(link) -> bool:
+        n1 = normalize_for_match(link.get("canon_from", ""))
+        n2 = normalize_for_match(link.get("canon_to", ""))
+        return bool(n1) and n1 == n2
+
+    ordered = sorted(accepted_links,
+                     key=lambda l: (not _name_match(l), -float(l["iou"])))
+    conflict_links = []
+    for link in ordered:
         a = (link["uid_from"], link["year_from"])
         b = (link["uid_to"], link["year_to"])
-        uf.make_set(a)
-        uf.make_set(b)
+        ra, rb = uf.find(a), uf.find(b)
+        if ra == rb:
+            continue
+        if comp_years[ra] & comp_years[rb]:
+            conflict_links.append(link)
+            continue
         uf.union(a, b)
+        comp_years[uf.find(a)] = comp_years[ra] | comp_years[rb]
+
+    if conflict_links:
+        print(f"  Rejected {len(conflict_links)} link(s) that would create "
+              f"a same-year multi-member chain (demoted to lineage):",
+              file=sys.stderr)
+        for l in conflict_links:
+            print(f"    {l['uid_from']} ({l['year_from']}) ↛ "
+                  f"{l['uid_to']} ({l['year_to']}) rule={l['accept_rule']} "
+                  f"iou={l['iou']}", file=sys.stderr)
 
     components = uf.components()
     print(f"  Built {len(components)} preliminary chains via Union-Find",
@@ -555,7 +592,7 @@ def build_chains(accepted_links, node_meta):
         for cd_id, yr in nodes_sorted:
             member_to_chain[(cd_id, yr)] = chain_id
 
-    return registry, member_to_chain
+    return registry, member_to_chain, conflict_links
 
 
 def build_lineage(lineage_links, member_to_chain):
@@ -752,146 +789,9 @@ def apply_rule4_gap_bridge(registry, lineage_edges, member_to_chain):
     return fused_audit
 
 
-# OCR-typo-tolerant within-province chain merger. Two safeguards prevent
-# false positives:
-#   1. Levenshtein distance ≤ 1 (single-character insert/delete/substitute).
-#      Catches Renfew/Renfrew (1) and Glengary/Glengarry (1) but rejects
-#      different ward names (Montréal, Ste. Anne / Montréal, St. Antoine, dist=5).
-#   2. Identical numeric tokens. Without this, "Division No. 1" / "Division
-#      No. 10" / "Division No. 11" would all collapse — they're distance 1
-#      from each other but are distinct administrative units.
-TYPO_MAX_DISTANCE = 1
-
-
-def _numeric_tokens(s: str) -> tuple:
-    return tuple(re.findall(r"\d+", s or ""))
-
-
-def merge_typo_chains(registry, member_to_chain, lineage_edges):
-    """Merge same-province chain pairs whose canonical names differ by a
-    single non-numeric character (Renfew/Renfrew, Glengary/Glengarry) and
-    whose years_active overlap. The smaller chain (fewer years, then fewer
-    members) absorbs into the larger so the chain id of the dominant variant
-    survives.
-
-    Required because the chain-builder Union-Find runs over (cd_id, year)
-    edges, which only union ACROSS years — same-year typo pairs (Renfew 1861
-    + Renfrew 1861, both real polygons in the GDB) never get merged via
-    Rules 1-4. This step closes that gap.
-
-    Mutates registry + member_to_chain + lineage_edges in place. Returns
-    audit list of merges."""
-    try:
-        from rapidfuzz.distance import Levenshtein
-    except ImportError:
-        print("  rapidfuzz not available; skipping typo-merge step",
-              file=sys.stderr)
-        return []
-
-    by_prov = defaultdict(list)
-    for r in registry:
-        by_prov[r["province"]].append(r)
-
-    redirect = {}  # losing_chain_id -> winning_chain_id
-    merges_audit = []
-
-    for prov, chains in by_prov.items():
-        for i, a in enumerate(chains):
-            for b in chains[i + 1:]:
-                a_name = a["canonical_name"]
-                b_name = b["canonical_name"]
-                if not a_name or not b_name:
-                    continue
-                # Already-equal normalized names — handled by display-label layer.
-                if normalize_for_match(a_name) == normalize_for_match(b_name):
-                    continue
-                # Numeric token equality: rejects "Division No. 1" vs "Division
-                # No. 10", which would otherwise pass the distance check.
-                if _numeric_tokens(a_name) != _numeric_tokens(b_name):
-                    continue
-                dist = Levenshtein.distance(a_name, b_name)
-                if dist > TYPO_MAX_DISTANCE:
-                    continue
-                # Require year overlap so we don't fuse a 1861 chain with a
-                # genuinely-different 1921 chain that happens to share a name.
-                a_years = {int(y) for y in a["years_active"].split(";") if y}
-                b_years = {int(y) for y in b["years_active"].split(";") if y}
-                if not (a_years & b_years):
-                    continue
-                # Pick winner: more years_active first, then more members.
-                a_id, b_id = a["place_id"], b["place_id"]
-                a_count = sum(1 for v in member_to_chain.values() if v == a_id)
-                b_count = sum(1 for v in member_to_chain.values() if v == b_id)
-                if (a["num_years"], a_count) >= (b["num_years"], b_count):
-                    winner, loser = a, b
-                else:
-                    winner, loser = b, a
-                redirect[loser["place_id"]] = winner["place_id"]
-                merges_audit.append({
-                    "loser_chain_id": loser["place_id"],
-                    "loser_canonical": loser["canonical_name"],
-                    "winner_chain_id": winner["place_id"],
-                    "winner_canonical": winner["canonical_name"],
-                    "edit_distance": dist,
-                    "province": prov,
-                    "loser_years": loser["years_active"],
-                    "winner_years": winner["years_active"],
-                })
-
-    if not redirect:
-        print(f"  Typo-merge: 0 pairs found at edit-distance<={TYPO_MAX_DISTANCE}",
-              file=sys.stderr)
-        return []
-
-    # Resolve transitive redirects (loser of one pair was also loser of another).
-    def resolve(cid):
-        seen = set()
-        while cid in redirect and cid not in seen:
-            seen.add(cid)
-            cid = redirect[cid]
-        return cid
-
-    # Apply: drop loser rows from registry, remap member_to_chain, remap lineage.
-    losers = set(redirect.keys())
-    registry[:] = [r for r in registry if r["place_id"] not in losers]
-    # Sum loser years_active into winner.
-    winners_to_update = defaultdict(set)
-    for loser_id, winner_id in redirect.items():
-        target = resolve(winner_id)
-        loser_years_str = next(
-            (m["loser_years"] for m in merges_audit
-             if m["loser_chain_id"] == loser_id),
-            "",
-        )
-        for y in loser_years_str.split(";"):
-            if y.strip():
-                winners_to_update[target].add(int(y))
-    for r in registry:
-        if r["place_id"] in winners_to_update:
-            existing = {int(y) for y in r["years_active"].split(";") if y}
-            merged = existing | winners_to_update[r["place_id"]]
-            r["years_active"] = ";".join(str(y) for y in sorted(merged))
-            r["num_years"] = len(merged)
-
-    for k, v in list(member_to_chain.items()):
-        if v in losers:
-            member_to_chain[k] = resolve(v)
-    for edge in lineage_edges:
-        if edge[":START_ID"] in losers:
-            edge[":START_ID"] = resolve(edge[":START_ID"])
-        if edge[":END_ID"] in losers:
-            edge[":END_ID"] = resolve(edge[":END_ID"])
-    # Drop self-loops created by remap.
-    lineage_edges[:] = [e for e in lineage_edges
-                        if e[":START_ID"] != e[":END_ID"]]
-
-    print(f"  Typo-merge: {len(merges_audit)} pairs merged "
-          f"(edit-distance<={TYPO_MAX_DISTANCE})", file=sys.stderr)
-    for m in merges_audit:
-        print(f"    {m['loser_canonical']!r} -> {m['winner_canonical']!r} "
-              f"({m['province']}, dist={m['edit_distance']})",
-              file=sys.stderr)
-    return merges_audit
+# NOTE: the within-province OCR-typo chain merger lives in
+# scripts/typo_merge_cds.py (post-step). An inline copy that used to
+# sit here was never called and drifted from the live script; deleted.
 
 
 def main():
@@ -899,16 +799,17 @@ def main():
         description="Build persistent CD registry from cd_links spatial overlap"
     )
     parser.add_argument("--links-dir", default="cd_links_output")
-    parser.add_argument("--cidoc-dir", default="neo4j_cidoc_crm_v2",
-                        help="Source for e53_place_cd.csv + e93_presence_cd_*.csv "
-                             "to find singleton CDs not covered by cd_links pairs")
+    parser.add_argument("--inventory",
+                        default="cd_links_output/cd_inventory.csv",
+                        help="GDB-derived (cd_id, year) inventory from "
+                             "scripts/dump_cd_inventory.py — supplies "
+                             "singleton CDs not covered by cd_links pairs")
     parser.add_argument("--out", default="persistent_cds_output")
     parser.add_argument("--audit", action="store_true",
                         help="Emit chain_audit.csv with every accepted link + rule")
     args = parser.parse_args()
 
     links_dir = Path(args.links_dir)
-    cidoc_dir = Path(args.cidoc_dir)
     out_dir = Path(args.out)
     out_dir.mkdir(parents=True, exist_ok=True)
 
@@ -920,7 +821,7 @@ def main():
     accepted_links, lineage_links, node_meta = load_all_cd_links(links_dir)
 
     print(f"\nAugmenting with CDs not in cd_links (singletons)...", file=sys.stderr)
-    augment_node_meta_from_e53(node_meta, cidoc_dir)
+    augment_node_meta_from_inventory(node_meta, Path(args.inventory))
 
     print(f"\nApplying name-only rescue (adjacent-year canonical-unique)...",
           file=sys.stderr)
@@ -940,7 +841,29 @@ def main():
         })
 
     print(f"\nBuilding preliminary chains (Union-Find)...", file=sys.stderr)
-    registry, member_to_chain = build_chains(accepted_links, node_meta)
+    registry, member_to_chain, conflict_links = build_chains(
+        accepted_links, node_meta)
+
+    # Demote conflict-rejected links to lineage: for a rejected SAME_AS the
+    # source's territory continues inside the target's polygon → MERGED_INTO
+    # (via WITHIN). Keep CONTAINS/WITHIN as-is. Full audit CSV below.
+    for c in conflict_links:
+        rel = c["rel"]
+        if rel in ("SAME_AS", "OVERLAPS", "NAME_ONLY"):
+            rel = "WITHIN" if c["frac_from"] >= c["frac_to"] else "CONTAINS"
+        lineage_links.append({
+            "uid_from": c["uid_from"], "year_from": c["year_from"],
+            "uid_to": c["uid_to"], "year_to": c["year_to"],
+            "relationship": rel, "iou": c["iou"],
+        })
+    if conflict_links:
+        pd.DataFrame(conflict_links, columns=[
+            "uid_from", "year_from", "name_from", "canon_from",
+            "uid_to", "year_to", "name_to", "canon_to",
+            "rel", "iou", "frac_from", "frac_to", "source", "accept_rule",
+        ]).to_csv(out_dir / "cd_conflict_rejected.csv", index=False)
+        print(f"  cd_conflict_rejected.csv: {len(conflict_links)} same-year "
+              f"conflict rejections", file=sys.stderr)
 
     print(f"\nBuilding lineage edges...", file=sys.stderr)
     lineage_edges = build_lineage(lineage_links, member_to_chain)

@@ -46,6 +46,12 @@ class _Config:
         self.lincs_ttl = Path(paths["lincs_ttl"]).expanduser().resolve()
         self.lincs_json = Path(paths["lincs_json"]).expanduser().resolve()
 
+        # Borealis 1881 TCP individual-level census deposit
+        # (doi:10.5683/SP3/FXZEVO). Optional — only the residents pipeline
+        # consumes these; absent values raise FileNotFoundError on access.
+        self._borealis_1881_csv = paths.get("borealis_1881_csv")
+        self._borealis_1881_value_labels = paths.get("borealis_1881_value_labels")
+
         # Deploy target
         self.hgiscanada_repo = Path(paths["hgiscanada_repo"]).expanduser().resolve()
 
@@ -61,6 +67,32 @@ class _Config:
                 f"Set [paths].data_root in {self.source_path} to the directory "
                 f"containing TCP_CANADA_CSD_202306/."
             )
+        return p
+
+    @property
+    def borealis_1881_csv(self) -> Path:
+        """1881_v20251217.csv from the TCP/Dillon Borealis deposit."""
+        if not self._borealis_1881_csv:
+            raise FileNotFoundError(
+                "borealis_1881_csv not set in config. Add "
+                "[paths].borealis_1881_csv = \"/path/to/1881_v20251217.csv\""
+            )
+        p = Path(self._borealis_1881_csv).expanduser().resolve()
+        if not p.exists():
+            raise FileNotFoundError(f"Borealis 1881 CSV not found at {p}")
+        return p
+
+    @property
+    def borealis_1881_value_labels(self) -> Path:
+        """1881_value_labels.json from the TCP/Dillon Borealis deposit."""
+        if not self._borealis_1881_value_labels:
+            raise FileNotFoundError(
+                "borealis_1881_value_labels not set in config. Add "
+                "[paths].borealis_1881_value_labels = \"/path/to/1881_value_labels.json\""
+            )
+        p = Path(self._borealis_1881_value_labels).expanduser().resolve()
+        if not p.exists():
+            raise FileNotFoundError(f"Borealis 1881 value labels not found at {p}")
         return p
 
     def excel_path(self, year: int, table: str) -> Path:

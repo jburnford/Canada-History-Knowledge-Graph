@@ -1,0 +1,1477 @@
+cd_id,year,province,cd_name
+CD_ON_Brant,1851,ON,Brant
+CD_ON_Leeds,1851,ON,Leeds
+CD_ON_Bruce,1851,ON,Bruce
+CD_ON_Carleton,1851,ON,Carleton
+CD_ON_Wellington,1851,ON,Wellington
+CD_ON_Simcoe,1851,ON,Simcoe
+CD_ON_Dundas,1851,ON,Dundas
+CD_ON_Durham,1851,ON,Durham
+CD_ON_Elgin,1851,ON,Elgin
+CD_ON_Essex,1851,ON,Essex
+CD_ON_Frontenac,1851,ON,Frontenac
+CD_ON_Glengary,1851,ON,Glengary
+CD_ON_Grenville,1851,ON,Grenville
+CD_ON_Grey,1851,ON,Grey
+CD_ON_Haldimand,1851,ON,Haldimand
+CD_ON_Halton,1851,ON,Halton
+CD_ON_Hastings,1851,ON,Hastings
+CD_ON_Huron,1851,ON,Huron
+CD_ON_Kent,1851,ON,Kent
+CD_ON_Lambton,1851,ON,Lambton
+CD_ON_Lanark,1851,ON,Lanark
+CD_ON_Lennox,1851,ON,Lennox
+CD_ON_Addington,1851,ON,Addington
+CD_ON_Lincoln,1851,ON,Lincoln
+CD_ON_Middlesex,1851,ON,Middlesex
+CD_ON_Norfolk,1851,ON,Norfolk
+CD_ON_Northumberland,1851,ON,Northumberland
+CD_ON_Ontario,1851,ON,Ontario
+CD_ON_Oxford,1851,ON,Oxford
+CD_ON_Peel,1851,ON,Peel
+CD_ON_Perth,1851,ON,Perth
+CD_ON_Peterboro,1851,ON,Peterboro
+CD_ON_Prescott,1851,ON,Prescott
+CD_ON_Prince_Edward,1851,ON,Prince Edward
+CD_ON_Renfrew,1851,ON,Renfrew
+CD_ON_Russell,1851,ON,Russell
+CD_ON_Waterloo,1851,ON,Waterloo
+CD_ON_Wentworth,1851,ON,Wentworth
+CD_ON_Welland,1851,ON,Welland
+CD_ON_Stormont,1851,ON,Stormont
+CD_ON_Victoria,1851,ON,Victoria
+CD_ON_York,1851,ON,York
+CD_ON_Hamilton,1851,ON,Hamilton
+"CD_ON_Kingston,_City",1851,ON,"Kingston, City"
+CD_ON_Bytown,1851,ON,Bytown
+CD_ON_London,1851,ON,London
+"CD_ON_Toronto,_City",1851,ON,"Toronto, City"
+CD_NT_The_Territories,1851,NT,The Territories
+CD_NL_Newfoundland,1851,NL,Newfoundland
+CD_PE_Prince_Edward_Island,1851,PE,Prince Edward Island
+CD_NS_Nova_Scotia,1851,NS,Nova Scotia
+CD_NB_New_Brunswick,1851,NB,New Brunswick
+CD_QC_Two_Mountains,1851,QC,Two Mountains
+CD_QC_Drummond,1851,QC,Drummond
+CD_QC_St._Hyacinthe,1851,QC,St. Hyacinthe
+CD_QC_Dorchester,1851,QC,Dorchester
+CD_QC_Megantic,1851,QC,Megantic
+CD_QC_Beauharnois,1851,QC,Beauharnois
+CD_QC_Bellechasse,1851,QC,Bellechasse
+CD_QC_Berthier,1851,QC,Berthier
+CD_QC_Bonaventure,1851,QC,Bonaventure
+CD_QC_Stanstead,1851,QC,Stanstead
+CD_QC_Shefford,1851,QC,Shefford
+CD_QC_Missisquoi,1851,QC,Missisquoi
+CD_QC_Chambly,1851,QC,Chambly
+CD_QC_Verchères,1851,QC,Verchères
+CD_QC_Champlain,1851,QC,Champlain
+CD_QC_Saguenay,1851,QC,Saguenay
+CD_QC_Huntingdon,1851,QC,Huntingdon
+CD_QC_Sherbrooke,1851,QC,Sherbrooke
+CD_QC_Gaspé,1851,QC,Gaspé
+CD_QC_Montréal,1851,QC,Montréal
+CD_QC_Kamouraska,1851,QC,Kamouraska
+CD_QC_Outaouais,1851,QC,Outaouais
+CD_QC_Leinster,1851,QC,Leinster
+CD_QC_Terrebonne,1851,QC,Terrebonne
+CD_QC_L’Islet,1851,QC,L’Islet
+CD_QC_Lotbinière,1851,QC,Lotbinière
+CD_QC_St._Maurice,1851,QC,St. Maurice
+CD_QC_Rouville,1851,QC,Rouville
+CD_QC_Montmorenci,1851,QC,Montmorenci
+"CD_QC_Montréal,_cité",1851,QC,"Montréal, cité"
+CD_QC_Nicolet,1851,QC,Nicolet
+CD_QC_Portneuf,1851,QC,Portneuf
+"CD_QC_Québec,_cité",1851,QC,"Québec, cité"
+CD_QC_Québec,1851,QC,Québec
+CD_QC_Richelieu,1851,QC,Richelieu
+CD_QC_Rimouski,1851,QC,Rimouski
+CD_QC_Vaudreuil,1851,QC,Vaudreuil
+CD_QC_Yamaska,1851,QC,Yamaska
+CD_ON_Brant,1861,ON,Brant
+CD_ON_Leeds,1861,ON,Leeds
+CD_ON_Bruce,1861,ON,Bruce
+CD_ON_Carleton,1861,ON,Carleton
+CD_ON_Wellington,1861,ON,Wellington
+CD_ON_Grey,1861,ON,Grey
+CD_ON_Simcoe,1861,ON,Simcoe
+CD_ON_Dundas,1861,ON,Dundas
+CD_ON_Durham,1861,ON,Durham
+CD_ON_Elgin,1861,ON,Elgin
+CD_ON_Essex,1861,ON,Essex
+CD_ON_Frontenac,1861,ON,Frontenac
+CD_ON_Glengary,1861,ON,Glengary
+CD_ON_Grenville,1861,ON,Grenville
+CD_ON_Haldimand,1861,ON,Haldimand
+CD_ON_Halton,1861,ON,Halton
+CD_ON_Hamilton,1861,ON,Hamilton
+CD_ON_Hastings,1861,ON,Hastings
+CD_ON_Huron,1861,ON,Huron
+CD_ON_Kent,1861,ON,Kent
+CD_ON_Kingston,1861,ON,Kingston
+CD_ON_Lambton,1861,ON,Lambton
+CD_ON_Lanark,1861,ON,Lanark
+CD_ON_Lennox_and_Addington,1861,ON,Lennox and Addington
+CD_ON_Lincoln,1861,ON,Lincoln
+CD_ON_Middlesex,1861,ON,Middlesex
+CD_ON_Victoria,1861,ON,Victoria
+CD_ON_Nipissing,1861,ON,Nipissing
+CD_ON_Norfolk,1861,ON,Norfolk
+CD_ON_Northumberland,1861,ON,Northumberland
+CD_ON_Ontario,1861,ON,Ontario
+CD_ON_Ottawa,1861,ON,Ottawa
+CD_ON_Oxford,1861,ON,Oxford
+CD_ON_Peel,1861,ON,Peel
+CD_ON_Perth,1861,ON,Perth
+CD_ON_Peterborough,1861,ON,Peterborough
+CD_ON_Prescott,1861,ON,Prescott
+CD_ON_Prince_Edward,1861,ON,Prince Edward
+CD_ON_Renfrew,1861,ON,Renfrew
+CD_ON_Renfew,1861,ON,Renfew
+CD_ON_Russell,1861,ON,Russell
+CD_ON_London,1861,ON,London
+CD_ON_Waterloo,1861,ON,Waterloo
+CD_ON_Wentworth,1861,ON,Wentworth
+CD_ON_Welland,1861,ON,Welland
+CD_ON_Stormont,1861,ON,Stormont
+CD_ON_Toronto,1861,ON,Toronto
+CD_ON_York,1861,ON,York
+CD_ON_Algoma,1861,ON,Algoma
+CD_NL_Newfoundland,1861,NL,Newfoundland
+CD_PE_Prince_Edward_Island,1861,PE,Prince Edward Island
+CD_NS_Nova_Scotia,1861,NS,Nova Scotia
+CD_NB_New_Brunswick,1861,NB,New Brunswick
+CD_NT_The_Territories,1861,NT,The Territories
+CD_QC_Argenteuil,1861,QC,Argenteuil
+CD_QC_Bagot,1861,QC,Bagot
+CD_QC_Beauce,1861,QC,Beauce
+CD_QC_Mégantic,1861,QC,Mégantic
+CD_QC_Beauharnois,1861,QC,Beauharnois
+CD_QC_Bellechasse,1861,QC,Bellechasse
+CD_QC_Berthier,1861,QC,Berthier
+CD_QC_Bonaventure,1861,QC,Bonaventure
+CD_QC_Brome,1861,QC,Brome
+CD_QC_Chambly,1861,QC,Chambly
+CD_QC_Vercheres,1861,QC,Vercheres
+CD_QC_Champlain,1861,QC,Champlain
+CD_QC_Charlevoix,1861,QC,Charlevoix
+CD_QC_Chateauguay,1861,QC,Chateauguay
+CD_QC_Chicoutimi,1861,QC,Chicoutimi
+CD_QC_Saguenay,1861,QC,Saguenay
+CD_QC_Compton,1861,QC,Compton
+CD_QC_Two_Mountains,1861,QC,Two Mountains
+CD_QC_Dorchester,1861,QC,Dorchester
+CD_QC_Arthabaska,1861,QC,Arthabaska
+CD_QC_Drummond,1861,QC,Drummond
+CD_QC_Gaspé,1861,QC,Gaspé
+CD_QC_Hochelaga,1861,QC,Hochelaga
+CD_QC_Huntingdon,1861,QC,Huntingdon
+CD_QC_Jacques_Cartier,1861,QC,Jacques Cartier
+CD_QC_Joliette,1861,QC,Joliette
+CD_QC_Kamouraska,1861,QC,Kamouraska
+CD_QC_Outaouais,1861,QC,Outaouais
+CD_QC_Laprairie,1861,QC,Laprairie
+CD_QC_Napierville,1861,QC,Napierville
+CD_QC_L'Assomption,1861,QC,L'Assomption
+CD_QC_Laval,1861,QC,Laval
+CD_QC_Lévis,1861,QC,Lévis
+CD_QC_L'Islet,1861,QC,L'Islet
+CD_QC_Lotbiniere,1861,QC,Lotbiniere
+CD_QC_Maskinonge,1861,QC,Maskinonge
+CD_QC_Megantic,1861,QC,Megantic
+CD_QC_Missisquoi,1861,QC,Missisquoi
+CD_QC_Montcalm,1861,QC,Montcalm
+CD_QC_Montmagny,1861,QC,Montmagny
+CD_QC_Montmorency,1861,QC,Montmorency
+CD_QC_City_of_Montreal,1861,QC,City of Montreal
+CD_QC_Nicolet,1861,QC,Nicolet
+CD_QC_Pontiac,1861,QC,Pontiac
+CD_QC_Portneuf,1861,QC,Portneuf
+CD_QC_City_of_Quebec,1861,QC,City of Quebec
+CD_QC_Quebec_(Comté),1861,QC,Quebec (Comté)
+CD_QC_Richelieu,1861,QC,Richelieu
+CD_QC_Richmond,1861,QC,Richmond
+CD_QC_Wolfe,1861,QC,Wolfe
+CD_QC_Rimouski,1861,QC,Rimouski
+CD_QC_Rouville,1861,QC,Rouville
+CD_QC_St._Hyacinthe,1861,QC,St. Hyacinthe
+CD_QC_Iberville,1861,QC,Iberville
+CD_QC_St._Johns,1861,QC,St. Johns
+CD_QC_Shefford,1861,QC,Shefford
+CD_QC_Town_of_Sherbrooke,1861,QC,Town of Sherbrooke
+CD_QC_Soulanges,1861,QC,Soulanges
+CD_QC_Stanstead,1861,QC,Stanstead
+CD_QC_Temiscouata,1861,QC,Temiscouata
+CD_QC_Terrebonne,1861,QC,Terrebonne
+CD_QC_St._Maurice,1861,QC,St. Maurice
+CD_QC_City_of_Three_Rivers,1861,QC,City of Three Rivers
+CD_QC_Vaudreuil,1861,QC,Vaudreuil
+CD_QC_Yamaska,1861,QC,Yamaska
+CD_NT_The_Territories,1871,NT,The Territories
+CD_BC_British_Colombia,1871,BC,British Colombia
+CD_MB_Manitoba,1871,MB,Manitoba
+CD_ON_Manitoulin,1871,ON,Manitoulin
+"CD_ON_Algoma,_East—Est",1871,ON,"Algoma, East—Est"
+"CD_ON_Algoma,_West—Ouest",1871,ON,"Algoma, West—Ouest"
+"CD_ON_Brant,_North_or_East—Nord_ou_Est",1871,ON,"Brant, North or East—Nord ou Est"
+"CD_ON_Brant,_South_or_West—Sud_ou_Ouest",1871,ON,"Brant, South or West—Sud ou Ouest"
+CD_ON_Brockville,1871,ON,Brockville
+"CD_ON_Bruce,_North—Nord",1871,ON,"Bruce, North—Nord"
+"CD_ON_Bruce,_South—Sud",1871,ON,"Bruce, South—Sud"
+CD_ON_Carleton,1871,ON,Carleton
+"CD_ON_Wellington,_North—Nord",1871,ON,"Wellington, North—Nord"
+"CD_ON_Wellington,_Centre",1871,ON,"Wellington, Centre"
+"CD_ON_Grey,_South—Sud",1871,ON,"Grey, South—Sud"
+CD_ON_Cardwell,1871,ON,Cardwell
+"CD_ON_Simcoe,_South—Sud",1871,ON,"Simcoe, South—Sud"
+CD_ON_Dundas,1871,ON,Dundas
+"CD_ON_Durham,_West—Ouest",1871,ON,"Durham, West—Ouest"
+"CD_ON_Durham,_East—Est",1871,ON,"Durham, East—Est"
+"CD_ON_Elgin,_East—Est",1871,ON,"Elgin, East—Est"
+"CD_ON_Elgin,_West—Ouest",1871,ON,"Elgin, West—Ouest"
+CD_ON_Essex,1871,ON,Essex
+CD_ON_Addington,1871,ON,Addington
+CD_ON_Frontenac,1871,ON,Frontenac
+CD_ON_Glengarry,1871,ON,Glengarry
+"CD_ON_Grenville,_South—Sud",1871,ON,"Grenville, South—Sud"
+"CD_ON_Leeds_&_Grenville,_North—Nord",1871,ON,"Leeds & Grenville, North—Nord"
+"CD_ON_Grey,_North—Nord",1871,ON,"Grey, North—Nord"
+CD_ON_Monck,1871,ON,Monck
+CD_ON_Haldimand,1871,ON,Haldimand
+CD_ON_Halton,1871,ON,Halton
+CD_ON_Hamilton,1871,ON,Hamilton
+"CD_ON_Hastings,_North—Nord",1871,ON,"Hastings, North—Nord"
+"CD_ON_Hastings,_East—Est",1871,ON,"Hastings, East—Est"
+"CD_ON_Hastings,_West—Ouest",1871,ON,"Hastings, West—Ouest"
+"CD_ON_Huron,_North—Nord",1871,ON,"Huron, North—Nord"
+"CD_ON_Huron,_South—Sud",1871,ON,"Huron, South—Sud"
+CD_ON_Bothwell,1871,ON,Bothwell
+CD_ON_Dover,1871,ON,Dover
+CD_ON_Kingston,1871,ON,Kingston
+CD_ON_Lambton,1871,ON,Lambton
+"CD_ON_Lanark,_North—Nord",1871,ON,"Lanark, North—Nord"
+"CD_ON_Lanark,_South—Sud",1871,ON,"Lanark, South—Sud"
+"CD_ON_Leeds,_South—Sud",1871,ON,"Leeds, South—Sud"
+CD_ON_Lennox,1871,ON,Lennox
+CD_ON_Lincoln,1871,ON,Lincoln
+CD_ON_Niagara,1871,ON,Niagara
+"CD_ON_Middlesex,_East—Est",1871,ON,"Middlesex, East—Est"
+"CD_ON_Middlesex,_North—Nord",1871,ON,"Middlesex, North—Nord"
+"CD_ON_Middlesex,_West—Ouest",1871,ON,"Middlesex, West—Ouest"
+CD_ON_Muskoka,1871,ON,Muskoka
+"CD_ON_Nipissing,_North—Nord",1871,ON,"Nipissing, North—Nord"
+"CD_ON_Nipissing,_South—Sud",1871,ON,"Nipissing, South—Sud"
+"CD_ON_Norfolk,_South—Sud",1871,ON,"Norfolk, South—Sud"
+"CD_ON_Norfolk,_North—Nord",1871,ON,"Norfolk, North—Nord"
+"CD_ON_Northumberland,_East—Est",1871,ON,"Northumberland, East—Est"
+"CD_ON_Northumberland,_West—Ouest",1871,ON,"Northumberland, West—Ouest"
+"CD_ON_Ontario,_North—Nord",1871,ON,"Ontario, North—Nord"
+"CD_ON_Ontario,_South—Sud",1871,ON,"Ontario, South—Sud"
+"CD_ON_Ottawa,_City—Cité",1871,ON,"Ottawa, City—Cité"
+"CD_ON_Oxford,_North—Nord",1871,ON,"Oxford, North—Nord"
+"CD_ON_Oxford,_South—Sud",1871,ON,"Oxford, South—Sud"
+CD_ON_Parry_Sound,1871,ON,Parry Sound
+CD_ON_Peel,1871,ON,Peel
+"CD_ON_Perth,_North—Nord",1871,ON,"Perth, North—Nord"
+"CD_ON_Perth,_South—Sud",1871,ON,"Perth, South—Sud"
+"CD_ON_Peterborough,_East—Est",1871,ON,"Peterborough, East—Est"
+"CD_ON_Peterborough,_West—Ouest",1871,ON,"Peterborough, West—Ouest"
+CD_ON_Prescott,1871,ON,Prescott
+CD_ON_Prince_Edward,1871,ON,Prince Edward
+"CD_ON_Renfrew,_North—Nord",1871,ON,"Renfrew, North—Nord"
+"CD_ON_Renfrew,_South—Sud",1871,ON,"Renfrew, South—Sud"
+CD_ON_Russell,1871,ON,Russell
+"CD_ON_Simcoe,_North—Nord",1871,ON,"Simcoe, North—Nord"
+CD_ON_London,1871,ON,London
+"CD_ON_Waterloo,_North—Nord",1871,ON,"Waterloo, North—Nord"
+"CD_ON_Waterloo,_South—Sud",1871,ON,"Waterloo, South—Sud"
+"CD_ON_Wellington,_South—Sud",1871,ON,"Wellington, South—Sud"
+"CD_ON_Wentworth,_South—Sud",1871,ON,"Wentworth, South—Sud"
+"CD_ON_Wentworth,_North—Nord",1871,ON,"Wentworth, North—Nord"
+CD_ON_Welland,1871,ON,Welland
+CD_ON_Cornwall,1871,ON,Cornwall
+CD_ON_Stormont,1871,ON,Stormont
+"CD_ON_Toronto,_West—Ouest",1871,ON,"Toronto, West—Ouest"
+"CD_ON_York,_West—Ouest",1871,ON,"York, West—Ouest"
+"CD_ON_Victoria,_North—Nord",1871,ON,"Victoria, North—Nord"
+"CD_ON_Victoria,_South—Sud",1871,ON,"Victoria, South—Sud"
+"CD_ON_York,_East—Est",1871,ON,"York, East—Est"
+"CD_ON_York,_North—Nord",1871,ON,"York, North—Nord"
+"CD_ON_Toronto,_East—Est",1871,ON,"Toronto, East—Est"
+"CD_ON_Algoma,_Centre",1871,ON,"Algoma, Centre"
+CD_NB_Carleton,1871,NB,Carleton
+CD_NB_Charlotte,1871,NB,Charlotte
+CD_NB_Gloucester,1871,NB,Gloucester
+CD_NB_Kent,1871,NB,Kent
+CD_NB_King's,1871,NB,King's
+CD_NB_Albert,1871,NB,Albert
+CD_NB_Northumberland,1871,NB,Northumberland
+CD_NB_Restigouche,1871,NB,Restigouche
+CD_NB_St._John,1871,NB,St. John
+CD_NB_Sunbury,1871,NB,Sunbury
+CD_NB_Queen's,1871,NB,Queen's
+CD_NB_Victoria,1871,NB,Victoria
+CD_NB_Westmorland,1871,NB,Westmorland
+CD_NB_York,1871,NB,York
+CD_NS_Annapolis,1871,NS,Annapolis
+CD_NS_Antigonish,1871,NS,Antigonish
+CD_NS_Victoria,1871,NS,Victoria
+CD_NS_Cape_Breton,1871,NS,Cape Breton
+CD_NS_Colchester,1871,NS,Colchester
+CD_NS_Cumberland,1871,NS,Cumberland
+CD_NS_Digby,1871,NS,Digby
+CD_NS_Guysborough,1871,NS,Guysborough
+"CD_NS_Halifax,_West",1871,NS,"Halifax, West"
+"CD_NS_Halifax,_East",1871,NS,"Halifax, East"
+CD_NS_Hants,1871,NS,Hants
+CD_NS_Inverness,1871,NS,Inverness
+CD_NS_King's,1871,NS,King's
+CD_NS_Lunenburg,1871,NS,Lunenburg
+CD_NS_Pictou,1871,NS,Pictou
+CD_NS_Richmond,1871,NS,Richmond
+CD_NS_Shelburne,1871,NS,Shelburne
+CD_NS_Queens,1871,NS,Queens
+CD_NS_Yarmouth,1871,NS,Yarmouth
+CD_PE_King's,1871,PE,King's
+CD_PE_Prince,1871,PE,Prince
+CD_PE_Queen's,1871,PE,Queen's
+CD_NL_Newfoundland,1871,NL,Newfoundland
+CD_QC_Argenteuil,1871,QC,Argenteuil
+CD_QC_Bagot,1871,QC,Bagot
+CD_QC_Beauce_Ouest,1871,QC,Beauce Ouest
+CD_QC_Beauce_Est,1871,QC,Beauce Est
+CD_QC_Beauharnois,1871,QC,Beauharnois
+CD_QC_Bellechasse_Sud,1871,QC,Bellechasse Sud
+CD_QC_Bellechasse_Nord,1871,QC,Bellechasse Nord
+CD_QC_Berthier,1871,QC,Berthier
+CD_QC_Bonaventure,1871,QC,Bonaventure
+CD_QC_Brome,1871,QC,Brome
+CD_QC_Chambly,1871,QC,Chambly
+CD_QC_Vercheres,1871,QC,Vercheres
+CD_QC_Champlain_Sud,1871,QC,Champlain Sud
+CD_QC_Champlain_Nord,1871,QC,Champlain Nord
+CD_QC_Charlevoix,1871,QC,Charlevoix
+CD_QC_Chateauguay,1871,QC,Chateauguay
+CD_QC_Chicoutimi,1871,QC,Chicoutimi
+CD_QC_Saguenay,1871,QC,Saguenay
+CD_QC_Labrador,1871,QC,Labrador
+CD_QC_Compton,1871,QC,Compton
+CD_QC_Deux-Montagnes,1871,QC,Deux-Montagnes
+CD_QC_Dorchester_Est,1871,QC,Dorchester Est
+CD_QC_Dorchester_Ouest,1871,QC,Dorchester Ouest
+CD_QC_Arthabaska,1871,QC,Arthabaska
+CD_QC_Drummond,1871,QC,Drummond
+CD_QC_Gaspé_Ouest,1871,QC,Gaspé Ouest
+CD_QC_Gaspé_Centre,1871,QC,Gaspé Centre
+CD_QC_Isles_de_la_Magdeleine,1871,QC,Isles de la Magdeleine
+CD_QC_Gaspé_Sud,1871,QC,Gaspé Sud
+CD_QC_Hochelaga,1871,QC,Hochelaga
+CD_QC_Huntingdon_Ouest,1871,QC,Huntingdon Ouest
+CD_QC_Huntingdon_Est,1871,QC,Huntingdon Est
+CD_QC_Jacques_Cartier,1871,QC,Jacques Cartier
+CD_QC_Joliette,1871,QC,Joliette
+CD_QC_Kamouraska,1871,QC,Kamouraska
+CD_QC_Ottaoua_Centre,1871,QC,Ottaoua Centre
+CD_QC_Ottaoua_Est,1871,QC,Ottaoua Est
+CD_QC_Laprairie,1871,QC,Laprairie
+CD_QC_Napierville,1871,QC,Napierville
+CD_QC_L'Assomption,1871,QC,L'Assomption
+CD_QC_Laval,1871,QC,Laval
+CD_QC_Lévis_(Comté),1871,QC,Lévis (Comté)
+CD_QC_Lévis_(Ville),1871,QC,Lévis (Ville)
+CD_QC_L'Islet,1871,QC,L'Islet
+CD_QC_Lotbiniere,1871,QC,Lotbiniere
+CD_QC_Maskinonge,1871,QC,Maskinonge
+CD_QC_Megantic,1871,QC,Megantic
+CD_QC_Missisquoi,1871,QC,Missisquoi
+CD_QC_Montcalm,1871,QC,Montcalm
+CD_QC_Montmagny,1871,QC,Montmagny
+CD_QC_Montmorency,1871,QC,Montmorency
+CD_QC_Montreal_Centre,1871,QC,Montreal Centre
+CD_QC_Montreal_Ouest,1871,QC,Montreal Ouest
+CD_QC_Montreal_Est,1871,QC,Montreal Est
+CD_QC_Nicolet,1871,QC,Nicolet
+CD_QC_Pontiac_Nord,1871,QC,Pontiac Nord
+CD_QC_Pontiac_Sud,1871,QC,Pontiac Sud
+CD_QC_Ottawa_Ouest,1871,QC,Ottawa Ouest
+CD_QC_Portneuf,1871,QC,Portneuf
+CD_QC_Quebec_Centre,1871,QC,Quebec Centre
+CD_QC_Quebec_Est,1871,QC,Quebec Est
+CD_QC_Quebec_Ouest,1871,QC,Quebec Ouest
+CD_QC_Quebec_(Comté),1871,QC,Quebec (Comté)
+CD_QC_Richelieu,1871,QC,Richelieu
+CD_QC_Richmond,1871,QC,Richmond
+CD_QC_Wolfe,1871,QC,Wolfe
+CD_QC_Rimouski_Est,1871,QC,Rimouski Est
+CD_QC_Rimouski_Ouest,1871,QC,Rimouski Ouest
+CD_QC_Rouville,1871,QC,Rouville
+CD_QC_St._Hyacinthe,1871,QC,St. Hyacinthe
+CD_QC_Iberville,1871,QC,Iberville
+CD_QC_St._Jean,1871,QC,St. Jean
+CD_QC_Shefford,1871,QC,Shefford
+CD_QC_Sherbrooke,1871,QC,Sherbrooke
+CD_QC_Soulanges,1871,QC,Soulanges
+CD_QC_Stanstead,1871,QC,Stanstead
+CD_QC_Temiscouata,1871,QC,Temiscouata
+CD_QC_Terrebonne,1871,QC,Terrebonne
+CD_QC_Saint_Maurice_Sud,1871,QC,Saint Maurice Sud
+CD_QC_Trois_Rivieres,1871,QC,Trois Rivieres
+CD_QC_Vaudreuil,1871,QC,Vaudreuil
+CD_QC_Yamaska,1871,QC,Yamaska
+CD_QC_Saint_Maurice_Nord,1871,QC,Saint Maurice Nord
+CD_ON_Algoma,1881,ON,Algoma
+"CD_ON_Brant,_North—Nord",1881,ON,"Brant, North—Nord"
+"CD_ON_Brant,_South—Sud",1881,ON,"Brant, South—Sud"
+CD_ON_Brockville,1881,ON,Brockville
+"CD_ON_Bruce,_North—Nord",1881,ON,"Bruce, North—Nord"
+"CD_ON_Bruce,_South—Sud",1881,ON,"Bruce, South—Sud"
+CD_ON_Carleton,1881,ON,Carleton
+"CD_ON_Wellington,_North—Nord",1881,ON,"Wellington, North—Nord"
+"CD_ON_Wellington,_Centre",1881,ON,"Wellington, Centre"
+"CD_ON_Grey,_East—Est",1881,ON,"Grey, East—Est"
+CD_ON_Cardwell,1881,ON,Cardwell
+"CD_ON_Simcoe,_South—Sud",1881,ON,"Simcoe, South—Sud"
+CD_ON_Dundas,1881,ON,Dundas
+"CD_ON_Durham,_West—Ouest",1881,ON,"Durham, West—Ouest"
+"CD_ON_Durham,_East—Est",1881,ON,"Durham, East—Est"
+"CD_ON_Elgin,_East—Est",1881,ON,"Elgin, East—Est"
+"CD_ON_Elgin,_West—Ouest",1881,ON,"Elgin, West—Ouest"
+CD_ON_Essex,1881,ON,Essex
+CD_ON_Addington,1881,ON,Addington
+CD_ON_Frontenac,1881,ON,Frontenac
+CD_ON_Glengarry,1881,ON,Glengarry
+"CD_ON_Grenville,_South—Sud",1881,ON,"Grenville, South—Sud"
+"CD_ON_Leeds_&_Grenville,_North—Nord",1881,ON,"Leeds & Grenville, North—Nord"
+"CD_ON_Grey,_North—Nord",1881,ON,"Grey, North—Nord"
+"CD_ON_Grey,_South—Sud",1881,ON,"Grey, South—Sud"
+CD_ON_Monck,1881,ON,Monck
+CD_ON_Haldimand,1881,ON,Haldimand
+CD_ON_Halton,1881,ON,Halton
+"CD_ON_Hamilton,_City—Cité",1881,ON,"Hamilton, City—Cité"
+"CD_ON_Hastings,_North—Nord",1881,ON,"Hastings, North—Nord"
+"CD_ON_Hastings,_East—Est",1881,ON,"Hastings, East—Est"
+"CD_ON_Hastings,_West—Ouest",1881,ON,"Hastings, West—Ouest"
+"CD_ON_Huron,_Centre",1881,ON,"Huron, Centre"
+"CD_ON_Huron,_North—Nord",1881,ON,"Huron, North—Nord"
+"CD_ON_Huron,_South—Sud",1881,ON,"Huron, South—Sud"
+CD_ON_Bothwell,1881,ON,Bothwell
+CD_ON_Kent,1881,ON,Kent
+"CD_ON_Kingston,_City—Cité",1881,ON,"Kingston, City—Cité"
+CD_ON_Lambton,1881,ON,Lambton
+"CD_ON_Lanark,_North—Nord",1881,ON,"Lanark, North—Nord"
+"CD_ON_Lanark,_South—Sud",1881,ON,"Lanark, South—Sud"
+"CD_ON_Leeds,_South—Sud",1881,ON,"Leeds, South—Sud"
+CD_ON_Lennox,1881,ON,Lennox
+CD_ON_Lincoln,1881,ON,Lincoln
+CD_ON_Niagara,1881,ON,Niagara
+"CD_ON_Middlesex,_East—Est",1881,ON,"Middlesex, East—Est"
+"CD_ON_Middlesex,_North—Nord",1881,ON,"Middlesex, North—Nord"
+"CD_ON_Middlesex,_West—Ouest",1881,ON,"Middlesex, West—Ouest"
+CD_ON_Muskoka,1881,ON,Muskoka
+"CD_ON_Renfrew,_North—Nord",1881,ON,"Renfrew, North—Nord"
+"CD_ON_Norfolk,_South—Sud",1881,ON,"Norfolk, South—Sud"
+"CD_ON_Norfolk,_North—Nord",1881,ON,"Norfolk, North—Nord"
+"CD_ON_Northumberland,_East—Est",1881,ON,"Northumberland, East—Est"
+"CD_ON_Northumberland,_West—Ouest",1881,ON,"Northumberland, West—Ouest"
+"CD_ON_Ontario,_North—Nord",1881,ON,"Ontario, North—Nord"
+"CD_ON_Ontario,_South—Sud",1881,ON,"Ontario, South—Sud"
+"CD_ON_Ottawa,_City—Cité",1881,ON,"Ottawa, City—Cité"
+"CD_ON_Oxford,_North—Nord",1881,ON,"Oxford, North—Nord"
+"CD_ON_Oxford,_South—Sud",1881,ON,"Oxford, South—Sud"
+CD_ON_Peel,1881,ON,Peel
+"CD_ON_Perth,_North—Nord",1881,ON,"Perth, North—Nord"
+"CD_ON_Perth,_South—Sud",1881,ON,"Perth, South—Sud"
+"CD_ON_Peterborough,_East—Est",1881,ON,"Peterborough, East—Est"
+"CD_ON_Peterborough,_West—Ouest",1881,ON,"Peterborough, West—Ouest"
+CD_ON_Prescott,1881,ON,Prescott
+CD_ON_Prince_Edward,1881,ON,Prince Edward
+"CD_ON_Renfrew,_South—Sud",1881,ON,"Renfrew, South—Sud"
+CD_ON_Russell,1881,ON,Russell
+"CD_ON_Simcoe,_North—Nord",1881,ON,"Simcoe, North—Nord"
+CD_ON_Cornwall,1881,ON,Cornwall
+CD_ON_Stormont,1881,ON,Stormont
+"CD_ON_Toronto,_City—Cité",1881,ON,"Toronto, City—Cité"
+"CD_ON_York,_West—Ouest",1881,ON,"York, West—Ouest"
+"CD_ON_Victoria,_North—Nord",1881,ON,"Victoria, North—Nord"
+"CD_ON_Victoria,_South—Sud",1881,ON,"Victoria, South—Sud"
+"CD_ON_Waterloo,_North—Nord",1881,ON,"Waterloo, North—Nord"
+"CD_ON_Waterloo,_South—Sud",1881,ON,"Waterloo, South—Sud"
+CD_ON_Welland,1881,ON,Welland
+"CD_ON_Wellington,_South—Sud",1881,ON,"Wellington, South—Sud"
+"CD_ON_Wentworth,_South—Sud",1881,ON,"Wentworth, South—Sud"
+"CD_ON_Wentworth,_North—Nord",1881,ON,"Wentworth, North—Nord"
+"CD_ON_York,_East—Est",1881,ON,"York, East—Est"
+"CD_ON_York,_North—Nord",1881,ON,"York, North—Nord"
+"CD_ON_London,_City—Cité",1881,ON,"London, City—Cité"
+"CD_ON_Kingston,_City—Cite",1881,ON,"Kingston, City—Cite"
+CD_NT_The_Territories,1881,NT,The Territories
+CD_MB_Extension,1881,MB,Extension
+CD_MB_Marquette,1881,MB,Marquette
+CD_MB_Selkirk,1881,MB,Selkirk
+CD_MB_Provencher,1881,MB,Provencher
+CD_MB_Lisgar,1881,MB,Lisgar
+CD_BC_Yale,1881,BC,Yale
+CD_BC_Vancouver,1881,BC,Vancouver
+CD_BC_Victoria,1881,BC,Victoria
+CD_BC_Cariboo,1881,BC,Cariboo
+CD_BC_New_Westminster,1881,BC,New Westminster
+CD_NB_Carleton,1881,NB,Carleton
+CD_NB_Charlotte,1881,NB,Charlotte
+CD_NB_Gloucester,1881,NB,Gloucester
+CD_NB_Kent,1881,NB,Kent
+CD_NB_King's,1881,NB,King's
+CD_NB_Albert,1881,NB,Albert
+CD_NB_Northumberland,1881,NB,Northumberland
+CD_NB_Restigouche,1881,NB,Restigouche
+"CD_NB_St._John,_(County-Comté)",1881,NB,"St. John, (County-Comté)"
+"CD_NB_St._John,_(City-Ville)",1881,NB,"St. John, (City-Ville)"
+CD_NB_Sunbury,1881,NB,Sunbury
+CD_NB_Queen's,1881,NB,Queen's
+CD_NB_Victoria,1881,NB,Victoria
+CD_NB_Westmoreland,1881,NB,Westmoreland
+CD_NB_York,1881,NB,York
+CD_NS_Annapolis,1881,NS,Annapolis
+CD_NS_Antigonish,1881,NS,Antigonish
+CD_NS_Victoria,1881,NS,Victoria
+CD_NS_Cape_Breton,1881,NS,Cape Breton
+CD_NS_Colchester,1881,NS,Colchester
+CD_NS_Cumberland,1881,NS,Cumberland
+CD_NS_Digby,1881,NS,Digby
+CD_NS_Guysborough,1881,NS,Guysborough
+CD_NS_Halifax_(County-Comté),1881,NS,Halifax (County-Comté)
+CD_NS_Halifax_(City-Ville),1881,NS,Halifax (City-Ville)
+CD_NS_Hants,1881,NS,Hants
+CD_NS_Inverness,1881,NS,Inverness
+CD_NS_King's,1881,NS,King's
+CD_NS_Lunenburg,1881,NS,Lunenburg
+CD_NS_Pictou,1881,NS,Pictou
+CD_NS_Richmond,1881,NS,Richmond
+CD_NS_Shelburne,1881,NS,Shelburne
+CD_NS_Queens,1881,NS,Queens
+CD_NS_Yarmouth,1881,NS,Yarmouth
+CD_PE_King's,1881,PE,King's
+CD_PE_Prince,1881,PE,Prince
+CD_PE_Queen's,1881,PE,Queen's
+CD_NL_Newfoundland,1881,NL,Newfoundland
+CD_QC_Argenteuil,1881,QC,Argenteuil
+CD_QC_Bagot,1881,QC,Bagot
+CD_QC_Beauce,1881,QC,Beauce
+CD_QC_Beauharnois,1881,QC,Beauharnois
+CD_QC_Bellechasse,1881,QC,Bellechasse
+CD_QC_Berthier,1881,QC,Berthier
+CD_QC_Bonaventure,1881,QC,Bonaventure
+CD_QC_Brome,1881,QC,Brome
+CD_QC_Chambly,1881,QC,Chambly
+CD_QC_Verchères,1881,QC,Verchères
+CD_QC_Champlain,1881,QC,Champlain
+CD_QC_Charlevoix,1881,QC,Charlevoix
+CD_QC_Chateauguay,1881,QC,Chateauguay
+CD_QC_Chicoutimi_&_Saguenay,1881,QC,Chicoutimi & Saguenay
+CD_QC_Compton,1881,QC,Compton
+CD_QC_Deux-Montagnes,1881,QC,Deux-Montagnes
+CD_QC_Dorchester,1881,QC,Dorchester
+CD_QC_Drummond_&_Arthabaska,1881,QC,Drummond & Arthabaska
+CD_QC_Gaspé,1881,QC,Gaspé
+CD_QC_Hochelaga,1881,QC,Hochelaga
+CD_QC_Huntingdon,1881,QC,Huntingdon
+CD_QC_Jacques-Cartier,1881,QC,Jacques-Cartier
+CD_QC_Joliette,1881,QC,Joliette
+CD_QC_Kamouraska,1881,QC,Kamouraska
+CD_QC_Ottawa,1881,QC,Ottawa
+CD_QC_Laprairie,1881,QC,Laprairie
+CD_QC_Napierville,1881,QC,Napierville
+CD_QC_L'Assomption,1881,QC,L'Assomption
+CD_QC_Laval,1881,QC,Laval
+CD_QC_Lévis,1881,QC,Lévis
+CD_QC_L'Islet,1881,QC,L'Islet
+CD_QC_Lotbinière,1881,QC,Lotbinière
+CD_QC_Maskinongé,1881,QC,Maskinongé
+CD_QC_Megantic,1881,QC,Megantic
+CD_QC_Missisquoi,1881,QC,Missisquoi
+CD_QC_Montcalm,1881,QC,Montcalm
+CD_QC_Montmagny,1881,QC,Montmagny
+CD_QC_Montmorency,1881,QC,Montmorency
+"CD_QC_Montréal,_(City-Ville)",1881,QC,"Montréal, (City-Ville)"
+CD_QC_Nicolet,1881,QC,Nicolet
+CD_QC_Pontiac,1881,QC,Pontiac
+CD_QC_Portneuf,1881,QC,Portneuf
+"CD_QC_Quebec,_(City-Ville)",1881,QC,"Quebec, (City-Ville)"
+"CD_QC_Quebec,_(County-Comté)",1881,QC,"Quebec, (County-Comté)"
+CD_QC_Richelieu,1881,QC,Richelieu
+CD_QC_Richmond_&_Wolfe,1881,QC,Richmond & Wolfe
+CD_QC_Rimouski,1881,QC,Rimouski
+CD_QC_Rouville,1881,QC,Rouville
+CD_QC_St._Hyacinthe,1881,QC,St. Hyacinthe
+CD_QC_Iberville,1881,QC,Iberville
+CD_QC_St._Jean,1881,QC,St. Jean
+CD_QC_Shefford,1881,QC,Shefford
+CD_QC_Sherbrooke,1881,QC,Sherbrooke
+CD_QC_Soulanges,1881,QC,Soulanges
+CD_QC_Stanstead,1881,QC,Stanstead
+CD_QC_Temiscouata,1881,QC,Temiscouata
+CD_QC_Terrebonne,1881,QC,Terrebonne
+CD_QC_St._Maurice,1881,QC,St. Maurice
+CD_QC_Trois-Rivières,1881,QC,Trois-Rivières
+CD_QC_Vaudreuil,1881,QC,Vaudreuil
+CD_QC_Yamaska,1881,QC,Yamaska
+CD_ON_Algoma,1891,ON,Algoma
+CD_ON_Nipissing,1891,ON,Nipissing
+"CD_ON_Brant,_North—Nord",1891,ON,"Brant, North—Nord"
+"CD_ON_Oxford,_South—Sud",1891,ON,"Oxford, South—Sud"
+"CD_ON_Brant,_South—Sud",1891,ON,"Brant, South—Sud"
+CD_ON_Brockville,1891,ON,Brockville
+"CD_ON_Leeds,_South—Sud",1891,ON,"Leeds, South—Sud"
+"CD_ON_Bruce,_North—Nord",1891,ON,"Bruce, North—Nord"
+"CD_ON_Bruce,_West—Ouest",1891,ON,"Bruce, West—Ouest"
+"CD_ON_Bruce,_East—Est",1891,ON,"Bruce, East—Est"
+"CD_ON_Lanark,_North—Nord",1891,ON,"Lanark, North—Nord"
+CD_ON_Carleton,1891,ON,Carleton
+"CD_ON_Wellington,_North—Nord",1891,ON,"Wellington, North—Nord"
+"CD_ON_Wellington,_Centre",1891,ON,"Wellington, Centre"
+"CD_ON_Grey,_East—Est",1891,ON,"Grey, East—Est"
+CD_ON_Cardwell,1891,ON,Cardwell
+"CD_ON_Simcoe,_South—Sud",1891,ON,"Simcoe, South—Sud"
+CD_ON_Dundas,1891,ON,Dundas
+"CD_ON_Durham,_West—Ouest",1891,ON,"Durham, West—Ouest"
+"CD_ON_Durham,_East—Est",1891,ON,"Durham, East—Est"
+"CD_ON_Elgin,_East—Est",1891,ON,"Elgin, East—Est"
+"CD_ON_Middlesex,_East—Est",1891,ON,"Middlesex, East—Est"
+"CD_ON_Elgin,_West—Ouest",1891,ON,"Elgin, West—Ouest"
+"CD_ON_Essex,_North—Nord",1891,ON,"Essex, North—Nord"
+"CD_ON_Essex,_South—Sud",1891,ON,"Essex, South—Sud"
+CD_ON_Addington,1891,ON,Addington
+CD_ON_Frontenac,1891,ON,Frontenac
+CD_ON_Glengarry,1891,ON,Glengarry
+"CD_ON_Grenville,_South—Sud",1891,ON,"Grenville, South—Sud"
+"CD_ON_Leeds_&_Grenville,_North—Nord",1891,ON,"Leeds & Grenville, North—Nord"
+"CD_ON_Grey,_South—Sud",1891,ON,"Grey, South—Sud"
+"CD_ON_Grey,_North—Nord",1891,ON,"Grey, North—Nord"
+CD_ON_Monck,1891,ON,Monck
+CD_ON_Haldimand,1891,ON,Haldimand
+CD_ON_Halton,1891,ON,Halton
+"CD_ON_Hamilton,_City—Cité",1891,ON,"Hamilton, City—Cité"
+"CD_ON_Hastings,_North—Nord",1891,ON,"Hastings, North—Nord"
+"CD_ON_Hastings,_East—Est",1891,ON,"Hastings, East—Est"
+"CD_ON_Hastings,_West—Ouest",1891,ON,"Hastings, West—Ouest"
+"CD_ON_Huron,_East—Est",1891,ON,"Huron, East—Est"
+"CD_ON_Huron,_West—Ouest",1891,ON,"Huron, West—Ouest"
+"CD_ON_Huron,_South—Sud",1891,ON,"Huron, South—Sud"
+"CD_ON_Middlesex,_North—Nord",1891,ON,"Middlesex, North—Nord"
+"CD_ON_Perth,_South—Sud",1891,ON,"Perth, South—Sud"
+CD_ON_Bothwell,1891,ON,Bothwell
+CD_ON_Kent,1891,ON,Kent
+"CD_ON_Kingston,_City—Cité",1891,ON,"Kingston, City—Cité"
+"CD_ON_Lambton,_East—Est",1891,ON,"Lambton, East—Est"
+"CD_ON_Middlesex,_West—Ouest",1891,ON,"Middlesex, West—Ouest"
+"CD_ON_Lambton,_West—Ouest",1891,ON,"Lambton, West—Ouest"
+"CD_ON_Lanark,_South—Sud",1891,ON,"Lanark, South—Sud"
+CD_ON_Lennox,1891,ON,Lennox
+"CD_ON_Wentworth,_South—Sud",1891,ON,"Wentworth, South—Sud"
+CD_ON_Lincoln_&_Niagara,1891,ON,Lincoln & Niagara
+"CD_ON_Middlesex,_South—Sud",1891,ON,"Middlesex, South—Sud"
+CD_ON_Muskoka_&_Parry_Sound,1891,ON,Muskoka & Parry Sound
+"CD_ON_Ontario,_North—Nord",1891,ON,"Ontario, North—Nord"
+"CD_ON_Simcoe,_East—Est",1891,ON,"Simcoe, East—Est"
+"CD_ON_Renfrew,_North—Nord",1891,ON,"Renfrew, North—Nord"
+"CD_ON_Norfolk,_South—Sud",1891,ON,"Norfolk, South—Sud"
+"CD_ON_Norfolk,_North—Nord",1891,ON,"Norfolk, North—Nord"
+"CD_ON_Northumberland,_East—Est",1891,ON,"Northumberland, East—Est"
+"CD_ON_Northumberland,_West—Ouest",1891,ON,"Northumberland, West—Ouest"
+"CD_ON_Ontario,_West—Ouest",1891,ON,"Ontario, West—Ouest"
+"CD_ON_Ontario,_South—Sud",1891,ON,"Ontario, South—Sud"
+"CD_ON_Ottawa,_City—Cité",1891,ON,"Ottawa, City—Cité"
+"CD_ON_Oxford,_North—Nord",1891,ON,"Oxford, North—Nord"
+CD_ON_Peel,1891,ON,Peel
+"CD_ON_Perth,_North—Nord",1891,ON,"Perth, North—Nord"
+"CD_ON_Peterborough,_East—Est",1891,ON,"Peterborough, East—Est"
+"CD_ON_Peterborough,_West—Ouest",1891,ON,"Peterborough, West—Ouest"
+"CD_ON_Victoria,_North—Nord",1891,ON,"Victoria, North—Nord"
+CD_ON_Prescott,1891,ON,Prescott
+CD_ON_Prince_Edward,1891,ON,Prince Edward
+"CD_ON_Renfrew,_South—Sud",1891,ON,"Renfrew, South—Sud"
+CD_ON_Russell,1891,ON,Russell
+"CD_ON_Simcoe,_North—Nord",1891,ON,"Simcoe, North—Nord"
+"CD_ON_York,_North—Nord",1891,ON,"York, North—Nord"
+CD_ON_Cornwall_&_Stormont,1891,ON,Cornwall & Stormont
+"CD_ON_Toronto,_City—Cité",1891,ON,"Toronto, City—Cité"
+"CD_ON_York,_West—Ouest",1891,ON,"York, West—Ouest"
+"CD_ON_Victoria,_South—Sud",1891,ON,"Victoria, South—Sud"
+"CD_ON_Waterloo,_North—Nord",1891,ON,"Waterloo, North—Nord"
+"CD_ON_Waterloo,_South—Sud",1891,ON,"Waterloo, South—Sud"
+CD_ON_Welland,1891,ON,Welland
+"CD_ON_Wellington,_South—Sud",1891,ON,"Wellington, South—Sud"
+"CD_ON_Wentworth,_North—Nord",1891,ON,"Wentworth, North—Nord"
+"CD_ON_York,_East—Est",1891,ON,"York, East—Est"
+"CD_ON_London,_City—Cité",1891,ON,"London, City—Cité"
+"CD_ON_Kingston,_City—Cite",1891,ON,"Kingston, City—Cite"
+CD_NT_The_Unorganized_Territories,1891,NT,The Unorganized Territories
+CD_NT_Saskatchewan,1891,NT,Saskatchewan
+CD_NT_Assiniboia_West-Ouest,1891,NT,Assiniboia West-Ouest
+CD_NT_Assiniboia_East-Est,1891,NT,Assiniboia East-Est
+CD_NT_Alberta,1891,NT,Alberta
+CD_MB_Selkirk,1891,MB,Selkirk
+CD_MB_Lisgar,1891,MB,Lisgar
+CD_MB_Marquette,1891,MB,Marquette
+CD_MB_Provencher,1891,MB,Provencher
+"CD_MB_Winnipeg,_City—Cité",1891,MB,"Winnipeg, City—Cité"
+CD_BC_Yale,1891,BC,Yale
+CD_BC_Vancouver,1891,BC,Vancouver
+CD_BC_New_Westminster,1891,BC,New Westminster
+CD_BC_Victoria,1891,BC,Victoria
+CD_BC_Cariboo,1891,BC,Cariboo
+CD_NL_Labrador,1891,NL,Labrador
+CD_NB_Carleton,1891,NB,Carleton
+CD_NB_Charlotte,1891,NB,Charlotte
+CD_NB_Gloucester,1891,NB,Gloucester
+CD_NB_Kent,1891,NB,Kent
+CD_NB_King’s,1891,NB,King’s
+CD_NB_Albert,1891,NB,Albert
+CD_NB_Northumberland,1891,NB,Northumberland
+CD_NB_Restigouche,1891,NB,Restigouche
+"CD_NB_St-John,_County—Comté",1891,NB,"St-John, County—Comté"
+CD_NB_Sunbury,1891,NB,Sunbury
+CD_NB_Queen's,1891,NB,Queen's
+CD_NB_Victoria,1891,NB,Victoria
+CD_NB_Westmoreland,1891,NB,Westmoreland
+CD_NB_York,1891,NB,York
+CD_NS_Annapolis,1891,NS,Annapolis
+CD_NS_Antigonish,1891,NS,Antigonish
+CD_NS_Victoria,1891,NS,Victoria
+CD_NS_Cape_Breton,1891,NS,Cape Breton
+CD_NS_Colchester,1891,NS,Colchester
+CD_NS_Cumberland,1891,NS,Cumberland
+CD_NS_Digby,1891,NS,Digby
+CD_NS_Guysborough,1891,NS,Guysborough
+"CD_NS_Halifax,_City—Cité",1891,NS,"Halifax, City—Cité"
+CD_NS_Hants,1891,NS,Hants
+CD_NS_Inverness,1891,NS,Inverness
+CD_NS_King’s,1891,NS,King’s
+CD_NS_Lunenburg,1891,NS,Lunenburg
+CD_NS_Pictou,1891,NS,Pictou
+CD_NS_Richmond,1891,NS,Richmond
+CD_NS_Shelburne,1891,NS,Shelburne
+CD_NS_Queen's,1891,NS,Queen's
+CD_NS_Yarmouth,1891,NS,Yarmouth
+CD_PE_King’s,1891,PE,King’s
+CD_PE_Prince,1891,PE,Prince
+CD_PE_Queen’s,1891,PE,Queen’s
+CD_NS_Cap_Breton,1891,NS,Cap Breton
+CD_NL_Newfoundland,1891,NL,Newfoundland
+CD_QC_Argenteuil,1891,QC,Argenteuil
+CD_QC_Bagot,1891,QC,Bagot
+CD_QC_Beauce,1891,QC,Beauce
+CD_QC_Beauharnois,1891,QC,Beauharnois
+CD_QC_Bellechasse,1891,QC,Bellechasse
+CD_QC_Berthier,1891,QC,Berthier
+CD_QC_Bonaventure,1891,QC,Bonaventure
+CD_QC_Brome,1891,QC,Brome
+CD_QC_Chambly,1891,QC,Chambly
+CD_QC_Verchères,1891,QC,Verchères
+CD_QC_Champlain,1891,QC,Champlain
+CD_QC_Charlevoix,1891,QC,Charlevoix
+CD_QC_Chateauguay,1891,QC,Chateauguay
+CD_QC_Chicoutimi_and_Saguenay,1891,QC,Chicoutimi and Saguenay
+CD_QC_Compton,1891,QC,Compton
+CD_QC_Deux-Montagnes,1891,QC,Deux-Montagnes
+CD_QC_Dorchester,1891,QC,Dorchester
+CD_QC_Drummond_&_Arthabaska,1891,QC,Drummond & Arthabaska
+CD_QC_Gaspé,1891,QC,Gaspé
+CD_QC_Hochelaga,1891,QC,Hochelaga
+CD_QC_Huntingdon,1891,QC,Huntingdon
+CD_QC_Jacques-Cartier,1891,QC,Jacques-Cartier
+CD_QC_Joliette,1891,QC,Joliette
+CD_QC_Kamouraska,1891,QC,Kamouraska
+"CD_QC_Ottawa,_County—Comté",1891,QC,"Ottawa, County—Comté"
+CD_QC_Laprairie,1891,QC,Laprairie
+CD_QC_Napierville,1891,QC,Napierville
+CD_QC_L’Assomption,1891,QC,L’Assomption
+CD_QC_Laval,1891,QC,Laval
+CD_QC_Lévis,1891,QC,Lévis
+CD_QC_L’Islet,1891,QC,L’Islet
+CD_QC_Lotbinière,1891,QC,Lotbinière
+CD_QC_Maskinongé,1891,QC,Maskinongé
+CD_QC_Mégantic,1891,QC,Mégantic
+CD_QC_Missisquoi,1891,QC,Missisquoi
+CD_QC_Montcalm,1891,QC,Montcalm
+CD_QC_Montmagny,1891,QC,Montmagny
+CD_QC_Montmorency,1891,QC,Montmorency
+CD_QC_Montréal,1891,QC,Montréal
+CD_QC_Nicolet,1891,QC,Nicolet
+CD_QC_Pontiac,1891,QC,Pontiac
+CD_QC_Portneuf,1891,QC,Portneuf
+"CD_QC_Quebec,_City—Cité",1891,QC,"Quebec, City—Cité"
+"CD_QC_Quebec,_County—Comté",1891,QC,"Quebec, County—Comté"
+CD_QC_Richelieu,1891,QC,Richelieu
+CD_QC_Richmond_&_Wolfe,1891,QC,Richmond & Wolfe
+CD_QC_Rimouski,1891,QC,Rimouski
+CD_QC_Rouville,1891,QC,Rouville
+CD_QC_St._Hyacinthe,1891,QC,St. Hyacinthe
+CD_QC_Iberville,1891,QC,Iberville
+CD_QC_St._Jean,1891,QC,St. Jean
+CD_QC_Shefford,1891,QC,Shefford
+CD_QC_Sherbrooke,1891,QC,Sherbrooke
+CD_QC_Soulanges,1891,QC,Soulanges
+CD_QC_Stanstead,1891,QC,Stanstead
+CD_QC_Témiscouata,1891,QC,Témiscouata
+CD_QC_Terrebonne,1891,QC,Terrebonne
+CD_QC_St._Maurice,1891,QC,St. Maurice
+CD_QC_Trois-Rivières,1891,QC,Trois-Rivières
+CD_QC_Vaudreuil,1891,QC,Vaudreuil
+CD_QC_Yamaska,1891,QC,Yamaska
+CD_QC_Hochalaga,1891,QC,Hochalaga
+CD_MB_Macdonald,1901,MB,Macdonald
+CD_MB_Brandon,1901,MB,Brandon
+CD_MB_Selkirk,1901,MB,Selkirk
+CD_MB_Marquette,1901,MB,Marquette
+CD_MB_Lisgar,1901,MB,Lisgar
+CD_MB_Provencher,1901,MB,Provencher
+"CD_MB_Winnipeg,_City—Cité",1901,MB,"Winnipeg, City—Cité"
+CD_ON_Nipissing,1901,ON,Nipissing
+CD_ON_Algoma,1901,ON,Algoma
+"CD_ON_Wentworth_&_Brant,_North—Nord",1901,ON,"Wentworth & Brant, North—Nord"
+"CD_ON_Oxford,_South—Sud",1901,ON,"Oxford, South—Sud"
+"CD_ON_Brant,_South—Sud",1901,ON,"Brant, South—Sud"
+CD_ON_Brockville,1901,ON,Brockville
+"CD_ON_Leeds,_South—Sud",1901,ON,"Leeds, South—Sud"
+"CD_ON_Bruce,_North—Nord",1901,ON,"Bruce, North—Nord"
+"CD_ON_Bruce,_West—Ouest",1901,ON,"Bruce, West—Ouest"
+"CD_ON_Bruce,_East—Est",1901,ON,"Bruce, East—Est"
+"CD_ON_Lanark,_North—Nord",1901,ON,"Lanark, North—Nord"
+CD_ON_Carleton,1901,ON,Carleton
+"CD_ON_Wellington,_North—Nord",1901,ON,"Wellington, North—Nord"
+"CD_ON_Wellington,_Centre",1901,ON,"Wellington, Centre"
+"CD_ON_Grey,_East—Est",1901,ON,"Grey, East—Est"
+CD_ON_Cardwell,1901,ON,Cardwell
+"CD_ON_Simcoe,_South—Sud",1901,ON,"Simcoe, South—Sud"
+CD_ON_Dundas,1901,ON,Dundas
+"CD_ON_Durham,_West—Ouest",1901,ON,"Durham, West—Ouest"
+"CD_ON_Durham,_East—Est",1901,ON,"Durham, East—Est"
+"CD_ON_Elgin,_East—Est",1901,ON,"Elgin, East—Est"
+"CD_ON_Middlesex,_East—Est",1901,ON,"Middlesex, East—Est"
+"CD_ON_Elgin,_West—Ouest",1901,ON,"Elgin, West—Ouest"
+"CD_ON_Essex,_North—Nord",1901,ON,"Essex, North—Nord"
+"CD_ON_Essex,_South—Sud",1901,ON,"Essex, South—Sud"
+CD_ON_Addington,1901,ON,Addington
+CD_ON_Frontenac,1901,ON,Frontenac
+CD_ON_Glengarry,1901,ON,Glengarry
+"CD_ON_Grenville,_South—Sud",1901,ON,"Grenville, South—Sud"
+"CD_ON_Leeds_&_Grenville,_North—Nord",1901,ON,"Leeds & Grenville, North—Nord"
+"CD_ON_Grey,_South—Sud",1901,ON,"Grey, South—Sud"
+"CD_ON_Grey,_North—Nord",1901,ON,"Grey, North—Nord"
+CD_ON_Haldimand_&_Monok,1901,ON,Haldimand & Monok
+"CD_ON_Norfolk,_South—Sud",1901,ON,"Norfolk, South—Sud"
+CD_ON_Halton,1901,ON,Halton
+"CD_ON_Hamilton,_City—Cité",1901,ON,"Hamilton, City—Cité"
+"CD_ON_Hastings,_North—Nord",1901,ON,"Hastings, North—Nord"
+"CD_ON_Hastings,_East—Est",1901,ON,"Hastings, East—Est"
+"CD_ON_Hastings,_West—Ouest",1901,ON,"Hastings, West—Ouest"
+"CD_ON_Huron,_East—Est",1901,ON,"Huron, East—Est"
+"CD_ON_Huron,_West—Ouest",1901,ON,"Huron, West—Ouest"
+"CD_ON_Huron,_South—Sud",1901,ON,"Huron, South—Sud"
+"CD_ON_Middlesex,_North—Nord",1901,ON,"Middlesex, North—Nord"
+"CD_ON_Perth,_South—Sud",1901,ON,"Perth, South—Sud"
+CD_ON_Bothwell,1901,ON,Bothwell
+CD_ON_Kent,1901,ON,Kent
+"CD_ON_Kingston,_City—Cité",1901,ON,"Kingston, City—Cité"
+"CD_ON_Lambton,_East—Est",1901,ON,"Lambton, East—Est"
+"CD_ON_Middlesex,_West—Ouest",1901,ON,"Middlesex, West—Ouest"
+"CD_ON_Lambton,_West—Ouest",1901,ON,"Lambton, West—Ouest"
+"CD_ON_Lanark,_South—Sud",1901,ON,"Lanark, South—Sud"
+CD_ON_Lennox,1901,ON,Lennox
+"CD_ON_Wentworth,_South—Sud",1901,ON,"Wentworth, South—Sud"
+CD_ON_Lincoln_&_Niagara,1901,ON,Lincoln & Niagara
+"CD_ON_Middlesex,_South—Sud",1901,ON,"Middlesex, South—Sud"
+CD_ON_Muskoka_&_Parry_Sound,1901,ON,Muskoka & Parry Sound
+"CD_ON_Ontario,_North—Nord",1901,ON,"Ontario, North—Nord"
+"CD_ON_Simcoe,_East—Est",1901,ON,"Simcoe, East—Est"
+"CD_ON_Norfolk,_North—Nord",1901,ON,"Norfolk, North—Nord"
+"CD_ON_Northumberland,_East—Est",1901,ON,"Northumberland, East—Est"
+"CD_ON_Northumberland,_West—Ouest",1901,ON,"Northumberland, West—Ouest"
+"CD_ON_Ontario,_West—Ouest",1901,ON,"Ontario, West—Ouest"
+"CD_ON_Ontario,_South—Sud",1901,ON,"Ontario, South—Sud"
+"CD_ON_Ottawa,_City—Cité",1901,ON,"Ottawa, City—Cité"
+"CD_ON_Oxford,_North—Nord",1901,ON,"Oxford, North—Nord"
+CD_ON_Peel,1901,ON,Peel
+"CD_ON_Perth,_North—Nord",1901,ON,"Perth, North—Nord"
+"CD_ON_Peterborough,_East—Est",1901,ON,"Peterborough, East—Est"
+"CD_ON_Peterborough,_West—Ouest",1901,ON,"Peterborough, West—Ouest"
+"CD_ON_Victoria,_North—Nord",1901,ON,"Victoria, North—Nord"
+CD_ON_Prescott,1901,ON,Prescott
+CD_ON_Prince_Edward,1901,ON,Prince Edward
+"CD_ON_Renfrew,_North—Nord",1901,ON,"Renfrew, North—Nord"
+"CD_ON_Renfrew,_South—Sud",1901,ON,"Renfrew, South—Sud"
+CD_ON_Russell,1901,ON,Russell
+"CD_ON_Simcoe,_North—Nord",1901,ON,"Simcoe, North—Nord"
+"CD_ON_York,_North—Nord",1901,ON,"York, North—Nord"
+CD_ON_Cornwall_&_Stormont,1901,ON,Cornwall & Stormont
+"CD_ON_Toronto,_Centre,_City—Cité",1901,ON,"Toronto, Centre, City—Cité"
+"CD_ON_York,_East—Est",1901,ON,"York, East—Est"
+"CD_ON_Toronto,_East—Est,_City—Cité",1901,ON,"Toronto, East—Est, City—Cité"
+"CD_ON_Toronto,_West—Ouest,_City—Cité",1901,ON,"Toronto, West—Ouest, City—Cité"
+"CD_ON_York,_West—Ouest",1901,ON,"York, West—Ouest"
+"CD_ON_Victoria,_South—Sud",1901,ON,"Victoria, South—Sud"
+"CD_ON_Waterloo,_North—Nord",1901,ON,"Waterloo, North—Nord"
+"CD_ON_Waterloo,_South—Sud",1901,ON,"Waterloo, South—Sud"
+CD_ON_Welland,1901,ON,Welland
+"CD_ON_Wellington,_South—Sud",1901,ON,"Wellington, South—Sud"
+"CD_ON_London,_City—Cité",1901,ON,"London, City—Cité"
+"CD_ON_Kingston,_City—Cite",1901,ON,"Kingston, City—Cite"
+CD_NT_Unorganized_Territories,1901,NT,Unorganized Territories
+CD_BC_Burrard,1901,BC,Burrard
+CD_BC_Yale_&_Cariboo,1901,BC,Yale & Cariboo
+CD_BC_Vancouver,1901,BC,Vancouver
+CD_BC_New_Westminster,1901,BC,New Westminster
+CD_BC_Victoria,1901,BC,Victoria
+CD_NT_Saskatchewan,1901,NT,Saskatchewan
+"CD_NT_Assiniboia,_West—Ouest",1901,NT,"Assiniboia, West—Ouest"
+"CD_NT_Assiniboia,_East—Est",1901,NT,"Assiniboia, East—Est"
+CD_NT_Alberta,1901,NT,Alberta
+CD_NT_Unorganized_Territories—Territoires_non-organisés,1901,NT,Unorganized Territories—Territoires non-organisés
+CD_NL_Labrador,1901,NL,Labrador
+CD_PE_Kings,1901,PE,Kings
+"CD_PE_Queens,_East-Est",1901,PE,"Queens, East-Est"
+"CD_PE_Prince,_West-Ouest",1901,PE,"Prince, West-Ouest"
+"CD_PE_Prince,_East-Est",1901,PE,"Prince, East-Est"
+"CD_PE_Queens,_West—Ouest",1901,PE,"Queens, West—Ouest"
+CD_NS_Annapolis,1901,NS,Annapolis
+CD_NS_Antigonish,1901,NS,Antigonish
+CD_NS_Victoria,1901,NS,Victoria
+CD_NS_Cape_Breton,1901,NS,Cape Breton
+CD_NS_Colchester,1901,NS,Colchester
+CD_NS_Cumberland,1901,NS,Cumberland
+CD_NS_Digby,1901,NS,Digby
+CD_NS_Guysborough,1901,NS,Guysborough
+"CD_NS_Halifax,_City_&_Co—Cité_et_comté",1901,NS,"Halifax, City & Co—Cité et comté"
+CD_NS_Hants,1901,NS,Hants
+CD_NS_Inverness,1901,NS,Inverness
+CD_NS_Kings,1901,NS,Kings
+CD_NS_Lunenburg,1901,NS,Lunenburg
+CD_NS_Pictou,1901,NS,Pictou
+CD_NS_Richmond,1901,NS,Richmond
+CD_NS_Shelburne_&_Queens,1901,NS,Shelburne & Queens
+CD_NS_Yarmouth,1901,NS,Yarmouth
+CD_NB_Carleton,1901,NB,Carleton
+CD_NB_Charlotte,1901,NB,Charlotte
+CD_NB_Gloucester,1901,NB,Gloucester
+CD_NB_Kent,1901,NB,Kent
+CD_NB_Kings,1901,NB,Kings
+CD_NB_Albert,1901,NB,Albert
+CD_NB_Northumberland,1901,NB,Northumberland
+CD_NB_Restigouche,1901,NB,Restigouche
+"CD_NB_St._John,_City_&_Co—Cité_et_comté",1901,NB,"St. John, City & Co—Cité et comté"
+CD_NB_Sunbury_&_Queens,1901,NB,Sunbury & Queens
+CD_NB_Victoria_&_Madawaska,1901,NB,Victoria & Madawaska
+CD_NB_Westmorland,1901,NB,Westmorland
+CD_NB_York,1901,NB,York
+CD_NL_Newfoundland,1901,NL,Newfoundland
+CD_QC_Argenteuil,1901,QC,Argenteuil
+CD_QC_Bagot,1901,QC,Bagot
+CD_QC_Rouville,1901,QC,Rouville
+CD_QC_Beauce,1901,QC,Beauce
+CD_QC_Beauharnois,1901,QC,Beauharnois
+CD_QC_Bellechasse,1901,QC,Bellechasse
+CD_QC_Berthier,1901,QC,Berthier
+CD_QC_L’Assomption,1901,QC,L’Assomption
+CD_QC_Bonaventure,1901,QC,Bonaventure
+CD_QC_Brome,1901,QC,Brome
+CD_QC_Chambly_&_Verchères,1901,QC,Chambly & Verchères
+CD_QC_Champlain,1901,QC,Champlain
+CD_QC_Charlevoix,1901,QC,Charlevoix
+CD_QC_Chateauguay,1901,QC,Chateauguay
+CD_QC_Chicoutimi_&_Saguenay,1901,QC,Chicoutimi & Saguenay
+CD_QC_Compton,1901,QC,Compton
+CD_QC_Deux-Montagnes,1901,QC,Deux-Montagnes
+CD_QC_Dorchester,1901,QC,Dorchester
+CD_QC_Drummond_&_Arthabaska,1901,QC,Drummond & Arthabaska
+CD_QC_Gaspé,1901,QC,Gaspé
+CD_QC_Hochelaga,1901,QC,Hochelaga
+CD_QC_Huntingdon,1901,QC,Huntingdon
+CD_QC_Jacques-Cartier,1901,QC,Jacques-Cartier
+CD_QC_Joliette,1901,QC,Joliette
+CD_QC_Kamouraska,1901,QC,Kamouraska
+CD_QC_Labelle,1901,QC,Labelle
+CD_QC_Wright,1901,QC,Wright
+CD_QC_Laprairie_&_Napierville,1901,QC,Laprairie & Napierville
+CD_QC_Laval,1901,QC,Laval
+CD_QC_Lévis,1901,QC,Lévis
+CD_QC_L’Islet,1901,QC,L’Islet
+CD_QC_Lotbinière,1901,QC,Lotbinière
+CD_QC_Maisonneuve,1901,QC,Maisonneuve
+CD_QC_Maskinongé,1901,QC,Maskinongé
+CD_QC_Mégantic,1901,QC,Mégantic
+CD_QC_Missisquoi,1901,QC,Missisquoi
+CD_QC_St._Jean_&_Iberville,1901,QC,St. Jean & Iberville
+CD_QC_Montcalm,1901,QC,Montcalm
+CD_QC_Montmagny,1901,QC,Montmagny
+CD_QC_Montmorency,1901,QC,Montmorency
+"CD_QC_Montreal,_Ste._Anne,_City—Cité",1901,QC,"Montreal, Ste. Anne, City—Cité"
+"CD_QC_Montreal,_St._Antoine,_City—Cité",1901,QC,"Montreal, St. Antoine, City—Cité"
+"CD_QC_Montreal,_St._Jacques,_City—Cité",1901,QC,"Montreal, St. Jacques, City—Cité"
+"CD_QC_Montreal,_St._Laurent,_City—Cité",1901,QC,"Montreal, St. Laurent, City—Cité"
+"CD_QC_Montreal,_Ste._Marie,_City—Cité",1901,QC,"Montreal, Ste. Marie, City—Cité"
+CD_QC_Nicolet,1901,QC,Nicolet
+CD_QC_Pontiac,1901,QC,Pontiac
+CD_QC_Portneuf,1901,QC,Portneuf
+"CD_QC_Quebec,_Centre,_City—Cité",1901,QC,"Quebec, Centre, City—Cité"
+"CD_QC_Quebec,_East-Est,_City—Cité",1901,QC,"Quebec, East-Est, City—Cité"
+"CD_QC_Quebec,_West-Ouest,_City—Cité",1901,QC,"Quebec, West-Ouest, City—Cité"
+"CD_QC_Quebec,_County—Comté",1901,QC,"Quebec, County—Comté"
+CD_QC_Richelieu,1901,QC,Richelieu
+CD_QC_Richmond_&_Wolfe,1901,QC,Richmond & Wolfe
+CD_QC_Rimouski,1901,QC,Rimouski
+CD_QC_St._Hyacinthe,1901,QC,St. Hyacinthe
+CD_QC_Shefford,1901,QC,Shefford
+CD_QC_Sherbrooke,1901,QC,Sherbrooke
+CD_QC_Soulanges,1901,QC,Soulanges
+CD_QC_Stanstead,1901,QC,Stanstead
+CD_QC_Temiscouata,1901,QC,Temiscouata
+CD_QC_Terrebonne,1901,QC,Terrebonne
+CD_QC_Trois-Rivières_&_St._Maurice,1901,QC,Trois-Rivières & St. Maurice
+CD_QC_Vaudreuil,1901,QC,Vaudreuil
+CD_QC_Yamaska,1901,QC,Yamaska
+CD_QC_Montréal,1901,QC,Montréal
+"CD_QC_Unorganized_Districts_-_Abitibi,_Ashuanipi,_Mistassini",1901,QC,"Unorganized Districts - Abitibi, Ashuanipi, Mistassini"
+CD_AB_Calgary,1911,AB,Calgary
+CD_AB_Edmonton,1911,AB,Edmonton
+CD_AB_Macleod,1911,AB,Macleod
+CD_AB_Medicine_Hat,1911,AB,Medicine Hat
+CD_AB_Red_Deer,1911,AB,Red Deer
+CD_AB_Strathcona,1911,AB,Strathcona
+CD_AB_Victoria,1911,AB,Victoria
+CD_BC_Comox-Atlin,1911,BC,Comox-Atlin
+CD_BC_Kootenay,1911,BC,Kootenay
+CD_BC_Nanaimo,1911,BC,Nanaimo
+CD_BC_New_Westminster,1911,BC,New Westminster
+CD_BC_Vancouver_City,1911,BC,Vancouver City
+CD_BC_Victoria_City,1911,BC,Victoria City
+CD_BC_Yale_&_Cariboo,1911,BC,Yale & Cariboo
+CD_MB_Brandon,1911,MB,Brandon
+CD_MB_Dauphin,1911,MB,Dauphin
+CD_MB_Lisgar,1911,MB,Lisgar
+CD_MB_Macdonald,1911,MB,Macdonald
+CD_MB_Marquette,1911,MB,Marquette
+CD_MB_Portage_La_Prairie,1911,MB,Portage La Prairie
+CD_MB_Provencher,1911,MB,Provencher
+CD_MB_Selkirk,1911,MB,Selkirk
+CD_MB_Souris,1911,MB,Souris
+CD_MB_Winnipeg_City,1911,MB,Winnipeg City
+CD_NB_Carleton,1911,NB,Carleton
+CD_NB_Charlotte,1911,NB,Charlotte
+CD_NB_Gloucester,1911,NB,Gloucester
+CD_NB_Kent,1911,NB,Kent
+CD_NB_Kings_&_Albert,1911,NB,Kings & Albert
+CD_NB_Northumberland,1911,NB,Northumberland
+CD_NB_Restigouche,1911,NB,Restigouche
+CD_NB_St._John_City_&_County,1911,NB,St. John City & County
+CD_NB_Sunbury_&_Queens,1911,NB,Sunbury & Queens
+CD_NB_Victoria_&_Madawaska,1911,NB,Victoria & Madawaska
+CD_NB_Westmorland,1911,NB,Westmorland
+CD_NB_York,1911,NB,York
+CD_NS_Annapolis,1911,NS,Annapolis
+CD_NS_Antigonish,1911,NS,Antigonish
+CD_NS_Cape_Breton_N._&_Victoria,1911,NS,Cape Breton N. & Victoria
+CD_NS_Cape_Breton_S.,1911,NS,Cape Breton S.
+CD_NS_Colchester,1911,NS,Colchester
+CD_NS_Cumberland,1911,NS,Cumberland
+CD_NS_Digby,1911,NS,Digby
+CD_NS_Guysborough,1911,NS,Guysborough
+CD_NS_Halifax_City_&_County,1911,NS,Halifax City & County
+CD_NS_Hants,1911,NS,Hants
+CD_NS_Inverness,1911,NS,Inverness
+CD_NS_Kings,1911,NS,Kings
+CD_NS_Lunenburg,1911,NS,Lunenburg
+CD_NS_Pictou,1911,NS,Pictou
+CD_NS_Richmond,1911,NS,Richmond
+CD_NS_Shelburne_&_Queens,1911,NS,Shelburne & Queens
+CD_NS_Yarmouth,1911,NS,Yarmouth
+CD_NT_Northwest_Territories,1911,NT,Northwest Territories
+CD_ON_Algoma_E,1911,ON,Algoma E
+CD_ON_Algoma_W-O,1911,ON,Algoma W-O
+CD_ON_Brant,1911,ON,Brant
+CD_ON_Brantford,1911,ON,Brantford
+CD_ON_Brockville,1911,ON,Brockville
+CD_ON_Bruce_N,1911,ON,Bruce N
+CD_ON_Bruce_S,1911,ON,Bruce S
+CD_ON_Carleton,1911,ON,Carleton
+CD_ON_Dufferin,1911,ON,Dufferin
+CD_ON_Dundas,1911,ON,Dundas
+CD_ON_Durham,1911,ON,Durham
+CD_ON_Elgin_E,1911,ON,Elgin E
+CD_ON_Elgin_W-O,1911,ON,Elgin W-O
+CD_ON_Essex_N,1911,ON,Essex N
+CD_ON_Essex_S,1911,ON,Essex S
+CD_ON_Frontenac,1911,ON,Frontenac
+CD_ON_Glengarry,1911,ON,Glengarry
+CD_ON_Grenville,1911,ON,Grenville
+CD_ON_Grey_E,1911,ON,Grey E
+CD_ON_Grey_N,1911,ON,Grey N
+CD_ON_Grey_S,1911,ON,Grey S
+CD_ON_Haldimand,1911,ON,Haldimand
+CD_ON_Halton,1911,ON,Halton
+CD_ON_Hamilton_E,1911,ON,Hamilton E
+CD_ON_Hamilton_W-O,1911,ON,Hamilton W-O
+CD_ON_Hastings_E,1911,ON,Hastings E
+CD_ON_Hastings_W-O,1911,ON,Hastings W-O
+CD_ON_Huron_E,1911,ON,Huron E
+CD_ON_Huron_S,1911,ON,Huron S
+CD_ON_Huron_W-O,1911,ON,Huron W-O
+CD_ON_Kent_E,1911,ON,Kent E
+CD_ON_Kent_W-O,1911,ON,Kent W-O
+CD_ON_Kingston,1911,ON,Kingston
+CD_ON_Lambton_East,1911,ON,Lambton East
+CD_ON_Lambton_W-O,1911,ON,Lambton W-O
+CD_ON_Lanark_N,1911,ON,Lanark N
+CD_ON_Lanark_S,1911,ON,Lanark S
+CD_ON_Leeds,1911,ON,Leeds
+CD_ON_Lennox_&_Addington,1911,ON,Lennox & Addington
+CD_ON_Lincoln,1911,ON,Lincoln
+CD_ON_London,1911,ON,London
+CD_ON_Middlesex_E,1911,ON,Middlesex E
+CD_ON_Middlesex_N,1911,ON,Middlesex N
+CD_ON_Middlesex_W-O,1911,ON,Middlesex W-O
+CD_ON_Muskoka,1911,ON,Muskoka
+CD_ON_Nipissing,1911,ON,Nipissing
+CD_ON_Norfolk,1911,ON,Norfolk
+CD_ON_Northumber_Land_E,1911,ON,Northumber Land E
+CD_ON_Northumber_Land_W-O,1911,ON,Northumber Land W-O
+CD_ON_Ontario_N,1911,ON,Ontario N
+CD_ON_Ontario_S,1911,ON,Ontario S
+CD_ON_Ottawa_City-Cité_Pt,1911,ON,Ottawa City-Cité Pt
+CD_ON_Oxford_N,1911,ON,Oxford N
+CD_ON_Oxford_S,1911,ON,Oxford S
+CD_ON_Parry_Sound,1911,ON,Parry Sound
+CD_ON_Peel,1911,ON,Peel
+CD_ON_Perth_N,1911,ON,Perth N
+CD_ON_Perth_S,1911,ON,Perth S
+CD_ON_Peterborough_E,1911,ON,Peterborough E
+CD_ON_Peterborough_W-O,1911,ON,Peterborough W-O
+CD_ON_Prescott,1911,ON,Prescott
+CD_ON_Prince_Edward,1911,ON,Prince Edward
+CD_ON_Renfrew_N,1911,ON,Renfrew N
+CD_ON_Renfrew_S,1911,ON,Renfrew S
+CD_ON_Russell,1911,ON,Russell
+CD_ON_Simcoe_E,1911,ON,Simcoe E
+CD_ON_Simcoe_N,1911,ON,Simcoe N
+CD_ON_Simcoe_S,1911,ON,Simcoe S
+CD_ON_Stormont,1911,ON,Stormont
+CD_ON_Thunder_Bay_&_Rainy_River,1911,ON,Thunder Bay & Rainy River
+CD_ON_Toronto_Centre,1911,ON,Toronto Centre
+CD_ON_Toronto_E,1911,ON,Toronto E
+CD_ON_Toronto_N,1911,ON,Toronto N
+CD_ON_Toronto_S,1911,ON,Toronto S
+CD_ON_Toronto_W-O,1911,ON,Toronto W-O
+CD_ON_Victoria,1911,ON,Victoria
+CD_ON_Waterloo_N,1911,ON,Waterloo N
+CD_ON_Waterloo_S,1911,ON,Waterloo S
+CD_ON_Welland,1911,ON,Welland
+CD_ON_Wellington_N,1911,ON,Wellington N
+CD_ON_Wellington_S,1911,ON,Wellington S
+CD_ON_Wentworth,1911,ON,Wentworth
+CD_ON_York_Centre,1911,ON,York Centre
+CD_ON_York_N,1911,ON,York N
+CD_ON_York_S,1911,ON,York S
+CD_PE_Kings,1911,PE,Kings
+CD_PE_Prince,1911,PE,Prince
+CD_PE_Queens,1911,PE,Queens
+CD_NL_Labrador,1911,NL,Labrador
+CD_SK_Assiniboia,1911,SK,Assiniboia
+CD_SK_Battleford,1911,SK,Battleford
+CD_SK_Humboldt,1911,SK,Humboldt
+CD_SK_Mackenzie,1911,SK,Mackenzie
+CD_SK_Moosejaw,1911,SK,Moosejaw
+CD_SK_Prince_Albert,1911,SK,Prince Albert
+CD_SK_Qu'Appelle,1911,SK,Qu'Appelle
+CD_SK_Regina,1911,SK,Regina
+CD_SK_Saltcoats,1911,SK,Saltcoats
+CD_SK_Saskatoon,1911,SK,Saskatoon
+CD_YT_Yukon,1911,YT,Yukon
+CD_NL_Newfoundland,1911,NL,Newfoundland
+CD_QC_Argenteuil,1911,QC,Argenteuil
+CD_QC_Bagot,1911,QC,Bagot
+CD_QC_Beauce,1911,QC,Beauce
+CD_QC_Beauharnois,1911,QC,Beauharnois
+CD_QC_Bellechasse,1911,QC,Bellechasse
+CD_QC_Berthier,1911,QC,Berthier
+CD_QC_Bonaventure,1911,QC,Bonaventure
+CD_QC_Brome,1911,QC,Brome
+CD_QC_Chambly_&_Verchères,1911,QC,Chambly & Verchères
+CD_QC_Champlain,1911,QC,Champlain
+CD_QC_Charlevoix,1911,QC,Charlevoix
+CD_QC_Châteauguay,1911,QC,Châteauguay
+CD_QC_Chicoutimi_&_Saguenay,1911,QC,Chicoutimi & Saguenay
+CD_QC_Compton,1911,QC,Compton
+CD_QC_Deux-Montagnes,1911,QC,Deux-Montagnes
+CD_QC_Dorchester,1911,QC,Dorchester
+CD_QC_Drummond_&_Arthabaska,1911,QC,Drummond & Arthabaska
+CD_QC_Gaspé,1911,QC,Gaspé
+CD_QC_Hochelaga,1911,QC,Hochelaga
+CD_QC_Huntingdon,1911,QC,Huntingdon
+CD_QC_Jacques-Cartier,1911,QC,Jacques-Cartier
+CD_QC_Joliette,1911,QC,Joliette
+CD_QC_Kamouraska,1911,QC,Kamouraska
+CD_QC_Labelle,1911,QC,Labelle
+CD_QC_Laprairie_&_Napierville,1911,QC,Laprairie & Napierville
+CD_QC_L'Assomption,1911,QC,L'Assomption
+CD_QC_Laval,1911,QC,Laval
+CD_QC_Lévis,1911,QC,Lévis
+CD_QC_L'Islet,1911,QC,L'Islet
+CD_QC_Lotbinière,1911,QC,Lotbinière
+CD_QC_Maisonneuve,1911,QC,Maisonneuve
+CD_QC_Maskinongé,1911,QC,Maskinongé
+CD_QC_Mégantic,1911,QC,Mégantic
+CD_QC_Missisquoi,1911,QC,Missisquoi
+CD_QC_Montcalm,1911,QC,Montcalm
+CD_QC_Montmagny,1911,QC,Montmagny
+CD_QC_Montmorency,1911,QC,Montmorency
+"CD_QC_Montréal,_Ste._Anne",1911,QC,"Montréal, Ste. Anne"
+"CD_QC_Montréal,_St._Antoine",1911,QC,"Montréal, St. Antoine"
+"CD_QC_Montréal,_St._Jacques",1911,QC,"Montréal, St. Jacques"
+"CD_QC_Montréal,_St._Laurent",1911,QC,"Montréal, St. Laurent"
+"CD_QC_Montréal,_Ste._Marie",1911,QC,"Montréal, Ste. Marie"
+CD_QC_Nicolet,1911,QC,Nicolet
+CD_QC_Pontiac,1911,QC,Pontiac
+CD_QC_Portneuf,1911,QC,Portneuf
+CD_QC_Québec_Centre,1911,QC,Québec Centre
+CD_QC_Québec_Est,1911,QC,Québec Est
+CD_QC_Québec_W-O,1911,QC,Québec W-O
+CD_QC_Québec_County,1911,QC,Québec County
+CD_QC_Richelieu,1911,QC,Richelieu
+CD_QC_Richmond_&_Wolfe,1911,QC,Richmond & Wolfe
+CD_QC_Rimouski,1911,QC,Rimouski
+CD_QC_Rouville,1911,QC,Rouville
+CD_QC_St._Hyacinthe,1911,QC,St. Hyacinthe
+CD_QC_St._Jean_&_Iberville,1911,QC,St. Jean & Iberville
+CD_QC_Shefford,1911,QC,Shefford
+CD_QC_Sherbrooke,1911,QC,Sherbrooke
+CD_QC_Soulanges,1911,QC,Soulanges
+CD_QC_Stanstead,1911,QC,Stanstead
+CD_QC_Témiscouata,1911,QC,Témiscouata
+CD_QC_Terrebonne,1911,QC,Terrebonne
+CD_QC_Trois-Rivières_&_St._Maurice,1911,QC,Trois-Rivières & St. Maurice
+CD_QC_Vaudreuil,1911,QC,Vaudreuil
+CD_QC_Wright,1911,QC,Wright
+CD_QC_Yamaska,1911,QC,Yamaska
+CD_QC_Unorganized_parts_-_Parties_non_organisées,1911,QC,Unorganized parts - Parties non organisées
+CD_NL_Labrador,1921,NL,Labrador
+CD_NB_Albert,1921,NB,Albert
+CD_NB_Carleton,1921,NB,Carleton
+CD_NB_Charlotte,1921,NB,Charlotte
+CD_NB_Gloucester,1921,NB,Gloucester
+CD_NB_Kent,1921,NB,Kent
+CD_NB_Kings,1921,NB,Kings
+CD_NB_Madawaska,1921,NB,Madawaska
+CD_NB_Northumberland,1921,NB,Northumberland
+CD_NB_Queens,1921,NB,Queens
+CD_NB_Restigouche,1921,NB,Restigouche
+CD_NB_St._John,1921,NB,St. John
+CD_NB_Sunbury,1921,NB,Sunbury
+CD_NB_Victoria,1921,NB,Victoria
+CD_NB_Westmorland,1921,NB,Westmorland
+CD_NB_York,1921,NB,York
+CD_NS_Annapolis,1921,NS,Annapolis
+CD_NS_Antigonish,1921,NS,Antigonish
+CD_NS_Cape_Breton,1921,NS,Cape Breton
+CD_NS_Colchester,1921,NS,Colchester
+CD_NS_Cumberland,1921,NS,Cumberland
+CD_NS_Digby,1921,NS,Digby
+CD_NS_Guysborough,1921,NS,Guysborough
+CD_NS_Halifax,1921,NS,Halifax
+CD_NS_Hants,1921,NS,Hants
+CD_NS_Inverness,1921,NS,Inverness
+CD_NS_Kings,1921,NS,Kings
+CD_NS_Lunenburg,1921,NS,Lunenburg
+CD_NS_Pictou,1921,NS,Pictou
+CD_NS_Queens,1921,NS,Queens
+CD_NS_Richmond,1921,NS,Richmond
+CD_NS_Shelburne,1921,NS,Shelburne
+CD_NS_Victoria,1921,NS,Victoria
+CD_NS_Yarmouth,1921,NS,Yarmouth
+CD_PE_Kings,1921,PE,Kings
+CD_PE_Prince,1921,PE,Prince
+CD_PE_Queens,1921,PE,Queens
+CD_BC_Burrard,1921,BC,Burrard
+CD_BC_Cariboo,1921,BC,Cariboo
+CD_BC_Comox-Alberni,1921,BC,Comox-Alberni
+CD_BC_Fraser_Valley,1921,BC,Fraser Valley
+CD_BC_Kootenay_East,1921,BC,Kootenay East
+CD_BC_Kootenay_West,1921,BC,Kootenay West
+CD_BC_Nanaimo,1921,BC,Nanaimo
+CD_BC_New_Westminster,1921,BC,New Westminster
+CD_BC_Skeena,1921,BC,Skeena
+CD_BC_Vancouver_Centre,1921,BC,Vancouver Centre
+CD_BC_Vancouver_South,1921,BC,Vancouver South
+CD_BC_Victoria_City,1921,BC,Victoria City
+CD_BC_Yale,1921,BC,Yale
+CD_AB_Division_No._1,1921,AB,Division No. 1
+CD_AB_Division_No._2,1921,AB,Division No. 2
+CD_AB_Division_No._3,1921,AB,Division No. 3
+CD_AB_Division_No._4,1921,AB,Division No. 4
+CD_AB_Division_No._5,1921,AB,Division No. 5
+CD_AB_Division_No._6,1921,AB,Division No. 6
+CD_AB_Division_No._7,1921,AB,Division No. 7
+CD_AB_Division_No._8,1921,AB,Division No. 8
+CD_AB_Division_No._9,1921,AB,Division No. 9
+CD_AB_Division_No._10,1921,AB,Division No. 10
+CD_AB_Division_No._11,1921,AB,Division No. 11
+CD_AB_Division_No._12,1921,AB,Division No. 12
+CD_AB_Division_No._13,1921,AB,Division No. 13
+CD_AB_Division_No._14,1921,AB,Division No. 14
+CD_AB_Division_No._15,1921,AB,Division No. 15
+CD_AB_Division_No._16,1921,AB,Division No. 16
+CD_AB_Division_No._17,1921,AB,Division No. 17
+CD_MB_Division_No._1,1921,MB,Division No. 1
+CD_MB_Division_No._2,1921,MB,Division No. 2
+CD_MB_Division_No._3,1921,MB,Division No. 3
+CD_MB_Division_No._4,1921,MB,Division No. 4
+CD_MB_Division_No._5,1921,MB,Division No. 5
+CD_MB_Division_No._6,1921,MB,Division No. 6
+CD_MB_Division_No._7,1921,MB,Division No. 7
+CD_MB_Division_No._8,1921,MB,Division No. 8
+CD_MB_Division_No._9,1921,MB,Division No. 9
+CD_MB_Division_No._10,1921,MB,Division No. 10
+CD_MB_Division_No._11,1921,MB,Division No. 11
+CD_MB_Division_No._12,1921,MB,Division No. 12
+CD_MB_Division_No._13,1921,MB,Division No. 13
+CD_MB_Division_No._14,1921,MB,Division No. 14
+CD_MB_Division_No._15,1921,MB,Division No. 15
+CD_MB_Division_No._16,1921,MB,Division No. 16
+CD_SK_Division_No._1,1921,SK,Division No. 1
+CD_SK_Division_No._2,1921,SK,Division No. 2
+CD_SK_Division_No._3,1921,SK,Division No. 3
+CD_SK_Division_No._4,1921,SK,Division No. 4
+CD_SK_Division_No._5,1921,SK,Division No. 5
+CD_SK_Division_No._6,1921,SK,Division No. 6
+CD_SK_Division_No._7,1921,SK,Division No. 7
+CD_SK_Division_No._8,1921,SK,Division No. 8
+CD_SK_Division_No._9,1921,SK,Division No. 9
+CD_SK_Division_No._10,1921,SK,Division No. 10
+CD_SK_Division_No._11,1921,SK,Division No. 11
+CD_SK_Division_No._12,1921,SK,Division No. 12
+CD_SK_Division_No._13,1921,SK,Division No. 13
+CD_SK_Division_No._14,1921,SK,Division No. 14
+CD_SK_Division_No._15,1921,SK,Division No. 15
+CD_SK_Division_No._16,1921,SK,Division No. 16
+CD_SK_Division_No._17,1921,SK,Division No. 17
+CD_SK_Division_No._18,1921,SK,Division No. 18
+CD_NT_Northwest_Territories,1921,NT,Northwest Territories
+CD_ON_Addington,1921,ON,Addington
+CD_ON_Algoma,1921,ON,Algoma
+CD_ON_Brant,1921,ON,Brant
+CD_ON_Bruce,1921,ON,Bruce
+CD_ON_Carleton,1921,ON,Carleton
+CD_ON_Dufferin,1921,ON,Dufferin
+CD_ON_Dundas,1921,ON,Dundas
+CD_ON_Durham,1921,ON,Durham
+CD_ON_Elgin,1921,ON,Elgin
+CD_ON_Essex,1921,ON,Essex
+CD_ON_Frontenac,1921,ON,Frontenac
+CD_ON_Glengarry,1921,ON,Glengarry
+CD_ON_Grenville,1921,ON,Grenville
+CD_ON_Grey,1921,ON,Grey
+CD_ON_Haldimand,1921,ON,Haldimand
+CD_ON_Haliburton,1921,ON,Haliburton
+CD_ON_Halton,1921,ON,Halton
+CD_ON_Hastings,1921,ON,Hastings
+CD_ON_Huron,1921,ON,Huron
+CD_ON_Kenora,1921,ON,Kenora
+CD_ON_Kent,1921,ON,Kent
+CD_ON_Lambton,1921,ON,Lambton
+CD_ON_Lanark,1921,ON,Lanark
+CD_ON_Leeds,1921,ON,Leeds
+CD_ON_Lennox,1921,ON,Lennox
+CD_ON_Lincoln,1921,ON,Lincoln
+CD_ON_Manitoulin,1921,ON,Manitoulin
+CD_ON_Middlesex,1921,ON,Middlesex
+CD_ON_Muskoka,1921,ON,Muskoka
+CD_ON_Nipissing,1921,ON,Nipissing
+CD_ON_Norfolk,1921,ON,Norfolk
+CD_ON_Northumberland,1921,ON,Northumberland
+CD_ON_Ontario,1921,ON,Ontario
+CD_ON_Oxford,1921,ON,Oxford
+CD_ON_Parry_Sound,1921,ON,Parry Sound
+CD_ON_Peel,1921,ON,Peel
+CD_ON_Perth,1921,ON,Perth
+CD_ON_Peterborough,1921,ON,Peterborough
+CD_ON_Prescott,1921,ON,Prescott
+CD_ON_Prince_Edward,1921,ON,Prince Edward
+CD_ON_Rainy_River,1921,ON,Rainy River
+CD_ON_Renfrew,1921,ON,Renfrew
+CD_ON_Russell,1921,ON,Russell
+CD_ON_Simcoe,1921,ON,Simcoe
+CD_ON_Stormont,1921,ON,Stormont
+CD_ON_Sudbury,1921,ON,Sudbury
+CD_ON_Thunder_Bay,1921,ON,Thunder Bay
+CD_ON_Timiskaming,1921,ON,Timiskaming
+CD_ON_Victoria,1921,ON,Victoria
+CD_ON_Waterloo,1921,ON,Waterloo
+CD_ON_Welland,1921,ON,Welland
+CD_ON_Wellington,1921,ON,Wellington
+CD_ON_Wentworth,1921,ON,Wentworth
+CD_ON_York,1921,ON,York
+CD_YT_Yukon,1921,YT,Yukon
+CD_NL_Newfoundland,1921,NL,Newfoundland
+CD_QC_Argenteuil,1921,QC,Argenteuil
+CD_QC_Arthabaska,1921,QC,Arthabaska
+CD_QC_Bagot,1921,QC,Bagot
+CD_QC_Beauce,1921,QC,Beauce
+CD_QC_Beauharnois,1921,QC,Beauharnois
+CD_QC_Bellechasse,1921,QC,Bellechasse
+CD_QC_Berthier,1921,QC,Berthier
+CD_QC_Bonaventure,1921,QC,Bonaventure
+CD_QC_Brome,1921,QC,Brome
+CD_QC_Chambly,1921,QC,Chambly
+CD_QC_Champlain,1921,QC,Champlain
+CD_QC_Charlevoix,1921,QC,Charlevoix
+CD_QC_Châteauguay,1921,QC,Châteauguay
+CD_QC_Chicoutimi,1921,QC,Chicoutimi
+CD_QC_Compton,1921,QC,Compton
+CD_QC_Deux_Montagnes,1921,QC,Deux Montagnes
+CD_QC_Dorchester,1921,QC,Dorchester
+CD_QC_Drummond,1921,QC,Drummond
+CD_QC_Frontenac,1921,QC,Frontenac
+CD_QC_Gaspé,1921,QC,Gaspé
+CD_QC_Hull,1921,QC,Hull
+CD_QC_Huntingdon,1921,QC,Huntingdon
+CD_QC_Iberville,1921,QC,Iberville
+CD_QC_Joliette,1921,QC,Joliette
+CD_QC_Kamouraska,1921,QC,Kamouraska
+CD_QC_Labelle,1921,QC,Labelle
+CD_QC_Lac_St._Jean,1921,QC,Lac St. Jean
+CD_QC_Laprairie,1921,QC,Laprairie
+CD_QC_L'Assomption,1921,QC,L'Assomption
+CD_QC_Lévis,1921,QC,Lévis
+CD_QC_L'IsIet,1921,QC,L'IsIet
+CD_QC_Lotbinière,1921,QC,Lotbinière
+CD_QC_Maskinongé,1921,QC,Maskinongé
+CD_QC_Matane,1921,QC,Matane
+CD_QC_Mégantic,1921,QC,Mégantic
+CD_QC_Missisquoi,1921,QC,Missisquoi
+CD_QC_Montcalm,1921,QC,Montcalm
+CD_QC_Montmagny,1921,QC,Montmagny
+CD_QC_Montmorency,1921,QC,Montmorency
+CD_QC_Montréal_&_Jésus_Islands—Iles,1921,QC,Montréal & Jésus Islands—Iles
+CD_QC_Napierville,1921,QC,Napierville
+CD_QC_Nicolet,1921,QC,Nicolet
+CD_QC_Pontiac,1921,QC,Pontiac
+CD_QC_Portneuf,1921,QC,Portneuf
+CD_QC_Québec,1921,QC,Québec
+CD_QC_Richelieu,1921,QC,Richelieu
+CD_QC_Richmond,1921,QC,Richmond
+CD_QC_Rimouski,1921,QC,Rimouski
+CD_QC_Rouville,1921,QC,Rouville
+CD_QC_Saguenay,1921,QC,Saguenay
+CD_QC_Shefford,1921,QC,Shefford
+CD_QC_Sherbrooke,1921,QC,Sherbrooke
+CD_QC_Soulanges,1921,QC,Soulanges
+CD_QC_Stanstead,1921,QC,Stanstead
+CD_QC_St._Hyacinthe,1921,QC,St. Hyacinthe
+CD_QC_St._Jean,1921,QC,St. Jean
+CD_QC_St._Maurice,1921,QC,St. Maurice
+CD_QC_Témiscamingue,1921,QC,Témiscamingue
+CD_QC_Témiscouata,1921,QC,Témiscouata
+CD_QC_Terrebonne,1921,QC,Terrebonne
+CD_QC_Vaudreuil,1921,QC,Vaudreuil
+CD_QC_Verchères,1921,QC,Verchères
+CD_QC_Wolfe,1921,QC,Wolfe
+CD_QC_Yamaska,1921,QC,Yamaska

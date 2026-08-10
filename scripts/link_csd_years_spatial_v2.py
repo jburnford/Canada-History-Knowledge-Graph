@@ -255,8 +255,13 @@ def link_year_pair(
             # Classify as high-confidence or ambiguous
             if rel_type == "SAME_AS" and name_sim >= name_sim_thresh:
                 high_confidence.append(link)
-            elif rel_type == "SAME_AS" and name_sim >= 60:
-                # Spatial match good but name mismatch (OCR errors?)
+            elif rel_type == "SAME_AS":
+                # Spatial match good but name mismatch — OCR damage or a
+                # genuine renaming. Route to ambiguous (never drop): a
+                # spatially identical polygon whose name changed entirely
+                # (name_sim < 60) is exactly the case that must stay
+                # auditable; silently dropping it erased renamed CSDs from
+                # the chain builder's input with no audit trail.
                 ambiguous.append(link)
             elif rel_type in ["WITHIN", "CONTAINS"]:
                 high_confidence.append(link)

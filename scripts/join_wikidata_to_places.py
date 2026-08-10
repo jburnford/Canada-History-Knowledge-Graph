@@ -467,6 +467,39 @@ def main() -> None:
     # QID). Skipped if multiple distinct QIDs collide for the same key.
     chain_centroids = load_chain_centroids()
     print(f"\nLoaded {len(chain_centroids):,} chain centroids for sibling-distance gate")
+
+    # PHASE 2a: apply the override file BEFORE the sibling index is built.
+    # Ordering matters: a curator `suppress` must also remove the chain as a
+    # sibling DONOR — with the old order (overrides applied in Phase 3) the
+    # suppressed QID could still propagate to same-name chains within the
+    # centroid gate. Symmetrically, `force`d QIDs now donate like any other
+    # grounded chain.
+    override_force = 0
+    override_suppress = 0
+    for out_row, src in zip(rows_out, csd_rows):
+        place_id = out_row["place_id:ID"]
+        ov = overrides.get(place_id)
+        if not ov:
+            continue
+        if ov["decision"] == "suppress":
+            if out_row["uri_source"].startswith("wikidata"):
+                # Override fights an auto-match; restore minted URI.
+                out_row["uri"] = minted_page_url(src["name"], place_id, src["province"])
+                out_row["uri_source"] = "minted_hgis"
+                out_row["wikidata_qid"] = ""
+                out_row["wikidata_label"] = ""
+                out_row["grounding_status"] = "ungrounded"
+                out_row["mint_reason"] = f"override_suppress: {ov['reason']}"
+            override_suppress += 1
+        elif ov["decision"] == "force" and ov["qid"]:
+            out_row["uri"] = f"{WIKIDATA_PREFIX}{ov['qid']}"
+            out_row["uri_source"] = "wikidata_via_override"
+            out_row["wikidata_qid"] = ov["qid"]
+            out_row["wikidata_label"] = ov["label"]
+            out_row["grounding_status"] = "matched"
+            out_row["mint_reason"] = ""
+            override_force += 1
+
     sibling_index: dict[tuple[str, str], dict] = {}
     sibling_conflicts: dict[tuple[str, str], set[str]] = defaultdict(set)
     for out_row, src in zip(rows_out, csd_rows):
@@ -488,39 +521,18 @@ def main() -> None:
         if len(qids) > 1:
             sibling_index.pop(key, None)
 
-    # PHASE 3: apply sibling lookup + override file.
+    # PHASE 3: sibling inheritance (overrides already applied in Phase 2a).
     sibling_inherits = 0
     sibling_rejected_far = 0
     sibling_rejected_no_centroid = 0
     review_queue: list[dict] = []
-    override_force = 0
-    override_suppress = 0
     for out_row, src in zip(rows_out, csd_rows):
         place_id = out_row["place_id:ID"]
-        ov = overrides.get(place_id)
 
-        # Suppress override: clear any auto-attached QID and keep minted URI.
-        if ov and ov["decision"] == "suppress":
-            if out_row["uri_source"].startswith("wikidata"):
-                # Override fights an auto-match; restore minted URI.
-                out_row["uri"] = minted_page_url(src["name"], place_id, src["province"])
-                out_row["uri_source"] = "minted_hgis"
-                out_row["wikidata_qid"] = ""
-                out_row["wikidata_label"] = ""
-                out_row["grounding_status"] = "ungrounded"
-                out_row["mint_reason"] = f"override_suppress: {ov['reason']}"
-            override_suppress += 1
-            continue
-
-        # Force override: attach a QID regardless of Phase 1 / Phase 2.
-        if ov and ov["decision"] == "force" and ov["qid"]:
-            out_row["uri"] = f"{WIKIDATA_PREFIX}{ov['qid']}"
-            out_row["uri_source"] = "wikidata_via_override"
-            out_row["wikidata_qid"] = ov["qid"]
-            out_row["wikidata_label"] = ov["label"]
-            out_row["grounding_status"] = "matched"
-            out_row["mint_reason"] = ""
-            override_force += 1
+        # Chains with any curator override never inherit: `force` is already
+        # grounded, and inheriting after a `suppress` would re-attach a QID
+        # against the curator's explicit decision.
+        if overrides.get(place_id):
             continue
 
         # Sibling inheritance: only for chains still genuinely ungrounded.

@@ -1,0 +1,2 @@
+uid_from,year_from,name_from,canon_from,uid_to,year_to,name_to,canon_to,rel,iou,frac_from,frac_to,source,accept_rule
+CD_NS_Halifax_(County-Comté),1881,Halifax (County-Comté),Halifax County,"CD_NS_Halifax,_City—Cité",1891,"Halifax, City—Cité",Halifax City,SAME_AS,0.9908,1.0,0.9908,high_confidence,1

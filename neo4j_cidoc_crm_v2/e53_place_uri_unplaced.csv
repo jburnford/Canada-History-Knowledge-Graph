@@ -1,13 +1,6 @@
 csd_id,status,csd_name,wikidata_qid,wikidata_label
-NB025009,matched,Shippigan,Q3365922,Shippegan Parish
 NB035011,matched,"Shediac, T-V",Q1009713,Shediac
-ON105004,mint_uri,Grower N,,
-ON106008,matched,"Grand Valley, VL",Q5328891,Grand Valley
-ON109007,matched,Yarmouth,Q102473224,Yarmouth
-ON113007,mint_uri,"Cardinal, VL",,
-ON123003,mint_uri,Burgess N,,
-ON123006,matched,Drummond,Q115261318,Drummond
-ON136006,matched,"Brampton, T-V",Q44198,Brampton
 QC040018,matched,St. Séverin,Q112912786,Saint-Séverin
-QC049007,matched,Ste. Philomène,Q112913095,Sainte-Philomène
-QC096009,matched,St. Janvier,Q112912323,Saint-Janvier
+QC048002,matched,Ile aux Coudres,Q2720280,L'Isle-aux-Coudres
+QC048007,matched,St. Fidèle de Mont Murray,Q112912151,Saint-Fidèle
+QC049008,matched,St. Urbain Premier,Q3463460,Saint-Urbain-Premier

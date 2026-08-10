@@ -82,3 +82,49 @@ If the LINCS team (or `lincs-validate` running on a real SK Turtle export) flags
 - **P89_falls_within** is being dropped entirely in the same C3 pass (it is redundant with the presence-level P10 that already exists). That is a separate, less controversial change and does not need discussion at the workshop.
 - **Border-measurement sharing across two presences**: one edge `A → P122 → B` could spawn a single E16 linked to both, or two E16s (one per direction). The current plan is one E16 per undirected edge, with `P39_measured` pointing at the lexically-smaller-tcpuid endpoint by convention.
 - **Why metres and not a Getty AAT unit URI**: we are using `wikidata:Q11573` (metre) as the unit's `owl:sameAs` target. Wikidata has coverage for SI units; Getty AAT's coverage is less consistent. If LINCS prefers AAT, this is a one-row change in `e58_measurement_unit.csv`.
+
+---
+
+## Addendum (2026-08-09): Option 3 — year-scoped extent places as spatial projections
+
+A third option surfaced during the Fable full-pipeline review that neither
+option above considered, and it deserves to be on the workshop table because
+it is the CRM-canonical answer.
+
+**In CIDOC-CRM 7.x, `P161_has_spatial_projection` has range E53_Place, not
+E94_Space_Primitive.** The spatial projection of a presence *is itself a
+place* — a year-scoped "extent place" distinct from our timeless synthesis
+place. The full pattern is:
+
+```
+E93_Presence (ON082003_1871)
+  P166_was_a_presence_of → E53_Place (PLACE_ON142032, the timeless chain)
+  P164_is_temporally_specified_by → E52_Time-Span (TIMESPAN_1871)
+  P161_has_spatial_projection → E53_Place (EXTENT_ON082003_1871)  ← new node
+
+E53_Place (EXTENT_ON082003_1871)
+  P168_place_is_defined_by → E94/WKT literal (the current centroid/polygon)
+  P122_borders_with → EXTENT_MB008010_1871        ← formally valid domain!
+  P121_overlaps_with → EXTENT_ON082003_1881       ← replaces cross-year P132
+```
+
+What this buys:
+
+1. **P122 becomes formally valid** while staying fully per-year — the
+   original Option 1 vs Option 2 trade-off dissolves.
+2. **Cross-year spatial overlap gets a correct property.** The current
+   `P132_spatiotemporally_overlaps_with` between presences of *different*
+   census years is formally false: two presences with disjoint time-spans
+   never overlap in *spacetime*. What actually overlaps is their spatial
+   projections — exactly `P121_overlaps_with` (domain/range E53_Place,
+   atemporal).
+3. Our current `E93 → P161 → E94` also stops being a range violation.
+
+Cost: one extra node per presence (~40k nodes), and the IoU/fraction edge
+properties on P132 still need reification (they silently vanish in RDF
+today, contradicting the C3 "no edge properties anywhere" principle — the
+E16/E54 border template applies directly).
+
+**Status**: not implemented; the P164/P4 swap (presence → E52 via P164,
+presence → E4_Period via P10_falls_within) *was* implemented 2026-08-09
+since it is uncontroversial. Option 3 awaits the LINCS workshop discussion.

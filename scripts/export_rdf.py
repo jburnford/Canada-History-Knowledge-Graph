@@ -49,8 +49,14 @@ _SAFE_LOCAL_RE = re.compile(r"[^A-Za-z0-9_.\-]")
 
 
 def safe_local(neo4j_id: str) -> str:
-    """Percent-encode characters that aren't valid in a Turtle prefixed local name."""
-    return _SAFE_LOCAL_RE.sub(lambda m: f"%{ord(m.group()):02X}", neo4j_id)
+    """Percent-encode characters that aren't valid in a Turtle prefixed local name.
+
+    Encodes the UTF-8 octets of each disallowed character (RFC 3987), so
+    multi-byte characters like é (%C3%A9) and — (%E2%80%94) round-trip as
+    IRIs instead of collapsing to Latin-1 or spilling past the percent token."""
+    return _SAFE_LOCAL_RE.sub(
+        lambda m: "".join(f"%{byte:02X}" for byte in m.group().encode("utf-8")),
+        neo4j_id)
 
 
 def b(neo4j_id: str) -> str:
@@ -137,7 +143,7 @@ def main():
         prov_space = []
         prov_p166 = []
         prov_p164 = []
-        prov_p4_ts = []
+        prov_p10_period = []
         prov_p161 = []
         prov_p122 = []
         prov_p10 = []
@@ -158,7 +164,7 @@ def main():
             for src, fname_pat in [
                 (prov_p166, "p166_was_presence_of_{}.csv"),
                 (prov_p164, "p164_temporally_specified_by_{}.csv"),
-                (prov_p4_ts, "p4_has_time_span_{}.csv"),
+                (prov_p10_period, "p10_presence_within_period_{}.csv"),
                 (prov_p161, "p161_spatial_projection_{}.csv"),
             ]:
                 for r in read_csv(CRM / fname_pat.format(year)):
@@ -319,10 +325,22 @@ def main():
             f.write("\n# E73_Information_Object (provenance)\n")
             for r in e73_objects:
                 s = b(r['info_object_id:ID'])
+                # Dual-typed: P70_documents (used below) has domain
+                # E31_Document; E31 ⊂ E73, so a bare E73 typing put the
+                # subject outside P70's domain.
+                triple(s, "a", "crm:E31_Document")
                 triple(s, "a", "crm:E73_Information_Object")
                 triple(s, "rdfs:label", lang(r["label"]))
                 if r.get("access_uri"):
-                    triple(s, "crm:P1_is_identified_by", lit(r["access_uri"]))
+                    # P1's range is E41_Appellation — a bare literal violated
+                    # it. Route through an E42_Identifier node.
+                    ident = f"{r['info_object_id:ID']}_ACCESS_URI"
+                    triple(s, "crm:P1_is_identified_by", b(ident))
+                    triple(b(ident), "a", "crm:E42_Identifier")
+                    triple(b(ident), "rdfs:label",
+                           lang(f"Access URI for {r['label']}"))
+                    triple(b(ident), "crm:P190_has_symbolic_content",
+                           lit(r["access_uri"]))
 
             # --- Province-specific nodes ---
             f.write(f"\n# E53_Place nodes ({prov})\n")
@@ -370,17 +388,17 @@ def main():
 
             f.write(f"\n# P166: E93_Presence → E53_Place\n")
             for r in prov_p166:
-                triple(b(r[':START_ID']), "crm:P166i_was_a_presence_of",
+                triple(b(r[':START_ID']), "crm:P166_was_a_presence_of",
                        uri(r[":END_ID"], uri_map))
 
-            f.write(f"\n# P164: E93_Presence → E4_Period\n")
+            f.write(f"\n# P164: E93_Presence → E52_Time-Span\n")
             for r in prov_p164:
                 triple(b(r[':START_ID']), "crm:P164_is_temporally_specified_by",
                        b(r[':END_ID']))
 
-            f.write(f"\n# P4: E93_Presence → E52_Time-Span\n")
-            for r in prov_p4_ts:
-                triple(b(r[':START_ID']), "crm:P4_has_time-span", b(r[':END_ID']))
+            f.write(f"\n# P10: E93_Presence → E4_Period (spacetime containment)\n")
+            for r in prov_p10_period:
+                triple(b(r[':START_ID']), "crm:P10_falls_within", b(r[':END_ID']))
 
             f.write(f"\n# E94_Space_Primitive + P161 + P168 WKT\n")
             for r in all_space:
@@ -435,7 +453,18 @@ def main():
                 v = r.get("value:float", "")
                 vs = r.get("value_string", "")
                 if v:
-                    triple(s, "crm:P90_has_value", lit(v, "xsd:decimal"))
+                    # Census counts are integers; the CSV stores them with a
+                    # float lexical form ("386.0"). Emit integral values as
+                    # xsd:integer, true decimals (acreages etc.) as decimal.
+                    try:
+                        fv = float(v)
+                    except ValueError:
+                        fv = None
+                    if fv is not None and fv.is_integer():
+                        triple(s, "crm:P90_has_value",
+                               lit(str(int(fv)), "xsd:integer"))
+                    else:
+                        triple(s, "crm:P90_has_value", lit(v, "xsd:decimal"))
                 elif vs:
                     triple(s, "crm:P90_has_value", lit(vs))
 

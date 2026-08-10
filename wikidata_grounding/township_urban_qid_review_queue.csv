@@ -1,0 +1,42 @@
+qid,place_id,name,tier,uri_source,wikidata_label
+Q112912478,PLACE_QC076010,"St. Laurent, par.",PARISH,wikidata,Saint-Laurent
+Q112912478,PLACE_QC076032,"St. Laurent, T-V",URBAN,wikidata,Saint-Laurent
+Q112912999,PLACE_QC076008_1921,"Ste. Geneviève, par.",PARISH,wikidata,Sainte-Geneviève
+Q112912999,PLACE_QC076038,"Ste. Geneviève de Pierrefonds, VL",VILLAGE,wikidata,Sainte-Geneviève
+Q112912999,PLACE_QC076037,"Ste. Geneviève, VL",VILLAGE,wikidata,Sainte-Geneviève
+Q112913106,PLACE_QC168009_1911,Ste. Rose,BARE,wikidata_via_sibling,Sainte-Rose-de-Lima
+Q112913106,PLACE_QC076045,"Ste. Rose, par.",PARISH,wikidata,Sainte-Rose-de-Lima
+Q112913106,PLACE_QC076049,"Ste. Rose, Village",VILLAGE,wikidata,Sainte-Rose-de-Lima
+Q139398,PLACE_QC150003_1911,Longueuil,BARE,wikidata_via_sibling,Longueuil
+Q139398,PLACE_QC011005,"Longueuil, Parish",PARISH,wikidata_via_sibling,Longueuil
+Q139398,PLACE_QC046007,"Longueuil, Town—Ville",URBAN,wikidata,Longueuil
+Q141511,PLACE_QC076028,St. Félicien,BARE,wikidata_via_sibling,Saint-Félicien
+Q141511,PLACE_QC063016,"St. Félicien, par.",PARISH,wikidata,Saint-Félicien
+Q141511,PLACE_QC063032,"St. Félicien, VL",VILLAGE,wikidata,Saint-Félicien
+Q141873,PLACE_QC121007,St. Hyacinthe,BARE,wikidata_via_sibling,Saint-Hyacinthe
+Q141873,PLACE_QC091008,Notre-Dame,BARE,wikidata,Saint-Hyacinthe
+Q141873,PLACE_QC050007,"St. Hyacinthe, Parish",PARISH,wikidata_via_sibling,Saint-Hyacinthe
+Q141873,PLACE_QC091012,"St. Hyacinthe, City—Cité",URBAN,wikidata,Saint-Hyacinthe
+Q142087,PLACE_QC096016,Ste. Thérèse,BARE,wikidata,Sainte-Thérèse
+Q142087,PLACE_QC099003,"Ste. Thérèse, Parish",PARISH,wikidata_via_sibling,Sainte-Thérèse
+Q142087,PLACE_QC096020,"Ste. Thérèse, T-V",URBAN,wikidata,Sainte-Thérèse
+Q142405,PLACE_QC082006,St. Ours,BARE,wikidata,Saint-Ours
+Q142405,PLACE_QC070002,"St. Ours, Parish",PARISH,wikidata_via_sibling,Saint-Ours
+Q142405,PLACE_QC082012,"St. Ours, Town—Ville",URBAN,wikidata,Saint-Ours
+Q3144525,PLACE_QC154007,Hébertville pr,BARE,wikidata_via_presence,Hébertville
+Q3144525,PLACE_QC063003_1921,"Hébertville, par.",PARISH,wikidata,Hébertville
+Q3144525,PLACE_QC063028,"Hébertville, VL",VILLAGE,wikidata,Hébertville
+Q340,PLACE_QC020002,"Montréal, Parish",PARISH,wikidata_via_sibling,Montreal
+Q340,PLACE_QC107001,"Montréal, Paroisse",PARISH,wikidata_via_sibling,Montreal
+Q340,PLACE_QC076013_1921,"Montréal, C",URBAN,wikidata,Montreal
+Q3461746,PLACE_QC050009_1921,"St. Ambroise, par.",PARISH,wikidata,Saint-Ambroise
+Q3461746,PLACE_QC050024,"St. Ambroise, VL",VILLAGE,wikidata,Saint-Ambroise
+Q44012,PLACE_QC083005,Trois-Rivières,BARE,wikidata_via_sibling,Trois-Rivières
+Q44012,PLACE_QC131005,"Trois Rivières, Paroisse",PARISH,wikidata_via_sibling,Trois-Rivières
+Q44012,PLACE_QC093015,"Trois Rivières, C",URBAN,wikidata,Trois-Rivières
+Q448372,PLACE_ON143001_1851,"Niagara, Township",TOWNSHIP,wikidata_via_sibling,Niagara-on-the-Lake
+Q448372,PLACE_ON126011,"Niagara, Town—Ville",URBAN,wikidata,Niagara-on-the-Lake
+Q448372,PLACE_ON143002_1881,"Niagara, Town—Ville",URBAN,wikidata_via_sibling,Niagara-on-the-Lake
+Q63244626,PLACE_QC086008,"Tadoussac, par.",PARISH,wikidata,Tadoussac
+Q63244626,PLACE_QC086010,"Tadoussac, VL",VILLAGE,wikidata,Tadoussac
+Q112912786,PLACE_QC040018_1881_1921,St. Séverin,CONFLICT,wikidata_via_override,"verified match Q112912786 vs baked override Q3463428 — two Saint-Séverin QIDs, curator must pick"

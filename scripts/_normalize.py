@@ -6,8 +6,10 @@
 
 Folds diacritics (Châteauguay → chateauguay), unifies straight and curly
 apostrophes plus backticks, treats hyphen as space (Jacques-Cartier matches
-Jacques Cartier), collapses whitespace, lowercases. Used only for matching —
-does NOT replace canonical_*_name as displayed.
+Jacques Cartier), collapses whitespace, lowercases, expands the 19th-century
+"boro" abbreviation to "borough" (Peterboro 1851 → Peterborough 1861;
+Marlboro/Scarboro likewise). Used only for matching — does NOT replace
+canonical_*_name as displayed.
 """
 
 from __future__ import annotations
@@ -27,6 +29,12 @@ def normalize_for_match(name: str) -> str:
     s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode("ascii")
     s = s.replace("-", " ")
     s = re.sub(r"\s+", " ", s).strip().lower()
+    # Expand "boro" suffix to "borough". \b anchors to word end so we catch
+    # "peterboro" / "peterboro," / "peterboro park" (all → "peterborough...")
+    # while leaving "peterborough" unchanged (no word boundary inside it) and
+    # "boroville" unchanged (boro not at word end). Same place: 1851 GDB
+    # spells the Ontario county "Peterboro"; 1861+ spells it "Peterborough".
+    s = re.sub(r"boro\b", "borough", s)
     return s
 
 

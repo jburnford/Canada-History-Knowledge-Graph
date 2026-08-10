@@ -193,17 +193,34 @@ def extract_p166_cd_was_presence_of(gdf: gpd.GeoDataFrame, year: int) -> pd.Data
 
 def extract_p164_cd_temporally_specified_by(gdf: gpd.GeoDataFrame, year: int) -> pd.DataFrame:
     """
-    P164_is_temporally_specified_by: E93_Presence (CD) -> E4_Period
+    P164_is_temporally_specified_by: E93_Presence (CD) -> E52_Time-Span
+
+    CRM 7.x range fix: P164's range is E52_Time-Span, not E4_Period. The
+    presence-within-period claim is emitted separately as P10_falls_within
+    (see extract_p10_cd_within_period).
     """
     print(f"  Creating P164_is_temporally_specified_by (CD) relationships...", file=sys.stderr)
 
     relationships = pd.DataFrame({
         ':START_ID': gdf['cd_id'] + f'_{year}',
-        ':END_ID': f'CENSUS_{year}',
+        ':END_ID': f'TIMESPAN_{year}',
         ':TYPE': 'P164_is_temporally_specified_by'
     })
 
     return relationships
+
+
+def extract_p10_cd_within_period(gdf: gpd.GeoDataFrame, year: int) -> pd.DataFrame:
+    """
+    P10_falls_within: E93_Presence (CD) -> E4_Period (both E92 volumes).
+    """
+    print(f"  Creating P10_falls_within (CD presence→period) relationships...", file=sys.stderr)
+
+    return pd.DataFrame({
+        ':START_ID': gdf['cd_id'] + f'_{year}',
+        ':END_ID': f'CENSUS_{year}',
+        ':TYPE': 'P10_falls_within'
+    })
 
 
 def extract_p161_cd_spatial_projection(gdf: gpd.GeoDataFrame, year: int) -> pd.DataFrame:
@@ -340,6 +357,7 @@ def process_year(gdb_path: str, year: int, out_dir: Path,
     # Extract relationships
     p166 = extract_p166_cd_was_presence_of(cd_gdf, year)
     p164 = extract_p164_cd_temporally_specified_by(cd_gdf, year)
+    p10_period = extract_p10_cd_within_period(cd_gdf, year)
     p161 = extract_p161_cd_spatial_projection(cd_gdf, year)
     p10 = extract_p10_csd_within_cd(csd_gdf, cd_gdf, year, chain_map)
 
@@ -348,6 +366,7 @@ def process_year(gdb_path: str, year: int, out_dir: Path,
     space_prims.to_csv(out_dir / f'e94_space_primitive_cd_{year}.csv', index=False)
     p166.to_csv(out_dir / f'p166_was_presence_of_cd_{year}.csv', index=False)
     p164.to_csv(out_dir / f'p164_temporally_specified_by_cd_{year}.csv', index=False)
+    p10_period.to_csv(out_dir / f'p10_cd_presence_within_period_{year}.csv', index=False)
     p161.to_csv(out_dir / f'p161_spatial_projection_cd_{year}.csv', index=False)
     p10.to_csv(out_dir / f'p10_csd_within_cd_presence_{year}.csv', index=False)
 

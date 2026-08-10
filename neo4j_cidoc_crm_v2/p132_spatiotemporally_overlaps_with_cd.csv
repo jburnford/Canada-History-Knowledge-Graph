@@ -37,7 +37,7 @@ CD_ON_Ontario_1851,CD_ON_Ontario_1861,CONTAINS,0.879,0.879,1.0,1851,1861,P132_sp
 CD_ON_Oxford_1851,CD_ON_Oxford_1861,SAME_AS,1.0,1.0,1.0,1851,1861,P132_spatiotemporally_overlaps_with
 CD_ON_Peel_1851,CD_ON_Peel_1861,SAME_AS,1.0,1.0,1.0,1851,1861,P132_spatiotemporally_overlaps_with
 CD_ON_Perth_1851,CD_ON_Perth_1861,SAME_AS,1.0,1.0,1.0,1851,1861,P132_spatiotemporally_overlaps_with
-CD_ON_Peterboro_1851,CD_ON_Peterborough_1861,WITHIN,0.4902,1.0,0.4902,1851,1861,P132_spatiotemporally_overlaps_with
+CD_ON_Peterborough_1851,CD_ON_Peterborough_1861,WITHIN,0.4902,1.0,0.4902,1851,1861,P132_spatiotemporally_overlaps_with
 CD_ON_Prescott_1851,CD_ON_Prescott_1861,SAME_AS,1.0,1.0,1.0,1851,1861,P132_spatiotemporally_overlaps_with
 CD_ON_Prince_Edward_1851,CD_ON_Prince_Edward_1861,SAME_AS,1.0,1.0,1.0,1851,1861,P132_spatiotemporally_overlaps_with
 CD_ON_Renfrew_1851,CD_ON_Renfrew_1861,WITHIN,0.4547,0.9989,0.4549,1851,1861,P132_spatiotemporally_overlaps_with
@@ -332,8 +332,8 @@ CD_NS_Colchester_1871,CD_NS_Colchester_1881,SAME_AS,1.0,1.0,1.0,1871,1881,P132_s
 CD_NS_Cumberland_1871,CD_NS_Cumberland_1881,SAME_AS,1.0,1.0,1.0,1871,1881,P132_spatiotemporally_overlaps_with
 CD_NS_Digby_1871,CD_NS_Digby_1881,SAME_AS,1.0,1.0,1.0,1871,1881,P132_spatiotemporally_overlaps_with
 CD_NS_Guysborough_1871,CD_NS_Guysborough_1881,SAME_AS,1.0,1.0,1.0,1871,1881,P132_spatiotemporally_overlaps_with
-CD_NS_Halifax_East_1871,CD_NS_Halifax_City_1881,WITHIN,0.7975,1.0,0.7975,1871,1881,P132_spatiotemporally_overlaps_with
-CD_NS_Halifax_West_1871,CD_NS_Halifax_City_1881,WITHIN,0.2006,0.9559,0.2025,1871,1881,P132_spatiotemporally_overlaps_with
+CD_NS_Halifax_East_1871,CD_NS_Halifax_County_1881,WITHIN,0.7975,1.0,0.7975,1871,1881,P132_spatiotemporally_overlaps_with
+CD_NS_Halifax_West_1871,CD_NS_Halifax_County_1881,WITHIN,0.2006,0.9559,0.2025,1871,1881,P132_spatiotemporally_overlaps_with
 CD_NS_Halifax_West_1871,CD_NS_Halifax_City_1881,CONTAINS,0.0441,0.0441,1.0,1871,1881,P132_spatiotemporally_overlaps_with
 CD_NS_Hants_1871,CD_NS_Hants_1881,SAME_AS,1.0,1.0,1.0,1871,1881,P132_spatiotemporally_overlaps_with
 CD_NS_Inverness_1871,CD_NS_Inverness_1881,SAME_AS,1.0,1.0,1.0,1871,1881,P132_spatiotemporally_overlaps_with
@@ -544,7 +544,7 @@ CD_NS_Cumberland_1881,CD_NS_Cumberland_1891,SAME_AS,1.0,1.0,1.0,1881,1891,P132_s
 CD_NS_Digby_1881,CD_NS_Digby_1891,SAME_AS,1.0,1.0,1.0,1881,1891,P132_spatiotemporally_overlaps_with
 CD_NS_Guysborough_1881,CD_NS_Guysborough_1891,SAME_AS,1.0,1.0,1.0,1881,1891,P132_spatiotemporally_overlaps_with
 CD_NS_Halifax_City_1881,CD_NS_Halifax_City_1891,WITHIN,0.0092,1.0,0.0092,1881,1891,P132_spatiotemporally_overlaps_with
-CD_NS_Halifax_City_1881,CD_NS_Halifax_City_1891,SAME_AS,0.9908,1.0,0.9908,1881,1891,P132_spatiotemporally_overlaps_with
+CD_NS_Halifax_County_1881,CD_NS_Halifax_City_1891,SAME_AS,0.9908,1.0,0.9908,1881,1891,P132_spatiotemporally_overlaps_with
 CD_NS_Hants_1881,CD_NS_Hants_1891,SAME_AS,1.0,1.0,1.0,1881,1891,P132_spatiotemporally_overlaps_with
 CD_NS_Inverness_1881,CD_NS_Inverness_1891,SAME_AS,1.0,1.0,1.0,1881,1891,P132_spatiotemporally_overlaps_with
 CD_NS_Kings_1881,CD_NS_Kings_1891,SAME_AS,1.0,1.0,1.0,1881,1891,P132_spatiotemporally_overlaps_with

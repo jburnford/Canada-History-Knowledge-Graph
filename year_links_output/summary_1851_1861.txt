@@ -5,7 +5,7 @@ Input CSDs (1851): 936
 Input CSDs (1861): 1202
 
 High-confidence links: 973
-Ambiguous links: 221
+Ambiguous links: 282
 
 High-confidence breakdown:
   SAME_AS: 479
@@ -13,5 +13,5 @@ High-confidence breakdown:
   WITHIN: 90
 
 Ambiguous breakdown:
-  SAME_AS: 127
+  SAME_AS: 188
   OVERLAPS: 94

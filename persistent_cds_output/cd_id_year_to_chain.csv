@@ -250,7 +250,7 @@ CD_NS_Halifax,1921,CD_NS_Halifax_City
 "CD_NS_Halifax,_East",1871,CD_NS_Halifax_East
 "CD_NS_Halifax,_West",1871,CD_NS_Halifax_West
 CD_NS_Halifax_(City-Ville),1881,CD_NS_Halifax_City
-CD_NS_Halifax_(County-Comté),1881,CD_NS_Halifax_City
+CD_NS_Halifax_(County-Comté),1881,CD_NS_Halifax_County
 CD_NS_Halifax_City_&_County,1911,CD_NS_Halifax_City
 CD_NS_Hants,1871,CD_NS_Hants
 CD_NS_Hants,1881,CD_NS_Hants
@@ -745,7 +745,7 @@ CD_ON_Perth,1921,CD_ON_Perth
 "CD_ON_Perth,_South—Sud",1901,CD_ON_Perth_South
 CD_ON_Perth_N,1911,CD_ON_Perth_North
 CD_ON_Perth_S,1911,CD_ON_Perth_South
-CD_ON_Peterboro,1851,CD_ON_Peterboro
+CD_ON_Peterboro,1851,CD_ON_Peterborough
 CD_ON_Peterborough,1861,CD_ON_Peterborough
 CD_ON_Peterborough,1921,CD_ON_Peterborough
 "CD_ON_Peterborough,_East—Est",1871,CD_ON_Peterborough_East

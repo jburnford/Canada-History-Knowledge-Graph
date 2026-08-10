@@ -3,7 +3,8 @@
 # Link Census Divisions across all census years (1851-1921)
 #
 
-GDB="TCP_CANADA_CSD_202306/TCP_CANADA_CSD_202306/TCP_CANADA_CSD_202306.gdb"
+# GDB path from config.toml (override with env var GDB if needed).
+GDB="${GDB:-$(python -c 'from scripts._config import CONFIG; print(CONFIG.gdb_path)')}"
 OUT="cd_links_output"
 
 # Year pairs (sequential)

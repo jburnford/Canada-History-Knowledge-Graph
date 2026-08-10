@@ -97,6 +97,13 @@ def load_year_layer(gdb_path: str, year: int) -> gpd.GeoDataFrame:
     cols_to_keep = ['tcpuid', 'pr', 'cd_name', 'csd_name', 'geometry']
     gdf = gdf[cols_to_keep]
 
+    # Strip whitespace from names at the source. The GDB has trailing-space
+    # typos in cd_name (e.g. 'Brant ', 'Provencher ') that otherwise mint
+    # ghost CD ids with trailing underscores (CD_ON_Brant_) alongside the
+    # real chains. Mirror of link_cd_years_spatial.py / build_cd_presences.py.
+    gdf['cd_name'] = gdf['cd_name'].fillna('').str.strip()
+    gdf['csd_name'] = gdf['csd_name'].fillna('').str.strip()
+
     # Validate geometries
     invalid_mask = ~gdf.is_valid
     if invalid_mask.any():
@@ -174,22 +181,32 @@ def extract_p166_was_presence_of(gdf: gpd.GeoDataFrame, year: int,
 
 
 def extract_p164_temporally_specified_by(gdf: gpd.GeoDataFrame, year: int) -> pd.DataFrame:
-    """P164: E93_Presence -> E4_Period - unchanged from v1."""
+    """P164: E93_Presence -> E52_Time-Span.
+
+    CRM 7.x: P164_is_temporally_specified_by has range E52_Time-Span, NOT
+    E4_Period (the old code pointed it at CENSUS_<year>, a range violation).
+    The presence-within-census-period claim moved to P10_falls_within
+    (E92 → E92; E4_Period is a spacetime volume) — see
+    extract_p10_within_period below."""
     print(f"  Creating P164_is_temporally_specified_by relationships...", file=sys.stderr)
     return pd.DataFrame({
         ':START_ID': gdf['tcpuid'] + f'_{year}',
-        ':END_ID': f'CENSUS_{year}',
+        ':END_ID': f'TIMESPAN_{year}',
         ':TYPE': 'P164_is_temporally_specified_by'
     })
 
 
-def extract_p4_has_time_span(gdf: gpd.GeoDataFrame, year: int) -> pd.DataFrame:
-    """P4: E93_Presence -> E52_Time-Span (M5: explicit ISO 8601 bounds)."""
-    print(f"  Creating P4_has_time-span relationships...", file=sys.stderr)
+def extract_p10_within_period(gdf: gpd.GeoDataFrame, year: int) -> pd.DataFrame:
+    """P10: E93_Presence -> E4_Period (both are E92 Spacetime Volumes).
+
+    Replaces the old P4_has_time-span edge on presences: P4's domain is
+    E2_Temporal_Entity, which E93_Presence is not. The presence's dating is
+    P164 → E52 (above); its containment in the census period is P10."""
+    print(f"  Creating P10_falls_within (presence→period) relationships...", file=sys.stderr)
     return pd.DataFrame({
         ':START_ID': gdf['tcpuid'] + f'_{year}',
-        ':END_ID': f'TIMESPAN_{year}',
-        ':TYPE': 'P4_has_time-span'
+        ':END_ID': f'CENSUS_{year}',
+        ':TYPE': 'P10_falls_within'
     })
 
 
@@ -366,17 +383,17 @@ def process_year(gdb_path: str, year: int, out_dir: Path,
     stats['p166'] = len(p166)
     print(f"  Wrote {len(p166)} P166_was_a_presence_of relationships")
 
-    # P164: Presence -> Period (unchanged)
+    # P164: Presence -> E52_Time-Span (CRM range fix; was -> E4_Period)
     p164 = extract_p164_temporally_specified_by(gdf, year)
     p164.to_csv(out_dir / f'p164_temporally_specified_by_{year}.csv', index=False)
     stats['p164'] = len(p164)
     print(f"  Wrote {len(p164)} P164_is_temporally_specified_by relationships")
 
-    # P4: Presence -> Time-Span (M5: explicit ISO bounds)
-    p4_ts = extract_p4_has_time_span(gdf, year)
-    p4_ts.to_csv(out_dir / f'p4_has_time_span_{year}.csv', index=False)
-    stats['p4_time_span'] = len(p4_ts)
-    print(f"  Wrote {len(p4_ts)} P4_has_time-span relationships")
+    # P10: Presence -> E4_Period (replaces the domain-violating presence P4)
+    p10_period = extract_p10_within_period(gdf, year)
+    p10_period.to_csv(out_dir / f'p10_presence_within_period_{year}.csv', index=False)
+    stats['p10_period'] = len(p10_period)
+    print(f"  Wrote {len(p10_period)} P10_falls_within (presence→period) relationships")
 
     # P161: Presence -> Space Primitive (unchanged)
     p161 = extract_p161_spatial_projection(gdf, year)
@@ -507,7 +524,7 @@ def main():
     all_cd_places = set()
     total_stats = {
         k: 0 for k in [
-            'presences', 'space_primitives', 'p166', 'p164', 'p4_time_span',
+            'presences', 'space_primitives', 'p166', 'p164', 'p10_period',
             'p161', 'p122_edges', 'border_measurements',
         ]
     }
@@ -615,8 +632,8 @@ def main():
     print(f"E94_Space_Primitive: {total_stats['space_primitives']:,}", file=sys.stderr)
     print(f"\nRelationships:", file=sys.stderr)
     print(f"P166_was_a_presence_of: {total_stats['p166']:,}", file=sys.stderr)
-    print(f"P164_is_temporally_specified_by: {total_stats['p164']:,}", file=sys.stderr)
-    print(f"P4_has_time-span (presence→E52): {total_stats['p4_time_span']:,}", file=sys.stderr)
+    print(f"P164_is_temporally_specified_by (presence→E52): {total_stats['p164']:,}", file=sys.stderr)
+    print(f"P10_falls_within (presence→period): {total_stats['p10_period']:,}", file=sys.stderr)
     print(f"P161_has_spatial_projection: {total_stats['p161']:,}", file=sys.stderr)
     print(f"P122_borders_with (edges): {total_stats['p122_edges']:,}", file=sys.stderr)
     print(f"E16_Measurement (borders): {total_stats['border_measurements']:,}", file=sys.stderr)

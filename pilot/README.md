@@ -79,7 +79,7 @@ C's property-graph NULL semantics is the only one that cleanly distinguishes "qu
 **A (full CIDOC-CRM):**
 ```sparql
 SELECT ?presence ?val_total WHERE {
-  ?presence crm:P166i_was_a_presence_of wd:Q115263132 .
+  ?presence crm:P166_was_a_presence_of wd:Q115263132 .
   ?meas crm:P39_measured ?presence ;
         crm:P40_observed_dimension ?dim .
   ?dim crm:P90_has_value ?val_total .
@@ -90,7 +90,7 @@ SELECT ?presence ?val_total WHERE {
 **B (CRM Lite):**
 ```sparql
 SELECT ?presence ?date ?total ?male ?female WHERE {
-  ?presence crm:P166i_was_a_presence_of wd:Q115263132 ;
+  ?presence crm:P166_was_a_presence_of wd:Q115263132 ;
             base:observed_on ?date ;
             base:pop_total ?total .
   OPTIONAL { ?presence base:pop_total_m ?male . }

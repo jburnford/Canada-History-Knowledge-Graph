@@ -20,6 +20,13 @@ data_root = "/home/jic823/GraphRAG_test"
 lincs_ttl  = "/home/jic823/CanadaNeo4j/LINCsDATA/hist-cdns.ttl"
 lincs_json = "/home/jic823/CanadaNeo4j/lincs_historical_canadians.json"
 
+# Borealis TCP/Dillon 1881 Canadian Census individual-level deposit
+# (doi:10.5683/SP3/FXZEVO). 1881 is the only census year with publicly
+# available individual-level data; this is a one-shot, fixed-size source.
+# Used only by the residents pipeline (scripts/prepare_1881_residents.py etc.).
+borealis_1881_csv          = "/home/jic823/borealis_1881/1881_v20251217.csv"
+borealis_1881_value_labels = "/home/jic823/borealis_1881/1881_value_labels.json"
+
 # ---- Deploy target ----------------------------------------------------------
 
 # Local working copy of github.com/jburnford/hgiscanada (the GitHub Pages repo

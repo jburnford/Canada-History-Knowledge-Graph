@@ -1086,6 +1086,56 @@ def _persons_table(persons: list) -> str:
     )
 
 
+# 1881 residents lookup. Populated lazily on first call via the per-CSD
+# total counts produced by scripts/prepare_1881_residents.py. Empty dict if
+# the residents pipeline hasn't been run yet — the section just disappears.
+_RESIDENTS_1881_COUNTS_CACHE: dict[str, int] | None = None
+
+
+def _residents_1881_counts() -> dict[str, int]:
+    global _RESIDENTS_1881_COUNTS_CACHE
+    if _RESIDENTS_1881_COUNTS_CACHE is not None:
+        return _RESIDENTS_1881_COUNTS_CACHE
+    counts_path = REPO / "residents_1881_output" / "csd_total_counts.csv"
+    out: dict[str, int] = {}
+    if counts_path.exists():
+        with counts_path.open() as f:
+            rd = csv.DictReader(f)
+            for row in rd:
+                pid = row.get("persistent_place_id", "")
+                try:
+                    out[pid] = int(row.get("row_count", 0))
+                except ValueError:
+                    pass
+    _RESIDENTS_1881_COUNTS_CACHE = out
+    return out
+
+
+def render_residents_1881_link(place_id: str, year: int,
+                                presence_url: str) -> str:
+    """For year=1881 chains with Borealis residents data, surface a link to
+    the per-CSD residents page rendered by scripts/render_1881_residents_pages.py.
+
+    Returns empty string if year != 1881 or if the chain has no residents
+    page (either no Borealis records for the chain or the residents pipeline
+    hasn't been run)."""
+    if year != 1881:
+        return ""
+    counts = _residents_1881_counts()
+    n = counts.get(place_id, 0)
+    if not n:
+        return ""
+    href = f"{presence_url}residents/"
+    return (
+        '<h2>Residents in 1881</h2>\n'
+        f'<p>The <a href="{href}">1881 census residents page</a> for this '
+        f"Census Subdivision lists {n:,} individuals enumerated here, with "
+        f"name, age, sex, religion, ethnic origin, birthplace, and occupation. "
+        f"Source: TCP/Dillon 1881 Canadian Census deposit at "
+        '<a href="https://doi.org/10.5683/SP3/FXZEVO">Borealis</a>.</p>'
+    )
+
+
 def render_persons_section(persons: list, year: int) -> str:
     """Per-year section (slotted between measurements and Identifiers).
 
@@ -1461,6 +1511,14 @@ def render_page(row, traj, neighbours, measurements, overlaps, persons, *,
 
     # People with DCB entries connected to this place who were alive in `year`
     persons_section = render_persons_section(persons, year)
+    # For 1881 chains with Borealis individual-level data, surface a link
+    # to the residents page (rendered separately by
+    # scripts/render_1881_residents_pages.py). Concatenated into
+    # persons_section to avoid a template change.
+    residents_link = render_residents_1881_link(place_id, year, page_path)
+    if residents_link:
+        persons_section = (persons_section + "\n" + residents_link
+                            if persons_section else residents_link)
 
     # Boundary continuity (non-SAME_AS overlaps with adjacent census years)
     overlaps_section = render_overlaps_section(overlaps, year, base, prov_code)
@@ -1526,7 +1584,9 @@ def render_page(row, traj, neighbours, measurements, overlaps, persons, *,
             "latitude": round(lat, 6),
             "longitude": round(lon, 6),
         }
-    if qid:
+    if qid and not is_ir:
+        # Same gate as the visible-HTML surfaces above: IR aggregates must not
+        # claim modern band identity in the machine-readable channel either.
         same_as = [f"https://www.wikidata.org/entity/{qid}"]
         if enwiki_url:
             same_as.append(enwiki_url)
@@ -3034,8 +3094,15 @@ def main():
         # Pass the set of URLs we just rendered so stubs don't clobber a
         # real page that happened to share a slug.
         fresh_url_set = set(written_urls)
+        # place_chain_redirect_history.csv is the CUMULATIVE, git-committed
+        # record produced by scripts/diff_registry_redirects.py whenever a
+        # rules change retires chain ids at the union level (which the
+        # per-build bridge CSV can't see). Consume both.
+        history_csv = REPO / "persistent_places_output" / "place_chain_redirect_history.csv"
         n_stubs = write_redirect_stubs(out_dir, site_url, base, redirects_csv,
                                         known_chain_ids, fresh_url_set)
+        n_stubs += write_redirect_stubs(out_dir, site_url, base, history_csv,
+                                         known_chain_ids, fresh_url_set)
         if n_stubs:
             print(f"Wrote {n_stubs} redirect stub(s) for subsumed chain ids.")
 
@@ -3044,8 +3111,11 @@ def main():
         # canonical names. Without these stubs, inbound links to old presence
         # URLs (e.g. peterborough-town-of-on093012-1861) would 404.
         presence_redirects_csv = REPO / "persistent_places_output" / "place_presence_redirects.csv"
+        presence_history_csv = REPO / "persistent_places_output" / "place_presence_redirect_history.csv"
         n_presence_stubs = write_presence_redirect_stubs(
             out_dir, site_url, base, presence_redirects_csv, fresh_url_set)
+        n_presence_stubs += write_presence_redirect_stubs(
+            out_dir, site_url, base, presence_history_csv, fresh_url_set)
         if n_presence_stubs:
             print(f"Wrote {n_presence_stubs} redirect stub(s) for renamed presence URLs.")
 

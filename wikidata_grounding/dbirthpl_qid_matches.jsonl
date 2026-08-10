@@ -1,0 +1,85 @@
+# dbirthpl_TCP -> Wikidata QID matches. One JSON object per line.
+# Schema: {"code","label","qid","qid_label","confidence","status","notes"}
+# Status: matched | ambiguous | no_match | skip
+# Confidence: high | medium | low
+# Generated incrementally via WikidataMCP vector search per ~/.claude/CLAUDE.md.
+# Historical 1881 grounding: when a polity has changed (e.g., German Empire vs.
+# modern Germany), prefer the entity that existed in 1881.
+{"code": "15030998", "label": "Ontario", "qid": "Q1904", "qid_label": "Ontario", "confidence": "high", "status": "matched", "notes": "province of Canada"}
+{"code": "15080998", "label": "Quebec", "qid": "Q176", "qid_label": "Quebec", "confidence": "high", "status": "matched", "notes": "province of Canada"}
+{"code": "15150998", "label": "Nova Scotia", "qid": "Q1952", "qid_label": "Nova Scotia", "confidence": "high", "status": "matched", "notes": "province of Canada"}
+{"code": "15040998", "label": "New Brunswick", "qid": "Q1965", "qid_label": "New Brunswick", "confidence": "high", "status": "matched", "notes": "province of Canada"}
+{"code": "41400000", "label": "Ireland", "qid": "Q22890", "qid_label": "Ireland", "confidence": "high", "status": "matched", "notes": "island; politically-neutral grounding for 1881 (vs Q27 modern state, Q174193 UK GB+I 1801-1922)"}
+{"code": "41000000", "label": "England", "qid": "Q21", "qid_label": "England", "confidence": "high", "status": "matched", "notes": "country, part of UK"}
+{"code": "41100000", "label": "Scotland", "qid": "Q22", "qid_label": "Scotland", "confidence": "high", "status": "matched", "notes": "country, part of UK"}
+{"code": "15060998", "label": "Prince Edward Island", "qid": "Q1978", "qid_label": "Prince Edward Island", "confidence": "high", "status": "matched", "notes": "province of Canada"}
+{"code": "10000", "label": "United States", "qid": "Q30", "qid_label": "United States", "confidence": "high", "status": "matched", "notes": ""}
+{"code": "15011998", "label": "British Columbia", "qid": "Q1973", "qid_label": "British Columbia", "confidence": "high", "status": "matched", "notes": "province of Canada"}
+{"code": "45300000", "label": "Germany", "qid": "Q43287", "qid_label": "German Empire", "confidence": "high", "status": "matched", "notes": "1871-1918; historically correct for 1881 (vs Q183 modern Germany)"}
+{"code": "15020998", "label": "Manitoba", "qid": "Q1948", "qid_label": "Manitoba", "confidence": "high", "status": "matched", "notes": "province of Canada"}
+{"code": "15017998", "label": "Northwest Territories", "qid": "Q2007", "qid_label": "Northwest Territories", "confidence": "high", "status": "matched", "notes": "territory of Canada (1881 boundary much larger than modern NWT but Wikidata entity is conceptually continuous)"}
+{"code": "15000000", "label": "Canada", "qid": "Q16", "qid_label": "Canada", "confidence": "high", "status": "matched", "notes": ""}
+{"code": "46500000", "label": "Russia", "qid": "Q34266", "qid_label": "Russian Empire", "confidence": "high", "status": "matched", "notes": "1721-1917; historically correct for 1881 (vs Q159 modern Russia)"}
+{"code": "42100000", "label": "France", "qid": "Q142", "qid_label": "France", "confidence": "high", "status": "matched", "notes": "Third Republic in 1881 but France entity conceptually continuous"}
+{"code": "15070998", "label": "Newfoundland", "qid": "Q2984260", "qid_label": "Newfoundland Colony", "confidence": "high", "status": "matched", "notes": "British colony; pre-Dominion (Q38610 = 1907-1949) and pre-province (Q2003 modern)"}
+{"code": "50000000", "label": "China", "qid": "Q8733", "qid_label": "Qing dynasty", "confidence": "high", "status": "matched", "notes": "1644-1912; historically correct for 1881 (vs Q148 modern China)"}
+{"code": "99999003", "label": "Illegible", "qid": "", "qid_label": "", "confidence": "", "status": "skip", "notes": "data-quality marker, not a place"}
+{"code": "41200000", "label": "Wales", "qid": "Q25", "qid_label": "Wales", "confidence": "high", "status": "matched", "notes": "country, part of UK"}
+{"code": "45360000", "label": "Prussia", "qid": "Q27306", "qid_label": "Kingdom of Prussia", "confidence": "high", "status": "matched", "notes": "1701-1918; part of German Empire after 1871"}
+{"code": "40200000", "label": "Iceland", "qid": "Q189", "qid_label": "Iceland", "confidence": "high", "status": "matched", "notes": "Danish dependency in 1881; Q189 is the conceptual island/country"}
+{"code": "40500000", "label": "Sweden", "qid": "Q34", "qid_label": "Sweden", "confidence": "high", "status": "matched", "notes": "United Kingdoms of Sweden and Norway 1814-1905; Sweden state continuous"}
+{"code": "42600000", "label": "Switzerland", "qid": "Q39", "qid_label": "Switzerland", "confidence": "high", "status": "matched", "notes": ""}
+{"code": "99999008", "label": "Not Mapped", "qid": "", "qid_label": "", "confidence": "", "status": "skip", "notes": "data-quality marker, not a place"}
+{"code": "43400000", "label": "Italy", "qid": "Q172579", "qid_label": "Kingdom of Italy", "confidence": "high", "status": "matched", "notes": "1861-1946; historically correct for 1881 (vs Q38 modern Italy)"}
+{"code": "3600000", "label": "New York", "qid": "Q1384", "qid_label": "New York", "confidence": "high", "status": "matched", "notes": "US state"}
+{"code": "40000000", "label": "Denmark", "qid": "Q35", "qid_label": "Denmark", "confidence": "high", "status": "matched", "notes": ""}
+{"code": "41012000", "label": "Jersey", "qid": "Q785", "qid_label": "Jersey", "confidence": "high", "status": "matched", "notes": "Channel Islands; British Crown dependency"}
+{"code": "40400000", "label": "Norway", "qid": "Q20", "qid_label": "Norway", "confidence": "high", "status": "matched", "notes": "United Kingdoms of Sweden and Norway 1814-1905 in 1881; Norway state conceptually continuous"}
+{"code": "15051000", "label": "Cape Breton", "qid": "Q188489", "qid_label": "Cape Breton Island", "confidence": "high", "status": "matched", "notes": "island in Nova Scotia (note: Cape Breton was a separate colony 1784-1820 but not in 1881)"}
+{"code": "45500000", "label": "Poland", "qid": "Q36", "qid_label": "Poland", "confidence": "medium", "status": "matched", "notes": "no Polish state in 1881 (partitioned among Russia/Prussia/Austria); using modern Q36 as conceptual entity"}
+{"code": "26000000", "label": "West Indies", "qid": "Q673091", "qid_label": "Caribbean", "confidence": "medium", "status": "matched", "notes": "regional descriptor; Caribbean Q673091 is closest match"}
+{"code": "70010000", "label": "Australia", "qid": "Q408", "qid_label": "Australia", "confidence": "medium", "status": "matched", "notes": "1881 was separate British colonies (NSW, Vic, etc.); Commonwealth of Australia formed 1901; using Q408 for conceptual continuity"}
+{"code": "15050014", "label": "Digby, Nova Scotia", "qid": "Q1196028", "qid_label": "Digby County", "confidence": "high", "status": "matched", "notes": "NS county"}
+{"code": "42000000", "label": "Belgium", "qid": "Q31", "qid_label": "Belgium", "confidence": "high", "status": "matched", "notes": ""}
+{"code": "52100000", "label": "India", "qid": "Q129286", "qid_label": "British Raj", "confidence": "high", "status": "matched", "notes": "1858-1947; historically correct for 1881 (vs Q668 modern India)"}
+{"code": "90020000", "label": "At Sea", "qid": "", "qid_label": "", "confidence": "", "status": "skip", "notes": "not a place"}
+{"code": "3100000", "label": "Nebraska", "qid": "Q1553", "qid_label": "Nebraska", "confidence": "high", "status": "matched", "notes": "US state"}
+{"code": "51210000", "label": "East Indies", "qid": "Q26273", "qid_label": "Dutch East Indies", "confidence": "medium", "status": "matched", "notes": "1881 referent likely Dutch East Indies (1816-1949)"}
+{"code": "2600000", "label": "Michigan", "qid": "Q1166", "qid_label": "Michigan", "confidence": "high", "status": "matched", "notes": "US state"}
+{"code": "16010000", "label": "Bermuda", "qid": "Q23635", "qid_label": "Bermuda", "confidence": "high", "status": "matched", "notes": "British Overseas Territory"}
+{"code": "45000000", "label": "Austria", "qid": "Q28513", "qid_label": "Austria-Hungary", "confidence": "high", "status": "matched", "notes": "1867-1918; historically correct for 1881 (vs Q40 modern Austria)"}
+{"code": "15011999", "label": "Within British Columbia, n.e.c", "qid": "Q1973", "qid_label": "British Columbia", "confidence": "medium", "status": "matched", "notes": "n.e.c. = not elsewhere classified; rolls up to BC province"}
+{"code": "42500000", "label": "Netherlands", "qid": "Q55", "qid_label": "Netherlands", "confidence": "high", "status": "matched", "notes": ""}
+{"code": "15030004", "label": "Keewatin, Ontario", "qid": "Q3015166", "qid_label": "District of Keewatin", "confidence": "medium", "status": "matched", "notes": "1876-1905 administrative district covering parts of present-day MB/ON/NU/NT; mislabelled as Ontario in TCP coding"}
+{"code": "2300000", "label": "Maine", "qid": "Q724", "qid_label": "Maine", "confidence": "high", "status": "matched", "notes": "US state"}
+{"code": "15081082", "label": "Montreal, Quebec", "qid": "Q340", "qid_label": "Montreal", "confidence": "high", "status": "matched", "notes": ""}
+{"code": "41020000", "label": "Isle of Man", "qid": "Q9676", "qid_label": "Isle of Man", "confidence": "high", "status": "matched", "notes": "British Crown dependency"}
+{"code": "43200000", "label": "Gibraltar", "qid": "Q1410", "qid_label": "Gibraltar", "confidence": "high", "status": "matched", "notes": "British Overseas Territory"}
+{"code": "43500000", "label": "Malta", "qid": "Q3023401", "qid_label": "Crown Colony of Malta", "confidence": "medium", "status": "matched", "notes": "1813-1964; historically correct for 1881 (vs Q233 modern Malta)"}
+{"code": "43800000", "label": "Spain", "qid": "Q29", "qid_label": "Spain", "confidence": "high", "status": "matched", "notes": ""}
+{"code": "26030000", "label": "Jamaica", "qid": "Q1209807", "qid_label": "Colony of Jamaica", "confidence": "medium", "status": "matched", "notes": "1655-1962; historically correct for 1881 (vs Q766 modern Jamaica)"}
+{"code": "99999904", "label": "Invalid Value", "qid": "", "qid_label": "", "confidence": "", "status": "skip", "notes": "data-quality marker, not a place"}
+{"code": "600000", "label": "California", "qid": "Q99", "qid_label": "California", "confidence": "high", "status": "matched", "notes": "US state"}
+{"code": "41011000", "label": "Guernsey", "qid": "Q23408", "qid_label": "Guernsey", "confidence": "high", "status": "matched", "notes": "Channel Islands; British Crown dependency"}
+{"code": "41300000", "label": "United Kingdom, n.s", "qid": "Q174193", "qid_label": "United Kingdom of Great Britain and Ireland", "confidence": "high", "status": "matched", "notes": "1801-1922; historically correct for 1881 (vs Q145 modern UK)"}
+{"code": "41010000", "label": "Channel Islands", "qid": "Q42314", "qid_label": "Channel Islands", "confidence": "high", "status": "matched", "notes": "archipelago"}
+{"code": "26044000", "label": "Barbados", "qid": "Q244", "qid_label": "Barbados", "confidence": "medium", "status": "matched", "notes": "1881 was British colony; using modern Q244 for continuity"}
+{"code": "15030999", "label": "Within Ontario, n.e.c", "qid": "Q1904", "qid_label": "Ontario", "confidence": "medium", "status": "matched", "notes": "n.e.c. = not elsewhere classified; rolls up to Ontario"}
+{"code": "2500000", "label": "Massachusetts", "qid": "Q771", "qid_label": "Massachusetts", "confidence": "high", "status": "matched", "notes": "US state"}
+{"code": "60099000", "label": "Africa, n.s", "qid": "Q15", "qid_label": "Africa", "confidence": "medium", "status": "matched", "notes": "n.s. = not specified; continent-level"}
+{"code": "15017995", "label": "Hudson Bay", "qid": "Q3736", "qid_label": "Hudson Bay", "confidence": "high", "status": "matched", "notes": "marginal sea / region; HBC trading territory in 1881"}
+{"code": "5500000", "label": "Wisconsin", "qid": "Q1537", "qid_label": "Wisconsin", "confidence": "high", "status": "matched", "notes": "US state"}
+{"code": "45210000", "label": "Bohemia", "qid": "Q5708", "qid_label": "Kingdom of Bohemia", "confidence": "high", "status": "matched", "notes": "part of Austria-Hungary in 1881"}
+{"code": "40100000", "label": "Finland", "qid": "Q34020", "qid_label": "Grand Duchy of Finland", "confidence": "high", "status": "matched", "notes": "1809-1917; autonomous Russian dependency in 1881"}
+{"code": "43300000", "label": "Greece", "qid": "Q41", "qid_label": "Greece", "confidence": "medium", "status": "matched", "notes": "Kingdom of Greece existed 1832-1924; using modern Q41 for continuity"}
+{"code": "45312000", "label": "Bavaria", "qid": "Q150412", "qid_label": "Kingdom of Bavaria", "confidence": "high", "status": "matched", "notes": "1806-1918; part of German Empire after 1871"}
+{"code": "70020000", "label": "New Zealand", "qid": "Q3070710", "qid_label": "Colony of New Zealand", "confidence": "medium", "status": "matched", "notes": "1841-1907; historically correct for 1881 (vs Q664 modern NZ)"}
+{"code": "15011013", "label": "Victoria, British Columbia", "qid": "Q2132", "qid_label": "Victoria", "confidence": "high", "status": "matched", "notes": "BC capital city"}
+{"code": "3900000", "label": "Ohio", "qid": "Q1397", "qid_label": "Ohio", "confidence": "high", "status": "matched", "notes": "US state"}
+{"code": "20000000", "label": "Mexico", "qid": "Q96", "qid_label": "Mexico", "confidence": "high", "status": "matched", "notes": ""}
+{"code": "4200000", "label": "Pennsylvania", "qid": "Q1400", "qid_label": "Pennsylvania", "confidence": "high", "status": "matched", "notes": "US state"}
+{"code": "15071000", "label": "Labrador", "qid": "Q1228", "qid_label": "Labrador", "confidence": "high", "status": "matched", "notes": "region; 1881 administered as part of Newfoundland Colony"}
+{"code": "99999001", "label": "Blank", "qid": "", "qid_label": "", "confidence": "", "status": "skip", "notes": "data-quality marker, not a place"}
+{"code": "15050031", "label": "Halifax, Nova Scotia", "qid": "Q2141", "qid_label": "Halifax", "confidence": "high", "status": "matched", "notes": "NS provincial capital"}
+{"code": "5000000", "label": "Vermont", "qid": "Q16551", "qid_label": "Vermont", "confidence": "high", "status": "matched", "notes": "US state"}
+{"code": "30020000", "label": "Chile", "qid": "Q298", "qid_label": "Chile", "confidence": "high", "status": "matched", "notes": ""}

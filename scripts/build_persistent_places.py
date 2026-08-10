@@ -13,6 +13,7 @@ Outputs:
 """
 
 import csv
+import math
 import re
 import pandas as pd
 from pathlib import Path
@@ -20,11 +21,28 @@ from collections import defaultdict, Counter
 import argparse
 import sys
 
-from _normalize import normalize_for_match, bridge_normalize
+from _normalize import normalize_for_match, bridge_normalize, suffix_tier
 
 YEARS = [1851, 1861, 1871, 1881, 1891, 1901, 1911, 1921]
 YEAR_PAIRS = list(zip(YEARS[:-1], YEARS[1:]))
 YEAR_PAIR_SET = set(YEAR_PAIRS)
+
+# The linker (link_csd_years_spatial_v2.classify_relationship) classifies
+# SAME_AS at IoU >= 0.98 AND min(frac) >= 0.98. Union at the linker's own
+# threshold — the old `iou >= 1.0` gate silently discarded 587 near-perfect
+# continuation links (London/London IoU 0.993 etc.), fragmenting chains.
+SAME_AS_MIN_IOU = 0.98
+
+# Max centroid distance (km) between a chain's last presence and a same-name
+# chain's first presence for a MEDIUM-confidence (non-adjacent-gap) bridge
+# merge. Mirrors the 50 km sibling gate in join_wikidata_to_places.py.
+BRIDGE_CENTROID_GATE_KM = 50.0
+
+# Admin-tier groups that must not be bridged together: a Township/Parish is
+# the rural unit that COEXISTS with its same-name town/village, not an
+# earlier or later form of it ("Trois Rivières, Paroisse" vs the city).
+_RURAL_TIERS = {"TOWNSHIP", "PARISH", "RESERVE"}
+_URBAN_TIERS = {"URBAN", "VILLAGE", "HAMLET"}
 
 
 # -- Union-Find --
@@ -63,50 +81,85 @@ class UnionFind:
 
 
 def load_all_year_links(links_dir: Path):
-    """Load all year_links CSV files, returning SAME_AS and lineage links separately."""
+    """Load year_links AND ambiguous CSV files.
+
+    Returns (same_as_links, lineage_links, node_meta, rescued_rows).
+
+    - year_links_*.csv: SAME_AS at IoU >= SAME_AS_MIN_IOU chains; CONTAINS/
+      WITHIN become lineage candidates. (Unchanged except the threshold —
+      the old `iou >= 1.0` discarded 587 linker-classified SAME_AS links.)
+    - ambiguous_*.csv: SAME_AS rows here are spatially identical polygons
+      (IoU >= 0.98, both fracs >= 0.98) whose fuzzy name similarity fell
+      below the linker's 80 gate — nearly all OCR variants (Kincaraio/
+      Kincardine) or renamings. Spatial identity at that strictness defines
+      chain membership in this model, so accept them, and emit every rescue
+      to same_as_rescued.csv for curator audit. OVERLAPS rows in the
+      ambiguous file stay ignored (no node_meta either, so previously-
+      fallback singleton ids downstream don't churn).
+    """
     same_as_links = []
     lineage_links = []
     node_meta = {}  # (tcpuid, year) -> {name, cd, province}
+    rescued_rows = []
 
     for y1, y2 in YEAR_PAIRS:
-        fpath = links_dir / f"year_links_{y1}_{y2}.csv"
-        if not fpath.exists():
-            print(f"  Warning: {fpath} not found, skipping", file=sys.stderr)
-            continue
+        for source, fname in (("year_links", f"year_links_{y1}_{y2}.csv"),
+                               ("ambiguous", f"ambiguous_{y1}_{y2}.csv")):
+            fpath = links_dir / fname
+            if not fpath.exists():
+                if source == "year_links":
+                    print(f"  Warning: {fpath} not found, skipping", file=sys.stderr)
+                continue
 
-        with open(fpath) as f:
-            for row in csv.DictReader(f):
-                rel = row["relationship"]
-                uid1 = row[f"tcpuid_{y1}"].strip()
-                uid2 = row[f"tcpuid_{y2}"].strip()
-                name1 = row[f"csd_name_{y1}"].strip()
-                name2 = row[f"csd_name_{y2}"].strip()
-                cd1 = row[f"cd_name_{y1}"].strip()
-                cd2 = row[f"cd_name_{y2}"].strip()
-                pr1 = row[f"pr_{y1}"].strip()
-                pr2 = row[f"pr_{y2}"].strip()
+            with open(fpath) as f:
+                for row in csv.DictReader(f):
+                    rel = row["relationship"]
 
-                node_meta[(uid1, y1)] = {"name": name1, "cd": cd1, "province": pr1}
-                node_meta[(uid2, y2)] = {"name": name2, "cd": cd2, "province": pr2}
+                    try:
+                        iou = float(row["iou"])
+                    except (ValueError, KeyError):
+                        iou = 0.0
 
-                try:
-                    iou = float(row["iou"])
-                except (ValueError, KeyError):
-                    iou = 0.0
+                    if source == "ambiguous" and not (
+                            rel == "SAME_AS" and iou >= SAME_AS_MIN_IOU):
+                        continue
 
-                if rel == "SAME_AS" and iou >= 1.0:
-                    same_as_links.append(((uid1, y1), (uid2, y2)))
-                elif rel in ("CONTAINS", "WITHIN"):
-                    lineage_links.append({
-                        "uid_from": uid1, "year_from": y1,
-                        "uid_to": uid2, "year_to": y2,
-                        "relationship": rel,
-                        "iou": iou,
-                    })
+                    uid1 = row[f"tcpuid_{y1}"].strip()
+                    uid2 = row[f"tcpuid_{y2}"].strip()
+                    name1 = row[f"csd_name_{y1}"].strip()
+                    name2 = row[f"csd_name_{y2}"].strip()
+                    cd1 = row[f"cd_name_{y1}"].strip()
+                    cd2 = row[f"cd_name_{y2}"].strip()
+                    pr1 = row[f"pr_{y1}"].strip()
+                    pr2 = row[f"pr_{y2}"].strip()
 
-    print(f"  Loaded {len(same_as_links)} SAME_AS (IOU=1.0) links", file=sys.stderr)
+                    node_meta[(uid1, y1)] = {"name": name1, "cd": cd1, "province": pr1}
+                    node_meta[(uid2, y2)] = {"name": name2, "cd": cd2, "province": pr2}
+
+                    if rel == "SAME_AS" and iou >= SAME_AS_MIN_IOU:
+                        same_as_links.append(((uid1, y1), (uid2, y2)))
+                        if source == "ambiguous":
+                            rescued_rows.append({
+                                "tcpuid_from": uid1, "year_from": y1,
+                                "name_from": name1,
+                                "tcpuid_to": uid2, "year_to": y2,
+                                "name_to": name2,
+                                "province": pr1,
+                                "iou": iou,
+                                "name_similarity": row.get("name_similarity", ""),
+                            })
+                    elif rel in ("CONTAINS", "WITHIN"):
+                        lineage_links.append({
+                            "uid_from": uid1, "year_from": y1,
+                            "uid_to": uid2, "year_to": y2,
+                            "relationship": rel,
+                            "iou": iou,
+                        })
+
+    print(f"  Loaded {len(same_as_links)} SAME_AS (IoU>={SAME_AS_MIN_IOU}) links "
+          f"({len(rescued_rows)} rescued from ambiguous files)", file=sys.stderr)
     print(f"  Loaded {len(lineage_links)} CONTAINS/WITHIN links", file=sys.stderr)
-    return same_as_links, lineage_links, node_meta
+    return same_as_links, lineage_links, node_meta, rescued_rows
 
 
 def build_persistent_places(same_as_links, node_meta):
@@ -145,9 +198,16 @@ def build_persistent_places(same_as_links, node_meta):
         persistent_id = f"PLACE_{anchor_tcpuid}"
         if persistent_id in used_ids:
             persistent_id = f"PLACE_{anchor_tcpuid}_{years_present[0]}"
-            # In the extremely rare case of still colliding, add full range
-            while persistent_id in used_ids:
+            if persistent_id in used_ids:
+                # Extremely rare: add full range, then a counter. (The old
+                # code looped assigning the same range string forever if
+                # THAT collided too — latent infinite loop.)
                 persistent_id = f"PLACE_{anchor_tcpuid}_{years_present[0]}_{years_present[-1]}"
+                n = 2
+                while persistent_id in used_ids:
+                    persistent_id = (f"PLACE_{anchor_tcpuid}_{years_present[0]}"
+                                     f"_{years_present[-1]}_{n}")
+                    n += 1
         used_ids.add(persistent_id)
 
         # Canonical name: most frequent name in chain, latest year breaks ties
@@ -237,6 +297,50 @@ def load_year_links_pairs(links_dir: Path):
     return pairs_by_yp
 
 
+def load_presence_centroids(centroids_dir: Path) -> dict[tuple[str, int], tuple[float, float]]:
+    """Load per-presence centroids from e94_space_primitive_{year}.csv.
+
+    Keyed (tcpuid, year) -> (lat, lon). These files are geometry-derived and
+    keyed by year-scoped tcpuids — they can never leak chain ids back into
+    the builder (unlike e93_presence_cd_*, see build_persistent_cds guard).
+    Returns {} with a warning when the files are absent (e.g. right after
+    `make distclean` before the CIDOC stage has run) — the bridge pass then
+    falls back to un-gated medium-confidence merges, as before."""
+    centroids: dict[tuple[str, int], tuple[float, float]] = {}
+    for yr in YEARS:
+        fpath = centroids_dir / f"e94_space_primitive_{yr}.csv"
+        if not fpath.exists():
+            continue
+        with open(fpath) as f:
+            for row in csv.DictReader(f):
+                sid = row.get("space_id:ID", "")
+                if not sid.endswith("_centroid"):
+                    continue
+                stem = sid[: -len("_centroid")]
+                uid, _, yr_s = stem.rpartition("_")
+                try:
+                    lat = float(row["latitude:float"])
+                    lon = float(row["longitude:float"])
+                    centroids[(uid, int(yr_s))] = (lat, lon)
+                except (KeyError, ValueError):
+                    continue
+    if not centroids:
+        print("  WARNING: no presence centroids found under "
+              f"{centroids_dir}/e94_space_primitive_*.csv — the medium-"
+              "confidence bridge centroid gate is DISABLED for this run. "
+              "Restore the e94 CSVs (git checkout) before building if you "
+              "want the gate.", file=sys.stderr)
+    return centroids
+
+
+def _haversine_km(a: tuple[float, float], b: tuple[float, float]) -> float:
+    lat1, lon1 = map(math.radians, a)
+    lat2, lon2 = map(math.radians, b)
+    dlat, dlon = lat2 - lat1, lon2 - lon1
+    h = math.sin(dlat / 2) ** 2 + math.cos(lat1) * math.cos(lat2) * math.sin(dlon / 2) ** 2
+    return 2 * 6371.0 * math.asin(math.sqrt(h))
+
+
 def _years_set(years_active: str) -> set[int]:
     if not years_active:
         return set()
@@ -254,12 +358,14 @@ def _spans_disjoint(spans: list[set[int]]) -> bool:
 
 def _gap_supported(chain_a_nodes: list[tuple[str, int]],
                    chain_b_nodes: list[tuple[str, int]],
-                   pairs_by_yp: dict[tuple[int, int], set[frozenset[str]]]
+                   pairs_by_yp: dict[tuple[int, int], set[frozenset[str]]],
+                   centroids: dict[tuple[str, int], tuple[float, float]] | None = None,
                    ) -> tuple[bool, str]:
     """Confirm chain A's last year and chain B's first year are spatially
     adjacent. Returns (confirmed, confidence) where confidence ∈ {high, medium}.
     high = direct year_links overlap evidence; medium = year gap spans intervening
-    censuses where neither chain has a presence (no spatial evidence available)."""
+    censuses where neither chain has a presence (no direct overlap evidence —
+    gated instead by centroid distance when centroids are available)."""
     last_a_year = max(y for _, y in chain_a_nodes)
     first_b_year = min(y for _, y in chain_b_nodes)
     if last_a_year >= first_b_year:
@@ -277,13 +383,25 @@ def _gap_supported(chain_a_nodes: list[tuple[str, int]],
         return False, "no_spatial_link"
 
     # Non-adjacent: chain A ends at e.g. 1881, chain B starts at e.g. 1911,
-    # gap covers censuses where neither chain has a presence. We can't directly
-    # verify spatial adjacency. Return medium-confidence so the curator can audit.
+    # gap covers censuses where neither chain has a presence. No overlap
+    # evidence exists, so gate on centroid distance: a same-name chain
+    # >50 km away is a namesake elsewhere in the province, not a
+    # continuation ("a different Hamilton").
+    if centroids:
+        a_pts = [centroids[(uid, y)] for uid, y in chain_a_nodes
+                 if y == last_a_year and (uid, y) in centroids]
+        b_pts = [centroids[(uid, y)] for uid, y in chain_b_nodes
+                 if y == first_b_year and (uid, y) in centroids]
+        if a_pts and b_pts:
+            min_km = min(_haversine_km(pa, pb) for pa in a_pts for pb in b_pts)
+            if min_km > BRIDGE_CENTROID_GATE_KM:
+                return False, f"centroid_gate_{min_km:.0f}km"
     return True, "medium"
 
 
 def name_bridge_pass(registry, tcpuid_year_map, pid_to_nodes,
-                      pairs_by_yp, *, restrict_province: str | None = None):
+                      pairs_by_yp, *, restrict_province: str | None = None,
+                      centroids: dict | None = None):
     """Second pass: merge chains that share (normalize_for_match(name), province)
     when their year-spans are strictly disjoint and the inter-chain gap is
     supported by year_links spatial evidence (high confidence) or covers
@@ -309,6 +427,10 @@ def name_bridge_pass(registry, tcpuid_year_map, pid_to_nodes,
         prov = r["province"]
         if not norm or not prov:
             continue
+        # "NO DATA" is the GDB's placeholder for unenumerated territory —
+        # two NO DATA chains share a name, never an identity. Never bridge.
+        if norm == "no data":
+            continue
         if restrict_province and prov != restrict_province:
             continue
         families[(norm, prov)].append(r)
@@ -325,87 +447,148 @@ def name_bridge_pass(registry, tcpuid_year_map, pid_to_nodes,
         if len(members) < 2:
             continue
 
-        # Compute years_set per member; require strict disjointness across all.
+        # Tier gate: bridge_normalize strips ALL admin-tier suffixes, so a
+        # rural unit ("X, Township" / "X, Paroisse") and its same-name urban
+        # unit key identically — but they are coexisting entities, not one
+        # place renamed. When both rural and urban tiers appear in a family,
+        # exclude the RURAL members (they keep their own chains) and let the
+        # urban-ladder members (BARE/Village/Town/City — legitimate
+        # incorporation sequences) bridge among themselves.
+        tier_by_pid = {m["persistent_place_id"]: suffix_tier(m["canonical_name"])
+                       for m in members}
+        tset = set(tier_by_pid.values())
+        if (tset & _RURAL_TIERS) and (tset & _URBAN_TIERS):
+            rural = [m for m in members
+                     if tier_by_pid[m["persistent_place_id"]] in _RURAL_TIERS]
+            skipped_rows.append({
+                "norm_name": norm,
+                "province": prov,
+                "n_members": len(rural),
+                "reason": "tier_conflict_rural_member_excluded",
+                "members": ";".join(m["persistent_place_id"] for m in rural),
+            })
+            members = [m for m in members
+                       if tier_by_pid[m["persistent_place_id"]] not in _RURAL_TIERS]
+            if len(members) < 2:
+                continue
+
+        # Greedy sequence assembly (replaces the old all-or-nothing family
+        # disjointness rule, which blocked e.g. London Township 1851-61 from
+        # bridging to London Township 1871-1921 just because the same-name
+        # CITY chains overlap the family's span). Members are sorted by
+        # first year and attached to the best OPEN sequence whose last
+        # member's span ends before this member starts AND whose gap is
+        # evidence-supported. Preference order: same admin tier, then
+        # high > medium evidence, then smallest year gap. Members that fit
+        # no sequence open a new one; each resulting sequence with >= 2
+        # members merges independently.
         with_spans = [(m, _years_set(m["years_active"])) for m in members]
-        all_spans = [s for _, s in with_spans]
-        if not _spans_disjoint(all_spans):
+        with_spans.sort(key=lambda ms: (min(ms[1]), max(ms[1])))
+
+        sequences: list[dict] = []
+        for m, span in with_spans:
+            best = None
+            for seq in sequences:
+                last_m, last_span = seq["members"][-1], seq["years"]
+                if last_span & span or max(last_span) >= min(span):
+                    continue
+                a_nodes = pid_to_nodes.get(last_m["persistent_place_id"], [])
+                b_nodes = pid_to_nodes.get(m["persistent_place_id"], [])
+                confirmed, conf = _gap_supported(a_nodes, b_nodes, pairs_by_yp,
+                                                  centroids)
+                if not confirmed:
+                    continue
+                tier_mismatch = (suffix_tier(last_m["canonical_name"])
+                                 != suffix_tier(m["canonical_name"]))
+                # A medium (centroid-only) gap may not cross admin tiers:
+                # weak evidence + a tier change is the township→city false-
+                # merge signature (London Township 1851-61 vs London, C).
+                # High-confidence (direct spatial overlap) crossings remain
+                # allowed — real incorporations have overlapping polygons.
+                if conf != "high" and tier_mismatch:
+                    continue
+                gap = min(span) - max(last_span)
+                score = (tier_mismatch, 0 if conf == "high" else 1, gap)
+                if best is None or score < best[0]:
+                    best = (score, seq, conf)
+            if best is None:
+                sequences.append({"members": [m], "years": set(span),
+                                  "evidence": []})
+            else:
+                _, seq, conf = best
+                seq["members"].append(m)
+                seq["years"] |= span
+                seq["evidence"].append(conf)
+
+        merge_seqs = [s for s in sequences if len(s["members"]) >= 2]
+        if not merge_seqs:
             skipped_rows.append({
                 "norm_name": norm,
                 "province": prov,
                 "n_members": len(members),
-                "reason": "overlapping_year_spans",
+                "reason": "no_supported_pairs",
                 "members": ";".join(m["persistent_place_id"] for m in members),
             })
             continue
-
-        # Sort by first year ascending.
-        with_spans.sort(key=lambda ms: min(ms[1]))
-        ordered = [m for m, _ in with_spans]
-
-        # Walk consecutive pairs, gather evidence; abort on first failure.
-        pair_evidence: list[str] = []
-        ok = True
-        for a, b in zip(ordered[:-1], ordered[1:]):
-            a_nodes = pid_to_nodes.get(a["persistent_place_id"], [])
-            b_nodes = pid_to_nodes.get(b["persistent_place_id"], [])
-            confirmed, conf = _gap_supported(a_nodes, b_nodes, pairs_by_yp)
-            if not confirmed:
-                ok = False
-                skipped_rows.append({
-                    "norm_name": norm,
-                    "province": prov,
-                    "n_members": len(members),
-                    "reason": f"gap_{a['persistent_place_id']}_to_{b['persistent_place_id']}_unsupported_{conf}",
-                    "members": ";".join(m["persistent_place_id"] for m in members),
-                })
-                break
-            pair_evidence.append(conf)
-        if not ok:
-            continue
-
-        # Winner = chain with the latest anchor_year (canonical 1921 grounding wins).
-        winner = max(ordered, key=lambda r: int(r["anchor_year"]))
-        family_confidence = "medium" if "medium" in pair_evidence else "high"
-
-        for m in ordered:
-            if m["persistent_place_id"] == winner["persistent_place_id"]:
-                continue
-            merged_into[m["persistent_place_id"]] = winner["persistent_place_id"]
-            winner_absorbed[winner["persistent_place_id"]].append(m["persistent_place_id"])
-            redirects.append({
-                "old_place_id": m["persistent_place_id"],
-                "new_place_id": winner["persistent_place_id"],
-                "province": prov,
-                "old_canonical_name": m["canonical_name"],
-                "new_canonical_name": winner["canonical_name"],
-                "old_years_active": m["years_active"],
-                "new_years_active": winner["years_active"],
-                "confidence": family_confidence,
-                "reason": "bridge_name_match",
-                # Carry the (tcpuid, year) members of the SUBSUMED chain so the
-                # renderer can emit per-presence URL redirects when the canonical
-                # name slug changes (the per-presence URL embeds the chain's
-                # canonical_name, so a bridge merge breaks the old presence URLs).
-                "_subsumed_nodes": pid_to_nodes.get(m["persistent_place_id"], []),
-            })
-            bridge_lineage.append({
-                "lineage_type": "BRIDGE_NAME_MATCH",
-                ":START_ID": m["persistent_place_id"],
-                ":END_ID": winner["persistent_place_id"],
-                "change_year:int": min(_years_set(winner["years_active"]) or {0}),
-                ":TYPE": "BRIDGE_NAME_MATCH",
-            })
-            confidence_per_merge[(m["persistent_place_id"], winner["persistent_place_id"])] = family_confidence
-
-        if family_confidence == "medium":
-            review_rows.append({
+        if len(sequences) > 1:
+            # Partial merge — family split into parallel identities. Audit.
+            skipped_rows.append({
                 "norm_name": norm,
                 "province": prov,
                 "n_members": len(members),
-                "winner": winner["persistent_place_id"],
-                "members": ";".join(m["persistent_place_id"] for m in ordered),
-                "reason": "medium_confidence_gap",
+                "reason": f"partitioned_into_{len(sequences)}_sequences",
+                "members": " | ".join(
+                    ";".join(m["persistent_place_id"] for m in s["members"])
+                    for s in sequences),
             })
+
+        for seq in merge_seqs:
+            ordered = seq["members"]
+            # Winner = chain with the latest anchor_year (canonical 1921
+            # grounding wins).
+            winner = max(ordered, key=lambda r: int(r["anchor_year"]))
+            family_confidence = "medium" if "medium" in seq["evidence"] else "high"
+
+            for m in ordered:
+                if m["persistent_place_id"] == winner["persistent_place_id"]:
+                    continue
+                merged_into[m["persistent_place_id"]] = winner["persistent_place_id"]
+                winner_absorbed[winner["persistent_place_id"]].append(m["persistent_place_id"])
+                redirects.append({
+                    "old_place_id": m["persistent_place_id"],
+                    "new_place_id": winner["persistent_place_id"],
+                    "province": prov,
+                    "old_canonical_name": m["canonical_name"],
+                    "new_canonical_name": winner["canonical_name"],
+                    "old_years_active": m["years_active"],
+                    "new_years_active": winner["years_active"],
+                    "confidence": family_confidence,
+                    "reason": "bridge_name_match",
+                    # Carry the (tcpuid, year) members of the SUBSUMED chain so
+                    # the renderer can emit per-presence URL redirects when the
+                    # canonical name slug changes (the per-presence URL embeds
+                    # the chain's canonical_name, so a bridge merge breaks the
+                    # old presence URLs).
+                    "_subsumed_nodes": pid_to_nodes.get(m["persistent_place_id"], []),
+                })
+                bridge_lineage.append({
+                    "lineage_type": "BRIDGE_NAME_MATCH",
+                    ":START_ID": m["persistent_place_id"],
+                    ":END_ID": winner["persistent_place_id"],
+                    "change_year:int": min(_years_set(winner["years_active"]) or {0}),
+                    ":TYPE": "BRIDGE_NAME_MATCH",
+                })
+                confidence_per_merge[(m["persistent_place_id"], winner["persistent_place_id"])] = family_confidence
+
+            if family_confidence == "medium":
+                review_rows.append({
+                    "norm_name": norm,
+                    "province": prov,
+                    "n_members": len(ordered),
+                    "winner": winner["persistent_place_id"],
+                    "members": ";".join(m["persistent_place_id"] for m in ordered),
+                    "reason": "medium_confidence_gap",
+                })
 
     if not merged_into:
         return registry, tcpuid_year_map, redirects, bridge_lineage, review_rows, skipped_rows
@@ -539,6 +722,13 @@ def main():
         help="Restrict bridge-name-match merges to a single province (e.g. ON). "
              "Useful for subset audits; chains in other provinces stay strict.",
     )
+    parser.add_argument(
+        "--centroids-dir",
+        default="neo4j_cidoc_crm_v2",
+        help="Directory with e94_space_primitive_{year}.csv presence "
+             "centroids used by the medium-confidence bridge centroid gate. "
+             "Gate is skipped (with a warning) when files are absent.",
+    )
     args = parser.parse_args()
 
     links_dir = Path(args.links_dir)
@@ -551,7 +741,8 @@ def main():
 
     # Step 1: Load all links
     print(f"\nLoading year_links...", file=sys.stderr)
-    same_as_links, lineage_links, node_meta = load_all_year_links(links_dir)
+    same_as_links, lineage_links, node_meta, rescued_rows = \
+        load_all_year_links(links_dir)
 
     # Step 2: Build persistent places via Union-Find
     print(f"\nBuilding persistent places...", file=sys.stderr)
@@ -569,11 +760,13 @@ def main():
               + (f" (province={args.province})" if args.province else "")
               + "...", file=sys.stderr)
         pairs_by_yp = load_year_links_pairs(links_dir)
+        centroids = load_presence_centroids(Path(args.centroids_dir))
         before = len(registry)
         registry, tcpuid_year_map, redirects, bridge_lineage, review_rows, skipped_rows = \
             name_bridge_pass(
                 registry, tcpuid_year_map, pid_to_nodes, pairs_by_yp,
                 restrict_province=args.province,
+                centroids=centroids,
             )
         print(f"  Bridge merges: {len(redirects)} chains subsumed "
               f"({before} → {len(registry)} chains)", file=sys.stderr)
@@ -585,7 +778,11 @@ def main():
     # Step 3: Build lineage from CONTAINS/WITHIN
     print(f"\nBuilding lineage relationships...", file=sys.stderr)
     lineage = build_lineage(lineage_links, tcpuid_year_map)
-    lineage.extend(bridge_lineage)
+    # BRIDGE_NAME_MATCH edges are NOT appended to place_lineage.csv: their
+    # :START_ID is the subsumed chain id, which is deleted from the registry
+    # in the same pass — every such edge dangles. The old→new mapping already
+    # lives in place_chain_redirects.csv; the edges go to their own file
+    # below purely for audit.
 
     # Step 4: Write outputs
     print(f"\nWriting outputs to {out_dir}/...", file=sys.stderr)
@@ -662,6 +859,25 @@ def main():
     skipped_cols = ["norm_name", "province", "n_members", "reason", "members"]
     pd.DataFrame(skipped_rows, columns=skipped_cols).to_csv(
         out_dir / "place_chain_bridge_skipped.csv", index=False)
+
+    # SAME_AS links rescued from the ambiguous_* files (spatially identical
+    # polygons whose fuzzy name similarity fell below the linker's gate) —
+    # full audit trail for curators.
+    rescued_cols = ["tcpuid_from", "year_from", "name_from",
+                     "tcpuid_to", "year_to", "name_to",
+                     "province", "iou", "name_similarity"]
+    pd.DataFrame(rescued_rows, columns=rescued_cols).to_csv(
+        out_dir / "same_as_rescued.csv", index=False)
+    print(f"  same_as_rescued.csv: {len(rescued_rows)} SAME_AS links rescued "
+          f"from ambiguous files", file=sys.stderr)
+
+    # BRIDGE_NAME_MATCH audit edges (subsumed → winner). Kept out of
+    # place_lineage.csv because the subsumed ids no longer exist as nodes.
+    bridge_cols = ["lineage_type", ":START_ID", ":END_ID", "change_year:int", ":TYPE"]
+    pd.DataFrame(bridge_lineage, columns=bridge_cols).to_csv(
+        out_dir / "place_bridge_lineage.csv", index=False)
+    print(f"  place_bridge_lineage.csv: {len(bridge_lineage)} bridge audit edges",
+          file=sys.stderr)
     if review_rows or skipped_rows:
         print(f"  place_chain_bridge_review.csv: {len(review_rows)} medium-confidence merges",
               file=sys.stderr)
