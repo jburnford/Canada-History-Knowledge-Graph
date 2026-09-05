@@ -17,6 +17,12 @@ unchanged data edition. Original province values remain intact in source rows;
 navigation trims whitespace, recognizes PEI as PE, and does not mint province
 pages from country codes or unevaluated spreadsheet formulas.
 
+`make rdf-site-wikidata` rebuilds the external-link assessment and refreshes
+continuity-group pages, About and data downloads in the existing preview. It
+requires unchanged source databases, published URL inventory, boundaries,
+continuity groups and source bindings. Refreshes update the preview in place;
+publication still requires the complete validation below.
+
 The output is `data_quality/rdf_site/`. A build first writes a fresh sibling
 directory, then replaces the previous completed preview. The preceding completed
 build is retained as `data_quality/rdf_site.previous/`. Failed builds leave the
@@ -55,6 +61,43 @@ The source RDF currently represents source statements. The website also exposes
 the revised geographic and identity assessments as **qualified supplemental
 evidence**. It does not claim those assessment CSVs are already assertions in the
 source RDF, or turn their candidate map links into `sameAs` relationships.
+
+## Wikidata reference links
+
+Established links remain usable without requiring individual human review.
+The assessment carries forward cached CSD, district and presence verification,
+as well as earlier curated corrections for retained identities. Confirmations
+in `data/wikidata_link_confirmations.csv` apply to an exact unit/QID pair.
+They do not propagate automatically to groups split from an earlier identifier.
+
+Automated checks use census names, cached entity types and descriptions, and
+available census centroids attached to earlier verified matches. Historical
+spelling variants and aliases are retained. A different name within 10 km of
+an earlier verified census location can retain an established reference link;
+the name difference stays in its evidence metadata. This is contextual support,
+not proof of identity. Inherited matches more than 50 km from every available
+verified census location are flagged. These are comparisons of census-area
+centroids, not a new live Wikidata-coordinate verification. Large or changing
+areas can need clarification even when their link is correct.
+
+Other concrete flags include incompatible township/settlement types, conflicting
+provincial context, unsupported different names, explicit later founding dates,
+and unresolved warnings from earlier verification. Municipal incorporation after
+a census does not by itself conflict with an older settlement. Missing metadata
+is recorded as an evidence gap and does not create a review requirement.
+
+The downloadable `wikidata_associations.csv` records acceptance, basis, detailed
+evidence, gaps and conflict reasons. `wikidata_review_queue.csv` contains only
+flagged associations. `wikidata_qa_sample.csv` selects up to three accepted links
+per acceptance-status/province stratum using a stable unit/QID hash. Sampling
+supports ongoing QA; it is not a publication gate or a claim that every link
+has been reviewed. Input checksums and counts are in the identity manifest.
+
+Accepted links appear under **Wikidata**, with the linked entity's label and
+available type. Flagged links remain visible with a specific plain-language
+explanation. Both HTML and downloads distinguish reference-link acceptance
+from asserting `owl:sameAs` for a census representation; `identity_asserted`
+remains false. The source-cell RDF and statistics are unaffected.
 
 ## Retrieval contract
 

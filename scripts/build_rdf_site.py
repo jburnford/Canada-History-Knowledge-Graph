@@ -25,6 +25,7 @@ from urllib.parse import quote
 
 from _config import CONFIG, REPO_ROOT
 from _site_urls import BASE, ORIGIN, UrlRegistry, page_file
+from _wikidata_links import REASONS
 
 RDF_BASE = 'http://temp.lincsproject.ca/census/'
 HGIS = RDF_BASE + 'vocab/'
@@ -131,6 +132,28 @@ def cell_html(c):
         esc(c['unit'] or 'Unit unresolved') + '<small>' + esc(c['unit_status']) + '</small>',
         esc(period) + '<small>' + esc(c['reference_period_kind']) + ': ' + esc(c['reference_period_text']) + '</small>'
     ]) + '</tr>'
+
+
+def wikidata_html(associations):
+    """Present accepted reference links plainly; explain only actual conflicts."""
+    accepted, review = [], []
+    for e in associations:
+        if not e['wikidata_qid']:
+            continue
+        item = link('https://www.wikidata.org/entity/' + e['wikidata_qid'], e['wikidata_label'] or e['wikidata_qid'])
+        if e.get('external_type_labels'):
+            item += ' — ' + esc(e['external_type_labels'])
+        if e.get('link_accepted') == 'True':
+            accepted.append(item)
+        elif e.get('mapping_status') == 'review_specific_conflict':
+            reasons = json.loads(e['review_reasons_json'])
+            review.append(item + '<p>' + esc(' '.join(REASONS[r] for r in reasons)) + '</p>')
+        else:
+            raise ValueError('Unassessed Wikidata link; rebuild the identity inventory')
+    body = '<h2>Wikidata</h2>' + listing(accepted) if accepted else ''
+    if review:
+        body += '<h2>Wikidata links needing clarification</h2>' + listing(review)
+    return body
 
 
 class Builder:
@@ -336,7 +359,7 @@ class Builder:
         return gis
 
     def build_maps(self, gis):
-        edges, separations, external, decisions = defaultdict(list), defaultdict(list), defaultdict(list), defaultdict(list)
+        edges, separations, decisions = defaultdict(list), defaultdict(list), defaultdict(list)
         # GIS source IDs are level-specific, and CD IDs already contain a year.
         lookup = {(r['level'], r['source_id'], r['year']): sid for sid, r in self.reps.items()}
         for file in sorted(gis.glob('*_correspondences.csv')):
@@ -353,9 +376,6 @@ class Builder:
         for e in rows(self.identity / 'continuity_decisions.csv'):
             for col, year in [('id_from', 'year_from'), ('id_to', 'year_to')]:
                 decisions[lookup[(e['level'], e[col], e[year])]].append(e)
-        for e in rows(self.identity / 'wikidata_associations.csv'):
-            if e['unit_id']:
-                external[e['unit_id']].append(e)
         for sid, r in self.reps.items():
             path = self.snapshot_urls[sid]
             title = f'{r["name"]} — {r["year"]} census geography ({r["province"]})'
@@ -387,15 +407,21 @@ class Builder:
             body += '<p>' + link(BASE + '/data/', 'Download geographic, continuity and source-binding evidence') + '</p>'
             self.write(path, title, body, 'Census boundary evidence')
             self.province_maps[r['province']].append((r['year'], r['name'], path))
+        self.build_units()
+        print(f'Built {len(self.reps):,} map representations and {len(self.units):,} continuity groups', flush=True)
+
+    def build_units(self):
+        external = defaultdict(list)
+        for e in rows(self.identity / 'wikidata_associations.csv'):
+            if e['unit_id']:
+                external[e['unit_id']].append(e)
         for uid, u in self.units.items():
             path = self.unit_urls[uid]
             body = '<p class="note">This grouping records the current assessment of census continuity. A shared group does not by itself establish a historical municipality or make statistics directly comparable across changed boundaries.</p>'
             body += fields({'Identifier': uid, 'Identity scope': u['identity_scope'], 'Identity basis': u['identity_basis'],
                             'CRM class': u['crm_class'], 'Recorded area separation': u['has_recorded_area_separation'], 'Census years': u['years']})
             body += '<h2>Census representations and source evidence</h2>' + listing(link(self.snapshot_urls[r['snapshot_id']], r['name'] + ' · ' + r['year'] + ' · ' + r['province']) for r in sorted(self.members[uid], key=lambda r: r['year']))
-            if external[uid]:
-                body += '<h2>External referent candidates</h2><p>These Wikidata associations retain their review status. They are not emitted as sameAs assertions.</p>'
-                body += listing(link('https://www.wikidata.org/entity/' + e['wikidata_qid'], e['wikidata_label'] or e['wikidata_qid']) + ' — ' + esc(e['referent_roles'] + '; ' + e['mapping_status'] + '; identity asserted: ' + e['identity_asserted']) for e in external[uid] if e['wikidata_qid'])
+            body += wikidata_html(external[uid])
             body += self.supplements(path)
             old = self.registry.rows.get(path, {})
             if old.get('entity_key', '').startswith('place:'):
@@ -403,7 +429,6 @@ class Builder:
             elif old.get('entity_key', '').startswith('cd:'):
                 body += '<p><strong>HGIS Canada CD ID:</strong> <code>' + esc(uid) + '</code></p>'
             self.write(path, u['canonical_name'] + ' — census continuity group', body, 'Qualified census identity')
-        print(f'Built {len(self.reps):,} map representations and {len(self.units):,} continuity groups', flush=True)
 
     def build_legacy(self):
         for path, old in self.registry.rows.items():
@@ -491,7 +516,7 @@ class Builder:
         about = '''<p>HGIS Canada makes historical census evidence readable by people and retrievable by language models. A useful answer should be traceable to a particular source, reporting unit, worksheet cell and interpretation.</p>
 <h2 id="data-edition">What this edition contains</h2><p>The aggregate census pages and retrieval files use the exact source databases used to export the current national source RDF. Each workbook download preserves the exported RDF bytes. Build checksums identify the database, original workbook and RDF edition.</p>
 <p>The website also presents the revised national census representation and continuity inventories, source-to-map assessments, equal-area boundary intersections and area separations. These are qualified supplemental evidence layers; the source RDF does not assert that each candidate map match is an identity.</p>
-<h2 id="interpretation">How to interpret and cite the data</h2><ul><li>Cite an individual cell link, including the workbook and worksheet position. A source reporting unit is the subject of a reported value.</li><li>Keep reporting geography vintage separate from the reference year of a value. Unresolved years and units remain unresolved.</li><li>Blank cells are missing source values, not zeros. Text cells require interpretation. Duplicate variable labels remain distinct column positions.</li><li>Do not add CSD rows, district totals and province totals together. They overlap in reporting scope. Repeated statistics across workbooks are separate source statements, not independent populations.</li><li>Name matches and reused source codes do not establish geographic identity. Identifier/context conflicts and survey designations remain visible.</li><li>Census continuity is qualified evidence. A polygon overlap is not proof of municipal succession. Area fractions are not population fractions; no population apportionment has been performed.</li><li>Wikidata associations are candidates with referent roles and review status, not automatic sameAs links.</li></ul>
+<h2 id="interpretation">How to interpret and cite the data</h2><ul><li>Cite an individual cell link, including the workbook and worksheet position. A source reporting unit is the subject of a reported value.</li><li>Keep reporting geography vintage separate from the reference year of a value. Unresolved years and units remain unresolved.</li><li>Blank cells are missing source values, not zeros. Text cells require interpretation. Duplicate variable labels remain distinct column positions.</li><li>Do not add CSD rows, district totals and province totals together. They overlap in reporting scope. Repeated statistics across workbooks are separate source statements, not independent populations.</li><li>Name matches and reused source codes do not establish geographic identity. Identifier/context conflicts and survey designations remain visible.</li><li>Census continuity is qualified evidence. A polygon overlap is not proof of municipal succession. Area fractions are not population fractions; no population apportionment has been performed.</li><li>Established Wikidata links are retained using prior verification and automated checks of names, place types, provincial context and available geographic evidence. Links with specific conflicting evidence are labelled for clarification; missing metadata alone does not require individual review. A reproducible sample supports quality checks. These reference links do not assert that every census boundary is identical to the linked entity; detailed assessments and evidence are available in the data downloads.</li></ul>
 <h2>People and the 1881 census</h2><p>Prominent-person connections come from the LINCS / Dictionary of Canadian Biography layer. A life-event connection or lifespan overlap does not prove census residence. These associations remain on their published pages without automatic redistribution across revised census identities.</p><p>The individual 1881 transcription is a separate Canadian Peoples dataset. Its published resident pages and person anchors are preserved. Aggregate totals and counts of transcribed residents can differ in coverage and must not be substituted for one another.</p>
 <h2>Sources, scope and stewardship</h2><p>The source workbooks and geographic inventories come from the <a href="https://borealisdata.ca/dataverse/canadiansubdivisions">Canadian Peoples / TCP census collection</a>. The individual census deposit is <a href="https://doi.org/10.5683/SP3/FXZEVO">the 1881 Canadian census transcription</a>. Biographical pages cite the <a href="https://www.biographi.ca/">Dictionary of Canadian Biography</a>. Consult the originating deposits for their documentation and reuse terms.</p>
 <p>The <a href="https://github.com/jburnford/Canada-History-Knowledge-Graph">pipeline repository</a> contains the build and assessment methods. The <a href="https://github.com/jburnford/hgiscanada">website repository</a> holds the published static files. Earlier URLs are retained; an address may now explain a revised grouping rather than repeat an unsupported historical series.</p>'''
@@ -502,6 +527,7 @@ class Builder:
         data = '<p>Use the source-cell JSONL files as retrieval records. Each line is self-contained: a source reporting subject, exact RDF cell identifier, citation URL, workbook checksum, label, reporting geography vintage, variable definition, reference-period status, unit status and original value.</p><p><code>numeric_value</code> retains the staged lexical value; <code>rdf_decimal</code> is the exact decimal string used in the RDF. For blank and text records, <code>rdf_decimal</code> is null. Null years must not be replaced by census vintage.</p><p>Chunk by source row or cell. Retrieve the row context along with each cell, preserve qualifications, and cite the <code>citation_url</code>. Do not join a cell to a map using <code>source_code</code> alone. Candidate map matches are deliberately kept outside the cell assertion.</p>'
         data += '<h2>Aggregate source data</h2>' + listing(link(source_path(s['source_key']) + 'cells.jsonl.gz', s['source_key'] + ' — retrieval cells') + ' · ' + link(source_path(s['source_key']) + 'source.nt.gz', 'RDF') for s in self.manifest['sources'])
         data += '<h2>Qualified geographic and identity evidence</h2><p>These files retain assessment methods and statuses. Same-year topology intersections are not a boundary-adjacency network. Cross-year intersections do not assert historical succession.</p>' + listing(downloads)
+        data += '<h2>Wikidata reference links</h2><p>In <code>wikidata_associations.csv</code>, <code>link_accepted</code> identifies retained reference links. The acceptance basis, verification evidence and evidence gaps explain each assessment. Only specific conflicting evidence creates a review flag, with reasons in <code>review_reasons_json</code>. The review queue contains those flagged links; the QA sample supports periodic checks of accepted links. Link acceptance does not assert identical census boundaries or transfer statistics to a Wikidata entity.</p>'
         data += '<h2>Edition and dataset boundaries</h2><p>' + link(BASE + '/data/build-manifest.json', 'Build manifest and SHA-256 checksums') + ' · ' + link(BASE + '/about/', 'Interpretation and original sources') + '</p><p>The preserved 1881 resident pages and biographical tables are separate retrieval sources. They are not included in the aggregate-cell JSONL distributions.</p>'
         self.write(BASE + '/data/', 'Data for retrieval and RAG', data, 'Machine-readable evidence')
         (self.out / 'llms.txt').write_text('# HGIS Canada\n\nCitable Canadian census source evidence, 1851–1921.\n\n'
@@ -547,7 +573,7 @@ class Builder:
         (self.out / '.site-build-urls.json').write_text(dump(sorted(self.handled)) + '\n')
         print(json.dumps(self.manifest['totals'], indent=2), flush=True)
 
-    def refresh_editorial(self):
+    def refresh_editorial(self, wikidata=False):
         """Refresh introductions/indexes without rerendering unchanged cells."""
         from _site_urls import sitemap_paths
         self.manifest = json.loads((self.out / 'data/build-manifest.json').read_text())
@@ -555,8 +581,9 @@ class Builder:
             raise ValueError('Source RDF edition changed; run a full build')
         if self.manifest['datasets']['residents_1881']['url_inventory_sha256'] != sha(REPO_ROOT / 'data/published_site_urls.csv'):
             raise ValueError('Publication baseline changed; run a full build')
+        permitted = {'lod_identity/' + name for name in ['wikidata_associations.csv', 'wikidata_review_queue.csv', 'wikidata_qa_sample.csv', 'manifest.json']} if wikidata else set()
         for rel, expected in self.manifest['supplemental_inputs'].items():
-            if sha(REPO_ROOT / 'data_quality' / rel) != expected:
+            if rel not in permitted and sha(REPO_ROOT / 'data_quality' / rel) != expected:
                 raise ValueError('Supplemental evidence changed; run a full build')
         for e in self.manifest['sources']:
             db_path = self.sources / e['source_key'] / 'source_observations.sqlite'
@@ -571,10 +598,14 @@ class Builder:
         self.indexed = sitemap_paths(self.out)
         editorial = {p for p in self.handled if p in {BASE + '/', BASE + '/about/', BASE + '/data/'}
                      or (p.startswith(BASE + '/places/') and p.count('/') == 4)}
-        for path in editorial:
-            page_file(self.out, path).unlink()
-        self.handled.difference_update(editorial)
-        self.indexed.difference_update(editorial)
+        refreshed = editorial | (set(self.unit_urls.values()) if wikidata else set())
+        self.handled.difference_update(refreshed)
+        self.indexed.difference_update(refreshed)
+        if wikidata:
+            self.copy_evidence()
+            self.build_units()
+            self.manifest['wikidata_generator_sha256'] = sha(Path(__file__))
+            self.manifest['wikidata_policy_sha256'] = sha(REPO_ROOT / 'scripts/_wikidata_links.py')
         self.build_editorial()
         self.manifest['editorial_generator_sha256'] = sha(Path(__file__))
         self.finish()
@@ -587,15 +618,17 @@ def main():
     ap.add_argument('--identity', type=Path, default=REPO_ROOT / 'data_quality/lod_identity')
     ap.add_argument('--bindings', type=Path, default=REPO_ROOT / 'data_quality/lod_source_bindings')
     ap.add_argument('--published', type=Path, default=CONFIG.hgiscanada_repo)
-    ap.add_argument('--editorial-only', action='store_true')
+    refresh = ap.add_mutually_exclusive_group()
+    refresh.add_argument('--editorial-only', action='store_true')
+    refresh.add_argument('--wikidata-only', action='store_true', help='Refresh Wikidata assessments, unit pages and introductions; require unchanged census and geographic inputs')
     args = ap.parse_args()
     target = args.out.resolve()
     if target in {args.published.resolve(), (REPO_ROOT / 'rag_site').resolve()}:
         raise ValueError('Use an isolated RDF-site output, not the publication or legacy build.')
     if target.exists() and not (target / 'data/build-manifest.json').is_file():
         raise ValueError('Refusing to replace a directory without an RDF-site build manifest')
-    if args.editorial_only:
-        Builder(target, args.sources, args.identity, args.bindings, args.published).refresh_editorial()
+    if args.editorial_only or args.wikidata_only:
+        Builder(target, args.sources, args.identity, args.bindings, args.published).refresh_editorial(wikidata=args.wikidata_only)
         return
     target.parent.mkdir(parents=True, exist_ok=True)
     staging = Path(tempfile.mkdtemp(prefix=target.name + '.building-', dir=target.parent))

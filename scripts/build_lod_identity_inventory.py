@@ -17,6 +17,7 @@ import pandas as pd
 
 from _config import REPO_ROOT
 from _normalize import normalize_for_match, suffix_tier
+from _wikidata_links import assess_all, sample_key, POLICY_VERSION
 
 YEARS = list(range(1851, 1922, 10))
 
@@ -254,16 +255,30 @@ def main():
         mappings, on='legacy_unit_id', how='inner', validate='many_to_one')
     mapped['external_type_labels'] = mapped.wikidata_qid.map(lambda q: '; '.join(sorted(by_qid[q] - {''})))
     mapped['referent_roles'] = mapped.external_type_labels.map(external_roles)
-    mapped['mapping_status'] = 'candidate_association_referent_review'
-    mapped.loc[mapped.is_coverage_record, 'mapping_status'] = 'coverage_record_association_not_applied'
-    mapped['identity_asserted'] = False
+    assessments, assessment_inputs = assess_all(mapped, members, REPO_ROOT)
+    inputs |= assessment_inputs
+    mapped = pd.DataFrame(assessments)
     mapped.to_csv(args.out / 'wikidata_associations.csv', index=False)
+    review = mapped[mapped.mapping_status.eq('review_specific_conflict')]
+    review.to_csv(args.out / 'wikidata_review_queue.csv', index=False)
+    # A bounded, reproducible sample supports QA without requiring individual
+    # review of every accepted link. Include each acceptance basis and province.
+    provinces = members.drop_duplicates('unit_id').set_index('unit_id').province.to_dict()
+    strata = defaultdict(list)
+    for row in mapped[mapped.link_accepted].to_dict('records'):
+        strata[(row['mapping_status'], provinces.get(row['unit_id'], ''))].append(row)
+    sample = [r for key in sorted(strata) for r in sorted(strata[key], key=sample_key)[:3]]
+    pd.DataFrame(sample, columns=mapped.columns).to_csv(args.out / 'wikidata_qa_sample.csv', index=False)
     validation = dict(representations=len(members), units=len(units),
                       coverage_records=int(members.is_coverage_record.sum()),
                       duplicate_snapshot_ids=int(members.snapshot_id.duplicated().sum()),
                       missing_identity_subjects=int((~members.is_coverage_record & members.unit_id.eq('')).sum()),
                       legacy_members_not_in_gis=sum(len(f) for f in missing),
                       wikidata_associations=len(mapped),
+                      wikidata_link_policy=POLICY_VERSION,
+                      wikidata_link_statuses=dict(Counter(mapped.mapping_status)),
+                      wikidata_conflict_reasons=dict(Counter(reason for raw in review.review_reasons_json for reason in json.loads(raw))),
+                      wikidata_qa_sample=len(sample),
                       reused_legacy_unit_ids=int(units.reused_legacy_identifier.sum()),
                       boundary_redistribution_contributions=len(separations),
                       continuity_decisions=dict(Counter(pd.concat(decisions).decision)),

@@ -47,7 +47,7 @@ all: rdf-site
 
 site: rdf-site
 
-.PHONY: rdf-site rdf-site-check rdf-site-test rdf-site-serve rdf-site-editorial legacy-site
+.PHONY: rdf-site rdf-site-check rdf-site-test rdf-site-serve rdf-site-editorial rdf-site-wikidata legacy-site
 RDF_SITE ?= data_quality/rdf_site
 
 # Source RDF must already be exported/validated. The builder rejects changed
@@ -56,7 +56,7 @@ rdf-site: scripts/build_rdf_site.py scripts/_site_urls.py scripts/_config.py dat
 	$(PYTHON) scripts/build_rdf_site.py --out $(RDF_SITE)
 
 rdf-site-test:
-	$(PYTHON) -m pytest -q tests/test_rdf_site.py tests/test_site_urls.py
+	$(PYTHON) -m pytest -q tests/test_rdf_site.py tests/test_site_urls.py tests/test_wikidata_links.py
 
 rdf-site-serve: scripts/serve_rdf_site.py
 	$(PYTHON) scripts/serve_rdf_site.py --site $(RDF_SITE)
@@ -64,9 +64,15 @@ rdf-site-serve: scripts/serve_rdf_site.py
 rdf-site-editorial: scripts/build_rdf_site.py
 	$(PYTHON) scripts/build_rdf_site.py --out $(RDF_SITE) --editorial-only
 
+# Refresh external-link assessments while requiring unchanged census data,
+# boundaries and continuity groups. Full builds use the same renderer.
+rdf-site-wikidata: lod-identities scripts/build_rdf_site.py scripts/_wikidata_links.py
+	$(PYTHON) scripts/build_rdf_site.py --out $(RDF_SITE) --wikidata-only
+
 # Deliberately validate the artifact being reviewed, without silently rebuilding
 # it at deployment time. Full source reconciliation includes the published RDF.
-rdf-site-check: rdf-site-test scripts/validate_rdf_site.py scripts/check_rdf_site_links.py scripts/site_url_inventory.py
+rdf-site-check: rdf-site-test scripts/validate_rdf_site.py scripts/check_rdf_site_links.py scripts/site_url_inventory.py scripts/check_wikidata_links.py
+	$(PYTHON) scripts/check_wikidata_links.py --site $(RDF_SITE)
 	$(PYTHON) scripts/validate_rdf_site.py --site $(RDF_SITE) --rdf-cache data_quality/rdf_site_validation.json
 	$(PYTHON) scripts/site_url_inventory.py check --site $(RDF_SITE) --require-build-manifest --report data_quality/rdf_site_urls_validation.json
 	$(PYTHON) scripts/check_rdf_site_links.py --site $(RDF_SITE)
