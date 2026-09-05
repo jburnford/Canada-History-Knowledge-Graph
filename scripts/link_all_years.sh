@@ -1,11 +1,11 @@
 #!/bin/bash
 # Link all consecutive census years using spatial overlap analysis
 
-set -e
+set -euo pipefail
 
 # GDB path from config.toml (override with env var GDB if needed).
 GDB="${GDB:-$(python -c 'from scripts._config import CONFIG; print(CONFIG.gdb_path)')}"
-OUT_DIR="year_links_output"
+OUT_DIR="${OUT_DIR:-year_links_output}"
 SCRIPT="scripts/link_csd_years_spatial_v2.py"
 
 # Year pairs to process
@@ -33,6 +33,7 @@ for pair in "${YEAR_PAIRS[@]}"; do
         --gdb "$GDB" \
         --year-from "$year_from" \
         --year-to "$year_to" \
+        --crs "${GIS_CRS:-EPSG:3347}" \
         --out "$OUT_DIR"
 
     echo ""

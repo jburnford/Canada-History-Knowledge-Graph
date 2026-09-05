@@ -3,18 +3,24 @@
 CIDOC-CRM linked-open-data for the Canadian Census of Population, 1851–1921.
 Static site at **[jimclifford.ca/hgiscanada](https://jimclifford.ca/hgiscanada/)**.
 
-What's in the graph:
-- ~13,000 persistent **Census Subdivisions** (CSDs) with persistent IDs
-  spanning the 1851–1921 census series — chained via spatial overlap so a
-  community appears as one entity across years even when its name shifts.
-- 524 persistent **Census Divisions** (counties/regions) with
-  SPLIT_FROM / MERGED_INTO lineage edges.
-- ~1.4 million **measurements** (population, demographics, agriculture,
-  buildings, religion, ethnicity) modelled as CIDOC-CRM E16_Measurement.
-- ~5,900 **Dictionary of Canadian Biography** persons linked to the CSDs
-  where they were born, died, or were buried (via Wikidata + spatial join).
-- **Wikidata grounding** for ~50% of CDs and most CSDs; minted persistent
-  URIs at `jimclifford.ca/hgiscanada/places/...` for the rest.
+The current RDF-aligned website publishes:
+
+- **47 source workbooks**, **77,856 reporting rows**, and **1,783,554 preserved
+  statistical cells**, including **1,138,818 numeric observations**.
+- Source-cell citations, original values, definitions, units, reference-period
+  qualifications and provenance. Numeric RDF assertions use CRM E13/E54 and the
+  RDF Data Cube; missing or textual cells remain separate evidence records.
+- **22,522 census map representations** and **13,401 qualified continuity
+  groups**, with geographic assessments, area intersections and separations.
+  Candidate matches do not become historical-identity or Wikidata sameAs claims.
+- Preserved published addresses, LINCS / Dictionary of Canadian Biography
+  connections, and the separate **1881 individual census** pages and anchors.
+
+Read [the website build and retrieval contract](docs/RDF_WEBSITE_BUILD.md) and
+[the source-table rebuild](docs/LOD_SOURCE_TABLE_REBUILD.md). The website reads
+the same source databases as the current source RDF; the older Kuzu pipeline is
+retained for comparison. Geographic/identity assessments are qualified
+supplemental layers, not unqualified assertions in the source RDF.
 
 ## Quickstart
 
@@ -34,23 +40,28 @@ cp config.toml config.local.toml
 # Edit config.local.toml: set [paths].data_root to where you unpacked the
 # TCP_CANADA_CSD_202306.gdb + per-year Excel folders. Set lincs_ttl/lincs_json
 # to your LINCS dumps. Set hgiscanada_repo to your local clone of the
-# jburnford/hgiscanada GitHub Pages repo (only needed for `make deploy`).
+# jburnford/hgiscanada repository (needed to preserve published people pages).
 $EDITOR config.local.toml
 
 # 3. Verify config resolves
 make config-check
 
-# 4. Build the site (~15 min on a warm rebuild; ~2 hours from a clean state)
-make all
+# 4. With current, validated RDF/identity/binding staging (see build guide):
+make rdf-site
+make rdf-site-check
 
-# 5. Inspect locally (rag_site/index.html)
-python3 -m http.server --directory rag_site 8000
+# 5. Inspect locally at http://127.0.0.1:8000/hgiscanada/
+make rdf-site-serve
 
 # 6. Deploy to GitHub Pages
 make deploy
 ```
 
-## Pipeline
+## Legacy pipeline
+
+The diagram below documents the retained Kuzu/CSV pipeline. The current default
+website build is `make rdf-site`; its inputs and checks are documented in the
+[build guide](docs/RDF_WEBSITE_BUILD.md).
 
 The `Makefile` is the single source of truth for build order. Run
 `make -n all` to print the dependency-aware command sequence.
@@ -89,18 +100,20 @@ LINCS TTL  ────► parse_lincs_dcb.py ─┐
                                                 └── sitemap.xml
                                   │
                                   ▼
-                            make deploy  ──► hgiscanada repo (GitHub Pages)
+                            Legacy comparison output (not the deployment target)
 ```
 
 Make targets:
 
 | Target | What it does |
 |--------|--------------|
-| `make all` | Full rebuild from registries + GDB + Excel + LINCS → rag_site/ |
-| `make site` | Render rag_site/ only (skips upstream rebuilds) |
+| `make all` / `make site` | Build the RDF-aligned website in `data_quality/rdf_site/` |
+| `make legacy-site` | Build the older Kuzu-based site for comparison |
+| `make rdf-site-check` | Validate RDF, rendered cells, retrieval records, URLs and links |
+| `make rdf-site-editorial` | Refresh About, home and province indexes for the unchanged data edition |
 | `make dcb` | Refresh DCB person links only |
 | `make link` | Re-run spatial linking (~70 min, needs `geo` env + GDB) |
-| `make deploy` | rsync rag_site/ to hgiscanada repo and push |
+| `make deploy` | Validate `data_quality/rdf_site/`, sync to the website repository and push |
 | `make clean` | Drop generated outputs (keeps registries) |
 | `make distclean` | Drop everything regenerable |
 | `make config-check` | Print resolved paths from config.toml |
@@ -124,7 +137,8 @@ Make targets:
 ├── wikidata_grounding/        # Wikidata match audit + sitelinks
 ├── data/                      # DCB pipeline outputs + geocoder cache
 ├── pilot/on_kuzu/             # KuzuDB / Ladybug pilot (Ontario)
-├── rag_site/                  # Generated static site (gitignored)
+├── data_quality/rdf_site/     # Current RDF-aligned website (gitignored)
+├── rag_site/                  # Legacy comparison site (gitignored)
 └── sandbox/                   # One-off analysis artifacts (gitignored)
 ```
 
@@ -163,8 +177,15 @@ for coordinate fallbacks where Wikidata coverage is thin.
 
 ## Modelling
 
-The graph follows **CIDOC-CRM v7.3.1** with the LINCS application profile.
-Key pattern:
+The current source graph distinguishes source reporting units, row/cell evidence,
+numeric quantities and reported-attribute assignments. Numeric cells are also
+RDF Data Cube observations. Reference periods, units, missingness and provenance
+remain explicit; geographic candidates do not change the assertion subject.
+See [the rebuild model](docs/LOD_REBUILD_PLAN.md) and
+[identity/reporting migration](docs/LOD_IDENTITY_AND_REPORTING_MIGRATION.md).
+
+The following patterns document the **legacy graph**, retained for comparison;
+they are not the current source-RDF contract:
 
 - `E53_Place` (chain id) — `P166_was_a_presence_of` ← `E93_Presence` (year-specific) — `P164_is_temporally_specified_by` → `E4_Period`
 - `E93_Presence` — `P10_falls_within` → `E93_Presence` (CSD-in-CD per year)

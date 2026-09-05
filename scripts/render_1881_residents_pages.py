@@ -675,10 +675,10 @@ def render_chain(
     # All residents of this chain are in residents_df. Manifest gives URLs.
     # Take TCPUID + slug from manifest (consistent with build step).
     sample = manifest_df.iloc[0]
-    csd_url = sample["csd_url"]            # /hgiscanada/places/.../residents-page-base/.. wait
-    # csd_url in manifest is the *parent CSD* presence URL (no /residents/);
-    # the residents overview is csd_url + 'residents/'.
-    overview_url = f"{csd_url}residents/"
+    csd_url = sample["csd_url"]
+    # Resident addresses are independently pinned: the parent census page can
+    # be disambiguated without moving published person citation anchors.
+    overview_url = sample["leaf_url"].split("/residents/", 1)[0] + "/residents/"
     overview_canonical = f"{site_url}{overview_url}"
     csd_iri = f"{site_url}{csd_url}"
 
@@ -1002,7 +1002,7 @@ def main() -> int:
         from datetime import date
         today = date.today().isoformat()
         # All distinct overview URLs from the manifest.
-        overview_urls = (manifest_all["csd_url"] + "residents/").drop_duplicates()
+        overview_urls = (manifest_all["leaf_url"].str.split("/residents/", n=1).str[0] + "/residents/").drop_duplicates()
         overview_urls = sorted(overview_urls.tolist())
         xml = sitemap_path.read_text()
         if "/residents/</loc>" in xml:

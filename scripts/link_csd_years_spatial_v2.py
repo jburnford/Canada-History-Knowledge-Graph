@@ -14,64 +14,19 @@ Uses only GDB polygon layers - no Excel files needed.
 import geopandas as gpd
 import pandas as pd
 from pathlib import Path
-from shapely.geometry import Polygon, MultiPolygon
-from shapely import make_valid
+from shapely.geometry import Polygon
 from rapidfuzz import fuzz
 import argparse
 import sys
 from typing import Tuple, List, Dict
 
 
-def load_year_layer(gdb_path: str, year: int) -> gpd.GeoDataFrame:
-    """Load CSD layer for a specific year from FileGDB.
-
-    The 1911 GDB exposes three CSD layers: the base (CANADA_1911_CSD, with
-    ward-level granularity), V1T1, and V2T2 (which dissolves wards into the
-    parent electoral district). We use the base layer everywhere — V2T2's
-    dissolved aggregation hid Toronto's ward-level CSDs and surfaced as the
-    "Toronto Centre 1911 has 1 CSD" bug. Trade-off: V2T2 religion-table
-    measurements published at electoral-district level no longer link cleanly
-    to ward-level CSDs; that's documented in DATA_QUALITY_TODOS.md."""
-    layer_name = f"CANADA_{year}_CSD"
-    print(f"Loading {layer_name}...", file=sys.stderr)
-
-    gdf = gpd.read_file(gdb_path, layer=layer_name)
-
-    # Standardize column names (handle both Name_ and NAME_ variants)
-    rename_map = {}
-    for col in gdf.columns:
-        # V2T2 variant uses V2t2_UID_1911 instead of TCPUID_CSD_1911
-        if col == f'TCPUID_CSD_{year}' or col == f'V2t2_UID_{year}':
-            rename_map[col] = 'tcpuid'
-        elif col == f'PR_{year}':
-            rename_map[col] = 'pr'
-        elif col in [f'Name_CD_{year}', f'NAME_CD_{year}']:
-            rename_map[col] = 'cd_name'
-        elif col in [f'Name_CSD_{year}', f'NAME_CSD_{year}']:
-            rename_map[col] = 'csd_name'
-
-    gdf = gdf.rename(columns=rename_map)
-
-    # Keep only needed columns
-    cols_to_keep = ['tcpuid', 'pr', 'cd_name', 'csd_name', 'geometry']
-    gdf = gdf[cols_to_keep]
-
-    # Validate geometries
-    invalid_mask = ~gdf.is_valid
-    if invalid_mask.any():
-        print(f"  Fixing {invalid_mask.sum()} invalid geometries...", file=sys.stderr)
-        gdf.loc[invalid_mask, 'geometry'] = gdf.loc[invalid_mask, 'geometry'].apply(make_valid)
-
-    # Reproject to EPSG:3347 for accurate area calculations
-    if gdf.crs is None or gdf.crs.to_epsg() != 3347:
-        print(f"  Reprojecting to EPSG:3347...", file=sys.stderr)
-        gdf = gdf.to_crs(epsg=3347)
-
-    # Calculate areas
-    gdf['area'] = gdf.geometry.area
-
-    print(f"  Loaded {len(gdf)} CSDs", file=sys.stderr)
-    return gdf
+def load_year_layer(gdb_path: str, year: int, crs="EPSG:3347") -> gpd.GeoDataFrame:
+    """Load the base CSD layer using the shared audited preparation rules."""
+    from _gis import load_csd_layer
+    frame, audit = load_csd_layer(gdb_path, year, crs)
+    print(f"Loaded {year}: {len(frame)} CSDs; {len(audit)} preparation actions", file=sys.stderr)
+    return frame
 
 
 def compute_name_similarity(name1: str, name2: str, cd1: str, cd2: str) -> float:
@@ -123,7 +78,7 @@ def analyze_overlap(
         if inter_area == 0:
             return 0.0, 0.0, 0.0
 
-        union_area = geom1.union(geom2).area
+        union_area = area1 + area2 - inter_area
         iou = inter_area / union_area if union_area > 0 else 0.0
 
         frac1 = inter_area / area1 if area1 > 0 else 0.0
@@ -132,8 +87,7 @@ def analyze_overlap(
         return iou, frac1, frac2
 
     except Exception as e:
-        print(f"Warning: Geometry error - {e}", file=sys.stderr)
-        return 0.0, 0.0, 0.0
+        raise ValueError("Unable to calculate polygon overlap; no link output is safe") from e
 
 
 def classify_relationship(
@@ -150,15 +104,15 @@ def classify_relationship(
 
     Returns one of: SAME_AS, WITHIN, CONTAINS, OVERLAPS, or None
     """
-    # High IoU + high coverage = same CSD
+    # Legacy SAME_AS means approximately equal mapped extent, not identity.
     if iou >= iou_same_thresh and min(frac_from, frac_to) >= frac_same_thresh:
         return "SAME_AS"
 
-    # From CSD is mostly within To CSD (e.g., city split from larger area)
+    # Earlier CSD is within later CSD: spatial evidence for expansion/merger.
     if frac_from >= 0.95 and frac_to < 0.95:
         return "WITHIN"
 
-    # To CSD is mostly within From CSD (e.g., smaller CSD absorbed)
+    # Later CSD is within earlier CSD: spatial evidence for contraction/split.
     if frac_to >= 0.95 and frac_from < 0.95:
         return "CONTAINS"
 
@@ -169,112 +123,55 @@ def classify_relationship(
     return None
 
 
-def link_year_pair(
-    gdf_from: gpd.GeoDataFrame,
-    gdf_to: gpd.GeoDataFrame,
-    year_from: int,
-    year_to: int,
-    iou_same: float = 0.98,
-    frac_same: float = 0.98,
-    iou_overlap: float = 0.30,
-    name_sim_thresh: float = 80.0
-) -> Tuple[List[Dict], List[Dict]]:
+def all_link_records(gdf_from, gdf_to, year_from, year_to,
+                     iou_same=.98, frac_same=.98, iou_overlap=.30):
+    """Keep every positive spatial correspondence, before legacy filtering."""
+    from _gis import overlap_table
+    records = []
+    for row in overlap_table(gdf_from, gdf_to).itertuples():
+        a, b = gdf_from.iloc[row.from_index], gdf_to.iloc[row.to_index]
+        name_sim = compute_name_similarity(a.csd_name, b.csd_name, a.cd_name, b.cd_name)
+        relation = classify_relationship(row.iou, row.frac_from, row.frac_to,
+                                         name_sim, iou_same, frac_same, iou_overlap)
+        record = {}
+        for year, item in [(year_from, a), (year_to, b)]:
+            for field in ["tcpuid", "csd_name", "cd_name", "pr"]:
+                record[f"{field}_{year}"] = item[field]
+        record.update(relationship=relation or "LOW_OVERLAP", iou=row.iou,
+                      frac_from=row.frac_from, frac_to=row.frac_to,
+                      name_similarity=name_sim, overlap_sqm=row.overlap_sqm,
+                      area_from_sqm=row.area_from_sqm, area_to_sqm=row.area_to_sqm,
+                      area_crs=gdf_from.crs.to_string(),
+                      evidence_kind="computed_polygon_intersection",
+                      historical_succession_verified=False,
+                      involves_no_data=(a.csd_name.upper() == "NO DATA" or b.csd_name.upper() == "NO DATA"))
+        records.append(record)
+    return records
+
+
+def link_year_pair(gdf_from, gdf_to, year_from, year_to,
+                   iou_same=.98, frac_same=.98, iou_overlap=.30,
+                   name_sim_thresh=80., *, records=None):
+    """Legacy candidate partitions; unfiltered evidence is written separately.
+
+    SAME_AS is a legacy geometric category, not verified historical identity.
     """
-    Link CSDs between two years using spatial overlap.
-
-    Returns:
-        (high_confidence_links, ambiguous_links)
-    """
-    print(f"\nLinking {year_from} → {year_to}", file=sys.stderr)
-    print(f"  From: {len(gdf_from)} CSDs", file=sys.stderr)
-    print(f"  To:   {len(gdf_to)} CSDs", file=sys.stderr)
-
-    # Create spatial index for efficient lookups
-    print("  Building spatial index...", file=sys.stderr)
-    sindex = gdf_to.sindex
-
-    high_confidence = []
-    ambiguous = []
-
-    # Process each FROM CSD
-    print("  Computing overlaps...", file=sys.stderr)
-    for from_idx, from_row in gdf_from.iterrows():
-        from_geom = from_row['geometry']
-        from_area = from_row['area']
-
-        # Find potential overlaps using spatial index
-        possible_matches_idx = list(sindex.intersection(from_geom.bounds))
-
-        if not possible_matches_idx:
+    if records is None:
+        records = all_link_records(gdf_from, gdf_to, year_from, year_to,
+                                   iou_same, frac_same, iou_overlap)
+    high_confidence, ambiguous = [], []
+    for record in records:
+        relation = record["relationship"]
+        if relation == "LOW_OVERLAP":
             continue
-
-        # Check actual overlaps
-        for to_idx in possible_matches_idx:
-            to_row = gdf_to.iloc[to_idx]
-            to_geom = to_row['geometry']
-            to_area = to_row['area']
-
-            # Quick test: do they actually intersect?
-            if not from_geom.intersects(to_geom):
-                continue
-
-            # Compute spatial overlap
-            iou, frac_from, frac_to = analyze_overlap(from_geom, to_geom, from_area, to_area)
-
-            # Compute name similarity
-            name_sim = compute_name_similarity(
-                from_row['csd_name'],
-                to_row['csd_name'],
-                from_row['cd_name'],
-                to_row['cd_name']
-            )
-
-            # Classify relationship
-            rel_type = classify_relationship(iou, frac_from, frac_to, name_sim, iou_same, frac_same, iou_overlap)
-
-            if rel_type is None:
-                continue
-
-            # Build link record
-            link = {
-                f'tcpuid_{year_from}': from_row['tcpuid'],
-                f'csd_name_{year_from}': from_row['csd_name'],
-                f'cd_name_{year_from}': from_row['cd_name'],
-                f'pr_{year_from}': from_row['pr'],
-                f'tcpuid_{year_to}': to_row['tcpuid'],
-                f'csd_name_{year_to}': to_row['csd_name'],
-                f'cd_name_{year_to}': to_row['cd_name'],
-                f'pr_{year_to}': to_row['pr'],
-                'relationship': rel_type,
-                'iou': round(iou, 4),
-                'frac_from': round(frac_from, 4),
-                'frac_to': round(frac_to, 4),
-                'name_similarity': round(name_sim, 2)
-            }
-
-            # Classify as high-confidence or ambiguous
-            if rel_type == "SAME_AS" and name_sim >= name_sim_thresh:
-                high_confidence.append(link)
-            elif rel_type == "SAME_AS":
-                # Spatial match good but name mismatch — OCR damage or a
-                # genuine renaming. Route to ambiguous (never drop): a
-                # spatially identical polygon whose name changed entirely
-                # (name_sim < 60) is exactly the case that must stay
-                # auditable; silently dropping it erased renamed CSDs from
-                # the chain builder's input with no audit trail.
-                ambiguous.append(link)
-            elif rel_type in ["WITHIN", "CONTAINS"]:
-                high_confidence.append(link)
-            elif rel_type == "OVERLAPS":
-                ambiguous.append(link)
-
-        # Progress indicator
-        if (from_idx + 1) % 500 == 0:
-            print(f"  Processed {from_idx + 1}/{len(gdf_from)} CSDs...", file=sys.stderr)
-
-    print(f"  High confidence: {len(high_confidence)}", file=sys.stderr)
-    print(f"  Ambiguous: {len(ambiguous)}", file=sys.stderr)
-
+        if relation in {"WITHIN", "CONTAINS"} or (
+                relation == "SAME_AS" and record["name_similarity"] >= name_sim_thresh):
+            high_confidence.append(record)
+        else:
+            ambiguous.append(record)
+    print(f"Spatial candidates {year_from} → {year_to}: "
+          f"{len(high_confidence)} strong, {len(ambiguous)} ambiguous, "
+          f"{len(records)} total positive overlaps", file=sys.stderr)
     return high_confidence, ambiguous
 
 
@@ -329,6 +226,8 @@ def main():
         help='Name similarity threshold for high-confidence SAME_AS (default: 80.0)'
     )
 
+    parser.add_argument('--crs', default='EPSG:3347',
+                        help='Area CRS: EPSG:3347 for legacy comparison; ESRI:102001 for equal-area evidence')
     args = parser.parse_args()
 
     # Create output directory
@@ -336,10 +235,12 @@ def main():
     out_dir.mkdir(parents=True, exist_ok=True)
 
     # Load year layers
-    gdf_from = load_year_layer(args.gdb, args.year_from)
-    gdf_to = load_year_layer(args.gdb, args.year_to)
+    gdf_from = load_year_layer(args.gdb, args.year_from, args.crs)
+    gdf_to = load_year_layer(args.gdb, args.year_to, args.crs)
 
-    # Compute links
+    # Compute once, retaining the evidence below legacy classification thresholds.
+    records = all_link_records(gdf_from, gdf_to, args.year_from, args.year_to,
+                               args.iou_same, args.frac_same, args.iou_overlap)
     high_conf, ambiguous = link_year_pair(
         gdf_from,
         gdf_to,
@@ -348,7 +249,8 @@ def main():
         args.iou_same,
         args.frac_same,
         args.iou_overlap,
-        args.name_sim_thresh
+        args.name_sim_thresh,
+        records=records,
     )
 
     # Save results
@@ -356,13 +258,18 @@ def main():
     ambiguous_file = out_dir / f"ambiguous_{args.year_from}_{args.year_to}.csv"
     summary_file = out_dir / f"summary_{args.year_from}_{args.year_to}.txt"
 
-    if high_conf:
-        pd.DataFrame(high_conf).to_csv(high_conf_file, index=False)
-        print(f"\nWrote {len(high_conf)} high-confidence links to {high_conf_file}")
-
-    if ambiguous:
-        pd.DataFrame(ambiguous).to_csv(ambiguous_file, index=False)
-        print(f"Wrote {len(ambiguous)} ambiguous links to {ambiguous_file}")
+    columns = [f"{field}_{year}" for year in [args.year_from, args.year_to]
+               for field in ["tcpuid", "csd_name", "cd_name", "pr"]]
+    columns += ["relationship", "iou", "frac_from", "frac_to", "name_similarity",
+                "overlap_sqm", "area_from_sqm", "area_to_sqm", "area_crs",
+                "evidence_kind", "historical_succession_verified", "involves_no_data"]
+    # Always replace empty outputs too, so an earlier run cannot leave stale links.
+    pd.DataFrame(high_conf, columns=columns).to_csv(high_conf_file, index=False)
+    pd.DataFrame(ambiguous, columns=columns).to_csv(ambiguous_file, index=False)
+    pd.DataFrame(records, columns=columns).to_csv(
+        out_dir / f"correspondences_{args.year_from}_{args.year_to}.csv", index=False)
+    for year, frame in [(args.year_from, gdf_from), (args.year_to, gdf_to)]:
+        frame.drop(columns="geometry").to_csv(out_dir / f"csd_inventory_{year}.csv", index=False)
 
     # Write summary
     with open(summary_file, 'w') as f:

@@ -65,80 +65,25 @@ def apply_chain_mapping(cd_gdf: gpd.GeoDataFrame, year: int,
         # Recompute area + centroid from re-dissolved geometry.
         proj = cd_gdf.to_crs("EPSG:3347")
         cd_gdf["area"] = proj.geometry.area
-        wgs = cd_gdf.to_crs("EPSG:4326")
-        cents = wgs.geometry.centroid
+        cents = proj.geometry.centroid.to_crs("EPSG:4326")
         cd_gdf["centroid_lat"] = cents.y
         cd_gdf["centroid_lon"] = cents.x
     return cd_gdf
 
 
 def load_gdb_cd_layer(gdb_path: str, year: int) -> gpd.GeoDataFrame:
-    """
-    Load Census Division layer from GDB for a specific year.
-
-    CDs are aggregated from CSDs, so we need to extract unique CD geometries
-    from the CSD layer by dissolving on CD identifiers.
-    """
-    print(f"  Loading GDB layer for {year}...", file=sys.stderr)
-
-    # Use the base CSD layer for every year. The 1911 GDB also exposes
-    # CANADA_1911_CSD_V1T1 and CANADA_1911_CSD_V2T2 dissolved variants;
-    # V2T2 hides Toronto's ward-level CSDs (collapses 18 rows to 5) and
-    # surfaced as the "Toronto Centre 1911 has 1 CSD" bug on the site.
-    layer_name = f'CANADA_{year}_CSD'
-    gdf = gpd.read_file(gdb_path, layer=layer_name)
-
-    # Standardize column names (columns have year suffixes like Name_CD_1851)
-    cd_col = [col for col in gdf.columns if 'NAME_CD' in col.upper() and 'CSD' not in col.upper()][0]
-    pr_col = [col for col in gdf.columns if col.startswith('PR') or col.startswith('pr')][0]
-
-    gdf = gdf.rename(columns={cd_col: 'cd_name', pr_col: 'pr'})
-
-    # Check required columns
-    required = ['cd_name', 'pr', 'geometry']
-    missing = [col for col in required if col not in gdf.columns]
-    if missing:
-        raise ValueError(f"Missing columns in {year}: {missing}")
-
-    # Strip whitespace from cd_name. The GDB has trailing-space typos in
-    # cd_name for several CD/year combos (1861 Brant, 1881 Provencher,
-    # 1891 Provencher/Champlain/Jacques-Cartier, 1901 Victoria) that, if
-    # left unstripped, dissolve into a SECOND CD record with id like
-    # CD_ON_Brant_ (trailing underscore). Stripping at the source merges
-    # them into the canonical CD. Mirror of link_cd_years_spatial.py.
-    gdf['cd_name'] = gdf['cd_name'].fillna('').str.strip()
-
-    # Fix invalid geometries before dissolving
-    gdf['geometry'] = gdf['geometry'].buffer(0)
-
-    # Dissolve CSDs to create CD polygons
-    print(f"  Dissolving {len(gdf)} CSDs into CD polygons...", file=sys.stderr)
-    try:
-        cd_gdf = gdf.dissolve(by=['cd_name', 'pr'], as_index=False)
-    except Exception as e:
-        print(f"  Warning: Dissolve failed, trying with make_valid...", file=sys.stderr)
-        gdf['geometry'] = gdf['geometry'].make_valid()
-        cd_gdf = gdf.dissolve(by=['cd_name', 'pr'], as_index=False)
-
-    # Calculate area in square meters (use projected CRS for accuracy)
-    cd_gdf_proj = cd_gdf.to_crs('EPSG:3347')  # Statistics Canada Lambert
-    cd_gdf['area'] = cd_gdf_proj.geometry.area
-
-    # Calculate centroids (in WGS84 for lat/lon)
-    cd_gdf_wgs84 = cd_gdf.to_crs('EPSG:4326')
-    centroids = cd_gdf_wgs84.geometry.centroid
-    cd_gdf['centroid_lat'] = centroids.y
-    cd_gdf['centroid_lon'] = centroids.x
-
-    # Count CSDs per CD
-    csd_counts = gdf.groupby(['cd_name', 'pr']).size().reset_index(name='num_csds')
-    cd_gdf = cd_gdf.merge(csd_counts, on=['cd_name', 'pr'])
-
-    # Create CD identifier (matches E53_Place ID format)
-    cd_gdf['cd_id'] = 'CD_' + cd_gdf['pr'] + '_' + cd_gdf['cd_name'].str.replace(' ', '_')
-
-    print(f"  ✓ Found {len(cd_gdf)} unique CDs", file=sys.stderr)
-    return cd_gdf
+    """Build CD presences from the same repaired polygons as temporal links."""
+    from _gis import dissolve_cds, load_csd_layer
+    csds, audit = load_csd_layer(gdb_path, year)
+    frame = dissolve_cds(csds)
+    counts = csds.groupby(["pr", "cd_name"]).size().rename("num_csds")
+    frame = frame.merge(counts, on=["pr", "cd_name"])
+    # Compute centroids in projected space before converting coordinates.
+    centroids = frame.geometry.centroid.to_crs("EPSG:4326")
+    frame["centroid_lat"] = centroids.y
+    frame["centroid_lon"] = centroids.x
+    print(f"Loaded {year}: {len(frame)} CDs; {len(audit)} CSD preparation actions", file=sys.stderr)
+    return frame
 
 
 def extract_e93_cd_presences(gdf: gpd.GeoDataFrame, year: int) -> pd.DataFrame:

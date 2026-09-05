@@ -68,56 +68,11 @@ def load_persistent_place_mapping(places_dir: Path) -> Tuple[dict, pd.DataFrame]
 
 
 def load_year_layer(gdb_path: str, year: int) -> gpd.GeoDataFrame:
-    """Load CSD layer for a specific year from FileGDB.
-
-    1911 has three CSD layers in the GDB: the base (CANADA_1911_CSD, with
-    ward-level granularity — e.g. Toronto Centre has 4 ward-quartier rows),
-    V1T1, and V2T2 (which dissolves wards into the parent electoral district
-    to match V2T2's published-table aggregation). The base layer is the
-    correct one for the persistent-place pipeline; V2T2 hid Toronto's wards
-    and produced 1-CSD CD pages on the rendered site (#1-csd-toronto bug)."""
-    layer_name = f"CANADA_{year}_CSD"
-    print(f"Loading {layer_name}...", file=sys.stderr)
-
-    gdf = gpd.read_file(gdb_path, layer=layer_name)
-
-    # Standardize column names
-    rename_map = {}
-    for col in gdf.columns:
-        if col == f'TCPUID_CSD_{year}' or col == f'V2t2_UID_{year}':
-            rename_map[col] = 'tcpuid'
-        elif col == f'PR_{year}':
-            rename_map[col] = 'pr'
-        elif col in [f'Name_CD_{year}', f'NAME_CD_{year}']:
-            rename_map[col] = 'cd_name'
-        elif col in [f'Name_CSD_{year}', f'NAME_CSD_{year}']:
-            rename_map[col] = 'csd_name'
-
-    gdf = gdf.rename(columns=rename_map)
-    cols_to_keep = ['tcpuid', 'pr', 'cd_name', 'csd_name', 'geometry']
-    gdf = gdf[cols_to_keep]
-
-    # Strip whitespace from names at the source. The GDB has trailing-space
-    # typos in cd_name (e.g. 'Brant ', 'Provencher ') that otherwise mint
-    # ghost CD ids with trailing underscores (CD_ON_Brant_) alongside the
-    # real chains. Mirror of link_cd_years_spatial.py / build_cd_presences.py.
-    gdf['cd_name'] = gdf['cd_name'].fillna('').str.strip()
-    gdf['csd_name'] = gdf['csd_name'].fillna('').str.strip()
-
-    # Validate geometries
-    invalid_mask = ~gdf.is_valid
-    if invalid_mask.any():
-        print(f"  Fixing {invalid_mask.sum()} invalid geometries...", file=sys.stderr)
-        gdf.loc[invalid_mask, 'geometry'] = gdf.loc[invalid_mask, 'geometry'].apply(make_valid)
-
-    # Reproject to EPSG:3347
-    if gdf.crs is None or gdf.crs.to_epsg() != 3347:
-        print(f"  Reprojecting to EPSG:3347...", file=sys.stderr)
-        gdf = gdf.to_crs(epsg=3347)
-
-    gdf['area'] = gdf.geometry.area
-    print(f"  Loaded {len(gdf)} CSDs", file=sys.stderr)
-    return gdf
+    """Use exactly the CSD geometry preparation used for temporal links."""
+    from _gis import load_csd_layer
+    frame, audit = load_csd_layer(gdb_path, year)
+    print(f"Loaded {year}: {len(frame)} CSDs; {len(audit)} preparation actions", file=sys.stderr)
+    return frame
 
 
 def resolve_place_id(tcpuid: str, year: int, mapping: dict, fallback_places: dict,

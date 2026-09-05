@@ -37,6 +37,10 @@ from collections import Counter, defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 
+from _site_urls import presence_url, residents_url, registry as published_url_registry
+from _site_urls import BASE as PUBLISHED_BASE, page_file
+from _site_legacy import write_legacy_pages
+
 from csd_name_normalize import (
     QUALIFIER_TIER_MAP,
     _parse_csd_name,
@@ -113,14 +117,15 @@ def fmt_thousand(n):
 def url_for_presence(name: str, tcpuid: str, year: int, base: str,
                      province: str = "on") -> str:
     """Return the absolute URL path (including base) for a presence's page."""
-    return f"{base}/places/{province.lower()}/{slugify(name)}-{tcpuid.lower()}-{year}/"
+    return presence_url(name, tcpuid, year, base, province)
 
 
 def url_for_place(name: str, place_id: str, base: str,
                   province: str = "on") -> str:
     """Return the URL for a per-Place index page (aggregate across all years)."""
     stem = slugify(place_id.replace("PLACE_", ""))
-    return f"{base}/places/{province.lower()}/{slugify(name)}-{stem}/"
+    proposed = f"{base}/places/{province.lower()}/{slugify(name)}-{stem}/"
+    return published_url_registry().resolve(f"place:{place_id}", proposed, base)
 
 
 REDIRECT_STUB_TEMPLATE = """<!DOCTYPE html>
@@ -133,8 +138,7 @@ REDIRECT_STUB_TEMPLATE = """<!DOCTYPE html>
 <meta name="robots" content="noindex">
 </head>
 <body>
-<p>This persistent place chain merged into a longer-lived chain.
-Redirecting to <a href="{site_url}{new_url}">{name}</a>…</p>
+<p>This address has moved to <a href="{site_url}{new_url}">{name}</a>.</p>
 </body>
 </html>
 """
@@ -185,8 +189,8 @@ def write_redirect_stubs(out_dir: Path, site_url: str, base: str,
             new_pid = r["new_place_id"]
             if old_pid in known_chain_ids:
                 continue
-            old_url = url_for_place(
-                r["old_canonical_name"], old_pid, base, r["province"])
+            old_stem = slugify(old_pid.replace("PLACE_", ""))
+            old_url = f"{base}/places/{r['province'].lower()}/{slugify(r['old_canonical_name'])}-{old_stem}/"
             new_url = url_for_place(
                 r["new_canonical_name"], new_pid, base, r["province"])
             if _write_stub(out_dir, base, old_url, new_url, site_url,
@@ -218,7 +222,7 @@ def write_presence_redirect_stubs(out_dir: Path, site_url: str, base: str,
             prov = r["province"]
             old_name = r["old_canonical_name"]
             new_name = r["new_canonical_name"]
-            old_url = url_for_presence(old_name, tcpuid, year, base, prov)
+            old_url = f"{base}/places/{prov.lower()}/{slugify(old_name)}-{tcpuid.lower()}-{year}/"
             new_url = url_for_presence(new_name, tcpuid, year, base, prov)
             if old_url == new_url:
                 # bridge_normalize differs but slugify(name) coincides — no
@@ -228,6 +232,42 @@ def write_presence_redirect_stubs(out_dir: Path, site_url: str, base: str,
                             fresh_urls):
                 written += 1
     return written
+
+
+def preserve_published_aliases(out_dir: Path, site_url: str, base: str,
+                               written_urls: list[str]) -> set[str]:
+    """Recreate historical aliases only when they resolve to a rendered page.
+
+    A split identity without an explicit replacement is deliberately left for
+    an explanatory page; the release audit reports it as unhandled.
+    """
+    registry = published_url_registry()
+    fresh_full = set(written_urls)
+    fresh = {u.removeprefix(site_url) for u in fresh_full}
+    handled = set(fresh)
+    for original, row in registry.rows.items():
+        old = base + original[len(PUBLISHED_BASE):]
+        if old in fresh or "/residents/" in old:
+            continue
+        target = original
+        seen = set()
+        while target in registry.rows and target not in seen:
+            seen.add(target)
+            r = registry.rows[target]
+            pinned = registry.by_entity.get(r["entity_key"])
+            if pinned and base + pinned[len(PUBLISHED_BASE):] in fresh:
+                target = pinned
+                break
+            if r["redirect_path"]:
+                target = r["redirect_path"]
+            else:
+                break
+        new = base + target[len(PUBLISHED_BASE):]
+        if new != old and new in fresh:
+            _write_stub(out_dir, base, old, new, site_url, "Updated census record",
+                        fresh_full)
+            handled.add(old)
+    return handled
 
 
 # Populated by main() after prefetch_cd_data so render_page (CSD year pages)
@@ -257,8 +297,9 @@ def url_for_cd(cd_name: str, province: str, base: str, *, year: int = None,
     if not chain_id and year is not None and _CD_CHAIN_BY_RAW_YEAR:
         raw_cd_id = f"CD_{province}_{cd_name.replace(' ', '_')}"
         chain_id = _CD_CHAIN_BY_RAW_YEAR.get((raw_cd_id, int(year)))
-    if chain_id and chain_id in _CD_CHAIN_URL_SLUG:
-        return f"{base}/cds/{province.lower()}/{_CD_CHAIN_URL_SLUG[chain_id]}/"
+    if chain_id:
+        proposed = f"{base}/cds/{province.lower()}/{_CD_CHAIN_URL_SLUG.get(chain_id, slugify(cd_name))}/"
+        return published_url_registry().resolve(f"cd:{chain_id}", proposed, base)
     return f"{base}/cds/{province.lower()}/{slugify(cd_name)}/"
 
 
@@ -468,7 +509,7 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>HGIS Canada Knowledge Graph — Census Subdivisions, 1851–1921</title>
-<meta name="description" content="An academic knowledge graph of Canadian Census Subdivisions across the 1851–1921 censuses, building on the Canadian Peoples / TCP project. Per-place prose summaries, Wikidata grounding, cross-year boundary continuity, full census record, and structured data.">
+<meta name="description" content="Browse Canadian census geography and statistics, 1851–1921, with linked biographies and individual residents in 1881. Built on Canadian Peoples / TCP data.">
 <link rel="canonical" href="{site_url}{base}/">
 
 <meta property="og:type" content="website">
@@ -500,12 +541,11 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
 <body>
 <article>
 <h1>HGIS Canada Knowledge Graph</h1>
-<p class="tagline">Canadian Census Subdivisions, 1851–1921 — every place, every census, the full record.</p>
+<p class="tagline">Canadian census geography, statistics, and people, 1851–1921.</p>
 
 <p>An academic knowledge graph of Canadian historical Census Subdivisions, designed for both human
 researchers and machine readers (search engines, AI assistants, citation-grounded RAG). This site
-publishes one page per Census Subdivision per census year, plus an aggregate page per persistent
-place across all eight censuses, drawn from the
+provides census-year detail pages and all-years place groupings drawn from the
 <a href="https://borealisdata.ca/dataverse/canadiansubdivisions">Canadian Peoples / TCP</a>
 boundary files and census tabulations.</p>
 
@@ -514,20 +554,27 @@ boundary files and census tabulations.</p>
 underlying georeferenced boundary polygons and census-table transcriptions. This site reorganises
 those data as a queryable knowledge graph and a browseable web of per-place prose pages.</p>
 
+<p><strong>About this edition:</strong> the pages retain the earlier database's statistics
+and place groupings while preserving published URLs, biography links, and 1881 resident
+citations. The rebuilt source RDF is awaiting website integration.
+See <a href="{about_url}#data-edition">data edition and rebuild status</a> before comparing editions.</p>
+
 <h2>Browse by province</h2>
 <div class="card-grid">
 {province_links}
 </div>
 
-<h2>What's on each page</h2>
+<h2>What you can find</h2>
 <ul>
 <li>A prose summary describing the place in that census year</li>
 <li>Population total + sex split, where the census recorded them</li>
-<li>The <strong>full census record</strong> — every variable recorded for that subdivision in that year, grouped into collapsible category tables (Population, Age, Ethnic origin, Religion, Buildings, Agriculture, Manufacturing, Fisheries, Deaths)</li>
-<li>Cross-year population trajectory linking the <em>same</em> place across all 8 censuses, stitched together by spatial polygon overlap</li>
+<li>Available census statistics, grouped by subject such as population, housing, agriculture, and manufacturing; coverage varies by place and year</li>
+<li>Cross-year population tables using the earlier place groupings, with links to the individual census records</li>
 <li>Neighbouring CSDs in that census year, internally linked</li>
 <li><strong>Boundary continuity</strong> links to overlapping CSDs in adjacent census years (CONTAINS / WITHIN / OVERLAPS) so chains across boundary changes are traceable</li>
 <li>Wikidata grounding where available, plus internal persistent place IDs and the source TCP UID</li>
+<li>Linked Dictionary of Canadian Biography entries, with birth, death, or burial connections where available</li>
+<li>Individual <strong>1881 residents</strong>, reached from the corresponding census page, with preserved person citation links</li>
 <li>Schema.org JSON-LD for structured-data crawlers</li>
 <li>Source citation pointing back to the underlying TCP / Borealis dataset</li>
 </ul>
@@ -538,7 +585,8 @@ those data as a queryable knowledge graph and a browseable web of per-place pros
 {coverage_rows}
 <tr><th>Total year-pages</th><th>{total_pages}</th></tr>
 </table>
-<p>Plus an aggregate per persistent place across all years (~{total_places} place-index pages).</p>
+<p>Plus {total_places} all-years place-index pages. These are counts of pages in this edition,
+not a claim of complete coverage of every source table or census reporting unit.</p>
 
 <h2>Sample pages</h2>
 <ul>
@@ -546,11 +594,10 @@ those data as a queryable knowledge graph and a browseable web of per-place pros
 </ul>
 
 <h2>For researchers</h2>
-<p>This site is the human-readable surface of a larger knowledge-graph project. The underlying
-data is also published as:</p>
+<p>The project provides several ways to work with the records:</p>
 <ul>
-<li>A <strong>KuzuDB</strong> property graph (for researchers using coding agents like Claude Code, or for SPARQL/Cypher-style queries against the full dataset)</li>
-<li>A <strong>CIDOC-CRM Turtle</strong> export (for the LINCS Linked Open Data ecosystem and other LOD consumers)</li>
+<li>A property-graph database used to generate this HTML edition and its machine-readable fact files</li>
+<li>Earlier RDF exports and a separately rebuilt source RDF dataset, whose integration status is explained on the About page</li>
 <li>The <strong>per-place pages on this site</strong> (for citation-grounded research, classroom use, and chatbot retrieval)</li>
 </ul>
 <p>See the <a href="{about_url}">About / Methodology</a> page for the full data pipeline,
@@ -593,12 +640,12 @@ PROVINCE_INDEX_TEMPLATE = """<!DOCTYPE html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{province_name} — Census Subdivisions, 1851–1921 | HGIS Canada</title>
-<meta name="description" content="All Census Subdivisions in {province_name} across the 1851–1921 Census of Canada. {place_count} persistent places, {presence_count} year-specific records.">
+<meta name="description" content="Browse census records for {province_name}, 1851–1921: {place_count} place groupings and {presence_count} year-specific database records.">
 <link rel="canonical" href="{canonical}">
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="{province_name} — Census Subdivisions, 1851–1921">
-<meta property="og:description" content="All Census Subdivisions in {province_name} across the 1851–1921 Census of Canada.">
+<meta property="og:description" content="Census geography and records for {province_name}, 1851–1921.">
 
 <style>
   body {{ font-family: -apple-system, "Segoe UI", sans-serif; max-width: 900px;
@@ -628,10 +675,13 @@ PROVINCE_INDEX_TEMPLATE = """<!DOCTYPE html>
 <article>
 <div class="crumbs"><a href="{home_url}">HGIS Canada</a> › {province_name}</div>
 <h1>{province_name}</h1>
-<p>All Census Subdivisions in {province_name} across the 1851–1921 Census of Canada series.
-<strong>{place_count}</strong> persistent places, <strong>{presence_count}</strong> year-specific
-records. Each place links to its aggregate page (across years) and from there to the per-year
+<p>Browse census records for {province_name} from the 1851–1921 Census of Canada series.
+<strong>{place_count}</strong> place groupings, <strong>{presence_count}</strong> year-specific
+database records. Each place links to its aggregate page (across years) and from there to the per-year
 detail pages.</p>
+<p>These groupings come from the earlier database. Coverage and cross-year comparability
+vary; see <a href="{about_url}#data-edition">data edition and rebuild status</a>.
+Biographies and individual 1881 residents are linked from the relevant place pages.</p>
 
 {cds_section}
 
@@ -688,115 +738,122 @@ ABOUT_TEMPLATE = """<!DOCTYPE html>
 <div class="crumbs"><a href="{home_url}">HGIS Canada</a> › About / Methodology</div>
 <h1>About / Methodology</h1>
 
-<h2>What this is</h2>
-<p>The HGIS Canada Knowledge Graph is an academic resource that publishes the Canadian
-Census Subdivision (CSD) record, 1851–1921, as a queryable knowledge graph and a
-browseable corpus of per-place web pages. It is designed to serve three audiences:</p>
-<ul>
-<li><strong>Historians and historical geographers</strong> who want to look up a township, follow boundary changes across the eight censuses, or compare neighbours, without downloading and parsing the raw boundary files</li>
-<li><strong>The Linked Open Data community</strong>, who can consume the same data as CIDOC-CRM-compliant Turtle published for LINCS interoperability</li>
-<li><strong>AI assistants and citation-grounded RAG systems</strong> (Gemini, Claude, ChatGPT, Copilot), which can read the per-place pages — with their prose summaries and Schema.org structured data — to answer citizen questions about Canadian local history with citable sources</li>
-</ul>
+<h2>What this site contains</h2>
+<p>HGIS Canada brings together census geography, tabulated statistics, biographies,
+and individual census records for research into Canadian places between 1851 and 1921.
+Browse by province, open a place's all-years page, and follow its links to the
+available census-year records.</p>
 
-<h2>Relationship to hgiscanada.usask.ca</h2>
-<p>This project builds directly on the
-<a href="https://hgiscanada.usask.ca/">Canadian Peoples / TCP project</a> hosted at the
-<a href="https://hgis.usask.ca/">HGIS Lab</a>, University of Saskatchewan. That project
-provides:</p>
-<ul>
-<li>Georeferenced polygon boundaries for every Canadian Census Subdivision in each census from 1851 through 1921</li>
-<li>Transcribed census tables (population, ethnic origin, religion, agriculture, etc.) joined to the polygons by TCP UID</li>
-<li>The original record-pages with raw key-value census data for each CSD-year</li>
-</ul>
-<p>The HGIS Canada Knowledge Graph reorganises those source files into:</p>
-<ul>
-<li>A property-graph knowledge base (KuzuDB) with explicit Place / Presence / Measurement / CensusVariable nodes and typed edges (OBSERVED_IN, BORDERS, CONTINUES_AS, OVERLAPS_TEMPORALLY, SPLIT_FROM, MERGED_INTO, MEASURED_AT, OF_VARIABLE, PART_OF_COUNTY)</li>
-<li>Per-place prose pages with the full census record, neighbours, cross-year continuity, and Wikidata grounding</li>
-<li>A CIDOC-CRM RDF/Turtle export for LINCS publication</li>
-</ul>
-<p>The TCP project is the data source; this project is a knowledge-graph layer on top of it.
-Use this site for browsing, citing, or pointing AI assistants at; use the parent project for
-the underlying GIS layers and primary record pages.</p>
+<h2 id="data-edition">Data edition and rebuild status</h2>
+<p><strong>This website edition retains the earlier database's statistics and
+cross-year groupings.</strong> Its publication update preserves existing addresses,
+restores census-detail pages that previously shared an address with an all-years
+page, and retains older district records with an archive notice.</p>
+<p>A separate source-data rebuild has preserved 47 census workbooks and reconciled
+1,783,554 statistical cells, including numeric values, blanks, and original text.
+That rebuilt RDF has not yet been integrated into these pages. Its validation does
+not certify the statistics or historical-identity links in this website edition.</p>
+<p>The migration will connect source reporting units to geographic representations
+with their evidence and uncertainty. A source row can exist without a mapped
+polygon, and a mapped census area does not by itself establish an enduring
+community. Those distinctions matter when comparing places across censuses.</p>
 
-<h2>Data model</h2>
-<p>Each page describes a <strong>Place</strong> (the enduring concept, e.g. "Westmeath
-Township" as a thing that existed across multiple censuses) in a specific
-<strong>Presence</strong> (its 1871 census manifestation, with that year's polygon, that
-year's tabulated values, that year's neighbours).</p>
+<h2>Sources</h2>
+<p>The census boundaries and aggregate tabulations come from the
+<a href="https://borealisdata.ca/dataverse/canadiansubdivisions">Canadian Peoples / TCP</a>
+resources and the <a href="https://hgiscanada.usask.ca/">HGIS project</a> at the
+University of Saskatchewan. The original datasets remain the source for checking
+transcriptions, table definitions, and boundary evidence. Coverage varies by
+census, geography, and table.</p>
 
-<h3>Identity across years</h3>
-<p>Identity from one census to the next is established by <strong>spatial polygon overlap</strong>,
-not name match. A township that was renamed (Berlin → Kitchener, 1916) or whose census-name
-spelling drifted (Pembroke / Pembroke Town–Ville) still threads through to the same enduring
-Place if its 1871 polygon overlaps its 1881 polygon at IoU ≥ 0.98 (a strict SAME_AS chain).
-This is fundamentally more reliable than name-matching for historical data.</p>
+<h3>Biographies and prominent people</h3>
+<p>Many place pages link to people in the
+<a href="https://www.biographi.ca/">Dictionary of Canadian Biography</a>, using the
+LINCS Historical Canadians data and project place-linking work. The connection
+labels distinguish events such as birth, death, and burial. A connection to a
+place does not establish that the person was enumerated there in a particular
+census. The biographical selection is not a representative population sample.</p>
 
-<p>When boundaries shifted enough that the strict SAME_AS chain broke (typically because
-a township split off a town or annexed neighbouring land), the
-<strong>Boundary continuity</strong> section on each year-page surfaces the partial overlaps
-(CONTAINS, WITHIN, OVERLAPS) to adjacent census years. The Pembroke 1851 → Pembroke 1861 +
-Pembroke Town–Ville 1861 split is a representative example.</p>
+<h3>Individual residents in 1881</h3>
+<p>The <strong>Residents in 1881</strong> links open individual records from the
+<a href="https://doi.org/10.5683/SP3/FXZEVO">TCP/Dillon 1881 Canadian Census deposit</a>.
+These pages display recorded names and attributes such as age, birthplace,
+occupation, religion, and ethnic origin. Historical categories and transcription
+choices need to be interpreted in their source context.</p>
+<p>These individual records are a separate dataset from the aggregate census tables.
+Their counts need not equal an aggregate population total: matching coverage,
+reporting geography, and source definitions must be checked. Links to individual
+residents, including their person anchors, are preserved through the website update.</p>
 
-<h3>Wikidata grounding</h3>
-<p>Where a persistent Place can be identified with a modern Wikidata entity, the
-<code>owl:sameAs</code> link to that Wikidata QID becomes the canonical external identifier
-for the place. This means questions about the deep-time meaning of a place (its modern
-location, its current administrative status, its name in other languages) inherit from
-Wikidata rather than being modelled here. Where Wikidata's coverage is thin (pre-1850 phases,
-small townships that were dissolved, conflations of city / metro / county boundaries), this
-graph inherits the thinness — we do not attempt to reconstruct what Wikidata does not
-provide.</p>
+<h2>Comparing a place across years</h2>
+<p>The current all-years pages use groupings inherited from the earlier census-linking
+pipeline, which used spatial correspondence and name-processing rules. They are
+useful paths through the records, but should not be read as proof that every listed
+census unit represents the same historical community or administrative body.</p>
+<p>Population changes can reflect changes in reporting boundaries as well as changes
+in the population. A township may continue while a village is reported separately.
+Overlap between mapped areas does not establish a municipal incorporation date,
+and area fractions must not be treated as population fractions.</p>
+<p>Compare the census vintage, reporting level, variable definition, unit, and
+reference period. District or provincial totals must not be added to their
+constituent observations. A blank is not zero, and a NO DATA polygon is a coverage
+record rather than evidence of an unpopulated community.</p>
 
-<p>Grounding is performed via an MCP-assisted disambiguation pipeline that uses spatial
-distance, name similarity, and entity-type filtering to validate Wikidata candidates. The
-~1,000+ verified Ontario matches were produced by this pipeline; the rest of Canada is
-in progress. Where no Wikidata match exists, places get a permanent minted URI per LINCS
-conventions (this work is staged separately).</p>
+<h2>Wikidata associations</h2>
+<p>Wikidata links provide external reference points for the earlier place matches.
+A settlement, geographic township, municipality, and census reporting area can
+have similar names while referring to different things. Their associations need
+review at that level of detail.</p>
+<p>Local page addresses remain the identifiers for citing this site. The earlier
+structured data may still contain strong equivalence statements; the rebuilt RDF
+preserves qualified mappings and does not automatically assert
+<code>owl:sameAs</code>. That change is part of the pending data migration.</p>
+
+<h2>Stable addresses and archived pages</h2>
+<p>Existing page addresses are retained when names or internal identifiers change.
+An older spelling in a URL can therefore differ from the corrected page heading.
+Where an all-years page and a census-year page previously shared one address, the
+existing page keeps it and the year detail has an additional
+<code>census-&lt;year&gt;/</code> path.</p>
+<p>Older district pages that are no longer produced by the current grouping rules
+retain their original records with an archive notice while their correspondence
+is reviewed. Some formerly broken redirects now identify the associated boundary
+source record and explain that statistical linkage is pending. Neither treatment
+establishes a new historical-identity claim.</p>
 
 <h2>How to cite</h2>
-<p>For the project as a whole:</p>
 <blockquote>
 Clifford, J. (2026). <em>HGIS Canada Knowledge Graph: Census Subdivisions, 1851–1921</em>
 [Web resource]. Built on the Canadian Peoples / TCP project. Available at
 <a href="{site_url}{base}/">{site_url}{base}/</a>.
 </blockquote>
+<p>For a specific record, cite its page title, canonical URL, and your access date.
+For an individual resident, retain the person anchor in the URL. Cite the underlying
+TCP census dataset, TCP/Dillon resident deposit, or biographical entry as appropriate
+for the evidence used. Retained URLs support existing citations even when page
+content is corrected.</p>
 
-<p>For a specific place-year, cite the page directly using its canonical URL — every page
-has a stable URL of the form
-<code>{site_url}{base}/places/&lt;prov&gt;/&lt;name&gt;-&lt;tcpuid&gt;-&lt;year&gt;/</code>.
-For the underlying TCP source data, cite:</p>
-<blockquote>
-St-Hilaire, M., Sweeney, S., Inwood, K., et al. <em>Canadian Census Subdivisions, 1851–1921</em>
-[Dataset]. Borealis Dataverse.
-<a href="https://borealisdata.ca/dataverse/canadiansubdivisions">borealisdata.ca/dataverse/canadiansubdivisions</a>.
-</blockquote>
-
-<h2>Reproducibility &amp; source code</h2>
-<p>The full pipeline — boundary processing, persistent-place identification via spatial
-overlap, Wikidata grounding, knowledge-graph construction in KuzuDB, RDF/Turtle export, and
-the page generator behind this site — is in the
-<a href="https://github.com/jburnford/Canada-History-Knowledge-Graph">Canada History
-Knowledge Graph</a> repository. The pipeline is parametric on province + census year; running
-it against an updated TCP release produces a refreshed site in approximately 30 seconds for
-the page generation step plus a few minutes for the KuzuDB rebuild.</p>
-
-<h2>Limitations</h2>
-<ul>
-<li><strong>Boundaries</strong> are derived from TCP's polygon files; any errors there propagate here. Boundary uncertainty for some pre-1881 northern and prairie CSDs is significant.</li>
-<li><strong>Census tabulations</strong> are transcribed by the TCP project from the original schedules; transcription errors and OCR artifacts in some early censuses propagate here. Where we found systematic OCR errors in CSD names (e.g. "Wesfwd" → "Westwood"), we corrected them via a canonical-name pass; row-level census values are unchecked.</li>
-<li><strong>Wikidata grounding coverage</strong> varies by province — Ontario is essentially complete; other provinces are in progress.</li>
-<li><strong>Major cities</strong> (Toronto, Montreal, Halifax) are fragmented across many ward-level CSDs in the source data, so a single "Toronto" page does not exist — instead, dozens of ward pages link to each other. A future iteration may add city-aggregate pages.</li>
-<li>The knowledge graph models 1851–1921 only; pre-1850 history is delegated to Wikidata's QID-level depth, and post-1921 census records are out of scope.</li>
-</ul>
+<h2>Reproducibility and limitations</h2>
+<p>The <a href="https://github.com/jburnford/Canada-History-Knowledge-Graph">source repository</a>
+contains the data-processing code, RDF exporters, publication registry, and site
+generator. The <a href="https://github.com/jburnford/hgiscanada">website repository</a>
+contains the generated publication files.</p>
+<p>Publication checks reconcile existing HTML addresses, redirect targets, canonical
+links, fact-subject pages, biography links, and individual resident anchors.
+These checks establish continuity of access; they do not establish historical
+identity or independently verify every value in the earlier database. The separate
+RDF source-reconciliation checks apply to the rebuilt source dataset.</p>
+<p>Source transcription errors, incomplete geographic associations, changing reporting
+boundaries, and unresolved external matches affect interpretation. The newer RDF,
+older RDF exports, and HTML edition are different stages of the project and should
+not be assumed to contain identical records or modelling choices.</p>
 
 <h2>Acknowledgments</h2>
-<p>This project would not exist without the
-<a href="https://hgiscanada.usask.ca/">Canadian Peoples / TCP project</a> at the
-<a href="https://hgis.usask.ca/">HGIS Lab</a>, University of Saskatchewan, and the years of
-GIS, transcription, and methodological work behind it. Wikidata grounding uses the
-WikidataMCP service developed by the Wikimedia Foundation. Knowledge-graph construction is
-in <a href="https://kuzudb.com/">KuzuDB</a>. CIDOC-CRM modelling follows the
-<a href="https://www.lincsproject.ca/">LINCS</a> application profile.</p>
+<p>This resource builds on the GIS and census-transcription work of the Canadian
+Peoples / TCP and HGIS projects, the TCP/Dillon individual census data, the Dictionary
+of Canadian Biography, the LINCS Historical Canadians resources, and Wikidata
+contributors. Their datasets and entries should be credited when reusing the
+underlying evidence.</p>
 
 <footer>
 <a href="{home_url}">← Home</a> &nbsp;·&nbsp;
@@ -1090,6 +1147,19 @@ def _persons_table(persons: list) -> str:
 # total counts produced by scripts/prepare_1881_residents.py. Empty dict if
 # the residents pipeline hasn't been run yet — the section just disappears.
 _RESIDENTS_1881_COUNTS_CACHE: dict[str, int] | None = None
+_RESIDENTS_1881_SNAPSHOTS_CACHE: dict[str, set[str]] | None = None
+
+
+def _residents_1881_snapshots() -> dict[str, set[str]]:
+    global _RESIDENTS_1881_SNAPSHOTS_CACHE
+    if _RESIDENTS_1881_SNAPSHOTS_CACHE is None:
+        snapshots = defaultdict(set)
+        with (REPO / "persistent_places_output/tcpuid_year_to_place.csv").open() as f:
+            for row in csv.DictReader(f):
+                if row["year"] == "1881":
+                    snapshots[row["persistent_place_id"]].add(row["tcpuid"].upper())
+        _RESIDENTS_1881_SNAPSHOTS_CACHE = dict(snapshots)
+    return _RESIDENTS_1881_SNAPSHOTS_CACHE
 
 
 def _residents_1881_counts() -> dict[str, int]:
@@ -1112,7 +1182,7 @@ def _residents_1881_counts() -> dict[str, int]:
 
 
 def render_residents_1881_link(place_id: str, year: int,
-                                presence_url: str) -> str:
+                                presence_url: str, tcpuid: str = "", base: str = DEFAULT_BASE_PATH) -> str:
     """For year=1881 chains with Borealis residents data, surface a link to
     the per-CSD residents page rendered by scripts/render_1881_residents_pages.py.
 
@@ -1125,7 +1195,9 @@ def render_residents_1881_link(place_id: str, year: int,
     n = counts.get(place_id, 0)
     if not n:
         return ""
-    href = f"{presence_url}residents/"
+    if tcpuid and tcpuid.upper() not in _residents_1881_snapshots().get(place_id, set()):
+        return ""
+    href = residents_url(tcpuid, presence_url, base) if tcpuid else f"{presence_url}residents/"
     return (
         '<h2>Residents in 1881</h2>\n'
         f'<p>The <a href="{href}">1881 census residents page</a> for this '
@@ -1515,7 +1587,7 @@ def render_page(row, traj, neighbours, measurements, overlaps, persons, *,
     # to the residents page (rendered separately by
     # scripts/render_1881_residents_pages.py). Concatenated into
     # persons_section to avoid a template change.
-    residents_link = render_residents_1881_link(place_id, year, page_path)
+    residents_link = render_residents_1881_link(place_id, year, page_path, tcpuid, base)
     if residents_link:
         persons_section = (persons_section + "\n" + residents_link
                             if persons_section else residents_link)
@@ -2493,8 +2565,7 @@ def render_cd_page(cd_row, csds_by_year, lineage_edges, *,
                 # Derive prov from chain id (CD_<PROV>_...).
                 other_parts = other_id.split("_", 2)
                 other_prov = other_parts[1] if len(other_parts) >= 2 else prov_code
-                other_url = (f"{base}/cds/{other_prov.lower()}/"
-                             f"{_CD_CHAIN_URL_SLUG.get(other_id, slugify(other_canonical))}/")
+                other_url = url_for_cd(other_canonical, other_prov, base, chain_place_id=other_id)
                 other_links.append(
                     f'<a href="{other_url}">{html.escape(other_label)}</a>'
                 )
@@ -2903,6 +2974,11 @@ def main():
     # This avoids ~100K small Cypher round-trips and is ~10× faster at all-Canada scale.
     prefetched = prefetch_all_data(conn)
     place_to_presences = prefetched[1]
+    if args.all:
+        # A missing population total must not hide pages that have other
+        # exported statistics. Their facts also need a resolvable subject URL.
+        targets = sorted(set(targets) | (prefetched[3].keys() & prefetched[0].keys()),
+                         key=lambda pid: (prefetched[0][pid][6], pid))
 
     # Pre-fetch CD chain lookups BEFORE rendering any presence pages, so the
     # CSD presence pages can build chain-aware "Part of: <CD>" links via the
@@ -3121,6 +3197,22 @@ def main():
 
         # sitemap.xml
         if args.all:
+            if len(written_urls) != len(set(written_urls)):
+                raise RuntimeError("Two generated pages have the same canonical URL")
+            handled = preserve_published_aliases(out_dir, site_url, base, written_urls)
+            legacy_pages = write_legacy_pages(out_dir, handled, site_url, base)
+            handled.update(legacy_pages)
+            written_urls.extend(site_url + p for p in sorted(legacy_pages))
+            print(f"Retained {len(legacy_pages)} archived district/source-record page(s).")
+            # Residents are a separate build stage. Retain their overview
+            # sitemap entries when their existing HTML is carried forward.
+            for row in published_url_registry().rows.values():
+                if "/residents/" in row["path"] and row["in_sitemap"] == "1":
+                    path = base + row["path"][len(PUBLISHED_BASE):]
+                    if page_file(out_dir, path, base).exists():
+                        written_urls.append(site_url + path)
+            (out_dir / ".site-build-urls.json").write_text(
+                json.dumps(sorted(handled), indent=2) + "\n")
             today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
             (out_dir / "sitemap.xml").write_text(render_sitemap(written_urls, today))
             print(f"Wrote sitemap.xml with {len(written_urls)} URLs.")

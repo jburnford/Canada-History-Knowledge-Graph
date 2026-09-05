@@ -14,133 +14,60 @@ import pandas as pd
 from pathlib import Path
 import argparse
 import sys
-from shapely import make_valid
 
 
-def load_cd_layer(gdb_path: str, year: int) -> gpd.GeoDataFrame:
-    """Load and aggregate CSD layer to CD level."""
-    layer_name = f"CANADA_{year}_CSD"
-    print(f"Loading {layer_name}...", file=sys.stderr)
-
-    gdf = gpd.read_file(gdb_path, layer=layer_name)
-
-    # Standardize column names
-    rename_map = {}
-    for col in gdf.columns:
-        if col == f'TCPUID_CSD_{year}':
-            rename_map[col] = 'tcpuid'
-        elif col == f'PR_{year}':
-            rename_map[col] = 'pr'
-        elif col in [f'Name_CD_{year}', f'NAME_CD_{year}']:
-            rename_map[col] = 'cd_name'
-
-    gdf = gdf.rename(columns=rename_map)
-
-    # Strip whitespace from cd_name. The GDB has trailing-space typos in
-    # cd_name for several CD/year combos (1861 Brant, 1881 Provencher,
-    # 1891 Provencher/Champlain/Jacques-Cartier, 1901 Victoria) that, if
-    # left unstripped, dissolve into a SECOND CD record with id like
-    # CD_ON_Brant_ (trailing underscore). Stripping at the source merges
-    # them into the canonical CD.
-    if 'cd_name' in gdf.columns:
-        gdf['cd_name'] = gdf['cd_name'].fillna('').str.strip()
-
-    # Validate geometries
-    invalid_mask = ~gdf.is_valid
-    if invalid_mask.any():
-        print(f"  Fixing {invalid_mask.sum()} invalid geometries...", file=sys.stderr)
-        gdf.loc[invalid_mask, 'geometry'] = gdf.loc[invalid_mask, 'geometry'].apply(make_valid)
-
-    # Reproject to EPSG:3347
-    if gdf.crs is None or gdf.crs.to_epsg() != 3347:
-        print(f"  Reprojecting to EPSG:3347...", file=sys.stderr)
-        gdf = gdf.to_crs(epsg=3347)
-
-    # Dissolve CSDs to CD level
-    print(f"  Dissolving CSDs to CD level...", file=sys.stderr)
-    cd_gdf = gdf[['pr', 'cd_name', 'geometry']].dissolve(by=['pr', 'cd_name'], as_index=False)
-
-    # Create CD ID
-    cd_gdf['cd_id'] = 'CD_' + cd_gdf['pr'] + '_' + cd_gdf['cd_name'].str.replace(' ', '_')
-    cd_gdf['area'] = cd_gdf.geometry.area
-
-    print(f"  Loaded {len(cd_gdf)} CDs", file=sys.stderr)
-    return cd_gdf
+def load_cd_layer(gdb_path: str, year: int, crs="EPSG:3347") -> gpd.GeoDataFrame:
+    """Aggregate the same repaired CSD geometries used by the CSD linker."""
+    from _gis import dissolve_cds, load_csd_layer
+    csds, audit = load_csd_layer(gdb_path, year, crs)
+    frame = dissolve_cds(csds)
+    print(f"Loaded {year}: {len(frame)} CDs; {len(audit)} CSD preparation actions", file=sys.stderr)
+    return frame
 
 
 def compute_overlap(gdf_from: gpd.GeoDataFrame, gdf_to: gpd.GeoDataFrame) -> pd.DataFrame:
-    """Compute spatial overlap between CD layers."""
-    print(f"Computing overlaps between {len(gdf_from)} and {len(gdf_to)} CDs...", file=sys.stderr)
-
-    links = []
-    sindex = gdf_to.sindex
-
-    for idx, row_from in gdf_from.iterrows():
-        geom_from = row_from['geometry']
-        cd_from = row_from['cd_id']
-        area_from = row_from['area']
-
-        # Find potential overlaps
-        possible_matches_idx = list(sindex.intersection(geom_from.bounds))
-        possible_matches = gdf_to.iloc[possible_matches_idx]
-
-        for idx_to, row_to in possible_matches.iterrows():
-            geom_to = row_to['geometry']
-            cd_to = row_to['cd_id']
-            area_to = row_to['area']
-
-            # Compute intersection
-            if geom_from.intersects(geom_to):
-                intersection = geom_from.intersection(geom_to)
-                overlap_area = intersection.area
-
-                if overlap_area > 1000:  # >1000 sq m threshold
-                    # Compute IoU and containment fractions
-                    union_area = geom_from.union(geom_to).area
-                    iou = overlap_area / union_area if union_area > 0 else 0
-
-                    from_fraction = overlap_area / area_from if area_from > 0 else 0
-                    to_fraction = overlap_area / area_to if area_to > 0 else 0
-
-                    # Classify relationship
-                    if iou > 0.98:
-                        relationship = 'SAME_AS'
-                    elif from_fraction > 0.95:
-                        relationship = 'WITHIN'  # CD_from is within CD_to
-                    elif to_fraction > 0.95:
-                        relationship = 'CONTAINS'  # CD_from contains CD_to
-                    else:
-                        relationship = 'OVERLAPS'
-
-                    links.append({
-                        'cd_from': cd_from,
-                        'cd_to': cd_to,
-                        'relationship': relationship,
-                        'iou': round(iou, 4),
-                        'from_fraction': round(from_fraction, 4),
-                        'to_fraction': round(to_fraction, 4),
-                        'overlap_sqm': round(overlap_area, 2)
-                    })
-
-    links_df = pd.DataFrame(links)
-    print(f"  Found {len(links_df)} spatial overlaps", file=sys.stderr)
-    return links_df
+    """Every positive-area CD correspondence, with unrounded evidence."""
+    from _gis import overlap_table
+    rows = []
+    for row in overlap_table(gdf_from, gdf_to).itertuples():
+        if row.iou > .98:
+            relation = "SAME_AS"
+        elif row.frac_from > .95:
+            relation = "WITHIN"
+        elif row.frac_to > .95:
+            relation = "CONTAINS"
+        else:
+            relation = "OVERLAPS"
+        rows.append({"cd_from": gdf_from.iloc[row.from_index].cd_id,
+                     "cd_to": gdf_to.iloc[row.to_index].cd_id,
+                     "relationship": relation, "iou": row.iou,
+                     "from_fraction": row.frac_from, "to_fraction": row.frac_to,
+                     "overlap_sqm": row.overlap_sqm,
+                     "area_from_sqm": row.area_from_sqm, "area_to_sqm": row.area_to_sqm,
+                     "area_crs": gdf_from.crs.to_string(),
+                     "evidence_kind": "computed_polygon_intersection",
+                     "historical_succession_verified": False,
+                     "involves_no_data": bool(gdf_from.iloc[row.from_index].get('is_coverage_record', False) or
+                                              gdf_to.iloc[row.to_index].get('is_coverage_record', False))})
+    return pd.DataFrame(rows, columns=["cd_from", "cd_to", "relationship", "iou",
+                        "from_fraction", "to_fraction", "overlap_sqm", "area_from_sqm",
+                        "area_to_sqm", "area_crs", "evidence_kind", "historical_succession_verified", "involves_no_data"])
 
 
 def classify_links(links_df: pd.DataFrame, gdf_from: gpd.GeoDataFrame, gdf_to: gpd.GeoDataFrame) -> tuple:
     """Classify links into high-confidence and ambiguous."""
 
     if len(links_df) == 0:
-        return pd.DataFrame(), pd.DataFrame()
+        return links_df.copy(), links_df.copy()
 
-    # High-confidence: SAME_AS with name match, WITHIN, CONTAINS
+    # Strong geometric candidates only; no historical identity is established.
     high_confidence = links_df[
         ((links_df['relationship'] == 'SAME_AS')) |
         (links_df['relationship'] == 'WITHIN') |
         (links_df['relationship'] == 'CONTAINS')
     ].copy()
 
-    # Ambiguous: SAME_AS with name mismatch, OVERLAPS
+    # Remaining geometric candidates (no name filter is applied here).
     ambiguous = links_df[
         ~links_df.index.isin(high_confidence.index)
     ].copy()
@@ -154,6 +81,8 @@ def main():
     parser.add_argument('--year-from', type=int, required=True, help='Source year')
     parser.add_argument('--year-to', type=int, required=True, help='Target year')
     parser.add_argument('--out', required=True, help='Output directory')
+    parser.add_argument('--crs', default='EPSG:3347',
+                        help='Area CRS: EPSG:3347 for legacy comparison; ESRI:102001 for equal-area evidence')
     args = parser.parse_args()
 
     out_dir = Path(args.out)
@@ -164,11 +93,14 @@ def main():
     print(f"Linking CDs: {args.year_from} → {args.year_to}", file=sys.stderr)
     print(f"{'='*60}", file=sys.stderr)
 
-    gdf_from = load_cd_layer(args.gdb, args.year_from)
-    gdf_to = load_cd_layer(args.gdb, args.year_to)
+    gdf_from = load_cd_layer(args.gdb, args.year_from, args.crs)
+    gdf_to = load_cd_layer(args.gdb, args.year_to, args.crs)
 
     # Compute overlaps
-    links_df = compute_overlap(gdf_from, gdf_to)
+    all_links = compute_overlap(gdf_from, gdf_to)
+    # Preserve the legacy partitions for existing consumers; the complete
+    # evidence table also includes intersections below the old 1000 m² cutoff.
+    links_df = all_links[all_links.overlap_sqm > 1000].copy()
 
     # Classify
     high_conf, ambiguous = classify_links(links_df, gdf_from, gdf_to)
@@ -176,15 +108,9 @@ def main():
     # Write outputs
     year_pair = f"{args.year_from}_{args.year_to}"
 
-    if len(high_conf) > 0:
-        high_conf_file = out_dir / f'cd_links_{year_pair}.csv'
-        high_conf.to_csv(high_conf_file, index=False)
-        print(f"\n✓ High-confidence links: {len(high_conf)} → {high_conf_file}", file=sys.stderr)
-
-    if len(ambiguous) > 0:
-        ambiguous_file = out_dir / f'cd_ambiguous_{year_pair}.csv'
-        ambiguous.to_csv(ambiguous_file, index=False)
-        print(f"✓ Ambiguous links: {len(ambiguous)} → {ambiguous_file}", file=sys.stderr)
+    high_conf.to_csv(out_dir / f"cd_links_{year_pair}.csv", index=False)
+    ambiguous.to_csv(out_dir / f"cd_ambiguous_{year_pair}.csv", index=False)
+    all_links.to_csv(out_dir / f"cd_correspondences_{year_pair}.csv", index=False)
 
     # Summary
     print(f"\n{'='*60}", file=sys.stderr)

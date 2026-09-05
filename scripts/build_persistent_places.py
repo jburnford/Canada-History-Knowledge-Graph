@@ -303,9 +303,8 @@ def load_presence_centroids(centroids_dir: Path) -> dict[tuple[str, int], tuple[
     Keyed (tcpuid, year) -> (lat, lon). These files are geometry-derived and
     keyed by year-scoped tcpuids — they can never leak chain ids back into
     the builder (unlike e93_presence_cd_*, see build_persistent_cds guard).
-    Returns {} with a warning when the files are absent (e.g. right after
-    `make distclean` before the CIDOC stage has run) — the bridge pass then
-    falls back to un-gated medium-confidence merges, as before."""
+    Returns {} with a warning when the files are absent. Non-adjacent name
+    bridges are then rejected: missing evidence cannot authorize a merge."""
     centroids: dict[tuple[str, int], tuple[float, float]] = {}
     for yr in YEARS:
         fpath = centroids_dir / f"e94_space_primitive_{yr}.csv"
@@ -327,9 +326,7 @@ def load_presence_centroids(centroids_dir: Path) -> dict[tuple[str, int], tuple[
     if not centroids:
         print("  WARNING: no presence centroids found under "
               f"{centroids_dir}/e94_space_primitive_*.csv — the medium-"
-              "confidence bridge centroid gate is DISABLED for this run. "
-              "Restore the e94 CSVs (git checkout) before building if you "
-              "want the gate.", file=sys.stderr)
+              "confidence non-adjacent bridges will be skipped.", file=sys.stderr)
     return centroids
 
 
@@ -387,15 +384,16 @@ def _gap_supported(chain_a_nodes: list[tuple[str, int]],
     # evidence exists, so gate on centroid distance: a same-name chain
     # >50 km away is a namesake elsewhere in the province, not a
     # continuation ("a different Hamilton").
-    if centroids:
-        a_pts = [centroids[(uid, y)] for uid, y in chain_a_nodes
-                 if y == last_a_year and (uid, y) in centroids]
-        b_pts = [centroids[(uid, y)] for uid, y in chain_b_nodes
-                 if y == first_b_year and (uid, y) in centroids]
-        if a_pts and b_pts:
-            min_km = min(_haversine_km(pa, pb) for pa in a_pts for pb in b_pts)
-            if min_km > BRIDGE_CENTROID_GATE_KM:
-                return False, f"centroid_gate_{min_km:.0f}km"
+    centroids = centroids or {}
+    a_pts = [centroids[(uid, y)] for uid, y in chain_a_nodes
+             if y == last_a_year and (uid, y) in centroids]
+    b_pts = [centroids[(uid, y)] for uid, y in chain_b_nodes
+             if y == first_b_year and (uid, y) in centroids]
+    if not a_pts or not b_pts or not all(math.isfinite(v) for p in a_pts + b_pts for v in p):
+        return False, "missing_centroid_evidence"
+    min_km = min(_haversine_km(pa, pb) for pa in a_pts for pb in b_pts)
+    if min_km > BRIDGE_CENTROID_GATE_KM:
+        return False, f"centroid_gate_{min_km:.0f}km"
     return True, "medium"
 
 
@@ -727,7 +725,7 @@ def main():
         default="neo4j_cidoc_crm_v2",
         help="Directory with e94_space_primitive_{year}.csv presence "
              "centroids used by the medium-confidence bridge centroid gate. "
-             "Gate is skipped (with a warning) when files are absent.",
+             "Non-adjacent bridges are skipped when centroid evidence is absent.",
     )
     args = parser.parse_args()
 

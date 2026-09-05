@@ -1,0 +1,13 @@
+{
+  "source_commit": "9275f55eec5eac1dd501792998bf8f6a273abdde",
+  "live_sitemap_verified": true,
+  "sitemap_sha256": "5f37e81a03c0c378a1f5ee4b4aced79c120bd09025de61bbccac99e2c6670d3b",
+  "registry_sha256": "816f61068593277d61c4144fa88a868f13431084348edf7bcb94189596bd7e67",
+  "pages": 69116,
+  "sitemap_urls": 30241,
+  "redirects": 6976,
+  "biography_pages": 5141,
+  "residents_pages": 33974,
+  "resident_anchors": 4258989,
+  "noindex_pages": 38827
+}

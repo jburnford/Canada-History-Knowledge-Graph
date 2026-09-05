@@ -46,6 +46,8 @@ import pandas as pd
 import pyarrow as pa
 import pyarrow.parquet as pq
 
+from _site_urls import presence_url, residents_url
+
 REPO = Path(__file__).resolve().parents[1]
 OUT_DIR = REPO / "residents_1881_output"
 PROVINCE_DIR = OUT_DIR / "by_province"
@@ -242,15 +244,16 @@ def main() -> int:
             canonical, _prov = registry[pid]
             tcpuid = tcpuid_for_1881[pid].lower()
             csd_slug = slugify(canonical)
-            csd_url = f"{base}/places/{_prov.lower()}/{csd_slug}-{tcpuid}-1881/"
+            csd_url = presence_url(canonical, tcpuid, 1881, base, _prov)
+            overview_url = residents_url(tcpuid, csd_url, base)
             split = (pid, sdistlet) in split_set
             if split:
                 letter_seg = surname_letter.lower()
                 if chunk:
                     letter_seg = f"{letter_seg}-{chunk}"
-                leaf_url = f"{csd_url}residents/{sdistlet}/{letter_seg}/"
+                leaf_url = f"{overview_url}{sdistlet}/{letter_seg}/"
             else:
-                leaf_url = f"{csd_url}residents/"
+                leaf_url = overview_url
             cd_slug_arr.append(csd_slug)
             csd_url_arr.append(csd_url)
             leaf_url_arr.append(leaf_url)
