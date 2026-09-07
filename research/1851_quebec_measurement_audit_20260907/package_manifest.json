@@ -1,0 +1,54 @@
+{
+  "RESEARCH_MEMO.md": {
+    "bytes": 11722,
+    "sha256": "c39c7089407e123a6a5689df6e14f1f6557139b42759126fadd6f572355779ff"
+  },
+  "RESEARCH_MEMO.pdf": {
+    "bytes": 28387,
+    "sha256": "5d43ef0ee504ee47655729a36682aaa75423177286c3f38f8541aea43317d441"
+  },
+  "REVIEW_REQUEST.md": {
+    "bytes": 1459,
+    "sha256": "746ed901e2a8179ee500b375af035a046a70797b20f2a068fc9aa6f4a176c11e"
+  },
+  "REVIEW_REQUEST.pdf": {
+    "bytes": 10288,
+    "sha256": "e6000c71bfd299f73dc39179808ec2125bcab7a9e30e48ab74e5852b42783ad1"
+  },
+  "README.md": {
+    "bytes": 1340,
+    "sha256": "5d6ff561fed8fa0496bf743501be411749298d81565d49d4b3e96a6eac0c12da"
+  },
+  "audit.py": {
+    "bytes": 8027,
+    "sha256": "fa09d36d29b2e7ab3cdcdbc7fc01be8337073fec5ae3078eb687b0a139b66f09"
+  },
+  "package.py": {
+    "bytes": 2202,
+    "sha256": "3dca814cd4aedf196ef7129bbace8818f6e49b57cdc618a8db3341525c7745a2"
+  },
+  "validation.json": {
+    "bytes": 576,
+    "sha256": "805f96f3dd5e80ee19ed83ea67cd4fd40b545ceb711e731328d1261a2926f0a6"
+  },
+  "provenance.json": {
+    "bytes": 693,
+    "sha256": "9f5fcf35d800c1d1b84caa65ce25d4f1743a54b2889b01daf91540719f315848"
+  },
+  "source_cells.jsonl.gz": {
+    "bytes": 185622,
+    "sha256": "22d6b5f8a6b1f70838084fd5296d376fed3e7dd431854a90db85a5bcdbac27d7"
+  },
+  "county_reconciliation.csv": {
+    "bytes": 44965,
+    "sha256": "a1514b07b448a9d82e93b12bdfe6f1a3f770162af5e1acfd343a21ea884c40ff"
+  },
+  "verified_print_discrepancies.csv": {
+    "bytes": 835,
+    "sha256": "bfec98d61e8f1c5a87f9c20807e4d92d14eefb02be4bdfd37a98fc409fa6c36f"
+  },
+  "external_sources/census_pdfpage_189.png": {
+    "bytes": 803281,
+    "sha256": "2608f253ee5996e43fce1c75469cfaf1fd814f5ac2bd3ceca71e4d7df9937f46"
+  }
+}

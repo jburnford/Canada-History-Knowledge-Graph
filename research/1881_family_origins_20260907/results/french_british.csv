@@ -1,0 +1,17 @@
+province,direction,children,households,french
+British Columbia/Colombie Britannique,French man,13,5,0.8461538461538461
+British Columbia/Colombie Britannique,French woman,23,9,0.043478260869565216
+Manitoba,French man,89,32,0.8764044943820225
+Manitoba,French woman,145,47,0.05517241379310345
+New Brunswick,French man,541,185,0.933456561922366
+New Brunswick,French woman,418,133,0.06220095693779904
+Nova Scotia,French man,770,243,0.8441558441558441
+Nova Scotia,French woman,834,255,0.10431654676258993
+Ontario,French man,2951,995,0.8752965096577431
+Ontario,French woman,2457,859,0.08913308913308914
+Prince Edward Island,French man,137,46,0.8540145985401459
+Prince Edward Island,French woman,63,21,0.07936507936507936
+Quebec,French man,2626,855,0.902894135567403
+Quebec,French woman,2704,905,0.19489644970414202
+Territories/Les Territoires,French man,47,10,0.851063829787234
+Territories/Les Territoires,French woman,59,20,0.11864406779661017

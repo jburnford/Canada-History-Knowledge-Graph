@@ -1,0 +1,22 @@
+[
+  {
+    "path": "/home/jic823/GraphRAG_test/1851/1851_V2T6_CD_202306.xlsx",
+    "sha256": "ac90a90f1e0b552a1575f3e88d58c193f79566f0f9ec29cce9f0ba8cd042c8ca",
+    "sheet": "Sheet1",
+    "census_vintage": 1851,
+    "source_key": "1851_V2T6_CD_202306",
+    "table_key": "1851_V2T6",
+    "header_row": 1,
+    "worksheets_json": "[\"Sheet1\"]"
+  },
+  {
+    "path": "/home/jic823/GraphRAG_test/1851/1851_V2T6_CSD_202306.xlsx",
+    "sha256": "042a4d3fe6f6e8e1c8b802706c014d47c2da5d14019129600b0b05a8f607140f",
+    "sheet": "Sheet1",
+    "census_vintage": 1851,
+    "source_key": "1851_V2T6_CSD_202306",
+    "table_key": "1851_V2T6",
+    "header_row": 1,
+    "worksheets_json": "[\"Sheet1\"]"
+  }
+]

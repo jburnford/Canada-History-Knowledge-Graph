@@ -100,3 +100,25 @@ wikidata_grounding/v1t1_1911_*.csv
 !config.toml
 !scripts/*.py
 !scripts/*.sh
+
+# ---- Research audit trails (research/) ------------------------------------
+# Keep memos, scripts, outputs and public-domain census page images.
+# Exclude: scratch archives/extractions, databases over GitHub size limits,
+# bulk re-downloadable census volumes, and third-party copyrighted article
+# captures (HTML/PDF copies of publisher-hosted literature must not be
+# republished in a public repo).
+research/**/*.zip
+research/**/*_extracted/
+research/**/*.duckdb
+research/**/*.html
+research/1851_quebec_measurement_audit_20260907/external_sources/census_1851_volume2.pdf
+research/1851_quebec_measurement_audit_20260907/**/mcinnis_1981.pdf
+research/1851_quebec_measurement_audit_20260907/**/thibeault_1989.pdf
+research/1851_quebec_measurement_audit_20260907/**/bond_2026_supplement.pdf
+research/1921_prairie_sex_balance_20260907/external_sources/census_1921_volume1.pdf
+research/1921_prairie_sex_balance_20260907/external_sources/census_1929_origins.pdf
+research/1881_family_origins_20260907/sources/census1881_vol1_download/
+research/1881_family_origins_20260907/sources/census1881_vol1.pdf
+research/1881_family_origins_20260907/sources/census1881_vol1_ia.pdf
+research/1881_family_origins_20260907/sources/gauvreau_thornton_vezina_2010.pdf
+research/1881_family_origins_20260907/sources/taylor_2016.pdf

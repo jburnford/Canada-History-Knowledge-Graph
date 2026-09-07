@@ -1,0 +1,20 @@
+{
+  "analysis_date": "2026-09-07",
+  "python": "3.12.11",
+  "source": {
+    "path": "/home/jic823/GraphRAG_test/1921Tables/1921/1921_V1T16_PUB_202306.xlsx",
+    "sha256": "d74714fc2ac372de79462a33951ed975fb1ac307fe703a9ba3922055c3472fbf",
+    "sheet": "CA_V1T16_1921",
+    "census_vintage": 1921,
+    "source_key": "1921_V1T16_PUB_202306",
+    "table_key": "1921_V1T16",
+    "header_row": 1,
+    "worksheets_json": "[\"CA_V1T16_1921\", \"Variables\"]"
+  },
+  "sqlite_sha256": "c4fe90864dfccd3996c0d6e9abf6fef3757bac0a976e394de20db6647a959052",
+  "public_jsonl_sha256": "800c9d138f9093927bf746bccdefc7694fa59b3953b02efbe4d4d5f99f18383c",
+  "catalog_sha256": "d5b105f5151ff46536608c5b86b563319e296096d7ca1d9d3e779158866c5930",
+  "research_status": "Exploratory; not preregistered; no past repo research read",
+  "primary_partition": "Exact source label suffix , C in MB/SK/AB; remainder by provincial subtraction",
+  "no_age_adjustment": true
+}

@@ -1,0 +1,5 @@
+geography,neighbours,households,maternal,paternal
+enumeration_unit,paternal neighbours,26300,0.048054046713742526,0.941204689480355
+enumeration_unit,maternal neighbours,359,0.8375348189415042,0.1262534818941504
+csd,paternal neighbours,26132,0.05255342838191452,0.9363995429795983
+csd,maternal neighbours,148,0.8643581081081081,0.08496621621621621

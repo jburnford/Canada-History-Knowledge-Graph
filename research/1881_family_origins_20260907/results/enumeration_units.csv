@@ -1,0 +1,2813 @@
+province,enumeration_unit,households,children,maternal,paternal,all_maternal,all_paternal
+British Columbia/Colombie Britannique,British Columbia/Colombie Britannique|187|a|||a,10,34,0.1,0.9,1,9
+British Columbia/Colombie Britannique,British Columbia/Colombie Britannique|187|b|||b,8,21,0.125,0.875,1,7
+British Columbia/Colombie Britannique,British Columbia/Colombie Britannique|188|c|2|2|c,2,5,0.0,1.0,0,2
+British Columbia/Colombie Britannique,British Columbia/Colombie Britannique|188|e|1|1|e,1,2,0.0,1.0,0,1
+British Columbia/Colombie Britannique,British Columbia/Colombie Britannique|189|a|1|1|a,5,14,0.0,1.0,0,5
+British Columbia/Colombie Britannique,British Columbia/Colombie Britannique|189|b|1|1|b,3,11,0.0,1.0,0,3
+British Columbia/Colombie Britannique,British Columbia/Colombie Britannique|189|c|1|1|c,9,31,0.05555555555555555,0.9444444444444444,0,8
+British Columbia/Colombie Britannique,British Columbia/Colombie Britannique|189|d|||d,1,7,0.0,1.0,0,1
+British Columbia/Colombie Britannique,British Columbia/Colombie Britannique|190|a|||a,17,39,0.11764705882352941,0.8235294117647058,2,14
+British Columbia/Colombie Britannique,British Columbia/Colombie Britannique|190|b|||b,26,75,0.11538461538461539,0.8846153846153846,3,23
+British Columbia/Colombie Britannique,British Columbia/Colombie Britannique|190|c|||c,27,89,0.0,1.0,0,27
+British Columbia/Colombie Britannique,British Columbia/Colombie Britannique|190|d|||d,7,12,0.0,0.8571428571428571,0,6
+British Columbia/Colombie Britannique,British Columbia/Colombie Britannique|190|e|||e,8,24,0.0,1.0,0,8
+British Columbia/Colombie Britannique,British Columbia/Colombie Britannique|191|a|||a,34,96,0.058823529411764705,0.9411764705882353,2,32
+British Columbia/Colombie Britannique,British Columbia/Colombie Britannique|191|b|||b,3,9,0.0,1.0,0,3
+British Columbia/Colombie Britannique,British Columbia/Colombie Britannique|191|c|||c,7,30,0.14285714285714285,0.8571428571428571,1,6
+British Columbia/Colombie Britannique,British Columbia/Colombie Britannique|191|d|||d,7,21,0.0,1.0,0,7
+British Columbia/Colombie Britannique,British Columbia/Colombie Britannique|191|e|||e,2,7,0.5,0.5,1,1
+Manitoba,Manitoba|183|a|||a,14,61,0.07142857142857142,0.9285714285714286,1,13
+Manitoba,Manitoba|183|b|||b,3,12,0.0,1.0,0,3
+Manitoba,Manitoba|183|c|1|1|c,19,40,0.0,1.0,0,19
+Manitoba,Manitoba|183|c|2|2|c,22,49,0.045454545454545456,0.9545454545454546,1,21
+Manitoba,Manitoba|183|c|3|3|c,7,18,0.0,1.0,0,7
+Manitoba,Manitoba|183|c|4|4|c,11,26,0.0,1.0,0,11
+Manitoba,Manitoba|183|c|5|5|c,17,57,0.0,1.0,0,17
+Manitoba,Manitoba|183|d|||d,2,4,0.5,0.5,1,1
+Manitoba,Manitoba|183|e|||e,30,88,0.06666666666666667,0.9,2,27
+Manitoba,Manitoba|184|a|1|1|a,17,49,0.17647058823529413,0.7647058823529411,3,13
+Manitoba,Manitoba|184|b|||b,17,35,0.0,1.0,0,17
+Manitoba,Manitoba|184|c|||c,26,77,0.04615384615384615,0.9538461538461539,1,24
+Manitoba,Manitoba|184|d|1|1|d,6,18,0.0,1.0,0,6
+Manitoba,Manitoba|184|e|1|1|e,28,99,0.0,1.0,0,28
+Manitoba,Manitoba|184|f|||f,3,14,0.0,1.0,0,3
+Manitoba,Manitoba|185|a|||a,1,5,1.0,0.0,1,0
+Manitoba,Manitoba|185|b|||b,25,68,0.04,0.96,1,24
+Manitoba,Manitoba|185|c|1|1|c,15,51,0.0,1.0,0,15
+Manitoba,Manitoba|185|c|2|2|c,11,30,0.09090909090909091,0.9090909090909091,1,10
+Manitoba,Manitoba|185|d|1|1|d,14,46,0.5476190476190476,0.4523809523809524,6,5
+Manitoba,Manitoba|185|d|2|2|d,27,71,0.1925925925925926,0.8074074074074075,5,21
+Manitoba,Manitoba|186|a|||a,14,53,0.8571428571428571,0.14285714285714285,12,2
+Manitoba,Manitoba|186|bb|1|1|bb,1,5,1.0,0.0,1,0
+Manitoba,Manitoba|186|bb|2|2|bb,6,11,0.5,0.5,3,3
+Manitoba,Manitoba|186|bb|3|3|bb,9,25,0.1111111111111111,0.8888888888888888,1,8
+Manitoba,Manitoba|186|bb|4|4|bb,1,6,0.0,1.0,0,1
+Manitoba,Manitoba|186|b|||b,12,36,0.3333333333333333,0.6666666666666666,4,8
+Manitoba,Manitoba|186|cc|||cc,2,3,0.0,1.0,0,2
+Manitoba,Manitoba|186|c|1|1|c,20,56,0.05,0.95,1,19
+Manitoba,Manitoba|186|c|2|2|c,20,67,0.45,0.55,9,11
+Manitoba,Manitoba|186|dd|||dd,6,14,0.16666666666666666,0.8333333333333334,1,5
+Manitoba,Manitoba|186|d|1|1|d,7,21,0.0,1.0,0,7
+Manitoba,Manitoba|186|d|2|2|d,8,34,0.0,1.0,0,8
+Manitoba,Manitoba|186|ee|1|1|ee,18,52,0.4,0.6000000000000001,7,10
+Manitoba,Manitoba|186|ee|2|2|ee,22,54,0.0,1.0,0,22
+Manitoba,Manitoba|186|ee|3|3|ee,6,13,0.0,1.0,0,6
+Manitoba,Manitoba|186|ee|4|4|ee,14,37,0.09523809523809523,0.9047619047619048,1,12
+Manitoba,Manitoba|186|ee|5|5|ee,12,31,0.3194444444444444,0.6805555555555555,3,7
+Manitoba,Manitoba|186|ee|6|6|ee,28,78,0.14285714285714285,0.8571428571428571,4,24
+Manitoba,Manitoba|186|ee|7|7|ee,30,69,0.0,1.0,0,30
+Manitoba,Manitoba|186|e|||e,22,57,0.18181818181818182,0.7727272727272727,4,17
+Manitoba,Manitoba|186|ff|1|1|ff,2,9,0.0,1.0,0,2
+Manitoba,Manitoba|186|ff|2|2|ff,33,86,0.06060606060606061,0.9393939393939394,2,31
+Manitoba,Manitoba|186|f|||f,14,45,0.21428571428571427,0.7857142857142857,3,11
+Manitoba,Manitoba|186|g|1|1|g,12,40,0.0,1.0,0,12
+Manitoba,Manitoba|186|g|2|2|g,18,42,0.0,1.0,0,18
+Manitoba,Manitoba|186|h|1|1|h,19,61,0.9736842105263158,0.0,18,0
+Manitoba,Manitoba|186|j|||j,3,10,0.0,1.0,0,3
+Manitoba,Manitoba|186|k|||k,9,30,0.2222222222222222,0.7777777777777778,2,7
+Manitoba,Manitoba|186|l|||l,28,84,0.03571428571428571,0.9642857142857143,1,27
+New Brunswick,New Brunswick|23|a|||a,19,59,0.05263157894736842,0.8947368421052632,1,17
+New Brunswick,New Brunswick|23|b|1|1|b,9,30,0.8703703703703705,0.12962962962962965,7,1
+New Brunswick,New Brunswick|23|b|2|2|b,33,98,0.0,1.0,0,33
+New Brunswick,New Brunswick|23|c|1|1|c,25,83,0.12,0.88,3,22
+New Brunswick,New Brunswick|23|c|2|2|c,15,34,0.5,0.2,6,3
+New Brunswick,New Brunswick|23|d|||d,26,76,0.07692307692307693,0.9230769230769231,2,24
+New Brunswick,New Brunswick|23|e|||e,24,59,0.3333333333333333,0.6597222222222222,8,15
+New Brunswick,New Brunswick|23|f|||f,30,116,0.58,0.35333333333333333,17,10
+New Brunswick,New Brunswick|24|a|1|1|a,2,4,0.0,1.0,0,2
+New Brunswick,New Brunswick|24|a|2|2|a,26,72,0.0,1.0,0,26
+New Brunswick,New Brunswick|24|b|1|1|b,15,44,0.06666666666666667,0.9333333333333333,1,14
+New Brunswick,New Brunswick|24|b|2|2|b,31,88,0.0,1.0,0,31
+New Brunswick,New Brunswick|24|c|1|1|c,5,16,0.0,1.0,0,5
+New Brunswick,New Brunswick|24|c|2|2|c,12,29,0.4166666666666667,0.5833333333333334,5,7
+New Brunswick,New Brunswick|24|d|1|1|d,8,24,0.0,1.0,0,8
+New Brunswick,New Brunswick|24|d|2|2|d,4,13,0.7,0.3,2,1
+New Brunswick,New Brunswick|24|e|1|1|e,21,47,0.3333333333333333,0.6190476190476191,7,13
+New Brunswick,New Brunswick|24|e|2|2|e,21,55,0.23809523809523808,0.7619047619047619,5,16
+New Brunswick,New Brunswick|24|f|||f,32,84,0.0625,0.90625,2,29
+New Brunswick,New Brunswick|24|g|||g,25,53,0.2,0.8,5,20
+New Brunswick,New Brunswick|24|h|||h,12,38,0.625,0.375,7,4
+New Brunswick,New Brunswick|24|i|||i,12,34,0.9166666666666666,0.08333333333333333,11,1
+New Brunswick,New Brunswick|25|a|1|1|a,5,17,0.0,1.0,0,5
+New Brunswick,New Brunswick|25|a|2|2|a,23,76,0.08695652173913043,0.9130434782608695,2,21
+New Brunswick,New Brunswick|25|a|3|3|a,24,68,0.0,1.0,0,24
+New Brunswick,New Brunswick|25|b|||b,17,44,0.0,0.9411764705882353,0,16
+New Brunswick,New Brunswick|25|c|||c,5,10,0.0,0.8,0,4
+New Brunswick,New Brunswick|25|d|||d,61,175,0.07650273224043715,0.907103825136612,4,55
+New Brunswick,New Brunswick|25|e|||e,68,178,0.04411764705882353,0.9558823529411765,3,65
+New Brunswick,New Brunswick|25|f|||f,49,122,0.02040816326530612,0.9795918367346939,1,48
+New Brunswick,New Brunswick|25|g|||g,11,33,0.0,1.0,0,11
+New Brunswick,New Brunswick|25|h|1|1|h,26,74,0.0,1.0,0,26
+New Brunswick,New Brunswick|25|h|2|2|h,1,3,0.0,1.0,0,1
+New Brunswick,New Brunswick|25|i|1|1|i,21,69,0.19047619047619047,0.8095238095238095,4,17
+New Brunswick,New Brunswick|25|i|2|2|i,11,26,0.5454545454545454,0.45454545454545453,6,5
+New Brunswick,New Brunswick|26|a|||a,5,14,0.0,1.0,0,5
+New Brunswick,New Brunswick|26|b|||b,3,4,0.0,1.0,0,3
+New Brunswick,New Brunswick|26|c|||c,8,26,0.125,0.875,1,7
+New Brunswick,New Brunswick|26|d|1|1|d,24,68,0.08333333333333333,0.9166666666666666,2,22
+New Brunswick,New Brunswick|26|d|2|2|d,26,83,0.6923076923076923,0.3076923076923077,18,8
+New Brunswick,New Brunswick|26|e|||e,7,20,0.0,1.0,0,7
+New Brunswick,New Brunswick|26|f|||f,14,45,0.07142857142857142,0.9285714285714286,1,13
+New Brunswick,New Brunswick|26|g|1|1|g,15,46,0.16666666666666666,0.8333333333333334,2,12
+New Brunswick,New Brunswick|26|g|2|2|g,4,15,0.25,0.75,1,3
+New Brunswick,New Brunswick|26|h|||h,10,41,0.1,0.9,1,9
+New Brunswick,New Brunswick|26|i|1|1|i,15,51,0.0,1.0,0,15
+New Brunswick,New Brunswick|26|i|2|2|i,5,20,0.1,0.9,0,4
+New Brunswick,New Brunswick|26|j|||j,30,72,0.03333333333333333,0.9444444444444444,1,28
+New Brunswick,New Brunswick|26|j|||k,12,33,0.0,1.0,0,12
+New Brunswick,New Brunswick|26|l|||l,14,37,0.21428571428571427,0.75,3,10
+New Brunswick,New Brunswick|26|m|||m,2,6,0.0,1.0,0,2
+New Brunswick,New Brunswick|26|n|||n,6,16,0.0,1.0,0,6
+New Brunswick,New Brunswick|26|o|1|1|o,17,59,0.0,1.0,0,17
+New Brunswick,New Brunswick|26|o|2|2|o,4,16,0.75,0.25,3,1
+New Brunswick,New Brunswick|26|p|||p,12,40,0.0,1.0,0,12
+New Brunswick,New Brunswick|26|q|||q,10,27,0.175,0.825,1,8
+New Brunswick,New Brunswick|26|r|||r,59,156,0.06497175141242938,0.9096045197740112,3,52
+New Brunswick,New Brunswick|27|a|||a,3,6,0.0,1.0,0,3
+New Brunswick,New Brunswick|27|b|||b,4,12,0.5,0.5,2,2
+New Brunswick,New Brunswick|27|c|1|1|c,13,35,0.10256410256410256,0.7435897435897435,1,9
+New Brunswick,New Brunswick|27|c|2|2|c,7,28,0.07142857142857142,0.9285714285714286,0,6
+New Brunswick,New Brunswick|27|d|||d,23,53,0.02898550724637681,0.9492753623188406,0,21
+New Brunswick,New Brunswick|27|e|||e,15,39,0.06666666666666667,0.9333333333333333,1,14
+New Brunswick,New Brunswick|27|f|||f,7,25,0.0,1.0,0,7
+New Brunswick,New Brunswick|27|g|1|1|g,8,17,0.25,0.75,2,6
+New Brunswick,New Brunswick|27|g|2|2|g,7,20,0.0,1.0,0,7
+New Brunswick,New Brunswick|27|h|||h,20,64,0.15,0.85,3,17
+New Brunswick,New Brunswick|27|i|1|1|i,17,63,0.11764705882352941,0.8235294117647058,2,14
+New Brunswick,New Brunswick|27|i|2|2|i,13,38,0.07692307692307693,0.9230769230769231,1,12
+New Brunswick,New Brunswick|27|j|||j,9,30,0.1111111111111111,0.8888888888888888,1,8
+New Brunswick,New Brunswick|27|k|1|1|k,29,75,0.06896551724137931,0.9310344827586207,2,27
+New Brunswick,New Brunswick|27|k|2|2|k,3,8,0.0,1.0,0,3
+New Brunswick,New Brunswick|27|l|||l,1,5,0.0,1.0,0,1
+New Brunswick,New Brunswick|27|m|||m,15,52,0.06666666666666667,0.9333333333333333,1,14
+New Brunswick,New Brunswick|27|n|1|1|n,34,99,0.0,0.9313725490196079,0,31
+New Brunswick,New Brunswick|27|n|2|2|n,16,44,0.875,0.125,14,2
+New Brunswick,New Brunswick|27|o|1|1|o,9,27,0.0,1.0,0,9
+New Brunswick,New Brunswick|27|o|2|2|o,12,44,0.08333333333333333,0.9166666666666666,1,11
+New Brunswick,New Brunswick|28|a|1|1|a,7,27,0.2857142857142857,0.7142857142857143,2,5
+New Brunswick,New Brunswick|28|a|2|2|a,6,22,0.041666666666666664,0.9583333333333334,0,5
+New Brunswick,New Brunswick|28|b|||b,19,51,0.2736842105263158,0.7263157894736842,5,13
+New Brunswick,New Brunswick|28|c|||c,13,38,0.038461538461538464,0.9615384615384616,0,12
+New Brunswick,New Brunswick|28|d|||d,11,25,0.8181818181818182,0.18181818181818182,9,2
+New Brunswick,New Brunswick|28|e|||e,32,108,0.265625,0.703125,7,22
+New Brunswick,New Brunswick|28|f|||f,9,30,0.3333333333333333,0.6666666666666666,3,6
+New Brunswick,New Brunswick|28|g|||g,6,17,0.8333333333333334,0.16666666666666666,5,1
+New Brunswick,New Brunswick|28|h|||h,23,69,0.08695652173913043,0.9130434782608695,2,21
+New Brunswick,New Brunswick|28|i|||i,18,56,0.0,1.0,0,18
+New Brunswick,New Brunswick|28|j|||j,29,92,0.034482758620689655,0.9655172413793104,1,28
+New Brunswick,New Brunswick|29|a|||a,18,62,0.06349206349206349,0.9365079365079365,1,16
+New Brunswick,New Brunswick|29|b|||b,3,14,0.0,1.0,0,3
+New Brunswick,New Brunswick|29|c|||c,10,40,0.0,1.0,0,10
+New Brunswick,New Brunswick|29|d|||d,6,15,0.3333333333333333,0.6666666666666666,2,4
+New Brunswick,New Brunswick|29|e|||e,8,22,0.0,1.0,0,8
+New Brunswick,New Brunswick|29|f|||f,8,23,0.5,0.5,4,4
+New Brunswick,New Brunswick|29|g|||g,3,10,0.3333333333333333,0.6666666666666666,1,2
+New Brunswick,New Brunswick|30|a|||a,9,25,0.0,1.0,0,9
+New Brunswick,New Brunswick|30|b|||b,12,31,0.0,1.0,0,12
+New Brunswick,New Brunswick|30|c|||c,21,63,0.011904761904761904,0.9880952380952381,0,20
+New Brunswick,New Brunswick|30|d|||d,17,49,0.11764705882352941,0.8823529411764706,2,15
+New Brunswick,New Brunswick|30|e|||e,15,52,0.08888888888888888,0.9111111111111111,1,13
+New Brunswick,New Brunswick|30|f|||f,5,13,0.2,0.8,1,4
+New Brunswick,New Brunswick|30|g|||g,20,65,0.9375,0.0125,18,0
+New Brunswick,New Brunswick|30|h|||h,5,7,0.6,0.4,3,2
+New Brunswick,New Brunswick|30|i|||i,7,25,0.023809523809523808,0.9761904761904763,0,6
+New Brunswick,New Brunswick|30|j|||j,3,13,0.0,1.0,0,3
+New Brunswick,New Brunswick|30|k|1|1|k,13,33,0.15384615384615385,0.8461538461538461,2,11
+New Brunswick,New Brunswick|30|m|||m,16,57,0.0625,0.90625,1,14
+New Brunswick,New Brunswick|30|o|||o,7,21,0.0,1.0,0,7
+New Brunswick,New Brunswick|30|p|1|1|p,38,104,0.07894736842105263,0.9210526315789473,3,35
+New Brunswick,New Brunswick|30|p|2|2|p,8,30,0.125,0.875,1,7
+New Brunswick,New Brunswick|30|q|||q,40,158,0.0,1.0,0,40
+New Brunswick,New Brunswick|30|r|1|1|r,31,77,0.06451612903225806,0.9354838709677419,2,29
+New Brunswick,New Brunswick|30|r|2|2|r,4,9,0.25,0.75,1,3
+New Brunswick,New Brunswick|31|a|1|1|a,2,4,0.0,1.0,0,2
+New Brunswick,New Brunswick|31|a|2|2|a,3,11,0.3333333333333333,0.6666666666666666,1,2
+New Brunswick,New Brunswick|31|b|1|1|b,11,27,0.0606060606060606,0.9393939393939394,0,10
+New Brunswick,New Brunswick|31|b|2|2|b,18,55,0.1111111111111111,0.8611111111111112,2,15
+New Brunswick,New Brunswick|31|c|1|1|c,9,17,0.2222222222222222,0.7777777777777778,2,7
+New Brunswick,New Brunswick|31|c|2|2|c,7,14,0.2857142857142857,0.7142857142857143,2,5
+New Brunswick,New Brunswick|31|d|||d,15,51,0.0,0.9333333333333333,0,14
+New Brunswick,New Brunswick|31|e|||e,29,91,0.0,1.0,0,29
+New Brunswick,New Brunswick|31|f|||f,25,73,0.0,0.98,0,24
+New Brunswick,New Brunswick|31|g|1|1|g,1,5,1.0,0.0,1,0
+New Brunswick,New Brunswick|31|g|2|2|g,18,61,0.1111111111111111,0.8888888888888888,2,16
+New Brunswick,New Brunswick|31|h|||h,14,50,0.07142857142857142,0.9285714285714286,1,13
+New Brunswick,New Brunswick|31|i|||i,19,56,0.05263157894736842,0.9473684210526315,1,18
+New Brunswick,New Brunswick|31|j|||j,31,85,0.0,1.0,0,31
+New Brunswick,New Brunswick|31|k|||k,22,72,0.0,1.0,0,22
+New Brunswick,New Brunswick|31|l|||l,11,23,0.0,1.0,0,11
+New Brunswick,New Brunswick|32|a|||a,1,3,1.0,0.0,1,0
+New Brunswick,New Brunswick|32|b|||b,2,5,0.5,0.5,1,1
+New Brunswick,New Brunswick|32|c|||c,4,9,0.25,0.75,1,3
+New Brunswick,New Brunswick|32|d|||d,2,6,0.0,1.0,0,2
+New Brunswick,New Brunswick|32|f|||f,1,1,0.0,1.0,0,1
+New Brunswick,New Brunswick|32|g|||g,4,16,0.25,0.5833333333333333,1,2
+New Brunswick,New Brunswick|32|h|||h,31,100,0.03225806451612903,0.967741935483871,1,30
+New Brunswick,New Brunswick|32|i|||i,32,95,0.03125,0.96875,1,31
+New Brunswick,New Brunswick|32|j|||j,4,13,0.25,0.75,1,3
+New Brunswick,New Brunswick|32|k|1|1|k,14,52,0.6785714285714286,0.32142857142857145,9,4
+New Brunswick,New Brunswick|32|k|2|2|k,2,10,0.5,0.5,1,1
+New Brunswick,New Brunswick|32|l|||l,22,72,0.1212121212121212,0.8446969696969696,1,18
+New Brunswick,New Brunswick|32|m|||m,7,23,0.5714285714285714,0.42857142857142855,4,3
+New Brunswick,New Brunswick|33|a|1|1|a,11,32,0.09090909090909091,0.9090909090909091,1,10
+New Brunswick,New Brunswick|33|a|2|2|a,11,33,0.0,1.0,0,11
+New Brunswick,New Brunswick|33|a|3|3|a,12,27,0.03333333333333333,0.9666666666666667,0,11
+New Brunswick,New Brunswick|33|a|4|4|a,1,2,0.0,1.0,0,1
+New Brunswick,New Brunswick|33|b|1|1|b,15,61,0.0,1.0,0,15
+New Brunswick,New Brunswick|33|b|2|2|b,24,70,0.25,0.75,6,18
+New Brunswick,New Brunswick|33|c|1|1|c,9,31,0.0,1.0,0,9
+New Brunswick,New Brunswick|33|c|2|2|c,8,26,0.125,0.875,1,7
+New Brunswick,New Brunswick|33|d|1|1|d,21,64,0.09523809523809523,0.9047619047619048,2,19
+New Brunswick,New Brunswick|33|d|2|2|d,8,31,0.125,0.875,1,7
+New Brunswick,New Brunswick|33|e|1|1|e,2,4,0.0,1.0,0,2
+New Brunswick,New Brunswick|33|e|3|3|e,13,42,0.0,1.0,0,13
+New Brunswick,New Brunswick|33|e|4|4|e,10,30,0.1,0.9,1,9
+New Brunswick,New Brunswick|33|f|1|1|f,26,79,0.038461538461538464,0.9615384615384616,1,25
+New Brunswick,New Brunswick|33|f|2|2|f,24,64,0.0,1.0,0,24
+New Brunswick,New Brunswick|33|f|3|3|f,8,22,0.375,0.625,3,5
+New Brunswick,New Brunswick|33|g|1|1|g,21,63,0.09523809523809523,0.9047619047619048,2,19
+New Brunswick,New Brunswick|33|g|2|2|g,30,86,0.03333333333333333,0.9666666666666667,1,29
+New Brunswick,New Brunswick|33|h|1|1|h,53,180,0.0,1.0,0,53
+New Brunswick,New Brunswick|33|h|2|2|h,6,21,0.5,0.5,3,3
+New Brunswick,New Brunswick|34|a|2|2|a,7,20,0.14285714285714285,0.8571428571428571,1,6
+New Brunswick,New Brunswick|34|b|||b,10,25,0.0,1.0,0,10
+New Brunswick,New Brunswick|34|c|1|1|c,5,21,0.0,1.0,0,5
+New Brunswick,New Brunswick|34|c|2|2|c,8,36,0.0,1.0,0,8
+New Brunswick,New Brunswick|34|d|1|1|d,4,12,0.5,0.5,2,2
+New Brunswick,New Brunswick|34|d|2|2|d,12,31,0.0,1.0,0,12
+New Brunswick,New Brunswick|34|d|3|3|d,23,75,0.0,0.9565217391304348,0,22
+New Brunswick,New Brunswick|34|e|1|1|e,12,56,0.16666666666666666,0.8333333333333334,2,10
+New Brunswick,New Brunswick|34|e|2|2|e,3,6,0.3333333333333333,0.6666666666666666,1,2
+New Brunswick,New Brunswick|34|e|3|3|e,2,3,0.5,0.5,1,1
+New Brunswick,New Brunswick|34|f|1|1|f,2,3,0.5,0.5,1,1
+New Brunswick,New Brunswick|34|f|2|2|f,3,11,0.0,1.0,0,3
+New Brunswick,New Brunswick|34|f|3|3|f,2,11,0.0,1.0,0,2
+New Brunswick,New Brunswick|34|g|1|1|g,1,2,0.0,1.0,0,1
+New Brunswick,New Brunswick|34|g|2|2|g,6,21,0.0,1.0,0,6
+New Brunswick,New Brunswick|34|h|1|1|h,4,20,0.0,1.0,0,4
+New Brunswick,New Brunswick|34|h|2|2|h,10,32,0.2,0.8,2,8
+New Brunswick,New Brunswick|34|h|3|3|h,1,3,0.0,1.0,0,1
+New Brunswick,New Brunswick|34|i|||i,16,55,0.0625,0.9375,1,15
+New Brunswick,New Brunswick|35|a|1|1|a,2,5,0.0,1.0,0,2
+New Brunswick,New Brunswick|35|a|2|2|a,5,23,0.26666666666666666,0.7333333333333333,1,3
+New Brunswick,New Brunswick|35|a|3|3|a,2,7,0.0,1.0,0,2
+New Brunswick,New Brunswick|35|b|1|1|b,5,10,0.2,0.8,1,4
+New Brunswick,New Brunswick|35|b|2|2|b,11,33,0.09090909090909091,0.8181818181818182,1,9
+New Brunswick,New Brunswick|35|b|3|3|b,37,104,0.06756756756756757,0.9324324324324325,2,34
+New Brunswick,New Brunswick|35|c|1|1|c,10,38,0.0,1.0,0,10
+New Brunswick,New Brunswick|35|c|2|2|c,4,18,0.0,1.0,0,4
+New Brunswick,New Brunswick|35|d|1|1|d,3,7,0.0,1.0,0,3
+New Brunswick,New Brunswick|35|d|2|2|d,3,9,0.0,1.0,0,3
+New Brunswick,New Brunswick|35|e|1|1|e,6,27,0.16666666666666666,0.8333333333333334,1,5
+New Brunswick,New Brunswick|35|e|2|2|e,10,34,0.0,1.0,0,10
+New Brunswick,New Brunswick|35|f|1|1|f,6,22,0.0,1.0,0,6
+New Brunswick,New Brunswick|35|f|2|2|f,7,25,0.03571428571428571,0.9642857142857143,0,6
+New Brunswick,New Brunswick|35|g|1|1|g,14,55,0.08571428571428572,0.9142857142857144,1,12
+New Brunswick,New Brunswick|35|g|2|2|g,1,4,1.0,0.0,1,0
+New Brunswick,New Brunswick|35|h|1|1|h,3,5,0.3333333333333333,0.6666666666666666,1,2
+New Brunswick,New Brunswick|35|h|2|2|h,7,26,0.0,1.0,0,7
+New Brunswick,New Brunswick|35|i|1|1|i,17,57,0.058823529411764705,0.9411764705882353,1,16
+New Brunswick,New Brunswick|35|i|2|2|i,8,25,0.0,1.0,0,8
+New Brunswick,New Brunswick|35|j|1|1|j,1,3,0.0,1.0,0,1
+New Brunswick,New Brunswick|35|j|2|2|j,40,102,0.19166666666666668,0.8083333333333333,7,32
+New Brunswick,New Brunswick|35|j|3|3|j,40,116,0.0875,0.8875,3,35
+New Brunswick,New Brunswick|35|k|1|1|k,1,7,0.0,1.0,0,1
+New Brunswick,New Brunswick|35|k|2|2|k,4,14,0.0,1.0,0,4
+New Brunswick,New Brunswick|35|k|3|3|k,5,16,0.03333333333333333,0.9666666666666668,0,4
+New Brunswick,New Brunswick|35|l|1|1|l,8,24,0.0,1.0,0,8
+New Brunswick,New Brunswick|35|l|3|3|l,6,30,0.0,1.0,0,6
+New Brunswick,New Brunswick|36|a|1|1|a,6,23,0.6666666666666666,0.3333333333333333,4,2
+New Brunswick,New Brunswick|36|a|2|2|a,5,13,0.0,1.0,0,5
+New Brunswick,New Brunswick|36|b|1|1|b,17,46,0.0,1.0,0,17
+New Brunswick,New Brunswick|36|b|2|2|b,23,70,0.0,1.0,0,23
+New Brunswick,New Brunswick|36|b|3|3|b,9,21,0.0,1.0,0,9
+New Brunswick,New Brunswick|36|c|1|1|c,8,36,0.25,0.75,2,6
+New Brunswick,New Brunswick|36|d|1|1|d,5,17,0.0,1.0,0,5
+New Brunswick,New Brunswick|36|d|2|2|d,2,9,0.0,1.0,0,2
+New Brunswick,New Brunswick|36|e|1|1|e,12,48,0.0,1.0,0,12
+New Brunswick,New Brunswick|36|e|2|2|e,3,9,0.0,1.0,0,3
+New Brunswick,New Brunswick|36|f|2|2|f,2,3,0.0,1.0,0,2
+New Brunswick,New Brunswick|36|g|1|1|g,5,16,0.0,1.0,0,5
+New Brunswick,New Brunswick|36|g|2|2|g,8,41,0.125,0.875,1,7
+New Brunswick,New Brunswick|37|a|||a,2,10,1.0,0.0,2,0
+New Brunswick,New Brunswick|37|b|1|1|b,16,40,0.0,1.0,0,16
+New Brunswick,New Brunswick|37|b|2|2|b,2,8,0.0,1.0,0,2
+New Brunswick,New Brunswick|37|c|1|1|c,8,28,0.125,0.8571428571428572,1,6
+New Brunswick,New Brunswick|37|c|2|2|c,4,13,0.75,0.25,3,1
+New Brunswick,New Brunswick|37|d|1|1|d,5,16,0.2,0.8,1,4
+New Brunswick,New Brunswick|37|d|2|2|d,1,6,0.0,1.0,0,1
+New Brunswick,New Brunswick|37|e|1|1|e,9,32,0.0,1.0,0,9
+New Brunswick,New Brunswick|37|e|2|2|e,4,14,0.0,1.0,0,4
+Nova Scotia,Nova Scotia|10|aa|||aa,23,75,0.043478260869565216,0.9565217391304348,1,22
+Nova Scotia,Nova Scotia|10|a|||a,13,40,0.07692307692307693,0.9230769230769231,1,12
+Nova Scotia,Nova Scotia|10|bb|||bb,18,51,0.0,1.0,0,18
+Nova Scotia,Nova Scotia|10|b|||b,9,30,0.0,1.0,0,9
+Nova Scotia,Nova Scotia|10|cc|||cc,4,14,0.0,1.0,0,4
+Nova Scotia,Nova Scotia|10|c|||c,9,37,0.0,1.0,0,9
+Nova Scotia,Nova Scotia|10|dd|||dd,9,34,0.0,1.0,0,9
+Nova Scotia,Nova Scotia|10|d|||d,3,10,0.0,1.0,0,3
+Nova Scotia,Nova Scotia|10|ee|||ee,18,55,0.16666666666666666,0.8333333333333334,3,15
+Nova Scotia,Nova Scotia|10|e|||e,11,19,0.0,1.0,0,11
+Nova Scotia,Nova Scotia|10|f|||f,31,93,0.0,1.0,0,31
+Nova Scotia,Nova Scotia|10|g|||g,5,16,0.0,1.0,0,5
+Nova Scotia,Nova Scotia|10|h|||h,40,116,0.05,0.95,2,38
+Nova Scotia,Nova Scotia|10|i|||i,13,34,0.15384615384615385,0.8461538461538461,2,11
+Nova Scotia,Nova Scotia|10|j|1|1|j,16,46,0.0,1.0,0,16
+Nova Scotia,Nova Scotia|10|j|2|2|j,16,53,0.0,1.0,0,16
+Nova Scotia,Nova Scotia|10|k|||k,5,13,0.0,1.0,0,5
+Nova Scotia,Nova Scotia|10|l|||l,8,29,0.125,0.875,1,7
+Nova Scotia,Nova Scotia|10|m|1|1|m,10,23,0.0,1.0,0,10
+Nova Scotia,Nova Scotia|10|m|2|2|m,46,138,0.021739130434782608,0.9782608695652174,1,45
+Nova Scotia,Nova Scotia|10|m|3|3|m,15,53,0.0,0.9333333333333333,0,14
+Nova Scotia,Nova Scotia|10|n|||n,29,83,0.1724137931034483,0.8275862068965517,5,24
+Nova Scotia,Nova Scotia|10|o|||o,18,69,0.027777777777777776,0.9722222222222222,0,17
+Nova Scotia,Nova Scotia|10|p|||p,2,7,1.0,0.0,2,0
+Nova Scotia,Nova Scotia|10|q|||q,15,56,0.0,1.0,0,15
+Nova Scotia,Nova Scotia|10|r|||r,1,6,0.0,1.0,0,1
+Nova Scotia,Nova Scotia|10|s|||s,13,37,0.0,1.0,0,13
+Nova Scotia,Nova Scotia|10|t|1|1|t,13,37,0.0,1.0,0,13
+Nova Scotia,Nova Scotia|10|t|2|2|t,2,7,0.5,0.5,1,1
+Nova Scotia,Nova Scotia|10|u|||u,13,47,0.0,1.0,0,13
+Nova Scotia,Nova Scotia|10|v|1|1|v,5,19,0.0,1.0,0,5
+Nova Scotia,Nova Scotia|10|v|2|2|v,8,27,0.175,0.825,1,6
+Nova Scotia,Nova Scotia|10|w|1|1|w,24,84,0.0,1.0,0,24
+Nova Scotia,Nova Scotia|10|w|2|2|w,11,37,0.0,1.0,0,11
+Nova Scotia,Nova Scotia|10|x|||x,12,40,0.16666666666666666,0.8333333333333334,2,10
+Nova Scotia,Nova Scotia|10|y|||y,15,48,0.0,1.0,0,15
+Nova Scotia,Nova Scotia|10|z|||z,8,21,0.0,1.0,0,8
+Nova Scotia,Nova Scotia|11|a|1|1|a,17,51,0.0,1.0,0,17
+Nova Scotia,Nova Scotia|11|a|2|2|a,18,52,0.0,1.0,0,18
+Nova Scotia,Nova Scotia|11|a|3|3|a,19,48,0.05263157894736842,0.9473684210526315,1,18
+Nova Scotia,Nova Scotia|11|b|||b,9,35,0.0,1.0,0,9
+Nova Scotia,Nova Scotia|11|c|2|2|c,29,56,0.2413793103448276,0.7241379310344828,7,21
+Nova Scotia,Nova Scotia|11|c|3|3|c,13,38,0.07692307692307693,0.9230769230769231,1,12
+Nova Scotia,Nova Scotia|11|d|||d,18,62,0.16666666666666666,0.8333333333333334,3,15
+Nova Scotia,Nova Scotia|11|e|1|1|e,13,29,0.07692307692307693,0.9230769230769231,1,12
+Nova Scotia,Nova Scotia|11|e|2|2|e,21,74,0.047619047619047616,0.9523809523809523,1,20
+Nova Scotia,Nova Scotia|11|e|3|3|e,9,31,0.0,1.0,0,9
+Nova Scotia,Nova Scotia|11|f|1|1|f,6,24,0.0,1.0,0,6
+Nova Scotia,Nova Scotia|11|f|2|2|f,5,9,0.6,0.4,3,2
+Nova Scotia,Nova Scotia|11|g|||g,4,13,0.5,0.5,2,2
+Nova Scotia,Nova Scotia|11|h|1|1|h,3,6,1.0,0.0,3,0
+Nova Scotia,Nova Scotia|11|h|2|2|h,8,16,0.0,1.0,0,8
+Nova Scotia,Nova Scotia|11|h|3|3|h,11,22,0.018181818181818184,0.9818181818181819,0,10
+Nova Scotia,Nova Scotia|11|i|1|1|i,19,44,0.05263157894736842,0.9473684210526315,1,18
+Nova Scotia,Nova Scotia|11|i|2|2|i,15,45,0.0,1.0,0,15
+Nova Scotia,Nova Scotia|11|i|3|3|i,20,59,0.15,0.85,3,17
+Nova Scotia,Nova Scotia|11|j|||j,9,30,0.0,1.0,0,9
+Nova Scotia,Nova Scotia|11|k|||k,13,38,0.07692307692307693,0.9230769230769231,1,12
+Nova Scotia,Nova Scotia|11|l|||l,11,36,0.0,1.0,0,11
+Nova Scotia,Nova Scotia|11|m|||m,10,29,0.0,1.0,0,10
+Nova Scotia,Nova Scotia|12|a|||a,21,63,0.047619047619047616,0.9523809523809523,1,20
+Nova Scotia,Nova Scotia|12|b|||b,21,59,0.09523809523809523,0.8928571428571429,2,18
+Nova Scotia,Nova Scotia|12|c|||c,6,17,0.3333333333333333,0.6666666666666666,2,4
+Nova Scotia,Nova Scotia|12|d|||d,17,52,0.0,0.9411764705882353,0,16
+Nova Scotia,Nova Scotia|12|e|||e,9,28,0.7777777777777778,0.2222222222222222,7,2
+Nova Scotia,Nova Scotia|12|f|||f,10,25,0.1,0.9,1,9
+Nova Scotia,Nova Scotia|12|g|||g,7,25,0.0,1.0,0,7
+Nova Scotia,Nova Scotia|12|h|||h,19,51,0.21052631578947367,0.7894736842105263,4,15
+Nova Scotia,Nova Scotia|12|i|||i,11,19,0.6363636363636364,0.36363636363636365,7,4
+Nova Scotia,Nova Scotia|12|j|||j,10,34,0.0,1.0,0,10
+Nova Scotia,Nova Scotia|12|k|||k,8,20,0.0,1.0,0,8
+Nova Scotia,Nova Scotia|12|l|||l,7,25,0.0,1.0,0,7
+Nova Scotia,Nova Scotia|12|m|||m,6,20,0.0,1.0,0,6
+Nova Scotia,Nova Scotia|13|a|||a,11,35,0.0,1.0,0,11
+Nova Scotia,Nova Scotia|13|c|||c,37,125,0.05405405405405406,0.9459459459459459,2,35
+Nova Scotia,Nova Scotia|13|d|||d,3,12,0.0,1.0,0,3
+Nova Scotia,Nova Scotia|13|e|||e,17,44,0.0,1.0,0,17
+Nova Scotia,Nova Scotia|13|f|||f,11,24,0.6363636363636364,0.36363636363636365,7,4
+Nova Scotia,Nova Scotia|13|g|||g,15,43,0.0,1.0,0,15
+Nova Scotia,Nova Scotia|13|h|||h,18,53,0.027777777777777776,0.9722222222222222,0,17
+Nova Scotia,Nova Scotia|13|i|1|1|i,7,23,0.0,1.0,0,7
+Nova Scotia,Nova Scotia|13|j|||j,13,38,0.07692307692307693,0.8615384615384615,1,11
+Nova Scotia,Nova Scotia|13|k|||k,24,68,0.08333333333333333,0.9166666666666666,2,22
+Nova Scotia,Nova Scotia|14|a|||a,11,35,0.2727272727272727,0.7272727272727273,3,8
+Nova Scotia,Nova Scotia|14|b|||b,3,14,0.0,1.0,0,3
+Nova Scotia,Nova Scotia|14|c|1|1|c,15,45,0.13333333333333333,0.7799999999999999,2,11
+Nova Scotia,Nova Scotia|14|c|2|2|c,31,109,0.016129032258064516,0.9838709677419355,0,30
+Nova Scotia,Nova Scotia|14|c|3|3|c,2,11,0.2,0.8,0,1
+Nova Scotia,Nova Scotia|14|d|2|2|d,1,4,0.0,1.0,0,1
+Nova Scotia,Nova Scotia|14|g|||g,1,3,1.0,0.0,1,0
+Nova Scotia,Nova Scotia|14|h|1|1|h,2,7,0.0,1.0,0,2
+Nova Scotia,Nova Scotia|14|h|2|2|h,5,16,0.0,1.0,0,5
+Nova Scotia,Nova Scotia|14|i|||i,2,6,1.0,0.0,2,0
+Nova Scotia,Nova Scotia|14|j|||j,16,39,0.5,0.5,8,8
+Nova Scotia,Nova Scotia|15|a|||a,6,18,0.5,0.5,3,3
+Nova Scotia,Nova Scotia|15|b|||b,9,29,0.4444444444444444,0.5555555555555556,4,5
+Nova Scotia,Nova Scotia|15|c|1|1|c,11,39,0.45454545454545453,0.5454545454545454,5,6
+Nova Scotia,Nova Scotia|15|c|2|2|c,5,16,0.0,1.0,0,5
+Nova Scotia,Nova Scotia|15|d|||d,4,7,1.0,0.0,4,0
+Nova Scotia,Nova Scotia|15|e|||e,9,39,0.0,1.0,0,9
+Nova Scotia,Nova Scotia|15|f|||f,2,9,1.0,0.0,2,0
+Nova Scotia,Nova Scotia|15|g|||g,7,29,0.0,0.8571428571428571,0,6
+Nova Scotia,Nova Scotia|15|h|||h,11,38,0.18181818181818182,0.7272727272727273,2,8
+Nova Scotia,Nova Scotia|15|i|||i,5,13,0.2,0.8,1,4
+Nova Scotia,Nova Scotia|15|j|||j,10,26,0.0,1.0,0,10
+Nova Scotia,Nova Scotia|15|k|||k,8,13,0.125,0.75,1,6
+Nova Scotia,Nova Scotia|15|l|||l,7,22,0.0,1.0,0,7
+Nova Scotia,Nova Scotia|15|m|||m,6,21,0.6666666666666666,0.3333333333333333,4,2
+Nova Scotia,Nova Scotia|15|n|||n,5,25,0.2,0.8,1,4
+Nova Scotia,Nova Scotia|15|o|||o,1,6,0.0,1.0,0,1
+Nova Scotia,Nova Scotia|15|p|||p,10,34,0.7,0.3,7,3
+Nova Scotia,Nova Scotia|16|a|||a,52,139,0.057692307692307696,0.9423076923076923,3,49
+Nova Scotia,Nova Scotia|16|b|||b,21,56,0.0,1.0,0,21
+Nova Scotia,Nova Scotia|16|c|||c,8,22,0.125,0.875,1,7
+Nova Scotia,Nova Scotia|16|d|||d,4,14,0.5,0.5,2,2
+Nova Scotia,Nova Scotia|16|e|||e,2,9,0.0,1.0,0,2
+Nova Scotia,Nova Scotia|16|f|||f,23,60,0.0,1.0,0,23
+Nova Scotia,Nova Scotia|16|g|||g,14,37,0.0,1.0,0,14
+Nova Scotia,Nova Scotia|16|h|||h,8,27,0.0,1.0,0,8
+Nova Scotia,Nova Scotia|16|i|||i,6,22,0.16666666666666666,0.8333333333333334,1,5
+Nova Scotia,Nova Scotia|16|j|||j,42,128,0.07142857142857142,0.9285714285714286,3,39
+Nova Scotia,Nova Scotia|16|k|||k,12,39,0.0,1.0,0,12
+Nova Scotia,Nova Scotia|16|l|||l,10,31,0.36666666666666664,0.6333333333333333,3,6
+Nova Scotia,Nova Scotia|16|m|||m,7,20,0.0,1.0,0,7
+Nova Scotia,Nova Scotia|16|n|||n,6,21,0.0,1.0,0,6
+Nova Scotia,Nova Scotia|16|o|||o,14,56,0.0,1.0,0,14
+Nova Scotia,Nova Scotia|17|a|1|1|a,14,39,1.0,0.0,14,0
+Nova Scotia,Nova Scotia|17|a|2|2|a,21,71,0.7619047619047619,0.23809523809523808,16,5
+Nova Scotia,Nova Scotia|17|a|3|3|a,14,50,0.16071428571428573,0.8392857142857143,2,11
+Nova Scotia,Nova Scotia|17|b|1|1|b,8,22,0.25,0.75,2,6
+Nova Scotia,Nova Scotia|17|b|2|2|b,1,3,1.0,0.0,1,0
+Nova Scotia,Nova Scotia|17|c|1|1|c,1,1,0.0,1.0,0,1
+Nova Scotia,Nova Scotia|17|c|2|2|c,7,25,0.14285714285714285,0.8571428571428571,1,6
+Nova Scotia,Nova Scotia|17|c|3|3|c,10,33,0.1,0.9,1,9
+Nova Scotia,Nova Scotia|17|d|1|1|d,6,18,0.0,1.0,0,6
+Nova Scotia,Nova Scotia|17|d|2|2|d,16,49,0.0,1.0,0,16
+Nova Scotia,Nova Scotia|17|e|1|1|e,2,8,0.0,1.0,0,2
+Nova Scotia,Nova Scotia|17|e|2|2|e,2,8,1.0,0.0,2,0
+Nova Scotia,Nova Scotia|17|f|1|1|f,21,60,0.047619047619047616,0.9523809523809523,1,20
+Nova Scotia,Nova Scotia|17|f|2|2|f,8,22,0.375,0.625,3,5
+Nova Scotia,Nova Scotia|17|g|1|1|g,8,28,0.125,0.875,1,7
+Nova Scotia,Nova Scotia|17|g|2|2|g,7,18,0.14285714285714285,0.8571428571428571,1,6
+Nova Scotia,Nova Scotia|17|h|1|1|h,12,44,0.6666666666666666,0.3333333333333333,8,4
+Nova Scotia,Nova Scotia|17|h|2|2|h,6,26,0.0,1.0,0,6
+Nova Scotia,Nova Scotia|17|i|1|1|i,8,35,0.5,0.5,4,4
+Nova Scotia,Nova Scotia|17|i|2|2|i,5,19,1.0,0.0,5,0
+Nova Scotia,Nova Scotia|17|j|1|1|j,13,32,0.9230769230769231,0.07692307692307693,12,1
+Nova Scotia,Nova Scotia|17|j|2|2|j,10,44,0.1,0.9,1,9
+Nova Scotia,Nova Scotia|17|k|||k,3,9,0.0,1.0,0,3
+Nova Scotia,Nova Scotia|17|l|1|1|l,10,26,0.0,1.0,0,10
+Nova Scotia,Nova Scotia|17|l|2|2|l,5,15,0.6,0.4,3,2
+Nova Scotia,Nova Scotia|17|m|1|1|m,12,35,0.0,1.0,0,12
+Nova Scotia,Nova Scotia|17|m|2|2|m,7,28,0.2857142857142857,0.7142857142857143,2,5
+Nova Scotia,Nova Scotia|17|n|1|1|n,12,37,0.25,0.75,3,9
+Nova Scotia,Nova Scotia|17|n|2|2|n,16,51,0.9375,0.0625,15,1
+Nova Scotia,Nova Scotia|18|a|||a,5,15,0.2,0.8,1,4
+Nova Scotia,Nova Scotia|18|b|||b,11,29,0.6818181818181818,0.3181818181818182,7,3
+Nova Scotia,Nova Scotia|18|c|1|1|c,14,45,0.0,1.0,0,14
+Nova Scotia,Nova Scotia|18|c|2|2|c,14,35,0.8571428571428571,0.10714285714285714,12,1
+Nova Scotia,Nova Scotia|18|d|||d,10,32,0.1,0.9,1,9
+Nova Scotia,Nova Scotia|18|e|||e,11,34,0.4242424242424242,0.5454545454545454,4,6
+Nova Scotia,Nova Scotia|18|f|||f,15,49,0.13333333333333333,0.8666666666666667,2,13
+Nova Scotia,Nova Scotia|18|g|1|1|g,27,93,0.0,1.0,0,27
+Nova Scotia,Nova Scotia|18|g|2|2|g,1,2,1.0,0.0,1,0
+Nova Scotia,Nova Scotia|18|h|||h,16,41,0.0625,0.9375,1,15
+Nova Scotia,Nova Scotia|18|i|||i,20,81,0.025,0.95,0,18
+Nova Scotia,Nova Scotia|18|j|||j,9,41,0.0,0.9047619047619047,0,8
+Nova Scotia,Nova Scotia|18|k|||k,20,76,0.175,0.825,3,16
+Nova Scotia,Nova Scotia|18|l|1|1|l,25,94,0.36666666666666664,0.6333333333333333,9,15
+Nova Scotia,Nova Scotia|18|l|1|2|l,18,48,0.2777777777777778,0.6666666666666666,5,12
+Nova Scotia,Nova Scotia|18|m|||m,30,81,0.1,0.9,3,27
+Nova Scotia,Nova Scotia|18|n|||n,17,55,0.17647058823529413,0.8235294117647058,3,14
+Nova Scotia,Nova Scotia|18|p|||p,8,21,0.9375,0.0625,7,0
+Nova Scotia,Nova Scotia|19|a|||a,15,44,0.06666666666666667,0.9333333333333333,1,14
+Nova Scotia,Nova Scotia|19|b|||b,11,39,0.07575757575757576,0.9242424242424242,0,10
+Nova Scotia,Nova Scotia|19|c|||c,35,102,0.047619047619047616,0.9523809523809524,1,33
+Nova Scotia,Nova Scotia|19|d|||d,23,72,0.4782608695652174,0.5217391304347826,11,12
+Nova Scotia,Nova Scotia|19|e|||e,24,85,0.034722222222222224,0.9652777777777778,0,23
+Nova Scotia,Nova Scotia|19|f|||f,12,47,0.0,1.0,0,12
+Nova Scotia,Nova Scotia|19|g|||g,22,66,0.045454545454545456,0.9545454545454546,1,21
+Nova Scotia,Nova Scotia|19|h|||h,2,7,1.0,0.0,2,0
+Nova Scotia,Nova Scotia|19|i|||i,22,72,0.0,1.0,0,22
+Nova Scotia,Nova Scotia|19|j|||j,8,20,0.0,1.0,0,8
+Nova Scotia,Nova Scotia|19|k|||k,6,16,0.0,1.0,0,6
+Nova Scotia,Nova Scotia|19|l|||l,5,21,0.2,0.8,1,4
+Nova Scotia,Nova Scotia|19|m|||m,21,75,0.0,1.0,0,21
+Nova Scotia,Nova Scotia|19|n|||n,58,168,0.017241379310344827,0.9827586206896551,1,57
+Nova Scotia,Nova Scotia|19|o|||o,13,39,0.15384615384615385,0.8461538461538461,2,11
+Nova Scotia,Nova Scotia|19|p|||p,22,63,0.09090909090909091,0.9090909090909091,2,20
+Nova Scotia,Nova Scotia|19|q|||q,20,65,0.125,0.875,2,17
+Nova Scotia,Nova Scotia|19|s|||s,28,86,0.10714285714285714,0.875,3,24
+Nova Scotia,Nova Scotia|20|a|||a,1,3,0.0,1.0,0,1
+Nova Scotia,Nova Scotia|20|b|||b,2,10,0.0,1.0,0,2
+Nova Scotia,Nova Scotia|20|c|||c,5,15,0.2,0.5666666666666667,1,2
+Nova Scotia,Nova Scotia|20|d|||d,11,34,0.0,1.0,0,11
+Nova Scotia,Nova Scotia|20|e|||e,4,9,0.5,0.5,2,2
+Nova Scotia,Nova Scotia|20|f|||f,55,153,0.01818181818181818,0.9818181818181818,1,54
+Nova Scotia,Nova Scotia|20|g|1|1|g,7,29,0.14285714285714285,0.8571428571428571,1,6
+Nova Scotia,Nova Scotia|20|g|2|2|g,2,5,0.0,1.0,0,2
+Nova Scotia,Nova Scotia|20|h|||h,4,19,0.05,0.95,0,3
+Nova Scotia,Nova Scotia|20|i|||i,2,7,0.0,1.0,0,2
+Nova Scotia,Nova Scotia|20|j|||j,2,7,0.0,1.0,0,2
+Nova Scotia,Nova Scotia|20|k|||k,2,6,0.0,1.0,0,2
+Nova Scotia,Nova Scotia|20|m|||m,3,8,0.0,1.0,0,3
+Nova Scotia,Nova Scotia|20|n|2|2|n,6,19,0.16666666666666666,0.6666666666666666,1,4
+Nova Scotia,Nova Scotia|20|o|||o,26,96,0.0,1.0,0,26
+Nova Scotia,Nova Scotia|20|p|||p,33,93,0.06060606060606061,0.9393939393939394,2,31
+Nova Scotia,Nova Scotia|20|q|||q,4,12,0.25,0.75,1,3
+Nova Scotia,Nova Scotia|20|r|||r,2,7,0.0,1.0,0,2
+Nova Scotia,Nova Scotia|20|s|||s,20,72,0.1,0.9,2,18
+Nova Scotia,Nova Scotia|20|u|||u,2,3,0.0,1.0,0,2
+Nova Scotia,Nova Scotia|20|w|||w,3,14,0.0,1.0,0,3
+Nova Scotia,Nova Scotia|20|y|||y,35,124,0.0,1.0,0,35
+Nova Scotia,Nova Scotia|20|z|||z,2,6,0.0,1.0,0,2
+Nova Scotia,Nova Scotia|21|a|||a,1,4,0.0,1.0,0,1
+Nova Scotia,Nova Scotia|21|b|||b,2,5,0.0,1.0,0,2
+Nova Scotia,Nova Scotia|21|c|1|1|c,23,77,0.0,1.0,0,23
+Nova Scotia,Nova Scotia|21|c|2|2|c,8,29,0.125,0.875,1,7
+Nova Scotia,Nova Scotia|21|d|||d,2,15,0.0,1.0,0,2
+Nova Scotia,Nova Scotia|21|e|||e,2,4,0.0,1.0,0,2
+Nova Scotia,Nova Scotia|21|f|||f,4,5,0.0,1.0,0,4
+Nova Scotia,Nova Scotia|21|g|1|1|g,1,2,0.0,1.0,0,1
+Nova Scotia,Nova Scotia|21|g|2|2|g,2,6,0.0,1.0,0,2
+Nova Scotia,Nova Scotia|21|h|||h,11,45,0.2878787878787879,0.7121212121212122,3,7
+Nova Scotia,Nova Scotia|21|i|||i,7,26,0.0,1.0,0,7
+Nova Scotia,Nova Scotia|21|j|||j,14,52,0.14285714285714285,0.8571428571428571,2,12
+Nova Scotia,Nova Scotia|21|k|||k,1,1,0.0,1.0,0,1
+Nova Scotia,Nova Scotia|22|a|1|1|a,24,83,0.041666666666666664,0.9583333333333334,1,23
+Nova Scotia,Nova Scotia|22|a|2|2|a,8,20,0.125,0.875,1,7
+Nova Scotia,Nova Scotia|22|b|1|1|b,6,22,0.6666666666666666,0.3333333333333333,4,2
+Nova Scotia,Nova Scotia|22|b|2|2|b,9,32,0.2222222222222222,0.75,2,6
+Nova Scotia,Nova Scotia|22|c|1|1|c,18,60,0.1111111111111111,0.8333333333333334,2,15
+Nova Scotia,Nova Scotia|22|c|2|2|c,10,24,0.2,0.8,2,8
+Nova Scotia,Nova Scotia|22|d|1|1|d,11,41,0.09090909090909091,0.8181818181818182,1,9
+Nova Scotia,Nova Scotia|22|d|2|2|d,13,31,0.07692307692307693,0.9230769230769231,1,12
+Nova Scotia,Nova Scotia|22|e|||e,13,43,0.16483516483516483,0.7728937728937729,2,9
+Nova Scotia,Nova Scotia|22|f|||f,29,87,0.06896551724137931,0.896551724137931,2,26
+Nova Scotia,Nova Scotia|22|g|||g,7,25,0.0,1.0,0,7
+Nova Scotia,Nova Scotia|22|h|1|1|h,2,3,1.0,0.0,2,0
+Nova Scotia,Nova Scotia|22|h|2|2|h,17,46,0.0,1.0,0,17
+Nova Scotia,Nova Scotia|22|i|||i,39,111,0.11538461538461539,0.8846153846153846,4,34
+Nova Scotia,Nova Scotia|22|j|1|1|j,5,18,0.225,0.775,1,3
+Nova Scotia,Nova Scotia|22|j|2|2|j,7,17,0.14285714285714285,0.8571428571428571,1,6
+Nova Scotia,Nova Scotia|22|k|||k,5,12,0.2,0.8,1,4
+Nova Scotia,Nova Scotia|22|l|||l,14,46,0.5,0.5,7,7
+Nova Scotia,Nova Scotia|22|m|1|1|m,4,13,0.0,1.0,0,4
+Nova Scotia,Nova Scotia|22|m|2|2|m,29,75,0.034482758620689655,0.9568965517241379,1,27
+Nova Scotia,Nova Scotia|4|a|1|1|a,16,50,0.0625,0.875,1,14
+Nova Scotia,Nova Scotia|4|b|||b,1,4,0.0,1.0,0,1
+Nova Scotia,Nova Scotia|4|c|||c,1,1,1.0,0.0,1,0
+Nova Scotia,Nova Scotia|4|d|||d,1,1,1.0,0.0,1,0
+Nova Scotia,Nova Scotia|4|e|2|2|e,1,2,0.0,1.0,0,1
+Nova Scotia,Nova Scotia|4|f|||f,14,57,0.0,1.0,0,14
+Nova Scotia,Nova Scotia|4|g|||g,8,25,0.0,1.0,0,8
+Nova Scotia,Nova Scotia|4|h|1|1|h,1,4,0.0,1.0,0,1
+Nova Scotia,Nova Scotia|4|h|2|2|h,7,20,0.0,1.0,0,7
+Nova Scotia,Nova Scotia|4|h|3|3|h,5,20,0.0,1.0,0,5
+Nova Scotia,Nova Scotia|4|l|||l,9,37,0.4444444444444444,0.5555555555555556,4,5
+Nova Scotia,Nova Scotia|4|m|||m,2,5,0.5,0.5,1,1
+Nova Scotia,Nova Scotia|4|n|||n,16,51,0.0,1.0,0,16
+Nova Scotia,Nova Scotia|4|o|||o,5,20,0.0,1.0,0,5
+Nova Scotia,Nova Scotia|4|p|||p,1,6,1.0,0.0,1,0
+Nova Scotia,Nova Scotia|4|q|1|1|q,3,7,0.6666666666666666,0.3333333333333333,2,1
+Nova Scotia,Nova Scotia|5|a|||a,1,3,1.0,0.0,1,0
+Nova Scotia,Nova Scotia|5|c|2|2|c,1,6,0.0,1.0,0,1
+Nova Scotia,Nova Scotia|5|d|1|1|d,1,4,0.0,1.0,0,1
+Nova Scotia,Nova Scotia|5|e|1|1|e,3,10,0.3333333333333333,0.6666666666666666,1,2
+Nova Scotia,Nova Scotia|5|e|2|2|e,2,9,1.0,0.0,2,0
+Nova Scotia,Nova Scotia|5|g|||g,2,5,1.0,0.0,2,0
+Nova Scotia,Nova Scotia|5|h|||h,4,11,0.0,1.0,0,4
+Nova Scotia,Nova Scotia|5|i|2|2|i,1,5,0.0,1.0,0,1
+Nova Scotia,Nova Scotia|5|j|||j,1,5,0.0,1.0,0,1
+Nova Scotia,Nova Scotia|5|l|1|1|l,12,39,0.0,1.0,0,12
+Nova Scotia,Nova Scotia|5|l|2|2|l,16,52,0.0,1.0,0,16
+Nova Scotia,Nova Scotia|5|m|||m,16,57,0.0,1.0,0,16
+Nova Scotia,Nova Scotia|5|n|||n,6,31,0.16666666666666666,0.8333333333333334,1,5
+Nova Scotia,Nova Scotia|6|a|||a,1,1,0.0,1.0,0,1
+Nova Scotia,Nova Scotia|6|c|||c,12,47,0.08333333333333333,0.9166666666666666,1,11
+Nova Scotia,Nova Scotia|6|d|1|1|d,48,148,0.545138888888889,0.4548611111111111,26,21
+Nova Scotia,Nova Scotia|6|d|2|2|d,36,145,0.125,0.8333333333333334,4,29
+Nova Scotia,Nova Scotia|6|e|1|1|e,9,32,0.1111111111111111,0.8888888888888888,1,8
+Nova Scotia,Nova Scotia|6|e|2|2|e,10,24,0.0,1.0,0,10
+Nova Scotia,Nova Scotia|6|f|||f,2,6,0.5,0.0,1,0
+Nova Scotia,Nova Scotia|6|i|||i,68,232,0.04411764705882353,0.9411764705882353,3,64
+Nova Scotia,Nova Scotia|6|j|||j,14,55,0.0,1.0,0,14
+Nova Scotia,Nova Scotia|6|k|||k,12,30,0.25,0.75,3,9
+Nova Scotia,Nova Scotia|6|l|||l,3,15,0.6666666666666666,0.3333333333333333,2,1
+Nova Scotia,Nova Scotia|6|m|||m,19,57,0.10526315789473684,0.8947368421052632,2,17
+Nova Scotia,Nova Scotia|6|n|1|1|n,11,20,0.09090909090909091,0.9090909090909091,1,10
+Nova Scotia,Nova Scotia|6|n|2|2|n,1,7,0.0,1.0,0,1
+Nova Scotia,Nova Scotia|6|o|||o,2,5,0.0,1.0,0,2
+Nova Scotia,Nova Scotia|6|p|1|1|p,31,107,0.06451612903225806,0.9354838709677419,2,29
+Nova Scotia,Nova Scotia|6|p|2|2|p,8,34,0.25,0.75,2,6
+Nova Scotia,Nova Scotia|6|r|||r,5,14,0.4666666666666666,0.5333333333333333,2,2
+Nova Scotia,Nova Scotia|7|a|||a,12,27,0.08333333333333333,0.9166666666666666,1,11
+Nova Scotia,Nova Scotia|7|b|||b,15,54,0.0,1.0,0,15
+Nova Scotia,Nova Scotia|7|c|||c,3,14,0.0,1.0,0,3
+Nova Scotia,Nova Scotia|7|d|||d,11,50,0.2727272727272727,0.7272727272727273,3,8
+Nova Scotia,Nova Scotia|7|e|||e,3,5,0.0,1.0,0,3
+Nova Scotia,Nova Scotia|7|f|||f,1,2,1.0,0.0,1,0
+Nova Scotia,Nova Scotia|7|g|||g,15,54,0.0,1.0,0,15
+Nova Scotia,Nova Scotia|7|h|||h,2,7,0.0,1.0,0,2
+Nova Scotia,Nova Scotia|7|j|||j,12,44,0.08333333333333333,0.9166666666666666,1,11
+Nova Scotia,Nova Scotia|7|k|||k,3,9,0.6666666666666666,0.3333333333333333,2,1
+Nova Scotia,Nova Scotia|7|m|||m,2,10,0.0,1.0,0,2
+Nova Scotia,Nova Scotia|8|a|||a,8,26,0.7916666666666666,0.20833333333333331,6,1
+Nova Scotia,Nova Scotia|8|b|||b,4,7,1.0,0.0,4,0
+Nova Scotia,Nova Scotia|8|c|||c,29,90,0.034482758620689655,0.9655172413793104,1,28
+Nova Scotia,Nova Scotia|8|d|||d,8,24,0.375,0.625,3,5
+Nova Scotia,Nova Scotia|8|e|||e,5,8,0.2,0.8,1,4
+Nova Scotia,Nova Scotia|8|f|||f,12,36,0.875,0.125,10,1
+Nova Scotia,Nova Scotia|8|g|||g,17,78,0.00980392156862745,0.9313725490196079,0,15
+Nova Scotia,Nova Scotia|8|h|||h,12,32,0.0,1.0,0,12
+Nova Scotia,Nova Scotia|8|i|||i,5,14,0.2,0.8,1,4
+Nova Scotia,Nova Scotia|8|j|||j,13,38,0.0,1.0,0,13
+Nova Scotia,Nova Scotia|8|k|||k,12,33,0.16666666666666666,0.8333333333333334,2,10
+Nova Scotia,Nova Scotia|8|l|||l,2,5,0.5,0.5,1,1
+Nova Scotia,Nova Scotia|8|m|||m,11,37,0.18181818181818182,0.8181818181818182,2,9
+Nova Scotia,Nova Scotia|8|n|||n,28,90,0.10714285714285714,0.8928571428571429,3,25
+Nova Scotia,Nova Scotia|8|p|||p,3,10,0.3333333333333333,0.6666666666666666,1,2
+Nova Scotia,Nova Scotia|8|q|||q,2,9,1.0,0.0,2,0
+Nova Scotia,Nova Scotia|8|r|||r,4,11,0.0,1.0,0,4
+Nova Scotia,Nova Scotia|8|s|||s,9,25,0.6111111111111112,0.3888888888888889,5,3
+Nova Scotia,Nova Scotia|9|a|1|1|a,20,58,0.0,1.0,0,20
+Nova Scotia,Nova Scotia|9|a|2|2|a,51,140,0.029411764705882353,0.9673202614379085,1,48
+Nova Scotia,Nova Scotia|9|b|1|1|b,23,62,0.0,1.0,0,23
+Nova Scotia,Nova Scotia|9|b|2|2|b,24,60,0.041666666666666664,0.875,1,21
+Nova Scotia,Nova Scotia|9|c|1|1|c,25,70,0.28,0.68,7,17
+Nova Scotia,Nova Scotia|9|c|2|2|c,13,39,0.0,1.0,0,13
+Nova Scotia,Nova Scotia|9|d|1|1|d,12,36,0.6666666666666666,0.3333333333333333,8,4
+Nova Scotia,Nova Scotia|9|d|2|2|d,10,27,0.0,1.0,0,10
+Nova Scotia,Nova Scotia|9|e|1|1|e,46,110,0.08695652173913043,0.9130434782608695,4,42
+Nova Scotia,Nova Scotia|9|e|2|2|e,20,50,0.0,1.0,0,20
+Nova Scotia,Nova Scotia|9|f|1|1|f,84,218,0.05952380952380952,0.9404761904761905,5,79
+Nova Scotia,Nova Scotia|9|f|2|2|f,101,281,0.11386138613861387,0.8762376237623762,10,87
+Nova Scotia,Nova Scotia|9|g|1|1|g,11,42,0.36363636363636365,0.6363636363636364,4,7
+Nova Scotia,Nova Scotia|9|g|2|2|g,56,158,0.017857142857142856,0.9821428571428571,1,55
+Ontario,Ontario|100|a|||a,12,22,0.0,1.0,0,12
+Ontario,Ontario|100|b|||b,37,87,0.005405405405405406,0.9945945945945945,0,36
+Ontario,Ontario|100|c|||c,12,34,0.0,1.0,0,12
+Ontario,Ontario|100|d|1|1|d,20,59,0.0,1.0,0,20
+Ontario,Ontario|100|d|2|2|d,1,1,0.0,1.0,0,1
+Ontario,Ontario|100|d|3|3|d,7,29,0.5714285714285714,0.42857142857142855,4,3
+Ontario,Ontario|100|d|4|4|d,19,62,0.21052631578947367,0.7894736842105263,4,15
+Ontario,Ontario|101|a|1|1|a,28,85,0.0,1.0,0,28
+Ontario,Ontario|101|a|2|2|a,16,31,0.0625,0.9375,1,15
+Ontario,Ontario|101|a|3|3|a,8,12,0.0,0.875,0,7
+Ontario,Ontario|101|b|1|1|b,24,82,0.125,0.875,3,21
+Ontario,Ontario|101|b|2|2|b,22,65,0.18181818181818182,0.8181818181818182,4,18
+Ontario,Ontario|101|c|1|1|c,10,31,0.0,1.0,0,10
+Ontario,Ontario|101|c|2|2|c,32,93,0.0,0.96875,0,31
+Ontario,Ontario|101|c|3|3|c,7,25,0.10714285714285714,0.8928571428571429,0,6
+Ontario,Ontario|102|a|1|1|a,24,62,0.0,1.0,0,24
+Ontario,Ontario|102|a|2|2|a,18,58,0.0,1.0,0,18
+Ontario,Ontario|102|a|3|3|a,23,72,0.0,1.0,0,23
+Ontario,Ontario|102|a|4|4|a,12,39,0.08333333333333333,0.9166666666666666,1,11
+Ontario,Ontario|102|b|||b,26,59,0.0,1.0,0,26
+Ontario,Ontario|102|c|1|1|c,25,56,0.0,0.9866666666666667,0,24
+Ontario,Ontario|102|c|2|2|c,11,24,0.0,1.0,0,11
+Ontario,Ontario|102|c|3|3|c,17,49,0.17647058823529413,0.7647058823529411,3,13
+Ontario,Ontario|102|c|4|4|c,21,42,0.0,1.0,0,21
+Ontario,Ontario|102|d|||d,59,146,0.0,1.0,0,59
+Ontario,Ontario|102|e|1|1|e,27,85,0.018518518518518517,0.9814814814814815,0,26
+Ontario,Ontario|102|e|2|2|e,19,64,0.0,1.0,0,19
+Ontario,Ontario|102|e|3|3|e,19,50,0.0,1.0,0,19
+Ontario,Ontario|102|e|4|4|e,22,64,0.0,1.0,0,22
+Ontario,Ontario|102|f|1|1|f,26,71,0.038461538461538464,0.9615384615384616,1,25
+Ontario,Ontario|102|f|2|2|f,47,140,0.02127659574468085,0.9787234042553191,1,46
+Ontario,Ontario|102|f|3|3|f,26,72,0.0,1.0,0,26
+Ontario,Ontario|102|f|4|4|f,26,67,0.0,1.0,0,26
+Ontario,Ontario|103|a|1|1|a,24,71,0.0,1.0,0,24
+Ontario,Ontario|103|a|2|2|a,20,66,0.0,1.0,0,20
+Ontario,Ontario|103|a|3|3|a,5,10,0.0,1.0,0,5
+Ontario,Ontario|103|b|||b,26,75,0.0,1.0,0,26
+Ontario,Ontario|103|c|||c,10,38,0.0,1.0,0,10
+Ontario,Ontario|103|e|||e,8,22,0.0,1.0,0,8
+Ontario,Ontario|103|f|1|1|f,1,4,0.0,1.0,0,1
+Ontario,Ontario|103|f|2|2|f,4,12,0.0,1.0,0,4
+Ontario,Ontario|103|g|1|1|g,6,26,0.0,1.0,0,6
+Ontario,Ontario|103|g|2|2|g,4,17,0.0,1.0,0,4
+Ontario,Ontario|103|h|1|1|h,9,26,0.0,1.0,0,9
+Ontario,Ontario|103|h|2|2|h,7,16,0.14285714285714285,0.8571428571428571,1,6
+Ontario,Ontario|103|i|1|1|i,26,89,0.0,1.0,0,26
+Ontario,Ontario|103|i|2|2|i,1,2,0.0,1.0,0,1
+Ontario,Ontario|104|a|1|1|a,23,65,0.02318840579710145,0.9768115942028984,0,21
+Ontario,Ontario|104|a|2|2|a,8,36,0.125,0.875,1,7
+Ontario,Ontario|104|b|||b,9,25,0.0,1.0,0,9
+Ontario,Ontario|104|c|1|1|c,27,97,0.0,1.0,0,27
+Ontario,Ontario|104|c|2|2|c,14,48,0.0,1.0,0,14
+Ontario,Ontario|104|d|1|1|d,36,118,0.0,1.0,0,36
+Ontario,Ontario|104|d|2|2|d,4,6,0.0,1.0,0,4
+Ontario,Ontario|104|e|1|1|e,26,84,0.19230769230769232,0.8076923076923077,5,21
+Ontario,Ontario|104|e|2|2|e,16,48,0.0,1.0,0,16
+Ontario,Ontario|104|e|3|3|e,23,72,0.0,1.0,0,23
+Ontario,Ontario|104|e|4|4|e,14,44,0.0,1.0,0,14
+Ontario,Ontario|104|f|||f,30,102,0.03333333333333333,0.925,1,27
+Ontario,Ontario|104|g|1|1|g,14,41,0.0,0.9285714285714286,0,13
+Ontario,Ontario|104|g|2|2|g,24,67,0.0,1.0,0,24
+Ontario,Ontario|104|g|3|3|g,14,48,0.0,0.9642857142857143,0,13
+Ontario,Ontario|105|a|1|1|a,27,67,0.1111111111111111,0.8888888888888888,3,24
+Ontario,Ontario|105|a|2|2|a,79,207,0.02531645569620253,0.9662447257383966,2,76
+Ontario,Ontario|105|a|3|3|a,32,67,0.0,1.0,0,32
+Ontario,Ontario|105|b|1|1|b,14,54,0.07142857142857142,0.9285714285714286,1,13
+Ontario,Ontario|105|b|2|2|b,26,73,0.038461538461538464,0.9615384615384616,1,25
+Ontario,Ontario|105|c|1|1|c,13,43,0.07692307692307693,0.9230769230769231,1,12
+Ontario,Ontario|105|c|2|2|c,13,33,0.0,1.0,0,13
+Ontario,Ontario|105|c|3|3|c,21,53,0.047619047619047616,0.9523809523809523,1,20
+Ontario,Ontario|105|d|1|1|d,10,28,0.0,1.0,0,10
+Ontario,Ontario|105|d|2|2|d,30,84,0.03333333333333333,0.9666666666666667,1,29
+Ontario,Ontario|105|d|3|3|d,26,63,0.14423076923076922,0.8557692307692307,3,22
+Ontario,Ontario|105|e|1|1|e,12,36,0.08333333333333333,0.9166666666666666,1,11
+Ontario,Ontario|105|e|2|2|e,22,59,0.045454545454545456,0.9545454545454546,1,21
+Ontario,Ontario|105|e|3|3|e,13,33,0.07692307692307693,0.8846153846153846,1,11
+Ontario,Ontario|106|a|1|1|a,9,21,0.0,1.0,0,9
+Ontario,Ontario|106|a|2|2|a,17,45,0.0,1.0,0,17
+Ontario,Ontario|106|a|3|3|a,10,31,0.1,0.9,1,9
+Ontario,Ontario|106|b|1|1|b,31,81,0.03225806451612903,0.967741935483871,1,30
+Ontario,Ontario|106|b|2|2|b,32,91,0.03125,0.96875,1,31
+Ontario,Ontario|106|c|1|1|c,50,138,0.04,0.94,2,47
+Ontario,Ontario|106|c|2|2|c,20,46,0.15,0.8,3,16
+Ontario,Ontario|106|c|3|3|c,21,46,0.25,0.75,4,14
+Ontario,Ontario|107|a|1|1|a,13,36,0.07692307692307693,0.8461538461538461,1,11
+Ontario,Ontario|107|a|2|2|a,23,46,0.15217391304347827,0.8478260869565217,3,19
+Ontario,Ontario|107|b|||b,13,38,0.0,1.0,0,13
+Ontario,Ontario|107|c|1|1|c,33,79,0.10606060606060606,0.8939393939393939,3,29
+Ontario,Ontario|107|c|2|2|c,2,4,0.0,1.0,0,2
+Ontario,Ontario|107|d|||d,17,48,0.5882352941176471,0.4117647058823529,10,7
+Ontario,Ontario|107|e|1|1|e,15,40,0.26666666666666666,0.7333333333333333,4,11
+Ontario,Ontario|107|e|2|2|e,9,25,0.0,1.0,0,9
+Ontario,Ontario|107|e|3|3|e,18,54,0.7222222222222222,0.25925925925925924,13,4
+Ontario,Ontario|107|f|||f,27,76,0.07407407407407407,0.9259259259259259,2,25
+Ontario,Ontario|107|g|||g,7,22,0.0,1.0,0,7
+Ontario,Ontario|108|a|1|1|a,68,199,0.9007352941176471,0.08455882352941177,61,5
+Ontario,Ontario|108|a|2|2|a,25,72,0.0,1.0,0,25
+Ontario,Ontario|108|a|3|3|a,16,50,0.0,1.0,0,16
+Ontario,Ontario|108|a|4|4|a,6,12,0.0,0.8333333333333334,0,5
+Ontario,Ontario|108|b|1|1|b,4,11,0.0,1.0,0,4
+Ontario,Ontario|108|b|2|2|b,22,61,0.045454545454545456,0.9545454545454546,1,21
+Ontario,Ontario|108|c|1|1|c,3,9,0.0,1.0,0,3
+Ontario,Ontario|108|c|2|2|c,2,5,0.5,0.5,1,1
+Ontario,Ontario|108|d|1|1|d,19,69,0.010526315789473684,0.9894736842105264,0,18
+Ontario,Ontario|108|d|2|2|d,8,23,0.2,0.8,1,6
+Ontario,Ontario|108|e|||e,5,16,0.0,1.0,0,5
+Ontario,Ontario|108|f|||f,11,37,0.2727272727272727,0.7272727272727273,3,8
+Ontario,Ontario|108|g|1|1|g,17,65,0.11764705882352941,0.8823529411764706,2,15
+Ontario,Ontario|108|h|||h,10,47,0.1,0.9,1,9
+Ontario,Ontario|108|i|1|1|i,11,39,0.0,1.0,0,11
+Ontario,Ontario|108|i|2|2|i,14,58,0.07142857142857142,0.9285714285714286,1,13
+Ontario,Ontario|108|i|3|3|i,9,35,0.05555555555555555,0.9444444444444444,0,8
+Ontario,Ontario|109|a|||a,34,83,0.08823529411764706,0.9117647058823529,3,31
+Ontario,Ontario|109|b|||b,1,4,1.0,0.0,1,0
+Ontario,Ontario|109|c|||c,31,68,0.0,1.0,0,31
+Ontario,Ontario|109|d|||d,39,88,0.5256410256410257,0.47435897435897434,20,18
+Ontario,Ontario|109|e|||e,20,49,0.7,0.3,14,6
+Ontario,Ontario|109|f|1|1|f,38,104,0.02631578947368421,0.9473684210526315,1,36
+Ontario,Ontario|109|f|2|2|f,19,54,0.0,1.0,0,19
+Ontario,Ontario|109|f|3|3|f,11,25,0.0,1.0,0,11
+Ontario,Ontario|110|a|||a,38,99,0.02631578947368421,0.9736842105263158,1,37
+Ontario,Ontario|110|b|||b,26,77,0.19230769230769232,0.8076923076923077,5,21
+Ontario,Ontario|110|c|||c,20,54,0.05,0.95,1,19
+Ontario,Ontario|110|d|||d,18,58,0.05555555555555555,0.9444444444444444,1,17
+Ontario,Ontario|110|e|||e,55,145,0.10909090909090909,0.8909090909090909,6,49
+Ontario,Ontario|110|f|||f,5,13,0.2,0.8,1,4
+Ontario,Ontario|110|g|1|1|g,23,64,0.13043478260869565,0.8260869565217391,3,19
+Ontario,Ontario|110|g|2|2|g,32,82,0.109375,0.890625,3,28
+Ontario,Ontario|110|h|||h,47,118,0.047872340425531915,0.9521276595744681,2,44
+Ontario,Ontario|110|i|||i,24,63,0.13333333333333333,0.8666666666666667,3,20
+Ontario,Ontario|110|j|||j,27,72,0.2962962962962963,0.654320987654321,8,17
+Ontario,Ontario|110|k|||k,38,101,0.03007518796992481,0.9436090225563909,1,35
+Ontario,Ontario|110|l|||l,20,60,0.0,1.0,0,20
+Ontario,Ontario|111|a|1|1|a,6,18,0.5,0.5,3,3
+Ontario,Ontario|111|a|2|2|a,9,27,0.0,1.0,0,9
+Ontario,Ontario|111|a|3|3|a,7,15,0.14285714285714285,0.8571428571428571,1,6
+Ontario,Ontario|111|b|1|1|b,16,59,0.0,1.0,0,16
+Ontario,Ontario|111|b|2|2|b,8,19,0.125,0.875,1,7
+Ontario,Ontario|111|b|3|3|b,12,21,0.16666666666666666,0.8333333333333334,2,10
+Ontario,Ontario|111|c|||c,27,82,0.037037037037037035,0.9629629629629629,1,26
+Ontario,Ontario|111|d|1|1|d,4,12,1.0,0.0,4,0
+Ontario,Ontario|111|d|2|2|d,5,18,0.2,0.8,1,4
+Ontario,Ontario|111|e|||e,10,40,0.7,0.3,7,3
+Ontario,Ontario|111|f|||f,10,38,0.4,0.6,4,6
+Ontario,Ontario|111|g|||g,39,106,0.02564102564102564,0.9487179487179487,1,37
+Ontario,Ontario|111|h|||h,31,93,0.07258064516129033,0.9274193548387096,2,28
+Ontario,Ontario|111|i|1|1|i,15,37,0.13333333333333333,0.8666666666666667,2,13
+Ontario,Ontario|111|i|2|2|i,10,24,0.2,0.1,2,1
+Ontario,Ontario|111|j|1|1|j,11,20,0.8181818181818182,0.18181818181818182,9,2
+Ontario,Ontario|111|j|2|2|j,9,25,0.037037037037037035,0.9629629629629629,0,8
+Ontario,Ontario|111|j|3|3|j,4,13,0.0,1.0,0,4
+Ontario,Ontario|112|a|1|1|a,18,48,0.0,1.0,0,18
+Ontario,Ontario|112|a|2|2|a,11,41,0.09090909090909091,0.9090909090909091,1,10
+Ontario,Ontario|112|b|1|1|b,24,62,0.125,0.8541666666666666,3,20
+Ontario,Ontario|112|b|2|2|b,13,31,0.07692307692307693,0.9230769230769231,1,12
+Ontario,Ontario|112|c|1|1|c,6,21,0.16666666666666666,0.8333333333333334,1,5
+Ontario,Ontario|112|c|2|2|c,20,72,0.0,1.0,0,20
+Ontario,Ontario|112|d|1|1|d,10,30,0.125,0.875,1,8
+Ontario,Ontario|112|d|2|2|d,16,45,0.03125,0.96875,0,15
+Ontario,Ontario|112|e|||e,19,49,0.0,1.0,0,19
+Ontario,Ontario|112|f|||f,10,33,0.0,1.0,0,10
+Ontario,Ontario|112|g|1|1|g,14,44,0.0,1.0,0,14
+Ontario,Ontario|112|g|2|2|g,21,76,0.015873015873015872,0.9841269841269842,0,20
+Ontario,Ontario|113|a|1|1|a,22,69,0.17045454545454544,0.8295454545454546,3,18
+Ontario,Ontario|113|a|2|2|a,13,49,0.15384615384615385,0.8461538461538461,2,11
+Ontario,Ontario|113|b|||b,19,67,0.0,1.0,0,19
+Ontario,Ontario|113|c|||c,18,72,0.013888888888888888,0.9861111111111112,0,17
+Ontario,Ontario|113|d|||d,3,11,0.0,1.0,0,3
+Ontario,Ontario|113|e|||e,21,66,0.023809523809523808,0.9761904761904762,0,20
+Ontario,Ontario|113|f|||f,15,53,0.08333333333333333,0.9,1,12
+Ontario,Ontario|113|g|||g,3,14,0.0,1.0,0,3
+Ontario,Ontario|113|h|||h,7,25,0.0,1.0,0,7
+Ontario,Ontario|113|i|||i,4,12,0.14285714285714285,0.8571428571428572,0,3
+Ontario,Ontario|113|j|||j,6,21,0.8333333333333334,0.16666666666666666,5,1
+Ontario,Ontario|113|k|||k,8,30,0.0,1.0,0,8
+Ontario,Ontario|113|l|||l,43,125,0.03488372093023256,0.9418604651162791,1,40
+Ontario,Ontario|113|m|||m,40,128,0.0,1.0,0,40
+Ontario,Ontario|113|n|||n,2,6,0.0,1.0,0,2
+Ontario,Ontario|113|o|1|1|o,2,12,0.0,1.0,0,2
+Ontario,Ontario|114|a|||a,22,85,0.045454545454545456,0.9545454545454546,1,21
+Ontario,Ontario|114|b|||b,1,5,0.0,1.0,0,1
+Ontario,Ontario|114|c|1|1|c,8,31,0.0,1.0,0,8
+Ontario,Ontario|114|c|2|2|c,13,49,0.0,1.0,0,13
+Ontario,Ontario|114|d|||d,19,54,0.05263157894736842,0.9473684210526315,1,18
+Ontario,Ontario|114|e|||e,36,107,0.5833333333333334,0.4166666666666667,21,15
+Ontario,Ontario|114|f|||f,12,34,0.0,1.0,0,12
+Ontario,Ontario|114|g|||g,5,10,0.0,1.0,0,5
+Ontario,Ontario|114|h|1|1|h,14,49,0.0,1.0,0,14
+Ontario,Ontario|114|h|2|2|h,16,46,0.0625,0.875,1,14
+Ontario,Ontario|114|i|||i,15,53,0.0,1.0,0,15
+Ontario,Ontario|114|j|||j,12,35,0.0,1.0,0,12
+Ontario,Ontario|114|k|1|1|k,23,77,0.043478260869565216,0.9130434782608695,1,21
+Ontario,Ontario|114|k|2|2|k,25,72,0.04,0.96,1,24
+Ontario,Ontario|114|l|1|1|l,3,8,0.0,1.0,0,3
+Ontario,Ontario|114|l|2|2|l,6,19,0.16666666666666666,0.8333333333333334,1,5
+Ontario,Ontario|114|m|5|5|m,19,43,0.0,1.0,0,19
+Ontario,Ontario|115|a|1|1|a,11,33,0.0,0.022727272727272728,0,0
+Ontario,Ontario|115|a|2|2|a,6,23,0.3333333333333333,0.3333333333333333,2,2
+Ontario,Ontario|115|a|3|3|a,5,9,0.8,0.0,4,0
+Ontario,Ontario|115|a|4|4|a,6,19,0.5,0.25,3,1
+Ontario,Ontario|115|a|5|5|a,1,4,0.0,1.0,0,1
+Ontario,Ontario|115|b|1|1|b,15,50,0.0,1.0,0,15
+Ontario,Ontario|115|c|||c,4,16,0.75,0.25,3,1
+Ontario,Ontario|115|d|1|1|d,5,26,0.6,0.4,3,2
+Ontario,Ontario|115|d|2|2|d,9,24,0.0,1.0,0,9
+Ontario,Ontario|115|e|1|1|e,10,28,0.2,0.65,2,6
+Ontario,Ontario|115|e|2|2|e,6,16,0.8333333333333334,0.0,5,0
+Ontario,Ontario|115|e|3|3|e,6,15,0.3333333333333333,0.5,2,3
+Ontario,Ontario|115|f|||f,4,12,0.0,0.75,0,3
+Ontario,Ontario|115|g|1|1|g,7,23,0.0,0.5714285714285714,0,4
+Ontario,Ontario|115|g|2|2|g,10,30,0.3,0.7,3,7
+Ontario,Ontario|115|g|3|3|g,24,80,0.125,0.875,3,21
+Ontario,Ontario|116|a|||a,3,8,0.0,1.0,0,3
+Ontario,Ontario|116|b|||b,23,64,0.19130434782608696,0.782608695652174,4,18
+Ontario,Ontario|116|c|||c,55,148,0.0,1.0,0,55
+Ontario,Ontario|116|d|||d,10,26,0.0,1.0,0,10
+Ontario,Ontario|116|e|||e,20,54,0.05,0.9,1,18
+Ontario,Ontario|116|f|||f,18,47,0.0,1.0,0,18
+Ontario,Ontario|116|g|||g,38,107,0.0,1.0,0,38
+Ontario,Ontario|117|a|||a,20,58,0.0,0.9583333333333334,0,18
+Ontario,Ontario|117|b|||b,16,43,0.0,1.0,0,16
+Ontario,Ontario|117|c|||c,19,42,0.2894736842105263,0.7105263157894737,5,13
+Ontario,Ontario|117|d|1|1|d,26,51,0.25,0.75,6,19
+Ontario,Ontario|117|d|2|2|d,53,117,0.07547169811320754,0.9245283018867925,4,49
+Ontario,Ontario|117|e|1|1|e,15,43,0.06666666666666667,0.9333333333333333,1,14
+Ontario,Ontario|117|e|2|2|e,6,13,0.0,1.0,0,6
+Ontario,Ontario|117|f|||f,43,119,0.023255813953488372,0.9767441860465116,1,42
+Ontario,Ontario|117|g|||g,78,186,0.1282051282051282,0.8717948717948718,10,68
+Ontario,Ontario|117|h|1|1|h,35,99,0.02857142857142857,0.9714285714285714,1,34
+Ontario,Ontario|117|h|2|2|h,45,119,0.022222222222222223,0.9777777777777777,1,44
+Ontario,Ontario|118|a|||a,55,148,0.12242424242424242,0.783030303030303,5,40
+Ontario,Ontario|118|b|||b,21,49,0.9523809523809523,0.047619047619047616,20,1
+Ontario,Ontario|118|c|1|1|c,60,145,0.0757142857142857,0.9187301587301587,4,53
+Ontario,Ontario|118|c|2|2|c,4,9,1.0,0.0,4,0
+Ontario,Ontario|118|d|||d,16,40,0.125,0.875,2,14
+Ontario,Ontario|118|e|||e,19,50,0.5263157894736842,0.46491228070175444,10,8
+Ontario,Ontario|118|f|||f,1,6,1.0,0.0,1,0
+Ontario,Ontario|118|g|||g,20,57,0.05,0.95,1,19
+Ontario,Ontario|118|h|||h,6,23,0.5476190476190476,0.4523809523809524,3,2
+Ontario,Ontario|118|i|||i,18,53,0.0,0.9444444444444444,0,17
+Ontario,Ontario|118|j|||j,14,50,0.7857142857142857,0.21428571428571427,11,3
+Ontario,Ontario|118|k|||k,6,17,0.3333333333333333,0.6666666666666666,2,4
+Ontario,Ontario|118|l|||l,9,24,0.1111111111111111,0.8888888888888888,1,8
+Ontario,Ontario|118|m|||m,14,35,0.07142857142857142,0.9285714285714286,1,13
+Ontario,Ontario|118|n|||n,3,6,0.0,1.0,0,3
+Ontario,Ontario|118|o|||o,20,65,0.3,0.7,6,14
+Ontario,Ontario|119|a|1|1|a,18,39,0.05555555555555555,0.9444444444444444,1,17
+Ontario,Ontario|119|a|2|2|a,20,52,0.0,1.0,0,20
+Ontario,Ontario|119|b|||b,13,30,0.0,0.9230769230769231,0,12
+Ontario,Ontario|119|c|1|1|c,38,79,0.05263157894736842,0.9473684210526315,2,36
+Ontario,Ontario|119|c|2|2|c,19,52,0.15789473684210525,0.8421052631578947,3,16
+Ontario,Ontario|119|d|1|1|d,48,123,0.15972222222222224,0.8402777777777778,7,40
+Ontario,Ontario|119|d|2|2|d,50,117,0.06,0.9133333333333333,3,45
+Ontario,Ontario|119|e|1|1|e,25,57,0.72,0.28,18,7
+Ontario,Ontario|119|e|2|2|e,3,3,0.0,1.0,0,3
+Ontario,Ontario|119|f|1|1|f,29,73,0.0,1.0,0,29
+Ontario,Ontario|119|f|2|2|f,33,76,0.0,1.0,0,33
+Ontario,Ontario|119|g|1|1|g,12,23,0.08333333333333333,0.9166666666666666,1,11
+Ontario,Ontario|119|g|2|2|g,29,71,0.0,1.0,0,29
+Ontario,Ontario|119|h|1|1|h,18,39,0.05555555555555555,0.9444444444444444,1,17
+Ontario,Ontario|119|h|2|2|h,14,28,0.0,1.0,0,14
+Ontario,Ontario|119|i|1|1|i,7,12,0.0,1.0,0,7
+Ontario,Ontario|119|i|2|2|i,23,53,0.17391304347826086,0.8260869565217391,4,19
+Ontario,Ontario|119|i|3|3|i,42,81,0.11904761904761904,0.8571428571428571,5,36
+Ontario,Ontario|120|a|1|1|a,31,79,0.03225806451612903,0.967741935483871,1,30
+Ontario,Ontario|120|a|2|2|a,33,68,0.1414141414141414,0.8585858585858586,4,28
+Ontario,Ontario|120|a|3|3|a,26,49,0.038461538461538464,0.9615384615384616,1,25
+Ontario,Ontario|120|a|4|4|a,25,74,0.0,1.0,0,25
+Ontario,Ontario|120|b|1|1|b,21,54,0.14285714285714285,0.8095238095238095,3,17
+Ontario,Ontario|120|b|2|2|b,22,65,0.045454545454545456,0.9431818181818182,1,20
+Ontario,Ontario|120|b|3|3|b,9,27,0.4444444444444444,0.4444444444444444,4,4
+Ontario,Ontario|120|b|4|4|b,15,41,0.0,0.9833333333333333,0,14
+Ontario,Ontario|120|c|1|1|c,23,67,0.0,1.0,0,23
+Ontario,Ontario|120|c|2|2|c,21,54,0.9206349206349206,0.07936507936507936,19,1
+Ontario,Ontario|120|c|3|3|c,13,39,0.07692307692307693,0.9230769230769231,1,12
+Ontario,Ontario|120|d|||d,37,99,0.0,1.0,0,37
+Ontario,Ontario|121|a|1|1|a,27,63,0.037037037037037035,0.9629629629629629,1,26
+Ontario,Ontario|121|a|2|2|a,29,71,0.06896551724137931,0.8850574712643678,2,25
+Ontario,Ontario|121|a|3|3|a,13,35,0.07692307692307693,0.9230769230769231,1,12
+Ontario,Ontario|121|a|4|4|a,28,71,0.0,1.0,0,28
+Ontario,Ontario|121|b|1|1|b,25,55,0.04,0.94,1,23
+Ontario,Ontario|121|b|2|2|b,35,90,0.08571428571428572,0.9142857142857143,2,31
+Ontario,Ontario|121|c|1|1|c,36,99,0.1111111111111111,0.8888888888888888,4,32
+Ontario,Ontario|121|c|2|2|c,20,48,0.0,1.0,0,20
+Ontario,Ontario|121|c|3|3|c,11,28,0.13636363636363635,0.8636363636363636,1,9
+Ontario,Ontario|121|c|4|4|c,19,61,0.05263157894736842,0.9473684210526315,1,18
+Ontario,Ontario|121|c|5|5|c,9,29,0.037037037037037035,0.9629629629629629,0,8
+Ontario,Ontario|121|c|6|6|c,58,163,0.022988505747126436,0.9770114942528735,1,56
+Ontario,Ontario|121|c|7|7|c,28,63,0.07142857142857142,0.9226190476190476,2,25
+Ontario,Ontario|122|a|1|1|a,29,76,0.1724137931034483,0.8275862068965517,5,24
+Ontario,Ontario|122|a|2|2|a,23,71,0.10144927536231885,0.8985507246376813,2,20
+Ontario,Ontario|122|b|||b,19,33,0.05263157894736842,0.9473684210526315,1,18
+Ontario,Ontario|122|c|1|1|c,10,30,0.0,1.0,0,10
+Ontario,Ontario|122|c|2|2|c,20,49,0.05,0.95,1,19
+Ontario,Ontario|122|c|3|3|c,17,46,0.058823529411764705,0.9411764705882353,1,16
+Ontario,Ontario|122|c|4|4|c,20,58,0.05,0.925,1,18
+Ontario,Ontario|122|d|||d,35,84,0.02857142857142857,0.9714285714285714,1,34
+Ontario,Ontario|122|e|1|1|e,36,102,0.1111111111111111,0.8888888888888888,4,32
+Ontario,Ontario|122|e|2|2|e,37,117,0.02702702702702703,0.9459459459459459,1,35
+Ontario,Ontario|122|f|1|1|f,36,104,0.037037037037037035,0.9351851851851851,1,33
+Ontario,Ontario|122|f|2|2|f,3,11,0.3333333333333333,0.6666666666666666,1,2
+Ontario,Ontario|122|g|||g,15,49,0.06666666666666667,0.9333333333333333,1,14
+Ontario,Ontario|122|h|||h,21,74,0.09523809523809523,0.9047619047619048,2,19
+Ontario,Ontario|122|i|||i,9,28,0.1111111111111111,0.7777777777777778,1,7
+Ontario,Ontario|122|j|||j,12,40,0.3333333333333333,0.6666666666666666,4,8
+Ontario,Ontario|122|k|||k,26,84,0.19230769230769232,0.8076923076923077,5,21
+Ontario,Ontario|122|l|||l,21,70,0.9523809523809523,0.0,20,0
+Ontario,Ontario|122|m|||m,16,53,0.0,0.9375,0,15
+Ontario,Ontario|122|n|||n,11,37,0.0,1.0,0,11
+Ontario,Ontario|122|o|||o,12,52,0.0,1.0,0,12
+Ontario,Ontario|122|p|||p,11,23,0.09090909090909091,0.9090909090909091,1,10
+Ontario,Ontario|122|q|||q,2,6,0.0,1.0,0,2
+Ontario,Ontario|123|a|1|1|a,12,29,0.25,0.75,3,9
+Ontario,Ontario|123|a|2|2|a,45,104,0.022222222222222223,0.9777777777777777,1,44
+Ontario,Ontario|123|a|3|3|a,29,73,0.0,0.9655172413793104,0,27
+Ontario,Ontario|123|b|||b,32,87,0.0625,0.9375,2,30
+Ontario,Ontario|123|c|1|1|c,22,68,0.022727272727272728,0.9772727272727273,0,21
+Ontario,Ontario|123|c|2|2|c,21,43,0.0,1.0,0,21
+Ontario,Ontario|123|c|3|3|c,39,91,0.02564102564102564,0.9743589743589743,1,38
+Ontario,Ontario|123|d|||d,43,99,0.0,0.9767441860465116,0,42
+Ontario,Ontario|123|e|1|1|e,9,22,0.7777777777777778,0.1111111111111111,7,1
+Ontario,Ontario|123|e|2|2|e,26,62,0.0,1.0,0,26
+Ontario,Ontario|123|e|3|3|e,35,91,0.0,1.0,0,35
+Ontario,Ontario|123|f|1|1|f,23,60,0.0,1.0,0,23
+Ontario,Ontario|123|f|2|2|f,27,61,0.0,0.9629629629629629,0,26
+Ontario,Ontario|123|f|3|3|f,10,24,0.0,1.0,0,10
+Ontario,Ontario|123|g|1|1|g,13,48,0.23076923076923078,0.7692307692307693,3,10
+Ontario,Ontario|123|g|2|2|g,18,46,0.0,1.0,0,18
+Ontario,Ontario|123|g|3|3|g,29,93,0.0,1.0,0,29
+Ontario,Ontario|123|h|||h,28,71,0.0,1.0,0,28
+Ontario,Ontario|123|i|||i,3,9,0.0,1.0,0,3
+Ontario,Ontario|124|a|1|1|a,10,27,0.6,0.4,6,4
+Ontario,Ontario|124|a|2|2|a,17,47,0.11764705882352941,0.8823529411764706,2,15
+Ontario,Ontario|124|b|1|1|b,21,58,0.09523809523809523,0.9047619047619048,2,19
+Ontario,Ontario|124|b|2|2|b,13,43,0.0,1.0,0,13
+Ontario,Ontario|124|b|3|3|b,12,35,0.25,0.6666666666666666,3,8
+Ontario,Ontario|124|b|4|4|b,26,73,0.0,1.0,0,26
+Ontario,Ontario|124|c|1|1|c,28,98,0.03571428571428571,0.9642857142857143,1,27
+Ontario,Ontario|124|c|2|2|c,20,53,0.0,1.0,0,20
+Ontario,Ontario|124|c|3|3|c,17,37,0.0,1.0,0,17
+Ontario,Ontario|124|c|4|4|c,20,62,0.0,0.95,0,19
+Ontario,Ontario|124|d|1|1|d,26,62,0.0,1.0,0,26
+Ontario,Ontario|124|d|2|2|d,25,68,0.04,0.96,1,24
+Ontario,Ontario|124|d|3|3|d,24,59,0.0,1.0,0,24
+Ontario,Ontario|125|a|||a,18,53,0.1111111111111111,0.8888888888888888,2,16
+Ontario,Ontario|125|b|||b,21,56,0.0,1.0,0,21
+Ontario,Ontario|125|c|||c,5,13,0.27999999999999997,0.32,1,1
+Ontario,Ontario|125|d|||d,19,77,0.10526315789473684,0.8421052631578947,2,16
+Ontario,Ontario|125|e|||e,6,14,0.0,1.0,0,6
+Ontario,Ontario|125|f|1|1|f,19,52,0.0,1.0,0,19
+Ontario,Ontario|125|f|2|2|f,24,70,0.0,1.0,0,24
+Ontario,Ontario|125|g|||g,7,24,0.0,1.0,0,7
+Ontario,Ontario|125|h|||h,7,16,0.0,1.0,0,7
+Ontario,Ontario|125|i|1|1|i,7,14,0.0,1.0,0,7
+Ontario,Ontario|125|i|2|2|i,3,13,0.0,1.0,0,3
+Ontario,Ontario|125|i|3|3|i,15,54,0.2,0.8,3,12
+Ontario,Ontario|125|j|||j,7,25,0.2857142857142857,0.7142857142857143,2,5
+Ontario,Ontario|125|k|||k,28,101,0.0,1.0,0,28
+Ontario,Ontario|125|l|||l,16,43,0.0,1.0,0,16
+Ontario,Ontario|125|m|||m,14,51,0.0,0.9285714285714286,0,13
+Ontario,Ontario|125|n|||n,11,36,0.45454545454545453,0.5454545454545454,5,6
+Ontario,Ontario|125|o|||o,11,43,0.16666666666666666,0.8333333333333333,1,8
+Ontario,Ontario|125|p|||p,23,74,0.08695652173913043,0.8913043478260869,2,20
+Ontario,Ontario|125|q|1|1|q,6,16,0.0,1.0,0,6
+Ontario,Ontario|125|q|2|2|q,13,40,0.15384615384615385,0.8461538461538461,2,11
+Ontario,Ontario|125|q|3|3|q,12,46,0.0,1.0,0,12
+Ontario,Ontario|125|r|1|1|r,11,34,0.09090909090909091,0.9090909090909091,1,10
+Ontario,Ontario|125|r|2|2|r,21,68,0.047619047619047616,0.9523809523809523,1,20
+Ontario,Ontario|125|r|3|3|r,3,5,0.0,1.0,0,3
+Ontario,Ontario|125|s|1|1|s,22,71,0.16818181818181818,0.8318181818181819,3,17
+Ontario,Ontario|125|s|2|2|s,21,61,0.5158730158730159,0.4603174603174603,10,9
+Ontario,Ontario|126|a|1|1|a,24,78,0.0,1.0,0,24
+Ontario,Ontario|126|a|2|2|a,22,69,0.13636363636363635,0.8181818181818182,3,18
+Ontario,Ontario|126|a|3|3|a,31,71,0.06451612903225806,0.9354838709677419,2,29
+Ontario,Ontario|126|a|4|4|a,32,93,0.125,0.828125,4,26
+Ontario,Ontario|126|a|5|5|a,21,63,0.047619047619047616,0.9523809523809523,1,20
+Ontario,Ontario|126|b|1|1|b,21,54,0.14285714285714285,0.8571428571428571,3,18
+Ontario,Ontario|126|b|2|2|b,55,185,0.11363636363636363,0.8863636363636364,5,48
+Ontario,Ontario|126|c|||c,12,35,0.027777777777777776,0.9722222222222222,0,11
+Ontario,Ontario|126|d|||d,21,61,0.0,1.0,0,21
+Ontario,Ontario|126|e|||e,3,7,0.0,1.0,0,3
+Ontario,Ontario|127|a|1|1|a,28,80,0.11904761904761904,0.880952380952381,3,24
+Ontario,Ontario|127|a|2|2|a,26,81,0.18269230769230768,0.8173076923076923,4,21
+Ontario,Ontario|127|a|3|3|a,7,17,0.0,1.0,0,7
+Ontario,Ontario|127|b|1|1|b,42,94,0.0753968253968254,0.9246031746031746,3,38
+Ontario,Ontario|127|b|2|2|b,28,87,0.008928571428571428,0.9910714285714286,0,27
+Ontario,Ontario|127|b|3|3|b,20,59,0.0,1.0,0,20
+Ontario,Ontario|127|c|1|1|c,10,32,0.9,0.1,9,1
+Ontario,Ontario|127|c|2|2|c,17,42,0.11764705882352941,0.8823529411764706,2,15
+Ontario,Ontario|127|c|3|3|c,13,39,0.0,1.0,0,13
+Ontario,Ontario|127|d|1|1|d,21,76,0.0,1.0,0,21
+Ontario,Ontario|127|d|2|2|d,12,31,0.4166666666666667,0.3333333333333333,5,4
+Ontario,Ontario|127|d|3|3|d,15,32,0.13333333333333333,0.8666666666666667,2,13
+Ontario,Ontario|127|e|||e,25,69,0.08,0.92,2,23
+Ontario,Ontario|128|a|1|1|a,16,43,0.09375,0.90625,1,14
+Ontario,Ontario|128|a|2|2|a,20,55,0.05,0.95,1,19
+Ontario,Ontario|128|a|3|3|a,24,83,0.041666666666666664,0.9583333333333334,1,23
+Ontario,Ontario|128|a|4|4|a,20,59,0.0,1.0,0,20
+Ontario,Ontario|128|b|||b,17,48,0.37745098039215685,0.6225490196078431,6,9
+Ontario,Ontario|128|c|1|1|c,31,69,0.03225806451612903,0.9354838709677419,1,29
+Ontario,Ontario|128|c|2|2|c,25,52,0.04,0.96,1,24
+Ontario,Ontario|128|c|3|3|c,23,60,0.043478260869565216,0.9565217391304348,1,22
+Ontario,Ontario|128|c|4|4|c,19,50,0.10526315789473684,0.8947368421052632,2,17
+Ontario,Ontario|128|d|1|1|d,9,27,0.0,1.0,0,9
+Ontario,Ontario|128|d|2|2|d,18,57,0.05555555555555555,0.9305555555555556,1,16
+Ontario,Ontario|128|e|1|1|e,29,82,0.09195402298850575,0.8735632183908045,2,25
+Ontario,Ontario|128|e|2|2|e,25,68,0.16,0.84,4,21
+Ontario,Ontario|129|a|1|1|a,20,73,0.0,1.0,0,20
+Ontario,Ontario|129|a|2|2|a,9,31,0.1111111111111111,0.8888888888888888,1,8
+Ontario,Ontario|129|b|1|1|b,29,99,0.27586206896551724,0.7241379310344828,8,21
+Ontario,Ontario|129|b|2|2|b,63,159,0.12698412698412698,0.873015873015873,8,55
+Ontario,Ontario|129|c|1|1|c,20,54,0.1,0.9,2,18
+Ontario,Ontario|129|c|2|2|c,10,30,0.6375,0.3625,6,3
+Ontario,Ontario|129|c|3|3|c,24,71,0.125,0.875,3,21
+Ontario,Ontario|129|c|4|4|c,13,36,0.0,1.0,0,13
+Ontario,Ontario|129|d|1|1|d,4,10,0.0,1.0,0,4
+Ontario,Ontario|129|d|2|2|d,11,35,0.0,1.0,0,11
+Ontario,Ontario|129|e|1|1|e,20,64,0.0,1.0,0,20
+Ontario,Ontario|129|e|2|2|e,27,78,0.3888888888888889,0.6111111111111112,10,16
+Ontario,Ontario|129|f|||f,10,22,0.0,1.0,0,10
+Ontario,Ontario|129|g|||g,16,31,0.0625,0.9375,1,15
+Ontario,Ontario|130|a|1|1|a,29,78,0.5086206896551724,0.49137931034482757,14,14
+Ontario,Ontario|130|a|2|2|a,15,41,0.5166666666666667,0.48333333333333334,7,6
+Ontario,Ontario|130|b|1|1|b,19,60,0.23157894736842108,0.7684210526315789,4,14
+Ontario,Ontario|130|b|2|2|b,29,83,0.034482758620689655,0.9655172413793104,1,28
+Ontario,Ontario|130|c|||c,25,71,0.42,0.58,10,14
+Ontario,Ontario|130|d|||d,12,48,0.08333333333333333,0.8333333333333334,1,10
+Ontario,Ontario|130|e|||e,5,26,0.9666666666666666,0.03333333333333333,4,0
+Ontario,Ontario|130|f|||f,27,88,0.07407407407407407,0.9074074074074074,2,24
+Ontario,Ontario|130|g|||g,41,129,0.12195121951219512,0.8780487804878049,5,36
+Ontario,Ontario|130|h|||h,14,45,0.1285714285714286,0.8714285714285713,1,12
+Ontario,Ontario|130|i|||i,8,23,0.25,0.625,2,5
+Ontario,Ontario|130|j|||j,4,15,0.25,0.75,1,3
+Ontario,Ontario|131|a|||a,18,65,0.0,1.0,0,18
+Ontario,Ontario|131|b|||b,40,102,0.008333333333333333,0.9833333333333334,0,38
+Ontario,Ontario|131|c|||c,27,80,0.1111111111111111,0.8888888888888888,3,24
+Ontario,Ontario|131|d|||d,5,7,0.6,0.4,3,2
+Ontario,Ontario|131|e|||e,15,55,0.0,1.0,0,15
+Ontario,Ontario|131|f|||f,14,46,0.2857142857142857,0.7142857142857143,4,10
+Ontario,Ontario|131|g|||g,14,40,0.0,1.0,0,14
+Ontario,Ontario|131|h|||h,34,108,0.14705882352941177,0.8529411764705882,5,29
+Ontario,Ontario|131|i|||i,36,111,0.0,1.0,0,36
+Ontario,Ontario|131|j|||j,27,85,0.037037037037037035,0.9629629629629629,1,26
+Ontario,Ontario|131|k|||k,12,37,0.0,1.0,0,12
+Ontario,Ontario|131|l|||l,15,38,0.0,1.0,0,15
+Ontario,Ontario|131|m|1|1|m,24,77,0.0,1.0,0,24
+Ontario,Ontario|131|m|2|2|m,16,54,0.0,1.0,0,16
+Ontario,Ontario|131|n|||n,14,47,0.5952380952380952,0.40476190476190477,8,5
+Ontario,Ontario|131|o|||o,29,75,0.034482758620689655,0.9310344827586207,1,27
+Ontario,Ontario|131|p|||p,6,7,0.0,1.0,0,6
+Ontario,Ontario|131|q|||q,8,19,0.125,0.75,1,6
+Ontario,Ontario|131|r|||r,8,23,0.0,1.0,0,8
+Ontario,Ontario|131|s|||s,20,62,0.05,0.95,1,19
+Ontario,Ontario|131|t|||t,16,43,0.0625,0.9375,1,15
+Ontario,Ontario|131|u|||u,5,12,0.2,0.8,1,4
+Ontario,Ontario|131|v|||v,34,109,0.029411764705882353,0.9705882352941176,1,33
+Ontario,Ontario|131|w|||w,9,33,0.3333333333333333,0.6666666666666666,0,4
+Ontario,Ontario|131|x|||x,20,56,0.3,0.7,6,14
+Ontario,Ontario|131|y|||y,35,85,0.08571428571428572,0.9142857142857143,3,32
+Ontario,Ontario|131|z|||z,12,24,0.16666666666666666,0.8333333333333334,2,10
+Ontario,Ontario|132|a|1|1|a,38,90,0.14473684210526316,0.8552631578947368,5,32
+Ontario,Ontario|132|a|2|2|a,18,47,0.0,1.0,0,18
+Ontario,Ontario|132|a|3|3|a,35,96,0.0,0.9714285714285714,0,34
+Ontario,Ontario|132|a|4|4|a,19,57,0.0,1.0,0,19
+Ontario,Ontario|132|b|1|1|b,11,18,0.2727272727272727,0.7272727272727273,3,8
+Ontario,Ontario|132|b|2|2|b,27,72,0.1111111111111111,0.8888888888888888,3,24
+Ontario,Ontario|132|c|1|1|c,17,42,0.058823529411764705,0.9411764705882353,1,16
+Ontario,Ontario|132|c|2|2|c,40,92,0.0,1.0,0,40
+Ontario,Ontario|132|d|1|1|d,23,55,0.0,0.9565217391304348,0,22
+Ontario,Ontario|132|d|2|2|d,26,70,0.15384615384615385,0.8461538461538461,4,22
+Ontario,Ontario|132|e|1|1|e,37,103,0.0,1.0,0,37
+Ontario,Ontario|132|e|2|2|e,28,75,0.011904761904761904,0.9880952380952381,0,27
+Ontario,Ontario|133|a|1|1|a,37,109,0.08108108108108109,0.918918918918919,3,34
+Ontario,Ontario|133|a|2|2|a,38,107,0.05263157894736842,0.9473684210526315,2,36
+Ontario,Ontario|133|a|3|3|a,13,34,0.038461538461538464,0.9615384615384616,0,12
+Ontario,Ontario|133|b|1|1|b,23,79,0.0,1.0,0,23
+Ontario,Ontario|133|b|2|2|b,20,56,0.0,1.0,0,20
+Ontario,Ontario|133|b|3|3|b,24,67,0.0,1.0,0,24
+Ontario,Ontario|133|b|4|4|b,19,62,0.15789473684210525,0.8421052631578947,3,16
+Ontario,Ontario|133|c|||c,11,27,0.0,0.9545454545454546,0,10
+Ontario,Ontario|133|d|1|1|d,47,154,0.031914893617021274,0.9680851063829787,1,45
+Ontario,Ontario|133|d|2|2|d,35,92,0.07857142857142857,0.8928571428571429,2,31
+Ontario,Ontario|133|e|1|1|e,21,71,0.0,1.0,0,21
+Ontario,Ontario|133|e|2|2|e,52,145,0.057692307692307696,0.9230769230769231,3,48
+Ontario,Ontario|133|e|3|3|e,26,63,0.038461538461538464,0.9230769230769231,1,24
+Ontario,Ontario|133|f|1|1|f,13,34,0.05128205128205128,0.9487179487179488,0,12
+Ontario,Ontario|133|f|2|2|f,23,58,0.07246376811594202,0.9188405797101449,1,20
+Ontario,Ontario|133|g|1|1|g,29,99,0.08448275862068966,0.9155172413793103,2,25
+Ontario,Ontario|133|g|2|2|g,20,63,0.05,0.95,1,19
+Ontario,Ontario|133|h|||h,29,89,0.0,1.0,0,29
+Ontario,Ontario|133|i|||i,51,128,0.0196078431372549,0.9803921568627451,1,50
+Ontario,Ontario|133|j|||j,33,92,0.09090909090909091,0.8636363636363636,3,28
+Ontario,Ontario|133|k|||k,31,82,0.06451612903225806,0.9032258064516129,2,28
+Ontario,Ontario|134|a|1|1|a,23,50,0.043478260869565216,0.9565217391304348,1,22
+Ontario,Ontario|134|a|2|2|a,50,136,0.08,0.92,4,46
+Ontario,Ontario|134|b|1|1|b,67,157,0.09427860696517412,0.8982587064676616,5,58
+Ontario,Ontario|134|b|2|2|b,43,122,0.23255813953488372,0.7674418604651163,10,33
+Ontario,Ontario|134|b|3|3|b,50,127,0.0,1.0,0,50
+Ontario,Ontario|134|c|1|1|c,47,112,0.07446808510638298,0.925531914893617,3,43
+Ontario,Ontario|134|c|2|2|c,35,91,0.16190476190476188,0.8380952380952381,5,29
+Ontario,Ontario|134|c|3|3|c,67,187,0.0,1.0,0,67
+Ontario,Ontario|134|d|1|1|d,90,224,0.08888888888888889,0.9111111111111111,8,82
+Ontario,Ontario|134|d|2|2|d,88,256,0.0,1.0,0,88
+Ontario,Ontario|134|d|3|3|d,23,63,0.043478260869565216,0.9456521739130435,1,21
+Ontario,Ontario|134|e|1|1|e,50,119,0.025,0.975,1,48
+Ontario,Ontario|134|e|2|2|e,45,99,0.022222222222222223,0.9777777777777777,1,44
+Ontario,Ontario|134|e|3|3|e,19,53,0.10526315789473684,0.8947368421052632,2,17
+Ontario,Ontario|134|f|||f,77,196,0.03354978354978355,0.9534632034632036,2,72
+Ontario,Ontario|134|g|1|1|g,57,136,0.05263157894736842,0.9035087719298246,3,51
+Ontario,Ontario|134|g|2|2|g,63,165,0.031746031746031744,0.9682539682539683,2,61
+Ontario,Ontario|134|g|3|3|g,80,180,0.0625,0.9375,5,75
+Ontario,Ontario|134|h|1|1|h,57,136,0.05847953216374269,0.9239766081871345,3,52
+Ontario,Ontario|134|h|2|2|h,86,247,0.011627906976744186,0.9883720930232558,1,85
+Ontario,Ontario|134|h|3|3|h,70,169,0.07619047619047618,0.9095238095238095,5,63
+Ontario,Ontario|134|h|4|4|h,66,175,0.06818181818181818,0.9166666666666666,4,60
+Ontario,Ontario|134|i|1|1|i,100,261,0.06,0.94,6,94
+Ontario,Ontario|134|i|2|2|i,67,199,0.0,1.0,0,67
+Ontario,Ontario|135|a|1|1|a,35,89,0.05714285714285714,0.9428571428571428,2,33
+Ontario,Ontario|135|a|2|2|a,33,84,0.030303030303030304,0.9696969696969697,1,32
+Ontario,Ontario|135|a|3|3|a,17,49,0.5882352941176471,0.4117647058823529,10,7
+Ontario,Ontario|135|b|1|1|b,12,36,0.16666666666666666,0.8333333333333334,2,10
+Ontario,Ontario|135|b|2|2|b,13,29,0.05128205128205128,0.9487179487179487,0,11
+Ontario,Ontario|135|b|3|3|b,13,38,0.3076923076923077,0.6923076923076923,4,9
+Ontario,Ontario|135|b|4|4|b,61,174,0.16393442622950818,0.8360655737704918,10,51
+Ontario,Ontario|135|c|1|1|c,25,68,0.24,0.7333333333333333,6,18
+Ontario,Ontario|135|c|2|2|c,25,67,0.08,0.92,2,23
+Ontario,Ontario|135|c|3|3|c,37,106,0.10810810810810811,0.8918918918918919,4,33
+Ontario,Ontario|135|c|4|4|c,27,65,0.24074074074074073,0.7592592592592593,6,20
+Ontario,Ontario|135|c|5|5|c,20,50,0.15,0.8,3,16
+Ontario,Ontario|135|d|1|1|d,62,152,0.05241935483870968,0.9475806451612904,3,58
+Ontario,Ontario|135|d|2|2|d,12,24,0.8333333333333334,0.16666666666666666,10,2
+Ontario,Ontario|135|e|||e,24,56,0.3333333333333333,0.6666666666666666,8,16
+Ontario,Ontario|135|f|||f,12,30,0.16666666666666666,0.8333333333333334,2,10
+Ontario,Ontario|136|a|||a,12,21,0.25,0.75,3,9
+Ontario,Ontario|136|b|||b,8,24,0.0,1.0,0,8
+Ontario,Ontario|136|c|||c,33,93,0.06060606060606061,0.9090909090909091,2,30
+Ontario,Ontario|136|d|1|1|d,19,73,0.15789473684210525,0.8421052631578947,3,16
+Ontario,Ontario|136|d|2|2|d,13,40,0.0,1.0,0,13
+Ontario,Ontario|136|e|1|1|e,11,32,0.13636363636363635,0.8636363636363636,1,9
+Ontario,Ontario|136|e|2|2|e,14,47,0.2857142857142857,0.7142857142857143,4,10
+Ontario,Ontario|136|e|3|3|e,23,54,0.043478260869565216,0.9565217391304348,1,22
+Ontario,Ontario|136|e|4|4|e,16,46,0.0,1.0,0,16
+Ontario,Ontario|136|e|5|5|e,18,56,0.16666666666666666,0.8333333333333334,3,15
+Ontario,Ontario|136|e|6|6|e,35,102,0.08571428571428572,0.9142857142857143,3,32
+Ontario,Ontario|136|e|7|7|e,10,25,0.7,0.3,7,3
+Ontario,Ontario|136|f|1|1|f,17,49,0.11764705882352941,0.8823529411764706,2,15
+Ontario,Ontario|136|f|2|2|f,17,41,0.35294117647058826,0.6470588235294118,6,11
+Ontario,Ontario|136|f|3|3|f,12,30,0.08333333333333333,0.9166666666666666,1,11
+Ontario,Ontario|136|f|4|4|f,22,65,0.09090909090909091,0.9090909090909091,2,20
+Ontario,Ontario|136|f|5|5|f,12,28,0.4166666666666667,0.5833333333333334,5,7
+Ontario,Ontario|136|f|6|6|f,12,37,0.16666666666666666,0.8333333333333334,2,10
+Ontario,Ontario|137|a|1|1|a,20,74,0.0,1.0,0,20
+Ontario,Ontario|137|a|2|2|a,24,91,0.0,1.0,0,24
+Ontario,Ontario|137|a|3|3|a,16,39,0.0,1.0,0,16
+Ontario,Ontario|137|a|4|4|a,17,53,0.0,0.9901960784313725,0,16
+Ontario,Ontario|137|a|5|5|a,27,78,0.037037037037037035,0.9629629629629629,1,26
+Ontario,Ontario|137|a|6|6|a,18,45,0.16666666666666666,0.8333333333333334,3,15
+Ontario,Ontario|137|b|||b,13,37,0.15384615384615385,0.8461538461538461,2,11
+Ontario,Ontario|137|c|1|1|c,7,18,0.14285714285714285,0.8571428571428571,1,6
+Ontario,Ontario|137|c|2|2|c,17,37,0.27450980392156865,0.7254901960784315,4,12
+Ontario,Ontario|137|c|3|3|c,29,75,0.0,1.0,0,29
+Ontario,Ontario|137|c|4|3|c,1,7,0.0,1.0,0,1
+Ontario,Ontario|137|c|4|4|c,10,31,0.1,0.9,1,9
+Ontario,Ontario|137|c|5|5|c,11,33,0.0,1.0,0,11
+Ontario,Ontario|137|c|6|6|c,11,31,0.45454545454545453,0.45454545454545453,5,5
+Ontario,Ontario|137|d|||d,32,87,0.0,0.9739583333333334,0,31
+Ontario,Ontario|137|e|||e,28,68,0.17857142857142858,0.8214285714285714,5,23
+Ontario,Ontario|137|f|1|1|f,17,44,0.17647058823529413,0.8235294117647058,3,14
+Ontario,Ontario|137|f|2|2|f,17,34,0.0,1.0,0,17
+Ontario,Ontario|137|f|3|3|f,10,37,0.0,0.875,0,8
+Ontario,Ontario|137|f|4|4|f,18,52,0.2222222222222222,0.7777777777777778,4,14
+Ontario,Ontario|137|g|||g,12,37,0.16666666666666666,0.75,2,9
+Ontario,Ontario|137|h|1|1|h,22,59,0.0606060606060606,0.9393939393939394,1,20
+Ontario,Ontario|137|h|2|2|h,19,59,0.05263157894736842,0.9473684210526315,1,18
+Ontario,Ontario|137|i|1|1|i,33,92,0.0,1.0,0,33
+Ontario,Ontario|137|i|2|2|i,19,58,0.3157894736842105,0.6842105263157895,6,13
+Ontario,Ontario|138|a|1|1|a,37,101,0.0,1.0,0,37
+Ontario,Ontario|138|a|2|2|a,17,42,0.11764705882352941,0.8823529411764706,2,15
+Ontario,Ontario|138|a|3|3|a,38,134,0.0,1.0,0,38
+Ontario,Ontario|138|b|1|1|b,20,49,0.05,0.95,1,19
+Ontario,Ontario|138|b|2|2|b,36,101,0.05555555555555555,0.9166666666666666,2,33
+Ontario,Ontario|138|c|||c,32,82,0.0,1.0,0,32
+Ontario,Ontario|138|d|1|1|d,26,86,0.0,1.0,0,26
+Ontario,Ontario|138|d|2|2|d,41,114,0.13658536585365852,0.8634146341463415,5,35
+Ontario,Ontario|138|e|||e,41,110,0.0,1.0,0,41
+Ontario,Ontario|138|f|1|1|f,50,141,0.06,0.924,3,46
+Ontario,Ontario|138|f|2|2|f,17,45,0.058823529411764705,0.9411764705882353,1,16
+Ontario,Ontario|138|g|||g,22,52,0.0,1.0,0,22
+Ontario,Ontario|138|h|1|1|h,28,69,0.07142857142857142,0.9285714285714286,2,26
+Ontario,Ontario|138|h|2|2|h,25,85,0.12,0.88,3,22
+Ontario,Ontario|138|h|3|3|h,25,83,0.16,0.84,4,21
+Ontario,Ontario|138|h|4|4|h,30,81,0.1,0.8666666666666667,3,26
+Ontario,Ontario|139|a|1|1|a,70,208,0.02619047619047619,0.9738095238095239,1,68
+Ontario,Ontario|139|a|2|2|a,36,123,0.0,1.0,0,36
+Ontario,Ontario|139|a|3|3|a,14,37,0.14285714285714285,0.8571428571428571,2,12
+Ontario,Ontario|139|b|||b,17,53,0.11764705882352941,0.8823529411764706,2,15
+Ontario,Ontario|139|c|1|1|c,27,73,0.18518518518518517,0.8148148148148148,5,22
+Ontario,Ontario|139|c|2|2|c,51,139,0.21568627450980393,0.7450980392156863,11,38
+Ontario,Ontario|139|d|||d,69,237,0.043478260869565216,0.9508281573498966,3,64
+Ontario,Ontario|139|e|1|1|e,38,114,0.02631578947368421,0.9736842105263158,1,37
+Ontario,Ontario|139|e|2|2|e,42,134,0.03333333333333333,0.9666666666666667,1,40
+Ontario,Ontario|139|f|1|1|f,31,82,0.06451612903225806,0.9354838709677419,2,29
+Ontario,Ontario|139|f|2|2|f,67,199,0.029850746268656716,0.9701492537313433,2,65
+Ontario,Ontario|139|g|1|1|g,19,59,0.0,1.0,0,19
+Ontario,Ontario|139|g|2|2|g,50,159,0.16,0.84,8,42
+Ontario,Ontario|139|h|1|1|h,14,49,0.0,1.0,0,14
+Ontario,Ontario|139|h|2|2|h,34,112,0.058823529411764705,0.9411764705882353,2,32
+Ontario,Ontario|139|i|||i,25,65,0.03,0.93,0,23
+Ontario,Ontario|139|j|||j,76,235,0.11513157894736842,0.8848684210526315,8,67
+Ontario,Ontario|139|k|||k,26,61,0.038461538461538464,0.9615384615384616,1,25
+Ontario,Ontario|139|l|1|1|l,42,117,0.023809523809523808,0.9761904761904762,1,41
+Ontario,Ontario|139|l|2|2|l,32,96,0.0703125,0.9296875,2,29
+Ontario,Ontario|139|m|1|1|m,55,173,0.06363636363636363,0.9363636363636364,3,51
+Ontario,Ontario|139|m|2|2|m,31,115,0.03225806451612903,0.967741935483871,1,30
+Ontario,Ontario|139|n|||n,69,214,0.07246376811594203,0.9130434782608695,5,63
+Ontario,Ontario|139|o|||o,57,184,0.14619883040935674,0.8362573099415205,7,46
+Ontario,Ontario|140|a|1|1|a,16,48,0.0,1.0,0,16
+Ontario,Ontario|140|a|2|2|a,23,63,0.30434782608695654,0.6956521739130435,7,16
+Ontario,Ontario|140|a|3|3|a,20,54,0.0,0.95,0,19
+Ontario,Ontario|140|a|4|4|a,8,29,0.325,0.5,2,4
+Ontario,Ontario|140|a|5|5|a,13,35,0.9807692307692307,0.019230769230769232,12,0
+Ontario,Ontario|140|b|1|1|b,23,59,0.30434782608695654,0.6956521739130435,7,16
+Ontario,Ontario|140|b|2|2|b,17,57,0.0784313725490196,0.9215686274509803,1,15
+Ontario,Ontario|140|b|3|3|b,20,59,0.0,0.9875,0,19
+Ontario,Ontario|140|b|4|4|b,7,21,0.0,1.0,0,7
+Ontario,Ontario|140|b|5|5|b,21,60,0.03571428571428571,0.9642857142857143,0,20
+Ontario,Ontario|140|c|1|1|c,8,20,0.125,0.875,1,7
+Ontario,Ontario|140|c|2|2|c,29,76,0.0,1.0,0,29
+Ontario,Ontario|140|c|3|3|c,28,72,0.0,1.0,0,28
+Ontario,Ontario|140|d|||d,16,46,0.0,0.9375,0,15
+Ontario,Ontario|140|e|1|1|e,9,21,0.0,0.9444444444444444,0,8
+Ontario,Ontario|140|e|2|2|e,12,42,0.0,1.0,0,12
+Ontario,Ontario|141|a|1|1|a,11,26,0.0,1.0,0,11
+Ontario,Ontario|141|a|2|2|a,8,23,0.125,0.875,1,7
+Ontario,Ontario|141|b|1|1|b,19,56,0.21052631578947367,0.7894736842105263,4,15
+Ontario,Ontario|141|b|2|2|b,13,35,0.15384615384615385,0.8461538461538461,2,11
+Ontario,Ontario|141|b|3|3|b,10,41,0.1,0.9,1,9
+Ontario,Ontario|141|c|||c,11,23,0.0606060606060606,0.9393939393939394,0,10
+Ontario,Ontario|141|d|1|1|d,23,65,0.21739130434782608,0.7391304347826086,5,17
+Ontario,Ontario|141|d|2|2|d,10,32,0.0,1.0,0,10
+Ontario,Ontario|141|d|3|3|d,31,81,0.12903225806451613,0.8709677419354839,4,27
+Ontario,Ontario|141|d|4|4|d,21,72,0.0,0.992063492063492,0,20
+Ontario,Ontario|141|e|1|1|e,16,49,0.125,0.875,2,14
+Ontario,Ontario|141|e|2|2|e,18,65,0.16666666666666666,0.8333333333333334,3,15
+Ontario,Ontario|141|e|3|3|e,15,36,0.13333333333333333,0.8666666666666667,2,13
+Ontario,Ontario|142|a|1|1|a,5,9,0.8,0.2,4,1
+Ontario,Ontario|142|a|2|2|a,26,86,0.0,1.0,0,26
+Ontario,Ontario|142|b|||b,32,63,0.03125,0.96875,1,31
+Ontario,Ontario|142|c|1|1|c,13,32,0.23076923076923078,0.7692307692307693,3,10
+Ontario,Ontario|142|c|2|2|c,37,76,0.0,0.972972972972973,0,36
+Ontario,Ontario|142|d|||d,15,46,0.0,1.0,0,15
+Ontario,Ontario|142|e|||e,23,56,0.08695652173913043,0.9130434782608695,2,21
+Ontario,Ontario|142|f|||f,64,141,0.015625,0.96875,1,62
+Ontario,Ontario|142|g|||g,18,67,0.05555555555555555,0.9444444444444444,1,17
+Ontario,Ontario|142|h|1|1|h,19,51,0.05263157894736842,0.9473684210526315,1,18
+Ontario,Ontario|142|h|2|2|h,30,66,0.0,1.0,0,30
+Ontario,Ontario|142|i|||i,42,119,0.07142857142857142,0.9047619047619048,3,38
+Ontario,Ontario|142|j|1|1|j,13,30,0.0,0.9230769230769231,0,12
+Ontario,Ontario|142|j|2|2|j,34,96,0.0,1.0,0,34
+Ontario,Ontario|142|k|||k,14,45,0.0,1.0,0,14
+Ontario,Ontario|142|l|||l,51,124,0.049019607843137254,0.9117647058823529,2,46
+Ontario,Ontario|143|a|1|1|a,4,11,0.125,0.875,0,3
+Ontario,Ontario|143|a|2|2|a,3,4,0.0,1.0,0,3
+Ontario,Ontario|143|a|3|3|a,14,37,0.07142857142857142,0.9285714285714286,1,13
+Ontario,Ontario|143|b|||b,24,68,0.0,1.0,0,24
+Ontario,Ontario|144|a|1|1|a,19,58,0.3684210526315789,0.631578947368421,7,12
+Ontario,Ontario|144|a|2|2|a,30,71,0.02222222222222222,0.9777777777777777,0,29
+Ontario,Ontario|144|b|1|1|b,32,81,0.0,1.0,0,32
+Ontario,Ontario|144|b|2|2|b,32,91,0.125,0.625,4,20
+Ontario,Ontario|144|c|1|1|c,23,59,0.0,1.0,0,23
+Ontario,Ontario|144|c|2|2|c,8,28,0.125,0.875,1,7
+Ontario,Ontario|144|d|||d,7,19,0.0,1.0,0,7
+Ontario,Ontario|144|e|1|1|e,33,83,0.06060606060606061,0.9242424242424242,2,30
+Ontario,Ontario|144|e|2|2|e,32,86,0.09375,0.90625,3,29
+Ontario,Ontario|144|f|1|1|f,5,12,0.0,1.0,0,5
+Ontario,Ontario|144|f|2|2|f,20,45,0.0,1.0,0,20
+Ontario,Ontario|144|g|1|1|g,25,61,0.0,1.0,0,25
+Ontario,Ontario|144|g|2|2|g,18,37,0.0,1.0,0,18
+Ontario,Ontario|144|h|1|1|h,4,13,0.0,1.0,0,4
+Ontario,Ontario|144|h|2|2|h,8,18,0.0,1.0,0,8
+Ontario,Ontario|144|i|||i,38,102,0.02631578947368421,0.9736842105263158,1,37
+Ontario,Ontario|145|a|1|1|a,17,39,0.058823529411764705,0.9411764705882353,1,16
+Ontario,Ontario|145|a|2|2|a,30,66,0.2,0.8,6,24
+Ontario,Ontario|145|a|3|3|a,34,79,0.029411764705882353,0.9705882352941176,1,33
+Ontario,Ontario|145|a|4|4|a,42,112,0.13095238095238096,0.8690476190476191,5,36
+Ontario,Ontario|145|a|5|5|a,33,75,0.4444444444444444,0.5151515151515151,14,16
+Ontario,Ontario|145|a|6|6|a,18,48,0.0,1.0,0,18
+Ontario,Ontario|145|b|1|1|b,13,36,0.0,1.0,0,13
+Ontario,Ontario|145|b|2|2|b,6,13,0.16666666666666666,0.8333333333333334,1,5
+Ontario,Ontario|145|b|3|3|b,9,22,0.0,1.0,0,9
+Ontario,Ontario|145|c|1|1|c,14,38,0.21428571428571427,0.7857142857142857,3,11
+Ontario,Ontario|145|c|2|2|c,14,28,0.21428571428571427,0.7857142857142857,3,11
+Ontario,Ontario|145|d|1|1|d,7,14,0.0,1.0,0,7
+Ontario,Ontario|145|d|2|2|d,18,47,0.1111111111111111,0.8888888888888888,2,16
+Ontario,Ontario|145|e|1|1|e,23,69,0.0,0.9782608695652174,0,22
+Ontario,Ontario|145|e|2|2|e,24,57,0.125,0.875,3,21
+Ontario,Ontario|145|f|||f,33,87,0.09090909090909091,0.9090909090909091,3,30
+Ontario,Ontario|145|g|||g,23,59,0.30434782608695654,0.6956521739130435,7,16
+Ontario,Ontario|145|h|||h,17,45,0.10294117647058823,0.8382352941176471,1,14
+Ontario,Ontario|145|i|||i,15,24,0.06666666666666667,0.9333333333333333,1,14
+Ontario,Ontario|146|a|1|1|a,33,86,0.030303030303030304,0.9696969696969697,1,32
+Ontario,Ontario|146|a|2|2|a,38,90,0.11842105263157894,0.881578947368421,4,33
+Ontario,Ontario|146|a|3|3|a,53,143,0.0220125786163522,0.9779874213836478,0,50
+Ontario,Ontario|146|b|||b,23,72,0.21739130434782608,0.782608695652174,5,18
+Ontario,Ontario|146|c|||c,5,8,0.2,0.8,1,4
+Ontario,Ontario|146|d|||d,27,68,0.19047619047619047,0.8095238095238095,5,21
+Ontario,Ontario|146|e|||e,9,28,0.0,1.0,0,9
+Ontario,Ontario|146|f|1|1|f,37,91,0.08108108108108109,0.918918918918919,3,34
+Ontario,Ontario|146|f|2|2|f,21,69,0.11111111111111109,0.888888888888889,2,18
+Ontario,Ontario|146|g|||g,35,112,0.11428571428571428,0.8285714285714286,4,29
+Ontario,Ontario|146|h|||h,28,97,0.07142857142857142,0.9285714285714286,2,26
+Ontario,Ontario|147|a|1|1|a,28,83,0.10714285714285714,0.8928571428571429,3,25
+Ontario,Ontario|147|a|2|2|a,32,79,0.0625,0.9375,2,30
+Ontario,Ontario|147|b|1|1|b,25,65,0.12,0.88,3,22
+Ontario,Ontario|147|b|2|2|b,24,74,0.05555555555555555,0.9444444444444445,1,22
+Ontario,Ontario|147|c|1|1|c,24,64,0.2916666666666667,0.7083333333333334,7,17
+Ontario,Ontario|147|c|2|2|c,24,65,0.041666666666666664,0.9583333333333334,1,23
+Ontario,Ontario|147|d|1|1|d,30,96,0.05555555555555555,0.9111111111111111,1,27
+Ontario,Ontario|147|d|2|2|d,23,68,0.043478260869565216,0.9565217391304348,1,22
+Ontario,Ontario|147|e|1|1|e,25,52,0.84,0.16,21,4
+Ontario,Ontario|147|e|2|2|e,26,80,0.0,1.0,0,26
+Ontario,Ontario|147|e|3|3|e,28,65,0.03571428571428571,0.9642857142857143,1,27
+Ontario,Ontario|148|a|1|1|a,20,64,0.125,0.875,2,17
+Ontario,Ontario|148|a|2|2|a,12,34,0.0,1.0,0,12
+Ontario,Ontario|148|b|1|1|b,17,58,0.0,1.0,0,17
+Ontario,Ontario|148|b|2|2|b,24,64,0.0,1.0,0,24
+Ontario,Ontario|148|b|3|3|b,10,29,0.1,0.9,1,9
+Ontario,Ontario|148|c|1|1|c,41,102,0.024390243902439025,0.9634146341463414,1,39
+Ontario,Ontario|148|c|2|2|c,51,144,0.0,1.0,0,51
+Ontario,Ontario|148|d|1|1|d,14,39,0.0,1.0,0,14
+Ontario,Ontario|148|d|2|2|d,22,48,0.0,1.0,0,22
+Ontario,Ontario|148|d|3|3|d,24,84,0.0,1.0,0,24
+Ontario,Ontario|149|a|1|1|a,24,68,0.16666666666666666,0.8333333333333334,4,20
+Ontario,Ontario|149|a|2|2|a,20,40,0.15,0.8,3,16
+Ontario,Ontario|149|b|1|1|b,25,74,0.04,0.96,1,24
+Ontario,Ontario|149|b|2|2|b,6,20,0.16666666666666666,0.8333333333333334,1,5
+Ontario,Ontario|149|b|3|3|b,14,32,0.14285714285714285,0.8571428571428571,2,12
+Ontario,Ontario|149|c|1|1|c,46,126,0.10543478260869564,0.8945652173913043,4,40
+Ontario,Ontario|149|c|2|2|c,45,107,0.06666666666666667,0.8888888888888888,3,40
+Ontario,Ontario|149|d|1|1|d,36,108,0.027777777777777776,0.9722222222222222,1,35
+Ontario,Ontario|149|d|2|2|d,38,107,0.05263157894736842,0.9473684210526315,2,36
+Ontario,Ontario|149|d|3|3|d,39,94,0.05128205128205128,0.9423076923076923,2,36
+Ontario,Ontario|149|e|1|1|e,15,41,0.06666666666666667,0.9333333333333333,1,14
+Ontario,Ontario|149|e|2|2|e,22,58,0.5681818181818182,0.4318181818181818,12,9
+Ontario,Ontario|149|e|3|3|e,31,94,0.0,1.0,0,31
+Ontario,Ontario|149|f|1|1|f,33,74,0.10606060606060606,0.8939393939393939,3,29
+Ontario,Ontario|149|f|2|2|f,54,122,0.018518518518518517,0.9675925925925926,1,51
+Ontario,Ontario|149|f|3|3|f,25,69,0.04,0.96,1,24
+Ontario,Ontario|149|g|1|1|g,33,97,0.06060606060606061,0.9393939393939394,2,31
+Ontario,Ontario|149|g|2|2|g,48,118,0.041666666666666664,0.9583333333333334,2,46
+Ontario,Ontario|149|g|3|3|g,51,132,0.0,1.0,0,51
+Ontario,Ontario|150|a|1|1|a,27,80,0.0,0.9629629629629629,0,26
+Ontario,Ontario|150|a|2|2|a,40,99,0.075,0.9,3,36
+Ontario,Ontario|150|b|||b,20,57,0.15,0.85,3,17
+Ontario,Ontario|150|c|1|1|c,54,144,0.21604938271604937,0.7839506172839507,11,42
+Ontario,Ontario|150|c|2|2|c,26,83,0.0,1.0,0,26
+Ontario,Ontario|150|d|||d,26,54,0.04615384615384615,0.9538461538461539,1,24
+Ontario,Ontario|150|e|||e,29,76,0.034482758620689655,0.9655172413793104,1,28
+Ontario,Ontario|150|f|1|1|f,31,104,0.03225806451612903,0.967741935483871,1,30
+Ontario,Ontario|150|f|2|2|f,24,63,0.0,0.9583333333333334,0,23
+Ontario,Ontario|150|g|1|1|g,64,197,0.0,0.984375,0,63
+Ontario,Ontario|150|g|2|2|g,48,136,0.0625,0.9305555555555555,3,44
+Ontario,Ontario|150|h|||h,17,38,0.0,1.0,0,17
+Ontario,Ontario|150|i|||i,36,81,0.16666666666666666,0.8055555555555556,6,29
+Ontario,Ontario|151|a|1|1|a,10,34,0.0,1.0,0,10
+Ontario,Ontario|151|a|2|2|a,14,38,0.0,1.0,0,14
+Ontario,Ontario|151|a|3|3|a,8,21,0.0,1.0,0,8
+Ontario,Ontario|151|b|1|1|b,11,41,0.0,1.0,0,11
+Ontario,Ontario|151|b|2|2|b,11,27,0.18181818181818182,0.7272727272727273,2,8
+Ontario,Ontario|151|b|3|3|b,5,23,0.0,1.0,0,5
+Ontario,Ontario|151|c|1|1|c,58,161,0.017241379310344827,0.9741379310344828,1,56
+Ontario,Ontario|151|c|2|2|c,32,100,0.0,1.0,0,32
+Ontario,Ontario|151|c|3|3|c,31,76,0.0,0.9838709677419355,0,30
+Ontario,Ontario|151|c|4|4|c,38,96,0.09649122807017543,0.9035087719298246,3,34
+Ontario,Ontario|151|c|5|5|c,34,91,0.058823529411764705,0.9411764705882353,2,32
+Ontario,Ontario|151|d|1|1|d,21,52,0.0,1.0,0,21
+Ontario,Ontario|151|d|2|2|d,21,64,0.011904761904761904,0.9880952380952381,0,20
+Ontario,Ontario|151|d|3|3|d,14,35,0.14285714285714285,0.8571428571428571,2,12
+Ontario,Ontario|151|e|1|1|e,22,60,0.0,0.9545454545454546,0,21
+Ontario,Ontario|151|e|2|2|e,29,88,0.034482758620689655,0.9195402298850575,1,26
+Ontario,Ontario|151|e|3|3|e,22,70,0.09090909090909091,0.893939393939394,2,19
+Ontario,Ontario|152|a|1|1|a,29,69,0.06896551724137931,0.9310344827586207,2,27
+Ontario,Ontario|152|a|2|2|a,28,83,0.03571428571428571,0.9642857142857143,1,27
+Ontario,Ontario|152|b|||b,17,46,0.058823529411764705,0.9411764705882353,1,16
+Ontario,Ontario|152|c|||c,28,86,0.0,1.0,0,28
+Ontario,Ontario|152|d|||d,12,26,0.0,1.0,0,12
+Ontario,Ontario|152|e|1|1|e,12,31,0.16666666666666666,0.8333333333333334,2,10
+Ontario,Ontario|152|e|2|2|e,19,63,0.0,1.0,0,19
+Ontario,Ontario|152|e|3|3|e,21,62,0.0,1.0,0,21
+Ontario,Ontario|152|e|4|4|e,8,33,0.25,0.6875,2,5
+Ontario,Ontario|152|f|1|1|f,13,41,0.15384615384615385,0.8461538461538461,2,11
+Ontario,Ontario|152|f|2|2|f,17,43,0.058823529411764705,0.8823529411764706,1,15
+Ontario,Ontario|152|g|1|1|g,9,34,0.2222222222222222,0.7777777777777778,2,7
+Ontario,Ontario|152|g|2|2|g,12,32,0.0,1.0,0,12
+Ontario,Ontario|152|h|1|1|h,22,74,0.0,1.0,0,22
+Ontario,Ontario|152|h|2|2|h,35,104,0.14285714285714285,0.8571428571428571,5,30
+Ontario,Ontario|152|i|1|1|i,13,29,0.0,1.0,0,13
+Ontario,Ontario|152|i|2|2|i,21,65,0.9166666666666666,0.08333333333333333,19,1
+Ontario,Ontario|153|a|1|1|a,45,138,0.08888888888888889,0.9111111111111111,4,41
+Ontario,Ontario|153|a|2|2|a,27,84,0.037037037037037035,0.9629629629629629,1,26
+Ontario,Ontario|153|a|3|3|a,6,14,0.0,1.0,0,6
+Ontario,Ontario|153|b|1|1|b,30,85,0.13333333333333333,0.8666666666666667,4,26
+Ontario,Ontario|153|b|2|2|b,36,131,0.0,1.0,0,36
+Ontario,Ontario|153|c|||c,41,116,0.0,1.0,0,41
+Ontario,Ontario|153|d|||d,25,80,0.04,0.96,1,24
+Ontario,Ontario|153|e|||e,19,40,0.05263157894736842,0.3157894736842105,1,6
+Ontario,Ontario|153|f|1|1|f,16,54,0.0,1.0,0,16
+Ontario,Ontario|153|f|2|2|f,14,38,0.0,0.875,0,12
+Ontario,Ontario|153|g|||g,28,89,0.017857142857142856,0.9821428571428571,0,27
+Ontario,Ontario|153|h|1|1|h,43,145,0.15891472868217055,0.8410852713178294,6,36
+Ontario,Ontario|153|h|2|2|h,30,99,0.7388888888888889,0.2611111111111111,21,7
+Ontario,Ontario|153|i|||i,53,132,0.4528301886792453,0.5283018867924528,24,28
+Ontario,Ontario|153|j|||j,16,42,0.0625,0.9375,1,15
+Ontario,Ontario|153|k|||k,6,14,0.0,1.0,0,6
+Ontario,Ontario|154|a|||a,39,97,0.07692307692307693,0.8974358974358975,3,35
+Ontario,Ontario|154|b|1|1|b,13,46,1.0,0.0,13,0
+Ontario,Ontario|154|b|2|2|b,26,87,0.0,1.0,0,26
+Ontario,Ontario|154|b|3|3|b,34,72,0.029411764705882353,0.9705882352941176,1,33
+Ontario,Ontario|154|c|1|1|c,11,26,0.0,1.0,0,11
+Ontario,Ontario|154|c|2|2|c,13,37,0.5384615384615384,0.37179487179487175,7,4
+Ontario,Ontario|154|c|3|3|c,8,17,0.0,1.0,0,8
+Ontario,Ontario|154|d|1|1|d,10,36,0.0,1.0,0,10
+Ontario,Ontario|154|d|2|2|d,23,58,0.043478260869565216,0.9565217391304348,1,22
+Ontario,Ontario|154|d|3|3|d,6,16,0.0,1.0,0,6
+Ontario,Ontario|154|e|1|1|e,29,106,0.06896551724137931,0.9310344827586207,2,27
+Ontario,Ontario|154|e|2|2|e,34,114,0.029411764705882353,0.9705882352941176,1,33
+Ontario,Ontario|154|e|3|3|e,17,56,0.17647058823529413,0.8235294117647058,3,14
+Ontario,Ontario|155|a|1|1|a,20,58,0.0,1.0,0,20
+Ontario,Ontario|155|a|2|2|a,31,82,0.0967741935483871,0.9032258064516129,3,28
+Ontario,Ontario|155|a|3|3|a,27,78,0.07407407407407407,0.9259259259259259,2,25
+Ontario,Ontario|155|b|1|1|b,48,142,0.06597222222222222,0.9340277777777778,3,44
+Ontario,Ontario|155|b|2|2|b,35,115,0.0,1.0,0,35
+Ontario,Ontario|155|b|3|3|b,37,105,0.0,1.0,0,37
+Ontario,Ontario|155|c|1|1|c,33,91,0.030303030303030304,0.9696969696969697,1,32
+Ontario,Ontario|155|c|2|2|c,36,110,0.10416666666666667,0.8680555555555556,3,31
+Ontario,Ontario|155|d|1|1|d,20,57,0.1625,0.8375,3,16
+Ontario,Ontario|155|d|2|2|d,26,77,0.07692307692307693,0.9230769230769231,2,24
+Ontario,Ontario|155|d|3|3|d,17,51,0.0,1.0,0,17
+Ontario,Ontario|155|e|1|1|e,35,101,0.0,1.0,0,35
+Ontario,Ontario|155|e|2|2|e,36,104,0.027777777777777776,0.9722222222222222,1,35
+Ontario,Ontario|155|f|||f,16,40,0.0,1.0,0,16
+Ontario,Ontario|155|g|1|1|g,32,91,0.0,1.0,0,32
+Ontario,Ontario|155|g|2|2|g,36,118,0.027777777777777776,0.9722222222222222,1,35
+Ontario,Ontario|155|h|||h,50,115,0.02,0.98,1,49
+Ontario,Ontario|155|i|1|1|i,45,135,0.8822222222222222,0.11777777777777777,39,4
+Ontario,Ontario|155|i|2|2|i,49,142,0.061224489795918366,0.9387755102040817,3,46
+Ontario,Ontario|156|a|1|1|a,35,81,0.02857142857142857,0.9714285714285714,1,34
+Ontario,Ontario|156|a|2|2|a,16,48,0.0,1.0,0,16
+Ontario,Ontario|156|a|3|3|a,31,96,0.0,0.9723502304147466,0,30
+Ontario,Ontario|156|b|1|1|b,28,73,0.07142857142857142,0.9285714285714286,2,26
+Ontario,Ontario|156|b|2|2|b,17,55,0.17647058823529413,0.7647058823529411,3,13
+Ontario,Ontario|156|b|3|3|b,15,54,0.13333333333333333,0.8666666666666667,2,13
+Ontario,Ontario|156|c|1|1|c,37,133,0.07567567567567567,0.9243243243243244,2,34
+Ontario,Ontario|156|c|2|2|c,34,78,0.029411764705882353,0.9411764705882353,1,32
+Ontario,Ontario|156|d|1|1|d,14,45,0.0,1.0,0,14
+Ontario,Ontario|156|d|2|2|d,4,16,0.75,0.0,3,0
+Ontario,Ontario|156|e|1|1|e,18,63,0.027777777777777776,0.9722222222222222,0,17
+Ontario,Ontario|156|e|2|2|e,20,76,0.15,0.85,3,17
+Ontario,Ontario|156|f|1|1|f,20,64,0.025,0.975,0,19
+Ontario,Ontario|156|f|2|2|f,22,75,0.0,0.9545454545454546,0,21
+Ontario,Ontario|156|f|3|3|f,17,46,0.058823529411764705,0.8823529411764706,1,15
+Ontario,Ontario|156|g|||g,3,7,0.0,1.0,0,3
+Ontario,Ontario|156|h|||h,8,18,0.0,1.0,0,8
+Ontario,Ontario|157|a|1|1|a,2,4,0.75,0.0,1,0
+Ontario,Ontario|157|a|2|2|a,11,35,0.0,1.0,0,11
+Ontario,Ontario|157|b|1|1|b,4,11,0.0,0.75,0,3
+Ontario,Ontario|157|b|2|2|b,11,36,0.09090909090909091,0.9090909090909091,1,10
+Ontario,Ontario|157|b|3|3|b,19,67,0.14736842105263157,0.7473684210526316,2,14
+Ontario,Ontario|157|c|1|1|c,5,17,0.0,0.0,0,0
+Ontario,Ontario|157|c|2|2|c,1,2,0.5,0.0,0,0
+Ontario,Ontario|157|d|1|1|d,6,18,0.3333333333333333,0.5,2,3
+Ontario,Ontario|157|d|2|2|d,21,74,0.09523809523809523,0.9047619047619048,2,19
+Ontario,Ontario|157|e|||e,19,42,0.45614035087719296,0.0,8,0
+Ontario,Ontario|158|a|||a,14,41,0.0,1.0,0,14
+Ontario,Ontario|158|b|1|1|b,29,71,0.034482758620689655,0.9310344827586207,1,27
+Ontario,Ontario|158|b|2|2|b,46,106,0.08695652173913043,0.9130434782608695,4,42
+Ontario,Ontario|158|b|3|3|b,37,84,0.05405405405405406,0.9459459459459459,2,35
+Ontario,Ontario|158|c|1|1|c,39,88,0.3717948717948718,0.5282051282051282,14,19
+Ontario,Ontario|158|c|2|2|c,39,91,0.20512820512820512,0.7948717948717948,8,31
+Ontario,Ontario|158|c|3|3|c,52,118,0.19230769230769232,0.8076923076923077,10,42
+Ontario,Ontario|158|d|1|1|d,40,100,0.025,0.975,1,39
+Ontario,Ontario|158|d|2|2|d,51,145,0.0392156862745098,0.9330065359477124,2,47
+Ontario,Ontario|158|e|||e,43,107,0.16279069767441862,0.8372093023255814,7,36
+Ontario,Ontario|159|a|1|1|a,34,87,0.04411764705882353,0.9558823529411765,1,32
+Ontario,Ontario|159|a|2|2|a,16,39,0.025,0.9125,0,14
+Ontario,Ontario|159|a|3|3|a,21,65,0.09523809523809523,0.9047619047619048,2,19
+Ontario,Ontario|159|a|4|4|a,19,38,0.0,1.0,0,19
+Ontario,Ontario|159|a|5|5|a,34,90,0.0,1.0,0,34
+Ontario,Ontario|159|a|6|6|a,27,59,0.0,1.0,0,27
+Ontario,Ontario|159|a|7|7|a,37,86,0.05405405405405406,0.9459459459459459,2,35
+Ontario,Ontario|159|b|1|1|b,21,54,0.0,1.0,0,21
+Ontario,Ontario|159|b|2|1|b,4,14,0.0,1.0,0,4
+Ontario,Ontario|159|b|2|2|b,17,56,0.23529411764705882,0.7647058823529411,4,13
+Ontario,Ontario|159|b|3|3|b,11,35,0.18181818181818182,0.8181818181818182,2,9
+Ontario,Ontario|159|b|4|4|b,17,49,0.0,1.0,0,17
+Ontario,Ontario|159|b|5|5|b,18,52,0.0,1.0,0,18
+Ontario,Ontario|159|b|6|6|b,12,38,0.16666666666666666,0.8333333333333334,2,10
+Ontario,Ontario|159|c|1|1|c,8,17,0.0,1.0,0,8
+Ontario,Ontario|159|c|2|2|c,9,18,0.0,1.0,0,9
+Ontario,Ontario|159|d|1|1|d,16,30,0.1875,0.8125,3,13
+Ontario,Ontario|159|d|2|2|d,9,27,0.0,1.0,0,9
+Ontario,Ontario|159|d|3|3|d,30,65,0.0,1.0,0,30
+Ontario,Ontario|159|e|2|2|e,4,10,0.0,1.0,0,4
+Ontario,Ontario|160|a|1|1|a,39,112,0.0,0.9743589743589743,0,38
+Ontario,Ontario|160|a|2|2|a,28,62,0.0,0.9642857142857143,0,27
+Ontario,Ontario|160|b|1|1|b,17,58,0.0,0.9411764705882353,0,16
+Ontario,Ontario|160|b|2|2|b,15,35,0.06666666666666667,0.9333333333333333,1,14
+Ontario,Ontario|160|c|1|1|c,38,89,0.013157894736842105,0.9868421052631579,0,37
+Ontario,Ontario|160|c|2|2|c,15,33,0.06666666666666667,0.9333333333333333,1,14
+Ontario,Ontario|160|c|3|3|c,13,37,0.0,1.0,0,13
+Ontario,Ontario|160|d|1|1|d,23,53,0.08695652173913043,0.8804347826086957,2,20
+Ontario,Ontario|160|d|2|2|d,24,72,0.041666666666666664,0.9513888888888888,1,22
+Ontario,Ontario|161|a|1|1|a,10,20,0.1,0.9,1,9
+Ontario,Ontario|161|a|2|2|a,4,14,0.0,1.0,0,4
+Ontario,Ontario|161|a|3|3|a,5,19,0.0,1.0,0,5
+Ontario,Ontario|161|a|4|4|a,7,17,0.14285714285714285,0.8571428571428571,1,6
+Ontario,Ontario|161|b|1|1|b,17,47,0.058823529411764705,0.9411764705882353,1,16
+Ontario,Ontario|161|b|2|2|b,21,61,0.0,1.0,0,21
+Ontario,Ontario|161|c|1|1|c,8,25,0.125,0.875,1,7
+Ontario,Ontario|161|c|2|2|c,14,37,0.0,1.0,0,14
+Ontario,Ontario|161|c|3|3|c,2,4,1.0,0.0,2,0
+Ontario,Ontario|161|d|1|1|d,46,113,0.0,1.0,0,46
+Ontario,Ontario|161|d|2|2|d,52,147,0.05448717948717948,0.9407051282051282,2,47
+Ontario,Ontario|161|e|||e,19,57,0.0,0.9473684210526315,0,18
+Ontario,Ontario|161|f|||f,14,33,0.35714285714285715,0.6428571428571429,5,9
+Ontario,Ontario|161|g|||g,9,23,0.0,1.0,0,9
+Ontario,Ontario|162|a|1|1|a,2,13,0.0,1.0,0,2
+Ontario,Ontario|162|a|2|2|a,25,77,0.0,1.0,0,25
+Ontario,Ontario|162|a|3|3|a,8,20,0.375,0.625,3,5
+Ontario,Ontario|162|a|4|4|a,8,32,0.0,1.0,0,8
+Ontario,Ontario|162|b|1|1|b,2,9,0.0,1.0,0,2
+Ontario,Ontario|162|b|2|2|b,16,51,0.0,1.0,0,16
+Ontario,Ontario|162|b|3|3|b,8,25,0.0,1.0,0,8
+Ontario,Ontario|162|b|4|4|b,11,31,0.0,1.0,0,11
+Ontario,Ontario|162|b|5|5|b,13,32,0.11538461538461539,0.8846153846153846,1,11
+Ontario,Ontario|162|c|1|1|c,9,38,0.7962962962962963,0.20370370370370372,7,1
+Ontario,Ontario|162|c|2|2|c,6,19,0.0,1.0,0,6
+Ontario,Ontario|162|c|3|3|c,3,7,0.0,1.0,0,3
+Ontario,Ontario|162|d|1|1|d,13,35,0.0,1.0,0,13
+Ontario,Ontario|162|d|2|2|d,16,44,0.0,1.0,0,16
+Ontario,Ontario|162|e|1|1|e,13,34,0.0,1.0,0,13
+Ontario,Ontario|162|e|2|2|e,27,69,0.0,1.0,0,27
+Ontario,Ontario|163|a|1|1|a,43,112,0.08527131782945736,0.9108527131782945,3,38
+Ontario,Ontario|163|a|2|2|a,43,90,0.046511627906976744,0.9534883720930233,2,41
+Ontario,Ontario|163|a|3|3|a,16,43,0.0,1.0,0,16
+Ontario,Ontario|163|b|||b,16,41,0.125,0.875,2,14
+Ontario,Ontario|163|c|1|1|c,35,67,0.02857142857142857,0.9714285714285714,1,34
+Ontario,Ontario|163|c|2|2|c,68,163,0.04411764705882353,0.9338235294117647,3,63
+Ontario,Ontario|163|c|3|3|c,34,76,0.11764705882352941,0.8676470588235294,4,29
+Ontario,Ontario|163|d|1|1|d,29,59,0.3793103448275862,0.6206896551724138,11,18
+Ontario,Ontario|163|d|2|2|d,27,74,0.07407407407407407,0.9259259259259259,2,25
+Ontario,Ontario|163|d|3|3|d,32,71,0.0,1.0,0,32
+Ontario,Ontario|163|e|||e,41,108,0.07317073170731707,0.910569105691057,3,36
+Ontario,Ontario|163|f|1|1|f,29,57,0.034482758620689655,0.9655172413793104,1,28
+Ontario,Ontario|163|f|2|2|f,28,70,0.07142857142857142,0.9285714285714286,2,26
+Ontario,Ontario|163|g|||g,20,44,0.85,0.15,17,3
+Ontario,Ontario|163|h|1|1|h,10,34,0.4,0.6,4,6
+Ontario,Ontario|163|h|2|2|h,14,30,0.07142857142857142,0.8571428571428571,1,12
+Ontario,Ontario|163|h|3|3|h,27,63,0.037037037037037035,0.9629629629629629,1,26
+Ontario,Ontario|163|i|||i,7,21,0.0,1.0,0,7
+Ontario,Ontario|164|a|1|1|a,24,76,0.08333333333333333,0.9166666666666666,2,22
+Ontario,Ontario|164|a|2|2|a,21,68,0.0,1.0,0,21
+Ontario,Ontario|164|b|1|1|b,5,17,0.4,0.6,2,3
+Ontario,Ontario|164|b|2|2|b,32,77,0.03125,0.96875,1,31
+Ontario,Ontario|164|b|3|3|b,7,19,0.2857142857142857,0.7142857142857143,2,5
+Ontario,Ontario|164|c|1|1|c,48,133,0.0625,0.9375,3,45
+Ontario,Ontario|164|c|2|2|c,19,54,0.05263157894736842,0.9473684210526315,1,18
+Ontario,Ontario|164|c|3|3|c,28,89,0.2857142857142857,0.7142857142857143,8,20
+Ontario,Ontario|165|a|1|1|a,25,63,0.0,1.0,0,25
+Ontario,Ontario|165|a|2|2|a,13,32,0.15384615384615385,0.8461538461538461,2,11
+Ontario,Ontario|165|a|3|3|a,6,14,0.0,0.5,0,3
+Ontario,Ontario|165|a|4|4|a,14,47,0.07142857142857142,0.9285714285714286,1,13
+Ontario,Ontario|165|b|||b,22,58,0.045454545454545456,0.8636363636363636,1,19
+Ontario,Ontario|165|c|1|1|c,8,21,0.125,0.75,1,6
+Ontario,Ontario|165|c|2|2|c,33,93,0.06060606060606061,0.9318181818181818,2,30
+Ontario,Ontario|165|d|1|1|d,11,28,0.0,0.7272727272727273,0,8
+Ontario,Ontario|165|d|2|2|d,5,18,0.0,1.0,0,5
+Ontario,Ontario|165|e|||e,17,45,0.0,0.8235294117647058,0,14
+Ontario,Ontario|165|f|1|1|f,7,17,0.0,0.8571428571428571,0,6
+Ontario,Ontario|165|f|2|2|f,5,16,0.26666666666666666,0.7333333333333333,1,3
+Ontario,Ontario|165|g|1|1|g,3,8,0.3333333333333333,0.6666666666666666,1,2
+Ontario,Ontario|165|g|2|2|g,19,63,0.587719298245614,0.41228070175438597,11,7
+Ontario,Ontario|165|h|1|1|h,12,27,0.08333333333333333,0.9166666666666666,1,11
+Ontario,Ontario|165|h|2|2|h,19,52,0.05263157894736842,0.42105263157894735,1,8
+Ontario,Ontario|165|i|1|1|i,3,9,0.3333333333333333,0.6666666666666666,1,2
+Ontario,Ontario|165|i|2|2|i,11,22,0.0,0.7272727272727273,0,8
+Ontario,Ontario|166|a|1|1|a,21,59,0.14285714285714285,0.8571428571428571,3,18
+Ontario,Ontario|166|a|2|2|a,24,67,0.08333333333333333,0.9166666666666666,2,22
+Ontario,Ontario|166|b|1|1|b,14,37,0.21428571428571427,0.7857142857142857,3,11
+Ontario,Ontario|166|b|2|2|b,28,94,0.22321428571428573,0.7696428571428572,6,20
+Ontario,Ontario|166|c|||c,13,43,0.7930402930402931,0.20695970695970697,9,1
+Ontario,Ontario|166|d|1|1|d,27,66,0.37037037037037035,0.6296296296296297,10,17
+Ontario,Ontario|166|d|2|2|d,14,50,0.0,1.0,0,14
+Ontario,Ontario|166|d|3|3|d,6,23,0.3333333333333333,0.6666666666666666,2,4
+Ontario,Ontario|166|e|1|1|e,52,131,0.6201923076923077,0.3798076923076923,31,18
+Ontario,Ontario|166|e|2|2|e,37,92,0.05405405405405406,0.8918918918918919,2,33
+Ontario,Ontario|166|f|1|1|f,17,59,0.08823529411764706,0.9117647058823529,1,15
+Ontario,Ontario|166|f|2|2|f,11,21,0.18181818181818182,0.8181818181818182,2,9
+Ontario,Ontario|166|g|1|1|g,7,18,0.14285714285714285,0.8571428571428571,1,6
+Ontario,Ontario|166|g|2|2|g,62,156,0.5241935483870968,0.4314516129032258,32,26
+Ontario,Ontario|166|g|3|3|g,48,128,0.0625,0.9375,3,45
+Ontario,Ontario|167|a|1|1|a,21,52,0.047619047619047616,0.9523809523809523,1,20
+Ontario,Ontario|167|a|2|2|a,38,82,0.07894736842105263,0.9210526315789473,3,35
+Ontario,Ontario|167|a|3|3|a,15,34,0.0,1.0,0,15
+Ontario,Ontario|167|a|4|4|a,14,38,0.0,1.0,0,14
+Ontario,Ontario|167|b|1|1|b,12,32,0.08333333333333333,0.9166666666666666,1,11
+Ontario,Ontario|167|b|2|2|b,38,117,0.0,1.0,0,38
+Ontario,Ontario|167|b|3|3|b,23,59,0.043478260869565216,0.9565217391304348,1,22
+Ontario,Ontario|167|c|1|1|c,15,38,0.0,0.9333333333333333,0,14
+Ontario,Ontario|167|c|2|2|c,18,50,0.05555555555555555,0.9444444444444444,1,17
+Ontario,Ontario|167|c|3|3|c,21,58,0.047619047619047616,0.9523809523809523,1,20
+Ontario,Ontario|167|c|4|4|c,18,36,0.0,1.0,0,18
+Ontario,Ontario|167|c|5|5|c,14,34,0.07142857142857142,0.8571428571428571,1,12
+Ontario,Ontario|167|c|6|6|c,14,54,0.1142857142857143,0.8857142857142858,1,12
+Ontario,Ontario|167|d|1|1|d,51,157,0.0,1.0,0,51
+Ontario,Ontario|167|d|2|2|d,32,73,0.0,1.0,0,32
+Ontario,Ontario|167|e|||e,35,94,0.11428571428571428,0.8857142857142857,4,31
+Ontario,Ontario|167|f|1|1|f,24,59,0.10416666666666667,0.8958333333333334,2,21
+Ontario,Ontario|167|f|2|2|f,42,140,0.047619047619047616,0.9523809523809523,2,40
+Ontario,Ontario|168|a|1|1|a,15,45,0.2,0.8,3,12
+Ontario,Ontario|168|a|2|2|a,13,46,0.15384615384615385,0.8461538461538461,2,11
+Ontario,Ontario|168|b|||b,7,16,0.14285714285714285,0.8571428571428571,1,6
+Ontario,Ontario|168|c|1|1|c,8,21,0.0,1.0,0,8
+Ontario,Ontario|168|c|2|2|c,24,54,0.041666666666666664,0.9375,1,22
+Ontario,Ontario|168|d|1|1|d,19,52,0.14035087719298245,0.7543859649122807,2,14
+Ontario,Ontario|168|d|2|2|d,14,39,0.0,1.0,0,14
+Ontario,Ontario|168|e|1|1|e,14,36,0.07142857142857142,0.9285714285714286,1,13
+Ontario,Ontario|168|e|2|2|e,8,25,0.0,1.0,0,8
+Ontario,Ontario|168|e|3|3|e,21,48,0.01904761904761905,0.980952380952381,0,20
+Ontario,Ontario|168|e|4|4|e,18,48,0.0,1.0,0,18
+Ontario,Ontario|168|f|1|1|f,8,21,0.41666666666666663,0.5833333333333333,2,4
+Ontario,Ontario|168|f|2|2|f,26,59,0.2980769230769231,0.7019230769230769,7,18
+Ontario,Ontario|168|f|3|3|f,31,81,0.03225806451612903,0.967741935483871,1,30
+Ontario,Ontario|168|g|1|1|g,7,17,0.0,1.0,0,7
+Ontario,Ontario|168|g|2|2|g,22,64,0.045454545454545456,0.9090909090909091,1,20
+Ontario,Ontario|168|h|||h,4,7,1.0,0.0,4,0
+Ontario,Ontario|168|i|||i,12,34,0.0,1.0,0,12
+Ontario,Ontario|169|a|1|1|a,19,57,0.21052631578947367,0.7894736842105263,4,15
+Ontario,Ontario|169|a|2|2|a,6,20,0.0,1.0,0,6
+Ontario,Ontario|169|a|3|3|a,8,27,0.125,0.875,1,7
+Ontario,Ontario|169|b|1|1|b,10,29,0.0,1.0,0,10
+Ontario,Ontario|169|b|2|2|b,17,43,0.0,0.9411764705882353,0,16
+Ontario,Ontario|169|b|3|3|b,6,17,0.0,1.0,0,6
+Ontario,Ontario|169|c|1|1|c,6,22,0.0,1.0,0,6
+Ontario,Ontario|169|c|2|2|c,3,6,0.3333333333333333,0.6666666666666666,1,2
+Ontario,Ontario|169|c|3|3|c,8,25,0.0,1.0,0,8
+Ontario,Ontario|169|d|1|1|d,14,28,0.11904761904761904,0.880952380952381,1,12
+Ontario,Ontario|169|d|2|2|d,23,66,0.0,1.0,0,23
+Ontario,Ontario|169|d|3|3|d,14,52,0.5595238095238095,0.4404761904761905,7,5
+Ontario,Ontario|169|e|1|1|e,16,40,0.0,1.0,0,16
+Ontario,Ontario|169|e|2|2|e,9,29,0.2222222222222222,0.7777777777777778,2,7
+Ontario,Ontario|169|e|3|3|e,4,11,0.0,1.0,0,4
+Ontario,Ontario|169|f|||f,23,62,0.08695652173913043,0.9130434782608695,2,21
+Ontario,Ontario|169|g|||g,20,66,0.1,0.9,2,18
+Ontario,Ontario|169|h|||h,38,103,0.05263157894736842,0.9473684210526315,2,36
+Ontario,Ontario|169|i|1|1|i,9,16,0.0,1.0,0,9
+Ontario,Ontario|169|i|3|3|i,18,53,0.1111111111111111,0.8888888888888888,2,16
+Ontario,Ontario|170|a|1|1|a,28,62,0.03571428571428571,0.9642857142857143,1,27
+Ontario,Ontario|170|a|2|2|a,14,45,0.0,1.0,0,14
+Ontario,Ontario|170|b|1|1|b,26,70,0.07692307692307693,0.9230769230769231,2,24
+Ontario,Ontario|170|b|2|2|b,19,41,0.0,1.0,0,19
+Ontario,Ontario|170|c|1|1|c,29,80,0.0,1.0,0,29
+Ontario,Ontario|170|c|2|2|c,47,91,0.0425531914893617,0.9574468085106383,2,45
+Ontario,Ontario|170|d|||d,14,34,0.14285714285714285,0.7857142857142857,2,11
+Ontario,Ontario|170|e|1|1|e,59,157,0.03389830508474576,0.9491525423728814,2,56
+Ontario,Ontario|170|e|2|2|e,31,94,0.0967741935483871,0.9032258064516129,3,28
+Ontario,Ontario|170|f|1|1|f,32,96,0.21875,0.78125,7,25
+Ontario,Ontario|170|f|2|2|f,27,68,0.037037037037037035,0.9629629629629629,1,26
+Ontario,Ontario|170|g|||g,13,36,0.07692307692307693,0.9230769230769231,1,12
+Ontario,Ontario|171|a|1|1|a,15,52,0.06666666666666667,0.3333333333333333,1,5
+Ontario,Ontario|171|a|2|2|a,23,59,0.05434782608695652,0.9456521739130435,1,21
+Ontario,Ontario|171|a|3|3|a,11,35,0.09090909090909091,0.9090909090909091,1,10
+Ontario,Ontario|171|b|1|1|b,28,62,0.0,1.0,0,28
+Ontario,Ontario|171|b|2|2|b,33,75,0.0,0.9696969696969697,0,32
+Ontario,Ontario|171|c|1|1|c,21,59,0.0,1.0,0,21
+Ontario,Ontario|171|c|2|2|c,15,51,0.9333333333333333,0.06666666666666667,14,1
+Ontario,Ontario|171|d|1|1|d,24,78,0.06944444444444443,0.875,1,21
+Ontario,Ontario|171|d|2|2|d,11,33,0.36363636363636365,0.07272727272727274,4,0
+Ontario,Ontario|171|d|3|3|d,6,18,0.8333333333333334,0.16666666666666666,5,1
+Ontario,Ontario|171|e|1|1|e,15,37,0.7333333333333333,0.26666666666666666,11,4
+Ontario,Ontario|171|e|2|2|e,6,22,0.0,1.0,0,6
+Ontario,Ontario|171|f|1|1|f,15,49,0.1111111111111111,0.888888888888889,1,13
+Ontario,Ontario|171|f|2|2|f,14,39,0.0,1.0,0,14
+Ontario,Ontario|171|f|3|3|f,15,44,0.13333333333333333,0.8666666666666667,2,13
+Ontario,Ontario|171|g|1|1|g,17,48,0.0784313725490196,0.9215686274509803,1,15
+Ontario,Ontario|171|g|2|2|g,17,40,0.5686274509803921,0.4117647058823529,9,7
+Ontario,Ontario|172|a|1|1|a,5,18,0.0,1.0,0,5
+Ontario,Ontario|172|a|2|2|a,3,11,0.3333333333333333,0.6666666666666666,1,2
+Ontario,Ontario|172|a|3|3|a,6,20,0.0,0.9166666666666666,0,5
+Ontario,Ontario|172|b|1|1|b,10,40,0.1,0.9,1,9
+Ontario,Ontario|172|b|2|2|b,12,40,0.5,0.5,6,6
+Ontario,Ontario|172|b|3|3|b,4,18,0.0,1.0,0,4
+Ontario,Ontario|172|c|1|1|c,32,89,0.125,0.875,4,28
+Ontario,Ontario|172|c|2|2|c,45,125,0.5777777777777777,0.4222222222222222,26,19
+Ontario,Ontario|172|c|3|3|c,29,89,0.6896551724137931,0.3103448275862069,20,9
+Ontario,Ontario|172|c|4|4|c,12,42,0.08333333333333333,0.9166666666666666,1,11
+Ontario,Ontario|172|d|1|1|d,5,12,0.4,0.6,2,3
+Ontario,Ontario|172|d|2|2|d,6,19,0.5,0.5,3,3
+Ontario,Ontario|172|d|3|3|d,9,25,0.0,1.0,0,9
+Ontario,Ontario|172|e|1|1|e,23,75,0.08695652173913043,0.9130434782608695,2,21
+Ontario,Ontario|172|e|2|2|e,22,60,0.8068181818181818,0.14772727272727273,17,2
+Ontario,Ontario|172|e|3|3|e,32,108,0.1875,0.75,6,24
+Ontario,Ontario|172|f|1|1|f,9,37,0.3333333333333333,0.5555555555555556,3,5
+Ontario,Ontario|172|f|2|2|f,10,23,0.5,0.5,5,5
+Ontario,Ontario|172|f|3|3|f,11,32,0.4090909090909091,0.5909090909090909,4,6
+Ontario,Ontario|172|g|1|1|g,5,24,0.4,0.6,2,3
+Ontario,Ontario|172|g|2|2|g,16,54,0.609375,0.390625,9,6
+Ontario,Ontario|172|g|3|3|g,15,52,0.16,0.84,2,12
+Ontario,Ontario|172|h|1|1|h,18,43,0.05555555555555555,0.9074074074074073,1,16
+Ontario,Ontario|172|h|2|2|h,21,63,0.0,1.0,0,21
+Ontario,Ontario|172|i|||i,44,99,0.0,1.0,0,44
+Ontario,Ontario|172|j|||j,7,21,0.7142857142857143,0.2857142857142857,5,2
+Ontario,Ontario|173|a|1|1|a,2,9,0.5,0.5,1,1
+Ontario,Ontario|173|a|2|2|a,16,52,0.10416666666666666,0.8958333333333334,1,14
+Ontario,Ontario|173|a|3|3|a,25,92,0.12,0.88,3,22
+Ontario,Ontario|173|b|1|1|b,6,25,0.16666666666666666,0.5666666666666667,1,3
+Ontario,Ontario|173|b|2|2|b,21,61,0.14285714285714285,0.8571428571428571,3,18
+Ontario,Ontario|173|b|3|3|b,11,28,0.9090909090909091,0.0,10,0
+Ontario,Ontario|173|c|1|1|c,9,23,0.1111111111111111,0.8888888888888888,1,8
+Ontario,Ontario|173|c|2|2|c,22,62,0.8636363636363636,0.13636363636363635,19,3
+Ontario,Ontario|173|d|1|1|d,12,38,0.08333333333333333,0.9166666666666666,1,11
+Ontario,Ontario|173|d|2|2|d,25,62,0.0,1.0,0,25
+Ontario,Ontario|173|e|1|1|e,9,27,0.0,0.8888888888888888,0,8
+Ontario,Ontario|173|e|2|2|e,17,49,0.0,1.0,0,17
+Ontario,Ontario|173|e|3|3|e,15,42,0.06666666666666667,0.9333333333333333,1,14
+Ontario,Ontario|173|f|||f,7,16,0.2857142857142857,0.7142857142857143,2,5
+Ontario,Ontario|173|g|1|1|g,12,32,0.0,1.0,0,12
+Ontario,Ontario|173|g|2|2|g,28,77,0.8035714285714286,0.19642857142857142,22,5
+Ontario,Ontario|173|h|1|1|h,32,78,0.0,1.0,0,32
+Ontario,Ontario|173|h|2|2|h,20,44,0.0,1.0,0,20
+Ontario,Ontario|174|a|1|1|a,12,32,0.0,1.0,0,12
+Ontario,Ontario|174|a|2|2|a,2,6,0.5,0.5,1,1
+Ontario,Ontario|174|a|3|3|a,13,43,0.0,1.0,0,13
+Ontario,Ontario|174|b|1|1|b,15,53,0.13333333333333333,0.8666666666666667,2,13
+Ontario,Ontario|174|b|2|2|b,31,94,0.01075268817204301,0.45161290322580644,0,14
+Ontario,Ontario|174|c|1|1|c,13,28,0.15384615384615385,0.8461538461538461,2,11
+Ontario,Ontario|174|c|2|2|c,21,71,0.047619047619047616,0.9523809523809523,1,20
+Ontario,Ontario|174|d|1|1|d,26,63,0.038461538461538464,0.9615384615384616,1,25
+Ontario,Ontario|174|d|2|2|d,26,85,0.07692307692307693,0.9230769230769231,2,24
+Ontario,Ontario|174|e|1|1|e,13,37,0.22435897435897434,0.3141025641025641,2,3
+Ontario,Ontario|174|e|2|2|e,24,58,0.9236111111111112,0.07638888888888888,21,0
+Ontario,Ontario|174|f|||f,52,154,0.04487179487179487,0.9551282051282051,2,49
+Ontario,Ontario|174|g|1|1|g,21,71,0.13095238095238096,0.8690476190476191,2,18
+Ontario,Ontario|174|g|2|2|g,29,80,0.0,0.9425287356321839,0,27
+Ontario,Ontario|174|h|||h,15,46,0.0,1.0,0,15
+Ontario,Ontario|175|a|1|1|a,16,51,0.0625,0.9375,1,15
+Ontario,Ontario|175|a|2|2|a,2,8,0.0,1.0,0,2
+Ontario,Ontario|175|a|3|3|a,34,102,0.11764705882352941,0.8823529411764706,4,30
+Ontario,Ontario|175|b|1|1|b,25,66,0.08,0.92,2,23
+Ontario,Ontario|175|b|2|2|b,17,66,0.058823529411764705,0.9411764705882353,1,16
+Ontario,Ontario|175|c|1|1|c,18,78,0.0,0.9444444444444444,0,17
+Ontario,Ontario|175|c|2|2|c,25,69,0.0,0.96,0,24
+Ontario,Ontario|175|d|1|1|d,18,60,0.2222222222222222,0.7777777777777778,4,14
+Ontario,Ontario|175|d|2|2|d,13,43,0.0,1.0,0,13
+Ontario,Ontario|175|e|1|1|e,19,54,0.10526315789473684,0.8947368421052632,2,17
+Ontario,Ontario|175|e|2|2|e,12,41,0.25,0.75,3,9
+Ontario,Ontario|175|f|1|1|f,29,85,0.06896551724137931,0.9310344827586207,2,27
+Ontario,Ontario|175|f|2|2|f,10,31,0.525,0.475,4,4
+Ontario,Ontario|175|g|||g,6,15,0.6666666666666666,0.3333333333333333,4,2
+Ontario,Ontario|175|h|||h,46,108,0.0,1.0,0,46
+Ontario,Ontario|175|i|||i,25,66,0.0,1.0,0,25
+Ontario,Ontario|175|j|||j,16,50,0.7083333333333334,0.29166666666666663,11,4
+Ontario,Ontario|175|k|||k,10,25,0.1,0.9,1,9
+Ontario,Ontario|176|a|1|1|a,26,86,0.038461538461538464,0.9615384615384616,1,25
+Ontario,Ontario|176|a|2|2|a,29,83,0.0,1.0,0,29
+Ontario,Ontario|176|b|1|1|b,18,55,0.2111111111111111,0.7888888888888889,3,14
+Ontario,Ontario|176|b|2|2|b,9,25,0.0,1.0,0,9
+Ontario,Ontario|176|c|1|1|c,11,39,0.0,0.9090909090909091,0,10
+Ontario,Ontario|176|c|2|2|c,18,59,0.1111111111111111,0.8888888888888888,2,16
+Ontario,Ontario|176|d|1|1|d,9,31,0.1111111111111111,0.8888888888888888,1,8
+Ontario,Ontario|176|d|2|2|d,9,36,0.0,1.0,0,9
+Ontario,Ontario|176|d|3|3|d,12,31,0.0,1.0,0,12
+Ontario,Ontario|176|e|1|1|e,14,42,0.3392857142857143,0.6428571428571429,4,9
+Ontario,Ontario|176|e|2|2|e,28,93,0.0,1.0,0,28
+Ontario,Ontario|176|f|1|1|f,39,113,0.05128205128205128,0.9487179487179487,2,37
+Ontario,Ontario|176|f|2|2|f,14,42,0.07142857142857142,0.8571428571428571,1,12
+Ontario,Ontario|176|g|1|1|g,30,101,0.13333333333333333,0.8666666666666667,4,26
+Ontario,Ontario|176|g|2|2|g,38,130,0.0,1.0,0,38
+Ontario,Ontario|176|h|1|1|h,16,37,0.25,0.75,4,12
+Ontario,Ontario|176|h|2|2|h,28,96,0.0,1.0,0,28
+Ontario,Ontario|176|i|||i,50,140,0.22,0.78,11,39
+Ontario,Ontario|176|j|||j,24,63,0.06845238095238095,0.9315476190476191,1,21
+Ontario,Ontario|176|k|||k,9,29,0.8055555555555556,0.19444444444444445,7,1
+Ontario,Ontario|176|l|||l,17,58,0.058823529411764705,0.9411764705882353,1,16
+Ontario,Ontario|177|a|1|1|a,20,61,0.515,0.43499999999999994,9,8
+Ontario,Ontario|177|a|2|2|a,16,53,0.0,1.0,0,16
+Ontario,Ontario|177|b|1|1|b,26,88,0.0,1.0,0,26
+Ontario,Ontario|177|b|2|2|b,22,59,0.0,1.0,0,22
+Ontario,Ontario|177|c|1|1|c,8,20,0.125,0.875,1,7
+Ontario,Ontario|177|c|2|2|c,7,18,0.0,1.0,0,7
+Ontario,Ontario|177|d|||d,6,18,0.16666666666666666,0.8333333333333334,1,5
+Ontario,Ontario|177|e|1|1|e,25,77,0.08,0.92,2,23
+Ontario,Ontario|177|e|2|2|e,25,78,0.0,1.0,0,25
+Ontario,Ontario|177|f|||f,28,96,0.9214285714285715,0.0071428571428571435,25,0
+Ontario,Ontario|177|g|1|1|g,4,10,0.75,0.25,3,1
+Ontario,Ontario|177|g|2|2|g,23,76,0.0,1.0,0,23
+Ontario,Ontario|177|h|||h,17,46,0.058823529411764705,0.9411764705882353,1,16
+Ontario,Ontario|177|i|||i,8,21,0.875,0.125,7,1
+Ontario,Ontario|177|j|||j,23,74,0.0,1.0,0,23
+Ontario,Ontario|177|k|||k,18,42,0.0,1.0,0,18
+Ontario,Ontario|177|l|||l,37,97,0.009009009009009009,0.990990990990991,0,36
+Ontario,Ontario|177|m|1|1|m,17,61,0.11764705882352941,0.8088235294117647,2,13
+Ontario,Ontario|177|m|2|2|m,6,28,0.5,0.5,3,3
+Ontario,Ontario|178|a|1|1|a,20,52,0.0,0.95,0,19
+Ontario,Ontario|178|a|2|2|a,10,28,0.8,0.2,8,2
+Ontario,Ontario|178|a|3|3|a,25,53,0.048,0.9520000000000001,1,23
+Ontario,Ontario|178|a|4|4|a,10,28,0.1,0.8333333333333334,1,8
+Ontario,Ontario|178|b|1|1|b,19,57,0.10526315789473684,0.8947368421052632,2,17
+Ontario,Ontario|178|b|2|2|b,20,51,0.15,0.85,3,17
+Ontario,Ontario|178|b|3|3|b,23,62,0.0,0.9565217391304348,0,22
+Ontario,Ontario|178|b|4|4|b,2,2,1.0,0.0,2,0
+Ontario,Ontario|178|c|1|1|c,14,38,0.07142857142857142,0.9285714285714286,1,13
+Ontario,Ontario|178|c|2|2|c,5,13,0.2,0.8,1,4
+Ontario,Ontario|178|c|3|3|c,17,49,0.058823529411764705,0.9411764705882353,1,16
+Ontario,Ontario|178|c|4|4|c,18,55,0.16666666666666666,0.8333333333333334,3,15
+Ontario,Ontario|178|d|1|1|d,15,46,0.0,1.0,0,15
+Ontario,Ontario|178|d|2|2|d,13,40,0.8564102564102564,0.05128205128205128,10,0
+Ontario,Ontario|178|d|3|3|d,15,45,0.5,0.4666666666666667,7,7
+Ontario,Ontario|178|e|1|1|e,21,55,0.16666666666666666,0.8333333333333334,3,17
+Ontario,Ontario|178|e|2|2|e,18,52,0.7777777777777778,0.2222222222222222,14,4
+Ontario,Ontario|178|e|3|3|e,25,87,0.0,1.0,0,25
+Ontario,Ontario|178|f|1|1|f,11,42,0.6780303030303031,0.23106060606060608,6,1
+Ontario,Ontario|178|f|2|2|f,29,81,0.13793103448275862,0.8620689655172413,4,25
+Ontario,Ontario|178|f|3|3|f,16,41,0.3125,0.6875,5,11
+Ontario,Ontario|178|f|4|4|f,19,60,0.05263157894736842,0.9078947368421053,1,17
+Ontario,Ontario|178|g|1|1|g,26,76,0.038461538461538464,0.9615384615384616,1,25
+Ontario,Ontario|178|g|2|2|g,34,109,0.0,1.0,0,34
+Ontario,Ontario|178|h|||h,9,33,0.2777777777777778,0.3888888888888889,2,2
+Ontario,Ontario|178|i|||i,22,66,0.28787878787878785,0.2818181818181818,5,6
+Ontario,Ontario|178|j|1|1|j,27,65,0.14814814814814814,0.8518518518518519,4,23
+Ontario,Ontario|178|j|2|2|j,22,53,0.13636363636363635,0.8636363636363636,3,19
+Ontario,Ontario|178|k|||k,13,38,0.46153846153846156,0.15384615384615385,6,2
+Ontario,Ontario|179|a|1|1|a,38,87,0.07894736842105263,0.9210526315789473,3,35
+Ontario,Ontario|179|a|2|2|a,46,129,0.10434782608695652,0.8739130434782609,4,40
+Ontario,Ontario|179|b|1|1|b,21,55,0.047619047619047616,0.9523809523809523,1,20
+Ontario,Ontario|179|b|2|2|b,19,49,0.05263157894736842,0.9473684210526315,1,18
+Ontario,Ontario|179|c|1|1|c,60,174,0.0,0.9888888888888889,0,59
+Ontario,Ontario|179|c|2|2|c,53,162,0.05660377358490566,0.9245283018867925,3,49
+Ontario,Ontario|179|d|||d,114,340,0.008771929824561403,0.9912280701754386,1,113
+Ontario,Ontario|179|e|||e,7,23,0.14285714285714285,0.6476190476190476,1,4
+Ontario,Ontario|179|f|1|1|f,37,92,0.10810810810810811,0.8918918918918919,4,33
+Ontario,Ontario|179|f|2|2|f,58,152,0.034482758620689655,0.9655172413793104,2,56
+Ontario,Ontario|179|g|1|1|g,20,62,0.05,0.95,1,19
+Ontario,Ontario|179|g|2|2|g,34,104,0.08823529411764706,0.8823529411764706,3,30
+Ontario,Ontario|179|h|||h,18,45,0.08333333333333333,0.9166666666666666,1,16
+Ontario,Ontario|179|i|1|1|i,32,95,0.09375,0.875,3,28
+Ontario,Ontario|179|i|2|2|i,42,116,0.11507936507936507,0.8849206349206349,4,36
+Ontario,Ontario|179|j|||j,30,74,0.13333333333333333,0.8666666666666667,4,26
+Ontario,Ontario|179|k|1|1|k,8,27,0.125,0.8333333333333333,1,6
+Ontario,Ontario|179|k|2|2|k,48,142,0.020833333333333332,0.9791666666666666,1,47
+Ontario,Ontario|179|l|||l,31,68,0.22580645161290322,0.7741935483870968,7,24
+Ontario,Ontario|179|m|1|1|m,15,36,0.6333333333333333,0.36666666666666664,9,5
+Ontario,Ontario|179|m|2|2|m,16,38,0.625,0.375,10,6
+Ontario,Ontario|179|n|||n,22,48,0.09090909090909091,0.9090909090909091,2,20
+Ontario,Ontario|179|o|||o,8,23,0.5,0.5,4,4
+Ontario,Ontario|179|p|||p,20,56,0.6,0.4,12,8
+Ontario,Ontario|179|q|||q,36,100,0.1111111111111111,0.8888888888888888,4,32
+Ontario,Ontario|180|a|||a,18,53,0.3888888888888889,0.6111111111111112,7,11
+Ontario,Ontario|180|b|1|1|b,16,44,0.75,0.0,12,0
+Ontario,Ontario|180|b|2|2|b,24,65,0.0,1.0,0,24
+Ontario,Ontario|180|c|1|1|c,7,12,0.0,1.0,0,7
+Ontario,Ontario|180|c|2|2|c,13,32,0.15384615384615385,0.8461538461538461,2,11
+Ontario,Ontario|180|c|3|3|c,8,26,0.0,0.9583333333333333,0,7
+Ontario,Ontario|180|c|4|4|c,11,29,0.09090909090909091,0.9090909090909091,1,10
+Ontario,Ontario|180|c|5|5|c,25,87,0.08,0.8671428571428571,2,21
+Ontario,Ontario|180|d|1|1|d,20,54,0.15,0.8,3,16
+Ontario,Ontario|180|d|2|2|d,28,78,0.07142857142857142,0.8928571428571429,2,25
+Ontario,Ontario|180|d|3|3|d,12,31,0.6666666666666666,0.3333333333333333,8,4
+Ontario,Ontario|180|d|4|4|d,14,39,0.05714285714285715,0.9428571428571428,0,13
+Ontario,Ontario|180|d|5|5|d,14,45,0.07142857142857142,0.7916666666666667,1,10
+Ontario,Ontario|180|e|||e,39,109,0.05128205128205128,0.8498168498168499,2,33
+Ontario,Ontario|180|f|1|1|f,7,11,0.0,0.7857142857142857,0,5
+Ontario,Ontario|180|f|2|2|f,18,47,0.05555555555555555,0.8333333333333334,1,15
+Ontario,Ontario|180|f|3|3|f,5,13,0.0,1.0,0,5
+Ontario,Ontario|180|g|1|1|g,21,63,0.17687074829931973,0.8231292517006802,3,17
+Ontario,Ontario|180|g|2|2|g,26,85,0.0641025641025641,0.9358974358974359,1,24
+Ontario,Ontario|180|g|3|3|g,12,22,0.0,1.0,0,12
+Ontario,Ontario|180|g|4|4|g,38,116,0.0,0.9912280701754386,0,37
+Ontario,Ontario|180|h|||h,32,77,0.140625,0.7942708333333334,4,24
+Ontario,Ontario|180|i|1|1|i,13,37,0.07692307692307693,0.9230769230769231,1,12
+Ontario,Ontario|180|i|2|2|i,59,141,0.05084745762711865,0.9322033898305084,3,55
+Ontario,Ontario|180|i|3|3|i,30,87,0.1,0.9,3,27
+Ontario,Ontario|181|a|||a,20,59,0.0,0.9875,0,19
+Ontario,Ontario|181|b|||b,45,115,0.044444444444444446,0.9555555555555556,2,43
+Ontario,Ontario|181|c|1|1|c,31,90,0.06451612903225806,0.9354838709677419,2,29
+Ontario,Ontario|181|c|2|2|c,5,13,0.0,1.0,0,5
+Ontario,Ontario|181|d|||d,37,84,0.05405405405405406,0.9459459459459459,2,35
+Ontario,Ontario|181|e|1|1|e,49,144,0.02040816326530612,0.9591836734693877,1,47
+Ontario,Ontario|181|e|2|2|e,18,52,0.1527777777777778,0.8333333333333334,2,15
+Ontario,Ontario|181|f|1|1|f,17,52,0.19117647058823528,0.8088235294117647,3,13
+Ontario,Ontario|181|f|2|2|f,22,65,0.1212121212121212,0.8787878787878788,2,19
+Ontario,Ontario|181|f|3|3|f,42,105,0.023809523809523808,0.9761904761904762,1,41
+Ontario,Ontario|181|g|||g,24,66,0.375,0.625,9,15
+Ontario,Ontario|181|h|1|1|h,27,74,0.07407407407407407,0.9259259259259259,2,25
+Ontario,Ontario|181|h|2|2|h,38,102,0.0,1.0,0,38
+Ontario,Ontario|181|h|3|3|h,20,44,0.1,0.9,2,18
+Ontario,Ontario|181|i|||i,5,17,0.75,0.25,3,1
+Ontario,Ontario|181|j|1|1|j,9,16,0.0,1.0,0,9
+Ontario,Ontario|181|j|2|2|j,10,29,0.0,1.0,0,10
+Ontario,Ontario|181|k|||k,12,33,0.875,0.041666666666666664,10,0
+Ontario,Ontario|181|l|1|1|l,11,38,0.7272727272727273,0.2727272727272727,8,3
+Ontario,Ontario|181|l|2|2|l,17,29,0.23529411764705882,0.7647058823529411,4,13
+Ontario,Ontario|181|m|1|1|m,27,59,0.1111111111111111,0.8425925925925926,3,22
+Ontario,Ontario|181|m|2|2|m,30,80,0.02222222222222222,0.9444444444444444,0,28
+Ontario,Ontario|181|m|3|3|m,47,126,0.06382978723404255,0.9361702127659575,3,44
+Ontario,Ontario|181|n|1|1|n,9,23,0.0,1.0,0,9
+Ontario,Ontario|181|n|2|2|n,23,85,0.043478260869565216,0.9565217391304348,1,22
+Ontario,Ontario|181|o|1|1|o,17,38,0.08823529411764706,0.9117647058823529,1,15
+Ontario,Ontario|181|o|2|2|o,10,25,0.0,1.0,0,10
+Ontario,Ontario|181|p|||p,1,1,0.0,1.0,0,1
+Ontario,Ontario|181|q|1|1|q,9,22,0.3333333333333333,0.6666666666666666,3,6
+Ontario,Ontario|181|q|2|2|q,50,148,0.02,0.96,1,48
+Ontario,Ontario|181|r|||r,30,79,0.14,0.4888888888888889,4,13
+Ontario,Ontario|182|aa|||aa,1,4,0.25,0.75,0,0
+Ontario,Ontario|182|a|||a,16,56,0.8625,0.0,13,0
+Ontario,Ontario|182|b|||b,17,63,0.11764705882352941,0.6470588235294118,2,11
+Ontario,Ontario|182|cc|||cc,9,31,0.0,1.0,0,9
+Ontario,Ontario|182|c|||c,27,81,0.08888888888888889,0.037037037037037035,2,0
+Ontario,Ontario|182|dd|||dd,23,59,0.7391304347826086,0.21739130434782608,17,5
+Ontario,Ontario|182|d|||d,14,46,0.0,1.0,0,14
+Ontario,Ontario|182|ee|||ee,5,15,0.23333333333333334,0.4333333333333333,1,1
+Ontario,Ontario|182|e|||e,1,2,0.0,1.0,0,1
+Ontario,Ontario|182|ff|1|1|ff,4,9,0.25,0.75,1,3
+Ontario,Ontario|182|ff|2|2|ff,2,8,0.0,1.0,0,2
+Ontario,Ontario|182|f|||f,14,33,0.07142857142857142,0.9285714285714286,1,13
+Ontario,Ontario|182|gg|1|1|gg,11,26,0.09090909090909091,0.9090909090909091,1,10
+Ontario,Ontario|182|gg|2|2|gg,6,17,0.4444444444444444,0.3888888888888889,2,2
+Ontario,Ontario|182|g|||g,22,70,0.0,1.0,0,22
+Ontario,Ontario|182|h|||h,7,24,0.14285714285714285,0.8571428571428571,1,6
+Ontario,Ontario|182|i|||i,13,42,0.07692307692307693,0.8461538461538461,1,11
+Ontario,Ontario|182|j|||j,10,27,0.9,0.1,9,1
+Ontario,Ontario|182|k|||k,4,10,1.0,0.0,4,0
+Ontario,Ontario|182|m|||m,2,7,0.5,0.5,1,1
+Ontario,Ontario|182|n|||n,2,8,0.0,1.0,0,2
+Ontario,Ontario|182|o|||o,5,18,0.4,0.6,2,3
+Ontario,Ontario|182|p|1|1|p,3,7,1.0,0.0,3,0
+Ontario,Ontario|182|p|2|2|p,12,30,0.20833333333333334,0.7916666666666666,2,9
+Ontario,Ontario|182|q|||q,10,29,0.0,0.9333333333333333,0,9
+Ontario,Ontario|182|r|||r,4,12,0.0,1.0,0,4
+Ontario,Ontario|182|s|||s,4,10,1.0,0.0,4,0
+Ontario,Ontario|182|t|||t,9,21,1.0,0.0,9,0
+Ontario,Ontario|182|u|1|1|u,4,16,0.0,1.0,0,4
+Ontario,Ontario|182|u|2|2|u,2,3,1.0,0.0,2,0
+Ontario,Ontario|182|v|||v,14,38,0.14285714285714285,0.8214285714285714,2,11
+Ontario,Ontario|182|w|||w,9,37,0.4444444444444444,0.5555555555555556,4,5
+Ontario,Ontario|182|x|||x,1,3,0.0,1.0,0,1
+Ontario,Ontario|182|y|||y,1,1,0.0,1.0,0,1
+Ontario,Ontario|99|a|1|1|a,13,43,0.0,1.0,0,13
+Ontario,Ontario|99|a|2|2|a,9,27,0.0,0.8888888888888888,0,8
+Ontario,Ontario|99|a|3|3|a,11,44,0.5454545454545454,0.45454545454545453,6,5
+Ontario,Ontario|99|a|4|4|a,8,19,0.0,1.0,0,8
+Ontario,Ontario|99|b|1|1|b,13,42,0.8461538461538461,0.07692307692307693,11,1
+Ontario,Ontario|99|b|2|2|b,5,16,0.4,0.6,2,3
+Ontario,Ontario|99|b|3|3|b,2,7,0.0,1.0,0,2
+Ontario,Ontario|99|c|1|1|c,4,15,0.0,1.0,0,4
+Ontario,Ontario|99|c|2|2|c,11,34,0.0,1.0,0,11
+Ontario,Ontario|99|c|3|3|c,7,21,0.0,1.0,0,7
+Ontario,Ontario|99|d|1|1|d,10,34,0.13333333333333336,0.8666666666666666,1,7
+Ontario,Ontario|99|d|2|2|d,3,8,0.0,1.0,0,3
+Ontario,Ontario|99|d|3|3|d,1,3,0.0,1.0,0,1
+Prince Edward Island,Prince Edward Island|1|a|||a,19,69,0.05263157894736842,0.8947368421052632,1,17
+Prince Edward Island,Prince Edward Island|1|b|||b,8,36,0.0,1.0,0,8
+Prince Edward Island,Prince Edward Island|1|c|||c,10,44,0.1,0.9,1,9
+Prince Edward Island,Prince Edward Island|1|d|||d,23,74,0.043478260869565216,0.9565217391304348,1,22
+Prince Edward Island,Prince Edward Island|1|e|||e,19,72,0.05263157894736842,0.9473684210526315,1,18
+Prince Edward Island,Prince Edward Island|1|f|||f,13,36,0.3076923076923077,0.6923076923076923,4,9
+Prince Edward Island,Prince Edward Island|1|g|||g,12,46,0.75,0.25,9,3
+Prince Edward Island,Prince Edward Island|1|h|||h,16,61,0.0625,0.9375,1,15
+Prince Edward Island,Prince Edward Island|1|i|||i,3,15,1.0,0.0,3,0
+Prince Edward Island,Prince Edward Island|1|j|||j,7,22,0.2857142857142857,0.7142857142857143,2,5
+Prince Edward Island,Prince Edward Island|1|k|||k,11,29,0.0,1.0,0,11
+Prince Edward Island,Prince Edward Island|1|l|||l,17,54,0.0196078431372549,0.9215686274509803,0,15
+Prince Edward Island,Prince Edward Island|1|m|||m,20,71,0.025,0.975,0,19
+Prince Edward Island,Prince Edward Island|1|n|||n,3,13,0.0,1.0,0,3
+Prince Edward Island,Prince Edward Island|1|o|||o,1,2,0.0,1.0,0,1
+Prince Edward Island,Prince Edward Island|1|p|||p,2,2,0.5,0.5,1,1
+Prince Edward Island,Prince Edward Island|1|q|||q,63,191,0.01851851851851852,0.9814814814814815,1,61
+Prince Edward Island,Prince Edward Island|1|r|||r,8,29,0.125,0.875,1,7
+Prince Edward Island,Prince Edward Island|1|s|||s,11,45,0.8977272727272727,0.10227272727272728,9,1
+Prince Edward Island,Prince Edward Island|1|t|||t,15,40,0.28888888888888886,0.711111111111111,4,10
+Prince Edward Island,Prince Edward Island|1|u|||u,16,58,0.0625,0.875,1,14
+Prince Edward Island,Prince Edward Island|1|v|||v,17,60,0.35294117647058826,0.6470588235294118,6,11
+Prince Edward Island,Prince Edward Island|1|w|||w,16,39,0.1875,0.75,3,12
+Prince Edward Island,Prince Edward Island|1|x|||x,20,61,0.05,0.95,1,19
+Prince Edward Island,Prince Edward Island|2|a|1|1|a,57,145,0.05263157894736842,0.9415204678362573,3,53
+Prince Edward Island,Prince Edward Island|2|a|2|2|a,76,191,0.03289473684210526,0.9407894736842105,2,71
+Prince Edward Island,Prince Edward Island|2|a|3|3|a,24,60,0.041666666666666664,0.9583333333333334,1,23
+Prince Edward Island,Prince Edward Island|2|b|||b,13,38,0.0,1.0,0,13
+Prince Edward Island,Prince Edward Island|2|c|||c,19,64,0.10526315789473684,0.8947368421052632,2,17
+Prince Edward Island,Prince Edward Island|2|d|||d,9,32,0.0,1.0,0,9
+Prince Edward Island,Prince Edward Island|2|e|||e,22,64,0.0,1.0,0,22
+Prince Edward Island,Prince Edward Island|2|f|||f,21,63,0.14285714285714285,0.8571428571428571,3,18
+Prince Edward Island,Prince Edward Island|2|g|||g,18,70,0.1111111111111111,0.8888888888888888,2,16
+Prince Edward Island,Prince Edward Island|2|h|||h,6,17,0.5,0.5,3,3
+Prince Edward Island,Prince Edward Island|2|i|||i,17,50,0.35294117647058826,0.6470588235294118,6,11
+Prince Edward Island,Prince Edward Island|2|j|||j,9,35,0.037037037037037035,0.9629629629629629,0,8
+Prince Edward Island,Prince Edward Island|2|k|||k,6,20,0.16666666666666666,0.8333333333333334,1,5
+Prince Edward Island,Prince Edward Island|2|l|||l,12,37,1.0,0.0,12,0
+Prince Edward Island,Prince Edward Island|2|m|||m,12,46,0.0,1.0,0,12
+Prince Edward Island,Prince Edward Island|2|n|||n,11,44,0.0,1.0,0,11
+Prince Edward Island,Prince Edward Island|2|o|||o,17,45,0.4264705882352941,0.5735294117647058,7,9
+Prince Edward Island,Prince Edward Island|2|p|||p,13,29,0.02564102564102564,0.9743589743589743,0,12
+Prince Edward Island,Prince Edward Island|2|q|||q,28,75,0.0,1.0,0,28
+Prince Edward Island,Prince Edward Island|2|r|||r,11,41,0.09090909090909091,0.9090909090909091,1,10
+Prince Edward Island,Prince Edward Island|2|s|||s,7,20,0.0,1.0,0,7
+Prince Edward Island,Prince Edward Island|2|t|||t,4,10,0.0,1.0,0,4
+Prince Edward Island,Prince Edward Island|2|u|||u,2,4,0.0,1.0,0,2
+Prince Edward Island,Prince Edward Island|2|v|||v,8,20,0.0,1.0,0,8
+Prince Edward Island,Prince Edward Island|2|w|||w,6,22,0.0,1.0,0,6
+Prince Edward Island,Prince Edward Island|2|x|||x,11,45,0.09090909090909091,0.9090909090909091,1,10
+Prince Edward Island,Prince Edward Island|3|a|||a,4,8,0.0,1.0,0,4
+Prince Edward Island,Prince Edward Island|3|b|||b,5,13,0.5,0.5,2,2
+Prince Edward Island,Prince Edward Island|3|c|||c,22,59,0.2727272727272727,0.7272727272727273,6,16
+Prince Edward Island,Prince Edward Island|3|d|||d,18,59,0.0,1.0,0,18
+Prince Edward Island,Prince Edward Island|3|e|||e,11,30,0.09090909090909091,0.9090909090909091,1,10
+Prince Edward Island,Prince Edward Island|3|f|||f,1,4,1.0,0.0,1,0
+Prince Edward Island,Prince Edward Island|3|g|||g,7,24,0.0,1.0,0,7
+Prince Edward Island,Prince Edward Island|3|h|||h,6,17,0.2222222222222222,0.7777777777777777,1,4
+Prince Edward Island,Prince Edward Island|3|i|||i,3,10,0.0,1.0,0,3
+Prince Edward Island,Prince Edward Island|3|j|||j,3,10,1.0,0.0,3,0
+Prince Edward Island,Prince Edward Island|3|k|||k,14,49,0.0,1.0,0,14
+Prince Edward Island,Prince Edward Island|3|l|||l,15,60,0.19166666666666668,0.8083333333333333,2,12
+Prince Edward Island,Prince Edward Island|3|m|||m,4,7,0.5,0.5,2,2
+Prince Edward Island,Prince Edward Island|3|n|||n,16,51,0.0,1.0,0,16
+Prince Edward Island,Prince Edward Island|3|o|||o,15,40,0.0,1.0,0,15
+Prince Edward Island,Prince Edward Island|3|p|||p,5,24,0.0,1.0,0,5
+Prince Edward Island,Prince Edward Island|3|r|||r,17,46,0.0,1.0,0,17
+Prince Edward Island,Prince Edward Island|3|s|||s,8,24,0.125,0.875,1,7
+Prince Edward Island,Prince Edward Island|3|u|||u,27,68,0.14814814814814814,0.8518518518518519,4,23
+Prince Edward Island,Prince Edward Island|3|v|||v,11,32,0.0,0.9090909090909091,0,10
+Quebec,Quebec|38|a|1|1|a,5,17,0.0,1.0,0,5
+Quebec,Quebec|38|a|2|2|a,9,27,0.12962962962962965,0.8703703703703703,1,7
+Quebec,Quebec|38|b|1|1|b,5,15,0.0,1.0,0,5
+Quebec,Quebec|38|b|2|2|b,9,22,0.2222222222222222,0.7777777777777778,2,7
+Quebec,Quebec|38|c|||c,9,31,0.0925925925925926,0.9074074074074073,0,8
+Quebec,Quebec|38|d|||d,11,38,0.18181818181818182,0.8181818181818182,2,9
+Quebec,Quebec|38|e|||e,1,4,1.0,0.0,1,0
+Quebec,Quebec|38|f|||f,6,21,0.16666666666666666,0.6666666666666666,1,4
+Quebec,Quebec|38|g|1|1|g,3,8,0.0,1.0,0,3
+Quebec,Quebec|38|g|2|2|g,8,23,0.125,0.875,1,7
+Quebec,Quebec|38|h|1|1|h,7,24,0.0,1.0,0,7
+Quebec,Quebec|38|j|||j,1,3,0.0,1.0,0,1
+Quebec,Quebec|38|k|||k,11,29,0.0,1.0,0,11
+Quebec,Quebec|38|l|||l,5,16,0.0,1.0,0,5
+Quebec,Quebec|38|m|||m,5,19,0.26666666666666666,0.7333333333333333,1,3
+Quebec,Quebec|38|n|||n,6,14,0.0,1.0,0,6
+Quebec,Quebec|38|p|||p,1,3,0.0,1.0,0,1
+Quebec,Quebec|39|a|||a,4,15,0.25,0.75,1,3
+Quebec,Quebec|39|b|||b,3,8,0.3333333333333333,0.6666666666666666,1,2
+Quebec,Quebec|39|c|||c,12,38,0.0,1.0,0,12
+Quebec,Quebec|39|d|||d,2,8,0.5,0.5,1,1
+Quebec,Quebec|39|e|||e,2,3,0.5,0.5,1,1
+Quebec,Quebec|39|f|||f,22,73,0.0,1.0,0,22
+Quebec,Quebec|39|g|||g,15,53,0.06666666666666667,0.9333333333333333,1,14
+Quebec,Quebec|39|h|||h,15,44,0.13333333333333333,0.8666666666666667,2,13
+Quebec,Quebec|39|i|||i,6,21,0.0,1.0,0,6
+Quebec,Quebec|39|j|||j,4,17,0.0,1.0,0,4
+Quebec,Quebec|39|k|||k,3,8,0.0,1.0,0,3
+Quebec,Quebec|39|l|||l,5,15,0.0,1.0,0,5
+Quebec,Quebec|39|m|||m,22,80,0.18181818181818182,0.8181818181818182,4,18
+Quebec,Quebec|39|n|||n,21,70,0.0,1.0,0,21
+Quebec,Quebec|39|o|||o,12,34,0.16666666666666666,0.8333333333333334,2,10
+Quebec,Quebec|39|p|||p,13,39,0.07692307692307693,0.9230769230769231,1,12
+Quebec,Quebec|39|q|||q,4,10,0.25,0.75,1,3
+Quebec,Quebec|39|r|||r,3,16,0.0,1.0,0,3
+Quebec,Quebec|39|s|||s,17,60,0.0,1.0,0,17
+Quebec,Quebec|39|t|||t,2,9,0.5,0.5,1,1
+Quebec,Quebec|39|u|||u,5,12,0.5,0.5,2,2
+Quebec,Quebec|39|v|||v,2,8,0.5,0.5,1,1
+Quebec,Quebec|39|w|||w,3,12,0.0,1.0,0,3
+Quebec,Quebec|40|d|||d,1,1,1.0,0.0,1,0
+Quebec,Quebec|40|g|||g,3,8,0.0,1.0,0,3
+Quebec,Quebec|40|h|||h,7,18,0.0,1.0,0,7
+Quebec,Quebec|40|i|||i,3,8,0.3333333333333333,0.3333333333333333,1,1
+Quebec,Quebec|40|j|||j,2,5,0.0,1.0,0,2
+Quebec,Quebec|40|k|||k,3,6,0.0,1.0,0,3
+Quebec,Quebec|40|n|||n,4,10,0.0,1.0,0,4
+Quebec,Quebec|40|p|||p,1,2,0.0,1.0,0,1
+Quebec,Quebec|40|q|||q,5,14,0.0,1.0,0,5
+Quebec,Quebec|40|r|||r,2,6,0.0,1.0,0,2
+Quebec,Quebec|40|s|||s,8,24,0.0,1.0,0,8
+Quebec,Quebec|40|t|||t,2,6,0.0,1.0,0,2
+Quebec,Quebec|40|u|||u,2,6,0.0,1.0,0,2
+Quebec,Quebec|40|w|||w,11,43,0.0,1.0,0,11
+Quebec,Quebec|40|x|||x,3,8,0.5,0.5,1,1
+Quebec,Quebec|40|y|||y,8,29,0.0,1.0,0,8
+Quebec,Quebec|40|z|||z,3,9,0.0,1.0,0,3
+Quebec,Quebec|41|a|||a,5,14,0.0,1.0,0,5
+Quebec,Quebec|41|f|||f,2,5,0.0,1.0,0,2
+Quebec,Quebec|41|i|||i,1,3,0.0,1.0,0,1
+Quebec,Quebec|41|q|||q,3,20,0.0,1.0,0,3
+Quebec,Quebec|41|t|||t,2,8,0.0,1.0,0,2
+Quebec,Quebec|42|a|||a,3,11,0.3333333333333333,0.6666666666666666,1,2
+Quebec,Quebec|42|c|||c,1,1,0.0,1.0,0,1
+Quebec,Quebec|42|e|||e,1,5,0.0,1.0,0,1
+Quebec,Quebec|42|h|||h,1,6,0.0,1.0,0,1
+Quebec,Quebec|42|i|||i,1,3,0.0,1.0,0,1
+Quebec,Quebec|42|j|1|1|j,1,6,0.0,1.0,0,1
+Quebec,Quebec|42|k|||k,1,3,0.0,1.0,0,1
+Quebec,Quebec|42|l|||l,1,3,1.0,0.0,1,0
+Quebec,Quebec|42|u|||u,4,6,0.25,0.75,1,3
+Quebec,Quebec|43|b|||b,1,2,0.0,1.0,0,1
+Quebec,Quebec|44|a|||a,1,1,0.0,1.0,0,1
+Quebec,Quebec|44|e|||e,1,2,1.0,0.0,1,0
+Quebec,Quebec|45|b|||b,2,2,0.0,1.0,0,2
+Quebec,Quebec|45|f|||f,2,9,0.0,1.0,0,2
+Quebec,Quebec|46|a|1|1|a,10,30,0.2,0.8,2,8
+Quebec,Quebec|46|a|2|2|a,7,19,0.14285714285714285,0.8571428571428571,1,6
+Quebec,Quebec|46|a|3|3|a,4,19,0.25,0.75,1,3
+Quebec,Quebec|46|c|1|1|c,4,13,0.25,0.75,1,3
+Quebec,Quebec|46|c|2|2|c,4,17,0.0,1.0,0,4
+Quebec,Quebec|46|e|||e,2,5,0.0,1.0,0,2
+Quebec,Quebec|46|f|||f,3,8,0.0,1.0,0,3
+Quebec,Quebec|46|h|1|1|h,1,1,0.0,1.0,0,1
+Quebec,Quebec|46|h|2|2|h,2,7,0.0,1.0,0,2
+Quebec,Quebec|46|i|||i,2,9,1.0,0.0,2,0
+Quebec,Quebec|46|j|||j,1,1,0.0,1.0,0,1
+Quebec,Quebec|46|k|1|1|k,1,5,0.0,1.0,0,1
+Quebec,Quebec|46|k|2|2|k,2,9,0.0,1.0,0,2
+Quebec,Quebec|46|l|1|1|l,5,16,0.0,1.0,0,5
+Quebec,Quebec|46|l|2|2|l,8,28,0.0,1.0,0,8
+Quebec,Quebec|47|a|2|2|a,1,4,0.0,1.0,0,1
+Quebec,Quebec|47|b|||b,1,2,0.0,1.0,0,1
+Quebec,Quebec|47|c|1|1|c,4,19,0.25,0.75,1,3
+Quebec,Quebec|47|e|||e,10,40,0.1,0.9,1,9
+Quebec,Quebec|47|g|1|1|g,1,5,0.0,1.0,0,1
+Quebec,Quebec|47|i|2|2|i,3,8,0.0,1.0,0,3
+Quebec,Quebec|47|j|||j,1,7,0.0,1.0,0,1
+Quebec,Quebec|47|l|||l,1,3,0.0,0.0,0,0
+Quebec,Quebec|47|n|1|1|n,1,1,0.0,1.0,0,1
+Quebec,Quebec|48|b|2|2|b,1,7,0.7142857142857143,0.2857142857142857,0,0
+Quebec,Quebec|48|c|2|2|c,3,8,0.25,0.75,0,2
+Quebec,Quebec|48|g|||g,1,3,1.0,0.0,1,0
+Quebec,Quebec|48|i|2|2|i,3,11,0.3333333333333333,0.6666666666666666,1,2
+Quebec,Quebec|48|j|1|1|j,2,2,0.0,1.0,0,2
+Quebec,Quebec|48|j|2|2|j,2,7,0.5,0.5,1,1
+Quebec,Quebec|48|k|||k,1,4,0.0,1.0,0,1
+Quebec,Quebec|48|t|||t,2,7,0.0,1.0,0,2
+Quebec,Quebec|48|u|||u,1,6,0.0,1.0,0,1
+Quebec,Quebec|49|a|1|1|a,1,2,0.0,1.0,0,1
+Quebec,Quebec|49|a|2|2|a,1,1,0.0,1.0,0,1
+Quebec,Quebec|49|e|||e,1,5,0.0,1.0,0,1
+Quebec,Quebec|49|i|||i,1,4,0.0,1.0,0,1
+Quebec,Quebec|49|k|||k,2,4,1.0,0.0,2,0
+Quebec,Quebec|49|l|||l,6,17,0.0,1.0,0,6
+Quebec,Quebec|49|m|||m,1,2,0.0,1.0,0,1
+Quebec,Quebec|49|n|2|2|n,7,28,0.0,1.0,0,7
+Quebec,Quebec|50|a|2|2|a,1,4,0.0,1.0,0,1
+Quebec,Quebec|50|b|1|1|b,3,12,0.0,1.0,0,3
+Quebec,Quebec|50|b|2|2|b,3,12,0.0,1.0,0,3
+Quebec,Quebec|50|c|||c,3,8,0.0,1.0,0,3
+Quebec,Quebec|50|d|||d,1,2,1.0,0.0,1,0
+Quebec,Quebec|50|e|1|1|e,6,14,0.6666666666666666,0.3333333333333333,4,2
+Quebec,Quebec|50|e|2|2|e,7,24,0.8571428571428571,0.14285714285714285,6,1
+Quebec,Quebec|50|f|||f,5,15,0.2,0.8,1,4
+Quebec,Quebec|50|g|||g,1,3,0.0,1.0,0,1
+Quebec,Quebec|50|h|||h,2,2,0.0,1.0,0,2
+Quebec,Quebec|50|i|1|1|i,8,24,0.125,0.875,1,7
+Quebec,Quebec|50|i|2|2|i,1,4,1.0,0.0,1,0
+Quebec,Quebec|50|j|1|1|j,7,27,0.17857142857142858,0.8214285714285714,1,5
+Quebec,Quebec|50|j|2|2|j,15,50,0.06666666666666667,0.9333333333333333,1,14
+Quebec,Quebec|50|l|1|1|l,7,26,0.2857142857142857,0.7142857142857143,2,5
+Quebec,Quebec|50|l|2|2|l,4,20,1.0,0.0,4,0
+Quebec,Quebec|50|m|||m,1,4,1.0,0.0,1,0
+Quebec,Quebec|51|a|||a,1,3,0.6666666666666666,0.3333333333333333,0,0
+Quebec,Quebec|51|b|||b,1,2,0.0,1.0,0,1
+Quebec,Quebec|51|c|1|1|c,1,7,0.0,1.0,0,1
+Quebec,Quebec|51|f|||f,1,5,0.0,1.0,0,1
+Quebec,Quebec|51|g|1|1|g,3,9,0.0,1.0,0,3
+Quebec,Quebec|51|g|2|2|g,1,3,0.0,1.0,0,1
+Quebec,Quebec|51|h|||h,4,10,0.0,1.0,0,4
+Quebec,Quebec|51|j|||j,3,15,0.0,1.0,0,3
+Quebec,Quebec|51|l|||l,2,6,0.0,1.0,0,2
+Quebec,Quebec|51|n|||n,2,5,1.0,0.0,2,0
+Quebec,Quebec|51|o|1|1|o,4,16,0.0,1.0,0,4
+Quebec,Quebec|52|aa|||aa,1,2,0.0,1.0,0,1
+Quebec,Quebec|52|a|||a,6,21,0.0,0.6666666666666666,0,4
+Quebec,Quebec|52|bb|||bb,1,5,1.0,0.0,1,0
+Quebec,Quebec|52|c|||c,6,23,0.0,1.0,0,6
+Quebec,Quebec|52|e|1|1|e,5,15,0.0,1.0,0,5
+Quebec,Quebec|52|e|2|2|e,6,26,0.0,1.0,0,6
+Quebec,Quebec|52|gg|||gg,1,4,0.0,1.0,0,1
+Quebec,Quebec|52|g|||g,2,12,0.6875,0.3125,1,0
+Quebec,Quebec|52|h|||h,5,16,0.2,0.8,1,4
+Quebec,Quebec|52|i|||i,20,50,0.05,0.95,1,19
+Quebec,Quebec|52|j|||j,9,30,0.0,1.0,0,9
+Quebec,Quebec|52|k|1|1|k,2,4,0.0,1.0,0,2
+Quebec,Quebec|52|k|2|2|k,5,14,0.2,0.8,1,4
+Quebec,Quebec|52|l|1|1|l,5,13,0.0,1.0,0,5
+Quebec,Quebec|52|n|||n,9,31,0.2222222222222222,0.7777777777777778,2,7
+Quebec,Quebec|52|o|||o,1,1,0.0,1.0,0,1
+Quebec,Quebec|52|p|||p,1,4,0.0,0.0,0,0
+Quebec,Quebec|52|q|2|2|q,1,2,0.0,1.0,0,1
+Quebec,Quebec|52|s|||s,1,4,0.0,1.0,0,1
+Quebec,Quebec|52|t|||t,1,2,0.0,1.0,0,1
+Quebec,Quebec|52|v|||v,2,3,0.5,0.5,1,1
+Quebec,Quebec|52|w|||w,2,4,0.0,1.0,0,2
+Quebec,Quebec|52|x|||x,1,4,0.0,1.0,0,1
+Quebec,Quebec|52|y|||y,1,7,0.0,1.0,0,1
+Quebec,Quebec|52|z|||z,1,7,0.0,1.0,0,1
+Quebec,Quebec|53|a|||a,3,14,0.0,1.0,0,3
+Quebec,Quebec|53|b|||b,6,26,0.0,1.0,0,6
+Quebec,Quebec|53|c|||c,25,72,0.12,0.88,3,22
+Quebec,Quebec|53|d|||d,11,30,0.09090909090909091,0.9090909090909091,1,10
+Quebec,Quebec|53|e|||e,4,13,0.0,1.0,0,4
+Quebec,Quebec|53|f|1|1|f,16,41,0.0,1.0,0,16
+Quebec,Quebec|53|f|2|2|f,9,28,0.5555555555555556,0.4444444444444444,5,4
+Quebec,Quebec|53|g|||g,16,39,0.0625,0.9375,1,15
+Quebec,Quebec|53|h|||h,11,34,0.09090909090909091,0.9090909090909091,1,10
+Quebec,Quebec|53|i|||i,10,24,0.13333333333333333,0.8666666666666666,1,8
+Quebec,Quebec|53|j|||j,5,16,0.2,0.8,1,4
+Quebec,Quebec|53|k|1|1|k,21,60,0.14285714285714285,0.8571428571428571,3,18
+Quebec,Quebec|53|k|2|2|k,6,14,0.0,1.0,0,6
+Quebec,Quebec|53|l|||l,1,7,0.0,1.0,0,1
+Quebec,Quebec|53|m|||m,2,5,0.0,1.0,0,2
+Quebec,Quebec|53|o|||o,1,6,0.0,1.0,0,1
+Quebec,Quebec|53|q|||q,1,6,0.0,1.0,0,1
+Quebec,Quebec|53|s|1|1|s,1,4,1.0,0.0,1,0
+Quebec,Quebec|53|s|2|2|s,2,11,0.0,1.0,0,2
+Quebec,Quebec|53|t|1|1|t,6,12,0.0,1.0,0,6
+Quebec,Quebec|53|t|2|2|t,11,31,0.09090909090909091,0.9090909090909091,1,10
+Quebec,Quebec|53|v|2|2|v,1,6,0.0,1.0,0,1
+Quebec,Quebec|54|a|||a,2,8,0.0,1.0,0,2
+Quebec,Quebec|54|c|||c,1,4,0.0,1.0,0,1
+Quebec,Quebec|54|d|||d,2,2,0.0,1.0,0,2
+Quebec,Quebec|54|e|||e,1,5,0.0,1.0,0,1
+Quebec,Quebec|54|f|2|2|f,1,4,0.0,1.0,0,1
+Quebec,Quebec|54|h|||h,5,12,0.8,0.2,4,1
+Quebec,Quebec|54|i|1|1|i,2,5,1.0,0.0,2,0
+Quebec,Quebec|54|j|1|1|j,9,26,0.0,1.0,0,9
+Quebec,Quebec|54|j|2|2|j,14,49,0.0,1.0,0,14
+Quebec,Quebec|54|l|||l,2,3,0.0,1.0,0,2
+Quebec,Quebec|54|m|||m,4,8,0.5,0.5,2,2
+Quebec,Quebec|54|n|1|1|n,12,35,0.16666666666666666,0.8333333333333334,2,10
+Quebec,Quebec|54|p|1|1|p,3,6,0.0,1.0,0,3
+Quebec,Quebec|54|p|2|2|p,9,21,0.2222222222222222,0.7407407407407408,2,6
+Quebec,Quebec|54|p|3|3|p,15,49,0.06666666666666667,0.9333333333333333,1,14
+Quebec,Quebec|54|q|1|1|q,4,13,0.5,0.5,2,2
+Quebec,Quebec|54|q|2|2|q,6,15,0.611111111111111,0.16666666666666666,3,1
+Quebec,Quebec|54|s|||s,1,4,1.0,0.0,1,0
+Quebec,Quebec|54|t|||t,1,3,0.6666666666666666,0.0,0,0
+Quebec,Quebec|54|u|1|1|u,4,11,0.25,0.75,1,3
+Quebec,Quebec|54|u|2|2|u,8,17,0.125,0.875,1,7
+Quebec,Quebec|55|a|||a,24,63,0.13541666666666666,0.8645833333333334,2,20
+Quebec,Quebec|55|b|||b,20,59,0.05,0.95,1,19
+Quebec,Quebec|55|d|1|1|d,10,30,0.2,0.7,2,7
+Quebec,Quebec|55|d|2|2|d,5,17,0.0,1.0,0,5
+Quebec,Quebec|55|e|1|1|e,11,24,0.09090909090909091,0.9090909090909091,1,10
+Quebec,Quebec|55|e|2|2|e,2,6,1.0,0.0,2,0
+Quebec,Quebec|55|f|1|1|f,9,19,0.1111111111111111,0.8888888888888888,1,8
+Quebec,Quebec|55|f|2|2|f,4,9,0.0,1.0,0,4
+Quebec,Quebec|55|f|3|3|f,5,19,1.0,0.0,5,0
+Quebec,Quebec|55|g|||g,12,24,0.08333333333333333,0.8333333333333334,1,10
+Quebec,Quebec|56|a|1|1|a,12,33,0.25,0.75,3,9
+Quebec,Quebec|56|a|2|2|a,22,48,0.22727272727272727,0.7727272727272727,5,17
+Quebec,Quebec|56|b|||b,5,12,0.4,0.6,2,3
+Quebec,Quebec|56|c|||c,5,7,0.2,0.8,1,4
+Quebec,Quebec|56|d|1|1|d,4,11,0.0,1.0,0,4
+Quebec,Quebec|56|d|2|2|d,8,25,0.0,1.0,0,8
+Quebec,Quebec|56|e|1|1|e,13,40,0.07692307692307693,0.9230769230769231,1,12
+Quebec,Quebec|56|e|2|2|e,10,23,0.5,0.5,5,5
+Quebec,Quebec|56|f|1|1|f,7,15,0.2857142857142857,0.7142857142857143,2,5
+Quebec,Quebec|56|f|2|2|f,6,13,0.8333333333333334,0.0,5,0
+Quebec,Quebec|56|g|1|1|g,8,20,0.0,1.0,0,8
+Quebec,Quebec|56|g|2|2|g,7,27,0.0,1.0,0,7
+Quebec,Quebec|56|h|||h,3,5,0.3333333333333333,0.6666666666666666,1,2
+Quebec,Quebec|56|i|1|1|i,6,15,0.5,0.5,3,3
+Quebec,Quebec|56|i|2|2|i,1,4,0.0,1.0,0,1
+Quebec,Quebec|57|d|1|1|d,4,8,0.0,1.0,0,4
+Quebec,Quebec|57|f|||f,2,10,0.0,1.0,0,2
+Quebec,Quebec|57|g|||g,4,12,0.0,1.0,0,4
+Quebec,Quebec|57|h|2|2|h,1,3,0.0,1.0,0,1
+Quebec,Quebec|58|a|||a,1,2,0.0,1.0,0,1
+Quebec,Quebec|58|e|||e,1,2,0.0,1.0,0,1
+Quebec,Quebec|58|f|||f,3,9,0.3333333333333333,0.6666666666666666,1,2
+Quebec,Quebec|58|g|||g,2,5,0.0,1.0,0,2
+Quebec,Quebec|58|h|||h,1,1,0.0,1.0,0,1
+Quebec,Quebec|58|i|||i,3,6,0.0,1.0,0,3
+Quebec,Quebec|58|j|||j,1,4,0.0,1.0,0,1
+Quebec,Quebec|58|k|||k,7,21,0.0,1.0,0,7
+Quebec,Quebec|58|l|||l,5,15,0.2,0.8,1,4
+Quebec,Quebec|59|a|1|1|a,10,36,0.0,1.0,0,10
+Quebec,Quebec|59|a|2|2|a,3,6,0.6666666666666666,0.0,2,0
+Quebec,Quebec|59|b|||b,6,17,0.0,1.0,0,6
+Quebec,Quebec|59|d|||d,1,7,1.0,0.0,1,0
+Quebec,Quebec|59|e|1|1|e,12,26,0.08333333333333333,0.9166666666666666,1,11
+Quebec,Quebec|59|e|2|2|e,6,19,0.5238095238095238,0.4761904761904762,3,2
+Quebec,Quebec|59|f|||f,10,27,0.2,0.725,2,7
+Quebec,Quebec|59|g|||g,5,22,0.0,1.0,0,5
+Quebec,Quebec|59|h|||h,3,11,0.0,1.0,0,3
+Quebec,Quebec|59|i|||i,7,15,0.0,1.0,0,7
+Quebec,Quebec|59|j|||j,2,4,0.5,0.5,1,1
+Quebec,Quebec|59|l|||l,2,5,0.0,1.0,0,2
+Quebec,Quebec|59|m|||m,7,13,0.0,1.0,0,7
+Quebec,Quebec|60|a|1|1|a,25,77,0.0,1.0,0,25
+Quebec,Quebec|60|a|2|2|a,34,92,0.0,0.9411764705882353,0,32
+Quebec,Quebec|60|b|1|1|b,20,44,0.1,0.9,2,18
+Quebec,Quebec|60|b|2|2|b,11,18,1.0,0.0,11,0
+Quebec,Quebec|60|c|1|1|c,13,32,0.6538461538461539,0.2692307692307692,8,3
+Quebec,Quebec|60|c|2|2|c,19,36,0.10526315789473684,0.8421052631578947,2,16
+Quebec,Quebec|60|d|1|1|d,14,30,0.07142857142857142,0.9285714285714286,1,13
+Quebec,Quebec|60|d|2|2|d,8,26,0.125,0.625,1,5
+Quebec,Quebec|60|e|||e,21,45,0.09523809523809523,0.9047619047619048,2,19
+Quebec,Quebec|60|f|||f,31,84,0.3064516129032258,0.6935483870967742,9,21
+Quebec,Quebec|61|a|1|1|a,3,7,0.3333333333333333,0.6666666666666666,1,2
+Quebec,Quebec|61|a|2|2|a,8,29,0.15625,0.84375,1,6
+Quebec,Quebec|61|a|3|3|a,3,8,0.3333333333333333,0.6666666666666666,1,2
+Quebec,Quebec|61|c|||c,1,4,0.0,1.0,0,1
+Quebec,Quebec|61|e|||e,1,5,1.0,0.0,1,0
+Quebec,Quebec|61|j|||j,2,4,0.0,1.0,0,2
+Quebec,Quebec|61|l|||l,2,5,0.25,0.25,0,0
+Quebec,Quebec|62|a|1|1|a,5,14,0.0,1.0,0,5
+Quebec,Quebec|62|a|2|2|a,1,4,0.0,1.0,0,1
+Quebec,Quebec|62|b|||b,1,1,1.0,0.0,1,0
+Quebec,Quebec|62|e|||e,1,1,1.0,0.0,1,0
+Quebec,Quebec|62|k|1|1|k,2,3,0.0,1.0,0,2
+Quebec,Quebec|62|k|2|2|k,1,3,0.0,1.0,0,1
+Quebec,Quebec|63|a|1|1|a,1,1,0.0,1.0,0,1
+Quebec,Quebec|63|a|2|2|a,1,2,0.0,1.0,0,1
+Quebec,Quebec|63|f|||f,2,3,0.5,0.5,1,1
+Quebec,Quebec|63|g|||g,1,1,0.0,1.0,0,1
+Quebec,Quebec|63|h|1|1|h,4,14,0.5,0.5,2,2
+Quebec,Quebec|63|h|2|2|h,2,4,0.0,1.0,0,2
+Quebec,Quebec|63|i|1|1|i,3,4,0.6666666666666666,0.3333333333333333,2,1
+Quebec,Quebec|63|j|||j,2,2,1.0,0.0,2,0
+Quebec,Quebec|63|l|||l,4,16,0.25,0.75,1,3
+Quebec,Quebec|64|a|||a,5,8,0.0,1.0,0,5
+Quebec,Quebec|64|b|||b,10,21,0.1,0.9,1,9
+Quebec,Quebec|64|c|||c,2,3,0.0,1.0,0,2
+Quebec,Quebec|64|d|1|1|d,3,11,0.0,1.0,0,3
+Quebec,Quebec|64|d|2|2|d,4,15,0.0,1.0,0,4
+Quebec,Quebec|64|e|||e,5,16,0.0,1.0,0,5
+Quebec,Quebec|64|f|1|1|f,2,6,0.0,1.0,0,2
+Quebec,Quebec|64|f|2|2|f,1,2,0.0,1.0,0,1
+Quebec,Quebec|64|g|||g,7,24,0.0,1.0,0,7
+Quebec,Quebec|65|a|||a,17,54,0.058823529411764705,0.9411764705882353,1,16
+Quebec,Quebec|65|b|1|1|b,3,9,0.6666666666666666,0.3333333333333333,2,1
+Quebec,Quebec|65|b|2|2|b,3,11,0.0,1.0,0,3
+Quebec,Quebec|65|c|||c,15,36,0.0,1.0,0,15
+Quebec,Quebec|65|d|||d,3,8,0.3333333333333333,0.6666666666666666,1,2
+Quebec,Quebec|65|e|||e,18,42,0.16666666666666666,0.8333333333333334,3,15
+Quebec,Quebec|65|f|||f,6,18,0.0,1.0,0,6
+Quebec,Quebec|65|g|||g,1,1,1.0,0.0,1,0
+Quebec,Quebec|65|h|1|1|h,11,37,0.09090909090909091,0.6363636363636364,1,7
+Quebec,Quebec|65|h|2|2|h,7,17,0.14285714285714285,0.8571428571428571,1,6
+Quebec,Quebec|65|h|3|3|h,2,2,0.5,0.5,1,1
+Quebec,Quebec|65|h|4|4|h,6,13,0.0,1.0,0,6
+Quebec,Quebec|65|h|5|5|h,7,18,0.0,1.0,0,7
+Quebec,Quebec|65|i|1|1|i,12,40,0.08333333333333333,0.9166666666666666,1,11
+Quebec,Quebec|65|i|2|2|i,4,8,0.0,1.0,0,4
+Quebec,Quebec|65|j|1|1|j,2,3,0.0,1.0,0,2
+Quebec,Quebec|65|j|2|2|j,10,33,0.0,1.0,0,10
+Quebec,Quebec|65|k|||k,2,6,0.0,0.5,0,1
+Quebec,Quebec|65|l|1|1|l,9,18,0.5555555555555556,0.4444444444444444,5,4
+Quebec,Quebec|65|l|2|2|l,16,36,0.0625,0.9375,1,15
+Quebec,Quebec|65|l|3|3|l,16,32,0.125,0.875,2,14
+Quebec,Quebec|65|l|4|4|l,4,15,0.25,0.75,1,3
+Quebec,Quebec|66|a|||a,1,5,1.0,0.0,1,0
+Quebec,Quebec|66|f|||f,3,9,0.0,1.0,0,3
+Quebec,Quebec|67|a|1|1|a,2,6,0.5,0.5,1,1
+Quebec,Quebec|67|a|2|2|a,4,19,0.4,0.5,1,2
+Quebec,Quebec|67|b|||b,4,7,0.25,0.75,1,3
+Quebec,Quebec|67|c|||c,1,2,0.0,1.0,0,1
+Quebec,Quebec|67|d|||d,4,10,0.25,0.75,1,3
+Quebec,Quebec|67|e|1|1|e,1,3,1.0,0.0,1,0
+Quebec,Quebec|67|f|||f,4,7,0.0,1.0,0,4
+Quebec,Quebec|67|g|||g,3,6,0.0,1.0,0,3
+Quebec,Quebec|68|a|1|1|a,11,32,0.36363636363636365,0.6363636363636364,4,7
+Quebec,Quebec|68|a|2|2|a,4,13,0.25,0.75,1,3
+Quebec,Quebec|68|b|1|1|b,2,5,1.0,0.0,2,0
+Quebec,Quebec|68|e|1|1|e,8,18,0.125,0.875,1,7
+Quebec,Quebec|68|e|2|2|e,7,20,0.14285714285714285,0.8571428571428571,1,6
+Quebec,Quebec|69|a|||a,1,1,1.0,0.0,1,0
+Quebec,Quebec|69|b|1|1|b,1,1,0.0,0.0,0,0
+Quebec,Quebec|69|c|1|1|c,2,10,0.0,1.0,0,2
+Quebec,Quebec|69|c|2|2|c,1,4,0.0,1.0,0,1
+Quebec,Quebec|69|d|1|1|d,3,11,0.3333333333333333,0.6666666666666666,1,2
+Quebec,Quebec|69|g|||g,2,4,0.0,1.0,0,2
+Quebec,Quebec|70|a|2|2|a,1,5,1.0,0.0,1,0
+Quebec,Quebec|70|c|1|1|c,1,5,0.0,1.0,0,1
+Quebec,Quebec|70|c|2|2|c,2,8,0.0,1.0,0,2
+Quebec,Quebec|70|d|||d,2,4,0.0,1.0,0,2
+Quebec,Quebec|70|e|||e,1,1,0.0,1.0,0,1
+Quebec,Quebec|70|f|2|2|f,1,2,0.0,1.0,0,1
+Quebec,Quebec|71|a|||a,20,76,0.0,1.0,0,20
+Quebec,Quebec|71|d|||d,14,42,0.2857142857142857,0.7142857142857143,4,10
+Quebec,Quebec|71|f|||f,1,2,0.0,1.0,0,1
+Quebec,Quebec|71|g|||g,2,6,1.0,0.0,2,0
+Quebec,Quebec|71|h|||h,5,18,0.0,1.0,0,5
+Quebec,Quebec|72|a|1|1|a,17,53,0.058823529411764705,0.9411764705882353,1,16
+Quebec,Quebec|72|a|2|2|a,3,13,0.0,1.0,0,3
+Quebec,Quebec|72|a|3|3|a,1,6,0.0,1.0,0,1
+Quebec,Quebec|72|b|||b,5,12,0.8,0.2,4,1
+Quebec,Quebec|72|c|||c,18,46,0.022222222222222223,0.31481481481481477,0,5
+Quebec,Quebec|72|d|1|1|d,18,58,0.0,0.9444444444444444,0,17
+Quebec,Quebec|72|d|2|2|d,8,22,0.125,0.875,1,7
+Quebec,Quebec|72|e|||e,8,27,0.25,0.75,2,6
+Quebec,Quebec|72|f|||f,17,56,0.058823529411764705,0.9411764705882353,1,16
+Quebec,Quebec|72|g|||g,11,23,0.09090909090909091,0.9090909090909091,1,10
+Quebec,Quebec|72|h|1|1|h,3,10,0.0,1.0,0,3
+Quebec,Quebec|72|h|2|2|h,7,30,0.0,1.0,0,7
+Quebec,Quebec|72|i|||i,2,4,0.0,1.0,0,2
+Quebec,Quebec|73|a|||a,13,46,0.02564102564102564,0.9743589743589743,0,12
+Quebec,Quebec|73|b|||b,1,3,0.0,1.0,0,1
+Quebec,Quebec|73|c|||c,3,14,0.0,1.0,0,3
+Quebec,Quebec|73|e|||e,1,3,0.0,1.0,0,1
+Quebec,Quebec|73|f|||f,2,6,0.5,0.5,1,1
+Quebec,Quebec|73|g|1|1|g,3,8,0.6666666666666666,0.3333333333333333,2,1
+Quebec,Quebec|73|g|1|2|g,1,4,1.0,0.0,1,0
+Quebec,Quebec|73|h|||h,1,6,0.0,1.0,0,1
+Quebec,Quebec|74|a|3|3|a,1,2,0.0,1.0,0,1
+Quebec,Quebec|74|b|||b,4,12,0.0,1.0,0,4
+Quebec,Quebec|74|c|||c,5,13,0.4,0.6,2,3
+Quebec,Quebec|74|d|||d,4,18,0.0,1.0,0,4
+Quebec,Quebec|74|e|||e,1,2,1.0,0.0,1,0
+Quebec,Quebec|74|f|||f,1,3,0.0,1.0,0,1
+Quebec,Quebec|74|g|1|1|g,1,2,0.0,1.0,0,1
+Quebec,Quebec|74|g|2|2|g,1,3,1.0,0.0,1,0
+Quebec,Quebec|75|a|||a,4,13,0.0,1.0,0,4
+Quebec,Quebec|75|b|1|1|b,5,12,0.0,1.0,0,5
+Quebec,Quebec|75|b|2|2|b,7,21,0.047619047619047616,0.9523809523809523,0,6
+Quebec,Quebec|75|c|1|1|c,4,17,0.0,1.0,0,4
+Quebec,Quebec|75|d|||d,2,8,0.0,1.0,0,2
+Quebec,Quebec|75|e|||e,1,4,0.0,1.0,0,1
+Quebec,Quebec|75|f|1|1|f,4,10,0.0,1.0,0,4
+Quebec,Quebec|75|f|2|2|f,1,2,1.0,0.0,1,0
+Quebec,Quebec|75|g|||g,2,8,0.0,1.0,0,2
+Quebec,Quebec|75|h|||h,1,5,0.0,1.0,0,1
+Quebec,Quebec|76|aa|||aa,1,1,0.0,1.0,0,1
+Quebec,Quebec|76|a|||a,4,15,0.0,1.0,0,4
+Quebec,Quebec|76|c|||c,1,4,0.0,1.0,0,1
+Quebec,Quebec|76|dd|||dd,3,13,0.3333333333333333,0.6666666666666666,1,2
+Quebec,Quebec|76|f|||f,1,2,0.0,1.0,0,1
+Quebec,Quebec|76|g|||g,10,39,0.8,0.2,8,2
+Quebec,Quebec|76|h|||h,1,2,1.0,0.0,1,0
+Quebec,Quebec|76|i|||i,3,10,0.3333333333333333,0.6666666666666666,1,2
+Quebec,Quebec|76|j|||j,1,3,1.0,0.0,1,0
+Quebec,Quebec|76|k|||k,4,10,0.0,1.0,0,4
+Quebec,Quebec|76|n|||n,1,3,1.0,0.0,1,0
+Quebec,Quebec|76|p|||p,7,27,0.0,1.0,0,7
+Quebec,Quebec|76|q|2|2|q,1,4,0.0,1.0,0,1
+Quebec,Quebec|76|s|||s,1,3,0.0,1.0,0,1
+Quebec,Quebec|76|t|||t,1,1,1.0,0.0,1,0
+Quebec,Quebec|76|u|1|1|u,1,1,0.0,1.0,0,1
+Quebec,Quebec|76|w|||w,1,5,0.0,1.0,0,1
+Quebec,Quebec|76|x|||x,1,2,1.0,0.0,1,0
+Quebec,Quebec|76|z|||z,4,13,0.25,0.75,1,3
+Quebec,Quebec|77|c|||c,1,2,0.0,1.0,0,1
+Quebec,Quebec|77|d|||d,1,2,0.0,1.0,0,1
+Quebec,Quebec|77|f|||f,1,2,0.0,1.0,0,1
+Quebec,Quebec|77|j|1|1|j,8,24,0.0,1.0,0,8
+Quebec,Quebec|77|k|||k,2,12,0.0,1.0,0,2
+Quebec,Quebec|78|h|||h,1,1,0.0,1.0,0,1
+Quebec,Quebec|78|i|||i,1,2,0.0,1.0,0,1
+Quebec,Quebec|78|k|||k,1,3,0.0,1.0,0,1
+Quebec,Quebec|78|m|||m,1,3,0.0,1.0,0,1
+Quebec,Quebec|79|a|1|1|a,7,17,0.42857142857142855,0.42857142857142855,3,3
+Quebec,Quebec|79|a|2|2|a,16,51,0.03125,0.96875,0,15
+Quebec,Quebec|79|a|3|3|a,8,25,0.125,0.875,1,7
+Quebec,Quebec|79|b|1|1|b,17,57,0.11764705882352941,0.8823529411764706,2,15
+Quebec,Quebec|79|b|2|2|b,4,7,0.25,0.75,1,3
+Quebec,Quebec|79|b|3|3|b,6,17,0.0,1.0,0,6
+Quebec,Quebec|79|c|1|1|c,2,6,0.0,1.0,0,2
+Quebec,Quebec|79|c|2|2|c,8,23,0.875,0.125,7,1
+Quebec,Quebec|79|c|3|3|c,8,16,0.125,0.875,1,7
+Quebec,Quebec|79|c|4|4|c,2,5,0.6666666666666666,0.3333333333333333,1,0
+Quebec,Quebec|79|d|1|1|d,3,11,0.3333333333333333,0.6666666666666666,1,2
+Quebec,Quebec|79|d|2|2|d,4,12,0.0,1.0,0,4
+Quebec,Quebec|79|e|1|1|e,1,1,0.0,1.0,0,1
+Quebec,Quebec|79|e|2|2|e,1,2,0.0,1.0,0,1
+Quebec,Quebec|79|f|1|1|f,2,8,0.0,1.0,0,2
+Quebec,Quebec|79|f|2|2|f,12,28,0.0,1.0,0,12
+Quebec,Quebec|79|f|3|3|f,6,18,0.3333333333333333,0.6666666666666666,2,4
+Quebec,Quebec|79|f|4|4|f,6,15,0.8333333333333334,0.16666666666666666,5,1
+Quebec,Quebec|79|g|1|1|g,1,1,0.0,1.0,0,1
+Quebec,Quebec|79|g|2|2|g,2,6,0.0,1.0,0,2
+Quebec,Quebec|79|g|3|3|g,9,27,0.0,1.0,0,9
+Quebec,Quebec|79|h|1|1|h,1,1,0.0,1.0,0,1
+Quebec,Quebec|79|h|2|2|h,6,13,0.3333333333333333,0.6666666666666666,2,4
+Quebec,Quebec|79|i|||i,9,28,0.0,1.0,0,9
+Quebec,Quebec|79|j|1|1|j,2,5,0.5,0.5,1,1
+Quebec,Quebec|79|j|2|2|j,3,9,0.0,1.0,0,3
+Quebec,Quebec|79|j|3|3|j,5,13,0.8,0.2,4,1
+Quebec,Quebec|79|k|1|1|k,12,28,0.16666666666666666,0.8333333333333334,2,10
+Quebec,Quebec|79|k|2|2|k,7,26,0.0,1.0,0,7
+Quebec,Quebec|79|k|3|3|k,15,39,0.0,1.0,0,15
+Quebec,Quebec|79|l|1|1|l,18,47,0.0,1.0,0,18
+Quebec,Quebec|79|l|2|2|l,7,17,0.42857142857142855,0.42857142857142855,3,3
+Quebec,Quebec|79|l|3|3|l,10,29,0.0,1.0,0,10
+Quebec,Quebec|79|m|||m,2,9,0.0,1.0,0,2
+Quebec,Quebec|80|a|1|1|a,4,14,0.25,0.75,1,3
+Quebec,Quebec|80|a|2|2|a,5,11,0.6,0.2,3,1
+Quebec,Quebec|80|c|||c,1,3,0.0,1.0,0,1
+Quebec,Quebec|80|d|1|1|d,8,22,0.0,0.875,0,7
+Quebec,Quebec|80|e|1|1|e,3,14,0.1111111111111111,0.8888888888888888,0,2
+Quebec,Quebec|80|e|2|2|e,4,12,0.0,1.0,0,4
+Quebec,Quebec|80|f|1|1|f,4,11,0.3333333333333333,0.6666666666666666,1,2
+Quebec,Quebec|80|f|2|2|f,1,3,0.0,0.0,0,0
+Quebec,Quebec|80|h|||h,1,4,0.0,1.0,0,1
+Quebec,Quebec|80|i|1|1|i,6,21,0.0,1.0,0,6
+Quebec,Quebec|80|i|2|2|i,10,20,0.1,0.9,1,9
+Quebec,Quebec|80|i|3|3|i,11,42,0.0,1.0,0,11
+Quebec,Quebec|80|j|||j,8,32,0.125,0.75,1,6
+Quebec,Quebec|80|k|||k,2,4,0.0,1.0,0,2
+Quebec,Quebec|81|c|||c,2,10,0.0,1.0,0,2
+Quebec,Quebec|81|d|||d,6,22,0.16666666666666666,0.8333333333333334,1,5
+Quebec,Quebec|81|f|||f,1,3,0.0,1.0,0,1
+Quebec,Quebec|81|g|||g,1,5,0.0,0.0,0,0
+Quebec,Quebec|81|i|||i,2,8,0.0,1.0,0,2
+Quebec,Quebec|81|j|||j,2,4,0.0,1.0,0,2
+Quebec,Quebec|81|k|||k,1,5,0.0,1.0,0,1
+Quebec,Quebec|81|m|||m,1,5,0.0,1.0,0,1
+Quebec,Quebec|81|n|||n,2,4,0.0,1.0,0,2
+Quebec,Quebec|81|o|||o,9,31,0.2222222222222222,0.5555555555555556,2,5
+Quebec,Quebec|81|p|||p,1,1,1.0,0.0,1,0
+Quebec,Quebec|82|a|2|2|a,3,7,1.0,0.0,3,0
+Quebec,Quebec|82|d|1|1|d,1,6,0.0,1.0,0,1
+Quebec,Quebec|82|d|2|2|d,1,7,0.0,1.0,0,1
+Quebec,Quebec|82|f|||f,1,4,0.0,1.0,0,1
+Quebec,Quebec|82|g|||g,1,4,0.0,1.0,0,1
+Quebec,Quebec|82|h|1|1|h,8,35,0.0,1.0,0,8
+Quebec,Quebec|82|h|2|2|h,2,8,0.0,1.0,0,2
+Quebec,Quebec|82|l|||l,8,34,0.0,1.0,0,8
+Quebec,Quebec|82|m|1|1|m,1,3,0.3333333333333333,0.6666666666666666,0,0
+Quebec,Quebec|82|n|3|3|n,2,8,1.0,0.0,2,0
+Quebec,Quebec|83|a|1|1|a,2,12,1.0,0.0,2,0
+Quebec,Quebec|83|a|2|2|a,5,9,0.0,1.0,0,5
+Quebec,Quebec|83|b|1|1|b,5,13,0.0,1.0,0,5
+Quebec,Quebec|83|b|2|2|b,8,19,0.375,0.625,3,5
+Quebec,Quebec|83|c|||c,4,11,0.25,0.75,1,3
+Quebec,Quebec|83|d|||d,13,31,0.15384615384615385,0.8461538461538461,2,11
+Quebec,Quebec|84|a|1|1|a,1,4,0.0,1.0,0,1
+Quebec,Quebec|84|b|||b,1,7,0.0,1.0,0,1
+Quebec,Quebec|84|d|1|1|d,4,9,0.0,1.0,0,4
+Quebec,Quebec|84|e|||e,1,2,0.0,1.0,0,1
+Quebec,Quebec|84|h|1|1|h,1,5,1.0,0.0,1,0
+Quebec,Quebec|85|a|||a,4,9,0.0,0.75,0,3
+Quebec,Quebec|85|b|||b,1,4,0.0,1.0,0,1
+Quebec,Quebec|85|c|1|1|c,4,8,0.0,1.0,0,4
+Quebec,Quebec|85|c|2|2|c,1,6,0.0,1.0,0,1
+Quebec,Quebec|85|d|||d,3,13,0.0,1.0,0,3
+Quebec,Quebec|85|e|1|1|e,2,8,0.0,1.0,0,2
+Quebec,Quebec|85|e|2|2|e,3,8,0.0,1.0,0,3
+Quebec,Quebec|85|f|2|2|f,1,3,0.0,1.0,0,1
+Quebec,Quebec|85|g|||g,2,7,0.0,1.0,0,2
+Quebec,Quebec|85|h|||h,7,25,0.0,1.0,0,7
+Quebec,Quebec|86|a|||a,1,6,0.0,1.0,0,1
+Quebec,Quebec|86|b|||b,2,6,0.5,0.5,1,1
+Quebec,Quebec|86|d|||d,2,7,0.0,1.0,0,2
+Quebec,Quebec|86|f|1|1|f,2,6,0.5,0.5,1,1
+Quebec,Quebec|86|f|2|2|f,1,4,0.0,1.0,0,1
+Quebec,Quebec|86|g|2|2|g,1,3,0.0,1.0,0,1
+Quebec,Quebec|86|i|1|1|i,2,9,0.0,1.0,0,2
+Quebec,Quebec|86|i|2|2|i,9,28,0.0,1.0,0,9
+Quebec,Quebec|86|j|||j,2,3,0.0,1.0,0,2
+Quebec,Quebec|86|k|2|2|k,2,3,1.0,0.0,2,0
+Quebec,Quebec|87|a|||a,3,11,0.0,1.0,0,3
+Quebec,Quebec|87|b|||b,1,1,1.0,0.0,1,0
+Quebec,Quebec|87|g|||g,1,4,0.0,1.0,0,1
+Quebec,Quebec|87|h|||h,1,2,1.0,0.0,1,0
+Quebec,Quebec|87|i|||i,1,4,0.0,1.0,0,1
+Quebec,Quebec|87|j|||j,5,12,0.2,0.8,1,4
+Quebec,Quebec|87|l|||l,1,3,0.0,1.0,0,1
+Quebec,Quebec|88|b|2|2|b,1,4,1.0,0.0,1,0
+Quebec,Quebec|88|c|1|1|c,1,1,0.0,1.0,0,1
+Quebec,Quebec|88|e|||e,1,4,0.0,1.0,0,1
+Quebec,Quebec|88|f|||f,3,13,0.6666666666666666,0.3333333333333333,2,1
+Quebec,Quebec|88|i|||i,2,3,0.5,0.5,1,1
+Quebec,Quebec|89|a|2|2|a,1,3,1.0,0.0,1,0
+Quebec,Quebec|89|b|||b,5,16,0.0,1.0,0,5
+Quebec,Quebec|89|e|||e,1,5,0.0,1.0,0,1
+Quebec,Quebec|89|f|||f,7,21,0.14285714285714285,0.8571428571428571,1,6
+Quebec,Quebec|89|g|||g,2,7,1.0,0.0,2,0
+Quebec,Quebec|89|h|1|1|h,3,12,0.0,0.6666666666666666,0,2
+Quebec,Quebec|90|a|10|10|a,6,14,0.16666666666666666,0.8333333333333334,1,5
+Quebec,Quebec|90|a|11|11|a,27,67,0.725925925925926,0.2740740740740741,19,7
+Quebec,Quebec|90|a|12|12|a,14,48,0.2857142857142857,0.7142857142857143,4,10
+Quebec,Quebec|90|a|1|1|a,25,69,0.16,0.84,4,21
+Quebec,Quebec|90|a|2|2|a,33,99,0.030303030303030304,0.9696969696969697,1,32
+Quebec,Quebec|90|a|3|3|a,34,96,0.058823529411764705,0.9411764705882353,2,32
+Quebec,Quebec|90|a|4|4|a,38,109,0.05263157894736842,0.9473684210526315,2,36
+Quebec,Quebec|90|a|5|5|a,8,24,0.375,0.625,3,5
+Quebec,Quebec|90|a|6|6|a,10,36,0.1,0.9,1,9
+Quebec,Quebec|90|a|7|7|a,8,20,0.8333333333333334,0.16666666666666666,6,1
+Quebec,Quebec|90|a|8|8|a,11,29,0.09090909090909091,0.9090909090909091,1,10
+Quebec,Quebec|90|a|9|9|a,21,56,0.047619047619047616,0.9523809523809523,1,20
+Quebec,Quebec|90|b|1|1|b,2,10,0.0,1.0,0,2
+Quebec,Quebec|90|b|2|2|b,5,11,0.0,1.0,0,5
+Quebec,Quebec|90|c|||c,4,12,0.25,0.75,1,3
+Quebec,Quebec|90|d|||d,13,44,0.18681318681318684,0.8131868131868132,2,10
+Quebec,Quebec|90|e|1|1|e,12,29,0.0,1.0,0,12
+Quebec,Quebec|90|e|2|2|e,18,43,0.7222222222222222,0.2777777777777778,13,5
+Quebec,Quebec|90|e|3|3|e,23,64,0.08695652173913043,0.8521739130434783,2,19
+Quebec,Quebec|90|e|4|4|e,13,33,0.23076923076923078,0.7692307692307693,3,10
+Quebec,Quebec|90|e|6|6|e,8,23,0.0,1.0,0,8
+Quebec,Quebec|90|e|7|7|e,6,9,0.3333333333333333,0.6666666666666666,2,4
+Quebec,Quebec|90|e|8|8|e,11,33,0.09090909090909091,0.9090909090909091,1,10
+Quebec,Quebec|90|f|10|10|f,12,33,0.0,0.9166666666666666,0,11
+Quebec,Quebec|90|f|1|1|f,12,38,0.8333333333333334,0.16666666666666666,10,2
+Quebec,Quebec|90|f|2|2|f,9,30,0.5555555555555556,0.4444444444444444,5,4
+Quebec,Quebec|90|f|3|3|f,3,7,0.6666666666666666,0.3333333333333333,2,1
+Quebec,Quebec|90|f|4|4|f,1,1,1.0,0.0,1,0
+Quebec,Quebec|90|f|5|5|f,11,28,0.09090909090909091,0.9090909090909091,1,10
+Quebec,Quebec|90|f|6|6|f,2,5,0.5,0.5,1,1
+Quebec,Quebec|90|f|7|7|f,5,12,0.8,0.0,4,0
+Quebec,Quebec|90|f|8|8|f,4,15,0.75,0.25,3,1
+Quebec,Quebec|90|f|9|9|f,11,20,0.0,1.0,0,11
+Quebec,Quebec|90|g|1|1|g,15,41,0.13333333333333333,0.8666666666666667,2,13
+Quebec,Quebec|90|g|2|2|g,20,61,0.05,0.95,1,19
+Quebec,Quebec|90|g|3|3|g,13,35,0.0,1.0,0,13
+Quebec,Quebec|90|g|4|4|g,2,4,0.0,1.0,0,2
+Quebec,Quebec|90|g|5|5|g,3,6,0.6666666666666666,0.3333333333333333,2,1
+Quebec,Quebec|90|g|6|6|g,1,6,0.0,1.0,0,1
+Quebec,Quebec|90|g|7|7|g,10,31,0.2,0.8,2,8
+Quebec,Quebec|90|g|8|8|g,11,34,0.0,1.0,0,11
+Quebec,Quebec|90|g|9|9|g,7,14,0.42857142857142855,0.5714285714285714,3,4
+Quebec,Quebec|90|h|10|10|h,16,45,0.0625,0.9375,1,15
+Quebec,Quebec|90|h|11|11|h,2,8,0.0,1.0,0,2
+Quebec,Quebec|90|h|12|12|h,19,58,0.0,1.0,0,19
+Quebec,Quebec|90|h|13|13|h,28,94,0.0,1.0,0,28
+Quebec,Quebec|90|h|14|14|h,32,80,0.15625,0.8348214285714286,5,26
+Quebec,Quebec|90|h|15|15|h,23,59,0.043478260869565216,0.9565217391304348,1,22
+Quebec,Quebec|90|h|1|1|h,16,38,0.0625,0.9375,1,15
+Quebec,Quebec|90|h|2|2|h,13,36,0.07692307692307693,0.9230769230769231,1,12
+Quebec,Quebec|90|h|3|3|h,8,22,0.0,1.0,0,8
+Quebec,Quebec|90|h|4|4|h,14,32,0.0,1.0,0,14
+Quebec,Quebec|90|h|5|5|h,6,13,0.0,1.0,0,6
+Quebec,Quebec|90|h|6|6|h,6,14,0.3333333333333333,0.6666666666666666,2,4
+Quebec,Quebec|90|h|7|7|h,9,21,0.1111111111111111,0.8888888888888888,1,8
+Quebec,Quebec|90|h|8|8|h,10,23,0.2,0.8,2,8
+Quebec,Quebec|90|h|9|9|h,16,36,0.0,1.0,0,16
+Quebec,Quebec|90|i|1|1|i,12,29,0.0,1.0,0,12
+Quebec,Quebec|90|i|2|2|i,23,64,0.05217391304347826,0.8608695652173913,1,19
+Quebec,Quebec|90|i|3|3|i,14,49,0.07142857142857142,0.9285714285714286,1,13
+Quebec,Quebec|90|i|4|4|i,20,59,0.05,0.95,1,19
+Quebec,Quebec|90|i|5|5|i,18,40,0.1111111111111111,0.8888888888888888,2,16
+Quebec,Quebec|90|i|6|6|i,2,6,0.0,1.0,0,2
+Quebec,Quebec|90|i|7|7|i,15,49,0.0,1.0,0,15
+Quebec,Quebec|91|a|1|1|a,15,29,0.2,0.8,3,12
+Quebec,Quebec|91|a|2|2|a,7,16,0.0,1.0,0,7
+Quebec,Quebec|91|a|3|3|a,5,13,0.2,0.8,1,4
+Quebec,Quebec|91|b|||b,5,14,0.0,1.0,0,5
+Quebec,Quebec|91|c|||c,5,13,0.4,0.6,2,3
+Quebec,Quebec|91|d|||d,1,1,1.0,0.0,1,0
+Quebec,Quebec|91|e|1|1|e,12,30,0.08333333333333333,0.9166666666666666,1,11
+Quebec,Quebec|91|e|2|2|e,5,9,0.0,1.0,0,5
+Quebec,Quebec|91|f|1|1|f,17,46,0.47058823529411764,0.5294117647058824,8,9
+Quebec,Quebec|91|f|2|2|f,16,44,0.0625,0.9375,1,15
+Quebec,Quebec|91|g|1|1|g,9,20,0.2222222222222222,0.7777777777777778,2,7
+Quebec,Quebec|91|g|2|2|g,1,4,0.0,1.0,0,1
+Quebec,Quebec|91|g|3|3|g,5,14,0.0,1.0,0,5
+Quebec,Quebec|91|h|1|1|h,11,33,0.5272727272727272,0.45454545454545453,5,5
+Quebec,Quebec|91|h|2|2|h,10,40,0.175,0.825,1,8
+Quebec,Quebec|91|h|3|3|h,35,95,0.2857142857142857,0.7142857142857143,10,25
+Quebec,Quebec|91|i|||i,1,3,0.6666666666666666,0.3333333333333333,0,0
+Quebec,Quebec|91|j|||j,9,17,0.0,1.0,0,9
+Quebec,Quebec|91|k|||k,5,10,0.8,0.2,4,1
+Quebec,Quebec|91|l|||l,10,31,0.4,0.5,4,5
+Quebec,Quebec|91|m|||m,1,3,0.0,1.0,0,1
+Quebec,Quebec|91|n|||n,2,4,0.0,1.0,0,2
+Quebec,Quebec|91|o|||o,2,4,0.5,0.5,1,1
+Quebec,Quebec|91|r|1|1|r,3,8,0.0,1.0,0,3
+Quebec,Quebec|91|s|||s,6,21,0.3333333333333333,0.6666666666666666,2,4
+Quebec,Quebec|92|a|||a,10,30,0.0,1.0,0,10
+Quebec,Quebec|92|b|||b,3,8,0.3333333333333333,0.6666666666666666,1,2
+Quebec,Quebec|92|e|||e,1,1,0.0,1.0,0,1
+Quebec,Quebec|92|f|||f,1,1,0.0,1.0,0,1
+Quebec,Quebec|92|k|1|1|k,1,5,1.0,0.0,1,0
+Quebec,Quebec|92|k|2|2|k,1,1,1.0,0.0,1,0
+Quebec,Quebec|93|d|1|1|d,1,1,0.0,1.0,0,1
+Quebec,Quebec|93|d|2|2|d,1,4,0.0,1.0,0,1
+Quebec,Quebec|94|a|||a,4,11,0.0,1.0,0,4
+Quebec,Quebec|94|c|||c,4,8,0.0,0.0,0,0
+Quebec,Quebec|94|d|||d,1,2,1.0,0.0,1,0
+Quebec,Quebec|94|g|||g,13,45,0.0,1.0,0,13
+Quebec,Quebec|94|h|||h,3,6,0.0,1.0,0,3
+Quebec,Quebec|94|j|||j,3,15,0.0,1.0,0,3
+Quebec,Quebec|94|k|||k,3,7,0.0,1.0,0,3
+Quebec,Quebec|94|l|||l,3,9,0.0,1.0,0,3
+Quebec,Quebec|94|m|||m,2,4,0.5,0.5,1,1
+Quebec,Quebec|94|n|||n,1,1,0.0,1.0,0,1
+Quebec,Quebec|94|p|||p,2,3,0.0,1.0,0,2
+Quebec,Quebec|95|a|||a,1,2,0.0,1.0,0,1
+Quebec,Quebec|95|d|||d,2,10,0.0,1.0,0,2
+Quebec,Quebec|95|g|||g,1,2,0.0,1.0,0,1
+Quebec,Quebec|95|i|||i,4,14,0.0,1.0,0,4
+Quebec,Quebec|95|k|||k,1,7,0.0,1.0,0,1
+Quebec,Quebec|95|l|||l,4,14,0.0,1.0,0,4
+Quebec,Quebec|95|m|||m,5,22,0.0,1.0,0,5
+Quebec,Quebec|96|a|||a,17,50,0.7352941176470589,0.2647058823529412,12,4
+Quebec,Quebec|96|b|||b,25,91,0.10400000000000001,0.8959999999999999,2,22
+Quebec,Quebec|96|c|1|1|c,37,113,0.02702702702702703,0.972972972972973,1,36
+Quebec,Quebec|96|c|2|2|c,11,33,0.9090909090909091,0.0,10,0
+Quebec,Quebec|96|d|||d,6,22,0.16666666666666666,0.8333333333333334,1,5
+Quebec,Quebec|96|e|||e,16,43,0.1875,0.75,3,12
+Quebec,Quebec|96|f|||f,11,29,0.8181818181818182,0.18181818181818182,9,2
+Quebec,Quebec|96|g|||g,8,29,0.375,0.625,3,5
+Quebec,Quebec|96|h|||h,3,11,1.0,0.0,3,0
+Quebec,Quebec|96|j|||j,4,13,0.0,1.0,0,4
+Quebec,Quebec|96|k|||k,3,6,0.0,1.0,0,3
+Quebec,Quebec|96|l|||l,1,1,0.0,1.0,0,1
+Quebec,Quebec|96|m|||m,3,3,1.0,0.0,3,0
+Quebec,Quebec|97|aa|||aa,16,52,0.0625,0.9375,1,15
+Quebec,Quebec|97|a|1|1|a,11,33,0.0,1.0,0,11
+Quebec,Quebec|97|a|2|2|a,3,6,0.0,1.0,0,3
+Quebec,Quebec|97|bb|||bb,13,44,0.0,1.0,0,13
+Quebec,Quebec|97|b|||b,10,19,0.1,0.9,1,9
+Quebec,Quebec|97|cc|||cc,5,16,0.0,1.0,0,5
+Quebec,Quebec|97|c|||c,7,24,0.14285714285714285,0.8571428571428571,1,6
+Quebec,Quebec|97|dd|||dd,12,46,0.14583333333333334,0.8541666666666666,1,10
+Quebec,Quebec|97|d|||d,2,7,0.0,1.0,0,2
+Quebec,Quebec|97|ee|||ee,8,25,0.0,0.9375,0,7
+Quebec,Quebec|97|ff|1|1|ff,2,7,0.0,1.0,0,2
+Quebec,Quebec|97|ff|2|2|ff,12,40,0.15,0.85,1,10
+Quebec,Quebec|97|f|||f,2,2,0.0,1.0,0,2
+Quebec,Quebec|97|gg|1|1|gg,7,24,0.023809523809523808,0.9761904761904763,0,6
+Quebec,Quebec|97|gg|2|2|gg,2,6,0.0,1.0,0,2
+Quebec,Quebec|97|hh|||hh,4,12,0.0,1.0,0,4
+Quebec,Quebec|97|ii|||ii,8,30,0.0,1.0,0,8
+Quebec,Quebec|97|i|||i,2,7,0.0,1.0,0,2
+Quebec,Quebec|97|jj|||jj,3,11,0.3333333333333333,0.6666666666666666,1,2
+Quebec,Quebec|97|j|||j,10,22,0.13333333333333333,0.8666666666666666,1,8
+Quebec,Quebec|97|k|||k,5,21,0.0,0.8,0,4
+Quebec,Quebec|97|ll|||ll,1,1,0.0,1.0,0,1
+Quebec,Quebec|97|l|||l,1,5,0.0,1.0,0,1
+Quebec,Quebec|97|m|||m,6,26,0.0,1.0,0,6
+Quebec,Quebec|97|n|||n,19,58,0.15789473684210525,0.7894736842105263,3,15
+Quebec,Quebec|97|o|||o,1,5,0.0,1.0,0,1
+Quebec,Quebec|97|pp|||pp,2,8,0.0,1.0,0,2
+Quebec,Quebec|97|p|||p,2,11,0.0,1.0,0,2
+Quebec,Quebec|97|q|||q,8,42,0.015625,0.984375,0,7
+Quebec,Quebec|97|ss|||ss,2,4,0.0,1.0,0,2
+Quebec,Quebec|97|tt|1|1|tt,1,2,0.0,1.0,0,1
+Quebec,Quebec|97|t|||t,1,3,0.0,1.0,0,1
+Quebec,Quebec|97|w|||w,3,7,0.6666666666666666,0.3333333333333333,2,1
+Quebec,Quebec|97|y|1|1|y,29,74,0.10344827586206896,0.896551724137931,3,26
+Quebec,Quebec|97|y|2|2|y,22,62,0.045454545454545456,0.9545454545454546,1,21
+Quebec,Quebec|97|z|1|1|z,31,110,0.0,1.0,0,31
+Quebec,Quebec|97|z|2|2|z,2,11,0.0,1.0,0,2
+Quebec,Quebec|98|a|||a,19,57,0.15789473684210525,0.7894736842105263,3,15
+Quebec,Quebec|98|b|||b,1,3,0.0,1.0,0,1
+Quebec,Quebec|98|c|||c,3,9,0.0,1.0,0,3
+Quebec,Quebec|98|d|||d,26,86,0.07692307692307693,0.9230769230769231,2,24
+Quebec,Quebec|98|e|||e,17,60,0.17647058823529413,0.8235294117647058,3,14
+Quebec,Quebec|98|f|||f,3,20,1.0,0.0,3,0
+Quebec,Quebec|98|g|||g,5,20,0.0,1.0,0,5
+Quebec,Quebec|98|h|||h,1,2,1.0,0.0,1,0
+Quebec,Quebec|98|i|||i,5,30,0.0,1.0,0,5
+Quebec,Quebec|98|j|||j,10,36,0.0,1.0,0,10
+Quebec,Quebec|98|k|||k,13,42,0.6923076923076923,0.23076923076923078,9,3
+Quebec,Quebec|98|l|||l,7,18,0.14285714285714285,0.6904761904761905,1,4
+Quebec,Quebec|98|m|||m,8,27,0.25,0.75,2,6
+Quebec,Quebec|98|n|||n,2,8,0.0,1.0,0,2
+Quebec,Quebec|98|o|||o,8,30,0.0,1.0,0,8
+Quebec,Quebec|98|p|||p,5,18,0.0,1.0,0,5
+Quebec,Quebec|98|q|||q,7,21,0.14285714285714285,0.8571428571428571,1,6
+Quebec,Quebec|98|r|||r,4,16,0.08333333333333333,0.9166666666666666,0,3
+Quebec,Quebec|98|s|1|1|s,1,4,0.0,1.0,0,1
+Quebec,Quebec|98|s|5|5|s,1,3,0.0,1.0,0,1
+Quebec,Quebec|98|s|6|6|s,5,11,0.0,0.8,0,4
+Territories/Les Territoires,Territories/Les Territoires|192|h|||h,5,19,0.0,1.0,0,5
+Territories/Les Territoires,Territories/Les Territoires|192|i|||i,5,15,0.2,0.8,1,4
+Territories/Les Territoires,Territories/Les Territoires|192|j|1|1|j,3,6,0.08333333333333333,0.9166666666666666,0,2
+Territories/Les Territoires,Territories/Les Territoires|192|j|2|2|j,16,56,0.0625,0.9375,1,15
+Territories/Les Territoires,Territories/Les Territoires|192|k|||k,7,26,0.03571428571428571,0.9642857142857143,0,6
+Territories/Les Territoires,Territories/Les Territoires|192|m|2|2|m,5,18,0.2,0.8,1,4
+Territories/Les Territoires,Territories/Les Territoires|192|n|||n,1,5,0.0,1.0,0,1
+Territories/Les Territoires,Territories/Les Territoires|192|p|||p,1,2,0.0,1.0,0,1
+Territories/Les Territoires,Territories/Les Territoires|192|r|||r,10,32,0.1,0.85,1,8
+Territories/Les Territoires,Territories/Les Territoires|192|t|||t,2,8,0.0,1.0,0,2
+Territories/Les Territoires,Territories/Les Territoires|192|u|||u,1,1,0.0,1.0,0,1
+Territories/Les Territoires,Territories/Les Territoires|192|v|1|1|v,3,7,0.0,1.0,0,3
+Territories/Les Territoires,Territories/Les Territoires|192|v|2|2|v,1,5,0.0,1.0,0,1
+Territories/Les Territoires,Territories/Les Territoires|192|v|4|4|v,1,4,0.0,1.0,0,1
+Territories/Les Territoires,Territories/Les Territoires|192|v|6|6|v,2,7,0.0,1.0,0,2

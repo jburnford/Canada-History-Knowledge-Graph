@@ -1,0 +1,4 @@
+county,variable,printed_county_total,sum_of_printed_localities,workbook_total_in_audited_row,difference,localities,diagnosis,printed_page,county_citation
+Richelieu,OAT_XX_B,194297,224297,194297,30000,10,printed_internal_arithmetic_discrepancy; underlying erroneous figure unresolved,120,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/66/#cell-AB
+Rouville,WHT_XX_B,156962,186962,156962,30000,12,printed_internal_arithmetic_discrepancy; underlying erroneous figure unresolved,125,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/68/#cell-T
+St. Maurice,CTL_CH_N,5503,5508,5508,5,14,printed_internal_arithmetic_discrepancy; underlying erroneous figure unresolved,135,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-BA

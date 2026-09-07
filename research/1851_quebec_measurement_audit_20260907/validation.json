@@ -1,0 +1,15 @@
+{
+  "source_cells": 4200,
+  "selected_sqlite_jsonl_mismatches": 0,
+  "verified_workbook_cells": 4,
+  "confirmed_print_discrepancies": 4,
+  "reconciliation_rows": 288,
+  "equation2_linear_duration_check": {
+    "example_is_synthetic": true,
+    "rank_without_duration": 7,
+    "rank_with_duration": 7,
+    "max_abs_duration_residual": 1.7053025658242404e-13
+  },
+  "historical_regressions_replicated": false,
+  "conclusion": "The linear duration term adds no independent variation to place and date fixed effects; this does not invalidate separately estimated date effects."
+}

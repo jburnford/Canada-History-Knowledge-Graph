@@ -1,0 +1,3 @@
+comparison,households,units,maternal,paternal
+<=10% maternal in other origin pairings,28115,1574,0.050221877831694656,0.9392717834065868
+>=90% maternal in other origin pairings,416,49,0.848119848901099,0.11822630494505493

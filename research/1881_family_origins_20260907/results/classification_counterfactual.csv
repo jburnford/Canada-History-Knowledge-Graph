@@ -1,0 +1,41 @@
+province,origin,observed,all_paternal,all_maternal,observed_minus_paternal
+British Columbia/Colombie Britannique,French,16,17,35,-1
+British Columbia/Colombie Britannique,English,199,177,183,22
+British Columbia/Colombie Britannique,Scottish,172,180,129,-8
+British Columbia/Colombie Britannique,Irish,109,118,133,-9
+British Columbia/Colombie Britannique,German,29,35,47,-6
+Manitoba,French,86,89,156,-3
+Manitoba,English,607,611,614,-4
+Manitoba,Scottish,736,705,581,31
+Manitoba,Irish,563,574,603,-11
+Manitoba,German,54,68,93,-14
+New Brunswick,French,534,542,437,-8
+New Brunswick,English,3206,3125,3079,81
+New Brunswick,Scottish,2316,2293,2289,23
+New Brunswick,Irish,2615,2731,3040,-116
+New Brunswick,German,446,468,314,-22
+Nova Scotia,French,909,920,1013,-11
+Nova Scotia,English,4276,4192,3858,84
+Nova Scotia,Scottish,3281,3301,3658,-20
+Nova Scotia,Irish,3121,3206,2990,-85
+Nova Scotia,German,1446,1461,1561,-15
+Ontario,French,3295,3495,2960,-200
+Ontario,English,28323,28827,23280,-504
+Ontario,Scottish,18524,18711,18339,-187
+Ontario,Irish,22308,21949,28051,359
+Ontario,German,8258,8606,8958,-348
+Prince Edward Island,French,124,137,63,-13
+Prince Edward Island,English,1030,1097,887,-67
+Prince Edward Island,Scottish,1073,964,1359,109
+Prince Edward Island,Irish,775,792,720,-17
+Prince Edward Island,German,85,101,62,-16
+Quebec,French,3177,2836,3125,341
+Quebec,English,3552,3698,2669,-146
+Quebec,Scottish,2207,2443,2306,-236
+Quebec,Irish,3031,3030,4118,1
+Quebec,German,590,669,458,-79
+Territories/Les Territoires,French,48,47,59,1
+Territories/Les Territoires,English,35,30,77,5
+Territories/Les Territoires,Scottish,81,86,48,-5
+Territories/Les Territoires,Irish,44,45,27,-1
+Territories/Les Territoires,German,3,3,0,0

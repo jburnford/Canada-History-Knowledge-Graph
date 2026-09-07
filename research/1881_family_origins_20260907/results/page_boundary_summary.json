@@ -1,0 +1,18 @@
+{
+  "pairs": 79594,
+  "pagebreak_pairs": 3015,
+  "within_family_households": 2626,
+  "within_family_same_page_mean": 0.0044998730642295,
+  "within_family_pagebreak_mean": 0.07006854531607007,
+  "within_family_difference": 0.06556867225184057,
+  "cluster_bootstrap_95_interval": [
+    0.05588888089895573,
+    0.07628314748939258
+  ],
+  "diagnostic_permutations": 2000,
+  "diagnostic_permutation_p": 0.0004997501249375312,
+  "diagnostic_permutation_95_interval": [
+    -0.007623445036811373,
+    0.0075157083015993855
+  ]
+}

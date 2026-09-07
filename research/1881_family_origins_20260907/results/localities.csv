@@ -1,0 +1,1820 @@
+province,distnam,sdistnam,csd,households,children,maternal,paternal,all_maternal,all_paternal
+British Columbia/Colombie Britannique,Cariboo,Clinton & Lillooet,BC189005,1,2,0.0,1.0,0,1
+British Columbia/Colombie Britannique,Cariboo,William's Lake & Canoe Creek,BC189003,2,5,0.0,1.0,0,2
+British Columbia/Colombie Britannique,New Westminster,New Westminster (North/Nord),BC188002,8,21,0.125,0.875,1,7
+British Columbia/Colombie Britannique,New Westminster,New Westminster (South/Sud),BC188001,10,34,0.1,0.9,1,9
+British Columbia/Colombie Britannique,Vancouver,Vancouver (Comox & Alberni),BC192002,3,9,0.0,1.0,0,3
+British Columbia/Colombie Britannique,Vancouver,Vancouver (Cowichin & Salt Spring Island),BC192003,7,30,0.14285714285714285,0.8571428571428571,1,6
+British Columbia/Colombie Britannique,Vancouver,Vancouver (Nanaimo & Noonas Bay),BC192001,34,96,0.058823529411764705,0.9411764705882353,2,32
+British Columbia/Colombie Britannique,Vancouver,Vancouver (Saanich [South and North]),BC192004,7,21,0.0,1.0,0,7
+British Columbia/Colombie Britannique,Vancouver,Vancouver (Sooke Lake & Highland),BC192005,2,7,0.5,0.5,1,1
+British Columbia/Colombie Britannique,Victoria (City/Ville),Victoria (City/Ville),BC191004,7,12,0.0,0.8571428571428571,0,6
+British Columbia/Colombie Britannique,Victoria (City/Ville),Victoria (Esquimalt & Metchosin),BC191005,8,24,0.0,1.0,0,8
+British Columbia/Colombie Britannique,Victoria (City/Ville),Victoria (James Bay Ward),BC191003,27,89,0.0,1.0,0,27
+British Columbia/Colombie Britannique,Victoria (City/Ville),Victoria (Johnson Street Ward),BC191002,26,75,0.11538461538461539,0.8846153846153846,3,23
+British Columbia/Colombie Britannique,Victoria (City/Ville),Victoria (Yates Street Ward),BC191001,17,39,0.11764705882352941,0.8235294117647058,2,14
+British Columbia/Colombie Britannique,Yale,"Lytton, Cache Creek etc.",BC190002,3,11,0.0,1.0,0,3
+British Columbia/Colombie Britannique,Yale,Nicola & O'Konagan,BC190003,9,31,0.05555555555555555,0.9444444444444444,0,8
+British Columbia/Colombie Britannique,Yale,Osoyoos,BC190004,1,7,0.0,1.0,0,1
+British Columbia/Colombie Britannique,Yale,Yale & Hope,BC190001,5,14,0.0,1.0,0,5
+Manitoba,Lisgar,Rockwood,MB185004,41,117,0.31382113821138213,0.6861788617886179,11,26
+Manitoba,Lisgar,St-Andrews,MB185003,26,81,0.038461538461538464,0.9615384615384616,1,25
+Manitoba,Lisgar,St-Clement,MB185002,25,68,0.04,0.96,1,24
+Manitoba,Lisgar,St-Paul,MB185001,1,5,1.0,0.0,1,0
+Manitoba,Marquette & Extension,Marquette/Extension (Baie-St-Paul),MB186011,9,30,0.2222222222222222,0.7777777777777778,2,7
+Manitoba,Marquette & Extension,Marquette/Extension (Burnside),MB186004,15,55,0.0,1.0,0,15
+Manitoba,Marquette & Extension,Marquette/Extension (Dufferin [North/Nord]),MB186007,30,82,0.0,1.0,0,30
+Manitoba,Marquette & Extension,Marquette/Extension (Dufferin [South/Sud]),MB186008,19,61,0.9736842105263158,0.0,18,0
+Manitoba,Marquette & Extension,Marquette/Extension (Eastern Extension),MB187001,17,47,0.29411764705882354,0.7058823529411765,5,12
+Manitoba,Marquette & Extension,Marquette/Extension (Gladstone),MB186001,14,53,0.8571428571428571,0.14285714285714285,12,2
+Manitoba,Marquette & Extension,Marquette/Extension (High Bluff & Poplar Point),MB186006,14,45,0.21428571428571427,0.7857142857142857,3,11
+Manitoba,Marquette & Extension,Marquette/Extension (Mountain),MB186003,40,123,0.25,0.75,10,30
+Manitoba,Marquette & Extension,Marquette/Extension (North Eastern Extension [Lake Winnipeg]),MB187002,2,3,0.0,1.0,0,2
+Manitoba,Marquette & Extension,Marquette/Extension (North Western Extension [Winnioegosis]),MB187003,6,14,0.16666666666666666,0.8333333333333334,1,5
+Manitoba,Marquette & Extension,Marquette/Extension (Portage),MB186005,22,57,0.18181818181818182,0.7727272727272727,4,17
+Manitoba,Marquette & Extension,Marquette/Extension (St-Francois-Xavier),MB186010,3,10,0.0,1.0,0,3
+Manitoba,Marquette & Extension,Marquette/Extension (Westbourne),MB186002,12,36,0.3333333333333333,0.6666666666666666,4,8
+Manitoba,Marquette & Extension,Marquette/Extension (Western Extension [Little Saskatchewan]),MB187004,130,334,0.1258974358974359,0.8741025641025642,15,111
+Manitoba,Marquette & Extension,Marquette/Extension (Western Extension [Turtle Mountain]),MB187005,35,95,0.05714285714285714,0.9428571428571428,2,33
+Manitoba,Marquette & Extension,Marquette/Extension (Woodlands),MB186012,28,84,0.03571428571428571,0.9642857142857143,1,27
+Manitoba,Provencher,Cartier,MB184006,3,14,0.0,1.0,0,3
+Manitoba,Provencher,Emerson,MB184003,26,77,0.04615384615384615,0.9538461538461539,1,24
+Manitoba,Provencher,Emerson (Town/Ville),MB184002,17,35,0.0,1.0,0,17
+Manitoba,Provencher,Laveyrandrye,MB184005,28,99,0.0,1.0,0,28
+Manitoba,Provencher,Morris (East/Est),MB184001,17,49,0.17647058823529413,0.7647058823529411,3,13
+Manitoba,Provencher,Ste-Agathe,MB184004,6,18,0.0,1.0,0,6
+Manitoba,Selkirk,Assiniboia,MB183001,14,61,0.07142857142857142,0.9285714285714286,1,13
+Manitoba,Selkirk,Kildonan,MB183002,3,12,0.0,1.0,0,3
+Manitoba,Selkirk,Springfield,MB183005,30,88,0.06666666666666667,0.9,2,27
+Manitoba,Selkirk,St-Boniface,MB183004,2,4,0.5,0.5,1,1
+Manitoba,Selkirk,Winnipeg,MB183003,76,190,0.013157894736842105,0.9868421052631579,1,75
+New Brunswick,Albert,Alma,NB023005,24,59,0.3333333333333333,0.6597222222222222,8,15
+New Brunswick,Albert,Coverdale,NB023001,19,59,0.05263157894736842,0.8947368421052632,1,17
+New Brunswick,Albert,Elgin,NB023006,30,116,0.58,0.35333333333333333,17,10
+New Brunswick,Albert,Harvey,NB023004,26,76,0.07692307692307693,0.9230769230769231,2,24
+New Brunswick,Albert,Hillsborough,NB023002,42,128,0.1865079365079365,0.8134920634920635,7,34
+New Brunswick,Albert,Hopewell,NB023003,40,117,0.2625,0.625,9,25
+New Brunswick,Carleton,Aberdeen,NB031008,14,50,0.07142857142857142,0.9285714285714286,1,13
+New Brunswick,Carleton,Brighton,NB031010,31,85,0.0,1.0,0,31
+New Brunswick,Carleton,Kent,NB031007,19,66,0.15789473684210525,0.8421052631578947,3,16
+New Brunswick,Carleton,Northhampton,NB031011,22,72,0.0,1.0,0,22
+New Brunswick,Carleton,Peel,NB031009,19,56,0.05263157894736842,0.9473684210526315,1,18
+New Brunswick,Carleton,Richmond,NB031002,29,82,0.09195402298850575,0.8908045977011494,2,25
+New Brunswick,Carleton,Simonds,NB031004,15,51,0.0,0.9333333333333333,0,14
+New Brunswick,Carleton,Wakefield,NB031003,16,31,0.25,0.75,4,12
+New Brunswick,Carleton,Wicklow,NB031006,25,73,0.0,0.98,0,24
+New Brunswick,Carleton,Wilmot,NB031005,29,91,0.0,1.0,0,29
+New Brunswick,Carleton,Woodstock,NB031001,5,15,0.2,0.8,1,4
+New Brunswick,Carleton,Woodstock,NB031012,11,23,0.0,1.0,0,11
+New Brunswick,Charlotte,Campobello,NB026017,10,27,0.175,0.825,1,8
+New Brunswick,Charlotte,Clarendon,NB026001,5,14,0.0,1.0,0,5
+New Brunswick,Charlotte,Deer Island,NB026016,12,40,0.0,1.0,0,12
+New Brunswick,Charlotte,Dufferin,NB026014,6,16,0.0,1.0,0,6
+New Brunswick,Charlotte,Dumbarton,NB026006,14,45,0.07142857142857142,0.9285714285714286,1,13
+New Brunswick,Charlotte,Grand Manan,NB026018,59,156,0.06497175141242938,0.9096045197740112,3,52
+New Brunswick,Charlotte,Lepreau,NB026002,3,4,0.0,1.0,0,3
+New Brunswick,Charlotte,Miltown (Town/Ville),NB026012,14,37,0.21428571428571427,0.75,3,10
+New Brunswick,Charlotte,Pennfield,NB026003,8,26,0.125,0.875,1,7
+New Brunswick,Charlotte,St Stephen (Town/Ville),NB026010,30,72,0.03333333333333333,0.9444444444444444,1,28
+New Brunswick,Charlotte,St Stephen (Town/Ville),NB026011,12,33,0.0,1.0,0,12
+New Brunswick,Charlotte,St-Andrews (Town/Ville),NB026007,19,61,0.18421052631578946,0.8157894736842105,3,15
+New Brunswick,Charlotte,St-David,NB026009,20,71,0.025,0.975,0,19
+New Brunswick,Charlotte,St-George (Town/Ville),NB026004,50,151,0.4,0.6,20,30
+New Brunswick,Charlotte,St-Patrick,NB026005,7,20,0.0,1.0,0,7
+New Brunswick,Charlotte,St. James,NB026015,21,75,0.14285714285714285,0.8571428571428571,3,18
+New Brunswick,Charlotte,Ste-Croix,NB026008,10,41,0.1,0.9,1,9
+New Brunswick,Charlotte,Upper Mills (Town/Ville),NB026013,2,6,0.0,1.0,0,2
+New Brunswick,Gloucester,Bathurst,NB036002,49,137,0.0,1.0,0,49
+New Brunswick,Gloucester,Beresford,NB036001,11,36,0.36363636363636365,0.6363636363636364,4,7
+New Brunswick,Gloucester,Caraquette,NB036006,2,3,0.0,1.0,0,2
+New Brunswick,Gloucester,Inkerman,NB036004,7,26,0.0,1.0,0,7
+New Brunswick,Gloucester,New Bandon,NB036003,8,36,0.25,0.75,2,6
+New Brunswick,Gloucester,Saumarez,NB036005,15,57,0.0,1.0,0,15
+New Brunswick,Gloucester,Shippegan,NB036007,13,57,0.07692307692307693,0.9230769230769231,1,12
+New Brunswick,Kent,Acadieville,NB034002,10,25,0.0,1.0,0,10
+New Brunswick,Kent,Carleton,NB034001,7,20,0.14285714285714285,0.8571428571428571,1,6
+New Brunswick,Kent,Dundas,NB034008,15,55,0.13333333333333333,0.8666666666666667,2,13
+New Brunswick,Kent,Harcourt & Huskisson,NB034009,16,55,0.0625,0.9375,1,15
+New Brunswick,Kent,Richibucto,NB034004,39,118,0.05128205128205128,0.9230769230769231,2,36
+New Brunswick,Kent,St-Louis,NB034003,13,57,0.0,1.0,0,13
+New Brunswick,Kent,St-Marys,NB034007,7,23,0.0,1.0,0,7
+New Brunswick,Kent,Weldford,NB034005,17,65,0.23529411764705882,0.7647058823529411,4,13
+New Brunswick,Kent,Wellington,NB034006,7,25,0.14285714285714285,0.8571428571428571,1,6
+New Brunswick,Kings,Cardwell,NB027013,15,52,0.06666666666666667,0.9333333333333333,1,14
+New Brunswick,Kings,Greenwich,NB027002,4,12,0.5,0.5,2,2
+New Brunswick,Kings,Hammond,NB027010,9,30,0.1111111111111111,0.8888888888888888,1,8
+New Brunswick,Kings,Hampton,NB027005,15,39,0.06666666666666667,0.9333333333333333,1,14
+New Brunswick,Kings,Havelock,NB027015,21,71,0.047619047619047616,0.9523809523809523,1,20
+New Brunswick,Kings,Kars,NB027006,7,25,0.0,1.0,0,7
+New Brunswick,Kings,Kingston,NB027003,20,63,0.09166666666666666,0.8083333333333333,1,15
+New Brunswick,Kings,Norton,NB027008,20,64,0.15,0.85,3,17
+New Brunswick,Kings,Rothsay,NB027004,23,53,0.02898550724637681,0.9492753623188406,0,21
+New Brunswick,Kings,Springfield,NB027007,15,37,0.13333333333333333,0.8666666666666667,2,13
+New Brunswick,Kings,Studholm,NB027014,50,143,0.28,0.6733333333333333,14,33
+New Brunswick,Kings,Sussex,NB027011,32,83,0.0625,0.9375,2,30
+New Brunswick,Kings,Upham,NB027009,30,101,0.1,0.8666666666666667,3,26
+New Brunswick,Kings,Waterford,NB027012,1,5,0.0,1.0,0,1
+New Brunswick,Kings,Westfield,NB027001,3,6,0.0,1.0,0,3
+New Brunswick,Northumberland,Blackville,NB035007,15,59,0.14666666666666667,0.8533333333333334,2,12
+New Brunswick,Northumberland,Blissfield,NB035006,13,47,0.019230769230769232,0.9807692307692307,0,12
+New Brunswick,Northumberland,Chatham,NB035010,81,221,0.13786008230452673,0.8497942386831275,10,68
+New Brunswick,Northumberland,Derby,NB035008,10,31,0.1,0.9,1,9
+New Brunswick,Northumberland,Glenelg,NB035011,10,37,0.016666666666666666,0.9833333333333334,0,9
+New Brunswick,Northumberland,Hardwicke,NB035012,14,54,0.0,1.0,0,14
+New Brunswick,Northumberland,Ludlow,NB035005,16,61,0.0625,0.9375,1,15
+New Brunswick,Northumberland,Nelson,NB035009,25,82,0.04,0.96,1,24
+New Brunswick,Northumberland,Newcastle,NB035002,53,147,0.08490566037735849,0.8962264150943396,4,47
+New Brunswick,Northumberland,Northesk,NB035003,14,56,0.0,1.0,0,14
+New Brunswick,Northumberland,Northumberland (Alnwick),NB035001,9,35,0.14814814814814814,0.8518518518518519,1,7
+New Brunswick,Northumberland,Southesk,NB035004,6,16,0.0,1.0,0,6
+New Brunswick,Queens,Brunswick,NB028009,18,56,0.0,1.0,0,18
+New Brunswick,Queens,Cambridge,NB028005,32,108,0.265625,0.703125,7,22
+New Brunswick,Queens,Canning,NB028006,9,30,0.3333333333333333,0.6666666666666666,3,6
+New Brunswick,Queens,Chipman,NB028010,29,92,0.034482758620689655,0.9655172413793104,1,28
+New Brunswick,Queens,Gagetown,NB028002,19,51,0.2736842105263158,0.7263157894736842,5,13
+New Brunswick,Queens,Hampstead,NB028003,13,38,0.038461538461538464,0.9615384615384616,0,12
+New Brunswick,Queens,Johnston,NB028008,23,69,0.08695652173913043,0.9130434782608695,2,21
+New Brunswick,Queens,Petersville,NB028001,13,49,0.17307692307692307,0.8269230769230769,2,10
+New Brunswick,Queens,Waterborough,NB028007,6,17,0.8333333333333334,0.16666666666666666,5,1
+New Brunswick,Queens,Wickham,NB028004,11,25,0.8181818181818182,0.18181818181818182,9,2
+New Brunswick,Restigouche,Addington,NB037002,18,48,0.0,1.0,0,18
+New Brunswick,Restigouche,Colborne,NB037004,6,22,0.16666666666666666,0.8333333333333334,1,5
+New Brunswick,Restigouche,Dalhousie,NB037003,12,41,0.3333333333333333,0.6547619047619048,4,7
+New Brunswick,Restigouche,Durham,NB037005,13,46,0.0,1.0,0,13
+New Brunswick,Restigouche,Eldon,NB037001,2,10,1.0,0.0,2,0
+New Brunswick,Saint John,Lancaster,NB025001,52,161,0.038461538461538464,0.9615384615384616,2,50
+New Brunswick,Saint John,Musquash,NB025002,17,44,0.0,0.9411764705882353,0,16
+New Brunswick,Saint John,Portland (Town/Ville) Ward/Quartier No.1,NB025003,5,10,0.0,0.8,0,4
+New Brunswick,Saint John,Portland (Town/Ville) Ward/Quartier No.2,NB025004,61,175,0.07650273224043715,0.907103825136612,4,55
+New Brunswick,Saint John,Portland (Town/Ville) Ward/Quartier No.3,NB025005,68,178,0.04411764705882353,0.9558823529411765,3,65
+New Brunswick,Saint John,Portland (Town/Ville) Ward/Quartier No.4,NB025006,49,122,0.02040816326530612,0.9795918367346939,1,48
+New Brunswick,Saint John,Portland (Town/Ville) Ward/Quartier No.5,NB025007,11,33,0.0,1.0,0,11
+New Brunswick,Saint John,Simond's,NB025008,27,77,0.0,1.0,0,27
+New Brunswick,Saint John,St-Martins,NB025009,32,95,0.3125,0.6875,10,22
+New Brunswick,Saint John (City/Ville),Albert (Ward/Quarter),NB024008,12,38,0.625,0.375,7,4
+New Brunswick,Saint John (City/Ville),Brooks (Ward/Quarter),NB024007,25,53,0.2,0.8,5,20
+New Brunswick,Saint John (City/Ville),Duke (Ward/Quarter),NB024005,42,102,0.2857142857142857,0.6904761904761905,12,29
+New Brunswick,Saint John (City/Ville),Guy (Ward/Quarter),NB024009,12,34,0.9166666666666666,0.08333333333333333,11,1
+New Brunswick,Saint John (City/Ville),Kings (Ward/Quarter),NB024003,17,45,0.29411764705882354,0.7058823529411765,5,12
+New Brunswick,Saint John (City/Ville),Prince (Ward/Quarter),NB024001,28,76,0.0,1.0,0,28
+New Brunswick,Saint John (City/Ville),Queens (Ward/Quarter),NB024004,12,37,0.2333333333333333,0.7666666666666666,2,9
+New Brunswick,Saint John (City/Ville),Sydney (Ward/Quarter),NB024006,32,84,0.0625,0.90625,2,29
+New Brunswick,Saint John (City/Ville),Wellington (Ward/Quarter),NB024002,46,132,0.021739130434782608,0.9782608695652174,1,45
+New Brunswick,Sunbury,Blissville,NB029001,18,62,0.06349206349206349,0.9365079365079365,1,16
+New Brunswick,Sunbury,Burton,NB029004,6,15,0.3333333333333333,0.6666666666666666,2,4
+New Brunswick,Sunbury,Gladstone,NB029002,3,14,0.0,1.0,0,3
+New Brunswick,Sunbury,Lincoln,NB029003,10,40,0.0,1.0,0,10
+New Brunswick,Sunbury,Maugerville,NB029007,3,10,0.3333333333333333,0.6666666666666666,1,2
+New Brunswick,Sunbury,Northfield,NB029006,8,23,0.5,0.5,4,4
+New Brunswick,Sunbury,Sheffield,NB029005,8,22,0.0,1.0,0,8
+New Brunswick,Victoria,Andover,NB032010,4,13,0.25,0.75,1,3
+New Brunswick,Victoria,Drummond,NB032009,32,95,0.03125,0.96875,1,31
+New Brunswick,Victoria,Gordon,NB032012,22,72,0.1212121212121212,0.8446969696969696,1,18
+New Brunswick,Victoria,Grand Falls,NB032008,31,100,0.03225806451612903,0.967741935483871,1,30
+New Brunswick,Victoria,Lorne,NB032013,7,23,0.5714285714285714,0.42857142857142855,4,3
+New Brunswick,Victoria,Madawaska,NB032003,4,9,0.25,0.75,1,3
+New Brunswick,Victoria,Perth,NB032011,16,62,0.65625,0.34375,10,5
+New Brunswick,Victoria,St-Ann,NB032006,1,1,0.0,1.0,0,1
+New Brunswick,Victoria,St-Leonard,NB032007,4,16,0.25,0.5833333333333333,1,2
+New Brunswick,Victoria,St. Francis,NB032001,1,3,1.0,0.0,1,0
+New Brunswick,Victoria,St. Hilaire,NB032002,2,5,0.5,0.5,1,1
+New Brunswick,Victoria,St. Jacques,NB032004,2,6,0.0,1.0,0,2
+New Brunswick,Westmorland,Botsford,NB033004,29,95,0.10344827586206896,0.896551724137931,3,26
+New Brunswick,Westmorland,Dorchester,NB033001,35,94,0.04,0.9600000000000001,1,33
+New Brunswick,Westmorland,Moncton,NB033007,51,149,0.058823529411764705,0.9411764705882353,3,48
+New Brunswick,Westmorland,Moncton (Town/Ville),NB033006,58,165,0.06896551724137931,0.9310344827586207,4,54
+New Brunswick,Westmorland,Sackville,NB033002,39,131,0.15384615384615385,0.8461538461538461,6,33
+New Brunswick,Westmorland,Salisbury,NB033008,59,201,0.05084745762711865,0.9491525423728814,3,56
+New Brunswick,Westmorland,Shediac,NB033005,25,76,0.04,0.96,1,24
+New Brunswick,Westmorland,Westmorland,NB033003,17,57,0.058823529411764705,0.9411764705882353,1,16
+New Brunswick,York,Bright,NB030015,7,21,0.0,1.0,0,7
+New Brunswick,York,Canterbury,NB030011,13,33,0.15384615384615385,0.8461538461538461,2,11
+New Brunswick,York,Douglass,NB030016,46,134,0.08695652173913043,0.9130434782608695,4,42
+New Brunswick,York,Dumfries,NB030010,3,13,0.0,1.0,0,3
+New Brunswick,York,Fredericton (City/Ville) Carleton (Ward/Quartier),NB030003,21,63,0.011904761904761904,0.9880952380952381,0,20
+New Brunswick,York,Fredericton (City/Ville) Kings (Ward/Quartier),NB030005,15,52,0.08888888888888888,0.9111111111111111,1,13
+New Brunswick,York,Fredericton (City/Ville) Queens (Ward/Quartier),NB030004,17,49,0.11764705882352941,0.8823529411764706,2,15
+New Brunswick,York,Fredericton (City/Ville) St-Ann(Ward/Quartier),NB030002,12,31,0.0,1.0,0,12
+New Brunswick,York,Fredericton (City/Ville) Wellington(Ward/Quartier),NB030001,9,25,0.0,1.0,0,9
+New Brunswick,York,Kingsclear,NB030008,5,7,0.6,0.4,3,2
+New Brunswick,York,Manners-Sutton,NB030007,20,65,0.9375,0.0125,18,0
+New Brunswick,York,New Maryland,NB030006,5,13,0.2,0.8,1,4
+New Brunswick,York,Prince William,NB030009,7,25,0.023809523809523808,0.9761904761904763,0,6
+New Brunswick,York,Southampton,NB030013,16,57,0.0625,0.90625,1,14
+New Brunswick,York,St-Marys,NB030018,35,86,0.08571428571428572,0.9142857142857143,3,32
+New Brunswick,York,Stanley,NB030017,40,158,0.0,1.0,0,40
+Nova Scotia,Annapolis,Annapolis Royal,NS016010,42,128,0.07142857142857142,0.9285714285714286,3,39
+Nova Scotia,Annapolis,Belisle,NS016005,2,9,0.0,1.0,0,2
+Nova Scotia,Annapolis,Bridgetown,NS016004,4,14,0.5,0.5,2,2
+Nova Scotia,Annapolis,Broad Cove,NS016007,14,37,0.0,1.0,0,14
+Nova Scotia,Annapolis,Carleton Corner,NS016011,12,39,0.0,1.0,0,12
+Nova Scotia,Annapolis,Clarence,NS016003,8,22,0.125,0.875,1,7
+Nova Scotia,Annapolis,Clementsport,NS016008,8,27,0.0,1.0,0,8
+Nova Scotia,Annapolis,Dalhousie,NS016013,7,20,0.0,1.0,0,7
+Nova Scotia,Annapolis,Hessian Line,NS016009,6,22,0.16666666666666666,0.8333333333333334,1,5
+Nova Scotia,Annapolis,Maitland,NS016015,14,56,0.0,1.0,0,14
+Nova Scotia,Annapolis,Middleton Corner,NS016002,21,56,0.0,1.0,0,21
+Nova Scotia,Annapolis,Morse Road,NS016014,6,21,0.0,1.0,0,6
+Nova Scotia,Annapolis,New Caledonia,NS016006,23,60,0.0,1.0,0,23
+Nova Scotia,Annapolis,Nictaux,NS016012,10,31,0.36666666666666664,0.6333333333333333,3,6
+Nova Scotia,Annapolis,Wilmot,NS016001,52,139,0.057692307692307696,0.9423076923076923,3,49
+Nova Scotia,Antigonish,Antigonish,NS021003,31,106,0.03225806451612903,0.967741935483871,1,30
+Nova Scotia,Antigonish,Arisaig,NS021004,2,15,0.0,1.0,0,2
+Nova Scotia,Antigonish,Cape George,NS021005,2,4,0.0,1.0,0,2
+Nova Scotia,Antigonish,Harbour Boucher,NS021010,14,52,0.14285714285714285,0.8571428571428571,2,12
+Nova Scotia,Antigonish,Heatherton,NS021008,11,45,0.2878787878787879,0.7121212121212122,3,7
+Nova Scotia,Antigonish,Lochaber,NS021002,2,5,0.0,1.0,0,2
+Nova Scotia,Antigonish,Morristown,NS021006,4,5,0.0,1.0,0,4
+Nova Scotia,Antigonish,St-Andrew's,NS021007,3,8,0.0,1.0,0,3
+Nova Scotia,Antigonish,St. Joseph's,NS021011,1,1,0.0,1.0,0,1
+Nova Scotia,Antigonish,Tracadie,NS021009,7,26,0.0,1.0,0,7
+Nova Scotia,Antigonish,Upper South River,NS021001,1,4,0.0,1.0,0,1
+Nova Scotia,Cape Breton,Ball's Creek,NS006005,19,56,0.05263157894736842,0.9473684210526315,1,18
+Nova Scotia,Cape Breton,Boulardrie,NS006003,12,47,0.08333333333333333,0.9166666666666666,1,11
+Nova Scotia,Cape Breton,Catalone,NS006012,3,15,0.6666666666666666,0.3333333333333333,2,1
+Nova Scotia,Cape Breton,Cow Bay,NS006013,19,57,0.10526315789473684,0.8947368421052632,2,17
+Nova Scotia,Cape Breton,East Bay North,NS006006,2,6,0.5,0.0,1,0
+Nova Scotia,Cape Breton,Gabarus,NS006014,12,27,0.08333333333333333,0.9166666666666666,1,11
+Nova Scotia,Cape Breton,Grand Mira,NS006015,2,5,0.0,1.0,0,2
+Nova Scotia,Cape Breton,Grand Narrows,NS006001,1,1,0.0,1.0,0,1
+Nova Scotia,Cape Breton,Lingan,NS006009,68,232,0.04411764705882353,0.9411764705882353,3,64
+Nova Scotia,Cape Breton,Louisburg,NS006011,12,30,0.25,0.75,3,9
+Nova Scotia,Cape Breton,Main-a-Dieu,NS006010,14,55,0.0,1.0,0,14
+Nova Scotia,Cape Breton,North Mira,NS006018,5,14,0.4666666666666666,0.5333333333333333,2,2
+Nova Scotia,Cape Breton,Sydney,NS006016,39,141,0.10256410256410256,0.8974358974358975,4,35
+Nova Scotia,Cape Breton,Sydney (North/Nord),NS006004,84,293,0.3650793650793651,0.6170634920634921,30,50
+Nova Scotia,Colchester,Brookfield Corner,NS019016,22,63,0.09090909090909091,0.9090909090909091,2,20
+Nova Scotia,Colchester,Clifton,NS019015,13,39,0.15384615384615385,0.8461538461538461,2,11
+Nova Scotia,Colchester,Earlton,NS019011,6,16,0.0,1.0,0,6
+Nova Scotia,Colchester,Economy,NS019002,11,39,0.07575757575757576,0.9242424242424242,0,10
+Nova Scotia,Colchester,Five Islands,NS019001,15,44,0.06666666666666667,0.9333333333333333,1,14
+Nova Scotia,Colchester,Kemptown,NS019012,5,21,0.2,0.8,1,4
+Nova Scotia,Colchester,Londonderry (Lower),NS019003,35,102,0.047619047619047616,0.9523809523809524,1,33
+Nova Scotia,Colchester,Londonderry (Middle),NS019004,23,72,0.4782608695652174,0.5217391304347826,11,12
+Nova Scotia,Colchester,Londonderry (Upper),NS019005,24,85,0.034722222222222224,0.9652777777777778,0,23
+Nova Scotia,Colchester,New Annan,NS019008,2,7,1.0,0.0,2,0
+Nova Scotia,Colchester,North River,NS019007,22,66,0.045454545454545456,0.9545454545454546,1,21
+Nova Scotia,Colchester,Onslow (Lower),NS019006,12,47,0.0,1.0,0,12
+Nova Scotia,Colchester,Salmon River,NS019013,21,75,0.0,1.0,0,21
+Nova Scotia,Colchester,Stewiacke (Lower),NS019017,20,65,0.125,0.875,2,17
+Nova Scotia,Colchester,Stewiacke (Upper),NS019019,28,86,0.10714285714285714,0.875,3,24
+Nova Scotia,Colchester,Tatamagouche,NS019009,22,72,0.0,1.0,0,22
+Nova Scotia,Colchester,Truro (Town/Ville),NS019014,58,168,0.017241379310344827,0.9827586206896551,1,57
+Nova Scotia,Colchester,Waugh's River,NS019010,8,20,0.0,1.0,0,8
+Nova Scotia,Cumberland,Advocate Harbour,NS022011,5,12,0.2,0.8,1,4
+Nova Scotia,Cumberland,Amherst,NS022001,32,103,0.0625,0.9375,2,30
+Nova Scotia,Cumberland,Amherst Shore,NS022002,15,54,0.4,0.5833333333333334,6,8
+Nova Scotia,Cumberland,Maccon,NS022009,39,111,0.11538461538461539,0.8846153846153846,4,34
+Nova Scotia,Cumberland,Mills (Village),NS022013,33,88,0.030303030303030304,0.9621212121212122,1,31
+Nova Scotia,Cumberland,Parrsborough Shore,NS022012,14,46,0.5,0.5,7,7
+Nova Scotia,Cumberland,Pugwash,NS022003,28,84,0.14285714285714285,0.8214285714285714,4,23
+Nova Scotia,Cumberland,River Herbert,NS022010,12,35,0.17708333333333334,0.8229166666666666,2,9
+Nova Scotia,Cumberland,River Philip,NS022008,19,49,0.10526315789473684,0.8947368421052632,2,17
+Nova Scotia,Cumberland,Victoria Cross Road,NS022007,7,25,0.0,1.0,0,7
+Nova Scotia,Cumberland,Wallace,NS022004,24,72,0.08333333333333333,0.875,2,21
+Nova Scotia,Cumberland,Wentworth,NS022005,13,43,0.16483516483516483,0.7728937728937729,2,9
+Nova Scotia,Cumberland,Westchester,NS022006,29,87,0.06896551724137931,0.896551724137931,2,26
+Nova Scotia,Digby,Church Point,NS015010,10,26,0.0,1.0,0,10
+Nova Scotia,Digby,Digby,NS015003,16,55,0.3125,0.6875,5,11
+Nova Scotia,Digby,Freeport,NS015005,9,39,0.0,1.0,0,9
+Nova Scotia,Digby,Hillsburgh,NS015001,6,18,0.5,0.5,3,3
+Nova Scotia,Digby,Marshall (Town/Ville),NS015002,9,29,0.4444444444444444,0.5555555555555556,4,5
+Nova Scotia,Digby,Metighan,NS015011,8,13,0.125,0.75,1,6
+Nova Scotia,Digby,New Tusket,NS015014,5,25,0.2,0.8,1,4
+Nova Scotia,Digby,Plympton,NS015007,7,29,0.0,0.8571428571428571,0,6
+Nova Scotia,Digby,Rossway,NS015015,1,6,0.0,1.0,0,1
+Nova Scotia,Digby,Salmon River,NS015012,7,22,0.0,1.0,0,7
+Nova Scotia,Digby,Sandy Cove,NS015004,4,7,1.0,0.0,4,0
+Nova Scotia,Digby,Smith's Cove,NS015016,10,34,0.7,0.3,7,3
+Nova Scotia,Digby,St-Bernards,NS015009,5,13,0.2,0.8,1,4
+Nova Scotia,Digby,Tiverton,NS015013,6,21,0.6666666666666666,0.3333333333333333,4,2
+Nova Scotia,Digby,Westport,NS015006,2,9,1.0,0.0,2,0
+Nova Scotia,Digby,Weymouth,NS015008,11,38,0.18181818181818182,0.7272727272727273,2,8
+Nova Scotia,Guysborough,Caledonia,NS008009,5,14,0.2,0.8,1,4
+Nova Scotia,Guysborough,Cape Canso,NS008003,29,90,0.034482758620689655,0.9655172413793104,1,28
+Nova Scotia,Guysborough,Country  Harbour,NS008005,5,8,0.2,0.8,1,4
+Nova Scotia,Guysborough,Crow Harbour,NS008002,4,7,1.0,0.0,4,0
+Nova Scotia,Guysborough,Goshen & Giant's Lake,NS008016,3,10,0.3333333333333333,0.6666666666666666,1,2
+Nova Scotia,Guysborough,Guysborough,NS008001,8,26,0.7916666666666666,0.20833333333333331,6,1
+Nova Scotia,Guysborough,Guysborough Intervale,NS008013,11,37,0.18181818181818182,0.8181818181818182,2,9
+Nova Scotia,Guysborough,Indian Harbour,NS008006,12,36,0.875,0.125,10,1
+Nova Scotia,Guysborough,Isaac's Harbour,NS008019,9,25,0.6111111111111112,0.3888888888888889,5,3
+Nova Scotia,Guysborough,Larry's River,NS008018,4,11,0.0,1.0,0,4
+Nova Scotia,Guysborough,Manchester,NS008011,12,33,0.16666666666666666,0.8333333333333334,2,10
+Nova Scotia,Guysborough,Maria Joseph,NS008008,12,32,0.0,1.0,0,12
+Nova Scotia,Guysborough,Milford,NS008014,28,90,0.10714285714285714,0.8928571428571429,3,25
+Nova Scotia,Guysborough,Salmon river,NS008012,2,5,0.5,0.5,1,1
+Nova Scotia,Guysborough,Sherbrooke,NS008007,17,78,0.00980392156862745,0.9313725490196079,0,15
+Nova Scotia,Guysborough,St-Marie (Forks of),NS008010,13,38,0.0,1.0,0,13
+Nova Scotia,Guysborough,Tracadie,NS008017,2,9,1.0,0.0,2,0
+Nova Scotia,Guysborough,White Haven,NS008004,8,24,0.375,0.625,3,5
+Nova Scotia,Halifax,Black Point,NS010010,32,99,0.0,1.0,0,32
+Nova Scotia,Halifax,Chezzetcook,NS010020,15,44,0.06666666666666667,0.9333333333333333,1,14
+Nova Scotia,Halifax,Dartmouth,NS010014,29,83,0.1724137931034483,0.8275862068965517,5,24
+Nova Scotia,Halifax,Dartmouth (Town),NS010013,71,214,0.014084507042253521,0.971830985915493,1,69
+Nova Scotia,Halifax,Drysdale's Cove,NS010007,5,16,0.0,1.0,0,5
+Nova Scotia,Halifax,Eastern Passage,NS010017,15,56,0.0,1.0,0,15
+Nova Scotia,Halifax,Ferguson's Cove,NS010002,9,30,0.0,1.0,0,9
+Nova Scotia,Halifax,French Village,NS010009,13,34,0.15384615384615385,0.8461538461538461,2,11
+Nova Scotia,Halifax,Gay's River,NS010031,18,55,0.16666666666666666,0.8333333333333334,3,15
+Nova Scotia,Halifax,Haggett's Cove,NS010008,40,116,0.05,0.95,2,38
+Nova Scotia,Halifax,Hammond's Plains,NS010011,5,13,0.0,1.0,0,5
+Nova Scotia,Halifax,Jeddore,NS010022,13,46,0.10769230769230768,0.8923076923076922,1,11
+Nova Scotia,Halifax,Lawrencetown,NS010019,13,37,0.0,1.0,0,13
+Nova Scotia,Halifax,Little River,NS010029,4,14,0.0,1.0,0,4
+Nova Scotia,Halifax,Lower Prospect,NS010005,11,19,0.0,1.0,0,11
+Nova Scotia,Halifax,Musquodoboit (Middle),NS010028,18,51,0.0,1.0,0,18
+Nova Scotia,Halifax,Musquodoboit (Upper),NS010027,23,75,0.043478260869565216,0.9565217391304348,1,22
+Nova Scotia,Halifax,Musquodoboit Harbour,NS010021,13,47,0.0,1.0,0,13
+Nova Scotia,Halifax,Nicumteouch,NS010026,8,21,0.0,1.0,0,8
+Nova Scotia,Halifax,North West Arm,NS010001,13,40,0.07692307692307693,0.9230769230769231,1,12
+Nova Scotia,Halifax,Piers Mills,NS010012,8,29,0.125,0.875,1,7
+Nova Scotia,Halifax,Pope's Harbour,NS010023,35,121,0.0,1.0,0,35
+Nova Scotia,Halifax,Portuguese Cove,NS010003,9,37,0.0,1.0,0,9
+Nova Scotia,Halifax,Preston,NS010018,1,6,0.0,1.0,0,1
+Nova Scotia,Halifax,Salmon River,NS010025,15,48,0.0,1.0,0,15
+Nova Scotia,Halifax,Sambro,NS010004,3,10,0.0,1.0,0,3
+Nova Scotia,Halifax,Sheet Harbour,NS010024,12,40,0.16666666666666666,0.8333333333333334,2,10
+Nova Scotia,Halifax,Truro Road,NS010016,2,7,1.0,0.0,2,0
+Nova Scotia,Halifax,Upper Prospect,NS010006,31,93,0.0,1.0,0,31
+Nova Scotia,Halifax,Windsor Road,NS010015,18,69,0.027777777777777776,0.9722222222222222,0,17
+Nova Scotia,Halifax,Wyse's Corner,NS010030,9,34,0.0,1.0,0,9
+Nova Scotia,Halifax (City/Ville),Ward/Quartier No. 1,NS009001,71,198,0.02112676056338028,0.976525821596244,1,68
+Nova Scotia,Halifax (City/Ville),Ward/Quartier No. 2,NS009002,47,122,0.02127659574468085,0.9361702127659575,1,44
+Nova Scotia,Halifax (City/Ville),Ward/Quartier No. 3,NS009003,38,109,0.18421052631578946,0.7894736842105263,7,30
+Nova Scotia,Halifax (City/Ville),Ward/Quartier No. 4,NS009004,22,63,0.36363636363636365,0.6363636363636364,8,14
+Nova Scotia,Halifax (City/Ville),Ward/Quartier No. 5 (1),NS009005,66,160,0.06060606060606061,0.9393939393939394,4,62
+Nova Scotia,Halifax (City/Ville),Ward/Quartier No. 5 (2),NS009006,185,499,0.0891891891891892,0.9054054054054054,15,166
+Nova Scotia,Halifax (City/Ville),Ward/Quartier No. 6,NS009007,67,200,0.07462686567164178,0.9253731343283582,5,62
+Nova Scotia,Hants,Brooklyn,NS018006,15,49,0.13333333333333333,0.8666666666666667,2,13
+Nova Scotia,Hants,Falmouth,NS018002,11,29,0.6818181818181818,0.3181818181818182,7,3
+Nova Scotia,Hants,Gore,NS018009,20,81,0.025,0.95,0,18
+Nova Scotia,Hants,Hantsport,NS018001,5,15,0.2,0.8,1,4
+Nova Scotia,Hants,Maitland,NS018012,43,142,0.32945736434108525,0.6472868217054263,14,27
+Nova Scotia,Hants,Nine Mile River,NS018010,9,41,0.0,0.9047619047619047,0,8
+Nova Scotia,Hants,Noel,NS018013,30,81,0.1,0.9,3,27
+Nova Scotia,Hants,Rawdon (North/Nord),NS018016,8,21,0.9375,0.0625,7,0
+Nova Scotia,Hants,Rawdon (South/Sud),NS018008,16,41,0.0625,0.9375,1,15
+Nova Scotia,Hants,Scotch (Village),NS018007,28,95,0.03571428571428571,0.9642857142857143,1,27
+Nova Scotia,Hants,Shubenacadie,NS018011,20,76,0.175,0.825,3,16
+Nova Scotia,Hants,Ste. Croix,NS018005,11,34,0.4242424242424242,0.5454545454545454,4,6
+Nova Scotia,Hants,Walton,NS018014,17,55,0.17647058823529413,0.8235294117647058,3,14
+Nova Scotia,Hants,Windsor (Town/Ville),NS018003,28,80,0.42857142857142855,0.5535714285714286,12,15
+Nova Scotia,Hants,Windsor Forks,NS018004,10,32,0.1,0.9,1,9
+Nova Scotia,Inverness,Cheticamp,NS004013,2,5,0.5,0.5,1,1
+Nova Scotia,Inverness,East Lake Ainslie,NS004016,1,6,1.0,0.0,1,0
+Nova Scotia,Inverness,Glencoe,NS004007,8,25,0.0,1.0,0,8
+Nova Scotia,Inverness,Hastings,NS004001,16,50,0.0625,0.875,1,14
+Nova Scotia,Inverness,Judique,NS004005,1,2,0.0,1.0,0,1
+Nova Scotia,Inverness,Mabou,NS004008,13,44,0.0,1.0,0,13
+Nova Scotia,Inverness,Margaree Harbour,NS004012,9,37,0.4444444444444444,0.5555555555555556,4,5
+Nova Scotia,Inverness,North Mountain,NS004003,1,1,1.0,0.0,1,0
+Nova Scotia,Inverness,North-East Margaree,NS004014,16,51,0.0,1.0,0,16
+Nova Scotia,Inverness,Port Hood,NS004006,14,57,0.0,1.0,0,14
+Nova Scotia,Inverness,River Dennis,NS004004,1,1,1.0,0.0,1,0
+Nova Scotia,Inverness,River Inhabitants,NS004002,1,4,0.0,1.0,0,1
+Nova Scotia,Inverness,Whycocomagh,NS004017,3,7,0.6666666666666666,0.3333333333333333,2,1
+Nova Scotia,Inverness,Young's Bridge,NS004015,5,20,0.0,1.0,0,5
+Nova Scotia,Kings,Aylesford (North/Nord),NS017012,15,41,0.2,0.8,3,12
+Nova Scotia,Kings,Aylesford (South/Sud),NS017010,23,76,0.5652173913043478,0.43478260869565216,13,10
+Nova Scotia,Kings,Berwick,NS017013,19,63,0.10526315789473684,0.8947368421052632,2,17
+Nova Scotia,Kings,Canard,NS017002,9,25,0.3333333333333333,0.6666666666666666,3,6
+Nova Scotia,Kings,Canning,NS017001,49,160,0.6581632653061225,0.34183673469387754,32,16
+Nova Scotia,Kings,Centreville,NS017003,18,59,0.1111111111111111,0.8888888888888888,2,16
+Nova Scotia,Kings,Dalhousie,NS017011,3,9,0.0,1.0,0,3
+Nova Scotia,Kings,Gaspereau,NS017007,15,46,0.13333333333333333,0.8666666666666667,2,13
+Nova Scotia,Kings,Harbourville,NS017014,28,88,0.6428571428571429,0.35714285714285715,18,10
+Nova Scotia,Kings,Kentville,NS017006,29,82,0.13793103448275862,0.8620689655172413,4,25
+Nova Scotia,Kings,Lakeville,NS017004,22,67,0.0,1.0,0,22
+Nova Scotia,Kings,Lower Horton,NS017009,13,54,0.6923076923076923,0.3076923076923077,9,4
+Nova Scotia,Kings,Somerset,NS017005,4,16,0.5,0.5,2,2
+Nova Scotia,Kings,Wolfville,NS017008,18,70,0.4444444444444444,0.5555555555555556,8,10
+Nova Scotia,Lunenburg,Bayswater,NS011011,13,38,0.07692307692307693,0.9230769230769231,1,12
+Nova Scotia,Lunenburg,Block House,NS011003,42,94,0.19047619047619047,0.7857142857142857,8,33
+Nova Scotia,Lunenburg,Bridgewater,NS011009,54,148,0.07407407407407407,0.9259259259259259,4,50
+Nova Scotia,Lunenburg,Chester,NS011006,11,33,0.2727272727272727,0.7272727272727273,3,8
+Nova Scotia,Lunenburg,Conqueral Bank,NS011013,10,29,0.0,1.0,0,10
+Nova Scotia,Lunenburg,Lunenburg,NS011001,54,151,0.018518518518518517,0.9814814814814815,1,53
+Nova Scotia,Lunenburg,Mill Cove,NS011012,11,36,0.0,1.0,0,11
+Nova Scotia,Lunenburg,New Germany,NS011005,43,134,0.046511627906976744,0.9534883720930233,2,41
+Nova Scotia,Lunenburg,New Ross,NS011007,4,13,0.5,0.5,2,2
+Nova Scotia,Lunenburg,Petit Riviere,NS011008,22,44,0.14545454545454548,0.8545454545454546,3,18
+Nova Scotia,Lunenburg,Ritchy's Cove,NS011002,9,35,0.0,1.0,0,9
+Nova Scotia,Lunenburg,Summerside,NS011004,18,62,0.16666666666666666,0.8333333333333334,3,15
+Nova Scotia,Lunenburg,Tancook,NS011010,9,30,0.0,1.0,0,9
+Nova Scotia,Pictou,Albion Mines,NS020015,26,96,0.0,1.0,0,26
+Nova Scotia,Pictou,Barney's River,NS020023,3,14,0.0,1.0,0,3
+Nova Scotia,Pictou,Cape John,NS020004,11,34,0.0,1.0,0,11
+Nova Scotia,Pictou,Cariboo,NS020005,4,9,0.5,0.5,2,2
+Nova Scotia,Pictou,French River,NS020026,2,6,0.0,1.0,0,2
+Nova Scotia,Pictou,Gainloch,NS020011,2,6,0.0,1.0,0,2
+Nova Scotia,Pictou,Hardwood Hill,NS020008,4,19,0.05,0.95,0,3
+Nova Scotia,Pictou,Hopewell,NS020014,6,19,0.16666666666666666,0.6666666666666666,1,4
+Nova Scotia,Pictou,Little Harbour,NS020018,2,7,0.0,1.0,0,2
+Nova Scotia,Pictou,McLennan's Mountain,NS020019,20,72,0.1,0.9,2,18
+Nova Scotia,Pictou,Middle River,NS020013,3,8,0.0,1.0,0,3
+Nova Scotia,Pictou,Mount Thorn,NS020001,1,3,0.0,1.0,0,1
+Nova Scotia,Pictou,New Glasgow,NS020017,4,12,0.25,0.75,1,3
+Nova Scotia,Pictou,New Glasgow (Town/Ville),NS020016,33,93,0.06060606060606061,0.9393939393939394,2,31
+Nova Scotia,Pictou,Pictou,NS020007,9,34,0.1111111111111111,0.8888888888888888,1,8
+Nova Scotia,Pictou,Pictou (Town/Ville),NS020006,55,153,0.01818181818181818,0.9818181818181818,1,54
+Nova Scotia,Pictou,River John,NS020003,5,15,0.2,0.5666666666666667,1,2
+Nova Scotia,Pictou,River John (West Branch),NS020002,2,10,0.0,1.0,0,2
+Nova Scotia,Pictou,Roger's Hill,NS020009,2,7,0.0,1.0,0,2
+Nova Scotia,Pictou,St-Mary's and Garden of Eden,NS020021,2,3,0.0,1.0,0,2
+Nova Scotia,Pictou,West River & Greenhill,NS020010,2,7,0.0,1.0,0,2
+Nova Scotia,Pictou,Westville,NS020025,35,124,0.0,1.0,0,35
+Nova Scotia,Queens,Local District No. 1 Liverpool,NS012001,21,63,0.047619047619047616,0.9523809523809523,1,20
+Nova Scotia,Queens,Local District No. 10 Greenfield,NS012010,10,34,0.0,1.0,0,10
+Nova Scotia,Queens,Local District No. 11 Brookfield,NS012011,8,20,0.0,1.0,0,8
+Nova Scotia,Queens,Local District No. 12 Caledonia,NS012012,7,25,0.0,1.0,0,7
+Nova Scotia,Queens,Local District No. 13 Kempt,NS012013,6,20,0.0,1.0,0,6
+Nova Scotia,Queens,Local District No. 2 Liverpool,NS012002,21,59,0.09523809523809523,0.8928571428571429,2,18
+Nova Scotia,Queens,Local District No. 3 Hunt's Point,NS012003,6,17,0.3333333333333333,0.6666666666666666,2,4
+Nova Scotia,Queens,Local District No. 4 Port Mouton,NS012004,17,52,0.0,0.9411764705882353,0,16
+Nova Scotia,Queens,Local District No. 5 Milton and Bristol,NS012005,9,28,0.7777777777777778,0.2222222222222222,7,2
+Nova Scotia,Queens,Local District No. 6 Brooklyn and Bristol,NS012006,10,25,0.1,0.9,1,9
+Nova Scotia,Queens,Local District No. 7 Eagle Head,NS012007,7,25,0.0,1.0,0,7
+Nova Scotia,Queens,Local District No. 8 Port Medway,NS012008,19,51,0.21052631578947367,0.7894736842105263,4,15
+Nova Scotia,Queens,Local District No. 9 Mill Village,NS012009,11,19,0.6363636363636364,0.36363636363636365,7,4
+Nova Scotia,Richmond,Arichat,NS007001,12,27,0.08333333333333333,0.9166666666666666,1,11
+Nova Scotia,Richmond,Arichat West,NS007011,3,9,0.6666666666666666,0.3333333333333333,2,1
+Nova Scotia,Richmond,Black River,NS007005,3,5,0.0,1.0,0,3
+Nova Scotia,Richmond,D'Escousse,NS007003,3,14,0.0,1.0,0,3
+Nova Scotia,Richmond,Forchu,NS007013,2,10,0.0,1.0,0,2
+Nova Scotia,Richmond,L'Ardoise,NS007010,12,44,0.08333333333333333,0.9166666666666666,1,11
+Nova Scotia,Richmond,Petit de Grat,NS007002,15,54,0.0,1.0,0,15
+Nova Scotia,Richmond,Red Island,NS007008,2,7,0.0,1.0,0,2
+Nova Scotia,Richmond,River Bourgeois,NS007006,1,2,1.0,0.0,1,0
+Nova Scotia,Richmond,River Inhabitants,NS007004,11,50,0.2727272727272727,0.7272727272727273,3,8
+Nova Scotia,Richmond,St. Peters,NS007007,15,54,0.0,1.0,0,15
+Nova Scotia,Shelburne,Barrington,NS013010,13,38,0.07692307692307693,0.8615384615384615,1,11
+Nova Scotia,Shelburne,Cape Sable Island,NS013009,7,23,0.0,1.0,0,7
+Nova Scotia,Shelburne,Clyde River,NS013001,11,35,0.0,1.0,0,11
+Nova Scotia,Shelburne,Jorden River,NS013005,17,44,0.0,1.0,0,17
+Nova Scotia,Shelburne,Lockport,NS013006,11,24,0.6363636363636364,0.36363636363636365,7,4
+Nova Scotia,Shelburne,Ohio,NS013004,3,12,0.0,1.0,0,3
+Nova Scotia,Shelburne,Port La Tour,NS013011,24,68,0.08333333333333333,0.9166666666666666,2,22
+Nova Scotia,Shelburne,Sable River and Louis Head,NS013007,15,43,0.0,1.0,0,15
+Nova Scotia,Shelburne,Shag Harbour and Wood's Harbour,NS013008,18,53,0.027777777777777776,0.9722222222222222,0,17
+Nova Scotia,Shelburne,Shelburne (Town/Ville),NS013003,37,125,0.05405405405405406,0.9459459459459459,2,35
+Nova Scotia,Victoria,Baddeck,NS005005,5,19,0.6,0.4,3,2
+Nova Scotia,Victoria,Cape North,NS005013,16,57,0.0,1.0,0,16
+Nova Scotia,Victoria,Englishtown,NS005008,4,11,0.0,1.0,0,4
+Nova Scotia,Victoria,Grand Narrows,NS005003,1,6,0.0,1.0,0,1
+Nova Scotia,Victoria,Ingonish,NS005012,28,91,0.0,1.0,0,28
+Nova Scotia,Victoria,Little Narrows (South/Sud),NS005001,1,3,1.0,0.0,1,0
+Nova Scotia,Victoria,Middle River,NS005004,1,4,0.0,1.0,0,1
+Nova Scotia,Victoria,New Campbelltown,NS005007,2,5,1.0,0.0,2,0
+Nova Scotia,Victoria,North Gut,NS005009,1,5,0.0,1.0,0,1
+Nova Scotia,Victoria,North River,NS005010,1,5,0.0,1.0,0,1
+Nova Scotia,Victoria,St. Lawrence (Bay of),NS005014,6,31,0.16666666666666666,0.8333333333333334,1,5
+Nova Scotia,Yarmouth,Argyle,NS014009,2,6,1.0,0.0,2,0
+Nova Scotia,Yarmouth,Cheboque,NS014002,3,14,0.0,1.0,0,3
+Nova Scotia,Yarmouth,Ohio,NS014004,1,4,0.0,1.0,0,1
+Nova Scotia,Yarmouth,Plymouth,NS014001,11,35,0.2727272727272727,0.7272727272727273,3,8
+Nova Scotia,Yarmouth,Pubnico,NS014010,16,39,0.5,0.5,8,8
+Nova Scotia,Yarmouth,Tusket,NS014008,7,23,0.0,1.0,0,7
+Nova Scotia,Yarmouth,Tusket River (West/Ouest),NS014007,1,3,1.0,0.0,1,0
+Nova Scotia,Yarmouth,Yarmouth,NS014003,48,165,0.06041666666666667,0.9125,2,42
+Ontario,Addington,Barrie,ON118012,9,24,0.1111111111111111,0.8888888888888888,1,8
+Ontario,Addington,Bedford,ON118010,14,50,0.7857142857142857,0.21428571428571427,11,3
+Ontario,Addington,Camden East,ON118003,64,154,0.13348214285714285,0.8613095238095239,8,53
+Ontario,Addington,Clarendon & Miller,ON118014,3,6,0.0,1.0,0,3
+Ontario,Addington,"Denbigh, Abinger, Ashby & Effi",ON118006,1,6,1.0,0.0,1,0
+Ontario,Addington,Hinchinbrooke,ON118008,6,23,0.5476190476190476,0.4523809523809524,3,2
+Ontario,Addington,Kaladar & Anglesea,ON118005,19,50,0.5263157894736842,0.46491228070175444,10,8
+Ontario,Addington,Kennebec,ON118013,14,35,0.07142857142857142,0.9285714285714286,1,13
+Ontario,Addington,Loughborough,ON118001,55,148,0.12242424242424242,0.783030303030303,5,40
+Ontario,Addington,Newburgh (Village),ON118007,20,57,0.05,0.95,1,19
+Ontario,Addington,Olden,ON118009,18,53,0.0,0.9444444444444444,0,17
+Ontario,Addington,Oso,ON118011,6,17,0.3333333333333333,0.6666666666666666,2,4
+Ontario,Addington,Palmerton & Canonto,ON118015,20,65,0.3,0.7,6,14
+Ontario,Addington,Portland,ON118002,21,49,0.9523809523809523,0.047619047619047616,20,1
+Ontario,Addington,Sheffield,ON118004,16,40,0.125,0.875,2,14
+Ontario,Algoma,Allan,ON182008,7,24,0.14285714285714285,0.8571428571428571,1,6
+Ontario,Algoma,Assigninack,ON182003,27,81,0.08888888888888889,0.037037037037037035,2,0
+Ontario,Algoma,Bidwell & Sheguiandah,ON182002,17,63,0.11764705882352941,0.6470588235294118,2,11
+Ontario,Algoma,Billings & Campbell,ON182007,22,70,0.0,1.0,0,22
+Ontario,Algoma,Bruce Mines,ON182018,4,12,0.0,1.0,0,4
+Ontario,Algoma,"Burpee, Robinson & Barrie Island",ON182010,10,27,0.9,0.1,9,1
+Ontario,Algoma,Carnavron,ON182006,14,33,0.07142857142857142,0.9285714285714286,1,13
+Ontario,Algoma,Dawson and Cockburn Island,ON182011,4,10,1.0,0.0,4,0
+Ontario,Algoma,Dennis,ON182024,1,3,0.0,1.0,0,1
+Ontario,Algoma,Fort William,ON182031,5,15,0.23333333333333334,0.4333333333333333,1,1
+Ontario,Algoma,Garden River,ON182021,6,19,0.3333333333333333,0.6666666666666666,2,4
+Ontario,Algoma,Gordon & Mills,ON182009,13,42,0.07692307692307693,0.8461538461538461,1,11
+Ontario,Algoma,"Howland, Strawberry, Lacloche & Haywood Island",ON182001,16,56,0.8625,0.0,13,0
+Ontario,Algoma,Killarney,ON182013,2,7,0.5,0.5,1,1
+Ontario,Algoma,Korah,ON182023,9,37,0.4444444444444444,0.5555555555555556,4,5
+Ontario,Algoma,Lefroy,ON182017,10,29,0.0,0.9333333333333333,0,9
+Ontario,Algoma,Matawin,ON182032,6,17,0.16666666666666666,0.8333333333333334,1,5
+Ontario,Algoma,Mississagua River,ON182015,5,18,0.4,0.6,2,3
+Ontario,Algoma,Pic,ON182027,1,4,0.25,0.75,0,0
+Ontario,Algoma,Plummer,ON182019,4,10,1.0,0.0,4,0
+Ontario,Algoma,Prince Arthur,ON182030,23,59,0.7391304347826086,0.21739130434782608,17,5
+Ontario,Algoma,Sandfield,ON182004,14,46,0.0,1.0,0,14
+Ontario,Algoma,Sault Ste-Marie,ON182022,14,38,0.14285714285714285,0.8214285714285714,2,11
+Ontario,Algoma,Silver Islet,ON182029,9,31,0.0,1.0,0,9
+Ontario,Algoma,Spanish River,ON182014,2,8,0.0,1.0,0,2
+Ontario,Algoma,St-Joseph,ON182033,17,43,0.2156862745098039,0.7254901960784315,3,12
+Ontario,Algoma,Tarbutt,ON182020,9,21,1.0,0.0,9,0
+Ontario,Algoma,Tehkummah,ON182005,1,2,0.0,1.0,0,1
+Ontario,Algoma,Thessalon,ON182016,15,37,0.36666666666666664,0.6333333333333333,5,9
+Ontario,Algoma,Vankoughnet,ON182025,1,1,0.0,1.0,0,1
+Ontario,Bothwell,Bothwell,ON178008,9,33,0.2777777777777778,0.3888888888888889,2,2
+Ontario,Bothwell,Camden,ON178003,54,155,0.1111111111111111,0.8888888888888888,6,48
+Ontario,Bothwell,Dawn,ON178007,60,185,0.016666666666666666,0.9833333333333333,1,59
+Ontario,Bothwell,Dresden (Village),ON178010,49,118,0.14285714285714285,0.8571428571428571,7,42
+Ontario,Bothwell,Euphemia,ON178005,64,194,0.2734375,0.7265625,17,46
+Ontario,Bothwell,Howard,ON178001,65,161,0.15692307692307692,0.8174358974358974,10,52
+Ontario,Bothwell,Orford,ON178002,64,172,0.109375,0.875,7,56
+Ontario,Bothwell,Ridgetown (Village),ON178009,22,66,0.28787878787878785,0.2818181818181818,5,6
+Ontario,Bothwell,Sombra,ON178006,75,224,0.23277777777777775,0.7438888888888888,16,54
+Ontario,Bothwell,Thamesville (Village),ON178011,13,38,0.46153846153846156,0.15384615384615385,6,2
+Ontario,Bothwell,Zone,ON178004,43,131,0.43333333333333335,0.5271317829457365,17,22
+Ontario,Brant (North/Nord),Brantford (East/Est),ON160001,67,174,0.0,0.9701492537313433,0,65
+Ontario,Brant (North/Nord),Dumfries (South/Sud),ON160003,66,159,0.022727272727272728,0.9772727272727273,1,64
+Ontario,Brant (North/Nord),Onondaga,ON160002,32,93,0.03125,0.9375,1,30
+Ontario,Brant (North/Nord),Paris (Town/Ville),ON160004,47,125,0.06382978723404255,0.9166666666666667,3,42
+Ontario,Brant (South/Sud),Brantford (City/Ville),ON159001,188,464,0.03138297872340426,0.9632978723404255,5,180
+Ontario,Brant (South/Sud),Brantford (West/Ouest),ON159004,55,122,0.05454545454545454,0.9454545454545454,3,52
+Ontario,Brant (South/Sud),Burford,ON159002,100,298,0.08,0.92,8,92
+Ontario,Brant (South/Sud),Oakland,ON159003,17,35,0.0,1.0,0,17
+Ontario,Brant (South/Sud),Tuscarora,ON159005,4,10,0.0,1.0,0,4
+Ontario,Brockville (City/Ville),Centre (Ward/Quartier),ON109003,31,68,0.0,1.0,0,31
+Ontario,Brockville (City/Ville),East Ward/Quartier Est,ON109005,20,49,0.7,0.3,14,6
+Ontario,Brockville (City/Ville),Elizabethtown,ON109006,68,183,0.014705882352941176,0.9705882352941176,1,66
+Ontario,Brockville (City/Ville),North Ward/Quartier Nord,ON109004,39,88,0.5256410256410257,0.47435897435897434,20,18
+Ontario,Brockville (City/Ville),South Ward/Quartier Sud,ON109002,1,4,1.0,0.0,1,0
+Ontario,Brockville (City/Ville),West Ward/Quartier Ouest,ON109001,34,83,0.08823529411764706,0.9117647058823529,3,31
+Ontario,Bruce (North/Nord),Albemarle,ON177006,28,96,0.9214285714285715,0.0071428571428571435,25,0
+Ontario,Bruce (North/Nord),Amabel,ON177005,50,155,0.04,0.96,2,48
+Ontario,Bruce (North/Nord),Arran,ON177002,48,147,0.0,1.0,0,48
+Ontario,Bruce (North/Nord),Bruce,ON177001,36,114,0.28611111111111115,0.6861111111111111,9,24
+Ontario,Bruce (North/Nord),Chesley (Village),ON177010,23,74,0.0,1.0,0,23
+Ontario,Bruce (North/Nord),"Eastnor, Lindsay and St. Edmonds",ON177007,27,86,0.1111111111111111,0.8888888888888888,3,24
+Ontario,Bruce (North/Nord),Elderslie,ON177013,23,89,0.21739130434782608,0.7282608695652174,5,16
+Ontario,Bruce (North/Nord),Paisley (Village),ON177012,37,97,0.009009009009009009,0.990990990990991,0,36
+Ontario,Bruce (North/Nord),Port Elgin (Village),ON177008,17,46,0.058823529411764705,0.9411764705882353,1,16
+Ontario,Bruce (North/Nord),Saugeen,ON177003,15,38,0.06666666666666667,0.9333333333333333,1,14
+Ontario,Bruce (North/Nord),Southampton (Village),ON177004,6,18,0.16666666666666666,0.8333333333333334,1,5
+Ontario,Bruce (North/Nord),Tara (Village),ON177011,18,42,0.0,1.0,0,18
+Ontario,Bruce (North/Nord),Wiarton (Village),ON177009,8,21,0.875,0.125,7,1
+Ontario,Bruce (South/Sud),Brant,ON176008,44,133,0.09090909090909091,0.9090909090909091,4,40
+Ontario,Bruce (South/Sud),Carrick,ON176004,30,98,0.03333333333333333,0.9666666666666667,1,29
+Ontario,Bruce (South/Sud),Culross,ON176003,29,98,0.06896551724137931,0.896551724137931,2,26
+Ontario,Bruce (South/Sud),Greenock,ON176007,68,231,0.058823529411764705,0.9411764705882353,4,64
+Ontario,Bruce (South/Sud),Huron,ON176001,55,169,0.01818181818181818,0.9818181818181818,1,54
+Ontario,Bruce (South/Sud),Kincardine,ON176005,42,135,0.1130952380952381,0.8809523809523809,4,37
+Ontario,Bruce (South/Sud),Kincardine (Town/Ville),ON176006,53,155,0.05660377358490566,0.9245283018867925,3,49
+Ontario,Bruce (South/Sud),Kinloss,ON176002,27,80,0.14074074074074072,0.8592592592592593,3,23
+Ontario,Bruce (South/Sud),Lucknow (Village),ON176012,17,58,0.058823529411764705,0.9411764705882353,1,16
+Ontario,Bruce (South/Sud),Teeswater (Village),ON176010,24,63,0.06845238095238095,0.9315476190476191,1,21
+Ontario,Bruce (South/Sud),Tiverton (Village),ON176011,9,29,0.8055555555555556,0.19444444444444445,7,1
+Ontario,Bruce (South/Sud),Walkerton (Town/Ville),ON176009,50,140,0.22,0.78,11,39
+Ontario,Cardwell,Adjala,ON141001,19,49,0.05263157894736842,0.9473684210526315,1,18
+Ontario,Cardwell,Albion,ON141002,42,132,0.16666666666666666,0.8333333333333334,7,35
+Ontario,Cardwell,Bolton (Village),ON141003,11,23,0.0606060606060606,0.9393939393939394,0,10
+Ontario,Cardwell,Caledon,ON141004,85,250,0.10588235294117647,0.8803921568627451,9,74
+Ontario,Cardwell,Mono,ON141005,49,150,0.14285714285714285,0.8571428571428571,7,42
+Ontario,Carleton,Fitzroy,ON108009,34,132,0.04411764705882353,0.9558823529411765,1,32
+Ontario,Carleton,Goulbourn,ON108004,27,92,0.06666666666666667,0.9333333333333333,1,24
+Ontario,Carleton,Gower (North/Nord),ON108002,26,72,0.038461538461538464,0.9615384615384616,1,25
+Ontario,Carleton,Huntley,ON108007,17,65,0.11764705882352941,0.8823529411764706,2,15
+Ontario,Carleton,March,ON108006,11,37,0.2727272727272727,0.7272727272727273,3,8
+Ontario,Carleton,Marlborough,ON108003,5,14,0.2,0.8,1,4
+Ontario,Carleton,Nepean,ON108001,115,333,0.532608695652174,0.45,61,51
+Ontario,Carleton,Richmond (Village),ON108005,5,16,0.0,1.0,0,5
+Ontario,Carleton,Torbolton,ON108008,10,47,0.1,0.9,1,9
+Ontario,Cornwall,Centre (Ward/Quartier),ON100002,37,87,0.005405405405405406,0.9945945945945945,0,36
+Ontario,Cornwall,Cornwall,ON100004,47,151,0.1702127659574468,0.8297872340425532,8,39
+Ontario,Cornwall,East Ward/Quartier Est,ON100003,12,34,0.0,1.0,0,12
+Ontario,Cornwall,West Ward/Quartier Ouest,ON100001,12,22,0.0,1.0,0,12
+Ontario,Dundas,Iroquois (Village),ON102002,26,59,0.0,1.0,0,26
+Ontario,Dundas,Matilda,ON102001,77,231,0.012987012987012988,0.987012987012987,1,76
+Ontario,Dundas,Morrisburg (Village),ON102004,59,146,0.0,1.0,0,59
+Ontario,Dundas,Mountain,ON102005,87,263,0.005747126436781609,0.9942528735632183,0,86
+Ontario,Dundas,Williamsburg,ON102003,74,171,0.04054054054054054,0.9414414414414415,3,69
+Ontario,Dundas,Winchester,ON102006,125,350,0.016,0.984,2,123
+Ontario,Durham (East/Est),Cavan,ON127003,40,113,0.275,0.725,11,29
+Ontario,Durham (East/Est),Hope,ON127001,61,178,0.1325136612021858,0.8674863387978141,7,52
+Ontario,Durham (East/Est),Manvers,ON127004,48,139,0.14583333333333334,0.7916666666666666,7,38
+Ontario,Durham (East/Est),Millbrook (Village),ON127005,25,69,0.08,0.92,2,23
+Ontario,Durham (East/Est),Port Hope (Town/Ville),ON127002,90,240,0.03796296296296297,0.962037037037037,3,85
+Ontario,Durham (West/Ouest),Bowmanville (Town/Ville),ON128005,54,150,0.12345679012345678,0.8580246913580247,6,46
+Ontario,Durham (West/Ouest),Cartwright,ON128004,27,84,0.037037037037037035,0.9537037037037037,1,25
+Ontario,Durham (West/Ouest),Clarke,ON128003,98,231,0.05102040816326531,0.9387755102040817,5,92
+Ontario,Durham (West/Ouest),Darlington,ON128001,80,240,0.04375,0.95625,3,76
+Ontario,Durham (West/Ouest),Newcastle (Village),ON128002,17,48,0.37745098039215685,0.6225490196078431,6,9
+Ontario,Elgin (East/Est),Aylmer (Village) [Elgin],ON163005,41,108,0.07317073170731707,0.910569105691057,3,36
+Ontario,Elgin (East/Est),Bayham,ON163008,51,127,0.11764705882352941,0.8627450980392157,6,44
+Ontario,Elgin (East/Est),Dorchester (South/Sud),ON163006,57,127,0.05263157894736842,0.9473684210526315,3,54
+Ontario,Elgin (East/Est),Malahide,ON163004,88,204,0.14772727272727273,0.8522727272727273,13,75
+Ontario,Elgin (East/Est),Port Stanley (Village),ON163002,16,41,0.125,0.875,2,14
+Ontario,Elgin (East/Est),Springfield (Village),ON163007,20,44,0.85,0.15,17,3
+Ontario,Elgin (East/Est),St. Thomas (Town/Ville),ON163003,137,306,0.058394160583941604,0.927007299270073,8,126
+Ontario,Elgin (East/Est),Vienna (Village),ON163009,7,21,0.0,1.0,0,7
+Ontario,Elgin (East/Est),Yarmouth,ON163001,102,245,0.05555555555555555,0.94281045751634,5,95
+Ontario,Elgin (West/Ouest),Aldborough,ON164001,45,144,0.044444444444444446,0.9555555555555556,2,43
+Ontario,Elgin (West/Ouest),Dunwick,ON164002,44,113,0.11363636363636363,0.8863636363636364,5,39
+Ontario,Elgin (West/Ouest),Southwold,ON164003,95,276,0.12631578947368421,0.8736842105263158,12,83
+Ontario,Essex,Amherstburg (Town/Ville),ON181002,45,115,0.044444444444444446,0.9555555555555556,2,43
+Ontario,Essex,Anderdon,ON181003,36,103,0.05555555555555555,0.9444444444444444,2,34
+Ontario,Essex,Belle River (Village),ON181016,1,1,0.0,1.0,0,1
+Ontario,Essex,Colchester (North/Nord),ON181004,37,84,0.05405405405405406,0.9459459459459459,2,35
+Ontario,Essex,Colchester (South/Sud),ON181005,67,196,0.055970149253731345,0.9253731343283582,3,62
+Ontario,Essex,Gosfield,ON181006,81,222,0.0853909465020576,0.9146090534979423,6,73
+Ontario,Essex,Kingsville (Village),ON181007,24,66,0.375,0.625,9,15
+Ontario,Essex,Leamington (Village),ON181018,30,79,0.14,0.4888888888888889,4,13
+Ontario,Essex,Maidstone,ON181014,32,108,0.03125,0.96875,1,31
+Ontario,Essex,Malden,ON181001,20,59,0.0,0.9875,0,19
+Ontario,Essex,Mersea,ON181008,85,220,0.047058823529411764,0.9529411764705882,4,81
+Ontario,Essex,Pelee Island,ON181009,5,17,0.75,0.25,3,1
+Ontario,Essex,Rochester,ON181015,27,63,0.05555555555555555,0.9444444444444444,1,25
+Ontario,Essex,Sandwich (East/Est),ON181012,28,67,0.42857142857142855,0.5714285714285714,12,16
+Ontario,Essex,Sandwich (Town/Ville),ON181011,12,33,0.875,0.041666666666666664,10,0
+Ontario,Essex,Sandwich (West/Ouest),ON181010,19,45,0.0,1.0,0,19
+Ontario,Essex,Tilbury (West/Ouest),ON181017,59,170,0.06779661016949153,0.9152542372881356,4,54
+Ontario,Essex,Windsor (Town/Ville),ON181013,104,265,0.0641025641025641,0.9142628205128205,6,94
+Ontario,Frontenac,Garden Island (Village),ON115003,4,16,0.75,0.25,3,1
+Ontario,Frontenac,Howe Island,ON115006,4,12,0.0,0.75,0,3
+Ontario,Frontenac,Kingston,ON115001,29,88,0.3103448275862069,0.16379310344827586,9,4
+Ontario,Frontenac,Pittsburgh,ON115005,22,59,0.4090909090909091,0.4318181818181818,9,9
+Ontario,Frontenac,Portsmouth (Village),ON115002,15,50,0.0,1.0,0,15
+Ontario,Frontenac,Storrington,ON115007,41,133,0.14634146341463414,0.7804878048780488,6,32
+Ontario,Frontenac,Wolfe Island,ON115004,14,50,0.21428571428571427,0.7857142857142857,3,11
+Ontario,Glengarry,Charlottenburg,ON099001,41,133,0.14634146341463414,0.8292682926829268,6,34
+Ontario,Glengarry,Kenyon,ON099003,22,70,0.0,1.0,0,22
+Ontario,Glengarry,Lancaster,ON099002,20,65,0.65,0.3,13,6
+Ontario,Glengarry,Lochiel,ON099004,14,45,0.09523809523809525,0.9047619047619049,1,11
+Ontario,Grenville (South/Sud),Augusta,ON106001,36,97,0.027777777777777776,0.9722222222222222,1,35
+Ontario,Grenville (South/Sud),Edwardsburg,ON106003,91,230,0.11263736263736264,0.8653846153846154,9,77
+Ontario,Grenville (South/Sud),Prescott (Town/Ville),ON106002,63,172,0.031746031746031744,0.9682539682539683,2,61
+Ontario,Grey (East/Est),Artemesia,ON155001,78,218,0.0641025641025641,0.9358974358974359,5,73
+Ontario,Grey (East/Est),Collingwood,ON155002,120,362,0.02638888888888889,0.9736111111111111,3,116
+Ontario,Grey (East/Est),Euphrasia,ON155003,69,201,0.06884057971014493,0.9166666666666666,4,63
+Ontario,Grey (East/Est),Meaford (Town/Ville),ON155008,50,115,0.02,0.98,1,49
+Ontario,Grey (East/Est),Melancthon,ON155005,71,205,0.014084507042253521,0.9859154929577465,1,70
+Ontario,Grey (East/Est),Osprey,ON155004,63,185,0.08333333333333333,0.9166666666666666,5,57
+Ontario,Grey (East/Est),Proton,ON155007,68,209,0.014705882352941176,0.9852941176470589,1,67
+Ontario,Grey (East/Est),Shelburne (Village),ON155006,16,40,0.0,1.0,0,16
+Ontario,Grey (East/Est),St. Vincent,ON155009,94,277,0.4542553191489362,0.5457446808510638,42,50
+Ontario,Grey (North/Nord),Brook (Village),ON156007,3,7,0.0,1.0,0,3
+Ontario,Grey (North/Nord),Derby,ON156005,38,139,0.09210526315789473,0.9078947368421053,3,34
+Ontario,Grey (North/Nord),Holland,ON156003,71,211,0.05352112676056338,0.9323943661971832,3,66
+Ontario,Grey (North/Nord),Keppel,ON156006,59,185,0.025423728813559324,0.940677966101695,1,55
+Ontario,Grey (North/Nord),Owen Sound (Town/Ville),ON156001,82,225,0.012195121951219513,0.9773519163763066,1,80
+Ontario,Grey (North/Nord),Sarawack,ON156008,8,18,0.0,1.0,0,8
+Ontario,Grey (North/Nord),Sullivan,ON156004,18,61,0.16666666666666666,0.7777777777777778,3,14
+Ontario,Grey (North/Nord),Sydenham,ON156002,60,182,0.11666666666666667,0.8666666666666667,7,52
+Ontario,Grey (South/Sud),Bentinck,ON154002,73,205,0.1917808219178082,0.8082191780821918,14,59
+Ontario,Grey (South/Sud),Durham (Town/Village),ON154001,39,97,0.07692307692307693,0.8974358974358975,3,35
+Ontario,Grey (South/Sud),Egremont,ON154005,80,276,0.075,0.925,6,74
+Ontario,Grey (South/Sud),Glenelg,ON154004,39,110,0.02564102564102564,0.9743589743589743,1,38
+Ontario,Grey (South/Sud),Normanby,ON154003,32,80,0.21875,0.7447916666666666,7,23
+Ontario,Haldimand,Caledonia (Village),ON146008,28,97,0.07142857142857142,0.9285714285714286,2,26
+Ontario,Haldimand,Cayuga (North/Nord),ON146004,27,68,0.19047619047619047,0.8095238095238095,5,21
+Ontario,Haldimand,Cayuga (South/Sud),ON146003,5,8,0.2,0.8,1,4
+Ontario,Haldimand,Cayuga (Village),ON146005,9,28,0.0,1.0,0,9
+Ontario,Haldimand,Oneida,ON146006,58,160,0.09195402298850575,0.9080459770114943,5,52
+Ontario,Haldimand,Rainham,ON146002,23,72,0.21739130434782608,0.782608695652174,5,18
+Ontario,Haldimand,Seneca,ON146007,35,112,0.11428571428571428,0.8285714285714286,4,29
+Ontario,Haldimand,Walpole,ON146001,124,319,0.053763440860215055,0.9462365591397849,5,115
+Ontario,Halton,Acton (Village),ON150008,17,38,0.0,1.0,0,17
+Ontario,Halton,Burlington (Village),ON150002,20,57,0.15,0.85,3,17
+Ontario,Halton,Esquesing,ON150007,112,333,0.026785714285714284,0.9613095238095238,3,107
+Ontario,Halton,Georgetown (Village),ON150009,36,81,0.16666666666666666,0.8055555555555556,6,29
+Ontario,Halton,Milton (Town/Ville),ON150005,29,76,0.034482758620689655,0.9655172413793104,1,28
+Ontario,Halton,Nassagaweya,ON150006,55,167,0.01818181818181818,0.9636363636363636,1,53
+Ontario,Halton,Nelson,ON150001,67,179,0.04477611940298507,0.9253731343283582,3,62
+Ontario,Halton,Oakville (Town/Ville),ON150004,26,54,0.04615384615384615,0.9538461538461539,1,24
+Ontario,Halton,Trafalgar,ON150003,80,227,0.14583333333333331,0.8541666666666666,11,68
+Ontario,Hamilton (City/Ville),Ward/Quartier No. 1,ON149001,44,108,0.1590909090909091,0.8181818181818182,7,36
+Ontario,Hamilton (City/Ville),Ward/Quartier No. 2,ON149002,45,126,0.08888888888888889,0.9111111111111111,4,41
+Ontario,Hamilton (City/Ville),Ward/Quartier No. 3,ON149003,91,233,0.08626373626373626,0.8917582417582418,7,80
+Ontario,Hamilton (City/Ville),Ward/Quartier No. 4,ON149004,113,309,0.04424778761061947,0.9535398230088495,5,107
+Ontario,Hamilton (City/Ville),Ward/Quartier No. 5,ON149005,68,193,0.19852941176470587,0.8014705882352942,13,54
+Ontario,Hamilton (City/Ville),Ward/Quartier No. 6,ON149006,112,265,0.049107142857142856,0.9441964285714286,5,104
+Ontario,Hamilton (City/Ville),Ward/Quartier No. 7,ON149007,132,347,0.030303030303030304,0.9696969696969697,4,128
+Ontario,Hastings (East/Est),Hungerford,ON120003,57,160,0.3567251461988304,0.6432748538011696,20,36
+Ontario,Hastings (East/Est),Mill Point (Village),ON120004,37,99,0.0,1.0,0,37
+Ontario,Hastings (East/Est),Thurlow,ON120001,115,270,0.057971014492753624,0.9420289855072463,6,108
+Ontario,Hastings (East/Est),Tyendinaga,ON120002,67,187,0.11940298507462686,0.8432835820895522,8,55
+Ontario,Hastings (North/Nord),Bangor,ON122010,12,40,0.3333333333333333,0.6666666666666666,4,8
+Ontario,Hastings (North/Nord),Cashel & Limerick,ON122015,12,52,0.0,1.0,0,12
+Ontario,Hastings (North/Nord),Dungannon,ON122013,16,53,0.0,0.9375,0,15
+Ontario,Hastings (North/Nord),Faraday,ON122014,11,37,0.0,1.0,0,11
+Ontario,Hastings (North/Nord),Grimsthorpe & Elzevir,ON122012,21,70,0.9523809523809523,0.0,20,0
+Ontario,Hastings (North/Nord),Huntingdon,ON122001,52,147,0.14102564102564102,0.8589743589743589,7,44
+Ontario,Hastings (North/Nord),Madoc,ON122005,73,219,0.0684931506849315,0.9178082191780822,5,67
+Ontario,Hastings (North/Nord),Madoc (Village),ON122004,35,84,0.02857142857142857,0.9714285714285714,1,34
+Ontario,Hastings (North/Nord),Marmora & Lake,ON122006,39,115,0.059829059829059825,0.9145299145299145,2,35
+Ontario,Hastings (North/Nord),Mayo & Carlow,ON122011,26,84,0.19230769230769232,0.8076923076923077,5,21
+Ontario,Hastings (North/Nord),Monteagle & Herschel,ON122008,21,74,0.09523809523809523,0.9047619047619048,2,19
+Ontario,Hastings (North/Nord),Rawdon,ON122003,67,183,0.04477611940298507,0.9477611940298507,3,63
+Ontario,Hastings (North/Nord),"Sabine, Airey, Lyel, Murchison & Robinson",ON122017,2,6,0.0,1.0,0,2
+Ontario,Hastings (North/Nord),Sterling (Village),ON122002,19,33,0.05263157894736842,0.9473684210526315,1,18
+Ontario,Hastings (North/Nord),Tudor,ON122016,11,23,0.09090909090909091,0.9090909090909091,1,10
+Ontario,Hastings (North/Nord),Wicklow & McClure,ON122009,9,28,0.1111111111111111,0.7777777777777778,1,7
+Ontario,Hastings (North/Nord),Wollaston,ON122007,15,49,0.06666666666666667,0.9333333333333333,1,14
+Ontario,Hastings (West/Ouest),Belleville (City/Ville),ON121003,181,491,0.05616942909760589,0.9429097605893185,9,168
+Ontario,Hastings (West/Ouest),Sydney,ON121001,97,240,0.041237113402061855,0.9450171821305843,4,91
+Ontario,Hastings (West/Ouest),Trenton (Village),ON121002,60,145,0.06666666666666667,0.925,3,54
+Ontario,Huron (Centre),Brussels,ON174008,15,46,0.0,1.0,0,15
+Ontario,Huron (Centre),Colborne,ON174003,34,99,0.08823529411764706,0.9117647058823529,3,31
+Ontario,Huron (Centre),Goderich (Town/Ville),ON174002,46,147,0.050724637681159424,0.5869565217391305,2,27
+Ontario,Huron (Centre),Grey,ON174007,50,151,0.055,0.9116666666666667,2,45
+Ontario,Huron (Centre),Hullett,ON174004,52,148,0.057692307692307696,0.9423076923076923,3,49
+Ontario,Huron (Centre),McKillop,ON174005,37,95,0.6779279279279279,0.1599099099099099,23,3
+Ontario,Huron (Centre),Seaforth (Village),ON174006,52,154,0.04487179487179487,0.9551282051282051,2,49
+Ontario,Huron (Centre),Tuckersmith,ON174001,27,81,0.037037037037037035,0.9629629629629629,1,26
+Ontario,Huron (North/Nord),Ashfield,ON175006,39,116,0.1858974358974359,0.8141025641025641,6,31
+Ontario,Huron (North/Nord),Blyth (Village),ON175009,25,66,0.0,1.0,0,25
+Ontario,Huron (North/Nord),Brussels (Village),ON175007,6,15,0.6666666666666666,0.3333333333333333,4,2
+Ontario,Huron (North/Nord),Howick,ON175001,52,161,0.09615384615384616,0.9038461538461539,5,47
+Ontario,Huron (North/Nord),Lucknow (Village),ON175011,10,25,0.1,0.9,1,9
+Ontario,Huron (North/Nord),Morris,ON175003,43,147,0.0,0.9534883720930233,0,41
+Ontario,Huron (North/Nord),Turnberry,ON175002,42,132,0.07142857142857142,0.9285714285714286,3,39
+Ontario,Huron (North/Nord),Wawanosh (East/Est),ON175004,31,103,0.12903225806451613,0.8709677419354839,4,27
+Ontario,Huron (North/Nord),Wawanosh (West/Ouest),ON175005,31,95,0.16129032258064516,0.8387096774193549,5,26
+Ontario,Huron (North/Nord),Wingham (Village),ON175008,46,108,0.0,1.0,0,46
+Ontario,Huron (North/Nord),Wroxeter (Village),ON175010,16,50,0.7083333333333334,0.29166666666666663,11,4
+Ontario,Huron (South/Sud),Bayfield (Village),ON173006,7,16,0.2857142857142857,0.7142857142857143,2,5
+Ontario,Huron (South/Sud),Clinton (Town/Ville),ON173008,52,122,0.0,1.0,0,52
+Ontario,Huron (South/Sud),Exeter (Village),ON173004,37,100,0.02702702702702703,0.972972972972973,1,36
+Ontario,Huron (South/Sud),Goderich,ON173007,40,109,0.5625,0.4375,22,17
+Ontario,Huron (South/Sud),Hay,ON173002,38,114,0.3684210526315789,0.5631578947368421,14,21
+Ontario,Huron (South/Sud),Stanley,ON173005,41,118,0.024390243902439025,0.9512195121951219,1,39
+Ontario,Huron (South/Sud),Stephen,ON173001,43,153,0.1317829457364341,0.868217054263566,5,37
+Ontario,Huron (South/Sud),Usborne,ON173003,31,85,0.6451612903225806,0.3548387096774194,20,11
+Ontario,Kent,Blenheim (Village),ON180005,39,109,0.05128205128205128,0.8498168498168499,2,33
+Ontario,Kent,Chatham,ON180007,97,286,0.055473735886107024,0.9410898379970546,4,90
+Ontario,Kent,Chatham (Town/Ville),ON180009,102,265,0.06862745098039216,0.9215686274509803,7,94
+Ontario,Kent,Dover,ON180006,30,71,0.03333333333333333,0.85,1,25
+Ontario,Kent,Harwich,ON180004,88,247,0.16818181818181818,0.787310606060606,14,68
+Ontario,Kent,Raleigh,ON180003,64,186,0.078125,0.8960193452380952,5,56
+Ontario,Kent,Romney,ON180001,18,53,0.3888888888888889,0.6111111111111112,7,11
+Ontario,Kent,Tibury (East/Est),ON180002,40,109,0.3,0.6,12,24
+Ontario,Kent,Wallaceburg (Village),ON180008,32,77,0.140625,0.7942708333333334,4,24
+Ontario,Kingston (City/Ville),Cataraqui (Ward/Quartier),ON116007,38,107,0.0,1.0,0,38
+Ontario,Kingston (City/Ville),Frontenac (Ward/Quartier),ON116003,55,148,0.0,1.0,0,55
+Ontario,Kingston (City/Ville),Ontario (Ward/Quartier),ON116005,20,54,0.05,0.9,1,18
+Ontario,Kingston (City/Ville),Rideau (Ward/Quartier),ON116002,23,64,0.19130434782608696,0.782608695652174,4,18
+Ontario,Kingston (City/Ville),St. Lawrence (Ward/Quartier),ON116004,10,26,0.0,1.0,0,10
+Ontario,Kingston (City/Ville),Sydenham (Ward/Quartier),ON116006,18,47,0.0,1.0,0,18
+Ontario,Kingston (City/Ville),Victoria (Ward/Quartier),ON116001,3,8,0.0,1.0,0,3
+Ontario,Lambton,Alviston (Village),ON179008,18,45,0.08333333333333333,0.9166666666666666,1,16
+Ontario,Lambton,Arkona (Village),ON179015,8,23,0.5,0.5,4,4
+Ontario,Lambton,Bosanquet,ON179013,31,74,0.6290322580645161,0.3709677419354839,19,11
+Ontario,Lambton,Brooke,ON179007,54,166,0.07407407407407407,0.9074074074074074,4,49
+Ontario,Lambton,Enniskillen,ON179004,114,340,0.008771929824561403,0.9912280701754386,1,113
+Ontario,Lambton,Forest Village,ON179017,36,100,0.1111111111111111,0.8888888888888888,4,32
+Ontario,Lambton,Moore,ON179003,113,336,0.02654867256637168,0.9587020648967551,3,108
+Ontario,Lambton,Oil Springs (Village),ON179005,7,23,0.14285714285714285,0.6476190476190476,1,4
+Ontario,Lambton,Petrolia (Town/Ville),ON179006,95,244,0.06315789473684211,0.9368421052631579,6,89
+Ontario,Lambton,Plympton,ON179011,56,169,0.03571428571428571,0.9583333333333333,2,53
+Ontario,Lambton,Pointe Edward (Village),ON179016,20,56,0.6,0.4,12,8
+Ontario,Lambton,Sarnia,ON179002,40,104,0.05,0.95,2,38
+Ontario,Lambton,Sarnia (Town/Ville),ON179001,84,216,0.09285714285714286,0.8952380952380953,7,75
+Ontario,Lambton,Thedford (Village),ON179014,22,48,0.09090909090909091,0.9090909090909091,2,20
+Ontario,Lambton,Warwick,ON179009,74,211,0.10585585585585586,0.8806306306306307,7,64
+Ontario,Lambton,Watford (Village),ON179010,30,74,0.13333333333333333,0.8666666666666667,4,26
+Ontario,Lambton,Wyoming (Village),ON179012,31,68,0.22580645161290322,0.7741935483870968,7,24
+Ontario,Lanark (North/Nord),Almonte (Town/Ville),ON112002,37,93,0.10810810810810811,0.8783783783783784,4,32
+Ontario,Lanark (North/Nord),"Dalhousie North, Sherbrooke North, Lavant North",ON112007,35,120,0.009523809523809523,0.9904761904761904,0,34
+Ontario,Lanark (North/Nord),Darling,ON112006,10,33,0.0,1.0,0,10
+Ontario,Lanark (North/Nord),Lanark,ON112004,26,75,0.0673076923076923,0.9326923076923077,1,23
+Ontario,Lanark (North/Nord),Lanark (Village),ON112005,19,49,0.0,1.0,0,19
+Ontario,Lanark (North/Nord),Pakenham,ON112003,26,93,0.038461538461538464,0.9615384615384616,1,25
+Ontario,Lanark (North/Nord),Ramsay,ON112001,29,89,0.034482758620689655,0.9655172413793104,1,28
+Ontario,Lanark (South/Sud),Bathurst,ON111001,22,60,0.18181818181818182,0.8181818181818182,4,18
+Ontario,Lanark (South/Sud),Beckwith,ON111004,9,30,0.5555555555555556,0.4444444444444444,5,4
+Ontario,Lanark (South/Sud),Burgess (North/Nord),ON111006,10,38,0.4,0.6,4,6
+Ontario,Lanark (South/Sud),Carleton Place (Village),ON111008,31,93,0.07258064516129033,0.9274193548387096,2,28
+Ontario,Lanark (South/Sud),Drummond,ON111009,25,61,0.16,0.56,4,14
+Ontario,Lanark (South/Sud),Elmsley (North/Nord),ON111003,27,82,0.037037037037037035,0.9629629629629629,1,26
+Ontario,Lanark (South/Sud),Montague,ON111010,24,58,0.3888888888888889,0.611111111111111,9,14
+Ontario,Lanark (South/Sud),Perth (Town/Ville),ON111002,36,99,0.08333333333333333,0.9166666666666666,3,33
+Ontario,Lanark (South/Sud),Sherbrooke (South/Sud),ON111005,10,40,0.7,0.3,7,3
+Ontario,Lanark (South/Sud),Smith's Falls (Village),ON111007,39,106,0.02564102564102564,0.9487179487179487,1,37
+Ontario,Leeds & Grenville (North/Nord),Emsley,ON107002,13,38,0.0,1.0,0,13
+Ontario,Leeds & Grenville (North/Nord),Gower (South/Sud),ON107007,7,22,0.0,1.0,0,7
+Ontario,Leeds & Grenville (North/Nord),Kemptville (Village),ON107006,27,76,0.07407407407407407,0.9259259259259259,2,25
+Ontario,Leeds & Grenville (North/Nord),Kitley,ON107001,36,82,0.125,0.8472222222222222,4,30
+Ontario,Leeds & Grenville (North/Nord),Merrickville (Village),ON107004,17,48,0.5882352941176471,0.4117647058823529,10,7
+Ontario,Leeds & Grenville (North/Nord),Oxford,ON107005,42,119,0.40476190476190477,0.5873015873015873,17,24
+Ontario,Leeds & Grenville (North/Nord),Wolford,ON107003,35,83,0.1,0.9,3,31
+Ontario,Leeds (South/Sud),"Bastard & Burgess, South",ON110007,55,146,0.11818181818181818,0.8636363636363636,6,47
+Ontario,Leeds (South/Sud),Crosby (North/Nord),ON110012,20,60,0.0,1.0,0,20
+Ontario,Leeds (South/Sud),Crosby (South/Sud),ON110011,38,101,0.03007518796992481,0.9436090225563909,1,35
+Ontario,Leeds (South/Sud),Escott (Front),ON110009,24,63,0.13333333333333333,0.8666666666666667,3,20
+Ontario,Leeds (South/Sud),Gananoque (Village),ON110005,55,145,0.10909090909090909,0.8909090909090909,6,49
+Ontario,Leeds (South/Sud),Lansdowne (Front),ON110001,38,99,0.02631578947368421,0.9736842105263158,1,37
+Ontario,Leeds (South/Sud),Lansdowne (Rear),ON110002,26,77,0.19230769230769232,0.8076923076923077,5,21
+Ontario,Leeds (South/Sud),Leeds (Front),ON110003,20,54,0.05,0.95,1,19
+Ontario,Leeds (South/Sud),Leeds (Rear),ON110004,18,58,0.05555555555555555,0.9444444444444444,1,17
+Ontario,Leeds (South/Sud),Newboro (Village),ON110006,5,13,0.2,0.8,1,4
+Ontario,Leeds (South/Sud),Yonge & Escott (Rear),ON110010,27,72,0.2962962962962963,0.654320987654321,8,17
+Ontario,Leeds (South/Sud),Yonge (Front),ON110008,47,118,0.047872340425531915,0.9521276595744681,2,44
+Ontario,Lennox,Adolphustown,ON117002,16,43,0.0,1.0,0,16
+Ontario,Lennox,Amherst Island,ON117001,20,58,0.0,0.9583333333333334,0,18
+Ontario,Lennox,Bath (Village),ON117003,19,42,0.2894736842105263,0.7105263157894737,5,13
+Ontario,Lennox,Ernestown,ON117004,79,168,0.13291139240506328,0.8670886075949367,10,68
+Ontario,Lennox,Fredericksburg (North/Nord),ON117005,21,56,0.047619047619047616,0.9523809523809523,1,20
+Ontario,Lennox,Fredericksburg (South/Sud),ON117006,43,119,0.023255813953488372,0.9767441860465116,1,42
+Ontario,Lennox,Napanee (Town/Ville),ON117007,78,186,0.1282051282051282,0.8717948717948718,10,68
+Ontario,Lennox,Richmond,ON117008,80,218,0.025,0.975,2,78
+Ontario,Lincoln,Beamsville,ON145008,17,45,0.10294117647058823,0.8382352941176471,1,14
+Ontario,Lincoln,Clinton,ON145004,25,61,0.08,0.92,2,23
+Ontario,Lincoln,Grantham,ON145002,28,71,0.03571428571428571,0.9642857142857143,1,27
+Ontario,Lincoln,Grimsby,ON145005,47,126,0.06382978723404255,0.925531914893617,3,43
+Ontario,Lincoln,Grimsby,ON145009,15,24,0.06666666666666667,0.9333333333333333,1,14
+Ontario,Lincoln,Louth,ON145003,28,66,0.21428571428571427,0.7857142857142857,6,22
+Ontario,Lincoln,Merritton (Village),ON145006,33,87,0.09090909090909091,0.9090909090909091,3,30
+Ontario,Lincoln,Port Dalhousie (Village),ON145007,23,59,0.30434782608695654,0.6956521739130435,7,16
+Ontario,Lincoln,St. Catherines (City/Ville),ON145001,174,419,0.16187739463601533,0.8304597701149425,27,143
+Ontario,London (City/Ville),London (City/Ville) [Ward/Quartier No. 1],ON170001,42,107,0.023809523809523808,0.9761904761904762,1,41
+Ontario,London (City/Ville),London (City/Ville) [Ward/Quartier No. 2],ON170002,45,111,0.044444444444444446,0.9555555555555556,2,43
+Ontario,London (City/Ville),London (City/Ville) [Ward/Quartier No. 3],ON170003,76,171,0.02631578947368421,0.9736842105263158,2,74
+Ontario,London (City/Ville),London (City/Ville) [Ward/Quartier No. 4],ON170004,14,34,0.14285714285714285,0.7857142857142857,2,11
+Ontario,London (City/Ville),London (City/Ville) [Ward/Quartier No. 5],ON170005,90,251,0.05555555555555555,0.9333333333333333,5,84
+Ontario,London (City/Ville),London (City/Ville) [Ward/Quartier No. 6],ON170006,59,164,0.13559322033898305,0.864406779661017,8,51
+Ontario,London (City/Ville),London (City/Ville) [Ward/Quartier No. 7],ON170007,13,36,0.07692307692307693,0.9230769230769231,1,12
+Ontario,Middlesex (East/Est),Dorchester (North/Nord),ON167002,73,208,0.0273972602739726,0.9726027397260274,2,71
+Ontario,Middlesex (East/Est),London,ON167003,100,270,0.046,0.934,4,93
+Ontario,Middlesex (East/Est),London (East/Est),ON167004,83,230,0.0,1.0,0,83
+Ontario,Middlesex (East/Est),Nissouri (West/Ouest),ON167006,66,199,0.06818181818181818,0.9318181818181818,4,61
+Ontario,Middlesex (East/Est),Petersville (Village),ON167005,35,94,0.11428571428571428,0.8857142857142857,4,31
+Ontario,Middlesex (East/Est),Westminster,ON167001,88,206,0.045454545454545456,0.9545454545454546,4,84
+Ontario,Middlesex (North/Nord),Adelaide,ON169001,33,104,0.15151515151515152,0.8484848484848485,5,28
+Ontario,Middlesex (North/Nord),Ailsa Craig (Village),ON169006,23,62,0.08695652173913043,0.9130434782608695,2,21
+Ontario,Middlesex (North/Nord),Biddulph,ON169009,27,69,0.07407407407407407,0.9259259259259259,2,25
+Ontario,Middlesex (North/Nord),Lobo,ON169005,29,80,0.06896551724137931,0.9310344827586207,2,27
+Ontario,Middlesex (North/Nord),Lucan (Village),ON169007,20,66,0.1,0.9,2,18
+Ontario,Middlesex (North/Nord),McGillivray,ON169004,51,146,0.18627450980392157,0.8137254901960784,8,40
+Ontario,Middlesex (North/Nord),Park Hill (Village),ON169008,38,103,0.05263157894736842,0.9473684210526315,2,36
+Ontario,Middlesex (North/Nord),Williams (East/Est),ON169003,17,53,0.058823529411764705,0.9411764705882353,1,16
+Ontario,Middlesex (North/Nord),Williams (West/Ouest),ON169002,33,89,0.0,0.9696969696969697,0,32
+Ontario,Middlesex (West/Ouest),Caradoc,ON168005,61,157,0.022950819672131147,0.9770491803278689,1,59
+Ontario,Middlesex (West/Ouest),Delaware,ON168007,29,81,0.034482758620689655,0.9310344827586207,1,27
+Ontario,Middlesex (West/Ouest),Ekfrid,ON168003,32,75,0.03125,0.953125,1,30
+Ontario,Middlesex (West/Ouest),Glencoe (Village),ON168009,12,34,0.0,1.0,0,12
+Ontario,Middlesex (West/Ouest),Metcalfe,ON168004,33,91,0.0808080808080808,0.8585858585858586,2,28
+Ontario,Middlesex (West/Ouest),Mosa,ON168001,28,91,0.17857142857142858,0.8214285714285714,5,23
+Ontario,Middlesex (West/Ouest),Newbury (Village),ON168008,4,7,1.0,0.0,4,0
+Ontario,Middlesex (West/Ouest),Strathroy (Town/Ville),ON168006,65,161,0.18589743589743588,0.8141025641025641,10,52
+Ontario,Middlesex (West/Ouest),Wardsville (Village),ON168002,7,16,0.14285714285714285,0.8571428571428571,1,6
+Ontario,Monck,Caistor,ON144001,49,129,0.1564625850340136,0.8435374149659864,7,41
+Ontario,Monck,Canborough,ON144006,25,57,0.0,1.0,0,25
+Ontario,Monck,Dunn,ON144008,12,31,0.0,1.0,0,12
+Ontario,Monck,Dunnville (Village),ON144009,38,102,0.02631578947368421,0.9736842105263158,1,37
+Ontario,Monck,Gainsborough,ON144002,64,172,0.0625,0.8125,4,52
+Ontario,Monck,Moulton,ON144003,31,87,0.03225806451612903,0.967741935483871,1,30
+Ontario,Monck,Pelham,ON144007,43,98,0.0,1.0,0,43
+Ontario,Monck,Sherbrooke,ON144004,7,19,0.0,1.0,0,7
+Ontario,Monck,Wainfleet,ON144005,65,169,0.07692307692307693,0.9153846153846154,5,59
+Ontario,Muskoka,Armour & Ryerson,ON131024,20,56,0.3,0.7,6,14
+Ontario,Muskoka,Bracebridge (Village) & Macauly,ON131009,36,111,0.0,1.0,0,36
+Ontario,Muskoka,Brunel & Stephenson,ON131010,27,85,0.037037037037037035,0.9629629629629629,1,26
+Ontario,Muskoka,Burpee & Carling & Ferguson,ON131016,6,7,0.0,1.0,0,6
+Ontario,Muskoka,Cardwell & Watt,ON131006,14,46,0.2857142857142857,0.7142857142857143,4,10
+Ontario,Muskoka,Conger & Humphrey,ON131007,14,40,0.0,1.0,0,14
+Ontario,Muskoka,Croft & Spence,ON131020,16,43,0.0625,0.9375,1,15
+Ontario,Muskoka,Gravenhurst (Village),ON131002,40,102,0.008333333333333333,0.9833333333333334,0,38
+Ontario,Muskoka,Hagerman & McKellar,ON131019,20,62,0.05,0.95,1,19
+Ontario,Muskoka,"Hardy, McConkey, Mills, Wilson, Ferrie & McKenzie",ON131021,5,12,0.2,0.8,1,4
+Ontario,Muskoka,"Himsworth, Gurd, Pringle & Nipissing",ON131026,12,24,0.16666666666666666,0.8333333333333334,2,10
+Ontario,Muskoka,"Joly, Strong & Chapman",ON131022,34,109,0.029411764705882353,0.9705882352941176,1,33
+Ontario,Muskoka,Lake Shore & Shawanaga,ON131017,8,19,0.125,0.75,1,6
+Ontario,Muskoka,"Laurier, Machar & Lunt",ON131023,9,33,0.3333333333333333,0.6666666666666666,0,4
+Ontario,Muskoka,"McDougall, Cowper & Foley",ON131014,14,47,0.5952380952380952,0.40476190476190477,8,5
+Ontario,Muskoka,Monk,ON131005,15,55,0.0,1.0,0,15
+Ontario,Muskoka,Monteith & Christie,ON131018,8,23,0.0,1.0,0,8
+Ontario,Muskoka,Morrison,ON131001,18,65,0.0,1.0,0,18
+Ontario,Muskoka,Muskoka,ON131003,27,80,0.1111111111111111,0.8888888888888888,3,24
+Ontario,Muskoka,"Oakley, Ryde & Draper",ON131008,34,108,0.14705882352941177,0.8529411764705882,5,29
+Ontario,Muskoka,Parry Sound (Village) & Parry Island,ON131015,29,75,0.034482758620689655,0.9310344827586207,1,27
+Ontario,Muskoka,"Proudfoot, Chaffey, Bethune & Perry",ON131013,40,131,0.0,1.0,0,40
+Ontario,Muskoka,Ridout & McLean,ON131011,12,37,0.0,1.0,0,12
+Ontario,Muskoka,Sinclair & Franklin,ON131012,15,38,0.0,1.0,0,15
+Ontario,Muskoka,Stisted & McMurrich,ON131025,35,85,0.08571428571428572,0.9142857142857143,3,32
+Ontario,Muskoka,Wood & Medora,ON131004,5,7,0.6,0.4,3,2
+Ontario,Niagara,Niagara,ON143001,21,52,0.07142857142857142,0.9285714285714286,1,19
+Ontario,Niagara,Niagara (Town/Ville),ON143002,24,68,0.0,1.0,0,24
+Ontario,Norfolk (North/Nord),Middleton,ON158004,91,245,0.03296703296703297,0.9514652014652014,3,86
+Ontario,Norfolk (North/Nord),Simcoe (Town/Ville),ON158005,43,107,0.16279069767441862,0.8372093023255814,7,36
+Ontario,Norfolk (North/Nord),Townsend,ON158002,112,261,0.0625,0.9285714285714286,7,104
+Ontario,Norfolk (North/Nord),Waterford (Village),ON158001,14,41,0.0,1.0,0,14
+Ontario,Norfolk (North/Nord),Windham,ON158003,130,297,0.25,0.72,32,92
+Ontario,Norfolk (South/Sud),Charlottesville,ON157003,6,19,0.08333333333333333,0.0,0,0
+Ontario,Norfolk (South/Sud),Houghton,ON157001,13,39,0.11538461538461539,0.8461538461538461,1,11
+Ontario,Norfolk (South/Sud),Port Dover (Village),ON157005,19,42,0.45614035087719296,0.0,8,0
+Ontario,Norfolk (South/Sud),Walsingham,ON157002,34,114,0.11176470588235293,0.7999999999999999,3,27
+Ontario,Norfolk (South/Sud),Woodhouse,ON157004,27,92,0.14814814814814814,0.8148148148148148,4,22
+Ontario,Northumberland (East/Est),Brighton,ON123003,82,202,0.018292682926829267,0.9817073170731707,1,80
+Ontario,Northumberland (East/Est),Brighton (Village),ON123004,43,99,0.0,0.9767441860465116,0,42
+Ontario,Northumberland (East/Est),Campbellford (Village),ON123008,28,71,0.0,1.0,0,28
+Ontario,Northumberland (East/Est),Colborne (Village),ON123002,32,87,0.0625,0.9375,2,30
+Ontario,Northumberland (East/Est),Cramahe,ON123001,86,206,0.046511627906976744,0.9418604651162791,4,80
+Ontario,Northumberland (East/Est),Hastings (Village),ON123009,3,9,0.0,1.0,0,3
+Ontario,Northumberland (East/Est),Murray,ON123005,70,175,0.1,0.8857142857142857,7,62
+Ontario,Northumberland (East/Est),Percy,ON123006,60,145,0.0,0.9833333333333333,0,59
+Ontario,Northumberland (East/Est),Seymour,ON123007,60,187,0.05,0.95,3,57
+Ontario,Northumberland (West/Ouest),Cobourg (Town/Ville),ON124004,75,189,0.013333333333333334,0.9866666666666667,1,74
+Ontario,Northumberland (West/Ouest),Haldimand,ON124002,72,209,0.06944444444444445,0.9166666666666666,5,66
+Ontario,Northumberland (West/Ouest),Hamilton,ON124003,85,250,0.011764705882352941,0.9764705882352941,1,83
+Ontario,Northumberland (West/Ouest),Northumberland (Alnwick),ON124001,27,74,0.2962962962962963,0.7037037037037037,8,19
+Ontario,Ontario (North/Nord),Brock,ON133005,99,279,0.04040404040404041,0.9393939393939394,4,93
+Ontario,Ontario (North/Nord),Cannington,ON133011,31,82,0.06451612903225806,0.9032258064516129,2,28
+Ontario,Ontario (North/Nord),Mara,ON133007,49,162,0.07040816326530612,0.9295918367346938,3,44
+Ontario,Ontario (North/Nord),Port Perry (Village),ON133009,51,128,0.0196078431372549,0.9803921568627451,1,50
+Ontario,Ontario (North/Nord),Reach,ON133002,86,264,0.03488372093023256,0.9651162790697675,3,83
+Ontario,Ontario (North/Nord),Roma,ON133008,29,89,0.0,1.0,0,29
+Ontario,Ontario (North/Nord),Scott,ON133004,82,246,0.051829268292682924,0.9359756097560976,3,76
+Ontario,Ontario (North/Nord),Scugog,ON133003,11,27,0.0,0.9545454545454546,0,10
+Ontario,Ontario (North/Nord),Thorah,ON133006,36,92,0.06481481481481481,0.9296296296296297,1,32
+Ontario,Ontario (North/Nord),Uxbridge,ON133001,88,250,0.0625,0.9375,5,82
+Ontario,Ontario (North/Nord),Uxbridge (Village),ON133010,33,92,0.09090909090909091,0.8636363636363636,3,28
+Ontario,Ontario (South/Sud),Oshawa (Town/Ville),ON132005,65,178,0.005128205128205128,0.9948717948717949,0,64
+Ontario,Ontario (South/Sud),Pickering,ON132001,110,290,0.05,0.9409090909090909,5,103
+Ontario,Ontario (South/Sud),Whitby (East/Est),ON132004,49,125,0.08163265306122448,0.8979591836734694,4,44
+Ontario,Ontario (South/Sud),Whitby (Town/Ville),ON132003,57,134,0.017543859649122806,0.9824561403508771,1,56
+Ontario,Ontario (South/Sud),Whitby (West/Ouest),ON132002,38,90,0.15789473684210525,0.8421052631578947,6,32
+Ontario,Ottawa (City/Ville),By (Ward/Quartier),ON105004,66,175,0.07196969696969698,0.928030303030303,4,61
+Ontario,Ottawa (City/Ville),Ottawa (Ward/Quartier),ON105005,47,128,0.06382978723404255,0.925531914893617,3,43
+Ontario,Ottawa (City/Ville),St. George (Ward/Quartier),ON105003,47,129,0.0425531914893617,0.9574468085106383,2,45
+Ontario,Ottawa (City/Ville),Victoria (Ward/Quartier),ON105002,40,127,0.05,0.95,2,38
+Ontario,Ottawa (City/Ville),Wellington (Ward/Quartier),ON105001,138,341,0.036231884057971016,0.9589371980676329,5,132
+Ontario,Oxford (North/Nord),Blandford,ON166006,28,80,0.125,0.875,3,24
+Ontario,Oxford (North/Nord),Blenheim,ON166007,117,302,0.31196581196581197,0.6645299145299145,36,77
+Ontario,Oxford (North/Nord),Embro (Village),ON166003,13,43,0.7930402930402931,0.20695970695970697,9,1
+Ontario,Oxford (North/Nord),Nissouri (East/Est),ON166001,45,126,0.1111111111111111,0.8888888888888888,5,40
+Ontario,Oxford (North/Nord),Woodstock (Town/Ville),ON166005,89,223,0.3848314606741573,0.5926966292134831,33,51
+Ontario,Oxford (North/Nord),Zorra (East/Est),ON166004,47,139,0.2553191489361702,0.7446808510638298,12,35
+Ontario,Oxford (North/Nord),Zorra (West/Ouest),ON166002,42,131,0.22023809523809523,0.7749999999999999,9,31
+Ontario,Oxford (South/Sud),Dereham,ON165001,58,156,0.05172413793103448,0.896551724137931,3,52
+Ontario,Oxford (South/Sud),Ingersoll (Town/Ville),ON165008,31,79,0.06451612903225806,0.6129032258064516,2,19
+Ontario,Oxford (South/Sud),Norwich (North/Nord),ON165004,16,46,0.0,0.8125,0,13
+Ontario,Oxford (South/Sud),Norwich (South/Sud),ON165003,41,114,0.07317073170731707,0.8963414634146342,3,36
+Ontario,Oxford (South/Sud),Norwich (Village),ON165005,17,45,0.0,0.8235294117647058,0,14
+Ontario,Oxford (South/Sud),Oxford (East/Est),ON165006,12,33,0.1111111111111111,0.8055555555555555,1,9
+Ontario,Oxford (South/Sud),Oxford (North/Nord),ON165009,14,31,0.07142857142857142,0.7142857142857143,1,10
+Ontario,Oxford (South/Sud),Oxford (West/Ouest),ON165007,22,71,0.553030303030303,0.446969696969697,12,9
+Ontario,Oxford (South/Sud),Tillsonburg (Town),ON165002,22,58,0.045454545454545456,0.8636363636363636,1,19
+Ontario,Peel,Brampton (Town/Ville),ON140003,65,168,0.015384615384615385,0.9846153846153847,1,64
+Ontario,Peel,Chinguacousy,ON140002,88,256,0.10321969696969698,0.893939393939394,8,77
+Ontario,Peel,Streetsville (Village),ON140004,16,46,0.0,0.9375,0,15
+Ontario,Peel,Toronto,ON140001,80,229,0.27937500000000004,0.690625,21,55
+Ontario,Peel,Toronto (Gore),ON140005,21,63,0.0,0.9761904761904762,0,20
+Ontario,Perth (North/Nord),Easthope (North/Nord),ON172004,20,56,0.25,0.75,5,15
+Ontario,Perth (North/Nord),Ellice,ON172002,26,98,0.2692307692307692,0.7307692307692307,7,19
+Ontario,Perth (North/Nord),Elma,ON172005,77,243,0.3344155844155844,0.6266233766233766,25,47
+Ontario,Perth (North/Nord),Listowell (Town/Ville),ON172008,39,106,0.02564102564102564,0.9572649572649573,1,37
+Ontario,Perth (North/Nord),Logan,ON172001,14,49,0.07142857142857142,0.8928571428571429,1,12
+Ontario,Perth (North/Nord),Milverton (Village),ON172010,7,21,0.7142857142857143,0.2857142857142857,5,2
+Ontario,Perth (North/Nord),Mornington,ON172006,30,92,0.4166666666666667,0.55,12,16
+Ontario,Perth (North/Nord),Palmerston (Town/Ville),ON172009,44,99,0.0,1.0,0,44
+Ontario,Perth (North/Nord),Stratford (Town/Ville),ON172003,118,345,0.4322033898305085,0.5677966101694916,51,67
+Ontario,Perth (North/Nord),Wallace,ON172007,36,130,0.39305555555555555,0.6069444444444445,13,21
+Ontario,Perth (South/Sud),Blanchard,ON171001,49,146,0.0663265306122449,0.75,3,36
+Ontario,Perth (South/Sud),Downie,ON171004,41,129,0.26016260162601623,0.5560975609756098,10,22
+Ontario,Perth (South/Sud),Easthope (South/Sud),ON171005,21,59,0.5238095238095238,0.47619047619047616,11,10
+Ontario,Perth (South/Sud),Fullarton,ON171006,44,132,0.08333333333333333,0.9166666666666667,3,40
+Ontario,Perth (South/Sud),Hibbert,ON171003,36,110,0.3888888888888889,0.6111111111111112,14,22
+Ontario,Perth (South/Sud),Mitchell (Town/Ville),ON171007,34,88,0.3235294117647059,0.6666666666666667,10,22
+Ontario,Perth (South/Sud),St. Mary's (Town/Ville),ON171002,61,137,0.0,0.9836065573770492,0,60
+Ontario,Peterborough (East/Est),Ashburnham (Village),ON125001,18,53,0.1111111111111111,0.8888888888888888,2,16
+Ontario,Peterborough (East/Est),Asphodel,ON125009,25,81,0.12,0.88,3,22
+Ontario,Peterborough (East/Est),Belmont,ON125006,43,122,0.0,1.0,0,43
+Ontario,Peterborough (East/Est),"Burleigh, Anstruther, Chandos",ON125003,5,13,0.27999999999999997,0.32,1,1
+Ontario,Peterborough (East/Est),Cardiff,ON125015,11,43,0.16666666666666666,0.8333333333333333,1,8
+Ontario,Peterborough (East/Est),Douro,ON125017,31,102,0.06451612903225806,0.9354838709677419,2,29
+Ontario,Peterborough (East/Est),"Dudley, Dysart, Harcourt",ON125011,28,101,0.0,1.0,0,28
+Ontario,Peterborough (East/Est),Dummer,ON125019,43,132,0.33798449612403103,0.6503875968992249,13,26
+Ontario,Peterborough (East/Est),"Galway, Cavendish",ON125005,6,14,0.0,1.0,0,6
+Ontario,Peterborough (East/Est),Glamorgan,ON125013,14,51,0.0,0.9285714285714286,0,13
+Ontario,Peterborough (East/Est),Harvey,ON125004,19,77,0.10526315789473684,0.8421052631578947,2,16
+Ontario,Peterborough (East/Est),Hastings (Village),ON125008,7,16,0.0,1.0,0,7
+Ontario,Peterborough (East/Est),Mammoth,ON125014,11,36,0.45454545454545453,0.5454545454545454,5,6
+Ontario,Peterborough (East/Est),Methuen,ON125007,7,24,0.0,1.0,0,7
+Ontario,Peterborough (East/Est),Minden,ON125016,23,74,0.08695652173913043,0.8913043478260869,2,20
+Ontario,Peterborough (East/Est),Norwood (Village),ON125002,21,56,0.0,1.0,0,21
+Ontario,Peterborough (East/Est),Otonabee,ON125018,35,107,0.05714285714285714,0.9428571428571428,2,33
+Ontario,Peterborough (East/Est),Snowden,ON125012,16,43,0.0,1.0,0,16
+Ontario,Peterborough (East/Est),"Standhope, Sherborne, McClintock",ON125010,7,25,0.2857142857142857,0.7142857142857143,2,5
+Ontario,Peterborough (West/Ouest),Ennismore,ON126005,3,7,0.0,1.0,0,3
+Ontario,Peterborough (West/Ouest),Monahan (North/Nord),ON126003,12,35,0.027777777777777776,0.9722222222222222,0,11
+Ontario,Peterborough (West/Ouest),Monahan (South/Sud)),ON126004,21,61,0.0,1.0,0,21
+Ontario,Peterborough (West/Ouest),Peterborough (Town/Ville),ON126001,130,374,0.07692307692307693,0.9038461538461539,10,117
+Ontario,Peterborough (West/Ouest),Smith,ON126002,76,239,0.12171052631578948,0.8782894736842105,8,66
+Ontario,Prescott,Alfred,ON103007,10,43,0.0,1.0,0,10
+Ontario,Prescott,Caledonia,ON103006,5,16,0.0,1.0,0,5
+Ontario,Prescott,Hawkesbury (East/Est),ON103001,49,147,0.0,1.0,0,49
+Ontario,Prescott,Hawkesbury (Village),ON103003,10,38,0.0,1.0,0,10
+Ontario,Prescott,Hawkesbury (West/Ouest),ON103002,26,75,0.0,1.0,0,26
+Ontario,Prescott,L'Orignal (Village),ON103005,8,22,0.0,1.0,0,8
+Ontario,Prescott,Plantagenet (North/Nord),ON103008,16,42,0.0625,0.9375,1,15
+Ontario,Prescott,Plantagenet (South/Sud),ON103009,27,91,0.0,1.0,0,27
+Ontario,Prince Edward,Ameliasburg,ON119004,98,240,0.10884353741496598,0.8775510204081632,10,85
+Ontario,Prince Edward,Athol,ON119003,57,131,0.08771929824561403,0.9122807017543859,5,52
+Ontario,Prince Edward,Hallowell,ON119009,72,146,0.125,0.8611111111111112,9,62
+Ontario,Prince Edward,Hillier,ON119005,28,60,0.6428571428571429,0.35714285714285715,18,10
+Ontario,Prince Edward,Marysborough (North/Nord),ON119007,41,94,0.024390243902439025,0.975609756097561,1,40
+Ontario,Prince Edward,Marysborough (South/Sud),ON119006,62,149,0.0,1.0,0,62
+Ontario,Prince Edward,Picton (Town/Ville),ON119001,38,91,0.02631578947368421,0.9736842105263158,1,37
+Ontario,Prince Edward,Sophiasburg,ON119008,32,67,0.03125,0.96875,1,31
+Ontario,Prince Edward,Wellington (Village),ON119002,13,30,0.0,0.9230769230769231,0,12
+Ontario,Renfrew (North/Nord),Algona (North/Nord) & Wilberforce,ON114012,9,27,0.1111111111111111,0.8888888888888888,1,8
+Ontario,Renfrew (North/Nord),Algona (South/Sud),ON114002,1,5,0.0,1.0,0,1
+Ontario,Renfrew (North/Nord),Alice & Fraser,ON114001,22,85,0.045454545454545456,0.9545454545454546,1,21
+Ontario,Renfrew (North/Nord),Bromley,ON114003,21,80,0.0,1.0,0,21
+Ontario,Renfrew (North/Nord),"Clara, Head, Maria",ON114004,19,54,0.05263157894736842,0.9473684210526315,1,18
+Ontario,Renfrew (North/Nord),Pembroke,ON114006,12,34,0.0,1.0,0,12
+Ontario,Renfrew (North/Nord),Pembroke (Town/Ville),ON114005,36,107,0.5833333333333334,0.4166666666666667,21,15
+Ontario,Renfrew (North/Nord),Petawawa & McKay,ON114007,5,10,0.0,1.0,0,5
+Ontario,Renfrew (North/Nord),"Ralph, Buchanan & Wylie",ON114009,15,53,0.0,1.0,0,15
+Ontario,Renfrew (North/Nord),Renfrew (North/Nord) [Unorganized Territory/Territoire non organisÃ©],ON114013,19,43,0.0,1.0,0,19
+Ontario,Renfrew (North/Nord),Ross,ON114008,30,95,0.03333333333333333,0.9333333333333333,1,28
+Ontario,Renfrew (North/Nord),Stafford,ON114010,12,35,0.0,1.0,0,12
+Ontario,Renfrew (North/Nord),Westmeath,ON114011,48,149,0.041666666666666664,0.9375,2,45
+Ontario,Renfrew (South/Sud),Admaston,ON113003,18,72,0.013888888888888888,0.9861111111111112,0,17
+Ontario,Renfrew (South/Sud),Arnprior (Village),ON113013,40,128,0.0,1.0,0,40
+Ontario,Renfrew (South/Sud),Bagot & Blythfield,ON113011,8,30,0.0,1.0,0,8
+Ontario,Renfrew (South/Sud),Brougham,ON113004,3,11,0.0,1.0,0,3
+Ontario,Renfrew (South/Sud),Brudenell & Lynedock,ON113007,3,14,0.0,1.0,0,3
+Ontario,Renfrew (South/Sud),Gratton,ON113005,21,66,0.023809523809523808,0.9761904761904762,0,20
+Ontario,Renfrew (South/Sud),Griffith & Matawatchan,ON113010,6,21,0.8333333333333334,0.16666666666666666,5,1
+Ontario,Renfrew (South/Sud),Hagarty & Jones,ON113008,7,25,0.0,1.0,0,7
+Ontario,Renfrew (South/Sud),Horton,ON113002,19,67,0.0,1.0,0,19
+Ontario,Renfrew (South/Sud),McNab,ON113001,35,118,0.16428571428571428,0.8357142857142857,5,29
+Ontario,Renfrew (South/Sud),Raglan & Radcliffe,ON113006,15,53,0.08333333333333333,0.9,1,12
+Ontario,Renfrew (South/Sud),Renfrew (South/Sud) [Unorganized Territory/Territoire non organise],ON113015,2,12,0.0,1.0,0,2
+Ontario,Renfrew (South/Sud),Renfrew (Village),ON113012,43,125,0.03488372093023256,0.9418604651162791,1,40
+Ontario,Renfrew (South/Sud),Sebastopol,ON113014,2,6,0.0,1.0,0,2
+Ontario,Renfrew (South/Sud),"Sherwood, Richards & Burns",ON113009,4,12,0.14285714285714285,0.8571428571428572,0,3
+Ontario,Russell,Cambridge,ON104002,9,25,0.0,1.0,0,9
+Ontario,Russell,Clarence,ON104001,31,101,0.04946236559139785,0.9505376344086021,1,28
+Ontario,Russell,Cumberland,ON104003,41,145,0.0,1.0,0,41
+Ontario,Russell,Gloucester,ON104005,79,248,0.06329113924050633,0.9367088607594937,5,74
+Ontario,Russell,New Edinburg (Village),ON104006,30,102,0.03333333333333333,0.925,1,27
+Ontario,Russell,Osgoode,ON104007,52,156,0.0,0.9711538461538461,0,50
+Ontario,Russell,Russell,ON104004,40,124,0.0,1.0,0,40
+Ontario,Simcoe (North/Nord),Barrie (Town/Ville),ON139006,98,281,0.04081632653061224,0.9591836734693877,4,94
+Ontario,Simcoe (North/Nord),Collingwood (Town/Ville),ON139003,78,212,0.20512820512820512,0.7692307692307693,16,60
+Ontario,Simcoe (North/Nord),Flos,ON139007,69,218,0.11594202898550725,0.8840579710144928,8,61
+Ontario,Simcoe (North/Nord),Matchedash & Orillia,ON139014,69,214,0.07246376811594203,0.9130434782608695,5,63
+Ontario,Simcoe (North/Nord),Medonte,ON139012,74,213,0.04391891891891892,0.956081081081081,3,70
+Ontario,Simcoe (North/Nord),Midland (Village),ON139011,26,61,0.038461538461538464,0.9615384615384616,1,25
+Ontario,Simcoe (North/Nord),Nottawasaga,ON139001,120,368,0.03194444444444445,0.9680555555555556,3,116
+Ontario,Simcoe (North/Nord),Orillia (Town/Ville),ON139015,57,184,0.14619883040935674,0.8362573099415205,7,46
+Ontario,Simcoe (North/Nord),Oro,ON139013,86,288,0.05232558139534884,0.9476744186046512,4,81
+Ontario,Simcoe (North/Nord),Penetanguishene,ON139009,25,65,0.03,0.93,0,23
+Ontario,Simcoe (North/Nord),Stayner (Village),ON139002,17,53,0.11764705882352941,0.8823529411764706,2,15
+Ontario,Simcoe (North/Nord),Sunnidale,ON139004,69,237,0.043478260869565216,0.9508281573498966,3,64
+Ontario,Simcoe (North/Nord),Tay,ON139010,76,235,0.11513157894736842,0.8848684210526315,8,67
+Ontario,Simcoe (North/Nord),Tiny,ON139008,48,161,0.041666666666666664,0.9583333333333334,2,46
+Ontario,Simcoe (North/Nord),Vespra,ON139005,80,248,0.03,0.97,2,77
+Ontario,Simcoe (South/Sud),Alleston (Village),ON138007,22,52,0.0,1.0,0,22
+Ontario,Simcoe (South/Sud),Bradford (Village),ON138003,32,82,0.0,1.0,0,32
+Ontario,Simcoe (South/Sud),Essa,ON138006,67,186,0.05970149253731343,0.9283582089552239,4,62
+Ontario,Simcoe (South/Sud),Gwillimbury (West/Ouest),ON138002,56,150,0.05357142857142857,0.9285714285714286,3,52
+Ontario,Simcoe (South/Sud),Innisfil,ON138008,108,318,0.1111111111111111,0.8796296296296297,12,95
+Ontario,Simcoe (South/Sud),Mulmur,ON138004,67,200,0.0835820895522388,0.9164179104477612,5,61
+Ontario,Simcoe (South/Sud),Tecumseth,ON138001,92,277,0.021739130434782608,0.9782608695652174,2,90
+Ontario,Simcoe (South/Sud),Tosorontio,ON138005,41,110,0.0,1.0,0,41
+Ontario,Stormont,Finch,ON101002,46,147,0.15217391304347827,0.8478260869565217,7,39
+Ontario,Stormont,Osnabruck,ON101001,52,128,0.019230769230769232,0.9615384615384616,1,50
+Ontario,Stormont,Roxborough,ON101003,49,149,0.015306122448979591,0.9642857142857143,0,47
+Ontario,Toronto (City/Ville),St. Andrew's (Ward/Quartier),ON134007,200,481,0.05,0.9375,10,187
+Ontario,Toronto (City/Ville),St. David's (Ward/Quartier),ON134002,160,406,0.10197916666666666,0.8948958333333333,15,141
+Ontario,Toronto (City/Ville),St. George (Ward/Quartier),ON134006,77,196,0.03354978354978355,0.9534632034632036,2,72
+Ontario,Toronto (City/Ville),St. James (Ward/Quartier),ON134005,114,271,0.03728070175438596,0.9627192982456141,4,109
+Ontario,Toronto (City/Ville),St. John's (Ward/Quartier),ON134004,201,543,0.04477611940298507,0.9539800995024875,9,191
+Ontario,Toronto (City/Ville),St. Lawrence (Ward/Quartier),ON134001,73,186,0.0684931506849315,0.9315068493150684,5,68
+Ontario,Toronto (City/Ville),St. Patrick's (Ward/Quartier),ON134008,279,727,0.05077658303464755,0.9384707287933094,13,260
+Ontario,Toronto (City/Ville),St. Stephen's (Ward/Quartier),ON134009,167,460,0.03592814371257485,0.9640718562874252,6,161
+Ontario,Toronto (City/Ville),St. Thomas (Ward/Quartier),ON134003,149,390,0.06152125279642058,0.9384787472035795,8,139
+Ontario,Victoria (North/Nord),Bexley,ON130006,27,88,0.07407407407407407,0.9074074074074074,2,24
+Ontario,Victoria (North/Nord),Carden,ON130004,12,48,0.08333333333333333,0.8333333333333334,1,10
+Ontario,Victoria (North/Nord),Dalton,ON130005,5,26,0.9666666666666666,0.03333333333333333,4,0
+Ontario,Victoria (North/Nord),"Digby, Laxton, Longford",ON130008,14,45,0.1285714285714286,0.8714285714285713,1,12
+Ontario,Victoria (North/Nord),Eldon,ON130001,44,119,0.5113636363636364,0.48863636363636365,21,20
+Ontario,Victoria (North/Nord),Fenelon,ON130002,48,143,0.1125,0.8875000000000001,5,42
+Ontario,Victoria (North/Nord),Fenelon Falls (Village),ON130003,25,71,0.42,0.58,10,14
+Ontario,Victoria (North/Nord),Hindon & Anson,ON130010,4,15,0.25,0.75,1,3
+Ontario,Victoria (North/Nord),Lutterworth,ON130009,8,23,0.25,0.625,2,5
+Ontario,Victoria (North/Nord),Somerville,ON130007,41,129,0.12195121951219512,0.8780487804878049,5,36
+Ontario,Victoria (South/Sud),Bobcaygeon (Village),ON129007,16,31,0.0625,0.9375,1,15
+Ontario,Victoria (South/Sud),Emily,ON129004,15,45,0.0,1.0,0,15
+Ontario,Victoria (South/Sud),Lindsay (Town/Ville),ON129002,92,258,0.17391304347826086,0.8260869565217391,16,76
+Ontario,Victoria (South/Sud),Mariposa,ON129003,67,191,0.16977611940298507,0.8302238805970149,11,55
+Ontario,Victoria (South/Sud),Omemee (Village),ON129006,10,22,0.0,1.0,0,10
+Ontario,Victoria (South/Sud),Ops,ON129001,29,104,0.034482758620689655,0.9655172413793104,1,28
+Ontario,Victoria (South/Sud),Verulam,ON129005,47,142,0.22340425531914893,0.776595744680851,10,36
+Ontario,Waterloo (North/Nord),Berlin (Town/Ville),ON162005,40,103,0.0,1.0,0,40
+Ontario,Waterloo (North/Nord),Waterloo (North/Nord),ON162003,18,64,0.39814814814814814,0.6018518518518519,7,10
+Ontario,Waterloo (North/Nord),Waterloo (Town/Ville),ON162004,29,79,0.0,1.0,0,29
+Ontario,Waterloo (North/Nord),Wellesley,ON162002,50,148,0.03,0.97,1,48
+Ontario,Waterloo (North/Nord),Woolwich,ON162001,43,142,0.06976744186046512,0.9302325581395349,3,40
+Ontario,Waterloo (South/Sud),Dumfries (North/Nord),ON161002,38,108,0.02631578947368421,0.9736842105263158,1,37
+Ontario,Waterloo (South/Sud),Galt (Town/Ville),ON161004,98,260,0.028911564625850338,0.9685374149659864,2,93
+Ontario,Waterloo (South/Sud),Hespeler (Village),ON161006,14,33,0.35714285714285715,0.6428571428571429,5,9
+Ontario,Waterloo (South/Sud),New Hamburg (Village),ON161007,9,23,0.0,1.0,0,9
+Ontario,Waterloo (South/Sud),Preston (Village),ON161005,19,57,0.0,0.9473684210526315,0,18
+Ontario,Waterloo (South/Sud),Waterloo (South/Sud),ON161003,24,66,0.125,0.875,3,21
+Ontario,Waterloo (South/Sud),Wilmot,ON161001,26,70,0.07692307692307693,0.9230769230769231,2,24
+Ontario,Welland,Bertie,ON142003,50,108,0.06,0.92,3,46
+Ontario,Welland,Chippewa (Village),ON142011,14,45,0.0,1.0,0,14
+Ontario,Welland,Clifton (Town/Ville),ON142012,51,124,0.049019607843137254,0.9117647058823529,2,46
+Ontario,Welland,Crowland,ON142005,23,56,0.08695652173913043,0.9130434782608695,2,21
+Ontario,Welland,Humberstone,ON142001,31,95,0.12903225806451613,0.8709677419354839,4,27
+Ontario,Welland,Port Cobourne (Village),ON142002,32,63,0.03125,0.96875,1,31
+Ontario,Welland,Port Erie (Village),ON142004,15,46,0.0,1.0,0,15
+Ontario,Welland,Stamford,ON142010,47,126,0.0,0.9787234042553191,0,46
+Ontario,Welland,Thorold,ON142008,49,117,0.02040816326530612,0.9795918367346939,1,48
+Ontario,Welland,Thorold (Town/Ville),ON142009,42,119,0.07142857142857142,0.9047619047619048,3,38
+Ontario,Welland,Welland (Town/Village),ON142006,64,141,0.015625,0.96875,1,62
+Ontario,Welland,Willoughby,ON142007,18,67,0.05555555555555555,0.9444444444444444,1,17
+Ontario,Wellington (Centre),Drayton (Village),ON152004,12,26,0.0,1.0,0,12
+Ontario,Wellington (Centre),Elora (Village),ON152003,28,86,0.0,1.0,0,28
+Ontario,Wellington (Centre),Fergus (Village),ON152002,17,46,0.058823529411764705,0.9411764705882353,1,16
+Ontario,Wellington (Centre),Garafraxa (East/Est),ON152009,34,94,0.5661764705882353,0.4338235294117647,19,14
+Ontario,Wellington (Centre),Garafraxa (West/Ouest),ON152008,57,178,0.08771929824561403,0.9122807017543859,5,52
+Ontario,Wellington (Centre),Nichol,ON152006,30,84,0.1,0.8666666666666667,3,26
+Ontario,Wellington (Centre),Orangeville (Town/Ville),ON152001,57,152,0.05263157894736842,0.9473684210526315,3,54
+Ontario,Wellington (Centre),Peel,ON152005,60,189,0.06666666666666667,0.925,4,55
+Ontario,Wellington (Centre),Pilkington,ON152007,21,66,0.09523809523809523,0.9047619047619048,2,19
+Ontario,Wellington (North/Nord),Amaranth,ON153009,53,132,0.4528301886792453,0.5283018867924528,24,28
+Ontario,Wellington (North/Nord),Arthur,ON153006,30,92,0.0,0.9416666666666667,0,28
+Ontario,Wellington (North/Nord),Arthur (Village),ON153007,28,89,0.017857142857142856,0.9821428571428571,0,27
+Ontario,Wellington (North/Nord),Clifford (Village),ON153004,25,80,0.04,0.96,1,24
+Ontario,Wellington (North/Nord),Harriston (Town/Ville),ON153003,41,116,0.0,1.0,0,41
+Ontario,Wellington (North/Nord),Luther (East/Est) or (West/Ouest),ON153008,73,244,0.3972602739726027,0.6027397260273972,27,43
+Ontario,Wellington (North/Nord),Maryborough,ON153001,78,236,0.0641025641025641,0.9358974358974359,5,73
+Ontario,Wellington (North/Nord),Minto,ON153002,66,216,0.06060606060606061,0.9393939393939394,4,62
+Ontario,Wellington (North/Nord),Mount Forest (Town/Village),ON153005,19,40,0.05263157894736842,0.3157894736842105,1,6
+Ontario,Wellington (North/Nord),Palmerston (Town/Village),ON153010,16,42,0.0625,0.9375,1,15
+Ontario,Wellington (North/Nord),Shelburne (Village),ON153011,6,14,0.0,1.0,0,6
+Ontario,Wellington (South/Sud),Eramosa,ON151004,56,151,0.04017857142857143,0.9598214285714286,2,53
+Ontario,Wellington (South/Sud),Erin,ON151005,73,218,0.0410958904109589,0.9223744292237442,3,66
+Ontario,Wellington (South/Sud),Guelph,ON151002,27,91,0.07407407407407407,0.8888888888888888,2,24
+Ontario,Wellington (South/Sud),Guelph (City/Ville),ON151003,193,524,0.03454231433506045,0.9602763385146805,6,184
+Ontario,Wellington (South/Sud),Puslinch,ON151001,32,93,0.0,1.0,0,32
+Ontario,Wentworth (North/Nord),Beverly,ON148004,60,171,0.0,1.0,0,60
+Ontario,Wentworth (North/Nord),Dundas (Town/Ville),ON148001,32,98,0.078125,0.921875,2,29
+Ontario,Wentworth (North/Nord),Flamborough (East/Est),ON148002,51,151,0.0196078431372549,0.9803921568627451,1,50
+Ontario,Wentworth (North/Nord),Flamborough (West/Ouest),ON148003,92,246,0.010869565217391304,0.9836956521739131,1,90
+Ontario,Wentworth (South/Sud),Ancaster,ON147005,79,197,0.27848101265822783,0.7215189873417721,22,57
+Ontario,Wentworth (South/Sud),Barton,ON147003,48,129,0.16666666666666666,0.8333333333333334,8,40
+Ontario,Wentworth (South/Sud),Binbrooke,ON147002,49,139,0.08843537414965985,0.91156462585034,4,44
+Ontario,Wentworth (South/Sud),Glanford,ON147004,53,164,0.05031446540880503,0.9308176100628931,2,49
+Ontario,Wentworth (South/Sud),Saltfleet,ON147001,60,162,0.08333333333333333,0.9166666666666666,5,55
+Ontario,York (East/Est),Markham,ON135003,134,356,0.16044776119402984,0.8271144278606964,21,110
+Ontario,York (East/Est),Markham (Village),ON135005,24,56,0.3333333333333333,0.6666666666666666,8,16
+Ontario,York (East/Est),Scarborough,ON135001,85,222,0.15294117647058825,0.8470588235294118,13,72
+Ontario,York (East/Est),Stouffville (Village),ON135006,12,30,0.16666666666666666,0.8333333333333334,2,10
+Ontario,York (East/Est),York (East/Est),ON135002,99,277,0.16835016835016836,0.8316498316498316,16,81
+Ontario,York (East/Est),Yorkville (Village),ON135004,74,176,0.17905405405405406,0.8209459459459459,13,60
+Ontario,York (North/Nord),Aurora (Village),ON137004,32,87,0.0,0.9739583333333334,0,31
+Ontario,York (North/Nord),Georgina,ON137009,52,150,0.11538461538461539,0.8846153846153846,6,46
+Ontario,York (North/Nord),Gwillimbury (East/Est),ON137006,62,167,0.11290322580645161,0.8669354838709677,7,53
+Ontario,York (North/Nord),Gwillimbury (North/Nord),ON137008,41,118,0.05691056910569105,0.9430894308943089,2,38
+Ontario,York (North/Nord),Holland Landing (Village),ON137007,12,37,0.16666666666666666,0.75,2,9
+Ontario,York (North/Nord),King,ON137001,122,380,0.03278688524590164,0.965846994535519,4,117
+Ontario,York (North/Nord),Newmarket (Town/Ville),ON137005,28,68,0.17857142857142858,0.8214285714285714,5,23
+Ontario,York (North/Nord),Stouffville (Village),ON137002,13,37,0.15384615384615385,0.8461538461538461,2,11
+Ontario,York (North/Nord),Whitchurch,ON137003,86,232,0.13565891472868216,0.8527131782945736,11,73
+Ontario,York (West/Ouest),Brockton (Village),ON136002,8,24,0.0,1.0,0,8
+Ontario,York (West/Ouest),Etobicoke,ON136004,32,113,0.09375,0.90625,3,29
+Ontario,York (West/Ouest),Parkdale (Village),ON136003,33,93,0.06060606060606061,0.9090909090909091,2,30
+Ontario,York (West/Ouest),Richmond Hill (Village),ON136001,12,21,0.25,0.75,3,9
+Ontario,York (West/Ouest),Vaughan,ON136005,127,362,0.15354330708661418,0.8464566929133859,19,107
+Ontario,York (West/Ouest),York (West/Ouest),ON136006,92,250,0.1956521739130435,0.8043478260869565,18,74
+Prince Edward Island,Kings,Georgetown Royalty,PE003022,11,32,0.0,0.9090909090909091,0,10
+Prince Edward Island,Kings,Lot No. 38,PE003010,3,10,1.0,0.0,3,0
+Prince Edward Island,Kings,Lot No. 39,PE003009,3,10,0.0,1.0,0,3
+Prince Edward Island,Kings,Lot No. 40,PE003008,6,17,0.2222222222222222,0.7777777777777777,1,4
+Prince Edward Island,Kings,Lot No. 41,PE003007,7,24,0.0,1.0,0,7
+Prince Edward Island,Kings,Lot No. 42,PE003006,1,4,1.0,0.0,1,0
+Prince Edward Island,Kings,Lot No. 43,PE003005,11,30,0.09090909090909091,0.9090909090909091,1,10
+Prince Edward Island,Kings,Lot No. 44,PE003004,18,59,0.0,1.0,0,18
+Prince Edward Island,Kings,Lot No. 45,PE003003,22,59,0.2727272727272727,0.7272727272727273,6,16
+Prince Edward Island,Kings,Lot No. 46,PE003002,5,13,0.5,0.5,2,2
+Prince Edward Island,Kings,Lot No. 47,PE003001,4,8,0.0,1.0,0,4
+Prince Edward Island,Kings,Lot No. 51,PE003016,5,24,0.0,1.0,0,5
+Prince Edward Island,Kings,Lot No. 52,PE003015,15,40,0.0,1.0,0,15
+Prince Edward Island,Kings,Lot No. 53,PE003014,16,51,0.0,1.0,0,16
+Prince Edward Island,Kings,Lot No. 54,PE003013,4,7,0.5,0.5,2,2
+Prince Edward Island,Kings,Lot No. 55,PE003012,15,60,0.19166666666666668,0.8083333333333333,2,12
+Prince Edward Island,Kings,Lot No. 56,PE003011,14,49,0.0,1.0,0,14
+Prince Edward Island,Kings,Lot No. 59,PE003018,17,46,0.0,1.0,0,17
+Prince Edward Island,Kings,Lot No. 61,PE003019,8,24,0.125,0.875,1,7
+Prince Edward Island,Kings,Lot No. 64,PE003021,27,68,0.14814814814814814,0.8518518518518519,4,23
+Prince Edward Island,Prince,Lot No. 1,PE001001,19,69,0.05263157894736842,0.8947368421052632,1,17
+Prince Edward Island,Prince,Lot No. 10,PE001010,7,22,0.2857142857142857,0.7142857142857143,2,5
+Prince Edward Island,Prince,Lot No. 11,PE001011,11,29,0.0,1.0,0,11
+Prince Edward Island,Prince,Lot No. 12,PE001012,17,54,0.0196078431372549,0.9215686274509803,0,15
+Prince Edward Island,Prince,Lot No. 13,PE001013,20,71,0.025,0.975,0,19
+Prince Edward Island,Prince,Lot No. 14,PE001014,3,13,0.0,1.0,0,3
+Prince Edward Island,Prince,Lot No. 15,PE001015,1,2,0.0,1.0,0,1
+Prince Edward Island,Prince,Lot No. 16,PE001016,2,2,0.5,0.5,1,1
+Prince Edward Island,Prince,Lot No. 17,PE001018,8,29,0.125,0.875,1,7
+Prince Edward Island,Prince,Lot No. 18,PE001019,11,45,0.8977272727272727,0.10227272727272728,9,1
+Prince Edward Island,Prince,Lot No. 19,PE001020,15,40,0.28888888888888886,0.711111111111111,4,10
+Prince Edward Island,Prince,Lot No. 2,PE001002,8,36,0.0,1.0,0,8
+Prince Edward Island,Prince,Lot No. 25,PE001021,16,58,0.0625,0.875,1,14
+Prince Edward Island,Prince,Lot No. 26,PE001022,17,60,0.35294117647058826,0.6470588235294118,6,11
+Prince Edward Island,Prince,Lot No. 27,PE001023,16,39,0.1875,0.75,3,12
+Prince Edward Island,Prince,Lot No. 28,PE001024,20,61,0.05,0.95,1,19
+Prince Edward Island,Prince,Lot No. 3,PE001003,10,44,0.1,0.9,1,9
+Prince Edward Island,Prince,Lot No. 4,PE001004,23,74,0.043478260869565216,0.9565217391304348,1,22
+Prince Edward Island,Prince,Lot No. 5,PE001005,19,72,0.05263157894736842,0.9473684210526315,1,18
+Prince Edward Island,Prince,Lot No. 6,PE001006,13,36,0.3076923076923077,0.6923076923076923,4,9
+Prince Edward Island,Prince,Lot No. 7,PE001007,12,46,0.75,0.25,9,3
+Prince Edward Island,Prince,Lot No. 8,PE001008,16,61,0.0625,0.9375,1,15
+Prince Edward Island,Prince,Lot No. 9,PE001009,3,15,1.0,0.0,3,0
+Prince Edward Island,Prince,Summerside,PE001017,63,191,0.01851851851851852,0.9814814814814815,1,61
+Prince Edward Island,Queens,Charlottetown Royalty,PE002001,157,396,0.041401273885350316,0.9437367303609341,6,147
+Prince Edward Island,Queens,Lot No 20,PE002002,13,38,0.0,1.0,0,13
+Prince Edward Island,Queens,Lot No 21,PE002003,19,64,0.10526315789473684,0.8947368421052632,2,17
+Prince Edward Island,Queens,Lot No 22,PE002004,9,32,0.0,1.0,0,9
+Prince Edward Island,Queens,Lot No 23,PE002005,22,64,0.0,1.0,0,22
+Prince Edward Island,Queens,Lot No 24,PE002006,21,63,0.14285714285714285,0.8571428571428571,3,18
+Prince Edward Island,Queens,Lot No 29,PE002007,18,70,0.1111111111111111,0.8888888888888888,2,16
+Prince Edward Island,Queens,Lot No 30,PE002008,6,17,0.5,0.5,3,3
+Prince Edward Island,Queens,Lot No 31,PE002009,17,50,0.35294117647058826,0.6470588235294118,6,11
+Prince Edward Island,Queens,Lot No 32,PE002010,9,35,0.037037037037037035,0.9629629629629629,0,8
+Prince Edward Island,Queens,Lot No 33,PE002011,6,20,0.16666666666666666,0.8333333333333334,1,5
+Prince Edward Island,Queens,Lot No 34,PE002012,12,37,1.0,0.0,12,0
+Prince Edward Island,Queens,Lot No 35,PE002013,12,46,0.0,1.0,0,12
+Prince Edward Island,Queens,Lot No 36,PE002014,11,44,0.0,1.0,0,11
+Prince Edward Island,Queens,Lot No 37,PE002015,17,45,0.4264705882352941,0.5735294117647058,7,9
+Prince Edward Island,Queens,Lot No 48,PE002016,13,29,0.02564102564102564,0.9743589743589743,0,12
+Prince Edward Island,Queens,Lot No. 49,PE002017,28,75,0.0,1.0,0,28
+Prince Edward Island,Queens,Lot No. 50,PE002018,11,41,0.09090909090909091,0.9090909090909091,1,10
+Prince Edward Island,Queens,Lot No. 57,PE002019,7,20,0.0,1.0,0,7
+Prince Edward Island,Queens,Lot No. 58,PE002020,4,10,0.0,1.0,0,4
+Prince Edward Island,Queens,Lot No. 60,PE002021,2,4,0.0,1.0,0,2
+Prince Edward Island,Queens,Lot No. 62,PE002022,8,20,0.0,1.0,0,8
+Prince Edward Island,Queens,Lot No. 65,PE002023,6,22,0.0,1.0,0,6
+Prince Edward Island,Queens,Lot No. 67,PE002024,11,45,0.09090909090909091,0.9090909090909091,1,10
+Quebec,Argenteuil,Arundel,QC096007,8,29,0.375,0.625,3,5
+Quebec,Argenteuil,Chatham,QC096003,48,146,0.22916666666666666,0.75,11,36
+Quebec,Argenteuil,Gore,QC096011,3,6,0.0,1.0,0,3
+Quebec,Argenteuil,Grandison & De Salaberry,QC096008,3,11,1.0,0.0,3,0
+Quebec,Argenteuil,Grenville,QC096005,16,43,0.1875,0.75,3,12
+Quebec,Argenteuil,Grenville (Village),QC096004,6,22,0.16666666666666666,0.8333333333333334,1,5
+Quebec,Argenteuil,Harrington & Union,QC096006,11,29,0.8181818181818182,0.18181818181818182,9,2
+Quebec,Argenteuil,Mille-Isles,QC096013,3,3,1.0,0.0,3,0
+Quebec,Argenteuil,Montcalm & Wentworth,QC096010,4,13,0.0,1.0,0,4
+Quebec,Argenteuil,Morin,QC096012,1,1,0.0,1.0,0,1
+Quebec,Argenteuil,St-Andrews,QC096002,25,91,0.10400000000000001,0.8959999999999999,2,22
+Quebec,Argenteuil,St-JÃ©rusalem,QC096001,17,50,0.7352941176470589,0.2647058823529412,12,4
+Quebec,Bagot,Actonvale (Village),QC058012,5,15,0.2,0.8,1,4
+Quebec,Bagot,St-Andre,QC058011,7,21,0.0,1.0,0,7
+Quebec,Bagot,St-Ephrem-d'Upton,QC058008,1,1,0.0,1.0,0,1
+Quebec,Bagot,St-Ephrem-d'Upton (Village),QC058009,3,6,0.0,1.0,0,3
+Quebec,Bagot,St-Huges,QC058005,1,2,0.0,1.0,0,1
+Quebec,Bagot,St-Liboire,QC058007,2,5,0.0,1.0,0,2
+Quebec,Bagot,St-Pie-de-Guire,QC058001,1,2,0.0,1.0,0,1
+Quebec,Bagot,St-Theodore d'Action,QC058010,1,4,0.0,1.0,0,1
+Quebec,Bagot,Ste-Helene,QC058006,3,9,0.3333333333333333,0.6666666666666666,1,2
+Quebec,Beauce,Sacre-Coeur-de-Jesus,QC048007,1,3,1.0,0.0,1,0
+Quebec,Beauce,Spaulding and Clinton,QC048021,1,6,0.0,1.0,0,1
+Quebec,Beauce,St-CÃ´me-de-LiniÃ¨re,QC048011,1,4,0.0,1.0,0,1
+Quebec,Beauce,St-ElzÃ©ar,QC048002,1,7,0.7142857142857143,0.2857142857142857,0,0
+Quebec,Beauce,St-FranÃ§ois,QC048009,3,11,0.3333333333333333,0.6666666666666666,1,2
+Quebec,Beauce,St-Georges,QC048010,4,9,0.25,0.75,1,3
+Quebec,Beauce,St-Joseph,QC048003,3,8,0.25,0.75,0,2
+Quebec,Beauce,Woburn & Ditchfield,QC048020,2,7,0.0,1.0,0,2
+Quebec,Beauharnois,Beauharnois (Ville/Town),QC073007,4,12,0.75,0.25,3,1
+Quebec,Beauharnois,Melocheville & St-Clement,QC073003,3,14,0.0,1.0,0,3
+Quebec,Beauharnois,St-Etienne,QC073006,2,6,0.5,0.5,1,1
+Quebec,Beauharnois,St-Louis-de-Gonzague,QC073005,1,3,0.0,1.0,0,1
+Quebec,Beauharnois,St-TimothÃ©e,QC073002,1,3,0.0,1.0,0,1
+Quebec,Beauharnois,Ste-CÃ©cile,QC073008,1,6,0.0,1.0,0,1
+Quebec,Beauharnois,Valleyfield (Ville/Town),QC073001,13,46,0.02564102564102564,0.9743589743589743,0,12
+Quebec,Bellechasse,St-Michel,QC045002,2,2,0.0,1.0,0,2
+Quebec,Bellechasse,St-Raphael,QC045006,2,9,0.0,1.0,0,2
+Quebec,Berthier,Berthier (Ville/Town),QC086004,2,7,0.0,1.0,0,2
+Quebec,Berthier,Lanoraie,QC086002,2,6,0.5,0.5,1,1
+Quebec,Berthier,Lavaltrie,QC086001,1,6,0.0,1.0,0,1
+Quebec,Berthier,St-Barthelemie,QC086006,3,10,0.3333333333333333,0.6666666666666666,1,2
+Quebec,Berthier,St-Cuthbert,QC086007,1,3,0.0,1.0,0,1
+Quebec,Berthier,St-Damien,QC086010,2,3,0.0,1.0,0,2
+Quebec,Berthier,St-Gabriel-de-Brandon,QC086009,11,37,0.0,1.0,0,11
+Quebec,Berthier,St-Michel-des-Saints,QC086011,2,3,1.0,0.0,2,0
+Quebec,Bonaventure,Escuminac (Village),QC038012,5,16,0.0,1.0,0,5
+Quebec,Bonaventure,Hope,QC038002,14,37,0.14285714285714285,0.8571428571428571,2,12
+Quebec,Bonaventure,Mann,QC038013,5,19,0.26666666666666666,0.7333333333333333,1,3
+Quebec,Bonaventure,Maria,QC038008,7,24,0.0,1.0,0,7
+Quebec,Bonaventure,MatapÃ©dia,QC038016,1,3,0.0,1.0,0,1
+Quebec,Bonaventure,New Carlisle,QC038004,11,38,0.18181818181818182,0.8181818181818182,2,9
+Quebec,Bonaventure,New Richmond,QC038007,11,31,0.09090909090909091,0.9090909090909091,1,10
+Quebec,Bonaventure,PaspÃ©biac,QC038003,9,31,0.0925925925925926,0.9074074074074073,0,8
+Quebec,Bonaventure,Port Daniel,QC038001,14,44,0.08333333333333334,0.9166666666666667,1,12
+Quebec,Bonaventure,Schoolbred (Village),QC038010,1,3,0.0,1.0,0,1
+Quebec,Bonaventure,St-Bonaventure,QC038005,1,4,1.0,0.0,1,0
+Quebec,Bonaventure,St-Charles de Caplan,QC038006,6,21,0.16666666666666666,0.6666666666666666,1,4
+Quebec,Bonaventure,St-Jean l'Ã‰vangÃ©liste,QC038011,11,29,0.0,1.0,0,11
+Quebec,Bonaventure,St-Laurent,QC038014,6,14,0.0,1.0,0,6
+Quebec,Brome,Bolton (Est/East),QC060004,22,56,0.09090909090909091,0.8181818181818182,2,18
+Quebec,Brome,Bolton (Ouest/West),QC060005,21,45,0.09523809523809523,0.9047619047619048,2,19
+Quebec,Brome,Brome,QC060001,59,169,0.0,0.9661016949152542,0,57
+Quebec,Brome,Farnham (Est/East),QC060006,31,84,0.3064516129032258,0.6935483870967742,9,21
+Quebec,Brome,Potton,QC060003,32,68,0.328125,0.609375,10,19
+Quebec,Brome,Sutton,QC060002,31,62,0.41935483870967744,0.5806451612903226,13,18
+Quebec,Chambly,Boucherville (Village),QC067007,3,6,0.0,1.0,0,3
+Quebec,Chambly,Chambly,QC067006,4,7,0.0,1.0,0,4
+Quebec,Chambly,Chambly (Village),QC067005,1,3,1.0,0.0,1,0
+Quebec,Chambly,Longueuil,QC067002,4,7,0.25,0.75,1,3
+Quebec,Chambly,Longueuil (Ville/Town),QC067001,6,25,0.43333333333333335,0.5,2,3
+Quebec,Chambly,St-Hubert,QC067004,4,10,0.25,0.75,1,3
+Quebec,Chambly,St-Lambert,QC067003,1,2,0.0,1.0,0,1
+Quebec,Champlain,Cap-de-la-Madeleine,QC082001,3,7,1.0,0.0,3,0
+Quebec,Champlain,St-Luc,QC082007,1,4,0.0,1.0,0,1
+Quebec,Champlain,St-Maurice,QC082008,10,43,0.0,1.0,0,10
+Quebec,Champlain,St-Narcisse,QC082006,1,4,0.0,1.0,0,1
+Quebec,Champlain,St-Stanislas,QC082013,1,3,0.3333333333333333,0.6666666666666666,0,0
+Quebec,Champlain,St-Tite,QC082012,8,34,0.0,1.0,0,8
+Quebec,Champlain,Ste-Anne-de-la-Perade,QC082014,2,8,1.0,0.0,2,0
+Quebec,Champlain,Ste-Genevieve,QC082004,2,13,0.0,1.0,0,2
+Quebec,Charlevoix,Ile-aux-Coudres,QC077006,1,2,0.0,1.0,0,1
+Quebec,Charlevoix,Malbaie,QC077010,8,24,0.0,1.0,0,8
+Quebec,Charlevoix,Pointe-au-Pic (Village),QC077011,2,12,0.0,1.0,0,2
+Quebec,Charlevoix,St-Hilarion,QC077004,1,2,0.0,1.0,0,1
+Quebec,Charlevoix,Ste-Agnes,QC077003,1,2,0.0,1.0,0,1
+Quebec,Chateauguay,Howick (Village),QC071008,5,18,0.0,1.0,0,5
+Quebec,Chateauguay,St-Jean-ChrysostÃ´me,QC071001,20,76,0.0,1.0,0,20
+Quebec,Chateauguay,St-Joachim,QC071007,2,6,1.0,0.0,2,0
+Quebec,Chateauguay,St-Malachie-d'Ormstown,QC071004,14,42,0.2857142857142857,0.7142857142857143,4,10
+Quebec,Chateauguay,Ste-Philomene,QC071006,1,2,0.0,1.0,0,1
+Quebec,Chicoutimi & Saguenay,Bagotville Village,QC076014,1,3,1.0,0.0,1,0
+Quebec,Chicoutimi & Saguenay,Bonne Esperance,QC076011,4,10,0.0,1.0,0,4
+Quebec,Chicoutimi & Saguenay,Chicoutimi (Ville/Town),QC076016,7,27,0.0,1.0,0,7
+Quebec,Chicoutimi & Saguenay,Hebertville,QC076021,1,1,0.0,1.0,0,1
+Quebec,Chicoutimi & Saguenay,Isle of Anticosti,QC076008,1,2,1.0,0.0,1,0
+Quebec,Chicoutimi & Saguenay,Kenogami,QC076020,1,1,1.0,0.0,1,0
+Quebec,Chicoutimi & Saguenay,Mecatina,QC076010,1,3,1.0,0.0,1,0
+Quebec,Chicoutimi & Saguenay,Mille-Vache,QC076003,1,4,0.0,1.0,0,1
+Quebec,Chicoutimi & Saguenay,Moisie,QC076006,1,2,0.0,1.0,0,1
+Quebec,Chicoutimi & Saguenay,Natashquan,QC076009,3,10,0.3333333333333333,0.6666666666666666,1,2
+Quebec,Chicoutimi & Saguenay,Notre-Dame-du-Lac,QC076026,4,13,0.25,0.75,1,3
+Quebec,Chicoutimi & Saguenay,Point-aux-Esquimaux,QC076007,10,39,0.8,0.2,8,2
+Quebec,Chicoutimi & Saguenay,St-Dominique,QC076019,1,3,0.0,1.0,0,1
+Quebec,Chicoutimi & Saguenay,St-Francois-Xavier,QC076017,1,4,0.0,1.0,0,1
+Quebec,Chicoutimi & Saguenay,St-GÃ©dÃ©on,QC076023,1,5,0.0,1.0,0,1
+Quebec,Chicoutimi & Saguenay,St-Jerome,QC076024,1,2,1.0,0.0,1,0
+Quebec,Chicoutimi & Saguenay,St-Prime,QC076027,1,1,0.0,1.0,0,1
+Quebec,Chicoutimi & Saguenay,Ste-Anne,QC076030,3,13,0.3333333333333333,0.6666666666666666,1,2
+Quebec,Chicoutimi & Saguenay,Tadousac,QC076001,4,15,0.0,1.0,0,4
+Quebec,Compton,Auckland,QC054019,1,4,1.0,0.0,1,0
+Quebec,Compton,Bury,QC054010,23,75,0.0,1.0,0,23
+Quebec,Compton,Clifton (Est/East and Ouest/West),QC054017,10,28,0.5666666666666667,0.3,5,3
+Quebec,Compton,Compton,QC054014,12,35,0.16666666666666666,0.8333333333333334,2,10
+Quebec,Compton,Ditton,QC054001,2,8,0.0,1.0,0,2
+Quebec,Compton,Eaton,QC054016,27,76,0.1111111111111111,0.8765432098765432,3,23
+Quebec,Compton,Emberton,QC054003,1,4,0.0,1.0,0,1
+Quebec,Compton,Hampden,QC054008,5,12,0.8,0.2,4,1
+Quebec,Compton,Hereford (Est/East),QC054013,4,8,0.5,0.5,2,2
+Quebec,Compton,Hereford (Ouest/West),QC054012,2,3,0.0,1.0,0,2
+Quebec,Compton,Hereford Gore,QC054020,1,3,0.6666666666666666,0.0,0,0
+Quebec,Compton,Lingwick,QC054009,2,5,1.0,0.0,2,0
+Quebec,Compton,Marston (Nord/North),QC054005,1,5,0.0,1.0,0,1
+Quebec,Compton,Marston (Sud/South),QC054004,2,2,0.0,1.0,0,2
+Quebec,Compton,New Port,QC054021,12,28,0.16666666666666666,0.8333333333333334,2,10
+Quebec,Compton,Winslow (Sud/South),QC054006,1,4,0.0,1.0,0,1
+Quebec,Deux-Montagnes,St-Augustin,QC095004,2,10,0.0,1.0,0,2
+Quebec,Deux-Montagnes,St-Benoit,QC095009,4,14,0.0,1.0,0,4
+Quebec,Deux-Montagnes,St-Canut,QC095013,5,22,0.0,1.0,0,5
+Quebec,Deux-Montagnes,St-Colomban,QC095012,4,14,0.0,1.0,0,4
+Quebec,Deux-Montagnes,St-Hermas,QC095011,1,7,0.0,1.0,0,1
+Quebec,Deux-Montagnes,St-Joseph,QC095007,1,2,0.0,1.0,0,1
+Quebec,Deux-Montagnes,Ste-Scholastique,QC095001,1,2,0.0,1.0,0,1
+Quebec,Dorchester,Cranbourne,QC047005,10,40,0.1,0.9,1,9
+Quebec,Dorchester,St-Anselme,QC047007,1,5,0.0,1.0,0,1
+Quebec,Dorchester,St-Bernard,QC047001,1,4,0.0,1.0,0,1
+Quebec,Dorchester,St-Germain & Lac Etchemin,QC047012,1,3,0.0,0.0,0,0
+Quebec,Dorchester,St-HÃ©nÃ©dine,QC047002,1,2,0.0,1.0,0,1
+Quebec,Dorchester,St-Isodore,QC047014,1,1,0.0,1.0,0,1
+Quebec,Dorchester,St-LÃ©on-de-Standon & EvangÃ©liste Richard,QC047010,1,7,0.0,1.0,0,1
+Quebec,Dorchester,St-Malachie,QC047009,3,8,0.0,1.0,0,3
+Quebec,Dorchester,Ste-Marguerite,QC047003,4,19,0.25,0.75,1,3
+Quebec,Drummond & Arthabaska,Arthabaskaville (Village),QC052026,1,7,0.0,1.0,0,1
+Quebec,Drummond & Arthabaska,Chenier,QC052023,2,4,0.0,1.0,0,2
+Quebec,Drummond & Arthabaska,Chester (Est/East),QC052020,1,2,0.0,1.0,0,1
+Quebec,Drummond & Arthabaska,Chester (Nord/North),QC052019,1,4,0.0,1.0,0,1
+Quebec,Drummond & Arthabaska,Drummondville (Village),QC052014,9,31,0.2222222222222222,0.7777777777777778,2,7
+Quebec,Drummond & Arthabaska,Durham (Sud/South),QC052009,20,50,0.05,0.95,1,19
+Quebec,Drummond & Arthabaska,Kingsey,QC052012,5,13,0.0,1.0,0,5
+Quebec,Drummond & Arthabaska,Kingsey (Est/East),QC052033,1,4,0.0,1.0,0,1
+Quebec,Drummond & Arthabaska,L'Avenir,QC052011,7,18,0.14285714285714285,0.8571428571428571,1,6
+Quebec,Drummond & Arthabaska,Princeville (Village),QC052015,1,1,0.0,1.0,0,1
+Quebec,Drummond & Arthabaska,Simpson & Wendover,QC052003,6,23,0.0,1.0,0,6
+Quebec,Drummond & Arthabaska,St-Christophe,QC052024,1,4,0.0,1.0,0,1
+Quebec,Drummond & Arthabaska,St-Eugene,QC052001,6,21,0.0,0.6666666666666666,0,4
+Quebec,Drummond & Arthabaska,St-Germain,QC052005,11,41,0.0,1.0,0,11
+Quebec,Drummond & Arthabaska,St-Medard,QC052027,1,2,0.0,1.0,0,1
+Quebec,Drummond & Arthabaska,Stanfold,QC052017,1,2,0.0,1.0,0,1
+Quebec,Drummond & Arthabaska,Ste-Clothilde,QC052028,1,5,1.0,0.0,1,0
+Quebec,Drummond & Arthabaska,Tingwick,QC052022,2,3,0.5,0.5,1,1
+Quebec,Drummond & Arthabaska,Ulverton,QC052010,9,30,0.0,1.0,0,9
+Quebec,Drummond & Arthabaska,Victoriaville (Village),QC052016,1,4,0.0,0.0,0,0
+Quebec,Drummond & Arthabaska,Warwick (Village),QC052025,1,7,0.0,1.0,0,1
+Quebec,Drummond & Arthabaska,Wickham (Est/East),QC052008,5,16,0.2,0.8,1,4
+Quebec,Drummond & Arthabaska,Wickham (Ouest/West),QC052007,2,12,0.6875,0.3125,1,0
+Quebec,GaspÃ©,Anse-au-Griffon & St-Joseph,QC039007,15,53,0.06666666666666667,0.9333333333333333,1,14
+Quebec,GaspÃ©,Cap-Chat,QC039001,4,15,0.25,0.75,1,3
+Quebec,GaspÃ©,Douglass,QC039013,22,80,0.18181818181818182,0.8181818181818182,4,18
+Quebec,GaspÃ©,Etang-du-Nord,QC039021,5,12,0.5,0.5,2,2
+Quebec,GaspÃ©,GaspÃ© (Village),QC039011,3,8,0.0,1.0,0,3
+Quebec,GaspÃ©,GaspÃ© Bay (North/Nord) & Sydenham (South/Sud),QC039009,6,21,0.0,1.0,0,6
+Quebec,GaspÃ©,GaspÃ© Bay (South/Sud),QC039010,4,17,0.0,1.0,0,4
+Quebec,GaspÃ©,Grande VallÃ©e,QC039004,2,8,0.5,0.5,1,1
+Quebec,GaspÃ©,Grosse-Ile,QC039023,3,12,0.0,1.0,0,3
+Quebec,GaspÃ©,Havre-Amherst,QC039020,2,9,0.5,0.5,1,1
+Quebec,GaspÃ©,Havre-aux-Maisons,QC039022,2,8,0.5,0.5,1,1
+Quebec,GaspÃ©,L'Anse-du-Cap,QC039016,13,39,0.07692307692307693,0.9230769230769231,1,12
+Quebec,GaspÃ©,La-Grande-Riviere,QC039017,4,10,0.25,0.75,1,3
+Quebec,GaspÃ©,Les Chlorydormes,QC039005,2,3,0.5,0.5,1,1
+Quebec,GaspÃ©,Mont-Louis,QC039003,12,38,0.0,1.0,0,12
+Quebec,GaspÃ©,Newport,QC039019,17,60,0.0,1.0,0,17
+Quebec,GaspÃ©,PercÃ©,QC039015,12,34,0.16666666666666666,0.8333333333333334,2,10
+Quebec,GaspÃ©,RiviÃ¨re-au-Renard,QC039006,22,73,0.0,1.0,0,22
+Quebec,GaspÃ©,St-Alban & Cap-des-Rosiers,QC039008,15,44,0.13333333333333333,0.8666666666666667,2,13
+Quebec,GaspÃ©,St-Pierre-de-la-Malbaie,QC039014,21,70,0.0,1.0,0,21
+Quebec,GaspÃ©,Ste-Adelaide-de-Pabos,QC039018,3,16,0.0,1.0,0,3
+Quebec,GaspÃ©,Ste-Anne-des-Monts,QC039002,3,8,0.3333333333333333,0.6666666666666666,1,2
+Quebec,GaspÃ©,York,QC039012,5,15,0.0,1.0,0,5
+Quebec,Hochelaga,Cote-St-Antoine (Village),QC091012,10,31,0.4,0.5,4,5
+Quebec,Hochelaga,Cote-St-Paul,QC091014,2,4,0.0,1.0,0,2
+Quebec,Hochelaga,Cote-St-Paul (Village),QC091010,9,17,0.0,1.0,0,9
+Quebec,Hochelaga,Cote-de-la-Visitation (Village),QC091004,1,1,1.0,0.0,1,0
+Quebec,Hochelaga,Cote-des-Neiges (Village),QC091013,1,3,0.0,1.0,0,1
+Quebec,Hochelaga,Coteau-St-Louis (Village),QC091003,5,13,0.4,0.6,2,3
+Quebec,Hochelaga,Hochelaga (Village),QC091005,17,39,0.058823529411764705,0.9411764705882353,1,16
+Quebec,Hochelaga,Longue-Pointe,QC091015,2,4,0.5,0.5,1,1
+Quebec,Hochelaga,Mile End (Village) & St-Louis,QC091002,5,14,0.0,1.0,0,5
+Quebec,Hochelaga,Notre-Dame-de-Grace (Ouest/West),QC091011,5,10,0.8,0.2,4,1
+Quebec,Hochelaga,Outremont (Village),QC091019,6,21,0.3333333333333333,0.6666666666666666,2,4
+Quebec,Hochelaga,Sault-aux-Recollets,QC091018,3,8,0.0,1.0,0,3
+Quebec,Hochelaga,St-Gabriel (Village),QC091008,56,168,0.31339285714285714,0.6830357142857143,16,38
+Quebec,Hochelaga,St-Henri,QC091006,33,90,0.2727272727272727,0.7272727272727273,9,24
+Quebec,Hochelaga,St-Jean-Baptiste (Village),QC091001,27,58,0.14814814814814814,0.8518518518518519,4,23
+Quebec,Hochelaga,Ste-Cunegonde (Village),QC091007,15,38,0.13333333333333333,0.8666666666666667,2,13
+Quebec,Hochelaga,Verdun (Village),QC091009,1,3,0.6666666666666666,0.3333333333333333,0,0
+Quebec,Huntingdon,Dundee,QC072009,2,4,0.0,1.0,0,2
+Quebec,Huntingdon,Elgin,QC072005,8,27,0.25,0.75,2,6
+Quebec,Huntingdon,Franklin,QC072003,18,46,0.022222222222222223,0.31481481481481477,0,5
+Quebec,Huntingdon,Godmanchester,QC072006,17,56,0.058823529411764705,0.9411764705882353,1,16
+Quebec,Huntingdon,Havelock,QC072002,5,12,0.8,0.2,4,1
+Quebec,Huntingdon,Hemmingford,QC072001,21,72,0.047619047619047616,0.9523809523809523,1,20
+Quebec,Huntingdon,Hinchinbrooke,QC072004,26,80,0.038461538461538464,0.9230769230769231,1,24
+Quebec,Huntingdon,Huntingdon (Village),QC072007,11,23,0.09090909090909091,0.9090909090909091,1,10
+Quebec,Huntingdon,St-Anicet,QC072008,10,40,0.0,1.0,0,10
+Quebec,Iberville,Iberville (Ville/Town),QC064002,10,21,0.1,0.9,1,9
+Quebec,Iberville,St-Alexandre,QC064004,7,26,0.0,1.0,0,7
+Quebec,Iberville,St-Athanase,QC064001,5,8,0.0,1.0,0,5
+Quebec,Iberville,St-Georges-de-Henryville,QC064007,7,24,0.0,1.0,0,7
+Quebec,Iberville,St-Gregoire,QC064003,2,3,0.0,1.0,0,2
+Quebec,Iberville,St-Sebastien,QC064005,5,16,0.0,1.0,0,5
+Quebec,Iberville,Ste-Brigitte,QC064006,3,8,0.0,1.0,0,3
+Quebec,Jacques-Cartier,Lachine,QC092002,3,8,0.3333333333333333,0.6666666666666666,1,2
+Quebec,Jacques-Cartier,Lachine (Ville/Town),QC092001,10,30,0.0,1.0,0,10
+Quebec,Jacques-Cartier,St-Laurent,QC092011,2,6,1.0,0.0,2,0
+Quebec,Jacques-Cartier,Ste-Anne (du bout de L'Ile),QC092005,1,1,0.0,1.0,0,1
+Quebec,Jacques-Cartier,Ste-Anne-de-Bellevue (Village),QC092006,1,1,0.0,1.0,0,1
+Quebec,Joliette,Joliette (Ville/Town),QC087001,3,11,0.0,1.0,0,3
+Quebec,Joliette,St-Alphonse,QC087012,1,3,0.0,1.0,0,1
+Quebec,Joliette,St-Amboise,QC087010,5,12,0.2,0.8,1,4
+Quebec,Joliette,St-Charles-Borromee,QC087002,1,1,1.0,0.0,1,0
+Quebec,Joliette,St-Jean-de-Matha,QC087007,1,4,0.0,1.0,0,1
+Quebec,Joliette,Ste-Emilie-de-l'Energie,QC087008,1,2,1.0,0.0,1,0
+Quebec,Joliette,Ste-Melanie,QC087009,1,4,0.0,1.0,0,1
+Quebec,Kamouraska,Kamouraska,QC042009,1,3,0.0,1.0,0,1
+Quebec,Kamouraska,Kamouraska (Village),QC042008,1,6,0.0,1.0,0,1
+Quebec,Kamouraska,Riviere Ouelle,QC042003,1,1,0.0,1.0,0,1
+Quebec,Kamouraska,St-Andre & Notre-Dame-du-Portage,QC042011,1,3,0.0,1.0,0,1
+Quebec,Kamouraska,St-Arsene,QC041021,4,6,0.25,0.75,1,3
+Quebec,Kamouraska,St-Denis,QC042005,1,5,0.0,1.0,0,1
+Quebec,Kamouraska,"St-Paschel, Woodbridge, Painchaud",QC042010,1,6,0.0,1.0,0,1
+Quebec,Kamouraska,Ste-Anne,QC042001,3,11,0.3333333333333333,0.6666666666666666,1,2
+Quebec,Kamouraska,"Ste-Helene, Bungay & Chabot",QC042012,1,3,1.0,0.0,1,0
+Quebec,L'Assomption,L'Assomption (Village),QC088009,2,3,0.5,0.5,1,1
+Quebec,L'Assomption,Mascouche,QC088002,1,4,1.0,0.0,1,0
+Quebec,L'Assomption,Repentigny,QC088006,3,13,0.6666666666666666,0.3333333333333333,2,1
+Quebec,L'Assomption,St-Lin,QC088003,1,1,0.0,1.0,0,1
+Quebec,L'Assomption,St-Paul-l'Ermite,QC088005,1,4,0.0,1.0,0,1
+Quebec,L'Islet,St-Eugene,QC043002,1,2,0.0,1.0,0,1
+Quebec,Laprairie,Laprairie,QC069002,1,1,0.0,0.0,0,0
+Quebec,Laprairie,Laprairie (Village),QC069001,1,1,1.0,0.0,1,0
+Quebec,Laprairie,Sault-St-Louis,QC069007,2,4,0.0,1.0,0,2
+Quebec,Laprairie,St-Constant,QC069004,3,11,0.3333333333333333,0.6666666666666666,1,2
+Quebec,Laprairie,St-Philippe,QC069003,3,14,0.0,1.0,0,3
+Quebec,Laval,St-Martin,QC093004,2,5,0.0,1.0,0,2
+Quebec,Levis,Lauzon (Village),QC046003,8,30,0.125,0.875,1,7
+Quebec,Levis,Levis (Town/Ville),QC046001,21,68,0.19047619047619047,0.8095238095238095,4,17
+Quebec,Levis,Notre-Dame-de-la-Victoire,QC046005,2,5,0.0,1.0,0,2
+Quebec,Levis,St-David-de-l'Auberviere,QC046006,3,8,0.0,1.0,0,3
+Quebec,Levis,St-Jean-ChrysostÃ´me,QC046009,2,9,1.0,0.0,2,0
+Quebec,Levis,St-Lambert,QC046008,3,8,0.0,1.0,0,3
+Quebec,Levis,St-Nicolas,QC046011,3,14,0.0,1.0,0,3
+Quebec,Levis,St-Romuald,QC046012,13,44,0.0,1.0,0,13
+Quebec,Levis,St-Ã‰tienne-de-Lauzon,QC046010,1,1,0.0,1.0,0,1
+Quebec,Lotbiniere,St-Apollinaire,QC049009,1,4,0.0,1.0,0,1
+Quebec,Lotbiniere,St-Croix,QC049005,1,5,0.0,1.0,0,1
+Quebec,Lotbiniere,St-Giles,QC049011,2,4,1.0,0.0,2,0
+Quebec,Lotbiniere,St-Jean-Deschaillons,QC049001,2,3,0.0,1.0,0,2
+Quebec,Lotbiniere,St-Narcisse,QC049013,1,2,0.0,1.0,0,1
+Quebec,Lotbiniere,St-Patrice,QC049012,6,17,0.0,1.0,0,6
+Quebec,Lotbiniere,St-Sylvestre,QC049014,7,28,0.0,1.0,0,7
+Quebec,MaskinongÃ©,Hunterstown,QC085008,7,25,0.0,1.0,0,7
+Quebec,MaskinongÃ©,Louisville (Ville/Town),QC085002,1,4,0.0,1.0,0,1
+Quebec,MaskinongÃ©,MaskinongÃ©,QC085003,5,14,0.0,1.0,0,5
+Quebec,MaskinongÃ©,Riviere-du-Loup,QC085001,4,9,0.0,0.75,0,3
+Quebec,MaskinongÃ©,St-Leon,QC085006,1,3,0.0,1.0,0,1
+Quebec,MaskinongÃ©,St-Paulin,QC085007,2,7,0.0,1.0,0,2
+Quebec,MaskinongÃ©,Ste-Justine,QC085004,3,13,0.0,1.0,0,3
+Quebec,MaskinongÃ©,Ste-Ursule,QC085005,5,16,0.0,1.0,0,5
+Quebec,Megantic,Halifax (Nord/North),QC050001,1,4,0.0,1.0,0,1
+Quebec,Megantic,Halifax (Sud/South),QC050002,6,24,0.0,1.0,0,6
+Quebec,Megantic,Inverness (Est/East),QC050005,13,38,0.7692307692307693,0.23076923076923078,10,3
+Quebec,Megantic,Inverness (Ouest/West),QC050006,5,15,0.2,0.8,1,4
+Quebec,Megantic,Ireland and Coleraine,QC050009,9,28,0.2222222222222222,0.7777777777777778,2,7
+Quebec,Megantic,Leeds,QC050010,22,77,0.10227272727272728,0.8977272727272727,2,19
+Quebec,Megantic,Nelson,QC050007,1,3,0.0,1.0,0,1
+Quebec,Megantic,Plessisville (Village),QC050013,1,4,1.0,0.0,1,0
+Quebec,Megantic,Somerset (Nord/North),QC050003,3,8,0.0,1.0,0,3
+Quebec,Megantic,Somerset (Sud/South),QC050004,1,2,1.0,0.0,1,0
+Quebec,Megantic,St-Pierre-de-Broughton,QC050012,11,46,0.5454545454545454,0.45454545454545453,6,5
+Quebec,Megantic,Ste-Anastasie,QC050008,2,2,0.0,1.0,0,2
+Quebec,Missisquoi,Dunham,QC065008,33,87,0.09090909090909091,0.8181818181818182,3,27
+Quebec,Missisquoi,Dunham (Village),QC065007,1,1,1.0,0.0,1,0
+Quebec,Missisquoi,Farnham,QC065010,12,36,0.0,1.0,0,12
+Quebec,Missisquoi,Farnham (Ville/Town),QC065009,16,48,0.0625,0.9375,1,15
+Quebec,Missisquoi,Frelighsburg (Village),QC065006,6,18,0.0,1.0,0,6
+Quebec,Missisquoi,Notre-Dame-des-Anges,QC065011,2,6,0.0,0.5,0,1
+Quebec,Missisquoi,Philipsburg (Village),QC065004,3,8,0.3333333333333333,0.6666666666666666,1,2
+Quebec,Missisquoi,St-Armand (Est/East),QC065005,18,42,0.16666666666666666,0.8333333333333334,3,15
+Quebec,Missisquoi,St-Armand (Ouest/West),QC065003,15,36,0.0,1.0,0,15
+Quebec,Missisquoi,St-Georges-de-Clarenceville,QC065002,6,20,0.3333333333333333,0.6666666666666666,2,4
+Quebec,Missisquoi,St-Thomas,QC065001,17,54,0.058823529411764705,0.9411764705882353,1,16
+Quebec,Missisquoi,Stanbridge,QC065012,45,101,0.2,0.8,9,36
+Quebec,Montcalm,St-Calixte-de-Beauport,QC089007,2,7,1.0,0.0,2,0
+Quebec,Montcalm,St-Jacques,QC089001,1,3,1.0,0.0,1,0
+Quebec,Montcalm,St-Liguorri,QC089002,5,16,0.0,1.0,0,5
+Quebec,Montcalm,St-Patrice-de-Rawdon,QC089006,7,21,0.14285714285714285,0.8571428571428571,1,6
+Quebec,Montcalm,St-ThÃ©odore-de-Chertsey,QC089008,3,12,0.0,0.6666666666666666,0,2
+Quebec,Montcalm,Ste-Julienne,QC089005,1,5,0.0,1.0,0,1
+Quebec,Montmagny,Berthier,QC044005,1,2,1.0,0.0,1,0
+Quebec,Montmagny,Montmagny (Village),QC044001,1,1,0.0,1.0,0,1
+Quebec,Montmorency,Chateau-Richer,QC078008,1,1,0.0,1.0,0,1
+Quebec,Montmorency,St-Tite,QC078011,1,3,0.0,1.0,0,1
+Quebec,Montmorency,Ste-Anne,QC078009,1,2,0.0,1.0,0,1
+Quebec,Montmorency,Ste-Brigitte-de-Laval,QC078013,1,3,0.0,1.0,0,1
+Quebec,MontrÃ©al (Ville/City),Centre (Quartier/Ward),QC090003,4,12,0.25,0.75,1,3
+Quebec,MontrÃ©al (Ville/City),East Ward/Quartier Est,QC090004,13,44,0.18681318681318684,0.8131868131868132,2,10
+Quebec,MontrÃ©al (Ville/City),St-Antoine (Quartier/Ward),QC090008,218,579,0.06422018348623854,0.9344692005242464,14,203
+Quebec,MontrÃ©al (Ville/City),St-James (Quartier/Ward),QC090006,70,189,0.38571428571428573,0.5857142857142857,27,41
+Quebec,MontrÃ©al (Ville/City),St-Lawrence (Quartier/Ward),QC090009,104,296,0.05,0.9307692307692308,5,96
+Quebec,MontrÃ©al (Ville/City),St-Louis (Quartier/Ward),QC090005,91,234,0.23076923076923078,0.7538461538461538,21,68
+Quebec,MontrÃ©al (Ville/City),St-Mary's (Quartier/Ward),QC090007,82,232,0.12195121951219512,0.8780487804878049,10,72
+Quebec,MontrÃ©al (Ville/City),Ste-Anne (Quartier/Ward),QC090001,235,667,0.19687943262411348,0.8031205673758864,45,188
+Quebec,MontrÃ©al (Ville/City),West Ward/Quartier Ouest,QC090002,7,21,0.0,1.0,0,7
+Quebec,Napierville,Sherington,QC070005,1,1,0.0,1.0,0,1
+Quebec,Napierville,St-Cyprien,QC070006,1,2,0.0,1.0,0,1
+Quebec,Napierville,St-Edouard,QC070004,2,4,0.0,1.0,0,2
+Quebec,Napierville,St-Michel,QC070003,3,13,0.0,1.0,0,3
+Quebec,Napierville,St-Remi/St-Pierre,QC070001,1,5,1.0,0.0,1,0
+Quebec,Nicolet,Becancour,QC051003,1,7,0.0,1.0,0,1
+Quebec,Nicolet,Gentilly & Ste-Marie-de-Blanford,QC051015,4,16,0.0,1.0,0,4
+Quebec,Nicolet,Larochelle (Village),QC051006,1,5,0.0,1.0,0,1
+Quebec,Nicolet,Nicolet,QC051007,4,12,0.0,1.0,0,4
+Quebec,Nicolet,St-Leonard,QC051010,3,15,0.0,1.0,0,3
+Quebec,Nicolet,St-Pierre-les-Becquets,QC051001,1,3,0.6666666666666666,0.3333333333333333,0,0
+Quebec,Nicolet,Ste-Brigitte,QC051014,2,5,1.0,0.0,2,0
+Quebec,Nicolet,Ste-Eulalie & St-Samuel,QC051012,2,6,0.0,1.0,0,2
+Quebec,Nicolet,Ste-Monique,QC051008,4,10,0.0,1.0,0,4
+Quebec,Nicolet,Ste-Sophie-de-LÃ©vrand,QC051002,1,2,0.0,1.0,0,1
+Quebec,Ottawa,Aumond,QC097044,2,4,0.0,1.0,0,2
+Quebec,Ottawa,Aylwin,QC097035,3,11,0.3333333333333333,0.6666666666666666,1,2
+Quebec,Ottawa,Buckingham,QC097001,14,39,0.0,1.0,0,14
+Quebec,Ottawa,Buckingham (Village),QC097002,10,19,0.1,0.9,1,9
+Quebec,Ottawa,Denholm,QC097041,2,8,0.0,1.0,0,2
+Quebec,Ottawa,Eardly,QC097027,13,44,0.0,1.0,0,13
+Quebec,Ottawa,Gatineau (Village),QC097028,5,16,0.0,1.0,0,5
+Quebec,Ottawa,Hull,QC097025,33,121,0.0,1.0,0,33
+Quebec,Ottawa,Hull (Ville/City),QC097024,51,136,0.0784313725490196,0.9215686274509803,4,47
+Quebec,Ottawa,L'Ange-Gradien,QC097003,7,24,0.14285714285714285,0.8571428571428571,1,6
+Quebec,Ottawa,Lochaber (Est/East),QC097009,2,7,0.0,1.0,0,2
+Quebec,Ottawa,Lochaber (Gore),QC097011,5,21,0.0,0.8,0,4
+Quebec,Ottawa,Lochaber (Ouest/West),QC097010,10,22,0.13333333333333333,0.8666666666666666,1,8
+Quebec,Ottawa,Lowe,QC097034,8,30,0.0,1.0,0,8
+Quebec,Ottawa,Masham,QC097032,9,30,0.018518518518518517,0.9814814814814815,0,8
+Quebec,Ottawa,"McGill, Wells, Blake &Bigelow",QC097006,2,2,0.0,1.0,0,2
+Quebec,Ottawa,Montebello (Village),QC097016,2,11,0.0,1.0,0,2
+Quebec,Ottawa,Mulgrave & Derry,QC097013,6,26,0.0,1.0,0,6
+Quebec,Ottawa,Namur & Ponsonby,QC097023,3,7,0.6666666666666666,0.3333333333333333,2,1
+Quebec,Ottawa,Notre-Dame-de-Bonsecours,QC097015,1,5,0.0,1.0,0,1
+Quebec,Ottawa,Ottawa (Aylmer [Village]),QC097026,16,52,0.0625,0.9375,1,15
+Quebec,Ottawa,Portland (Est/East),QC097004,2,7,0.0,1.0,0,2
+Quebec,Ottawa,Portland (Ouest/West),QC097033,4,12,0.0,1.0,0,4
+Quebec,Ottawa,St-Andre-Avelin,QC097017,8,42,0.015625,0.984375,0,7
+Quebec,Ottawa,St-Malachie,QC097012,1,5,0.0,1.0,0,1
+Quebec,Ottawa,Ste-Angelique,QC097014,19,58,0.15789473684210525,0.7894736842105263,3,15
+Quebec,Ottawa,Suffolk,QC097020,1,3,0.0,1.0,0,1
+Quebec,Ottawa,Templeton (Est/East),QC097029,12,46,0.14583333333333334,0.8541666666666666,1,10
+Quebec,Ottawa,Templeton (Ouest/West),QC097030,8,25,0.0,0.9375,0,7
+Quebec,Ottawa,"Unorganized Territory/Territoire non organisÃ©, including Baskatong, Lytton, Sicotte",QC097045,1,2,0.0,1.0,0,1
+Quebec,Ottawa,Wakefield,QC097031,14,47,0.1285714285714286,0.8714285714285713,1,12
+Quebec,Ottawa,Wright,QC097037,1,1,0.0,1.0,0,1
+Quebec,Pontiac,Aldfield,QC098003,3,9,0.0,1.0,0,3
+Quebec,Pontiac,Alleyn & Cawood,QC098008,1,2,1.0,0.0,1,0
+Quebec,Pontiac,Bristol,QC098004,26,86,0.07692307692307693,0.9230769230769231,2,24
+Quebec,Pontiac,Bryson (Village) & Litchfield (Haut/Upper),QC098011,13,42,0.6923076923076923,0.23076923076923078,9,3
+Quebec,Pontiac,Calumet Island,QC098012,7,18,0.14285714285714285,0.6904761904761905,1,4
+Quebec,Pontiac,Chapeau (Village) & Allumette Island,QC098015,8,30,0.0,1.0,0,8
+Quebec,Pontiac,Chichester,QC098016,5,18,0.0,1.0,0,5
+Quebec,Pontiac,Clapham,QC098018,4,16,0.08333333333333333,0.9166666666666666,0,3
+Quebec,Pontiac,Clarendon (Nord-North/Sud-South),QC098006,3,20,1.0,0.0,3,0
+Quebec,Pontiac,Leslie,QC098009,5,30,0.0,1.0,0,5
+Quebec,Pontiac,"Malakoff, Esher, Aberdeen, & Sheen",QC098017,7,21,0.14285714285714285,0.8571428571428571,1,6
+Quebec,Pontiac,Mansfield & Pontefract,QC098013,8,27,0.25,0.75,2,6
+Quebec,Pontiac,Onslow (Nord/North),QC098002,1,3,0.0,1.0,0,1
+Quebec,Pontiac,Pontiac (Unorganized Territory/Territoire non organisÃ©),QC098019,7,18,0.0,0.8571428571428571,0,6
+Quebec,Pontiac,Portage-du-Fort (Village) & Litchfield (Bas/Lower),QC098010,10,36,0.0,1.0,0,10
+Quebec,Pontiac,Quyon (Village) & Onslow (Sud/South),QC098001,19,57,0.15789473684210525,0.7894736842105263,3,15
+Quebec,Pontiac,Shawville (Village) & Clarendon (Sud/South),QC098005,17,60,0.17647058823529413,0.8235294117647058,3,14
+Quebec,Pontiac,Thorn,QC098007,5,20,0.0,1.0,0,5
+Quebec,Pontiac,Waltham & Bryson,QC098014,2,8,0.0,1.0,0,2
+Quebec,Portneuf,Bourg Louis,QC081004,6,22,0.16666666666666666,0.8333333333333334,1,5
+Quebec,Portneuf,Cap-Sante,QC081016,1,1,1.0,0.0,1,0
+Quebec,Portneuf,Notre-Dame-des-Anges,QC081010,2,4,0.0,1.0,0,2
+Quebec,Portneuf,Pointe-aux-Trembles,QC081006,1,3,0.0,1.0,0,1
+Quebec,Portneuf,Portneuf,QC081015,9,31,0.2222222222222222,0.5555555555555556,2,5
+Quebec,Portneuf,St-Bazile,QC081013,1,5,0.0,1.0,0,1
+Quebec,Portneuf,St-Casimir,QC081011,1,5,0.0,1.0,0,1
+Quebec,Portneuf,St-Raymond,QC081003,2,10,0.0,1.0,0,2
+Quebec,Portneuf,St-Ubalde,QC081009,2,8,0.0,1.0,0,2
+Quebec,Portneuf,Ste-Catherine,QC081007,1,5,0.0,0.0,0,0
+Quebec,Portneuf,Ste-Jeanne-de-Neuville,QC081014,2,4,0.0,1.0,0,2
+Quebec,QuÃ©bec,Beauport,QC080001,9,25,0.4444444444444444,0.4444444444444444,4,4
+Quebec,QuÃ©bec,Lac Beauport,QC080003,1,3,0.0,1.0,0,1
+Quebec,QuÃ©bec,St-Ambroise,QC080006,5,14,0.26666666666666666,0.5333333333333333,1,2
+Quebec,QuÃ©bec,St-Colomb-de-Sillery,QC080009,27,83,0.037037037037037035,0.9629629629629629,1,26
+Quebec,QuÃ©bec,St-Edmond-de-Stoneham,QC080004,8,22,0.0,0.875,0,7
+Quebec,QuÃ©bec,St-Felix-du-Cap-Rouge,QC080011,2,4,0.0,1.0,0,2
+Quebec,QuÃ©bec,St-Gabriel (Ouest/West),QC080010,8,32,0.125,0.75,1,6
+Quebec,QuÃ©bec,St-Gabriel-de-Valcartier (Est/East),QC080005,7,26,0.047619047619047616,0.9523809523809523,0,6
+Quebec,QuÃ©bec,Ste-Foy,QC080008,1,4,0.0,1.0,0,1
+Quebec,QuÃ©bec (Ville/City),Banlieu (Centre),QC079009,9,28,0.0,1.0,0,9
+Quebec,QuÃ©bec (Ville/City),Banlieue (Sud/South),QC079013,2,9,0.0,1.0,0,2
+Quebec,QuÃ©bec (Ville/City),Champlain (Quartier/Ward),QC079011,34,93,0.058823529411764705,0.9411764705882353,2,32
+Quebec,QuÃ©bec (Ville/City),Jacques-Cartier (Quartier/Ward),QC079002,27,81,0.1111111111111111,0.8888888888888888,3,24
+Quebec,QuÃ©bec (Ville/City),Montcalm (Quartier/Ward),QC079008,7,14,0.2857142857142857,0.7142857142857143,2,5
+Quebec,QuÃ©bec (Ville/City),Montcalm (Quartier/Ward),QC079012,35,93,0.08571428571428572,0.8857142857142857,3,31
+Quebec,QuÃ©bec (Ville/City),Palais (Quartier/Ward),QC079005,2,3,0.0,1.0,0,2
+Quebec,QuÃ©bec (Ville/City),St-Jean (Quartier/Ward),QC079006,26,69,0.2692307692307692,0.7307692307692307,7,19
+Quebec,QuÃ©bec (Ville/City),St-Louis (Quartier/Ward),QC079007,12,34,0.0,1.0,0,12
+Quebec,QuÃ©bec (Ville/City),St-Pierre (Quartier/Ward),QC079010,10,27,0.5,0.5,5,5
+Quebec,QuÃ©bec (Ville/City),St-Roch (Nord/North),QC079004,7,23,0.14285714285714285,0.8571428571428571,1,6
+Quebec,QuÃ©bec (Ville/City),St-Roch (Quartier/Ward),QC079001,31,93,0.14516129032258066,0.8225806451612904,4,25
+Quebec,QuÃ©bec (Ville/City),St-Roch (Sud/South),QC079003,20,50,0.4666666666666667,0.5333333333333333,9,10
+Quebec,Richelieu,Sorel (Ville/Town),QC061001,14,44,0.23214285714285715,0.7678571428571429,3,10
+Quebec,Richelieu,St-Joseph,QC061003,1,4,0.0,1.0,0,1
+Quebec,Richelieu,St-Ours (Ville/Town),QC061010,2,4,0.0,1.0,0,2
+Quebec,Richelieu,St-Robert,QC061005,1,5,1.0,0.0,1,0
+Quebec,Richelieu,St-Roch,QC061012,2,5,0.25,0.25,0,0
+Quebec,Richmond & Wolfe,Brompton,QC053010,5,16,0.2,0.8,1,4
+Quebec,Richmond & Wolfe,Cleveland,QC053004,11,30,0.09090909090909091,0.9090909090909091,1,10
+Quebec,Richmond & Wolfe,Danville (Village),QC053007,16,39,0.0625,0.9375,1,15
+Quebec,Richmond & Wolfe,Dudswell,QC053020,17,43,0.058823529411764705,0.9411764705882353,1,16
+Quebec,Richmond & Wolfe,Ham (Nord/North),QC053015,1,6,0.0,1.0,0,1
+Quebec,Richmond & Wolfe,Ham (Sud/South),QC053013,2,5,0.0,1.0,0,2
+Quebec,Richmond & Wolfe,Melbourne & Brompton Gore,QC053011,27,74,0.1111111111111111,0.8888888888888888,3,24
+Quebec,Richmond & Wolfe,Melbourne (Village),QC053005,4,13,0.0,1.0,0,4
+Quebec,Richmond & Wolfe,Richmond (Village),QC053003,25,72,0.12,0.88,3,22
+Quebec,Richmond & Wolfe,Shipton,QC053006,25,69,0.2,0.8,5,20
+Quebec,Richmond & Wolfe,St-Georges-de-Windsor,QC053001,3,14,0.0,1.0,0,3
+Quebec,Richmond & Wolfe,St-Julien-de-Wolfestown,QC053017,1,6,0.0,1.0,0,1
+Quebec,Richmond & Wolfe,Stoke,QC053002,6,26,0.0,1.0,0,6
+Quebec,Richmond & Wolfe,Stratford,QC053012,1,7,0.0,1.0,0,1
+Quebec,Richmond & Wolfe,Weedon,QC053019,3,15,0.3333333333333333,0.6666666666666666,1,2
+Quebec,Richmond & Wolfe,Windsor,QC053008,11,34,0.09090909090909091,0.9090909090909091,1,10
+Quebec,Richmond & Wolfe,Windsor Mills (Village),QC053009,10,24,0.13333333333333333,0.8666666666666666,1,8
+Quebec,Richmond & Wolfe,Wotton,QC053022,1,6,0.0,1.0,0,1
+Quebec,Rimouski,Cherbourg,QC040026,3,9,0.0,1.0,0,3
+Quebec,Rimouski,Macnider,QC040020,2,6,0.0,1.0,0,2
+Quebec,Rimouski,Matane,QC040024,3,8,0.5,0.5,1,1
+Quebec,Rimouski,Metis,QC040019,8,24,0.0,1.0,0,8
+Quebec,Rimouski,Rimouski,QC040008,7,18,0.0,1.0,0,7
+Quebec,Rimouski,Rimouski (Ville/Town),QC040007,3,8,0.0,1.0,0,3
+Quebec,Rimouski,St-Anaclet,QC040011,3,6,0.0,1.0,0,3
+Quebec,Rimouski,St-Angele,QC040016,1,2,0.0,1.0,0,1
+Quebec,Rimouski,St-Edmond & Lac-au-Saumon,QC040018,2,6,0.0,1.0,0,2
+Quebec,Rimouski,St-Flavie,QC040014,4,10,0.0,1.0,0,4
+Quebec,Rimouski,St-Moise,QC040017,5,14,0.0,1.0,0,5
+Quebec,Rimouski,St-Octave,QC040021,2,6,0.0,1.0,0,2
+Quebec,Rimouski,St-Ulric,QC040023,11,43,0.0,1.0,0,11
+Quebec,Rimouski,Ste-Blandine,QC040009,3,8,0.3333333333333333,0.3333333333333333,1,1
+Quebec,Rimouski,Ste-Cecile-du-Bic,QC040004,1,1,1.0,0.0,1,0
+Quebec,Rimouski,Ste-Felicite,QC040025,8,29,0.0,1.0,0,8
+Quebec,Rimouski,Ste-Luce,QC040010,2,5,0.0,1.0,0,2
+Quebec,Rouville,L'Ange-Gardien,QC063010,2,2,1.0,0.0,2,0
+Quebec,Rouville,Richelieu (Village) & Notre Dame-de-Bonsecours,QC063001,2,3,0.0,1.0,0,2
+Quebec,Rouville,St-Cesaire,QC063008,6,18,0.3333333333333333,0.6666666666666666,2,4
+Quebec,Rouville,St-Cesaire (Village),QC063007,1,1,0.0,1.0,0,1
+Quebec,Rouville,St-Hilaire,QC063012,4,16,0.25,0.75,1,3
+Quebec,Rouville,St-Paul-d'Abbotsford,QC063009,3,4,0.6666666666666666,0.3333333333333333,2,1
+Quebec,Rouville,Ste-Angele,QC063006,2,3,0.5,0.5,1,1
+Quebec,Shefford,Ely (Nord/North),QC059012,2,5,0.0,1.0,0,2
+Quebec,Shefford,Granby,QC059001,13,42,0.15384615384615385,0.7692307692307693,2,10
+Quebec,Shefford,Granby (Village),QC059002,6,17,0.0,1.0,0,6
+Quebec,Shefford,Roxton,QC059007,5,22,0.0,1.0,0,5
+Quebec,Shefford,Roxton Falls (Village),QC059008,3,11,0.0,1.0,0,3
+Quebec,Shefford,Shefford,QC059005,18,45,0.23015873015873012,0.7698412698412699,4,13
+Quebec,Shefford,St-Valerien,QC059004,1,7,1.0,0.0,1,0
+Quebec,Shefford,Ste-Prudentienne,QC059013,7,13,0.0,1.0,0,7
+Quebec,Shefford,Stukeley (Nord/North),QC059010,2,4,0.5,0.5,1,1
+Quebec,Shefford,Stukeley (Sud/South),QC059009,7,15,0.0,1.0,0,7
+Quebec,Shefford,Waterloo (Village),QC059006,10,27,0.2,0.725,2,7
+Quebec,Sherbrooke,Ascot,QC055006,18,47,0.3333333333333333,0.6666666666666666,6,12
+Quebec,Sherbrooke,Lennoxville (Village),QC055007,12,24,0.08333333333333333,0.8333333333333334,1,10
+Quebec,Sherbrooke,Oxford,QC055005,13,30,0.23076923076923078,0.7692307692307693,3,10
+Quebec,Sherbrooke,Sherbrooke Ville/City (Center Ward/Quartier Centre),QC055004,15,47,0.13333333333333333,0.8,2,12
+Quebec,Sherbrooke,Sherbrooke Ville/City (North Ward/Quartier Nord),QC055001,24,63,0.13541666666666666,0.8645833333333334,2,20
+Quebec,Sherbrooke,Sherbrooke Ville/City (South Ward/Quartier Sud),QC055002,20,59,0.05,0.95,1,19
+Quebec,Soulanges,Coteau Landing (Village),QC074004,4,18,0.0,1.0,0,4
+Quebec,Soulanges,St-Clet,QC074006,1,3,0.0,1.0,0,1
+Quebec,Soulanges,St-Ignace,QC074005,1,2,1.0,0.0,1,0
+Quebec,Soulanges,St-Joseph-de-Soulanges,QC074007,2,5,0.5,0.5,1,1
+Quebec,Soulanges,St-Polycarpe,QC074001,1,2,0.0,1.0,0,1
+Quebec,Soulanges,St-TÃ©lesphore,QC074002,4,12,0.0,1.0,0,4
+Quebec,Soulanges,St-Zotique,QC074003,5,13,0.4,0.6,2,3
+Quebec,St-Hyacinthe,Notre-Dame & St-Hyacinthe,QC062002,1,1,1.0,0.0,1,0
+Quebec,St-Hyacinthe,St-Damase,QC062011,3,6,0.0,1.0,0,3
+Quebec,St-Hyacinthe,St-Hyacinthe (Ville/City),QC062001,6,18,0.0,1.0,0,6
+Quebec,St-Hyacinthe,St-Jude,QC062005,1,1,1.0,0.0,1,0
+Quebec,St-Jean,Lacolle,QC068001,15,45,0.3333333333333333,0.6666666666666666,5,10
+Quebec,St-Jean,St-Jean (Ville/Town),QC068005,15,38,0.13333333333333333,0.8666666666666667,2,13
+Quebec,St-Jean,St-Valentin,QC068002,2,5,1.0,0.0,2,0
+Quebec,St-Maurice,Pointe-du-Lac,QC084002,1,7,0.0,1.0,0,1
+Quebec,St-Maurice,St-Barnabe,QC084008,1,5,1.0,0.0,1,0
+Quebec,St-Maurice,St-Elie,QC084005,1,2,0.0,1.0,0,1
+Quebec,St-Maurice,St-Etienne,QC084004,4,9,0.0,1.0,0,4
+Quebec,St-Maurice,Yamachiche,QC084001,1,4,0.0,1.0,0,1
+Quebec,Stanstead,Barford,QC056009,7,19,0.42857142857142855,0.5714285714285714,3,4
+Quebec,Stanstead,Barnston,QC056006,13,28,0.5384615384615384,0.38461538461538464,7,5
+Quebec,Stanstead,Beebe Plain (Village),QC056003,5,7,0.2,0.8,1,4
+Quebec,Stanstead,Coaticook (Village),QC056007,15,47,0.0,1.0,0,15
+Quebec,Stanstead,Dixville (Village),QC056008,3,5,0.3333333333333333,0.6666666666666666,1,2
+Quebec,Stanstead,Hatley,QC056005,23,63,0.2608695652173913,0.7391304347826086,6,17
+Quebec,Stanstead,Magog,QC056004,12,36,0.0,1.0,0,12
+Quebec,Stanstead,Stanstead,QC056001,34,81,0.23529411764705882,0.7647058823529411,8,26
+Quebec,Stanstead,Stanstead Plain (Village),QC056002,5,12,0.4,0.6,2,3
+Quebec,Temiscouata,Cacouna (Village),QC041006,2,5,0.0,1.0,0,2
+Quebec,Temiscouata,Detour-du-Lac,QC041017,3,20,0.0,1.0,0,3
+Quebec,Temiscouata,Fraserville (Town/Ville),QC041001,5,14,0.0,1.0,0,5
+Quebec,Temiscouata,St-Epiphane,QC041009,1,3,0.0,1.0,0,1
+Quebec,Temiscouata,Ste-Rose-du-Degele,QC041020,2,8,0.0,1.0,0,2
+Quebec,Terrebonne,New Glasgow (Village),QC094008,3,6,0.0,1.0,0,3
+Quebec,Terrebonne,St-Hippolyte,QC094013,2,4,0.5,0.5,1,1
+Quebec,Terrebonne,St-JÃ©rÃ´me,QC094010,3,15,0.0,1.0,0,3
+Quebec,Terrebonne,St-JÃ©rÃ´me (ville/town),QC094011,3,7,0.0,1.0,0,3
+Quebec,Terrebonne,St-Sauveur,QC094012,3,9,0.0,1.0,0,3
+Quebec,Terrebonne,Ste-AdÃ¨le,QC094014,1,1,0.0,1.0,0,1
+Quebec,Terrebonne,Ste-Marguerite,QC094016,2,3,0.0,1.0,0,2
+Quebec,Terrebonne,Ste-Sophie,QC094007,13,45,0.0,1.0,0,13
+Quebec,Terrebonne,Ste-Therese,QC094004,1,2,1.0,0.0,1,0
+Quebec,Terrebonne,Ste-Therese (Village),QC094003,4,8,0.0,0.0,0,0
+Quebec,Terrebonne,Terrebonne (Ville/Town),QC094001,4,11,0.0,1.0,0,4
+Quebec,Trois-RiviÃ¨res (Ville/City),Notre-Dame (Quartier/Ward),QC083004,13,31,0.15384615384615385,0.8461538461538461,2,11
+Quebec,Trois-RiviÃ¨res (Ville/City),St-Louis (Quartier/Ward),QC083002,13,32,0.23076923076923078,0.7692307692307693,3,10
+Quebec,Trois-RiviÃ¨res (Ville/City),St-Philippe (Quartier/Ward),QC083001,7,21,0.2857142857142857,0.7142857142857143,2,5
+Quebec,Trois-RiviÃ¨res (Ville/City),Ste-Ursule (Quartier/Ward),QC083003,4,11,0.25,0.75,1,3
+Quebec,Vaudreuil,Ile-Perrot,QC075007,2,8,0.0,1.0,0,2
+Quebec,Vaudreuil,Rigaud,QC075002,12,33,0.027777777777777776,0.9722222222222222,0,11
+Quebec,Vaudreuil,Rigaud (Village),QC075001,4,13,0.0,1.0,0,4
+Quebec,Vaudreuil,St-Lazare,QC075008,1,5,0.0,1.0,0,1
+Quebec,Vaudreuil,Ste-Justine-de-Newton,QC075004,2,8,0.0,1.0,0,2
+Quebec,Vaudreuil,Ste-Marthe,QC075003,4,17,0.0,1.0,0,4
+Quebec,Vaudreuil,Vaudreuil,QC075006,5,12,0.2,0.8,1,4
+Quebec,Vaudreuil,Vaudreuil (Village),QC075005,1,4,0.0,1.0,0,1
+Quebec,VerchÃ¨res,St-Marc,QC066006,3,9,0.0,1.0,0,3
+Quebec,VerchÃ¨res,Varennes (Village),QC066001,1,5,1.0,0.0,1,0
+Quebec,Yamaska,St-David,QC057008,1,3,0.0,1.0,0,1
+Quebec,Yamaska,St-Pie-de-Guire,QC057006,2,10,0.0,1.0,0,2
+Quebec,Yamaska,St-Thomas-de-Pierreville,QC057004,4,8,0.0,1.0,0,4
+Quebec,Yamaska,St-Zephirin,QC057007,4,12,0.0,1.0,0,4
+Territories/Les Territoires,Territories/Les Territoires,Athabaska,NT193014,2,8,0.0,1.0,0,2
+Territories/Les Territoires,Territories/Les Territoires,Battleford,NT193005,7,26,0.03571428571428571,0.9642857142857143,0,6
+Territories/Les Territoires,Territories/Les Territoires,Bow River,NT193007,5,18,0.2,0.8,1,4
+Territories/Les Territoires,Territories/Les Territoires,Eastern Rupert's Land,NT193016,7,23,0.0,1.0,0,7
+Territories/Les Territoires,Territories/Les Territoires,Edmonton (North/Nord),NT193012,10,32,0.1,0.85,1,8
+Territories/Les Territoires,Territories/Les Territoires,McKenzie,NT193015,1,1,0.0,1.0,0,1
+Territories/Les Territoires,Territories/Les Territoires,Norway House,NT193010,1,2,0.0,1.0,0,1
+Territories/Les Territoires,Territories/Les Territoires,Prince Albert,NT193004,19,62,0.06578947368421052,0.9342105263157895,1,17
+Territories/Les Territoires,Territories/Les Territoires,Qu'Appelle,NT193002,5,19,0.0,1.0,0,5
+Territories/Les Territoires,Territories/Les Territoires,Wood Mountain,NT193003,5,15,0.2,0.8,1,4
+Territories/Les Territoires,Territories/Les Territoires,York Factory,NT193008,1,5,0.0,1.0,0,1

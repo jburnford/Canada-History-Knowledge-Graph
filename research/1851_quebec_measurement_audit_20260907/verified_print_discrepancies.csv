@@ -1,0 +1,5 @@
+county,workbook_cell,workbook_value,english_print_value,printed_page,pdf_page,citation,verification
+St. Maurice,S69,12531,10217,131,189,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-S,visual inspection of printed page plus workbook/SQLite/JSONL equality
+St. Maurice,T69,70060,80711,131,189,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-T,visual inspection of printed page plus workbook/SQLite/JSONL equality
+Saguenay,S70,10217,12531,131,189,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-S,visual inspection of printed page plus workbook/SQLite/JSONL equality
+Saguenay,T70,80711,70060,131,189,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-T,visual inspection of printed page plus workbook/SQLite/JSONL equality

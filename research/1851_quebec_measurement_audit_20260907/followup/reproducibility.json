@@ -1,0 +1,11 @@
+{
+  "two_runs_byte_identical": true,
+  "outputs": {
+    "all_county_cells.csv": "5be32f0a9870e403fb06f425b891a2890eff9f5ccd5e866b2e3b028f71d8b8e2",
+    "arithmetic_discrepancies.csv": "675a1804a9b6a155bce248e9fd76bcb920566d5e80396302c6adec4025ebe65b",
+    "printed_localities.csv": "7c1e60d704e666e00f6089879bb5cbe5ce146e896b760d8eae56381dac5a118d",
+    "manual_print_transcription.json": "c3da31d4485e762ddf78fbffe6ad573d4b08209340ceb227faa04ba428463e1c",
+    "corrected_interpretations.jsonl": "cda6d6a1dc6577d91c9ba5e49758537a3a1958710e60dd453d9485db898f60fa",
+    "verification.json": "ace550341d15c4ff662644a3932c147d604644c25c4ddaeb98eeddcd2eade537"
+  }
+}

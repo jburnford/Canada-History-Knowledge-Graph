@@ -1,0 +1,113 @@
+county,workbook_row,column,variable,workbook_value,opposite_workbook_value,printed_value,printed_status,printed_page,pdf_page,opposite_row_agrees_with_print,citation_url
+St. Maurice,69,F,FRM_XX_N,2453,2886,2886,numeric,130,188,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-F
+St. Maurice,69,G,FRMSZ_0to10_N,335,555,555,numeric,130,188,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-G
+St. Maurice,69,H,FRMSZ_10to20_N,27,97,97,numeric,130,188,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-H
+St. Maurice,69,I,FRMSZ_20to50_N,348,584,584,numeric,130,188,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-I
+St. Maurice,69,J,FRMSZ_50to100_N,819,901,901,numeric,130,188,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-J
+St. Maurice,69,K,FRMSZ_100to200_N,655,598,598,numeric,130,188,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-K
+St. Maurice,69,L,FRMSZ_ov200_N,269,151,151,numeric,130,188,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-L
+St. Maurice,69,M,FML_XX_A,278678,250090,250090,numeric,131,189,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-M
+St. Maurice,69,N,FRMLU_CLT_A,97155,107043,107043,numeric,131,189,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-N
+St. Maurice,69,O,FRMLU_CRP_A,47766,63931,63931,numeric,131,189,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-O
+St. Maurice,69,P,FRMLU_PST_A,49260,42354,42354,numeric,131,189,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-P
+St. Maurice,69,Q,FRMLU_GO_A,129,758,758,numeric,131,189,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-Q
+St. Maurice,69,R,FRMLU_WOD_A,181523,143047,143047,numeric,131,189,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-R
+St. Maurice,69,S,WHT_XX_A,12531,10217,10217,numeric,131,189,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-S
+St. Maurice,69,T,WHT_XX_B,70060,80711,80711,numeric,131,189,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-T
+St. Maurice,69,U,BAR_XX_A,4637,882,882,numeric,131,189,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-U
+St. Maurice,69,V,BAR_XX_B,54300,10691,10691,numeric,131,189,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-V
+St. Maurice,69,W,RYE_XX_A,7559,811,811,numeric,132,190,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-W
+St. Maurice,69,X,RYE_XX_B,41690,7120,7120,numeric,132,190,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-X
+St. Maurice,69,Y,PEA_XX_A,4241,4978,4978,numeric,132,190,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-Y
+St. Maurice,69,Z,PEA_XX_B,30808,36245,36245,numeric,132,190,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-Z
+St. Maurice,69,AA,OAT_XX_A,6497,30262,30262,numeric,132,190,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-AA
+St. Maurice,69,AB,OAT_XX_B,70668,525543,525543,numeric,132,190,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-AB
+St. Maurice,69,AC,BWT_XX_A,158,4484,4484,numeric,132,190,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-AC
+St. Maurice,69,AD,BWT_XX_B,1317,37363,37363,numeric,132,190,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-AD
+St. Maurice,69,AE,CRN_XX_A,,659,659,numeric,133,191,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-AE
+St. Maurice,69,AF,CRN_XX_B,,5154,5154,numeric,133,191,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-AF
+St. Maurice,69,AG,POT_XX_A,2053,1064,1064,numeric,133,191,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-AG
+St. Maurice,69,AH,POT_XX_B,101667,59397,59397,numeric,133,191,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-AH
+St. Maurice,69,AI,ROOT_TX_A,41,239,239,numeric,133,191,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-AI
+St. Maurice,69,AJ,ROOT_TX_B,1311,11248,11248,numeric,133,191,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-AJ
+St. Maurice,69,AK,GRA_XS_B,6,216,216,numeric,133,191,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-AK
+St. Maurice,69,AL,ROOT_CX_B,327,562,562,numeric,133,191,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-AL
+St. Maurice,69,AM,ROOT_MW_B,2,654,654,numeric,133,191,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-AM
+St. Maurice,69,AN,BEAN_XX_B,6,97,97,numeric,133,191,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-AN
+St. Maurice,69,AO,HOP_XX_LB,3,13,13,numeric,134,192,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-AO
+St. Maurice,69,AP,HAY_XX_T,1280162,2796856,2796856,numeric,134,192,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-AP
+St. Maurice,69,AQ,FLH_XX_LB,35950,91238,91238,numeric,134,192,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-AQ
+St. Maurice,69,AR,TOB_XX_LB,6919,19022,19022,numeric,134,192,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-AR
+St. Maurice,69,AS,SHP_WX_LB,48445,44666,44666,numeric,134,192,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-AS
+St. Maurice,69,AT,MPL_PS_LB,63636,247323,247323,numeric,134,192,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-AT
+St. Maurice,69,AU,FRU_PC_G,,,,printed_blank,134,192,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-AU
+St. Maurice,69,AV,CFM_PCF_YD,34124,26307,26307,numeric,134,192,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-AV
+St. Maurice,69,AW,CLOTH_PL_YD,36809,75536,75536,numeric,134,192,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-AW
+St. Maurice,69,AX,CLOTH_PF_YD,24490,30221,30221,numeric,134,192,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-AX
+St. Maurice,69,AY,CTL_OB_N,4131,2576,2576,numeric,135,193,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-AY
+St. Maurice,69,AZ,CTL_MX_N,6071,8908,8908,numeric,135,193,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-AZ
+St. Maurice,69,BA,CTL_CH_N,4849,5508,5503,numeric,135,193,False,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-BA
+St. Maurice,69,BB,HRS_XX_N,3568,5575,5575,numeric,135,193,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-BB
+St. Maurice,69,BC,SHP_XX_N,20268,20070,20070,numeric,135,193,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-BC
+St. Maurice,69,BD,SWN_XX_N,6013,7503,7503,numeric,135,193,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-BD
+St. Maurice,69,BE,BUT_XX_LB,81217,204253,204253,numeric,135,193,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-BE
+St. Maurice,69,BF,CTL_PC_LB,,623,623,numeric,135,193,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-BF
+St. Maurice,69,BG,BEEF_XX_BL,509,1663,1663,numeric,135,193,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-BG
+St. Maurice,69,BH,SWN_PX_BL,3246,5979,5979,numeric,135,193,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-BH
+St. Maurice,69,BI,FISH_PC_BL,443,19,19,numeric,135,193,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-BI
+Saguenay,70,F,FRM_XX_N,2886,2453,2453,numeric,130,188,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-F
+Saguenay,70,G,FRMSZ_0to10_N,555,335,335,numeric,130,188,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-G
+Saguenay,70,H,FRMSZ_10to20_N,97,27,27,numeric,130,188,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-H
+Saguenay,70,I,FRMSZ_20to50_N,584,348,348,numeric,130,188,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-I
+Saguenay,70,J,FRMSZ_50to100_N,901,819,819,numeric,130,188,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-J
+Saguenay,70,K,FRMSZ_100to200_N,598,655,655,numeric,130,188,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-K
+Saguenay,70,L,FRMSZ_ov200_N,151,269,269,numeric,130,188,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-L
+Saguenay,70,M,FML_XX_A,250090,278678,278678,numeric,131,189,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-M
+Saguenay,70,N,FRMLU_CLT_A,107043,97155,97155,numeric,131,189,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-N
+Saguenay,70,O,FRMLU_CRP_A,63931,47766,47766,numeric,131,189,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-O
+Saguenay,70,P,FRMLU_PST_A,42354,49260,49260,numeric,131,189,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-P
+Saguenay,70,Q,FRMLU_GO_A,758,129,129,numeric,131,189,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-Q
+Saguenay,70,R,FRMLU_WOD_A,143047,181523,181523,numeric,131,189,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-R
+Saguenay,70,S,WHT_XX_A,10217,12531,12531,numeric,131,189,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-S
+Saguenay,70,T,WHT_XX_B,80711,70060,70060,numeric,131,189,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-T
+Saguenay,70,U,BAR_XX_A,882,4637,4637,numeric,131,189,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-U
+Saguenay,70,V,BAR_XX_B,10691,54300,54300,numeric,131,189,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-V
+Saguenay,70,W,RYE_XX_A,811,7559,7559,numeric,132,190,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-W
+Saguenay,70,X,RYE_XX_B,7120,41690,41690,numeric,132,190,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-X
+Saguenay,70,Y,PEA_XX_A,4978,4241,4241,numeric,132,190,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-Y
+Saguenay,70,Z,PEA_XX_B,36245,30808,30808,numeric,132,190,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-Z
+Saguenay,70,AA,OAT_XX_A,30262,6497,6497,numeric,132,190,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-AA
+Saguenay,70,AB,OAT_XX_B,525543,70668,70668,numeric,132,190,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-AB
+Saguenay,70,AC,BWT_XX_A,4484,158,158,numeric,132,190,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-AC
+Saguenay,70,AD,BWT_XX_B,37363,1317,1317,numeric,132,190,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-AD
+Saguenay,70,AE,CRN_XX_A,659,,,printed_blank,133,191,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-AE
+Saguenay,70,AF,CRN_XX_B,5154,,,printed_blank,133,191,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-AF
+Saguenay,70,AG,POT_XX_A,1064,2053,2053,numeric,133,191,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-AG
+Saguenay,70,AH,POT_XX_B,59397,101667,101667,numeric,133,191,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-AH
+Saguenay,70,AI,ROOT_TX_A,239,41,41,numeric,133,191,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-AI
+Saguenay,70,AJ,ROOT_TX_B,11248,1311,1311,numeric,133,191,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-AJ
+Saguenay,70,AK,GRA_XS_B,216,6,6,numeric,133,191,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-AK
+Saguenay,70,AL,ROOT_CX_B,562,327,327,numeric,133,191,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-AL
+Saguenay,70,AM,ROOT_MW_B,654,2,2,numeric,133,191,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-AM
+Saguenay,70,AN,BEAN_XX_B,97,6,6,numeric,133,191,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-AN
+Saguenay,70,AO,HOP_XX_LB,13,3,3,numeric,134,192,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-AO
+Saguenay,70,AP,HAY_XX_T,2796856,1280162,1280162,numeric,134,192,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-AP
+Saguenay,70,AQ,FLH_XX_LB,91238,35950,35950,numeric,134,192,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-AQ
+Saguenay,70,AR,TOB_XX_LB,19022,6919,6919,numeric,134,192,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-AR
+Saguenay,70,AS,SHP_WX_LB,44666,48445,48445,numeric,134,192,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-AS
+Saguenay,70,AT,MPL_PS_LB,247323,63636,63636,numeric,134,192,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-AT
+Saguenay,70,AU,FRU_PC_G,,,,printed_blank,134,192,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-AU
+Saguenay,70,AV,CFM_PCF_YD,26307,34124,34124,numeric,134,192,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-AV
+Saguenay,70,AW,CLOTH_PL_YD,75536,36809,36809,numeric,134,192,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-AW
+Saguenay,70,AX,CLOTH_PF_YD,30221,24490,24490,numeric,134,192,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-AX
+Saguenay,70,AY,CTL_OB_N,2576,4131,4131,numeric,135,193,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-AY
+Saguenay,70,AZ,CTL_MX_N,8908,6071,6071,numeric,135,193,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-AZ
+Saguenay,70,BA,CTL_CH_N,5508,4849,4849,numeric,135,193,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-BA
+Saguenay,70,BB,HRS_XX_N,5575,3568,3568,numeric,135,193,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-BB
+Saguenay,70,BC,SHP_XX_N,20070,20268,20268,numeric,135,193,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-BC
+Saguenay,70,BD,SWN_XX_N,7503,6013,6013,numeric,135,193,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-BD
+Saguenay,70,BE,BUT_XX_LB,204253,81217,81217,numeric,135,193,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-BE
+Saguenay,70,BF,CTL_PC_LB,623,,,printed_blank,135,193,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-BF
+Saguenay,70,BG,BEEF_XX_BL,1663,509,509,numeric,135,193,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-BG
+Saguenay,70,BH,SWN_PX_BL,5979,3246,3246,numeric,135,193,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-BH
+Saguenay,70,BI,FISH_PC_BL,19,443,443,numeric,135,193,True,https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-BI

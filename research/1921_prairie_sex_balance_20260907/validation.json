@@ -1,0 +1,17 @@
+{
+  "main_city_count": 17,
+  "local_rows": 1519,
+  "city_and_province_cells_complete": true,
+  "main_accounting_identities_exact": true,
+  "decomposition_identities_exact_rational_arithmetic": true,
+  "numeric_subtotals_equal_provinces_all_27_checks": true,
+  "incomplete_local_rows": 105,
+  "failed_local_accounting_rows": [],
+  "urban_rows": 656,
+  "complete_urban_rows": 628,
+  "same_division_comparisons": 14,
+  "same_division_positive_gaps": 14,
+  "extracted_cells": 14157,
+  "main_citation_cells": 180,
+  "jsonl_sqlite_values_match": true
+}

@@ -1,0 +1,36 @@
+{
+  "original_workbook_sha256_matches": true,
+  "workbook_cells_checked": 180,
+  "printed_cells_visually_checked": 54,
+  "printed_pages": [
+    313,
+    320,
+    332,
+    335
+  ],
+  "printed_audit_mismatches": 0,
+  "independent_decomposition_within_pp": 4.992741443791594,
+  "urban_population_cross_table_differences": {
+    "MB": 0,
+    "SK": 0,
+    "AB": 0
+  },
+  "urban_population_by_province": {
+    "MB": 261616,
+    "SK": 218958,
+    "AB": 222904
+  },
+  "urban_crosscheck_source": {
+    "path": "/home/jic823/GraphRAG_test/1921Tables/1921/1921_V3T3_PUB_202306.xlsx",
+    "sha256": "a1a54df5420c6c3ec34b3c8dd8dadea776b19ac685eca0cb0a44ef7fe4fe8d52",
+    "sheet": "CA_V3T3_1921",
+    "census_vintage": 1921,
+    "source_key": "1921_V3T3_PUB_202306",
+    "table_key": "1921_V3T3",
+    "header_row": 1,
+    "worksheets_json": "[\"CA_V3T3_1921\", \"Variables\"]"
+  },
+  "urban_crosscheck_sqlite_sha256": "f29a49f1542c8baefaf1d2a2c08eaae4c2362d38ae6a39c138ea8868f7e4458f",
+  "external_census_volume_sha256": "a4208ed1333f87a385c20acc3b567d8c42a2f2d8666f7deb671d93fcf2516873",
+  "limits": "54 printed cells checked; not a complete printed-source audit. No age adjustment or causal identification."
+}

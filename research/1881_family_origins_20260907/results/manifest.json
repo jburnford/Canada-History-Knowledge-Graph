@@ -1,0 +1,26 @@
+{
+  "source": "/home/jic823/borealis_1881/1881_v20251217.csv",
+  "source_bytes": 1116371405,
+  "source_sha256": "ed64d372fab4587aa198d5991668706b024527cf8b1b976c7f4dfe2f6142df79",
+  "labels_sha256": "5799101d4f93f7c3dd8fd35f84ebe73acf41a98b0e1e0f93a927867e905370fd",
+  "dataset_doi": "10.5683/SP3/FXZEVO",
+  "duckdb_version": "1.5.3",
+  "counts": {
+    "source_rows": 4277810,
+    "kept_rows": 4276673,
+    "candidate_households": 219165,
+    "strict_households": 199109,
+    "strict_children": 604020,
+    "mixed_households": 42785,
+    "mixed_children": 122379,
+    "mixed_child_maternal": 12882,
+    "mixed_child_paternal": 108040,
+    "mixed_household_maternal_mean": 0.11546138778054169,
+    "mixed_household_paternal_mean": 0.8711096735059572,
+    "eligible_localities": 1087,
+    "localities_ge90_maternal": 8,
+    "localities_le10_maternal": 681,
+    "eligible_enumeration_units": 1620,
+    "enumeration_units_ge90_maternal": 22
+  }
+}

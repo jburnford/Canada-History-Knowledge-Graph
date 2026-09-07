@@ -1,0 +1,74 @@
+{
+  "verified_digital_cells": 150,
+  "county_cells_reviewed": 112,
+  "opposite_row_matches_print": 111,
+  "additional_digit_discrepancies": [
+    {
+      "county": "St. Maurice",
+      "workbook_row": 69,
+      "column": "BA",
+      "variable": "CTL_CH_N",
+      "workbook_value": "4849",
+      "opposite_workbook_value": "5508",
+      "printed_value": "5503",
+      "printed_status": "numeric",
+      "printed_page": 135,
+      "pdf_page": 193,
+      "opposite_row_agrees_with_print": false,
+      "citation_url": "https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/69/#cell-BA"
+    }
+  ],
+  "nonzero_original_screening": 97,
+  "screening_status_counts": {
+    "complete_numeric_comparison": 24,
+    "partial_observed_subtotal": 73
+  },
+  "swap_hits": 16,
+  "swap_hits_are_partial": true,
+  "arithmetic_discrepancies": [
+    {
+      "county": "Richelieu",
+      "variable": "OAT_XX_B",
+      "printed_county_total": 194297,
+      "sum_of_printed_localities": 224297,
+      "workbook_total_in_audited_row": "194297",
+      "difference": 30000,
+      "localities": 10,
+      "diagnosis": "printed_internal_arithmetic_discrepancy; underlying erroneous figure unresolved",
+      "printed_page": 120,
+      "county_citation": "https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/66/#cell-AB"
+    },
+    {
+      "county": "Rouville",
+      "variable": "WHT_XX_B",
+      "printed_county_total": 156962,
+      "sum_of_printed_localities": 186962,
+      "workbook_total_in_audited_row": "156962",
+      "difference": 30000,
+      "localities": 12,
+      "diagnosis": "printed_internal_arithmetic_discrepancy; underlying erroneous figure unresolved",
+      "printed_page": 125,
+      "county_citation": "https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/68/#cell-T"
+    },
+    {
+      "county": "St. Maurice",
+      "variable": "CTL_CH_N",
+      "printed_county_total": 5503,
+      "sum_of_printed_localities": 5508,
+      "workbook_total_in_audited_row": "5508",
+      "difference": 5,
+      "localities": 14,
+      "diagnosis": "printed_internal_arithmetic_discrepancy; underlying erroneous figure unresolved",
+      "printed_page": 135,
+      "county_citation": "https://jimclifford.ca/hgiscanada/sources/1851_V2T6_CD_202306/rows/70/#cell-BA"
+    }
+  ],
+  "workbook_sha256": {
+    "CD": "ac90a90f1e0b552a1575f3e88d58c193f79566f0f9ec29cce9f0ba8cd042c8ca",
+    "CSD": "042a4d3fe6f6e8e1c8b802706c014d47c2da5d14019129600b0b05a8f607140f"
+  },
+  "printed_pdf_sha256": "107eb0c554f8bc7cdec3974e1776d047dfa0596ef2437ec4c06dfdad511a4a65",
+  "production_data_modified": false,
+  "external_messages_sent": false,
+  "verification_limit": "Script checks manually transcribed print values; visual readings are not automated proof."
+}
