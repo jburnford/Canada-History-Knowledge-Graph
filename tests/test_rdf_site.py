@@ -83,3 +83,43 @@ def test_large_site_sitemap_index_resolves_children(tmp_path):
     (tmp_path / 'sitemap-1.xml').write_text('<sitemapindex><sitemap><loc>https://jimclifford.ca/hgiscanada/sitemap.xml</loc></sitemap></sitemapindex>')
     with pytest.raises(ValueError, match='cyclic'):
         sitemap_paths(tmp_path)
+
+
+def test_research_corrections_attach_only_to_targeted_cells():
+    from build_rdf_site import apply_corrections, correction_html
+    s, u, o, d = inputs()
+    a = cell_record(s, u, o, d)
+    o2 = dict(o, observation_id='CELL_1911_TEST_2_7', column_key='G', source_cell='Table 1!G2')
+    b = cell_record(s, u, o2, d)
+    entry = {'kind': 'county_row_transposition', 'status': 'county_assignment_verified',
+             'reassigned_numeric_value': '99', 'reassigned_value_status': 'numeric',
+             'printed_numeric_value': '99', 'printed_value_status': 'numeric',
+             'printed_page': 130, 'primary_source_url': 'https://example.org/vol#page=188'}
+    corrected = apply_corrections([a, b], 2, {'2:G': entry})
+    assert corrected == [b] and b['research_correction'] == entry and 'research_correction' not in a
+    text = correction_html(corrected)
+    assert 'Research corrections' in text and 'county row transposition' in text and '99' in text
+    # A correction key that matches no staged cell must not be silently dropped by the builder;
+    # apply_corrections reports only hits, and build_sources raises on the count mismatch.
+    assert apply_corrections([a, b], 2, {'3:G': entry}) == []
+
+
+def test_source_corrections_file_is_well_formed():
+    from build_rdf_site import load_source_corrections
+    meta, data = load_source_corrections()
+    assert meta['printed_source'].startswith('https://publications.gc.ca/')
+    assert data, 'at least one corrected source'
+    for key, source in data.items():
+        assert set(source) <= {'row_notes', 'cells'}, key
+        for target, entry in source['cells'].items():
+            row, column = target.split(':')
+            assert row.isdigit() and column.isalpha() and column.isupper(), target
+            assert entry['kind'] in {'county_row_transposition', 'printed_arithmetic_discrepancy'}, target
+            assert entry['printed_page'] and entry['primary_source_url'], target
+            if entry['kind'] == 'county_row_transposition':
+                assert entry['reassigned_value_status'] in {'numeric', 'source_blank'}, target
+                assert (entry['reassigned_numeric_value'] is not None) == (entry['reassigned_value_status'] == 'numeric'), target
+            else:
+                assert entry['status'] == 'annotation_only' and entry['note'], target
+    swap = data['1851_V2T6_CD_202306']['cells']
+    assert sum(c['kind'] == 'county_row_transposition' for c in swap.values()) == 112

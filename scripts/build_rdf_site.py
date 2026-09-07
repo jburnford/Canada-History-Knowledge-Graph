@@ -116,6 +116,58 @@ def cell_record(source, unit, observation, definition):
     return o
 
 
+CORRECTIONS_PATH = REPO_ROOT / 'data/source_corrections.json'
+
+
+def load_source_corrections():
+    """Tracked research-correction overlay for staged source workbooks.
+
+    Source workbooks, staged SQLite and source RDF stay verbatim; corrections
+    surface on the evidence pages and in the retrieval JSONL, keyed by
+    source_key then '<excel_row>:<column_key>'."""
+    data = json.loads(CORRECTIONS_PATH.read_text(encoding='utf-8'))
+    meta = data.pop('_meta')
+    return meta, data
+
+
+def apply_corrections(cells, excel_row, correction_cells):
+    """Attach research_correction to matching cell records; return those hit."""
+    corrected = []
+    for cell in cells:
+        entry = correction_cells.get(f'{excel_row}:{cell["column_key"]}')
+        if entry is not None:
+            cell['research_correction'] = entry
+            corrected.append(cell)
+    return corrected
+
+
+def correction_html(corrected):
+    body = '<h2 id="research-corrections">Research corrections</h2>'
+    body += ('<p>The original source assertion above is preserved verbatim; the corrections here are a '
+             'separately documented research overlay, verified against the printed census volume. The same '
+             'records appear under <code>research_correction</code> in the downloadable retrieval cells.</p>')
+    records = []
+    for c in corrected:
+        r = c['research_correction']
+        detail = [r.get('value_adjudication') or r.get('status')]
+        for field in ('note', 'unit_warning', 'limits'):
+            if r.get(field):
+                detail.append(r[field])
+        records.append([
+            link('#cell-' + c['column_key'], c['source_cell']) + '<small>' + esc(c['source_column']) + '</small>',
+            esc(r['kind'].replace('_', ' ')),
+            esc(c['rdf_decimal'] if c['value_status'] == 'numeric' else c['value_status']),
+            esc(r.get('reassigned_numeric_value') if r.get('reassigned_numeric_value') is not None
+                else ('Blank in source' if r.get('reassigned_value_status') == 'source_blank' else 'Original value stands')),
+            esc(r.get('printed_numeric_value') if r.get('printed_numeric_value') is not None
+                else ('Blank in print' if r.get('printed_value_status') == 'printed_blank' else '')),
+            '<br>'.join(esc(d) for d in detail if d),
+            link(r['primary_source_url'], f'Printed p. {r["printed_page"]}') if r.get('primary_source_url') else '',
+        ])
+    body += table(['Source cell', 'Kind', 'Original value', 'Corrected value', 'Printed value', 'Notes', 'Printed source'], records)
+    return body
+
+
 def cell_html(c):
     numeric = c['value_status'] == 'numeric'
     value = c['rdf_decimal'] if numeric else ('Blank in source' if c['value_status'] == 'source_blank' else 'Source text: ' + str(json.loads(c['raw_value_json'])))
@@ -251,6 +303,7 @@ class Builder:
         print('Preserved resident pages and person anchors', flush=True)
 
     def build_sources(self):
+        corrections_meta, corrections_all = load_source_corrections()
         catalog = json.loads((self.sources / 'rdf-catalog.json').read_text())
         binding_manifest = json.loads((self.bindings_dir / 'manifest.json').read_text())
         if json.loads((self.bindings_dir / 'validation.json').read_text())['errors']:
@@ -278,6 +331,14 @@ class Builder:
             source_dir.mkdir(parents=True)
             shutil.copyfile(rdf, source_dir / 'source.nt.gz')
             shutil.copyfile(folder / 'source_observations.nt.validation.json', source_dir / 'rdf-validation.json')
+            source_corrections = corrections_all.get(key, {})
+            correction_cells = source_corrections.get('cells', {})
+            correction_row_notes = source_corrections.get('row_notes', {})
+            corrections_applied = 0
+            if source_corrections:
+                (source_dir / 'corrections.json').write_text(
+                    json.dumps({'_meta': corrections_meta, key: source_corrections},
+                               indent=1, ensure_ascii=False) + '\n', encoding='utf-8')
             workbook_links, cell_count, numeric_count = [], 0, 0
             with gzip.open(source_dir / 'cells.jsonl.gz', 'wt', encoding='utf-8', compresslevel=6) as stream:
                 # SQLite may sort, but never loads a national observation table in Python.
@@ -285,6 +346,8 @@ class Builder:
                 for uid, obs in itertools.groupby(db.execute(query), key=lambda r: r['unit_id']):
                     unit = units[uid]
                     cells = [cell_record(source, unit, o, columns[o['column_key']]) for o in obs]
+                    corrected = apply_corrections(cells, unit['excel_row'], correction_cells)
+                    corrections_applied += len(corrected)
                     for c in cells:
                         stream.write(dump(c) + '\n')
                     cell_count += len(cells)
@@ -298,12 +361,17 @@ class Builder:
                             raise ValueError(f'Invalid map endpoint: {uid} / {sid}')
                         self.source_links[sid].append(dict(path=path, label=title, status=binding['status']))
                     body = '<p class="note">These are values reported for the unit named in this source row. The census geography vintage does not supply a missing reference year. Blank cells are not zero; repeated column labels remain separate source positions.</p>'
+                    row_note = correction_row_notes.get(str(unit['excel_row']))
+                    if row_note:
+                        body += '<p class="note"><strong>Research correction.</strong> ' + esc(row_note) + ' ' + link('#research-corrections', 'Details below') + '.</p>'
                     body += fields({'Source workbook': Path(source['path']).name, 'Worksheet / row': f'{source["sheet"]} / {unit["excel_row"]}',
                         'Source label': unit['label'], 'Province code in source': unit['province'], 'Source code': unit['source_code'],
                         'Reporting level': unit['reporting_level'], 'Reporting geography vintage': source['census_vintage'],
                         'RDF reporting unit': iri('source-reporting-unit/' + uid), 'RDF row record': iri('source-row/' + source['sha256'] + '/' + str(unit['excel_row'])),
                         'Workbook SHA-256': source['sha256'], 'Spatial binding status in source RDF': unit['spatial_binding_status']})
                     body += '<h2>Reported cells</h2><p>Each cell link is a citation to the exact worksheet position. The downloadable retrieval record also includes its RDF identifier and original value.</p><div class="table-wrap"><table><thead><tr><th>Source cell / column</th><th>Definition</th><th>Reported value</th><th>Unit</th><th>Reference period</th></tr></thead><tbody>' + ''.join(cell_html(c) for c in cells) + '</tbody></table></div>'
+                    if corrected:
+                        body += correction_html(corrected)
                     body += '<h2>Geographic assessment</h2>' + fields({'Assessment status': binding['status'], 'Method': binding['method'], 'Survey designation': unit['survey_unit_id'] or 'Not supplied'})
                     body += '<p>This separately assessed relationship is navigation evidence, not a claim that the source reporting unit, a map polygon, a historical municipality, or a modern Wikidata entity are identical.</p>'
                     body += listing(link(self.snapshot_urls[sid], f'{self.reps[sid]["name"]} ({sid}) — {binding["status"]}') for sid in candidates)
@@ -320,11 +388,20 @@ class Builder:
                     self.province_sources[unit['province']].append((key, path, title))
             if cell_count != manifest['source_cells'] or numeric_count != manifest['numeric_observations'] or len(workbook_links) != len(units):
                 raise ValueError(f'Source reconciliation failed: {key}')
+            if corrections_applied != len(correction_cells):
+                raise ValueError(f'Research corrections did not all match staged cells: {key} '
+                                 f'({corrections_applied} applied of {len(correction_cells)})')
             db.close()
             body = '<p>Preserved source table from the Canadian Peoples / TCP census collection. Row totals, survey units, missing values and unresolved interpretations remain visible.</p>'
             body += fields({'Workbook': Path(source['path']).name, 'Worksheet': source['sheet'], 'Census vintage': source['census_vintage'],
                             'Reporting rows': len(units), 'Preserved statistical cells': cell_count, 'Numeric observations': numeric_count, 'Workbook SHA-256': source['sha256']})
             body += '<p>' + link(source_path(key) + 'source.nt.gz', 'Download the current RDF (N-Triples, gzip)') + ' · ' + link(source_path(key) + 'cells.jsonl.gz', 'Download citable cells (JSONL, gzip)') + ' · ' + link(source_path(key) + 'rdf-validation.json', 'RDF validation') + '</p>'
+            if source_corrections:
+                body += ('<p class="note"><strong>Research corrections.</strong> ' + str(corrections_applied)
+                         + ' cells in this table carry a documented research correction verified against the printed volume '
+                         + '(county row transposition and printed arithmetic annotations). The source assertions above are preserved verbatim; '
+                         + 'affected row pages show the corrections, and the retrieval cells embed them as <code>research_correction</code>. '
+                         + link(source_path(key) + 'corrections.json', 'Download the correction overlay') + '.</p>')
             body += '<h2>Column definitions</h2>' + table(['Position', 'Source column', 'Definition', 'Unit / status', 'Reference period'], [
                 [esc(c['column_key']), esc(c['source_column']), esc(c['definition'] or 'Unresolved'), esc(c['unit'] or 'Unresolved') + '<small>' + esc(c['unit_status']) + '</small>',
                  esc(c['reference_year'] if c['reference_year'] is not None else 'Reference year unresolved') + '<small>' + esc(c['reference_period_kind']) + ': ' + esc(c['reference_period_text']) + '</small>']
@@ -338,7 +415,8 @@ class Builder:
             self.write(source_path(key), key, body, 'Census source workbook', data)
             source_cards.append(link(source_path(key), key) + f' — {len(units):,} reporting rows; {numeric_count:,} numeric cells')
             self.manifest['sources'].append(dict(source_key=key, database_sha256=digest, workbook_sha256=source['sha256'],
-                rdf_sha256=sha(rdf), retrieval_sha256=sha(source_dir / 'cells.jsonl.gz'), reporting_rows=len(units), source_cells=cell_count, numeric_observations=numeric_count))
+                rdf_sha256=sha(rdf), retrieval_sha256=sha(source_dir / 'cells.jsonl.gz'), reporting_rows=len(units), source_cells=cell_count, numeric_observations=numeric_count,
+                research_corrections=corrections_applied))
             print(f'{key}: {len(units):,} rows / {cell_count:,} cells', flush=True)
         self.write(BASE + '/sources/', 'Census source tables, 1851–1921', '<p>Browse each table as it was reported. Each row has a citable page; every statistical source cell retains its position, value status and provenance.</p>' + listing(source_cards), 'Source catalogue')
 

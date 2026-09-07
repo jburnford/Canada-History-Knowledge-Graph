@@ -52,7 +52,7 @@ RDF_SITE ?= data_quality/rdf_site
 
 # Source RDF must already be exported/validated. The builder rejects changed
 # databases, exporter code, or identity evidence, and retains the previous build.
-rdf-site: scripts/build_rdf_site.py scripts/_site_urls.py scripts/_config.py data/published_site_urls.csv data/site_url_assignments.csv data/site_legacy_records.json data_quality/lod_census_sources/rdf-catalog.json data_quality/lod_identity/manifest.json data_quality/lod_source_bindings/manifest.json
+rdf-site: scripts/build_rdf_site.py scripts/_site_urls.py scripts/_config.py data/published_site_urls.csv data/site_url_assignments.csv data/site_legacy_records.json data/source_corrections.json data_quality/lod_census_sources/rdf-catalog.json data_quality/lod_identity/manifest.json data_quality/lod_source_bindings/manifest.json
 	$(PYTHON) scripts/build_rdf_site.py --out $(RDF_SITE)
 
 rdf-site-test:

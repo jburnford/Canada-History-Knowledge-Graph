@@ -67,6 +67,10 @@ class SourceTable(HTMLParser):
 def check_source(site, sources, entry):
     key = entry['source_key']
     folder = site / 'sources' / key
+    source_corrections = json.loads((REPO_ROOT / 'data/source_corrections.json').read_text()).get(key, {})
+    correction_cells = source_corrections.get('cells', {})
+    correction_row_notes = source_corrections.get('row_notes', {})
+    corrections_seen = 0
     database = sources / key / 'source_observations.sqlite'
     assert digest(database) == entry['database_sha256'], (key, 'database drift')
     assert digest(folder / 'source.nt.gz') == entry['rdf_sha256'], (key, 'RDF drift')
@@ -115,6 +119,10 @@ def check_source(site, sources, entry):
                     rdf_decimal=format(Decimal(raw['numeric_value']), 'f') if raw['value_status'] == 'numeric' else None)
                 for field, value in extra.items():
                     assert fact[field] == value, (key, raw['source_cell'], field)
+                expected_correction = correction_cells.get(f'{u["excel_row"]}:{raw["column_key"]}')
+                assert fact.get('research_correction') == expected_correction, (key, raw['source_cell'], 'research_correction')
+                if expected_correction is not None:
+                    corrections_seen += 1
                 rendered = page.cells[raw['observation_id']]
                 a, cell_text = rendered['attributes'], ' '.join(rendered['text'])
                 assert a['id'] == urlsplit(fact['citation_url']).fragment
@@ -138,8 +146,16 @@ def check_source(site, sources, entry):
             assert ids == set(page.cells), (key, uid, 'HTML cell set differs')
             for value in [u['label'], u['reporting_level'], str(src['census_vintage']), src['sha256'], uri('source-reporting-unit/' + uid)]:
                 assert value in visible, (key, uid, 'missing visible context', value)
+            row_has_corrections = any(k.startswith(f'{u["excel_row"]}:') for k in correction_cells)
+            assert ('Research corrections' in visible) == row_has_corrections, (key, uid, 'correction section')
+            row_note = correction_row_notes.get(str(u['excel_row']))
+            if row_note:
+                assert row_note in visible, (key, uid, 'row correction note missing')
             page_count += 1
     assert seen_units == set(units), (key, 'missing reporting unit')
+    assert corrections_seen == len(correction_cells) == entry.get('research_corrections', 0), (key, 'research corrections incomplete')
+    if source_corrections:
+        assert json.loads((folder / 'corrections.json').read_text())[key] == source_corrections, (key, 'published correction overlay drift')
     assert (count, numeric, page_count) == (entry['source_cells'], entry['numeric_observations'], entry['reporting_rows'])
     db.close()
     return dict(source_key=key, cells=count, numeric_observations=numeric, reporting_rows=page_count, statuses=dict(status))
