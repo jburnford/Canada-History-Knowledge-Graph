@@ -14,7 +14,8 @@
 #   make site      — rebuild rag_site/ only (assumes upstream artifacts current)
 #   make dcb       — rebuild DCB person links (Stage 5) only
 #   make link      — re-run spatial linking (slow; needs GDB + geo env)
-#   make deploy    — rsync rag_site/ to hgiscanada repo and push
+#   make url-check — fail if rag_site/ lacks any already-published path
+#   make deploy    — url-check, then rsync rag_site/ to hgiscanada repo and push
 #   make clean     — remove generated outputs (keeps registries)
 #   make distclean — remove EVERYTHING regenerable (including registries)
 #   make config-check — print resolved config paths
@@ -33,7 +34,7 @@ HGIS_REPO    := $(shell $(PYTHON) -c 'from scripts._config import CONFIG; print(
 
 # ---- Phony targets ---------------------------------------------------------
 
-.PHONY: all site dcb link link-csds link-cds deploy clean distclean config-check residents
+.PHONY: all site dcb link link-csds link-cds deploy clean distclean config-check residents url-check
 
 all: rag_site/index.html
 
@@ -285,7 +286,14 @@ residents-with-ttl:
 
 # ---- Deploy -----------------------------------------------------------------
 
-deploy: rag_site/index.html
+# Every published path (data/published_site_paths.txt, captured from the
+# Aug 10 2026 deploy) must still exist in the build: deploy rsyncs with
+# --delete, so anything missing here would vanish from the live site. The
+# residents pages are part of the published site, so render them first.
+url-check: rag_site/.residents_1881_stamp scripts/check_published_paths.py data/published_site_paths.txt
+	$(PYTHON) scripts/check_published_paths.py --site rag_site
+
+deploy: url-check
 	@if [ ! -d "$(HGIS_REPO)" ]; then \
 		echo "ERROR: hgiscanada repo not found at $(HGIS_REPO)"; \
 		echo "Set [paths].hgiscanada_repo in config.local.toml"; exit 1; \
