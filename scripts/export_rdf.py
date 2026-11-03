@@ -31,6 +31,7 @@ PREFIXES = f"""\
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix geo: <{GEO_NS}> .
 @prefix wikidata: <{WD_NS}> .
 @prefix base: <{BASE}> .
@@ -38,6 +39,43 @@ PREFIXES = f"""\
 """
 
 YEARS = [1851, 1861, 1871, 1881, 1891, 1901, 1911, 1921]
+
+# Province containment for P89_falls_within. QIDs verified against Wikidata
+# via the MCP vector search (2026-08-10); do not edit from memory.
+PROVINCES = {
+    "AB": ("Alberta", "Q1951"),
+    "BC": ("British Columbia", "Q1973"),
+    "MB": ("Manitoba", "Q1948"),
+    "NB": ("New Brunswick", "Q1965"),
+    "NL": ("Newfoundland and Labrador", "Q2003"),
+    "NS": ("Nova Scotia", "Q1952"),
+    "NT": ("Northwest Territories", "Q2007"),
+    "ON": ("Ontario", "Q1904"),
+    "PE": ("Prince Edward Island", "Q1978"),
+    "QC": ("Quebec", "Q176"),
+    "SK": ("Saskatchewan", "Q1989"),
+    "YT": ("Yukon", "Q2009"),
+}
+CANADA_QID = "Q16"
+
+# Human labels for the SKOS concept scheme of census variable categories.
+CATEGORY_LABELS = {
+    "AGE": "Age structure",
+    "AGR": "Agriculture",
+    "BLD": "Buildings and dwellings",
+    "DTH": "Deaths",
+    "ETH": "Ethnic origin",
+    "FSH": "Fisheries",
+    "MFG": "Manufacturing",
+    "POP": "Population",
+    "REL": "Religion",
+}
+
+# BORDER_MEAS_<tcpuidA>_<tcpuidB>_<year>; tcpuids are 2 letters + 6
+# alphanumerics (Ungava district ids like QC20N999 mix letters in).
+TCPUID_PAT = r"[A-Z]{2}[0-9A-Z]{6}"
+BORDER_MEAS_RE = re.compile(
+    rf"^BORDER_MEAS_({TCPUID_PAT})_({TCPUID_PAT})_(\d{{4}})$")
 
 
 def escape_turtle(s: str) -> str:
@@ -103,6 +141,11 @@ def main():
     uri_map = {}
     for r in read_csv(CRM / "e53_place_uri.csv"):
         uri_map[r["place_id:ID"]] = r["uri"]
+
+    # --- Global place-name map (all provinces; used for human labels) ---
+    place_name = {}
+    for r in read_csv(CRM / "e53_place_csd.csv") + read_csv(CRM / "e53_place_cd.csv"):
+        place_name[r["place_id:ID"]] = r["name"]
 
     # --- Load shared entities (emitted once per file) ---
     e4_periods = read_csv(CRM / "e4_period.csv")
@@ -214,13 +257,61 @@ def main():
                 if r["space_id:ID"] in space_ids:
                     all_space.append(r)
 
-        # CD presences (for P10 targets)
+        # CD presences: this province's CDs plus any CD referenced as a P10
+        # target by a CSD presence in this file.
         cd_presence_ids = {r[":END_ID"] for r in prov_p10}
         cd_presences = []
+        cd_prefix = f"CD_{prov}_"
         for year in YEARS:
             for r in read_csv(CRM / f"e93_presence_cd_{year}.csv"):
-                if r.get("presence_id:ID", "") in cd_presence_ids:
+                if (r.get("presence_id:ID", "") in cd_presence_ids
+                        or r.get("cd_id", "").startswith(cd_prefix)):
                     cd_presences.append(r)
+        cd_presence_ids.update(r["presence_id:ID"] for r in cd_presences)
+
+        # CD-level relationship rows (previously never exported: the CD
+        # presences were orphaned E93 nodes with no P166/P164/geometry).
+        cd_p166, cd_p164, cd_p10_period, cd_p161 = [], [], [], []
+        for year in YEARS:
+            for src, fname_pat in [
+                (cd_p166, "p166_was_presence_of_cd_{}.csv"),
+                (cd_p164, "p164_temporally_specified_by_cd_{}.csv"),
+                (cd_p10_period, "p10_cd_presence_within_period_{}.csv"),
+                (cd_p161, "p161_spatial_projection_cd_{}.csv"),
+            ]:
+                for r in read_csv(CRM / fname_pat.format(year)):
+                    if r[":START_ID"] in cd_presence_ids:
+                        src.append(r)
+        cd_space_ids = {r[":END_ID"] for r in cd_p161}
+        cd_space = []
+        for year in YEARS:
+            for r in read_csv(CRM / f"e94_space_primitive_cd_{year}.csv"):
+                if r["space_id:ID"] in cd_space_ids:
+                    cd_space.append(r)
+
+        # P132 spatiotemporal overlaps (chain continuity between year pairs)
+        all_presence_ids = {r["presence_id:ID"] for r in prov_presences} | cd_presence_ids
+        prov_p132 = []
+        for fname in ["p132_spatiotemporally_overlaps_with_csd.csv",
+                      "p132_spatiotemporally_overlaps_with_cd.csv"]:
+            for r in read_csv(CRM / fname):
+                if r[":START_ID"] in all_presence_ids and r[":END_ID"] in all_presence_ids:
+                    prov_p132.append(r)
+
+        # presence_id → place_id (for labels), presence_id → space_id (for
+        # relocating P122 onto the year-specific spatial-projection places).
+        presence_place = {r[":START_ID"]: r[":END_ID"] for r in prov_p166 + cd_p166}
+        pres2space = {r[":START_ID"]: r[":END_ID"] for r in prov_p161 + cd_p161}
+
+        def presence_name(pid: str) -> str:
+            """Human name for a presence, falling back to its raw id."""
+            name = place_name.get(presence_place.get(pid, ""), "")
+            if not name:
+                # Cross-province neighbour or unmapped: strip trailing year.
+                name = re.sub(r"_\d{4}$", "", pid)
+            if name == "NO DATA":
+                name = "No-data area"
+            return name
 
         # --- Census observations ---
         prov_e16_obs = []
@@ -316,11 +407,47 @@ def main():
                 if r.get("wikidata_qid"):
                     triple(s, "owl:sameAs", f"wikidata:{r['wikidata_qid']}")
 
+            f.write("\n# SKOS concept scheme for census variable types\n")
+            scheme = "base:VOCAB_CENSUS_VARIABLES"
+            triple(scheme, "a", "skos:ConceptScheme")
+            triple(scheme, "rdfs:label",
+                   lang("HGIS Canada census variables 1851–1921"))
+            seen_cats = set()
+            for r in e55_types:
+                cat = r.get("category", "")
+                if not cat or cat in seen_cats:
+                    continue
+                seen_cats.add(cat)
+                cs = b(f"VARCAT_{cat}")
+                cat_label = CATEGORY_LABELS.get(cat, cat)
+                triple(cs, "a", "crm:E55_Type")
+                triple(cs, "a", "skos:Concept")
+                triple(cs, "rdfs:label", lang(cat_label))
+                triple(cs, "skos:prefLabel", lang(cat_label))
+                triple(cs, "skos:topConceptOf", scheme)
+                triple(cs, "skos:inScheme", scheme)
+
             f.write("\n# E55_Type nodes (variable types)\n")
             for r in e55_types:
                 s = b(r['type_id:ID'])
+                label = r.get("label", r["type_id:ID"])
                 triple(s, "a", "crm:E55_Type")
-                triple(s, "rdfs:label", lang(r.get("label", r["type_id:ID"])))
+                triple(s, "a", "skos:Concept")
+                triple(s, "rdfs:label", lang(label))
+                triple(s, "skos:prefLabel", lang(label))
+                triple(s, "skos:inScheme", scheme)
+                cat = r.get("category", "")
+                if cat:
+                    triple(s, "skos:broader", b(f"VARCAT_{cat}"))
+                    triple(s, "crm:P127_has_broader_term", b(f"VARCAT_{cat}"))
+
+            f.write("\n# Utility E55 types\n")
+            triple("base:TYPE_SHARED_BORDER_LENGTH", "a", "crm:E55_Type")
+            triple("base:TYPE_SHARED_BORDER_LENGTH", "rdfs:label",
+                   lang("shared border length"))
+            triple("base:TYPE_NO_DATA_UNIT", "a", "crm:E55_Type")
+            triple("base:TYPE_NO_DATA_UNIT", "rdfs:label",
+                   lang("unenumerated / no-data census unit"))
 
             f.write("\n# E73_Information_Object (provenance)\n")
             for r in e73_objects:
@@ -343,16 +470,34 @@ def main():
                            lit(r["access_uri"]))
 
             # --- Province-specific nodes ---
+            f.write(f"\n# E53_Place: province + country (P89 hierarchy)\n")
+            prov_label, prov_qid = PROVINCES.get(prov, (prov, ""))
+            prov_node = b(f"PROV_{prov}")
+            triple(prov_node, "a", "crm:E53_Place")
+            triple(prov_node, "rdfs:label", lang(prov_label))
+            if prov_qid:
+                triple(prov_node, "owl:sameAs", f"wikidata:{prov_qid}")
+            triple("base:PLACE_CANADA", "a", "crm:E53_Place")
+            triple("base:PLACE_CANADA", "rdfs:label", lang("Canada"))
+            triple("base:PLACE_CANADA", "owl:sameAs", f"wikidata:{CANADA_QID}")
+            triple(prov_node, "crm:P89_falls_within", "base:PLACE_CANADA")
+
             f.write(f"\n# E53_Place nodes ({prov})\n")
             for r in csd_places + cd_places:
                 pid = r["place_id:ID"]
                 s = uri(pid, uri_map)
                 triple(s, "a", "crm:E53_Place")
-                triple(s, "rdfs:label", lang(r["name"]))
-                # owl:sameAs for Wikidata-grounded places
-                u = uri_map.get(pid, "")
-                if u.startswith(WD_NS):
-                    pass  # URI itself IS Wikidata; no sameAs needed
+                if r["name"] == "NO DATA":
+                    # Placeholder polygons for unenumerated areas: keep the
+                    # node (borders reference it) but label and type it
+                    # honestly instead of publishing "NO DATA" as a name.
+                    triple(s, "rdfs:label", lang(f"No-data area ({pid})"))
+                    triple(s, "crm:P2_has_type", "base:TYPE_NO_DATA_UNIT")
+                else:
+                    triple(s, "rdfs:label", lang(r["name"]))
+                triple(s, "crm:P89_falls_within", prov_node)
+                # Grounded places use the Wikidata URI as their node URI, so
+                # no owl:sameAs is needed for them.
 
             f.write(f"\n# E33_E41_Linguistic_Appellation ({prov})\n")
             for r in prov_apps:
@@ -373,47 +518,69 @@ def main():
 
             f.write(f"\n# E93_Presence ({prov} CSDs)\n")
             for r in prov_presences:
-                s = b(r['presence_id:ID'])
+                pid = r["presence_id:ID"]
+                s = b(pid)
                 triple(s, "a", "crm:E93_Presence")
-                name = r.get("name", r["presence_id:ID"])
-                year_m = re.search(r"_(\d{4})$", r["presence_id:ID"])
-                yr = year_m.group(1) if year_m else ""
-                triple(s, "rdfs:label", lang(f"{name} ({yr})"))
+                yr = r.get("census_year:int", "") or pid[-4:]
+                triple(s, "rdfs:label",
+                       lang(f"{presence_name(pid)} ({yr} presence)"))
 
             f.write(f"\n# E93_Presence ({prov} CDs)\n")
             for r in cd_presences:
-                s = b(r['presence_id:ID'])
+                pid = r["presence_id:ID"]
+                s = b(pid)
                 triple(s, "a", "crm:E93_Presence")
-                triple(s, "rdfs:label", lang(r.get("label", r["presence_id:ID"])))
+                yr = r.get("census_year:int", "") or pid[-4:]
+                triple(s, "rdfs:label",
+                       lang(f"{presence_name(pid)} (CD, {yr} presence)"))
 
             f.write(f"\n# P166: E93_Presence → E53_Place\n")
-            for r in prov_p166:
+            for r in prov_p166 + cd_p166:
                 triple(b(r[':START_ID']), "crm:P166_was_a_presence_of",
                        uri(r[":END_ID"], uri_map))
 
             f.write(f"\n# P164: E93_Presence → E52_Time-Span\n")
-            for r in prov_p164:
+            for r in prov_p164 + cd_p164:
                 triple(b(r[':START_ID']), "crm:P164_is_temporally_specified_by",
                        b(r[':END_ID']))
 
             f.write(f"\n# P10: E93_Presence → E4_Period (spacetime containment)\n")
-            for r in prov_p10_period:
+            for r in prov_p10_period + cd_p10_period:
                 triple(b(r[':START_ID']), "crm:P10_falls_within", b(r[':END_ID']))
 
-            f.write(f"\n# E94_Space_Primitive + P161 + P168 WKT\n")
-            for r in all_space:
+            f.write(f"\n# P132: spatiotemporal overlap between successive presences\n")
+            for r in prov_p132:
+                triple(b(r[':START_ID']),
+                       "crm:P132_spatiotemporally_overlaps_with",
+                       b(r[':END_ID']))
+
+            # Spatial projections. CIDOC-CRM v7.x: P161's range is E53_Place
+            # and P168's domain is E53_Place, so the projection node is an
+            # E53 (year-specific spatial extent) carrying the WKT literal —
+            # not an E94 individual (the earlier export used E94 off-domain).
+            f.write(f"\n# E53 spatial-projection places + P168 WKT\n")
+            space2pres = {r[":END_ID"]: r[":START_ID"]
+                          for r in prov_p161 + cd_p161}
+            for r in all_space + cd_space:
                 sid = r["space_id:ID"]
                 s = b(sid)
                 lat = r.get("latitude:float", r.get("latitude", r.get("lat", "")))
                 lon = r.get("longitude:float", r.get("longitude", r.get("lon", "")))
                 if lat and lon:
-                    triple(s, "a", "crm:E94_Space_Primitive")
+                    triple(s, "a", "crm:E53_Place")
+                    pres = space2pres.get(sid, "")
+                    if pres:
+                        triple(s, "rdfs:label",
+                               lang(f"Spatial extent of {presence_name(pres)}"
+                                    f" ({pres[-4:]}), centroid"))
+                    else:
+                        triple(s, "rdfs:label", lang(f"Spatial extent {sid}"))
                     wkt = f"POINT({lon} {lat})"
                     triple(s, "crm:P168_place_is_defined_by",
                            f'"{wkt}"^^geo:wktLiteral')
 
-            f.write(f"\n# P161: E93_Presence → E94_Space_Primitive\n")
-            for r in prov_p161:
+            f.write(f"\n# P161: E93_Presence → E53 spatial projection\n")
+            for r in prov_p161 + cd_p161:
                 triple(b(r[':START_ID']), "crm:P161_has_spatial_projection",
                        b(r[':END_ID']))
 
@@ -421,19 +588,65 @@ def main():
             for r in prov_p10:
                 triple(b(r[':START_ID']), "crm:P10_falls_within", b(r[':END_ID']))
 
-            f.write(f"\n# P122: E93 borders + E16/E54/E58 reification\n")
+            # P122's domain/range is E53_Place, so border edges link the
+            # year-specific spatial-projection places, not the E93 presences.
+            # Cross-province neighbours whose P161 rows aren't loaded here
+            # get their conventional "<presence>_centroid" extent id; the
+            # node is declared in the neighbouring province's file.
+            f.write(f"\n# P122: year-specific extents border + E16/E54/E58 reification\n")
+            def extent_of(pres_id: str) -> str | None:
+                sid = pres2space.get(pres_id)
+                if sid:
+                    return sid
+                if re.match(rf"^{TCPUID_PAT}_\d{{4}}$", pres_id):
+                    return f"{pres_id}_centroid"
+                return None
+            p122_fallback = 0
             for r in prov_p122:
-                triple(b(r[':START_ID']), "crm:P122_borders_with", b(r[':END_ID']))
+                se, oe = extent_of(r[":START_ID"]), extent_of(r[":END_ID"])
+                if se and oe:
+                    triple(b(se), "crm:P122_borders_with", b(oe))
+                else:
+                    p122_fallback += 1
+            if p122_fallback:
+                print(f"  WARNING: {p122_fallback} P122 rows had no extent id; dropped")
             for r in prov_e16_border:
-                s = b(r['measurement_id:ID'])
+                mid = r['measurement_id:ID']
+                s = b(mid)
                 triple(s, "a", "crm:E16_Measurement")
-                triple(s, "rdfs:label", lang(f"Border length measurement ({r.get('year:int', '')})"))
+                m = BORDER_MEAS_RE.match(mid)
+                yr = r.get('year:int', '')
+                if m:
+                    pa, pb = f"{m.group(1)}_{yr}", f"{m.group(2)}_{yr}"
+                    triple(s, "rdfs:label",
+                           lang(f"Shared border of {presence_name(pa)} and "
+                                f"{presence_name(pb)} ({yr})"))
+                else:
+                    triple(s, "rdfs:label",
+                           lang(f"Border length measurement ({yr})"))
+                triple(s, "crm:P2_has_type", "base:TYPE_SHARED_BORDER_LENGTH")
+                triple(s, "crm:P4_has_time-span", b(f"TIMESPAN_{yr}"))
             for r in prov_e54_border:
                 s = b(r['dimension_id:ID'])
                 triple(s, "a", "crm:E54_Dimension")
+                triple(s, "rdfs:label", lang(f"{r['value:float']} m"))
                 triple(s, "crm:P90_has_value", lit(r["value:float"], "xsd:decimal"))
+            # The CSV asserts P39 to the first participant only; a border is
+            # a relation between two extents, so synthesise the second P39.
+            seen_p39_border = set()
             for r in prov_p39_border:
+                seen_p39_border.add((r[":START_ID"], r[":END_ID"]))
                 triple(b(r[':START_ID']), "crm:P39_measured", b(r[':END_ID']))
+            for r in prov_e16_border:
+                mid = r['measurement_id:ID']
+                m = BORDER_MEAS_RE.match(mid)
+                if not m:
+                    continue
+                yr = m.group(3)
+                for part in (f"{m.group(1)}_{yr}", f"{m.group(2)}_{yr}"):
+                    if (mid, part) not in seen_p39_border:
+                        seen_p39_border.add((mid, part))
+                        triple(b(mid), "crm:P39_measured", b(part))
             for r in prov_p40_border:
                 triple(b(r[':START_ID']), "crm:P40_observed_dimension", b(r[':END_ID']))
             for r in prov_p91_border:
@@ -452,6 +665,14 @@ def main():
                 triple(s, "a", "crm:E54_Dimension")
                 v = r.get("value:float", "")
                 vs = r.get("value_string", "")
+                lbl = v or vs
+                if lbl:
+                    try:
+                        fv = float(lbl)
+                        lbl = str(int(fv)) if fv.is_integer() else lbl
+                    except ValueError:
+                        pass
+                    triple(s, "rdfs:label", lang(lbl))
                 if v:
                     # Census counts are integers; the CSV stores them with a
                     # float lexical form ("386.0"). Emit integral values as

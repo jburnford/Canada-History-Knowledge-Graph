@@ -1,0 +1,472 @@
+wikidata_qid,wikidata_label,n_chains,place_ids,names,provinces,place_types,verdict
+Q7230482,Port Arthur,6,PLACE_ON182030;PLACE_ON046037;PLACE_ON046038;PLACE_ON046039;PLACE_ON044062;PLACE_ON147037,"Prince Arthur;Port Arthur Centre;Port Arthur N;Port Arthur S;Port Arthur;Port Arthur, C",ON,CSD,CONFLICTING-NAMES
+Q3498168,Stellarton,5,PLACE_NS020015;PLACE_NS039026;PLACE_NS038031;PLACE_NS038002_1901;PLACE_NS016038,"New Campbellton;Stellarton;Stellarton (part);Albion Mines (Stellarton, part);Stellarton, T-V",NS,CSD,CONFLICTING-NAMES
+Q141420,Marieville,5,PLACE_QC123005;PLACE_QC085007;PLACE_QC085011;PLACE_QC072004;PLACE_QC063004_1881,"Ste. Marie;Ste. Marie de Monnoir;Marieville, T-V;N. D. des Anges de Stanbridge;Ste. Marie de Monnoir",QC,CSD,CONFLICTING-NAMES
+Q138841,Beloeil,4,PLACE_QC145012;PLACE_QC150018;PLACE_QC098001_1911;PLACE_QC098009_1921,"Beloeil;Beloeil vl;Belœil;Beloeil, T-V",QC,CSD,CONFLICTING-NAMES
+Q141410,Louiseville,4,PLACE_QC085001;PLACE_QC069014;PLACE_QC069003_1891;PLACE_QC073007_1851,"L'Ange Gardien;Louiseville, Town—Ville;Rivière du Loup;Rivière du Loup",QC,CSD,CONFLICTING-NAMES
+Q141873,Saint-Hyacinthe,4,PLACE_QC050007;PLACE_QC091012;PLACE_QC121007;PLACE_QC091008,"St. Hyacinthe, Parish;St. Hyacinthe, City—Cité;St. Hyacinthe;Notre-Dame",QC,CSD,CONFLICTING-NAMES
+Q112912288,Saint-Hugues,4,PLACE_QC122005;PLACE_QC039015_1911;PLACE_QC143006_1911;PLACE_QC039006_1921,"St. Hugues;St. Hugues, VL;St. Hugues de Ramsay;St. Hugues de Ramsay",QC,CSD,CONFLICTING-NAMES
+Q141738,Sainte-Agathe-des-Monts,4,PLACE_QC193003_1881;PLACE_QC096018;PLACE_QC202003;PLACE_QC096007,"Sherbrooke, Est, Ward—Quartier;Ste. Agathe des Monts, T-V;Ste. Agathe;Ste. Agathe des Monts",QC,CSD,CONFLICTING-NAMES
+Q993714,Kenora,4,PLACE_ON046042;PLACE_ON046041;PLACE_ON120045;PLACE_ON044064,"Rat Portage W-O;Rat Portage E;Kenora, T-V;Rat Portage",ON,CSD,CONFLICTING-NAMES
+Q1930,Ottawa,4,PLACE_ON105011_1921;CD_ON_Bytown;CD_ON_Ottawa;CD_ON_Ottawa_City,"Ottawa, C;Bytown;Ottawa;Ottawa City",ON,CD;CSD,CONFLICTING-NAMES
+Q2991266,comté de Hull,4,CD_QC_Hull;CD_QC_Ottawa_County;CD_QC_Outaouais;CD_QC_Wright,Hull;Ottawa County;Outaouais;Wright,QC,CD,CONFLICTING-NAMES
+Q448372,Niagara-on-the-Lake,3,PLACE_ON143001_1851;PLACE_ON126011;PLACE_ON143002_1881,"Niagara, Township;Niagara, Town—Ville;Niagara, Town—Ville",ON,CSD,CONFLICTING-NAMES
+Q126805,St. Catharines,3,PLACE_ON021002;PLACE_ON093009_1911;PLACE_ON126009,"St. Catherines, Town—Ville;St Catharines c;St. Catharines, C",ON,CSD,CONFLICTING-NAMES
+Q2936979,Cap-de-la-Madeleine,3,PLACE_QC053004;PLACE_QC151001;PLACE_QC047030,"Cap de la Madeleine;Cap de la Magdeleine;Cap de la Madeleine, T-V",QC,CSD,CONFLICTING-NAMES
+Q139493759,Champlain,3,PLACE_QC012003;PLACE_QC047002_1871;PLACE_QC047034,"Champlain;La Visitation;Champlain, VL",QC,CSD,CONFLICTING-NAMES
+Q141505,Saint-Eustache,3,PLACE_QC080008;PLACE_QC056007;PLACE_QC052006_1921,"St. Eustache, Parish;Gaspé Bay N & Sydenham, Township;St. Eustache",QC,CSD,CONFLICTING-NAMES
+Q3463285,Saint-Roch-des-Aulnaies,3,PLACE_QC060003;PLACE_QC043005_1881;PLACE_QC067012_1901,St. Ambroise;St. Roch;St. Roch des Aulnaies,QC,CSD,CONFLICTING-NAMES
+Q142405,Saint-Ours,3,PLACE_QC070002;PLACE_QC082012;PLACE_QC082006,"St. Ours, Parish;St. Ours, Town—Ville;St. Ours",QC,CSD,CONFLICTING-NAMES
+Q142087,Sainte-Thérèse,3,PLACE_QC099003;PLACE_QC096016;PLACE_QC096020,"Ste. Thérèse, Parish;Ste. Thérèse;Ste. Thérèse, T-V",QC,CSD,CONFLICTING-NAMES
+Q2932587,Cacouna,3,PLACE_QC054009;PLACE_QC095031;PLACE_QC095002,"St. George de Kakouna;Cacouna, Village;Cacouna",QC,CSD,CONFLICTING-NAMES
+Q14875636,Saint Stephen Parish,3,PLACE_NB175009;PLACE_NB013015;PLACE_NB024014,Saint Stephen;St. Stephen's;St. Stephen,NB,CSD,CONFLICTING-NAMES
+Q142516,Princeville,3,PLACE_QC038024;PLACE_QC153037;PLACE_QC038006,"Princeville, Village;Stanfold;Princeville (Stanfold)",QC,CSD,CONFLICTING-NAMES
+Q3462681,Saint-Lambert-de-Lauzon,3,PLACE_QC154006;PLACE_QC066008;PLACE_QC054008_1851,Fox & Sydenham North—Nord;St. Lambert de Lauzon;St. Lambert,QC,CSD,CONFLICTING-NAMES
+Q142490,Neuville,3,PLACE_QC186007;PLACE_QC080026;PLACE_QC080006_1921,"Pointe aux Trembles;Neuville, VL;Neuville (Pointe aux Trembles)",QC,CSD,CONFLICTING-NAMES
+Q137772105,Saint-Raymond,3,PLACE_QC143009;PLACE_QC080034;PLACE_QC080018,"St. Raymond;St. Raymond, VL;St. Raymond-Nonnat",QC,CSD,CONFLICTING-NAMES
+Q2415848,Tillsonburg,3,PLACE_ON158006;PLACE_ON165002;PLACE_ON134014,"Tilsonburg, Town—Ville;Tilsonburgh;Tilsonburg, Town—Ville",ON,CSD,CONFLICTING-NAMES
+Q3463170,Saint-Pierre-de-Broughton,3,PLACE_QC040017_1881;PLACE_QC050012_1881;PLACE_QC048008,St. Pierre de Broughton;St. Pierre de Broughton;St. Hilarion,QC,CSD,CONFLICTING-NAMES
+Q112913106,Sainte-Rose-de-Lima,3,PLACE_QC076049;PLACE_QC168009_1911;PLACE_QC076045,"Ste. Rose, Village;Ste. Rose;Ste. Rose, par.",QC,CSD,CONFLICTING-NAMES
+Q6671173,Londonderry,3,PLACE_NS029001;PLACE_NS029002;PLACE_NS007001,Acadia Mines W-O;Acadia Mines E;Acadia Mines,NS,CSD,CONFLICTING-NAMES
+Q141511,Saint-Félicien,3,PLACE_QC076028;PLACE_QC063016;PLACE_QC063032,"St. Félicien;St. Félicien, par.;St. Félicien, VL",QC,CSD,CONFLICTING-NAMES
+Q3462181,Saint-François-du-Lac,3,PLACE_QC206007;PLACE_QC100018;PLACE_QC100007_1921,"St. François;St. François du Lac, VL;St. François du Lac",QC,CSD,CONFLICTING-NAMES
+Q112912999,Sainte-Geneviève,3,PLACE_QC076038;PLACE_QC076037;PLACE_QC076008_1921,"Ste. Geneviève de Pierrefonds, VL;Ste. Geneviève, VL;Ste. Geneviève, par.",QC,CSD,CONFLICTING-NAMES
+Q1660587,Lansdowne,3,PLACE_MB007013_1891;PLACE_MB008006_1901;PLACE_MB164004_1921,Landsdowne;Lansdowne;Lansdowne,MB,CSD,CONFLICTING-NAMES
+Q2991407,comté de Saint-Maurice,3,CD_QC_St._Maurice;CD_QC_St._Maurice_1921;CD_QC_Trois-Rivières_&_St._Maurice,St. Maurice;St. Maurice;Trois-Rivières & St. Maurice,QC,CD,CONFLICTING-NAMES
+Q115261670,Hallowell,2,PLACE_ON119009;PLACE_ON140003_1911,Morris;Hallowell,ON,CSD,CONFLICTING-NAMES
+Q115261968,Lanark,2,PLACE_ON123008;PLACE_ON082008,Lanark;Algona,ON,CSD,CONFLICTING-NAMES
+Q268103,Fort Erie,2,PLACE_ON142004;PLACE_ON151016,"Port Erie, Village;Fort Erie, Village",ON,CSD,CONFLICTING-NAMES
+Q252504,North Dumfries,2,PLACE_ON150001;PLACE_ON101002,Dumfries N;Anglesea,ON,CSD,CONFLICTING-NAMES
+Q3463379,Saint-Simon,2,PLACE_QC039011;PLACE_QC138011,St. Simon;St. Nazaire (part),QC,CSD,CONFLICTING-NAMES
+Q112911931,Saint-Benoît,2,PLACE_QC052003;PLACE_QC052013_1911,"St. Benoit;St. Benoit, VL",QC,CSD,CONFLICTING-NAMES
+Q112913108,Sainte-Scholastique,2,PLACE_QC052015;PLACE_QC052011_1881,"Ste. Scholastique, Village;Ste. Scholastique",QC,CSD,CONFLICTING-NAMES
+Q932023,Saint-Antoine-de-Tilly,2,PLACE_QC061005;PLACE_QC049008,Ste. Anne de la Pocatière;St. Antoine,QC,CSD,CONFLICTING-NAMES
+Q112912505,Saint-Louis,2,PLACE_QC061017;PLACE_QC061011,"Kamouraska, Village;St. Louis de Kamouraska",QC,CSD,CONFLICTING-NAMES
+Q112912743,Saint-Rémi,2,PLACE_QC077005;PLACE_QC077007,"St. Rémi;St. Rémi, Village",QC,CSD,CONFLICTING-NAMES
+Q3464192,Sainte-Brigitte-de-Laval,2,PLACE_QC178004;PLACE_QC075003,Laval;Laval (Ste. Brigitte),QC,CSD,CONFLICTING-NAMES
+Q3461722,Saint-Alexis,2,PLACE_QC176002;PLACE_QC073002,"Montreal, St. James Ward—Quartier St. Jacques;St. Alexis",QC,CSD,CONFLICTING-NAMES
+Q112912456,Saint-Joseph-de-Soulanges,2,PLACE_QC089003;PLACE_QC089011,"St. Joseph de Soulanges;St. Joseph de Soulanges N., VL",QC,CSD,CONFLICTING-NAMES
+Q112912879,Saint-Zotique,2,PLACE_QC089006;PLACE_QC089013,"St. Zotique;St. Zotique, VL",QC,CSD,CONFLICTING-NAMES
+Q141492,Sainte-Anne-des-Plaines,2,PLACE_QC099006;PLACE_QC096008,Ste. Anne;Ste. Anne des Plaines,QC,CSD,CONFLICTING-NAMES
+Q112912306,Saint-Isidore,2,PLACE_QC057005_1851;PLACE_QC064003_1851,La Baie;St. Isidore,QC,CSD,CONFLICTING-NAMES
+Q139231,Baie-Saint-Paul,2,PLACE_QC048001_1851;PLACE_QC048012_1901,"Baie St. Paul;Baie St. Paul, T-V",QC,CSD,CONFLICTING-NAMES
+Q141500,Sainte-Anne-de-Bellevue,2,PLACE_QC108006;PLACE_QC076031_1881,"Ste. Anne;Ste. Anne de Bellevue, Village",QC,CSD,CONFLICTING-NAMES
+Q2899316,Berthier-sur-Mer,2,PLACE_QC074003;PLACE_QC044005,Berthier;Hamilton (St. Bonaventure),QC,CSD,CONFLICTING-NAMES
+Q112912821,Saint-Thomas,2,PLACE_QC074013_1851;PLACE_QC177011,St. Thomas;Clarendon S,QC,CSD,CONFLICTING-NAMES
+Q2219667,Parry Sound,2,PLACE_ON086001;PLACE_ON135049,"The Sound;Parry Sound, T-V",ON,CSD,CONFLICTING-NAMES
+Q4859868,Magnetawan,2,PLACE_ON086003;PLACE_ON135053,"Maganetawan;Magnetawan, VL",ON,CSD,CONFLICTING-NAMES
+Q3259895,Lot 29,2,PLACE_PE003006;PLACE_PE136007,Township 29;Township No. 32,PE,CSD,CONFLICTING-NAMES
+Q3259881,Lot 1,2,PLACE_PE135002;PLACE_PE002001,Township No. 33;Township 1,PE,CSD,CONFLICTING-NAMES
+Q1693101,Shelburne,2,PLACE_NS013003;PLACE_NS019018,"Shelburn, Town—Ville;Shelburne, T-V",NS,CSD,CONFLICTING-NAMES
+Q7230747,Port La Tour,2,PLACE_NS013011;PLACE_NS019010_1891,Margaree N. E.;Port Latour,NS,CSD,CONFLICTING-NAMES
+Q641876,North Sydney,2,PLACE_NS006004;PLACE_NS006009_1891,"Sydney N;North Sydney, T-V",NS,CSD,CONFLICTING-NAMES
+Q3365890,Saint David Parish,2,PLACE_NB175008;PLACE_NB024010,Saint David;St. David,NB,CSD,CONFLICTING-NAMES
+Q7400719,Saint-Léonard Parish,2,PLACE_NB181005;PLACE_NB028011,Saint Leonard’s;St. Léonard,NB,CSD,CONFLICTING-NAMES
+Q3365757,Eldon Parish,2,PLACE_NB031006;PLACE_NB031006_1921,Eldon & Restigouche River;Eldon,NB,CSD,CONFLICTING-NAMES
+Q3365795,Caraquet Parish,2,PLACE_NB014003;PLACE_NB025003,Caraquette;Caraquet,NB,CSD,CONFLICTING-NAMES
+Q3462266,Saint-Germain-de-Grantham,2,PLACE_QC136003;PLACE_QC054010_1921,St. Germain;St. Germain de Grantham,QC,CSD,CONFLICTING-NAMES
+Q112911984,Saint-Césaire,2,PLACE_QC085015;PLACE_QC085004,"St. Césaire, Village;St. Césaire",QC,CSD,CONFLICTING-NAMES
+Q3461713,Saint-Alexandre,2,PLACE_QC059001_1861;PLACE_QC196001,"St. Alexandre;Cabano, Packington, & unorg. ter.—Ter. non-org.",QC,CSD,CONFLICTING-NAMES
+Q138103957,Saint-Guillaume,2,PLACE_QC153021;PLACE_QC100019,"St. Guillaume;St. Guillaume, VL",QC,CSD,CONFLICTING-NAMES
+Q3365886,Saint Andrews Parish,2,PLACE_NB015009;PLACE_NB024008,"St. Andrews, Town & Parish — Ville et Paroisse;St. Andrews",NB,CSD,CONFLICTING-NAMES
+Q112912459,Saint-Jovite,2,PLACE_QC197011;PLACE_QC096023,"St. Jovite;St. Jovite, VL",QC,CSD,CONFLICTING-NAMES
+Q112912109,Saint-Éphrem,2,PLACE_QC048014_1871;PLACE_QC040025,"St. Ephrem;St. Ephrem, VL",QC,CSD,CONFLICTING-NAMES
+Q142039,Salaberry-de-Valleyfield,2,PLACE_QC140002;PLACE_QC041007_1901,"Salaberry de Valleyfield, Town—Ville;Valleyfield (Salaberry de), C",QC,CSD,CONFLICTING-NAMES
+Q138972308,La Malbaie,2,PLACE_QC152004;PLACE_QC048014_1901,"Malbaie;Malbaie, VL",QC,CSD,CONFLICTING-NAMES
+Q138779669,Saint-Gédéon,2,PLACE_QC063018;PLACE_QC063033,"St. Gédéon;St. Gédéon, VL",QC,CSD,CONFLICTING-NAMES
+Q112912257,Saint-Gilles,2,PLACE_QC061003;PLACE_QC068011,St. Joseph;St. Gilles,QC,CSD,CONFLICTING-NAMES
+Q3462628,Saint-Jude,2,PLACE_QC190011;PLACE_QC091009_1911,St. Jude;St. Judes,QC,CSD,CONFLICTING-NAMES
+Q731223,Sainte-Cécile-de-Milton,2,PLACE_QC127003;PLACE_QC087006,Ste. Cécile;Ste. Cécile de Milton,QC,CSD,CONFLICTING-NAMES
+Q138277576,Coteau-du-Lac,2,PLACE_QC089001_1881;PLACE_QC089007,"St. Ignace;Côteau du Lac, VL",QC,CSD,CONFLICTING-NAMES
+Q112911955,Saint-Boniface,2,PLACE_QC093005;PLACE_QC093017_1921,"St. Boniface (Shawinigan);St. Boniface de Shawinigan, VL",QC,CSD,CONFLICTING-NAMES
+Q3213854,La Visitation-de-l'Île-Dupas,2,PLACE_QC142012;PLACE_QC043002,Visitation de l’île Dupas;Visitation (Ile Dupas),QC,CSD,CONFLICTING-NAMES
+Q142451,Saint-Pascal,2,PLACE_QC165010;PLACE_QC061014,St. Paschal;St. Pascal,QC,CSD,CONFLICTING-NAMES
+Q3464147,Sainte-Angèle-de-Mérici,2,PLACE_QC188010;PLACE_QC084023,"Ste. Angèle de Merrici;Ste. Angèle de Mérici, VL",QC,CSD,CONFLICTING-NAMES
+Q2128700,Fort Macleod,2,PLACE_NT198003;PLACE_AB190025,"McLeod;Macleod, T-V",AB;NT,CSD,CONFLICTING-NAMES
+Q985671,Vernon,2,PLACE_BC005012;PLACE_BC218011,"Priest’s Valley;Vernon, C",BC,CSD,CONFLICTING-NAMES
+Q5034975,Cape North,2,PLACE_NS020007;PLACE_NS039008,Cape North;Fraser's Mountain & Churchville,NS,CSD,CONFLICTING-NAMES
+Q141613,Saint-Joseph-de-Beauce,2,PLACE_QC040027;PLACE_QC040013,"St. Joseph, Village;St. Joseph",QC,CSD,CONFLICTING-NAMES
+Q142020,Lac-Mégantic,2,PLACE_QC155024;PLACE_QC055022,"Lac Mégantic vl;Mégantic, T-V",QC,CSD,CONFLICTING-NAMES
+Q3462008,Saint-Cyprien-de-Napierville,2,PLACE_QC161008;PLACE_QC077001,St. Cyprien;St. Cyprien de Léry,QC,CSD,CONFLICTING-NAMES
+Q431487,Saint-Octave-de-Métis,2,PLACE_QC040021_1881;PLACE_QC070017,St. Octave;St. Octave de Métis N.,QC,CSD,CONFLICTING-NAMES
+Q112912724,Saint-Polycarpe,2,PLACE_QC089012;PLACE_QC089004_1891,"St. Polycarpe, Village;St. Polycarpe",QC,CSD,CONFLICTING-NAMES
+Q112912399,Saint-Jérôme,2,PLACE_QC096019;PLACE_QC096010,"St. Jérôme, Town—Ville;St. Jérôme",QC,CSD,CONFLICTING-NAMES
+Q3462193,Saint-Fulgence,2,PLACE_QC149021;PLACE_QC050014_1911,"St. Fulgence;St. Fulgence, par.",QC,CSD,CONFLICTING-NAMES
+Q3541256,Très-Saint-Sacrement,2,PLACE_QC148011_1891;PLACE_QC049009_1911,Très-St. Sacrement;Très Saint Sacrement,QC,CSD,CONFLICTING-NAMES
+Q112912403,Saint-Joachim,2,PLACE_QC157016;PLACE_QC076009_1921,"St. Joachim de la Pointe Claire, Village;St. Joachim de la Pointe Claire",QC,CSD,CONFLICTING-NAMES
+Q115261521,Fullarton,2,PLACE_ON092007;PLACE_ON137007_1891,Blezard & Hanmer;Fullarton,ON,CSD,CONFLICTING-NAMES
+Q999654,North Battleford,2,PLACE_NT205004;PLACE_SK186026,"Battleford, North—Nord;North Battleford, C",NT;SK,CSD,CONFLICTING-NAMES
+Q2003414,Gainsborough,2,PLACE_NT203041;PLACE_SK171033,"Gainsborough;Gainsboro, VL",NT;SK,CSD,CONFLICTING-NAMES
+Q727984,Esterhazy,2,PLACE_NT203058;PLACE_SK175037,"Kaposvar;Esterhazy, VL",NT;SK,CSD,CONFLICTING-NAMES
+Q2202128,Pelly,2,PLACE_NT203076;PLACE_SK179028,"Pelly;Pelley, VL",NT;SK,CSD,CONFLICTING-NAMES
+Q1004192,Saint Boniface,2,PLACE_MB010010;PLACE_MB160012,"St. Boniface;St. Boniface, C",MB,CSD,CONFLICTING-NAMES
+Q112912200,Saint-Gabriel-de-Brandon,2,PLACE_QC043016;PLACE_QC043009_1911,"St. Gabriel de Brandon, VL;St. Gabriel de Brandon",QC,CSD,CONFLICTING-NAMES
+Q112912788,Saint-Siméon,2,PLACE_QC048010_1901;PLACE_QC048016_1911,"St. Siméon;St. Siméon, VL",QC,CSD,CONFLICTING-NAMES
+Q3463195,Saint-Pierre-les-Becquets,2,PLACE_QC038009;PLACE_QC078017,St. Christophe;St. Pierre les Becquets,QC,CSD,CONFLICTING-NAMES
+Q3463114,Saint-Paul-de-l'Île-aux-Noix,2,PLACE_QC191008;PLACE_QC092007_1911,St. Paul;St. Paul de l'Ile aux Noix,QC,CSD,CONFLICTING-NAMES
+Q3462013,Saint-Cyprien,2,PLACE_QC196013_1901;PLACE_QC095010_1911,St. Cyprien;St. Cyprien (Hocquart),QC,CSD,CONFLICTING-NAMES
+Q106815239,Saint-Jérôme,2,PLACE_QC070025;PLACE_QC070011,"St. Jérôme de Matane, VL;St. Jérôme de Matane",QC,CSD,CONFLICTING-NAMES
+Q754638,Athabasca,2,PLACE_AB002009;PLACE_AB202029,"Athabaska Landing vl (T66 R24 MW4);Athabaska, T-V",AB,CSD,CONFLICTING-NAMES
+Q112912693,Saint-Pie,2,PLACE_QC039017;PLACE_QC039009_1911,"St. Pie, VL;St. Pie",QC,CSD,CONFLICTING-NAMES
+Q143227,Saint-Georges,2,PLACE_QC139014;PLACE_QC040001_1911,St. George;Aubert Gallion (St. Georges),QC,CSD,CONFLICTING-NAMES
+Q112912000,Saint-Charles-Borromée,2,PLACE_QC050012_1911;PLACE_QC050011_1911,St. Charles Borromée (Kénogami pt.);St. Charles Borromée (Bourget),QC,CSD,CONFLICTING-NAMES
+Q985593,Deschambault-Grondines,2,PLACE_QC080003_1911;PLACE_QC080004_1921,Deschambault (St. Joseph);Grondines,QC,CSD,CONFLICTING-NAMES
+Q112911830,Saint-Alban,2,PLACE_QC080009;PLACE_QC080030,"St. Alban;St. Alban, VL",QC,CSD,CONFLICTING-NAMES
+Q106644521,Saint-Benoît-Joseph-Labre,2,PLACE_QC070023;PLACE_QC070006,"St. Benoit Joseph Labre (Amqui), VL;St. Benoit Joseph Labre",QC,CSD,CONFLICTING-NAMES
+Q112912052,Saint-Denis,2,PLACE_QC091006;PLACE_QC091014,"St. Denis;St. Denis, VL",QC,CSD,CONFLICTING-NAMES
+Q1743985,Peace River,2,PLACE_AB203029;PLACE_AB204016_1921,"Peace River, T-V;857. Peace",AB,CSD,CONFLICTING-NAMES
+Q141652,Sainte-Marie,2,PLACE_QC040015;PLACE_QC040028,"Ste. Marie;Ste. Marie, VL",QC,CSD,CONFLICTING-NAMES
+Q112912944,Sainte-Cécile,2,PLACE_QC041001_1921;PLACE_QC041012,"Ste. Cécile;Ste. Cécile, VL",QC,CSD,CONFLICTING-NAMES
+Q112912837,Saint-Timothée,2,PLACE_QC041013_1921;PLACE_QC041006_1921,"St. Timothée, VL;St. Timothée",QC,CSD,CONFLICTING-NAMES
+Q3461746,Saint-Ambroise,2,PLACE_QC050024;PLACE_QC050009_1921,"St. Ambroise, VL;St. Ambroise, par.",QC,CSD,CONFLICTING-NAMES
+Q112912478,Saint-Laurent,2,PLACE_QC076010;PLACE_QC076032,"St. Laurent, par.;St. Laurent, T-V",QC,CSD,CONFLICTING-NAMES
+Q3461677,Saint-Agapit,2,PLACE_QC068024;PLACE_QC068003_1921,"St. Agapit, VL;St. Agapit de Beaurivage",QC,CSD,CONFLICTING-NAMES
+Q112912885,Sainte-Agathe,2,PLACE_QC068004_1921;PLACE_QC068025,"Ste. Agathe;Ste. Agathe, VL",QC,CSD,CONFLICTING-NAMES
+Q112912153,Saint-Flavien,2,PLACE_QC068026;PLACE_QC068010,"St. Flavien, VL;St. Flavien de Ste. Croix",QC,CSD,CONFLICTING-NAMES
+Q112912808,Saint-Sylvestre,2,PLACE_QC068027;PLACE_QC068018_1921,"St. Sylvestre, VL;St. Sylvestre de Beaurivage",QC,CSD,CONFLICTING-NAMES
+Q112911982,Saint-Casimir,2,PLACE_QC080031;PLACE_QC080012_1921,"St. Casimir, VL;St. Casimir",QC,CSD,CONFLICTING-NAMES
+Q3463457,Saint-Ubalde,2,PLACE_QC080035;PLACE_QC080021_1921,"St. Ubalde, VL;St. Ubalde",QC,CSD,CONFLICTING-NAMES
+Q112912275,Saint-Hilaire,2,PLACE_QC085016;PLACE_QC085005_1921,"St. Hilaire, VL;St. Hilaire",QC,CSD,CONFLICTING-NAMES
+Q112912449,Saint-Joseph-de-la-Rivière-Bleue,2,PLACE_QC095032;PLACE_QC095018,"St. Joseph de la Rivière Bleue, VL;St. Joseph de la Rivière Bleue",QC,CSD,CONFLICTING-NAMES
+Q3462419,Saint-Hippolyte,2,PLACE_QC202006;PLACE_QC096001_1921,St. Hypolite;Abercrombie E. (St. Hippolyte),QC,CSD,CONFLICTING-NAMES
+Q112912915,Sainte-Anne-de-Beaupré,2,PLACE_QC075014;PLACE_QC075004_1921,"Ste. Anne de Beaupré, VL;Ste. Anne de Beaupré",QC,CSD,CONFLICTING-NAMES
+Q5463805,Foam Lake No. 276,2,PLACE_SK180005_1921;PLACE_SK180009_1921,276. Beaver;306. Foam Lake,SK,CSD,CONFLICTING-NAMES
+Q2630280,Halifax County,2,CD_NS_Halifax_City;CD_NS_Halifax_County,Halifax City;Halifax County,NS,CD,CONFLICTING-NAMES
+Q36312,Calgary,7,PLACE_NT202021;PLACE_NT202019;PLACE_NT202018;PLACE_NT202022;PLACE_NT202020;PLACE_AB001006;PLACE_AB194026,"Calgary, South—Sud;Calgary, East—Est;Calgary, Centre;Calgary, West—Ouest;Calgary, North—Nord;Calgary c;Calgary, C",AB;NT,CSD,variants-match-wikidata
+Q136503203,Murray,5,PLACE_ON123005_1851;PLACE_ON099007_1891;PLACE_ON095007_1901;PLACE_ON101003_1911;PLACE_ON132007_1921,Murray;Murray;Murray;Murray;Murray,ON,CSD,name-variants-same-place
+Q142271,Pointe-Claire,5,PLACE_QC024003;PLACE_QC092003;PLACE_QC092004_1871;PLACE_QC162017;PLACE_QC076029_1921,"La Pointe Claire;Pointe Claire, Village;Pointe Claire;Pointe Claire t-v;Pointe Claire, T-V",QC,CSD,variants-match-wikidata
+Q2135,Winnipeg,5,PLACE_MB183003;PLACE_MB022010;PLACE_MB160013;PLACE_MB024001;CD_MB_Winnipeg_City,"Winnipeg;Winnipeg c pt;Winnipeg, C;Winnipeg c pt;Winnipeg City",MB,CD;CSD,variants-match-wikidata
+Q671431,Prince Albert,5,PLACE_NT201003;PLACE_NT205045;PLACE_NT205047;PLACE_NT205046;PLACE_SK185026,"Prince Albert;Prince Albert, East—Est;Prince Albert, West—Ouest;Prince Albert, North—Nord;Prince Albert, C",NT;SK,CSD,variants-match-wikidata
+Q368241,Medicine Hat,5,PLACE_NT200002;PLACE_NT204042;PLACE_NT204041;PLACE_NT204040;PLACE_AB189023,"Medicine Hat;Medicine Hat, South—Sud;Medicine Hat, Northwest— Nord-ouest;Medicine Hat, North—Nord;Medicine Hat, C",AB;NT,CSD,variants-match-wikidata
+Q2123,Regina,5,PLACE_NT204056;PLACE_NT204055;PLACE_NT204058;PLACE_NT204057;PLACE_SK176022,"Regina, East—Est;Regina, Centre;Regina, West—Ouest;Regina, North—Nord;Regina, C",NT;SK,CSD,variants-match-wikidata
+Q133116,Hamilton,5,PLACE_ON077001_1911;PLACE_ON078001;PLACE_ON153009;CD_ON_Hamilton;CD_ON_Hamilton_City,"Hamilton c part;Hamilton c part;Hamilton, C;Hamilton;Hamilton City",ON,CD;CSD,variants-match-wikidata
+Q202973,Kingston,5,PLACE_ON111017;CD_ON_Kingston;CD_ON_Kingston_City;CD_ON_Kingston_City_1881;CD_ON_Kingston_City_1881_1901,"Kingston, C;Kingston;Kingston City;Kingston City;Kingston City",ON,CD;CSD,variants-match-wikidata
+Q3567557,Westville,4,PLACE_NS039027;PLACE_NS038011_1901;PLACE_NS038037;PLACE_NS016040,"Westville;Drummond Mines (Westville, part);Westville (part);Westville, T-V",NS,CSD,variants-match-wikidata
+Q112912881,Sainte-Adèle,4,PLACE_QC197002;PLACE_QC055002_1861;PLACE_QC202002_1911;PLACE_QC096006_1921,Ste. Adèle;Ste. Adèle;Ste. Adèle;Ste. Adèle,QC,CSD,name-variants-same-place
+Q463165,Sault Ste. Marie,4,PLACE_ON046020;PLACE_ON046019;PLACE_ON044026;PLACE_ON102108,"Sault Ste. Marie, W-O;Sault Ste. Marie, E;Sault Ste. Marie;Sault Ste. Marie, C",ON,CSD,variants-match-wikidata
+Q3571405,Yamachiche,4,PLACE_QC093018_1891;PLACE_QC093011;PLACE_QC187010_1891;PLACE_QC198013_1901,"Yamachiche, Village;Yamachiche;Yamachiche;Yamachiche",QC,CSD,variants-match-wikidata
+Q1019496,Moose Jaw,4,PLACE_NT204045;PLACE_NT204044;PLACE_NT204046;PLACE_SK177024,"Moosejaw, South—Sud;Moosejaw, Northeast—Nord-est;Moosejaw, West—Ouest;Moosejaw, C",NT;SK,CSD,variants-match-wikidata
+Q7622058,Strathcona,4,PLACE_NT202119;PLACE_NT202120;PLACE_AB199007;PLACE_AB006004,"Strathcona, East—Est;Strathcona, West—Ouest;518. Strathcona;Strathcona c",AB;NT,CSD,variants-match-wikidata
+Q2096,Edmonton,4,PLACE_NT202039;PLACE_NT202040;PLACE_AB002006;PLACE_AB199016,"Edmonton, East—Est;Edmonton, West—Ouest;Edmonton c;Edmonton, C",AB;NT,CSD,variants-match-wikidata
+Q3463473,Saint-Valère,4,PLACE_QC153035_1901;PLACE_QC052030_1881;PLACE_QC158026_1911;PLACE_QC038016_1921,St. Valère de Bulstrode;St. Valère de Bulstrode;St. Valère de Bulstrode;St. Valère de Bulstrode,QC,CSD,name-variants-same-place
+Q615044,St. François Xavier,4,PLACE_MB011015;PLACE_MB018008;PLACE_MB006014_1891;PLACE_MB163006_1921,St. François-Xavier;St. Francois Xavier pr;St. François-Xavier;St. Francois Xavier,MB,CSD,variants-match-wikidata
+Q448120,Thorold,3,PLACE_ON142009;PLACE_ON151006;PLACE_ON151013,"Thorold, Village;Thorold;Thorold, Town—Ville",ON,CSD,variants-match-wikidata
+Q3305306,Paris,3,PLACE_ON065007;PLACE_ON160004;PLACE_ON103008,"Paris, Village;Paris, Town—Ville;Paris, Town—Ville",ON,CSD,variants-match-wikidata
+Q139398,Longueuil,3,PLACE_QC011005;PLACE_QC046007;PLACE_QC150003_1911,"Longueuil, Parish;Longueuil, Town—Ville;Longueuil",QC,CSD,variants-match-wikidata
+Q141760,Joliette,3,PLACE_QC025002;PLACE_QC163014;PLACE_QC060015_1921,"Joliette;Joliette, Town—Ville;Joliette, C",QC,CSD,variants-match-wikidata
+Q63243314,Jonquière,3,PLACE_QC150007;PLACE_QC050019;PLACE_QC050004_1921,"Jonquière;Jonquière, T-V;Jonquière (St. Dominique)",QC,CSD,variants-match-wikidata
+Q340,Montreal,3,PLACE_QC020002;PLACE_QC107001;PLACE_QC076013_1921,"Montréal, Parish;Montréal, Paroisse;Montréal, C",QC,CSD,variants-match-wikidata
+Q2395416,Tatamagouche,3,PLACE_NS019009;PLACE_NS007019;PLACE_NS007018,Tatamagouche;Tatamagouche W-O;Tatamagouche E.,NS,CSD,variants-match-wikidata
+Q141954,Roberval,3,PLACE_QC150009;PLACE_QC063027;PLACE_QC063009_1911,"Roberval;Roberval, Village;Roberval, par. (Charlevoix, Roberval, Ouiatchouan tps.-cts.)",QC,CSD,variants-match-wikidata
+Q1336,Rimouski,3,PLACE_QC084019;PLACE_QC188007;PLACE_QC071014_1851,"Rimouski, Town—Ville;Rimouski;Rimouski",QC,CSD,variants-match-wikidata
+Q44012,Trois-Rivières,3,PLACE_QC131005;PLACE_QC083005;PLACE_QC093015,"Trois Rivières, Paroisse;Trois-Rivières;Trois Rivières, C",QC,CSD,variants-match-wikidata
+Q312121,Emerson,3,PLACE_MB184003;PLACE_MB021016;PLACE_MB156010,"Emerson;Emerson t-v;Emerson, T-V",MB,CSD,variants-match-wikidata
+Q1658423,Cartier,3,PLACE_MB184006;PLACE_MB008001_1891;PLACE_MB160001_1921,Cartier;Cartier;Cartier,MB,CSD,name-variants-same-place
+Q1661430,St. Clements,3,PLACE_MB185002;PLACE_MB022004;PLACE_MB159005_1921,St. Clément;St. Clements;St. Clements,MB,CSD,variants-match-wikidata
+Q994375,Brussels,3,PLACE_ON174008;PLACE_ON175007;PLACE_ON119023,"Brussels;Brussels, Village;Brussels, Village",ON,CSD,variants-match-wikidata
+Q998994,Thessalon,3,PLACE_ON046024;PLACE_ON102111;PLACE_ON044030,"Thessalon (Western Division);Thessalon, T-V;Thessalon",ON,CSD,variants-match-wikidata
+Q776930,Peterborough,3,PLACE_ON126001_1881;PLACE_ON138017;PLACE_ON111004_1891,"Peterborough, Town—Ville;Peterborough, C;Peterborough, Town—Ville",ON,CSD,variants-match-wikidata
+Q34180,Brantford,3,PLACE_ON057002;PLACE_ON103007_1891;CD_ON_Brantford,"Brantford W-O;Brantford, City—Cité;Brantford",ON,CD;CSD,variants-match-wikidata
+Q274120,Niagara Falls,3,PLACE_ON125006;PLACE_ON151009;PLACE_ON123008_1901,"Niagara Falls, Town—Ville;Niagara Falls, C;Niagara Falls, Village",ON,CSD,variants-match-wikidata
+Q1659017,Dufferin,3,PLACE_MB009012;PLACE_MB009011;PLACE_MB160003,Dufferin S;Dufferin N;Dufferin,MB,CSD,variants-match-wikidata
+Q112912733,Saint-Raphaël,3,PLACE_QC141012;PLACE_QC146012_1911;PLACE_QC042015_1921,St. Raphaël;St. Raphaël;St. Raphael,QC,CSD,name-variants-same-place
+Q3144525,Hébertville,3,PLACE_QC154007;PLACE_QC063028;PLACE_QC063003_1921,"Hébertville pr;Hébertville, VL;Hébertville, par.",QC,CSD,variants-match-wikidata
+Q1938153,Smiths Falls,3,PLACE_ON082006;PLACE_ON081010_1901;PLACE_ON123018_1921,"Smiths Falls (part), Town—Ville;Smiths Falls (part), Town—Ville;Smiths Falls, T-V",ON,CSD,variants-match-wikidata
+Q10566,Saskatoon,3,PLACE_NT205055;PLACE_NT205056;PLACE_SK181020,"Saskatoon, East—Est;Saskatoon, West—Ouest;Saskatoon, C",NT;SK,CSD,variants-match-wikidata
+Q1904554,Weyburn,3,PLACE_NT203100;PLACE_NT203101;PLACE_SK172021,"Weyburn;Weyburn, North—Nord;Weyburn, C",NT;SK,CSD,variants-match-wikidata
+Q1893562,Moosomin,3,PLACE_NT203069;PLACE_NT203068;PLACE_SK175026,"Moosomin, South—Sud;Moosomin, North—Nord;Moosomin, T-V",NT;SK,CSD,variants-match-wikidata
+Q1916627,Qu'Appelle,3,PLACE_NT203082;PLACE_NT203081;PLACE_SK176027,"Qu’Appelle, South—Sud;Qu’Appelle;Qu'Appelle, T-V",NT;SK,CSD,variants-match-wikidata
+Q270887,Lethbridge,3,PLACE_NT202068;PLACE_NT202067;PLACE_AB190018,"Lethbridge, South—Sud;Lethbridge, North—Nord;Lethbridge, C",AB;NT,CSD,variants-match-wikidata
+Q983026,Chilliwack,3,PLACE_BC011001;PLACE_BC209005;PLACE_BC209001_1921,"Chilliwack;Chilliwack, C;Chilliwack",BC,CSD,variants-match-wikidata
+Q813856,Bedford,3,PLACE_NS033007_1901;PLACE_NS011001;PLACE_NS033008_1901,Bedford;Bedford Basin;Bedford Basin,NS,CSD,variants-match-wikidata
+Q3462931,Saint-Martin,3,PLACE_QC139020_1901;PLACE_QC144019_1911;PLACE_QC040016_1921,St. Martin;St. Martin;St. Martin,QC,CSD,name-variants-same-place
+Q112912857,Saint-Victor,3,PLACE_QC139027;PLACE_QC144029_1911;PLACE_QC040020_1921,St. Victor de Tring;St. Victor de Tring;St. Victor de Tring,QC,CSD,name-variants-same-place
+Q141595,Nicolet,3,PLACE_QC179005;PLACE_QC078024;PLACE_QC078003,"Nicolet;Nicolet, T-V;Nicolet (St. Jean Baptiste)",QC,CSD,variants-match-wikidata
+Q24639,Vancouver,3,PLACE_BC012001;PLACE_BC206005;CD_BC_Vancouver_City,"Vancouver c pt;Vancouver (pt), C;Vancouver City",BC,CD;CSD,variants-match-wikidata
+Q112912921,Sainte-Anne-du-Sault,3,PLACE_QC158014_1911;PLACE_QC153014_1891;PLACE_QC038008_1921,Ste. Anne du Sault;Ste. Anne du Sault;Ste. Anne du Sault,QC,CSD,name-variants-same-place
+Q3114873,Grande-Baie,3,PLACE_QC050008_1911;PLACE_QC154043;PLACE_QC050022,"St. Alexis de la Grande Baie, par. (Boileau & Ferland tp.—ct.);Grande Baie vl;Grande Baie, VL",QC,CSD,variants-match-wikidata
+Q6461364,La Broquerie,3,PLACE_MB155003;PLACE_MB008007_1891;PLACE_MB010005_1901,La Broquerie;La Broquerie;La Broquerie,MB,CSD,name-variants-same-place
+Q92561,London,3,PLACE_ON128016;CD_ON_London;CD_ON_London_City,"London, C;London;London City",ON,CD;CSD,variants-match-wikidata
+Q112912862,Saint-Vincent-de-Paul,3,PLACE_QC076046;PLACE_QC163014_1901;PLACE_QC168010_1911,St. Vincent de Paul;St. Vincent de Paul;St. Vincent de Paul,QC,CSD,name-variants-same-place
+Q4681175,Addington County,3,CD_ON_Addington;CD_ON_Addington_1871;CD_ON_Addington_1921,Addington;Addington;Addington,ON,CD,name-variants-same-place
+Q17108580,Lennox County,3,CD_ON_Lennox;CD_ON_Lennox_1871;CD_ON_Lennox_1921,Lennox;Lennox;Lennox,ON,CD,name-variants-same-place
+Q2991353,comté de Mégantic,3,CD_QC_Megantic;CD_QC_Mégantic;CD_QC_Mégantic_1861,Megantic;Mégantic;Mégantic,QC,CD,name-variants-same-place
+Q424901,Grimsby,2,PLACE_ON145005;PLACE_ON126013,"Grimsby;Grimsby, Village",ON,CSD,variants-match-wikidata
+Q3492596,Erin,2,PLACE_ON152003;PLACE_ON152021,"Erin;Erin, Village",ON,CSD,variants-match-wikidata
+Q182625,Windsor,2,PLACE_ON181013;PLACE_ON110016,"Windsor, Town—Ville;Windsor, C",ON,CSD,variants-match-wikidata
+Q5142112,Colchester,2,PLACE_ON001004;PLACE_ON110003,Colchester;Colchester S,ON,CSD,variants-match-wikidata
+Q136480718,Sidney,2,PLACE_ON121001;PLACE_ON118018_1921,Sidney;Sidney,ON,CSD,name-variants-same-place
+Q386338,Whitby,2,PLACE_ON089011;PLACE_ON133014,"Whitby, East;Whitby, Town—Ville",ON,CSD,variants-match-wikidata
+Q4115370,Norwich,2,PLACE_ON027007;PLACE_ON134016,"Norwich;Norwich, Village",ON,CSD,variants-match-wikidata
+Q620726,Dundas,2,PLACE_ON148001;PLACE_ON153010_1891,"Dundas, Town—Ville;Dundas, Town—Ville",ON,CSD,name-variants-same-place
+Q115261809,Hungerford,2,PLACE_ON015010;PLACE_ON118009,Hungerford;Hungerford,ON,CSD,name-variants-same-place
+Q3216692,Lambton,2,PLACE_QC005007;PLACE_QC055023,"Lambton;Lambton, VL",QC,CSD,variants-match-wikidata
+Q141924,Boucherville,2,PLACE_QC046011;PLACE_QC046001,"Boucherville, Village;Boucherville",QC,CSD,variants-match-wikidata
+Q3304955,Melbourne,2,PLACE_QC044004;PLACE_QC083016,"Melbourne;Melbourne, Village",QC,CSD,variants-match-wikidata
+Q63244603,Shipton,2,PLACE_QC192017;PLACE_QC083006_1921,Shipton;Shipton,QC,CSD,name-variants-same-place
+Q63244614,Stanstead,2,PLACE_QC053006;PLACE_QC090008,Stanstead Plains;Stanstead,QC,CSD,variants-match-wikidata
+Q139190,Terrebonne,2,PLACE_QC096021;PLACE_QC099001,"Terrebonne, Town—Ville;Terrebonne, Town—Ville",QC,CSD,name-variants-same-place
+Q142014,Varennes,2,PLACE_QC098007;PLACE_QC098012,"Varennes;Varennes, Village",QC,CSD,variants-match-wikidata
+Q142250,Lachute,2,PLACE_QC080012;PLACE_QC037014,"Lachute;Lachute, Town—Ville",QC,CSD,variants-match-wikidata
+Q112913028,Sainte-Julie,2,PLACE_QC098004_1861;PLACE_QC082007_1851,Ste. Julie;Ste. Julie,QC,CSD,name-variants-same-place
+Q142521,Sutton,2,PLACE_QC045006_1851;PLACE_QC045011_1901,"Sutton;Sutton, VL",QC,CSD,variants-match-wikidata
+Q29386656,Sorel,2,PLACE_QC082011;PLACE_QC061002_1881,"Sorel, City—Cité;Sorel",QC,CSD,variants-match-wikidata
+Q115261272,Derby,2,PLACE_ON114004;PLACE_ON011004_1851,Derby;Derby,ON,CSD,name-variants-same-place
+Q7659765,Sydenham,2,PLACE_ON114016;PLACE_ON011014_1851,Sydenham;Sydenham,ON,CSD,name-variants-same-place
+Q1391099,Almonte,2,PLACE_ON112002_1871;PLACE_ON123015,"Almonte, Town—Ville;Almonte, Town—Ville",ON,CSD,name-variants-same-place
+Q115134672,Strathroy,2,PLACE_ON168006;PLACE_ON128018,"Strathroy, Village;Strathroy, Town—Ville",ON,CSD,variants-match-wikidata
+Q6920786,Mount Forest,2,PLACE_ON035005;PLACE_ON152015,"Mount Forest, Village;Mount Forest, Town—Ville",ON,CSD,variants-match-wikidata
+Q424704,Port Colborne,2,PLACE_ON142002;PLACE_ON151012,"Port Colborne, Village;Port Colborne, T-V",ON,CSD,variants-match-wikidata
+Q2979345,Clinton,2,PLACE_ON173008;PLACE_ON119017,"Clinton, Village;Clinton, Town—Ville",ON,CSD,variants-match-wikidata
+Q2542731,St. Marys,2,PLACE_ON171002;PLACE_ON137015,"St. Mary's, Town—Ville;St Marys, T-V",ON,CSD,variants-match-wikidata
+Q3259931,Lot 53,2,PLACE_PE139013;PLACE_PE001013_1921,Township No. 53;Township 53,PE,CSD,name-variants-same-place
+Q3259920,Lot 45,2,PLACE_PE132009;PLACE_PE001008,Township No. 45;Township 45,PE,CSD,name-variants-same-place
+Q7030693,Nictaux,2,PLACE_NS016012;PLACE_NS004020,Nictaux;Nictau,NS,CSD,variants-match-wikidata
+Q3312661,Middleton,2,PLACE_NS016002;PLACE_NS004031,"Middleton Corners;Middleton, T-V",NS,CSD,variants-match-wikidata
+Q864688,Yarmouth,2,PLACE_NS014003;PLACE_NS021022,"Yarmouth;Yarmouth, T-V",NS,CSD,variants-match-wikidata
+Q474178,Bridgewater,2,PLACE_NS038003;PLACE_NS015043,"Bridgewater;Bridgewater, T-V",NS,CSD,variants-match-wikidata
+Q3396115,Pomquet,2,PLACE_NS027013;PLACE_NS005011,Pomquet River;Pomquet,NS,CSD,variants-match-wikidata
+Q5594818,Grand Narrows,2,PLACE_NS043007;PLACE_NS006006_1921,Grand Narrows;Grand Narrows,NS,CSD,name-variants-same-place
+Q3365863,Northesk Parish,2,PLACE_NB184003;PLACE_NB029011,Northesk;North Esk,NB,CSD,name-variants-same-place
+Q810807,Bathurst,2,PLACE_NB025001;PLACE_NB025011,"Bathurst;Bathurst, T-V",NB,CSD,variants-match-wikidata
+Q112912026,Saint-Colomban,2,PLACE_QC052005_1861;PLACE_QC080005_1851,St. Colomban;St. Colomban,QC,CSD,name-variants-same-place
+Q30322644,Hinchinbrooke,2,PLACE_QC058007;PLACE_QC048007_1851,"Hinchinbrooke;Hinchinbrooke, Township",QC,CSD,variants-match-wikidata
+Q138721960,Saint-André-Avellin,2,PLACE_QC160033;PLACE_QC062048_1921,St. André Avelin;St. André Avelin,QC,CSD,name-variants-same-place
+Q141754,L'Assomption,2,PLACE_QC065011;PLACE_QC065002,"L'Assomption, T-V;L'Assomption",QC,CSD,variants-match-wikidata
+Q139541242,Lotbinière,2,PLACE_QC049003_1871;PLACE_QC068023,"Lotbinière;Lotbinière, VL",QC,CSD,variants-match-wikidata
+Q138207981,Dunham,2,PLACE_QC072017;PLACE_QC072001,"Dunham, Village;Dunham",QC,CSD,variants-match-wikidata
+Q3463575,Saint-Élie-de-Caxton,2,PLACE_QC203005;PLACE_QC093006_1921,St. Elie de Caxton;St. Elie de Caxton,QC,CSD,name-variants-same-place
+Q138053472,Linière,2,PLACE_QC158007;PLACE_QC040023,"Linière;Linière, VL",QC,CSD,variants-match-wikidata
+Q112912120,Saint-Étienne-de-Lauzon,2,PLACE_QC169004_1861;PLACE_QC066003_1921,St. Etienne de Lauzon;St. Etienne de Lauzon,QC,CSD,name-variants-same-place
+Q2132,Victoria,2,PLACE_BC004003_1881;PLACE_BC217001,Victoria;Victoria City,BC,CSD,variants-match-wikidata
+Q179553,Saanich,2,PLACE_BC003012;PLACE_BC212004,Saanich N & S;Saanich,BC,CSD,variants-match-wikidata
+Q1661004,Portage la Prairie,2,PLACE_MB186005;PLACE_MB160007,Portage;Portage la Prairie,MB,CSD,variants-match-wikidata
+Q4859980,Shelburne,2,PLACE_ON153011;PLACE_ON106009,"Shelburne, Village;Shelburne, Village",ON,CSD,name-variants-same-place
+Q6697760,Lucknow,2,PLACE_ON175011;PLACE_ON104025,"Lucknow, Village;Lucknow, Village",ON,CSD,name-variants-same-place
+Q7230589,Port Dover,2,PLACE_ON157005;PLACE_ON131011_1891,"Port Dover, Village;Port Dover, Village",ON,CSD,name-variants-same-place
+Q5680222,Hastings,2,PLACE_ON125008_1881;PLACE_ON132015,"Hastings, Village;Hastings, Village",ON,CSD,name-variants-same-place
+Q543997,Arnprior,2,PLACE_ON117015;PLACE_ON142036_1921,"Arnprior, Village;Arnprior, T-V",ON,CSD,variants-match-wikidata
+Q7128296,Palmerston,2,PLACE_ON153010;PLACE_ON152016,"Palmerston, Town—Ville;Palmerston, Town—Ville",ON,CSD,name-variants-same-place
+Q1885163,Bruce Mines,2,PLACE_ON182018;PLACE_ON102110,"Bruce Mines;Bruce Mines, T-V",ON,CSD,variants-match-wikidata
+Q7440408,Seaforth,2,PLACE_ON174006;PLACE_ON119019,"Seaforth, Village;Seaforth, Town—Ville",ON,CSD,variants-match-wikidata
+Q1438830,Fort William,2,PLACE_ON182031;PLACE_ON147036,"Fort William;Fort William, C",ON,CSD,variants-match-wikidata
+Q2358467,St. Stephen,2,PLACE_NB015016;PLACE_NB024019,"St. Stephen, Town—Ville;St. Stephen, T-V",NB,CSD,variants-match-wikidata
+Q497373,Dartmouth,2,PLACE_NS010014;PLACE_NS011044,"Dartmouth;Dartmouth, T-V",NS,CSD,variants-match-wikidata
+Q2933782,Caledonia,2,PLACE_NS052004;PLACE_NS017003_1921,Caledonia;Caledonia,NS,CSD,name-variants-same-place
+Q286048,New Glasgow,2,PLACE_NS016036;PLACE_NS020017_1881,"New Glasgow, Town—Ville;New Glasgow",NS,CSD,variants-match-wikidata
+Q138094585,Upton,2,PLACE_QC039018_1881;PLACE_QC058008_1881,"St. Ephrem d’Upton, Village;St. Ephrem d'Upton",QC,CSD,variants-match-wikidata
+Q138018022,Chambly,2,PLACE_QC067005;PLACE_QC046002,"Chambly, Village;Chambly",QC,CSD,variants-match-wikidata
+Q2879166,Bagotville,2,PLACE_QC076014_1881;PLACE_QC050017,"Bagotville, Village;Bagotville, T-V",QC,CSD,variants-match-wikidata
+Q1474128,Lachine,2,PLACE_QC158001_1881;PLACE_QC076012,"Lachine;Lachine, C",QC,CSD,variants-match-wikidata
+Q141995,Thetford Mines,2,PLACE_QC050011_1881;PLACE_QC071019,"Thetford;Thetford Mines, C",QC,CSD,variants-match-wikidata
+Q3462740,Saint-Liguori,2,PLACE_QC073008;PLACE_QC034009_1861,St. Liguori;St. Liguori,QC,CSD,name-variants-same-place
+Q14875569,Sainte-Foy,2,PLACE_QC081010;PLACE_QC069008_1851,Ste. Foye;Ste. Foye,QC,CSD,name-variants-same-place
+Q139415,Windsor,2,PLACE_QC083012;PLACE_QC083008,"Windsor Mills, Village;Windsor",QC,CSD,variants-match-wikidata
+Q112912949,Sainte-Cécile,2,PLACE_QC193012;PLACE_QC084006_1921,Ste. Cécile du Bic;Ste. Cécile du Bic,QC,CSD,name-variants-same-place
+Q142306,Richelieu,2,PLACE_QC123001;PLACE_QC085013,"Richelieu;Richelieu, Village",QC,CSD,variants-match-wikidata
+Q112911987,Saint-Charles,2,PLACE_QC091004;PLACE_QC070006_1851,St. Charles;St. Charles,QC,CSD,name-variants-same-place
+Q143360,Saint-Sauveur,2,PLACE_QC197015;PLACE_QC055007_1861,St. Sauveur;St. Sauveur,QC,CSD,name-variants-same-place
+Q3431913,Rigaud,2,PLACE_QC097009_1881;PLACE_QC097001,"Rigaud, Village;Rigaud",QC,CSD,variants-match-wikidata
+Q3202686,L'Avenir,2,PLACE_QC158010;PLACE_QC054006_1921,L'Avenir;L'Avenir,QC,CSD,name-variants-same-place
+Q7802072,Tilbury,2,PLACE_ON110026;PLACE_ON121017,"Tilbury (pt), T-V;Tilbury (pt), T-V",ON,CSD,name-variants-same-place
+Q115262520,Otonabee,2,PLACE_ON112009;PLACE_ON138014_1921,Otonabee;Otonabee,ON,CSD,name-variants-same-place
+Q4742320,Ameliasburgh,2,PLACE_ON113001_1891;PLACE_ON140001,Ameliasburgh;Ameliasburg,ON,CSD,variants-match-wikidata
+Q86580,Deloraine,2,PLACE_MB009008;PLACE_MB158010,"Deloraine;Deloraine, T-V",MB,CSD,variants-match-wikidata
+Q1661973,Whitewater,2,PLACE_MB009029;PLACE_MB158007,Whitewater;Whitewater,MB,CSD,name-variants-same-place
+Q1658351,Brenda,2,PLACE_MB009004;PLACE_MB158003,Brenda;Brenda,MB,CSD,name-variants-same-place
+Q826427,Yale,2,PLACE_BC005016;PLACE_BC209003,Yale;Yale (pt),BC,CSD,variants-match-wikidata
+Q932261,Sydney,2,PLACE_NS040021;PLACE_NS006028_1921,"Sydney, Town—Ville;Sydney, C",NS,CSD,variants-match-wikidata
+Q470594,Amherst,2,PLACE_NS008030;PLACE_NS030002,"Amherst, Town—Ville;Amherst",NS,CSD,variants-match-wikidata
+Q3153881,Inverness,2,PLACE_QC071004_1891;PLACE_QC071023,"Inverness;Inverness, VL",QC,CSD,variants-match-wikidata
+Q112912646,Saint-Patrice,2,PLACE_QC176011;PLACE_QC073010_1921,St. Patrice de Rawdon;St. Patrice de Rawdon,QC,CSD,name-variants-same-place
+Q3462497,Saint-Jean-Baptiste,2,PLACE_QC194006;PLACE_QC085006_1921,St. Jean-Baptiste;St. Jean Baptiste,QC,CSD,name-variants-same-place
+Q3463478,Saint-Valérien-de-Milton,2,PLACE_QC087009;PLACE_QC127004_1871,St. Valérien;St. Valérien,QC,CSD,name-variants-same-place
+Q141777,Maniwaki,2,PLACE_QC057028;PLACE_QC057016_1911,Maniwaki;Maniwaki,QC,CSD,name-variants-same-place
+Q2995979,Hull,2,PLACE_QC057029;PLACE_QC205010,"Hull, City—Cité;Hull",QC,CSD,variants-match-wikidata
+Q3128714,Havre-Aubert,2,PLACE_QC154025;PLACE_QC056018,"Havre Aubert;Hâvre Aubert, par.",QC,CSD,variants-match-wikidata
+Q3411897,Péribonka,2,PLACE_QC076029;PLACE_QC063007,Péribonka;Péribonka (St. Edouard),QC,CSD,variants-match-wikidata
+Q112912500,Saint-Louis,2,PLACE_QC181005;PLACE_QC082004_1921,St. Louis de Bonsecours;St. Louis de Bonsecours,QC,CSD,name-variants-same-place
+Q6772165,Marmora,2,PLACE_ON118032;PLACE_ON015004_1851,"Marmora, VL;Marmora",ON,CSD,variants-match-wikidata
+Q3525341,Adelaide Metcalfe,2,PLACE_ON128001_1891;PLACE_ON023005_1851,Adelaide;Adelaide,ON,CSD,name-variants-same-place
+Q115261675,Hamilton,2,PLACE_ON132005_1891;PLACE_ON124003_1881,Hamilton;Hamilton,ON,CSD,name-variants-same-place
+Q639408,Waterloo,2,PLACE_ON123003_1891;PLACE_ON150010,"Waterloo;Waterloo, T-V",ON,CSD,variants-match-wikidata
+Q619597,Battleford,2,PLACE_NT205005;PLACE_SK182021,"Battleford, South—Sud;Battleford, T-V",NT;SK,CSD,variants-match-wikidata
+Q1916887,Rosthern,2,PLACE_NT205050;PLACE_SK185029,"Rosthern;Rosthern, T-V",NT;SK,CSD,variants-match-wikidata
+Q1917497,Waldheim,2,PLACE_NT205066;PLACE_SK185051,"Waldheim;Waldheim, VL",NT;SK,CSD,variants-match-wikidata
+Q1427938,Duck Lake,2,PLACE_NT205019;PLACE_SK185027,"Duck Lake;Duck Lake, T-V",NT;SK,CSD,variants-match-wikidata
+Q1909957,Birch Hills,2,PLACE_NT205007;PLACE_SK185033,"Birch Hills;Birch Hills, VL",NT;SK,CSD,variants-match-wikidata
+Q1916980,Shellbrook,2,PLACE_NT205058;PLACE_SK186041,"Shellbrook;Shellbrook, VL",NT;SK,CSD,variants-match-wikidata
+Q1917717,Yellow Grass,2,PLACE_NT204079;PLACE_SK172025,"Yellow Grass;Yellow Grass, T-V",NT;SK,CSD,variants-match-wikidata
+Q1915440,Milestone,2,PLACE_NT204043;PLACE_SK172022,"Milestone;Milestone, T-V",NT;SK,CSD,variants-match-wikidata
+Q1916905,Rouleau,2,PLACE_NT204059;PLACE_SK176028,"Rouleau;Rouleau, T-V",NT;SK,CSD,variants-match-wikidata
+Q1909256,Balgonie,2,PLACE_NT204002;PLACE_SK176023,"Balgonie;Balgonie, T-V",NT;SK,CSD,variants-match-wikidata
+Q2003100,Edenwold,2,PLACE_NT204023;PLACE_SK176046,"Edenwold;Edenwold, VL",NT;SK,CSD,variants-match-wikidata
+Q1915278,Lumsden,2,PLACE_NT204037;PLACE_SK176026,"Lumsden;Lumsden, T-V",NT;SK,CSD,variants-match-wikidata
+Q1999813,Craven,2,PLACE_NT204015;PLACE_SK176039,"Craven;Craven, VL",NT;SK,CSD,variants-match-wikidata
+Q1427108,Dundurn,2,PLACE_NT204017;PLACE_SK181036,"Dundurn;Dundurn, VL",NT;SK,CSD,variants-match-wikidata
+Q1999502,Carievale,2,PLACE_NT203010;PLACE_SK171029,"Carievale;Carievale, VL",NT;SK,CSD,variants-match-wikidata
+Q1099427,Carnduff,2,PLACE_NT203014;PLACE_SK171024,"Carnduff;Carnduff, T-V",NT;SK,CSD,variants-match-wikidata
+Q2003479,Glen Ewen,2,PLACE_NT203043;PLACE_SK171034,"Glen Ewen;Glen Ewen, VL",NT;SK,CSD,variants-match-wikidata
+Q1916400,Oxbow,2,PLACE_NT203075;PLACE_SK171026,"Oxbow;Oxbow, T-V",NT;SK,CSD,variants-match-wikidata
+Q2204154,Roche Percée,2,PLACE_NT203087;PLACE_SK171043,"Roche Percée;Roche Percee, VL",NT;SK,CSD,variants-match-wikidata
+Q1018271,Estevan,2,PLACE_NT203031;PLACE_SK171025,"Estevan;Estevan, T-V",NT;SK,CSD,variants-match-wikidata
+Q1099089,Carlyle,2,PLACE_NT203012;PLACE_SK171023,"Carlyle;Carlyle, T-V",NT;SK,CSD,variants-match-wikidata
+Q2086364,Maryfield,2,PLACE_NT203064;PLACE_SK171040,"Maryfield;Maryfield, VL",NT;SK,CSD,variants-match-wikidata
+Q1917553,Wawota,2,PLACE_NT203099;PLACE_SK171046,"Wawota;Wawota, VL",NT;SK,CSD,variants-match-wikidata
+Q1917505,Wapella,2,PLACE_NT203098;PLACE_SK175028,"Wapella;Wapella, T-V",NT;SK,CSD,variants-match-wikidata
+Q1917595,Whitewood,2,PLACE_NT203103;PLACE_SK175029,"Whitewood;Whitewood, T-V",NT;SK,CSD,variants-match-wikidata
+Q1916811,Rocanville,2,PLACE_NT203086;PLACE_SK175048,"Rocanville;Rocanville, VL",NT;SK,CSD,variants-match-wikidata
+Q2204602,Spy Hill,2,PLACE_NT203093;PLACE_SK175049,"Spy Hill;Spy Hill, VL",NT;SK,CSD,variants-match-wikidata
+Q1911671,Indian Head,2,PLACE_NT203054;PLACE_SK176025,"Indian Head;Indian Head, T-V",NT;SK,CSD,variants-match-wikidata
+Q1805026,Langenburg,2,PLACE_NT203062;PLACE_SK175044,"Langenburg;Langenburg, VL",NT;SK,CSD,variants-match-wikidata
+Q1382237,Churchbridge,2,PLACE_NT203017;PLACE_SK175034,"Churchbridge;Churchbridge, VL",NT;SK,CSD,variants-match-wikidata
+Q1866018,Fort Qu'Appelle,2,PLACE_NT203040;PLACE_SK176048,"Fort Qu’Appelle;Fort Qu'Appelle, VL",NT;SK,CSD,variants-match-wikidata
+Q1916924,Saltcoats,2,PLACE_NT203089;PLACE_SK175027,"Saltcoats;Saltcoats, T-V",NT;SK,CSD,variants-match-wikidata
+Q1639696,Yorkton,2,PLACE_NT203109;PLACE_SK179020,"Yorkton;Yorkton, T-V",NT;SK,CSD,variants-match-wikidata
+Q990470,Kamsack,2,PLACE_NT203057;PLACE_SK179019,"Kamsack;Kamsack, T-V",NT;SK,CSD,variants-match-wikidata
+Q551124,Foam Lake,2,PLACE_NT203038;PLACE_SK180023,"Foam Lake;Foam Lake, VL",NT;SK,CSD,variants-match-wikidata
+Q1363726,Okotoks,2,PLACE_NT202085;PLACE_AB192020,"Okotoks;Okotoks, T-V",AB;NT,CSD,variants-match-wikidata
+Q1105163,Cochrane,2,PLACE_NT202028;PLACE_AB194036,"Cochrane;Cochrane, VL",AB;NT,CSD,variants-match-wikidata
+Q408537,Airdrie,2,PLACE_NT202002;PLACE_AB194032,"Airdrie;Airdrie, VL",AB;NT,CSD,variants-match-wikidata
+Q1886298,Carstairs,2,PLACE_NT202025;PLACE_AB194035,"Carstairs;Carstairs, VL",AB;NT,CSD,variants-match-wikidata
+Q991515,Canmore,2,PLACE_NT202023;PLACE_AB001012,Canmore;Canmore vl (T24 R10 MW5),AB;NT,CSD,variants-match-wikidata
+Q1743949,Didsbury,2,PLACE_NT202036;PLACE_AB194027,"Didsbury;Didsbury, T-V",AB;NT,CSD,variants-match-wikidata
+Q991692,Olds,2,PLACE_NT202086;PLACE_AB194029,"Olds;Olds, T-V",AB;NT,CSD,variants-match-wikidata
+Q3942882,Bowden,2,PLACE_NT202015;PLACE_AB197022,"Bowden;Bowden, VL",AB;NT,CSD,variants-match-wikidata
+Q58337,Banff,2,PLACE_NT202006;PLACE_AB194025,Banff;Banff (not inc),AB;NT,CSD,variants-match-wikidata
+Q1009832,Innisfail,2,PLACE_NT202051;PLACE_AB196027,"Innisfail;Innisfail, T-V",AB;NT,CSD,variants-match-wikidata
+Q23025,Red Deer,2,PLACE_NT202103;PLACE_AB196022,"Red Deer;Red Deer, C",AB;NT,CSD,variants-match-wikidata
+Q1743833,Lacombe,2,PLACE_NT202058;PLACE_AB196028,"Lacombe;Lacombe, T-V",AB;NT,CSD,variants-match-wikidata
+Q1743545,Cardston,2,PLACE_NT202024;PLACE_AB190020,"Cardston;Cardston, T-V",AB;NT,CSD,variants-match-wikidata
+Q1744046,Pincher Creek,2,PLACE_NT202091;PLACE_AB190027,"Pincher Creek;Pincher Creek, T-V",AB;NT,CSD,variants-match-wikidata
+Q4924217,Blairmore,2,PLACE_NT202012;PLACE_AB190019,"Blairmore;Blairmore, T-V",AB;NT,CSD,variants-match-wikidata
+Q1744143,Nanton,2,PLACE_NT202082;PLACE_AB192019,"Nanton;Nanton, T-V",AB;NT,CSD,variants-match-wikidata
+Q1207513,Leduc,2,PLACE_NT202065;PLACE_AB199019,"Leduc;Leduc, T-V",AB;NT,CSD,variants-match-wikidata
+Q1013456,Spruce Grove,2,PLACE_NT202114;PLACE_AB199008,Spruce Grove;519. Spruce Grove,AB;NT,CSD,variants-match-wikidata
+Q1007407,Fort Saskatchewan,2,PLACE_NT202043;PLACE_AB199018,"Fort Saskatchewan;Fort Saskatchewan, T-V",AB;NT,CSD,variants-match-wikidata
+Q939127,St. Albert,2,PLACE_NT202108;PLACE_AB199021,"St. Albert;St. Albert, T-V",AB;NT,CSD,variants-match-wikidata
+Q2493627,Bruderheim,2,PLACE_NT202016;PLACE_AB198023,"Bruderheim;Bruderheim, VL",AB;NT,CSD,variants-match-wikidata
+Q1746026,Morinville,2,PLACE_NT202079;PLACE_AB199020,"Morinville;Morinville, T-V",AB;NT,CSD,variants-match-wikidata
+Q1661880,Westbourne,2,PLACE_MB008014;PLACE_MB164007_1921,Westbourne;Westbourne,MB,CSD,name-variants-same-place
+Q1661149,Rosedale,2,PLACE_MB008013;PLACE_MB164006_1921,Rosedale;Rosedale,MB,CSD,name-variants-same-place
+Q1660715,Minitonas,2,PLACE_MB009027;PLACE_MB169001_1921,Minitonas;Minitonas,MB,CSD,name-variants-same-place
+Q1661391,Springfield,2,PLACE_MB011012;PLACE_MB159007_1921,Springfield;Springfield,MB,CSD,name-variants-same-place
+Q16461,Nanaimo,2,PLACE_BC010006;PLACE_BC212009,"Nanaimo c;Nanaimo and suburbs, C",BC,CSD,variants-match-wikidata
+Q3538507,Trenton,2,PLACE_NS050036;PLACE_NS016039,"Trenton t-v;Trenton, T-V",NS,CSD,name-variants-same-place
+Q475953,Wolfville,2,PLACE_NS036027;PLACE_NS014017,"Wolfville, Town—Ville;Wolfville, T-V",NS,CSD,variants-match-wikidata
+Q7492695,Sheffield Mills,2,PLACE_NS036023;PLACE_NS014013,Sheffield Mills;Sheffield Mills,NS,CSD,name-variants-same-place
+Q63244703,Wentworth,2,PLACE_QC142012_1901;PLACE_QC037013_1921,Wentworth;Wentworth,QC,CSD,name-variants-same-place
+Q28161378,Brome,2,PLACE_QC144004_1901;PLACE_QC045003_1921,"Brome, Village;Brome",QC,CSD,variants-match-wikidata
+Q138228646,Compton,2,PLACE_QC051006;PLACE_QC051020,"Compton;Compton, VL",QC,CSD,variants-match-wikidata
+Q141645,Ville-Marie,2,PLACE_QC185031;PLACE_QC094062,"Ville-Marie vl;Ville Marie, VL",QC,CSD,name-variants-same-place
+Q138456226,Dudswell,2,PLACE_QC192005;PLACE_QC099002_1921,Dudswell;Dudswell,QC,CSD,name-variants-same-place
+Q141658,Causapscal,2,PLACE_QC188022;PLACE_QC070001,St. Jacques le Majeur (Causapscal);Causapscal (St. Jacques le Majeur),QC,CSD,variants-match-wikidata
+Q63244599,Shefford,2,PLACE_QC197010_1901;PLACE_QC087010_1921,Shefford;Shefford,QC,CSD,name-variants-same-place
+Q63244626,Tadoussac,2,PLACE_QC086010;PLACE_QC086008,"Tadoussac, VL;Tadoussac, par.",QC,CSD,variants-match-wikidata
+Q1661133,Roland,2,PLACE_MB018015;PLACE_MB156006,Roland vl (T4 R4 MW1);Roland,MB,CSD,variants-match-wikidata
+Q25247456,Shoal Lake,2,PLACE_MB165020;PLACE_MB165012,"Shoal Lake, VL;Shoal Lake",MB,CSD,variants-match-wikidata
+Q2450865,Morris,2,PLACE_MB021017;PLACE_MB156012,"Morris t-v;Morris, T-V",MB,CSD,name-variants-same-place
+Q1661409,St. Andrews,2,PLACE_MB022003;PLACE_MB163005_1921,St. Andrews;St. Andrews,MB,CSD,name-variants-same-place
+Q115263205,Billings,2,PLACE_ON054008;PLACE_ON127005_1921,Billings;Billings,ON,CSD,name-variants-same-place
+Q115261796,Howland,2,PLACE_ON054047;PLACE_ON127014_1921,Howland;Howland,ON,CSD,name-variants-same-place
+Q34047,Brockville,2,PLACE_ON124011;CD_ON_Brockville,"Brockville, T-V;Brockville",ON,CD;CSD,variants-match-wikidata
+Q2862806,Armstrong,2,PLACE_ON099004;PLACE_ON148003_1921,Armstrong;Armstrong,ON,CSD,name-variants-same-place
+Q115262006,Lebel,2,PLACE_ON099091;PLACE_ON148107_1921,Lebel;Lebel,ON,CSD,name-variants-same-place
+Q1893229,Revelstoke,2,PLACE_BC211008;PLACE_BC211002,"Revelstoke, C;Revelstoke",BC,CSD,variants-match-wikidata
+Q473209,Kamloops,2,PLACE_BC207007;PLACE_BC207003_1921,"Kamloops, C;Kamloops",BC,CSD,variants-match-wikidata
+Q204442,Fernie,2,PLACE_BC210006;PLACE_BC210003,"Fernie, C;Fernie",BC,CSD,variants-match-wikidata
+Q1138837,Cranbrook,2,PLACE_BC210005;PLACE_BC210002,"Cranbrook, C;Cranbrook",BC,CSD,variants-match-wikidata
+Q984028,Grand Forks,2,PLACE_BC218008;PLACE_BC218001,"Grand Forks, C;Grand Forks",BC,CSD,variants-match-wikidata
+Q767282,Greenwood,2,PLACE_BC218009;PLACE_BC218002,"Greenwood, C;Greenwood",BC,CSD,variants-match-wikidata
+Q985674,Lloydminster,2,PLACE_SK187023;PLACE_AB198020,"Lloydminster (pt), T-V;Lloydminster (pt), T-V",AB;SK,CSD,name-variants-same-place
+Q1999596,Chaplin,2,PLACE_NT204010;PLACE_SK177035,"Chaplin;Chaplin, VL",NT;SK,CSD,variants-match-wikidata
+Q1915371,Maple Creek,2,PLACE_NT204038;PLACE_SK174026,"Maple Creek;Maple Creek, T-V",NT;SK,CSD,variants-match-wikidata
+Q619937,Swift Current,2,PLACE_NT204071;PLACE_SK178025,"Swift Current;Swift Current, C",NT;SK,CSD,variants-match-wikidata
+Q1911196,Gull Lake,2,PLACE_NT204030;PLACE_SK178027,"Gull Lake;Gull Lake, T-V",NT;SK,CSD,variants-match-wikidata
+Q1917681,Wolseley,2,PLACE_NT203108;PLACE_SK175030,"Wolseley;Wolseley, T-V",NT;SK,CSD,variants-match-wikidata
+Q1916992,Sintaluta,2,PLACE_NT203091;PLACE_SK176029,"Sintaluta;Sintaluta, T-V",NT;SK,CSD,variants-match-wikidata
+Q1743705,High River,2,PLACE_NT202049;PLACE_AB192018,"High River;High River, T-V",AB;NT,CSD,variants-match-wikidata
+Q1746515,Warner,2,PLACE_AB189031;PLACE_AB189012,"Warner, VL;36. Warner",AB,CSD,variants-match-wikidata
+Q573968,Bow Island,2,PLACE_AB189024;PLACE_AB189022,"Bow Island, T-V;94. Bow Island",AB,CSD,variants-match-wikidata
+Q7597413,Stamford,2,PLACE_ON151005;PLACE_ON123010_1901,Stamford;Stamford,ON,CSD,name-variants-same-place
+Q3461039,Sacré-Cœur-de-Jésus,2,PLACE_QC040024_1911;PLACE_QC040003,"Sacré Cœur de Jésus, VL;Sacré Cœur de Jésus",QC,CSD,variants-match-wikidata
+Q28535203,Whitton,2,PLACE_QC055017_1911;PLACE_QC055018,Whitton;Whitton (Ste. Cécile),QC,CSD,variants-match-wikidata
+Q142397,Warwick,2,PLACE_QC038025;PLACE_QC038019,"Warwick, VL;Warwick",QC,CSD,variants-match-wikidata
+Q139588,Côte Saint-Luc,2,PLACE_QC162025;PLACE_QC076036,"Côte St. Luc vl;Côte St. Luc, VL",QC,CSD,name-variants-same-place
+Q142058,Mont-Laurier,2,PLACE_QC165055;PLACE_QC062065,"Mont Laurier vl;Mont Laurier, VL",QC,CSD,name-variants-same-place
+Q3204356,L'Islet,2,PLACE_QC170001;PLACE_QC067003_1921,L'Islet;L'Islet,QC,CSD,name-variants-same-place
+Q3344599,Notre-Dame-de-Lourdes,2,PLACE_QC071010;PLACE_QC169011_1901,Notre Dame de Lourdes;Notre-Dame de Lourdes,QC,CSD,name-variants-same-place
+Q14875509,Bécancour,2,PLACE_QC078001;PLACE_QC078026,"Bécancour;Bécancour, VL",QC,CSD,variants-match-wikidata
+Q112912981,Sainte-Eulalie,2,PLACE_QC184009;PLACE_QC078009_1921,Ste. Eulalie;Ste. Eulalie,QC,CSD,name-variants-same-place
+Q112911857,Saint-Ambroise de la Jeune Lorette,2,PLACE_QC190005;PLACE_QC081004_1921,St. Ambroise;St. Ambroise,QC,CSD,name-variants-same-place
+Q106815257,Saint-Moïse,2,PLACE_QC193029;PLACE_QC070016_1921,St. Moïse;St. Moïse,QC,CSD,name-variants-same-place
+Q3114889,Grande-Vallée,2,PLACE_QC159010;PLACE_QC056013_1921,Grande Vallée des Monts;Grande Vallée des Monts,QC,CSD,name-variants-same-place
+Q2866421,Ascot,2,PLACE_QC198005_1911;PLACE_QC088006,"Ascot t-v;Ascot, T-V",QC,CSD,name-variants-same-place
+Q25395102,Montmorency,2,PLACE_QC190017;PLACE_QC081024,"Montmorency vl;Montmorency, VL",QC,CSD,name-variants-same-place
+Q956690,Cornwall,2,PLACE_ON145005_1901;CD_ON_Cornwall,"Cornwall, T-V;Cornwall",ON,CD;CSD,variants-match-wikidata
+Q642900,Grande Prairie,2,PLACE_AB204024;PLACE_AB204001,"Grande Prairie, T-V;739. Grande Prairie",AB,CSD,variants-match-wikidata
+Q1744192,Spirit River,2,PLACE_AB204026;PLACE_AB204013_1921,"Spirit River, VL;829. Spirit River",AB,CSD,variants-match-wikidata
+Q984206,Coronation,2,PLACE_AB195023;PLACE_AB195004,"Coronation, T-V;334. Coronation",AB,CSD,variants-match-wikidata
+Q1001626,North Vancouver,2,PLACE_BC206004;PLACE_BC206001,"North Vancouver, C;North Vancouver",BC,CSD,variants-match-wikidata
+Q7589242,St Joseph,2,PLACE_NS005014;PLACE_NS005013_1921,St. Joseph W.-O.;St. Joseph E.,NS,CSD,variants-match-wikidata
+Q54585333,Gordon,2,PLACE_ON127013;PLACE_ON054038_1911,Gordon;Gordon,ON,CSD,name-variants-same-place
+Q7859812,Tyendinaga,2,PLACE_ON118021;PLACE_ON070005_1901,Tyendinaga;Tyendinaga,ON,CSD,name-variants-same-place
+Q115262118,Macpherson,2,PLACE_ON130054;PLACE_ON099100_1911,Macpherson;Macpherson,ON,CSD,name-variants-same-place
+Q1020159,Etobicoke,2,PLACE_ON136001_1911;PLACE_ON154001_1921,Etobicoke;Etobicoke,ON,CSD,name-variants-same-place
+Q112912189,Saint-Frédéric,2,PLACE_QC040011_1921;PLACE_QC139012_1901,St. Frédéric;St. Frédéric,QC,CSD,name-variants-same-place
+Q2514459,Verchères,2,PLACE_QC098008;PLACE_QC098013,"Verchères;Verchères, VL",QC,CSD,variants-match-wikidata
+Q3463031,Saint-Narcisse,2,PLACE_QC047016;PLACE_QC146015_1901,St. Narcisse;St. Narcisse,QC,CSD,name-variants-same-place
+Q141699,Sept-Îles,2,PLACE_QC154066;PLACE_QC086084,Sept Iles vl;Sept Iles  (St. Joseph de),QC,CSD,variants-match-wikidata
+Q3464213,Sainte-Claire,2,PLACE_QC053004_1921;PLACE_QC054009_1851,Ste. Claire;Ste. Claire,QC,CSD,name-variants-same-place
+Q3462821,Saint-Léon-de-Standon,2,PLACE_QC157011;PLACE_QC053011_1921,St. Léon de Standon;St. Léon de Standon,QC,CSD,name-variants-same-place
+Q30303820,Cap-des-Rosiers,2,PLACE_QC056004_1921;PLACE_QC056005,Cap des Rosiers (Grande Grève);Cap des Rosiers (St. Alban du),QC,CSD,variants-match-wikidata
+Q112912472,Saint-Justin,2,PLACE_QC069010_1921;PLACE_QC085004_1881,St. Justin;St. Justin,QC,CSD,name-variants-same-place
+Q112911732,Notre-Dame-des-Anges,2,PLACE_QC080007;PLACE_QC080027,"Notre Dame des Anges;Notre Dame des Anges, VL",QC,CSD,variants-match-wikidata
+Q142430,Portneuf,2,PLACE_QC080029;PLACE_QC080008_1921,"Portneuf, VL;Portneuf (Notre Dame de)",QC,CSD,variants-match-wikidata
+Q142151,Trois-Pistoles,2,PLACE_QC095027;PLACE_QC095030,"Trois Pistoles;Trois Pistoles, T-V",QC,CSD,variants-match-wikidata
+Q63244699,Wakefield,2,PLACE_QC057025;PLACE_QC057036_1921,"Wakefield;Wakefield, VL",QC,CSD,variants-match-wikidata
+Q3462051,Saint-David,2,PLACE_QC100005;PLACE_QC201005_1901,St. David;St. David,QC,CSD,name-variants-same-place
+Q112912993,Sainte-Flore,2,PLACE_QC093008_1921;PLACE_QC146008_1901,Ste. Flore;Ste. Flore,QC,CSD,name-variants-same-place
+Q106644325,Saint-Anaclet,2,PLACE_QC084002;PLACE_QC045007_1861,St. Anaclet;St. Anaclet,QC,CSD,name-variants-same-place
+Q1661040,Ritchot,2,PLACE_MB010009_1901;PLACE_MB160008_1921,Ritchot;Ritchot,MB,CSD,name-variants-same-place
+Q1661244,Rosser,2,PLACE_MB011010_1901;PLACE_MB163004_1921,Rosser;Rosser,MB,CSD,name-variants-same-place
+Q142035,Beaconsfield,2,PLACE_QC162011_1911;PLACE_QC076018_1921,"Beaconsfield t-v;Beaconsfield, T-V",QC,CSD,name-variants-same-place
+Q3393516,Pointe-aux-Trembles,2,PLACE_QC168016_1911;PLACE_QC076028_1921,"Pointe-aux-Trembles t-v;Pointe aux Trembles, T-V",QC,CSD,name-variants-same-place
+Q112912675,Saint-Paulin,2,PLACE_QC173009_1911;PLACE_QC069012_1921,St. Paulin;St. Paulin,QC,CSD,name-variants-same-place
+Q1293527,Albert County,2,CD_NB_Albert;CD_NB_Albert_1921,Albert;Albert,NB,CD,name-variants-same-place
+Q1670967,Kings County,2,CD_NB_King's;CD_NB_Kings,King's;Kings,NB,CD,name-variants-same-place
+Q2542396,Queens County,2,CD_NB_Queen's;CD_NB_Queens,Queen's;Queens,NB,CD,name-variants-same-place
+Q543098,Sunbury County,2,CD_NB_Sunbury;CD_NB_Sunbury_1921,Sunbury;Sunbury,NB,CD,name-variants-same-place
+Q1520380,Victoria County,2,CD_NB_Victoria;CD_NB_Victoria_1921,Victoria;Victoria,NB,CD,name-variants-same-place
+Q2006307,Queens County,2,CD_NS_Queens;CD_NS_Queens_1921,Queens;Queens,NS,CD,name-variants-same-place
+Q2096191,Shelburne County,2,CD_NS_Shelburne;CD_NS_Shelburne_1921,Shelburne;Shelburne,NS,CD,name-variants-same-place
+Q1116334,Victoria County,2,CD_NS_Victoria;CD_NS_Victoria_1921,Victoria;Victoria,NS,CD,name-variants-same-place
+Q384944,County of Brant,2,CD_ON_Brant;CD_ON_Brant_1911,Brant;Brant,ON,CD,name-variants-same-place
+Q991601,Bruce County,2,CD_ON_Bruce;CD_ON_Bruce_1921,Bruce;Bruce,ON,CD,name-variants-same-place
+Q385346,Haldimand County,2,CD_ON_Haldimand;CD_ON_Haldimand_1911,Haldimand;Haldimand,ON,CD,name-variants-same-place
+Q1588807,Hastings County,2,CD_ON_Hastings;CD_ON_Hastings_1921,Hastings;Hastings,ON,CD,name-variants-same-place
+Q1638493,Huron County,2,CD_ON_Huron;CD_ON_Huron_1921,Huron;Huron,ON,CD,name-variants-same-place
+Q6391659,Kent County,2,CD_ON_Kent;CD_ON_Kent_1871,Kent;Kent,ON,CD,name-variants-same-place
+Q14875251,Leeds County,2,CD_ON_Leeds;CD_ON_Leeds_1911,Leeds;Leeds,ON,CD,name-variants-same-place
+Q1815566,Manitoulin District,2,CD_ON_Manitoulin;CD_ON_Manitoulin_1921,Manitoulin;Manitoulin,ON,CD,name-variants-same-place
+Q1436530,Nipissing District,2,CD_ON_Nipissing;CD_ON_Nipissing_1891,Nipissing;Nipissing,ON,CD,name-variants-same-place
+Q1798108,Parry Sound District,2,CD_ON_Parry_Sound;CD_ON_Parry_Sound_1911,Parry Sound;Parry Sound,ON,CD,name-variants-same-place
+Q1617717,Stormont County,2,CD_ON_Stormont;CD_ON_Stormont_1891,Stormont;Stormont,ON,CD,name-variants-same-place
+Q1525404,Wellington County,2,CD_ON_Wellington;CD_ON_Wellington_1921,Wellington;Wellington,ON,CD,name-variants-same-place
+Q7983017,Wentworth County,2,CD_ON_Wentworth;CD_ON_Wentworth_1911,Wentworth;Wentworth,ON,CD,name-variants-same-place
+Q70460110,County of York,2,CD_ON_York;CD_ON_York_1921,York;York,ON,CD,name-variants-same-place
+Q1742133,Kings County,2,CD_PE_King's;CD_PE_Kings,King's;Kings,PE,CD,name-variants-same-place
+Q2006290,Queens County,2,CD_PE_Queen's;CD_PE_Queens,Queen's;Queens,PE,CD,name-variants-same-place
+Q2991091,Arthabaska County,2,CD_QC_Arthabaska;CD_QC_Arthabaska_1921,Arthabaska;Arthabaska,QC,CD,name-variants-same-place
+Q2991170,"Chambly County, Quebec",2,CD_QC_Chambly;CD_QC_Chambly_1921,Chambly;Chambly,QC,CD,name-variants-same-place
+Q2991181,Chicoutimi County,2,CD_QC_Chicoutimi;CD_QC_Chicoutimi_1921,Chicoutimi;Chicoutimi,QC,CD,name-variants-same-place
+Q2991220,Drummond county,2,CD_QC_Drummond;CD_QC_Drummond_1921,Drummond;Drummond,QC,CD,name-variants-same-place
+Q2991101,comté d'Iberville,2,CD_QC_Iberville;CD_QC_Iberville_1921,Iberville;Iberville,QC,CD,name-variants-same-place
+Q2991296,comté de Laprairie,2,CD_QC_Laprairie;CD_QC_Laprairie_1921,Laprairie;Laprairie,QC,CD,name-variants-same-place
+Q2991357,comté de Napierville,2,CD_QC_Napierville;CD_QC_Napierville_1921,Napierville;Napierville,QC,CD,name-variants-same-place
+Q2991392,comté de Richmond,2,CD_QC_Richmond;CD_QC_Richmond_1921,Richmond;Richmond,QC,CD,name-variants-same-place
+Q2991404,comté de Saguenay,2,CD_QC_Saguenay;CD_QC_Saguenay_1921,Saguenay;Saguenay,QC,CD,name-variants-same-place
+Q2991427,comté de Sherbrooke,2,CD_QC_Sherbrooke;CD_QC_Sherbrooke_1861,Sherbrooke;Sherbrooke,QC,CD,name-variants-same-place
+Q2991409,comté de Saint-Jean,2,CD_QC_St._Jean;CD_QC_St._Jean_1921,St. Jean;St. Jean,QC,CD,name-variants-same-place
+Q2991456,comté de Verchères,2,CD_QC_Verchères;CD_QC_Verchères_1921,Verchères;Verchères,QC,CD,name-variants-same-place
+Q2991471,comté de Wolfe,2,CD_QC_Wolfe;CD_QC_Wolfe_1921,Wolfe;Wolfe,QC,CD,name-variants-same-place

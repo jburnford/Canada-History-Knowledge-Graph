@@ -97,10 +97,32 @@ for 1851–1901; 1911 and 1921 use GDB (PUB-only Excel for those years).
   metrics live on E93_Presence nodes (`<chain_id>_<year>`).
 - CSD-within-CD per year is `P10_falls_within` between presence ids
   (presence-level, not place-level — a CSD can move between CDs over time).
-- Border edges (`P122_borders_with`) are per-year; lengths reified as
-  `E16_Measurement` + `E54_Dimension` (LINCS-conformant pattern).
+- **Geometry chain (RDF)**: `E93 —P161→ E53 spatial-projection place —P168→
+  WKT literal`. P161's range and P168's domain are both E53 in CRM v7.x, so
+  the projection node is an E53 (the old export typed it E94 off-domain).
+  The `<presence>_centroid` / `<cd_presence>_SPACE` ids are kept.
+- Border edges (`P122_borders_with`) link the **year-specific spatial
+  projection E53s** (P122's domain/range is E53, not E93); lengths reified
+  as `E16_Measurement` + `E54_Dimension`, typed
+  `base:TYPE_SHARED_BORDER_LENGTH`, with `P39_measured` to **both**
+  participating presences and `P4` to the census-year time-span.
+- CD presences are fully wired in RDF: P166 → CD place, P164 → time-span,
+  P161 → centroid extent, P10 → census period (the `*_cd_*.csv` files;
+  before Aug 2026 the exporter skipped them, leaving orphan E93s).
+- Every CSD/CD E53 carries `P89_falls_within` → `base:PROV_<code>` →
+  `base:PLACE_CANADA`; province nodes owl:sameAs Wikidata (QIDs verified
+  via MCP 2026-08-10, listed in `export_rdf.py:PROVINCES`).
+- Census variable E55s double as `skos:Concept` in scheme
+  `base:VOCAB_CENSUS_VARIABLES` with `skos:broader` category concepts
+  (`VARCAT_AGE` … `VARCAT_REL`).
+- "NO DATA" placeholder polygons stay in the graph (borders reference them)
+  but are labelled "No-data area (…)" and typed `base:TYPE_NO_DATA_UNIT`.
+- P132_spatiotemporally_overlaps_with edges (chain continuity between year
+  pairs) are exported for both CSD and CD presences.
 - Wikidata grounding lives on E53_Place via `e53_place_uri.csv` — chains map
-  to a single QID even when sub-year variants drift.
+  to a single QID even when sub-year variants drift. 471 QIDs are shared by
+  2+ chains; `wikidata_grounding/qid_collision_audit.csv` triages them
+  (133 CONFLICTING-NAMES rows are the suspected mis-groundings).
 
 ## v10.2 release notes (Apr 2026)
 
