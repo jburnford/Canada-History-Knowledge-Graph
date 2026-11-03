@@ -110,10 +110,33 @@ def fmt_thousand(n):
     return f"{n:,}"
 
 
+def presence_dir(name: str, tcpuid: str, year: int, base: str,
+                 province: str = "on") -> str:
+    """The <slug>-<tcpuid>-<year>/ directory for a presence. This is also where
+    the 1881 residents pages live (build_residents_cidoc.py derives the same
+    path), whether or not the year page itself is displaced (see below)."""
+    return f"{base}/places/{province.lower()}/{slugify(name)}-{tcpuid.lower()}-{year}/"
+
+
+# Per-place page URLs. A chain whose id carries a year (PLACE_<tcpuid>_<year>)
+# gets the same URL from url_for_place() as its own year page from
+# presence_dir(); the place page was written last and silently replaced the
+# year page (e.g. Peterborough 1881). The place page keeps the published URL
+# and the year page moves to census-<year>/ beneath it.
+_PLACE_PAGE_URLS: set[str] = set()
+
+
+def register_place_page_urls(urls) -> None:
+    _PLACE_PAGE_URLS.update(urls)
+
+
 def url_for_presence(name: str, tcpuid: str, year: int, base: str,
                      province: str = "on") -> str:
     """Return the absolute URL path (including base) for a presence's page."""
-    return f"{base}/places/{province.lower()}/{slugify(name)}-{tcpuid.lower()}-{year}/"
+    url = presence_dir(name, tcpuid, year, base, province)
+    if url in _PLACE_PAGE_URLS:
+        return f"{url}census-{year}/"
+    return url
 
 
 def url_for_place(name: str, place_id: str, base: str,
@@ -1515,7 +1538,8 @@ def render_page(row, traj, neighbours, measurements, overlaps, persons, *,
     # to the residents page (rendered separately by
     # scripts/render_1881_residents_pages.py). Concatenated into
     # persons_section to avoid a template change.
-    residents_link = render_residents_1881_link(place_id, year, page_path)
+    residents_link = render_residents_1881_link(
+        place_id, year, presence_dir(name, tcpuid, year, base, prov_code))
     if residents_link:
         persons_section = (persons_section + "\n" + residents_link
                             if persons_section else residents_link)
@@ -2903,6 +2927,12 @@ def main():
     # This avoids ~100K small Cypher round-trips and is ~10× faster at all-Canada scale.
     prefetched = prefetch_all_data(conn)
     place_to_presences = prefetched[1]
+    # Before any URL is built: every place with a presence gets a per-place
+    # page in --all mode, so register those URLs for the collision rule in
+    # url_for_presence(). Done in every mode so links don't depend on it.
+    register_place_page_urls(
+        url_for_place(row[1], row[0], base, row[4])
+        for row in prefetched[0].values())
 
     # Pre-fetch CD chain lookups BEFORE rendering any presence pages, so the
     # CSD presence pages can build chain-aware "Part of: <CD>" links via the

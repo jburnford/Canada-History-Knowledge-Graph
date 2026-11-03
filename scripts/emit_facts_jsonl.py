@@ -37,7 +37,9 @@ sys.path.insert(0, str(REPO / "scripts"))
 from generate_rag_pages import (  # noqa: E402
     DEFAULT_SITE_URL,
     DEFAULT_BASE_PATH,
+    register_place_page_urls,
     slugify,
+    url_for_place,
     url_for_presence,
 )
 
@@ -108,6 +110,18 @@ def main():
     # Clear any stale year-files from a previous run.
     for old in facts_dir.glob("*.jsonl"):
         old.unlink()
+
+    # Same collision rule as the page renderer: year pages displaced by a
+    # per-place page at the same URL live under census-<year>/.
+    res = conn.execute(
+        "MATCH (:Presence)-[:OBSERVED_IN]->(p:Place) "
+        "RETURN DISTINCT p.place_id, p.name, p.province;"
+    )
+    place_urls = []
+    while res.has_next():
+        place_id, name, province = res.get_next()
+        place_urls.append(url_for_place(name or '', place_id, args.base_path, province or 'on'))
+    register_place_page_urls(place_urls)
 
     handles: dict = {}
     counts: dict = {}
