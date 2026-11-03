@@ -1,7 +1,7 @@
 #!/bin/bash
 # Link all consecutive census years using spatial overlap analysis
 
-set -e
+set -euo pipefail
 
 # GDB path from config.toml (override with env var GDB if needed).
 GDB="${GDB:-$(python -c 'from scripts._config import CONFIG; print(CONFIG.gdb_path)')}"

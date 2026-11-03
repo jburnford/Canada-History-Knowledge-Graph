@@ -132,8 +132,9 @@ def analyze_overlap(
         return iou, frac1, frac2
 
     except Exception as e:
-        print(f"Warning: Geometry error - {e}", file=sys.stderr)
-        return 0.0, 0.0, 0.0
+        # Fail loudly: returning zeros here silently dropped the pair from
+        # year_links_output, which then propagated into the chain registry.
+        raise RuntimeError(f"Geometry error computing overlap: {e}") from e
 
 
 def classify_relationship(
